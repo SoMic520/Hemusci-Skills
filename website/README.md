@@ -1,6 +1,6 @@
 # Hemusci Skills 网站
 
-腾讯云静态站点源码。部署目录为本目录，正式入口为 `https://humesci.com/skills/`。
+腾讯云静态站点源码。部署目录为本目录，正式入口为 `https://hemusci.com/skills/`。
 
 ## 文件
 
