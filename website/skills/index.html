@@ -226,7 +226,9 @@ gh auth login
       if(!target)return;
       event.preventDefault();
       const heading=target.querySelector('.section-head')||target;
-      const top=heading.getBoundingClientRect().top+scrollY-nav.offsetHeight-20;
+      let layoutTop=0;
+      for(let node=heading;node;node=node.offsetParent)layoutTop+=node.offsetTop;
+      const top=layoutTop-nav.offsetHeight-20;
       scrollTo({top,behavior:'smooth'});
       history.replaceState(null,'',link.getAttribute('href'));
     }));
