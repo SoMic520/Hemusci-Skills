@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Hemusci专业智能体技能库，面向科研写作、数据分析与专业报告交付。">
+  <meta name="theme-color" content="#0b5d4b">
+  <title>Hemusci Skills｜专业智能体技能库</title>
+  <style>
+    :root{
+      --ink:#15322c;--muted:#637873;--paper:#f7faf8;--card:rgba(255,255,255,.82);
+      --line:rgba(20,78,65,.12);--green:#0f6b56;--green2:#2e9a78;--lime:#b7d86b;
+      --navy:#183c51;--shadow:0 24px 70px rgba(25,67,56,.12);--radius:26px;
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}
+    body{margin:0;color:var(--ink);background:var(--paper);font:15px/1.75 system-ui,-apple-system,"Segoe UI","Microsoft YaHei","PingFang SC",sans-serif;overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-2;background:
+      radial-gradient(circle at 8% 4%,rgba(183,216,107,.27),transparent 28%),
+      radial-gradient(circle at 92% 18%,rgba(46,154,120,.18),transparent 30%),
+      linear-gradient(180deg,#f8fbf7 0%,#f3f8f6 55%,#fbfcf8 100%)}
+    body:after{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.24;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='none' stroke='%230f6b56' stroke-opacity='.12'%3E%3Cpath d='M0 36h72M36 0v72'/%3E%3Ccircle cx='36' cy='36' r='1.5' fill='%230f6b56'/%3E%3C/g%3E%3C/svg%3E")}
+    a{color:inherit}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+    nav{position:sticky;top:0;z-index:20;border-bottom:1px solid rgba(255,255,255,.55);background:rgba(247,250,248,.76);backdrop-filter:blur(18px)}
+    .nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:850;letter-spacing:-.03em;font-size:18px}
+    .mark{width:38px;height:38px;display:grid;place-items:center;border-radius:13px;background:linear-gradient(145deg,var(--green),#143f37);box-shadow:0 9px 24px rgba(15,107,86,.24)}
+    .mark svg{width:23px;height:23px}.navlinks{display:flex;gap:26px;align-items:center}.navlinks a{text-decoration:none;color:#45625b;font-size:14px;font-weight:650}.navlinks a:hover{color:var(--green)}
+    .nav-cta{padding:9px 16px!important;color:white!important;border-radius:12px;background:var(--green);box-shadow:0 8px 22px rgba(15,107,86,.2)}
+    .hero{padding:94px 0 70px;display:grid;grid-template-columns:1.15fr .85fr;gap:72px;align-items:center}
+    .eyebrow{display:inline-flex;align-items:center;gap:9px;padding:7px 12px 7px 8px;border:1px solid rgba(15,107,86,.14);border-radius:999px;background:rgba(255,255,255,.66);color:var(--green);font-weight:750;font-size:13px}
+    .pulse{width:21px;height:21px;border-radius:50%;display:grid;place-items:center;background:#dff1e9}.pulse:after{content:"";width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px rgba(15,107,86,.12)}
+    h1{margin:24px 0 20px;font-size:clamp(46px,7vw,82px);line-height:1.03;letter-spacing:-.065em;max-width:760px}
+    h1 span{display:block;color:var(--green)}
+    .lead{max-width:700px;color:#526c66;font-size:clamp(17px,2vw,20px);line-height:1.85}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}.button{display:inline-flex;align-items:center;gap:9px;padding:13px 19px;border-radius:14px;text-decoration:none;font-weight:760;border:1px solid var(--line);transition:.2s ease}
+    .button.primary{color:white;background:var(--green);box-shadow:0 13px 30px rgba(15,107,86,.22)}.button.secondary{background:rgba(255,255,255,.7)}.button:hover{transform:translateY(-2px)}
+    .hero-art{position:relative;min-height:420px;display:grid;place-items:center}
+    .orb{position:absolute;width:390px;height:390px;border-radius:50%;background:conic-gradient(from 210deg,#e7f3d0,#7db99f,#0f6b56,#173e37,#e7f3d0);filter:drop-shadow(0 28px 55px rgba(23,74,60,.17));animation:float 7s ease-in-out infinite}
+    .orb:before{content:"";position:absolute;inset:18px;border-radius:50%;background:radial-gradient(circle at 36% 27%,#f9fff7 0 8%,#dcebdc 25%,#8bb9a4 58%,#2d695a 100%)}
+    .orb:after{content:"";position:absolute;inset:39px;border-radius:50%;border:1px solid rgba(255,255,255,.45);box-shadow:inset 0 0 55px rgba(255,255,255,.2)}
+    .soil-card{position:relative;width:270px;padding:24px;border:1px solid rgba(255,255,255,.46);border-radius:24px;color:white;background:linear-gradient(165deg,rgba(9,54,46,.83),rgba(13,93,73,.76));box-shadow:0 22px 60px rgba(14,57,48,.26);backdrop-filter:blur(12px);transform:rotate(-3deg)}
+    .soil-card .tiny{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#dff2d3}.soil-card h2{margin:28px 0 8px;font-size:27px;line-height:1.2}.soil-card p{margin:0;color:#e5f0ec}.layers{display:grid;gap:7px;margin-top:28px}.layer{height:9px;border-radius:999px;background:#d9e9ca}.layer:nth-child(2){width:83%;background:#96bf8d}.layer:nth-child(3){width:68%;background:#608a6c}.layer:nth-child(4){width:50%;background:#354f42}
+    @keyframes float{50%{transform:translateY(-12px) rotate(3deg)}}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:96px}.stat{padding:23px;border:1px solid var(--line);border-radius:20px;background:var(--card);box-shadow:0 10px 35px rgba(34,77,66,.06)}.stat b{font-size:28px;line-height:1;color:var(--green)}.stat span{display:block;margin-top:9px;color:var(--muted)}
+    section{padding:76px 0}.section-head{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:32px}.kicker{color:var(--green);font-size:12px;font-weight:850;letter-spacing:.18em;text-transform:uppercase}.section-head h2{margin:7px 0 0;font-size:clamp(32px,4.2vw,52px);line-height:1.13;letter-spacing:-.045em}.section-head p{max-width:520px;color:var(--muted);margin:0}
+    .skill{display:grid;grid-template-columns:.82fr 1.18fr;gap:2px;overflow:hidden;border:1px solid var(--line);border-radius:var(--radius);background:var(--line);box-shadow:var(--shadow)}
+    .skill-main,.skill-side{background:rgba(255,255,255,.87);padding:44px}.skill-main{background:linear-gradient(150deg,#123f35,#0e765d);color:white;position:relative;overflow:hidden}.skill-main:after{content:"";position:absolute;width:280px;height:280px;right:-110px;bottom:-140px;border:52px solid rgba(255,255,255,.07);border-radius:50%}
+    .version{display:inline-block;padding:5px 10px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:rgba(255,255,255,.1);font-size:12px}.skill-main h3{font-size:32px;line-height:1.2;margin:30px 0 16px;letter-spacing:-.035em}.skill-main p{color:#d9ece4}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}.tag{padding:7px 10px;border-radius:9px;background:rgba(255,255,255,.1);font-size:12px}.skill-side h4{margin:0 0 18px;font-size:18px}.checks{display:grid;grid-template-columns:1fr 1fr;gap:13px}.check{display:flex;gap:10px;align-items:flex-start;padding:13px;border-radius:14px;background:#f3f8f5;color:#3d5d54}.check i{font-style:normal;color:var(--green);font-weight:900}
+    .install-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:28px}.agent-list{display:grid;gap:9px}.agent{display:flex;align-items:center;justify-content:space-between;width:100%;padding:15px 16px;border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.75);color:var(--ink);font:inherit;font-weight:740;cursor:pointer}.agent.active{color:white;border-color:var(--green);background:var(--green);box-shadow:0 10px 25px rgba(15,107,86,.18)}.agent small{opacity:.7;font-weight:600}
+    .terminal{min-height:322px;border-radius:22px;background:#102b27;color:#d8eee6;box-shadow:var(--shadow);overflow:hidden}.terminal-top{display:flex;align-items:center;justify-content:space-between;padding:14px 17px;border-bottom:1px solid rgba(255,255,255,.08);background:#0d2521}.dots{display:flex;gap:7px}.dots i{width:9px;height:9px;border-radius:50%;background:#df7f69}.dots i:nth-child(2){background:#e3bf61}.dots i:nth-child(3){background:#63b585}.copy{border:0;border-radius:9px;background:rgba(255,255,255,.08);color:#d8eee6;padding:7px 10px;cursor:pointer}.copy.done{background:#dff3e8;color:#0c654f}.terminal pre{margin:0;padding:27px;white-space:pre-wrap;word-break:break-word;font:14px/1.9 ui-monospace,SFMono-Regular,Consolas,monospace}.prompt{color:#a9d45a}.comment{color:#73938a}
+    .principles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.principle{min-height:230px;padding:27px;border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.74)}.num{font:800 12px/1 ui-monospace;color:var(--green);letter-spacing:.12em}.principle h3{margin:38px 0 10px;font-size:22px}.principle p{margin:0;color:var(--muted)}
+    .future{display:grid;grid-template-columns:1.2fr .8fr;gap:16px}.future>div{padding:34px;border-radius:24px;border:1px solid var(--line);background:rgba(255,255,255,.76)}.future h3{font-size:25px;margin:0 0 12px}.future p{color:var(--muted);margin:0}.tree{font:13px/1.9 ui-monospace,Consolas,monospace;color:#d9eee6!important;background:#133b33!important;border-color:#133b33!important;white-space:pre-wrap}
+    footer{padding:45px 0 60px;border-top:1px solid var(--line);color:var(--muted)}.foot{display:flex;justify-content:space-between;gap:24px}.foot a{color:var(--green);font-weight:700}
+    @media(max-width:860px){.navlinks a:not(.nav-cta){display:none}.hero{grid-template-columns:1fr;padding-top:68px}.hero-art{min-height:330px}.orb{width:315px;height:315px}.stats{grid-template-columns:1fr 1fr}.skill,.install-grid,.future{grid-template-columns:1fr}.principles{grid-template-columns:1fr}.section-head{display:block}.section-head p{margin-top:16px}.checks{grid-template-columns:1fr}}
+    @media(max-width:520px){.wrap{width:min(100% - 24px,1160px)}h1{font-size:47px}.hero{gap:20px}.hero-art{transform:scale(.88)}.stats{grid-template-columns:1fr 1fr;margin-bottom:50px}.stat{padding:18px}.stat b{font-size:23px}.skill-main,.skill-side{padding:27px}.terminal pre{padding:21px;font-size:12px}.foot{display:block}.foot p:last-child{margin-top:12px}}
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="wrap nav">
+      <a class="brand" href="/skills/" aria-label="Hemusci Skills 首页">
+        <span class="mark"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20V9m0 4c-4.6.2-7-2.1-7.2-6.8C9.4 6 11.8 8.3 12 13Zm0 3c4.6.2 7-2.1 7.2-6.8-4.6-.2-7 2.1-7.2 6.8Z" stroke="#efffe7" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span>Hemusci Skills</span>
+      </a>
+      <div class="navlinks">
+        <a href="#catalog">技能</a><a href="#install">安装</a><a href="#principles">规范</a><a href="#future">扩展</a>
+        <a class="nav-cta" href="https://github.com/SoMic520/Hemusci-Skills" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <header class="hero">
+      <div>
+        <div class="eyebrow"><span class="pulse"></span> 专业知识，可执行交付</div>
+        <h1>让智能体真正<span>按专业规范工作。</span></h1>
+        <p class="lead">Hemusci Skills 将领域知识、审查规则、自动化脚本和交付标准组织为可安装的技能，让科研写作与专业报告从“生成文字”走向“完成工作”。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#install">立即安装首个技能 <span>↓</span></a>
+          <a class="button secondary" href="#catalog">查看技能目录</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orb"></div>
+        <div class="soil-card">
+          <div class="tiny">Hemusci · Skill 001</div>
+          <h2>Soil Third<br>Survey Report</h2>
+          <p>土壤三普专业报告撰写与审查</p>
+          <div class="layers"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="stats" aria-label="技能库概览">
+      <div class="stat"><b>1</b><span>已发布专业技能</span></div>
+      <div class="stat"><b>3级</b><span>覆盖省、市、县成果</span></div>
+      <div class="stat"><b>11项</b><span>自动回归校验</span></div>
+      <div class="stat"><b>6+</b><span>智能体直接安装</span></div>
+    </div>
+
+    <section id="catalog">
+      <div class="section-head">
+        <div><div class="kicker">Skill Catalog</div><h2>首个技能，已经就位</h2></div>
+        <p>每个技能独立维护入口、参考资料、脚本、校验和发布包。后续技能加入同一目录体系，不互相污染规则。</p>
+      </div>
+      <article class="skill">
+        <div class="skill-main">
+          <span class="version">STABLE · v10</span>
+          <h3>soil-third-survey-report</h3>
+          <p>第三次全国土壤普查专业报告撰写、重构、逐段审查、修订批注与DOCX交付。</p>
+          <div class="tags"><span class="tag">土壤科学</span><span class="tag">信达雅</span><span class="tag">图表叙述</span><span class="tag">DOCX修订</span><span class="tag">LibreOffice</span></div>
+        </div>
+        <div class="skill-side">
+          <h4>它不是通用润色器</h4>
+          <div class="checks">
+            <div class="check"><i>✓</i><span>术语与数量语义</span></div><div class="check"><i>✓</i><span>空间尺度与时间基准</span></div>
+            <div class="check"><i>✓</i><span>证据强度与因果边界</span></div><div class="check"><i>✓</i><span>标题层级与长段组织</span></div>
+            <div class="check"><i>✓</i><span>单位、精度和上下标</span></div><div class="check"><i>✓</i><span>真实修订与批注交付</span></div>
+            <div class="check"><i>✓</i><span>图表说明与版面空白</span></div><div class="check"><i>✓</i><span>专业语体与去AI痕迹</span></div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="install">
+      <div class="section-head">
+        <div><div class="kicker">Install Once</div><h2>选择智能体，一行安装</h2></div>
+        <p>需要GitHub CLI 2.90.0或更高版本。私有仓库使用前，请先通过 <code>gh auth login</code> 登录有权访问仓库的账号。</p>
+      </div>
+      <div class="install-grid">
+        <div class="agent-list" role="tablist" aria-label="智能体列表">
+          <button class="agent active" data-agent="codex" role="tab"><span>Codex</span><small>OpenAI</small></button>
+          <button class="agent" data-agent="claude-code" role="tab"><span>Claude Code</span><small>Anthropic</small></button>
+          <button class="agent" data-agent="github-copilot" role="tab"><span>GitHub Copilot</span><small>GitHub</small></button>
+          <button class="agent" data-agent="gemini-cli" role="tab"><span>Gemini CLI</span><small>Google</small></button>
+          <button class="agent" data-agent="cursor" role="tab"><span>Cursor</span><small>IDE</small></button>
+          <button class="agent" data-agent="opencode" role="tab"><span>OpenCode</span><small>Open Source</small></button>
+        </div>
+        <div class="terminal">
+          <div class="terminal-top"><div class="dots"><i></i><i></i><i></i></div><button class="copy" id="copy">复制命令</button></div>
+          <pre><span class="comment"># 首次使用：安装或升级 GitHub CLI</span>
+winget install --id GitHub.cli --exact
+gh auth login
+
+<span class="comment"># 安装 soil-third-survey-report</span>
+<span class="prompt">gh skill install</span> SoMic520/Hemusci-Skills soil-third-survey-report --agent <b id="agentValue">codex</b> --scope user</pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="principles">
+      <div class="section-head">
+        <div><div class="kicker">Design Principles</div><h2>专业技能的四条底线</h2></div>
+        <p>技能的价值不在于写得更多，而在于能稳定约束判断、过程和交付。</p>
+      </div>
+      <div class="principles">
+        <div class="principle"><span class="num">01 / FACT</span><h3>事实优先</h3><p>不改写数值、类别、范围和结论方向，不为语言流畅编造数据、成因或验证提醒。</p></div>
+        <div class="principle"><span class="num">02 / DOMAIN</span><h3>领域约束</h3><p>术语、数量、尺度、证据和因果关系同时检查，不能用禁词清单代替专业判断。</p></div>
+        <div class="principle"><span class="num">03 / DELIVERY</span><h3>真实交付</h3><p>输出不仅是文字，还包括格式、修订记录、批注、图表关系、脚本校验和可归档文件。</p></div>
+      </div>
+    </section>
+
+    <section id="future">
+      <div class="section-head">
+        <div><div class="kicker">Built to Grow</div><h2>为下一个技能预留位置</h2></div>
+        <p>仓库从第一天起就按多技能中心设计。新增技能有独立边界，也能共享统一的发布与安装体验。</p>
+      </div>
+      <div class="future">
+        <div><h3>后续方向</h3><p>科研写作、自然资源调查、地学数据质检、图表生产、成果验收等技能可按同一规范持续加入。</p></div>
+        <div class="tree">skills/
+├─ soil-third-survey-report/
+├─ next-science-skill/
+└─ ...</div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap foot"><p>© 2026 Hemusci · 专业知识，可执行交付</p><p><a href="https://github.com/SoMic520/Hemusci-Skills" target="_blank" rel="noreferrer">GitHub Repository ↗</a></p></div></footer>
+
+  <script>
+    const agents=[...document.querySelectorAll('.agent')];
+    const agentValue=document.getElementById('agentValue');
+    const copy=document.getElementById('copy');
+    agents.forEach(button=>button.addEventListener('click',()=>{
+      agents.forEach(item=>item.classList.remove('active'));button.classList.add('active');agentValue.textContent=button.dataset.agent;copy.textContent='复制命令';copy.classList.remove('done');
+    }));
+    copy.addEventListener('click',async()=>{
+      const command=`gh skill install SoMic520/Hemusci-Skills soil-third-survey-report --agent ${agentValue.textContent} --scope user`;
+      await navigator.clipboard.writeText(command);copy.textContent='已复制';copy.classList.add('done');
+    });
+  </script>
+</body>
+</html>
+
