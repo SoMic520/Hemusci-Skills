@@ -1,3 +1,14 @@
-# 发布包
+# 发布包目录
 
-本目录保存经过校验的可安装技能包。安装前请核对README中列出的SHA-256值。
+每个技能的离线发布包存放于独立子目录：
+
+```text
+dist/<skill-name>/<skill-name>-<version>.zip
+```
+
+发布包必须与 `skills/<skill-name>/` 的相应版本一致，并在根目录 `CHANGELOG.md` 记录版本、日期和SHA-256。
+
+当前发布包：
+
+- `soil-third-survey-report/soil-third-survey-report-skill-20260814-v10.zip`
+
