@@ -1,0 +1,5 @@
+interface:
+  display_name: "土壤三普专业报告撰写与审查"
+  short_description: "省市县土壤三普报告的专家级撰写、逐句审查、DOCX修订与验收终检"
+  default_prompt: "使用 $soil-third-survey-report 判定成果层级和报告类型，按土壤术语、数量逻辑、空间尺度、证据强度及验收规则逐段逐句处理，并自动准备LibreOffice完成DOCX修订、批注和逐页终检。"
+
