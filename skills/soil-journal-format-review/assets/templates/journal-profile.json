@@ -1,0 +1,32 @@
+{
+  "schema_version": "2.0",
+  "journal": {
+    "name": "TARGET_JOURNAL",
+    "article_type": "TARGET_ARTICLE_TYPE",
+    "submission_stage": "initial",
+    "language": "zh-CN",
+    "accessed_at": "YYYY-MM-DD",
+    "official_domain": "official.example",
+    "publisher": "TARGET_PUBLISHER"
+  },
+  "scope_statement": "FORMAT_ONLY。只审查排版与投稿形式，不审查论文质量或科学内容。",
+  "rules": [
+    {
+      "rule_id": "PAGE-001",
+      "category": "PAGE_LAYOUT",
+      "requirement": "Replace with one exact, testable formatting requirement.",
+      "applies_to": "main_manuscript",
+      "article_type": "TARGET_ARTICLE_TYPE",
+      "source_title": "Official author instructions",
+      "source_url": "https://official.example/guide",
+      "source_locator": "Section or page",
+      "source_kind": "official_journal_guide",
+      "source_sha256": "",
+      "source_snapshot": "03_审查记录/规则原文/REPLACE_WITH_SAVED_SOURCE_FILE",
+      "accessed_at": "YYYY-MM-DD",
+      "verification_status": "UNVERIFIED",
+      "automation": "COMMENT_ONLY",
+      "notes": "Replace every placeholder before validation. VERIFIED/INFERRED rules require a local source snapshot SHA-256."
+    }
+  ]
+}

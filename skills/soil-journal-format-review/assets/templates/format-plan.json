@@ -1,0 +1,39 @@
+{
+  "schema_version": "2.0",
+  "scope": "FORMAT_ONLY",
+  "source_document_sha256": "REPLACE_WITH_64_HEX_SHA256",
+  "journal_profile_sha256": "REPLACE_WITH_64_HEX_SHA256",
+  "operations": [
+    {
+      "operation_id": "FMT-001",
+      "rule_id": "PAGE-001",
+      "op": "section",
+      "story": "document",
+      "note_id": null,
+      "section_index": 0,
+      "expected_structure_sha256": "REPLACE_WITH_64_HEX_SHA256",
+      "risk_class": "SAFE_TYPOGRAPHY",
+      "properties": {
+        "margin_top_twips": 1440,
+        "margin_right_twips": 1440,
+        "margin_bottom_twips": 1440,
+        "margin_left_twips": 1440
+      }
+    },
+    {
+      "operation_id": "FMT-002",
+      "rule_id": "TITLE-001",
+      "op": "paragraph",
+      "story": "document",
+      "note_id": null,
+      "paragraph_index": 0,
+      "expected_text_sha256": "REPLACE_WITH_64_HEX_SHA256",
+      "risk_class": "SAFE_TYPOGRAPHY",
+      "properties": {
+        "alignment": "center",
+        "spacing_after_twips": 240,
+        "keep_with_next": true
+      }
+    }
+  ]
+}

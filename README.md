@@ -5,7 +5,7 @@
 **面向科研写作、专业报告、数据分析与成果交付的智能体技能库**
 
 <p>
-  <img src="https://img.shields.io/badge/Skills-1-2563EB?style=for-the-badge" alt="Skills 1">
+  <img src="https://img.shields.io/badge/Skills-2-2563EB?style=for-the-badge" alt="Skills 2">
   <img src="https://img.shields.io/badge/Agent%20Skills-Compatible-7C3AED?style=for-the-badge" alt="Agent Skills Compatible">
   <img src="https://img.shields.io/badge/Language-中文-E11D48?style=for-the-badge" alt="中文">
   <img src="https://img.shields.io/badge/Status-持续扩展-0F766E?style=for-the-badge" alt="持续扩展">
@@ -24,6 +24,7 @@
 | 技能 | 状态 | 版本 | 适用范围 |
 |---|---:|---:|---|
 | [soil-third-survey-report](skills/soil-third-survey-report/) | 稳定 | v10 | 第三次全国土壤普查省、市、县级专业报告撰写、重构、逐段审查、DOCX修订与批注交付 |
+| [soil-journal-format-review](skills/soil-journal-format-review/) | 稳定 | v2 | 土壤学及可发表土壤研究的综合期刊投稿排版、格式审查、DOCX修订与批注；不审查文章质量和内容 |
 
 后续技能统一加入 `skills/<skill-name>/`，发布包置于 `dist/<skill-name>/`。仓库根目录只保留技能索引、版本记录和公共说明。
 
@@ -41,6 +42,21 @@
 - 自动检测LibreOffice；缺失时从官方渠道准备最新稳定版并校验安装包。
 
 详细规则见 [技能入口](skills/soil-third-survey-report/SKILL.md)。
+
+## 📐 soil-journal-format-review
+
+面向土壤学专业期刊及可发表土壤相关研究的综合性、农业资源环境、生态环境、地学与水土保持期刊，建立“期刊规则取证—格式建模—DOCX排版—批注—渲染复核—安全交付”的闭环。
+
+主要能力：
+
+- 以期刊官网、官方模板和现行著录标准为依据建立可追溯的期刊格式档案，避免凭记忆套用格式。
+- 审查并修订页面、标题、作者单位、中英文摘要、关键词、正文层级、图表、公式、参考文献、脚注与尾注的排版格式。
+- 在DOCX中添加真实Word批注，记录格式问题、规则来源、修改动作和复核状态。
+- 使用LibreOffice与Poppler执行跨平台渲染复核，并对Word脚注、尾注和批注进行OOXML结构审计。
+- 检测缺失字体，优先使用Mac与Windows兼容字体；仅从官方渠道下载可再分发的开放字体。
+- 通过内容指纹、安全扫描和变更台账约束修改范围，不评价研究质量、创新性、数据可信度或学术观点。
+
+详细规则见 [技能入口](skills/soil-journal-format-review/SKILL.md)。
 
 ## ⚡ 一键安装
 
@@ -77,6 +93,8 @@ gh skill preview SoMic520/Hemusci-Skills soil-third-survey-report
 | Cursor | `gh skill install SoMic520/Hemusci-Skills soil-third-survey-report --agent cursor --scope user` |
 | OpenCode | `gh skill install SoMic520/Hemusci-Skills soil-third-survey-report --agent opencode --scope user` |
 
+安装期刊排版技能时，将命令中的技能名替换为 `soil-journal-format-review`。
+
 安装到当前项目时，将 `--scope user` 改为 `--scope project`。GitHub CLI还支持Qwen Code、Kimi CLI、Cline、Windsurf等智能体，完整标识以 [`gh skill install` 官方手册](https://cli.github.com/manual/gh_skill_install)为准。
 
 更新与检查：
@@ -96,13 +114,15 @@ Copy-Item -Recurse -Force .\Hemusci-Skills\skills\soil-third-survey-report `
   "$env:USERPROFILE\.codex\skills\soil-third-survey-report"
 ```
 
+安装期刊排版技能时，将上述目录名替换为 `soil-journal-format-review`。
+
 Claude Code的个人技能目录为 `~/.claude/skills/`，项目技能目录为 `.claude/skills/`；目录规则见 [Claude Code Skills官方文档](https://code.claude.com/docs/en/slash-commands)。
 
 ## 🤖 DeepSeek、ChatGPT 等通用模型
 
 不支持Agent Skills目录发现机制的平台，可按知识库方式接入：
 
-1. 下载并解压[最新发布包](dist/soil-third-survey-report/soil-third-survey-report-skill-20260814-v10.zip)。
+1. 从[当前发布包](#-当前发布包)选择目标技能并下载解压。
 2. 上传 `SKILL.md` 和 `references/` 全部文件；需处理DOCX时同时上传 `scripts/`。
 3. 将以下内容设置为智能体的最高优先级指令：
 
@@ -118,14 +138,18 @@ Claude Code的个人技能目录为 `~/.claude/skills/`，项目技能目录为 
 ```text
 Hemusci-Skills/
 ├─ skills/
-│  └─ soil-third-survey-report/
+│  ├─ soil-third-survey-report/
+│  └─ soil-journal-format-review/
 │     ├─ SKILL.md
 │     ├─ agents/
+│     ├─ assets/
 │     ├─ references/
 │     └─ scripts/
 ├─ dist/
-│  └─ soil-third-survey-report/
-│     └─ soil-third-survey-report-skill-20260814-v10.zip
+│  ├─ soil-third-survey-report/
+│  │  └─ soil-third-survey-report-skill-20260814-v10.zip
+│  └─ soil-journal-format-review/
+│     └─ soil-journal-format-review-skill-20260815-v2.zip
 ├─ CHANGELOG.md
 └─ README.md
 ```
@@ -148,6 +172,8 @@ skills/<skill-name>/
 
 - [soil-third-survey-report v10](dist/soil-third-survey-report/soil-third-survey-report-skill-20260814-v10.zip)
 - SHA-256：`B77FA05C69EF9DD17C849372A00ABD6BB4D38AA980C70C8E54582F7F9070FA62`
+- [soil-journal-format-review v2](dist/soil-journal-format-review/soil-journal-format-review-skill-20260815-v2.zip)
+- SHA-256：`3576BF401BF4B19BF0A1E1D35D0A642DCE39549E52A19D5E004A8E9C608C35EE`
 
 ## 🔐 数据与权限
 

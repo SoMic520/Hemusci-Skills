@@ -1,0 +1,24 @@
+{
+  "schema_version": "2.0",
+  "document": "manuscript-格式修订清洁版.docx",
+  "scope": "FORMAT_ONLY",
+  "profile_sha256": "REPLACE_WITH_64_HEX_SHA256",
+  "source_document_sha256": "REPLACE_WITH_64_HEX_SHA256",
+  "findings": [
+    {
+      "issue_id": "FMT-001",
+      "story": "document",
+      "note_id": null,
+      "paragraph_index": 0,
+      "location": "Title paragraph",
+      "category": "TITLE_BLOCK",
+      "rule_id": "TITLE-001",
+      "current_format": "Observed typography and spacing",
+      "required_format": "Exact typography and spacing required by the cited rule",
+      "action": "COMMENT",
+      "status": "COMMENTED",
+      "scope": "FORMAT_ONLY",
+      "expected_text_sha256": "REPLACE_WITH_64_HEX_SHA256"
+    }
+  ]
+}
