@@ -13,7 +13,7 @@
 
 这里不是单一技能项目，而是可持续扩展的专业智能体技能集合。每个技能拥有独立入口、参考资料、脚本、校验规则和发布包。
 
-[技能目录](#-技能目录) · [一键安装](#-一键安装) · [通用模型接入](#-deepseekchatgpt-等通用模型) · [新增技能](#-新增技能规范)
+[在线网站](https://hemusci.com/skills/) · [技能目录](#-技能目录) · [一键安装](#-一键安装) · [通用模型接入](#-deepseekchatgpt-等通用模型) · [新增技能](#-新增技能规范)
 
 </div>
 
@@ -69,6 +69,8 @@
 | 国际综合与跨学科期刊 | 65 |
 
 [查看全部 228 本期刊的逐刊完整名称](skills/soil-journal-format-review/references/applicable-journals.md)。清单中每本期刊均单独写出；详细官网入口、出版社、土壤主题范围和来源状态见 [期刊登记表](skills/soil-journal-format-review/references/journal-registry.csv)。目录用于确定排版能力覆盖范围，不构成期刊质量排名或投稿推荐。
+
+[打开土壤学相关期刊在线资料库](https://hemusci.com/skills/soil-journal-format-review/)，可按刊名、出版社、研究主题和收录状态检索。网页逐刊展示官方投稿入口、主题适配及带版本日期的客观证据：CSCD 2025–2026 核心库/扩展库、Scopus 2026-07 Active/Inactive。网站不做主观星级；北大核心、JCR 与最后一版中科院分区只在取得完整权威版本后展示，其中中国科学院文献情报中心已宣布自 2026 年起停止更新期刊分区表。
 
 ## ⚡ 一键安装
 

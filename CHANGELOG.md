@@ -11,6 +11,7 @@
 - 增加清单与 `journal-registry.csv` 的一对一回归测试，防止漏刊、重名或后续不同步。
 - 在仓库首页增加五组数量和完整名单入口。
 - 补全 README 中该技能在 Codex、Claude Code、GitHub Copilot、Gemini CLI、Cursor、OpenCode 的逐项安装命令，以及 Windows、macOS、Linux 手动安装和通用模型接入指令。
+- 新增独立期刊资料库与可审计证据快照：228 本逐刊简介、186 个官方投稿入口、CSCD 2025–2026 与 Scopus 2026-07 状态筛选，并明确中科院分区表自 2026 年起停更。
 
 发布包：`dist/soil-journal-format-review/soil-journal-format-review-skill-20260815-v3.zip`
 
