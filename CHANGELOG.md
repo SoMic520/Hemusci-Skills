@@ -4,6 +4,17 @@
 
 ## soil-journal-format-review
 
+### v3 · 2026-08-15
+
+- 将 228 本内置适用期刊按五组逐刊完整写出，不再只用学科类别概括。
+- 在技能入口中强制要求：回答“适用于哪些期刊”时必须读取完整名单并逐刊说明。
+- 增加清单与 `journal-registry.csv` 的一对一回归测试，防止漏刊、重名或后续不同步。
+- 在仓库首页增加五组数量和完整名单入口。
+
+发布包：`dist/soil-journal-format-review/soil-journal-format-review-skill-20260815-v3.zip`
+
+SHA-256：`012AEB8A7BE32D96C1BD7EBFEACC3EDF0139DFCF842D8B8DFEEC4E76B4BA9069`
+
 ### v2 · 2026-08-15
 
 - 建立面向土壤学专业期刊及相关综合性、农业资源环境、生态环境、地学和水土保持期刊的投稿格式工作流。

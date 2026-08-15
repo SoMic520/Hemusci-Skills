@@ -1,0 +1,250 @@
+# 适用期刊完整清单
+
+本清单逐项列出 `journal-registry.csv` 当前内置的 228 本期刊，供目标期刊识别和官方投稿入口发现。名称全部显式写出，不以“土壤学及相关期刊”等概括语替代。
+
+这是一份排版能力覆盖目录，不是期刊排名、质量评价或投稿推荐。实际处理每篇稿件前，仍须按投稿日期重新核验目标期刊官网、文章类型、官方模板和作者指南；目录外期刊只要能取得当前官方规则，也可按同一流程建立格式档案。
+
+逐刊官网、出版社、土壤主题范围、来源状态和访问日期见 `journal-registry.csv`。
+
+## 中文土壤学及相关专业期刊（53 本）
+
+- `草地学报`
+- `草业科学`
+- `草业学报`
+- `地理科学进展`
+- `地理学报`
+- `地球信息科学学报`
+- `东北农业大学学报`
+- `干旱区研究`
+- `干旱区资源与环境`
+- `华北农学报`
+- `华中农业大学学报`
+- `环境工程学报`
+- `环境科学`
+- `环境科学学报`
+- `节水灌溉`
+- `矿物岩石地球化学通报`
+- `南京农业大学学报`
+- `农业工程学报`
+- `农业环境科学学报`
+- `农业机械学报`
+- `农业现代化研究`
+- `农业资源与环境学报`
+- `生态环境学报`
+- `生态学报`
+- `生态学杂志`
+- `生态与农村环境学报`
+- `湿地科学`
+- `水土保持通报`
+- `水土保持学报`
+- `水土保持研究`
+- `土壤`
+- `土壤通报`
+- `土壤学报`
+- `土壤与作物`
+- `西北农林科技大学学报（自然科学版）`
+- `西南农业学报`
+- `岩矿测试`
+- `岩石矿物学杂志`
+- `遥感学报`
+- `应用生态学报`
+- `浙江大学学报（农业与生命科学版）`
+- `植物生态学报`
+- `植物营养与肥料学报`
+- `中国环境科学`
+- `中国农学通报`
+- `中国农业科学`
+- `中国农业资源与区划`
+- `中国生态农业学报（中英文）`
+- `中国水土保持科学`
+- `中国土壤与肥料`
+- `资源科学`
+- `自然资源遥感`
+- `作物学报`
+
+## 中文综合与交叉期刊（20 本）
+
+- `北京林业大学学报`
+- `沉积学报`
+- `地理科学`
+- `地球化学`
+- `地球科学进展`
+- `地质学报`
+- `第四纪研究`
+- `环境化学`
+- `环境科学研究`
+- `环境科学与技术`
+- `科学通报`
+- `林业科学`
+- `生态毒理学报`
+- `生物多样性`
+- `微生物学报`
+- `微生物学通报`
+- `长江流域资源与环境`
+- `中国科学：地球科学`
+- `中国沙漠`
+- `自然资源学报`
+
+## 国际土壤学专业期刊（52 本）
+
+- `Acta Agriculturae Scandinavica Section B: Soil and Plant Science`
+- `Acta Pedologica Sinica`
+- `Agrochimica`
+- `Applied and Environmental Soil Science`
+- `Applied Clay Science`
+- `Applied Soil Ecology`
+- `Archives of Agronomy and Soil Science`
+- `Biology and Fertility of Soils`
+- `Canadian Journal of Soil Science`
+- `Catena`
+- `Clays and Clay Minerals`
+- `Communications in Soil Science and Plant Analysis`
+- `Compost Science & Utilization`
+- `Egyptian Journal Of Soil Science`
+- `Eurasian Soil Science`
+- `European Journal of Soil Biology`
+- `European Journal of Soil Science`
+- `Frontiers in Soil Science`
+- `Geoderma`
+- `Geoderma Regional`
+- `International Soil and Water Conservation Research`
+- `Journal of Plant Nutrition and Soil Science`
+- `Journal of Soil and Water Conservation`
+- `Journal of Soil Science and Plant Nutrition`
+- `Journal Of Soils And Sediments`
+- `Land Degradation and Development`
+- `Mires and Peat`
+- `Pedosphere`
+- `Plant and Soil`
+- `Plant, Soil and Environment`
+- `Rhizosphere`
+- `Sains Tanah`
+- `SOIL`
+- `Soil & Environment`
+- `Soil and Environmental Health`
+- `Soil and Sediment Contamination`
+- `Soil and Tillage Research`
+- `Soil and Water Research`
+- `Soil Biology and Biochemistry`
+- `Soil Dynamics and Earthquake Engineering`
+- `Soil Ecology Letters`
+- `Soil Research`
+- `Soil Science and Plant Nutrition`
+- `Soil Science Annual`
+- `Soil Science Society of America Journal`
+- `Soil Security`
+- `Soil Systems`
+- `Soil Use and Management`
+- `Spanish Journal of Soil Science`
+- `Terra Latinoamericana`
+- `Vadose Zone Journal`
+- `Yantu Lixue/Rock and Soil Mechanics`
+
+## 国际土壤学交叉期刊（38 本）
+
+- `Advances in Agriculture`
+- `Agricultural and Environmental Letters`
+- `Agricultural Water Management`
+- `Agrosystems, Geosciences and Environment`
+- `Annals of Agricultural Sciences`
+- `Arid Land Research and Management`
+- `Biochar`
+- `Biosystems Engineering`
+- `Chinese Journal of Eco-Agriculture`
+- `Environmental Earth Sciences`
+- `Environmental Technology and Innovation`
+- `ES Food and Agroforestry`
+- `European Journal of Agronomy`
+- `Farming System`
+- `Field Crops Research`
+- `Frontiers in Agronomy`
+- `Geotechnical and Geological Engineering`
+- `International Agrophysics`
+- `International Journal of Environmental Analytical Chemistry`
+- `International Journal of Geomechanics`
+- `International Journal of Geotechnical Engineering`
+- `Irrigation and Drainage`
+- `Irrigation Science`
+- `Journal of Crop Improvement`
+- `Journal of Geophysical Research: Biogeosciences`
+- `Microbes and Environments`
+- `Microbial Ecology`
+- `Molecular Plant Pathology`
+- `Nutrient Cycling in Agroecosystems`
+- `Pedobiologia`
+- `Plant Protection Science`
+- `Proceedings of the Institution of Civil Engineers: Ground Improvement`
+- `Remote Sensing of Environment`
+- `Revista Brasileira de Ciencia do Solo`
+- `Rice`
+- `Solid Earth`
+- `Subterranean Biology`
+- `Urban Forestry and Urban Greening`
+
+## 国际综合与跨学科期刊（65 本）
+
+- `Agricultural and Forest Meteorology`
+- `Agricultural Systems`
+- `Agriculture, Ecosystems & Environment`
+- `Biogeochemistry`
+- `Biogeosciences`
+- `Bioresource Technology`
+- `Communications Earth & Environment`
+- `Computers and Electronics in Agriculture`
+- `Earth System Science Data`
+- `Earth's Future`
+- `Ecological Applications`
+- `Ecological Indicators`
+- `Ecological Informatics`
+- `Ecosystems`
+- `Ecotoxicology and Environmental Safety`
+- `Environment International`
+- `Environmental Chemistry Letters`
+- `Environmental Geochemistry and Health`
+- `Environmental Microbiology`
+- `Environmental Pollution`
+- `Environmental Research`
+- `Environmental Research Letters`
+- `Environmental Science & Ecotechnology`
+- `Environmental Science & Technology`
+- `Environmental Science & Technology Letters`
+- `Forest Ecology and Management`
+- `Functional Ecology`
+- `Global Biogeochemical Cycles`
+- `Global Change Biology`
+- `Global Ecology and Biogeography`
+- `Hydrology and Earth System Sciences`
+- `IEEE Transactions on Geoscience and Remote Sensing`
+- `International Journal of Applied Earth Observation and Geoinformation`
+- `ISPRS Journal of Photogrammetry and Remote Sensing`
+- `Journal of Applied Ecology`
+- `Journal of Cleaner Production`
+- `Journal of Contaminant Hydrology`
+- `Journal of Environmental Chemical Engineering`
+- `Journal of Environmental Management`
+- `Journal of Environmental Quality`
+- `Journal of Hazardous Materials`
+- `Journal of Hydrology`
+- `Land Use Policy`
+- `Landscape Ecology`
+- `Microbiome`
+- `mSystems`
+- `Nature`
+- `Nature Communications`
+- `Nature Food`
+- `Nature Geoscience`
+- `Nature Microbiology`
+- `Nature Sustainability`
+- `One Earth`
+- `Proceedings of the National Academy of Sciences (PNAS)`
+- `Resources, Conservation & Recycling`
+- `Restoration Ecology`
+- `Science`
+- `Science Advances`
+- `Science of The Total Environment`
+- `Scientific Data`
+- `Sustainable Production and Consumption`
+- `The ISME Journal`
+- `Waste Management`
+- `Water Research`
+- `Water Resources Research`

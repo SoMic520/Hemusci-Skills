@@ -24,7 +24,7 @@
 | 技能 | 状态 | 版本 | 适用范围 |
 |---|---:|---:|---|
 | [soil-third-survey-report](skills/soil-third-survey-report/) | 稳定 | v10 | 第三次全国土壤普查省、市、县级专业报告撰写、重构、逐段审查、DOCX修订与批注交付 |
-| [soil-journal-format-review](skills/soil-journal-format-review/) | 稳定 | v2 | 土壤学及可发表土壤研究的综合期刊投稿排版、格式审查、DOCX修订与批注；不审查文章质量和内容 |
+| [soil-journal-format-review](skills/soil-journal-format-review/) | 稳定 | v3 | 土壤学及可发表土壤研究的综合期刊投稿排版、格式审查、DOCX修订与批注；不审查文章质量和内容 |
 
 后续技能统一加入 `skills/<skill-name>/`，发布包置于 `dist/<skill-name>/`。仓库根目录只保留技能索引、版本记录和公共说明。
 
@@ -57,6 +57,18 @@
 - 通过内容指纹、安全扫描和变更台账约束修改范围，不评价研究质量、创新性、数据可信度或学术观点。
 
 详细规则见 [技能入口](skills/soil-journal-format-review/SKILL.md)。
+
+### 内置适用期刊（228 本）
+
+| 分组 | 数量 |
+|---|---:|
+| 中文土壤学及相关专业期刊 | 53 |
+| 中文综合与交叉期刊 | 20 |
+| 国际土壤学专业期刊 | 52 |
+| 国际土壤学交叉期刊 | 38 |
+| 国际综合与跨学科期刊 | 65 |
+
+[查看全部 228 本期刊的逐刊完整名称](skills/soil-journal-format-review/references/applicable-journals.md)。清单中每本期刊均单独写出；详细官网入口、出版社、土壤主题范围和来源状态见 [期刊登记表](skills/soil-journal-format-review/references/journal-registry.csv)。目录用于确定排版能力覆盖范围，不构成期刊质量排名或投稿推荐。
 
 ## ⚡ 一键安装
 
@@ -149,7 +161,7 @@ Hemusci-Skills/
 │  ├─ soil-third-survey-report/
 │  │  └─ soil-third-survey-report-skill-20260814-v10.zip
 │  └─ soil-journal-format-review/
-│     └─ soil-journal-format-review-skill-20260815-v2.zip
+│     └─ soil-journal-format-review-skill-20260815-v3.zip
 ├─ CHANGELOG.md
 └─ README.md
 ```
@@ -172,8 +184,8 @@ skills/<skill-name>/
 
 - [soil-third-survey-report v10](dist/soil-third-survey-report/soil-third-survey-report-skill-20260814-v10.zip)
 - SHA-256：`B77FA05C69EF9DD17C849372A00ABD6BB4D38AA980C70C8E54582F7F9070FA62`
-- [soil-journal-format-review v2](dist/soil-journal-format-review/soil-journal-format-review-skill-20260815-v2.zip)
-- SHA-256：`3576BF401BF4B19BF0A1E1D35D0A642DCE39549E52A19D5E004A8E9C608C35EE`
+- [soil-journal-format-review v3](dist/soil-journal-format-review/soil-journal-format-review-skill-20260815-v3.zip)
+- SHA-256：`012AEB8A7BE32D96C1BD7EBFEACC3EDF0139DFCF842D8B8DFEEC4E76B4BA9069`
 
 ## 🔐 数据与权限
 
