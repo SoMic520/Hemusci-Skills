@@ -50,6 +50,8 @@ description: 按土壤学期刊以及可发表土壤研究的综合、环境、�
 
 目标期刊或文章类型不明确时只能做通用盘点，不能声称“符合期刊要求”。期刊目录只用于发现官网，不是期刊质量表。
 
+用户询问“适用于哪些期刊”时，必须读取 `references/applicable-journals.md`，按其中五组和逐刊名称完整回答；不得只写“土壤学及相关综合期刊”等概括语。逐刊来源和官网入口再查 `references/journal-registry.csv`。
+
 未公开稿件默认本地处理。在线检索只发送刊名和文章类型等最少元数据，不上传全文。
 
 ## 建立可执行规则档案
@@ -227,6 +229,7 @@ python3 scripts/validate_format_review_bundle.py delivery-manifest.json \
 
 ## 资源索引
 
+- `references/applicable-journals.md`：228 本内置期刊的逐刊完整清单；回答覆盖范围时必须读取。
 - `references/journal-registry.csv`：官网入口发现表，不是质量评价表。
 - `references/format-checklist.md`：完整排版检查清单。
 - `references/known-limitations.md`：脚注批注、字体、平台、双盲和非 DOCX 能力边界。

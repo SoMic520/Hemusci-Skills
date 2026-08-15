@@ -621,6 +621,22 @@ class SkillTests(unittest.TestCase):
         self.assertEqual(tampered["status"], "FAIL")
         self.assertTrue(any("comment_id" in error for error in tampered["errors"]))
 
+    def test_applicable_journal_index_matches_registry(self) -> None:
+        skill_root = SCRIPT_DIR.parent
+        registry_path = skill_root / "references/journal-registry.csv"
+        index_path = skill_root / "references/applicable-journals.md"
+        with registry_path.open(encoding="utf-8-sig", newline="") as handle:
+            registry_names = [row["journal_name"] for row in csv.DictReader(handle)]
+        index_names = [
+            line[3:-1]
+            for line in index_path.read_text(encoding="utf-8").splitlines()
+            if line.startswith("- `") and line.endswith("`")
+        ]
+        self.assertEqual(len(registry_names), 228)
+        self.assertEqual(len(index_names), len(registry_names))
+        self.assertEqual(len(index_names), len(set(index_names)))
+        self.assertEqual(set(index_names), set(registry_names))
+
     def test_git_blob_hash_implementation(self) -> None:
         self.assertEqual(git_blob_sha1(b"test\n"), "9daeafb9864cf43055ae93beb0afd6c7d144bfa4")
 
