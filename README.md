@@ -92,9 +92,12 @@ winget upgrade --id GitHub.cli --exact
 
 ```powershell
 gh skill preview SoMic520/Hemusci-Skills soil-third-survey-report
+gh skill preview SoMic520/Hemusci-Skills soil-journal-format-review
 ```
 
 ### 2. 安装到常用智能体
+
+#### soil-third-survey-report
 
 | 智能体 | 用户级安装命令 |
 |---|---|
@@ -105,7 +108,16 @@ gh skill preview SoMic520/Hemusci-Skills soil-third-survey-report
 | Cursor | `gh skill install SoMic520/Hemusci-Skills soil-third-survey-report --agent cursor --scope user` |
 | OpenCode | `gh skill install SoMic520/Hemusci-Skills soil-third-survey-report --agent opencode --scope user` |
 
-安装期刊排版技能时，将命令中的技能名替换为 `soil-journal-format-review`。
+#### soil-journal-format-review
+
+| 智能体 | 用户级安装命令 |
+|---|---|
+| Codex | `gh skill install SoMic520/Hemusci-Skills soil-journal-format-review --agent codex --scope user` |
+| Claude Code | `gh skill install SoMic520/Hemusci-Skills soil-journal-format-review --agent claude-code --scope user` |
+| GitHub Copilot | `gh skill install SoMic520/Hemusci-Skills soil-journal-format-review --agent github-copilot --scope user` |
+| Gemini CLI | `gh skill install SoMic520/Hemusci-Skills soil-journal-format-review --agent gemini-cli --scope user` |
+| Cursor | `gh skill install SoMic520/Hemusci-Skills soil-journal-format-review --agent cursor --scope user` |
+| OpenCode | `gh skill install SoMic520/Hemusci-Skills soil-journal-format-review --agent opencode --scope user` |
 
 安装到当前项目时，将 `--scope user` 改为 `--scope project`。GitHub CLI还支持Qwen Code、Kimi CLI、Cline、Windsurf等智能体，完整标识以 [`gh skill install` 官方手册](https://cli.github.com/manual/gh_skill_install)为准。
 
@@ -114,19 +126,31 @@ gh skill preview SoMic520/Hemusci-Skills soil-third-survey-report
 ```powershell
 gh skill list --scope user
 gh skill update soil-third-survey-report
+gh skill update soil-journal-format-review
 ```
 
 ### 3. 手动安装备用方式
 
 仓库包含多个技能，手动安装时应复制目标技能子目录，不应把整个仓库直接作为一个技能目录。
 
+Windows PowerShell：
+
 ```powershell
 git clone https://github.com/SoMic520/Hemusci-Skills.git
 Copy-Item -Recurse -Force .\Hemusci-Skills\skills\soil-third-survey-report `
   "$env:USERPROFILE\.codex\skills\soil-third-survey-report"
+Copy-Item -Recurse -Force .\Hemusci-Skills\skills\soil-journal-format-review `
+  "$env:USERPROFILE\.codex\skills\soil-journal-format-review"
 ```
 
-安装期刊排版技能时，将上述目录名替换为 `soil-journal-format-review`。
+macOS / Linux：
+
+```bash
+git clone https://github.com/SoMic520/Hemusci-Skills.git
+mkdir -p ~/.codex/skills
+cp -R Hemusci-Skills/skills/soil-third-survey-report ~/.codex/skills/
+cp -R Hemusci-Skills/skills/soil-journal-format-review ~/.codex/skills/
+```
 
 Claude Code的个人技能目录为 `~/.claude/skills/`，项目技能目录为 `.claude/skills/`；目录规则见 [Claude Code Skills官方文档](https://code.claude.com/docs/en/slash-commands)。
 
@@ -136,13 +160,26 @@ Claude Code的个人技能目录为 `~/.claude/skills/`，项目技能目录为 
 
 1. 从[当前发布包](#-当前发布包)选择目标技能并下载解压。
 2. 上传 `SKILL.md` 和 `references/` 全部文件；需处理DOCX时同时上传 `scripts/`。
-3. 将以下内容设置为智能体的最高优先级指令：
+3. 根据目标技能选择对应的最高优先级指令。
+
+### soil-third-survey-report 接入指令
 
 ```text
 完整读取 soil-third-survey-report/SKILL.md，并按其中的任务路由加载所需 references 文件。
 用户当前提供的原始报告、验收导引和明确限制优先于通用规则。
 逐段、逐句、逐字审查；审稿意见只能进入批注，不得混入正式正文。
 不得编造数据、成因和结论，不得以禁词扫描代替土壤专业判断。
+```
+
+### soil-journal-format-review 接入指令
+
+```text
+完整读取 soil-journal-format-review/SKILL.md，并按任务加载 references、assets 和 scripts。
+目标期刊确定后，必须重新核验当前官方模板、作者指南、文章类型和投稿阶段；不得凭记忆套用格式。
+只审查和修订投稿排版格式，不评价或改写论文质量、科学内容、方法、统计、结论、语言表达或引文真实性。
+DOCX 修订前必须执行安全、结构、脚注尾注、字体和内容基线检查；缺少字体时只从官方渠道取得合法字体。
+批注只能记录格式问题、规则来源、修改动作和复核状态；LibreOffice 只用于渲染复核，不得冒充桌面 Word 的批注界面验证。
+用户询问适用期刊时，读取 references/applicable-journals.md，按五组完整列出 228 本期刊，不得只用类别概括。
 ```
 
 ## 🗂️ 仓库结构

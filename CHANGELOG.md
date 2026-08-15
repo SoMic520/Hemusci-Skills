@@ -10,6 +10,7 @@
 - 在技能入口中强制要求：回答“适用于哪些期刊”时必须读取完整名单并逐刊说明。
 - 增加清单与 `journal-registry.csv` 的一对一回归测试，防止漏刊、重名或后续不同步。
 - 在仓库首页增加五组数量和完整名单入口。
+- 补全 README 中该技能在 Codex、Claude Code、GitHub Copilot、Gemini CLI、Cursor、OpenCode 的逐项安装命令，以及 Windows、macOS、Linux 手动安装和通用模型接入指令。
 
 发布包：`dist/soil-journal-format-review/soil-journal-format-review-skill-20260815-v3.zip`
 
