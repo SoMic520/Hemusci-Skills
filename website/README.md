@@ -11,8 +11,8 @@ Hemusci Skills 静态站点源码，正式入口为 `https://hemusci.com/skills/
 
 - `index.html`：将根路径转向 `/skills/`。
 - `skills/index.html`：多技能中心主页、期刊覆盖摘要和双技能安装命令生成器。
-- `skills/soil-journal-format-review/index.html`：该技能独立期刊资料库；228 本期刊均有研究范围、出版社、语种和资料状态，并展示带版本日期的 CSCD / Scopus 收录证据、审慎评价与筛选。
-- `skills/soil-journal-format-review/journal-evidence.csv`：网页所用逐刊事实与评价证据快照，便于审计和后续更新。
+- `skills/soil-journal-format-review/index.html`：土壤学相关期刊数据库；228 本期刊均有研究方向、出版机构、语种、投稿链接和带版本日期的 CSCD / Scopus 收录信息。
+- `skills/soil-journal-format-review/journal-evidence.csv`：网页所用逐刊资料和数据库收录状态快照，便于后续更新。
 - `scripts/build_soil_journal_page.py`：从技能登记表、CSCD 官方接口和 Scopus 官方来源表重新生成独立资料库与证据快照。
 - `404.html`：静态站点错误页。
 - `design-qa.md`：桌面端、移动端和交互验收记录。

@@ -172,32 +172,33 @@ def enrich(
 
         cautions: list[str] = []
         if has_cjk(row["journal_name"]) and not cscd_status:
-            cautions.append("未列入 CSCD 2025–2026 来源期刊表，不能标作当前 CSCD 期刊。")
+            cautions.append("CSCD 2025–2026 来源期刊表中未检索到该刊。")
         if scopus_status == "Inactive":
             coverage = str(scopus_record.get("Coverage") or "未注明")
-            cautions.append(f"Scopus 官方来源表标为 Inactive；登记覆盖为 {coverage}。")
+            cautions.append(f"Scopus 2026年7月来源表状态为 Inactive，登记覆盖范围为 {coverage}。")
         if not row["official_author_url"].strip():
-            cautions.append("官方投稿入口尚未完成逐刊核验。")
+            cautions.append("投稿链接尚未收录，请通过期刊主办单位或出版机构官网查询。")
 
         if cscd_status == "C":
-            assessment = "当前有 CSCD 核心库证据；仍不能替代稿件适配、单位认定或最新投稿规则核验。"
-            grade = "核心收录证据"
+            assessment = "收录于 CSCD 2025–2026 核心库（C）。"
+            grade = "CSCD 核心"
             grade_key = "strong"
         elif cscd_status == "E":
-            assessment = "当前为 CSCD 扩展库，不应与核心库混称；投稿前还应核验单位认定口径。"
-            grade = "扩展收录证据"
+            assessment = "收录于 CSCD 2025–2026 扩展库（E）。"
+            grade = "CSCD 扩展"
             grade_key = "moderate"
         elif scopus_status == "Active":
-            assessment = "当前 Scopus 来源状态为 Active；这只证明数据库覆盖，不等同于高分区或适合该稿件。"
-            grade = "当前收录证据"
+            assessment = "Scopus 2026年7月来源表状态为 Active。"
+            grade = "Scopus 收录"
             grade_key = "verified"
         elif scopus_status == "Inactive":
-            assessment = "当前不应标作 Scopus Active；如仍考虑投稿，需重新核验办刊状态及本单位认可范围。"
-            grade = "需谨慎"
+            coverage = str(scopus_record.get("Coverage") or "未注明")
+            assessment = f"Scopus 2026年7月来源表状态为 Inactive，登记覆盖范围为 {coverage}。"
+            grade = "历史收录"
             grade_key = "caution"
         else:
-            assessment = "尚无本页采用的当前核心收录证据；不得仅凭旧标签或出版社自述作质量结论。"
-            grade = "需补充核验"
+            assessment = "当前资料未显示 CSCD 2025–2026 或 Scopus 2026年7月收录状态。"
+            grade = "期刊资料"
             grade_key = "caution"
 
         item.update(
@@ -283,25 +284,25 @@ def journal_card(row: dict[str, object]) -> str:
     elif row["scopus_status"] == "Inactive":
         badges.append(badge("Scopus Inactive · 2026-07", "warn"))
     if row["official_author_url"]:
-        badges.append(badge("官方入口已记录", "source"))
+        badges.append(badge("已收录投稿链接", "source"))
     else:
-        badges.append(badge("投稿入口待核验", "warn"))
+        badges.append(badge("投稿链接待补充", "warn"))
 
-    evidence_text = "；".join(row["evidence"]) or "本页采用的当前核心收录证据待补充"
+    evidence_text = "；".join(row["evidence"]) or "未显示当前 CSCD 或 Scopus 收录信息"
     caution_html = ""
     if row["cautions"]:
         caution_html = (
-            '<div class="caution"><b>需谨慎</b><span>'
+            '<div class="caution"><b>补充说明</b><span>'
             + esc(" ".join(row["cautions"]))
             + "</span></div>"
         )
     if row["official_author_url"]:
         action = (
             f'<a class="official-link" href="{esc(row["official_author_url"])}" '
-            'target="_blank" rel="noreferrer">打开官方投稿入口 ↗</a>'
+            'target="_blank" rel="noreferrer">访问投稿页面 ↗</a>'
         )
     else:
-        action = '<span class="official-link disabled">官方投稿入口待核验</span>'
+        action = '<span class="official-link disabled">投稿链接待补充</span>'
 
     searchable = " ".join(
         str(row[key])
@@ -331,23 +332,23 @@ def journal_card(row: dict[str, object]) -> str:
     return f"""
             <details class="journal-card" data-search="{esc(searchable)}" data-filters="{esc(' '.join(filters))}">
               <summary>
-                <span class="journal-summary-main"><span class="journal-name">{esc(row['journal_name'])}</span><span class="scope-line">适合主题：{esc(row['soil_topic_scope'])}</span></span>
+                <span class="journal-summary-main"><span class="journal-name">{esc(row['journal_name'])}</span><span class="scope-line">相关方向：{esc(row['soil_topic_scope'])}</span></span>
                 <span class="summary-grade {esc(row['grade_key'])}">{esc(row['grade'])}</span>
               </summary>
               <div class="journal-body">
                 <div class="badges">{''.join(badges)}</div>
                 <div class="facts">
-                  <div><span>主办 / 出版</span><b>{esc(row['publisher'])}</b></div>
+                  <div><span>出版机构</span><b>{esc(row['publisher'])}</b></div>
                   <div><span>语种 / 地区</span><b>{esc(row['language_or_region'])}</b></div>
-                  <div><span>土壤研究范围</span><b>{esc(row['soil_topic_scope'])}</b></div>
-                  <div><span>官方资料状态</span><b>{esc(row['source_status'])} · {esc(row['source_accessed_at'])}</b></div>
+                  <div><span>相关研究方向</span><b>{esc(row['soil_topic_scope'])}</b></div>
+                  <div><span>信息更新</span><b>{esc(row['source_accessed_at'])}</b></div>
                 </div>
                 <div class="evaluation">
-                  <div><span>当前收录证据</span><b>{esc(evidence_text)}</b></div>
-                  <div><span>审慎评价</span><p>{esc(row['assessment'])}</p></div>
+                  <div><span>数据库收录</span><b>{esc(evidence_text)}</b></div>
+                  <div><span>收录说明</span><p>{esc(row['assessment'])}</p></div>
                 </div>
                 {caution_html}
-                <div class="card-action">{action}<span>证据核验：{EVIDENCE_DATE}</span></div>
+                <div class="card-action">{action}<span>更新于 {EVIDENCE_DATE}</span></div>
               </div>
             </details>"""
 
@@ -396,17 +397,17 @@ def build_html(rows: list[dict[str, object]]) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="228本土壤学相关期刊资料库：研究范围、出版社、官方投稿入口、主题适配与带年份的CSCD和Scopus收录证据。">
+  <meta name="description" content="土壤学相关期刊数据库，收录228本中文与国际期刊，提供研究方向、出版机构、投稿入口及CSCD和Scopus收录信息。">
   <meta name="theme-color" content="#0b5d4b">
   <link rel="canonical" href="https://hemusci.com/skills/soil-journal-format-review/">
-  <title>土壤学相关期刊资料库｜228本期刊详情与证据评价</title>
+  <title>土壤学相关期刊数据库｜228本期刊信息与投稿入口</title>
   <style>
     :root{{--ink:#15322c;--muted:#637873;--paper:#f7faf8;--line:rgba(20,78,65,.13);--green:#0f6b56;--deep:#0b3f35;--amber:#9a5a12;--red:#a13c32;--blue:#285e73;--shadow:0 20px 60px rgba(25,67,56,.1)}}
     *{{box-sizing:border-box}}html{{scroll-behavior:smooth}}body{{margin:0;color:var(--ink);background:var(--paper);font:15px/1.72 system-ui,-apple-system,"Segoe UI","Microsoft YaHei","PingFang SC",sans-serif;overflow-x:hidden}}body:before{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-2;background:radial-gradient(circle at 8% 4%,rgba(183,216,107,.23),transparent 28%),radial-gradient(circle at 92% 18%,rgba(46,154,120,.15),transparent 30%),linear-gradient(180deg,#f8fbf7,#f3f8f6 55%,#fbfcf8)}}body:after{{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.2;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='none' stroke='%230f6b56' stroke-opacity='.12'%3E%3Cpath d='M0 36h72M36 0v72'/%3E%3Ccircle cx='36' cy='36' r='1.5' fill='%230f6b56'/%3E%3C/g%3E%3C/svg%3E")}}
     a{{color:inherit}}button,input{{font:inherit}}.wrap{{width:min(1160px,calc(100% - 40px));margin:auto}}nav{{position:sticky;top:0;z-index:20;border-bottom:1px solid rgba(255,255,255,.58);background:rgba(247,250,248,.91);backdrop-filter:blur(18px)}}.nav{{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}}.brand{{display:flex;align-items:center;gap:11px;text-decoration:none;font-size:18px;font-weight:850;letter-spacing:-.03em}}.mark{{width:38px;height:38px;display:grid;place-items:center;border-radius:13px;color:white;background:linear-gradient(145deg,var(--green),#143f37)}}.mark svg{{width:23px;height:23px}}.nav-links{{display:flex;align-items:center;gap:22px}}.nav-links a{{color:#45625b;text-decoration:none;font-weight:700}}.nav-links .back{{padding:9px 14px;border-radius:12px;background:var(--green);color:white}}
     .hero{{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end;padding:68px 0 36px}}.eyebrow{{color:var(--green);font-size:12px;font-weight:850;letter-spacing:.16em;text-transform:uppercase}}.hero h1{{max-width:820px;margin:10px 0 16px;font-size:clamp(40px,5.5vw,64px);line-height:1.08;letter-spacing:-.055em}}.hero p{{max-width:780px;margin:0;color:var(--muted);font-size:18px}}.hero-number{{text-align:right;color:var(--muted)}}.hero-number b{{display:block;color:var(--green);font-size:72px;line-height:.9}}.hero-number span{{font-weight:720}}
     .scope-note{{display:flex;gap:12px;align-items:flex-start;padding:17px 19px;border:1px solid rgba(15,107,86,.13);border-radius:16px;background:rgba(255,255,255,.76);color:#506a64}}.scope-note b{{color:var(--ink);white-space:nowrap}}.stats{{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:22px 0 34px}}.stat{{padding:17px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.8)}}.stat b{{display:block;color:var(--green);font-size:25px;line-height:1}}.stat span{{display:block;margin-top:8px;color:var(--muted);font-size:12px}}
-    .method{{margin:0 0 28px;padding:26px;border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.82);box-shadow:var(--shadow)}}.method-head{{display:grid;grid-template-columns:1fr minmax(280px,.62fr);gap:34px;align-items:start}}.method h2{{margin:5px 0 9px;font-size:26px;letter-spacing:-.035em}}.method p{{margin:0;color:var(--muted)}}.method-grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px}}.method-item{{padding:15px;border-radius:14px;background:#f1f7f4}}.method-item b{{display:block;margin-bottom:4px}}.method-item span{{color:var(--muted);font-size:13px}}.method-warning{{padding:17px;border-radius:16px;background:#fff6e9;color:#724718}}.method-warning b{{display:block;color:#824d0f}}.method-warning a{{text-underline-offset:3px}}.source-row{{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}}.source-row a{{padding:7px 10px;border:1px solid var(--line);border-radius:10px;background:white;color:var(--green);font-size:12px;font-weight:760;text-decoration:none}}
+    .method{{margin:0 0 28px;padding:26px;border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.82);box-shadow:var(--shadow)}}.method-head{{display:grid;grid-template-columns:1fr minmax(280px,.62fr);gap:34px;align-items:start}}.method h2{{margin:5px 0 9px;font-size:26px;letter-spacing:-.035em}}.method p{{margin:0;color:var(--muted)}}.method-grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px}}.method-item{{padding:15px;border-radius:14px;background:#f1f7f4}}.method-item b{{display:block;margin-bottom:4px}}.method-item span{{color:var(--muted);font-size:13px}}.method-note{{padding:17px;border-radius:16px;background:#f1f7f4;color:#506a64}}.method-note b{{display:block;color:var(--ink);margin-bottom:3px}}.source-row{{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}}.source-row a{{padding:7px 10px;border:1px solid var(--line);border-radius:10px;background:white;color:var(--green);font-size:12px;font-weight:760;text-decoration:none}}
     .toolbar{{position:sticky;top:84px;z-index:10;margin:28px 0 16px;padding:14px;border:1px solid var(--line);border-radius:18px;background:rgba(247,250,248,.94);backdrop-filter:blur(14px);box-shadow:0 12px 30px rgba(25,67,56,.08)}}.toolbar-top{{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center}}.search{{width:100%;padding:13px 15px;border:1px solid var(--line);border-radius:13px;background:white;color:var(--ink)}}.search:focus{{outline:3px solid rgba(15,107,86,.2);border-color:rgba(15,107,86,.35)}}.result{{color:var(--muted);font-weight:760;white-space:nowrap}}.filters{{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}}.filter{{border:1px solid var(--line);border-radius:999px;padding:7px 11px;background:white;color:#4d6861;cursor:pointer;font-size:12px;font-weight:760}}.filter[aria-pressed="true"]{{border-color:var(--green);background:var(--green);color:white}}
     .journal-groups{{display:grid;gap:12px;padding-bottom:80px}}.journal-group{{overflow:hidden;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.78);box-shadow:0 9px 28px rgba(25,67,56,.04)}}.journal-group>summary{{display:flex;align-items:center;gap:20px;padding:18px 20px;cursor:pointer;list-style:none;font-size:16px;font-weight:810}}.journal-group>summary::-webkit-details-marker,.journal-card>summary::-webkit-details-marker{{display:none}}.journal-group>summary b{{margin-left:auto;color:var(--green);font-size:13px}}.journal-group>summary:after{{content:"＋";color:var(--green)}}.journal-group[open]>summary:after{{content:"－"}}.journal-cards{{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 14px 14px}}
     .journal-card{{border:1px solid var(--line);border-radius:14px;background:#fff;overflow:hidden}}.journal-card>summary{{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:start;min-height:103px;padding:15px;cursor:pointer;list-style:none}}.journal-card>summary:after{{content:"展开";grid-column:2;color:var(--green);font-size:11px;font-weight:760}}.journal-card[open]>summary:after{{content:"收起"}}.journal-summary-main{{min-width:0}}.journal-name{{display:block;font-weight:820;line-height:1.4}}.scope-line{{display:block;margin-top:5px;color:var(--muted);font-size:12px;line-height:1.55}}.summary-grade{{padding:5px 8px;border-radius:9px;font-size:11px;font-weight:820;white-space:nowrap}}.summary-grade.strong,.summary-grade.verified{{background:#e4f4ed;color:#0a664f}}.summary-grade.moderate{{background:#eef3dd;color:#596616}}.summary-grade.caution{{background:#fff0e4;color:#91441b}}.journal-body{{padding:0 15px 16px;border-top:1px solid var(--line)}}.badges{{display:flex;flex-wrap:wrap;gap:6px;padding:13px 0}}.badge{{padding:4px 7px;border-radius:7px;background:#eef3f1;color:#526b65;font-size:10px;font-weight:800}}.badge.good{{background:#e4f4ed;color:#0a664f}}.badge.mid{{background:#edf2d9;color:#586614}}.badge.warn{{background:#fff0e4;color:#97451c}}.badge.source{{background:#eaf2f6;color:#2b5e72}}.badge.fit-direct{{background:#dff1e9;color:#0b644f}}.badge.fit-adjacent{{background:#edf4e7;color:#50691f}}.badge.fit-broad{{background:#edf1f4;color:#49616c}}.facts{{display:grid;grid-template-columns:1fr 1fr;gap:10px}}.facts div,.evaluation>div{{padding:11px;border-radius:11px;background:#f5f8f6}}.facts span,.evaluation span{{display:block;margin-bottom:3px;color:var(--muted);font-size:10px;font-weight:760;text-transform:uppercase;letter-spacing:.04em}}.facts b{{display:block;font-size:12px;line-height:1.55}}.evaluation{{display:grid;grid-template-columns:.85fr 1.15fr;gap:10px;margin-top:10px}}.evaluation b,.evaluation p{{margin:0;font-size:12px;line-height:1.6}}.caution{{display:flex;gap:9px;margin-top:10px;padding:11px;border-radius:11px;background:#fff4e8;color:#764215;font-size:12px}}.caution b{{white-space:nowrap}}.card-action{{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-top:12px}}.official-link{{display:inline-flex;padding:8px 11px;border-radius:10px;background:var(--green);color:white;text-decoration:none;font-size:12px;font-weight:780}}.official-link.disabled{{background:#e8eeeb;color:#6b7d78}}.card-action>span{{color:var(--muted);font-size:10px}}[hidden]{{display:none!important}}
@@ -417,22 +418,22 @@ def build_html(rows: list[dict[str, object]]) -> str:
   </style>
 </head>
 <body>
-  <nav><div class="wrap nav"><a class="brand" href="/skills/"><span class="mark"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20V9m0 4c-4.6.2-7-2.1-7.2-6.8C9.4 6 11.8 8.3 12 13Zm0 3c4.6.2 7-2.1 7.2-6.8-4.6-.2-7 2.1-7.2 6.8Z" stroke="#efffe7" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Hemusci Skills</span></a><div class="nav-links"><a href="#method">评价口径</a><a href="#directory">期刊资料库</a><a class="back" href="/skills/">返回技能中心</a></div></div></nav>
+  <nav><div class="wrap nav"><a class="brand" href="/skills/"><span class="mark"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20V9m0 4c-4.6.2-7-2.1-7.2-6.8C9.4 6 11.8 8.3 12 13Zm0 3c4.6.2 7-2.1 7.2-6.8-4.6-.2-7 2.1-7.2 6.8Z" stroke="#efffe7" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Hemusci Skills</span></a><div class="nav-links"><a href="#method">数据来源</a><a href="#directory">浏览期刊</a><a class="back" href="/skills/">返回技能中心</a></div></div></nav>
   <main class="wrap">
-    <header class="hero"><div><div class="eyebrow">Skill 002 · Journal Intelligence</div><h1>土壤学相关期刊<br>详情与证据评价</h1><p>不再只给刊名。每本期刊均展示研究范围、主办或出版社、语种、官方投稿入口、主题适配，以及带版本日期的权威收录证据。</p></div><div class="hero-number"><b>228</b><span>本期刊资料卡</span></div></header>
-    <div class="scope-note"><b>边界说明</b><span>本页评价期刊资料与当前数据库收录证据，不对投稿命中率作承诺。排版审查技能仍只处理稿件形式，不评价或改写论文科学内容。</span></div>
-    <div class="stats" aria-label="资料库统计"><div class="stat"><b>228</b><span>完整期刊简介</span></div><div class="stat"><b>{counts['official']}</b><span>已记录官方入口</span></div><div class="stat"><b>{counts['cscd-c']}</b><span>CSCD 核心库 C</span></div><div class="stat"><b>{counts['cscd-e']}</b><span>CSCD 扩展库 E</span></div><div class="stat"><b>{counts['scopus-active']}</b><span>Scopus Active</span></div></div>
+    <header class="hero"><div><div class="eyebrow">Soil Journal Directory</div><h1>土壤学相关期刊<br>数据库</h1><p>收录中文及国际期刊 228 本，涵盖土壤、农业、环境、生态和地球科学等方向。可按刊名、研究主题或数据库收录状态检索。</p></div><div class="hero-number"><b>228</b><span>本收录期刊</span></div></header>
+    <div class="scope-note"><b>更新日期</b><span>2026年8月15日。期刊栏目和投稿要求可能调整，请以官方网站最新说明为准。</span></div>
+    <div class="stats" aria-label="资料库统计"><div class="stat"><b>228</b><span>收录期刊</span></div><div class="stat"><b>{counts['official']}</b><span>投稿链接</span></div><div class="stat"><b>{counts['cscd-c']}</b><span>CSCD 核心</span></div><div class="stat"><b>{counts['cscd-e']}</b><span>CSCD 扩展</span></div><div class="stat"><b>{counts['scopus-active']}</b><span>Scopus 收录</span></div></div>
     <section class="method" id="method">
-      <div class="method-head"><div><div class="eyebrow">Evidence, not stars</div><h2>评价看证据，不做主观星级</h2><p>“适不适合土壤研究”和“是否被当前权威数据库收录”分开判断。数据库收录也不等同于期刊分区、论文适配或单位认定。</p></div><div class="method-warning"><b>中科院分区不能写“2026版”</b><span>中国科学院文献情报中心已宣布自 2026 年起不再更新与发布期刊分区表；后续只能注明“2025 最后版”及核验来源。</span></div></div>
-      <div class="method-grid"><div class="method-item"><b>官方事实</b><span>主办/出版社、语种、研究范围、投稿入口和核验日期。</span></div><div class="method-item"><b>主题适配</b><span>直接土壤、土壤及邻近、综合交叉；不把跨学科刊误称为土壤专业刊。</span></div><div class="method-item"><b>当前收录</b><span>CSCD 2025–2026 与 Scopus 2026-07；核心库、扩展库、Active/Inactive 分开写。</span></div></div>
-      <div class="source-row"><a href="{CSCD_PAGE}" target="_blank" rel="noreferrer">CSCD 官方来源期刊 ↗</a><a href="{SCOPUS_PAGE}" target="_blank" rel="noreferrer">Scopus 官方来源表 ↗</a><a href="{MJL_PAGE}" target="_blank" rel="noreferrer">Web of Science MJL ↗</a><a href="{CAS_STOP_NOTICE}" target="_blank" rel="noreferrer">中科院分区停更声明 ↗</a></div>
+      <div class="method-head"><div><div class="eyebrow">Data Sources</div><h2>期刊信息与数据来源</h2><p>期刊资料整理自官方网站及公开数据库，并标注数据版本和更新时间。</p></div><div class="method-note"><b>数据版本</b><span>CSCD 2025–2026、Scopus 2026年7月来源表及 Web of Science Master Journal List。</span></div></div>
+      <div class="method-grid"><div class="method-item"><b>基本信息</b><span>期刊名称、出版机构、语种、研究方向和投稿入口。</span></div><div class="method-item"><b>研究方向</b><span>涵盖土壤学、农业、环境、生态与地球科学等主题。</span></div><div class="method-item"><b>数据库收录</b><span>显示 CSCD 与 Scopus 收录状态，并注明数据版本。</span></div></div>
+      <div class="source-row"><a href="{CSCD_PAGE}" target="_blank" rel="noreferrer">CSCD 来源期刊 ↗</a><a href="{SCOPUS_PAGE}" target="_blank" rel="noreferrer">Scopus 来源表 ↗</a><a href="{MJL_PAGE}" target="_blank" rel="noreferrer">Web of Science MJL ↗</a></div>
     </section>
     <section id="directory">
-      <div class="toolbar"><div class="toolbar-top"><label><span hidden>搜索期刊资料</span><input class="search" id="journalSearch" type="search" aria-label="搜索期刊名称、出版社或研究主题" placeholder="搜索刊名、出版社、研究主题或收录状态…" autocomplete="off"></label><span class="result" id="result" aria-live="polite">共 228 本</span></div><div class="filters" role="group" aria-label="期刊证据筛选"><button class="filter" data-filter="all" aria-pressed="true">全部 228</button><button class="filter" data-filter="cscd-c" aria-pressed="false">CSCD 核心 C · {counts['cscd-c']}</button><button class="filter" data-filter="cscd-e" aria-pressed="false">CSCD 扩展 E · {counts['cscd-e']}</button><button class="filter" data-filter="cscd-none" aria-pressed="false">中文未列入 CSCD · {counts['cscd-none']}</button><button class="filter" data-filter="scopus-active" aria-pressed="false">Scopus Active · {counts['scopus-active']}</button><button class="filter" data-filter="review" aria-pressed="false">需复核 · {counts['review']}</button></div></div>
+      <div class="toolbar"><div class="toolbar-top"><label><span hidden>搜索期刊资料</span><input class="search" id="journalSearch" type="search" aria-label="搜索期刊名称、出版社或研究主题" placeholder="搜索刊名、出版社、研究主题或收录状态…" autocomplete="off"></label><span class="result" id="result" aria-live="polite">共 228 本</span></div><div class="filters" role="group" aria-label="期刊筛选"><button class="filter" data-filter="all" aria-pressed="true">全部 228</button><button class="filter" data-filter="cscd-c" aria-pressed="false">CSCD 核心 · {counts['cscd-c']}</button><button class="filter" data-filter="cscd-e" aria-pressed="false">CSCD 扩展 · {counts['cscd-e']}</button><button class="filter" data-filter="cscd-none" aria-pressed="false">其他中文期刊 · {counts['cscd-none']}</button><button class="filter" data-filter="scopus-active" aria-pressed="false">Scopus 收录 · {counts['scopus-active']}</button><button class="filter" data-filter="review" aria-pressed="false">信息待完善 · {counts['review']}</button></div></div>
       <div class="journal-groups" id="journalGroups">{''.join(group_html)}</div>
     </section>
   </main>
-  <footer><div class="wrap foot"><p>© 2026 Hemusci · 期刊证据核验日期 {EVIDENCE_DATE}</p><p><a href="/skills/#install">安装 soil-journal-format-review →</a></p></div></footer>
+  <footer><div class="wrap foot"><p>© 2026 Hemusci · 数据更新于 {EVIDENCE_DATE}</p><p><a href="/skills/#install">安装期刊排版审查技能 →</a></p></div></footer>
   <script>
     const search=document.getElementById('journalSearch');
     const result=document.getElementById('result');
