@@ -11,4 +11,5 @@ dist/<skill-name>/<skill-name>-<version>.zip
 当前发布包：
 
 - `soil-third-survey-report/soil-third-survey-report-skill-20260814-v10.zip`
+- `soil-journal-format-review/soil-journal-format-review-skill-20260815-v2.zip`
 

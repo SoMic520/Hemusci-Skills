@@ -1,0 +1,4 @@
+interface:
+  display_name: "土壤学期刊排版与格式审查"
+  short_description: "按目标期刊要求排版、核查并交付格式修订稿与真实批注"
+  default_prompt: "使用 $soil-journal-format-review 按目标土壤学期刊要求审查并修订稿件格式，添加格式批注，同时保持全部科研内容不变。"

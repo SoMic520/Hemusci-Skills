@@ -1,0 +1,77 @@
+{
+  "policy": "Mappings are for local rendering QA only. Final DOCX must retain the target journal's exact font names.",
+  "families": {
+    "Noto Sans SC": {
+      "aliases": ["Noto Sans CJK SC"],
+      "macos_qa": ["Noto Sans SC", "PingFang SC"],
+      "windows_qa": ["Noto Sans SC", "Microsoft YaHei"],
+      "linux_qa": ["Noto Sans SC", "Noto Sans CJK SC"]
+    },
+    "Noto Serif SC": {
+      "aliases": ["Noto Serif CJK SC"],
+      "macos_qa": ["Noto Serif SC", "Songti SC"],
+      "windows_qa": ["Noto Serif SC", "SimSun"],
+      "linux_qa": ["Noto Serif SC", "Noto Serif CJK SC"]
+    },
+    "SimSun": {
+      "aliases": ["宋体"],
+      "macos_qa": ["Songti SC", "STSong"],
+      "windows_qa": ["SimSun"],
+      "linux_qa": ["Noto Serif CJK SC", "Source Han Serif SC"]
+    },
+    "SimHei": {
+      "aliases": ["黑体"],
+      "macos_qa": ["Heiti SC", "PingFang SC"],
+      "windows_qa": ["SimHei", "Microsoft YaHei"],
+      "linux_qa": ["Noto Sans CJK SC", "Source Han Sans SC"]
+    },
+    "KaiTi": {
+      "aliases": ["楷体", "楷体_GB2312"],
+      "macos_qa": ["Kaiti SC", "STKaiti"],
+      "windows_qa": ["KaiTi"],
+      "linux_qa": ["AR PL UKai CN", "Noto Serif CJK SC"]
+    },
+    "FangSong": {
+      "aliases": ["仿宋", "仿宋_GB2312"],
+      "macos_qa": ["STFangsong"],
+      "windows_qa": ["FangSong"],
+      "linux_qa": ["FandolFang", "Noto Serif CJK SC"]
+    },
+    "Microsoft YaHei": {
+      "aliases": ["微软雅黑"],
+      "macos_qa": ["PingFang SC", "Heiti SC"],
+      "windows_qa": ["Microsoft YaHei"],
+      "linux_qa": ["Noto Sans CJK SC", "Source Han Sans SC"]
+    },
+    "Times New Roman": {
+      "aliases": [],
+      "macos_qa": ["Times New Roman", "Times"],
+      "windows_qa": ["Times New Roman"],
+      "linux_qa": ["Liberation Serif", "Nimbus Roman"]
+    },
+    "Arial": {
+      "aliases": [],
+      "macos_qa": ["Arial", "Helvetica"],
+      "windows_qa": ["Arial"],
+      "linux_qa": ["Liberation Sans", "Nimbus Sans"]
+    },
+    "Calibri": {
+      "aliases": [],
+      "macos_qa": ["Calibri", "Arial"],
+      "windows_qa": ["Calibri", "Aptos"],
+      "linux_qa": ["Carlito", "Liberation Sans"]
+    },
+    "Cambria": {
+      "aliases": [],
+      "macos_qa": ["Cambria", "Times New Roman"],
+      "windows_qa": ["Cambria"],
+      "linux_qa": ["Caladea", "Liberation Serif"]
+    },
+    "Courier New": {
+      "aliases": [],
+      "macos_qa": ["Courier New", "Menlo"],
+      "windows_qa": ["Courier New", "Consolas"],
+      "linux_qa": ["Liberation Mono", "Nimbus Mono PS"]
+    }
+  }
+}

@@ -4,8 +4,10 @@ __pycache__/
 *.bak
 *.log
 .DS_Store
+._*
 Thumbs.db
 .idea/
 .vscode/
+.codex-tmp*/
 .soil-third-survey-*-stage/
 
