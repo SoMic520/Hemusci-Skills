@@ -12,6 +12,7 @@ dist/<skill-name>/<skill-name>-<version>.zip
 
 - `soil-third-survey-report/soil-third-survey-report-skill-20260814-v10.zip`
 - `soil-journal-format-review/soil-journal-format-review-skill-20260815-v3.zip`
+- `soil-methods-consultant/soil-methods-consultant-skill-20260816-v1.zip`
 
 历史归档：
 
