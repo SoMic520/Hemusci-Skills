@@ -6,7 +6,7 @@ Hemusci Skills 静态站点源码，正式入口为 `https://hemusci.com/skills/
 
 - `soil-journal-format-review` v3：覆盖 228 本中文、国际土壤学及可发表土壤研究的综合与交叉期刊；提供 DOCX 排版、格式审查、格式修订、真实 Word 批注、脚注/尾注、字体补齐和 LibreOffice 逐页验证。仅审查投稿形式，不审查论文质量或科学内容。
 - `soil-third-survey-report`：面向第三次全国土壤普查成果报告的结构诊断、术语规范、事实保真、修订与图表核查。
-- `soil-methods-consultant` v1：以六套本地校正语料和通过门禁的官方检测标准为依据，提供土壤试验方法咨询、选法、精确检索、计算、质控及HTML/PDF实验方案交付。
+- `soil-methods-consultant` v1：以六套本地已校正资料和19份完成复核的官方检测标准为依据，提供土壤试验方法咨询、选择、精确检索、计算、质控及HTML/PDF实验方案。
 
 ## 文件
 
