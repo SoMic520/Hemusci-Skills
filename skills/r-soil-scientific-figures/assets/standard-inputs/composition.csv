@@ -1,0 +1,13 @@
+sample_id,component,value,group,denominator,unit
+C1,Bacteria,52,Control,100,percent
+C1,Fungi,23,Control,100,percent
+C1,Archaea,15,Control,100,percent
+C1,Other,10,Control,100,percent
+C2,Bacteria,46,Compost,100,percent
+C2,Fungi,29,Compost,100,percent
+C2,Archaea,17,Compost,100,percent
+C2,Other,8,Compost,100,percent
+C3,Bacteria,49,Biochar,100,percent
+C3,Fungi,25,Biochar,100,percent
+C3,Archaea,20,Biochar,100,percent
+C3,Other,6,Biochar,100,percent

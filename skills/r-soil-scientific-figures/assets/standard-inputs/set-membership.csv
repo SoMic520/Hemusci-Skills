@@ -1,0 +1,13 @@
+item_id,set_id,present,group
+OTU01,Control,1,Bacteria
+OTU01,Compost,1,Bacteria
+OTU01,Biochar,0,Bacteria
+OTU02,Control,1,Bacteria
+OTU02,Compost,0,Bacteria
+OTU02,Biochar,1,Bacteria
+OTU03,Control,0,Fungi
+OTU03,Compost,1,Fungi
+OTU03,Biochar,1,Fungi
+OTU04,Control,1,Fungi
+OTU04,Compost,1,Fungi
+OTU04,Biochar,1,Fungi

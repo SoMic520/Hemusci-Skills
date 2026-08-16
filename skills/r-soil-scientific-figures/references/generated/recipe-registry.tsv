@@ -1,0 +1,315 @@
+id	name_en	name_zh	primary_family	schema_id	renderer	coverage_tier	required_packages	source_keys
+strip-plot	strip plot	条带点图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT;P-REVEAL-2019
+beeswarm-plot	beeswarm plot	蜂群点图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	P-REVEAL-2019
+quasirandom-plot	quasirandom dot plot	准随机点图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	P-REVEAL-2019
+sina-plot	Sina plot	西纳图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+dotplot-stacked	stacked dot plot	堆叠点图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+histogram	histogram	直方图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+frequency-polygon	frequency polygon	频数多边形图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+density-plot	kernel density plot	核密度图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+ecdf-plot	empirical cumulative distribution	经验累积分布图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+ccdf-plot	complementary CDF	互补累积分布图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+boxplot	box plot	箱线图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	P-REVEAL-2019
+notched-boxplot	notched box plot	凹口箱线图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+variable-width-boxplot	variable-width box plot	变宽箱线图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+letter-value-plot	letter-value plot	字母值图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+violin-plot	violin plot	小提琴图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	P-REVEAL-2019;R-GGPLOT-NEWS
+half-violin	half violin plot	半小提琴图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	P-RAINCLOUD
+beanplot	bean plot	豆荚图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+raincloud-plot	raincloud plot	雨云图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	P-RAINCLOUD
+ridgeline-plot	ridgeline density plot	山脊密度图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+rainfall-plot-genomics	rainfall plot	基因组雨落图	distribution	omics	genomic-rainfall	named-variant-validated	ggplot2;jsonlite;ragg	P-GENOMIC-TAXONOMY
+rug-plot	rug plot	边际地毯图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+qq-plot	quantile-quantile plot	Q-Q 图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+pp-plot	probability-probability plot	P-P 图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+quantile-dotplot	quantile dotplot	分位点阵图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGDIST
+half-eye-plot	half-eye plot	半眼图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGDIST
+spike-plot	spike plot	尖峰图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-GGDIST
+hdr-boxplot	highest-density-region boxplot	最高密度区箱图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+bagplot	bagplot	袋形图	distribution	xy	bagplot	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+violin-box-points	violin-box-point composite	小提琴-箱线-点组合图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	P-REVEAL-2019
+pirate-plot	pirate plot	海盗图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+bar-count	count bar chart	计数条形图	comparison	categorical	comparison	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+bar-value	value bar chart	数值条形图	comparison	categorical	comparison	named-variant-validated	ggplot2;jsonlite;ragg	P-REVEAL-2019
+grouped-bar	grouped bar chart	分组条形图	comparison	categorical	comparison	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+stacked-bar	stacked bar chart	堆叠条形图	composition	composition	composition	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+percent-stacked-bar	100 percent stacked bar	百分比堆叠条形图	composition	composition	composition	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-COMP
+diverging-stacked-bar	diverging stacked bar	发散堆叠条形图	comparison	categorical	comparison	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+cleveland-dotplot	Cleveland dot plot	克利夫兰点图	comparison	categorical	comparison	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+lollipop-chart	lollipop chart	棒棒糖图	comparison	categorical	comparison	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+dumbbell-plot	dumbbell plot	哑铃图	comparison	categorical	comparison	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+slopegraph	slopegraph	坡度图	comparison	categorical	comparison	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+bump-chart	bump chart	排名变化图	comparison	categorical	comparison	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+bullet-chart	bullet chart	子弹图	comparison	interval	bullet	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+waterfall-chart	waterfall chart	瀑布图	comparison	categorical	waterfall	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+pareto-chart	Pareto chart	帕累托图	comparison	categorical	comparison	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+paired-dotplot	paired dot plot	配对点图	comparison	categorical	comparison	named-variant-validated	ggplot2;jsonlite;ragg	P-ESTIMATION
+spaghetti-plot	spaghetti plot	意大利面条图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+superplot	SuperPlot	超级图	comparison	categorical	comparison	named-variant-validated	ggplot2;jsonlite;ragg	P-SUPERPLOT
+small-multiples	small multiples	小倍图	comparison	categorical	comparison	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+forest-plot	forest plot	森林图	effect-uncertainty	interval	interval	named-variant-validated	ggplot2;jsonlite;ragg	P-META-TAXONOMY
+caterpillar-plot	caterpillar plot	毛毛虫图	effect-uncertainty	interval	interval	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+interval-dotplot	interval dot plot	点区间图	effect-uncertainty	interval	interval	named-variant-validated	ggplot2;jsonlite;ragg	P-ESTIMATION
+gardner-altman	Gardner-Altman estimation plot	Gardner–Altman 估计图	effect-uncertainty	categorical	estimation	named-variant-validated	ggplot2;jsonlite;ragg	P-ESTIMATION
+cumming-estimation	Cumming estimation plot	Cumming 估计图	effect-uncertainty	categorical	estimation	named-variant-validated	ggplot2;jsonlite;ragg	P-ESTIMATION
+bootstrap-distribution	bootstrap estimate distribution	自助法估计分布图	effect-uncertainty	categorical	estimation	named-variant-validated	ggplot2;jsonlite;ragg	P-ESTIMATION
+hypothetical-outcome-plot	hypothetical outcome plot	假想结果图	effect-uncertainty	categorical	estimation	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-DYNAMICVISUALIZATIONS
+fan-chart	fan chart	扇形预测图	effect-uncertainty	time-series	temporal-uncertainty	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+funnel-plot	funnel plot	漏斗图	effect-uncertainty	meta-analysis	meta-analysis	named-variant-validated	ggplot2;jsonlite;ragg	P-META-TAXONOMY
+contour-enhanced-funnel	contour-enhanced funnel plot	等高增强漏斗图	effect-uncertainty	meta-analysis	meta-analysis	named-variant-validated	ggplot2;jsonlite;ragg	P-META-TAXONOMY
+galbraith-plot	Galbraith plot	加尔布雷思图	effect-uncertainty	meta-analysis	meta-analysis	named-variant-validated	ggplot2;jsonlite;ragg	P-META-TAXONOMY
+l-abbe-plot	L'Abbé plot	L'Abbé 图	effect-uncertainty	meta-analysis	meta-analysis	named-variant-validated	ggplot2;jsonlite;ragg	P-META-TAXONOMY
+baujat-plot	Baujat plot	Baujat 图	effect-uncertainty	meta-analysis	meta-analysis	named-variant-validated	ggplot2;jsonlite;ragg	P-META-TAXONOMY
+drapery-plot	drapery plot	帷幕图	effect-uncertainty	meta-analysis	meta-analysis	named-variant-validated	ggplot2;jsonlite;ragg	P-META-TAXONOMY
+specification-curve	specification curve	规格曲线	effect-uncertainty	interval	interval	named-variant-validated	ggplot2;jsonlite;ragg	P-MULTIVERSE-2026
+multiverse-plot	multiverse plot	多宇宙图	effect-uncertainty	interval	interval	named-variant-validated	ggplot2;jsonlite;ragg	P-MULTIVERSE-2026
+vibration-of-effects	vibration of effects plot	效应振动图	effect-uncertainty	interval	interval	named-variant-validated	ggplot2;jsonlite;ragg	P-MULTIVERSE-2026
+scatterplot	scatter plot	散点图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+bubble-chart	bubble chart	气泡图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+hexbin-plot	hexbin plot	六边形分箱图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+rect-bin2d	rectangular 2D bin plot	二维矩形分箱图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+density-2d	2D density contour	二维密度等高图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+density-raster	2D density raster	二维密度栅格图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+scatter-density	scatter density plot	点密度着色散点图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+connected-scatter	connected scatterplot	连接散点图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+regression-line	regression scatter with interval	回归散点及区间图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+loess-plot	LOESS smooth plot	LOESS 平滑图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+gam-smooth	GAM smooth effect plot	GAM 平滑效应图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+response-surface	response surface	响应面图	relationship	spatial-grid	response-surface	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-AGRI
+ternary-response	ternary response contour	三元响应等高图	relationship	ternary	ternary-response	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-COMP
+correlation-matrix	correlation matrix plot	相关矩阵图	relationship	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+scatterplot-matrix	scatterplot matrix	散点图矩阵	relationship	multivariate-long	multivariate-pairs	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+parallel-coordinates	parallel coordinates	平行坐标图	multivariate	multivariate-long	multivariate	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+andrews-curves	Andrews curves	安德鲁斯曲线	multivariate	multivariate-long	multivariate	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+radar-chart	radar chart	雷达图	multivariate	multivariate-long	multivariate	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+star-glyph	star glyph plot	星形符号图	multivariate	multivariate-long	multivariate	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+ternary-plot	ternary plot	三元图	composition	ternary	ternary	named-variant-validated	ggplot2;jsonlite;ragg	R-SOILTEXTURE;R-CTV-COMP
+pca-biplot	PCA biplot	PCA 双标图	multivariate	ordination	ordination	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+pcoa-plot	PCoA plot	主坐标分析图	multivariate	ordination	ordination	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+nmds-plot	NMDS ordination	NMDS 排序图	multivariate	ordination	ordination	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+rda-triplot	RDA triplot	RDA 三标图	multivariate	ordination	ordination	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+cca-triplot	CCA triplot	CCA 三标图	multivariate	ordination	ordination	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+dbrda-plot	dbRDA ordination	距离约束排序图	multivariate	ordination	ordination	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+ordination-hull	ordination convex hull	排序凸包图	multivariate	ordination	ordination	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+ordination-ellipse	ordination ellipse	排序椭圆图	multivariate	ordination	ordination	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+ordination-spider	ordination spider plot	排序蜘蛛图	multivariate	ordination	ordination	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+variation-partition	variation partition diagram	变异分解图	multivariate	set-membership	set-membership	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+line-chart	line chart	折线图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+step-chart	step chart	阶梯图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+area-chart	area chart	面积图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+stacked-area	stacked area chart	堆叠面积图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+streamgraph	streamgraph	流图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-DYNAMICVISUALIZATIONS
+horizon-chart	horizon graph	地平线图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-DYNAMICVISUALIZATIONS
+lasagna-plot	lasagna plot	千层面图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+calendar-heatmap	calendar heatmap	日历热图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+event-timeline	event timeline	事件时间线	temporal	events	events	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+gantt-chart	Gantt chart	甘特图	temporal	events	events	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+phenology-wheel	phenology wheel	物候轮图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-AGRI
+seasonal-subseries	seasonal subseries plot	季节子序列图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+autocorrelation-plot	autocorrelation plot	自相关图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+partial-autocorrelation	partial autocorrelation plot	偏自相关图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+lag-plot	lag plot	滞后图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+change-point-plot	change-point plot	变点图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+control-chart	control chart	控制图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+run-chart	run chart	运行图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+survival-km	Kaplan-Meier curve	Kaplan–Meier 曲线	temporal	survival	survival	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+cumulative-incidence	cumulative incidence curve	累积发生曲线	temporal	survival	survival	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+swimmer-plot	swimmer plot	泳道图	temporal	events	events	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+lexis-diagram	Lexis diagram	Lexis 图	temporal	events	events	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+state-sequence	state sequence plot	状态序列图	temporal	state-series	state-series	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+alluvial-plot	alluvial plot	冲积图	flow	flow	flow	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+sankey-diagram	Sankey diagram	桑基图	flow	flow	flow	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-DYNAMICVISUALIZATIONS
+parallel-sets	parallel sets	平行集合图	flow	flow	flow	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+chord-diagram	chord diagram	弦图	flow	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+riverplot	river plot	河流图	flow	flow	flow	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+pie-chart	pie chart	饼图	composition	composition	composition	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+donut-chart	donut chart	环形图	composition	composition	composition	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+waffle-chart	waffle chart	华夫图	composition	composition	composition	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+pictogram-chart	pictogram chart	象形单位图	composition	composition	composition	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+treemap	treemap	矩形树图	hierarchy	hierarchy	hierarchy	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+sunburst	sunburst chart	旭日图	hierarchy	hierarchy	hierarchy	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-DYNAMICVISUALIZATIONS
+icicle-plot	icicle plot	冰柱图	hierarchy	hierarchy	hierarchy	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-DYNAMICVISUALIZATIONS
+marimekko	Marimekko plot	马赛克矩形图	composition	composition	composition	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+mosaic-plot	mosaic plot	马赛克图	matrix	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+association-plot	association plot	关联图	matrix	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+fluctuation-diagram	fluctuation diagram	波动图	matrix	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+heatmap	heatmap	热图	matrix	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-COMPLEXHEATMAP
+clustered-heatmap	clustered heatmap	聚类热图	matrix	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-COMPLEXHEATMAP
+annotated-heatmap	annotated heatmap	注释热图	matrix	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-COMPLEXHEATMAP
+dot-heatmap	dot heatmap	点阵热图	matrix	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+distance-matrix	distance matrix heatmap	距离矩阵热图	matrix	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+confusion-matrix	confusion matrix heatmap	混淆矩阵图	matrix	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+hinton-diagram	Hinton diagram	辛顿图	matrix	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+upset-plot	UpSet plot	UpSet 集合图	set	set-membership	set-membership	named-variant-validated	ggplot2;jsonlite;ragg	R-COMPLEXHEATMAP
+venn-diagram	Venn diagram	维恩图	set	set-membership	set-membership	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+euler-diagram	Euler diagram	欧拉图	set	set-membership	set-membership	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+oncoprint	OncoPrint	肿瘤突变矩阵图	matrix	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-COMPLEXHEATMAP
+node-link-network	node-link network	节点—连线网络图	network	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+directed-network	directed network	有向网络图	network	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+weighted-network	weighted network	加权网络图	network	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+bipartite-network	bipartite network	二分网络图	network	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+arc-diagram	arc diagram	弧线图	network	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-GGPLOT
+hive-plot	hive plot	蜂巢网络图	network	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+adjacency-matrix	adjacency matrix plot	邻接矩阵图	network	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-COMPLEXHEATMAP
+network-small-multiples	network small multiples	网络小倍图	network	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+dendrogram	dendrogram	树状聚类图	hierarchy	hierarchy	hierarchy	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+phylogram	phylogram	系统发育树图	hierarchy	hierarchy	hierarchy	named-variant-validated	ggplot2;jsonlite;ragg	R-GGTREE
+fan-tree	fan phylogenetic tree	扇形系统发育树	hierarchy	hierarchy	hierarchy	named-variant-validated	ggplot2;jsonlite;ragg	R-GGTREE
+unrooted-tree	unrooted phylogenetic tree	无根系统发育树	hierarchy	hierarchy	hierarchy	named-variant-validated	ggplot2;jsonlite;ragg	R-GGTREE
+tree-heatmap	phylogenetic tree with heatmap	树—热图组合	hierarchy	hierarchy	hierarchy	named-variant-validated	ggplot2;jsonlite;ragg	R-GGTREE
+tanglegram	tanglegram	纠缠树图	hierarchy	hierarchy	hierarchy	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+cophylogeny-plot	cophylogeny plot	共系统发育图	hierarchy	hierarchy	hierarchy	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+heat-tree	heat tree	热树图	hierarchy	hierarchy	hierarchy	named-variant-validated	ggplot2;jsonlite;ragg	P-METACODER
+sample-location-map	sample location map	采样点位图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+choropleth-map	choropleth map	分区设色图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+proportional-symbol-map	proportional symbol map	比例符号地图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+dot-density-map	dot density map	点密度地图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+raster-map	raster map	栅格地图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+categorical-raster-map	categorical raster map	分类栅格图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+contour-map	contour map	等值线图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+filled-contour-map	filled contour map	填色等值线图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+hillshade-map	hillshade map	地形晕渲图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+terrain-map	terrain elevation map	地形高程图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+slope-aspect-map	slope/aspect map	坡度/坡向图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+vector-field-map	vector field map	矢量场地图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+flow-map	flow map	流向地图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+kernel-density-map	spatial kernel density map	空间核密度图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+hotspot-map	hotspot/LISA map	热点/LISA 图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+cartogram	cartogram	变形地图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+hex-tile-map	hex tile map	六边形瓦片地图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+bivariate-map	bivariate choropleth	双变量分区图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+uncertainty-map	uncertainty map	不确定性地图	spatial-prediction	spatial-grid	spatial-prediction	named-variant-validated	ggplot2;jsonlite;ragg	P-DSM-UNCERTAINTY-2024
+prediction-map	prediction map	预测地图	spatial-prediction	spatial-grid	spatial-prediction	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+residual-map	spatial residual map	空间残差图	spatial-prediction	spatial-grid	spatial-prediction	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+applicability-domain-map	area of applicability map	适用域地图	spatial-prediction	spatial-grid	spatial-prediction	named-variant-validated	ggplot2;jsonlite;ragg	R-CAST
+spatial-cv-map	spatial cross-validation folds	空间交叉验证分区图	spatial-prediction	spatial-grid	spatial-prediction	named-variant-validated	ggplot2;jsonlite;ragg	R-CAST
+variogram	empirical variogram	经验变异函数图	spatial-prediction	variogram	variogram	named-variant-validated	ggplot2;jsonlite;ragg	R-GSTAT
+fitted-variogram	fitted variogram	拟合变异函数图	spatial-prediction	variogram	variogram	named-variant-validated	ggplot2;jsonlite;ragg	R-GSTAT
+directional-variogram	directional variogram	方向变异函数图	spatial-prediction	variogram	variogram	named-variant-validated	ggplot2;jsonlite;ragg	R-GSTAT
+variogram-cloud	variogram cloud	变异函数云图	spatial-prediction	variogram	variogram	named-variant-validated	ggplot2;jsonlite;ragg	R-GSTAT
+cross-variogram	cross-variogram	交叉变异函数图	spatial-prediction	variogram	variogram	named-variant-validated	ggplot2;jsonlite;ragg	R-GSTAT
+depth-slice-maps	depth-slice map small multiples	深度切片地图组	spatial-profile	spatial-grid	spatial-profile	named-variant-validated	ggplot2;jsonlite;ragg	P-SOIL-LANDSCAPE-2025
+soil-cross-section	soil property cross-section	土壤属性剖面截面图	spatial-profile	spatial-grid	spatial-profile	named-variant-validated	ggplot2;jsonlite;ragg	P-SOIL-LANDSCAPE-2025
+space-time-cube	space-time cube	时空立方体	spatial-temporal	spatial-grid	spatial-temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+hovmoller-diagram	Hovmöller diagram	霍夫默勒图	spatial-temporal	spatial-grid	spatial-temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+geofacet-map	geofaceted small multiples	地理分面图	spatial	spatial-grid	spatial	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+scatterpie-map	spatial scatterpie map	空间饼图符号地图	spatial-composition	spatial-grid	spatial-composition	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+scatterbar-map	spatial scatterbar map	空间条形符号地图	spatial-composition	spatial-grid	spatial-composition	named-variant-validated	ggplot2;jsonlite;ragg	P-SCATTERBAR-2025
+soil-profile-sketch	soil profile sketch	土壤剖面草图	profile	profile	profile	named-variant-validated	ggplot2;jsonlite;ragg	R-AQP-PLOT
+grouped-soil-profiles	grouped soil profile plot	分组土壤剖面图	profile	profile	profile	named-variant-validated	ggplot2;jsonlite;ragg	R-AQP
+soil-depth-profile	soil property depth profile	土壤属性深度曲线	profile	profile	profile	named-variant-validated	ggplot2;jsonlite;ragg	R-AQP
+mass-preserving-spline-profile	mass-preserving spline profile	等质量保持样条深度图	profile	profile	profile	named-variant-validated	ggplot2;jsonlite;ragg	R-AQP
+depth-property-heatmap	depth-property heatmap	深度—属性热图	profile	profile	profile	named-variant-validated	ggplot2;jsonlite;ragg	R-COMPLEXHEATMAP
+soil-texture-triangle	soil texture triangle	土壤质地三角图	composition	ternary	ternary	named-variant-validated	ggplot2;jsonlite;ragg	R-SOILTEXTURE
+soil-color-profile	soil color profile	土色剖面图	profile	profile	profile	named-variant-validated	ggplot2;jsonlite;ragg	R-AQP
+catena-diagram	soil catena diagram	土壤链/坡面序列图	profile	profile	profile	named-variant-validated	ggplot2;jsonlite;ragg	R-AQP
+stratigraphic-log	stratigraphic log	地层柱状图	profile	profile	profile	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+particle-size-cumulative	particle-size cumulative curve	粒径累计曲线	soil-physics	xy	soil-physics	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+pore-size-distribution	pore-size distribution	孔径分布图	distribution	categorical	distribution	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+water-retention-curve	soil water retention curve	土壤水分特征曲线	soil-physics	xy	soil-physics	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+hydraulic-conductivity-curve	hydraulic conductivity curve	导水率曲线	soil-physics	xy	soil-physics	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+infiltration-curve	infiltration curve	入渗曲线	soil-physics	xy	soil-physics	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+breakthrough-curve	breakthrough curve	穿透曲线	soil-physics	xy	soil-physics	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+penetration-resistance-profile	penetration resistance profile	贯入阻力深度图	profile	profile	profile	named-variant-validated	ggplot2;jsonlite;ragg	R-AQP
+aggregate-size-composition	aggregate-size composition plot	团聚体粒级组成图	composition	composition	composition	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-COMP
+soil-moisture-depth-time	soil moisture depth-time heatmap	土壤水分深度—时间热图	spatial-temporal	spatial-grid	spatial-temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+soil-gas-flux-series	soil gas flux time series	土壤气体通量时序图	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+cumulative-emissions	cumulative emissions curve	累积排放曲线	temporal	time-series	temporal	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+incubation-kinetics	incubation kinetic curve	培养动力学曲线	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+adsorption-isotherm	adsorption isotherm	吸附等温线	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+dose-response-curve	dose-response curve	剂量—响应曲线	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-AGRI
+cate-nelson-plot	Cate-Nelson plot	Cate–Nelson 临界值图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	P-SOIL-R-2025
+piper-diagram	Piper diagram	Piper 水化学图	composition	hydrochemistry	hydrochemistry	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+schoeller-diagram	Schoeller diagram	Schoeller 图	composition	hydrochemistry	hydrochemistry	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+stiff-diagram	Stiff diagram	Stiff 图	composition	hydrochemistry	hydrochemistry	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+durov-diagram	Durov diagram	Durov 图	composition	hydrochemistry	hydrochemistry	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+gibbs-diagram	Gibbs diagram	Gibbs 图	relationship	hydrochemistry	hydrochemistry	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+rank-abundance	rank-abundance curve	等级—丰度曲线	ecology	ecology-community	ecology	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+species-abundance-distribution	species abundance distribution	物种丰度分布图	ecology	ecology-community	ecology	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+species-accumulation	species accumulation curve	物种累积曲线	ecology	ecology-community	ecology	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+rarefaction-curve	rarefaction curve	稀释曲线	ecology	ecology-community	ecology	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+coverage-rarefaction	coverage-based rarefaction	覆盖度稀释/外推图	ecology	ecology-community	ecology	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+alpha-diversity-plot	alpha diversity raw-data plot	α 多样性图	ecology	ecology-community	ecology	named-variant-validated	ggplot2;jsonlite;ragg	R-PHYLOSEQ
+beta-dispersion-plot	beta dispersion plot	β 离散度图	ecology	ordination	ordination	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+permanova-effect-plot	PERMANOVA effect summary	PERMANOVA 效应汇总图	effect-uncertainty	interval	interval	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+envfit-ordination	ordination with environmental vectors	环境向量排序图	multivariate	ordination	ordination	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+fourth-corner-heatmap	fourth-corner heatmap	第四角热图	matrix	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+co-inertia-plot	co-inertia plot	协惯量分析图	multivariate	ordination	ordination	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+procrustes-plot	Procrustes plot	Procrustes 配置比较图	multivariate	ordination	ordination	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN
+microbiome-composition	microbiome composition plot	微生物组组成图	composition	composition	composition	named-variant-validated	ggplot2;jsonlite;ragg	R-MICROVIZ
+prevalence-abundance	prevalence-abundance plot	出现率—丰度图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-PHYLOSEQ
+taxonomic-tree-bar	taxonomic tree with abundance bars	分类树—丰度条组合图	hierarchy	hierarchy	hierarchy	named-variant-validated	ggplot2;jsonlite;ragg	R-GGTREE
+differential-abundance-effect	differential abundance effect plot	差异丰度效应图	effect-uncertainty	interval	interval	named-variant-validated	ggplot2;jsonlite;ragg	R-BIOC
+ma-plot	MA plot	MA 图	omics	omics	omics	named-variant-validated	ggplot2;jsonlite;ragg	R-BIOC
+volcano-plot	volcano plot	火山图	omics	omics	omics	named-variant-validated	ggplot2;jsonlite;ragg	R-BIOC
+manhattan-plot	Manhattan plot	曼哈顿图	omics	omics	omics	named-variant-validated	ggplot2;jsonlite;ragg	P-GENOMIC-TAXONOMY
+miami-plot	Miami plot	迈阿密图	omics	omics	omics	named-variant-validated	ggplot2;jsonlite;ragg	P-GENOMIC-TAXONOMY
+regional-association	regional association plot	区域关联图	omics	genomic	genomic	named-variant-validated	ggplot2;jsonlite;ragg	P-GENOMIC-TAXONOMY
+karyogram	karyogram	核型图	omics	genomic	genomic	named-variant-validated	ggplot2;jsonlite;ragg	P-GENOMIC-TAXONOMY
+circos-plot	Circos plot	Circos 环形基因组图	omics	genomic	genomic	named-variant-validated	ggplot2;jsonlite;ragg	P-GENOMIC-TAXONOMY
+genome-track	genome track plot	基因组轨道图	omics	genomic	genomic	named-variant-validated	ggplot2;jsonlite;ragg	P-GENOMIC-TAXONOMY
+sashimi-plot	Sashimi plot	Sashimi 剪接图	omics	genomic	genomic	named-variant-validated	ggplot2;jsonlite;ragg	P-GENOMIC-TAXONOMY
+sequence-logo	sequence logo	序列标识图	omics	sequence-logo	sequence-logo	named-variant-validated	ggplot2;jsonlite;ragg	P-GGSEQLOGO
+mutation-lollipop	mutation lollipop plot	突变棒棒糖图	omics	genomic	genomic	named-variant-validated	ggplot2;jsonlite;ragg	P-GENOMIC-TAXONOMY
+copy-number-segment	copy-number segment plot	拷贝数分段图	omics	genomic	genomic	named-variant-validated	ggplot2;jsonlite;ragg	P-GENOMIC-TAXONOMY
+fishplot	fish plot	鱼图	flow	flow	flow	named-variant-validated	ggplot2;jsonlite;ragg	R-BIOC
+muller-plot	Muller plot	Muller 演化图	flow	flow	flow	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+enrichment-dotplot	enrichment dot plot	富集点图	matrix	matrix	matrix	named-variant-validated	ggplot2;jsonlite;ragg	R-BIOC
+enrichment-map	enrichment map	富集网络图	network	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-BIOC
+cnetplot	category-gene network	类别—基因网络图	network	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-BIOC
+gsea-running-score	GSEA running-score plot	GSEA 运行富集得分图	omics	omics	omics	named-variant-validated	ggplot2;jsonlite;ragg	R-BIOC
+hydrograph	hydrograph	流量过程线	hydrology	hydrology	hydrology	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+hyetograph	hyetograph	降雨过程图	hydrology	hydrology	hydrology	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+hydrograph-hyetograph	aligned hydrograph and hyetograph	雨量—流量对齐面板	hydrology	hydrology	hydrology	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+flow-duration-curve	flow duration curve	流量历时曲线	hydrology	hydrology	hydrology	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+rating-curve	rating curve	水位—流量关系曲线	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+double-mass-curve	double mass curve	双累积曲线	hydrology	hydrology	hydrology	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+hysteresis-loop	hysteresis loop	迟滞环图	relationship	xy	relationship	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-HYDRO
+wind-rose	wind rose	风向玫瑰图	polar	wind	wind	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+pollution-rose	pollution rose	污染玫瑰图	polar	wind	wind	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+polar-annulus	polar annulus plot	极坐标环带图	polar	wind	wind	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+taylor-diagram	Taylor diagram	泰勒图	model-diagnostic	diagnostic	diagnostic	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+target-diagram	target diagram	目标图	model-diagnostic	diagnostic	diagnostic	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+walter-lieth	Walter-Lieth climate diagram	Walter–Lieth 气候图	temporal	climate	climate	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-ENV
+spectral-signature	spectral signature plot	光谱曲线图	remote-sensing	spectral	spectral	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+derivative-spectrum	derivative spectrum	导数光谱图	remote-sensing	spectral	spectral	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-CHEMPHYS
+hyperspectral-cube	hyperspectral data cube	高光谱数据立方体	image-volume	image	image-volume	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+spectral-coefficient-plot	spectral coefficient plot	光谱系数图	model-diagnostic	interval	interval	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-CHEMPHYS
+observed-predicted	observed versus predicted plot	观测—预测图	model-diagnostic	diagnostic	diagnostic	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+residual-fitted	residuals versus fitted	残差—拟合值图	model-diagnostic	diagnostic	diagnostic	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+scale-location	scale-location plot	尺度—位置图	model-diagnostic	diagnostic	diagnostic	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+leverage-plot	residual leverage plot	残差—杠杆值图	model-diagnostic	diagnostic	diagnostic	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+cooks-distance	Cook's distance plot	Cook 距离图	model-diagnostic	diagnostic	diagnostic	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+roc-curve	ROC curve	ROC 曲线	model-diagnostic	classification	classification	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+precision-recall	precision-recall curve	精确率—召回率曲线	model-diagnostic	classification	classification	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+calibration-plot	calibration plot	校准图	model-diagnostic	classification	classification	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+decision-curve	decision curve analysis	决策曲线图	model-diagnostic	classification	classification	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+lift-gain	lift/gain chart	提升/增益图	model-diagnostic	classification	classification	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+pdp-plot	partial dependence plot	部分依赖图	model-interpretation	interpretation	interpretation	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+ice-plot	individual conditional expectation	个体条件期望图	model-interpretation	interpretation	interpretation	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+ale-plot	accumulated local effects	累积局部效应图	model-interpretation	interpretation	interpretation	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+variable-importance	variable importance plot	变量重要性图	model-interpretation	interpretation	interpretation	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+shap-beeswarm	SHAP beeswarm plot	SHAP 蜂群图	model-interpretation	interpretation	interpretation	named-variant-validated	ggplot2;jsonlite;ragg	P-DSM-UNCERTAINTY-2024
+shap-dependence	SHAP dependence plot	SHAP 依赖图	model-interpretation	interpretation	interpretation	named-variant-validated	ggplot2;jsonlite;ragg	P-DSM-UNCERTAINTY-2024
+shap-waterfall	SHAP waterfall plot	SHAP 瀑布图	model-interpretation	interpretation	interpretation	named-variant-validated	ggplot2;jsonlite;ragg	P-DSM-UNCERTAINTY-2024
+posterior-predictive-check	posterior predictive check	后验预测检验图	model-diagnostic	mcmc	mcmc-diagnostic	named-variant-validated	ggplot2;jsonlite;ragg	R-GGDIST
+trace-plot	MCMC trace plot	MCMC 轨迹图	model-diagnostic	mcmc	mcmc-diagnostic	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+rank-histogram	MCMC rank histogram	MCMC 秩直方图	model-diagnostic	mcmc	mcmc-diagnostic	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+bland-altman	Bland-Altman plot	Bland–Altman 一致性图	model-diagnostic	diagnostic	diagnostic	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+nomogram	nomogram	列线图	model-interpretation	interpretation	interpretation	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+sem-path	SEM path diagram	结构方程路径图	schematic	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-GRAPHICALMODELS
+causal-dag	causal DAG	因果有向无环图	schematic	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-CAUSALINFERENCE
+workflow-diagram	workflow diagram	工作流程图	schematic	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+experimental-design-diagram	experimental design diagram	试验设计图	schematic	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-AGRI
+conceptual-model	conceptual model diagram	概念模型图	schematic	network	network	named-variant-validated	ggplot2;jsonlite;ragg	P-JAMBOR-2025
+consort-flow	study flow diagram	研究流程图	schematic	network	network	named-variant-validated	ggplot2;jsonlite;ragg	R-CTVS
+image-montage	image montage	影像拼版图	image	image	image	named-variant-validated	ggplot2;jsonlite;ragg	P-IMAGE-2024
+multichannel-overlay	multichannel image overlay	多通道叠加图	image	image	image	named-variant-validated	ggplot2;jsonlite;ragg	P-IMAGE-2024
+segmentation-overlay	segmentation overlay	分割叠加图	image	image	image	named-variant-validated	ggplot2;jsonlite;ragg	P-IMAGE-2024
+kymograph	kymograph	时空线扫描图	image-volume	image	image-volume	named-variant-validated	ggplot2;jsonlite;ragg	P-IMAGE-2024
+orthogonal-slices	orthogonal slice view	正交切片图	image-volume	image	image-volume	named-variant-validated	ggplot2;jsonlite;ragg	P-IMAGE-2024
+maximum-intensity-projection	maximum intensity projection	最大强度投影图	image-volume	image	image-volume	named-variant-validated	ggplot2;jsonlite;ragg	P-IMAGE-2024
+isosurface	isosurface plot	等值面图	image-volume	image	image-volume	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+surface-3d	3D surface plot	三维曲面图	image-volume	image	image-volume	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+point-cloud-3d	3D point cloud	三维点云图	image-volume	image	image-volume	named-variant-validated	ggplot2;jsonlite;ragg	R-CTV-SPATIAL
+mantel-correlogram	Mantel correlogram with matrix links	Mantel 相关矩阵—连线复合图	matrix	matrix-links	mantel-composite	named-variant-validated	ggplot2;jsonlite;ragg	R-VEGAN;R-GGPLOT

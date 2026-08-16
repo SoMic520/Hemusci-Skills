@@ -1,0 +1,13 @@
+observation_id,truth,score,group,predicted_class,weight
+C01,1,0.95,Test,1,1
+C02,1,0.86,Test,1,1
+C03,0,0.78,Test,1,1
+C04,1,0.72,Test,1,1
+C05,0,0.61,Test,1,1
+C06,1,0.55,Test,1,1
+C07,0,0.42,Test,0,1
+C08,1,0.38,Test,0,1
+C09,0,0.27,Test,0,1
+C10,0,0.16,Test,0,1
+C11,0,0.08,Test,0,1
+C12,1,0.66,Test,1,1

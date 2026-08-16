@@ -1,0 +1,21 @@
+reference_pattern	archive_scope	skill_recipe_ids	adopted_structure	not_inherited
+雨云/半小提琴/原始点/箱线	2024	raincloud-plot;half-violin;violin-box-points;half-eye-plot	分布、原始观测和稳健摘要分层并避免互相遮挡	固定 12/15 pt 字号和装饰性冗余
+PCA/PCoA/RDA/CCA 加置信圈	2024;2025;2026;amplicon	pca-biplot;pcoa-plot;nmds-plot;rda-triplot;cca-triplot;ordination-ellipse;ordination-spider;envfit-ordination	样点、质心/轨迹、置信区域和变量箭头分层	从截图推断检验或把所有组都强制画椭圆
+Mantel 相关矩阵加连线	2024;2026;amplicon	mantel-correlogram	矩阵单元与跨表距离关联用不同图层、线型和线宽编码	固定阈值、无限制置换和未校正多重检验
+分类树加丰度/注释轨	2024;2025	tree-heatmap;taxonomic-tree-bar;heat-tree	树拓扑、tip 键、连续轨和分组轨显式对齐	按当前行序拼接或依赖导出后手工错位修正
+环形树/层级网络	2024;2026	fan-tree;phylogram;unrooted-tree;heat-tree	hierarchy key、节点值和层级编码分离	仅为美观把普通层级机械弯曲
+地图加采样点/嵌套区域	2024;2025	sample-location-map;proportional-symbol-map;scatterpie-map;scatterbar-map;geofacet-map	空间位置、符号大小和分组采用独立语义	无 CRS、用半径代替面积或装饰性北箭头
+相对丰度与绝对丰度组合	2024;2025;amplicon	stacked-bar;percent-stacked-bar;microbiome-composition;prevalence-abundance;taxonomic-tree-bar	比例、绝对量和出现率不混为同一轴	闭合效应未说明或把相对丰度当绝对丰度
+树/热图/棒棒糖/条形组合	2024;2025	tree-heatmap;taxonomic-tree-bar;clustered-heatmap;dot-heatmap;enrichment-dotplot	共享键、排序、尺度和图例语义	在 AI/PS 中手工拼接后失去可复现性
+分组配对点与显著性	2024;2025;amplicon	paired-dotplot;dumbbell-plot;slopegraph;superplot;gardner-altman	保留配对 ID、原始点和组级估计	没有模型结果时自动生成星号/字母
+多因子分面与非等宽面板	2024;2025	small-multiples;scatterplot-matrix;lasagna-plot;horizon-chart	实际分面数进入字号和有效面板宽度计算	所有图用同一固定字号
+环形多轨/弦图	2024	circos-plot;chord-diagram;polar-annulus;sunburst	只在周期、层级、基因组或流向语义成立时启用极坐标	普通柱状图装饰性圆化
+网络正负关联	2024;amplicon	node-link-network;weighted-network;bipartite-network;adjacency-matrix;network-small-multiples	边权、符号、方向和节点集合显式输入	从相关性暗示因果或隐藏阈值
+热图与双侧注释	2024;2025;amplicon	clustered-heatmap;annotated-heatmap;fourth-corner-heatmap;association-plot	值、显著性、聚类顺序和注释分别记录	把聚类后的矩阵覆盖为新原始数据
+时间序列局部放大/分段/误差	2024;2025;2026	line-chart;spaghetti-plot;change-point-plot;fan-chart;horizon-chart	真实时间间隔、subject_id、区间和分面进入输入契约	跨缺测默认连线或用固定双轴
+火山/曼哈顿/多组差异	2024;2025;2026;amplicon	volcano-plot;manhattan-plot;miami-plot;rainfall-plot-genomics;regional-association	阈值是显示参数，模型结果来自输入	模板内部重新做未记录的差异检验
+扩增子排序与多样性	amplicon	alpha-diversity-plot;rank-abundance;species-accumulation;rarefaction-curve;coverage-rarefaction	实验单位、抽平/变换、距离和置换限制必须记录	运行时安装包、固定 Windows 路径和把技术重复当 n
+圆堆积/Voronoi/词云等装饰图	2024	treemap;sunburst;hex-tile-map	只吸收确有层级/空间任务的结构，不扩大为默认推荐	把装饰布局列为土壤论文首选
+三元与水化学图	2024;2025	ternary-plot;soil-texture-triangle;piper-diagram;durov-diagram	闭合、组分定义和当量单位进入校验	按行序猜离子或混用质量浓度和当量
+多通道/3D/影像	2024	multichannel-overlay;image-montage;orthogonal-slices;maximum-intensity-projection;point-cloud-3d	通道、切片、校准和体素含义显式保留	仅凭截图补造体数据或隐藏图像处理
+导出与跨平台	all	all recipes	PDF 与 PNG、会话、清单、验证数据和标准输入一并输出	setwd、绝对路径、绘图脚本中安装依赖和导出后手修

@@ -1,0 +1,194 @@
+{
+  "host_system": "Darwin",
+  "target_system": "Darwin",
+  "machine": "arm64",
+  "profiles": [
+    "core",
+    "publication"
+  ],
+  "rscript": "/usr/local/bin/Rscript",
+  "r_install_source": "Homebrew formula (official Homebrew registry)",
+  "r_install_command": [
+    "/opt/homebrew/bin/brew",
+    "install",
+    "r"
+  ],
+  "official_r_pages": {
+    "macOS": "https://cran.r-project.org/bin/macosx/",
+    "Windows": "https://cran.r-project.org/bin/windows/base/"
+  },
+  "requested_cran_packages": [
+    "ggplot2",
+    "jsonlite",
+    "ragg",
+    "scales",
+    "systemfonts",
+    "sysfonts",
+    "showtext",
+    "svglite",
+    "colorspace",
+    "viridisLite",
+    "patchwork",
+    "dplyr",
+    "tidyr",
+    "broom"
+  ],
+  "requested_bioconductor_packages": [],
+  "actions": [
+    {
+      "install_packages_exit_code": 0,
+      "stdout_tail": "\nThe downloaded binary packages are in\n\t/var/folders/1m/g4ccj4mn247f95n2trfdcxtr0000gn/T//RtmpeHlvkq/downloaded_packages\n",
+      "stderr_tail": "also installing the dependencies ‘purrr’, ‘backports’\n\ntrying URL 'https://cloud.r-project.org/bin/macosx/big-sur-arm64/contrib/4.4/purrr_1.2.1.tgz'\nContent type 'application/x-gzip' length 586578 bytes (572 KB)\n==================================================\ndownloaded 572 KB\n\ntrying URL 'https://cloud.r-project.org/bin/macosx/big-sur-arm64/contrib/4.4/backports_1.5.0.tgz'\nContent type 'application/x-gzip' length 121000 bytes (118 KB)\n==================================================\ndownloaded 118 KB\n\ntrying URL 'https://cloud.r-project.org/bin/macosx/big-sur-arm64/contrib/4.4/patchwork_1.3.2.tgz'\nContent type 'application/x-gzip' length 3349549 bytes (3.2 MB)\n==================================================\ndownloaded 3.2 MB\n\ntrying URL 'https://cloud.r-project.org/bin/macosx/big-sur-arm64/contrib/4.4/tidyr_1.3.2.tgz'\nContent type 'application/x-gzip' length 1313386 bytes (1.3 MB)\n==================================================\ndownloaded 1.3 MB\n\ntrying URL 'https://cloud.r-project.org/bin/macosx/big-sur-arm64/contrib/4.4/broom_1.0.12.tgz'\nContent type 'application/x-gzip' length 1782350 bytes (1.7 MB)\n==================================================\ndownloaded 1.7 MB\n\n"
+    }
+  ],
+  "before": {
+    "command_ok": true,
+    "version": "R version 4.4.3 (2025-02-28)",
+    "platform": "aarch64-apple-darwin20",
+    "packages": {
+      "ggplot2": {
+        "installed": true,
+        "version": "3.5.2"
+      },
+      "jsonlite": {
+        "installed": true,
+        "version": "2.0.0"
+      },
+      "ragg": {
+        "installed": true,
+        "version": "1.3.2"
+      },
+      "scales": {
+        "installed": true,
+        "version": "1.4.0"
+      },
+      "systemfonts": {
+        "installed": true,
+        "version": "1.2.3"
+      },
+      "sysfonts": {
+        "installed": true,
+        "version": "0.8.9"
+      },
+      "showtext": {
+        "installed": true,
+        "version": "0.9.8"
+      },
+      "svglite": {
+        "installed": true,
+        "version": "2.2.1"
+      },
+      "colorspace": {
+        "installed": true,
+        "version": "2.1.1"
+      },
+      "viridisLite": {
+        "installed": true,
+        "version": "0.4.2"
+      },
+      "patchwork": {
+        "installed": false,
+        "version": null
+      },
+      "dplyr": {
+        "installed": true,
+        "version": "1.1.4"
+      },
+      "tidyr": {
+        "installed": false,
+        "version": null
+      },
+      "broom": {
+        "installed": false,
+        "version": null
+      }
+    },
+    "fonts": {
+      "Times New Roman": true,
+      "Songti SC": true,
+      "STSong": true,
+      "SimSun": false,
+      "宋体": false
+    },
+    "stderr": ""
+  },
+  "missing_before": [
+    "patchwork",
+    "tidyr",
+    "broom"
+  ],
+  "after": {
+    "command_ok": true,
+    "version": "R version 4.4.3 (2025-02-28)",
+    "platform": "aarch64-apple-darwin20",
+    "packages": {
+      "ggplot2": {
+        "installed": true,
+        "version": "3.5.2"
+      },
+      "jsonlite": {
+        "installed": true,
+        "version": "2.0.0"
+      },
+      "ragg": {
+        "installed": true,
+        "version": "1.3.2"
+      },
+      "scales": {
+        "installed": true,
+        "version": "1.4.0"
+      },
+      "systemfonts": {
+        "installed": true,
+        "version": "1.2.3"
+      },
+      "sysfonts": {
+        "installed": true,
+        "version": "0.8.9"
+      },
+      "showtext": {
+        "installed": true,
+        "version": "0.9.8"
+      },
+      "svglite": {
+        "installed": true,
+        "version": "2.2.1"
+      },
+      "colorspace": {
+        "installed": true,
+        "version": "2.1.1"
+      },
+      "viridisLite": {
+        "installed": true,
+        "version": "0.4.2"
+      },
+      "patchwork": {
+        "installed": true,
+        "version": "1.3.2"
+      },
+      "dplyr": {
+        "installed": true,
+        "version": "1.1.4"
+      },
+      "tidyr": {
+        "installed": true,
+        "version": "1.3.2"
+      },
+      "broom": {
+        "installed": true,
+        "version": "1.0.12"
+      }
+    },
+    "fonts": {
+      "Times New Roman": true,
+      "Songti SC": true,
+      "STSong": true,
+      "SimSun": false,
+      "宋体": false
+    },
+    "stderr": ""
+  },
+  "missing_after": [],
+  "status": "PASS",
+  "windows_note": "Command construction is tested cross-platform; execute on a real Windows host for runtime certification."
+}

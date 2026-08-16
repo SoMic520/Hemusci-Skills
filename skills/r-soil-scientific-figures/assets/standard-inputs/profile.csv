@@ -1,0 +1,9 @@
+profile_id,top_cm,bottom_cm,depth_cm,horizon,property,value,unit,group
+P1,0,10,5,A,soil_organic_carbon,18.2,g kg^-1,Control
+P1,10,30,20,AB,soil_organic_carbon,12.5,g kg^-1,Control
+P1,30,60,45,Bt,soil_organic_carbon,7.4,g kg^-1,Control
+P1,60,100,80,C,soil_organic_carbon,3.1,g kg^-1,Control
+P2,0,10,5,A,soil_organic_carbon,22.0,g kg^-1,Compost
+P2,10,30,20,AB,soil_organic_carbon,15.4,g kg^-1,Compost
+P2,30,60,45,Bt,soil_organic_carbon,8.8,g kg^-1,Compost
+P2,60,100,80,C,soil_organic_carbon,3.7,g kg^-1,Compost

@@ -1,0 +1,17 @@
+sample_id,variable,value,group,unit
+P1,pH,5.4,Control,standardized later
+P1,SOC,8.6,Control,standardized later
+P1,Clay,22,Control,standardized later
+P1,Moisture,18,Control,standardized later
+P2,pH,5.8,Control,standardized later
+P2,SOC,9.2,Control,standardized later
+P2,Clay,27,Control,standardized later
+P2,Moisture,21,Control,standardized later
+P3,pH,6.3,Compost,standardized later
+P3,SOC,11.4,Compost,standardized later
+P3,Clay,31,Compost,standardized later
+P3,Moisture,26,Compost,standardized later
+P4,pH,6.6,Compost,standardized later
+P4,SOC,12.1,Compost,standardized later
+P4,Clay,34,Compost,standardized later
+P4,Moisture,29,Compost,standardized later

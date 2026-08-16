@@ -1,0 +1,7 @@
+event_id,subject_id,start,end,label,group,state,value
+E01,Core-1,0,4,Incubation,Control,Running,4
+E02,Core-1,4,6,Sampling,Control,Complete,2
+E03,Core-2,1,5,Incubation,Compost,Running,4
+E04,Core-2,5,8,Sampling,Compost,Complete,3
+E05,Core-3,0,3,Pre-treatment,Biochar,Complete,3
+E06,Core-3,3,9,Monitoring,Biochar,Running,6

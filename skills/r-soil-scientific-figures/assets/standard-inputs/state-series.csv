@@ -1,0 +1,13 @@
+subject_id,time,state,group,duration
+P1,0,Dry,Control,1
+P1,1,Moist,Control,2
+P1,3,Wet,Control,2
+P1,5,Moist,Control,2
+P2,0,Moist,Compost,2
+P2,2,Wet,Compost,2
+P2,4,Moist,Compost,2
+P2,6,Dry,Compost,1
+P3,0,Dry,Biochar,2
+P3,2,Dry,Biochar,1
+P3,3,Moist,Biochar,3
+P3,6,Wet,Biochar,1

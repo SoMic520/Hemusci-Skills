@@ -5,7 +5,7 @@
 **面向科研写作、专业报告、数据分析与成果交付的智能体技能库**
 
 <p>
-  <img src="https://img.shields.io/badge/Skills-3-2563EB?style=for-the-badge" alt="Skills 3">
+  <img src="https://img.shields.io/badge/Skills-4-2563EB?style=for-the-badge" alt="Skills 4">
   <img src="https://img.shields.io/badge/Agent%20Skills-Compatible-7C3AED?style=for-the-badge" alt="Agent Skills Compatible">
   <img src="https://img.shields.io/badge/Language-中文-E11D48?style=for-the-badge" alt="中文">
   <img src="https://img.shields.io/badge/Status-持续扩展-0F766E?style=for-the-badge" alt="持续扩展">
@@ -26,6 +26,7 @@
 | [soil-third-survey-report](skills/soil-third-survey-report/) | 稳定 | v10 | 第三次全国土壤普查省、市、县级专业报告撰写、重构、逐段审查、DOCX修订与批注交付 |
 | [soil-journal-format-review](skills/soil-journal-format-review/) | 稳定 | v3 | 土壤学及可发表土壤研究的综合期刊投稿排版、格式审查、DOCX修订与批注；不审查文章质量和内容 |
 | [soil-methods-consultant](skills/soil-methods-consultant/) | 稳定 | v1 | 基于本地已校正资料和官方标准，提供土壤试验方法咨询、方法选择、精确检索、计算及HTML/PDF实验方案 |
+| [r-soil-scientific-figures](skills/r-soil-scientific-figures/) | 稳定 | v1 | 土壤及相关学科科研图选型、统计分析、截图复刻、314图谱检索与R三格式最小可复现交付 |
 
 后续技能统一加入 `skills/<skill-name>/`，发布包置于 `dist/<skill-name>/`。仓库根目录只保留技能索引、版本记录和公共说明。
 
@@ -88,6 +89,21 @@
 
 详细规则见 [技能入口](skills/soil-methods-consultant/SKILL.md)。
 
+## 📊 r-soil-scientific-figures
+
+面向土壤、农业、生态、环境、生物地球化学、水文、地学、微生物组、遥感、GIS和地统计研究，按照研究设计与数据结构选择图形、完成统计分析、复刻论文截图并生成期刊级R图。
+
+主要能力：
+
+- 建立314种图形、29个图族和35种输入规范的可检索图谱，并按研究问题、变量类型和实验设计选图。
+- 支持显著性箱线图、柱状图、土壤剖面、深度区间图、网络、排序、群落、空间、预测和多面板图。
+- 将用户原始数据整理为代码直接运行的标准Excel，只保留作图和分析必需字段并保留真实单位。
+- 每图默认交付无注释与中文详注R代码、标准输入表、矢量PDF、600 dpi白底PNG、600 dpi白底LZW TIFF和一段式中文图注。
+- 根据最终物理版面动态计算字号、边距和标注位置，使用中英文兼容字体、完整四周边框与防重叠布局。
+- 独立R脚本检测并安装缺失的CRAN包，兼顾macOS和Windows路径、字体与用户包库。
+
+详细规则见 [技能入口](skills/r-soil-scientific-figures/SKILL.md)。
+
 ## ⚡ 一键安装
 
 ### 1. 准备 GitHub CLI
@@ -112,6 +128,7 @@ winget upgrade --id GitHub.cli --exact
 gh skill preview SoMic520/Hemusci-Skills soil-third-survey-report
 gh skill preview SoMic520/Hemusci-Skills soil-journal-format-review
 gh skill preview SoMic520/Hemusci-Skills soil-methods-consultant
+gh skill preview SoMic520/Hemusci-Skills r-soil-scientific-figures
 ```
 
 ### 2. 安装到常用智能体
@@ -149,6 +166,17 @@ gh skill preview SoMic520/Hemusci-Skills soil-methods-consultant
 | Cursor | `gh skill install SoMic520/Hemusci-Skills soil-methods-consultant --agent cursor --scope user` |
 | OpenCode | `gh skill install SoMic520/Hemusci-Skills soil-methods-consultant --agent opencode --scope user` |
 
+#### r-soil-scientific-figures
+
+| 智能体 | 用户级安装命令 |
+|---|---|
+| Codex | `gh skill install SoMic520/Hemusci-Skills r-soil-scientific-figures --agent codex --scope user` |
+| Claude Code | `gh skill install SoMic520/Hemusci-Skills r-soil-scientific-figures --agent claude-code --scope user` |
+| GitHub Copilot | `gh skill install SoMic520/Hemusci-Skills r-soil-scientific-figures --agent github-copilot --scope user` |
+| Gemini CLI | `gh skill install SoMic520/Hemusci-Skills r-soil-scientific-figures --agent gemini-cli --scope user` |
+| Cursor | `gh skill install SoMic520/Hemusci-Skills r-soil-scientific-figures --agent cursor --scope user` |
+| OpenCode | `gh skill install SoMic520/Hemusci-Skills r-soil-scientific-figures --agent opencode --scope user` |
+
 安装到当前项目时，将 `--scope user` 改为 `--scope project`。GitHub CLI还支持Qwen Code、Kimi CLI、Cline、Windsurf等智能体，完整标识以 [`gh skill install` 官方手册](https://cli.github.com/manual/gh_skill_install)为准。
 
 更新与检查：
@@ -158,6 +186,7 @@ gh skill list --scope user
 gh skill update soil-third-survey-report
 gh skill update soil-journal-format-review
 gh skill update soil-methods-consultant
+gh skill update r-soil-scientific-figures
 ```
 
 ### 3. 手动安装备用方式
@@ -174,6 +203,8 @@ Copy-Item -Recurse -Force .\Hemusci-Skills\skills\soil-journal-format-review `
   "$env:USERPROFILE\.codex\skills\soil-journal-format-review"
 Copy-Item -Recurse -Force .\Hemusci-Skills\skills\soil-methods-consultant `
   "$env:USERPROFILE\.codex\skills\soil-methods-consultant"
+Copy-Item -Recurse -Force .\Hemusci-Skills\skills\r-soil-scientific-figures `
+  "$env:USERPROFILE\.codex\skills\r-soil-scientific-figures"
 ```
 
 macOS / Linux：
@@ -184,6 +215,7 @@ mkdir -p ~/.codex/skills
 cp -R Hemusci-Skills/skills/soil-third-survey-report ~/.codex/skills/
 cp -R Hemusci-Skills/skills/soil-journal-format-review ~/.codex/skills/
 cp -R Hemusci-Skills/skills/soil-methods-consultant ~/.codex/skills/
+cp -R Hemusci-Skills/skills/r-soil-scientific-figures ~/.codex/skills/
 ```
 
 Claude Code的个人技能目录为 `~/.claude/skills/`，项目技能目录为 `.claude/skills/`；目录规则见 [Claude Code Skills官方文档](https://code.claude.com/docs/en/slash-commands)。
@@ -193,7 +225,7 @@ Claude Code的个人技能目录为 `~/.claude/skills/`，项目技能目录为 
 不支持Agent Skills目录发现机制的平台，可按知识库方式接入：
 
 1. 从[当前发布包](#-当前发布包)选择目标技能并下载解压。
-2. 上传 `SKILL.md` 和 `references/` 全部文件；需处理DOCX时同时上传 `scripts/`。
+2. 上传 `SKILL.md` 和 `references/` 全部文件；需要执行文档、数据或绘图流程时同时上传对应的 `assets/` 和 `scripts/`。
 3. 根据目标技能选择对应的最高优先级指令。
 
 ### soil-third-survey-report 接入指令
@@ -225,6 +257,15 @@ DOCX 修订前必须执行安全、结构、脚注尾注、字体和内容基线
 精确保留方法层级、文字、公式、化学式、单位、上下标和PDF页码；默认生成简要、可执行的HTML与A4 PDF实验方案。
 ```
 
+### r-soil-scientific-figures 接入指令
+
+```text
+完整读取 r-soil-scientific-figures/SKILL.md，并按研究设计和图形任务加载对应 references、assets 和 scripts。
+先把用户数据整理成代码直接读取的标准输入表，再从数据校验、统计分析和图形选型开始生成R代码。
+每图默认只交付两份逻辑一致的R脚本、标准输入XLSX、白底PDF/600 dpi PNG/600 dpi LZW TIFF和一段式中文图注TXT。
+字体、字号、显著性标记、完整边框、深度方向和标签避让必须在最终物理尺寸下实绘验证；不得编造样本、单位、P值或误差类型。
+```
+
 ## 🗂️ 仓库结构
 
 ```text
@@ -237,9 +278,15 @@ Hemusci-Skills/
 │  │  ├─ assets/
 │  │  ├─ references/
 │  │  └─ scripts/
-│  └─ soil-methods-consultant/
+│  ├─ soil-methods-consultant/
+│  │  ├─ SKILL.md
+│  │  ├─ agents/
+│  │  ├─ references/
+│  │  └─ scripts/
+│  └─ r-soil-scientific-figures/
 │     ├─ SKILL.md
 │     ├─ agents/
+│     ├─ assets/
 │     ├─ references/
 │     └─ scripts/
 ├─ dist/
@@ -247,8 +294,10 @@ Hemusci-Skills/
 │  │  └─ soil-third-survey-report-skill-20260814-v10.zip
 │  ├─ soil-journal-format-review/
 │  │  └─ soil-journal-format-review-skill-20260815-v3.zip
-│  └─ soil-methods-consultant/
-│     └─ soil-methods-consultant-skill-20260816-v1.zip
+│  ├─ soil-methods-consultant/
+│  │  └─ soil-methods-consultant-skill-20260816-v1.zip
+│  └─ r-soil-scientific-figures/
+│     └─ r-soil-scientific-figures-skill-20260816-v1.zip
 ├─ CHANGELOG.md
 └─ README.md
 ```
@@ -275,6 +324,8 @@ skills/<skill-name>/
 - SHA-256：`012AEB8A7BE32D96C1BD7EBFEACC3EDF0139DFCF842D8B8DFEEC4E76B4BA9069`
 - [soil-methods-consultant v1](dist/soil-methods-consultant/soil-methods-consultant-skill-20260816-v1.zip)
 - SHA-256：`490DE7D187A93DB1EBBF41A06D3BA6FC7FD40EAF3EF7DC93F02442725F902E8A`
+- [r-soil-scientific-figures v1](dist/r-soil-scientific-figures/r-soil-scientific-figures-skill-20260816-v1.zip)
+- SHA-256：`205EDAD0BF1C3B8DAD6E7D66491C6518A305FC8A7EE33749A31764EFEC2473FA`
 
 ## 🔐 数据与权限
 

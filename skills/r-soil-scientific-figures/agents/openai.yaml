@@ -1,0 +1,4 @@
+interface:
+  display_name: "R 土壤与环境科研绘图"
+  short_description: "土壤及相关学科科研图选型、复刻、统计分析与最小可复现交付"
+  default_prompt: "使用 $r-soil-scientific-figures 根据研究设计和用户数据生成期刊级 R 图、直接运行表与三格式最小交付包。"

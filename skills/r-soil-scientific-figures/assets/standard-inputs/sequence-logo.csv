@@ -1,0 +1,17 @@
+position,symbol,frequency,group,information_bits
+1,A,0.60,All,1.20
+1,C,0.15,All,0.30
+1,G,0.15,All,0.30
+1,T,0.10,All,0.20
+2,A,0.10,All,0.20
+2,C,0.65,All,1.30
+2,G,0.15,All,0.30
+2,T,0.10,All,0.20
+3,A,0.20,All,0.40
+3,C,0.15,All,0.30
+3,G,0.55,All,1.10
+3,T,0.10,All,0.20
+4,A,0.15,All,0.30
+4,C,0.10,All,0.20
+4,G,0.15,All,0.30
+4,T,0.60,All,1.20

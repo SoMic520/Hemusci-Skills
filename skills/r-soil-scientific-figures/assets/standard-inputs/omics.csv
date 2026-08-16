@@ -1,0 +1,13 @@
+feature_id,log2_fold_change,p_value,adjusted_p_value,mean_abundance,chromosome,position,group,category
+F001,2.4,0.0002,0.004,120,1,12000,Treatment,up
+F002,1.7,0.0020,0.018,95,1,45000,Treatment,up
+F003,0.4,0.2200,0.410,80,1,82000,Treatment,ns
+F004,-2.1,0.0005,0.006,110,2,15000,Treatment,down
+F005,-1.5,0.0040,0.025,72,2,52000,Treatment,down
+F006,0.2,0.6500,0.780,60,2,91000,Treatment,ns
+F007,2.8,0.0001,0.003,145,3,18000,Treatment,up
+F008,-0.7,0.0800,0.170,52,3,61000,Treatment,ns
+F009,1.2,0.0120,0.049,88,4,26000,Treatment,up
+F010,-2.5,0.0003,0.005,130,4,76000,Treatment,down
+F011,0.1,0.8800,0.920,44,5,33000,Treatment,ns
+F012,-1.1,0.0180,0.060,67,5,87000,Treatment,ns

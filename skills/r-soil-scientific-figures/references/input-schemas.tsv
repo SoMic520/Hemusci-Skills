@@ -1,0 +1,36 @@
+schema_id	purpose	required_columns	optional_columns	validation_notes
+categorical	groups, distributions, comparisons and polar summaries	sample_id;group;value	block;treatment;variable;unit;label	one row per observed experimental unit unless a lower-level observation is explicitly identified
+interval	estimates, contrasts, forest plots and uncertainty	label;estimate;lower;upper	group;reference;unit;interval_type	lower <= estimate <= upper; name interval type and level
+xy	relationships, curves and two-variable models	sample_id;x;y	group;label;size;x_unit;y_unit	rows must share observation grain; x and y units must be explicit
+time-series	time, repeated-measure and hydrological plots	sample_id;time;value	group;subject_id;unit;lower;upper	keep actual time spacing and identify repeated subjects; lower/upper must name their interval type when used
+composition	part-to-whole and taxonomic composition	sample_id;component;value	group;denominator;unit	state whether values are counts, proportions or percentages; do not silently close to 100
+matrix	long-form heatmaps, association matrices and omics matrices	row_id;column_id;value	row_group;column_group;unit	one unique row-column cell; record scaling and clustering outside the raw input
+ordination	ordination scores and biplots	element_type;label;axis1;axis2	group;sample_id;axis1_label;axis2_label	separate site/sample scores from variable arrows; record method, distance and scaling
+flow	alluvial, Sankey and transition plots	path_id;stage;state;value	group	one row per path-stage; stages must have an explicit order
+hierarchy	trees, treemaps and nested summaries	node_id;label;value	parent_id;group;level;track_control;track_compost;track_biochar	parent IDs must exist or be blank roots; values must have one aggregation meaning; optional track columns are plot-ready tip annotations rather than inferred values
+set-membership	Venn, Euler and UpSet inputs	item_id;set_id;present	group	present must be 0/1 or FALSE/TRUE; retain item identity
+network	networks and schematic graphs	from;to	weight;from_group;to_group;direction	nodes referenced by edges must be resolvable; network inference is not performed by the renderer
+spatial-grid	maps, uncertainty, space-depth and image-like grids	x;y;value	uncertainty;class;unit;crs;time;slice;component;u;v	coordinates, CRS, resolution, NoData and support domain must be documented; vector fields require u/v components
+profile	soil horizons and property-depth profiles	profile_id;top_cm;bottom_cm;property;value	depth_cm;horizon;unit;group	top_cm <= bottom_cm; depth increases downward; horizons within a profile are dependent
+spectral	remote-sensing or laboratory spectra	sample_id;wavelength_nm;value	group;unit	state reflectance/absorbance/continuum removal and preprocessing
+diagnostic	model diagnostics, calibration and agreement	observation_id;observed;predicted	fitted;residual;group;lower;upper	values must come from a documented fitted model or validation split
+image	image, slice and voxel-derived intensity tables	x;y;intensity	channel;slice;unit	retain original image separately; record calibration, bit depth and all processing
+ternary	soil texture and other three-part compositions	sample_id;part_a;part_b;part_c	group;label;total	parts must use the same basis and close to the declared total within tolerance
+omics	volcano, MA and Manhattan-like result plots	feature_id;log2_fold_change;p_value	adjusted_p_value;mean_abundance;chromosome;position;group;category	inputs must come from a documented model; thresholds are display parameters, not re-analysis
+mcmc	MCMC chain ranks and posterior diagnostics	draw_id;parameter;chain;value	iteration;warmup;weight	one row per retained draw; identify chains and parameter; diagnose with ESS and R-hat in addition to graphics
+events	event timelines, Gantt charts and swimmer plots	event_id;subject_id;start;end;label	group;state;value	start <= end; state whether time is elapsed, calendar or age scale
+survival	time-to-event and competing-risk displays	subject_id;time;status	group;event_type	status/event coding, censoring and risk-set definition must be documented
+meta-analysis	meta-analysis diagnostics and study-level effect displays	study_id;effect;se	variance;event_treatment;total_treatment;event_control;total_control;moderator	one row per independent study effect; identify effect measure and dependence
+multivariate-long	parallel coordinates, Andrews curves, radar and glyphs	sample_id;variable;value	group;unit	one row per sample-variable cell; record centering/scaling and missing-data handling
+hydrochemistry	Piper, Schoeller, Stiff, Durov and Gibbs diagrams	sample_id;analyte;value	ion_type;group;unit	ions must use a documented molar/equivalent basis; charge-balance checks remain mandatory
+ecology-community	community rank, accumulation, rarefaction and diversity displays	sample_id;species;abundance	group;effort	one row per sample-species cell; sampling effort and zero/absence semantics must be explicit
+variogram	empirical and fitted variogram displays	lag;semivariance	direction;pairs;model_semivariance;variable_pair	lag distance units, estimator, binning, direction and model parameters must be recorded
+classification	ROC, precision-recall, calibration, decision and lift curves	observation_id;truth;score	group;predicted_class;weight	truth/positive class, evaluation split, threshold direction and prevalence must be documented
+interpretation	PDP, ICE, ALE, feature importance and SHAP displays	observation_id;feature;feature_value;effect	importance;lower;upper;group	values must come from a documented fitted model and background/evaluation sample
+climate	Walter-Lieth and climate summary diagrams	time;temperature;precipitation	station;year;temperature_unit;precipitation_unit	monthly aggregation, station, period and missing-month handling must be explicit
+wind	wind and pollution rose diagrams	direction_deg;speed;frequency	pollutant;group;unit	direction convention, calm handling, bin edges and normalization must be explicit
+sequence-logo	sequence logos by position and symbol	position;symbol;frequency	group;information_bits	frequencies at each position must close to 1 or information content must be supplied
+genomic	genome tracks, segments, junctions and regional association	feature_id;chromosome;start;end;value	type;group;strand;p_value	coordinates, genome build, interval convention and model source must be documented
+state-series	categorical longitudinal and state-sequence displays	subject_id;time;state	group;duration	state definitions, observation spacing and censoring/missing intervals must be documented
+hydrology	hydrograph, hyetograph, flow-duration and double-mass displays	time;discharge;precipitation	group;cumulative_reference;discharge_unit;precipitation_unit	keep actual time spacing; state discharge and precipitation aggregation and catchment support
+matrix-links	Mantel and fourth-corner matrix-link composites	element_type	row_id;column_id;value;p_value;from;to;link_value;link_p;group	cell rows require row_id, column_id, value and p_value; link rows require from, to, link_value and link_p; distance, permutation restrictions and multiplicity must be documented

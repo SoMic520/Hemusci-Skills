@@ -1,0 +1,10 @@
+path_id,stage,state,value,group
+P1,1,Initial,30,Control
+P1,2,Stable,25,Control
+P1,3,Recovered,22,Control
+P2,1,Initial,28,Compost
+P2,2,Improved,26,Compost
+P2,3,Recovered,24,Compost
+P3,1,Initial,18,Biochar
+P3,2,Improved,17,Biochar
+P3,3,Recovered,16,Biochar

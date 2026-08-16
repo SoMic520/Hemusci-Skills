@@ -1,0 +1,11 @@
+node_id,parent_id,label,value,group,level,track_control,track_compost,track_biochar
+root,,Soil biota,100,All,0,,,
+bacteria,root,Bacteria,52,Microbes,1,,,
+fungi,root,Fungi,28,Microbes,1,,,
+fauna,root,Fauna,20,Fauna,1,,,
+gram_pos,bacteria,Gram positive,27,Microbes,2,0.42,0.71,0.55
+gram_neg,bacteria,Gram negative,25,Microbes,2,0.58,0.64,0.49
+amf,fungi,AMF,16,Microbes,2,0.21,0.62,0.76
+saprotroph,fungi,Saprotrophs,12,Microbes,2,0.34,0.69,0.51
+nematodes,fauna,Nematodes,11,Fauna,2,0.48,0.57,0.66
+microarthropods,fauna,Microarthropods,9,Fauna,2,0.37,0.52,0.61

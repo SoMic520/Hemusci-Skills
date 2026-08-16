@@ -1,0 +1,9 @@
+direction_deg,speed,frequency,pollutant,group,unit
+0,2,8,18,North,percent
+45,4,12,22,NorthEast,percent
+90,6,18,35,East,percent
+135,5,14,28,SouthEast,percent
+180,3,10,20,South,percent
+225,4,11,24,SouthWest,percent
+270,7,17,39,West,percent
+315,5,10,30,NorthWest,percent

@@ -1,0 +1,9 @@
+feature_id,chromosome,start,end,value,type,group,strand,p_value
+G01,1,1000,1800,2.4,segment,Treatment,+,0.004
+G02,1,2200,2200,1.8,variant,Treatment,+,0.018
+G03,1,2800,3600,-1.2,segment,Control,-,0.080
+G04,2,900,1500,2.8,segment,Treatment,+,0.003
+G05,2,1700,1700,-2.1,variant,Control,-,0.006
+G06,2,2100,3100,0.9,junction,Treatment,+,0.120
+G07,3,700,1300,-1.7,segment,Control,-,0.025
+G08,3,1600,1600,2.2,variant,Treatment,+,0.009
