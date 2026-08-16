@@ -1,0 +1,45 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 400,
+  "sourceImageSha256": "9742f9354ad15fee58a855e2e00b21ecf65ceaf8b21958644c20063d40182434",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版38.5.1～38.5.2"},
+    "precisionPass": {"status": "verified", "method": "核验¹⁵N/¹⁴N、<100 μg N、>120 g ODE、30 cm×30 cm、4 mil/>100 μm、4×1 mL、99% K¹⁵NO₃、40 mg N·L⁻¹、100 mL 2 mol·L⁻¹ KCl及式（38.3）～（38.4）量纲"},
+    "secondVisualPass": {"status": "verified", "method": "从APE_t定义反向复核至材料（7），并用物料平衡和Kirkham–Bartholomew同位素稀释关系核对两式；印刷页码369"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第38章｜土壤硝化测定技术"},
+    {"type": "material-item", "number": "（7）", "text": "过滤架、漏斗和以KCl或去离子水预冲洗的Whatman 40号滤纸。"},
+    {"type": "material-item", "number": "（8）", "text": "设定至所需温度的培养器。"},
+    {"type": "material-item", "number": "（9）", "text": "可比色测定2 mol·L⁻¹ KCl浸提液中NH₄⁺和NO₃⁻的自动分析仪。"},
+    {"type": "material-item", "number": "（10）", "text": "分析土壤KCl浸提液中NO₃⁻和NH₄⁺所需的其他试剂。"},
+    {"type": "material-item", "number": "（11）", "text": "制备用于测定NO₃⁻中¹⁵N的土壤KCl浸提液所需材料和试剂。"},
+    {"type": "material-item", "number": "（12）", "text": "同位素比质谱仪（IRMS），测定相对于自然丰度富集¹⁵N且氮质量较低（通常<100 μg N）的样品¹⁵N/¹⁴N比值。"},
+    {"type": "section-heading", "level": 3, "number": "38.5.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "每个重复按所需深度采集足以提供>120 g烘干等效（ODE）土的样品。田间湿土过4 mm筛，去除大块植物残体和石块并混匀。"},
+    {"type": "procedure-step", "number": "（2）", "text": "在30 cm×30 cm、厚4 mil（约101.6 μm，且应>100 μm）的聚乙烯冷冻储藏袋中称约120 g ODE过筛湿土。袋厚须能承受剧烈混合和针头加标。混匀，取1个20 g ODE子样，立即在120 mL样品杯中用2 mol·L⁻¹ KCl浸提，以测每个重复的初始NO₃⁻及NH₄⁺库；过滤并保存浸提液。另取20 g ODE测未加标土壤重力含水量。"},
+    {"type": "source-fidelity-note", "scope": "38.5.2（2）", "text": "中译本误印袋厚“4 mm或>100 μm”，两者相差约40倍且自相矛盾；英文原版为4 mil或>100 μm。1 mil=25.4 μm，故4 mil=101.6 μm。正文已纠正。"},
+    {"type": "procedure-step", "number": "（3）", "text": "再次混匀土壤，把袋置于平面，在袋内一端均匀铺开土样。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用细针头和5 mL注射器，把4 mL、¹⁵N丰度99%的K¹⁵NO₃溶液（40 mg N·L⁻¹）逐滴加入土壤。试验前宜将每份4 mL标记液分装在独立5 mL小瓶中。每次尽量均匀滴加约1 mL，重新混匀并铺开；再重复3次，共加入4 mL。"},
+    {"type": "procedure-step", "number": "（5）", "text": "最后一次加标后充分混匀，取2个20 g ODE子样：一个测重力含水量；另一个在120 mL样品杯中以100 mL 2 mol·L⁻¹ KCl浸提，作为0时刻样品测NO₃⁻库大小和库的¹⁵N丰度。过滤并尽量多地保存浸提液。"},
+    {"type": "procedure-step", "number": "（6）", "text": "袋内保留环境空气后封口以维持好氧，在实验室温度或其他所需温度下避光培养1～2 d。最适培养期取决于总硝化速率和NO₃⁻库大小：速率高且库小时用较短时间；速率低且库大时用较长时间。"},
+    {"type": "procedure-step", "number": "（7）", "text": "培养结束后混匀，取约20 g ODE子样，在120 mL样品杯中以100 mL 2 mol·L⁻¹ KCl浸提，作为t时刻样品测NO₃⁻库大小和¹⁵N丰度；过滤并尽量多地保存浸提液。"},
+    {"type": "procedure-step", "number": "（8）", "text": "按式（38.3）计算总硝化速率GNR，按式（38.4）计算NO₃⁻消耗速率c_N。"},
+    {"type": "scientific-correction-note", "scope": "式（38.3）和式（38.4）", "text": "中译本式（38.3）在[NO₃⁻]₀与[NO₃⁻]ₜ之间漏印减号；式（38.4）在GNR后漏印减号且把净变化项的时点次序排反，原印式量纲/物料平衡不成立。按英文原版方程结构、Kirkham–Bartholomew库稀释式和关系“净变化=生产−消耗”恢复为下列两式。"},
+    {"type": "variable-definition", "symbol": "GNR", "text": "总硝化速率，mg N·kg⁻¹土·d⁻¹。"},
+    {"type": "variable-definition", "symbol": "c_N", "text": "NO₃⁻消耗速率，mg N·kg⁻¹土·d⁻¹。"},
+    {"type": "variable-definition", "symbol": "t", "text": "培养时间，d。"},
+    {"type": "variable-definition", "symbol": "APE", "text": "加¹⁵N后NO₃⁻库的¹⁵N原子百分数减去加标前该库的¹⁵N原子百分数，即原子百分数超额。"},
+    {"type": "variable-definition", "symbol": "APE₀", "text": "0时刻NO₃⁻库的APE。"},
+    {"type": "variable-definition", "symbol": "APEₜ", "text": "t时刻NO₃⁻库的APE。"},
+    {"type": "printed-page-number", "text": "369"}
+  ],
+  "formulas": [
+    {"label": "（38.3）", "plain": "GNR={([NO₃⁻]₀−[NO₃⁻]ₜ)/t}×{log(APE₀/APEₜ)/log([NO₃⁻]₀/[NO₃⁻]ₜ)}", "latex": "GNR=\\frac{[NO_3^-]_0-[NO_3^-]_t}{t}\\,\\frac{\\log(APE_0/APE_t)}{\\log([NO_3^-]_0/[NO_3^-]_t)}", "context": "¹⁵NO₃⁻库稀释法计算总硝化（NO₃⁻生产）速率"},
+    {"label": "（38.4）", "plain": "c_N=GNR−([NO₃⁻]ₜ−[NO₃⁻]₀)/t", "latex": "c_N=GNR-\\frac{[NO_3^-]_t-[NO_3^-]_0}{t}", "context": "由NO₃⁻物料平衡计算消耗速率；等价式c_N=GNR+([NO₃⁻]₀−[NO₃⁻]ₜ)/t"},
+    {"id": "38.4-mass-balance", "display": "([NO₃⁻]ₜ−[NO₃⁻]₀)/t = GNR − c_N"}
+  ],
+  "tables": [],
+  "contentSha256": "81d691c03a8808548727872921789e2b2fead5d3ca3dddf9f05d05f01ed0cbed"
+}

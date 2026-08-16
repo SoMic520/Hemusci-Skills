@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 159,
+  "sourceImageSha256": "d5ebdab8f85d9e6b81f1de53a486907a0fd79ae3b25831c3d300985c5bef55a3",
+  "review": {
+    "textPass": {"status": "verified", "method": "原分辨率全页视觉检查，并与Apple Vision、PaddleOCR零文本结果交叉比对"},
+    "precisionPass": {"status": "verified", "method": "检查页面四角、中央、书脊阴影及底部，确认无文字、公式、单位、表格或页码"},
+    "secondVisualPass": {"status": "verified", "method": "第二次全页反向扫视，确认为章节间空白页"}
+  },
+  "blocks": [
+    {"type": "blank-page", "text": ""}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "843735172349ba51c5542f6ad9578f230719c722685d2b2264d4c91a51eb2eaf"
+}

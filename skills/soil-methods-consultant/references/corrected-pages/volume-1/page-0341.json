@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 341,
+  "sourceImageSha256": "ca62039af1d23a27106632c28618e2e707a7901a3c2bc4aef0dbbf4d97dd99c7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版33.3.3～33.4.3交叉比对，恢复浅盘法材料、步骤和注释"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验20/18 cm、5 cm、15/4/4 mm、50 g、10～15 s、>1 h、5～10/15/20 mL、45°、500目/26 μm、3～14/7天及90%"},
+    "secondVisualPass": {"status": "verified", "method": "从页末33.4.3反向复核至页首33.3.3注释（3），确认材料结构、培养和筛集替代步骤；页码310"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "note", "number": "（3）", "text": "用盘或托盘替代漏斗，可使氧更快扩散到浅水层和薄土层中（Whitehead和Hemming，1965）。贝尔曼法的这类改进称为Whitehead-Hemming盘法、贝尔曼浅盘法或贝尔曼盘法。贝尔曼盘通常较大，更适合从较大体积的土壤中提取。"},
+    {"type": "source-fidelity-note", "scope": "33.3.3注释（3）方法名称", "text": "中文本印作“贝尔曼盒”，英文原版为Baermann trays or Baermann pans；为避免把tray误解为封闭盒体，校正为“贝尔曼浅盘法/贝尔曼盘法”。"},
+    {"type": "section-heading", "level": 2, "number": "33.4", "title": "贝尔曼盘法"},
+    {"type": "paragraph", "text": "下述仪器设备和步骤与Townshend（1963）法相似。"},
+    {"type": "section-heading", "level": 3, "number": "33.4.1", "title": "材料和试剂"},
+    {"type": "material", "number": "（1）", "text": "聚四氟乙烯涂层铝制蛋糕盘，直径约20 cm、深5 cm；也可使用花盆下的塑料托盘。"},
+    {"type": "material", "number": "（2）", "text": "Saran（聚偏二氯乙烯）或尼龙筛网，直径18 cm，用氯丁橡胶胶黏剂粘到丙烯酸或PVC环上；环高15 mm、厚4 mm，可由直径18 cm的丙烯酸或PVC管切取。把3个丙烯酸支腿粘到每个环的外侧，并在每个筛网中心粘一小块丙烯酸，使筛网保持在蛋糕盘底部上方约4 mm。不得使用金属筛网，因为金属离子可能对线虫有毒（Pitcher和Flegg，1968）。"},
+    {"type": "material", "number": "（3）", "text": "三层面巾纸，最好剪成直径20 cm的圆片。"},
+    {"type": "material", "number": "（4）", "text": "大试管及试管架。"},
+    {"type": "section-heading", "level": 3, "number": "33.4.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "充分但轻柔地混合土壤，以免伤害线虫。"},
+    {"type": "procedure-step", "number": "（2）", "text": "在每个筛网上放一张直径20 cm的三层面巾纸。"},
+    {"type": "procedure-step", "number": "（3）", "text": "把50 g土壤在纸巾上铺成薄层。如果纸巾未剪成圆片，把纸巾四角向上折盖在土样上。"},
+    {"type": "procedure-step", "number": "（4）", "text": "把载有土样的筛网放入各蛋糕盘。盘中加足量水使土样饱和，但不要将其完全浸没。"},
+    {"type": "procedure-step", "number": "（5）", "text": "把盘叠放并盖上塑料罩，或放入大塑料袋中以减少蒸发。如有需要，每隔几天向盘中补水；水应沿边缘加入，不要直接倒在样品上。"},
+    {"type": "procedure-step", "number": "（6）", "text": "样品在室温下培养数天。"},
+    {"type": "procedure-step", "number": "（7）", "text": "提起筛网，让水从土壤排入盘中10～15 s；用洗瓶把筛网底面冲洗入盘。"},
+    {"type": "procedure-step", "number": "（8）", "text": "旋动盘中水，把内容物倒入大试管；再用少量水冲洗盘并合并到试管。"},
+    {"type": "procedure-step", "number": "（9）", "text": "静置>1 h，使线虫沉降到试管底部。"},
+    {"type": "procedure-step", "number": "（10）", "text": "虹吸浓缩至剩余5～10 mL（依计数皿尺寸而定），把剩余液体小心倒入计数皿，静置数分钟使线虫沉降，再用体视显微镜在10～70×放大倍数下观察。"},
+    {"type": "procedure-step", "number": "（11）", "text": "步骤（10）的替代方案：将盘中内容物倒过一只保持45°倾角的500目筛（筛孔26 μm），直到筛上残留体积约15 mL；再用洗瓶经漏斗把残留物冲入20 mL闪烁计数瓶或同等大小的试管。"},
+    {"type": "section-heading", "level": 3, "number": "33.4.3", "title": "注释"},
+    {"type": "note", "text": "Barker（1985a）指出，线虫达到最大回收率需要培养3～14天。作者发现，贝尔曼盘法培养7天可回收约90%的可提取穿刺短体线虫（Pratylenchus penetrans）。Bell和Watson（2001）发现，某些线虫的提取效率随贝尔曼盘中土壤体积增加而降低。"},
+    {"type": "printed-page-number", "text": "310"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "837dd1150f3063ffc9eda413ecdfc21eb3e3f2f6f5f4012139b971faeae67eef"
+}

@@ -1,0 +1,72 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 327,
+  "sourceImageSha256": "61c5a2dc3041b05c984d37a039d3af6436c78c7037248710dc47f4bbd2b46d89",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对第85章题名、三位作者单位、85.1和85.2开头"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对空间/时间序列定义、方法分类和各方法所分析统计矩"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "章节层级、作者缩写和引文逐项二次反查；印刷页码836"
+    }
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "number": "85",
+      "title": "土壤特性变异分析法",
+      "level": 1
+    },
+    {
+      "type": "authorship",
+      "authors": [
+        {
+          "name": "B.C. Si",
+          "affiliation": "University of Saskatchewan, Saskatoon, Saskatchewan, Canada"
+        },
+        {
+          "name": "R.G. Kachanoski",
+          "affiliation": "University of Alberta, Edmonton, Alberta, Canada"
+        },
+        {
+          "name": "W.D. Reynolds",
+          "affiliation": "Agriculture and Agri-Food Canada, Harrow, Ontario, Canada"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "85.1",
+      "title": "引言",
+      "level": 2
+    },
+    {
+      "type": "method-overview",
+      "paragraphs": [
+        "土壤特性随时空变化。空间序列是在某一时点或时段对若干位置采样；时间序列是在某位置或小区域连续定时采样。两类分析方法相似，但通常分开称谓。",
+        "方法包括地统计、频谱、小波、多重分形、状态空间、模糊集分析等。地统计描述样本值的共同观测特征：空间或时间上越近，样本值越相似。频谱分析把总变异/方差分解为空间频率尺度以确定主导尺度；小波把变量划分为位置和频率；多重分形包含偏度、峰度等高阶统计矩，并研究不同尺度下统计矩变化。",
+        "频谱、小波和多重分形需要大量密集数据，土壤与水文研究中较少使用；本章重点是方法完善且数据量要求较低的地统计分析。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "85.2",
+      "title": "地统计分析",
+      "level": 2
+    },
+    {
+      "type": "definition",
+      "text": "地统计用均值、方差、概率分布及不同空间/时间尺度的相似性四类统计量描述数据变化。以下主要讨论空间变异，但同样适用于时间变异。大多数土壤特性在临近点更相似，随距离增大相似性降低，故等值线图通常呈分布规律而非随机分布；论述续见下一页。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "27ac6e8f1ee1947e029e1380731131f5039c1fed6ac4523211f7c9c7997d89aa"
+}

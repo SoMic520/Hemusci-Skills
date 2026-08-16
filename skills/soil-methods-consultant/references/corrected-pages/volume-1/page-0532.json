@@ -1,0 +1,89 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 532,
+  "sourceImageSha256": "3e359e47a12d05e2095cb881ef234b3c5c477c7749c2b1f7ca9d3d045be24281",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，接续弛豫延迟并完成53.3.3参数（2）～（5）"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验0.4～0.5 s、3～4 μs、180°/270°/360°、t_c=1/1.5～2 ms、T₁ρH、Cu²⁺、<5/20 ms、200/300/400 ppm、75 MHz、22 500～30 000 Hz、25 000/50 000 Hz、20 μs、1 024点、20.48 ms、24.4 Hz·点⁻¹及512点"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由参数（5）反向复核至跨页句，检查微秒符号、上下标、Nyquist关系、采集时间复算、RAMP物理量和印刷页码501"
+    }
+  },
+  "blocks": [
+    {
+      "type": "procedure-step-continuation",
+      "scope": "53.3.3（1）",
+      "text": "[承第531页] 低C矿质土壤可降至0.4～0.5 s。弛豫不足会降低S/N；过短循环还可能使样品升温或使大功率射频部件过载，因此实际延迟应同时满足T₁H与探头占空比/温升限制。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（2）",
+      "text": "¹H 90°脉冲宽度通常3～4 μs，先用甘氨酸等标准物校准。可由¹³C CP信号随¹H脉冲长度的nutation曲线确定：180°和360°处信号过零，270°处反相。CP序列开始时¹H磁化转至X-Y平面，保持至¹H与¹³C射频场满足旋转坐标系匹配条件。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（3）",
+      "text": "CP接触时间t_c控制¹H→¹³C磁化转移。刚性、与¹H直接相连的C（如纤维素O-alkyl、di-O-alkyl C）CP效率高；远离¹H、分子运动性强、缩合芳香结构以及可转动长链烷基/甲基/甲氧基C效率较低。常规整体信号约用t_c=1 ms；芳香C可试1.5～2 ms，但不能无限延长。"
+    },
+    {
+      "type": "paragraph",
+      "text": "接触期间¹H磁化按旋转坐标系弛豫时间T₁ρH衰减。Fe氧化物或Cu²⁺等顺磁组分会缩短邻近¹H的T₁ρH并削弱CP。RAMP-CP通过改变¹H或¹³C射频场幅度改善Hartmann-Hahn匹配，可补偿高速MAS下部分CP效率损失。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "53.3.3（3）",
+      "text": "原书把RAMP中变化的radio-frequency field amplitude译成质子或碳的‘动能’，已校正为射频场幅度；T₁ρH中的ρ是旋转坐标系下弛豫标记，不是字母p。"
+    },
+    {
+      "type": "paragraph",
+      "text": "CP后在¹H高功率去耦下采集¹³C自由感应衰减（FID）。书载典型FID持续时间：矿质土<5 ms，新鲜凋落物可达20 ms，纯化合物可达数百毫秒。采集窗应覆盖完整FID；过短会产生截断、基线和分辨率伪影，书中又建议不超过可见FID持续时间的约2倍以控制噪声与占空比。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "53.3.3 CP后去耦",
+      "text": "原书写‘剩余的质子动能足够将质子去耦’，物理含义不准确；已校正为采集时施加¹H高功率去耦。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（4）",
+      "text": "扫描宽度SW：土壤有机质化学位移范围约200 ppm时，SW至少300 ppm；宽弱信号样品可用400 ppm。¹³C共振频率75 MHz时，300～400 ppm对应22 500～30 000 Hz。按书中定义，采样率取2SW；SW=25 000 Hz时采样率50 000点·s⁻¹、dwell time=20 μs。1 024点采集窗20.48 ms，数字分辨率24.4 Hz·点⁻¹。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（5）",
+      "text": "低C样品可把实际采集数据点数降至512点（10.24 ms），保持20 μs dwell time。若需提高数字分辨率，可使用2K或4K数据大小并按FID长度优化采集窗；纯化合物的SW、数据大小和采集时间设置不能直接套用于宽谱土壤样品。"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "53.3.3-sw-hz",
+      "display": "SW(Hz) = SW(ppm) × ν₀(¹³C, MHz)",
+      "meaning": "把化学位移宽度换算为频率宽度；300 ppm×75 MHz=22 500 Hz"
+    },
+    {
+      "id": "53.3.3-dwell",
+      "display": "Δt = 1/(2SW) = 1/(2×25 000 Hz) = 20 μs",
+      "meaning": "书中采用的Nyquist采样关系与停留时间"
+    },
+    {
+      "id": "53.3.3-acquisition",
+      "display": "t_acq = NΔt = 1 024×20 μs = 20.48 ms",
+      "meaning": "1K数据的采集时间复算"
+    },
+    {
+      "id": "53.3.3-digital-resolution",
+      "display": "Δν = SW/N = 25 000 Hz/1 024 = 24.4 Hz·point⁻¹",
+      "meaning": "数字频率分辨率复算"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "bb24ed8075b400344a101354f5ffdbe644c47a43ad66551ff7642d9aa27d35a1"
+}

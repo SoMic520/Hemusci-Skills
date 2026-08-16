@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 466,
+  "sourceImageSha256": "d071a3e53b4060001e3ce84f36d6196ce2dfafd57a5bd8c448f9ce7c020f773c",
+  "review": {
+    "textPass": {"status": "verified", "method": "对照原分辨率页面逐字转录图45.4及第45章参考文献前半；以期刊/出版方记录纠正漏作者、卷号、页码和正式书名"},
+    "precisionPass": {"status": "verified", "method": "核验CO₂、KOH、电极标签、作者首字母、变音符、期刊卷页和DOI对应；保留跨页Hopkins 1988条的续页关系"},
+    "secondVisualPass": {"status": "verified", "method": "从Hopkins 1988条反向复核至图45.4，二次检查图示引线和11条书目；印刷页码435"}
+  },
+  "blocks": [
+    {"type": "figure", "number": "图45.4", "title": "利用Respicond型呼吸计进行密闭室培养", "description": "密闭培养瓶底部为土壤样品；瓶内悬置KOH碱液，铂电极插入吸收液并经塞子引出，用电导变化监测CO₂吸收。", "labels": ["铂电极", "塞子", "碱液（氢氧化钾）", "土壤样品"], "source": "改编自Nordgren, A., Soil Biology and Biochemistry 20:955, 1988。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference-list", "entries": [
+      "Anderson, J.M., and Ineson, P. 1982. A soil microcosm system and its application to measurements of respiration and nutrient leaching. Soil Biology and Biochemistry 14:415–416.",
+      "Anderson, J.P.E. 1982. Soil respiration. In A.L. Page, R.H. Miller, and D.R. Keeney (eds.), Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties, 2nd ed., pp. 831–871. American Society of Agronomy and Soil Science Society of America, Madison, WI.",
+      "Bekku, Y., Koizumi, H., Nakadai, T., and Iwaki, H. 1995. Measurement of soil respiration using closed chamber method: An IRGA technique. Ecological Research 10:369–373. DOI:10.1007/BF02347863.",
+      "Bol, R., Bolger, T., Cully, R., and Little, D. 2003. Recalcitrant soil organic materials mineralize more efficiently at higher temperatures. Zeitschrift für Pflanzenernährung und Bodenkunde 166:300–307. DOI:10.1002/jpln.200390047.",
+      "Chapman, S.B. 1971. A simple conductimetric soil respirometer for field use. Oikos 22:348–353.",
+      "Chow, A.T., Tanji, K.K., Gao, S.D., and Dahlgren, R.A. 2006. Temperature, water content and wet-dry cycle effects on DOC and carbon mineralization in agricultural peat soils. Soil Biology and Biochemistry 38:477–488.",
+      "Fang, C.M., Smith, P., Moncrieff, J.B., and Smith, J.U. 2005. Similar responses of labile and resistant soil organic matter pools to changes in temperature. Nature 433:57–59.",
+      "Fierer, N., Craine, J.M., McLauchlan, K., and Schimel, J.P. 2005. Litter quality and the temperature sensitivity of decomposition. Ecology 86:320–326. DOI:10.1890/04-1254.",
+      "Gregorich, E.G., Turchenek, L.W., Carter, M.R., and Angers, D.A. 2001. Soil and Environmental Sciences Dictionary. CRC Press, Boca Raton, FL.",
+      "Heilmann, B., and Beese, F. 1992. Miniaturized method to measure carbon dioxide production and biomass of soil microorganisms. Soil Science Society of America Journal 56:596–598.",
+      "Hopkins, D.W., and Gregorich, E.G. 2005. Carbon as a substrate for soil organisms. In R.D. Bardgett, M.B. Usher, and D.W. Hopkins (eds.), Biodiversity and Function in Soils, British Ecological Society Ecological Reviews, pp. 57–79. Cambridge University Press, Cambridge.",
+      "Hopkins, D.W., and Shiel, R.S. 1996. Size and activity of soil microbial communities in long-term experimental grassland plots treated with manure and inorganic fertilizers. Biology and Fertility of Soils 22:66–70.",
+      "Hopkins, D.W., Shiel, R.S., and O'Donnell, A.G. 1988. The influence of sward species composition on the rate of organic matter [条目续见第467页]"
+    ]},
+    {"type": "source-fidelity-note", "scope": "第45章参考文献勘误（本页）", "text": "原书Bekku等（1995）漏列作者T. Nakadai；Anderson（1982）把正式副题Chemical and Microbiological Properties误作Chemical and Biological Properties，并把American Society of Agronomy误作Agronomy Society of America；Chapman（1971）只列起始页348，完整页码为348–353；Fierer等（2005）卷号误印82，正式卷号为86。规范引文已纠正，原书图像哈希保留其原貌。"}
+  ],
+  "formulas": [
+    {"id": "45.7-respicond-signal", "display": "CO₂ + KOH absorber → [KOH]↓ → conductivity↓", "meaning": "图45.4装置的测量原理；铂电极测吸收液电导"}
+  ],
+  "tables": [],
+  "contentSha256": "e7fc4e6d13d3f44da3d6d2778247f8305641238c02ca9b3565adb7cd9a62ea93"
+}

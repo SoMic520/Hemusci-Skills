@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 435,
+  "sourceImageSha256": "ef54b280146a3f7479397b938d6fb7506c4eaddd7de21931c743edf019f762ce",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率中文页面、两套OCR及英文原版第42章章题与42.1引言"},
+    "precisionPass": {"status": "verified", "method": "核验作者K.E. Dunfield、>4000、<1%、FAME/PLFA全称、4步/1 d与6 d、>20个碳、MIDI公司地点及Øvreås/Bååth等作者拼写"},
+    "secondVisualPass": {"status": "verified", "method": "由PLFA未完段反向复核至章题，逐一检查英文缩写、连字符、百分号、分类范围和跨页连续性；本章首页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第42章", "title": "基于脂质的群落分析"},
+    {"type": "author", "text": "K.E. Dunfield"},
+    {"type": "affiliation", "text": "University of Guelph, Guelph, Ontario, Canada"},
+    {"type": "source-fidelity-note", "scope": "章作者", "text": "中文版章题页误印为K.E. Dunfiled；按英文原版及书内作者表校为K.E. Dunfield。"},
+    {"type": "section-heading", "level": 2, "number": "42.1", "title": "引言"},
+    {"type": "paragraph", "text": "土壤微生物群落极其复杂，据估计单个土样中有超过4000个细菌基因组（Torsvik等，1990；Amann等，1995）；但在标准条件下用普通实验室培养基可培养的土壤细菌不到1%（Torsvik等，1990；Øvreås和Torsvik，1998）。因此，群落分析方法不应依赖分离培养。直接从土壤提取能代表大多数细菌种群的细胞成分（如脂质、核酸），无需先分离细胞，即可分析微生物群落（Drenovsky等，2004）。本章讨论脂质法，核酸法见第43章。"},
+    {"type": "paragraph", "text": "细菌脂质既是重要的储能物质，也是细胞膜组分，包括游离脂肪酸、烃类、脂肪醇以及磷脂、糖脂等膜结合脂肪酸（Kennedy，1994）。不同细菌分类单元常具有特征性脂肪酸谱，可用于鉴定细菌并作为微生物群落结构指标（White等，1979；Sasser，1990）。土壤微生物群落脂质分析先用有机溶剂提取脂质，再以高分辨率熔融石英毛细管气相色谱分析。借助Sherlock Microbial Identification System（MIDI, Inc.，美国特拉华州纽瓦克），把色谱柱保留时间与细菌脂肪酸标准物的保留时间比较以鉴定脂肪酸。"},
+    {"type": "source-fidelity-note", "scope": "MIDI地点", "text": "中文版将“MIDI, Inc., Newark, DE”误译成“MIDI，纽华克股份有限公司”；Newark, DE是美国特拉华州纽瓦克，企业名为MIDI, Inc.。"},
+    {"type": "paragraph", "text": "土壤脂质常用两种提取方案：脂肪酸甲酯（fatty acid methyl ester，FAME）分析针对全部土壤脂肪酸；磷脂脂肪酸（phospholipid fatty acid，PLFA）分析特异针对活微生物细胞中的磷脂脂肪酸。"},
+    {"type": "paragraph", "text": "FAME分析约需1 d，采用4步化学提取：皂化并甲基化土样中全部脂质、提取FAME，再以气相色谱分析，获得土壤脂肪酸谱。环境条件相近时FAME谱重复性较高，可比较不同土壤、管理方式或耕作制度下的总体群落结构变化（Haack等，1994；Klug和Tiedje，1993；Cavigelli等，1995；Dunfield和Germida，2001，2003）。但该法会提取活细胞和死细胞中的全部脂质，也包括不同腐解阶段的动植物生物量。统计时可忽略已知植物脂肪酸或碳链长度超过20的脂肪酸，以减少动植物来源干扰；由于植物、动物和微生物含有共同脂肪酸，FAME脂质生物标志物不能可靠地用于微生物群落分类学表征。"},
+    {"type": "paragraph", "text": "PLFA分析约需6 d：提取全部脂肪酸，以固相萃取从其他土壤脂质中分离磷脂，将其转化为FAME，再以气相色谱分析（Bligh和Dyer，1959；Bobbie和White，1980；Bossio和Scow，1998）。磷脂仅存在于活细菌细胞膜中，并在细胞死亡后降解，因此PLFA谱可表征土壤中的活微生物群落（White等，1979；Zelles等，1992）。已有研究用PLFA监测土壤总体微生物群落结构变化（Bååth等，1992；Bossio和Scow，1998；Feng等，[续见第436页]）。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "fcb35aecc0042778b6332ffcc5b6657808be20f9edb307b567fb28f825637eec"
+}

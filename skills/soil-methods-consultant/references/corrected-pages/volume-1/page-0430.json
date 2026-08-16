@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 430,
+  "sourceImageSha256": "bbf64d0e6b73e3505673728be09f16fec87482cf23143f47c453890a2bab8221",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐表对照原分辨率中文页面、两套OCR及英文原版41.2.2（7）～41.2.3（6）"},
+    "precisionPass": {"status": "verified", "method": "用两级100倍稀释复算20 pmol·mL⁻¹、表41.1的0～0.60 pmol·assay⁻¹和5 nmol加标；核验121 °C、20 min、5/50/100 mL、超声参数、31,000×g及−15 °C"},
+    "secondVisualPass": {"status": "verified", "method": "由提取液保存反向复核曲线与全步骤，逐个检查μL、pmol/nmol/μmol、乘方、负温度和setting 7；印刷页码399"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第41章｜土壤ATP"},
+    {"type": "reagent-item", "number": "（7）", "text": "ATP标准曲线关联ATP量与相对光单位（RLU），用ATP assay mix dilution buffer配制；最终反应一般覆盖0～0.60 pmol ATP·assay⁻¹。取0.1 mL约0.2 mmol·L⁻¹储备液，以冷水定容10 mL；再取0.1 mL该液，以稀释缓冲液定容10 mL，得20 pmol ATP·mL⁻¹工作液，混匀、冰上保存。按表41.1各配1 mL曲线液；反应时以100 μL曲线液替代100 μL纯稀释缓冲液。以log₁₀(ATP标准量)为自变量、log₁₀(RLU)为因变量作线性曲线。"},
+    {"type": "source-fidelity-note", "scope": "41.2.2（7）及表41.1", "text": "中文版正文把0～0.60误印为0～60，并用pM同时表示“皮摩尔物质的量”而非规范的皮摩尔浓度pM（pmol·L⁻¹）。按配液链和表中体积，规范为20 pmol·mL⁻¹工作液、0～0.60 pmol·assay⁻¹。"},
+    {"type": "reagent-item", "number": "（8）", "text": "ATP回收率加标液：0.3 mL ATP标准储备液与0.3 mL HEPES缓冲液混合，得到0.10 μmol ATP·mL⁻¹ HEPES（=0.10 mmol·L⁻¹），冰上保存。"},
+    {"type": "source-fidelity-note", "scope": "41.2.2（8）", "text": "原书写0.10 μM ATP·mL⁻¹，符号混用。由0.3 mL×约0.2 mmol·L⁻¹再与0.3 mL等体积混合，及50 μL含5 nmol的后续步骤，确认应为0.10 μmol·mL⁻¹。"},
+    {"type": "reagent-item", "number": "（9）", "text": "标准曲线基质用高压灭菌土提取物：称5 g ODW土于100 mL玻璃离心管，立即121 °C灭菌20 min；冷却、封盖、冷冻。用时解冻并按鲜土提取步骤处理。"},
+    {"type": "section-heading", "level": 3, "number": "41.2.3", "title": "提取步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "取鲜土3份，每份相当于5 g干土，置带旋盖100 mL玻璃离心管；轻摇同时加50 mL提取液，置冰浴。"},
+    {"type": "procedure-step", "number": "（2）", "text": "回收率管：向5 g土+50 mL提取液加入50 μL ATP加标液（含5 nmol ATP），冰浴轻摇。对照管加入50 μL HEPES缓冲液，其他相同。"},
+    {"type": "procedure-step", "number": "（3）", "text": "土+提取液以带不锈钢PTA 20S尖端的Brinkmann Polytron均质机在setting 7超声1 min；或以20 kHz、140 W Branson Sonifier Model 200和直径12.5 mm探头全功率超声2 min。离心管始终冰浴并用Parafilm封口防喷溅。样间探头以水仔细清洗，可短时开机冲洗，随后干燥。盖管，在腕式振荡器180 strokes·min⁻¹振荡30 min；4 °C、31,000×g离心20 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "每个土提取液取2份0.2 mL上清，分别转入4 mL玻璃样品杯，加3.2 mL Tris缓冲液中和。"},
+    {"type": "procedure-step", "number": "（5）", "text": "分析ATP标准时，对高压灭菌土提取物（优先）或空白提取液作相同中和。"},
+    {"type": "procedure-step", "number": "（6）", "text": "中和提取液在4 °C保存并立即分析；或立即冷冻、−15 °C保存至测定。冻样临测前解冻并保持4 °C。"},
+    {"type": "printed-page-number", "text": "399"}
+  ],
+  "formulas": [
+    {"id": "41.2.2-working-standard", "plain": "0.2 mmol·L⁻¹×(0.1/10)×(0.1/10)=20 nmol·L⁻¹=20 pmol·mL⁻¹", "context": "ATP工作标准液两级稀释复核"},
+    {"id": "41.2.2-spike-check", "plain": "0.10 μmol·mL⁻¹×50 μL=5 nmol ATP", "context": "提取回收率加标量复核"}
+  ],
+  "tables": [
+    {"id": "table-41.1", "title": "ATP标准曲线", "columns": ["最终ATP量 (pmol·assay⁻¹)", "20 pmol·mL⁻¹ ATP工作液 (μL)", "ATP assay mix dilution buffer (μL)"], "rows": [[0, 0, 1000], [0.1, 50, 950], [0.2, 100, 900], [0.3, 150, 850], [0.4, 200, 800], [0.5, 250, 750], [0.6, 300, 700]], "note": "每行先配成1 mL标准液；最终反应取其中100 μL，因此工作液50～300 μL对应最终0.1～0.6 pmol·assay⁻¹。"}
+  ],
+  "contentSha256": "275ecdad8596e9bb9a46329c3526b62fc72e0457e050cc1b2890ede912419f95"
+}

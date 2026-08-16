@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 306,
+  "sourceImageSha256": "5299bd7dfe6d08aea8dd4e3e525080aa5ee6f763984534f0b5dc93383cb85db0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复30.8.2步骤、注释及参考文献Allen至Clapp"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验50 μm、¹⁵N上标、作者姓名缩写、连字符、期刊卷页和带重音字符Piché"},
+    "secondVisualPass": {"status": "verified", "method": "从页末跨页参考文献Clapp等（2002）反向复核至步骤（3），确认参考文献换行已合并但未改写字符；页码275"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第30章｜丛枝菌根｜"},
+    {"type": "procedure-step", "method": "30.8.2", "number": "（3）", "text": "室温下培养过夜。"},
+    {"type": "procedure-step", "method": "30.8.2", "number": "（4）", "text": "用脱矿质水洗涤消化组织。"},
+    {"type": "procedure-step", "method": "30.8.2", "number": "（5）", "text": "在搅拌机中均匀混合。"},
+    {"type": "procedure-step", "method": "30.8.2", "number": "（6）", "text": "样品均匀混合后用50 μm筛子过滤并在解剖显微镜下回收附着在菌丝上的囊泡簇。"},
+    {"type": "subsection-heading", "method": "30.8.2", "number": "3", "title": "注释"},
+    {"type": "note", "method": "30.8.2", "text": "Jabaji-Hare等（1984）使用研钵和槌、均化搅拌器、过滤器及密度离心法定量并回收囊泡供生化分析。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference", "text": "Allen, M.F., Moore, T.S., and Christensen, M. 1979. Growth of vesicular-arbuscular mycorrhizal and non-mycorrhizal Bouteloua gracilis in defined medium. Mycologia 71: 666-669."},
+    {"type": "reference", "text": "Ames, R.N., Reid, C.P.P., Porter, L.K., and Cambardella, C. 1983. Hyphal uptake and transport of nitrogen from two ¹⁵N-labelled sources by Glomus mosseae a vesicular-arbuscular mycorrhizal fungus. New Phytol. 95: 381-396."},
+    {"type": "reference", "text": "An, A.Q. and Hendrix, J.W. 1988. Determining viability of endogonaceous spores with a vital stain. Mycologia 80: 259-261."},
+    {"type": "reference", "text": "Anderson, I.C. and Cairney, J.W.G. 2004. Diversity and ecology of soil fungal communities increased understanding through the application of molecular techniques. Environ. Microbiol. 6: 769-779."},
+    {"type": "reference", "text": "Balaz, M. and Vosatka, M. 2001. A novel inserted membrane technique for studies of mycorrhizal extraradical mycelium. Mycorrhiza 11: 291-296."},
+    {"type": "reference", "text": "Balser, T.C., Treseder, K.K., and Ekenler, M. 2005. Using lipid analysis and hyphal length to quantify AM and saprotrophic fungal abundance along a soil chronosequence. Soil Biol. Biochem. 37: 601-604."},
+    {"type": "reference", "text": "Bethlenfalvay, G.J. and Ames, R.N. 1987. Comparison of two methods for quantifying extraradical mycelium of vesicular-arbuscular mycorrhizal fungi. Soil Sci. Soc. Am. J. 51: 834-837."},
+    {"type": "reference", "text": "Bevege, D.I. 1968. A rapid technique for clearing tannins and staining intact roots for detection of mycorrhizas caused by Endogone spp., and some records of infection in Australasian plants. T. Brit. Mycol. Soc. 51: 808-810."},
+    {"type": "reference", "text": "Boddington, C.L., Bassett, E.E., Jakobsen, I., and Dodd, J.C. 1999. Comparison of techniques for the extraction and quantification of extra-radical mycelium of arbuscular mycorrhizal fungi in soils. Soil Biol. Biochem. 31: 479-482."},
+    {"type": "reference", "text": "Brundrett, J. 2004. Diversity and classification of mycorrhizal associations. Biol. Rev. 79: 473-495."},
+    {"type": "reference", "text": "Brundrett, M.C., Bougher, N., Grove, T., and Malajczuk, N. 1996. Working with Mycorrhizas in Forestry and Agriculture. ACIAR Monograph Series No. 32."},
+    {"type": "reference", "text": "Brundrett, M.C., Melville, L., and Peterson, L. 1994. Practical Methods in Mycorrhiza Research. Mycologue Publications, Sydney, British Columbia, Canada."},
+    {"type": "reference", "text": "Brundrett, M.C., Piché, Y., and Peterson, R.L. 1984. A new method for observing the morphology of vesicular-arbuscular mycorrhizae. Can. J. Bot. 62: 2128-2134."},
+    {"type": "reference", "text": "Claassen, V.P., Zasoski, R.J., and Tyler B.M. 1996. A method for direct soil extraction and PCR amplification of endomycorrhizal fungal DNA. Mycorrhiza 6: 447-450."},
+    {"type": "reference", "text": "Clapp, J.P., Fitter, A.H., Merryweather, J.W., and Hall, G.S. 1996. Arbuscular mycorrhizas. In: G.S. Hall, ed. Methods for the Examination of Organismal Diversity in Soils and Sediments. CAB International, Wallingford, Oxon, UK, 145-161."},
+    {"type": "reference", "id": "clapp-2002", "continuation": "page-0307", "text": "Clapp, J.P., Helgason, T., Daniell, T.J., and Young, J.P.W. 2002. Genetic studies of the structure and diversity of arbuscular mycorrhizal fungal communities. In: M.G.A. van der Heijden and I. Sanders, eds. Mycorrhizal Ecology. Springer-Verlag,"},
+    {"type": "printed-page-number", "text": "275"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "35581ae58783825f5bd7d6b3adb9c36811735b1de66091b2c590054f42a48b67"
+}

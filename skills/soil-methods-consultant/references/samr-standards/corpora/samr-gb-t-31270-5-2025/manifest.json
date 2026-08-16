@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-31270-5-2025",
+  "label": "GB/T 31270.5-2025《化学农药环境安全评价试验准则 第5部分：土壤淋溶试验》",
+  "standardNo": "GB/T 31270.5-2025",
+  "title": "化学农药环境安全评价试验准则 第5部分：土壤淋溶试验",
+  "published": "2025-10-31",
+  "implemented": "2026-05-01",
+  "domain": "soil-ecotoxicology",
+  "sourceType": "official-online-reader",
+  "sourceFingerprint": "2b97e7665fb5e50916bdd1e36fdd1abd95aa321ed0ccb6b7ede29ac21535fdf8",
+  "includedPageCount": 19,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=2D6E42B78B8EC6947290D0501F98A5DB"
+}

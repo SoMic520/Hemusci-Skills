@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 138,
+  "sourceImageSha256": "ccf2bc166a07891188394ccefac40a30a51dabbf2a2aae32ed4f55acd39fc066",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐项对照原分辨率图和两套OCR，完成毛细管步骤(4)—(8)、注释、68.3及68.3.1材料、步骤和式(68.5)"},
+    "precisionPass": {"status": "verified", "method": "核验−10/−100 kPa、5:1—7:1、1.2:1、20 L/<1 L、CEN 12580、−1 kPa、105/70 ℃及BD量纲"},
+    "secondVisualPass": {"status": "verified", "method": "由式(68.5)反向复核至毛细管步骤(4)，检查正己烷标定c、水样求角、容重试样状态和负号；印刷页码647"}
+  },
+  "blocks": [
+    {"type": "steps-continuation", "items": [
+      "连续自动记录吸液导致的样品系统质量增加m随时间t的变化；取m²—t线性初始区段求斜率。",
+      "用正己烷按完全润湿ε=0°重复若干次；由式(68.3)求每个装填样的结构常数c。",
+      "换用蒸馏水，对相同材料、相同装填与含水状态重复若干次；将水的η、ρ、γ_L和相应m²/t斜率代入式(68.3)，求cosε和ε。"
+    ]},
+    {"type": "heading", "title": "注释", "level": 4},
+    {"type": "paragraph", "text": "孔隙度、渗透性和装填差异是主要误差源；吸液导致孔隙几何改变也会破坏模型假设。斥水材料无毛细上升，故该法不能测ε>90°，也不能给出斥水严重度。近饱和基质难观察毛细上升，因而不能测高水势（>−10 kPa）下的湿润性；原书认为水势>−100 kPa时基质已高度亲水（Michel，1998）。"},
+    {"type": "heading", "number": "68.3", "title": "容重", "level": 2},
+    {"type": "paragraph", "text": "容重BD与泥炭多种性质密切相关、较易测定，常用于商业和定性评价。有机土可用已知体积环刀取样，再按规定温度烘干称量；也可用特殊取样器（Sheppard等，1993）或锋利环刀。为减少小环刀造成的压实，有机土环刀需较大底面积：直径∶高度约5∶1、6∶1或7∶1；矿质土环刀常约1.2∶1。"},
+    {"type": "paragraph", "text": "泥炭和其他有机栽培基质易沉降、松散，样品准备会显著影响BD。国际方法大致分两类：约20 L大体积未压实样用于商业体积测定（如CEN 12580；Morel等，1999）；<1 L小体积样先饱和，再自然排水或在额外压力与积土压力共同作用下排水（Hidding，1999），模拟盆栽过程中的自然沉降，多用于定性评价。两类不可直接互换（Caron和Rivière，2003）。"},
+    {"type": "heading", "number": "68.3.1", "title": "环刀法（适用于有机土或疏松基质）", "level": 3},
+    {"type": "heading", "title": "材料与步骤", "level": 4},
+    {"type": "list", "items": ["已知内体积V的环刀或McCauley取样器、修样刀", "鼓风烘箱"]},
+    {"type": "steps", "items": [
+      "有机土：压入环刀并用刀齐平两端，或用McCauley取样器；记录环刀体积，避免压缩和样品损失。",
+      "疏松泥炭基质：按CEN/TC 223吸湿曲线的松散填装方式装环；按脱湿曲线制样，移去上半环，从底部缓慢润湿至饱和，再置张力台于−1 kPa排水。此条件所得BD必须与制样路径同时报告。",
+      "按材料性质在105 ℃或70 ℃烘至恒量，冷却称干质量SDW，按式(68.5)计算BD。"
+    ]},
+    {"type": "source-fidelity-note", "text": "原书毛细法注释中的−10 kPa和−100 kPa负号易被OCR丢失，已按原图恢复。容重计算必须使用烘至恒量的干质量，原书68.3引言“风干称重”不足以定义干土重，已由式(68.5)步骤消歧。CEN编号按原书记作12580；样品制备标准和体积不可混用。"}
+  ],
+  "formulas": [
+    {"label": "68.5", "plain": "BD = SDW / V", "latex": "BD=\\frac{SDW}{V}", "resultUnit": "g·cm⁻³或Mg·m⁻³"}
+  ],
+  "tables": [],
+  "contentSha256": "121cb83f62afc5b474e6c3cc30cb4790781991c0de06d2f51c262f0bcd8bbff5"
+}

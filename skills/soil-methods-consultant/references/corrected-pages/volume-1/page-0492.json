@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 492,
+  "sourceImageSha256": "68064f9fcd81ff0c28e3967d35230d8662b2638d1a3d41599f619f87277d3cbc",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成48.3.9注释（4）～（5）及第48章参考文献Appel至Guggenberger等（1989）跨页条"},
+    "precisionPass": {"status": "verified", "method": "核验液体/顶空比≤1、42 d、顶空CO₂、全17条文献的作者、年份、题名、卷号和页码"},
+    "secondVisualPass": {"status": "verified", "method": "由Guggenberger等跨页题名反向复核至48.3.9注释（4），检查所有姓名缩写、连字符、期刊卷页及CO₂下标；印刷页码461"}
+  },
+  "blocks": [
+    {"type": "note", "number": "（4）", "scope": "48.3.9", "text": "培养容器应足够大，避免缺O₂；液体体积/容器顶空体积应约为1或更低。"},
+    {"type": "note", "number": "（5）", "scope": "48.3.9", "text": "除7 d短期培养外，McDowell等（2006）建议在室温对加菌剂和营养液的DOM长期培养42 d，定期测定容器顶空CO₂。该数据可分别估计DOC易降解与相对难降解部分的降解性，为模拟土壤DOC去向提供信息。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献", "scope": "第48章"},
+    {"type": "reference-list", "scope": "chapter-48", "items": [
+      "Appel, T. and Mengel, K. 1993. Nitrogen fractions in sandy soils in relation to plant nitrogen uptake and organic matter incorporation. Soil Biology and Biochemistry 25: 685–691.",
+      "Box, J.D. 1983. Investigation of the Folin-Ciocalteu phenol reagent for the determination of polyphenolic substances in natural waters. Water Research 17: 511–525.",
+      "Brink, R.H., Jr., Dubach, P., and Lynch, D.L. 1960. Measurement of carbohydrates in soil hydrolyzates with anthrone. Soil Science 89: 157–166.",
+      "Burford, J.R. and Bremner, J.M. 1975. Relationships between denitrification capacities of soils and total water soluble and readily decomposable soil organic matter. Soil Biology and Biochemistry 7: 389–394.",
+      "Cabrera, M.L. and Beare, M.H. 1993. Alkaline persulfate oxidation for determining total nitrogen in microbial biomass extracts. Soil Science Society of America Journal 57: 1007–1012.",
+      "Chantigny, M.H. 2003. Dissolved and water-extractable organic matter in soils: a review on the influence of land use and management practices. Geoderma 113: 357–380.",
+      "Chantigny, M.H., Angers, D.A., Prévost, D., Simard, R.R., and Chalifour, F.P. 1999. Dynamics of soluble organic C and C mineralization in cultivated soils with varying N fertilization. Soil Biology and Biochemistry 31: 543–550.",
+      "Chapman, P.J., Edwards, A.C., and Shand, C.A. 1997a. The phosphorus composition of soil solutions and soil leachates: influence of soil:solution ratio. European Journal of Soil Science 48: 703–710.",
+      "Chapman, P.J., Shand, C.A., Edwards, A.C., and Smith, S. 1997b. Effect of storage and sieving on the phosphorus composition of soil solution. Soil Science Society of America Journal 61: 315–321.",
+      "Chin, Y.P., Aiken, G., and O'Loughlin, E. 1994. Molecular weight, polydispersity, and spectroscopic properties of aquatic humic substances. Environmental Science & Technology 28: 1853–1858.",
+      "DeLuca, T.H. and Keeney, D.R. 1993. Soluble anthrone-reactive carbon in soils: effect of carbon and nitrogen amendments. Soil Science Society of America Journal 57: 1296–1300.",
+      "Dilling, J. and Kaiser, K. 2002. A rapid method for the estimation of fractions of dissolved organic matter in water samples using UV photometry. Water Research 36: 5037–5044.",
+      "Grandy, A.S., Erich, M.S., and Porter, G.A. 2000. Suitability of the anthrone-sulfuric acid reagent for determining water-soluble carbohydrates in soil water extracts. Soil Biology and Biochemistry 32: 725–727.",
+      "Gregorich, E.G., Rochette, P., McGuire, S., Liang, B.C., and Lessard, R. 1998. Soluble organic carbon and carbon dioxide fluxes in maize fields receiving spring-applied manure. Journal of Environmental Quality 27: 209–214.",
+      "Guggenberger, G. and Kaiser, K. 2003. Dissolved organic matter in soil: challenging the paradigm of sorptive preservation. Geoderma 113: 293–310.",
+      "Guggenberger, G., Kögel-Knabner, I., Haumaier, L., and Zech, W. 1989. Gel permeation chromatography of water-soluble organic matter with deionized water as eluent. II. Spectroscopic and chemical characterization of fractions obtained from an aqueous litter extract. Science of the Total Environment 81–82: 447–457. [续见第493页]"
+    ]}
+  ],
+  "formulas": [
+    {"id": "48.3.9-headspace-ratio", "display": "Vliquid/Vheadspace ≈ 1 or lower", "meaning": "避免培养容器内缺氧的最大液体/顶空体积比"},
+    {"id": "48.3.9-long-incubation", "display": "42 d at room temperature; repeated headspace CO₂ measurements", "meaning": "区分DOC易降解和相对难降解组分的长期培养方案"}
+  ],
+  "tables": [],
+  "contentSha256": "0df7885fd162a996b928a25d869488956e9113a0869798051d54e2b2de503cdb"
+}

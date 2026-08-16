@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 233,
+  "sourceImageSha256": "8e5fe89e75139e0c4e65ff9f1d6ac0896472dab71eee817390ad288316d91c8a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第202页，并与Apple Vision、PaddleOCR交叉比对，人工恢复24.2.4材料续项、13步流程、两项注释及24.3开篇"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Li₂SO₄·H₂O、175/210 mL、0.21/7 g、1/4/9 mL、360 ℃、0.5 mL H₂O₂、SOM、2～3周及原印“步骤3”交叉引用"},
+    "secondVisualPass": {"status": "verified", "method": "从24.3跨页末句反向复核至材料（7），确认13步编号、消解液配比、暴沸警告、交叉引用错误原印及页码202"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reagent-item", "number": "（7）", "text": "一水硫酸锂（Li₂SO₄·H₂O）。"},
+    {"type": "reagent-item", "number": "（8）", "text": "硒粉。"},
+    {"type": "reagent-item", "number": "（9）", "text": "显色液（见24.5.1）。"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "name": "消解液", "text": "在样品消解前一天，将175 mL H₂O₂溶液与0.21 g硒粉和7 g Li₂SO₄·H₂O在一个适宜的容器中混合。因为容器中会产生一定的压力，最好选用一个能密封的塑料瓶。将此溶液放在冰箱中过夜，次日硒粉应该已经溶解，请勿加热该溶液来溶解硒，这会极大地降低过氧化氢的效力。这个溶液能稳定保存2～3周。"},
+    {"type": "procedure-step", "number": "（2）", "text": "准确称量0.2～0.4 g磨细的土壤样品于100 mL消煮管中。"},
+    {"type": "procedure-step", "number": "（3）", "text": "为了避免暴沸，在消解管中加入惰性沸石、玻璃珠或者PTFE珠（见24.2.4注释1）。"},
+    {"type": "procedure-step", "number": "（4）", "text": "在通风橱中，向消煮管中加入5 mL浓硫酸，摇动（或用涡旋混合器）至土壤样品与酸完全混合变成棕色或黑色。"},
+    {"type": "procedure-step", "number": "（5）", "text": "向消煮管中小心并缓慢地加入1 mL消解混合液，此时样品会起沫或飞溅，所以应该十分小心谨慎。如果加完消解混合液后无明显反应，那么轻敲消煮管加速消解液与酸土混合物的混合。重复这个步骤三次，共加入4 mL消解混合液。"},
+    {"type": "procedure-step", "number": "（6）", "text": "将消煮管放在未加热的消煮炉上，在1～1.5 h内逐渐增加温度至360 ℃，并保持此温度30 min，此时应该有硫酸蒸汽在消煮管中回流。"},
+    {"type": "procedure-step", "number": "（7）", "text": "从消煮炉上取下消煮管，冷却5～10 min后向消煮管加入0.5 mL H₂O₂溶液，冲洗黏附在管壁上的土粒，充分混匀后放回消煮炉继续加热30 min。"},
+    {"type": "procedure-step", "number": "（8）", "text": "重复步骤7，直到溶液变清亮呈奶白色（通常需要加两次0.5 mL H₂O₂溶液），表示土壤有机质（SOM）已经完全消解。注意，一些铁含量较高的土壤即使加入再多过氧化氢也不会变为白色，最终样品呈现淡黄色。"},
+    {"type": "procedure-step", "number": "（9）", "text": "最后一次加热30 min后，从消煮炉中取下消煮管，冷却30 min，缓缓加入20～30 mL蒸馏水或去离子水，摇匀（或用涡旋混合器）样品，确保残渣悬浮在溶液中。"},
+    {"type": "procedure-step", "number": "（10）", "text": "加入蒸馏水或去离子水至液面稍低于消煮管体积刻度线，待溶液彻底冷却后，用蒸馏水或去离子水定容。"},
+    {"type": "procedure-step", "number": "（11）", "text": "盖上塞子或密封消煮管，慢慢颠倒消煮管数次以便使其充分混匀。"},
+    {"type": "procedure-step", "number": "（12）", "text": "在溶液倒入存储容器前，要使所有的内含物沉降。在比色分析前，将样品放在冰箱中过夜或用定量滤纸过滤。"},
+    {"type": "procedure-step", "number": "（13）", "text": "按照24.5所示的方法测定清亮的滤液中磷的浓度。"},
+    {"type": "procedure-group", "number": "3.", "title": "注释"},
+    {"type": "safety-warning", "number": "（1）", "text": "高温消解土壤样品与酸的混合物会暴沸，从而导致消煮管中的物质剧烈喷射，十分危险，可以通过添加惰性沸石、玻璃珠或PTFE珠来保证酸液持续平稳沸腾，降低暴沸的风险。相对于含有样品的消煮管，空白样品中这个问题更为严重。"},
+    {"type": "note-item", "number": "（2）", "text": "也可以在步骤1制备的消解液中加入210 mL浓硫酸，而省略向样品中直接加入浓硫酸的步骤（步骤3）。每个样品中共加入9 mL消解混合液。应该小心地缓缓加入，特别要注意避免剧烈反应造成消煮管或者烧瓶中溶液和样品的损失。这个消解混合液要保存在冰箱中，可以稳定保存2～3周。"},
+    {"type": "source-fidelity-note", "scope": "24.2.4注释（2）步骤号", "text": "原书清晰印作“省略……直接加入浓硫酸的步骤（步骤3）”，正文按原印保留；本页实际在步骤（4）加入5 mL浓硫酸，步骤（3）是加入惰性沸石/玻璃珠/PTFE珠，故该交叉引用应为步骤（4）。实际操作不得因此省略防暴沸材料。"},
+    {"type": "section-heading", "number": "24.3", "title": "总有机磷"},
+    {"type": "paragraph", "continued": true, "text": "土壤总有机磷（Pₒ）是不能直接测定的，更确切地说测得的是土壤样品灼烧或土壤浸提液消解中增加的无机磷。不同的测定方法或土壤类型之间的差异反映的是各操作效率的变化，而非土壤有机磷含量"},
+    {"type": "printed-page-number", "text": "202"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f91a4c8e85963f23523ca5c0fe228eaa7facd01db5829d95ae47cc7aa01c6bf9"
+}

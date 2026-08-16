@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 522,
+  "sourceImageSha256": "ee12c20239019b62df322f9ee6fd15a49175e8ad1c21bfca963e62ea9fd897b6",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页面和两套OCR，接续Knicker条并完成Knicker/Skjemstad至Stevenson（1996）跨页条共19条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验¹³C、¹⁵N上标、CPMAS、GC-MS、脉冲安培、卷页、作者连字符和Methods of Soil Analysis章节"},
+    "secondVisualPass": {"status": "verified", "method": "由Stevenson（1996）跨页条反向复核至Knicker续条，检查所有同位素、化学术语和印刷页码491"}
+  },
+  "blocks": [
+    {"type": "reference-continuation", "text": "[承第521页] organic matter. Naturwissenschaften 84: 231–234."},
+    {"type": "reference", "text": "Knicker, H. and Skjemstad, J.O. 2000. Nature of organic carbon and nitrogen in physically protected organic matter of some Australian soils as revealed by solid-state ¹³C and ¹⁵N NMR spectroscopy. Australian Journal of Soil Research 38: 113–127."},
+    {"type": "reference", "text": "Mahieu, N., Olk, D.C., and Randall, E.W. 2000. Accumulation of heterocyclic nitrogen in humified organic matter: a ¹⁵N-NMR study of lowland rice soils. European Journal of Soil Science 51: 379–389."},
+    {"type": "reference", "text": "Martens, D.A., Jaynes, D.B., Colvin, T.S., Kaspar, T.C., and Karlen, D.L. 2006. Soil organic nitrogen enrichment following soybean in an Iowa corn-soybean rotation. Soil Science Society of America Journal 70: 382–392."},
+    {"type": "reference", "text": "Martens, D.A. and Loeffelmann, K.L. 2003. Soil amino acid composition quantified by acid hydrolysis and anion chromatography-pulsed amperometry. Journal of Agricultural and Food Chemistry 51: 6521–6529."},
+    {"type": "reference", "text": "Moore, S., Spackman, D.H., and Stein, W.H. 1958. Chromatography of amino acids on sulfonated polystyrene resins: an improved system. Analytical Chemistry 30: 1185–1190."},
+    {"type": "reference", "text": "Moore, S. and Stein, W.H. 1948. Photometric ninhydrin method for use in the chromatography of amino acids. Journal of Biological Chemistry 176: 367–388."},
+    {"type": "reference", "text": "Mulvaney, R.L. and Khan, S.A. 2001. Diffusion methods to determine different forms of nitrogen in soil hydrolysates. Soil Science Society of America Journal 65: 1284–1292."},
+    {"type": "reference", "text": "Nguyen, R.T. and Harvey, H.R. 1998. Protein preservation during early diagenesis in marine waters and sediments. In: B.A. Stankiewicz and P.F. van Bergen, eds. Nitrogen-Containing Macromolecules in the Bio- and Geosphere. ACS Symposium Series 707. American Chemical Society, Washington, DC, pp. 88–112."},
+    {"type": "reference", "text": "Olk, D.C., Dancel, M.C., Moscoso, E., Jimenez, R.R., and Dayrit, F.M. 2002. Accumulation of lignin residues in organic matter fractions of lowland rice soils: a pyrolysis-GC-MS study. Soil Science 167: 590–606."},
+    {"type": "reference", "text": "Parsons, J.W. 1981. Chemistry and distribution of amino sugars in soils and soil organisms. In: E.A. Paul and J.N. Ladd, eds. Soil Biochemistry, Vol. 5. Marcel Dekker, New York, NY, pp. 197–227."},
+    {"type": "reference", "text": "Preston, C.M. 1996. Applications of NMR to soil organic matter analysis: history and prospects. Soil Science 161: 144–166."},
+    {"type": "reference", "text": "Schmidt-Rohr, K. and Mao, J.-D. 2002. Selective observation of nitrogen-bonded carbons in solid-state NMR by saturation-pulse induced dipolar exchange with recoupling. Chemical Physics Letters 359: 403–411."},
+    {"type": "reference", "text": "Schmidt-Rohr, K., Mao, J.-D., and Olk, D.C. 2004. Nitrogen-bonded aromatics in soil organic matter and their implications for a yield decline in intensive rice cropping. Proceedings of the National Academy of Sciences of the USA 101: 6351–6354."},
+    {"type": "reference", "text": "Schulten, H.-R. and Schnitzer, M. 1998. The chemistry of soil organic nitrogen: a review. Biology and Fertility of Soils 26: 1–15."},
+    {"type": "reference", "text": "Schulten, H.-R., Sorge, C., and Schnitzer, M. 1995. Structural studies on soil nitrogen by Curie-point pyrolysis-gas chromatography/mass spectrometry with nitrogen-selective detection. Biology and Fertility of Soils 20: 174–184."},
+    {"type": "reference", "text": "Skene, T.M., Clarke, P., Skjemstad, J.O., and Oades, J.M. 1997. Browning reactions between Eucalyptus litter and different nitrogen sources. Australian Journal of Soil Research 35: 1085–1091."},
+    {"type": "reference", "text": "Stevenson, F.J. 1965. Amino acids. In: C.A. Black et al., eds. Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties. American Society of Agronomy, Madison, WI, pp. 1437–1451."},
+    {"type": "reference", "text": "Stevenson, F.J. 1982. Organic forms of soil nitrogen. In: F.J. Stevenson, ed. Nitrogen in Agricultural Soils. ASA-CSSA-SSSA, Madison, WI, pp. 67–122."},
+    {"type": "reference", "text": "Stevenson, F.J. 1994. Humus Chemistry, 2nd ed. John Wiley & Sons, New York, 496 pp."},
+    {"type": "reference-continuation", "text": "Stevenson, F.J. 1996. Nitrogen-organic forms. In: D.L. Sparks et al., eds. Methods of Soil Analysis, Part 3—Chemical Methods. Soil [续见第523页]"},
+    {"type": "source-fidelity-note", "scope": "第522页Parsons文献", "text": "原书把Parsons（1981）章节题误作所属书名，已恢复为收录于Soil Biochemistry, Vol. 5, pp.197–227，与第515页同一正式文献一致。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "4b900f474019e1c8b6062a97720ad006f89c2ea254c55c3d56a97deeaf08286d"
+}

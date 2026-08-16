@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 420,
+  "sourceImageSha256": "65c9136866ac10ffcbcb3bf74db8641d16df7984c4c2b93cfb7e7fc54c2e0735",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版40.2.7（3）续至40.3承下句"},
+    "precisionPass": {"status": "verified", "method": "核验t=0、100%、2～5 cm、6 mm×15 cm、water-holding capacity和所有作者变音符"},
+    "secondVisualPass": {"status": "verified", "method": "由40.3承下句反向复核8条注释，纠正食腐动物、持水量、Bouché、Andrén和von Törne"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第40章｜土壤生物活性的评估"},
+    {"type": "note-item", "number": "（3）续", "text": "视研究目的，可把各植物部位分别置于各自网袋中跟踪分解，以消除混合植物部位带来的变异。"},
+    {"type": "note-item", "number": "（4）", "text": "残体入田前应尽量少处理，以免改变质量。风干森林叶凋落物比鲜叶分解显著更慢，用其装袋会严重低估质量损失率（Taylor，1998）。冷水提取会使大麦秸秆大量水溶性组分损失，在分解初期形成“滞后期”，并使总分解率低于未处理秸秆（Christensen，1985a）。因此残体装袋入田前不应干燥或水洗；初始干物质量按水分和灰分校正。"},
+    {"type": "note-item", "number": "（5）", "text": "回收残体可能受外来物污染，导致实际分解率被低估。可手工挑除、刷除或水洗（Andrén等，1992；Wardle等，1993；Cortez和Bouché，1998）；手挑、刷除不能完全去除有机和矿质污染，水洗又会去除残体水溶性物质。培养后冷水提取会流失大量养分，使质量损失高于未处理秸秆（Christensen，1985a）。因此水洗应减至最低，避免养分淋失和分解率高估。"},
+    {"type": "note-item", "number": "（6）", "text": "许多研究假定按灰分校正干重已消除矿质污染，但矿质和有机污染可能很显著，需其他校正（Christensen，1985b；Blair，1988；Idol等，2002）。Blair和Christensen在假定袋内外土壤组成相似时，用袋外土壤灰分含量校正；若小土粒优先进入袋内，该法会轻微低估质量损失，但优于只按残留去灰分干物质百分数计算。Idol等以每个回收时点装不可分解对照材料的田间网袋增重校正有机、矿质污染；所得分解率显著高于未校正或仅去灰分干重校正的结果。"},
+    {"type": "note-item", "number": "（7）", "text": "可比较各处理各时点质量损失率或残留率来评价生物活性，常用方差分析；t=0不纳入比较，因为所有处理平均残留率均为100%。也可把分解数据拟合数学模型，估计质量随时间损失的衰减常数；模型选择兼顾数学性质与分解生物学。可把温度和水分纳入模型（Andrén等，1992），或拟合前先校正二者影响（Moore，1986）。方差分析和数学模型的优缺点及解释问题见Wieder和Lang（1982）。"},
+    {"type": "note-item", "number": "（8）", "text": "充分表征研究区可改善结果解释，包括土壤和样点性质（pH、质地、持水量、植被、气候）、土地利用及生物学数据（如蚯蚓丰度、微生物生物量）。研究农药等人为胁迫时尤其重要，因为化学物质归趋受土壤生物群落影响（Singer等，2001）。捕食者通过取食中型和大型食腐动物间接影响分解；去除顶级捕食者可能改变土壤微生物区系活性，并伴随有机质分解率变化（Lawrence和Wise，2000）。微生物与土壤动物的相对重要性随环境而变；干旱、低温等恶劣条件下，土壤动物对分解的影响通常增加（Tian等，1997）。"},
+    {"type": "source-fidelity-note", "scope": "40.2.7（8）", "text": "中译本把water-holding capacity写成“水分含量”，把saprophagous animals误成“腐蚀性动物”；据英文原版校正为“持水量”和“食腐动物”。"},
+    {"type": "section-heading", "level": 2, "number": "40.3", "title": "诱饵层片法"},
+    {"type": "paragraph", "text": "诱饵层片用于监测土壤生物取食引入土壤碳源的总体活性。该装置由von Törne（1990）最初设计，后由Larink（1993）、Kratz（1998）等应用。层片为约6 mm宽、15 cm长的薄塑料条；孔数、孔径及布置续见第421页。"},
+    {"type": "printed-page-number", "text": "389"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "5c767ef7bb7277350f9328c660a118715c965fd4dcd4cdf85bfd0a0f2304b31f"
+}

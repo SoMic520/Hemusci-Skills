@@ -1,0 +1,51 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 88,
+  "sourceImageSha256": "8aba8a66f4b73b1ee1c0a35c72be1dd29a28b93c2873492732439610085b4ede",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复CRC注释续项、6.3.6、6.4—6.4.2层级和试剂段落"},
+    "precisionPass": {"status": "verified", "method": "放大核对式（6.7）的N₃/N₂下标、90%、67.3±3.2、3.33±1.0、μg/g、4.8%～30.4%，以及(NH₄)₂SO₄、KNaC₄H₄O₆·H₂O、HOC(COONa)(CH₂COONa)₂·H₂O、H₂SO₄、NaOH和全部浓度体积"},
+    "secondVisualPass": {"status": "verified", "method": "由CRC还原效率第③项至碱性苯酚溶液逐段反向复核原页，确认标题换行、标准液#1/#2编号、当天配制要求和页码"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第6章｜硝态氮和可交换性铵态氮｜"},
+    {"type": "ordered-list", "parent": "（6）CRC的还原效率", "continuation": true, "items": [
+      {"number": "③", "text": "为了测定还原效率，需要连续运行一个相同标准浓度且经过精确校准的亚硝酸盐和硝酸盐标准溶液，还原效率通过以下公式计算："}
+    ]},
+    {"type": "formula-reference", "labels": ["6.7"]},
+    {"type": "formula-definition", "text": "式中：PR是还原效率百分比，N₃是硝酸盐的峰高，N₂是亚硝酸盐的峰高。", "symbols": {"PR": "还原效率百分比", "N₃": "硝酸盐的峰高", "N₂": "亚硝酸盐的峰高"}},
+    {"type": "ordered-list", "parent": "（6）CRC的还原效率", "continuation": true, "items": [
+      {"number": "④", "text": "如果亚硝酸盐的响应符合预期，但是还原效率在90%以下，那么需要再活化CRC。"}
+    ]},
+    {"type": "ordered-list", "continuation": true, "items": [
+      {"number": "（7）", "text": "这个方法得到的结果包括了NO₃-N和NO₂-N，因此，含有大量NO₂-N的样本中会导致NO₃-N的结果偏高。"},
+      {"number": "（8）", "text": "虽然本章只列出了使用Technicon自动分析器的操作方法，但是镉还原法还可以应用到其他SFA和FIA系统上。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "6.3.6", "title": "精确度和准确度"},
+    {"type": "paragraph", "text": "准确度的确定没有标准可以参考。阿尔伯塔土壤学研究所（Alberta Institute of Pedology，Heaney等，1988）进行的土壤试验质量保证计划中关于NO₃-N精确度测量的试验表明，NO₃-N是土壤中最容易发生变化的参数之一。对于NO₃-N含量分别为67.3±3.2（SD）μg/g和3.33±1.0（SD）μg/g的样本而言，其变异系数范围为4.8%～30.4%。", "inlineNotation": ["NO₃-N", "67.3±3.2（SD）μg/g", "3.33±1.0（SD）μg/g", "4.8%～30.4%"]},
+    {"type": "section-heading", "level": 2, "number": "6.4", "title": "间隔流动分析仪靛酚蓝法测定2.0 mol/L KCl提取液中的NH₄-N含量（苯酚盐法）"},
+    {"type": "section-heading", "level": 3, "number": "6.4.1", "title": "原理"},
+    {"type": "paragraph", "text": "利用自动分光光度法通过Berthelot反应对铵进行测定（Searle，1984）。酚和NH₄反应后呈深蓝色，颜色的深浅与NH₄的量成正比。次氯酸钠和硝普钠（亚硝基铁氰化钠）溶液被分别用作氧化剂和催化剂（O.I. Analytical，2001b）。", "inlineNotation": ["NH₄"]},
+    {"type": "section-heading", "level": 3, "number": "6.4.2", "title": "材料和试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "Technicon自动分析器由进样系统、扩增器、比例泵、加热池、色度计和数据采集系统组成。"},
+      {"number": "（2）", "text": "标准溶液："}
+    ]},
+    {"type": "ordered-list", "parent": "（2）标准溶液", "items": [
+      {"number": "①", "text": "储备液#1（1000 μg NH₄-N/mL）：将4.7170 g (NH₄)₂SO₄（105℃烘干）溶解在800 mL去离子水中，转移至1 L容量瓶并用去离子水定容，混合均匀，冷藏保存。"},
+      {"number": "②", "text": "储备液#2（100 μg NH₄-N/mL）：取10 mL储备液#1，用2.0 mol/L KCl溶液稀释至100 mL，冷藏保存。"},
+      {"number": "③", "text": "工作曲线标准溶液：分别移取0、1、2、5、7和10 mL的储备液#2到100 mL的容量瓶内，用2.0 mol/L KCl溶液定容，分别得到0、1、2、5、7和10 μg NH₄-N/mL的标准溶液。标准溶液需要当天配制。"}
+    ]},
+    {"type": "ordered-list", "continuation": true, "items": [
+      {"number": "（3）", "text": "络合剂：将33 g酒石酸钾钠（KNaC₄H₄O₆·H₂O）和24 g柠檬酸钠（HOC(COONa)(CH₂COONa)₂·H₂O）溶解在950 mL去离子水中，用浓H₂SO₄调整pH值至5.0，加入0.5 mL的Brij-35，转移至1 L容量瓶并用去离子水定容，混合均匀。"},
+      {"number": "（4）", "text": "碱性苯酚溶液：使用1 L的锥形烧瓶，将83 g苯酚溶解于50 mL去离子水中，边搅拌边小心加入180 mL 20%（5 mol/L）的NaOH溶液，用去离子水稀释到1 L，混合均匀，存储在棕色瓶中。（将200克NaOH溶解，用去离子水稀释至1 L，制得20% NaOH溶液。）"}
+    ]},
+    {"type": "printed-page-number", "text": "57"}
+  ],
+  "formulas": [
+    {"label": "6.7", "plain": "PR=(N₃/N₂)×100", "latex": "PR=\\left(\\frac{N_3}{N_2}\\right)\\times 100", "context": "还原效率百分比"}
+  ],
+  "tables": [],
+  "contentSha256": "636a84688bf6c630e4126aa61c81bbf3e811f2c4247140e342526fc67f09c224"
+}

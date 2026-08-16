@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 226,
+  "sourceImageSha256": "71dfed885f209e16de0a8049a2877c53a401ab249f2acc34ffd31933155297ff",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第23章参考文献第195页，并与Apple Vision、PaddleOCR交叉比对，人工恢复Johnson条目续文及本页22条完整文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验LECOCNS-2000、No. 27、X-ray、2nd ed.、作者缩写、书名、期刊卷页、地名及化学分析专名"},
+    "secondVisualPass": {"status": "verified", "method": "从Randall条目反向复核至页首736-742，确认23个文献单元、标点、专名、卷页和页码195"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第23章｜土壤硫的化学特征｜"},
+    {"type": "reference-entry-continuation", "continuedFromPreviousPage": true, "text": "736-742."},
+    {"type": "reference-entry", "text": "Jones, M.B. 1986. Sulfur availability indexes. In: M.A. Tabatabai, ed. Sulfur in Agriculture. Agronomy No. 27. American Society of Agronomy, Madison, WI, 549-566."},
+    {"type": "reference-entry", "text": "Khan, S.U. and Webster, G.R. 1968. Determination of gypsum in solonetzic soils by an x-ray technique. Analyst. 93: 400-402."},
+    {"type": "reference-entry", "text": "Killham, K. and Wainwright, M. 1981. Closed combustion method for the rapid determination of total S in atmospheric polluted soils and vegetation. Environ. Pollut. (Ser. B) 2: 81-85."},
+    {"type": "reference-entry", "text": "Kowalenko, C.G. 1978. Organic nitrogen, phosphorus, and sulfur in soils. In: M. Schnitzer and S.U. Khan, eds. Soil Organic Matter, Developments in Soil Science 8. Elsevier, New York, 95-136."},
+    {"type": "reference-entry", "text": "Kowalenko, C.G. 1985. A modified apparatus for quick and versatile sulfate-sulfur analysis using hydriodic acid reduction. Commun. Soil Sci. Plant Anal. 16: 289-300."},
+    {"type": "reference-entry", "text": "Kowalenko, C.G. 2000. Influence of sulfur and nitrogen fertilizer applications and within season sampling time on measurement of total sulfur in orchardgrass by six different methods. Commun. Soil Sci. Plant Anal. 31: 345-354."},
+    {"type": "reference-entry", "text": "Kowalenko, C.G. 2001. Assessment of LECOCNS-2000 analyzer for simultaneously measuring total carbon, nitrogen, and sulfur in soil. Commun. Soil Sci. Plant Anal. 32: 2065-2078."},
+    {"type": "reference-entry", "text": "Kowalenko, C.G. 2005. Binding of inorganic sulfate and phosphate in humid-climate soils measured by using column leaching, equilibration, and extraction methods. Can. J. Soil Sci. 85: 599-610."},
+    {"type": "reference-entry", "text": "Kowalenko, C.G. and Lowe, L.E. 1972. Observations on the bismuth sulfide colorimetric procedure for sulfate analysis in soil. Commun. Soil Sci. Plant Anal. 3: 79-86."},
+    {"type": "reference-entry", "text": "Kowalenko, C.G. and Lowe, L.E. 1975. Evaluation of several extraction methods and of a closed incubation method for sulfur mineralization. Can. J. Soil Sci. 55: 1-8."},
+    {"type": "reference-entry", "text": "Lowe, L.E. and DeLong, W.A. 1963. Carbon bonded sulfur in selected Quebec soils. Can. J. Soil Sci. 43: 151-155."},
+    {"type": "reference-entry", "text": "Matrai, P.A. 1989. Determination of sulfur in ocean particulates by combustion-fluorescence. Mar. Chem. 26: 227-238."},
+    {"type": "reference-entry", "text": "Maynard, D.G. and Addison, P.A. 1985. Extraction and colorimetric determination of elemental sulfur in organic horizons of forest soils. Can. J. Soil Sci. 65: 811-813."},
+    {"type": "reference-entry", "text": "Maynard, D.G., Kalra, Y.P., and Radford, F.G. 1987. Extraction and determination of sulfur in organic horizons of forest soils. Soil Sci. Soc. Am. J. 51: 801-805."},
+    {"type": "reference-entry", "text": "Melville, G.E., Freney, J.R., and Williams, C.H. 1971. Reaction of organic sulfur compounds in soil with tin and hydrochloric acid. Soil Sci. 112: 245-248."},
+    {"type": "reference-entry", "text": "Nelson, R.E. 1982. Carbonate and gypsum. In: A.L. Page, R.H. Miller, and D.R. Keeney, eds. Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties, 2nd ed. American Society of Agronomy, Madison, WI, 181-197."},
+    {"type": "reference-entry", "text": "Nor, Y.M. and Tabatabai, M.A. 1976. Extraction and colorimetric determination of thiosulfate and tetrathionate in soils. Soil Sci. 122: 171-178."},
+    {"type": "reference-entry", "text": "O'Donnell, A.G., He, Z., and Syers, J.K. 1992. A biphasic extraction procedure for the simultaneous removal of elemental sulfur and sulfate from soils. J. Sci. Food Agric. 59: 395-400."},
+    {"type": "reference-entry", "text": "Patterson, G.D., Jr. and Pappenhagen, J.M. 1978. Sulfur. In: D.F. Boltz and J.A. Howell, eds. Colorimetric Determination of Nonmetals. John Wiley & Sons, Toronto, ON, Canada, 463-527."},
+    {"type": "reference-entry", "text": "Pirela, H.J. and Tabatabai, M.A. 1988. Reduction of organic sulfur in soils with tin and phosphoric acid. Soil Sci. Soc. Am. J. 52: 959-964."},
+    {"type": "reference-entry", "text": "Randall, P.J. and Spencer, K. 1980. Sulfur content of plant material: a comparison of methods of oxidation prior to determination. Commun. Soil Sci. Plant Anal. 11: 257-266."},
+    {"type": "printed-page-number", "text": "195"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "adc74ea4c4f79347836ca917f062ab99089c327d55ee5201a8e48fe991e38e78"
+}

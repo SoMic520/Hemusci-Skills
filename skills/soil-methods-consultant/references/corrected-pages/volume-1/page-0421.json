@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 421,
+  "sourceImageSha256": "608068f6e905a26923f6deb0b8a8456231072986b589dd4ebd3c6516fd9a4f73",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、两套OCR及英文原版40.3承上至40.3.3（1）"},
+    "precisionPass": {"status": "verified", "method": "核验16孔/16片、2 mm、0.5 cm、8 cm、14 d、0.5 mm、1 kg、250～500 mL、15 cm、908 g=2 lb、6.4 mm、10 cm、76～92 cm及配方克数"},
+    "secondVisualPass": {"status": "verified", "method": "由40.3.3（1）反向复核材料与尺寸，检查CAS号、EC号、货号、4×4模板和全部单位；印刷页码390"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "text": "每片诱饵层片有16个直径2 mm的孔，孔中心沿长度方向每0.5 cm一个，监测总深度8 cm。把对土壤生物有吸引力的有机材料压入孔内。通常把一组16片插入土壤一段时间（一般14 d）供土壤生物取食；取出后，各深度空孔数占总孔数的百分比表征土壤生物对碳源的摄食活性。"},
+    {"type": "section-heading", "level": 3, "number": "40.3.1", "title": "材料"},
+    {"type": "reagent-item", "number": "（1）", "text": "纤维素纸：酸洗、无灰、柱色谱用；原书例为J.T. Baker Chemical Co. 1-5225。替代品为Sigma微粒纤维素C-6413，EC 232-674-9，CAS [9004-34-6]，购1 kg规格。"},
+    {"type": "reagent-item", "number": "（2）", "text": "膨润土；原书例为American Colloid Company VOLCLAY HPM-20（历史链接：http://www.colloid.com/AGP/Tech/Volclay%20HPM-20.pdf）。"},
+    {"type": "reagent-item", "number": "（3）", "text": "琼脂（agar-agar/gum agar）；原书例为Sigma A-7002，也可用其他来源。"},
+    {"type": "reagent-item", "number": "（4）", "text": "麦麸；原书例为Quaker Oats。尽可能细磨并过0.5 mm筛，使粒径范围与其他组分相同。"},
+    {"type": "equipment-item", "number": "（5）", "text": "诱饵层片；原书所列供应商为terra protecta GmbH，Himbeersteig 18，D-14129 Berlin，Germany（历史链接：http://www.terra-protecta.de）。"},
+    {"type": "equipment-item", "number": "（6）", "text": "蒸馏水；带盖广口塑料或玻璃容器（250～500 mL）；小铲、匙、塑料或乳胶手套、柔性腻子刀、厚塑料片、保鲜膜、塑料盘，以及盛放整套层片的盒或塑料袋。"},
+    {"type": "equipment-item", "number": "（7）", "text": "灯箱或灯台。"},
+    {"type": "equipment-item", "number": "（8）", "text": "带坚固木柄、用于预打土孔的钢探针：薄、略宽于层片、长至少15 cm，并足够厚以免受压弯曲。中度至强度压实土中可能需908 g（2 lb）小型大锤。"},
+    {"type": "equipment-item", "number": "（9）", "text": "6.4 mm厚胶合板模板，钻16个与钢探针同宽的孔；4行×4列，孔距10 cm。板长、孔数和排列可按项目改变；模板可选，也可随机插片。"},
+    {"type": "equipment-item", "number": "（10）", "text": "土钻；15 cm长土壤温度计；重力含水量用铝盒或时域反射（TDR）水分仪；长76～92 cm田间标志旗。"},
+    {"type": "section-heading", "level": 3, "number": "40.3.2", "title": "诱饵层片的准备"},
+    {"type": "paragraph", "text": "开始前，无论新片或旧片均用肥皂和水彻底清洗，去除残留物，再以蒸馏水漂洗。有些研究方案要求使用前以次氯酸盐或70%乙醇漂洗灭菌。"},
+    {"type": "recipe", "title": "诱饵混合物", "text": "纤维素纸6.5 g；琼脂1.5 g；膨润土1.0 g；麦麸1.0 g；蒸馏水适量。"},
+    {"type": "section-heading", "level": 3, "number": "40.3.3", "title": "诱饵层片入田前准备"},
+    {"type": "procedure-step", "number": "（1）", "text": "用永久性记号笔在层片两面横跨标出0 cm线。"},
+    {"type": "printed-page-number", "text": "390"}
+  ],
+  "formulas": [],
+  "tables": [
+    {"id": "40.3.2-bait-recipe", "columns": ["组分", "用量"], "rows": [["纤维素纸", "6.5 g"], ["琼脂", "1.5 g"], ["膨润土", "1.0 g"], ["麦麸", "1.0 g"], ["蒸馏水", "适量，5～10 mL逐次加入（操作见第422页）"]]}
+  ],
+  "contentSha256": "278629beac8796833f321dc9ec56cdb8c099d41c6d5595d58aa372377b0b925e"
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 517,
+  "sourceImageSha256": "53d3e238bdff4cccd41230747f88c86aca0d4cb4d16284261daf74dac1587d6a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成第51章题、作者机构及51.1至SPIDER跨页句"},
+    "precisionPass": {"status": "verified", "method": "核验20%～35%、10%～20%、10%～30%、¹⁵N、CP/MAS ¹⁵N NMR、SPIDER及全部引文"},
+    "secondVisualPass": {"status": "verified", "method": "由页末‘约’反向复核至章题，检查¹⁵N上标、NMR缩写、含量范围、含氮化合物名称和印刷页码486"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "level": 1, "number": "第51章", "title": "有机氮的形态"},
+    {"type": "author", "name": "D.C. Olk", "affiliation": "U.S. Department of Agriculture, Ames, Iowa, United States"},
+    {"type": "section-heading", "level": 2, "number": "51.1", "title": "引言"},
+    {"type": "paragraph", "text": "土壤有机N化学形态测定通常先以热无机酸（常用HCl）水解土壤，再蒸馏分离水解液N组分，或用色谱鉴定常见氨基酸。此类方法一般只能鉴定土壤全N的一半以上，回收率受三方面限制：20%～35%全N不能被HCl水解；多种N形态水解后转为NH₄⁺而失去原始形态信息；另有10%～20%全N虽可水解，却不能归入常见氨基酸。"},
+    {"type": "paragraph", "text": "酸不溶N和水解后未鉴定N过去常被推测为比氨基酸更惰性的杂环N，并据此把土壤有机N惰性归因于大量芳香结构；但缺乏有力证据。多数酸不溶N可能其实是酰胺态N，如多肽、氨基酸、氨基糖及其水解残留物。"},
+    {"type": "source-fidelity-note", "scope": "51.1酰胺态氮术语", "text": "原书把amide-N译成‘次氨基态氮’，与所列多肽、氨基酸和氨基糖不符；这些结构在固体¹⁵N NMR中归为酰胺/肽键N，已统一校正为‘酰胺态N（amide-N）’。"},
+    {"type": "paragraph", "text": "光谱研究显示，土壤有机N信号主要来自氨基/酰胺类化合物；确认的芳香N总体占比较小。CP/MAS ¹⁵N NMR通常很难观察到除氨基/酰胺N以外的信号，但强酰胺N峰可能掩盖含量低、类型分散的杂环N，因此不能据未检出断言杂环N不存在。"},
+    {"type": "paragraph", "text": "高温热解、N K边X射线吸收近边结构（N K-edge XANES）、X射线光电子能谱（XPS）和¹⁵N NMR等微量技术在部分腐殖质或植物残体样品中发现占全N约10%～30%的杂环N；可鉴定结构包括吡啶、吡咯和吲哚。"},
+    {"type": "paragraph", "text": "苯胺类N可由有机N与酚类化合物共价结合形成。饱和脉冲诱导偶极交换重耦（SPIDER）NMR可选择性观察与N相连的C形态；Schmidt-Rohr等（2004）用该法在一种土壤中发现约[续见第518页]"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ba8571c973e93a8a4f192ca9fb80c5c758a581c8ab93f0487eb825a4fcaf2cae"
+}

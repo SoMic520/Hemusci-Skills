@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 162,
+  "sourceImageSha256": "be4f7b4acc48e11b82f8d163d767e6c30c76e24adaef5c0032e0062a2a8193d5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐图对照原分辨率页图和两套OCR，完成样品尺度保存、图69.4、69.5及式(69.9)"},
+    "precisionPass": {"status": "verified", "method": "核验ψ_m>−3.3 m、7.6/10 cm、0—4℃、θ_s/θ_r、K_s/K_fs/K_sat及量纲"},
+    "secondVisualPass": {"status": "verified", "method": "由式(69.9)反向复核图轴、方法覆盖范围和土芯条件；印刷页码671"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "样品至少包含20个结构单元的要求，在ψ_m>−3.3 m范围内测定以及用同一样品测饱和导水率时尤其重要。相对无结构砂质土，土芯/土柱最小内径和高度约7.6 cm；有结构壤质和黏质土的长度与直径至少10 cm。"},
+    {"type": "paragraph", "text": "采样时含水量应接近田间持水量θ_FC。打入土环或土柱采样器时土体应能抵抗压实又保持一定塑性，避免自然结构分离和破损。带封底圆柱采样器匀速垂直取出，两端加盖并用塑料膜包裹防蒸发；置有坐垫的冰箱运输，分析前在0—4℃黑暗设备中保存，不得冻结或形成冰晶。"},
+    {"type": "paragraph", "text": "第72—74章的脱水—吸水曲线方法包括张力台/张力板及压力抽取法（第72章）、长土柱法（第73章）和露点干湿计法（第74章）。"},
+    {"type": "figure", "number": "69.4", "title": "各方法测定脱水曲线和吸水曲线时大约覆盖的基质水头范围", "axes": {"x": "基质水头ψ（m），约−10000至0", "y": "土壤含水量θ（m³·m⁻³）"}, "annotations": ["长土柱法：近饱和湿端", "低压张力台（板）：湿端", "高压张力台（板）：中湿段", "压力抽取法：较干段", "露点干湿计法：最干段", "θ_s为饱和含水量，θ_r为残余含水量"]},
+    {"type": "heading", "number": "69.5", "title": "饱和水力学特性", "level": 2},
+    {"type": "paragraph", "text": "饱和水力学特性描述孔隙水压力（或基质水头）大于或等于进气值/进水值时水在土壤、填埋料、砂和岩石等可渗介质中的运动。性质包括饱和导水率K_s、田间饱和导水率K_fs，以及基质通量势、吸渗率、吸渗数、Green-Ampt湿润锋压力水头和FWM孔隙大小/孔隙数等毛管参数。"},
+    {"type": "paragraph", "text": "K_s用于导水孔隙被水完全充满的完全饱和条件；K_fs用于导水孔隙含闭塞空气、气体或封闭气泡的田间饱和条件。初始非饱和土测完K_s或K_fs后，常继续测毛管特性。按达西定律，水流密度q等于饱和导水率K_sat与水力梯度i的乘积，其中K_sat依完全饱和或田间饱和分别取K_s或K_fs。"},
+    {"type": "variables", "items": ["q：单位时间通过单位横截面积的水体积（L·T⁻¹）", "i：水力水头梯度（无量纲）", "K_sat：K_s或K_fs（L·T⁻¹）"]},
+    {"type": "source-fidelity-note", "text": "图69.4只表示大约覆盖范围，不应从示意箭头读出统一仪器量程。保存温度原文为0—4℃且明确不得冻结；式(69.9)中的K_sat不是新的第三种饱和度，而是K_s或K_fs的统称。"}
+  ],
+  "formulas": [
+    {"label": "69.9", "plain": "q = K_sat i", "latex": "q=K_{sat}i", "resultUnit": "L·T⁻¹"}
+  ],
+  "tables": [],
+  "contentSha256": "b6db54cd5157c0a9da671157c20bf7b8846b0a685250f3c0beb963a12c811dd0"
+}

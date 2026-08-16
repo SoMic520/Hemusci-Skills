@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 444,
+  "sourceImageSha256": "d8fdce5d52803b3e6868cf1c143bd7111486a80627c9e497f0e59d72d118618b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、两套OCR及英文原版43.2.2（16）～43.3.1"},
+    "precisionPass": {"status": "verified", "method": "核验5×TBE配方、EB 0.4 mg·L⁻¹、−80/−20/70/10 °C、250 mg ODW、0.5 g 0.1 mm珠+2粒2 mm珠、14,000/1,000×g、92 mg PVPP及200/100/400/80–90/30–50 μL；纠正印刷mL/μL混淆"},
+    "secondVisualPass": {"status": "verified", "method": "由43.3.1末句反向复核至小牛胸腺DNA，按2 mL管容量逐项反算所有微升体积，检查负号、倍数、pH及印刷页码413"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第43章｜细菌群落信息的变性梯度凝胶电泳（DGGE）分析"},
+    {"type": "reagent-item", "number": "（16）", "text": "小牛胸腺DNA。"},
+    {"type": "material-item", "number": "（17）", "text": "Geneclean Turbo Kit玻璃奶（glass milk）法凝胶回收试剂盒（Bio 101 Systems, Qbiogene）。"},
+    {"type": "reagent-item", "number": "（18）", "name": "琼脂糖及5×TBE储备液", "text": "每升5×TBE含54 g Tris碱、27.5 g硼酸、20 mL 0.5 mol·L⁻¹ EDTA，pH 8.0。"},
+    {"type": "reagent-item", "number": "（19）", "text": "溴化乙锭（EB）染色液，0.4 mg·L⁻¹。"},
+    {"type": "section-heading", "level": 3, "number": "43.2.3", "title": "操作步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "用新鲜采集的湿土（不可风干）提取DNA；风干会改变微生物群落组成和DNA提取效率。不能立即处理时，将鲜土置塑料微量管，在液氮中快速冷冻后于−80 °C保存。"},
+    {"type": "procedure-step", "number": "（2）", "text": "向2 mL旋盖管加入相当于250 mg干土的湿土、0.5 g直径0.1 mm玻璃珠和2粒直径2 mm玻璃珠；加1 mL裂解缓冲液，珠磨仪1,600 r·min⁻¹均浆30 s，70 °C培养20 min。14,000×g离心1 min，上清转入新无菌2 mL管；量取上清体积，加入其1/10体积的3 mol·L⁻¹乙酸钾（pH 5.5），冰浴10 min，14,000×g离心5 min，上清再转新管。加入等体积−20 °C异丙醇，−20 °C放置30 min沉淀DNA；14,000×g离心30 min，弃上清，以200 μL冷70%乙醇洗DNA沉淀；室温风干30 min，以100 μL无菌水重悬DNA。"},
+    {"type": "source-fidelity-note", "scope": "43.2.3（2）", "text": "中文版把“相当于250 mg干土”误排成近似“25%含水率”，并把0.5 g 0.1 mm玻璃珠与2粒2 mm玻璃珠的数量关系排乱；另把200 μL乙醇和100 μL水误印为mL。按英文原版及2 mL管容量全部校正。"},
+    {"type": "procedure-step", "number": "（3）", "text": "使用前现制PVPP柱：把Micro Bio-Spin柱置2 mL管中，加92 mg PVPP粉末和400 μL无菌水，10 °C、1,000×g离心2 min；再加400 μL无菌水并同样离心。把柱转入新的2 mL管，将步骤2所得DNA小心加到柱顶，冰浴5 min，10 °C、1,000×g离心4 min；洗脱DNA体积约80～90 μL。"},
+    {"type": "procedure-step", "number": "（4）", "text": "按厂商建议，用Geneclean Turbo Kit继续纯化PVPP柱洗脱的DNA（protocol 5.1：从PCR反应及其他酶促溶液快速分离DNA）；最终以30～50 μL水回收DNA。"},
+    {"type": "procedure-step", "number": "（5）", "text": "以1%琼脂糖–TBE凝胶电泳观察条带并定量纯化DNA；与土壤DNA样品并列上样已知量的小牛胸腺DNA，例如每孔10、50、100和200 ng。"},
+    {"type": "procedure-step", "number": "（6）", "text": "电泳后以EB染胶，在紫外透射光下拍照；根据小牛胸腺DNA标准量所得回归曲线，经图像分析计算土壤样品DNA含量。"},
+    {"type": "section-heading", "level": 2, "number": "43.3", "title": "PCR扩增（Dieffenbach和Dveksler，2003）"},
+    {"type": "section-heading", "level": 3, "number": "43.3.1", "title": "注意事项及原则"},
+    {"type": "paragraph", "text": "PCR依所用寡核苷酸引物选择性、指数式扩增特定DNA序列。它可产生供电泳指纹或分子杂交分析群落组成所需的大量DNA；用特异引物扩增目标基因时，阳性反应表明相应序列存在；如使用实时定量PCR仪（如LightCycler PCR System，Roche Applied Science），还可定量土壤DNA中的目标序列。特异引物可查文献或用PrimerSelect（DNAStar Inc.）等软件设计；变性、退火、延伸的温度与时间可据文献设置，或通过预试验优化。"},
+    {"type": "printed-page-number", "text": "413"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "406a29d0cd8ec7f7e3f0ef2635f05a275b195748af6aafdad84a412b93d37edb"
+}

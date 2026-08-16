@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 82,
+  "sourceImageSha256": "298035da788330a495d4aa842b9c16f9d6b567a6e0d9ada4d2836f088a9bfa5e",
+  "review": {
+    "textPass": {"status": "verified", "method": "对照原分辨率篇章扉页，并与Apple Vision、PaddleOCR两份识别结果核对标题文字"},
+    "precisionPass": {"status": "verified", "method": "核对篇次“第二篇”及标题“土壤与环境管理的诊断方法”的每个汉字"},
+    "secondVisualPass": {"status": "verified", "method": "再次通览整页，确认除篇次和篇名外无页码、公式、表格或其他正文"}
+  },
+  "blocks": [
+    {"type": "part-heading", "number": "第二篇", "title": "土壤与环境管理的诊断方法"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ae35485861ae0f51cf42378960b598e523f64c9079eac4056a64439d0727ec9c"
+}

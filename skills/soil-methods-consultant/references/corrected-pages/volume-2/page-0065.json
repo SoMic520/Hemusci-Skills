@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 65,
+  "sourceImageSha256": "ba29565867c0015801aaa2f0b1e3e78da7a4d6f10a654ba7984f82a96ff1f139",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成59章参考文献余16条及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验作者附加符号、I/II序号、年份、题名、期刊卷页、专著/学位论文信息和译校署名"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向逐条复核至Dawidowski等（2001）；印刷页码574"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Dawidowski, J.B., Morrison, J.E., and Snieg, M. 2001. Measurement of soil layer strength with plate sinkage and uniaxial confined methods. Trans. Am. Soc. Agric. Eng. 44:1059–1064.",
+      "Défossez, P. and Richard, G. 2002. Compaction of tilled topsoil due to traffic: a review of models tested in field conditions. Soil Till. Res. 67:41–64.",
+      "Défossez, P., Richard, G., Boizard, H., and O'Sullivan, M. 2003. Modelling change in soil compaction due to traffic as function of soil water content. Geoderma 116:89–105.",
+      "Dias Junior, M.S. and Pierce, F.J. 1995. A simple procedure for estimating preconsolidation pressure from soil compression curves. Soil Tech. 8:139–151.",
+      "Earl, R. 1997. Assessment of the behaviour of field soils during compaction. J. Agric. Eng. Res. 68:147–157.",
+      "Gupta, S.C. and Larson, W.E. 1982. Predicting soil mechanical behaviour during tillage. In Predicting Tillage Effects on Soil Physical Properties and Processes. American Society of Agronomy, Special Publication 44, Madison, WI, 151–178.",
+      "Imhoff, S., Da Silva, A.P., and Fallow, D. 2004. Susceptibility to compaction, load support capacity, and soil compressibility of Hapludox. Soil Sci. Soc. Am. J. 68:17–24.",
+      "Jose, B.T., Sridharan, A., and Abraham, B.M. 1989. Log-log method for determination of preconsolidation pressure. Geotech. Test. J. 12:230–237.",
+      "Keller, T., Arvidsson, J., Dawidowski, J.B., and Koolen, A.J. 2004. Soil precompression stress II. A comparison of different compaction tests and stress-displacement behaviour of the soil during wheeling. Soil Till. Res. 77:97–108.",
+      "Lebert, M. and Horn, R. 1991. A method to predict the mechanical strength of agricultural soils. Soil Till. Res. 19:275–286.",
+      "McBride, R.A. 1989. Estimation of density-moisture-stress functions from uniaxial compression of unsaturated, structured soils. Soil Till. Res. 13:383–397.",
+      "McBride, R.A. and Joosse, P.J. 1996. Overconsolidation in agricultural soils: II. Pedotransfer functions for estimating preconsolidation stress. Soil Sci. Soc. Am. J. 60:373–380.",
+      "Sällfors, G. 1975. Preconsolidation Pressure of Soft High Plastic Clays. Doctoral Thesis, Department of Geotechnical Engineering, Chalmers University of Technology, Gothenburg, Sweden.",
+      "Veenhof, D.W. and McBride, R.A. 1996. Overconsolidation in agricultural soils: I. Compression and consolidation behavior of remolded and structured soils. Soil Sci. Soc. Am. J. 60:362–373."
+    ]},
+    {"type": "credits", "text": "张文璨、高伟达译，任图生校。"},
+    {"type": "source-fidelity-note", "text": "原图下部反透印刷和OCR乱码不属于本页正文，已排除；Défossez、Sällfors及Keller等题名中的II均按原图复核。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "93bb8771f432f876c9111ee3a278bbceb0e99bb79885e77aa4be06c7fa60bbc3"
+}

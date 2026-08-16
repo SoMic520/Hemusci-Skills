@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 428,
+  "sourceImageSha256": "3e923e1beec6c2cfe651710f31cf7388518f539489b972e432782eb3347d754a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、两套OCR及英文原版第41章题、作者与41.1至承下句"},
+    "precisionPass": {"status": "verified", "method": "复算Cmic∶ATP 150～217、11/11.4/11.7 μmol·g⁻¹、约6.1 mg·g⁻¹、553.8和t₁⁄₂<1 h；核验7项干扰机制"},
+    "secondVisualPass": {"status": "verified", "method": "由PA/TCA承下句反向复核章首，恢复5′、Cmic下标、半衰期下标及Leamington地名"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第41章", "title": "土壤ATP"},
+    {"type": "author", "text": "R.P. Voroney；University of Guelph，Guelph，Ontario，Canada"},
+    {"type": "author", "text": "G. Wen；Leamington，Ontario，Canada"},
+    {"type": "author", "text": "R.P. Beyaert；Agriculture and Agri-Food Canada，London，Ontario，Canada"},
+    {"type": "section-heading", "level": 2, "number": "41.1", "title": "引言"},
+    {"type": "paragraph", "text": "用萤火虫荧光素—荧光素酶生物发光法测定三磷酸腺苷（adenosine 5′-triphosphate，ATP），长期用于估计土壤和沉积物微生物生物量（Karl和LaRock，1975；Jenkinson等，1979；Verstraete等，1983；Maire，1984）。土壤ATP量与氯仿熏蒸—培养或熏蒸—提取法（见第49章）测得的微生物生物量碳高度相关（Tate和Jenkinson，1982；Jenkinson，1988）。"},
+    {"type": "paragraph", "text": "土壤微生物生物量C∶ATP通常为150～200（De Nobili等，1996）；14种农田土为208～217（Martens，2001）。生物量ATP含量报道为11、11.4和11.7 μmol ATP·g⁻¹ Cmic（Contin等，2002；Dyckmans等，2003；Jenkinson，1988），相当于约6.1 mg ATP·g⁻¹ Cmic，即Cmic∶ATP约164；换算假定无水ATP二镁盐式量为553.8。"},
+    {"type": "source-fidelity-note", "scope": "41.1生物量ATP单位", "text": "原书用“μM ATP g⁻¹ Cmic”表达每克生物量碳的ATP物质的量；为避免把μM误解为μmol·L⁻¹，按与6.1 mg·g⁻¹的换算关系规范为μmol ATP·g⁻¹ Cmic。"},
+    {"type": "paragraph", "text": "ATP及相关指标还用于监测土壤环境对微生物和生化过程的影响（Dilly和Nannipieri，2001；Wen等，2001；Joergensen和Raubuch，2002、2003；Raubuch等，2002；Shannon等，2002），以及多年施用含金属污泥、采矿和制造废物的效应（Chander等，2001；Renella等，2003）。ATP可在环境变量改变后数分钟内响应，因而也可作微生物活性指标并检出细微变化（Nannipieri等，1990）。"},
+    {"type": "paragraph", "text": "ATP是活细胞中极不稳定的组分，死细胞释放后迅速水解，半衰期t₁⁄₂<1 h（Webster等，1984）。土壤ATP测定的潜在问题有：①ATP合成和降解酶未完全失活；②ATP未充分溶解，活细胞释放不完全；③释放ATP被土壤有机、无机组分水解；④释放ATP吸附于土壤胶体；⑤ATP共沉淀；⑥ATP与提取液中可溶物络合而不能被检测；⑦物质抑制荧光素酶或改变发光特性（Eiland，1983；Webster等，1984；Wen等，2001）。"},
+    {"type": "paragraph", "text": "Webster等（1984）提出磷酸（PA）提取法，克服多项早期问题并获得高ATP回收率（Vaden等，1987）。比较显示，PA与三氯乙酸（TCA）—磷酸盐—百草枯法提取的土壤ATP量相同（Ciardi和Nannipieri，1990）；结论续见第429页。"}
+  ],
+  "formulas": [
+    {"id": "41.1-atp-mass-check", "plain": "11 μmol ATP·g⁻¹ Cmic×553.8 μg·μmol⁻¹≈6.09 mg ATP·g⁻¹ Cmic", "context": "书中Cmic∶ATP换算的独立校验"},
+    {"id": "41.1-half-life", "plain": "t₁⁄₂<1 h", "latex": "t_{1/2}<1\\,\\mathrm{h}", "context": "死细胞释放ATP的快速水解"}
+  ],
+  "tables": [],
+  "contentSha256": "4b6f9b3bb6bcbfe70ae16e2302280d389916b5a80915cb4e17164d305ff48d62"
+}

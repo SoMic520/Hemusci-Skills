@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 51,
+  "sourceImageSha256": "6f813ad8d3f82358d1546886b51640bc76fd417bf209a13b6368e4be269e49d2",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，转录本页21条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者、年份、题名、期刊、卷页、书名、版次和出版社；纠正Germann题名中的III及作者附加符号"},
+    "secondVisualPass": {"status": "verified", "method": "由Suleiman and Ritchie反向逐条复核至Gantzer and Anderson；印刷页码560"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Gantzer, C.J. and Anderson, S.H. 2002. Computed tomographic measurement of macroporosity in chisel-disk and no-tillage seedbeds. Soil Till. Res. 64:101–111.",
+      "Gardner, W.H. 1986. Water content. In: A. Klute, ed. Methods of Soil Analysis. Agronomy 9, 2nd ed. American Society of Agronomy, Madison, WI, 493–544.",
+      "Germann, P. and Beven, K. 1981. Water flow in soil macropores III. A statistical approach. J. Soil Sci. 32:31–39.",
+      "Grevers, M.C.J. and de Jong, E. 1990. The characterization of soil macroporosity of a clay soil under ten grasses using image analysis. Can. J. Soil Sci. 70:93–103.",
+      "Groenevelt, P.H., Kay, B.D., and Grant, C.D. 1984. Physical assessment of soil with respect to rooting potential. Geoderma 34:101–114.",
+      "Grossman, R.B. and Reinsch, T.G. 2002. Bulk density and linear extensibility. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 201–228.",
+      "Gysi, M., Klubertanz, G., and Vulliet, L. 2000. Compaction of an Eutric Cambisol under heavy wheel traffic in Switzerland—field data and modelling. Soil Till. Res. 56:117–129.",
+      "Linn, D.M. and Doran, J.W. 1984. Effect of water-filled pore space on carbon dioxide and nitrous oxide production in tilled and non-tilled soils. Soil Sci. Soc. Am. J. 48:1267–1272.",
+      "Luxmoore, R.J., Jardine, P.M., Wilson, G.V., Jones, J.R., and Zelazny, L.W. 1990. Physical and chemical controls of preferred path flow through a forested hillslope. Geoderma 46:139–154.",
+      "Macedo, A., Crestana, S., and Vaz, C.M.P. 1998. X-ray microtomography to investigate thin layers of soil clod. Soil Till. Res. 49:249–253.",
+      "McKeague, J.A., Wang, C., and Coen, G.M. 1986. Describing and interpreting the macrostructure of mineral soils—a preliminary report. LRRI Contribution No. 84-50, Research Branch, Agriculture Canada, Ottawa, Ontario, Canada, 47.",
+      "Ochsner, T.E., Horton, R., and Ren, T. 2001. Simultaneous water content, air-filled porosity, and bulk density measurements with thermotime domain reflectometry. Soil Sci. Soc. Am. J. 65:1618–1622.",
+      "Osunbitan, J.A., Oyedele, D.J., and Adekalu, K.O. 2005. Tillage effects on bulk density, hydraulic conductivity and strength of a loamy sand soil in southwestern Nigeria. Soil Till. Res. 82:57–64.",
+      "Pedrotti, A., Pauletto, E.A., Crestana, S., Rodrigues, F.S., Cruvinel, P.E., and Vaz, C.M.P. 2005. Evaluation of bulk density of Albaqualf soil under different tillage systems using the volumetric ring and computerized tomography methods. Soil Till. Res. 80:115–123.",
+      "Perret, J., Prasher, S.O., Kantzas, A., and Langford, C. 1999. Three-dimensional quantification of macropore networks in undisturbed soil cores. Soil Sci. Soc. Am. J. 63:1530–1543.",
+      "Rasiah, V. and Aylmore, L.A.G. 1998. Characterizing the changes in soil porosity by computed tomography and fractal dimension. Soil Sci. 163:203–211.",
+      "Romano, N., Hopmans, J.W., and Dane, J.H. 2002. Suction table. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 692–697.",
+      "Schjønning, P., Munkholm, L.J., Moldrup, P., and Jacobsen, O.H. 2002. Modelling soil pore characteristics from measurements of air exchange: the long-term effects of fertilization and crop rotation. Eur. J. Soil Sci. 53:331–339.",
+      "Shaver, T.M., Peterson, G.A., and Sherrod, L.A. 2003. Cropping intensification in dryland systems improves soil physical properties: regression relations. Geoderma 116:149–164.",
+      "Sort, X. and Alcañiz, J.M. 1999. Modification of soil porosity after application of sewage sludge. Soil Till. Res. 49:337–345.",
+      "Suleiman, A.A. and Ritchie, J.T. 2001. Estimating saturated hydraulic conductivity from soil porosity. Trans. ASAE 44:235–239."
+    ]},
+    {"type": "source-fidelity-note", "text": "印刷页把Germann和Beven题名中的罗马数字III误读风险很高；已按原图确认为III。印刷作Schjonning、Alcañiz，分别规范为Schjønning、Alcañiz；检索时保留无附加符号别名。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "51ac605d3a57c4a2f8be4a366486de83d6510a8800c4b703d91d331ca2a2abe5"
+}

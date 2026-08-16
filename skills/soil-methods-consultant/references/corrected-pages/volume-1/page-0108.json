@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 108,
+  "sourceImageSha256": "755b94d422132166099e1e78646073d7850847eae0edc52b6e16764f69be2fda",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复9.4续文、9.4.1五种提取法、步骤及页末结果句"},
+    "precisionPass": {"status": "verified", "method": "放大核对PO₄、NH₄HCO₃、DTPA、CaCl₂、Na₂CO₃、HNO₃、HCl、ICP-AES、0.1/1/0.005/0.01/0.5 mol/L、89%～103%、1∶2～1∶5及全部质量体积时间转速pH值"},
+    "secondVisualPass": {"status": "verified", "method": "按连续提取形态、五种方法、饱和泥浆判据和两条步骤反向复核；确认OCR误作1.2～1.5处原图为固液比1∶2～1∶5，并核验印刷页码77"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第9章｜硼、钼和硒｜"},
+    {"type": "paragraph", "continuation": true, "text": "相对不稳定的硒形态可用PO₄作为土壤提取剂进行提取（Fujii等1988）。Fujii和Burau（1989）用0.1 mol/L PO₄溶液（pH值调节至8）从三种表层土中提取出89%～103%被吸附的硒（IV）。", "inlineNotation": ["PO₄", "0.1 mol/L", "pH值调节至8", "89%～103%", "硒（IV）"]},
+    {"type": "paragraph", "text": "连续提取法也可用于确定土壤中硒的形态（Chao和Sanzolone，1989；Lipton，1991），这些形态可能与植物吸收有关。由Chao和Sanzolone（1989）提出的连续提取法把土壤中的硒分为五种可提取形态（可溶态、可交换态、氧化物结合态、硫化物或有机物结合态，以及残渣态或硅酸盐结合态），而Lipton（1991）则将土壤中的硒分成九种可提取形态（可溶态、可交换的配体结合态、碳酸盐结合态、可氧化态、易还原的氧化物结合态、无定型氧化物结合态、结晶氧化物结合态、碱性可溶性铝/硅结合态，以及残渣态）。"},
+    {"type": "section-heading", "level": 3, "number": "9.4.1", "title": "土壤中硒的提取"},
+    {"type": "paragraph", "text": "这里我们将结合文献概述五种常用的提取方法。"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "AB-DTPA提取法（Soltanpour和Schwab，1977）：将风干土样过2 mm筛，称取10 g加入125 mL锥形瓶。然后加入20 mL pH值为7.6的1 mol/L NH₄HCO₃和0.005 mol/L DTPA的混合液（按9.3.2节部分所述配制试剂）。将装有上述混合物的敞口锥形瓶置于往复式摇床以180 r/min的速度振荡15 min，随后用Whatman 42号滤纸或其他同规格滤纸对提取物进行过滤。"},
+      {"number": "（2）", "text": "热水提取法（Black等，1965）：将风干土样过2 mm筛，称取10 g加入250 mL锥形瓶中。然后加入50 mL的蒸馏水在沸水浴中加热回流30 min。用Whatman 42号滤纸或其他同规格滤纸对提取物进行过滤。"},
+      {"number": "（3）", "text": "饱和泥浆提取剂法（U.S. Salinity Laboratory Staff，1954）：将风干土样过2 mm筛，称取200～400 g土样至带盖的塑料容器中。分别称量容器加入土样前、后的重量。在土样中加入蒸馏水并同时搅拌，直至土壤接近饱和。拧上瓶盖并让上述混合物放置数小时。然后边搅拌边加入更多的水使其变为均匀饱和的泥浆。泥浆达到饱和的标准应为：其表面反射光线后可形成一个亮面；容器倾斜时能缓慢流动；能够在平滑的铲子上顺畅滑动；通过拍打、震荡容器能轻易地恢复原状而不留下铲子搅动的痕迹。让样品再静置2 h，最好是过夜，然后再用上述标准重新检查样品。如果泥浆物过于湿润，则加入已知量的干燥土壤。一旦达到饱和，通过容器和土壤的重量算出加入的水的重量。最后，将泥浆物转移至放有慢速滤纸的布氏漏斗中并通过抽真空将饱和提取液收集于试管中。"},
+      {"number": "（4）", "text": "0.005 mol/L DTPA，0.01 mol/L CaCl₂（2 h DTPA实验）（Lindsay和Norvell，1978）：将风干土样过2 mm筛，称取10 g土样加入50 mL的聚丙烯离心管中。然后加入20 mL 0.005 mol/L DTPA、0.01 mol/L CaCl₂，用三乙醇胺缓冲液将pH值调至7.3后于往复式摇床振荡2 h。然后立刻用3000 g转速离心并用Whatman 42号滤纸或其他同规格滤纸对上清液进行过滤。"},
+      {"number": "（5）", "text": "0.5 mol/L Na₂CO₃提取法（Jump和Sabey，1989）：将风干土样过2 mm筛，称取5 g土样至20 mL 0.5 mol/L Na₂CO₃溶液中，并将pH值调节至11.3。然后置于往复式摇床上振荡30 min后用Whatman 42号滤纸或其他同规格滤纸对提取液进行过滤。"}
+    ]},
+    {"type": "section-heading", "level": 4, "number": "1.", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "在上述文献及Jump和Sabey（1989）总结的方法中，土壤/提取剂的比率从1∶2变化到1∶5，提取时间从15 min变化到2 h。"},
+      {"number": "（2）", "text": "过滤后的提取液可通过氢化物发生系统与ICP-AES联用来分析硒（Soltanpour等，1996）。提取液的保存可以通过加入HNO₃或HCl（pH值<2）来防止溶液中的硒损失（通过共沉淀或硒甲基化后挥发）。"}
+    ]},
+    {"type": "paragraph", "text": "用高硒含量的土壤测试上述5种提取剂的结果显示，小麦中的硒和土壤可提取态硒高度相关"},
+    {"type": "printed-page-number", "text": "77"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ddea696d69616640b4122d3558b0417ef790913d0c2e6e1c67b0c3941ddb369f"
+}

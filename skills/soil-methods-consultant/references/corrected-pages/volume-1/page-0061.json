@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 61,
+  "sourceImageSha256": "94c95b1c2e6bf2e5ce5aa1c43563974e71553a166fe1f2d5b39fc7ccb5bf72fc",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章首页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复章题、作者单位、正文、文献实例和页末续接"},
+    "precisionPass": {"status": "verified", "method": "放大核对全部作者姓名、年份、植物可利用氮磷钾硫、金属形态、土壤溶液、生物活性、有机质和污染物提取实例"},
+    "secondVisualPass": {"status": "verified", "method": "按章题、两组作者与单位、4.1层级、三段论述、五类文献实例、结尾续文和标点反向复核原页"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "level": 2, "number": "第4章", "title": "土壤样本的处理和存储"},
+    {"type": "author", "text": "S.C. Sheppard"},
+    {"type": "affiliation", "text": "ECOMatters Inc."},
+    {"type": "location", "text": "Pinawa, Manitoba, Canada"},
+    {"type": "author", "text": "J.A. Addison"},
+    {"type": "affiliation", "text": "Royal Roads University"},
+    {"type": "location", "text": "Victoria, British Columbia, Canada"},
+    {"type": "section-heading", "level": 3, "number": "4.1", "title": "引言"},
+    {"type": "paragraph", "text": "本章将会讨论土壤取样后和样本分析之前的处理方法。需注意的是，样本的处理和存储将会对分析结果造成很大影响，并且没有任何一种方法能适用于所有的分析对象。土壤样本处理和存储的影响因素包括样本土壤颗粒大小、水分含量、温度和存储时间。"},
+    {"type": "paragraph", "text": "随着搜集和解译空间位置信息软件的增多，过去十年间，土壤取样的方法已经取得重大进展。与此同时，分析能力也显著增强，体现在更高的灵敏度和更广泛的分析对象上。对土壤生物及其生物学属性的描述也有了明显进步。然而，目前对土壤样本处理和存储的影响因素研究的很少，也未得到应有的重视。尽管如此，依然有足够的证据表明，不同的处理和存储方法可以显著影响研究结果。"},
+    {"type": "paragraph", "text": "或许，分析在土壤科学中的一个最重要的作用，不仅是对绝对含量的分析，而是将关注点放在测量值的环境意义上。绝对含量，比如，总元素组成、总有机质含量，甚至总孔隙率，都是相对容易测定的，并且受样本处理和存储的影响也相对较小。但是，这些绝对含量与多数研究人员想要测定的指标部分相关。通常来说，更重要的分析结果应能表征土壤中具有生物有效性或可浸提的元素成分，以及土壤的功能和生物特性等。对于这些需要更加精确测量结果的样品，样本处理和存储的方法就变得非常关键。以下是文献中的实例："},
+    {"type": "example-category", "title": "植物可利用的氮、磷、钾、硫", "text": "植物可利用的氮（Craswell和Waring，1972；Wang等，1993；Verchot，1999；Fierer和Schimel，2002；Magesan等，2002；Riepert和Felgentreu，2002）、磷（Potter等，1991；Grierson等，1998；Turner和Haygarth，2003；Worsfold等，2005）、钾（Luo和Jackson，1985）、硫（Chaudhry和Cornfield，1971；David等，1989；Comfort等，1991）；"},
+    {"type": "example-category", "title": "金属元素的形态及土壤溶液的组成", "text": "金属元素的形态及土壤溶液的组成（Leggett和Argyle，1983；Lehmann和Harter，1983；Haynes和Swift，1985、1991；Walworth，1992；Neary和Barnes，1993；Meyer和Arp，1994；Simonsson等，1999；Ross等，2001）；"},
+    {"type": "example-category", "title": "土壤的生物活性", "text": "土壤的生物活性（Ross，1970；Zantua和Bremner，1975；Ross，1989；van Gestel等，1993；Stenberg等，1998；Mondini等，2002；Allison和Miller，2005；Goberna等，2005）；"},
+    {"type": "example-category", "title": "土壤有机质研究", "text": "土壤有机质研究（Kaiser等，2001）；"},
+    {"type": "example-category", "title": "有机污染物的提取", "text": "有机污染物的提取（Belkessam等，2005）。"},
+    {"type": "paragraph", "continuation": true, "text": "毫无疑问，研究人员必须针对要做的分析参考现有的文献来确定样本处理和存储的要求和限制条件。这是一个必要的过程，研究者必须为样本处理和存储措施找到恰当的依据。然而，一些研究者发现样本准备和存储对结果造成的影响在不同的土壤之间有着明显的差异。因此，不适当的处理方法会干扰对不同土"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2678bcbea1c6606b3b950df7812b2f1b1689f1069033d5a8464c3e1114f38d60"
+}

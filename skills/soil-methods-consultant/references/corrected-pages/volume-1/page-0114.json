@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 114,
+  "sourceImageSha256": "128e7e56a7c44999b833538f9e929d27ceba31cff21c9478cf8c6dcf167437e3",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复方法第4项、10.1续文五段、10.2标题和四段正文"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对HNO₃、HCl、HF、CaCl₂、CaSO₄、EDTA、ICP-MS、USEPA 3051、80 μmol/L、0.05 mol/L、Ca²⁺/Cl⁻/SO₄²⁻、pH及Al/Mn"},
+    "secondVisualPass": {"status": "verified", "method": "按四类提取方法说明、CaCl₂/EDTA/酸消解比较、10.2原理与设备段反向复核，确认离子电荷、Macdonald大小写和印刷页码83"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第10章｜微量元素测定｜"},
+    {"type": "ordered-list", "parent": "10.1｜四种提取方法", "items": [
+      {"number": "（4）", "text": "使用HNO₃的强酸微波消解法（USEPA 3051法）。"}
+    ]},
+    {"type": "paragraph", "text": "我们实验室最近建立了土柱淋洗法，该方法很好地模拟了从加拿大安大略省和魁北克省（Ontario and Quebec，Canada）森林土壤收集的土壤溶液中微量元素的溶解度、pH值和离子强度（MacDonald等，2004a、b）。该方法流程是，先用去离子水对土壤进行洗涤，随后使其与低浓度（80 μmol/L）的CaCl₂和CaSO₄溶液混合并达到平衡以模拟森林土壤的离子强度。选择此方法是因为该提取流程最适合估算野外条件下金属的移动性。", "inlineNotation": ["pH", "80 μmol/L", "CaCl₂", "CaSO₄"]},
+    {"type": "paragraph", "text": "CaCl₂法是从化学角度评估生物有效性的最佳方式之一，并得到了欧洲和北美国家的认可（Houba等，1996；Ure，1996；Peijnenburg等，1999；McBride等，2003；Walker等，2003；Bongers等，2004）。该方法的优点是简单易操作，且相对其他方法，此方法在不同实验室之间的结果差别很小（Quevauviller，1998）。此外，CaCl₂法所用的溶液和很多实验室用来测定土壤pH值时所用的溶液相同。另一种类似但浓度稍高的提取溶液将在第11章介绍，该溶液用于估算Al和Mn的生物有效性。Gray等（2003）将同位素稀释法测定的“不稳定性库”与几种提取方法进行了对比，发现CaCl₂法提取结果和这个“库”最为接近。", "inlineNotation": ["CaCl₂", "pH", "第11章", "Al", "Mn"]},
+    {"type": "paragraph", "text": "众所周知，加入土壤中的金属和类金属元素可能会与土壤颗粒表面强烈结合（Ross，1994）。不论是因为专性吸附还是沉淀，这些被固定的元素通常位于与土壤溶液接触的点位。强螯合剂则具有将微量元素从大量的表面吸附或沉淀点位上去除的能力。尽管所有这些被“固定”的金属元素不易被生物利用，但有研究显示EDTA提取出的金属元素与其在生物组织中的含量之间表现出良好的相关性（Ure，1996；De Gregori等，2004）。选择0.05 mol/L EDTA进行提取能很好地估算这部分具有“潜在有效性”的金属元素（Quevauviller，1998）。", "inlineNotation": ["EDTA", "0.05 mol/L"]},
+    {"type": "paragraph", "text": "可供选择的消解方法有很多，仅USEPA就推荐了四种不同的酸混合物或方法（Ming和Ma，1998）。能获取金属总含量的消解流程中都要包含HF，否则无法溶解硅酸盐矿物。由于使用HF存在危险性，如导致皮肤或眼睛被严重烧伤，故多数实验室倾向于采用不含HF的消解方法。硅酸盐中的微量元素不具备生物有效性，且这部分微量元素很可能与土壤母质中的矿物有关，而非人为加入。对一般实验室而言，HNO₃法可以很好地用于估算污染土壤中的微量元素含量。尽管可以选择性地采用HNO₃或HCl（USEPA，1994），但不含HCl的酸性溶液更适合采用电感耦合等离子质谱法（ICP-MS）分析。加拿大国家水研究所（Canada’s National Water Research Institute）开展的初步研究显示采用USEPA 3051法能得到较好的结果（Alkema and Blum，2001），且该方法适用于多种元素。", "inlineNotation": ["USEPA", "HF", "HNO₃", "HCl", "ICP-MS", "USEPA 3051"]},
+    {"type": "section-heading", "level": 2, "number": "10.2", "title": "人工土壤溶液土柱淋洗法（Macdonald等，2004a, b）"},
+    {"type": "paragraph", "text": "通常，从野外带回的土壤样品中提取出的溶液浓度会显著高于用蒸渗仪在野外同一土层直接采集的土壤溶液浓度。要得到接近于蒸渗仪直接采集的土壤溶液浓度值，必须先去除样品处理过程中因外界干扰累积的可溶性物质；对于风干土样，这一点十分重要。"},
+    {"type": "paragraph", "text": "可溶物质的去除可用去离子水淋洗土柱直到离子强度降低至野外水平。然后使土柱与含有Ca²⁺、Cl⁻和SO₄²⁻的人造土壤溶液达到平衡，Ca²⁺、Cl⁻和SO₄²⁻是加拿大东部土壤溶液中的常见组分。", "inlineNotation": ["Ca²⁺", "Cl⁻", "SO₄²⁻"]},
+    {"type": "paragraph", "text": "起初，研究人员在淋洗和平衡阶段需要监测pH值和电导率的变化，由此确定人造土壤溶液浓度是否趋向于一个相对恒定的值。下文所述的试验流程适用于我们已经测试过的土壤，但对于其他土壤的适用性未知。", "inlineNotation": ["pH"]},
+    {"type": "paragraph", "text": "抽取土柱中土壤溶液所需的吸力可通过两种不同设备产生。下文采用的是市售的土柱提取设备，但是必须将原先使用的黑色橡胶密封注射器更换为聚乙烯柱塞；另一种方法是采用多通道蠕动泵，但该方法相对前一种方法更难实现均匀的流速。"},
+    {"type": "printed-page-number", "text": "83"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "187343a627cc4c724a2f5b572a04b8900466a59b27547fb8944cbba0aa5a9639"
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 330,
+  "sourceImageSha256": "82f287e139462acf6ddd51b198a84df7c82492ef113e565bbdbbc7cf1bf6ac9a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复32.3.1跨页续文、图32.3全部标注及材料和方法主体"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验90/80/30/50/6/1/50～75/30～50/540/83/25/90/20 mm或mL单位、ABS英文全称和3英寸"},
+    "secondVisualPass": {"status": "verified", "method": "从页末20 mL跨页句反向复核至页首续文，逐项核验图32.3十三个标签并确认原图清晰印作ASB管耦合器；页码299"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第32章｜小型节肢动物｜"},
+    {"type": "paragraph-continuation", "continuationOf": "page-0329#high-gradient-intro", "text": "料构建自己的提取器。"},
+    {"type": "figure", "number": "32.3", "title": "高梯度提取器模型的横截面", "labels": ["出风口", "木头", "铝盖（饼盘）", "25 W电灯", "540 mL金属容器", "塑料或金属套管中的土柱", "ASB管耦合器", "6 mm钢丝网上的1 mm网眼布", "通风口", "支撑架", "塑料杯", "收集液体", "台面"], "caption": "高梯度提取器模型的横截面。"},
+    {"type": "source-fidelity-note", "scope": "图32.3管件标注", "text": "原图标注清晰印作“ASB管耦合器”，而正文及材料全称均为ABS（acrylonitrile butadiene styrene），因此图中ASB为字母倒置错误；执行与检索采用ABS管耦合器。"},
+    {"type": "subsection-heading", "method": "32.3.1", "number": "1", "title": "材料和方法"},
+    {"type": "paragraph", "text": "提取器模型的主体是一个筒形联轴节（90 mm内径，80 mm高），通常连接一个3英寸的丙烯腈-丁二烯-苯乙烯（acrylonitrile butadiene styrene，ABS）黑色塑料管。底部连接的30 mm可以截掉做成50 mm高（图32.3）。连接处内部的轮缘支撑起一个6 mm的铁丝网（金属布），涂上油漆以防生锈。在铁丝网的上部放置一个由塑料纱窗或者几层纱布做成的更细的细筛网，细筛网可以防止收集的动物被土壤所污染，但是孔径至少需要1 mm宽才能使小型节肢动物通过。细筛网上放置土壤或者枯枝落叶样品。土壤样品采集使用金属圆筒或者去心采样装置（图32.2），样品保留在塑料或金属环中（50～75 mm内径）。土柱的高度通常是30～50 mm。土柱上方和周围是一个540 mL的食品罐做成的金属圆筒（83 mm内径）。金属罐可以支撑起土壤上方的光源，并在土壤和光源之间形成封闭空间以保留热量。"},
+    {"type": "paragraph", "text": "热源是一个25 W的白炽灯，带有白色玻璃罩。灯泡固定在吊灯插座上，周围是铝饼板做成的反光器。土壤样品上面的空气从吊灯插座周围排出。"},
+    {"type": "paragraph", "id": "collection-cup", "continuation": "page-0331", "text": "在承载土壤样品的金属网下方是收集小型节肢动物的杯子。我们使用上口外径90 mm的塑料杯。杯子可以与ABS管接口内部紧贴，向上按倚靠支撑金属网和土壤的轮缘。将杯子紧贴可以防止动物爬出装置（更加耐用的杯子可以通过切断聚丙烯组织学样品罐的顶部制成）。在杯子的底部放有20 mL的收"},
+    {"type": "printed-page-number", "text": "299"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2f3f288c8ee896521e5e3b4e7efd9d0d39c35db1dd77d4ab1770d9f8613004c0"
+}

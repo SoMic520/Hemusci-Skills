@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 128,
+  "sourceImageSha256": "c3a7e92c8eda35df9c9e2e68be8e62345c6653ab804b187308a5600284c0fa93",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐项对照原分辨率图和两套OCR，完成纤维体积法步骤(2)—(3)、注释、67.2.3原理及材料(1)—(4)"},
+    "precisionPass": {"status": "verified", "method": "核验2.5 mL体积百分数换算、0.58、12.7%—22%、5.0%—7.2%、60目/0.25 mm、PVC尺寸及试剂浓度"},
+    "secondVisualPass": {"status": "verified", "method": "由试剂清单反向复核至步骤(2)，检查揉搓/未揉搓结果方向、离心法适用性和图67.1尺寸；印刷页码637"}
+  },
+  "blocks": [
+    {"type": "steps-continuation", "items": [
+      "从混匀湿样中随机取样，装满2.5 mL定容筒；轻压排尽大孔隙空气并刮平至刻度，但不得挤出水，以保持与剩余样品相同的含水状态。",
+      "把全部2.5 mL样品转入100目筛，以自来水冲洗至流出液澄清。用吸水纸吸去筛框外及筛下多余水，收集筛上残留物并按与初始样相同的压实程度装入定容筒，读未揉搓残留体积V_unrubbed。再把残留物放回筛中，用手指揉搓并继续冲洗，按相同方式读揉搓后残留体积V_rubbed。"
+    ]},
+    {"type": "paragraph", "text": "以初始样品体积2.5 mL为分母，分别计算未揉搓纤维和揉搓纤维的体积分数。直接把注射器读数（mL）写成百分数是量纲错误。"},
+    {"type": "heading", "title": "注释", "level": 4},
+    {"type": "paragraph", "text": "Lévesque和Mathur（1979）对26种原始泥炭发现，纤维含量与相对生物降解度的相关系数为0.58。纤维法结果的变异系数为12.7%—22%，离心法为5.0%—7.2%（Malterer，1988；Malterer等，1992）。"},
+    {"type": "heading", "number": "67.2.3", "title": "离心法（加拿大燃料工业部，1976）", "level": 3},
+    {"type": "paragraph", "text": "苏联于1965年首次把该法定为标准。方法用60目筛（孔径0.25 mm）把纤维与经FeCl₃凝聚的腐殖质分开，并依据过筛前、后沉积物体积在列线图上判定分解度。它可用于各种天然泥炭；泥炭质量含水量低于65%时须预处理。经加工、粉碎的泥炭不能沿用该标定，因为处理造成的破碎可使表观分解度增加2—3倍。"},
+    {"type": "heading", "title": "样品、设备和试剂", "level": 4},
+    {"type": "list", "items": [
+      "带停机后2 min延时设置的离心机；固定好离心管和管架。小离心管须能读0.1—1.5 mL范围内的沉积物体积，并满足0.01 mL读数精度要求。",
+      "底部装60目（0.25 mm）筛网的圆柱筛杯，固定在高22 mm、内径28 mm的PVC环中；筛网用防水胶粘牢，筛杯能轻松插入PVC管（图67.1）。",
+      "25 cm×25 cm方盘、取样器和活塞。取样器为内径约5 mm的细铜管，一端削尖，可切取3—4 mm厚泥炭层；活塞用于推出样芯，每次取样后清洗。",
+      "1 mol·L⁻¹ NaOH或1 mol·L⁻¹ KOH、1 mol·L⁻¹ HCl、10% FeCl₃溶液。"
+    ]},
+    {"type": "figure", "number": "67.1", "title": "离心法测定分解度使用的管件", "annotations": ["图示小刻度离心管、带筛网圆柱杯及配套管件；标注长度100 mm等装置尺寸。"]},
+    {"type": "source-fidelity-note", "text": "原书把2.5 mL定容样的残留体积直接称为“百分含量”，已补上除以2.5 mL并乘100%的必要换算。原书设备(3)印作取样铜管“直径5 cm”，与图示细管及10 mm样芯长度明显矛盾，校正为约5 mm；这是数量级校正，使用前仍应按原标准装置图复核。原书写1 M，规范为mol·L⁻¹；HCl的字母l曾被OCR识成数字1。"}
+  ],
+  "formulas": [
+    {"label": "未揉搓纤维体积分数", "plain": "F_unrubbed = V_unrubbed / 2.5 mL × 100%", "latex": "F_{\\mathrm{unrubbed}}=\\frac{V_{\\mathrm{unrubbed}}}{2.5\\,\\mathrm{mL}}\\times100\\%"},
+    {"label": "揉搓纤维体积分数", "plain": "F_rubbed = V_rubbed / 2.5 mL × 100%", "latex": "F_{\\mathrm{rubbed}}=\\frac{V_{\\mathrm{rubbed}}}{2.5\\,\\mathrm{mL}}\\times100\\%"}
+  ],
+  "tables": [],
+  "contentSha256": "fcd7a9ca1a7de4c6701105a7c68b89c4c2735a1ddbfc83193e56981b05a7eb2d"
+}

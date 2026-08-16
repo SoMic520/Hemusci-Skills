@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-47215-2026",
+  "label": "GB/T 47215-2026《土壤氨挥发测定方法》",
+  "standardNo": "GB/T 47215-2026",
+  "title": "土壤氨挥发测定方法",
+  "published": "2026-02-27",
+  "implemented": "2026-09-01",
+  "domain": "soil",
+  "sourceType": "official-online-reader",
+  "sourceFingerprint": "7e094f1e97ded493fe60550e3e5d9bc9f5781228f7e102b8513468d0b80f46fd",
+  "includedPageCount": 15,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=D9663A89B3AEC4585553D99952656667"
+}

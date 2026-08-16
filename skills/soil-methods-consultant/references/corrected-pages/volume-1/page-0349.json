@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 349,
+  "sourceImageSha256": "669644a09b13ce7ba33e03431c8229453b7ba40787991d4cd2e66e1b08474158",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版34.3.1材料（1）续文至34.3.2开头交叉比对，恢复材料、步骤、计数规则与适用性"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验15 cm、15～20 ℃、1周、34.8/34.4交叉引用、头部/前端碎片计数规则及全部引文"},
+    "secondVisualPass": {"status": "verified", "method": "从页末34.3.2跨页句反向复核至塑料项圈续文，确认cool room非冷冻室、现场回填层序和总生物量/总数量规则；页码318"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "material-continuation", "continuationOf": "page-0348#plastic-collar", "text": "降；然后用撬棍或铁锹把含土壤的项圈撬出，使土壤沿项圈内径形成整齐断面（Conner等，2000）。相同项圈还可在更受控的蚯蚓田间试验中用作围笼（Baker等，1996）。"},
+    {"type": "material-group", "number": "（2）", "title": "从土壤中分拣蚯蚓的材料"},
+    {"type": "material", "number": "①", "text": "浅色托盘、浅塑料容器、带盖桶，以及厚塑料袋或耐用垃圾袋。"},
+    {"type": "material", "number": "②", "text": "保护双手的手套（塑料或布制）。"},
+    {"type": "material", "number": "③", "text": "可选：便携桌椅。"},
+    {"type": "material", "number": "（3）", "text": "土壤温度电子探针或土壤温度计，长度15 cm。"},
+    {"type": "subsection-heading", "method": "34.3.1", "number": "2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "选择地点和采样策略：草地及较自然地点采用样带；一个季节内重复采样采用网格设计。记录每个采样位置的土温。把模板置于土表，用铁锹沿模板四周挖至所需深度。如果手拣多个深度或土层，应在采下一个土层前先分拣当前层。可在蚯蚓采样点旁立即取土芯，用于测定含水量及其他相关土壤性质，如pH和土壤碳（方法细节见其他章节）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "野外手拣有两种选择：在田间分拣后把土壤放回坑内；或将土壤装入厚塑料袋/垃圾袋移出田间，保持凉爽，在避开天气影响处分拣。时间有限或天气恶劣时可能需要移出样品。若不能立即分拣，应把样品放在凉室中，温度尽可能接近田间土温或保持15～20 ℃，并在采样后1周内完成分拣（见注释（1））。"},
+    {"type": "source-fidelity-note", "scope": "34.3.1步骤（2）样品暂存", "text": "中文本清晰印作“冷冻室”，英文原版为cool room，并给出接近田间土温或15～20 ℃；故应为凉室/冷藏环境而非冷冻。不得把蚯蚓土样放入冻结条件。"},
+    {"type": "procedure-step", "number": "（3）", "text": "把土壤直接置于浅色托盘、塑料薄膜或大型浅储存容器。按系统顺序破碎土块，并用手指轻轻揉散土壤。把已检查土壤放入另一个浅容器或塑料薄膜上，与未检查土壤分开。定期复查刚检查过的土壤，寻找可能遗漏的蚯蚓或蚯蚓茧（见注释（2））。"},
+    {"type": "procedure-step", "number": "（4）", "text": "把分拣出的蚯蚓和蚯蚓茧分别放入独立标记容器，按本章后述程序处理和保存蚯蚓（见34.8节）。"},
+    {"type": "subsection-heading", "method": "34.3.1", "number": "3", "title": "注释"},
+    {"type": "note", "number": "（1）", "text": "某些项目为保持野外地点完整性，分拣后需把各土样放回田间的准确位置；有时还必须按原层序放回，例如顶层最后放。"},
+    {"type": "note", "number": "（2）", "text": "用铁锹挖取土壤时常把蚯蚓切成碎段。手拣时可尝试配对各段；无法配对时只计带头部的个体。样品中所有身体部分都计入总生物量，但计算蚯蚓总数时，只把带头部的碎段或前端碎段计作个体，二者不得对同一个体重复计数。"},
+    {"type": "note", "number": "（3）", "text": "当采样区大部分蚯蚓为垂直深掘穴的深栖型时，手拣不实用。移去土样后，可向坑中施用化学驱避剂（见34.4节），回收挖掘过程中向更深土层逃逸的深栖型。"},
+    {"type": "note", "number": "（4）", "text": "若土壤特别坚硬或黏重，难以手揉，可用水管轻柔冲洗土壤，或使土壤通过筛网，暴露并回收蚯蚓、蚯蚓茧和幼蚯蚓。"},
+    {"type": "paragraph", "text": "手拣所需设备有限，是测定蚯蚓数量（也能回收夏眠或休眠蚯蚓）、生物量和蚯蚓茧的较可靠方法；还可调整用于采集枯落物层和土表生活的蚯蚓（Wormwatch，2002）。主要缺点是劳动强度大、耗时且繁琐。蚯蚓能感知采样扰动产生的振动，因此插入铁锹后要检查逃逸蚯蚓。不过，经验证的限时土壤分拣可用于长时期重复采样（Schmidt，2001a）。"},
+    {"type": "section-heading", "level": 3, "number": "34.3.2", "title": "冲洗和过筛"},
+    {"type": "paragraph", "id": "washing-sieving-intro", "continuation": "page-0350", "text": "与手拣相比，手工过筛劳动强度很大，在种群研究中通常不值得投入额外工作（Raw，1960）。Bouché（1972）以及Bouché和Beugnot"},
+    {"type": "printed-page-number", "text": "318"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f9cfd94213430cc405e6ac587c25c6bddf26e450ec4c728bb74c18a6da0e8162"
+}

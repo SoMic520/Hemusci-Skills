@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 41,
+  "sourceImageSha256": "310f31ab4324ff21e9841c2d2156a5149aef4749e1471e3b0af92234e06d912b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成57.1续文、57.2、57.2.1材料及步骤(1)～(4)"},
+    "precisionPass": {"status": "verified", "method": "核验CT/TDR、α原书误印、d/h/V、πd²h/4、W₁/W₂、cm³、0.01 g、105 °C及统计描述"},
+    "secondVisualPass": {"status": "verified", "method": "由页末未完句反向复核至跨页续词，纠正OCR对式（57.1）和W下标的遗漏；印刷页码550"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "况的两个非常重要的参数。"},
+    {"type": "paragraph", "text": "近年新方法包括计算机断层扫描（CT），通常以X射线或γ射线为辐射源（Pedrotti等，2005），可测容重、含水量、孔隙度、裂缝、大孔隙几何和微孔孔径。时域反射（TDR）也可同时测含水量、充气孔隙度和容重（Ochsner等，2001）。本章重点介绍常见、简单、低成本方法。"},
+    {"type": "source-fidelity-note", "text": "原书写CT通常以‘α射线或者γ射线’为放射源；α粒子穿透能力不适用于常规土壤CT，此处按CT物理原理校正为X射线或γ射线。"},
+    {"type": "heading", "number": "57.2", "title": "土壤容重", "level": 2},
+    {"type": "paragraph", "text": "容重包含土壤内部孔隙，受孔隙数量/大小和固相组成影响，是动态性质。疏松多孔土低于紧实土；砂土因总孔隙度和有机质较低，容重通常较高。除刚耕作土壤外，容重空间变异通常较低（Warrick和Nielsen，1980）。给定剖面的变异系数通常不超过均值10%（Grossman和Reinsch，2002）；均质田块某深度取4个样品估均值，可在95%概率下控制于真值±10%。"},
+    {"type": "paragraph", "text": "容重可用取样法或原位法测定。常用取样法有环刀、蜡封、挖坑；环刀最常用但会扰动。核辐射法为非破坏原位技术。本章介绍这4种方法。"},
+    {"type": "heading", "number": "57.2.1", "title": "环刀取样法", "level": 3},
+    {"type": "procedure-subheading", "number": "1", "title": "材料"},
+    {"type": "materials-list", "items": ["手动或液压双环刀。", "洁净、干燥、均质圆柱环刀，已知内径d（cm）和高度h（cm），体积V按式（57.1）。", "锋利坚硬小刀或小铲。", "天平，精度0.01 g。", "最高105 °C、最好带风扇的烘箱。", "塑料袋和耐腐蚀带盖铝盒。", "保护土柱两端的环刀盖。", "胶带。"]},
+    {"type": "procedure-subheading", "number": "2", "title": "步骤"},
+    {"type": "procedure-steps", "items": ["(1) 标记、称环刀质量W₁（g）。", "(2) 标记、称带盖铝盒质量W₂（g）。", "(3) 在取样深度沿水平或垂直方向修平剖面。", "(4) 用液压或人工把环刀压入土中直至充满，禁止摇晃；紧实土小心挖掘。可在内壁涂少量矿物油减摩，但若样品用于吸水特性测定，矿物油会影响干湿过程。"]}
+  ],
+  "formulas": [
+    {"label": "(57.1)", "plain": "V = (πd²h)/4", "latex": "V=\\frac{1}{4}\\pi d^2h", "variables": [{"symbol": "V", "meaning": "环刀内部体积（cm³）"}, {"symbol": "d", "meaning": "环刀内径（cm）"}, {"symbol": "h", "meaning": "环刀高度（cm）"}]}
+  ],
+  "tables": [],
+  "contentSha256": "f3eaddaa5c13dd4684dcbf56b0cf025407b2df8361e4990ab9ba3d1c33103685"
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 2,
+  "sourceImageSha256": "cd9dde2ef7e54f0cb2706d3a76db34450ae51d66780707570a039bce8004d360",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率扉页和两套OCR，完成书名、册次、主编、主译和出版地"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验M.R. Carter、E.G. Gregorich、5名主译、Publishing House of Electronics Industry及北京·BEIJING"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由出版地反向复核至书名，排除背页透印干扰并检查全部人名"
+    }
+  },
+  "blocks": [
+    {
+      "type": "title-page",
+      "title": "土壤采样与分析方法（下册）",
+      "editors": ["M.R. Carter（M.R.卡特）", "E.G. Gregorich（E.G.格雷戈里奇）"],
+      "chiefTranslators": ["李保国", "李永涛", "任图生", "王朝辉", "徐建明"],
+      "publisher": "电子工业出版社（Publishing House of Electronics Industry）",
+      "place": "北京·BEIJING"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "7ff3e35ec3cd32f6cf3a0a066d3187f03dd645eebdfd08f62872c960b217ceef"
+}

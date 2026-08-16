@@ -1,0 +1,89 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 309,
+  "sourceImageSha256": "ed4ed1460c8bdd7e7e5046de66b3373bfcdf961952e07e97060c372c9c91f75e",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对第84章题名、两位作者单位、84.1、84.2、84.2.1及式(84.1a,b)"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对θ、ψ量纲、θ_i/θ_sat关系、绝对值、−1/b指数及a>0、b>0、不等式范围"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "Brooks–Corey模型参数与下一页抛物线连接式交叉反查；印刷页码818"
+    }
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "number": "84",
+      "title": "土壤水力学特性估算",
+      "level": 1
+    },
+    {
+      "type": "authorship",
+      "authors": [
+        {
+          "name": "F.J. Cook",
+          "affiliation": "Commonwealth Scientific and Industrial Research Organization, Indooroopilly, Queensland, Australia"
+        },
+        {
+          "name": "H.P. Cresswell",
+          "affiliation": "Commonwealth Scientific and Industrial Research Organization, Canberra, Australian Capital Territory, Australia"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "84.1",
+      "title": "引言",
+      "level": 2
+    },
+    {
+      "type": "method-overview",
+      "paragraphs": [
+        "土壤水力学特性对水和溶质的运移、存储至关重要，并具有高度空间与时间变异性。直接测定有时因经费、时间和测量实质困难（如非饱和导水率干燥段）而不可行，此时可由质地、容重、孔隙度、土壤脱水—吸水关系等较易测参数估算。",
+        "虽有人质疑估算用于水分/溶质运移建模和预测的严谨性（Philip, 1991; Addiscott, 1993; Passioura, 1996），估算仍可克服实测困难并推测超出特定土壤条件的结果。",
+        "饱和或田间饱和导水率与含水量、土壤脱水—吸水曲线、非饱和导水率关系的估算研究已有很大进展（Mackenzie and Cresswell, 2002）。本章仅介绍Cresswell and Paydar (1996)、Minasny et al. (1999)、Saxton et al. (1986)、van Genuchten et al. (1991)等提出的若干完善、通用方法。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "84.2",
+      "title": "土壤脱水—吸水关系",
+      "level": 2
+    },
+    {
+      "type": "definition",
+      "text": "土壤水分特征曲线中的脱水曲线描述水分释放，吸水曲线描述水分吸收。θ(ψ)关系通常用经验、半经验函数或模型表示体积含水量θ[L³·L⁻³]随土壤孔隙水压力（毛管水压力）或基质水头ψ[L]的变化。"
+    },
+    {
+      "type": "heading",
+      "number": "84.2.1",
+      "title": "Brooks–Corey（1964）θ(ψ)模型",
+      "level": 3
+    },
+    {
+      "type": "model-note",
+      "text": "修正的Brooks–Corey (1964)函数是常用半经验θ(ψ)模型之一（Campbell, 1974; Hutson and Cass, 1987）。式(84.1a)给出连接点含水量，式(84.1b)为幂函数段；与式(84.1c)的连接及参数定义见下一页。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "84.1a",
+      "plain": "θ_i/θ_sat=2b/(1+2b)；b>0",
+      "latex": "\\frac{\\theta_i}{\\theta_{sat}}=\\frac{2b}{1+2b};\\qquad b>0"
+    },
+    {
+      "label": "84.1b",
+      "plain": "θ/θ_sat=(|ψ|/a)^(−1/b)；a>0；θ≤θ_i；ψ≤ψ_i<0",
+      "latex": "\\frac{\\theta}{\\theta_{sat}}=\\left(\\frac{|\\psi|}{a}\\right)^{-1/b};\\qquad a>0,\\ \\theta\\leq\\theta_i,\\ \\psi\\leq\\psi_i<0"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "1ba2c3aaf61761b58fb7d480c7c8134cf46b975570e94140e145b028188a1ecf"
+}

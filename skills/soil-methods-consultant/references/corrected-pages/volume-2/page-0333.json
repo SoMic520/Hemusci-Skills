@@ -1,0 +1,95 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 333,
+  "sourceImageSha256": "21d6c2fc9c61ce58726d9c0e82406255b165f8fe88db4b264ecf9e49c4f1dba5",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对指示编码、电导率示例、阈值选择及85.6.1电子表格步骤"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对式(85.10)分段条件、六个EC值、dS·m⁻¹、TD分母和n≤0.6M"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "i_j(T_k)、T₁、z₁～z₆、百分位与滞后倍数二次反查；印刷页码842"
+    }
+  },
+  "blocks": [
+    {
+      "type": "indicator-variogram",
+      "items": [
+        "i_j(T_k)为位置j在阈值T_k下的指示值；T_k为第k个阈值，K为阈值总数，K≥1；z_j为位置j的原始观测值。",
+        "示例的土壤电导率为z₁=0.5、z₂=1.5、z₃=0.2、z₄=2.1、z₅=3.0、z₆=0.1 dS·m⁻¹。",
+        "作物盐度阈值T₁=2 dS·m⁻¹；EC<2 dS·m⁻¹时编码为1，EC≥2 dS·m⁻¹时编码为0，因此(i₁,i₂,i₃,i₄,i₅,i₆)=(1,1,1,0,0,1)。每个指示值必须与测量位置j对应。",
+        "指示半方差使用i_j而非原始EC值z_j计算。",
+        "阈值应具有实际意义，也可选累计概率水平25%、50%、70%等。适当阈值有时可减轻严重偏态或明显趋势。",
+        "空间或时间结构可能随阈值改变；建议使用一系列阈值分别计算指示半方差函数，以检查结论的稳健性。"
+      ],
+      "references": [
+        "Goovaerts，1997",
+        "Yates等，2006"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书叙述把i_j=0与i_j=1的作物生长含义写得含混。按式(85.10)及给定规则，i_j=1明确表示EC低于2 dS·m⁻¹（无阈值性不良影响），i_j=0表示EC不低于阈值。"
+    },
+    {
+      "type": "heading",
+      "number": "85.6",
+      "title": "空间或时间结构的计算",
+      "level": 2
+    },
+    {
+      "type": "software",
+      "items": [
+        "可用GeoEas、GSLIB、GS+、SAS、Surfer或VarioWin计算自协方差、自相关和半方差。",
+        "Mathcad、Matlab等高级程序语言/环境也可计算；规则、简单的采样方案可用电子表格完成。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "85.6.1",
+      "title": "均匀间隔一维数据",
+      "level": 3
+    },
+    {
+      "type": "procedure",
+      "steps": [
+        "第一列输入坐标（时间或空间位置），第二列输入变量观测值，第三列复制第二列。采样间距d为常数，M为坐标/观测值数量；坐标列只作参考。",
+        "将第三列相对前两列下移一行，使第二、三列形成间距h=d的数据对。",
+        "在第四列计算第二、三列每行数据差的平方。",
+        "平方差总和除以TD=2(M−1)，得到h=d（滞后1）的半方差。",
+        "求h=2d时，把第三列复制到第四列并再下移一行；第二、四列的平方差写入第五列，以TD=2(M−2)为分母。",
+        "对h=3d、4d、…、nd重复；整数n≤0.6M，以使每个半方差值尽量由不少于30个数据对计算。"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "label": "85.10",
+      "plain": "i_j(T_k)={1，z_j<T_k；0，其他}，k=1,2,…,K，K≥1",
+      "latex": "i_j(T_k)=\\begin{cases}1,&z_j<T_k\\\\0,&\\text{其他}\\end{cases},\\qquad k=1,2,\\ldots,K,\\ K\\ge1"
+    },
+    {
+      "label": "滞后1分母",
+      "plain": "TD=2(M−1)",
+      "latex": "TD=2(M-1)"
+    },
+    {
+      "label": "滞后2分母",
+      "plain": "TD=2(M−2)",
+      "latex": "TD=2(M-2)"
+    },
+    {
+      "label": "最大滞后阶数",
+      "plain": "n≤0.6M",
+      "latex": "n\\le0.6M"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "5a2e464b663376b11308c694593e52d95e6ad5846d3bf98a9f08b86518773092"
+}

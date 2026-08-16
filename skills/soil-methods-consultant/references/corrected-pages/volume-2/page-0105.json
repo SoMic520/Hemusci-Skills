@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 105,
+  "sourceImageSha256": "ecf8ca3b47c6c673f9d3ca13f9cf4df9fb538cbb70ef4a517e6d945da2fb7ecc",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐参数对照原分辨率图和两套OCR，完成Blackmer–Bremner系统、简化GC、64.3.2、IRGA实例及IRMS跨页起始"},
+    "precisionPass": {"status": "verified", "method": "核验全部气体化学式、50/80目、两柱4.3/7.6 m×2.1 mm、45 °C、50 mL·min⁻¹、412/206 kPa、6.5 min及2～14 μm"},
+    "secondVisualPass": {"status": "verified", "method": "由IRMS跨页句反向复核至页首，检查CO与CO₂、O₂/Ar、柱长/内径、UHP He、检测器名称及光谱波段；印刷页码614"}
+  },
+  "blocks": [
+    {"type": "instrument-method", "name": "Blackmer和Bremner（1977）超声波检测气相色谱系统", "conditions": [
+      "测定N₂、O₂、Ar、CO₂、CH₄和N₂O；Ne、H₂、CO和NO可与C₂H₄/C₂H₂复合峰区分。",
+      "仪器：Tracor Model 150G，超声波检测器和双相位计。两根不锈钢柱均填50/80目Porapak Q（二乙烯基苯–乙烯基乙苯聚合物）。",
+      "第一柱长4.3 m、内径2.1 mm，45 °C，出口接检测器A端；第二柱长7.6 m、内径2.1 mm，置干冰–甲醇浴，出口接检测器B端。",
+      "载气：超高纯He，50 mL·min⁻¹；入口压力调节器412 kPa，B端背压调节器206 kPa。",
+      "常规总分析时间6.5 min；C₂H₄、C₂H₂或He含量高时需延长。McCarty和Blicher-Mathiesen（1996）自动系统也用超声波检测器测CO₂、N₂O、O₂/Ar和N₂。"
+    ]},
+    {"type": "paragraph", "text": "基础气体分析可用较简化系统。Anderson（1982）用5A分子筛柱、Porapak R柱和TCD检测O₂、N₂和CO₂。TCD是常见CO₂检测器；某些配置也可通过调整原用于N₂O的ECD工作温度，使其对CO₂达到所需灵敏度（Loftfield等，1997；Thomson等，1997），但须重新建立选择性和校准。"},
+    {"type": "heading", "number": "64.3.2", "title": "气相色谱的替代系统", "level": 3},
+    {"type": "paragraph", "text": "替代检测包括：CO₂、NH₃和挥发性有机化合物（VOCs）比色检测管；单组分或多组分CO₂/CH₄/N₂O红外气体分析仪（IRGA）；顺磁、极谱和光纤O₂传感器；O₂和N₂O电化学传感器；以及氡检测器。相较GC，这些系统通常灵敏度较低，但常更适合田间原位浓度或土壤–大气通量监测。原理与性能综述见Saltzman和Caplan（1995）、Woebkenberg和McCammon（1995）、Farrell等（2002）及Smith和Conen（2004）。"},
+    {"type": "paragraph", "text": "IRGA常测土壤CO₂排放通量，也可测土壤气体CO₂浓度。多数相关气体在2～14 μm具有特征红外吸收。基本系统由进样口、红外光源、已知光程的样品池、选择目标吸收带的光学滤波器和红外检测器组成。在仪器有效响应范围内，吸收信号随浓度和光程变化；增加光程可提高灵敏度并降低检测限，但仍须按仪器响应进行校准。"},
+    {"type": "examples", "items": [
+      "Fang和Moncrieff（1998）：用IRGA测定田间指定深度气井的CO₂浓度。",
+      "Gut等（1998）：把透气、疏水聚丙烯管埋入土壤并与IRGA构成循环回路，连续记录CO₂动态。",
+      "Hirano等（2000）：用硅树脂封装的非分散红外传感器测日本落叶阔叶林土壤CO₂。",
+      "Tang等（2003）：用改进传感器连续测地中海型稀树草原的土壤CO₂剖面并估算通量。",
+      "Nobuhiro等（2003）：把类似传感器与密闭静态箱结合，观测土壤向大气的CO₂通量。"
+    ]},
+    {"type": "paragraph-continuation", "text": "另一项日益普及的技术是同位素比质谱（IRMS）。其依据是环境和农业研究常见的氢、碳、氮、氧和硫均至少有两个稳定同位素；轻同位素在自然系统中的行为说明续见下页。"},
+    {"type": "source-fidelity-note", "text": "原书把两根Porapak Q柱分别印成“内径4.3 m×2.1 mm”和“内径7.6 m×2.1 mm”；4.3 m和7.6 m是柱长，2.1 mm才是内径，已校正。原书首段OCR/印刷易把CO误作CO₂，按该方法可分离的气体校正为CO；“LiandLundegard”拆分为Li and Lundegard。IR吸收与浓度的比例关系仅在仪器有效响应/校准范围内成立，不能无条件外推。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "09f98edd444b0d32acccaa34662f3d9918757ccbd96c7894f9616f05b8b3166c"
+}

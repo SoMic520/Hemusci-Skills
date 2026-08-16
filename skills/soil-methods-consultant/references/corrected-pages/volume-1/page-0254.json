@@ -1,0 +1,23 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 254,
+  "sourceImageSha256": "b374488445b8cd688bf05e6a33cae5d7d0cf2f4f2bd198a2b494185dc5831dcd",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第25章第223页，并与Apple Vision、PaddleOCR交叉比对，人工恢复25.5续文、图25.1全流程及稀盐酸/热浓盐酸/连续提取解释"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验0.5 g、NaHCO₃、NaOH、HCl、Pₜ/Pᵢ、全磷-无机磷、富里酸、铁/铝/钙结合态及图中全部分支测定对象"},
+    "secondVisualPass": {"status": "verified", "method": "从页末“特别是为了”承接句反向复核至页首，确认图25.1纵向五次浸提及横向Pₜ/Pᵢ分支、图注、正文解释对应关系和印刷页码223"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第25章｜用连续浸提法确定土壤有效磷的特征｜"},
+    {"type": "body-continuation", "continuesFromPage": 253, "text": "取上清液来测得的。任何没有沉淀的有机磷（富里酸形态的磷）不会与Murphy-Riley试剂发生显著反应，所以无机磷的测定值很少偏高。然而，有机物酸化时随之沉淀的任何形态的无机磷都会被错误地测定为有机磷（全磷-无机磷）。这种情况一般发生在铁或铝的氢氧化物吸附的无机磷上，它们在较高的pH值条件下可溶但是在低pH值条件下不溶。到目前为止，有机磷高估的量还不能具体量化。在可提取态有机物含量低的土壤中（低到不足以在酸性的Murphy-Riley试剂中产生沉淀），测定无机磷含量时可以用空白来校正浸提液的颜色而不必预先酸化、沉淀。"},
+    {"type": "figure", "number": "25.1", "title": "磷的连续浸提流程", "details": {"start": "0.5 g土壤样品", "sequence": [{"extraction": "在水中用交换树脂条浸提", "measurement": "测定Pᵢ"}, {"extraction": "用NaHCO₃浸提", "fraction": "碳酸氢盐浸提的Pₜ", "branches": ["消煮，测定Pₜ", "沉淀有机物→测定Pᵢ"]}, {"extraction": "用NaOH浸提", "fraction": "氢氧化物浸提的Pₜ", "branches": ["消煮，测定Pₜ", "沉淀有机物→测定Pᵢ"]}, {"extraction": "用稀盐酸浸提", "measurement": "测定Pᵢ"}, {"extraction": "用浓盐酸浸提", "fraction": "HCl浸提的Pₜ", "branches": ["消煮，测定Pₜ", "测定Pᵢ"]}, {"residue": "土壤残渣", "measurement": "消煮，测定Pₜ"}]}},
+    {"type": "interpretation", "fraction": "稀盐酸提取的无机磷", "text": "被明确定义为钙结合态磷，因为铁或铝结合态磷可能会在NaOH浸提后因为不溶于酸而不能被浸提出来。在此浸提液中几乎不存在有机磷。众所周知，稀酸提取土壤中的有机碳时效率低，因此也不会提取太多有机磷。"},
+    {"type": "interpretation", "fraction": "热浓盐酸提取液", "text": "不存在与其他有机磷提取液相同的问题，因为其中的无机磷可以被直接测定。在非常稳定的残渣态磷库中，该浸提液能够十分有效地区分无机磷和有机磷。然而与此同时，在这一步提取出的有机磷可能是直接来自不溶于碱但生物有效的有机物颗粒。任何纤维素结构固持的磷都会作为纤维素分解的副产品成为生物有效的，但这种磷只能在热浓盐酸浸提这一步中被提取出来。热浓盐酸提取后的残留物中除非常牢固的无机磷外不可能包含其他形态的磷。"},
+    {"type": "body", "text": "重要的是，要记住连续提取法不是直接测定生物或地球化学过程中的重要磷库。如果可以被其他方法（如同位素或有机质研究等）证实，那么它可以为认识某些组分提供有价值的间接证据。特别是为了", "continued": true},
+    {"type": "printed-page-number", "text": "223"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "3a3f9893d2252bbc59c79010f831b29ca2d7c87906fa7ab3bfda3ef2ab976559"
+}

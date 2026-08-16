@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-31270-16-2025",
+  "label": "GB/T 31270.16-2025《化学农药环境安全评价试验准则 第16部分：土壤微生物毒性试验》",
+  "standardNo": "GB/T 31270.16-2025",
+  "title": "化学农药环境安全评价试验准则 第16部分：土壤微生物毒性试验",
+  "published": "2025-10-05",
+  "implemented": "2026-05-01",
+  "domain": "soil-ecotoxicology",
+  "sourceType": "official-pdf",
+  "sourceFingerprint": "e30f28196838ec97d59544503d75ea6189dfd967c93cdad0e3536cc406fa940a",
+  "includedPageCount": 15,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=B481888F0E61A1F4C38390F6482E8B5E"
+}

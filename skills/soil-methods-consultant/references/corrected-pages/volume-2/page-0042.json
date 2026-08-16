@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 42,
+  "sourceImageSha256": "60fd5fc548b9ac7568c3a2f2acede4c7cdb7fe90940605a5e2a554075acc04f6",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步对照原分辨率图和两套OCR，完成环刀步骤(5)～(7)、式（57.2）～（57.7）及未填满土柱流程"},
+    "precisionPass": {"status": "verified", "method": "核验W₁～W₅/W_g1/W_g2/V_g1/V_g2/V_s/C/D_b/D_bw/θ/D_w、350 cm³、72 h、260 μm、1.50 g cm⁻³"},
+    "secondVisualPass": {"status": "verified", "method": "由式（57.7）反向复核至跨页续句，逐式做质量守恒和量纲复算，定位式（57.6）/（57.7）原书错误；印刷页码551"}
+  },
+  "blocks": [
+    {"type": "procedure-steps-continuation", "items": ["(5) 移出装有原状土的环刀，检查破碎/挤压；削平两端。根系或石块过多时重采，并先去除表面杂草等有机物。", "(6) 把土样转入已称重铝盒，盖盖称湿土+盒质量W₃（g）。", "(7) 开盖，105 °C烘干；约350 cm³土样在带风扇烘箱约需72 h。干后在干燥器冷却，称干土+带盖铝盒质量W₅（g）。"]},
+    {"type": "procedure-subheading", "number": "3", "title": "计算"},
+    {"type": "note", "text": "D_bw为湿容重。严格量纲下D_bw=D_b+θρ_w；当ρ_w=1 g cm⁻³且θ以体积分数表示时，数值上可写D_b+θ。"},
+    {"type": "procedure-subheading", "number": "4", "title": "未填满土柱的容重计算"},
+    {"type": "procedure-steps", "items": ["(1) 用体积V_g1量筒装满玻璃珠，称质量W_g1。", "(2) 称未填满环刀连同湿土质量W₄，底部加盖置托盘。", "(3) 缓慢加玻璃珠填平土柱一端。", "(4) 顶部加盖后倒转，再用玻璃珠填满另一端；把土样和玻璃珠转入质量W₂的带盖铝盒，105 °C烘干。", "(5) 托盘剩余玻璃珠测体积V_g2和质量W_g2。", "(6) 干燥后冷却，称铝盒+干土+进入环刀的玻璃珠总质量W₅。", "(7) 计算实际土样体积V_s。", "(8) 按质量守恒计算干容重和体积含水量。"]},
+    {"type": "variable-definitions", "items": [{"symbol": "C", "meaning": "玻璃珠填充密度；每次分析计算。直径约260 μm玻璃珠约1.50 g cm⁻³"}, {"symbol": "m_d", "meaning": "干土质量=W₅−W₂−(W_g1−W_g2)"}, {"symbol": "m_wet", "meaning": "湿土质量=W₄−W₁"}]},
+    {"type": "formula-correction", "text": "原书式（57.6）分子写W₅−(W_g1−W_g2)−W₁−W₂，但步骤(4)已把土样和玻璃珠从环刀转入铝盒，W₅不含环刀，故不应再减W₁。原书式（57.7）写θ=(W₄−W₁)/(V_sD_w)，这只是湿土质量/水密度，漏减干土质量。可执行公式已按称量流程和质量守恒校正。"}
+  ],
+  "formulas": [
+    {"label": "(57.2)", "plain": "D_b = (W₅ − W₂)/V", "latex": "D_b=\\frac{W_5-W_2}{V}"},
+    {"label": "(57.3)", "plain": "θ = [(W₃ − W₅)/(W₅ − W₂)] × (D_b/D_w)", "latex": "\\theta=\\frac{W_3-W_5}{W_5-W_2}\\frac{D_b}{D_w}"},
+    {"label": "(57.4)", "plain": "D_bw = D_b + θρ_w = (W₃ − W₂)/V", "latex": "D_{bw}=D_b+\\theta\\rho_w=\\frac{W_3-W_2}{V}", "sourceIntegrityNote": "原书写D_b+θ并标g cm⁻³，隐含ρ_w=1 g cm⁻³；完整量纲式补入ρ_w。"},
+    {"label": "(57.5)", "plain": "V_s = V − (W_g1 − W_g2)/C", "latex": "V_s=V-\\frac{W_{g1}-W_{g2}}{C}", "alternatives": ["V_s=V-(V_g1-V_g2)"]},
+    {"label": "(57.6 corrected)", "plain": "D_b = [W₅ − W₂ − (W_g1 − W_g2)]/V_s", "latex": "D_b=\\frac{W_5-W_2-(W_{g1}-W_{g2})}{V_s}"},
+    {"label": "(57.7 corrected)", "plain": "θ = [(W₄ − W₁) − {W₅ − W₂ − (W_g1 − W_g2)}]/(V_s D_w)", "latex": "\\theta=\\frac{(W_4-W_1)-[W_5-W_2-(W_{g1}-W_{g2})]}{V_sD_w}"}
+  ],
+  "tables": [],
+  "contentSha256": "9f4e35823c56eafa2dba45d34dad16ff7147ddebf651ca0b4335937fdeb5c0f7"
+}

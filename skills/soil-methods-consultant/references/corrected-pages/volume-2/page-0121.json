@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 121,
+  "sourceImageSha256": "3297bb9215ca5bf8fd8b4aaa4354ee757c8510b8595cd7c2f2558459a75735c2",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成第66章章名、作者机构、66.1全文及66.2跨页起始"},
+    "precisionPass": {"status": "verified", "method": "核验LFH、<2 mm、kg·ha⁻¹、锥形穿透计、容重—有机质关系及引文作者年份"},
+    "secondVisualPass": {"status": "verified", "method": "由66.2跨页句反向复核至章名，检查方法适用边界、含水量共测要求和单位面积储量换算；印刷页码630"}
+  },
+  "blocks": [
+    {"type": "chapter", "number": "66", "title": "森林土壤容重测定"},
+    {"type": "authors", "items": ["D.G. Maynard，Natural Resources Canada，Victoria, British Columbia, Canada", "M.P. Curran，British Columbia Ministry of Forest，Nelson, British Columbia, Canada"]},
+    {"type": "heading", "number": "66.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "评估农业系统土壤的许多重要物理性质也适用于森林土壤。然而，森林土壤和地形具有森林生态系统特有的性质，最适于农业土壤的方法并不总适于森林土壤。粗碎屑、大根系和陡坡限制了某些方法的适用性（Page-Dumroese等，1999）；森林土壤表面又常覆盖有机层，测定其容重等物理性质时不能照搬矿质土壤取样方法。"},
+    {"type": "paragraph", "text": "压实是受森林管理影响并会影响森林土壤生产力的关键物理过程之一（Powers等，1998）。除主要用土壤容重评价外，还可测定充气孔隙度和土壤强度。锥形穿透计测定物体（例如根尖）贯穿土壤所受的阻力（Miller等，2001）；它有一定优势，但在高石砾含量、高变异性的森林土壤上效果较差（Powers等，1998；Miller等，2001）。即使采用穿透计，也应同步测定土壤容重，为解释读数提供依据。记录式穿透计适于评价压实随深度的变化，例如森林采伐机械造成的压实。每次测穿透阻力还应测土壤含水量，因为阻力随含水量变化，不同扰动又常造成含水量差异（Busscher等，1997）。"},
+    {"type": "paragraph", "text": "有机质密度低于矿物颗粒，且通过团聚作用影响土壤结构，因而显著影响容重（De Vos等，2005）；一般有机质含量越高，容重越低。可用有机质含量回归式估算特定土壤容重（Alexander，1989；Grigal等，1989；Huntington等，1989；Prévost，2004），但外推到校准土壤和环境之外时必须谨慎（De Vos等，2005）。这种估算只宜观察一般趋势，不适于评价扰动导致的压实。"},
+    {"type": "paragraph", "text": "确定评价土壤压实的合适方法要考虑用途：快速但精度较低的方法适于田间调查，科学研究则往往需要更精确、费用和时间投入更大的方法（Miller等，2001）。在区域尺度把养分（包括碳）含量换算为单位面积储量（kg·ha⁻¹）时，必须有容重数据。"},
+    {"type": "paragraph", "text": "本章介绍森林土壤近地表有机层（LFH）和矿质土壤容重的测定方法。矿质土壤方法以挖坑—填砂法（Blake和Hartge，1986）为基础，适用于多石森林土壤。"},
+    {"type": "heading", "number": "66.2", "title": "原理", "level": 2},
+    {"type": "paragraph", "text": "通过挖掘并测定所挖体积来求容重，是含较多粗碎屑森林土壤的一种可靠方法；挖出的样品还可用于后续物理和化学分析（本节续下页）。"},
+    {"type": "source-fidelity-note", "text": "原书把air-filled porosity直译为“充气孔隙”，此处规范为“充气孔隙度”。原书作者机构印作British Columbia Ministry of Forest，按版面保留；地名OCR误作Brithish已恢复为British。单位规范写作kg·ha⁻¹。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d34ed53fef8928c8fb872cf75a55c1a9c86a65459270bdebd7560a7674abf946"
+}

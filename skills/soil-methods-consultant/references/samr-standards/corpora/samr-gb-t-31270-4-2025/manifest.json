@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-31270-4-2025",
+  "label": "GB/T 31270.4-2025《化学农药环境安全评价试验准则 第4部分：土壤吸附/解吸试验》",
+  "standardNo": "GB/T 31270.4-2025",
+  "title": "化学农药环境安全评价试验准则 第4部分：土壤吸附/解吸试验",
+  "published": "2025-10-31",
+  "implemented": "2026-05-01",
+  "domain": "soil-ecotoxicology",
+  "sourceType": "official-online-reader",
+  "sourceFingerprint": "057f5dbcf77d5e34dcc39c8f90d032ff2ada19a9bc41e44b628c3a9c500e4dfe",
+  "includedPageCount": 27,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=BC4DF47D2C07F1A2CFEAE94DDB5220EA"
+}

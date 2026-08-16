@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 49,
+  "sourceImageSha256": "3fa01ad84a6175c35a88f4c6140430c77ab518b2cf81a63e0cbeab6077287ce1",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成≥1 mm方法1～2、图像分析、57.4.6、式（57.19）～（57.20）及本页参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验1～8 mm/1 cm、Rhodamine-B、D/D₀/K_a/F_a/C_d/C_k、μm²、0～1及百分数换算"},
+    "secondVisualPass": {"status": "verified", "method": "由Ball 1981b跨页文献反向复核，检查两式分子分母、下标、百分数与量纲冲突；印刷页码558"}
+  },
+  "blocks": [
+    {"type": "procedure-continuation", "text": "孔隙直径用一套直径1～8 mm的铝棒标尺测定。Douglas（1986）还提出以识别样品中的贯流孔隙来判定功能性孔隙。"},
+    {"type": "subheading", "title": "2）方法2"},
+    {"type": "procedure-steps", "items": ["使土样饱和后，将若丹明B（Rhodamine-B）染料溶液倒在样品上。", "排水后，从环刀出流端挤出1 cm高土样并小心取下。", "用醋酸布覆盖土柱表面，记录露出的连续染色孔隙，计数并测定其大小。"]},
+    {"type": "heading", "number": "57.4.5.5", "title": "利用计算机图像分析技术分析孔隙大小和形状", "level": 4},
+    {"type": "paragraph", "text": "图像分析既可测孔径分布，也可显示孔隙形状并获得三维数据。X射线CT可替代染色或直接测定（Rasiah和Aylmore，1998；Gantzer和Anderson，2002）：扫描原状土柱相对像素密度，再用软件计算面积、体积和三维参数（Perret等，1999）。另一方法是利用立体成像的图像差值分析孔隙（Grevers和de Jong，1990；Sort和Alcañiz，1999）。"},
+    {"type": "heading", "number": "57.4.6", "title": "孔隙连续性或功能指标", "level": 3},
+    {"type": "paragraph", "text": "大孔隙连续性影响通气、水分入渗和根系伸展，反映孔隙传导流体的能力。通常用气体测定，因为气体扩散或流动不改变土壤结构，并可在不同含水量下重复测量连续性随充气孔隙度的变化。"},
+    {"type": "paragraph", "text": "室内测定相对气体扩散系数D/D₀、空气渗透率K_a（μm²）和充气孔隙度F_a。K_a方法见第61章；技术选择见Ball和Smith（1991）。Ball（1981b）由气体扩散系数推得连续性系数C_d，其范围0～1：0表示孔隙完全堵塞，1表示孔隙为与扩散方向一致的直管。Schjønning等（2002）指出，较高C_d也可能表示存在大量有利于扩散的边缘孔隙；该孔隙功能概念由Arah和Ball（1994）提出。"},
+    {"type": "paragraph", "text": "由空气渗透率可求孔隙连续性C_k或大孔隙组织性（Groenevelt等，1984；Blackwell等，1990）。Ball等（1988）还总结了表征孔隙连续性和弯曲度的其他指标。"},
+    {"type": "source-fidelity-note", "text": "印刷式（57.19）和（57.20）均带×100，但正文又规定F_a为体积分数，造成百分数口径冲突。可执行写法是：F_a用体积分数时不乘100；F_a用百分数数值时乘100。C_d无量纲且可为0～1；C_k因K_a有μm²单位，仍带μm²。正文把C_d误作C_a处已校正。"},
+    {"type": "heading", "title": "参考文献", "level": 2},
+    {"type": "references", "items": ["Aimrun, W., Amin, M.S.M., and Eltaib, S.M. 2004. Effective porosity of paddy soils as an estimation of its saturated hydraulic conductivity. Geoderma 121:197–203.", "Arah, J.R.M. and Ball, B.C. 1994. A functional model of soil porosity used to interpret measurements of gas diffusion. Eur. J. Soil Sci. 45:135–144.", "Ball, B.C. 1981a. Modelling of soil pores as tubes using gas permeabilities, gas diffusivities and water release. J. Soil Sci. 32:465–481.", "Ball, B.C. 1981b. Pore characteristics of soils from two cultivation experiments as shown by gas diffusivities and permeabilities……"]},
+    {"type": "source-fidelity-note", "text": "原书把Arah和Ball（1994）的卷页误抄成Ball（1981a）的32:465–481；已校正为Eur. J. Soil Sci. 45:135–144。"}
+  ],
+  "formulas": [
+    {"label": "(57.19，口径校正式)", "plain": "C_d = (D/D₀)/F_a,fraction = 100(D/D₀)/F_a,%", "latex": "C_d=\\frac{D/D_0}{F_{a,\\mathrm{fraction}}}=\\frac{100(D/D_0)}{F_{a,\\%}}", "variables": [{"symbol": "D/D₀", "meaning": "土柱内气体扩散系数与自由空气中扩散系数之比"}, {"symbol": "F_a", "meaning": "充气孔隙度；必须按所用体积分数或百分数数值选择对应式"}, {"symbol": "C_d", "meaning": "气体扩散孔隙连续性系数，无量纲"}]},
+    {"label": "(57.20，口径校正式)", "plain": "C_k = K_a/F_a,fraction = 100K_a/F_a,%", "latex": "C_k=\\frac{K_a}{F_{a,\\mathrm{fraction}}}=\\frac{100K_a}{F_{a,\\%}}", "variables": [{"symbol": "K_a", "meaning": "空气渗透率（μm²）"}, {"symbol": "F_a", "meaning": "充气孔隙度；必须按所用体积分数或百分数数值选择对应式"}, {"symbol": "C_k", "meaning": "由空气渗透率表征的孔隙连续性/组织性指标（μm²）"}]}
+  ],
+  "tables": [],
+  "contentSha256": "111071f115f760ac05d01805eb00f948a11aad0d3276af7ada88bfbf868316e8"
+}

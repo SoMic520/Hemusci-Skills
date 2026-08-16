@@ -1,0 +1,49 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 205,
+  "sourceImageSha256": "dbe8f982268d42760c4c17e83e962c5ec6660b7ff803e6e8f9f9ea9758552f03",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复试剂（7）～（8）、21.4.3氧化、21.4.4注释及21.4.5返滴定/双终点滴定"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Tris、121.14、K₂Cr₂O₇、NaOH、BaCl₂、BaCO₃、HCl、CO₂-C、0.15 mm、10 μL、150/120/100 ℃、T₁/T₂/V₁/V₂、pH 4.7/8.3/3.8和式（21.9）"},
+    "secondVisualPass": {"status": "verified", "method": "从页末双终点步骤（3）反向复核至试剂说明，确认12 h、每批40管含4空白、OH⁻当量关系及页码174"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "text": "以下试剂用于与pH计或自动滴定器联用，进行双终点滴定。"},
+    {"type": "reagent-item", "number": "（7）", "name": "Tris标准溶液", "text": "溶解2.8000 g三（羟甲基）氨基甲烷（分子量为121.14）于蒸馏水或去离子水中，定容到100 mL。"},
+    {"type": "reagent-item", "number": "（8）", "name": "约0.5 mol L⁻¹的盐酸溶液", "text": "用蒸馏水或去离子水稀释100 mL浓盐酸至2 L。"},
+    {"type": "section-heading", "level": 3, "number": "21.4.3", "title": "氧化步骤"},
+    {"type": "paragraph", "text": "土壤样品（粒径＜0.15 mm）的重量需要限制在2.0 g以内。液体样品5 mL以内不需要预处理即可消化，过量的样品必须在消解管中用100 ℃加热浓缩至小于5 mL。当处理液体样品时，消解温度必须限制在120 ℃以内。"},
+    {"type": "paragraph", "text": "当样品中的碳酸盐含量高达10%时，在每克土壤中加入3 mL预处理酸性混合溶液。预处理在消解管中进行，消解管不盖盖子，在双向或轨道振荡机上低速振荡60 min。水中加酸限制了消解温度在120 ℃。"},
+    {"type": "procedure-step", "number": "（1）", "text": "用长刮勺将样品置于消解管底部，预处理去除碳酸盐。"},
+    {"type": "procedure-step", "number": "（2）", "text": "通过一个长玻璃漏斗加入约1 g K₂Cr₂O₇。加入25 mL消解混合液，迅速插入CO₂收集装置（含有NaOH的小瓶）。"},
+    {"type": "procedure-step", "number": "（3）", "text": "盖紧试管，将其置于预热至150 ℃的消解炉上（湿样120 ℃）加热2 h。"},
+    {"type": "procedure-step", "number": "（4）", "text": "将试管从消解炉中取出。12 h后，移开试管，滴定CO₂收集装置中CO₂的含量。"},
+    {"type": "section-heading", "level": 3, "number": "21.4.4", "title": "注释"},
+    {"type": "paragraph", "text": "收集装置中的NaOH总量限制了CO₂的吸收量。当1 mL 2 mol L⁻¹ NaOH溶液盛放于容量为6 mL的小瓶中时，可以直接在小瓶中滴定。1 mL 2 mol L⁻¹ NaOH溶液可以收集12 mg的CO₂-C，但吸收效率在接近此吸收最大值时下降。"},
+    {"type": "section-heading", "level": 3, "number": "21.4.5", "title": "滴定步骤"},
+    {"type": "paragraph", "text": "NaOH溶液中收集的碳酸可以用双终点法或返滴定法直接滴定。"},
+    {"type": "procedure-group", "number": "1.", "title": "返滴定步骤"},
+    {"type": "procedure-step", "group": "1", "number": "（1）", "text": "向NaOH溶液中加入2 mL 1 mol L⁻¹ BaCl₂溶液，形成BaCO₃沉淀。"},
+    {"type": "procedure-step", "group": "1", "number": "（2）", "text": "加入约5滴酚酞指示剂，用1.000 mol L⁻¹ HCl溶液滴定NaOH溶液，使用微量滴定管精确到0.001 mL。每批（40个）试管消解时应该包括四个空白对照。"},
+    {"type": "procedure-group", "number": "2.", "title": "计算"},
+    {"type": "paragraph", "text": "土壤或植株样品的有机碳含量计算公式为："},
+    {"type": "formula-explanation", "formulaRef": "21.9", "text": "式中，V₁为滴定空白对照所用HCl溶液的体积，V₂为滴定样品所用HCl溶液的体积，单位为mL。2 mol的OH⁻相当于1 mol（12 g）C，酸的摩尔浓度为1.00 mol L⁻¹。"},
+    {"type": "procedure-group", "number": "3.", "title": "双终点滴定步骤"},
+    {"type": "procedure-step", "group": "3", "number": "（1）", "text": "用移液管准确吸取20.0 mL的Tris标准溶液加入滴定容器中，用约0.5 mol L⁻¹的酸滴定标准溶液至pH值为4.7。酸的标准化至少重复三次。"},
+    {"type": "procedure-step", "group": "3", "number": "（2）", "text": "随后用标定过的0.5 mol L⁻¹ HCl溶液滴定三个NaOH空白溶液和NaOH收集装置中的溶液。"},
+    {"type": "procedure-step", "group": "3", "number": "（3）", "text": "用标定过的0.5 mol L⁻¹ HCl溶液缓慢滴定每个样品溶液至pH值为8.3，记录滴定消耗HCl溶液的体积（T₁），继续滴定至pH值为3.8，记录滴定消耗HCl溶液的体积（T₂）。"},
+    {"type": "printed-page-number", "text": "174"}
+  ],
+  "formulas": [
+    {
+      "number": "21.9",
+      "context": "返滴定法有机碳含量",
+      "display": "样品中的有机碳含量（g·kg⁻¹）= (V₁−V₂) × 6/样品重量",
+      "latex": "\\text{样品中的有机碳含量}(\\mathrm{g}\\cdot\\mathrm{kg}^{-1})=(V_1-V_2)\\times6/\\text{样品重量}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "9e31b83b36282e008611d00fea6cd24b5b0f981702c87f8a64acaeffb89dcc40"
+}

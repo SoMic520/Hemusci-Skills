@@ -1,0 +1,285 @@
+{
+  "schema": "soil-methods-consultant.samr-formula-overrides.v1",
+  "sources": {
+    "samr-gb-t-44343-2024": {
+      "9": [
+        {
+          "label": "（1）",
+          "plain": "w = ((ρ₁ − ρ₀) × V × k) / (m × 1 000)",
+          "latex": "w=\\frac{(\\rho_1-\\rho_0)\\times V\\times k}{m\\times 1\\,000}",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方PDF第9页公式及式中变量定义"
+        }
+      ]
+    },
+    "samr-gb-t-34765-2024": {
+      "6": [
+        {
+          "label": "（1）",
+          "plain": "c(Fe²⁺) = (25 / V) × 0.1",
+          "latex": "c(\\mathrm{Fe}^{2+})=\\frac{25}{V}\\times0.1",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方PDF第6页公式及式中变量定义"
+        }
+      ],
+      "9": [
+        {
+          "label": "（2）",
+          "plain": "FAₛ = [0.003 × (V₆ − V₅) × c(Fe²⁺) / (m × k)] × (V₁ / V₂) × (V₃ / V₄) × 100",
+          "latex": "FA_S=\\frac{0.003\\times(V_6-V_5)\\times c(\\mathrm{Fe}^{2+})}{m\\times k}\\times\\frac{V_1}{V_2}\\times\\frac{V_3}{V_4}\\times100",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方PDF第9页公式及式中变量定义"
+        },
+        {
+          "label": "（3）",
+          "plain": "FAₗ = [0.003 × (V₆ − V₅) × c(Fe²⁺) / (m × k)] × (V₁ / V₂) × (V₃ / V₄) × 100 × ρ × 10",
+          "latex": "FA_L=\\frac{0.003\\times(V_6-V_5)\\times c(\\mathrm{Fe}^{2+})}{m\\times k}\\times\\frac{V_1}{V_2}\\times\\frac{V_3}{V_4}\\times100\\times\\rho\\times10",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方PDF第9页公式及式中变量定义"
+        }
+      ],
+      "10": [
+        {
+          "label": "（4）",
+          "plain": "FAₛ = [0.003 × (V₀ − V₉) × c(Fe²⁺) / (m × k)] × (V₇ / V₈) × 100 − W / (12 × k)",
+          "latex": "FA_S=\\frac{0.003\\times(V_0-V_9)\\times c(\\mathrm{Fe}^{2+})}{m\\times k}\\times\\frac{V_7}{V_8}\\times100-\\frac{W}{12\\times k}",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方PDF第10页公式及式中变量定义"
+        },
+        {
+          "label": "（5）",
+          "plain": "FAₗ = {[0.003 × (V₀ − V₉) × c(Fe²⁺) / (m × k)] × (V₇ / V₈) × 100 − W / (12 × k)} × ρ × 10",
+          "latex": "FA_L=\\left[\\frac{0.003\\times(V_0-V_9)\\times c(\\mathrm{Fe}^{2+})}{m\\times k}\\times\\frac{V_7}{V_8}\\times100-\\frac{W}{12\\times k}\\right]\\times\\rho\\times10",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方PDF第10页公式及式中变量定义"
+        }
+      ],
+      "13": [
+        {
+          "label": "（A.1）",
+          "plain": "FA﹘C = [0.003 × (V₁₃ − V₁₂) × c(Fe²⁺) / m] × (V₁₀ / V₁₁) × 100",
+          "latex": "FA\\!\\!-\\!C=\\frac{0.003\\times(V_{13}-V_{12})\\times c(\\mathrm{Fe}^{2+})}{m}\\times\\frac{V_{10}}{V_{11}}\\times100",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方PDF第13页公式及式中变量定义"
+        },
+        {
+          "label": "（A.2）",
+          "plain": "FA = [m₁ − (m₃ − m₂)] / m₁ × 100",
+          "latex": "FA=\\frac{m_1-(m_3-m_2)}{m_1}\\times100",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方PDF第13页公式及式中变量定义"
+        },
+        {
+          "label": "（A.3）",
+          "plain": "k = (FA﹘C) / FA",
+          "latex": "k=\\frac{FA-C}{FA}",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方PDF第13页公式及式中变量定义"
+        }
+      ]
+    },
+    "samr-gb-t-44615-2024": {
+      "11": [
+        {
+          "label": "（1）",
+          "plain": "Xᵢ = (Aᵢ × c_{is} × V) / (A_{is} × m × w_{dm})",
+          "latex": "X_i=\\frac{A_i\\times c_{is}\\times V}{A_{is}\\times m\\times w_{dm}}",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方PDF第11页公式及式中变量定义"
+        },
+        {
+          "label": "（2）",
+          "plain": "Xᵢ = [Aᵢ × c_{is} × V / (A_{is} × m × w_{dm} × Vᵢ)] × 10",
+          "latex": "X_i=\\frac{A_i\\times c_{is}\\times V}{A_{is}\\times m\\times w_{dm}\\times V_i}\\times10",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方PDF第11页公式及式中变量定义"
+        }
+      ]
+    },
+    "samr-gb-t-44741-2024": {
+      "9": [
+        {
+          "label": "（1）",
+          "plain": "w = ((c − c₀) × V × D) / (m × (1 − f) × 1 000)",
+          "latex": "w=\\frac{(c-c_0)\\times V\\times D}{m\\times(1-f)\\times1\\,000}",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方PDF第9页公式及式中变量定义"
+        }
+      ]
+    },
+    "samr-gb-t-31270-22-2025": {
+      "11": [
+        {
+          "label": "（1）",
+          "plain": "M = A × F × 10",
+          "latex": "M=A\\times F\\times10",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方在线阅读器第11页原分辨率页面"
+        }
+      ],
+      "12": [
+        {
+          "label": "（2）",
+          "plain": "d = (h × r) / (0.75 × 12)",
+          "latex": "d=\\frac{h\\times r}{0.75\\times12}",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方在线阅读器第12页原分辨率页面"
+        }
+      ]
+    },
+    "samr-gb-t-31270-4-2025": {
+      "14": [
+        {"label": "（1）", "plain": "A_{tᵢ} = [mₛ^{ads}(tᵢ) / m₀] × 100", "latex": "A_{t_i}=\\frac{m_s^{\\mathrm{ads}}(t_i)}{m_0}\\times100", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第14页原分辨率页面"},
+        {"label": "（2）", "plain": "m₀ = C₀V₀", "latex": "m_0=C_0V_0", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第14页原分辨率页面"},
+        {"label": "（3）", "plain": "mₛ^{ads}(tᵢ) = m₀ − C_{aq}^{ads}(tᵢ)V₀", "latex": "m_s^{\\mathrm{ads}}(t_i)=m_0-C_{\\mathrm{aq}}^{\\mathrm{ads}}(t_i)V_0", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第14页原分辨率页面"},
+        {"label": "（4）", "plain": "mₛ^{ads}(Δtₙ) = mₘ^{ads}(tₙ₋₁)[(V₀ − (n − 2)Vₐᴬ) / Vₐᴬ] − mₘ^{ads}(tₙ)[(V₀ − (n − 1)Vₐᴬ) / Vₐᴬ]", "latex": "m_s^{\\mathrm{ads}}(\\Delta t_n)=m_m^{\\mathrm{ads}}(t_{n-1})\\left[\\frac{V_0-(n-2)V_a^A}{V_a^A}\\right]-m_m^{\\mathrm{ads}}(t_n)\\left[\\frac{V_0-(n-1)V_a^A}{V_a^A}\\right]", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第14页原分辨率页面"},
+        {"label": "（5）", "plain": "A_{Δtᵢ} = [mₛ^{ads}(Δtᵢ) / m₀] × 100", "latex": "A_{\\Delta t_i}=\\frac{m_s^{\\mathrm{ads}}(\\Delta t_i)}{m_0}\\times100", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第14页原分辨率页面"},
+        {"label": "（6）", "plain": "A_{tᵢ} = [Σ_{j=Δtₙ}^{Δtₙ} mₛ^{ads}(j) / m₀] × 100", "latex": "A_{t_i}=\\frac{\\sum_{j=\\Delta t_n}^{\\Delta t_n}m_s^{\\mathrm{ads}}(j)}{m_0}\\times100", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第14页原分辨率页面；上下限按原文照录"},
+        {"label": "（7）", "plain": "mₛ^{ads}(eq) = Σ_{Δtᵢ=1}^{n} mₛ^{ads}(Δtᵢ)", "latex": "m_s^{\\mathrm{ads}}(\\mathrm{eq})=\\sum_{\\Delta t_i=1}^{n}m_s^{\\mathrm{ads}}(\\Delta t_i)", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第14页原分辨率页面"}
+      ],
+      "15": [
+        {"label": "（8）", "plain": "m_{aq}^{ads}(eq) = m₀ − Σ_{Δtᵢ=1}^{n} mₛ^{ads}(Δtᵢ)", "latex": "m_{\\mathrm{aq}}^{\\mathrm{ads}}(\\mathrm{eq})=m_0-\\sum_{\\Delta t_i=1}^{n}m_s^{\\mathrm{ads}}(\\Delta t_i)", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第15页原分辨率页面"},
+        {"label": "（9）", "plain": "A_{eq} = [mₛ^{ads}(eq) / m₀] × 100", "latex": "A_{\\mathrm{eq}}=\\frac{m_s^{\\mathrm{ads}}(\\mathrm{eq})}{m_0}\\times100", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第15页原分辨率页面"},
+        {"label": "（10）", "plain": "Cₛ^{ads}(eq) = mₛ^{ads}(eq) / m_{soil} = [C₀ − C_{aq}^{ads}(eq)]V₀ / m_{soil}", "latex": "C_s^{\\mathrm{ads}}(\\mathrm{eq})=\\frac{m_s^{\\mathrm{ads}}(\\mathrm{eq})}{m_{\\mathrm{soil}}}=\\frac{[C_0-C_{\\mathrm{aq}}^{\\mathrm{ads}}(\\mathrm{eq})]V_0}{m_{\\mathrm{soil}}}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第15页原分辨率页面"},
+        {"label": "（11）", "plain": "K_d = Cₛ^{ads}(eq) / C_{aq}^{ads}(eq)", "latex": "K_d=\\frac{C_s^{\\mathrm{ads}}(\\mathrm{eq})}{C_{\\mathrm{aq}}^{\\mathrm{ads}}(\\mathrm{eq})}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第15页原分辨率页面"},
+        {"label": "（12）", "plain": "Cₛ^{ads}(eq) = K_f^{ads}[C_{aq}^{ads}(eq)]^{1/n}", "latex": "C_s^{\\mathrm{ads}}(\\mathrm{eq})=K_f^{\\mathrm{ads}}[C_{\\mathrm{aq}}^{\\mathrm{ads}}(\\mathrm{eq})]^{1/n}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第15页原分辨率页面"},
+        {"label": "（13）", "plain": "lg Cₛ^{ads}(eq) = lg K_f^{ads} + (1/n)lg C_{aq}^{ads}(eq)", "latex": "\\lg C_s^{\\mathrm{ads}}(\\mathrm{eq})=\\lg K_f^{\\mathrm{ads}}+\\frac{1}{n}\\lg C_{\\mathrm{aq}}^{\\mathrm{ads}}(\\mathrm{eq})", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第15页原分辨率页面"},
+        {"label": "（14）", "plain": "K_{oc} = K_d × (100 / OC)", "latex": "K_{\\mathrm{oc}}=K_d\\times\\frac{100}{OC}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第15页原分辨率页面"}
+      ],
+      "16": [
+        {"label": "（15）", "plain": "K_{foc} = K_f^{ads} × (100 / OC)", "latex": "K_{\\mathrm{foc}}=K_f^{\\mathrm{ads}}\\times\\frac{100}{OC}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第16页原分辨率页面"},
+        {"label": "（16）", "plain": "MB = [(V_{rec}C_{aq}^{ads}(eq) + m_E) / (V₀C₀)] × 100", "latex": "MB=\\frac{V_{\\mathrm{rec}}C_{\\mathrm{aq}}^{\\mathrm{ads}}(\\mathrm{eq})+m_E}{V_0C_0}\\times100", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第16页原分辨率页面"},
+        {"label": "（17）", "plain": "D_{tᵢ} = [m_{aq}^{des}(tᵢ) / mₛ^{ads}(eq)] × 100", "latex": "D_{t_i}=\\frac{m_{\\mathrm{aq}}^{\\mathrm{des}}(t_i)}{m_s^{\\mathrm{ads}}(\\mathrm{eq})}\\times100", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第16页原分辨率页面"},
+        {"label": "（18）", "plain": "m_{aq}ᴬ(tᵢ) = m_{aq}^{ads}(eq)[(V₀ − V_R) / V₀]", "latex": "m_{\\mathrm{aq}}^A(t_i)=m_{\\mathrm{aq}}^{\\mathrm{ads}}(\\mathrm{eq})\\left(\\frac{V_0-V_R}{V_0}\\right)", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第16页原分辨率页面"},
+        {"label": "（19）", "plain": "m_{aq}^{des}(tᵢ) = mₘ^{des}(tᵢ)(V₀ / Vᵣⁱ) − m_{aq}ᴬ", "latex": "m_{\\mathrm{aq}}^{\\mathrm{des}}(t_i)=m_m^{\\mathrm{des}}(t_i)\\left(\\frac{V_0}{V_r^i}\\right)-m_{\\mathrm{aq}}^A", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第16页原分辨率页面"}
+      ],
+      "17": [
+        {"label": "（20）", "plain": "m_{aq}^{des}(Δtᵢ) = m_{aq}^{des}(tᵢ) − Σ_{j=1}^{i−1}m_{aq}^{des}(j)", "latex": "m_{\\mathrm{aq}}^{\\mathrm{des}}(\\Delta t_i)=m_{\\mathrm{aq}}^{\\mathrm{des}}(t_i)-\\sum_{j=1}^{i-1}m_{\\mathrm{aq}}^{\\mathrm{des}}(j)", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第17页原分辨率页面"},
+        {"label": "（21）", "plain": "D_{tᵢ} = [m_{aq}^{des}(tᵢ) / mₛ^{ads}(eq)] × 100", "latex": "D_{t_i}=\\frac{m_{\\mathrm{aq}}^{\\mathrm{des}}(t_i)}{m_s^{\\mathrm{ads}}(\\mathrm{eq})}\\times100", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第17页原分辨率页面"},
+        {"label": "（22）", "plain": "D_{Δtᵢ} = [m_{aq}^{des}(Δtᵢ) / mₛ^{ads}(eq)] × 100", "latex": "D_{\\Delta t_i}=\\frac{m_{\\mathrm{aq}}^{\\mathrm{des}}(\\Delta t_i)}{m_s^{\\mathrm{ads}}(\\mathrm{eq})}\\times100", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第17页原分辨率页面"},
+        {"label": "（23）", "plain": "V_T = V₀ − Σ_{i=1}^{n}Vₐᴰ(i)", "latex": "V_T=V_0-\\sum_{i=1}^{n}V_a^D(i)", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第17页原分辨率页面"},
+        {"label": "（24）", "plain": "m_{aq}^{des}(tᵢ) = mₘ^{des}(tᵢ)(V_T / Vₐᴰ) − m_{aq}ᴬ[(V_T − (i − 1)Vₐᴰ) / V_T]", "latex": "m_{\\mathrm{aq}}^{\\mathrm{des}}(t_i)=m_m^{\\mathrm{des}}(t_i)\\left(\\frac{V_T}{V_a^D}\\right)-m_{\\mathrm{aq}}^A\\left[\\frac{V_T-(i-1)V_a^D}{V_T}\\right]", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第17页原分辨率页面"},
+        {"label": "（25）", "plain": "D_{tᵢ} = [m_{aq}^{des}(tᵢ) / mₛ^{ads}(eq)] × 100", "latex": "D_{t_i}=\\frac{m_{\\mathrm{aq}}^{\\mathrm{des}}(t_i)}{m_s^{\\mathrm{ads}}(\\mathrm{eq})}\\times100", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第17页原分辨率页面"},
+        {"label": "（26）", "plain": "m_{aq}^{des}(Δtₙ) = {mₘ^{des}(tₙ)(V_T / Vₐᴰ) − m_{aq}ᴬ[(V_T − (n − 1)Vₐᴰ) / V_T] − Σ_{i=1,n≠1}^{n−1}[(V_T − (n − i)Vₐᴰ) / V_T]m_{aq}^{des}(Δtᵢ)}", "latex": "m_{\\mathrm{aq}}^{\\mathrm{des}}(\\Delta t_n)=\\left\\{m_m^{\\mathrm{des}}(t_n)\\left(\\frac{V_T}{V_a^D}\\right)-m_{\\mathrm{aq}}^A\\left[\\frac{V_T-(n-1)V_a^D}{V_T}\\right]-\\sum_{i=1,n\\ne1}^{n-1}\\left[\\frac{V_T-(n-i)V_a^D}{V_T}\\right]m_{\\mathrm{aq}}^{\\mathrm{des}}(\\Delta t_i)\\right\\}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第17页原分辨率页面"}
+      ],
+      "18": [
+        {"label": "（27）", "plain": "mₛ^{des}(tₙ) = mₛ^{ads}(eq) − Σ_{i=1,n≠1}^{n−1}m_{aq}^{des}(Δtᵢ)", "latex": "m_s^{\\mathrm{des}}(t_n)=m_s^{\\mathrm{ads}}(\\mathrm{eq})-\\sum_{i=1,n\\ne1}^{n-1}m_{\\mathrm{aq}}^{\\mathrm{des}}(\\Delta t_i)", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第18页原分辨率页面"},
+        {"label": "（28）", "plain": "D_{Δtᵢ} = [m_{aq}^{des}(Δtᵢ) / mₛ^{ads}(eq)] × 100", "latex": "D_{\\Delta t_i}=\\frac{m_{\\mathrm{aq}}^{\\mathrm{des}}(\\Delta t_i)}{m_s^{\\mathrm{ads}}(\\mathrm{eq})}\\times100", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第18页原分辨率页面"},
+        {"label": "（29）", "plain": "D_{tᵢ} = [m_{aq}^{des}(tᵢ) / mₛ^{ads}(eq)] × 100", "latex": "D_{t_i}=\\frac{m_{\\mathrm{aq}}^{\\mathrm{des}}(t_i)}{m_s^{\\mathrm{ads}}(\\mathrm{eq})}\\times100", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第18页原分辨率页面"},
+        {"label": "（30）", "plain": "m_{aq}ᴬ = {[V₀ − Σ_{i=1}^{n}Vₐᴬ(i) − V_R] / [V₀ − Σ_{i=1}^{n}Vₐᴬ(i)]} × m_{aq}^{ads}(eq)", "latex": "m_{\\mathrm{aq}}^A=\\left\\{\\frac{V_0-\\sum_{i=1}^{n}V_a^A(i)-V_R}{V_0-\\sum_{i=1}^{n}V_a^A(i)}\\right\\}\\times m_{\\mathrm{aq}}^{\\mathrm{ads}}(\\mathrm{eq})", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第18页原分辨率页面"},
+        {"label": "（31）", "plain": "K_{des} = {[mₛ^{ads}(eq) − m_{aq}^{des}(eq)] / m_{aq}^{des}(eq)} × (V_T / m_{soil})", "latex": "K_{\\mathrm{des}}=\\frac{m_s^{\\mathrm{ads}}(\\mathrm{eq})-m_{\\mathrm{aq}}^{\\mathrm{des}}(\\mathrm{eq})}{m_{\\mathrm{aq}}^{\\mathrm{des}}(\\mathrm{eq})}\\times\\frac{V_T}{m_{\\mathrm{soil}}}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第18页原分辨率页面"},
+        {"label": "（32）", "plain": "Cₛ^{des}(eq) = [mₛ^{ads}(eq) − m_{aq}^{des}(eq)] / m_{soil}", "latex": "C_s^{\\mathrm{des}}(\\mathrm{eq})=\\frac{m_s^{\\mathrm{ads}}(\\mathrm{eq})-m_{\\mathrm{aq}}^{\\mathrm{des}}(\\mathrm{eq})}{m_{\\mathrm{soil}}}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第18页原分辨率页面"},
+        {"label": "（33）", "plain": "m_{aq}^{des}(eq) = mₘ^{des}(eq)(V₀ / Vᵣᶠ) − m_{aq}ᴬ", "latex": "m_{\\mathrm{aq}}^{\\mathrm{des}}(\\mathrm{eq})=m_m^{\\mathrm{des}}(\\mathrm{eq})\\times\\frac{V_0}{V_r^F}-m_{\\mathrm{aq}}^A", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第18页原分辨率页面；原式体积符号上标为F"}
+      ],
+      "19": [
+        {"label": "（34）", "plain": "Cₛ^{des}(eq) = K_f^{des}[C_{aq}^{des}(eq)]^{1/n}", "latex": "C_s^{\\mathrm{des}}(\\mathrm{eq})=K_f^{\\mathrm{des}}[C_{\\mathrm{aq}}^{\\mathrm{des}}(\\mathrm{eq})]^{1/n}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第19页原分辨率页面"},
+        {"label": "（35）", "plain": "lg Cₛ^{des}(eq) = lg K_f^{des} + (1/n)lg C_{aq}^{des}(eq)", "latex": "\\lg C_s^{\\mathrm{des}}(\\mathrm{eq})=\\lg K_f^{\\mathrm{des}}+\\frac{1}{n}\\lg C_{\\mathrm{aq}}^{\\mathrm{des}}(\\mathrm{eq})", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第19页原分辨率页面"}
+      ],
+      "22": [
+        {"label": "（B.1）", "plain": "V₀ / m_{soil} = [m₀ / mₛ^{ads}(eq) − 1]K_d", "latex": "\\frac{V_0}{m_{\\mathrm{soil}}}=\\left[\\frac{m_0}{m_s^{\\mathrm{ads}}(\\mathrm{eq})}-1\\right]K_d", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第22页原分辨率页面"},
+        {"label": "（B.2）", "plain": "R = m_{soil} / V₀，A_{eq} / 100 = mₛ^{ads}(eq) / m₀", "latex": "R=\\frac{m_{\\mathrm{soil}}}{V_0},\\quad\\frac{A_{\\mathrm{eq}}}{100}=\\frac{m_s^{\\mathrm{ads}}(\\mathrm{eq})}{m_0}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第22页原分辨率页面"},
+        {"label": "（B.3）", "plain": "lg R = −lg K_d + lg{(A_{eq}/100) / [1 − (A_{eq}/100)]}", "latex": "\\lg R=-\\lg K_d+\\lg\\left(\\frac{A_{\\mathrm{eq}}/100}{1-A_{\\mathrm{eq}}/100}\\right)", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第22页原分辨率页面"}
+      ],
+      "24": [
+        {"label": "（D.1）", "plain": "K_{oc} = K_d × (100 / OC)", "latex": "K_{\\mathrm{oc}}=K_d\\times\\frac{100}{OC}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第24页原分辨率页面"},
+        {"label": "（D.2）", "plain": "K_{om} = (K_d / 1.724) × (100 / OC)", "latex": "K_{\\mathrm{om}}=\\frac{K_d}{1.724}\\times\\frac{100}{OC}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第24页原分辨率页面"}
+      ]
+    },
+    "samr-gb-t-31270-5-2025": {
+      "12": [
+        {
+          "label": "（1）",
+          "plain": "M = 2.5 × AR × π × d²",
+          "latex": "M=2.5\\times AR\\times\\pi\\times d^2",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方在线阅读器第12页原分辨率页面"
+        }
+      ],
+      "14": [
+        {
+          "label": "（2）",
+          "plain": "K_{oc} = (W − θ × Z) / (ρ × C × Z)",
+          "latex": "K_{\\mathrm{oc}}=\\frac{W-\\theta\\times Z}{\\rho\\times C\\times Z}",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方在线阅读器第14页原分辨率页面"
+        }
+      ],
+      "17": [
+        {
+          "label": "（B.1）",
+          "plain": "RMF = L_T / L_R",
+          "latex": "RMF=\\frac{L_T}{L_R}",
+          "reviewStatus": "verified",
+          "reviewMethod": "对照官方在线阅读器第17页原分辨率页面"
+        }
+      ]
+    },
+    "samr-gb-t-31270-1-2025": {
+      "13": [
+        {"label": "（1）", "plain": "C_{soil} = A / (L × d × 100)", "latex": "C_{\\mathrm{soil}}=\\frac{A}{L\\times d\\times100}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第13页原分辨率页面"}
+      ]
+    },
+    "samr-gb-t-47215-2026": {
+      "10": [
+        {"label": "（1）", "plain": "V = [(m₂ − m₁) / m₃] × 2", "latex": "V=\\frac{m_2-m_1}{m_3}\\times2", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第10页原分辨率页面"}
+      ],
+      "11": [
+        {"label": "（2）", "plain": "F = ρ₁ × 10⁻⁶ × 60 × [10⁴ / (π × r²)] × 6", "latex": "F=\\rho_1\\times10^{-6}\\times60\\times\\frac{10^4}{\\pi\\times r^2}\\times6", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第11页原分辨率页面"},
+        {"label": "（3）", "plain": "F = V × 10⁻³ × c × 0.014 × [10⁴ / (π × r²)] × 6", "latex": "F=V\\times10^{-3}\\times c\\times0.014\\times\\frac{10^4}{\\pi\\times r^2}\\times6", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第11页原分辨率页面"},
+        {"label": "（4）", "plain": "F = (ρ₂ × V × 10⁻⁶ × 10⁴) / (π × r² × Dᵢ × R)", "latex": "F=\\frac{\\rho_2\\times V\\times10^{-6}\\times10^4}{\\pi\\times r^2\\times D_i\\times R}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第11页原分辨率页面"}
+      ]
+    },
+    "samr-gb-t-47305-2026": {
+      "9": [
+        {"label": "（1）", "plain": "w = [(ρ − ρ₀) × V × D × 1 000] / (m × 10³)", "latex": "w=\\frac{(\\rho-\\rho_0)\\times V\\times D\\times1\\,000}{m\\times10^3}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第9页原分辨率页面"},
+        {"label": "表1—重复性限", "plain": "r = 0.085 3w + 0.036 5", "latex": "r=0.085\\,3w+0.036\\,5", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第9页表1"},
+        {"label": "表1—再现性限", "plain": "R = 0.427w − 0.058 1", "latex": "R=0.427w-0.058\\,1", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第9页表1"}
+      ]
+    },
+    "samr-gb-t-47310-2026": {
+      "9": [
+        {"label": "（1）", "plain": "ωᵢ = A₀ × FP_{Eᵢ} + A₁", "latex": "\\omega_i=A_0\\times\\mathrm{FP}_{E_i}+A_1", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第9页原分辨率页面"}
+      ]
+    },
+    "samr-gb-t-47293-2026": {
+      "9": [
+        {"label": "（1）", "plain": "w = [(ρ − ρ₀) × V × D] / [m × (1 − f)]", "latex": "w=\\frac{(\\rho-\\rho_0)\\times V\\times D}{m\\times(1-f)}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第9页原分辨率页面"}
+      ]
+    },
+    "samr-gb-t-47297-2026": {
+      "9": [
+        {"label": "（1）", "plain": "w_{i(风干基)} = (mᵢ / m) × 1 000", "latex": "w_{i(\\text{风干基})}=\\frac{m_i}{m}\\times1\\,000", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第9页原分辨率页面"},
+        {"label": "（2）", "plain": "w_{i(烘干基)} = w_{i(风干基)} / (1 − w_{H₂O})", "latex": "w_{i(\\text{烘干基})}=\\frac{w_{i(\\text{风干基})}}{1-w_{\\mathrm{H_2O}}}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第9页原分辨率页面"}
+      ]
+    },
+    "samr-gb-t-47361-2026": {
+      "9": [
+        {"label": "（1）", "plain": "w_{OM} = {[(c × 5.00) / V₀] × (V₀ − V) × 0.003 × 1.724 × 1.1 / m} × 1 000", "latex": "w_{\\mathrm{OM}}=\\frac{\\frac{c\\times5.00}{V_0}\\times(V_0-V)\\times0.003\\times1.724\\times1.1}{m}\\times1\\,000", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第9页原分辨率页面"}
+      ]
+    },
+    "samr-gb-t-47437-2026": {
+      "7": [
+        {"label": "（1）", "plain": "δ = (R_{样品} / R_{标准品} − 1) × 1 000‰", "latex": "\\delta=\\left(\\frac{R_{\\text{样品}}}{R_{\\text{标准品}}}-1\\right)\\times1\\,000\\permil", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第7页原分辨率页面"}
+      ],
+      "10": [
+        {"label": "（2）", "plain": "δ¹⁸O_{SA−ST} = {[(¹⁸O/¹⁶O)_{SA} / (¹⁸O/¹⁶O)_{ST}] − 1} × 1 000‰", "latex": "\\delta^{18}\\mathrm{O}_{\\mathrm{SA-ST}}=\\left[\\frac{(^{18}\\mathrm{O}/^{16}\\mathrm{O})_{\\mathrm{SA}}}{(^{18}\\mathrm{O}/^{16}\\mathrm{O})_{\\mathrm{ST}}}-1\\right]\\times1\\,000\\permil", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第10页原分辨率页面"},
+        {"label": "（3）", "plain": "δ¹⁸O_{SA−VSMOW} = δ¹⁸O_{SA−ST} + δ¹⁸O_{ST−VSMOW} + (δ¹⁸O_{SA−ST}) × (δ¹⁸O_{ST−VSMOW})", "latex": "\\delta^{18}\\mathrm{O}_{\\mathrm{SA-VSMOW}}=\\delta^{18}\\mathrm{O}_{\\mathrm{SA-ST}}+\\delta^{18}\\mathrm{O}_{\\mathrm{ST-VSMOW}}+(\\delta^{18}\\mathrm{O}_{\\mathrm{SA-ST}})\\times(\\delta^{18}\\mathrm{O}_{\\mathrm{ST-VSMOW}})", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第10页原分辨率页面；乘积项按原文照录"}
+      ]
+    },
+    "samr-gb-t-22105-1-2026": {
+      "9": [
+        {"label": "（1）", "plain": "w = [(ρ − ρ₀) × V × D] / [m × (1 − f) × 1 000]", "latex": "w=\\frac{(\\rho-\\rho_0)\\times V\\times D}{m\\times(1-f)\\times1\\,000}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第9页原分辨率页面"}
+      ]
+    },
+    "samr-gb-t-22105-2-2026": {
+      "10": [
+        {"label": "（1）", "plain": "w = [(ρ − ρ₀) × V₂ × V × D] / [m × (1 − f) × V₁ × 1 000]", "latex": "w=\\frac{(\\rho-\\rho_0)\\times V_2\\times V\\times D}{m\\times(1-f)\\times V_1\\times1\\,000}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第10页原分辨率页面"}
+      ]
+    },
+    "samr-gb-t-22105-3-2026": {
+      "9": [
+        {"label": "（1）", "plain": "w = [(ρ − ρ₀) × V₂ × V × D] / [m × (1 − f) × V₁ × 1 000]", "latex": "w=\\frac{(\\rho-\\rho_0)\\times V_2\\times V\\times D}{m\\times(1-f)\\times V_1\\times1\\,000}", "reviewStatus": "verified", "reviewMethod": "对照官方在线阅读器第9页原分辨率页面"}
+      ]
+    }
+  }
+}

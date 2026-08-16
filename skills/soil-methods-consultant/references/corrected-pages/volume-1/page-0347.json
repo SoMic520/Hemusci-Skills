@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 347,
+  "sourceImageSha256": "35fcba6768352e269d06639aa2f974824254db7c6eb0cbe0eaa41d4128ef9f93",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版34.1交叉比对，恢复章题、三位作者、生态类群与采样方法分类"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者/机构、epigeic/endogeic/anecic层级、Lumbricus terrestris L.、引文年份及行为/间接采样对象"},
+    "secondVisualPass": {"status": "verified", "method": "从页末野外采样方法反向复核至章题，确认三类生态型取食、洞穴和粪丘特征；印刷页无页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "34", "title": "蚯蚓"},
+    {"type": "chapter-author", "name": "M.J. Clapperton", "affiliation": "Agriculture and Agri-Food Canada; Lethbridge, Alberta, Canada"},
+    {"type": "chapter-author", "name": "G.H. Baker", "affiliation": "Commonwealth Scientific and Industrial Research Organization; Glen Osmond, South Australia, Australia"},
+    {"type": "chapter-author", "name": "C.A. Fox", "affiliation": "Agriculture and Agri-Food Canada; Harrow, Ontario, Canada"},
+    {"type": "section-heading", "level": 2, "number": "34.1", "title": "引言"},
+    {"type": "paragraph", "text": "蚯蚓常被称为“生态系统工程师”，因为它们会显著改变土壤的结构、化学和生物学性质。因此，人们越来越关注把蚯蚓用作土壤质量、有益土地管理和工业修复的生态指标。然而，也有偶然引入或为提高土壤生产力而有意引入的蚯蚓成为入侵生物的实例（Gundale等，2005）。尽管如此，蚯蚓相对容易发现、识别和采样，经过有限训练即可鉴定到特定分类群，是研究土壤生物学或生态学的理想切入点。"},
+    {"type": "paragraph", "text": "蚯蚓的丰度和分布受食物资源强烈限制而呈斑块状；不同种和生活史阶段分布于不同深度，同一种群或群落还会随季节和昼夜变化。这使采样时间、样本数、采样位置和采样方法的选择更困难。因此，开始项目之前应了解蚯蚓的基本生活史、取食和行为。"},
+    {"type": "paragraph", "text": "依据取食、行为和掘穴模式，蚯蚓可分为3个主要生态类群（Lee，1959，1985；Bouché，1977），其界限会随土壤类型、含水量和温度而有重叠。表栖型（epigeic）生活在枯落物层，主要取食粗颗粒有机质，通常寿命较短、代谢和繁殖速率较高。内栖型（endogeic）生活于各矿质土层，以土壤和有机质为食；在土体中水平和垂直移动时，临时洞穴会被蚯蚓粪填充。依土壤条件，内栖型也会在土表取食和排粪，充分混合矿质土层与有机土层，因而被称为“土壤工作者”（earth worker）。深栖型（anecic）如陆正蚓Lumbricus terrestris L.，形成深而垂直、通常大部分永久的洞穴，一般有1或2个地表入口；它们主要取食被拖入洞穴的表层枯落物，或把枯落物与蚯蚓粪混合，形成环绕洞口的穴口粪丘（midden）。这些生态类群表明，必须采用不同采样策略才能更准确估计蚯蚓种群。"},
+    {"type": "source-fidelity-note", "scope": "34.1生态类群与行为术语", "text": "中文本把feeding译成“饲养”，把castings/middens译作“脱落物/小土丘”，且称内栖型留下空的临时洞穴。英文原版明确为取食、蚯蚓粪和穴口粪丘，并说明临时洞穴由粪铸填充；校正文据此恢复。"},
+    {"type": "paragraph", "text": "野外采样方法可分为：物理法（从枯落物、土壤或其他栖息地手工分拣并移出蚯蚓）、行为法（刺激蚯蚓离开采集栖息地）和间接法（通过捕捉、诱饵或计数蚯蚓粪/穴口粪丘估算种群）。不存在对所有地点和条件都最高效的单一方法，组合方法通常能得到最准确的估计。例如，深而垂直掘穴的深栖型种群最好用行为法采样，如结合化学驱避剂与穴口粪丘或蚯蚓粪计数；内栖型和部分表栖型则容易用手拣法采样。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "62187061e0762f8e4448a8da47032ded4cd2eeb742097e2445a7980248d0b41b"
+}

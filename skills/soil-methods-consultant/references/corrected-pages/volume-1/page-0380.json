@@ -1,0 +1,44 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 380,
+  "sourceImageSha256": "eb0ca48699b565648637f39e843f764b20db2cb7bbd4fabcec6297267dca8227",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版37.2.2～37.4"},
+    "precisionPass": {"status": "verified", "method": "核验>5.9 mL、0.25 mL、约101 kPa、35 d/136 d、96%/89%/98%、≥5%、400 mL、15 min和101 kPa"},
+    "secondVisualPass": {"status": "verified", "method": "从37.4承下句反向复核至步骤4续文，纠正出气管的功能性表述并保持步骤顺序；印刷页码349"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第37章｜土壤反硝化测定技术｜"},
+    {"type": "continuation", "text": "（承第379页37.2.2步骤4）进样瓶内剩余气泡至多为豌豆大小。该抽空方法可把气样注入真空瓶时产生的污染降至最低。"},
+    {"type": "ordered-list", "start": 5, "items": [
+      "试验期间，建议向每个5.9 mL进样瓶注入体积>5.9 mL的气样，使瓶内压力超过大气压，以限制外部气体漏入。标准气体也应以与样品相同的方法收集、储存在进样瓶中。若气相色谱仪装有带排气功能的0.25 mL定量环，应在进样后、切换阀门使样品通过色谱柱之前，让定量环内样品和标准气体的压力平衡至约101 kPa。"
+    ]},
+    {"type": "section-heading", "level": 3, "number": "37.2.3", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      "按上述步骤抽空的Exetainer在35 d和136 d后分别可保留初始真空度的96%和89%（Rochette和Bertrand，2003）。漏气大多发生在针头拔出后的数秒内。增加第二片聚四氟乙烯隔膜可进一步减漏，使用两片隔膜时，储存136 d后仍可保留98%的真空度。有些实验室以硅酮密封胶（Silicone I或II）代替第二片隔膜；除非使用死体积过滤熔块（dead-volume filter-frit），否则硅胶可能堵塞气相色谱仪进样器。",
+      "Exetainer之外的气体容器也可用于收集和储存气样，但采样前必须谨慎清除容器中的痕量N₂O。气密注射器也可收集、储存气样，不过必须手工注入气相色谱仪，不能使用自动进样器。",
+      "若从顶空体积较小的同一烧瓶连续取样，累计移除的气体达到或超过顶空体积的5%，已移除气体便不能继续吸收反硝化过程中产生的N₂O，因此连续气体取样必须作校正因子修正（见37.5.2节）。"
+    ]},
+    {"type": "section-heading", "level": 2, "number": "37.3", "title": "制造厌氧环境"},
+    {"type": "paragraph", "text": "基础反硝化法和潜在反硝化法需要用氦或氩等惰性气体置换土壤孔隙和培养容器中的空气；可使用前述集流装置实现（见图37.1）。"},
+    {"type": "section-heading", "level": 3, "number": "37.3.1", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      "关闭连接真空泵的隔膜阀，打开连接惰性气体钢瓶的旋塞阀。",
+      "把装有湿润土壤、以Suba Seal（William Freeman Limited，Barnsley，England）密封的锥形瓶放入刚性容器，防止惰性气体置换空气时锥形瓶翻倒。在密封圈中插入两根针：一根接至与氦或氩钢瓶相连的集流管；另一根连接出气管，并把出气管末端插入盛有400 mL水的烧杯。烧杯也应置于刚性容器内以防冲洗时翻倒。",
+      "缓慢打开惰性气体钢瓶减压阀，直至水中持续稳定冒泡；冲洗锥形瓶15 min。随后关闭气瓶减压阀，移除连接集流管的进气针；待不再冒泡时，再从Suba Seal移除第二根出气针。这样可使瓶内压力与大气压（101 kPa）平衡。还可分析顶空气体中的O₂，以验证土壤确在厌氧条件下培养。"
+    ]},
+    {"type": "precision-note", "scope": "37.3.1步骤2管路", "text": "英文原文把第二根针所接软管称vacuum tube，但该管在此处并不抽真空，而是浸入400 mL水中作为排气/观察气泡的出口；结构化步骤按其实际功能表述为出气管，同时保留英文原称。"},
+    {"type": "section-heading", "level": 2, "number": "37.4", "title": "反硝化试验中土样的准备"},
+    {"type": "paragraph", "text": "除土芯法外，培养开始前需从田间或实验室采集土样、混合并称重。采集和制备时必须考虑样品处理造成的影响。研究表明，粉碎团聚土会增强N₂O释放（Seech和Beauchamp，1988；Drury等，2004），主要原因是更多原受保护的碳暴露给反硝化微生物；本段续见第381页。"},
+    {"type": "printed-page-number", "text": "349"}
+  ],
+  "formulas": [
+    {"id": "37.2.2-overpressure", "display": "V_injected > 5.9 mL per 5.9 mL Exetainer"},
+    {"id": "37.2.2-loop-pressure", "display": "V_loop = 0.25 mL; P_equilibrated ≈ 101 kPa"},
+    {"id": "37.2.3-vacuum-retention", "display": "R₃₅d = 96%; R₁₃₆d = 89% (one septum); R₁₃₆d = 98% (two PTFE septa)"},
+    {"id": "37.2.3-headspace-correction", "display": "V_removed / V_headspace ≥ 5% ⇒ apply sequential-sampling correction"}
+  ],
+  "tables": [],
+  "contentSha256": "6135646499376bf694ae3ae52a398a19e28d53a72354884c857921bc61558d68"
+}

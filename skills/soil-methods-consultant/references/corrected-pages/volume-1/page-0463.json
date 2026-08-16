@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 463,
+  "sourceImageSha256": "68fa726d7d3437da834aae8886b50e735e8d89651ab5b67d76fbb9aab04352f6",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页、两套OCR和英文原章，核清材料（6）～（10）、完整步骤、式（45.1）～（45.4）和45.4.3注释"},
+    "precisionPass": {"status": "verified", "method": "复算10 mL×1.0 mol·L⁻¹与5 mL×0.5 mol·L⁻¹的化学计量，确认0.00375 mol C和0.78 μmol C·g⁻¹·h⁻¹；纠正原书‘2倍’及错置负指数"},
+    "secondVisualPass": {"status": "verified", "method": "由45.4.3页末承下句反向复核至材料（6），逐字符检查Na₂CO₃、BaCl₂、HCl、体积、浓度、公式括号和单位；印刷页码432"}
+  },
+  "blocks": [
+    {"type": "materials-list", "continuationOf": "page-0462:45.4.1", "items": [
+      {"number": "（6）", "text": "1 mol·L⁻¹氯化钡溶液。"},
+      {"number": "（7）", "text": "移液管。"},
+      {"number": "（8）", "text": "滴定管或自动滴定仪。"},
+      {"number": "（9）", "text": "磁力搅拌器（选用）。"},
+      {"number": "（10）", "text": "恒温培养箱或环境可控培养室（选用）。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "45.4.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取相当于100～150 g干重的土壤样品置于培养瓶，并记录每个培养瓶与土样的总质量（不计盖重）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "每瓶放入一个盛有10 mL、1 mol·L⁻¹ NaOH的小瓶和一个盛有蒸馏水的小瓶，盖紧密封（图45.1）；在预定温度的避光恒温培养箱中培养，每隔3～10 d测定一次CO₂。"},
+    {"type": "procedure-step", "number": "（3）", "text": "NaOH每吸收1 mol CO₂，2 mol NaOH转化为Na₂CO₃（式45.1），故CO₂的物质的量等于NaOH消耗量的0.5倍。取出水和NaOH小瓶；向吸收液加入2 mL BaCl₂溶液，使溶解CO₂及碳酸盐以BaCO₃沉淀移除；以酚酞为指示剂，用稀HCl反滴定剩余NaOH（式45.2）。"},
+    {"type": "worked-example", "text": "初始吸收液为10 mL、1.0 mol·L⁻¹ NaOH；加BaCl₂使碳酸盐完全沉淀后，反滴定剩余NaOH消耗5 mL、0.5 mol·L⁻¹ HCl。按式（45.3），CO₂吸收量=0.5×{[(10×1.0)/1000]−[(5×0.5)/1000]}=0.00375 mol C。若土样相当于100 g干土，培养48 h，则碳矿化速率=0.00375/(100×48)=0.00000078 mol C·g⁻¹·h⁻¹=0.78 μmol C·g⁻¹·h⁻¹。"},
+    {"type": "procedure-step", "number": "（4）", "text": "若滴定后继续培养，擦去培养瓶和盖内凝结物，称量培养瓶质量；加水校正失重，再放入新的NaOH溶液和蒸馏水小瓶，重新密封并继续培养。"},
+    {"type": "section-heading", "level": 3, "number": "45.4.3", "title": "注释"},
+    {"type": "paragraph", "text": "该通用方法适用于多种研究问题，可调整土壤质量、温度、水分、NaOH浓度和用量及培养时间以适应具体目标。培养瓶上部应有足够空间，避免长期培养的厌氧风险。一般把100～150 g土样置于1000 mL容器，适合3～4 d的测定间隔。NaOH必须足量吸收全部CO₂；CO₂产生量很少时，应降低NaOH浓度以提高分析灵敏度。"},
+    {"type": "paragraph", "text": "向分析物加入碳酸酐酶可催化CO₂在溶液中的溶解，使最终反滴定pH处于酚酞指示剂两个pH端点之间，即3.7～8.3（Underwood，1961）。自动滴定仪和磁力搅拌器可提高滴定精度；若操作者能仔细、熟练地进行手动滴定，则并非必需。"},
+    {"type": "paragraph", "text": "密闭培养通常用于测定土壤生物活性和量化土壤易矿化碳，常用方法续见第464页。"},
+    {"type": "source-fidelity-note", "scope": "45.4.2 CO₂与NaOH化学计量", "text": "原书正文清晰印作‘产生的CO₂总量是氢氧化钠消耗量的2倍’，与式（45.1）和式（45.3）矛盾。正确关系为n(CO₂)=0.5×n(NaOH消耗)。可执行步骤已按正确化学计量修正。"},
+    {"type": "source-fidelity-note", "scope": "式（45.4）结果单位", "text": "原书结果行把负指数错排在C后，并出现‘g±’字样；按分母土壤质量×培养时间，正确单位为mol C·g⁻¹·h⁻¹或μmol C·g⁻¹·h⁻¹。数值0.78 μmol C·g⁻¹·h⁻¹与算式一致。"}
+  ],
+  "formulas": [
+    {"id": "45.1", "display": "2NaOH + CO₂ → Na₂CO₃ + H₂O", "meaning": "NaOH吸收CO₂的化学计量反应"},
+    {"id": "45.2", "display": "NaOH + HCl → NaCl + H₂O", "meaning": "剩余NaOH的盐酸反滴定反应"},
+    {"id": "45.3", "display": "n(CO₂) = 0.5 × {[(V_NaOH × C_NaOH)/1000] − [(V_HCl × C_HCl)/1000]}", "variables": {"n(CO₂)": "吸收的CO₂物质的量，mol", "V_NaOH": "NaOH初始体积，mL", "C_NaOH": "NaOH初始摩尔浓度，mol·L⁻¹", "V_HCl": "滴定所耗HCl体积，mL", "C_HCl": "滴定HCl摩尔浓度，mol·L⁻¹"}, "note": "除以1000把mL换算为L；前系数0.5来自2 mol NaOH吸收1 mol CO₂。"},
+    {"id": "45.4", "display": "R_C = n(CO₂-C)/(m_soil × t)", "variables": {"R_C": "碳矿化速率，mol C·g⁻¹·h⁻¹或μmol C·g⁻¹·h⁻¹", "n(CO₂-C)": "被吸收CO₂所含碳的物质的量，mol C", "m_soil": "土壤干质量，g", "t": "培养时间，h"}, "example": "0.00375 mol C/(100 g×48 h)=7.8125×10⁻⁷ mol C·g⁻¹·h⁻¹≈0.78 μmol C·g⁻¹·h⁻¹"}
+  ],
+  "tables": [],
+  "contentSha256": "accb935189dc630d7726643a5460f5202d762be166720ffdc5ac623dec83d454"
+}

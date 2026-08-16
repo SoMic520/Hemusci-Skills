@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 177,
+  "sourceImageSha256": "37f687401dd6e13bf0e6b636f04b04d19e86e33f532d895eae0fcb2afeedbbc8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率参考文献末页，并与Apple Vision、PaddleOCR交叉比对，人工合并跨行文献与译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Bélanger/Köllensperger重音、2004a/2004b、composition—experimental、Cl⁻/Br⁻、作者缩写、卷页及英文标点"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至Lawrence首条，确认15条文献顺序、跨行归属和页码146"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference", "text": "Lawrence, G.B. and David, M.B. 1996. Chemical evaluation of soil-solution in acid forest soil. Soil Sci. 161: 298-313."},
+    {"type": "reference", "text": "Ludwig, B., Meiwes, K.J., Khanna, P., Gehlen, R., Fortmann, H., and Hildebrand, E.E. 1999. Comparison of different laboratory methods with lysimetry for soil solution composition—experimental and model results. J. Plant Nutr. Soil Sci. 162: 343-351."},
+    {"type": "reference", "text": "MacDonald, J.D., Bélanger, N., and Hendershot, W.H. 2004a. Column leaching using dry soil reproduces solid-solution partitioning observed in zero-tension lysimeters. 2. Trace metals. Soil Sed. Contam. 13: 361-374."},
+    {"type": "reference", "text": "MacDonald, J.D., Bélanger, N., and Hendershot, W.H. 2004b. Column leaching using dry soil reproduces solid-solution partitioning observed in zero-tension lysimeters. 1. Method Development. Soil Sed. Contam. 13: 375-390."},
+    {"type": "reference", "text": "MacDonald, J.D., Johnson, D., Taillon, K., Hale, B., and Hendershot, W.H. 2003. Modeling the effect of trace metals emissions on boreal forest soils. J. Human Ecol. Risk Assess. 9: 723-747."},
+    {"type": "reference", "text": "Puschenreiter, M., Wenzel, W.W., Wieshammer, G., Fitz, W.J., Wieczorek, S., Kanitsar, K., and Köllensperger, G. 2005. Novel micro-suction-cup design for sampling soil solution at defined distances from roots. J. Plant Nutr. Soil Sci. 168: 386-391."},
+    {"type": "reference", "text": "Qian, P. and Wolt, J.D. 1990. Effects of drying and time of incubation on the composition of displaced soil solution. Soil Sci. 149: 367-374."},
+    {"type": "reference", "text": "Quevauviller, P.H. 1998. Operationally defined extraction procedures for soil and sediment analysis. I. Standardization. Trends Anal. Chem.17: 289-298."},
+    {"type": "reference", "text": "Reynolds, B. 1984. A simple method for the extraction of soil solution by high speed centrifugation. Plant Soil 78: 437-440."},
+    {"type": "reference", "text": "Ross, D.S. and Bartlett, R.J. 1990. Effects of extraction methods and sample storage on properties of solutions obtained from forested spodosols. J. Environ. Qual. 19: 108-113."},
+    {"type": "reference", "text": "Russell, C.A., Kosola, K.R., Paul, E.A., and Robertson, G.P. 2004. Nitrogen cycling in poplar stands defoliated by insects. Biogeochemistry 68: 365-381."},
+    {"type": "reference", "text": "Smethurst, P.J. 2000. Soil solution and other soil analyses as indicators of nutrient supply: a review. Forest Ecol. Manag. 138: 397-411."},
+    {"type": "reference", "text": "Soon, Y.K. and Warren, C.J. 1993. Soil solution. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. Lewis Publishers, CRC Press, Boca Raton, FL, 201-214."},
+    {"type": "reference", "text": "Swenson, B. 1997. Unsaturated flow in a layered, glacial-contact delta deposit measured by the use of 18 O, Cl⁻ and Br⁻ as tracers. Soil Sci. 162: 242-253."},
+    {"type": "reference", "text": "Wolt, J. and Graveel, J.G. 1986. A rapid routine method for obtaining soil solution using vacuum displacement. Soil Sci. Soc. Am. J. 50:602-605."},
+    {"type": "translator-note", "text": "（邱炜红 李小涵 译，王朝辉 校）"},
+    {"type": "printed-page-number", "text": "146"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "11ca3981a62f208a5a9b68d94d48c0ed18eff9ac4d664fce41872bd75c529b7c"
+}

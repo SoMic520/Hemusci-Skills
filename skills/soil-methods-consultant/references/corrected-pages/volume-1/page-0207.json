@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 207,
+  "sourceImageSha256": "f089b6d585279c4c9b790fc2e0b8f9b96f4f4ee80eb069e670f40d8348f93190",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章节参考文献末页，并与Apple Vision、PaddleOCR交叉比对，人工恢复上页Rayment条目续文、本页7条完整文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者缩写、Skjemstad标题中的III、NA1500、Degtjareff、期刊卷页、破折号、2nd edn.及专名拼写"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至页首Melbourne续文，确认文献层级、换行合并、标点及印刷页码176"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-entry-continuation", "continuedFromPreviousPage": true, "text": "Melbourne, Victoria, Australia."},
+    {"type": "reference-entry", "text": "Schollenberger, C.J. 1945. Determination of soil organic matter. Soil Sci. 59: 53-56."},
+    {"type": "reference-entry", "text": "Skjemstad, J.O. 1992. Genesis of podzols on coastal dunes in southern Queensland. III. The role of aluminium-organic complexes in profile development. Aust. J. Soil Res. 30: 645-665."},
+    {"type": "reference-entry", "text": "Snyder, J.D. and Trofymow, J.A. 1984. A rapid accurate wet oxidation diffusion procedure for determining organic and inorganic carbon in plant and soil samples. Commun. Soil Sci. Plant Anal. 15: 587-597."},
+    {"type": "reference-entry", "text": "Stevenson, F.J. 1994. Humus Chemistry. Genesis, Composition, Reactions. 2nd edn. John Wiley & Sons, New York, NY."},
+    {"type": "reference-entry", "text": "Verardo, D.J., Froelich, P.N., and McIntyre, A. 1990. Determination of organic carbon and nitrogen in marine sediments using the Carlo Erba NA1500 analyser. Deep-Sea Res. 37: 157-165."},
+    {"type": "reference-entry", "text": "Walkley, A. 1947. A critical examination of a rapid method for determining organic carbon in soils—effect of variations in digestion conditions and of inorganic soil constituents. Soil Sci. 63: 251-264."},
+    {"type": "reference-entry", "text": "Walkley, A. and Black, I.A. 1934. An examination of the Degtjareff method for determining soil organic matter, and a proposed modification of the chromic acid titration method. Soil Sci. 37: 29-38."},
+    {"type": "translator-credit", "text": "（郭世伟　郭俊杰　党海燕　译，王朝辉　校）"},
+    {"type": "printed-page-number", "text": "176"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "76698507f19a9e7bf2e8257a25bd516a9ad17431fedc35afa247cf73a7261ed6"
+}

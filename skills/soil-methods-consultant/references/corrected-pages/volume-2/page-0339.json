@@ -1,0 +1,76 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 339,
+  "sourceImageSha256": "c995781f925b0bb62ed20f1bbd93b6a60168f0640d6956beedfc7399ec749d86",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐项核对图85.2、图85.3图例轴标以及K_s单模型拟合比较"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对384 m、3 m、20～90 m、块金/基台/变程和两组误差平方和"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "K_s、Sa、cm·h⁻¹、cm²·h⁻²、距离轴和模型数值二次反查；印刷页码848"
+    }
+  },
+  "blocks": [
+    {
+      "type": "figure",
+      "number": "85.2",
+      "title": "384 m样线上以3 m为间隔的各点土壤砂粒含量(Sa)和饱和导水率(K_s)空间分布图",
+      "panels": [
+        {
+          "panel": "a",
+          "x": "距离(m)，0～384",
+          "y": "砂粒含量(%)，约50～80"
+        },
+        {
+          "panel": "b",
+          "x": "距离(m)，0～384",
+          "y": "导水率(cm·h⁻¹)，约0～8"
+        }
+      ]
+    },
+    {
+      "type": "figure",
+      "number": "85.3",
+      "title": "对表85.2和图85.2中饱和导水率和土壤砂粒含量数据做空间分析",
+      "panels": [
+        {
+          "panel": "a",
+          "x": "距离(m)，0～200",
+          "leftY": "K_s半方差，约1.0～4.0 cm²·h⁻²",
+          "rightY": "砂粒含量半方差，约10～70 (wt%)²",
+          "series": "空心方形为K_s；实心圆为砂粒含量"
+        },
+        {
+          "panel": "b",
+          "x": "距离(m)，0～200",
+          "leftY": "交叉半方差，0～8",
+          "rightY": "共离散系数，0～1.0",
+          "series": "空心圆为交叉半方差；实心圆为共离散系数"
+        }
+      ]
+    },
+    {
+      "type": "model-comparison",
+      "items": [
+        "K_s实验半方差在不足20 m处表现一个短尺度线性段，在20～90 m处表现较长尺度曲线段，说明可能存在套合结构。",
+        "线性平稳模型：块金值1.3 cm²·h⁻²，总基台2.6 cm²·h⁻²，变程66 m。",
+        "球状模型：块金值1.4 cm²·h⁻²，总基台2.7 cm²·h⁻²，变程109 m。",
+        "线性平稳模型与球状模型的未加权误差平方和分别为157和153，二者总体拟合均不理想，尤其不能描述<25 m的短尺度结构。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书在指出两个距离尺度后紧接“反之也暗示不存在套合结构”，逻辑自相矛盾，按曲线与后续组合拟合结论校正为存在套合结构。原书把半方差残差平方和的单位仍印为cm²·h⁻²；平方和应为(cm²·h⁻²)²，即cm⁴·h⁻⁴。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "5ad6fc84940a22e62f7c92fbdbb09ef0e4c38e72a025f5313bd9f0f67d5a7351"
+}

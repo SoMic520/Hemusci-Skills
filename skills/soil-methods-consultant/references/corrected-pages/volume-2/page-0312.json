@@ -1,0 +1,118 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 312,
+  "sourceImageSha256": "4826079aa58248f0757eaf1e1a97d49b2b1ad90704a66d31dd4296c31293f384",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对式(84.4d)、van Genuchten模型、RETC/ROSETTA/Minasny方法及式(84.5a～e)"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对黏粒5%～60%、砂粒>5%、−3.3 m/−150 m、m约束式及所有v下标"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "分母整体指数m、|ψ|、a_v量纲、θ_r/θ_sat及PTF1～PTF5输入层级二次反查；印刷页码821"
+    }
+  },
+  "blocks": [
+    {
+      "type": "continuation",
+      "section": "Brooks–Corey θ(ψ)模型替代数据法",
+      "text": "a也可由式(84.4d)计算。按式(84.4d)时，式(84.4a)仅适用于黏粒质量分数5%～60%、砂粒质量分数>5%的土壤。算例见84.4。"
+    },
+    {
+      "type": "heading",
+      "number": "84.2.2",
+      "title": "van Genuchten（1980）θ(ψ)模型",
+      "level": 3
+    },
+    {
+      "type": "model-parameters",
+      "items": [
+        "a_v[L⁻¹]为与进气值或进水值有关的经验参数。",
+        "θ_sat[L³·L⁻³]为饱和或田间饱和体积含水量。",
+        "θ_r[L³·L⁻³]为残余体积含水量。",
+        "m、n为无量纲经验常数。"
+      ]
+    },
+    {
+      "type": "subheading",
+      "title": "1. van Genuchten θ(ψ)回归法"
+    },
+    {
+      "type": "analysis-note",
+      "text": "有θ(ψ)实测数据时，用RETC程序（van Genuchten et al., 1991）作非线性最小二乘优化求式(84.5a)参数。拟合选项包括a_v、m、n独立拟合，或设m=1−1/n、m=1−2/n；θ_sat和θ_r可指定或拟合。算例见84.4。"
+    },
+    {
+      "type": "subheading",
+      "title": "2. van Genuchten θ(ψ)数据替代法"
+    },
+    {
+      "type": "method-overview",
+      "text": "较新方法包括基于全球尺度、以北美为主的UNSODA数据库（Leij et al., 1999）的ROSETTA系统（Schaap, 1999），基于澳大利亚土壤的Minasny et al. (1999)算法，以及基于匈牙利土壤的Rajkai et al. (2004)算法。"
+    },
+    {
+      "type": "subheading",
+      "title": "3. ROSETTA模型"
+    },
+    {
+      "type": "model-note",
+      "text": "ROSETTA可估计K_sat以及van Genuchten θ(ψ)、K(ψ)模型参数，按有效输入数据分5级土壤传递函数：PTF1仅土壤质地类型；PTF2砂、粉、黏粒质量百分数；PTF3质地和容重；PTF4再加ψ=−3.3 m对应体积含水量；PTF5再加ψ=−150 m对应体积含水量。PTF1用UNSODA查表给USDA质地“类平均”参数，PTF2～PTF5用神经网络，且提供参数不确定性估计。"
+    },
+    {
+      "type": "subheading",
+      "title": "4. Minasny等（1999）模型"
+    },
+    {
+      "type": "model-note",
+      "text": "McKenzie and Cresswell (2002)改进Minasny et al. (1999)方法得到式(84.5b)～式(84.5e)，变量与系数见下一页。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "84.4d",
+      "plain": "a=100(M+Nθ_sat)",
+      "latex": "a=100(M+N\\theta_{sat})"
+    },
+    {
+      "label": "84.5a",
+      "plain": "θ=θ_r+(θ_sat−θ_r)/[1+(a_v|ψ|)^n]^m",
+      "latex": "\\theta=\\theta_r+\\frac{\\theta_{sat}-\\theta_r}{\\left[1+(a_v|\\psi|)^n\\right]^m}"
+    },
+    {
+      "label": "RETC约束选项1",
+      "plain": "m=1−1/n",
+      "latex": "m=1-\\frac{1}{n}"
+    },
+    {
+      "label": "RETC约束选项2",
+      "plain": "m=1−2/n",
+      "latex": "m=1-\\frac{2}{n}"
+    },
+    {
+      "label": "84.5b",
+      "plain": "θ_r=A_v(Cl)+B_v(PWP)+D_v(Si)+E_v",
+      "latex": "\\theta_r=A_v(Cl)+B_v(PWP)+D_v(Si)+E_v"
+    },
+    {
+      "label": "84.5c",
+      "plain": "θ_sat=F_v(Cl)+G_v(POR)",
+      "latex": "\\theta_{sat}=F_v(Cl)+G_v(POR)"
+    },
+    {
+      "label": "84.5d",
+      "plain": "a_v=H_v+I_vd_g",
+      "latex": "a_v=H_v+I_vd_g"
+    },
+    {
+      "label": "84.5e",
+      "plain": "n=J_v+L_vσ_g",
+      "latex": "n=J_v+L_v\\sigma_g"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "d111d9fea7ba48abc34690bf4e7451ce77e4f1584372df629d748c3060080ec2"
+}

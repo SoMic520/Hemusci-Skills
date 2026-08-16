@@ -1,0 +1,78 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 289,
+  "sourceImageSha256": "9cfa4a1b2485f8e38208d5c32e81257a1f364bafd68be7e5aa9ef6f46ec074dd",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对82.3.1稳态判据、设定顺序、变量定义及式(82.1)—(82.6)"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "逐式量纲推导并核验G=0.237、πa²、分段斜率/截距、P指数及全部x下标"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "中文版、英文原章与Reynolds–Elrick推导交叉核对，确认式(82.2)漏G并校正；印刷页码798"
+    }
+  },
+  "blocks": [
+    {
+      "type": "steady-state-criterion",
+      "text": "准稳态判据为连续4—5次R测值处于±1%—5%范围且无明显趋势。达到当前ψ₁稳态后，调节调压管水位至下一ψ₂并重新监测至稳态。至少连续设置两个水头并测Qₛ(ψ₁)、Qₛ(ψ₂)；水头按升序ψ₁<ψ₂<ψ₃<…，最小ψ₁≥−20 cm，最大ψₙ=0或接近0。推荐3—5个水头，以充分确定近饱和水流参数。"
+    },
+    {
+      "type": "principle",
+      "text": "固定水头下稳态三维入渗采用Wooding（1968）浅池公式。Qₛ(ψ₀) [L³·T⁻¹]为入渗面ψ=ψ₀时进入介质的稳态流量，a [L]为固定环内半径，K(ψ₀) [L·T⁻¹]为入渗面导水率，G=0.237为形状系数，φ(ψ₀) [L²·T⁻¹]为基质流量势。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "式(82.2)中原书和英文原章排版均漏掉形状系数G，写成πa²+a/α*；但式(82.1)含aφ/G，且α*=K/φ，直接代入必得πa²+a/(Gα*)。后续式(82.3)、(82.5)、(82.9)也均保留G。为保持量纲和推导一致，式(82.2)按πa²+a/[Gα*(ψ₀)]校正，并留下此溯源说明。"
+    },
+    {
+      "type": "piecewise-method",
+      "text": "假定任意相邻设定水头间α*(ψ₀)为常数，ln Qₛ(ψ₀)对ψ₀为分段线性关系。n为总水头数；ψₓ、ψₓ₊₁依次施加，且ψₓ<ψₓ₊₁。α′ₓ,ₓ₊₁由分段斜率求，K′ₓ,ₓ₊₁由分段截距求；两者分别对应α*(ψ₀)和K(ψ₀)的分段参数。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "82.1",
+      "plain": "Qₛ(ψ₀)=πa²K(ψ₀)+(a/G)φ(ψ₀)",
+      "latex": "Q_s(\\psi_0)=\\pi a^2K(\\psi_0)+\\frac{a}{G}\\phi(\\psi_0)",
+      "resultUnit": "L³·T⁻¹"
+    },
+    {
+      "label": "82.2（校正）",
+      "plain": "Qₛ(ψ₀)={πa²+a/[Gα*(ψ₀)]}K_fs exp[α*(ψ₀)ψ₀]",
+      "latex": "Q_s(\\psi_0)=\\left[\\pi a^2+\\frac{a}{G\\alpha^*(\\psi_0)}\\right]K_{fs}\\exp[\\alpha^*(\\psi_0)\\psi_0]",
+      "resultUnit": "L³·T⁻¹"
+    },
+    {
+      "label": "82.3",
+      "plain": "ln Qₛ(ψ₀)=α′ₓ,ₓ₊₁ψ₀+ln{[πa²+a/(α′ₓ,ₓ₊₁G)]K′ₓ,ₓ₊₁}；x=1,2,…,n−1，n≥2",
+      "latex": "\\ln Q_s(\\psi_0)=\\alpha'_{x,x+1}\\psi_0+\\ln\\left\\{\\left[\\pi a^2+\\frac{a}{\\alpha'_{x,x+1}G}\\right]K'_{x,x+1}\\right\\},\\quad x=1,2,\\ldots,n-1,\\ n\\ge2",
+      "resultUnit": "分段线性式"
+    },
+    {
+      "label": "82.4",
+      "plain": "α′ₓ,ₓ₊₁=ln[Qₛ(ψₓ)/Qₛ(ψₓ₊₁)]/(ψₓ−ψₓ₊₁)",
+      "latex": "\\alpha'_{x,x+1}=\\frac{\\ln[Q_s(\\psi_x)/Q_s(\\psi_{x+1})]}{\\psi_x-\\psi_{x+1}}",
+      "resultUnit": "L⁻¹"
+    },
+    {
+      "label": "82.5",
+      "plain": "K′ₓ,ₓ₊₁={Gα′ₓ,ₓ₊₁Qₛ(ψₓ)}/{a[1+Gα′ₓ,ₓ₊₁πa][Qₛ(ψₓ)/Qₛ(ψₓ₊₁)]^P}；P=ψₓ/(ψₓ−ψₓ₊₁)",
+      "latex": "K'_{x,x+1}=\\frac{G\\alpha'_{x,x+1}Q_s(\\psi_x)}{a[1+G\\alpha'_{x,x+1}\\pi a][Q_s(\\psi_x)/Q_s(\\psi_{x+1})]^P},\\qquad P=\\frac{\\psi_x}{\\psi_x-\\psi_{x+1}}",
+      "resultUnit": "L·T⁻¹"
+    },
+    {
+      "label": "82.6",
+      "plain": "K(ψₓ)={K′ₓ₋₁,ₓ exp(α′ₓ₋₁,ₓψₓ)+K′ₓ,ₓ₊₁ exp(α′ₓ,ₓ₊₁ψₓ)}/2，x=2,…,n−1",
+      "latex": "K(\\psi_x)=\\frac{K'_{x-1,x}\\exp(\\alpha'_{x-1,x}\\psi_x)+K'_{x,x+1}\\exp(\\alpha'_{x,x+1}\\psi_x)}{2},\\quad x=2,\\ldots,n-1",
+      "resultUnit": "L·T⁻¹"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "cea004e59e80ec1c27d76a2f872d5b9dbbf67739d5ed61486905637b51f014b0"
+}

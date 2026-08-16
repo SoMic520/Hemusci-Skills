@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 505,
+  "sourceImageSha256": "29fb00f16ed2425e113474a706f74c35e11a9dd02e920c5511d50c96c3670375",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页面与两套OCR，完成Harden至Plante共19条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者拼写、¹⁴C/¹⁵N、k_EC/k_EN、卷页及著作章节；用正式文献元数据区分Jenkinson和Powlson系列论文I与V"},
+    "secondVisualPass": {"status": "verified", "method": "由Plante条反向复核至Harden条，检查重音符号、连字符、页码和印刷页码474"}
+  },
+  "blocks": [
+    {"type": "reference", "text": "Harden, T., Joergensen, R.G., Meyer, B., and Wolters, V. 1993. Mineralization of straw and formation of soil microbial biomass in a soil treated with simazine and dinoterb. Soil Biology and Biochemistry 25: 1273–1276."},
+    {"type": "reference", "text": "Hedley, M.J. and Stewart, J.W.B. 1982. Method to measure microbial phosphate in soils. Soil Biology and Biochemistry 14: 377–385."},
+    {"type": "reference", "text": "Hernández-Hernández, R.M. and López-Hernández, D. 2002. Microbial biomass, mineral nitrogen and carbon content in savanna soil aggregates under conventional and no-tillage. Soil Biology and Biochemistry 34: 1563–1570."},
+    {"type": "reference", "text": "Horwath, W.R. and Paul, E.A. 1994. Microbial biomass. In: R.W. Weaver et al., eds. Methods of Soil Analysis, Part 2—Microbiological and Biochemical Properties. Soil Science Society of America, Madison, WI, pp. 753–773."},
+    {"type": "reference", "text": "Inubushi, K., Brookes, P.C., and Jenkinson, D.S. 1991. Soil microbial biomass C, N and ninhydrin-N in aerobic and anaerobic soils measured by the fumigation-extraction method. Soil Biology and Biochemistry 23: 737–741."},
+    {"type": "reference", "text": "Jenkinson, D.S. 1966. Studies on the decomposition of plant material in soil. II. Partial sterilization of soil and the soil biomass. Journal of Soil Science 17: 280–302."},
+    {"type": "reference", "text": "Jenkinson, D.S. 1988. Determination of microbial biomass carbon and nitrogen in soil. In: J.R. Wilson, ed. Advances in Nitrogen Cycling in Agricultural Ecosystems. CAB International, Wallingford, UK, pp. 368–386."},
+    {"type": "reference", "text": "Jenkinson, D.S. and Powlson, D.S. 1976. The effects of biocidal treatments on metabolism in soil—V. A method for measuring soil biomass. Soil Biology and Biochemistry 8: 209–213. doi:10.1016/0038-0717(76)90005-5."},
+    {"type": "reference", "text": "Joergensen, R.G. 1996. The fumigation-extraction method to estimate soil microbial biomass: calibration of the k_EC value. Soil Biology and Biochemistry 28: 25–31."},
+    {"type": "reference", "text": "Joergensen, R.G. and Brookes, P.C. 2005. Quantification of soil microbial biomass by fumigation-extraction. In: R. Margesin and F. Schinner, eds. Manual for Soil Analysis—Monitoring and Assessing Soil Bioremediation. Soil Biology, Vol. 5. Springer, Berlin, Heidelberg, pp. 281–295. doi:10.1007/3-540-28904-6_15."},
+    {"type": "reference", "text": "Joergensen, R.G. and Mueller, T. 1996. The fumigation-extraction method to estimate soil microbial biomass: calibration of the k_EN value. Soil Biology and Biochemistry 28: 33–37."},
+    {"type": "reference", "text": "Joergensen, R.G. and Olfs, H.W. 1998. The variability between different analytical procedures and laboratories for measuring soil microbial biomass C and biomass N by the fumigation-extraction method. Zeitschrift für Pflanzenernährung und Bodenkunde 161: 51–58."},
+    {"type": "reference", "text": "Kouno, K., Tsuchiya, Y., and Ando, T. 1995. Measurement of soil microbial biomass phosphorus by an anion exchange membrane method. Soil Biology and Biochemistry 27: 1353–1357."},
+    {"type": "reference", "text": "Lin, Q. and Brookes, P.C. 1999. Arginine ammonification as a method to estimate soil microbial biomass and microbial community structure. Soil Biology and Biochemistry 31: 1985–1997."},
+    {"type": "reference", "text": "Mondini, C., Contin, M., Leita, L., and De Nobili, M. 2002. Response of microbial biomass to air-drying and rewetting in soils and compost. Geoderma 105: 111–124."},
+    {"type": "reference", "text": "Mueller, T., Joergensen, R.G., and Meyer, B. 1992. Estimation of soil microbial biomass C in the presence of living roots by fumigation-extraction. Soil Biology and Biochemistry 24: 179–181."},
+    {"type": "reference", "text": "Murphy, J. and Riley, J.P. 1962. A modified single solution method for determination of phosphate in natural waters. Analytica Chimica Acta 27: 31–36."},
+    {"type": "reference", "text": "Ocio, J.A. and Brookes, P.C. 1990a. An evaluation of methods for measuring the microbial biomass in soils following recent additions of wheat straw and the characterization of the biomass that develops. Soil Biology and Biochemistry 22: 685–694."},
+    {"type": "reference", "text": "Ocio, J.A. and Brookes, P.C. 1990b. Soil microbial biomass measurements in sieved and unsieved soil. Soil Biology and Biochemistry 22: 999–1000."},
+    {"type": "reference", "text": "Olsen, S.R., Cole, C.V., Watanabe, F.S., and Dean, L.A. 1954. Estimation of available phosphorus in soils by extraction with sodium bicarbonate. Circular 935. United States Department of Agriculture, Washington, DC."},
+    {"type": "reference", "text": "Plante, A.F. and Voroney, R.P. 1998. Decomposition of land-applied oily food waste and associated changes in soil aggregate stability. Journal of Environmental Quality 27: 395–402."},
+    {"type": "source-fidelity-note", "scope": "第505页参考文献勘误", "text": "原书把Jenkinson和Powlson（1976）系列论文V的页码误列为167–177；167–177属于系列论文I，论文V正确为8:209–213。另校正Manual of Soil Analysis→Manual for Soil Analysis—Monitoring and Assessing Soil Bioremediation、F. Shinner→F. Schinner、pp.281–296→281–295、Tuchiya→Tsuchiya。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "03ef27214e9b662ccc7e9031432e8d404d2b3898ff2a3d41030260405629982b"
+}

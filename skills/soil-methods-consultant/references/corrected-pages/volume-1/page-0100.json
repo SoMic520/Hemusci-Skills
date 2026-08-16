@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 100,
+  "sourceImageSha256": "b5f74b3e0d29d07c1df6351d39809463bdb145d90e82e5bc070628c73fd054a2",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐条对照原分辨率计算式与参考文献，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复8.3.3续句、8.3.4和全部条目"},
+    "precisionPass": {"status": "verified", "method": "放大核对式（8.1）的两个乘号、两处分式、mg P/kg、μg P、mL、g及0/5/10/15/20/30/40 μg P，并逐字符核验作者、卷页、专名和原书连写"},
+    "secondVisualPass": {"status": "verified", "method": "由页首“剂进行显色”至Pote等1996逐段反向复核，核验公式布局、2nd ed.、US Dept. Agric. Circ. 939和印刷页码69"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第8章｜碳酸氢钠—可提取态磷｜"},
+    {"type": "paragraph", "continuation": true, "text": "剂进行显色的讨论。"},
+    {"type": "section-heading", "level": 3, "number": "8.3.4", "title": "计算"},
+    {"type": "paragraph", "text": "采用8.3.2节建议的磷浓度得到的标准曲线应该是线性的。如果标准曲线的建立是基于50 mL容量瓶中的磷含量（分别为0、5、10、15、20、30和40 μg P）及其对应的吸光度，那么样品中磷含量可以根据以下公式计算，单位为mg P/kg土壤：", "inlineNotation": ["50 mL", "0、5、10、15、20、30和40 μg P", "mg P/kg土壤"]},
+    {"type": "formula-reference", "labels": ["8.1"]},
+    {"type": "section-heading", "level": 2, "number": null, "title": "参考文献"},
+    {"type": "reference-entry", "text": "Atia, A.M. and Mallarino, A.P. 2002. Agronomic and environmental soil phosphorus testing in soils receiving liquid swine manure. Soil Sci.Soc. Am. J. 66: 1696-1705."},
+    {"type": "reference-entry", "text": "Banderis, A.S., Barter, D.H., and Henderson, K.1976. The use of polyacrylamide to replace carbon in the determination of Olsen’s extractable phosphate in soil. J. Soil Sci. 27: 71-74."},
+    {"type": "reference-entry", "text": "Bowman, R.A. and Cole, C.V. 1978. An exploratory method for fractionation of organic phosphorus from grassland soils. Soil Sci. 125: 95-101."},
+    {"type": "reference-entry", "text": "Coleman, D.C., Reid, C.P., and Cole, C.V. 1983. Biological strategies of nutrient cycling in soil systems. In: A. MacFayden and E.O. Ford, eds. Advances in Ecological Research 13. Academic Press. New York, NY, 1-56."},
+    {"type": "reference-entry", "text": "Cox, F.R. 1994. Current phosphorus availability indices: characteristics and shortcomings. In: J.L. Havlin et al., eds. Soil Testing: Prospects for Improving Nutrient Recommendations. Soil Science Society of America Special Publication No. 40. SSSA-ASA, Madison, WI, 101-114."},
+    {"type": "reference-entry", "text": "Going, J.E. and Eisenreich, S.J. 1974. Spectrophotometric studies of reduced molybdoantimonylphosphoric acid. Anal. Chim. Acta 70: 95-106."},
+    {"type": "reference-entry", "text": "Kamprath, E.J. and Watson, M.E. 1980. Conventional soil and tissue tests for assessing the phosphorus status of soil. In: F.E. Khasawneh, E.C. Sample, and E.J. Kamprath, eds. The Role of Phosphorus in Agriculture. American Societyof Agronomy, Madison, WI, 433-469."},
+    {"type": "reference-entry", "text": "Mackay, A.D., Syers, J.K., Gregg, P.E.H., and Tillman, R.W. 1984. A comparison of three soil testing procedures for estimating the plant available phosphorus in soils using either superphosphate orphosphate rock. N. Z. J. Agric. Res. 27: 231-245."},
+    {"type": "reference-entry", "text": "Menon, R.G., Hammond, L.L., and Sissingh, H.A.1989. Determination of plant-available phosphorus by the iron hydroxide-impregnated filterpaper (Pi) soil test. Soil Sci. Soc. Am J. 53: 110-115."},
+    {"type": "reference-entry", "text": "Murphy, J. and Riley, J.P. 1962. A modified single solution method for the determination of phosphates in natural waters. Anal. Chem. Acta 27: 31-36."},
+    {"type": "reference-entry", "text": "O’Halloran, I.P., Kachanoski, R.G., and Stewart, J.W.B. 1985. Spatial variability of soil phosphorus as influenced by soil texture and management. Can. J. Soil Sci. 65: 475-487."},
+    {"type": "reference-entry", "text": "Olsen, S.R., Cole, C.V., Watanabe, F.S., and Dean, L.A. 1954. Estimation of available phosphorus in soils by extraction with sodium bicarbonate. US Dept. Agric. Circ. 939, Washington, DC."},
+    {"type": "reference-entry", "text": "Olsen, S.R. and Sommers, L.E. 1982. Phosphorus. In: A.L. Page, R.H. Miller, and D.R. Keeney, eds. Methods of Soil Analysis, 2nd ed. Part 2. AgronomyNo. 9. American Society of Agronomy, Madison, WI, 403-430."},
+    {"type": "reference-entry", "text": "Pote, D.H., Daniel, T.C., Sharpley, A.N., MooreP.A. Jr., Edwards, D.R., and Nichols, D.J. 1996. Relating extractable soil phosphorus to phosphorus losses in runoff. Soil Sci. Soc. Am. J. 60: 855-859"},
+    {"type": "printed-page-number", "text": "69"}
+  ],
+  "formulas": [
+    {"label": "8.1", "plain": "mg P/kg土壤=μg P（样品中）×[50 mL（提取体积）/mL（实际测定体积）]×[1/g（土壤）]", "latex": "\\mathrm{mg\\ P/kg}\\,\\text{土壤}=\\mu\\mathrm{g\\ P}\\text{（样品中）}\\times\\frac{50\\,\\mathrm{mL}\\text{（提取体积）}}{\\mathrm{mL}\\text{（实际测定体积）}}\\times\\frac{1}{\\mathrm{g}\\text{（土壤）}}", "context": "根据样品显色测定体积和50 mL提取体积计算土壤磷含量"}
+  ],
+  "tables": [],
+  "contentSha256": "c3231e32372cb60ad423e7fe7d0e81e318c5181e6552353d4b3292a6ff48c40d"
+}

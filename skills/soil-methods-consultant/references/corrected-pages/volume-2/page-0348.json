@@ -1,0 +1,57 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 348,
+  "sourceImageSha256": "f66e450f4fbb1b72a57e94acca0dd1a43b3de54bf28e8688e9aff80f5d672245",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条核对本页全部参考文献作者、题名、出版项、卷期及页码"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对重音字符、期刊缩写、DOI、会议日期与页码范围"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "英文大小写、连字符、作者首字母和数字二次反查；印刷页码857"
+    }
+  },
+  "blocks": [
+    {
+      "type": "references",
+      "entries": [
+        "Isaaks, E. and Srivastava, R. 1989. An Introduction to Applied Geostatistics. Oxford University Press, Oxford, New York.",
+        "Jongman, R.H.G., Ter Braak, C.J.F., and van Tongeren, O.F.R. 1995. Data Analysis in Community and Landscape Ecology, 2nd ed. Cambridge University Press, Cambridge, UK.",
+        "Kachanoski, R.G., Rolston, D.E., and de Jong, E. 1985. Spatial and spectral relationships of soil properties and microtopography: I. Density and thickness of A horizon. Soil Sci. Soc. Am. J. 49:804–812.",
+        "Kitanidis, P. 1997. Introduction to Geostatistics—Applications in Hydrosciences. Cambridge University Press, New York.",
+        "Koopmans, L.H. 1974. The Spectral Analysis of Time Series. Academic Press, New York, 366.",
+        "Lambert, D.M., Lowenberg-Deboer, J., and Bongiovanni, R. 2004. A comparison of four spatial regression models for yield monitor data: a case study from Argentina. Precis. Agr. 5:579–600.",
+        "Lark, R.M. 2000. A comparison of some robust estimators of the variogram for use in soil survey. Eur. J. Soil Sci. 51:137–157.",
+        "Matheron, G. 1962. Traité de Géostatistique Appliqué, Tome 1. Memoires du Bureau de Recherches Géologiques et Minières, Paris.",
+        "McBratney, A.B. and Webster, R. 1986. Choosing functions for semivariograms of soil properties and fitting them to sampling estimates. J. Soil Sci. 37:617–639.",
+        "Morisette, J. 1997. Examples using SAS to fit the model of linear coregionalization. Comput. Geosci. 23(3):317–323.",
+        "Nielsen, D.R. and Wendroth, O. 2003. Spatial and Temporal Statistics: Sampling Field Soils and Their Vegetation. Catena Verlag GMBH, Reiskirchen, Germany, 398.",
+        "Olea, R.A. 1999. Geostatistics for Engineers and Earth Scientists. Kluwer Academic Publishers, Boston, MA.",
+        "Pannatier, Y. 1996. VARIOWIN: Software for Spatial Data Analysis in 2D. Springer-Verlag, New York.",
+        "Papritz, A. and Dubois, J.P. 1999. Mapping heavy metals in soil by (non-)linear kriging: an empirical validation. In: J. Gómez-Hernández, A. Soares, and R. Froidevaux, eds. geoENV II—Geostatistics for Environmental Applications. Kluwer Academic Publishing, Dordrecht, The Netherlands, 429–440.",
+        "Prakash, M.R. and Singh, V.S. 2000. Network design for groundwater monitoring—a case study. Environ. Geol. 39:628–632.",
+        "Press, W.H., Teukolsky, S.A., Vetterling, W.T., and Flannery, B.P. 1992. Numerical Recipes in C: The Art of Scientific Computing. Cambridge University Press, New York.",
+        "Rossi, R.E., Mulla, D.J., Journel, A.G., and Franz, E.H. 1992. Geostatistical tools for modeling and interpreting ecological spatial dependence. Ecol. Monogr. 62:277–314.",
+        "Si, B.C. 2003. Spatial and scale-dependent soil hydraulic properties: a wavelet approach. In: Y. Pachepsky, D.E. Radcliffe, and H.M. Selim, eds. Scaling Methods in Soil Physics. CRC Press, New York, 163–178.",
+        "Si, B.C. and Farrell, R.E. 2004. Scale-dependent relationship between wheat yield and topographic indices: a wavelet approach. Soil Sci. Soc. Am. J. 68:577–587.",
+        "Si, B.C. and Zeleke, T.B. 2005. Wavelet coherency to relate soil saturated hydraulic conductivity and physical properties. Water Resour. Res. 41. doi:10.1029/2005WR004118.",
+        "Vieira, S.R., Reynolds, W.D., and Topp, G.C. 1988. Spatial variability of hydraulic properties in a highly structured clay soil. In: P.J. Wierenga and D. Bachelet, eds. Validation of Flow and Transport Models for the Unsaturated Zone: Conference Proceedings. May 23–26, 1988, Ruidoso, NM, 471–483.",
+        "Webster, R. 1977. Spectral analysis of gilgai soil. Aust. J. Soil Res. 15:176–194.",
+        "Yates, T., Si, B.C., Farrell, R.E., and Pennock, D. 2006. Probability distribution and spatial dependence of nitrous oxide emission: temporal change in hummocky terrain. Soil Sci. Soc. Am. J. 70:753–762."
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "Vieira会议论文集题名原页印为“Validation of Low and Transport Models...”，缺失Flow的首字母F；按题名语义校正为“Flow and Transport Models”。Si和Zeleke条目保留可唯一定位的DOI，并删除原印无法作为卷页信息解释的“41:11”。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "4d2af64f87a0f0fcb11b71216b2bf6919b58d4ca9c0b3fada04740585f1b9f9c"
+}

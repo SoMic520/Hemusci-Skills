@@ -1,0 +1,51 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 252,
+  "sourceImageSha256": "7069d8ea2255e184e1038a13f889a9f9f191d8db0163c526561435d5e2bc5a6e",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条核对第77章参考文献续页及译校署名，对跨页Guyonnet条目补全题名、卷页"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验作者拼写与附加符号、年份、期刊卷页、书名和章节页码"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "与英文原章参考文献段逐项比对，纠正OCR的Iovino/Wösten/Goodall等误识别；印刷页码761"
+    }
+  },
+  "blocks": [
+    {
+      "type": "references-continuation",
+      "items": [
+        "Guyonnet, D., Amraoui, N., and Kara, R. 2000. Analysis of transient data from infiltrometer tests in fine-grained soils. Ground Water 38:396–402.",
+        "Lauren, J.G., Wagenet, R.J., Bouma, J., and Wösten, J.H.M. 1988. Variability of saturated hydraulic conductivity in a Glassaquic Hapludalf with macropores. Soil Sci. 145:20–28.",
+        "Leeds-Harrison, P.B. and Youngs, E.G. 1997. Estimating the hydraulic conductivity of soil aggregates conditioned by different tillage treatments from sorption measurements. Soil Till. Res. 41:141–147.",
+        "Lukens, R.P., ed. 1981. Annual Book of ASTM Standards, Part 19: Soil and Rock. American Standards of Materials and Testing, Washington, DC, 509–514.",
+        "Reynolds, W.D. 1993. Saturated hydraulic conductivity: field measurement. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. Canadian Society of Soil Science, Lewis Publishers, Boca Raton, FL, 605–611.",
+        "Reynolds, W.D. and Elrick, D.E. 1990. Ponded infiltration from a single ring: I. Analysis of steady flow. Soil Sci. Soc. Am. J. 54:1233–1241.",
+        "Reynolds, W.D. and Elrick, D.E. 2005. Measurement and characterization of soil hydraulic properties. In: J. Alvarez-Benedi and R. Munoz-Carpena, eds. Soil–Water–Solute Process Characterization: An Integrated Approach. CRC Press, Boca Raton, FL, 197–252.",
+        "Reynolds, W.D., Elrick, D.E., and Youngs, E.G. 2002. Ring or cylinder infiltrometers (vadose zone). In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 818–843.",
+        "Richards, N.E. 1987. A comparison of three methods for measuring hydraulic properties of field soils. MSc thesis, University of Guelph, Guelph, ON, Canada.",
+        "Scotter, D.R., Clothier, B.E., and Harper, E.R. 1982. Measuring saturated hydraulic conductivity and sorptivity using twin rings. Aust. J. Soil Res. 20:295–304.",
+        "Smettem, K.R.J. and Smith, R.E. 2002. Field measurement of infiltration parameters. In: R.E. Smith, ed. Infiltration Theory for Hydrologic Applications. Water Resources Monograph 15, American Geophysical Union, Washington, DC, 135–157.",
+        "Swartzendruber, D. and Olsen, T.C. 1961. Model study of the double ring infiltrometer as affected by depth of wetting and particle size. Soil Sci. 92:219–225.",
+        "Topp, G.C. and Binns, M.R. 1976. Field measurements of hydraulic conductivity with a modified air-entry permeameter. Can. J. Soil Sci. 56:139–147.",
+        "Wu, L., Pan, L., Robertson, M.L., and Shouse, P.J. 1997. Numerical evaluation of ring-infiltrometers under various soil conditions. Soil Sci. 162:771–777.",
+        "Youngs, E.G. 1987. Estimating hydraulic conductivity values from ring infiltrometer measurements. J. Soil Sci. 38:623–632.",
+        "Youngs, E.G., Elrick, D.E., and Reynolds, W.D. 1993. Comparison of steady flows from infiltration rings in ‘Green and Ampt’ soils and ‘Gardner’ soils. Water Resour. Res. 29:1647–1650.",
+        "Youngs, E.G., Spoor, G., and Goodall, G.R. 1996. Infiltration from surface ponds into soils overlying a very permeable substratum. J. Hydrol. 186:327–334."
+      ]
+    },
+    {
+      "type": "credits",
+      "text": "刘海涛译，李保国校。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a93f86b0d58ca3e232155c8a70057e6d99007c98a6f7e018b7eaec582c0dc7ec"
+}

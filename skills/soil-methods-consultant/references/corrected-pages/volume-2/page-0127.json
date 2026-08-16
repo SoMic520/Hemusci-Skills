@@ -1,0 +1,48 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 127,
+  "sourceImageSha256": "701724aec40193e39233e8e3bf19515611dfa66d9670725e84af8964ce36cb6b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率图和两套OCR，完成67.2.1、表67.1及67.2.2材料和步骤(1)"},
+    "precisionPass": {"status": "verified", "method": "核验H1—H10逐行定义、1/3—2/3、fibric/mesic/humic边界、5/2.5/25 mL、0.15/6/8 mm"},
+    "secondVisualPass": {"status": "verified", "method": "由步骤(1)反向复核至von Post标题，检查表脚注、顺序尺度统计解释和单位；印刷页码636"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "67.2.1", "title": "von Post按压法", "level": 3},
+    {"type": "paragraph", "text": "Lennart von Post于1922年提出该法（von Post和Granlund，1926），它是土壤和地理调查中常用的泥炭野外分解度判定方法。"},
+    {"type": "heading", "title": "步骤", "level": 4},
+    {"type": "steps", "items": ["取一手掌量的新鲜泥炭置于掌心并用手挤压；观察从指缝挤出液的颜色、浑浊度和挤出泥炭的比例，同时检查掌中植物残茬及残留物状态。将综合观察与表67.1的十级腐殖化顺序尺度H1—H10匹配。原书所述把液体置于另一只手手背观察，仅为观察方式，不是独立定量测量。"]},
+    {"type": "heading", "title": "注释", "level": 4},
+    {"type": "paragraph", "text": "较干泥炭和表层有机质压缩性低，按压法会低估分解度，不建议使用（Grosse-Brauckmann，1976）。分类可表述为：fibric（纤维质）H1—H3、mesic（中等分解）H5—H6、humic（腐殖质）H7—H10；H4在加拿大分类中归fibric，而在德国体系中归mesic。该方法高度依赖测试者经验和技巧，H级是顺序尺度；样本较少时不宜以均值作参数统计推断，应优先报告中位数及各等级频数（Parent等，1982）。"},
+    {"type": "heading", "number": "67.2.2", "title": "纤维体积法（Lynn等，1974）", "level": 3},
+    {"type": "paragraph", "text": "纤维体积法是泥炭分类的另一种方法。分别测定未揉搓和揉搓后仍截留在100目筛（孔径0.15 mm）上的纤维体积。"},
+    {"type": "heading", "title": "方法和试剂", "level": 4},
+    {"type": "list", "items": ["5 mL医用注射器，改装为2.5 mL定容筒（将两端切去并设置2.5 mL有效容积）", "自来水", "100目筛，孔径0.15 mm、直径8 cm", "吸水纸"]},
+    {"type": "heading", "title": "步骤", "level": 4},
+    {"type": "steps", "items": ["取约25 mL湿泥炭置于吸水纸，轻缓卷起吸去多余水分后展开；把样品剪成约6 mm长的小段并随机混匀。后续步骤见下页。"]},
+    {"type": "source-fidelity-note", "text": "原书表后统计句译成“利用平均值代替中间值”，与顺序尺度逻辑相反；校正为不宜用均值替代中位数。表中H4归属具有分类体系差异，不能擅自并入H5—H6。"}
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "number": "67.1",
+      "title": "评价泥炭分解度的von Post尺度（H）",
+      "columns": ["H", "植物残茬", "挤压流出物", "挤压后的残留物"],
+      "rows": [
+        ["1", "无改变", "清水", "非糊状"],
+        ["2", "明显", "棕黄色清水", "非糊状"],
+        ["3", "明显", "棕色浑水", "非糊状"],
+        ["4", "明显", "棕色非常浑浊的水", "非糊状"],
+        ["5", "明显", "棕色非常浑浊的水，带植物残茬", "稍成糊状"],
+        ["6", "不明显ᵃ", "1/3泥炭被挤出", "糊状"],
+        ["7", "不明显但可辨识", "1/2泥炭被挤出", "糊状"],
+        ["8", "非常不明显", "2/3泥炭被挤出", "若干纤维"],
+        ["9", "几乎不可分辨", "几乎所有泥炭被挤出", "若干纤维"],
+        ["10", "不可分辨", "所有泥炭被挤出", "无残留物"]
+      ],
+      "notes": ["ᵃ 植物残茬不明显，但比挤压后残留物中的植物残茬更可辨识。", "来源：据Grosse-Brauckmann，收于K. Göttlich (Ed.), Peat Stratification, Schweizerbart’sche Verlag, Stuttgart, 1976, 91–133。"]
+    }
+  ],
+  "contentSha256": "b7861119e87e35e39e051c253921d5f6e5e32c4dbb4c740e12c9d34e551cb834"
+}

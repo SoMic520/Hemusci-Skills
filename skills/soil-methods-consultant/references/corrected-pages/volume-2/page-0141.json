@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 141,
+  "sourceImageSha256": "8ef2f11dc44f40adcb809b4f85f2663090401f14abc1e2caadadc6820c906061",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐项逐式对照原分辨率图和两套OCR，完成68.4.4材料(3)—(6)、步骤(1)—(20)及式(68.10)—(68.11)"},
+    "precisionPass": {"status": "verified", "method": "核验10 L、30 cm×60 cm、≥5 L、1/5 cm、24/48 h、100 mL、−1/−2/−5/−10 kPa、105 ℃及W/ρ_w/V_R量纲"},
+    "secondVisualPass": {"status": "verified", "method": "由式(68.11)反向复核至材料，检查各水势负号、环体积修正、环/样/布质量定义和原印重复除体积错误；印刷页码650"}
+  },
+  "blocks": [
+    {"type": "heading", "title": "68.4.4材料（续）", "level": 4},
+    {"type": "list", "items": ["沙箱或张力台（Topp和Zebchuk，1979）", "底部穿孔的塑料容器", "钢架和30 cm×60 cm尼龙布", "容积≥5 L的水浴"]},
+    {"type": "heading", "title": "步骤", "level": 4},
+    {"type": "steps", "items": [
+      "把约10 L代表性材料分装入若干底部穿孔塑料容器，盖尼龙布，置水浴；缓慢加水至基质表面下1 cm，静置过夜。",
+      "把预湿样转入沙箱/张力台，在−5 kPa平衡48 h。",
+      "在底环底部固定纱布或粗尼龙布防漏。组装双环，用勺每次加约100 mL材料，避免压实，同时填满环内空隙；在顶环上盖尼龙布防止材料隆起。",
+      "把双环置水浴，缓慢加水至顶环上缘下1 cm，饱和24 h。",
+      "移到张力台并盖尼龙布。以底环中点为水势参考高度，调至−1 kPa（约10.2 cm水柱吸力），平衡48 h。",
+      "取出双环，小心移去顶环；用小刀把底环上表面修平，粗纤维用剪刀齐平，避免压缩或拉出。",
+      "称底环、湿样和底布的总质量M₁。再置张力台，依次调至−2、−5、−10 kPa；每次至少间隔24 h，并以质量或流出量稳定确认平衡，称相应总质量M₂、M₅、M₁₀。",
+      "最后按适用温度烘至恒量，称底环、干样和底布总质量M_dry,total；另测空环和底布质量用于核对干样质量。膨缩性材料须测各水势下样高并修正有效体积V_R。"
+    ]},
+    {"type": "heading", "title": "计算（本页部分）", "level": 4},
+    {"type": "variables", "items": ["M_h：水势h下底环+样品+底布的平衡质量（g）", "M_dry,total：同一组合烘干后的恒量（g）", "ρ_w：试验温度下水密度（g·cm⁻³；近室温可近似1.00）", "V_R：该水势下底环内样品实际体积（cm³）", "θ_h：水势h下体积含水量（cm³·cm⁻³）", "TP：总孔隙度体积分数", "AFP_h：充气孔隙度体积分数"]},
+    {"type": "paragraph", "text": "任一水势h的体积含水量应由湿、干同一组合的质量差求水质量，再除以水密度和样品体积。−1 kPa时记θ₁。充气孔隙度为TP−θ₁。"},
+    {"type": "source-fidelity-note", "text": "原书步骤(18)把−1 kPa湿样质量记为W_R，式后又把W_R解释为“底环的干重”，符号自相矛盾；式(68.10)还省略水密度。现以M_h和M_dry,total消歧。原印式(68.11)写AFP=(TP−θ₁)/V_R，但TP和θ₁都已是体积分数，再除V_R量纲错误，已校正为AFP=TP−θ₁。105 ℃与本章前页对泥炭推荐70 ℃存在冲突，实际必须按材料热稳定性选择并报告烘温。"}
+  ],
+  "formulas": [
+    {"label": "68.10校正式", "plain": "θ_h = (M_h − M_dry,total)/(ρ_w V_R)", "latex": "\\theta_h=\\frac{M_h-M_{\\mathrm{dry,total}}}{\\rho_wV_R}", "resultUnit": "cm³·cm⁻³"},
+    {"label": "68.10（−1 kPa）", "plain": "θ₁ = (M₁ − M_dry,total)/(ρ_w V_R)", "latex": "\\theta_1=\\frac{M_1-M_{\\mathrm{dry,total}}}{\\rho_wV_R}", "resultUnit": "cm³·cm⁻³"},
+    {"label": "68.11校正式", "plain": "AFP₁ = TP − θ₁", "latex": "AFP_1=TP-\\theta_1", "resultUnit": "cm³·cm⁻³"}
+  ],
+  "tables": [],
+  "contentSha256": "94277068142c291281a8991b87a35b8e3517aa6fe8140df43eff6bcbbe29f144"
+}

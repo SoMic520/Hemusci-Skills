@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 195,
+  "sourceImageSha256": "3a4ec56506bb0b5f8191ad4396cfdfc0ced7204611ea96d2cf0d28292349bdfa",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐步骤对照原分辨率页图和两套OCR，完成填充、安装、记录维护、71.3.3及式(71.1)—(71.3)"},
+    "precisionPass": {"status": "verified", "method": "核验<1/>1 m、0.05—0.10 m、−0.08/−0.1 MPa、A=10 m、h<10/最大4 m及−6 m≤ψ_m≤0"},
+    "secondVisualPass": {"status": "verified", "method": "由3.5 m埋藏式建议反向复核三式符号和所有安装尺度；印刷页码704"}
+  },
+  "blocks": [
+    {"type": "procedure", "name": "张力计填充与田间安装", "steps": ["加水至规定水平，装压力指示，管路/接头充水；橡胶隔膜下留小空气隙，其他读出通常无空气更好。", "浅装<1 m、无石土：用同外径钻头钻孔，插入并确保杯—孔底水力接触；可先放去石饱和泥浆，或插好后开盖让少量水流出湿润杯周土。重新注满、封盖并等待平衡。", "深装>1 m或结构不稳：先装金属/硬塑通路管，使多孔杯伸出并入土0.05—0.10 m；石质土防杯损伤，孔底用去石泥浆。地上管段尽量短并遮阳防损。"]},
+    {"type": "procedure", "name": "记录与维护", "steps": ["平衡后连续读ψ_m；记录器按频率/时段编程，人工读数宜清晨。", "定期排除从水中逸出的气体；接近−0.08 MPa时气体积累加快，低于约−0.1 MPa会迅速充气失效，需在土壤回湿到约−0.08至−0.1 MPa范围时重新充水。"]},
+    {"type": "heading", "number": "71.3.3", "title": "计算注意事项", "level": 3},
+    {"type": "paragraph", "text": "读出通常直接给ψ_m；用于梯度时准确度/精密度要求会反向决定传感器选择与校准频率。"},
+    {"type": "heading", "number": "71.3.4", "title": "注释", "level": 3},
+    {"type": "paragraph", "text": "垂直安装时，仪表测绝对压力头P=A+ψ_m−h；A为大气压力水头正值，h为仪表高于杯的垂直高度正值，ψ_m为杯处负基质头。P=0时ψ_m,min=−A+h，故(−A+h)≤ψ_m≤0。取A=10 m、实际h最大4 m时范围为−6 m≤ψ_m≤0；测深>3.5 m宜用短埋藏式传感张力计并引线至地表。"},
+    {"type": "source-fidelity-note", "text": "维护段原书把“−0.08～0.1 MPa”第二个负号漏印，结合前句低于−0.1 MPa失效，应理解为约−0.08至−0.1 MPa的负压区。OCR又把最终−6 m漏成正6 m，已按式(71.3)恢复。"}
+  ],
+  "formulas": [
+    {"label": "71.1", "plain": "P = A + ψ_m - h", "latex": "P=A+\\psi_m-h", "resultUnit": "m water head"},
+    {"label": "71.2", "plain": "ψ_m = -A + h", "latex": "\\psi_m=-A+h", "resultUnit": "m water head"},
+    {"label": "71.3", "plain": "(-A+h) ≤ ψ_m ≤ 0", "latex": "(-A+h)\\leq\\psi_m\\leq0", "resultUnit": "m water head"}
+  ],
+  "tables": [],
+  "contentSha256": "52adc0b3a82599b64d143dda9c08b47d6707e60449db1aab7b98b65999507a15"
+}

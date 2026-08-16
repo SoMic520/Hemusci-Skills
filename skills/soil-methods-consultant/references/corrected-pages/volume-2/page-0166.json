@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 166,
+  "sourceImageSha256": "9fc332313b70f37b156510521088b835853fef2b59b6085d989d0427266d05d8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段逐图对照原分辨率页图和两套OCR，完成式(69.12)—(69.13)变量续文、图69.6及式(69.14)—(69.15)"},
+    "precisionPass": {"status": "verified", "method": "核验r=1.818、ψᵢ/ψ₀/ψ_p、cm·s⁻¹ᐟ²、cm²·s⁻¹、exp(αψ)及α(ψ₀)[L⁻¹]"},
+    "secondVisualPass": {"status": "verified", "method": "由页末式(69.15)反向复核两幅图轴和零值/不存在条件；印刷页码675"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "θ(ψᵢ)为ψ=ψᵢ时介质体积含水量。r=1.818为与湿润（或排水）锋形状有关的无量纲经验常数；湿润取1.818，排水时可能稍小。K(ψ)曲线及ψᵢ范围共同决定S(ψ₀)和φ(ψ₀)曲线的形状与范围，二者基本保留K(ψ)的形态。"},
+    {"type": "paragraph", "text": "由式(69.12)—(69.13)，θ(ψᵢ)=θ(ψ₀)或ψᵢ=ψ₀时，S(ψ₀)=φ(ψ₀)=0；孔隙水压力头为正（ψ_p>0）时，书中定义下S(ψ₀)和φ(ψ₀)不存在。"},
+    {"type": "figure", "number": "69.6", "title": "代表性砂质土以及有结构、无结构壤质土的吸渗率和通量势关系", "panels": [{"label": "a", "x": "孔隙水压力头ψ（cm）", "y": "吸渗率S(ψ)（cm·s⁻¹ᐟ²）"}, {"label": "b", "x": "孔隙水压力头ψ（cm）", "y": "基质通量势φ(ψ)（cm²·s⁻¹）"}], "series": ["砂土（实线）", "壤土/无结构壤土（点线）", "有结构壤土（虚线）"]},
+    {"type": "paragraph", "text": "若K(ψ)用Gardner指数函数K_sat exp(αψ)表示，式(69.13)可写成式(69.15)。α(ψ₀)[L⁻¹]表示ln K对ψ的斜率；田间持水量或更干时多数介质K(ψᵢ)≪K(ψ₀)，可进一步近似，见下页。"},
+    {"type": "source-fidelity-note", "text": "式(69.14)印作常数α，而式(69.15)分母写α(ψ₀)并解释为局部斜率；严格指数模型中α应为常数。语料保留两式原符号，同时不把局部α(ψ₀)误称为对任意K(ψ)均成立的精确指数参数。"}
+  ],
+  "formulas": [
+    {"label": "69.14", "plain": "K(ψ) = K_sat exp(αψ)", "latex": "K(\\psi)=K_{sat}\\exp(\\alpha\\psi)", "resultUnit": "L·T⁻¹"},
+    {"label": "69.15", "plain": "φ(ψ₀) = [K(ψ₀)-K(ψᵢ)]/α(ψ₀); ψᵢ < ψ₀, K(ψᵢ) < K(ψ₀)", "latex": "\\phi(\\psi_0)=\\frac{K(\\psi_0)-K(\\psi_i)}{\\alpha(\\psi_0)};\\quad \\psi_i<\\psi_0,\\ K(\\psi_i)<K(\\psi_0)", "resultUnit": "L²·T⁻¹"}
+  ],
+  "tables": [],
+  "contentSha256": "6ad6273f242a3ff9fb785ade5b32e0407e61892f546b4a17f85dfac50337c4b9"
+}

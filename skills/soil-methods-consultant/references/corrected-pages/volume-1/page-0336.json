@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 336,
+  "sourceImageSha256": "74d637a9b4db59356fbefdf49f82a079a3d1f28ca05c4258bb86b2c648ca6bc1",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版交叉比对，恢复32.5.2续文、32.5.3、32.6及参考文献前11条"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验5%甘油、>80%/70%乙醇、60 ℃/1 h、2 mL、>60×、log(x+1)及全部参考文献作者、年份、卷页"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Evans等（1985）跨页条目反向复核至页首乙醇续文，确认Syracuse表面皿、乳酸、钨丝微针、块金分布和公式字符；页码305"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第32章｜小型节肢动物｜"},
+    {"type": "paragraph-continuation", "continuationOf": "page-0335#storage-solutions-intro", "text": "乙醇溶液保存收集的动物群。为保护个人健康，乙醇应不含变性添加剂。建议在乙醇中添加5%的甘油，防止乙醇蒸发后样本干燥。除非样本用于分子生物学研究，否则不建议使用浓度>80%的乙醇溶液，因为样本可能萎缩并变脆。有些动物（如弹尾目）可能覆盖一层蜡质角质层，在储存溶液中很难湿润。将弹尾目样本在70%乙醇中加热至60 ℃并保持1 h可脱蜡，使其被保存液完全浸湿并下沉。"},
+    {"type": "critical-safety-note", "scope": "32.5.2加热乙醇脱蜡", "text": "70%乙醇具有高度可燃性；60 ℃已接近其低沸点范围且会显著增加蒸气。不得在明火、开放式加热板或无防爆控制条件下直接加热。若确需采用本步骤，必须由机构风险评估确定密闭方式、压力释放、通风、防爆温控和替代方案，并遵守SDS及消防要求。"},
+    {"type": "paragraph", "text": "样本可用乙醇溶液储存在小型玻璃壳瓶（2 mL）中。归档收藏时，建议把小瓶置于装有乙醇溶液的较大瓶中。如果样本需送给分类学家鉴定，应在乙醇溶液中运输，而不是固定在玻片上，除非另有要求。"},
+    {"type": "section-heading", "level": 3, "number": "32.5.3", "title": "初步整理和清理"},
+    {"type": "paragraph", "text": "小型节肢动物应在液体中处理——通常是在收集液或储存液中，于Syracuse表面皿或有机玻璃皿内进行；也可在凹穴载玻片上的乳酸中处理。动物可用线环、微型刮勺、巴斯德吸管或钨丝微针操纵（Norton和Sanders，1985）。较低分类层级的整理可在体视显微镜下以>60×放大倍数进行，偶尔借助复合显微镜的更高放大倍数。需要高倍观察时，可把样本暂时置于凹穴载玻片上的乳酸中。"},
+    {"type": "source-fidelity-note", "scope": "32.5.3器具与显微镜", "text": "中文本把minute spatulas译作“小锅铲”，并把stereomicroscope泛写为显微镜；校正为“微型刮勺”和“体视显微镜”。“>60×”表示总放大倍数大于60倍。"},
+    {"type": "section-heading", "level": 2, "number": "32.6", "title": "简要统计注意事项"},
+    {"type": "paragraph", "text": "小型节肢动物在土壤中常呈“块金”（nugget）式聚集分布：植物残体附近数量很高，而仅相隔数厘米处数量较低。观测值通常变异很大，并可能呈偏斜频率分布；若确属这种情况，原始数据在方差分析前可能需要用log(x+1)变换以趋于正态化。采样还应关注生态系统细节，如植物、植物残体和裸土的空间排列。比较农业管理措施时可能需要大量样品，因为不同农业土壤间动物数量的差异，通常不像更为多样的生态系统土壤之间那样显著。"},
+    {"type": "source-fidelity-note", "scope": "32.6 log(x+1)变换", "text": "本页的log(x+1)是原书的条件性建议，不是自动适用规则；原书未注明对数底数。实际分析必须先检查响应变量、抽样设计、分布与方差结构，再明确采用自然对数或常用对数；不得仅凭数据偏斜就默认变换或宣称满足方差分析假设。"},
+    {"type": "bibliography-heading", "text": "参考文献"},
+    {"type": "reference", "text": "André, H.M., Ducarme, X., and Lebrun, P. 2002. Soil biodiversity: myth, reality, or conning? Oikos 96: 3-24."},
+    {"type": "reference", "text": "Bater, J.E. 1996. Micro- and macro-arthropods. In: G.S. Hall, ed. Methods for the Examination of Organismal Diversity in Soils and Sediments. CAB International, Oxford, UK, 163-174."},
+    {"type": "reference", "text": "Behan-Pelletier, V.M. 2003. Acari and Collembola biodiversity in Canadian agricultural soils. Can. J. Soil Sci. 83: 279-288."},
+    {"type": "reference", "text": "Burkard Scientific 2006. Tullgren Funnels. Burkard Scientific, PO Box 55, Uxbridge, Middx, UB8 2RT, UK. Available at: http://www.burkardscientific.co.uk (last verified, June 2006)."},
+    {"type": "reference", "text": "Coleman, D.C., Crossley, D.A. Jr., and Hendrix, P.F. 2004. Fundamentals of Soil Ecology. Elsevier, Amsterdam, the Netherlands, 386."},
+    {"type": "reference", "text": "Crossley, D.A. Jr. and Blair, J.M. 1991. A high-efficiency, “low-technology” Tullgren-type extractor for soil microarthropods. Agric. Ecosyst. Environ. 34: 187-192."},
+    {"type": "reference", "text": "Dindal, D.L. 1990. Soil Biology Guide. John Wiley & Sons, New York, NY, 1349."},
+    {"type": "reference", "text": "Edwards, C.A. 1991. The assessment of populations of soil-inhabiting invertebrates. Agric. Ecosyst. Environ. 34: 145-176."},
+    {"type": "reference", "text": "Edwards, C.A. and Fletcher, K.E. 1971. A comparison of extraction methods for terrestrial arthropods. In: J. Phillipson, ed. Methods of Study in Quantitative Soil Ecology: Population, Production, and Energy Flow. IPB Handbook No. 18. Blackwood Scientific, London, UK, 150-185."},
+    {"type": "reference", "id": "evans-1985", "continuation": "page-0337", "text": "Evans, G.O., Griffiths, D.A., Macfarlane, D., Murphy, P.W., and Till, W.M. 1985. The Acari: A Practical Manual. Vol. 1. Morphology and Classification. University of Notingham School of Agriculture, University of Notingham, School of"},
+    {"type": "printed-page-number", "text": "305"}
+  ],
+  "formulas": [
+    {"number": null, "name": "偏斜计数数据的原书建议变换", "source": "log(x+1)", "expression": "y = log(x + 1)", "variables": {"x": "原始观测值", "y": "变换后数值"}, "context": "32.6；对数底数未注明，采用前须另行明确"}
+  ],
+  "tables": [],
+  "contentSha256": "c986c908d2794f80e575949dc5bb012cf615e1c503926ba0d7b7aef8a60bcca7"
+}

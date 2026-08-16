@@ -1,0 +1,23 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 85,
+  "sourceImageSha256": "b5d7aae3e5adbf796e87d2889db54448779f2a86e77a1f7811561aa25196223c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成第62章题名、作者单位、62.1及62.2本页"},
+    "precisionPass": {"status": "verified", "method": "核验>250 μm、>5 cm、62.3/62.4/62.5层级、团聚体破坏力和湿筛/浊度/吸管法术语"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页Kemper引文反向复核至章题，检查μm上标、作者名Le Bissonnais/Arrouays及采样限制；印刷页码594"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "62", "title": "团聚体的水稳性"},
+    {"type": "authors", "items": ["Denis A. Angers；Agriculture and Agri-Food Canada，Quebec, Quebec, Canada", "M.S. Bullock；Holly Hybrids，Sheridan, Wyoming, United States", "G.R. Mehuys；McGill University，Sainte Anne de Bellevue, Quebec, Canada"]},
+    {"type": "heading", "number": "62.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "团聚体是初级土粒彼此结合紧密形成、与周围土粒有界的集合体。稳定性是内部黏结抵抗外部冲击、剪切、磨损，以及内部压缩空气逸出造成的崩解和膨胀力，从而防止分散/破坏的能力。它反映抗水蚀、抗封闭/结皮、维持入渗和下层通气能力，是常用土壤质量指标。"},
+    {"type": "paragraph", "text": "测定尺度包括土块/大团聚体（>250 μm）和黏粉粒尺度。宏观法用湿筛施加破坏，留在一个或多个筛级上的为水稳性团聚体；细尺度法用比浊或密度/吸管法测破坏后分散悬液。本章依次给出大团聚体稳定性（62.3）、水稳性团聚体粒级分布（62.4）及湿筛稳定性+浊度综合法（62.5）。"},
+    {"type": "heading", "number": "62.2", "title": "田间采样、储存和预处理的注意事项", "level": 2},
+    {"type": "paragraph", "text": "采样、储存和预处理与湿筛本身同等重要。稳定性随干湿、冻融、耕作、种植制度和改良动态变化，采样时间与深度必须匹配研究目的。常采表土，用方头铁铲或内径>5 cm套筒取芯。不得取受车轮、铁铲或套筒压实的区域，也不得取被工具剪切的土；湿土比风干土更易在采样和预筛时受机械破坏。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "685e9c461b60aed29cdea9bc9d5d25cd8d1752181d691b693216931549fb596f"
+}

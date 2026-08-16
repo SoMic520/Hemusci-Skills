@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 173,
+  "sourceImageSha256": "939686ba6b7e10c3b7a6e8996bb453a7a89db8cc702dffb1b4af1b0b50cce2bf",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页图和两套OCR，完成Philip 1987至Verdonck共21条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者顺序、in-situ、3rd、Part 4、Ty. P.A. Ferré、期刊卷页及跨页条目"},
+    "secondVisualPass": {"status": "verified", "method": "由Verdonck跨页条目反向复核至Philip，检查题名、地名和出版社；印刷页码682"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Philip, J.R. 1987. The quasilinear analysis, the scattering analog, and other aspects of infiltration and seepage. In: Y.S. Fok, ed. Infiltration, Development and Application. Water Resources Research Centre, Honolulu, HI, 1–27.",
+      "Raats, P.A.C. 1976. Analytical solutions of a simplified flow equation. Trans. ASAE 19:683–689.",
+      "Reynolds, W.D., Bowman, B.T., Drury, C.F., Tan, C.S., and Lu, X. 2002. Indicators of good soil physical quality: density and storage parameters. Geoderma 110:131–146.",
+      "Reynolds, W.D., Brown, D.A., Mathur, S.P., and Overend, R.P. 1992. Effect of in-situ gas accumulation on the hydraulic conductivity of peat. Soil Sci. 153:397–408.",
+      "Reynolds, W.D., Bowman, B.T., and Tomlin, A.D. 1997. Comparison of selected water and air properties in soil under forest, no-tillage, and conventional tillage. In: J. Caron, D.A. Angers, and G.C. Topp, eds. Proceedings of 3rd Eastern Canada Soil Structure Workshop. Université Laval, Sainte-Foy, Quebec, Canada, 235–248.",
+      "Reynolds, W.D. and Elrick, D.E. 2005. Measurement and characterization of soil hydraulic properties. In: J. Alvarez-Benedi and R. MunozCarpena, eds. Soil-Water-Solute Process Characterization: An Integrated Approach. CRC Press, Boca Raton, FL, 197–252.",
+      "Reynolds, W.D., Elrick, D.E., and Clothier, B.E. 1985. The constant head well permeameter: effect of unsaturated flow. Soil Sci. 139:172–180.",
+      "Reynolds, W.D., Gregorich, E.G., and Curnoe, W.E. 1995. Characterization of water transmission properties in tilled and untilled soils using tension infiltrometers. Soil Till. Res. 33:117–131.",
+      "Richards, L.A. 1931. Capillary conduction of liquids in porous mediums. Physics 1:318–333.",
+      "Robinson, D.A., Jones, S.B., Blonquist, J.M. Jr., and Friedman, S.P. 2005. A physically derived water content/permittivity calibration model for coarse-textured, layered soils. Soil Sci. Soc. Am. J. 69:1372–1378.",
+      "Romano, N. and Santini, A. 2002. 3.3 Water Retention and Storage, 3.3.3 Field. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 721–738.",
+      "Scotter, D.R., Clothier, B.E., and Harper, E.R. 1982. Measuring saturated hydraulic conductivity and sorptivity using twin rings. Aust. J. Soil Res. 20:295–304.",
+      "Skopp, J., Jawson, M.D., and Doran, J.W. 1990. Steady-state aerobic microbial activity as a function of soil water content. Soil Sci. Soc. Am. J. 54:1619–1625.",
+      "Smith, R.E. 2002. Infiltration Theory for Hydrologic Applications. Water Resources Monograph 15, American Geophysical Union, Washington, DC, 212.",
+      "Soil Science Society of America. 1997. Glossary of Soil Science Terms. Soil Science Society of America, Madison, WI.",
+      "Stephens, D.B., Lambert, K., and Watson, D. 1987. Regression models for hydraulic conductivity and field test of the borehole permeameter. Water Resour. Res. 23:2207–2214.",
+      "Topp, G.C., Davis, J.L., and Annan, A.P. 1980. Electromagnetic determination of soil-water content: Measurements in coaxial transmission lines. Water Resour. Res. 16:574–582.",
+      "Topp, G.C. and Ferré, Ty. P.A. 2002. 3.1 Water content. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 417–545.",
+      "Topp, G.C. and Reynolds, W.D. 1998. Time domain reflectometry: a seminal technique for measuring mass and energy in soil. Soil Till. Res. 47:125–132.",
+      "Townend, J., Reeve, M.J., and Carter, A. 2001. Water release characteristic. In: K.A. Smith and C.E. Mullins, eds. Soil and Environmental Analysis: Physical Methods. 2nd ed. Marcel Dekker, New York, 95–140.",
+      "Verdonck, O., Penninck, R., and de Boodt, M. 1983. Physical properties of different horticultural substrates. Acta Hortic. 150:155–160.（条目续至下页）"
+    ]},
+    {"type": "source-fidelity-note", "text": "Topp等1980题名的规范形式为Measurements（复数），页图印作Measurement，已与本书前页同一条目统一纠正。Verdonck条目卷页跨至下页，合并时仍保留两页来源定位。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "342ba526ceda200f5004b29adcad8e69a96ff25ed9192d1e384d7181e5b9eda0"
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 345,
+  "sourceImageSha256": "f0e1b6fe4582465d21264e2ad7409459035d7ef72d8a0f708ebf6ffd248349ea",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率参考文献页面，并与Apple Vision、PaddleOCR及英文原版交叉比对，恢复Barker（1985a）续文及其后19条文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验a/b/c年份后缀、Meloidogyne/Pratylenchus/Heterodera物种名、书名卷号、卷期页码、连字符及所有作者首字母"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Thistlethwayte和Riedel（1969）跨页条目反向逐项复核至Barker（1985a）续文，确认Volume II及Heterodera trifolii拼写；页码314"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-continuation", "continuationOf": "page-0344#barker-1985a", "text": "on Meloidogyne, Volume II Methodology. USAID, North Carolina State University Graphics, Raleigh, NC, USA, 19–35."},
+    {"type": "reference", "text": "Barker, K.R. 1985b. Sampling nematode communities. In: K.R. Barker, C.C. Carter, and J.N. Sasser, eds. An Advanced Treatise on Meloidogyne, Volume II Methodology. USAID, North Carolina State University Graphics, Raleigh, NC, USA, 3–17."},
+    {"type": "reference", "text": "Bell, N.L. and Watson, R.N. 2001. Optimizing the Whitehead and Hemming tray method to extract plant parasitic and other nematodes from two soils under pasture. Nematology 3: 179–185."},
+    {"type": "reference", "text": "Bird, G.W. 1971. Influence of incubation solution on the rate of recovery of Pratylenchus brachyurus from cotton roots. J. Nematol. 3: 378–385."},
+    {"type": "reference", "text": "Caveness, F.E. and Jensen, H.J. 1955. Modification of the centrifugal-flotation technique for the isolation and concentration of nematodes and their eggs from soil and plant tissue. Proc. Helminth. Soc. Wash. 22: 87–89."},
+    {"type": "reference", "text": "Fenwick, D.W. 1940. Methods for the recovery and counting of cysts of Heterodera schachtii from soil. J. Helminthol. 18: 155–172."},
+    {"type": "reference", "text": "Ferris, H. 1987. Extraction efficiencies and population estimation. In: J.A. Veech and D.W. Dickson, eds. Vistas on Nematology. Society of Nematologists, Hyattsville, MD, USA, 63–69."},
+    {"type": "reference", "text": "Hooper, D.J. 1986a. Extraction of free-living stages from soil. In: J.F. Southey, ed. Laboratory Methods for Work with Plant and Soil Nematodes. Ministry of Agriculture, Fisheries and Food, Reference Book 402, Her Majesty’s Stationery Office, London, UK, 5–30."},
+    {"type": "reference", "text": "Hooper, D.J. 1986b. Extraction of nematodes from plant material. In: J.F. Southey, ed. Laboratory Methods for Work with Plant and Soil Nematodes. Ministry of Agriculture, Fisheries and Food, Reference Book 402, Her Majesty’s Stationery Office, London, UK, 51–58."},
+    {"type": "reference", "text": "Hooper, D.J. 1986c. Preserving and staining nematodes in plant tissues. In: J.F. Southey, ed. Laboratory Methods for Work with Plant and Soil Nematodes. Ministry of Agriculture, Fisheries and Food, Reference Book 402, Her Majesty’s Stationery Office, London, UK, 81–85."},
+    {"type": "reference", "text": "Hooper, D.J. and Evans, K. 1993. Extraction, identification and control of plant-parasitic nematodes. In: K. Evans, D.L. Trudgill and J.M. Webster, eds. Plant Parasitic Nematodes in Temperate Agriculture. CAB International, Wallingford, UK, 1–59."},
+    {"type": "reference", "text": "Ingham, R. 1994. Nematodes. In: R.W. Weaver et al., eds. Methods of Soil Analysis, Part 2—Microbiological and Biochemical Properties. Soil Science Society of America, Madison, WI, 459–490."},
+    {"type": "reference", "text": "Jenkins, W.R. 1964. A rapid centrifugal-flotation technique for separating nematodes from soil. Plant Dis. Rep. 48: 692."},
+    {"type": "reference", "text": "Kimpinski, J., Plumas, G., and MacDonald, M.C. 1993. Occurrence of the clover cyst nematode, Heterodera trifolii, in Prince Edward Island soils. J. Nematol. 25(4S): 876–879."},
+    {"type": "reference", "text": "Kimpinski, J. and Welch, H.E. 1971. Comparison of Baermann funnel and sugar flotation extraction from compacted and non-compacted soils. Nematologica 17: 319–320."},
+    {"type": "reference", "text": "McSorley, R. and Frederick, J.J. 2004. Effect of extraction method on perceived composition of the soil nematode community. Appl. Soil Ecol. 27: 55–63."},
+    {"type": "reference", "text": "Pitcher, R.S. and Flegg, J.J.M. 1968. An improved final separation sieve for the extraction of plant-parasitic nematodes from soil debris. Nematologica 14: 123–127."},
+    {"type": "reference", "text": "Shepherd, A.M. 1986. Extraction and estimation of cyst nematodes. In: J.F. Southey, ed. Laboratory Methods for Work with Plant and Soil Nematodes. Ministry of Agriculture, Fisheries and Food, Reference Book 402, Her Majesty’s Stationery Office, London, UK, 31–49."},
+    {"type": "reference", "text": "Stoller, B.B. 1957. An improved test for nematodes in soil. Plant Dis. Rep. 41: 531–532."},
+    {"type": "reference", "id": "thistlethwayte-riedel-1969", "continuation": "page-0346", "text": "Thistlethwayte, B. and Riedel, R.M. 1969. Expressing sucrose concentration in solutions used for extracting nematodes. J."},
+    {"type": "printed-page-number", "text": "314"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c5abf1ae99f4012a2376b9a2c84808793478732df22a54fc5efb3088476493eb"
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-31270-22-2025",
+  "label": "GB/T 31270.22-2025《化学农药环境安全评价试验准则 第22部分：土壤表面光解试验》",
+  "standardNo": "GB/T 31270.22-2025",
+  "title": "化学农药环境安全评价试验准则 第22部分：土壤表面光解试验",
+  "published": "2025-10-05",
+  "implemented": "2026-05-01",
+  "domain": "soil-ecotoxicology",
+  "sourceType": "official-online-reader",
+  "sourceFingerprint": "ed61ddf124e56f6e0e102f13ff09b44783cce72f3c239dcd460b3370d1d4a8cd",
+  "includedPageCount": 15,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=682B708A31D3905403AA9904F1490987"
+}

@@ -1,0 +1,95 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 545,
+  "sourceImageSha256": "a95fdb670cdc821ed189040b6536682de2ba6d451f84f3bf5dfb8c55d2f9fa1c",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，完成54.4.1全文及54.4.2首句"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验δ¹³C/δ¹⁵N、10～70/5～50 mg、C:N=10、0.10/3.00/2%、1 mg、28/50～80/5～10/10/167/240 μL、6 mol·L⁻¹、11×8 mm、0.5 mg、65 °C、20 kPa、16 h和CaCl₂"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由54.4.2跨页句反向复核至标题，化学计量复算两个HCl体积，检查μL、银/锡杯限制、真空干燥条件和印刷页码514"
+    }
+  },
+  "blocks": [
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "54.4.1",
+      "title": "土壤有机质中δ¹³C值的测定"
+    },
+    {
+      "type": "paragraph",
+      "text": "碳酸盐δ¹³C通常比土壤有机质高，测有机C的δ¹³C前需去除无机C。把预称重土样置银杯，用HCl直接轻度酸化，再在EA-IRMS中燃烧；浓度按酸化前土样质量计算。该操作得到酸处理后保留C的δ¹³C，潜在酸溶/挥发性有机C损失须在方法局限中说明。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（1）估算与称样",
+      "text": "按有机C与仪器灵敏度称10～70 mg土入银杯。可用假设有机质质量C:N≈10估算无机C：TIC≈TC−10TN。例：50 mg土、TN=0.10%、TC=3.00%，估计TIC=2.00%=1.00 mg C。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（2）加酸",
+      "text": "用6 mol·L⁻¹ HCl。1 mg无机C按CaCO₃计，化学计量最低需约28 μL；50 mg纯CaCO₃最低约167 μL。常先加总量50～80 μL，分成5～10 μL小份逐滴加入；反应越剧烈，每份越小。发现起泡溢出须废弃该杯并重做，不能把已损失样品继续分析。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（3）容器",
+      "text": "可用壁高11 mm、直径8 mm银杯，在50孔丙烯酸支架中酸化/干燥。HCl蒸气酸化已有文献使用，但本页方法偏好直接滴加以观察并控制起泡。酸化样品不得使用会被HCl腐蚀的锡杯。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（4）过量酸与干燥",
+      "text": "HCl总量至少覆盖预计无机C化学计量的2倍，并使样品完全润湿。预计无机C>0.5 mg时，先加约80 μL后干燥，再每次补10 μL；书载总量很少超过240 μL。折封前于65 °C、20 kPa真空条件干燥约16 h，除水和未反应HCl；随即折封分析或置干燥器。生成的CaCl₂吸湿，暴露空气会改变样品状态。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（5）燃烧与批次管理",
+      "text": "EA须有足够炉温和O₂保证银杯样品完全燃烧；银残渣会在燃烧管积累，须按仪器维护程序清除。未酸化EA校准样与酸化样分开装载/管理，避免意外酸接触造成碳酸盐损失。"
+    },
+    {
+      "type": "safety-note",
+      "text": "6 mol·L⁻¹ HCl具强腐蚀性，酸化、真空干燥及含HCl废物处置须在合规通风橱按机构SOP进行。不得把含残酸样杯直接置入不兼容自动进样器；真空烘箱的20 kPa须按设备定义确认是绝对压强还是表压。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "54.4.2",
+      "title": "测定土壤全δ¹³C值和全δ¹⁵N值"
+    },
+    {
+      "type": "paragraph-continuation",
+      "text": "称取研磨土样，书载一般5～50 mg，[续见第546页]"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "54.4.1-tic-estimate",
+      "display": "TIC_mass_fraction ≈ TC − 10TN（假设有机质质量C:N≈10）",
+      "meaning": "酸量规划用的粗略无机C估算，不替代实测TIC"
+    },
+    {
+      "id": "54.4.1-hcl-stoichiometry",
+      "display": "CaCO₃ + 2HCl → CaCl₂ + CO₂↑ + H₂O",
+      "meaning": "碳酸钙酸化反应计量"
+    },
+    {
+      "id": "54.4.1-hcl-1mg-c",
+      "display": "V(6 M HCl) = 2×(1.00 mg C/12.011 mg·mmol⁻¹)/(6.00 mmol·mL⁻¹) = 27.8 μL",
+      "meaning": "1 mg无机C按CaCO₃计的HCl最低体积复算"
+    },
+    {
+      "id": "54.4.1-hcl-50mg-caco3",
+      "display": "V(6 M HCl) = 2×(50.0 mg/100.09 mg·mmol⁻¹)/(6.00 mmol·mL⁻¹) = 166.5 μL",
+      "meaning": "50 mg纯CaCO₃的HCl最低体积复算；书中取167 μL"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "3bf4a8a746836582464264e10ca9aaede155521de5094c839ae0eb064f1924a0"
+}

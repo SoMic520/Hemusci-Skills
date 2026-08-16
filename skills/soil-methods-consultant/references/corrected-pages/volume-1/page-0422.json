@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 422,
+  "sourceImageSha256": "006034dd72c7f3d6b6d0e4c8158c97502274f92f40cda77dd65144dd95465a5c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、两套OCR及英文原版40.3.3（2）～40.3.4"},
+    "precisionPass": {"status": "verified", "method": "核验5～10 mL、1～2 h、16片、1 min、8/10/15/30 cm、908 g、TDR及第70章交叉引用"},
+    "secondVisualPass": {"status": "verified", "method": "由田间标志旗反向复核两次/三次填孔、0 cm线和水分测定术语；印刷页码391"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第40章｜土壤生物活性的评估"},
+    {"type": "procedure-step", "section": "40.3.3", "number": "（2）", "text": "把40.3.2全部干组分称入塑料或玻璃容器。组分（1）～（4）为易飞散细粉；按材料安全数据表（MSDS）佩戴适当呼吸防护和防护服。"},
+    {"type": "procedure-step", "section": "40.3.3", "number": "（3）", "text": "制片时戴乳胶或塑料手套。每次向干料加5～10 mL蒸馏水，用小铲充分混合，直至形成类似曲奇面团、潮湿但不饱和、细至中等颗粒的糊状物；再用铲或手混至均匀顺滑。不得过湿松软，否则不能黏附孔内。"},
+    {"type": "procedure-step", "section": "40.3.3", "number": "（4）①手工填孔", "text": "台面铺易清洁塑料片并戴手套。取少量糊料，以拇指和食指沿孔列单向向下挤压，尽量把诱饵压入孔中，再抹平至与塑料片表面齐平，不得过填；不要反向涂抹，以免把已填材料带出。"},
+    {"type": "procedure-step", "section": "40.3.3", "number": "（4）②腻子刀填孔", "text": "大量制片时，可把数片排在实验台塑料片上，用柔性腻子刀把糊料尽量压入一面孔内，再翻面重复。"},
+    {"type": "procedure-step", "section": "40.3.3", "number": "（5）", "text": "孔填满后，把层片斜放于托盘边缘风干，约1～2 h全干。第一次填料常收缩，形成欠填或干缩裂缝，需第二次甚至第三次填充；按步骤（4）作第二层填补。"},
+    {"type": "procedure-step", "section": "40.3.3", "number": "（6）", "text": "第二次填充干燥后，把层片置灯台/灯箱检查透光；仍透光或未填满的孔须第三次填充。"},
+    {"type": "procedure-step", "section": "40.3.3", "number": "（7）", "text": "完全干燥后，用解剖针或金属铲清除孔周多余诱饵，最终确认所有孔不透光，即可包装入田。"},
+    {"type": "procedure-step", "section": "40.3.3", "number": "（8）", "text": "每16片组成一组，装入田间运输盒或塑料袋。16片/组是文献最常用标准；可减少片数，但会影响结果变异性，须评估。"},
+    {"type": "section-heading", "level": 3, "number": "40.3.4", "title": "诱饵层片的田间放置"},
+    {"type": "procedure-step", "section": "40.3.4", "number": "（1）", "text": "确定田间采样区，把模板置土表；在模板旁插土壤温度计，记录前平衡约1 min；取出一组层片。"},
+    {"type": "procedure-step", "section": "40.3.4", "number": "（2）", "text": "扶住模板，钢探针逐孔垂直预打导孔；手推，必要时用锤，深度须容纳8 cm监测段加模板底面与土表间距。拔探针后每孔插1片，一孔一孔操作。16片全部插入后小心移开模板，调整各片，使0 cm线与土表齐平；以拇指、食指压紧0 cm线周围土壤固定。"},
+    {"type": "procedure-step", "section": "40.3.4", "number": "（3）", "text": "记录土壤温度。"},
+    {"type": "procedure-step", "section": "40.3.4", "number": "（4）", "text": "紧邻层片组取10 cm土芯，装含水量盒测插片时田间土壤重力含水量；或用TDR水分仪（见第70章）测各点水分。插片和回收时的水分、温度用于解释监测期土壤条件。"},
+    {"type": "source-fidelity-note", "scope": "40.3.4（4）", "text": "中译本把field moisture content误写成“田间持水量”；此处是插片当时的田间土壤含水量，并非field capacity，已据英文原版校正。"},
+    {"type": "procedure-step", "section": "40.3.4", "number": "（5）", "text": "在层片组四角外约30 cm处插标志旗，便于复访定位并警示他人勿步行或驾车碾压。"},
+    {"type": "printed-page-number", "text": "391"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2a51adeaf7d8ab7f47428abbb0308f2d3ec800054aad9ac50c66a88ce77b3eaa"
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 134,
+  "sourceImageSha256": "d7399c468456ca9c199f11e0c77d448e00142019988b23a375137e760b706d2d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Riley至Williams共6条参考文献和译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验作者缩写、oxygen-containing、Södra/torvtillgångar、peatlands、报告号、卷页和语言说明"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至Riley，检查瑞典文书目信息、期刊卷页和标题断词；印刷页码643"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Riley, J.L. 1989. Laboratory Methods for Testing Peat—Ontario Peatland Inventory Project. Ontario Geological Survey Miscellaneous Paper 145. Ontario Ministry of Northern Development and Mines, Toronto, ON, Canada.",
+      "Schnitzer, M. 1970. Characteristics of organic matter extracted from podzol B horizons. Can. J. Soil Sci. 50:199–204.",
+      "Schnitzer, M. and Desjardins, J.G. 1966. Oxygen-containing functional groups in organic soils and their relationship to the degree of humification as determined by solubility in sodium pyrophosphate solution. Can. J. Soil Sci. 46:237–243.",
+      "Sneddon, J.I., Farstad, L., and Lavkulich, L.M. 1971. Fiber content determination and the expression of results in organic soils. Can. J. Soil Sci. 51:138–141.",
+      "Vaillancourt, N., Parent, L.E., Buteau, P., Parent, V., and Karam, A. 1999. Sorption of ammonia and release of humic substances as related to selected peat properties. Can. J. Soil Sci. 79:311–315.",
+      "von Post, L. and Granlund, E. 1926. Södra Sveriges torvtillgångar. I. Sveriges Geologiska Undersökning, Årsbok 19, Series C, No. 335. Stockholm, Sweden (in Swedish).",
+      "Williams, C.J. and Yavitt, J.B. 2003. Botanical composition of peat and degree of peat decomposition in three temperate peatlands. Écoscience 10:85–95."
+    ]},
+    {"type": "credits", "text": "卢奕丽译，任图生校。"},
+    {"type": "source-fidelity-note", "text": "原书把oxygen-containing连写、decomposition in连写，并把peatlands拆作peat lands，已按题名恢复。瑞典文献中的Södra、torvtillgångar和Årsbok变音符已恢复。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ae1f0117629a7dd23c27cbd4e5d37defe06ab2dab03569191d86d3cf7ce41be9"
+}

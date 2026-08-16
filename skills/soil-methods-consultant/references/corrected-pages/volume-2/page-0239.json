@@ -1,0 +1,61 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 239,
+  "sourceImageSha256": "be67d1df7ed5886c438758082bb951ce864e42c58ec504b0af22b05a4268914f",
+  "review": {
+    "textPass": {"status": "verified", "method": "对公式区放大复核并对照英文原章，完成76.3.1末、76.3.2及式(76.6a)—(76.7b)"},
+    "precisionPass": {"status": "verified", "method": "逐项核验π²a/8K_fs、A³/ρ³、两对ln/arctan、Δθ、H₀−H_t、H₀−H_b及所有根号/括号/上下标"},
+    "secondVisualPass": {"status": "verified", "method": "以t=0时H_t=H₀验证ρ_t=1，并以表76.4反算ρ_b³=91.0，排除中文式(76.7b)误印加号；印刷页码748"}
+  },
+  "blocks": [
+    {"type": "procedure", "steps": ["透水底套或碎石层须具有足够高导水率。注水后连续测量H_t随t下降。"]},
+    {"type": "heading", "number": "76.3.2", "title": "分析和计算", "level": 3},
+    {
+      "type": "calculation-guidance",
+      "text": "式(76.6)描述有套管井仅由底部出流时H_t—t关系。a为套管内半径，Δθ=θ_fs−θ_i，H₀为t=0水头，反正切以弧度计。至少两个(H_t,t)点可同时拟合K_fs和α*；建议包含H₀/2与0，也可用完整序列拟合。θ_fs、θ_i、H₀须独立测定。确定K_fs和α*后按式(69.16)—(69.21)求φ_m、S、PD、NP、ψ_f。"
+    },
+    {
+      "type": "calculation-guidance",
+      "text": "只需K_fs时，以表76.1估α*，由已知入水体积/井截面积定H₀，测t_b、H_b、θ_fs、θ_i后用式(76.7)直接计算。若排空时间可接受，可取H_b=0、t_b为排空时间，不需曲线拟合。无套管降水头法则需先在H₀达稳态，再对一系列H—t数值拟合，且对异质性敏感。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "中文式(76.7b)把H₀−H_b误排成H₀+H_b。物理定义要求水位下降量H₀−H_b；表76.4以H₀=100、H_b=85、a=2、Δθ=0.25得到ρ_b³=3(15)/(0.5)+1=91.0，也直接确认应为减号。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "76.6a",
+      "plain": "t = (π²a/8K_fs){(1+1/2A)ln[(A³−1)/(A³−ρ_t³)] − (3/2A)ln[(A−1)/(A−ρ_t)] + (√3/A)[arctan((A+2ρ_t)/(√3A))−arctan((A+2)/(√3A))]}",
+      "latex": "t=\\frac{\\pi^2a}{8K_{fs}}\\left\\{\\left(1+\\frac{1}{2A}\\right)\\ln\\left(\\frac{A^3-1}{A^3-\\rho_t^3}\\right)-\\frac{3}{2A}\\ln\\left(\\frac{A-1}{A-\\rho_t}\\right)+\\frac{\\sqrt3}{A}\\left[\\arctan\\left(\\frac{A+2\\rho_t}{\\sqrt3A}\\right)-\\arctan\\left(\\frac{A+2}{\\sqrt3A}\\right)\\right]\\right\\}",
+      "resultUnit": "T"
+    },
+    {
+      "label": "76.6b",
+      "plain": "A³ = 3(H₀ + 1/α* + π²a/8)/(aΔθ) + 1",
+      "latex": "A^3=\\frac{3\\left(H_0+1/\\alpha^*+\\pi^2a/8\\right)}{a\\Delta\\theta}+1",
+      "resultUnit": "1"
+    },
+    {
+      "label": "76.6c",
+      "plain": "ρ_t³ = 3(H₀−H_t)/(aΔθ) + 1",
+      "latex": "\\rho_t^3=\\frac{3(H_0-H_t)}{a\\Delta\\theta}+1",
+      "resultUnit": "1"
+    },
+    {
+      "label": "76.7a",
+      "plain": "K_fs = (π²a/8t_b){(1+1/2A)ln[(A³−1)/(A³−ρ_b³)] − (3/2A)ln[(A−1)/(A−ρ_b)] + (√3/A)[arctan((A+2ρ_b)/(√3A))−arctan((A+2)/(√3A))]}",
+      "latex": "K_{fs}=\\frac{\\pi^2a}{8t_b}\\left\\{\\left(1+\\frac{1}{2A}\\right)\\ln\\left(\\frac{A^3-1}{A^3-\\rho_b^3}\\right)-\\frac{3}{2A}\\ln\\left(\\frac{A-1}{A-\\rho_b}\\right)+\\frac{\\sqrt3}{A}\\left[\\arctan\\left(\\frac{A+2\\rho_b}{\\sqrt3A}\\right)-\\arctan\\left(\\frac{A+2}{\\sqrt3A}\\right)\\right]\\right\\}",
+      "resultUnit": "L·T⁻¹"
+    },
+    {
+      "label": "76.7b",
+      "plain": "ρ_b³ = 3(H₀−H_b)/(aΔθ) + 1",
+      "latex": "\\rho_b^3=\\frac{3(H_0-H_b)}{a\\Delta\\theta}+1",
+      "resultUnit": "1"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "0513b89ce8289d42d8bbd1b938f6e941454179aa3474a46cb0f1f8be4dccc25c"
+}

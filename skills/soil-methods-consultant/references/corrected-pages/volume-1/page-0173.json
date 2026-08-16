@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 173,
+  "sourceImageSha256": "78b95e101fb24ad7eacd323fc574cfd13b5ffa65e35bbd8995d0ec8dc1ec9062",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率图17.3、注释和实验室分离方法页，并与Apple Vision、PaddleOCR交叉比对，人工恢复方法名称、离子符号及材料首项"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验50～300 μL、CE、Göttlein重音、H⁺/F⁻/Cl⁻/SO₄²⁻/NO₃⁻、Bhf、60/50 mL、55 mm及图17.3来源"},
+    "secondVisualPass": {"status": "verified", "method": "从页码142反向复核至图17.3，确认图示3项标注、两项注释、分离方法全名、17.6.1层级和页末材料续文"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "figure", "label": "图17.3", "title": "微型蒸渗仪的安装", "labels": ["土柱或根箱", "装有微型蒸渗仪的网孔", "有机玻璃板"], "source": "Dieffenbach, A., Göttlein, A.,和Matzner, E., Plant Soil, 192, 57, 1997."},
+    {"type": "section-heading", "level": 3, "number": "17.5.4", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "微型蒸渗仪体积小、易被污染，所以在采样和存储过程中，要选择合适的管道和容器，以减少采样和保存过程中其表面对主要离子、痕量金属元素或有机酸等的吸附。尼龙或特氟龙（聚四氟乙烯）材料可以减少对痕量金属元素的吸附，当要监测可溶性有机物质时可以选用玻璃材料。"},
+    {"type": "note-item", "number": "（2）", "text": "微型蒸渗仪收集的溶液体积处于50～300 μL，因此需要能够用于小体积样品的分析方法，例如，毛细管电泳（CE）法（Göttlein和Blasek，1996）和其他基于高分辨电感耦合的等离子-质谱仪的方法来分析小体积样品中的阴阳离子（Puschenreiter等，2005）。"},
+    {"type": "section-heading", "level": 2, "number": "17.6", "title": "实验室内土壤溶液的分离"},
+    {"type": "paragraph", "text": "在实验室内从鲜土中获取土壤溶液的方法有很多，包括低速离心法、高速离心法（Gillman，1976；Reynolds，1984）、混相液体位移法（Adams，1974；Wolt和Graveel，1986）、非混相液体位移法（Kinniburgh和Miles，1983）和正气压密封瓶法或注压法（Lawrence和David，1996），由这些方法得到的结果相似（Adams等，1980；Wolt和Graveel，1986；Elkhatib等，1987）。使用这些方法时，获得受影响最小的结果关键是采样后尽快处理样品。离心法是一种快速、简便的方法。这里推荐的是经典的戴维斯法（1963），戴维斯法在本书的前版中已有介绍，不同之处在于本章不用玻璃丝而用高密度聚乙烯块来装注射器里的土壤。"},
+    {"type": "paragraph", "text": "离心法是在室内从土壤固相中分离土壤溶液最常用的方法，但1990年Ross和Bartlett在用森林地表土和Bhf层的土壤比较高速离心法、混相位移法和注压法时发现，离心法可以产生较高浓度的H⁺和F⁻，有时还会产生较高浓度的Cl⁻、SO₄²⁻和NO₃⁻，故应该避免使用该法。而混相位移法虽然能获得大量土壤溶液，但是其过程烦琐、耗时。从潮湿土壤中提取溶液时，土壤溶液会随着处理时间的增加而发生变化，此时可以选用简单、快速的注压法，而且注压法所收集溶液的化学性质与混相位移法相似，样品的分析精度也一样，甚至其精度比位移法或离心法更高。"},
+    {"type": "section-heading", "level": 3, "number": "17.6.1", "title": "离心法（Davies和Davies，1963）"},
+    {"type": "procedure-heading", "level": 4, "number": "1.", "title": "材料和装置"},
+    {"type": "material-item", "number": "（1）", "continued": true, "text": "离心装置由两部分组成，一部分是由体积为60 mL的注射器裁去上部、保留55 mm长注射器下部形成的土壤容器，用于装新鲜潮湿的土壤样品，另一部分是一个收集土壤溶液的杯子，溶液杯可以由50 mL高密度聚乙烯离心管截掉上部制成（见图17.4）。"},
+    {"type": "printed-page-number", "text": "142"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "da85bf1f048ef440bd401b13b329cb0859563507f7fb15f4cd05272dd46ac9e1"
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 491,
+  "sourceImageSha256": "222b1acf30279692007923ba8e5cfdb4253d5c3f536b71198348cf66e7b78271",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页与两套OCR，完成48.3.8说明和48.3.9引言、九项材料、五步操作及前三条注释"},
+    "precisionPass": {"status": "verified", "method": "核验1 mg·L⁻¹、50 mL、5 mmol·L⁻¹ CaCl₂、0.4/5 μm、15 mL、10～30 mg C·L⁻¹、营养液各3 mL、150 μL、7 d和>50%葡萄糖态C"},
+    "secondVisualPass": {"status": "verified", "method": "由注释（3）反向复核至48.3.8承上句，检查容器材质、滤膜孔径、培养反复、两类空白和培养前后DOC差量；印刷页码460"}
+  },
+  "blocks": [
+    {"type": "subsection-heading", "level": 4, "title": "3. 说明", "scope": "48.3.8"},
+    {"type": "note", "text": "溶液经储存后蛋白质含量可能迅速下降，因此只建议测定新鲜提取液。本法蛋白质浓度可精确至1 mg BSA当量·L⁻¹。"},
+    {"type": "section-heading", "level": 3, "number": "48.3.9", "title": "生物降解性评价"},
+    {"type": "paragraph", "text": "DOM是土壤微生物群落潜在的能量和营养物质，尤其是N、P来源。微生物分解DOM时，通过降低土壤O₂并为产甲烷和反硝化提供电子，调节CH₄和N₂O等温室气体的产生（Yavitt，1997；Zsolnay，1997；Lu等，2000）。DOM生物可降解性也是评估其对土壤有机质形成贡献的关键（Kalbitz等，2003）；可用培养中DOM损耗率、耗氧率或CO₂释放速率评价（Marschner和Kalbitz，2003）。"},
+    {"type": "subsection-heading", "level": 4, "title": "1. 材料与试剂", "scope": "48.3.9"},
+    {"type": "materials-list", "scope": "48.3.9", "items": [
+      {"number": "（1）", "text": "50 mL聚四氟乙烯、玻璃或聚丙烯培养瓶。"},
+      {"number": "（2）", "text": "微生物菌剂（土壤培养液）：在50 mL聚丙烯试管中加新鲜土壤和5 mmol·L⁻¹ CaCl₂溶液，振荡30 min，用5 μm滤膜过滤，滤液为菌剂。"},
+      {"number": "（3）", "text": "1 g·L⁻¹ NH₄NO₃溶液和1 g·L⁻¹ K₂HPO₄溶液。"},
+      {"number": "（4）", "text": "土壤DOM提取液样品。"},
+      {"number": "（5）", "text": "玻璃真空过滤器或不锈钢压力过滤装置。"},
+      {"number": "（6）", "text": "适配过滤器的0.4 μm聚碳酸酯滤膜。"},
+      {"number": "（7）", "text": "适配过滤器的5 μm聚碳酸酯滤膜，用于过滤菌剂。"},
+      {"number": "（8）", "text": "支撑过滤器的125 mL锥形瓶；真空过滤时用带侧管烧瓶。"},
+      {"number": "（9）", "text": "真空泵或其他真空/压力系统。"}
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "2. 步骤和计算", "scope": "48.3.9"},
+    {"type": "procedure-step", "number": "（1）", "text": "取15 mL DOM提取液（DOC 10～30 mg C·L⁻¹；超出范围时稀释）于PTFE、玻璃或聚丙烯培养容器，分别加3 mL NH₄NO₃液和3 mL K₂HPO₄液；每样品至少3个重复。"},
+    {"type": "procedure-step", "number": "（2）", "text": "制备微生物菌剂，用5 μm聚碳酸酯膜过滤，去除大颗粒和杂质。"},
+    {"type": "procedure-step", "number": "（3）", "text": "向步骤（1）每管加150 μL菌剂，混匀后密封，室温、避光培养7 d。"},
+    {"type": "procedure-step", "number": "（4）", "text": "设两类空白/质控：①营养液+菌剂+超纯水，定量菌剂带入的DOC；②用葡萄糖液代替DOM样品检验菌剂功能，7 d内葡萄糖态C降解应>50%。"},
+    {"type": "procedure-step", "number": "（5）", "text": "培养前、后均用0.4 μm聚碳酸酯膜过滤，按48.3.1测DOC；经空白与稀释校正后，前后DOC之差为生物可降解DOC（BDOC）。"},
+    {"type": "subsection-heading", "level": 4, "title": "3. 注释", "scope": "48.3.9"},
+    {"type": "note", "number": "（1）", "text": "本短期法用于评估易生物降解DOM；延长培养会使更多有机C降解/矿化，从而高估易降解部分（McDowell等，2006）。"},
+    {"type": "note", "number": "（2）", "text": "培养期建议加营养物；营养缺乏可限制DOM生物降解，导致低估（McDowell等，2006）。"},
+    {"type": "note", "number": "（3）", "text": "菌剂土壤不必与DOM提取土壤相同，可用其他土壤制备（McDowell等，2006）。"},
+    {"type": "source-fidelity-note", "scope": "48.3.9菌剂CaCl₂浓度", "text": "中译本印作‘5 mmol氯化钙溶液’，缺失体积分母。同类DOM菌剂制备法使用5 mM（=5 mmol·L⁻¹）CaCl₂；可执行浓度已按此校正。但原书未给出土壤质量和CaCl₂体积，这两项不得臆造，复现时必须依实验室SOP补充并记录。"}
+  ],
+  "formulas": [
+    {"id": "48.3.9-bdoc", "display": "BDOC = DOC₀,corr − DOC₇d,corr", "unit": "mg C·L⁻¹", "meaning": "经菌剂空白、营养液空白及稀释校正后的7 d可生物降解DOC"},
+    {"id": "48.3.9-bdoc-percent", "display": "BDOC (%) = (DOC₀,corr − DOC₇d,corr)/DOC₀,corr × 100%", "meaning": "DOM中7 d生物可降解碳比例"},
+    {"id": "48.3.9-glucose-qc", "display": "glucose-C loss at day 7 > 50%", "meaning": "微生物菌剂功能质控通过条件"}
+  ],
+  "tables": [],
+  "contentSha256": "ae3f3e771860388e2809e6884eef3a9312986d968b332d299c0d6170569be7fe"
+}

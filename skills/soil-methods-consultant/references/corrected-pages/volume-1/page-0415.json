@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 415,
+  "sourceImageSha256": "902edbb024e72deb58034ca60c8bb43afcf1ecfb1da50704569d20c28f7f06cf",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版第40章开篇至40.2承下句"},
+    "precisionPass": {"status": "verified", "method": "核验作者机构、章节层级、litterbag/bait-lamina术语、年份后缀及全部作者拼写"},
+    "secondVisualPass": {"status": "verified", "method": "由40.2末句反向复核至章题，纠正Byrne、Andrén、诱饵层片和秸秆还田语义"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第40章", "title": "土壤生物活性的评估"},
+    {"type": "author", "text": "R.P. Beyaert；Agriculture and Agri-Food Canada，London，Ontario，Canada"},
+    {"type": "author", "text": "C.A. Fox；Agriculture and Agri-Food Canada，Harrow，Ontario，Canada"},
+    {"type": "section-heading", "level": 2, "number": "40.1", "title": "引言"},
+    {"type": "paragraph", "text": "已有多种方法可表征土壤生物多样性，定量其数量和生物量，并鉴定某一时刻的生物群体（Phillipson，1971）。土壤生物群落的多样性、群落丰度和生物量从不是静态的。土地管理和土地利用可对土壤生物产生正面或负面影响，从而改变其在土壤中的活性程度及对土壤过程的动态贡献（Curry等，1998；Fox等，2003）。"},
+    {"type": "paragraph", "text": "随着人们认识到土壤生物积极参与作物残体分解以及有机质形成和周转，对定量、鉴定土壤生物量并理解其功能动力学的需求日益突出。有机质随时间分解或降解的速率，可通过测定整合土壤中众多物理、化学和生物活动后的有机底物变化，来表征土壤总体生物活性。"},
+    {"type": "paragraph", "text": "本章介绍两种土壤生物活性测定方法。近期综述以生态相关性、易用性和标准化为标准，认为二者均是有用工具（Knacker等，2003）：第一种为分解网袋法（litterbag），以有机底物随时间的质量损失估计分解率；第二种为诱饵层片法（bait-lamina），在田间条件下以指定时期内土壤生物的取食活性估计生物活性。"},
+    {"type": "section-heading", "level": 2, "number": "40.2", "title": "分解网袋法评估生物活性"},
+    {"type": "paragraph", "text": "分解网袋法最初由Bocock和Gilbert（1957）提出，是直接测定生物活动所致植物残体分解的常用方法。它已用于评价多种环境因素：温度（Christensen，1985a；Moore，1986；Henriksen和Breland，1999）、水分（Moore，1986；Andrén等，1992）、季节波动（Quested等，2005）、参与分解的分解者种类（Vreeken-Buijs和Brussaard，1996；Curry和Byrne，1997）、残体质量（Christensen，1986；Robinson等，1994）、土壤类型（Christensen，1985b），以及耕作（Burgess等，2002、2003）、残体还田与移除（Curtin和Fraser，2003）、残体还田时间（Beare等，2002）和杂草管理（Wardle等，1993、1994；Yadvinder-Singh等，2004）等措施对有机物分解的影响。"},
+    {"type": "paragraph", "text": "该技术依据已知量有机材料随时间的质量损失评价土壤生物活性。把有机材料密封在不可降解的网袋中，置于土表或埋入土壤不同时间；回收后测定各时间的残体剩余量或质量损失，作为已发生分解量的指标。"},
+    {"type": "paragraph", "text": "该法以简单、低成本方式估计分解过程中的生物活性。优点包括：质量损失测定只需常见简单仪器；网袋既约束残体又允许土壤生物接触；残体易回收；网孔允许雨水、阳光和风进入，使袋内材料暴露于环境。其局限和污染问题续见第416页。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "295516330d9d59b57e2433a50286bbe97f15517fce7241be29c904c55467139c"
+}

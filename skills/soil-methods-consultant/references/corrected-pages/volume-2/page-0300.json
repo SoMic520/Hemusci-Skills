@@ -1,0 +1,50 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 300,
+  "sourceImageSha256": "cc5c421d334fbd6ecdf0a6ab363cb7381e8035eda7426fb04099abaf670650db",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条转录并核对本页21条参考文献及跨页首尾连接"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对作者顺序、年份、题名、期刊/书名、卷号和页码，消除原版断词"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "逐行二次目视复核引文标点和页码；印刷页码809"
+    }
+  },
+  "blocks": [
+    {
+      "type": "references",
+      "entries": [
+        "Ankeny, M.D. 1992. Methods and theory of unconfined infiltration measurements. In: G.C. Topp, W.D. Reynolds, and R.E. Green, eds., Advances in Measurement of Soil Physical Properties: Bringing Theory into Practice, SSSA Special Publication No. 30, Soil Science Society of America, Madison, WI, 123–141.",
+        "Ankeny, M.D., Ahmed, M., Kaspar, T.C., and Horton, R. 1991. Simple field method for determining unsaturated hydraulic conductivity. Soil Sci. Soc. Am. J. 55: 467–470.",
+        "Bagarello, V., Iovino, M., and Tusa, G. 2000. Factors affecting measurement of the near saturated soil hydraulic conductivity. Soil Sci. Soc. Am. J. 64: 1203–1210.",
+        "Bagarello, V., Iovino, M., and Tusa, G. 2001. Effect of contact material on tension infiltrometer measurements. Trans. Am. Soc. Agric. Eng. 44: 911–916.",
+        "Bodhinayake, W., Si, B.C., and Noborio, K. 2004. Determination of hydraulic properties in sloping landscapes from tension and double-ring infiltrometers. Vadose Zone J. 3: 964–970.",
+        "Clothier, B.E. 2000. Infiltration. In: K.A. Smith and C.E. Mullins, eds., Soil and Environmental Analysis: Physical Methods. Marcel Dekker, Inc., New York, 239–280.",
+        "Clothier, B.E., Green, S.R., and Katou, H. 1995. Multidimensional infiltration: points, furrows, basins, wells, and disks. Soil Sci. Soc. Am. J. 59: 286–292.",
+        "Clothier, B.E., Kirkham, M.B., and McLean, J.E. 1992. In situ measurement of the effective transport volume for solute moving through soil. Soil Sci. Soc. Am. J. 56: 733–736.",
+        "Clothier, B.E., Magesan, G.N., Heng, L., and Vogeler, I. 1996. In situ measurement of the solute adsorption isotherm using a disc permeameter. Water Resour. Res. 32: 771–778.",
+        "Clothier, B.E. and Scotter, D.R. 2002. Unsaturated water transmission parameters obtained from infiltration. In: J.H. Dane and G.C. Topp, eds., Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 879–898.",
+        "Clothier, B.E., Scotter, D.R., and Harper, E. 1985. Three-dimensional infiltration and trickle irrigation. Trans. Am. Soc. Agric. Eng. 28: 497–501.",
+        "Clothier, B.E., Vogeler, I., and Magesan, G.N. 2000. The breakdown of water repellency and solute transport through a hydrophobic soil. J. Hydrol. 231: 255–264.",
+        "Elrick, D.E. and Reynolds, W.D. 1992. Infiltration from constant-head well permeameters and infiltrometers. In: G.C. Topp, W.D. Reynolds, and R.E. Green, eds., Advances in Measurement of Soil Physical Properties: Bringing Theory into Practice, SSSA Special Publication No. 30, Soil Science Society of America, Inc., Madison, WI, 1–24.",
+        "Gardner, W.R. 1958. Some steady-state solutions of the unsaturated moisture flow equation with application to evaporation from a water table. Soil Sci. 85: 228–232.",
+        "Hallett, P.D., Nunan, N., Douglas, J.T., and Young, I.M. 2004. Millimeter-scale spatial variability in soil water sorptivity. Soil Sci. Soc. Am. J. 68: 352–358.",
+        "Haverkamp, R., Ross, P.J., Smettem, K.R.P., and Parlange, J.-Y. 1994. Three-dimensional analysis of infiltration from the disc infiltrometer: 2. Physically based infiltration equation. Water Resour. Res. 30: 2931–2935.",
+        "Hussen, A.A. and Warrick, A.W. 1993. Alternative analyses of hydraulic data from disc tension infiltrometers. Water Resour. Res. 29: 4103–4108.",
+        "Jarvis, N.J. and Messing, I. 1995. Near-saturated hydraulic conductivity in soils of contrasting texture measured by tension infiltrometers. Soil Sci. Soc. Am. J. 59: 27–34.",
+        "Jaynes, D.B., Logsdon, S.D., and Horton, R. 1995. Field method for measuring mobile/immobile water content and solute transfer rate coefficient. Soil Sci. Soc. Am. J. 59: 352–356.",
+        "Messing, I. and Jarvis, N.J. 1993. Temporal variation in the hydraulic conductivity of a tilled clay soil, as measured by tension [续见下一页]"
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2a7d7b537d952e81ac5cf2033f87cfc9aa65b3da2f3d0fe5fa34052d009f7505"
+}

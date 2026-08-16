@@ -1,0 +1,43 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 311,
+  "sourceImageSha256": "ccf169f6475c32752ea6c47ca6d8db4e5f1b9b47eab8410eb41c1b5a1eb77254",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复第31章题名、作者机构、31.1引言及表31.1首段"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Prévost重音、α/β希腊字母、Alnus/Parasponia-type、属名种名、表格脚注上标a和所有分类数量"},
+    "secondVisualPass": {"status": "verified", "method": "从表31.1末行反向复核至章题，确认原书清晰印作Arachis hypogae、Mesrohizobium sp.及Burkholderia Ralstonia之间无连接词；扫描页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "31", "title": "根瘤菌与共生固氮作用"},
+    {"type": "author", "text": "D. Prévost"},
+    {"type": "affiliation", "text": "Agriculture and Agri-Food Canada；Quebec, Quebec, Canada"},
+    {"type": "author", "text": "H. Antoun"},
+    {"type": "affiliation", "text": "Laval University；Quebec, Quebec, Canada"},
+    {"type": "section-heading", "level": 2, "number": "31.1", "title": "引言"},
+    {"type": "paragraph", "text": "植物的共生固氮作用通常发生在豆科植物和非豆科植物的根瘤中。根瘤菌是共生固氮细菌中被研究最多的一种，它可以促使豆科植物形成根瘤，这对耕作土壤的氮肥管理具有重要的环境意义。非豆科植物与根瘤细菌大部分属于Alnus-type共生关系，内部有很多放线菌Frankia形成的小共生体。蓝藻细菌中的Nostoc或Anabaena可以使苏铁目植物形成根瘤，此时根瘤细菌与植物形成Parasponia-type共生关系。"},
+    {"type": "source-fidelity-note", "scope": "31.1首段", "text": "原书把苏铁目植物—蓝藻关系与“Parasponia-type”连续表述，且写作“根瘤细菌”。该段存在概念混接风险；正文按原文保留，检索回答不得据此断言Nostoc或Anabaena形成Parasponia型根瘤菌共生。"},
+    {"type": "paragraph", "text": "本章内容主要阐述根瘤菌—豆科植物共生关系的最新研究方法。全球豆科植物的增产归功于多学科领域的科研队伍改良的根瘤菌接种与种植技术。微生物学家、土壤学家、植物生理学家、植物培育人员、农学专家都在此突破中做出了重要贡献。不断发展的分子技术增进了我们对根瘤菌生态学的了解，关于根瘤菌微小共生体的分类方法发生了巨大改变。根据基因型和表现型，对来自不同区域的大量豆科植物所分离的根瘤菌株进行研究，对已知的根瘤细菌进行了重新分类，同时发现了很多的新物种。"},
+    {"type": "paragraph", "text": "共生的根瘤菌属于变形菌门下的α亚纲（α-根瘤菌）。然而，变形菌门β亚纲中的Burkholderia Ralstonia可以使一些热带豆科植物形成根瘤。这些菌属由固氮细菌演变而来，这一现象在自然界中普遍存在（Chen等，2003）。目前根瘤菌的分类法（Rhizobia_Taxonomy，2006）将根瘤菌分为根瘤菌属（14种）、中慢生根瘤菌属（10种）、固氮根瘤菌属（1种）、中华根瘤菌属（也称为剑菌属，11种）、慢生根瘤菌属（5种），以及其他6个菌属（产甲烷细菌属、伯克氏菌属、罗尔斯通菌属、德沃斯氏菌属、芽生杆菌属、苍白杆菌属）。"},
+    {"type": "source-fidelity-note", "scope": "31.1根瘤菌分类段", "text": "原书在Burkholderia与Ralstonia之间未印“和”或标点，正文按原字符顺序保留。该2006年分类清单属于历史资料，运行时不得当作现行分类名录使用。"},
+    {"type": "paragraph", "text": "在本章节中出现的根瘤菌指代的是能在豆科植物根系和茎形成根瘤的细菌。表31.1列举了与原生和人工种植的豆科植物相关的根瘤菌。最新的对热带地区豆科植物分离出来的根瘤菌的分类没有包含在内。"},
+    {"type": "table-heading", "number": "31.1", "title": "加拿大原生和种植的豆科植物及促进形成根瘤的根瘤菌种类", "continuation": "page-0312"},
+    {"type": "source-fidelity-note", "scope": "表31.1首段", "text": "原书清晰印作“Arachis hypogae”和“Mesrohizobium sp.”；规范拼写分别为Arachis hypogaea和Mesorhizobium sp.。表格源文保留原印，方法检索与实体检索应同时索引规范拼写。"}
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "number": "31.1",
+      "title": "加拿大原生和种植的豆科植物及促进形成根瘤的根瘤菌种类",
+      "columns": ["豆科植物种类｜拉丁名", "豆科植物种类｜常用名", "根瘤菌种类"],
+      "rows": [
+        ["Arachis hypogae", "花生", "Bradyrhizobium sp.ᵃ"],
+        ["Astragalus cicer", "鹰嘴黄芪", "Mesrohizobium sp.ᵃ"],
+        ["Astragalus sinicus", "", "Mesorhizobium huakuii"],
+        ["Astragalus adsurgens", "", "M. septentrionale, M. temperatum"]
+      ],
+      "continuedOnPage": 312
+    }
+  ],
+  "contentSha256": "5ef9c58a18f50eced44119fbc776fff968498b2d4d383226ef8bd3ceb9d4f541"
+}

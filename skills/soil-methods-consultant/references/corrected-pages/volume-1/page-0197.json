@@ -1,0 +1,22 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 197,
+  "sourceImageSha256": "b5f83612520f04b05ba5924235edc56bb39426a42b727766fc5470772932d3b3",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率参考文献末页，并与Apple Vision、PaddleOCR交叉比对，人工恢复3条英文文献和译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验St. Arnaud/Herbillon/Mermut/Goh、magnesiumbearing原印连写、书刊名、卷页、机构名和译者姓名"},
+    "secondVisualPass": {"status": "verified", "method": "从页码166反向复核至首条文献，确认邱炜红、李小涵译和王朝辉校及全部标点"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-entry", "text": "St. Arnaud, R.J. and Herbillon, A.J. 1973. Occurrence and genesis of secondary magnesiumbearing calcites in soils. Geoderma 9: 279-298."},
+    {"type": "reference-entry", "text": "St. Arnaud, R.J., Mermut, A.R., and Goh, Tee Boon. 1993. Identification and measurement of carbonate minerals. In: M.R. Carter, ed., Soil Sampling and Methods of Analysis. Lewis Publishers, Boca Raton, FL, 737-754."},
+    {"type": "reference-entry", "text": "USDA Soil Conservation Service. 1967. Calcium carbonate. In: Soil survey investigations report No. 1. Soil Survey Laboratory Methods and Procedures for Collecting Soil Samples. U.S. Government Printing Office, Washington DC, 28-30."},
+    {"type": "translator-credit", "text": "（邱炜红　李小涵　译，王朝辉　校）"},
+    {"type": "printed-page-number", "text": "166"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "3690b961ee4a4ff2239aec1149db8a70ede57795fbaa56f0a774d77c897331f6"
+}

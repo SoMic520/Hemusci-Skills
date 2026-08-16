@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 67,
+  "sourceImageSha256": "d36c6a028593d894fb4464c681e64e59238a8bc45eec6d87be6a5e1fd4b96de4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成动态/静态贯入仪及影响因素、尖端设计、穿透速率"},
+    "precisionPass": {"status": "verified", "method": "核验探头直径3～5倍、ASAE S313.3 Feb99、30°、30 mm s⁻¹、2.78×10⁻⁴ mm s⁻¹及Farrell/Greacen年份拼写"},
+    "secondVisualPass": {"status": "verified", "method": "由页末速率反向复核至跨页首句，检查圆锥角不等号、速度负指数、引文年份及三层小节；印刷页码576"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "贯入仪可在不同剖面深度原位测量而少扰动土体。动态贯入仪用锤击或落锤，多用于路面/路基，自动采集少；静态贯入仪以缓慢稳定速度插入，避免动态效应。本章只述静态式。"},
+    {"type": "subheading", "title": "1. 影响穿透阻力的土壤物理因素"},
+    {"type": "paragraph", "text": "贯入变形受尖端形状和深度影响：表层以剪切为主，随深度转为剪切+压缩，临界深度约探头直径的3～5倍（Barley等，1965；Waldron和Constantin，1970）；更深处常用圆孔扩张理论解释（Farrell和Greacen，1966；Vesic，1972）。Farrell和Greacen（1966）假设内部为塑性变形区、外围为弹性压缩区。读数是剪切、压缩及圆锥/杆摩擦力之和，只能视为综合强度指标。"},
+    {"type": "paragraph", "text": "基质势、含水量、质地、容重、结构和黏土矿物及其交互均影响CI。除只寻找某个临界强度外，比较地点或处理时必须同步测量或控制这些条件。"},
+    {"type": "source-fidelity-note", "text": "原书同段先引Farrell和Graecen（1966），后误作Farrel和Graecen（1996）；正确作者和年份为Farrell和Greacen（1966）。"},
+    {"type": "subheading", "title": "2. 尖端设计"},
+    {"type": "paragraph", "text": "ASAE S313.3 Feb99（ASAE，1999）规定锥形贯入仪的目的、范围、定义、仪器、程序、解释和报告，采用30°圆形不锈钢锥并尽量使轴摩擦小。锥角决定土体变形阻力与土—金属摩擦的相对贡献：给定直径时30°为转折点；<30°范围内角度增大时锥头阻力减小，>30°范围内角度增大时阻力增加。"},
+    {"type": "paragraph", "text": "团聚或裂隙土中，细锥随机穿过团聚体内孔隙/裂缝会使变异增大（Grant，1995）；大锥可减小这种影响，但会整合更大尺度结构。"},
+    {"type": "subheading", "title": "3. 穿透速率"},
+    {"type": "paragraph", "text": "穿透速率与锥头阻力可能交互，尤其细质土，故尚未完全标准化（Freitag，1968）。贯入引起的局部变形可能改变水势，若未及时消散会形成速率相关误差。应采用缓慢稳定速度并记录速率；ASAE（1999）建议≤30 mm s⁻¹。模拟根伸长的研究曾用2.78×10⁻⁴ mm s⁻¹（Cockcroft等，1969；Waldron和Constantin，1970；Perfect等，1990），但常规采集耗时过长。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "061c4909267c35f1995b2f80e77509f9b1c7a2fb9695f1124e6a8cfb8f666f05"
+}

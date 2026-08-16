@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 244,
+  "sourceImageSha256": "dc68329c04d29572e0f410212f28aa29174c54a56239556efa6e8bfb57de0dcd",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第213页，并与Apple Vision、PaddleOCR交叉比对，人工恢复24.5.3注释（1）续文、（2）～（3）及本页14条英文参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Mo、Sb、20 μg、AsO₄、AsO₃、6 mg·kg⁻¹、NaHSO₃、0.5 mol/L、5.2 g、5/100 mL、30/20 min、95 ℃、4 h及参考文献卷页年份"},
+    "secondVisualPass": {"status": "verified", "method": "从Dick和Tabatabai（1977）反向复核至注释（1）续文，确认三条注释的承接、砷干扰处理顺序、14条作者题名期刊卷页及印刷页码213"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第24章｜总磷和有机磷｜"},
+    {"type": "note-continuation", "number": "（1）", "continuesFromPage": 243, "text": "Mo、Sb和抗坏血酸相互之间的浓度到特定的范围，或者根据后者调节待测中的磷浓度（Harwood等，1969；Going和Eisenreich，1974；Rodriguez等，1994；Drummond和Maher，1995）。方法中任何的改变都应该用已知磷含量的样品和标准物质验证。"},
+    {"type": "note-item", "number": "（2）", "text": "Watanabe和Olsen（1965）最初提出的用碳酸氢钠提取土壤中磷的方法用的是25 mL容量瓶，因此仅需要4 mL显色液，而且样品中的最高磷含量为20 μg。"},
+    {"type": "note-item", "number": "（3）", "text": "砷酸盐（AsO₄）与钼锑抗溶液反应也呈现蓝色。Olsen和Sommers（1982）报道大多数土壤中砷的平均浓度为6 mg·kg⁻¹，与土壤中磷的浓度相比这个浓度可以忽略不计。但如果土壤被砷污染，就会导致土壤样品中磷测定结果的大幅度的高估。对于砷含量高的土壤样品，Olsen和Sommers（1982）建议向每份样品溶液中加入5 mL亚硫酸氢钠溶液（将5.2 g NaHSO₃溶于100 mL 0.5 mol/L硫酸中），从而将砷酸盐（AsO₄）还原为亚砷酸盐（AsO₃），在调节溶液pH值及显色前，将其在水浴中加热30 min（或95 ℃ 20 min）或静置4 h。"},
+    {"type": "heading", "level": 1, "title": "参考文献"},
+    {"type": "reference", "text": "Agbenin, J.O., Iwuafor, E.N.O., and Ayuba, B. 1999. A critical assessment of methods for determining organic phosphorus in savanna soils. Biol. Fert. Soils 28: 177-181."},
+    {"type": "reference", "text": "Agbenin, J.O. and Tiessen, H. 1994. Phosphorus transformations in a toposequence of Lithosols and Cambisols from semi-arid northeastern Brazil. Geoderma 62: 345-362."},
+    {"type": "reference", "text": "Anderson, G. 1960. Factors affecting the estimation of phosphate esters in soil. J. Sci. Food Agric. 11: 497-503."},
+    {"type": "reference", "text": "Bowman, R.A. 1988. A rapid method to determine total phosphorus in soils. Soil Sci. Soc. Am. J. 52: 1301-1304."},
+    {"type": "reference", "text": "Bowman, R.A. 1989. A sequential extraction procedure with concentrated sulfuric acid and dilute base for soil organic phosphorus. Soil Sci. Soc. Am. J. 53: 362-366."},
+    {"type": "reference", "text": "Bowman, R.A. and Moir, J.O. 1993. Basic EDTA as an extractant for soil organic phosphorus. Soil Sci. Soc. Am. J. 57: 1516-1518."},
+    {"type": "reference", "text": "Cade-Menun, B.J. 2005. Using phosphorus-31 nuclear magnetic resonance spectroscopy to characterize phosphorus in environmental samples. In: B.L. Turner, E. Frossard, and D. Baldwin, eds. Organic Phosphorus in the Environment. CABI Publishing. Wallingford, UK, 21-44."},
+    {"type": "reference", "text": "Cade-Menun, B.J., Liu, C.W., Nunlist, R., and McColl, J.G. 2002. Soil and litter ³¹P-NMR: Extractants, metals and P relaxation times. J. Environ. Qual. 31: 457-465."},
+    {"type": "reference", "text": "Cade-Menun, B.J. and Preston, C.M. 1996. A comparison of soil extraction procedures for ³¹P NMR spectroscopy. Soil Sci. 161: 770-785."},
+    {"type": "reference", "text": "Cihacek, L.J. and Lizotte, D.A. 1990. Evaluation of an aluminum digestion block for routine total soil phosphorus determination by alkaline hypobromite oxidation. Commun. Soil Sci. Plant Anal. 21: 2361-2370."},
+    {"type": "reference", "text": "Condron, L.M., Moir, J.O., Tiessen, H., and Stewart, J.W.B. 1990. Critical evaluation of methods for determining total organic phosphorus in tropical soils. Soil Sci. Soc. Am. J. 54: 1261-1266."},
+    {"type": "reference", "text": "Condron, L.M., Turner, B.L., and Cade-Menun, B.J. 2005. Chemistry and dynamics of soil organic phosphorus. In: J.T. Sims and A.N. Sharpley, eds. Phosphorus, Agriculture and the Environment. Soil Science Society of America. Madison, WI, USA, 87-121."},
+    {"type": "reference", "text": "Darke, A.K. and Walbridge, M.R. 2000. Al and Fe biogeochemistry in a floodplain forest: Implications for P retention. Biogeochemistry 51: 1-32."},
+    {"type": "reference", "text": "Dick, W.A. and Tabatabai, M.A. 1977. An alkaline oxidation method for determination of total phosphorus in soils. Soil Sci. Soc. Am. J. 41: 511-514."},
+    {"type": "printed-page-number", "text": "213"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9be9de6e103d26e3634dce7e5249543c0efb06471ca4b1b0ab6217bd17765e8f"
+}

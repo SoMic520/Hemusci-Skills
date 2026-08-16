@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 46,
+  "sourceImageSha256": "7135f9369f84a3f3018242a76b03b49b8efae2c0caacdef7b15fc5bd5cdcf610",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成57.4引言余段、57.4.1～57.4.3及式（57.12）～（57.13）"},
+    "precisionPass": {"status": "verified", "method": "核验S_t/D_b/D_p/θ_e/F_a、100 μm/2 mm/150 μm/50 μm、33/66/6 kPa、质量与体积量纲"},
+    "secondVisualPass": {"status": "verified", "method": "由式（57.13）反向复核至跨页首句，检查上下标、百分数口径和水密度修正；印刷页码555"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "孔隙分布的推导受毛管理论基本假设限制，即把土壤孔隙视为许多半径不同的平滑圆管（Ball，1981a）；不同孔径的分类术语也未标准化（Danielson和Sutherland，1986），所以土壤孔径也称当量孔径（equivalent pore diameter，EPD）。"},
+    {"type": "paragraph", "text": "计算机和图像分析软件的发展，使高分辨率X射线断层扫描等技术可用于分析土壤孔隙（Beaudet-Vidal等，1998；Gantzer和Anderson，2002）。微形态法可描述真实孔隙形态，尤其适合研究直径>100 μm孔隙的形状和连通性；形态技术主要描述孔隙和土壤裂隙（直径或宽度>2 mm），如孔洞及结构单元间孔隙。"},
+    {"type": "paragraph", "text": "本节介绍总孔隙度、充气孔隙度、储水孔隙度的常用简便测法，以及由土柱脱湿试验求孔隙分布的方法；后者可测定<150 μm的当量孔径（Bouma，1991）。还讨论由气体扩散性或渗透性表征孔隙连通性的指标。"},
+    {"type": "heading", "number": "57.4.1", "title": "总孔隙度", "level": 3},
+    {"type": "paragraph", "text": "土壤总孔隙度S_t可由土壤容重D_b和颗粒密度D_p计算。容重和颗粒密度的装置与方法见57.2节和57.3节。S_t是孔隙体积占土壤总体积的体积分数；可用0～1的小数或体积百分数表示。"},
+    {"type": "source-fidelity-note", "text": "原书称总孔隙度可用‘体积分数或者质量百分比’表示并称本章采用质量百分比，这是概念错误。孔隙度是体积比；写成百分数时仍是体积百分数，不是质量百分比。"},
+    {"type": "heading", "number": "57.4.2", "title": "大孔隙度或有效孔隙度", "level": 3},
+    {"type": "paragraph", "text": "土壤饱和时，大孔隙是水分流动的主要路径。有效孔隙度θ_e可衡量土壤导水能力，近似为总孔隙度减去33 kPa吸力（黏质土壤为66 kPa）下的体积含水量或田间持水量（Yu等，1993）。Deeks等（2004）把公称直径>50 μm定义为大孔隙，把<50 μm定义为微孔隙；50 μm约对应6 kPa吸力。"},
+    {"type": "paragraph", "text": "饱和导水率K_s的测定费时、费力且费用较高，可用有效孔隙度θ_e估算（Carter，1988）。θ_e可反映土壤对管理措施和耕作系统的响应。通常θ_e超过土壤总体积的10%才有利于理想通气；改善孔隙连通性也可改善有效孔隙的功能。"},
+    {"type": "source-fidelity-note", "text": "原书作者名误作Deek，已据本章参考文献改为Deeks；原文在K_s/θ_e处有符号OCR及排印混乱，已按上下文规范。"},
+    {"type": "heading", "number": "57.4.3", "title": "充气孔隙度", "level": 3},
+    {"type": "paragraph", "text": "充气孔隙度表示土壤气相体积占土壤总体积的比例，报告时须同时给出基质势。按Deeks等（2004），假定饱和时全部孔隙充水，则基质势为−6 kPa时的充气孔隙空间等于大孔隙体积。根据张力台结果，任意基质势下的充气孔隙度F_a可由饱和土柱质量W_s、该基质势下土柱质量W_p、土柱体积V_t和水密度ρ_w求得。还可由式（57.12）求总孔隙度，再按式（57.14）计算。"},
+    {"type": "source-fidelity-note", "text": "原式（57.13）直接写(W_s−W_p)/V_t×100，漏写水密度。若质量用g、体积用cm³且取ρ_w≈1 g cm⁻³，数值近似不变；通用量纲式必须除以ρ_w。"}
+  ],
+  "formulas": [
+    {"label": "(57.12)", "plain": "S_t = 1 − D_b/D_p；S_t(%) = (1 − D_b/D_p)×100", "latex": "S_t=1-\\frac{D_b}{D_p};\\qquad S_t(\\%)=\\left(1-\\frac{D_b}{D_p}\\right)\\times100", "variables": [{"symbol": "S_t", "meaning": "总孔隙度；前式为体积分数，后式为体积百分数"}, {"symbol": "D_b", "meaning": "土壤干容重"}, {"symbol": "D_p", "meaning": "土壤颗粒密度；须与D_b同单位"}]},
+    {"label": "(57.13，量纲校正式)", "plain": "F_a(%) = (W_s − W_p)/(ρ_w V_t) × 100", "latex": "F_a(\\%)=\\frac{W_s-W_p}{\\rho_wV_t}\\times100", "variables": [{"symbol": "W_s", "meaning": "饱和土柱质量"}, {"symbol": "W_p", "meaning": "指定基质势下土柱质量"}, {"symbol": "ρ_w", "meaning": "水密度"}, {"symbol": "V_t", "meaning": "土柱总体积"}]}
+  ],
+  "tables": [],
+  "contentSha256": "8ea86fe5ffb5fc660f78b5978aedf1adc9c5cc6459de17a3f6c84f69b2b07827"
+}

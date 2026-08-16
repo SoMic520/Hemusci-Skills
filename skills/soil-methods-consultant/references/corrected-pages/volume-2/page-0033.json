@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 33,
+  "sourceImageSha256": "a2443697adbcfcc04f6016765679f3c0b4c3d97f72c065dae7ed56bbf482c17e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步对照原分辨率图和两套OCR，完成式（56.2）、线性收缩材料/步骤/注释及跨页续句"},
+    "precisionPass": {"status": "verified", "method": "核验LS/L/L_d、×100、2 mm、2.5 cm、25 cm、105/60 °C、200 g、24 h/一周、<425 μm及图56.2各子图"},
+    "secondVisualPass": {"status": "verified", "method": "由页末‘变化’反向复核至跨页句，纠正OCR把L−L_d识别为4、把μm识别为pum；印刷页码542"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "土样长度减小量与模具总长度的比值表示线性收缩（LS），见式（56.2）。"},
+    {"type": "procedure-subheading", "number": "1", "title": "材料"},
+    {"type": "materials-list", "items": ["孔径2 mm土筛。", "蒸馏水。", "适当长度的调土刀。", "大而厚的平玻璃板。", "Atterberg液限信息或液限测定仪器。", "105 °C烘箱。", "半圆柱模具：内径2.5 cm、长25 cm（可稍短）、长方形底；黄铜或不锈钢等刚性耐锈耐热材料。若用从中间剖开的PVC管，烘箱温度不得超过60 °C。", "硅润滑脂。", "毫米刻度尺。"]},
+    {"type": "procedure-subheading", "number": "2", "title": "步骤"},
+    {"type": "procedure-steps", "items": ["(1) 已知Atterberg液限含水量时，计算所需风干土样和加水量。", "(2) 取200 g风干土，逐渐加蒸馏水至Atterberg液限；液限可按第58章标准步骤测定。", "(3) 用调土刀调匀至液限，装入密闭容器平衡过夜；次日复核，未达液限时再加蒸馏水调节。", "(4) 模具内涂硅润滑脂［图56.2(a)］。", "(5) 装填土样，避免气隙；表面抹平并与模具边缘齐平。用湿布擦净边缘，防止收缩时黏附［图56.2(b)］。", "(6) 室温静置数日，缓慢风干［图56.2(c)、(d)］。", "(7) 105 °C烘24 h；PVC模具用60 °C烘一周。取出冷却。", "(8) 测干土长度L_d；若开裂，将各土块小心拼拢并测组合总长度［图56.2(e)］。"]},
+    {"type": "procedure-subheading", "number": "3", "title": "注释"},
+    {"type": "note", "text": "高度膨胀性土壤易开裂或破碎。可置密封容器并间歇暴露于空气，延长数周缓慢失水，待大部分水蒸发后再烘干；快速测定时用细线把裂块重新聚拢后测组合长度。"},
+    {"type": "note", "text": "线性收缩法存在多种调整（Mills等，1980；McKenzie等，1994），如采用<425 μm团聚体，或在指定基质势下平衡以设置起始最高含水量。使用调整法必须报告细节。LS与其他收缩测定结果通常一致，也可与非分散膨胀性土壤的变化……"}
+  ],
+  "formulas": [
+    {"label": "(56.2)", "plain": "LS = [(L − L_d)/L] × 100", "latex": "LS=\\left(\\frac{L-L_d}{L}\\right)\\times100", "variables": [{"symbol": "L", "meaning": "模具总长度/湿土样初始长度"}, {"symbol": "L_d", "meaning": "风干或规定干燥后的土样组合长度"}, {"symbol": "LS", "meaning": "线性收缩百分数"}]}
+  ],
+  "tables": [],
+  "contentSha256": "0174c430aa4758a64e2e95fcb8b05295f739405318604d36d8f84dbade3ce20d"
+}

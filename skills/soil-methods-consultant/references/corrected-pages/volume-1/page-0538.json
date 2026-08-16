@@ -1,0 +1,110 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 538,
+  "sourceImageSha256": "3ceae845ae6b1c0b401092a5b3eee1d7879e280d825154ea666fe65143072884",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条对照原分辨率页面和两套OCR，接续Dria并完成Gélinas至Smernik（2000b）共19条参考文献"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验¹H/¹³C/¹⁵N上标、CP/MAS、10% HF、卷页、作者重音和连字符，并用原始论文恢复Ghabbour及Smernik作者缩写"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由Smernik（2000b）反向复核至Dria续条，检查所有题名、期刊、卷页及印刷页码507"
+    }
+  },
+  "blocks": [
+    {
+      "type": "reference-continuation",
+      "text": "[承第537页] magnetic field strengths. Journal of Environmental Quality 31: 393–401."
+    },
+    {
+      "type": "reference",
+      "text": "Gélinas, Y., Baldock, J.A., and Hedges, J.I. 2001. Demineralization of marine and freshwater sediments for CP/MAS ¹³C NMR analysis. Organic Geochemistry 32: 677–693."
+    },
+    {
+      "type": "reference",
+      "text": "Gonçalves, C.N., Dalmolin, R.S.D., Dick, D.P., Knicker, H., Klamt, E., and Kögel-Knabner, I. 2003. The effect of 10% HF treatment on the resolution of CPMAS ¹³C NMR spectra and on the quality of organic matter in Ferralsols. Geoderma 116: 373–392."
+    },
+    {
+      "type": "reference",
+      "text": "Hatcher, P.G. 1987. Chemical structural studies of natural lignin by dipolar dephasing solid-state ¹³C nuclear magnetic resonance. Organic Geochemistry 11: 31–39."
+    },
+    {
+      "type": "reference",
+      "text": "Hu, W.-G., Mao, J., Xing, B., and Schmidt-Rohr, K. 2000. Poly(methylene) crystallites in humic substances detected by nuclear magnetic resonance. Environmental Science & Technology 34: 530–534."
+    },
+    {
+      "type": "reference",
+      "text": "Kögel-Knabner, I. 2000. Analytical approaches for characterizing soil organic matter. Organic Geochemistry 31: 609–625."
+    },
+    {
+      "type": "reference",
+      "text": "Malcolm, R.L. 1989. Applications of solid-state ¹³C NMR spectroscopy to geochemical studies of humic substances. In: M.H.B. Hayes, P. MacCarthy, R.L. Malcolm, and R.S. Swift, eds. Humic Substances II. Wiley, New York, pp. 339–372."
+    },
+    {
+      "type": "reference",
+      "text": "Mao, J.-D., Hu, W.-G., Schmidt-Rohr, K., Davies, G., Ghabbour, E.A., and Xing, B. 2000. Quantitative characterization of humic substances by solid-state carbon-13 nuclear magnetic resonance. Soil Science Society of America Journal 64: 873–884."
+    },
+    {
+      "type": "reference",
+      "text": "Mao, J.-D., Xing, B., and Schmidt-Rohr, K. 2001. New structural information on a humic acid from two-dimensional ¹H-¹³C correlation solid-state nuclear magnetic resonance. Environmental Science & Technology 35: 1928–1934."
+    },
+    {
+      "type": "reference",
+      "text": "Preston, C.M. 1996. Applications of NMR to soil organic matter analysis: history and prospects. Soil Science 161: 144–166."
+    },
+    {
+      "type": "reference",
+      "text": "Preston, C.M. 2001. Carbon-13 solid-state NMR of soil organic matter—using the technique effectively. Canadian Journal of Soil Science 81: 255–270."
+    },
+    {
+      "type": "reference",
+      "text": "Preston, C.M. and Newman, R.H. 1995. A long-term effect of N fertilization on the ¹³C CPMAS NMR of de-ashed humin in a second-growth Douglas-fir stand of coastal British Columbia. Geoderma 68: 229–241."
+    },
+    {
+      "type": "reference",
+      "text": "Preston, C.M., Schnitzer, M., and Ripmeester, J.A. 1989. A spectroscopic and chemical investigation on the de-ashing of a humin. Soil Science Society of America Journal 53: 1442–1447."
+    },
+    {
+      "type": "reference",
+      "text": "Schilling, M. and Cooper, W.T. 2004. Identification of copper binding sites in soil organic matter through chemical modifications and ¹³C CP-MAS NMR spectroscopy. Environmental Science & Technology 38: 5059–5063."
+    },
+    {
+      "type": "reference",
+      "text": "Schmidt, M.W.I., Knicker, H., Hatcher, P.G., and Kögel-Knabner, I. 1997. Improvement of ¹³C and ¹⁵N CPMAS NMR spectra of bulk soils, particle size fractions and organic material by treatment with 10% hydrofluoric acid. European Journal of Soil Science 48: 319–328."
+    },
+    {
+      "type": "reference",
+      "text": "Simpson, M.J. and Hatcher, P.G. 2004. Determination of black carbon in natural organic matter by chemical oxidation and solid-state ¹³C nuclear magnetic resonance spectroscopy. Organic Geochemistry 35: 923–935."
+    },
+    {
+      "type": "reference",
+      "text": "Skjemstad, J.O., Clarke, P., Taylor, J.P., Oades, J.M., and Newman, R.J. 1994. The removal of magnetic materials from surface soils. A solid-state ¹³C CP/MAS NMR study. Australian Journal of Soil Research 32: 1215–1229."
+    },
+    {
+      "type": "reference",
+      "text": "Smernik, R.J. 2005. Solid-state ¹³C NMR spectroscopic studies of soil organic matter at two magnetic field strengths. Geoderma 125: 249–271."
+    },
+    {
+      "type": "reference",
+      "text": "Smernik, R.J. and Oades, J.M. 2000a. The use of spin counting for determining quantitation in solid state ¹³C NMR spectra of natural organic matter. 1. Model systems and the effects of paramagnetic impurities. Geoderma 96: 101–129."
+    },
+    {
+      "type": "reference",
+      "text": "Smernik, R.J. and Oades, J.M. 2000b. The use of spin counting for determining quantitation in solid state ¹³C NMR spectra of natural organic matter. 2. HF-treated soil fractions. Geoderma 96: 159–171."
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "本页作者名",
+      "text": "原书把Ghabbour误印为Gabhour、把Smernik（2005）误印为R.A.；已按正式论文恢复E.A. Ghabbour与R.J. Smernik。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1f754f0110dc7bfbedc97c2a6c1856d55d3e6130aeb3ba3ce3f6ff11d33e98e8"
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 488,
+  "sourceImageSha256": "22c03333023c3db79a9fcea5206d814c48cff02863eb2a486b9d2ffec62ac41c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页与两套OCR，完成酪类计算与四条注释、己糖的全部材料、步骤和注释"},
+    "precisionPass": {"status": "verified", "method": "核验1 mg·L⁻¹检测精度、Fe²⁺/Mn²⁺/S²⁻干扰、0.2 g蒽酮/100 mL浓H₂SO₄、96%～98% v/v、625 nm及六级标准液"},
+    "secondVisualPass": {"status": "verified", "method": "由己糖注释（4）反向复核至酪类步骤（8），重点检查香草酸字形、价态上下标、回收率试验和第50章交叉引用；印刷页码457"}
+  },
+  "blocks": [
+    {"type": "procedure-step", "number": "（8）", "scope": "48.3.4", "text": "作2-羟基苯甲酸标准曲线，由725 nm吸光度计算酪浓度，报告为mg 2-羟基苯甲酸当量·L⁻¹。"},
+    {"type": "subsection-heading", "level": 4, "title": "3. 注释", "scope": "48.3.4"},
+    {"type": "note", "number": "（1）", "text": "本法可用于各种土壤提取液的酪类测定，包括碱性土壤提取液（Morita，1980）。"},
+    {"type": "note", "number": "（2）", "text": "本法的酪浓度检测可精确至1 mg 2-羟基苯甲酸当量·L⁻¹。"},
+    {"type": "note", "number": "（3）", "text": "Folin–Ciocalteu试剂与不同酪单体和多酪反应时的颜色与吸光值差异很大，因此不能准确测定绝对总酪，只适合样品间的定性/比较研究（Box，1983；Ohno和Paul，1998）。可先用酪蛋白沉淀多酪，离心后测上清液的单体酪，以总酪减单体酪粗略估算多酪（Kuiters和Denneman，1987）。除2-羟基苯甲酸外，单宁、香草酸和没食子酸也可用作标准。高浓度Fe²⁺、Mn²⁺或S²⁻可造成干扰，导致酪含量高估。"},
+    {"type": "source-fidelity-note", "scope": "48.3.4可选标准物", "text": "页面原文为‘单宁、香草酸、没食子酸’；PaddleOCR将‘香草酸’误识为‘草酸’，已按原页字形恢复。"},
+    {"type": "section-heading", "level": 3, "number": "48.3.5", "title": "己糖"},
+    {"type": "paragraph", "text": "土壤DOM中的己糖是土壤微生物的能源，可作为DOM生物可降解性的指标（DeLuca和Keeney，1993）。除葡萄糖外，土壤中多数己糖来自土壤微生物（第50章）。"},
+    {"type": "subsection-heading", "level": 4, "title": "1. 材料与试剂", "scope": "48.3.5"},
+    {"type": "materials-list", "scope": "48.3.5", "items": [
+      {"number": "（1）", "text": "10 mL玻璃试管。"},
+      {"number": "（2）", "text": "涡旋振荡器。"},
+      {"number": "（3）", "text": "分光光度计。"},
+      {"number": "（4）", "text": "光径1 cm的光学玻璃或塑料比色皿。"},
+      {"number": "（5）", "text": "蒽酮–硫酸试剂：将0.2 g分析纯蒽酮溶于100 mL分析纯浓硫酸（96%～98% v/v）。现配现用，使用前在室温静置约1 h。"},
+      {"number": "（6）", "text": "标准贮备液：用去离子水配制100 mg·L⁻¹分析纯葡萄糖。"},
+      {"number": "（7）", "text": "标准工作液：2.5、5、10、20、30和50 mg·L⁻¹葡萄糖。"}
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "2. 步骤和计算", "scope": "48.3.5"},
+    {"type": "procedure-step", "number": "（1）", "text": "分别加1 mL DOM提取液、标准液或空白于玻璃试管。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加2 mL蒽酮–硫酸试剂；该加液过程会强烈放热。"},
+    {"type": "procedure-step", "number": "（3）", "text": "涡旋混匀，室温静置15 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "将处理后样品或标准液转入比色皿，以空白为参比，在625 nm读取吸光度。"},
+    {"type": "procedure-step", "number": "（5）", "text": "作葡萄糖标准曲线，计算己糖浓度，报告为mg葡萄糖当量·L⁻¹。"},
+    {"type": "subsection-heading", "level": 4, "title": "3. 注释", "scope": "48.3.5"},
+    {"type": "note", "number": "（1）", "text": "本法改自Brink等（1960）的土壤水解产物碳水化合物测定法。"},
+    {"type": "note", "number": "（2）", "text": "通常情况下，蒽酮–硫酸试剂足以水解溶液中的可溶性多糖。"},
+    {"type": "note", "number": "（3）", "text": "本法似可避免Fe²⁺、Mn²⁺、NO₃⁻和Cl⁻干扰，但可靠结果仍需严格执行操作步骤并做加标回收试验。"},
+    {"type": "note", "number": "（4）", "text": "玻璃试管使用前用超纯水清洗，避免己糖污染。以单一化合物校准可能高估溶液己糖；色谱法见第50章。"}
+  ],
+  "formulas": [
+    {"id": "48.3.4-polyphenol", "display": "polyphenols ≈ total phenolics − monomeric phenolics after casein precipitation", "meaning": "酪蛋白沉淀法对多酪的粗略差量估计"},
+    {"id": "48.3.5-hexose-curve", "display": "hexoses = f⁻¹(A₆₂₅)", "unit": "mg glucose equivalents·L⁻¹", "meaning": "根据葡萄糖标准曲线求己糖当量"}
+  ],
+  "tables": [],
+  "contentSha256": "b975682ca6c49f3ab2285572fae11b6d40634da464d6e06eed597474296d5db1"
+}

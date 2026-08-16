@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 509,
+  "sourceImageSha256": "042703250cfce4f39002e054db7b98f1cc1a45ab618b2d567d181a9f34a87b99",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成强酸步骤（3）～（7）、50.2.3、50.3、50.3.1及50.3.2步骤（1）"},
+    "precisionPass": {"status": "verified", "method": "核验2 h、184 mL、0.5 mol·L⁻¹、85 °C、24 h、16 000×g、10 min、15 mL、−20 °C、6 mol·L⁻¹ HCl、500/475 mL、25 mm×100 mm、1 g和0.15 mm"},
+    "secondVisualPass": {"status": "verified", "method": "由50.3.2（1）反向复核至跨页步骤（3），确认容器材质、纤维素/非纤维素术语、单位上标和印刷页码478"}
+  },
+  "blocks": [
+    {"type": "procedure-step-continuation", "scope": "50.2.2强酸提取", "number": "（3）", "text": "轻盖离心管，在实验台静置2 h。"},
+    {"type": "procedure-step", "number": "（4）", "text": "将悬液转入250 mL聚丙烯离心瓶，用184 mL去离子水冲洗离心管并把洗液并入，使H₂SO₄稀释至0.5 mol·L⁻¹。"},
+    {"type": "procedure-step", "number": "（5）～（6）", "text": "密封聚丙烯离心瓶，在85 °C烘箱培养24 h；涡旋充分混匀后冷却至室温。"},
+    {"type": "procedure-step", "number": "（7）", "text": "以16 000×g离心10 min；转移15 mL水解液至塑料瓶，−20 °C保存待测。"},
+    {"type": "source-fidelity-note", "scope": "50.2.2强酸提取容器", "text": "步骤（4）和材料表明确使用250 mL聚丙烯离心瓶，原书步骤（5）中途误写‘聚乙烯瓶’。为保持耐酸容器前后一致，步骤（5）已校正为同一聚丙烯离心瓶。"},
+    {"type": "section-heading", "level": 3, "number": "50.2.3", "title": "注释"},
+    {"type": "note", "number": "（1）", "text": "中性糖酸水解传统上在100～120 °C回流装置中进行，也有密封管法。有人报告密封管法回收率低于回流法，但缺少详细直接比较；密封管法操作简便，可一次处理更多样品。"},
+    {"type": "note", "number": "（2）", "text": "用0.5 mol·L⁻¹ H₂SO₄弱酸代替热水浸提可得到更多中性糖。热水提取物常富含微生物糖甘露糖和半乳糖，它们来自胞外多糖，可能与土壤团聚体稳定有关。"},
+    {"type": "note", "number": "（3）", "text": "弱酸和强酸提取态碳水化合物有时分别称为‘非纤维素态’和‘纤维素态’，但这种二分过于简单：植物残体进入土壤后会迅速被微生物定殖和分解，两类提取液均可含植物源与微生物源糖。"},
+    {"type": "note", "number": "（4）", "text": "土壤糖以糖苷键连接成耐酸性不同的多糖混合物。延长水解会降解部分碳水化合物；酸水解结果是糖最大释放与最小分解之间的平衡。连续提高酸强度可能更完整地表征和量化中性糖，但使用任何处理都应验证其能有效评价时间尺度上的糖含量或组成变化。"},
+    {"type": "section-heading", "level": 2, "number": "50.3", "title": "氨基糖的浸提（据Zelles，1988修订）"},
+    {"type": "section-heading", "level": 3, "number": "50.3.1", "title": "材料与试剂"},
+    {"type": "materials-list", "items": [
+      {"number": "（1）", "text": "带聚四氟乙烯内衬旋盖的玻璃试管，25 mm×100 mm。"},
+      {"number": "（2）～（3）", "text": "带插管与针头、可插入玻璃管的多口鼓泡系统；鼓泡用N₂。"},
+      {"number": "（4）", "text": "6 mol·L⁻¹ HCl：将500 mL浓HCl缓慢加入475 mL去离子水并持续搅拌；冷却至室温后用去离子水定容至1 L。"},
+      {"number": "（5）～（6）", "text": "烘箱、涡旋混合器、离心机；用于保存水解液的适当体积塑料瓶。"}
+    ]},
+    {"type": "safety-note", "text": "配制HCl时把浓盐酸缓慢加入水中并在通风橱操作，冷却后再定容。"},
+    {"type": "section-heading", "level": 3, "number": "50.3.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取1 g风干土（磨细并过0.15 mm筛）置玻璃管；水解前风干、研磨有利于氨基糖提取。[续见第510页]"}
+  ],
+  "formulas": [
+    {"id": "50.2.2-strong-acid-dilution", "display": "8 mL × 12 mol·L⁻¹/(8+184) mL = 0.500 mol·L⁻¹", "meaning": "12 mol·L⁻¹ H₂SO₄预浸液经184 mL水稀释后的浓度"},
+    {"id": "50.3.1-hcl-6M", "display": "500 mL concentrated HCl diluted to 1 L ≈ 6 mol·L⁻¹", "meaning": "6 mol·L⁻¹ HCl水解液配方"}
+  ],
+  "tables": [],
+  "contentSha256": "e033ab848ca0291d515d8af4665e0794db18f7f5bb4bf07be13e50214778f604"
+}

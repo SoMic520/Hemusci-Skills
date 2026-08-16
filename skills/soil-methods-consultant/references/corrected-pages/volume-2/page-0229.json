@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 229,
+  "sourceImageSha256": "a9e8d81134b6bd8b9b264fc43bcfe29bed4a0ca390a8859f4e4864ebc5a52bce",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页图和两套OCR，完成75.4末句、全章参考文献及译校者"},
+    "precisionPass": {"status": "verified", "method": "核验作者姓名、变音符号、年份、题名、卷页、版次、机构和出版地，恢复K_sat下标及2nd上标"},
+    "secondVisualPass": {"status": "verified", "method": "再次逐字符核对17条参考文献及章末边界；印刷页码738"}
+  },
+  "blocks": [
+    {"type": "limitations", "items": ["整块土壤法费时费力、破坏性大（需挖取样坑），且土块饱和较困难；更多细节见Bouma (1977)、Bouma and Dekker (1981)及Youngs (1982)。"]},
+    {
+      "type": "references",
+      "entries": [
+        "Amoozegar, A. 1988. Preparing soil cores collected by a sampling probe for laboratory analysis of soil hydraulic properties. Soil Sci. Soc. Am. J. 52: 1814–1816.",
+        "Ball, B.C. and Hunter, R. 1988. The determination of water release characteristics of soil cores at low suctions. Geoderma 43: 195–212.",
+        "Bouma, J. 1977. Soil survey and the study of water in unsaturated soil. Soil Survey Paper No. 13. Netherlands Soil Survey Institute, Wageningen, The Netherlands, 1–107.",
+        "Bouma, J. 1985. Soil variability and soil survey. In: J. Bouma and D.R. Nielsen, eds. Soil Spatial Variability Workshop. PUDOC, Wageningen, The Netherlands, 130–149.",
+        "Bouma, J. and Dekker, L.W. 1981. A method for measuring the vertical and horizontal K_sat of clay soils with macropores. Soil Sci. Soc. Am. J. 45: 662–663.",
+        "Bouwer, H. 1978. Groundwater Hydrology. McGraw-Hill, Toronto, 480.",
+        "Cameron, K.C., Harrison, D.F., Smith, N.P., and McLay, C.D.A. 1990. A method to prevent edge-flow in undisturbed soil cores and lysimeters. Aust. J. Soil Res. 28: 879–886.",
+        "Elrick, D.E., Sheard, R.W., and Baumgartner, N. 1981. A simple procedure for determining the hydraulic conductivity and water retention of putting green soil mixtures. In: Proc. IV International Turfgrass Research Conference, Guelph, ON, Canada, 189–200.",
+        "Klute, A. and Dirksen, C. 1986. Hydraulic conductivity and diffusivity: Laboratory methods. In: A. Klute, ed. Methods of Soil Analysis, Part 1—Physical and Mineralogical Methods, 2nd ed. Agronomy 9. American Society of Agronomy, Madison, WI, 687–734.",
+        "Lauren, J.G., Wagenet, R.J., Bouma, J., and Wösten, J.H.M. 1988. Variability of saturated hydraulic conductivity in a Glossaquic Hapludalf with macropores. Soil Sci. 145: 20–28.",
+        "McIntyre, D.S. 1974. Procuring undisturbed cores for soil physical measurements. In: J. Loveday, ed. Methods for Analysis of Irrigated Soils. Commonwealth Agricultural Bureaux. Wilke and Company Ltd., Clayton, Australia, 154–165.",
+        "Reynolds, W.D. and Elrick, D.E. 2002. Saturated and field-saturated water flow parameters: Laboratory methods. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 802–817.",
+        "Rogers, J.S. and Carter, C.E. 1986. Soil core sampling for hydraulic conductivity and bulk density. Soil Sci. Soc. Am. J. 51: 1393–1394.",
+        "Sheldrick, B.H. 1984. In Analytical Methods Manual. Land Resource Research Institute, Agriculture Canada, Ottawa, ON, Canada, 38/1–38/2.",
+        "Townend, J., Reeve, M.J., and Carter, A. 2001. Water release characteristic. In: K.A. Smith and C.E. Mullins, eds. Soil and Environmental Analysis: Physical Methods, 2nd ed. Marcel Dekker, Inc., New York, NY, 95–140.",
+        "Youngs, E.G. 1982. The measurement of the variation with depth of the hydraulic conductivity of saturated soil monoliths. J. Soil Sci. 33: 3–12.",
+        "Youngs, E.G. 2001. Hydraulic conductivity of saturated soils. In: K.A. Smith and C.E. Mullins, eds. Soil and Environmental Analysis: Physical Methods, 2nd ed. Marcel Dekker, Inc., New York, NY, 141–181."
+      ]
+    },
+    {"type": "credits", "text": "谷丰 译，李保国 校"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e0ef7547914ec8c61dd00d639204eefb2a591cab117805783e0e6e042cdbbcc3"
+}

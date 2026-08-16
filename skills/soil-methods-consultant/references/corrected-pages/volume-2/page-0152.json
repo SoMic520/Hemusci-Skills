@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 152,
+  "sourceImageSha256": "4b675f209c49e27bf87412229eee1dd8085ea02e7d50ca893a3ac2912900c555",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Fuchsman至Nemati共20条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验CEN/TC 223、in situ、Petunia hybrida、法文变音符、专著章节、期刊卷页及机构"},
+    "secondVisualPass": {"status": "verified", "method": "由Nemati反向复核至Fuchsman，检查题名、引号、作者分隔和页码；印刷页码661"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Fuchsman, C.H. 1986. Peat and Water: Aspects of Water Retention and Dewatering in Peat. Elsevier Applied Science Publishers, London, UK.",
+      "Good, R.J. 1979. Contact angle and the surface free energy of solids. Surf. Colloid Sci. 11:1–29.",
+      "Grigal, D.F., Brovold, S.L., Nord, W.S., and Ohmann, L.F. 1989. Bulk density of surface soils and peat in the North Central United States. Can. J. Soil Sci. 69:895–900.",
+      "Hemond, H.F. and Goldman, J.C. 1985. On non-Darcian flow in peat. J. Ecol. 73:579–584.",
+      "Hidding, A. 1999. Standardization by CEN/TC 223 “Soil improvers and growing media” and its consequences. In: G. Schmilewski and W.J. Tonnis, eds. Peat in Horticulture. Proceedings of the International Peat Conference, November 1, 1999, Amsterdam, the Netherlands, 21–24.",
+      "Hillel, D., Krentos, V., and Stilianou, Y. 1972. Procedure and test of an internal drainage method for measuring soil hydraulic characteristics in situ. Soil Sci. 114:395–400.",
+      "Jobin, P., Caron, J., Bernier, P.Y., and Dansereau, B. 2004. Impact of two hydrophilic polymers on the physical properties of three substrates and the growth of Petunia hybrida ‘Brilliant Pink’. J. Am. Soc. Hortic. Sci. 129:449–457.",
+      "Jouany, C., Chenu, C., and Chassin, P. 1992. Détermination de la mouillabilité des constituants du sol à partir des mesures d’angles de contact: revue bibliographique. Science du Sol 30:33–47.",
+      "King, J.A. and Smith, K.A. 1987. Gaseous diffusion through peat. J. Soil Sci. 38:173–177.",
+      "King, P.M. 1981. Comparison of methods for measuring severity of water repellence of sandy soils and assessment of some factors that affect its measurement. Aust. J. Soil Res. 19:275–285.",
+      "Klute, A. and Dirksen, C. 1986. Hydraulic conductivity and diffusivity: Laboratory methods. In: A. Klute, ed. Methods of Soil Analysis, Part 1. 2nd ed. Agronomy 9. American Society of Agronomy, Madison, WI, 687–734.",
+      "Letey, J. 1969. Measurement of contact angle, water drop penetration time, and critical surface tension. In: L.F. DeBano and J. Letey, eds. Water-Repellent Soils. Proceedings of the Symposium on Water-Repellent Soils, University of California, Riverside, CA, 43–47.",
+      "Letey, J., Osborn, J., and Pelishek, R.E. 1962. Measurement of liquid–solid contact angles in soil and sand. Soil Sci. 93:149–153.",
+      "Macfarlane, I.C. 1969. Engineering characteristics of peat. In: I.C. Macfarlane, ed. Muskeg Engineering Handbook. University of Toronto Press, Toronto, ON, Canada, 78–126.",
+      "McGhie, D.A. and Posner, A.M. 1980. Water repellence of a heavy-textured western Australian surface soil. Aust. J. Soil Res. 18:309–323.",
+      "Michel, J.C. 1998. Studies on wettability of organic media used as growing culture media (in French). PhD thesis, École Nationale Supérieure Agronomique de Rennes, Rennes, France.",
+      "Michel, J.C., Rivière, L.M., and Bellon-Fontaine, M.N. 2001. Measurement of the wettability of organic materials in relation to water content by capillary rise method. Eur. J. Soil Sci. 52:459–467.",
+      "Milks, R.R., Fonteno, W.C., and Larson, R.A. 1989. Hydrology of horticultural substrates: II. Predicting physical properties of media in containers. J. Am. Soc. Hortic. Sci. 114:53–56.",
+      "Morel, P., Rivière, L.M., and Julien, C. 1999. Measurement of representative volumes of substrates: Which method, in which objective? Acta Hortic. 517:261–269.",
+      "Mustin, M. 1987. Le compost. Éditions François Dubusc, Paris, France.",
+      "Naasz, R., Michel, J.-C., and Charpentier, S. 2005. Measuring hysteretic hydraulic properties of peat and pine bark using a transient method. Soil Sci. Soc. Am. J. 69:13–22.",
+      "Nemati, R., Caron, J., Banton, O., and Tardif, P. 2002. Determining air entry in peat substrates. Soil Sci. Soc. Am. J. 66:367–373."
+    ]},
+    {"type": "source-fidelity-note", "text": "原书Hidding条目把CEN/TC误排成CEN=TC并漏右引号；Jobin题名polymer按语法恢复为polymers。法文à、École、Supérieure、Rivière、François和Éditions变音符已恢复。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "505104d9943e782ca35ae52262fd54c54e0d9c4c25b13d35ec4408a5cdfcda7b"
+}

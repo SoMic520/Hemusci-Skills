@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 356,
+  "sourceImageSha256": "86bcd5a05a44cf71cbbed9590889725609437737f2c2ee3489e484b12bd24546",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版34.8.1～34.9.1和参考文献交叉比对"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验4%（V/V）甲醛、2～3 h、70%/90%（V/V）乙醇、4～8 ℃、PTFE内衬盖和本页所有文献卷页"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Bouché和Beugnot文献反向复核至固定步骤（2），矫正“聚四氟乙烯螺旋盖”、“双目望远镜”和34.9缺失层级；页码325"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第34章｜蚓蚓｜"},
+    {"type": "procedure-step", "method": "34.8.1", "number": "（2）", "text": "在通风橱中，将蚓蚓转入盛有少量4%（V/V）甲醛水溶液的浅平底皿，再用另一张被甲醛水溶液浸透的纸巾覆盖蚓蚓，在通风橱中固定过夜或2～3 h。如不能立即固定，先转入70%（V/V）乙醇，定期更换变色乙醇，并在凉爽处保存至可固定时。"},
+    {"type": "critical-safety-note", "scope": "34.8.1（2）", "text": "甲醛固定必须在经检验的通风橱内执行，佩戴SDS规定的防护装备，并将全部废液和污染物作为危险废物回收；不得在普通工作台操作或排入下水道。"},
+    {"type": "procedure-step", "method": "34.8.1", "number": "（3）", "text": "固定后，将蚓蚓长期保存在装90%（V/V）乙醇的小体积玻璃容器中，容器配聚四氟乙烯（PTFE）内衬的螺旋盖。乙醇变黄后应更换。用铅笔书写的纸质标签同时放在容器内部和外部。系统参考收藏标本置于避光、凉爽处。"},
+    {"type": "source-fidelity-note", "scope": "34.8.1（3）", "text": "原文是Teflon-lined screw-top lids，中文本译成“聚四氟乙烯螺旋盖”，已矫正为带PTFE内衬的螺旋盖。limited volume glass containers是小体积玻璃容器，并非特指广口瓶。"},
+    {"type": "section-heading", "level": 3, "number": "34.8.2", "title": "蚓蚓的分类学鉴定"},
+    {"type": "paragraph", "text": "许多常见蚓蚓物种无需解剖，可用优质手持放大镜或低倍双目解剖显微镜，根据外部形态鉴定；但这种方式只能准确鉴定已成熟、具生殖带的蚓蚓。"},
+    {"type": "source-fidelity-note", "scope": "34.8.2显微设备", "text": "中文本将low-power binocular dissecting scope误译为“双目望远镜”；已改为低倍双目解剖显微镜。"},
+    {"type": "paragraph", "text": "通用蚓蚓分类学参考资料包括Sims和Gerard（1985）、Schwert（1990）、Reynolds（1977）、Ljungström（1970），以及Wormwatch（2002）等网络资源。"},
+    {"type": "section-heading", "level": 2, "number": "34.9", "title": "运输蚓蚓"},
+    {"type": "section-heading", "level": 3, "number": "34.9.1", "title": "从野外到实验室"},
+    {"type": "paragraph", "text": "蚓蚓可在野外鉴定和计数，也可运回实验室测定生物量并复核鉴定。活体可置于通气充足的塑料容器中的湿纸巾上，或置于盛水的螺旋盖容器中；这可使蚓蚓在称重和乙醇保存前排出部分肠道内容物。活蚓蚓在冷藏室或4～8 ℃冰箱中过夜。也可直接收入装福尔马林或乙醇的防漏螺旋盖密封容器，原书建议70%（V/V）乙醇。"},
+    {"type": "critical-safety-note", "scope": "34.9.1", "text": "长途把活蚓蚓置于水中可发生缺氧，必须限制时间、控温并保证氧供；不得把已接触甲醛的标本按活体运输。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference", "text": "Baker, G.H., Barrett, V.J., Carter, P.J., and Woods, J.P. 1996. Method for caging earthworms for use in field experiments. Soil Biol. Biochem. 28: 331–339."},
+    {"type": "reference", "text": "Baker, G.H., Barrett, V.J., Grey-Gardner, R., and Buckerfield, J.C. 1992. The life history and abundance of the introduced earthworms Aporrectodea trapezoides and A. caliginosa (Annelida: Lumbricidae) in pasture soils in the Mount Lofty Ranges, South Australia. Aust. J. Ecol. 17: 177–188."},
+    {"type": "reference", "text": "Baker, G.H., Carter, P.J., and Barrett, V.J. 1999. Influence of earthworms, Aporrectodea spp. (Lumbricidae), on pasture production in south-eastern Australia. Aust. J. Agr. Res. 50: 1247–1257."},
+    {"type": "reference", "text": "Baker, G.H. and Whitby, W.A. 2003. Soil pH preferences and the influences of soil type and temperature on the survival and growth of Aporrectodea longa (Lumbricidae). Pedobiologia 47: 745–753."},
+    {"type": "reference", "text": "Barnes, B.T. and Ellis, F.B. 1979. Effects of different methods of cultivation and direct drilling and disposal of straw residues, on populations of earthworms. J. Soil Sci. 30: 669–679."},
+    {"type": "reference", "text": "Blair, J.M., Bohlen, P.J., and Freckman, D.W. 1996. Soil invertebrates as indicators of soil quality. In: J.W. Doran and A.J. Jones, eds. Methods for Assessing Soil Quality. Soil Science Society of America, Madison, WI, pp. 273–291."},
+    {"type": "reference", "text": "Bouché, M.B. 1972. Lombriciens de France. Ecologie et Systématique. INRA Publications 72-2. Institut National des Recherches Agriculturelles, Paris, France."},
+    {"type": "reference", "text": "Bouché, M.B. 1976. Étude de l'activité des invertébrés épigés parairiaux. I. Résultats généraux et géodrilogiques (Lumbricidae: Oligochaeta). Rev. Ecol. Biol. Sol. 13: 261–281."},
+    {"type": "reference", "text": "Bouché, M.B. 1977. Stratégies lombriciennes. In: U. Lohm and T. Persson, eds. Soil Organisms as Components of Ecosystems. Biol. Bull. (Stockholm) 25: 122–132."},
+    {"type": "reference-continuation", "text": "Bouché, M.B. and Beugnot, M. 1972. Contribution à l'approche méthodologique de l'étude des biocénoses. II. L'extraction des"},
+    {"type": "printed-page-number", "text": "325"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "128f91b45c563d6ce5a4a08493c89f3751db93f37f9b26840e2f9e4c14650f30"
+}

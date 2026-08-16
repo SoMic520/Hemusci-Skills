@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 403,
+  "sourceImageSha256": "9ff9c6952435e8430e329b7224cc99e1303275e64fca4fbc6768cc0138d7d5a7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版38.6.1～38.6.3（5）"},
+    "precisionPass": {"status": "verified", "method": "核验2 mol·L⁻¹ KCl的1.49 kg/10 L配方、至少6点成对土芯、20 g/100 mL、53 μm、4～5孔/1～2 mm、28 d/4个月、15～30 μm及NO₃⁻/NH₄⁺"},
+    "secondVisualPass": {"status": "verified", "method": "从注释（5）承下句反向复核至材料（1）承上句，逐项核对筛孔、袋厚、配液量和步骤层级；印刷页码372"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "material-item-continuation", "number": "（1）", "text": "（承第402页）在尽量不压实内部土壤的情况下插入土中。"},
+    {"type": "material-item", "number": "（2）", "text": "过滤架、漏斗和以KCl溶液或去离子水预冲洗的Whatman 40号滤纸。"},
+    {"type": "reagent-item", "number": "（3）", "name": "2 mol·L⁻¹ KCl溶液", "text": "将1.49 kg试剂级KCl溶于去离子水，配制约10 L；精确配制10.00 L需1.491 kg。"},
+    {"type": "source-fidelity-note", "scope": "38.6.1（3）", "text": "中译本误印“在1 L去离子水中溶解1.49 kg KCl”；英文原版为10 L。化学计量也证明2 mol·L⁻¹×10 L需要约1.491 kg，而1 L只需约149.1 g。正文已纠正。"},
+    {"type": "material-item", "number": "（4）", "text": "分析土壤KCl浸提液中NH₄⁺和NO₃⁻所需的其他试剂（见第6章）。"},
+    {"type": "section-heading", "level": 3, "number": "38.6.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "通常在研究区随机选点，至少6个不同地点各采一对土芯（初始土芯和培养土芯）以表征研究区。若已知净硝化速率随层次（如植被覆盖类型）协变，可采用分层随机采样（Kaye和Hart，1998）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "用每对中的一个土芯测土壤容重、含水量及初始NH₄⁺、NO₃⁻含量。"},
+    {"type": "procedure-step", "number": "（3）", "text": "取20 g田间湿土，以100 mL 2 mol·L⁻¹ KCl浸提初始NH₄⁺和NO₃⁻；过滤后用自动分析仪测定：Berthelot反应测NH₄⁺，镉还原法测NO₃⁻（Tel和Heseltine，1990）。结果按干土质量表示。"},
+    {"type": "procedure-step", "number": "（4）", "text": "每个培养土芯底部覆盖孔径53 μm的尼龙网，以耐用橡皮筋固定。网可减小土壤流失，同时允许水和气体交换；若培养期间底部土壤流失可忽略，可省略。"},
+    {"type": "procedure-step", "number": "（5）", "text": "把土芯放回原采样孔。插入前可在孔底放少量颗粒化周围土，以改善土芯与周围土壤的接触。"},
+    {"type": "procedure-step", "number": "（6）", "text": "每个土芯顶部加盖，盖侧钻4～5个直径约1～2 mm的孔以交换气体。"},
+    {"type": "procedure-step", "number": "（7）", "text": "约28 d后取出培养土芯；冬季可培养最长4个月。混匀土壤，每个土芯取20 g湿土于250 mL锥形瓶，用2 mol·L⁻¹ KCl浸提并按前法测NH₄⁺和NO₃⁻；另取独立子样测含水量。"},
+    {"type": "section-heading", "level": 3, "number": "38.6.3", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "田间法可评价自然温湿波动及处理对硝化的影响。温带、寒带夜间低温和潜在日间高温会限制微生物活动，因此所得净硝化速率常低于实验室净硝化法或振荡悬液潜在硝化法（Jefts等，2004）。"},
+    {"type": "note-item", "number": "（2）", "text": "水分解吸曲线研究表明，孔径53 μm尼龙网在土芯与周围土壤水力连接充分时效果良好（见第72章）。维持水力连接须把覆网土芯底部紧压在周围土壤上。"},
+    {"type": "note-item", "number": "（3）", "text": "许多研究把完整土芯装入埋藏聚乙烯袋（厚15～30 μm）测原位净硝化（Binkley和Hart，1989），不使用尼龙网或盖。袋中水分不随周围土壤波动，但可阻止NO₃⁻因质流或扩散而损失；加盖开放底土芯仍可能发生NO₃⁻扩散损失。"},
+    {"type": "note-item", "number": "（4）", "text": "也可用开放土芯允许淋失，在土芯下放混合床IER袋截留淋失NO₃⁻（以及NH₄⁺），同时让水自由排出（Binkley和Hart，1989；Hart和Firestone，1989）。田间培养后取出IER袋以KCl浸提。净硝化量=IER袋截留NO₃⁻量+土芯NO₃⁻库净增加量。"},
+    {"type": "note-item-continuation", "number": "（5）", "text": "宜用PVC而非金属土芯筒。夏季表土培养或作物冠层尚未充分遮阴的农田中，金属筒会使土温升高（Raison等，1987；Edmonds和McColl，1989）；本条续见第404页。"},
+    {"type": "printed-page-number", "text": "372"}
+  ],
+  "formulas": [
+    {"id": "38.6-kcl-check", "display": "m(KCl, 10.00 L of 2 mol·L⁻¹) = 2×10.00×74.551 = 1491 g"},
+    {"id": "38.6-resin-core-net", "display": "net nitrification amount = ΔNO₃⁻ in soil core + NO₃⁻ captured by IER bag"}
+  ],
+  "tables": [],
+  "contentSha256": "ca2fbea883b839eb58c3dec4773bf4df29209bb95d692dd44f43e4ddba140aff"
+}

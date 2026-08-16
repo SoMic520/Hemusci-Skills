@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 188,
+  "sourceImageSha256": "178c0439d5ae11e949dfcaf89427ce095bb97bdb5343cf9348908d4cf2ce7888",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页图和两套OCR，完成Ferré 2002至Lapen 2004共19条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验2004a/2004b、SCEM-UA、SP 19-94、作者重音、期刊卷页和会议日期"},
+    "secondVisualPass": {"status": "verified", "method": "由Lapen跨页末反向复核至Ferré，检查Redman与Beijing拼写；印刷页码697"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Ferré, P.A. (Ty) and Topp, G.C. 2002. Time domain reflectometry. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 434–446.",
+      "Galagedara, L.W., Parkin, G.W., and Redman, J.D. 2003. An analysis of the GPR direct ground wave method for soil water content measurement. Hydrol. Process. 17:3615–3628.",
+      "Galagedara, L.W., Parkin, G.W., Redman, J.D., von Bertoldi, P., and Endres, A.L. 2005. Field studies of the GPR ground wave method for estimating soil water content during irrigation and drainage. J. Hydrol. 301:182–197.",
+      "Gardner, C.M.K., Robinson, D., Blyth, K., and Cooper, D. 2001. Soil water content. In: K.A. Smith and C.E. Mullins, eds. Soil and Environmental Analysis: Physical Methods. 2nd ed. Marcel Dekker, New York, NY, 1–64.",
+      "Gardner, W.H. 1986. Water content. In: A. Klute, ed. Methods of Soil Analysis, Part 1—Physical and Mineralogical Methods. 2nd ed. American Society of Agronomy, Soil Science Society of America, Madison, WI, 493–544.",
+      "Gaskin, G.J. and Miller, J.D. 1996. Measurement of soil water content using a simplified impedance measuring technique. J. Agric. Eng. Res. 63:153–160.",
+      "Greaves, R.J., Lesmes, D.P., Lee, J.M., and Toksoz, M.N. 1996. Velocity variations and water content estimated from multioffset, ground-penetrating radar. Geophysics 61:683–695.",
+      "Grote, K., Hubbard, S., and Rubin, Y. 2003. Field-scale estimation of volumetric water content using ground-penetrating radar ground wave techniques. Water Resour. Res. 39(11):1321–1335.",
+      "Heimovaara, T.J., Huisman, J.A., Vrugt, J.A., and Bouten, W. 2004. Obtaining the spatial distribution of water content along a TDR probe using the SCEM-UA Bayesian inverse modeling scheme. Vadose Zone J. 3:1128–1145.",
+      "Hook, W.R. and Livingston, N.J. 1995. Propagation velocity errors in time domain reflectometry measurements. Soil Sci. Soc. Am. J. 59:92–96.",
+      "Hook, W.R., Livingston, N.J., Sun, Z.J., and Hook, P.B. 1992. Remote diode shorting improves measurement of soil water by time domain reflectometry. Soil Sci. Soc. Am. J. 56:1384–1391.",
+      "Huisman, J.A., Hubbard, S.S., Redman, J.D., and Annan, A.P. 2003. Measuring soil water content with ground penetrating radar: A review. Vadose Zone J. 2:476–491.",
+      "Huisman, J.A., Sperl, C., Bouten, W., and Verstraten, J.M. 2001. Soil water content measurements at different scales: Accuracy of time domain reflectometry and ground penetrating radar. J. Hydrol. 245:48–58.",
+      "Kelleners, T.J., Soppe, R.W.O., Ayars, J.E., and Skaggs, T.H. 2004a. Calibration of capacitance probe sensors in a saline silty clay soil. Soil Sci. Soc. Am. J. 68:770–778.",
+      "Kelleners, T.J., Soppe, R.W.O., Robinson, D.A., Schaap, M.G., Ayars, J.E., and Skaggs, T.H. 2004b. Calibration of capacitance probe sensors using electric circuit theory. Soil Sci. Soc. Am. J. 68:430–439.",
+      "Knight, J.H. 1992. The sensitivity of time domain reflectometry measurements to lateral variations in soil water content. Water Resour. Res. 28:2345–2352.",
+      "Knight, J.H., Ferré, P.A., Rudolph, D.L., and Kachanoski, R.G. 1997. A numerical analysis of the effects of coatings and gaps upon relative dielectric permittivity measurement with time domain reflectometry. Water Resour. Res. 33:1455–1460.",
+      "Knight, J.H., White, I., and Zegelin, S.J. 1994. Sampling volume of TDR probes used for water content monitoring. In: K.M. O’Connor et al., eds. Time Domain Reflectometry in Environmental Infrastructure and Mining Applications. U.S. Bureau of Mines, Minneapolis and Northwestern University, Evanston, Spec. Publ. SP 19-94:93–104.",
+      "Lapen, D.R., Topp, G.C., Bugden, J.L., and Pattey, E. 2004. A new TDR probe for evaluating airborne SAR data for soil water content estimates. In: Baoji Wang, Quanzhong Huang, Qing Li, Jianhan Lin, Yu Chen, Feng Mei, Qing Wei, and Jieqiang Zhuo, eds. Proceedings of the 2004 CIGR International Conference (Agricultural Engineering), Beijing, China, Oct. 11–14. Published on CD-ROM."
+    ]},
+    {"type": "source-fidelity-note", "text": "Huisman 2003条目页图把作者印作Redmond，按同章重复引用与规范书目信息更正为Redman；Lapen条目Bejing更正为Beijing。断词如impe-dance、Propa-gation、con-tent均复原。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "8a3fe55ca2395bc9c7f87c1b5810a1eabcb9ec422f3575eca22db9895ec7753e"
+}

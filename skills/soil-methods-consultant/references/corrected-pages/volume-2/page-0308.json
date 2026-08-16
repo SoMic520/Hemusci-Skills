@@ -1,0 +1,105 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 308,
+  "sourceImageSha256": "03c671ee9ec86f0edc5819772aacd5b0ac9e9ad015754489d090385a90b857df",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对83.4注释(4)续文及(5)～(7)、83.5优缺点、参考文献和译校署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对−200 cm≤ψ≤0 cm、式(69.13)/(69.16)/(69.17～69.19)及式(83.5)/(83.6)/(83.11)/(83.12)交叉引用"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "K(θ)、K(ψ)、θ(ψ)、α*、S、PD、NP符号与引用逐项二次反查；印刷页码817"
+    }
+  },
+  "blocks": [
+    {
+      "type": "continuation",
+      "section": "83.4 注释",
+      "items": [
+        {
+          "number": 4,
+          "text": "简化分析法可在不同时间从多孔介质表面采集土样，再用烘干法测含水量，从而估算地表K(θ)。"
+        },
+        {
+          "number": 5,
+          "text": "高度结构化或低渗透介质中可能难以获得可靠的K(θ)、K(ψ)和θ(ψ)。高度结构化介质的小型θ、ψ探头可能部分或完全错过优势流区（虫洞、裂隙、滞流区等）；低渗透介质的剖面饱和和排水时间会很长。"
+        },
+        {
+          "number": 6,
+          "text": "W(t)—t经验式（式83.5、83.6）和θ(t)_z—t经验式（式83.11）并不固定，特殊数据可用其他拟合更好的经验式；但W(t)—t经验式必须对t可微，θ(t)_z—t也必须对t可微且能由t解出。"
+        },
+        {
+          "number": 7,
+          "text": "虽尚未尝试，利用瞬时剖面法测得的K(ψ)和θ(ψ)应可估计毛管作用参数α*(ψ)、S(ψ)、PD(ψ)、NP(ψ)（见第69章）：先拟合K(ψ)函数；按式(69.13)积分得ϕ(ψ)；按式(69.16)算α*(ψ)；再按式(69.17)～式(69.19)，由α*(ψ)、K(ψ)、θ(ψ)算S(ψ)、PD(ψ)、NP(ψ)。准确性取决于K(ψ)拟合。采用无ψ测定结果的简化法（式83.12）时显然不能求这些参数。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "83.5",
+      "title": "瞬时剖面法的优缺点",
+      "level": 2
+    },
+    {
+      "type": "advantages",
+      "items": [
+        "可在排水期间同时、原位估计一系列深度和土层的K(θ)、K(ψ)及θ(ψ)，不需预设这些关系的特定函数形式。"
+      ]
+    },
+    {
+      "type": "limitations",
+      "items": [
+        "需在地表以下不同深度安装复杂精密设备，如TDR探头和张力计。",
+        "测定可能持续数小时至数月，并需大量水饱和剖面；设备多、时间长、需水量大使重复试验工作量大。",
+        "只能确定湿端−200 cm≤ψ≤0 cm范围的K(θ)、K(ψ)、θ(ψ)。"
+      ]
+    },
+    {
+      "type": "simplified-method-comparison",
+      "advantages": [
+        "避免使用条件苛刻的孔隙水基质水头探头（张力计）。",
+        "不需计算不确定的含水量梯度或水力梯度。",
+        "提供K(θ)_z与θ_z之间简单解析关系（式83.12），且可用于全部深度。"
+      ],
+      "limitations": [
+        "因未测ψ，不能确定θ(ψ)和毛管作用参数。",
+        "经验式拟合可能代表性不足。",
+        "不适用于非均质（如层状土壤）剖面。"
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "参考文献",
+      "level": 2
+    },
+    {
+      "type": "references",
+      "entries": [
+        "Dirksen, C. 2001. Unsaturated hydraulic conductivity. In: K.A. Smith and C.E. Mullins, eds., Soil and Environmental Analysis: Physical Methods. Marcel Dekker, Inc., New York, NY, 218–219.",
+        "Flühler, H., Ardakani, M.S., and Stolzy, L.H. 1976. Error propagation in determining hydraulic conductivities from successive water content and pressure head profiles. Soil Sci. Soc. Am. J. 40: 830–836.",
+        "Hillel, D., Krentos, V.D., and Stylianou, Y. 1972. Procedure and test of an internal drainage method for measuring soil hydraulic characteristics in situ. Soil Sci. 114: 395–400.",
+        "Libardi, P.L., Reichardt, K., Nielsen, D.R., and Biggar, J.W. 1980. Simple field methods for estimating soil hydraulic conductivity. Soil Sci. Soc. Am. J. 44: 3–7.",
+        "Vachaud, G. and Dane, J.H. 2002. Instantaneous profile. In: J.H. Dane and G.C. Topp, eds., Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 937–945."
+      ]
+    },
+    {
+      "type": "translation-credit",
+      "text": "焦会青 译，李保国 校"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "完全法湿端范围",
+      "plain": "−200 cm≤ψ≤0 cm",
+      "latex": "-200\\,\\mathrm{cm}\\leq\\psi\\leq0\\,\\mathrm{cm}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "f9e3e16704cda036869f7aba14c7c7efaf06ac7661d67768d28c93cc5cf90022"
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 175,
+  "sourceImageSha256": "fa67f74b0208b83300bf85be2eaa9107b3b3769d50792cfad7a438414f2350da",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率图17.5、注压法步骤与注释，并与Apple Vision、PaddleOCR交叉比对，人工恢复式（17.1）及变量说明"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验12 h、5～10滴、15 min、0.4 μm、0.2% HNO₃ v/v、4 ℃、RCF、(2πn)²r/g、981 cm s⁻²、1 μm、1 000 g、1～3/5～10 mL"},
+    "secondVisualPass": {"status": "verified", "method": "从页码144反向复核至图17.5，确认方法6步、注释3项、公式分子分母/指数、图注和所有单位"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "figure", "label": "图17.5", "title": "采用注射器进行土壤溶液提取的注压提取法装置", "source": "照片由Don Ross提供"},
+    {"type": "procedure-heading", "level": 4, "number": "2.", "title": "方法"},
+    {"type": "procedure-step", "number": "（1）", "text": "用去离子水清洗高密度聚乙烯块。"},
+    {"type": "procedure-step", "number": "（2）", "text": "把高密度聚乙烯块放入注射器的底部。"},
+    {"type": "procedure-step", "number": "（3）", "text": "将新鲜土样（最好在采样12 h内）装到聚乙烯注射器内。"},
+    {"type": "procedure-step", "number": "（4）", "text": "启动压缩装置，舍弃前5～10滴溶液，重新加压15 min，收集剩余的液体。"},
+    {"type": "procedure-step", "number": "（5）", "text": "预留溶液部分用于pH值和EC值的分析，剩余溶液转移至干净的存储瓶。溶液存储和分析前，可以在低真空环境下用0.4 μm聚碳酸酯过滤器过滤溶液，除去可能有的杂质。用于金属分析的预留样品应该进行酸化（0.2% HNO₃ v/v），若要分析痕量元素，则应该用痕量金属级硝酸酸化。"},
+    {"type": "procedure-step", "number": "（6）", "text": "所有样品，包括空白均需要设置重复。"},
+    {"type": "section-heading", "level": 3, "number": "17.6.3", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "这两种方法都应该在采样后尽快从土壤中分离土壤溶液。在溶液提取前，土壤样品应该保持在4 ℃低温、黑暗环境下，但不可冷冻。除了从自然环境中采样扰动，缩短收集土壤溶液的时间对降低试验的人为误差也很重要（Qian和Wolt，1990；Ross和Bartlett，1990）。"},
+    {"type": "note-item", "number": "（2）", "text": "在离心过程中产生的土壤溶液提取力可以用相对离心力（RCF）计算："},
+    {"type": "equation", "label": "（17.1）", "text": "RCF=[(2πn)²r]/g"},
+    {"type": "paragraph", "text": "式中，n为每秒转数，r为转轴半径，g为981 cm s⁻²。"},
+    {"type": "paragraph", "text": "相对离心力与因离心力而排出水的孔（这里为毛细孔）的大小有关。例如，直径一微米的孔可以在大约1 000 g的相对离心力时产生排水（Edmunds和Bath，1976；Soon和Warren，1993）。注压法中使用的提取力应该测定并记录，以便确保结果的可比性和一致性。"},
+    {"type": "note-item", "number": "（3）", "text": "这两种方法提取的土壤溶液量都少（1～3 mL），需要合并数次重复提取的土壤溶液，才能得到足够的溶液确保一定范围的溶液分析。合并的土壤溶液也需要进行重复实验，以便保证明确的过程重复。也就是说，如果三次提取的溶液合并能形成1个5～10 mL的样品，就需要重复六次提取，形成两个重复的样品。"},
+    {"type": "printed-page-number", "text": "144"}
+  ],
+  "formulas": [
+    {"label": "（17.1）", "plain": "RCF=[(2πn)²r]/g", "latex": "RCF=\\frac{(2\\pi n)^2r}{g}", "variables": {"n": "每秒转数", "r": "转轴半径", "g": "981 cm s⁻²"}, "context": "相对离心力计算"}
+  ],
+  "tables": [],
+  "contentSha256": "130da6428d4162c7f92e74f9783b11ce6d84a04594a0a63300db570693d79c19"
+}

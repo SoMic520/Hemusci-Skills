@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 50,
+  "sourceImageSha256": "519039654102d69d6ab87a7b2556fca7e0ea9d7aed4339e92f0cb63c660bd27c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部作者、题名、刊名、标点和译校信息"},
+    "precisionPass": {"status": "verified", "method": "放大核对英文专名、重音符、作者首字母、卷页、破折号、7ᵗʰ上标，以及Sampling Forest Soils 23、USDAForest、IowaStateUniversity等原页连写内容"},
+    "secondVisualPass": {"status": "verified", "method": "按页首续接文献、逐条作者字母顺序、题名、刊名、卷页、版次、译校署名和印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第2章｜森林土壤采样｜"},
+    {"type": "bibliography-entry", "continuation": true, "text": "Finzi, A.C., van Breemen, N., and Canham, C.D. 1998. Canopy tree-soil interactions within temperate forests: species effects on soil carbon and nitrogen. Ecol. Appl. 8: 440-446."},
+    {"type": "bibliography-entry", "text": "Green, R.N., Trowbridge, R.L., and Klinka, K. 1993. Towards a taxonomic classification of humus forms. Forest Science Monograph 29. Society of American Foresters, Bethesda, MD, 50."},
+    {"type": "bibliography-entry", "text": "Grier, C.C. and McColl, J.G. 1971. Forest floor characteristics within a small plot in Douglas-fir in Western Washington. Soil Sci. Soc. Am. Proc. 35: 988-991."},
+    {"type": "bibliography-entry", "text": "Hamel, B., Bélanger, N., and Paré, N. 2004. Productivity of black spruce and jack pine stands in Quebec as related to climate, site biological features and soil properties. Forest Ecol. Manag. 191: 239-251."},
+    {"type": "bibliography-entry", "text": "Hamilton, W.N. and Krause, H.H. 1985. Relationship between jack pine growth and site variables in New Brunswick plantations. Can. J. Forest Res. 15: 922-926."},
+    {"type": "bibliography-entry", "text": "Ike, A.F. and Clutter, J.L. 1968. The variability of forest soils of the Georgia Blue Ridge Mountains. Soil Sci. Soc. Am. Proc. 32: 284-288."},
+    {"type": "bibliography-entry", "text": "Klinka, K., Green, R.N., and Trowbridge, R.L. 1981. Taxonomic classification of humus forms in ecosystems of British Columbia. First approximation. British Columbia Ministry of Forest, 53."},
+    {"type": "bibliography-entry", "text": "Kulmatiski, A., Vogt, D.J., Siccama, T.G., and Beard, K.H. 2003. Detecting nutrient pool changes in rocky forest soils. Soil Sci. Soc. Am. J. 67: 1282-1286."},
+    {"type": "bibliography-entry", "text": "Lichter, J.M. and Costello, L.R. 1994. An estimation of volume excavation and core sampling techniques for measuring soil bulk density. J. Arboric. 20: 160-164."},
+    {"type": "bibliography-entry", "text": "McFee, W.W. and Stone, E.L., 1965. Quantity, distribution and variability of organic matter and nutrients in a forest podzol in New York. Soil Sci. Soc. Am. Proc. 29: 432-436."},
+    {"type": "bibliography-entry", "text": "Olsson, B.A., Bengtsson, J., and Lundkvist, H. 1996. Effects of different forest harvest intensities on the pools of exchangeable cations in coniferous forest soils. Forest Ecol. Manag. 84: 135-147."},
+    {"type": "bibliography-entry", "text": "Page-Dumroese, D.S., Jurgensen, M.F., Brown, R.E., and Mroz, G.D. 1999. Comparison of methods for determining bulk densities of rocky forest soils. Soil Sci. Soc. Am. J. 63: 379-383."},
+    {"type": "bibliography-entry", "text": "Palmer, C.J., Smith, W.D., and Conkling, B.L. 2002. Development of a protocol for monitoring status and trends in forest soil carbon at a national level. Environ. Pollut. 116: S209-S219."},
+    {"type": "bibliography-entry", "text": "Parfitt, R.L., Percival, H.J., Dahlgren, R.A., and Hill, L.F. 1997. Soil and solution chemistry under pasture and radiata pine in New Zealand. Plant Soil 191: 279-290."},
+    {"type": "bibliography-entry", "text": "Pennock, D.J. 2004. Designing field studies in soil science. Can. J. Soil Sci. 84: 1-10."},
+    {"type": "bibliography-entry", "text": "Powers, R.F. 1991. Are we maintaining productivity of forest lands? Establishing guidelines Sampling Forest Soils 23 through a network of long-term studies. In: A.E. Harvey and L.F. Neuenschwander, compilers. Proceedings—Management and Productivity of Western Montane Forest Soils. General Technical Report. INT-GTR-280. April 10-12, 1990, USDAForest Service, Washington, DC, 70-89."},
+    {"type": "bibliography-entry", "text": "Quesnel, H.J. and Lavkulich, L.M. 1980. Nutrient availability of forest floors near Port Hardy, British Columbia, Canada. Can. J. Soil Sci. 60: 565-573."},
+    {"type": "bibliography-entry", "text": "Snedecor, G.W. and Cochran, W.G. 1980. Statistical Methods, 7ᵗʰ edn. IowaStateUniversity Press, Ames, AI, 507.", "inlineNotation": ["7ᵗʰ"]},
+    {"type": "bibliography-entry", "text": "van Wesemael, B. and Veer, M.A.C. 1992. Soil organic matter accumulation, litter decomposition and humus forms under Mediterranean-type forests in southern Tuscany, Italy. J. Soil Sci. 43: 133-144."},
+    {"type": "translator-credit", "text": "（李晓晶 译，李永涛　翁莉萍 校）"},
+    {"type": "printed-page-number", "text": "19"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "123eda1d9816fa9eb39e0f79c67dfbe72b844cde6a6d3ff0e429ac3c9b57dce6"
+}

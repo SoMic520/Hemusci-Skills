@@ -1,0 +1,89 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 542,
+  "sourceImageSha256": "29609b0cb4d7ef79d4efeb639a3d7718f361ce233d49fd9ac661223176f9c436",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行逐式对照原分辨率页面和两套OCR，接续F/R关系，完成式（54.4）～（54.6）、54.3及表54.2前半"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验δ与‰、R_sample/R_standard、atom%转换、m/z 2/3/28/44/45、全部核素上下标及V-SMOW/V-PDB绝对R"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由表54.2氮行反向复核至跨页句，代数复核三式并检查m/z45同量异位干扰和印刷页码511"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph-continuation",
+      "scope": "54.2",
+      "text": "[承第541页] 因而在二同位素近似下F与R具有式（54.4）的精确关系。自然丰度研究用δ表示样品R相对于国际标准R的千分偏差；富集稀有同位素时δ>0，贫化时δ<0，与标准相同则δ=0。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "式（54.4）",
+      "text": "R=F/(1−F)只在F的分母恰为所选稀有同位素与主同位素之和时严格成立；O、S等存在多个不可忽略稀有稳定同位素时，若F按全部同位素定义，应使用完整分母。"
+    },
+    {
+      "type": "paragraph",
+      "text": "按表54.2的国际标准R，可把δ转换为样品R、F或atom%。δ必须连同核素和标准体系报告，例如δ¹³C_VPDB（‰）；单写δ值不足以复现。"
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "number": "54.3",
+      "title": "同位素比质谱仪的使用"
+    },
+    {
+      "type": "paragraph",
+      "text": "气体IRMS用电子轰击电离，先把待测元素定量转成合适气体。全C/δ¹³C分析把碳酸盐、植物残体、芳香/脂肪族化合物和炭等全部氧化成CO₂；检测m/z 44和45，而不是直接检测质量数12和13，主离子分别为¹²C¹⁶O₂⁺与¹³C¹⁶O₂⁺。"
+    },
+    {
+      "type": "paragraph",
+      "text": "软件把各m/z离子流换算为δ，并校正同量异位干扰，例如m/z45同时含¹³C¹⁶O₂⁺与¹²C¹⁷O¹⁶O⁺。N₂O等气体也需按具体软件和测量方案做相应校正。"
+    },
+    {
+      "type": "paragraph",
+      "text": "IRMS基本部件：真空系统、样气入口、电子电离离子源、加速区、磁扇形质量分离器、法拉第杯收集器，以及控制、采集、存储和处理计算机。"
+    },
+    {
+      "type": "table-introduction",
+      "number": "表54.2",
+      "title": "轻元素IRMS分析气体、m/z、干扰与国际标准（前半；续见第543页）"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "54.4",
+      "display": "R = F/(1−F)；F = R/(R+1)",
+      "meaning": "二同位素体系中原子分数与稀有/主同位素比的互换"
+    },
+    {
+      "id": "54.5",
+      "display": "δ_sample (‰) = [(R_sample/R_standard) − 1] × 1000",
+      "meaning": "相对于国际标准的同位素组成千分偏差"
+    },
+    {
+      "id": "54.6",
+      "display": "atom% = 100 × {R_standard[1+(δ/1000)]}/{1+R_standard+(R_standard×δ/1000)}",
+      "meaning": "二同位素近似下由δ和标准R换算原子百分数"
+    }
+  ],
+  "tables": [
+    {
+      "id": "table-54.2-part1",
+      "title": "IRMS轻元素分析条件（前半）",
+      "columns": ["元素", "分析气体", "目标m/z及离子", "干扰m/z及离子", "国际标准与绝对R"],
+      "rows": [
+        ["氢", "H₂", "2: ¹H¹H⁺；3: ²H¹H⁺", "3: ¹H¹H¹H⁺（H₃⁺）", "V-SMOW；²R=0.000 155 76"],
+        ["碳", "CO₂", "44: ¹²C¹⁶O¹⁶O⁺；45: ¹³C¹⁶O¹⁶O⁺", "45: ¹²C¹⁷O¹⁶O⁺", "V-PDB；¹³R=0.011 237 2"],
+        ["氮", "N₂", "28: ¹⁴N¹⁴N⁺", "—", "[续见第543页]"]
+      ]
+    }
+  ],
+  "contentSha256": "8d7eb82b5e16b8de89cbfb4f6711e3b1c52cb6f4537c6d85445aa006cd8e5b53"
+}

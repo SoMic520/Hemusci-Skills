@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 215,
+  "sourceImageSha256": "3a0766e4295f77ebc06ef4933af393924faf00988bf69e1be4c6cd0973d3559e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第22章第184页，并与Apple Vision、PaddleOCR交叉比对，人工恢复杜马斯法续文、样品研磨制备要求及本页13条参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验NH₃/N₂、＜50 mg、2 mm/10目、＜100目、1.5～2 min、60～70 ℃、NH₄⁺-N、作者缩写、期刊卷页及原印连写"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Goh未完条目反向复核至页首跨页续句，确认段落层级、13条文献顺序、原印sulfurin/Society ofAmerica等连写及页码184"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph-continuation", "continuedFromPreviousPage": true, "text": "示踪研究时，可以避免消煮、蒸馏、滴定、蒸发，以及将NH₃氧化为N₂的步骤。"},
+    {"type": "paragraph", "text": "由于一些仪器所需要的样品量较少（＜50 mg），所以样品变异性与燃烧设备有关。Schepers等（1989）建议在燃烧分析前用球磨仪将植物和土壤样品进行粉碎。Arnold和Schepers（2004）提出在研磨土壤和植物样品时，可以简单地使用滚筒碾粉机代替球磨仪。更多关于样品研磨和制备的信息见Bremner（1996）、Kowalenko（2001）、Perez等（2001）及Wang等（1993）发表的文章。"},
+    {"type": "paragraph", "text": "建议将土壤样品风干并过2 mm（10目）筛，然后用球磨仪（例如，型号为MM2的Brinkmann混合研磨机）将样品磨细。当研磨机设置为最大功率时，将土壤研磨成细粉（＜100目）需要1.5～2 min。确保在下批样品研磨前将研磨腔和研磨球清理干净。若研磨树脂类样品，则需要在样品中加一勺纯石英砂以便将树脂样品从研磨腔和研磨球上清理下来（约30 s），并在下次样品研磨前将研磨腔和研磨球擦拭干净并抽真空。研磨后的样品应该在60～70 ℃下烘干过夜，于干燥器中冷却后再称量分析。"},
+    {"type": "references-heading", "text": "参考文献"},
+    {"type": "reference-entry", "text": "Arnold, S.L. and Schepers, J.S. 2004. A simple roller-mill grinding procedure for plant and soil samples. Commun. Soil Sci. Plant Anal. 35: 537-545."},
+    {"type": "reference-entry", "text": "Artiola, J.F. 1990. Determination of carbon, nitrogen and sulfurin soils, sediments and wastes: a comparative study. Int. J. Environ. Chem. 41: 159-171."},
+    {"type": "reference-entry", "text": "Bellomonte, G., Costantini, A., and Giammarioli, S.1987. Comparison of modified automatic Dumas method and the traditional Kjeldahl method for nitrogen determination in infant food. J. Assoc. Off. Anal. Chem. 70: 227-229."},
+    {"type": "reference-entry", "text": "Bremner, J.M. 1996. Nitrogen-total. In: D.L.Sparks et al., eds. Methods of Soil Analysis, Part3—Chemical Methods. Soil Science Society ofAmerica, American Society of Agronomy, Madison, WI, 1085-1121."},
+    {"type": "reference-entry", "text": "Bremner, J.M. and Breitenbeck, G.A. 1983. A simple method for determination of ammonium in semimicro-Kjeldahl analysis of soils and plant materials using a block digester. Commun. SoilSci. Plant Anal. 14: 905-913."},
+    {"type": "reference-entry", "text": "Chang, C.W. and Laird, D.A. 2002. Near-infrared reflectance spectroscopic analysis of soil C and N. Soil Sci. 167: 110-116."},
+    {"type": "reference-entry", "text": "Christianson, C.B. and Holt, L.S. 1989. Rapid digestion procedure for the determination of total N and nitrogen-15 content of soils. Soil Sci.Soc. Am. J. 53: 1917-1919."},
+    {"type": "reference-entry", "text": "Corti, G., Agnelli, A., and Ugolini, F.C. 1999. A modified Kjeldahl procedure for determining strongly fixed NH₄⁺-N. Eur. J. Soil Sci. 50: 523-534."},
+    {"type": "reference-entry", "text": "Dalal, R.C., Sahrawat, K.L., and Myers, R.J.K.1984. Inclusion of nitrate and nitrite in the Kjeldahl nitrogen determination of soils and plant materials using sodium thiosulphate. Commun. Soil Sci. Plant Anal. 15: 1453-1461."},
+    {"type": "reference-entry", "text": "DuPreez, D.R. and Bate, G.C. 1989. A simple method for the quantitative recovery of nitrate-N during Kjeldahl analysis of dry soil and plant samples. Commun. Soil Sci. Plant Anal. 20: 345-357."},
+    {"type": "reference-entry", "text": "Etheridge, R.D., Pesti, G.M., and Foster, E.H.1998. A comparison of nitrogen values obtained utilizing the Kjeldahl nitrogen and Dumas combustion methodologies (Leco CNS 2000) on samples typical of an animal nutrition analytical laboratory. Anim. Feed Sci. Technol. 73: 21-28."},
+    {"type": "reference-entry", "text": "Fiedler, R. and Proksch, G. 1975. The determination of nitrogen-15 by emission and mass spectrometry in biochemical analysis: a review. Anal. Chim. Acta 78: 1-62."},
+    {"type": "reference-entry", "continued": true, "text": "Goh, K.M. 1972. Comparison and evaluation of methods for including nitrate in the total determination of soils. J. Sci. Food Agric."},
+    {"type": "printed-page-number", "text": "184"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "bc62263a5293e6db8bfb99786226f8a3860c89ca76c2a4f9323650304406955d"
+}

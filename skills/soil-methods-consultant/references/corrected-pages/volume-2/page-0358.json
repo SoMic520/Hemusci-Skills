@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 358,
+  "sourceImageSha256": "30acdc6e36e1f3fec3a5f0ef8990736887a95aa50c0d70d130c93c07540b5a64",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对封底出版标识、ISBN、定价、册数、责任编辑和封面设计"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "逐位核对ISBN 978-7-121-41908-9和定价480.00元"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "CRC Press/Taylor & Francis Group、since 1798及中文署名二次反查"
+    }
+  },
+  "blocks": [
+    {
+      "type": "back-cover",
+      "publisherMarks": [
+        "CRC Press",
+        "Taylor & Francis Group",
+        "Since 1798"
+      ],
+      "isbn": "978-7-121-41908-9",
+      "price": "480.00元（上、下册）",
+      "responsibleEditor": "缪晓红",
+      "coverDesign": "知行兆远",
+      "artwork": "作物地上部与根系剖面线描"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c5a5240790e677e945c370ce3e7480ea5e165991803307ff16e447360eae69e1"
+}

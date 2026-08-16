@@ -1,0 +1,48 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 107,
+  "sourceImageSha256": "686a002a4d445ce7e0b990e00590353f9101a5961a4059317c5f5a5ebf4ff9f0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐步对照原分辨率图和两套OCR，完成式（64.4）～（64.5）、Pt微电极制作5步及插入土壤本页内容"},
+    "precisionPass": {"status": "verified", "method": "核验0.00497及其量纲、18/20/22号线、3 cm、1.25 cm、>98%、1 mL、1 mm、3.5 M、3.33 mM、0.1 M、425±10 mV、19个月"},
+    "secondVisualPass": {"status": "verified", "method": "由参比电极跨页句反向复核至式（64.4），检查g·m⁻²·min⁻¹、g·A⁻¹·min⁻¹、上下标、浓度单位和正负号；印刷页码616"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "式（64.3）中n=4，F=96485 C·mol⁻¹，A为暴露电极表面积（m²）；fₜ,ₐ表示给定极化时间t和半径a电极的O₂通量。重排得式（64.4），换算为质量通量得式（64.5）。"},
+    {"type": "heading", "number": "64.4.1.2", "title": "Pt微电极的制作", "level": 4},
+    {"type": "paragraph", "text": "装有液态汞接头的玻璃管电极已多被更坚固、环境风险更低的设计替代。可参考Letey和Stolzy（1964）、Farrell等（2002）及Wafer等（2004）。书中作者常用制作步骤如下。"},
+    {"type": "procedure-steps", "items": [
+      "(1) 按所需长度截取绝缘18号铜导线，两端各剥去约3 cm绝缘层。",
+      "(2) 将长1.25 cm的20号或22号Pt丝（纯度>98%）点焊到铜线；处理连接部位后套上能完全覆盖Pt–Cu接头的热缩管并缓慢加热收缩。套管前可在焊点涂少量船用环氧树脂以加强密封。",
+      "(3) 将Cu–Pt线装入一次性1 mL塑料移液器吸头作为模具，仅露出约1 mm Pt丝；吸头内灌满船用环氧树脂并固化，以降低饱和条件下探头劣化。",
+      "(4) 环氧固化后，将镀金引脚连接器焊到Cu线以连接电流计；测试和使用前用适用于贵金属的清洗剂清洁外露Pt端。",
+      "(5) 以Ag/AgCl参比电极测试，盐桥为3.5 M KCl。电极置于含3.33 mM亚铁氰化钾、3.33 mM铁氰化钾和0.1 M KCl的氧化还原缓冲液，记录电池电位；425±10 mV为书中验收值。"
+    ]},
+    {"type": "paragraph", "text": "环氧封死Pt–Cu接头后，损坏时难以回收Pt。Wafer等（2004）改用青铜焊条作主体：Pt尖焊入一端小孔，Cu连接线焊入另一端小孔，热缩管覆盖焊点，再加脊状绝缘接线柱并仅露少量Pt尖。该设计便于制作、维修，文献报告可稳定测氧化还原电位19个月。"},
+    {"type": "heading", "number": "64.4.1.3", "title": "插入土壤和测定ODR", "level": 4},
+    {"type": "procedure-steps", "items": [
+      "表层测定时用手谨慎插入Pt微电极，避免损坏Pt尖。先用塑料或金属细棒钻略小于电极直径、且比目标深度浅1～2 cm的引孔，以减少目标区扩散路径扰动。",
+      "下层土壤可埋设电极，但长期污染风险使其通常不推荐；也可用细导管插入/拔出，随后密封导管顶端并尽量减小电极上方死体积。",
+      "Pt电极就位后，以甘汞或Ag/AgCl参比电极通过饱和KCl或3.5 M KCl盐桥接触土壤；干土可在盐桥附近滴少量蒸馏水改善接触，但须记录该扰动。"
+    ]},
+    {"type": "source-fidelity-note", "text": "式（64.5）的0.00497由32 g·mol⁻¹×60 s·min⁻¹/(4×96485 C·mol⁻¹)得到；原书将n写成“每摩尔O₂当量数”易误解，已明确为每个O₂完全还原转移4个电子。425±10 mV验收值只适用于所列参比电极、盐桥和氧化还原缓冲体系。"}
+  ],
+  "formulas": [
+    {"label": "(64.4)", "plain": "fₜ,ₐ = ODR = i_lc/(nFA)", "latex": "f_{t,a}=\\mathrm{ODR}=\\frac{i_{lc}}{nFA}", "variables": [
+      {"symbol": "ODR", "meaning": "流向Pt电极表面的O₂摩尔通量（mol·m⁻²·s⁻¹）"},
+      {"symbol": "i_lc", "meaning": "稳定极限电流（A）"},
+      {"symbol": "n", "meaning": "电子转移数，4"},
+      {"symbol": "F", "meaning": "96485 C·mol⁻¹"},
+      {"symbol": "A", "meaning": "暴露Pt表面积（m²）"}
+    ]},
+    {"label": "(64.5)", "plain": "ODR = 0.00497(i_lc/A)", "latex": "\\mathrm{ODR}=0.00497\\left(\\frac{i_{lc}}{A}\\right)", "variables": [
+      {"symbol": "ODR", "meaning": "O₂质量通量（g·m⁻²·min⁻¹）"},
+      {"symbol": "0.00497", "meaning": "O₂质量、电荷与时间换算常数（g·A⁻¹·min⁻¹）"},
+      {"symbol": "i_lc", "meaning": "稳定极限电流（A）"},
+      {"symbol": "A", "meaning": "暴露Pt表面积（m²）"}
+    ], "conditions": ["O₂摩尔质量取32 g·mol⁻¹", "n=4且F=96485 C·mol⁻¹", "若电流用μA或面积用cm²，必须先换算或使用相应成套换算因子"]}
+  ],
+  "tables": [],
+  "contentSha256": "d98f2d9a35f75c4e76325d37510692329ec0f4a6f56ac1b8216791c4d535004b"
+}

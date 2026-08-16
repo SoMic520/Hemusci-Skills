@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 456,
+  "sourceImageSha256": "6afcc98cee65eb94d4629f511b020df2667c2f146dd183587320729a87ea0aa4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率中文页、两套OCR、英文原版参考文献及期刊元数据；恢复作者缩写、卷页、¹³CO₂上下标和跨页条目"},
+    "precisionPass": {"status": "verified", "method": "核验Bottomley续条及18条文献的年份、卷、页；重点将Hassink等（1994）的错误卷号11校正为26(11)，并核对¹³CO₂脉冲标记"},
+    "secondVisualPass": {"status": "verified", "method": "由Leake跨页末条反向逐条复核至Bottomley续条；印刷页码425"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第44章｜土壤食物链特性指示物｜"},
+    {"type": "reference-entry-continuation", "fromPage": 455, "text": "Analysis, Part 2—Microbiological and Biochemical Properties. Soil Science Society of America, Madison, WI, pp. 81–106."},
+    {"type": "reference-entry", "text": "de Ruiter, P.C., van Veen, J.A., Moore, J.C., Brussaard, L., and Hunt, H.W. 1993. Calculation of nitrogen mineralization in soil food webs. Plant and Soil 157: 263–273."},
+    {"type": "reference-entry", "text": "Edwards, C.A. 2000. Soil invertebrate controls and microbial interactions in nutrient and organic matter dynamics in natural and agroecosystems. In D.C. Coleman and P.F. Hendrix, eds. Invertebrates as Webmasters in Ecosystems. CABI Publishing, Wallingford, UK, pp. 141–159."},
+    {"type": "reference-entry", "text": "Ferris, H., Bongers, T., and de Goede, R.G.M. 2001. A framework for soil food web diagnostics: Extension of the nematode faunal analysis concept. Applied Soil Ecology 18: 13–29."},
+    {"type": "reference-entry", "text": "Ferris, H. and Matute, M.M. 2003. Structural and functional succession in the nematode fauna of a soil food web. Applied Soil Ecology 23: 93–110."},
+    {"type": "reference-entry", "text": "Fierer, N., Jackson, J.A., Vilgalys, R., and Jackson, R.B. 2005. Assessment of soil microbial community structure by use of taxon-specific quantitative PCR assays. Applied and Environmental Microbiology 71: 4117–4120."},
+    {"type": "reference-entry", "text": "Fitter, A.H., Gilligan, C.A., Hollingworth, K., Kleczkowski, A., Twyman, R.M., Pitchford, J.W., and Members of the NERC Soil Biodiversity Programme. 2005. Biodiversity and ecosystem function in soil. Functional Ecology 19: 369–377."},
+    {"type": "reference-entry", "text": "Forge, T.A., Bittman, S., and Kowalenko, C.G. 2005. Responses of grassland soil nematodes and protozoa to multi-year and single-year applications of dairy manure slurry and fertilizer. Soil Biology and Biochemistry 37: 1751–1762."},
+    {"type": "reference-entry", "text": "Forge, T.A., Hogue, E., Neilsen, G., and Neilsen, D. 2003. Effects of organic mulches on soil microfauna in the root zone of apple: Implications for nutrient fluxes and functional diversity of the soil food web. Applied Soil Ecology 22: 39–54."},
+    {"type": "reference-entry", "text": "Forge, T.A. and Simard, S.W. 2001. Structure of nematode communities in forest soils of southern British Columbia: Relationships to nitrogen mineralization and effects of clearcut harvesting and fertilization. Biology and Fertility of Soils 34: 170–178."},
+    {"type": "reference-entry", "text": "Freckman, D.W. and Baldwin, J.G. 1990. Nematoda. In D.L. Dindal, ed. Soil Biology Guide. John Wiley & Sons, New York, NY, pp. 155–200."},
+    {"type": "reference-entry", "text": "Frostegård, Å. and Bååth, E. 1996. The use of phospholipid fatty acid analysis to estimate bacterial and fungal biomass in soil. Biology and Fertility of Soils 22: 59–65."},
+    {"type": "reference-entry", "text": "Griffiths, B.S. and Ritz, K. 1988. A technique to extract, enumerate and measure protozoa from mineral soils. Soil Biology and Biochemistry 20: 163–173."},
+    {"type": "reference-entry", "text": "Guggenberger, G., Frey, S.D., Six, J., Paustian, K., and Elliott, E.T. 1999. Bacterial and fungal cell-wall residues in conventional and no-tillage agroecosystems. Soil Science Society of America Journal 63: 1188–1198."},
+    {"type": "reference-entry", "text": "Hassink, J., Bouwman, L.A., Zwart, K.B., and Brussaard, L. 1993. Relationships between habitable pore space, soil biota and mineralization rates in grassland soils. Soil Biology and Biochemistry 25: 47–55."},
+    {"type": "reference-entry", "text": "Hassink, J., Neutel, A.M., and de Ruiter, P.C. 1994. C and N mineralization in sandy and loamy grassland soils: The role of microbes and microfauna. Soil Biology and Biochemistry 26(11): 1565–1571."},
+    {"type": "source-fidelity-note", "scope": "Hassink等（1994）卷号", "text": "原书将期号11误作卷号；论文为Soil Biology and Biochemistry第26卷第11期，页1565–1571。"},
+    {"type": "reference-entry", "text": "Hunt, H.W., Coleman, D.C., Ingham, E.R., Ingham, R.E., Elliott, E.T., Moore, J.C., Rose, S.L., Reid, C.P.P., and Morley, C.R. 1987. The detrital food web in a shortgrass prairie. Biology and Fertility of Soils 3: 57–68."},
+    {"type": "reference-entry", "text": "Irvine, L., Kleczkowski, A., Lane, A.M.J., Pitchford, J.W., Caffrey, D., and Chamberlain, P.M. 2006. An integrated data resource for modelling the soil ecosystem. Applied Soil Ecology 33: 208–219."},
+    {"type": "reference-entry", "text": "Jones, P.C.T. and Mollison, J.E. 1948. A technique for the quantitative estimation of soil microorganisms. Journal of General Microbiology 2: 54–69."},
+    {"type": "reference-entry", "text": "Leake, J.R., Ostle, N.J., Rangel-Castro, J.I., and Johnson, D. 2006. Carbon fluxes from plants through soil organisms determined by field ¹³CO₂ pulse-labelling in an upland grassland. Applied Soil Ecology 33: 152–175."},
+    {"type": "printed-page-number", "text": "425"}
+  ],
+  "formulas": [
+    {"id": "ref-44-Leake-isotope", "plain": "¹³CO₂", "context": "Leake等（2006）的现场碳同位素脉冲标记；13为左上标，2为右下标"}
+  ],
+  "tables": [],
+  "contentSha256": "1440f20ae9584d4de771c066f321b42e211384209d602c9f2dcfb07a601b0631"
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 520,
+  "sourceImageSha256": "f91fa5dfb786263bc4e145068d44f9d377fbb04ee9bfa6c6a512464def321515",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成色谱分离氨基酸/氨基糖、51.2.3及51.3全文"},
+    "precisionPass": {"status": "verified", "method": "核验6 mol·L⁻¹ HCl、12 h、105 °C方法语境、NH₄OH、440/570 nm、约50%、季铵基团及水/NaOH/乙酸钠三级梯度"},
+    "secondVisualPass": {"status": "verified", "method": "由页末‘不需要衍生化’反向复核至色谱分离题，检查N-五氟丙酰基、NH₄OH、α-NH₂、方法层级和印刷页码489"}
+  },
+  "blocks": [
+    {"type": "method-heading", "level": 4, "title": "色谱分离法分析氨基酸和氨基糖"},
+    {"type": "paragraph", "text": "盐酸水解产物中的单体氨基酸、氨基糖可用多种色谱法测定。反相HPLC-柱前衍生-荧光检测灵敏，但土壤基质干扰大，不能不经净化直接套用蛋白质水解物方法。可用HF溶解硅酸盐矿物、阳离子交换净化，或直接分析土壤溶液中的游离氨基酸。"},
+    {"type": "paragraph", "text": "测定氨基酸对映体时，先把酸水解液中的氨基酸吸附到阳离子交换树脂，以0.1 mol·L⁻¹草酸去除金属和干扰，再用2.5 mol·L⁻¹ NH₄OH洗脱；将氨基酸转化为N-五氟丙酰基氨基酸异丙酯，以手性色谱进行GC测定。"},
+    {"type": "source-fidelity-note", "scope": "51.2.2衍生物名称", "text": "原书把N-pentafluoropropionyl-amino acid isopropyl esters误译为‘N-五氟丙氨酸异丙酯’，会被理解成某种丙氨酸衍生物；正确为‘N-五氟丙酰基氨基酸异丙酯’。"},
+    {"type": "paragraph", "text": "常规土壤氨基酸分析多用强阳离子交换色谱-茚三酮柱后衍生：酸性水解液中的带正电氨基酸先吸附，随后以pH、NaCl浓度和温度梯度洗脱。茚三酮与氨基酸、多肽、伯胺、NH₃及α-氨基反应；脯氨酸和羟脯氨酸在440 nm测定，其他产物在570 nm测定。该法运行较长、灵敏度低于荧光法，但较少受土壤其他化合物产生的荧光干扰。"},
+    {"type": "paragraph", "text": "不同厂家氨基酸分析仪的程序略有差异，必须按制造商说明选择试剂与梯度；早期Stevenson（1965）程序已随柱性能改进而逐渐淘汰。"},
+    {"type": "section-heading", "level": 3, "number": "51.2.3", "title": "注释"},
+    {"type": "note", "number": "（1）", "text": "酸水解和蒸汽蒸馏设备成本较低；色谱分离需更专业的设备与平台。"},
+    {"type": "note", "number": "（2）", "text": "HCl水解存在不完全溶解、氨基断裂释放NH₄⁺及部分氨基酸过度降解，导致N回收率低；通常仅约50%的土壤N能以氨基酸N检出。"},
+    {"type": "section-heading", "level": 2, "number": "51.3", "title": "甲磺酸水解、阴离子色谱-脉冲安培法分析单体氨基酸和氨基糖"},
+    {"type": "paragraph", "text": "以MSA替代HCl水解可较好保留部分不稳定氨基酸。加热水解后把上清液调为碱性，使氨基化合物带负电；上清通过带季铵基团的强阴离子交换柱，氨基化合物被选择性吸附，再依次用水、NaOH和乙酸钠三级梯度洗脱。采用脉冲安培检测，因分离基于阴离子交换而无需化学衍生。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e609c382a8171709fb1676e8d58c2a02276724ddef0e7b0e7984375c2b0b0f9c"
+}

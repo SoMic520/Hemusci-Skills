@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 239,
+  "sourceImageSha256": "743ee0f6e71dd0783b7244ee9b43202417e63d05b197d2e727d545a77b22f654",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第208页，并与Apple Vision、PaddleOCR交叉比对，人工恢复图24.1全部图例、比例、横坐标、结构式标签、图注及材料与试剂（1）～（8）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验³¹P、PL、DNA、PPM、2/26/54/16/1/1%与0/84/11/3/1/1%、500 MHz（质子）、10 mm、10 mol·L⁻¹、20 g、30/50 mL"},
+    "secondVisualPass": {"status": "verified", "method": "自页末试剂（8）反向复核到图24.1上方，确认苹果叶与圣华金土壤两组比例、六类磷形态、谱图区间、图注、八项材料层级和印刷页码208"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "figure", "number": "24.1", "title": "NIST苹果叶参比标准样和圣华金土壤标准样品的³¹P核磁共振图谱", "details": {"heading": "NIST参比物质", "xAxis": "PPM；主谱标示20、10、0、−10、−20；土壤插图标示4、2、0、−2、−4 PPM", "appleLeaf": {"磷酸膦": "2%", "正磷酸盐": "26%", "单酯": "54%", "二酯": "16%", "焦磷酸盐": "1%", "多磷酸盐": "1%"}, "sanJoaquinSoil": {"磷酸膦": "0%", "正磷酸盐": "84%", "单酯": "11%", "二酯": "3%", "焦磷酸盐": "1%", "多磷酸盐": "1%"}, "structuralLabels": ["磷酸膦", "正磷酸盐", "正磷酸盐单酯", "正磷酸盐二酯", "焦磷酸盐", "多磷酸盐", "PL", "DNA"], "caption": "NIST苹果叶参比标准样和圣华金土壤标准样品的³¹P核磁共振图谱，表明这个方法可以给出含磷化合物的范围及其在苹果叶和土壤样品中的相对丰度（PL指磷脂，DNA指脱氧核糖核酸）。插入的土壤光谱表明可以扩展到正磷酸盐单酯、二酯及焦磷酸区。"}},
+    {"type": "body", "text": "详细描述³¹P核磁共振光谱仪的工作原理超过了这一章的范畴，确切的分析步骤也随每台仪器的不同而异，请参见Cade-Menun（2005）“用³¹P核磁共振法成功测定土壤浸提液的重要思考”一文。这里只给出了用于³¹P核磁共振光谱的土壤样品浸提方法。"},
+    {"type": "procedure-group", "number": "1.", "title": "材料与试剂", "method": "24.4.1 NaOH-EDTA浸提—液态³¹P核磁共振光谱法"},
+    {"type": "material-item", "number": "（1）", "text": "带螺纹盖的50 mL聚丙烯离心管。"},
+    {"type": "material-item", "number": "（2）", "text": "可以容纳上述离心管的机械振荡机。"},
+    {"type": "material-item", "number": "（3）", "text": "涡旋混合器（选用）。"},
+    {"type": "material-item", "number": "（4）", "text": "离心机。"},
+    {"type": "material-item", "number": "（5）", "text": "冰箱。"},
+    {"type": "material-item", "number": "（6）", "text": "冻干机。"},
+    {"type": "material-item", "number": "（7）", "text": "带宽频探针的核磁共振光谱仪。理想的是用500 MHz（质子）光谱仪和10 mm探针（见Cade-Menun，2005）。"},
+    {"type": "reagent-item", "number": "（8）", "name": "10 mol·L⁻¹氢氧化钠溶液", "text": "将20 g NaOH溶解于约含30 mL蒸馏水或去离子水的50 mL容量瓶中，", "continued": true},
+    {"type": "printed-page-number", "text": "208"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "5be06c3cebfb430d4269ae81f6d23b939aa94e421214d73f85dc160f529c8f00"
+}

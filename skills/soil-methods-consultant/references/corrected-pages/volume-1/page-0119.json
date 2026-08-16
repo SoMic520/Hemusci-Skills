@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 119,
+  "sourceImageSha256": "6550ed67d56921dfbd5e761c314746680fb282f312ab1417355988071df743d4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐条对照原分辨率正文和参考文献，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复10.5.3续句、10.5.4及Alkema至Quevauviller各条"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验5%=0.05、DF、30 min、NLET-TN01-009、Medicago sativa L.、Bélanger、期刊卷页、作者缩写及原书Mibarger/sludgeamended/2003.A等排印"},
+    "secondVisualPass": {"status": "verified", "method": "由含水量续句至Quevauviller 1998反向复核，确认微波安全注释、参考条目跨行合并、题名标点和印刷页码88"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "continuation": true, "text": "5%=0.05）；DF是稀释倍数。", "inlineNotation": ["5%=0.05", "DF"]},
+    {"type": "section-heading", "level": 3, "number": "10.5.4", "title": "注释"},
+    {"type": "paragraph", "text": "请参阅制造商的说明正确使用微波消解系统。由于需在反应容器上加高压，因此使用专门为此目的设计的专用微波消解系统十分重要。除了加热过程中有容器爆炸的危险，打开容器前适当将其冷却也很重要。建议在冰浴中放置30 min。", "inlineNotation": ["30 min"]},
+    {"type": "section-heading", "level": 2, "number": null, "title": "参考文献"},
+    {"type": "reference-entry", "text": "Alkema, H. and Blum, J. 2001. Ecosystem Performance Evaluation QA Program: Trace Elements in Sediments—Study 01. National Water Research Institute, National Laboratory for Environmental Testing (NLET-TN01-009), Environment Canada, ON, Canada, 62."},
+    {"type": "reference-entry", "text": "Beckett, P.T.H. 1989. The use of extractants in studies on trace metals in soils, sewage sludges and sludge-treated soils. Adv. Soil Sci. 9: 144-176."},
+    {"type": "reference-entry", "text": "Bongers, M., Rusch, B., and van Gestel, C.A.M. 2004. The effect of counterion and percolation on the toxicity of lead for the springtail Folsomia candida in soil. Environ. Toxicol. Chem. 23: 195-199."},
+    {"type": "reference-entry", "text": "De Gregori, I., Fuentes, E., Olivares, D., and Pinochet, H. 2004. Extractable copper, arsenic and antimony by EDTA solution from agricultural Chilean soils and its transfer to alfalfa plants (Medicago sativa L.). J. Environ. Monit. 6: 38-47."},
+    {"type": "reference-entry", "text": "Gray, C.W., McLaren, R.G., and Shiowatana, J. 2003. The determination of labile cadmium in some biosolids-amended soils by isotope dilution plasma mass spectrometry. Aust. J. Soil Res. 41: 589-597."},
+    {"type": "reference-entry", "text": "Hall, G.E.M., Vaive, J.E., Beer, R., and Hoashi, M. 1996. Selective leaches revisited, with emphasis on the amorphous Fe oxyhydroxide phase extraction. J. Geochem. Explor. 56: 59-78."},
+    {"type": "reference-entry", "text": "Houba, V.J.G., Lexmond, T.M., Novozamsky, I., and van der Lee, J.J. 1996. State of the art and future developments in soil analysis for bioavailability assessment. Sci. Total Environ. 178: 21-28."},
+    {"type": "reference-entry", "text": "Lo, I.M.C. and Yang, X.Y. 1998. Removal and redistribution of metals from contaminated soils by a sequential extraction method. Waste Manage. 18: 1-7."},
+    {"type": "reference-entry", "text": "MacDonald, J.D., Bélanger, N., and Hendershot, W.H. 2004a. Column leaching using dry soil reproduces solid-solution partitioning observed in zero-tension lysimeters: 1. Method development. Soil Sediment Contam. 13: 361-374."},
+    {"type": "reference-entry", "text": "MacDonald, J.D., Bélanger, N., and Hendershot, W.H. 2004b. Column leaching using dry soil reproduces solid-solution partitioning observed in zero-tension lysimeters: 2. Trace metals. Soil Sediment Contam. 13: 375-390."},
+    {"type": "reference-entry", "text": "McBride, M.B., Mibarger, E.A., Richards, B.K., and Steenhuis, T. 2003. Trace metal accumulation by red clover grown on sewage sludgeamended soils and correlation to Mehlich 3 and calcium chloride-extractable metals. Soil Sci. 168: 29-39."},
+    {"type": "reference-entry", "text": "Mihaljevic, M., Ponavic, M., Ettler, V., and Sebek, O. 2003.A comparison of sequential extraction techniques for determining arsenic fractionation in synthetic mineral mixtures. Anal. Bioanal. Chem. 377: 723-729."},
+    {"type": "reference-entry", "text": "Ming, C. and Ma, L.Q. 1998. Comparison of four USEPA digestion methods for trace metal analysis using certified and Florida soils. J. Environ. Qual. 27: 1294-1300."},
+    {"type": "reference-entry", "text": "Peijnenburg, W.J.M., Posthuma, L., Zweers, P.G.P., Baerselman, R., de Groot, A.C., van Ween, R.P.M., and Jager, T. 1999. Prediction of metal bioavailability in Dutch field soils for the oligochaete Enchytraeus crypticus. Exotoxicol. Environ. Saf. 43: 170-186."},
+    {"type": "reference-entry", "text": "Quevauviller, P.H. 1998. Operationally defined extraction procedures for soil and sediment analysis. I. Standardization. Trends Anal. Chem. 17: 289-298."},
+    {"type": "printed-page-number", "text": "88"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ca578de25e2b2e0a2146bf405e7f482ee2874e98a2c493f27787ee96f6660067"
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 135,
+  "sourceImageSha256": "9370cad1dd0db5a4127c19461b8f11e41a2ff52e6ad77d89b303fe5b9c76faf4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成第68章章名、4位作者机构、68.1全文及68.2跨页起始"},
+    "precisionPass": {"status": "verified", "method": "核验INH–INRA–University of Angers、吸湿/脱湿滞后、气体扩散、水分保持、空气含量和非饱和导水率术语"},
+    "secondVisualPass": {"status": "verified", "method": "由68.2跨页句反向复核至章名，检查适用对象、扰动条件、容器/灌溉边界及wetting/water repellency关系；本页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter", "number": "68", "title": "有机土和栽培基质的物理性质：水、空气的存储和流体动力学"},
+    {"type": "authors", "items": [
+      "J. Caron，Laval University，Quebec, Quebec, Canada",
+      "D.E. Elrick，University of Guelph，Guelph, Ontario, Canada",
+      "J.C. Michel，INH–INRA–University of Angers，Angers, France",
+      "R. Naasz，Laval University，Quebec, Quebec, Canada"
+    ]},
+    {"type": "heading", "number": "68.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "除粒径分布和分解度外，还需测定栽培基质和泥炭的其他特定性质，才能正确描述和利用这些材料。干泥炭润湿性低，评价园艺用途时必须考虑。泥炭物理性质的基本测定与矿质土壤相似，但为标准化泥炭测试已作相应改进；栽培基质还须模拟其特殊使用条件。为减少人为扰动，并反映盆栽布置、灌溉设施和栽培类型等条件，已建立专门的栽培基质方法。"},
+    {"type": "paragraph", "text": "分析有机土和栽培基质时，除样品扰动外，必须考虑润湿性和吸湿—脱湿滞后。可按方法规定用热水或润湿剂处理，或预先润湿；这些预处理必须完整报告。滞后是指同一材料在脱湿路径和吸湿路径上的性质不同，许多栽培基质表现明显。因此，应按用途（温室或苗圃）、目标水势范围及容器形状、灌溉设备等条件，分别测定吸湿和脱湿路径上的气体扩散、水分保持、空气含量、饱和/非饱和导水率等性质。本章方法适于低扰动样品，并明确区分吸湿与脱湿过程。"},
+    {"type": "heading", "number": "68.2", "title": "湿润性（或斥水性）", "level": 2},
+    {"type": "paragraph", "text": "泥炭虽能储存大量水分，风干泥炭却可能表现强烈疏水性（Fuchsman，1986）。商业生产可加表面活性剂或矿物成分改变疏水性（Michel，1998），但使用泥炭基质前应先测湿润性，据此判断是否需要润湿剂。"},
+    {"type": "paragraph", "text": "复湿时，有机质是影响亲水性或斥水性的关键组分（Jouany等，1992；Dekker等，2000；Michel等，2001）。变干后的有机土或其他栽培基质中水流速率高度不均，斥水性会导致的后果续见下页。"},
+    {"type": "source-fidelity-note", "text": "“湿润性”和“斥水性”不是同义词，而是从相反方向描述水进入材料的难易；检索与报告时须说明所用指标是润湿时间、接触角还是水滴入渗时间等。原书把吸湿/脱湿路径中的“饱和导水率等”与“非饱和导水率”连写不清，此处按原段落列出两类但不替方法预设指标。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "5b1ef2cd2d2d4b5b3f7b5d436f986e72b95d3c05d1892587142329879c13bfa5"
+}

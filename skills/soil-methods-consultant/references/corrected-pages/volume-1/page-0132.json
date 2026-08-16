@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 132,
+  "sourceImageSha256": "3d2fbc4340ccf1a6f61843094c3f4a427494f75ee783db80bdd4f003bcf9e875",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐行对照原分辨率参考文献终页，并与Apple Vision、PaddleOCR交叉比对，人工合并Sims至Webber全部断行"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者缩写、buffer-pH、pH 5.5/6.0、Methods of Soils Analysis原书书名、2nd edn.、卷页和机构地名"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至Sims条目，确认Webber作者间逗号、van Lierop,W.原书紧连写法和印刷页码101"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第12章｜石灰需求量｜"},
+    {"type": "reference-entry", "text": "Sims, J.T. 1996. Lime requirement. In: D.L. Sparks et al., eds. Methods of Soils Analysis, Part 3. SSSA, Madison, WI, 491-515."},
+    {"type": "reference-entry", "text": "Soon, Y.K. and Bates, T.E. 1986. Determination of the lime requirement for acid soils in Ontario using the SMP buffer methods. Can. J. Soil Sci. 66: 373-376."},
+    {"type": "reference-entry", "text": "Tran, T.S. and van Lierop, W. 1982. Lime requirement determination for attaining pH 5.5 and 6.0 of coarse-textured soils using buffer-pH methods. Soil Sci. Soc. Am. J. 46: 1008-1014."},
+    {"type": "reference-entry", "text": "Tran, T.S. and van Lierop, W. 1993. Lime requirement. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. Canadian Society of Soil Science, Lewis Publishers, CRC Press, Boca Raton, FL, 109-113."},
+    {"type": "reference-entry", "text": "van Lierop, W. 1983. Lime requirement determination of acid organic soils using buffer-pH methods. Can. J. Soil Sci. 63: 411-423."},
+    {"type": "reference-entry", "text": "van Lierop, W. 1989. Effect of assumptions on accuracy of analytical results and liming recommendations when testing a volume or weight of soil. Commun. Soil Sci. Plant Anal. 30: 121-137."},
+    {"type": "reference-entry", "text": "van Lierop,W. 1990. Soil pH and lime requirement. In: R.L. Westerman, ed. Soil Testing and Plant Analysis, 2nd edn. SSSA, Madison, WI, 73-126."},
+    {"type": "reference-entry", "text": "Viscarra Rossel, R.A. and McBratney, A.B. 2003. Modelling the kinetics of buffer reactions for rapid field predictions of lime requirements. Geoderma 114: 49-63."},
+    {"type": "reference-entry", "text": "Warman, P.R., Walsh, I.Y., and Rodd, A.V. 2000. Field testing a lime requirement test for Atlantic Canada, and effect of soil pH on nutrient uptake. Commun. Soil Sci. Plant Anal. 31: 2163-2169."},
+    {"type": "reference-entry", "text": "Webber, M.D., Hoyt, P.B., Nyborg, M., and Corneau, D. 1977. A comparison of lime requirement methods for acid Canadian soils. Can. J. Soil Sci. 57: 361-370."},
+    {"type": "translator-credit", "text": "（陈雅丽 译，李永涛 翁莉萍 校）"},
+    {"type": "printed-page-number", "text": "101"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "b06e77fa9b2e75f84f7e9b8ed10391c0b411c9dd741626229c617170fdc73753"
+}

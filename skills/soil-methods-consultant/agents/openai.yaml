@@ -1,0 +1,6 @@
+interface:
+  display_name: "土壤试验方法顾问"
+  short_description: "本地校正方法优先，生成精美简要的 HTML 与 PDF 实验方案"
+  default_prompt: "使用 $soil-methods-consultant 优先从本地已校正语料选择土壤试验方法，必要时用官方线上资源补充核验，不混合不同来源参数，并生成不附校正原文、可直接执行的简要 HTML 与 A4 PDF 实验方案。"
+policy:
+  allow_implicit_invocation: false

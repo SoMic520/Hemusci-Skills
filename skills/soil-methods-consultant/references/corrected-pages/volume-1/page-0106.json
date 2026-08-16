@@ -1,0 +1,44 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 106,
+  "sourceImageSha256": "e820f3a1b6c0e051bc5e4fa4992db5c8c8ea409897b1a18ce618e64eb82e7638",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复9.3.1续项与四步、9.3.2试剂步骤、9.3.3和9.3.4"},
+    "precisionPass": {"status": "verified", "method": "放大核对NH₄OH、NH₄HCO₃、DTPA、HCl、HNO₃、AB-DTPA、GFAAS、ICP-AES、pH<2及所有g、mL、L、mol/L、r/min、h、min、月、μg/L数值"},
+    "secondVisualPass": {"status": "verified", "method": "依草酸铵步骤、AB-DTPA配制与步骤、钼测定和注释反向复核，确认方法层级、Whatman 42号、1∶1比例、检出限与印刷页码75"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第9章｜硼、钼和硒｜"},
+    {"type": "paragraph", "continuation": true, "text": "水中，转移至1 L容量瓶，用去离子水定容并混合均匀。", "inlineNotation": ["1 L"]},
+    {"type": "section-heading", "level": 4, "number": "2.", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "将土样过2 mm筛，称取15 g样品至250 mL烧杯或锥形瓶中。"},
+      {"number": "（2）", "text": "加入150 mL 0.2 mol/L草酸铵缓冲溶液（pH值为3.0）后用定轨摇床以200 r/min的速度在室温下震荡16 h。"},
+      {"number": "（3）", "text": "上述液体用Whatman 42号滤纸或同规格滤纸过滤。滤液离心20 min。"},
+      {"number": "（4）", "text": "上清液中钼含量的测定如9.3.3节所述。上清液用HNO₃酸化至pH值<2后，在1∶1 HNO₃润洗过的塑料或玻璃容器中最多可保存6个月（APHA，1992）。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "9.3.2", "title": "碳酸氢铵—二乙基三胺五乙酸（AB-DTPA）法提取钼（Soltanpour和Schwab，1977）"},
+    {"type": "section-heading", "level": 4, "number": "1.", "title": "试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "1∶1氢氧化铵（NH₄OH）溶液。"},
+      {"number": "（2）", "text": "AB-DTPA溶液（1 mol/L NH₄HCO₃，0.005 mol/L DTPA pH值调节至7.6）：将1.97 g DTPA和约2 mL 1∶1 NH₄OH溶液溶解于约800 mL去离子水中（1∶1 NH₄OH溶液的加入有助于DTPA溶解并防止起泡），当大部分DTPA溶解后，加入79.06 g NH₄HCO₃并搅拌至完全溶解，用NH₄OH或HCl调节pH值至7.6后，转移至1 L容量瓶并用去离子水定容。"}
+    ]},
+    {"type": "section-heading", "level": 4, "number": "2.", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "将土样过2 mm筛，称取10 g土样至125 mL锥形瓶中，然后加入20 mL AB-DTPA溶液。"},
+      {"number": "（2）", "text": "将装有上述混合物的敞口锥形瓶在往复式摇床中以180 r/min的速度振荡15 min，然后用Whatman 42号滤纸或其他同规格滤纸对上述液体进行过滤。"},
+      {"number": "（3）", "text": "钼含量的测定如9.3.3节所述。滤液的保存方法如9.3.1节（试剂（1））所述。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "9.3.3", "title": "钼的测定"},
+    {"type": "paragraph", "text": "提取液中钼含量采用石墨炉原子吸收光谱仪（GFAAS）或ICP-AES测定。制备GFAAS或ICP测定所用的标准物质必须以提取液作为基质。", "inlineNotation": ["GFAAS", "ICP-AES", "ICP"]},
+    {"type": "paragraph", "text": "由于正常情况下可提取钼一般为10～50 μg/L，因此分析方法必须有较低的检出限。最适合的方法是采用GFAAS（Mortvedt和Anderson，1982）。在用GFAAS测定钼时，建议使用HNO₃（作为强化剂）作为基体改性剂并采用热解涂层石墨管（减少因生成碳化物造成的影响）。使用热解石墨管的检测限是1 μg/L（APHA，1992）。若提取液中钼浓度较高时，火焰原子吸收光谱仪或原子发射光谱仪（无论是直接用或ICP-AES）都可用于钼的测定（Soltanpour等，1996）。ICP-AES的检测限估计是8 μg/L（APHA，1992），因此设定ICP-AES对钼的检测限为80 μg/L或稍低于80 μg/L会更安全。光谱法测定的标准物质必须用AB-DTPA基质溶液配制。在用ICP-AES测定钼之前，需用浓HNO₃处理提取液，即需要将0.5 mL浓HNO₃加入5 mL滤液中，在烧杯中混合均匀后搅拌大约15 min以消除碳酸盐类物质。", "inlineNotation": ["10～50 μg/L", "GFAAS", "HNO₃", "1 μg/L", "ICP-AES", "8 μg/L", "80 μg/L", "AB-DTPA", "0.5 mL", "5 mL", "15 min"]},
+    {"type": "paragraph", "text": "在没有配备ICP-AES或GFAAS的实验室，也可用比色法测定土壤提取液中的钼含量。可参考Gupta和MacKay（1965b）关于比色法测定钼的相关步骤。", "inlineNotation": ["ICP-AES", "GFAAS"]},
+    {"type": "section-heading", "level": 3, "number": "9.3.4", "title": "注释"},
+    {"type": "paragraph", "text": "一般来说，从土壤和矿区废弃物中提取有效态钼，草酸铵法优于AB-DTPA法（Wang et al. 1994）。", "inlineNotation": ["AB-DTPA"]},
+    {"type": "printed-page-number", "text": "75"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2daf53032440b13b39882c27ac9caedc89976f23d105c481cd928fe7dcfeb1dd"
+}

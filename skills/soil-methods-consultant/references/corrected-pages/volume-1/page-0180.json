@@ -1,0 +1,59 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 180,
+  "sourceImageSha256": "fb59d9848150c1835eb5da4231baf7e9cfa0fd79a1f11d2c9029fe2a29ed56cf",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复18.2步骤续文、计算、注释及18.3引言和材料（1）～（2）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验0.1 mL、0.2%、BaCl₂、pH、M⁺、cmol(+) kg⁻¹、cmol(+) L⁻¹、0.03 L、1 000 g·kg⁻¹、DF、BS%、1000 mg L⁻¹和7组10⁻³换算值"},
+    "secondVisualPass": {"status": "verified", "method": "从页末材料（2）反向复核至页首步骤（4）续文，确认式（18.1）～（18.3）的符号、括号、上下标、量纲、质量控制文字和页码149"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第18章｜离子交换与交换性阳离子｜"},
+    {"type": "procedure-step-continuation", "number": "（4）", "text": "0.1 mL的镧溶液和0.1 mL的铯溶液。有关分析和其他相关详情，请参考AAS手册。样品经过0.2%的硝酸溶液酸化后可以防止金属离子，例如，铁和铝等不同价态离子的损失，以便于保存。"},
+    {"type": "procedure-step", "number": "（5）", "text": "若需要，则可以在过滤之前分取部分BaCl₂平衡液用于pH值测定。由于pH电极中的氯化钾盐桥会泄漏大量钾，故用于测定pH值后的样品溶液不能用于钾的测定及pH值的再测定。"},
+    {"type": "section-heading", "level": 3, "number": "18.2.3", "title": "计算"},
+    {"type": "calculation-item", "number": "（1）", "title": "交换性阳离子", "formulaRef": "18.1"},
+    {"type": "formula-explanation", "formulaRef": "18.1", "text": "式中，M⁺是吸附阳离子的浓度（cmol(+) kg⁻¹），C是测得的氯化钡提取液中对应阳离子的浓度（cmol(+) L⁻¹），wt.是土壤样品重（g），DF是稀释倍数。"},
+    {"type": "calculation-item", "number": "（2）", "title": "有效阳离子交换量", "formulaRef": "18.2"},
+    {"type": "calculation-item", "number": "（3）", "title": "碱基饱和度", "formulaRef": "18.3"},
+    {"type": "section-heading", "level": 3, "number": "18.2.4", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "应该保存大量与所分析样品性质相似的土壤，作为指示测量结果随时间变异的参比或质量控制样品。同时每批待测样品应该包括两个质量控制样品。若质量控制样品的测量值超出了要求范围，则整批样品应该重新测定。采用质量控制样品分析可以将同一实验室的不同测量人员测定的样品进行相互校正，并保证测定结果不会因为年份不同或化学试剂的批次不同而发生变化。"},
+    {"type": "note-item", "number": "（2）", "text": "为了简单起见，AAS标准液通常通过将1000 mg L⁻¹的母液稀释至适合仪器测定范围的低浓度溶液来制备，并用相应的cmol(+) L⁻¹值校准仪器。相关的转换值如下："},
+    {"type": "conversion-item", "text": "1 mg·L⁻¹ Ca = 5.00 × 10⁻³ cmol(+) L⁻¹"},
+    {"type": "conversion-item", "text": "1 mg·L⁻¹ Mg = 8.23 × 10⁻³ cmol(+) L⁻¹"},
+    {"type": "conversion-item", "text": "1 mg·L⁻¹ K = 2.56 × 10⁻³ cmol(+) L⁻¹"},
+    {"type": "conversion-item", "text": "1 mg·L⁻¹ Na = 4.35 × 10⁻³ cmol(+) L⁻¹"},
+    {"type": "conversion-item", "text": "1 mg·L⁻¹ Al = 11.11 × 10⁻³ cmol(+) L⁻¹"},
+    {"type": "conversion-item", "text": "1 mg·L⁻¹ Fe = 1.79 × 10⁻³ cmol(+) L⁻¹"},
+    {"type": "conversion-item", "text": "1 mg·L⁻¹ Mn = 3.64 × 10⁻³ cmol(+) L⁻¹"},
+    {"type": "section-heading", "level": 2, "number": "18.3", "title": "基于pH值的CEC和AEC测定（Fey和LeRoux，1976）"},
+    {"type": "paragraph", "text": "在许多研究文献中，Fey和LeRoux（1976）的方法常被用于基于pH值的CEC和AEC的测定，但该方法需要多次饱和及调pH而比较耗时。一种替代性方法是向土壤悬浮液中加入不同数量的酸或碱再来测量所得的pH值。该方法由于步骤较少，减少了因为污染或土壤损失而造成的误差，因此更为快捷且备受欢迎。这种改进方法的唯一缺点是，其较Fey和LeRoux（1976）的方法更难以获得均匀的pH值分布，但可以通过重复分析样品、调节硝酸用量及加入氢氧化钙来校正。"},
+    {"type": "section-heading", "level": 3, "number": "18.3.1", "title": "材料与试剂"},
+    {"type": "material-item", "number": "（1）", "text": "50 mL带螺旋盖的离心管和低速离心机。"},
+    {"type": "material-item", "number": "（2）", "text": "涡旋式离心管混合器和旋转振荡器。"},
+    {"type": "printed-page-number", "text": "149"}
+  ],
+  "formulas": [
+    {
+      "number": "18.1",
+      "context": "交换性阳离子",
+      "display": "M⁺ cmol(+) kg⁻¹ = C cmol(+) L⁻¹ × (0.03 L/wt. g) × 1 000 g·kg⁻¹ × DF",
+      "latex": "M^{+}\\,\\mathrm{cmol}(+)\\,\\mathrm{kg}^{-1}=C\\,\\mathrm{cmol}(+)\\,\\mathrm{L}^{-1}\\times\\left(\\frac{0.03\\,\\mathrm{L}}{\\mathrm{wt.}\\,\\mathrm{g}}\\right)\\times1\\,000\\,\\mathrm{g}\\cdot\\mathrm{kg}^{-1}\\times DF"
+    },
+    {
+      "number": "18.2",
+      "context": "有效阳离子交换量",
+      "display": "有效阳离子交换量 cmol(+) kg⁻¹ = ΣM⁺ cmol(+) kg⁻¹",
+      "latex": "\\text{有效阳离子交换量}\\,\\mathrm{cmol}(+)\\,\\mathrm{kg}^{-1}=\\sum M^{+}\\,\\mathrm{cmol}(+)\\,\\mathrm{kg}^{-1}"
+    },
+    {
+      "number": "18.3",
+      "context": "碱基饱和度",
+      "display": "BS% = (ΣCa + Mg + Na + K/有效阳离子交换量) × 100",
+      "latex": "BS\\%=\\left(\\frac{\\sum Ca+Mg+Na+K}{\\text{有效阳离子交换量}}\\right)\\times100"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "810e86fb8bfe83e3ac2b3b6407bc8cf8d33ee9dbba40b399b34063b327f220c0"
+}

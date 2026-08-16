@@ -1,0 +1,45 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 450,
+  "sourceImageSha256": "db1d26a19c351b256e5bca93f2b0bcf968d153f792c2a0518c5f75afd4fdec18",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页、两套OCR及英文原版44.1～44.2；图44.1逐节点、逐箭头追踪，并恢复PLFA、SIR、DNA及抑制剂名称"},
+    "precisionPass": {"status": "verified", "method": "核验图44.1的16个节点与箭头方向，纠正底部重复误标的食细菌线虫；核对葡萄糖胺/胞壁酸、麦角固醇、PLFA、SIR、放线菌酮与链霉素的抑制对象和剩余呼吸解释"},
+    "secondVisualPass": {"status": "verified", "method": "以高分辨率局部放大图从右侧高级消费者反向追踪至根、残屑、真菌和细菌；再从44.2末行反向复核至跨页首句；印刷页码419"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第44章｜土壤食物链特性指示物｜"},
+    {"type": "paragraph-continuation", "fromPage": 449, "text": "广义土壤食物网中群落变化的性质。"},
+    {"type": "figure", "number": "图44.1", "title": "食物链（食物网）", "direction": "箭头由食物或资源指向消费者", "nodes": ["根", "食草性线虫", "菌根菌丝", "残屑", "真菌", "细菌", "跳虫", "隐气门螨", "非气门螨", "食真菌线虫", "鞭毛虫", "食细菌线虫", "阿米巴", "杂食性线虫", "食肉性线虫", "捕食线虫螨", "食肉性螨"], "source": "据Hunt, H.W., Coleman, D.C., Ingham, E.R., Ingham, R.E., Elliott, E.T., Moore, J.C., Rose, S.L., Reid, C.P.P., and Morley, C.R. 1987. Biology and Fertility of Soils 3: 57–68改绘。"},
+    {"type": "source-fidelity-note", "scope": "图44.1底部线虫节点", "text": "中文版图中底部、由细菌指向的节点误标为第二个“食真菌线虫”；原始类群清单、入边来源和英文原图均表明该节点应为“食细菌线虫”（bacterial-feeding nematodes），已校正。"},
+    {"type": "paragraph", "text": "例如，真菌生物量与总微生物生物量之比可反映食物网中真菌—食真菌通道的碳、氮和磷传递，因为这些通道影响能量转化速率和储存效率。线虫群落结构也日益用于指示土壤食物网变化，相关指标将在本章介绍。微小节肢动物群落数据也可使用（Behan-Pelletier，1999；Parisi等，2005），但与指示性线虫相比，尚无在食物网中广泛适用的微小节肢动物指示类群。"},
+    {"type": "paragraph", "text": "本章介绍区分细菌与真菌生物量、获取线虫群落结构以及计算线虫指标的方法，以提供土壤食物网性质的信息。"},
+    {"type": "section-heading", "level": 2, "number": "44.2", "title": "真菌和细菌生物量的区分"},
+    {"type": "paragraph", "text": "细菌和真菌生物量可用生物化学、生理学和显微镜方法区分。Guggenberger等（1999）分别以葡萄糖胺和胞壁酸作为真菌和细菌对微生物驱动土壤有机质的贡献指标。也可用总微生物生物量与真菌生物量之差估计细菌生物量：总生物量用氯仿熏蒸提取法测定（第49章），真菌生物量用麦角固醇测定（Montgomery等，2000）。"},
+    {"type": "paragraph", "text": "细菌和真菌的磷脂脂肪酸（phospholipid fatty acid，PLFA）图谱差异及特定PLFA组分，也可作为土壤细菌和真菌生物量的生物标志物（第49章；Frostegård和Bååth，1996；Bossio等，1998）。底物诱导呼吸法（substrate-induced respiration，SIR）原用于测定总生物量，后经改进可区分真菌和细菌生物量（第39章；Beare等，1990；Lin和Brookes，1999）。"},
+    {"type": "paragraph", "text": "在土壤SIR测定中，放线菌酮（真菌抑制剂）处理后的剩余呼吸主要指示细菌呼吸，链霉素（细菌抑制剂）处理后的剩余呼吸主要指示真菌呼吸；两种抑制处理分别用于估计细菌和真菌呼吸活性。该法仅评估能利用所加底物的代谢活性群体，只能作为生物量指标，不能直接测得总生物体积或总生物量。"},
+    {"type": "paragraph", "text": "Fierer等（2005）设计了细菌和真菌通用引物，可用定量聚合酶链式反应测定土壤细菌和（或）真菌DNA；这种DNA方法可快速、可重复地获得土壤细菌和真菌生物量的指标。"},
+    {"type": "paragraph", "text": "显微镜测定微生物生物体积，是测定细菌和真菌最直接但也最耗费人力的方法。数字图像分析和激光扫描共聚焦技术的发展显著减少了显微镜生物体积测定的人力消耗[续见第451页]。"},
+    {"type": "printed-page-number", "text": "419"}
+  ],
+  "formulas": [
+    {"id": "44.2-difference-estimate", "plain": "estimated bacterial biomass=total microbial biomass−fungal biomass", "context": "用氯仿熏蒸提取总量与麦角固醇真菌量之差作估计；须确保单位和换算基础一致"},
+    {"id": "44.2-SIR-inhibitor-mapping", "plain": "cycloheximide inhibits fungi→remaining SIR≈bacterial respiration; streptomycin inhibits bacteria→remaining SIR≈fungal respiration", "context": "选择性抑制剂解释，避免把抑制对象与估计对象混同"}
+  ],
+  "tables": [
+    {"id": "figure-44.1-edges", "title": "图44.1食物网箭头（资源/被食者→消费者）", "columns": ["起点", "终点"], "rows": [
+      ["根", "食草性线虫"], ["根", "菌根菌丝"], ["残屑", "真菌"], ["残屑", "细菌"],
+      ["菌根菌丝", "跳虫"], ["菌根菌丝", "隐气门螨"], ["菌根菌丝", "非气门螨"], ["菌根菌丝", "食真菌线虫"],
+      ["真菌", "跳虫"], ["真菌", "隐气门螨"], ["真菌", "非气门螨"], ["真菌", "食真菌线虫"], ["真菌", "鞭毛虫"], ["真菌", "阿米巴"], ["真菌", "杂食性线虫"],
+      ["细菌", "鞭毛虫"], ["细菌", "阿米巴"], ["细菌", "食细菌线虫"],
+      ["鞭毛虫", "食细菌线虫"], ["鞭毛虫", "杂食性线虫"], ["阿米巴", "食细菌线虫"], ["阿米巴", "杂食性线虫"],
+      ["食草性线虫", "食肉性线虫"], ["食草性线虫", "捕食线虫螨"], ["食草性线虫", "食肉性螨"],
+      ["隐气门螨", "食肉性螨"], ["非气门螨", "食肉性螨"],
+      ["食真菌线虫", "食肉性线虫"], ["食真菌线虫", "捕食线虫螨"],
+      ["食细菌线虫", "食肉性线虫"], ["食细菌线虫", "捕食线虫螨"], ["食细菌线虫", "食肉性螨"],
+      ["杂食性线虫", "食肉性线虫"], ["食肉性线虫", "捕食线虫螨"], ["捕食线虫螨", "食肉性螨"]
+    ], "note": "逐箭头按高分辨率图追踪；底部节点已由误印‘食真菌线虫’校正为‘食细菌线虫’。"}
+  ],
+  "contentSha256": "42280cf8885c31c7c6261ae90e3739f6c2f73d628f5fd15cd7e98f1f2ade87ec"
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 503,
+  "sourceImageSha256": "372c4073e9597239858a822d3d87587c0ae23f05d57688d1061c373b110a1d01",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面与两套OCR，完成49.6注释（1）～（8）及首条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验5次水洗、3周、2～3倍、200 mg～200 g、25 g、−18 °C、4 °C、5%～10%、1～2 mL、1～2 min、k_EC=0.18、C:N:P:S=100:12:2:1"},
+    "secondVisualPass": {"status": "verified", "method": "由Amato和Ladd文献反向复核至氯仿纯化跨页句，检查CO₂、温度负号、比例、k下标、统计显著性和印刷页码472"}
+  },
+  "blocks": [
+    {"type": "note-continuation", "number": "（1）", "text": "[承第502页] 用去离子水洗涤5次（Jenkinson和Powlson，1976）。纯化氯仿保存于含无水K₂CO₃的棕色瓶，使用时再蒸馏；在过量无水K₂CO₃存在、避光条件下可保存3周。用2-甲基-2-丁烯稳定的光谱级氯仿成本增加2～3倍，但可简化操作并减少氯仿蒸气暴露，测定结果与新蒸馏氯仿一致（Mueller等，1992）。"},
+    {"type": "note", "number": "（2）", "text": "微生物量C、N测定所用土样质量可为200 mg（Daniel和Anderson，1992）至200 g（Ocio和Brookes，1990b）；为降低取样误差、提高精度，建议最少使用相当于25 g烘干土的样品。"},
+    {"type": "note", "number": "（3）", "text": "土壤在浸提液中不易分散时，应在振荡前混匀（Winter等，1994）。可用配锯齿形PT20ST探头的Brinkmann PT10-35高速组织均质器，功率设为4挡，处理5～10 s。"},
+    {"type": "note", "number": "（4）", "text": "应在采样后数小时内尽快测定微生物量，并保持温度和含水量不变。不能立即分析时，尽快在−18 °C冷冻，测定前解冻；冷冻会改变微生物量和微生物有机质的可提取性（Winter等，1994）。Ross（1991）发现4 °C保存对微生物量影响很小。"},
+    {"type": "note", "number": "（5）", "text": "熏蒸-浸提法精密度较高；同一土样3次重复通常应能检出5%～10%的微生物量差异，检验显著性水平为α=0.05。"},
+    {"type": "source-fidelity-note", "scope": "49.6注释（5）统计量", "text": "原书写‘否定概率为0.05%’，把常用显著性水平0.05误写成0.05%。0.05表示5%，不是0.05%；运行时采用α=0.05。"},
+    {"type": "note", "number": "（6）", "text": "微生物量P的熏蒸-浸提法对条件变化极敏感。比较不同土壤时，每次浸提须保持相同温度、振荡速度和振荡器，并采用标准化过滤法。推荐先快速摇动锥形瓶分散土粒，再迅速将提取液倒入滤纸；需较多滤液时仍按同一方式连续过滤，并避免过量蒸发。"},
+    {"type": "note", "number": "（7）", "text": "测定微生物量C和N时，可在振荡前向土壤悬液加入1～2 mL液体氯仿，替代24 h氯仿蒸气熏蒸；尤其适用于有机质含量超过20%的底物，如粪肥和堆肥。过滤后向滤液鼓入无CO₂空气1～2 min以除去氯仿。该法可加快测定且精密度相当，但微生物量C回收率较低（k_EC=0.18；Gregorich等，1990），低微生物量土样会受明显限制。"},
+    {"type": "note", "number": "（8）", "text": "土壤微生物量C:N:P:S平均约为100:12:2:1（Smith和Paul，1990）。分别用k_EC、k_EN、k_EP和k_ES校正氯仿熏蒸释放的C、N、P、S增量。提取率随微生物与土壤类型变化；现有数值多来自有限的实验室培养物（多数为细菌；Saggar等，1981；Brookes等，1982；Wu等，1994）和原位校正（Voroney和Paul，1984；Sparling和West，1988b；Bremer和van Kessel，1990）。在获得覆盖更广的校正前，推荐使用本章给出的k值。"},
+    {"type": "source-fidelity-note", "scope": "49.6作者名", "text": "原书把Ocio和Brookes、Brookes等分别误印为Ocio和Brooks、Brooks等，已按正式作者名校正。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference", "text": "Amato, M. and Ladd, J.N. 1988. Assay for microbial biomass based on ninhydrin-reactive nitrogen in extracts of fumigated soils. Soil Biology and Biochemistry 20: 107–114."}
+  ],
+  "formulas": [
+    {"id": "49.6-biomass-ratio", "display": "C:N:P:S ≈ 100:12:2:1", "meaning": "土壤微生物量元素平均比"},
+    {"id": "49.6-liquid-chloroform", "display": "MB-C = fumigation flush/k_EC; k_EC = 0.18", "meaning": "液体氯仿快速法的低回收率校正；不得与24 h蒸气熏蒸法的k_EC混用"},
+    {"id": "49.6-significance", "display": "α = 0.05 = 5%", "meaning": "校正原书0.05%的统计误印"}
+  ],
+  "tables": [],
+  "contentSha256": "ef183e198496526b93a97944b5ef6a4699d229dc814f71db0cf4bfb973d62df8"
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 99,
+  "sourceImageSha256": "f2bf4aa9ed114cb0d9f7a6282ca3120c52133fd1071dc9059a40856ace6aa7d5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Larney跨页条目及本页其余22条参考文献（含Youker跨页起始）"},
+    "precisionPass": {"status": "verified", "method": "核验作者、题名、期刊全称缩写、卷页和专著系列，校正curve-fitting、wheat-fallow、G.C. Topp、desorption、J. Range Manage. 39"},
+    "secondVisualPass": {"status": "verified", "method": "由Youker跨页题名反向复核至Larney和Bullock结尾，检查Díaz-Zorita、van Bavel大小写和跨行连字；印刷页码608"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Larney, F.J. and Bullock, M.S. 1994. Influence of soil wetness at time of tillage and tillage implement on soil properties affecting wind erosion. Soil Tillage Res. 29:83–95.",
+      "Larney, F.J., Fortune, R.A., and Collins, J.F. 1988. Intrinsic soil physical properties influencing the intensity of cultivation procedures for sugar beet seedbed preparation. Soil Tillage Res. 12:253–267.",
+      "Larney, F.J., Lindwall, C.W., and Bullock, M.S. 1994. Fallow management and overwinter effects on wind erodibility in southern Alberta. Soil Sci. Soc. Am. J. 58:1788–1794.",
+      "Leys, J.F., McTainsh, G.H., Koen, T., Mooney, B., and Strong, C. 2005. Testing a statistical curve-fitting procedure for quantifying sediment populations within multimodal particle-size distributions. Earth Surf. Process. Landforms 30:579–590.",
+      "Lyles, L., Dickerson, J.D., and Disrud, L.A. 1970. Modified rotary sieve for improved accuracy. Soil Sci. 109:207–210.",
+      "Merrill, S.D., Black, A.L., Fryrear, D.W., Saleh, A., Zobeck, T.M., Halvorson, A.D., and Tanaka, D.L. 1999. Soil wind erosion hazard of spring wheat-fallow as affected by long-term climate and tillage. Soil Sci. Soc. Am. J. 63:1768–1777.",
+      "Nimmo, J.R. and Perkins, K.S. 2002. Aggregate stability and size distribution. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. SSSA Book Series No. 5. SSSA, Madison, WI, 317–328.",
+      "Nissen, T.M. and Wander, M.M. 2003. Management and soil-quality effects on fertilizer-use efficiency and leaching. Soil Sci. Soc. Am. J. 67:1524–1532.",
+      "Perfect, E. 1997. Fractal models for the fragmentation of rocks and soils: A review. Eng. Geol. 48:185–198.",
+      "Perfect, E., Díaz-Zorita, M., and Grove, J.H. 2002. A prefractal model for predicting soil fragment mass-size distributions. Soil Tillage Res. 64:79–90.",
+      "Perfect, E., Zhai, Q., and Blevins, R.L. 1997. Soil and tillage effects on the characteristic size and shape of aggregates. Soil Sci. Soc. Am. J. 61:1459–1465.",
+      "Plante, A.F., Feng, Y., and McGill, W.B. 2002. A modeling approach to quantifying soil macroaggregate dynamics. Can. J. Soil Sci. 82:181–190.",
+      "Sainju, U.M., Whitehead, W.F., and Singh, B.P. 2003. Cover crops and nitrogen fertilization effects on soil aggregation and carbon and nitrogen pools. Can. J. Soil Sci. 83:155–165.",
+      "Sandri, R., Anken, T., Hilfiker, T., Sartori, L., and Bollhalder, H. 1998. Comparison of methods for determining cloddiness in seedbed preparation. Soil Tillage Res. 45:75–90.",
+      "SAS Institute Inc. 2005. SAS OnlineDoc 9.1.3. SAS Institute Inc., Cary, NC.",
+      "Schutter, M.E. and Dick, R.P. 2002. Microbial community profiles and activities among aggregates of winter fallow and cover-cropped soil. Soil Sci. Soc. Am. J. 66:142–153.",
+      "USDA-ARS. 1996. WEPS Technical Documentation, BETA Release 95-08. USDA-ARS, Wind Erosion Research Unit, Manhattan, KS.",
+      "van Bavel, C.H.M. 1949. Mean weight-diameter of soil aggregates as a statistical index of aggregation. Soil Sci. Soc. Am. Proc. 14:20–23.",
+      "Wagner, L.E. and Ding, D. 1994. Representing aggregate size distributions as modified lognormal distributions. Trans. ASAE 37:815–821.",
+      "Wang, X., Yost, R.S., and Linquist, B.A. 2001. Soil aggregate size affects phosphorus desorption from highly weathered soils and plant growth. Soil Sci. Soc. Am. J. 65:139–149.",
+      "Warren, S.D., Thurow, T.L., Blackburn, W.H., and Garza, N.E. 1986. The influence of livestock trampling under intensive rotation grazing on soil hydrologic characteristics. J. Range Manage. 39:491–495.",
+      "Whalen, J.K. and Chang, C. 2002. Macroaggregate characteristics in cultivated soils after 25 annual manure applications. Soil Sci. Soc. Am. J. 66:1637–1647.",
+      "Youker, R.E. and McGuinness, J.L. 1957. A short method of obtaining mean weight-diameter values of aggregate analyses of soils. …"
+    ]},
+    {"type": "source-fidelity-note", "text": "已校正原书的明显文献错误：Leys题名curvefitting→curve-fitting，Merrill题名spring wheatfallow→spring wheat-fallow，Nimmo条目GiC. Topp→G.C. Topp，Wang题名desportion→desorption。Warren等（1986）卷号印为36，已按期刊原卷校正为39:491–495。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "7571d4eb436cb9cf37ed2ac1f4e0215a14966830a3049a6527a6019cd902a35b"
+}

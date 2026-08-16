@@ -1,0 +1,49 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 384,
+  "sourceImageSha256": "a4515c4b23a97f8d2f43a06c08ad04dacea6baba2d1a4de73041b8bccc07df9b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版37.5.3～37.6.2"},
+    "precisionPass": {"status": "verified", "method": "核验NO₃⁻→NH₄⁺、10%顶空、6 h、最多5 h、250/25 mL、25/20 g、300 μg葡萄糖-C·g⁻¹、50与≥100 μg NO₃⁻-N·g⁻¹及225 r·min⁻¹"},
+    "secondVisualPass": {"status": "verified", "method": "从37.6.2步骤4承下句反向复核至37.5.3注释3，纠正Martin年份1998为1988及rad/min为r/min；印刷页码353"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第37章｜土壤反硝化测定技术｜"},
+    {"type": "continuation", "text": "（承第383页37.5.3注释3）强还原条件或高浓度可发酵含碳化合物还会通过异化硝酸盐还原使NO₃⁻转化为NH₄⁺（de Catanzaro等，1987）。"},
+    {"type": "ordered-list", "start": 4, "items": [
+      "顶空中使用10%（v/v）乙炔也会抑制硝化作用，影响NO₃⁻底物的生成，因此更应限制培养时间。",
+      "6 h培养期间NO₃⁻或碳源可能成为限制因素。培养结束后浸提并测定土壤可利用NO₃⁻，可确认是否存在硝酸盐限制。若6 h数据呈曲线模式，应缩短培养时间或用曲线方程拟合数据（Pell等，1996）。",
+      "建议用氦或氩置换土壤气体，因为二者不抑制反硝化过程。"
+    ]},
+    {"type": "section-heading", "level": 2, "number": "37.6", "title": "反硝化潜力", "citation": "Smith和Tiedje，1979；Martin等，1988；Luo等，1996；Pell等，1996"},
+    {"type": "source-fidelity-note", "scope": "37.6题注年份", "text": "中文本把Martin等的年份印作1998，英文原版为1988；已纠正。"},
+    {"type": "paragraph", "text": "当碳源和NO₃⁻均不受限且土壤为厌氧状态（O₂不抑制反应）时，反硝化潜力或潜在反硝化活性可估计能够反硝化的NO₃⁻量，并用于估计土著反硝化微生物数量和相关酶活性。然而，加入作为末端电子受体的NO₃⁻和可利用碳源后，微生物可能被诱导产生额外酶，从而形成人为影响。"},
+    {"type": "paragraph", "text": "可加氯霉素抑制新酶合成，但文献表明氯霉素也可能抑制已有酶，导致低估反硝化潜力（Pell等，1996），故本方法不推荐使用氯霉素。由于新酶形成需要时间，可把培养时间缩短至最多5 h，以尽量避免该问题并测定“理想”条件下的潜在反硝化。"},
+    {"type": "section-heading", "level": 3, "number": "37.6.1", "title": "分析仪器和材料"},
+    {"type": "ordered-list", "items": [
+      "配电子捕获检测器的气相色谱仪，最好连接自动进样器。",
+      "使用自动进样器时，用5.9 mL Exetainer保存气样。",
+      "用于抽空进样瓶的集流管（见前文和图37.1）。",
+      "经浓硫酸纯化、再经蒸馏水洗涤的乙炔，以除去丙酮等可能成为反硝化微生物碳底物的有机杂质；浓硫酸变色时更换。也可用碳化钙制备不含丙酮的乙炔。",
+      "连接到集流管的惰性气体源：氦或氩。",
+      "带橡胶隔膜的250 mL锥形瓶（Suba Seal，William Freeman Limited，Barnsley，UK）；隔膜外侧涂硅胶以减少采气时漏气。"
+    ]},
+    {"type": "section-heading", "level": 3, "number": "37.6.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      "用4 mm筛筛分田间湿土，除去石块和未分解植物残体。",
+      "称取25 g田间湿土（约相当于20 g烘干土）置于250 mL锥形瓶。加入25 mL溶液，使每克土含300 μg葡萄糖-C和50 μg NO₃⁻-N。土壤NO₃⁻浓度≥100 μg NO₃⁻-N·g⁻¹时会抑制反硝化活性（Luo等，1996）。",
+      "按前述方法用氦或氩冲洗各瓶顶空。抽出相当于顶空体积10%的气体（公式和算例见37.5.2），再加入相当于顶空体积10%的无丙酮乙炔。",
+      "把土壤泥浆置旋转振荡器，以225 r·min⁻¹振荡（Pell等，1996）；培养温度调至20 °C。本步骤续见第385页。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "37.6.2步骤4转速单位", "text": "中文本印作225 rad/min，但英文原版为225 rev min⁻¹，即225 r·min⁻¹（转/分），不是角速度单位rad/min。"},
+    {"type": "printed-page-number", "text": "353"}
+  ],
+  "formulas": [
+    {"id": "37.5.3-dnra", "display": "NO₃⁻ → NH₄⁺  (dissimilatory nitrate reduction under strongly reducing/high fermentable-C conditions)"},
+    {"id": "37.6-substrate-dose", "display": "300 μg glucose-C·g⁻¹ soil + 50 μg NO₃⁻-N·g⁻¹ soil"},
+    {"id": "37.6-nitrate-inhibition", "display": "NO₃⁻-N ≥ 100 μg·g⁻¹ soil: denitrification activity may be inhibited"}
+  ],
+  "tables": [],
+  "contentSha256": "453df3b5b5da43a5eff5ad57ffb12beb891f3a030d7f78b2ac9daaddf96e1b91"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 464,
+  "sourceImageSha256": "435e96ffa211e2ff770b9f984c054b9949e0d8d375f180b6bef69b650a83180d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页、两套OCR和英文原章，恢复45.4.3承上句、45.5材料步骤注释及图45.2全部标签"},
+    "precisionPass": {"status": "verified", "method": "核验1% CO₂、10～15 g、2～3 d、1.32 m、3 mm、80/100目、Poropak Q、1 mL与60 mL；区分气相色谱与OCR误识‘气象色谱’"},
+    "secondVisualPass": {"status": "verified", "method": "从45.5.3末段反向复核至45.4.3承上句，检查图45.2（a）（b）的连接、隔板、三通阀、针头及水/土样位置；印刷页码433"}
+  },
+  "blocks": [
+    {"type": "paragraph", "continuationOf": "page-0463:45.4.3:last-paragraph", "text": "Anderson（1982）和Zibilske（1994）提出过用碱液吸收来测定CO₂排放量的田间密闭容器培养法。"},
+    {"type": "section-heading", "level": 2, "number": "45.5", "title": "累积CO₂的密闭容器培养法"},
+    {"type": "section-heading", "level": 3, "number": "45.5.1", "title": "材料和试剂"},
+    {"type": "materials-list", "items": [
+      {"number": "（1）", "text": "小型培养容器（图45.2a、b）。"},
+      {"number": "（2）", "text": "1%的CO₂标准混合气体。"},
+      {"number": "（3）", "text": "气相色谱仪。"},
+      {"number": "（4）", "text": "培养箱（选用）。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "45.5.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "本步骤基于Heilmann和Beese（1992）的方法，并由Hopkins和Shiel（1996）改进。称取相当于10～15 g干重的土壤样品置于玻璃小瓶，再把小瓶置于培养室；关闭三通阀前，通过调节柱塞设置培养室体积（图45.2a）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "培养2～3 d后，用小型采样注射器抽取容器顶部气体。反复抽取、推出数次，使密闭容器中的气体充分混匀，再用气相色谱仪测定。"},
+    {"type": "instrument-configuration", "text": "Hopkins和Shiel（1996）使用装有长1.32 m、内径3 mm不锈钢柱的气相色谱仪；柱内填装80/100目的聚苯乙烯型色谱固定相Poropak Q，并配热导检测器。"},
+    {"type": "procedure-step", "number": "（3）", "text": "气体取样后打开培养室更新空气，再重新密封并继续培养。图45.2b的培养室是图45.1装置的改型，可用于累积CO₂。"},
+    {"type": "figure", "number": "图45.2", "title": "两种可以累积CO₂的密闭培养容器", "panels": [
+      {"label": "a", "description": "60 mL注射器充作可调体积培养室，玻璃小瓶内装土样；上端连接1 mL注射器、三通阀和带皮下注射针头的气密取样口。", "labels": ["皮下注射针头", "三通阀", "1 mL注射器", "玻璃小瓶", "土壤样品", "60 mL注射器"]},
+      {"label": "b", "description": "带隔板取样口的密闭容器，底部为土壤样品并放有水小瓶。", "labels": ["隔板", "水", "土壤样品"]}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "45.5.3", "title": "注释"},
+    {"type": "paragraph", "text": "土壤可成为CO₂的汇，例如碱性土壤溶液中可能累积重碳酸盐（Martens，1987），化能自养细菌也会消耗CO₂（Zibilske，1994）。这些汇常被忽视；在碱性土壤中，测得的CO₂溶解量或CO₂呼吸通量都可能低估碳矿化量，此时CO₂吸收法更可取。"}
+  ],
+  "formulas": [
+    {"id": "45.5.1-standard-gas", "display": "1% CO₂", "meaning": "气相色谱定量用CO₂标准混合气体浓度；原页未进一步说明体积分数或质量分数"},
+    {"id": "45.5.2-gc-column", "display": "L = 1.32 m; i.d. = 3 mm; packing = 80/100 mesh Poropak Q", "meaning": "Hopkins和Shiel（1996）方法的气相色谱柱配置"}
+  ],
+  "tables": [],
+  "contentSha256": "44061d376e9547d734e18005791c366a72b374827fc7cb8789f69f2a870095d4"
+}

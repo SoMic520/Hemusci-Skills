@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 426,
+  "sourceImageSha256": "3bf6c8b9e344847668e35ad5a9b1fc5430b0e16ee6a0b37e509c03fd3a45f833",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率中文页面、两套OCR、英文原版参考文献及可判定书目信息"},
+    "precisionPass": {"status": "verified", "method": "核验作者变音符、卷页号、书名、编辑者、¹⁴C和页数；纠正Bledsoe、Pedobiologia 39、plant protection products与Roberts"},
+    "secondVisualPass": {"status": "verified", "method": "由Vreeken-Buijs承下句反向复核Harmon承上至全部文献，检查破折号、连字符、缩写点与印刷页码395"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第40章｜土壤生物活性的评估"},
+    {"type": "bibliography", "text": "Harmon, M.E., Nadelhoffer, K.J., and Blair, J.M. 1999. Measuring decomposition, nutrient turnover, and stores in plant litter. In: G.P. Robertson, D.C. Coleman, C.S. Bledsoe, and P. Sollins, eds. Standard Soil Methods for Long-term Ecological Research. Oxford University Press, New York, pp. 202–240."},
+    {"type": "bibliography", "text": "Helling, B., Pfeiff, G., and Larink, O. 1998. A comparison of feeding activity of collembolan and enchytraeid in laboratory studies using the bait lamina test. Appl. Soil Ecol. 7: 207–212."},
+    {"type": "bibliography", "text": "Heneghan, L., Coleman, D.C., Zou, X., Crossley, D.A., Jr., and Haines, B.L. 1998. Soil microarthropod community structure and litter decomposition dynamics: A study of tropical and temperate sites. Appl. Soil Ecol. 9: 33–38."},
+    {"type": "bibliography", "text": "Henriksen, T.M. and Breland, T.A. 1999. Decomposition of crop residues in the field: evaluation of a simulation model developed from microcosm studies. Soil Biol. Biochem. 31: 1423–1434."},
+    {"type": "bibliography", "text": "Herrick, J.E. 1995. Simple method for the determination of mass loss rates for soil-contaminated samples in decomposition studies. Pedobiologia 39: 74–77."},
+    {"type": "bibliography", "text": "Idol, T.W., Holzbaur, K.A., Pope, P.E., and Ponder, F., Jr. 2002. Control-bag correction for forest floor litterbag contamination. Soil Sci. Soc. Am. J. 66: 620–623."},
+    {"type": "bibliography", "text": "Knacker, T., Förster, B., Römbke, J., and Frampton, G.K. 2003. Assessing the effects of plant protection products on organic matter breakdown in arable fields—litter decomposition test systems. Soil Biol. Biochem. 35: 1269–1287."},
+    {"type": "bibliography", "text": "Kratz, W. 1998. The bait-lamina test. Environ. Sci. Pollut. Res. 5: 94–96."},
+    {"type": "bibliography", "text": "Kurz-Besson, C., Coûteaux, M.-M., Thiéry, J.M., Berg, B., and Remacle, J. 2005. A comparison of litterbag and direct observation methods of Scots pine needle decomposition measurement. Soil Biol. Biochem. 37: 2315–2318."},
+    {"type": "bibliography", "text": "Larink, O. 1993. Bait lamina as a tool for testing feeding activity of animals in contaminated soils. In: M.H. Donker, H. Eijsackers, and F. Heimbach, eds. Ecotoxicology of Soil Organisms. Lewis Publishers, Boca Raton, FL, pp. 339–345."},
+    {"type": "bibliography", "text": "Larink, O. and Kratz, W. 1994. Köderstreifen-Workshop in Braunschweig—ein Resümee. Braunschw. Naturkundl. Schr. 4: 647–651."},
+    {"type": "bibliography", "text": "Lawrence, K.L. and Wise, D.H. 2000. Spider predation on forest-floor Collembola and evidence for indirect effects on decomposition. Pedobiologia 44: 33–39."},
+    {"type": "bibliography", "text": "Moore, A.M. 1986. Temperature and moisture dependence of decomposition rates of hardwood and coniferous leaf litter. Soil Biol. Biochem. 18: 427–435."},
+    {"type": "bibliography", "text": "Phillipson, J. 1971. Methods of Study in Quantitative Soil Ecology: Population, Production and Energy Flow. IBP Handbook No. 18. Blackwell Scientific Publications, Oxford, UK, 297 pp."},
+    {"type": "bibliography", "text": "Potthoff, M. and Loftfield, N. 1998. How to quantify contamination of organic litterbag material with soil? Pedobiologia 42: 147–153."},
+    {"type": "bibliography", "text": "Quested, H.M., Callaghan, T.V., Cornelissen, J.H.C., and Press, M.C. 2005. The impact of hemiparasitic plant litter on decomposition: direct, seasonal and litter mixing effects. J. Ecol. 93: 87–98."},
+    {"type": "bibliography", "text": "Robinson, C.H., Dighton, J., Frankland, J.C., and Roberts, J.D. 1994. Fungal communities on decaying wheat straw of different resource qualities. Soil Biol. Biochem. 26: 1053–1058."},
+    {"type": "bibliography", "text": "Rustad, L.E. 1994. Element dynamics along a decay continuum in a red spruce ecosystem in Maine, USA. Ecology 75: 867–879."},
+    {"type": "bibliography", "text": "Singer, A.C., Jury, W., Luepromchai, E., Yahng, C.-S., and Crowley, D.E. 2001. Contribution of earthworms to PCB remediation. Soil Biol. Biochem. 33: 765–776."},
+    {"type": "bibliography", "text": "Taylor, B.R. 1998. Air-drying depresses rates of leaf litter decomposition. Soil Biol. Biochem. 30: 403–412."},
+    {"type": "bibliography", "text": "Tian, G., Brussaard, L., Kang, B.T., and Swift, M.J. 1997. Soil fauna-mediated decomposition of plant residues under constrained environmental and residue quality conditions. In: G. Cadisch and K.E. Giller, eds. Driven by Nature: Plant Litter Quality and Decomposition. CAB International, Wallingford, UK, pp. 125–134."},
+    {"type": "bibliography", "text": "von Törne, E. 1990. Assessing feeding activities of soil living animals: 1. Bait-lamina tests. Pedobiologia 34: 89–101."},
+    {"type": "bibliography", "text": "Vreeken-Buijs, M.J. and Brussaard, L. 1996. Soil mesofauna dynamics, wheat residue decomposition and nitrogen mineralization [文献续见第427页]"},
+    {"type": "source-fidelity-note", "scope": "参考文献", "text": "校正可判定的原书书目错误：Beldsoe→Bledsoe；Herrick卷69→39；Poder→Ponder；plant production products→plant protection products；Roberst→Roberts；Brussard→Brussaard。"},
+    {"type": "printed-page-number", "text": "395"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a8eb5eddbb7f1849706db8e9757271a7dd15b39e09e61148bd77808f25cd84e8"
+}

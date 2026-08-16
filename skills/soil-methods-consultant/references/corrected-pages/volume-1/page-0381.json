@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 381,
+  "sourceImageSha256": "d9b3ca5b90ea8480c7b6c7f08af71f66cee9d18bf51910507a3a3eb3ab820635",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版37.4～37.5.2"},
+    "precisionPass": {"status": "verified", "method": "核验4 mm、4 °C、24 h、250 mL、20 g、−33 kPa、10%、Vₛ/V_F/C及26.72 mL算例"},
+    "secondVisualPass": {"status": "verified", "method": "从式(37.1)算例反向复核至37.4承上句，纠正Drury文献年份1911为1991；印刷页码350"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "continuation", "text": "（承第380页37.4）粉碎团聚体使更多原受保护的碳暴露给反硝化微生物。因此，除非试验目的就是研究特定粒级团聚体或团聚体内受保护的碳，否则应尽量减少对团聚体的破坏。土壤中有石块或大块未分解植物材料时，可用4 mm筛除去；去除这些成分有助于保证同一研究内部及不同研究之间结果的一致性。"},
+    {"type": "paragraph", "text": "鲜土通常比储存土更适合试验。若必须储存，应在4 °C潮湿条件下保存；低温储存后，在使用前应于与测定相同的温度至少预培养24 h，使土壤微生物适应较高的培养温度。"},
+    {"type": "section-heading", "level": 2, "number": "37.5", "title": "基础反硝化速率", "citation": "Drury等，1991；Beauchamp和Bergstrom，1993"},
+    {"type": "source-fidelity-note", "scope": "37.5题注年份", "text": "中文本印作“Drury等，1911”，英文原版明确为Drury et al. 1991；正文已纠正为1991。"},
+    {"type": "paragraph", "text": "基础反硝化速率用于估计土著反硝化微生物的活性，该活性受土壤可利用碳和硝酸盐含量控制。传统制样会磨碎并过筛土壤；混合和筛分可提高样品均一性，但也会破坏所有原有团聚体。"},
+    {"type": "section-heading", "level": 3, "number": "37.5.1", "title": "分析仪器和材料"},
+    {"type": "ordered-list", "items": [
+      "配电子捕获检测器（ECD）的气相色谱仪；最好连接自动进样器。",
+      "使用自动进样器时，用5.9 mL Exetainer保存气样。",
+      "用于抽空气样储存容器（进样瓶）的集流管（见37.2节和图37.1）。",
+      "乙炔先流经浓硫酸，再用蒸馏水洗涤，以除去丙酮等可作为反硝化微生物碳源的有机杂质（Hyman和Arp，1987）。浓硫酸变色时应更换。也可由碳化钙制备不含丙酮的乙炔，此时无需进一步纯化。",
+      "连接到集流管的惰性气体源：氦或氩（见图37.1）。",
+      "带橡胶隔膜塞的250 mL锥形瓶（Suba Seal，William Freeman Limited，Barnsley，UK）；在血清瓶塞/隔膜外侧涂硅胶，以减少采集气样时漏气。"
+    ]},
+    {"type": "section-heading", "level": 3, "number": "37.5.2", "title": "步骤"},
+    {"type": "ordered-list", "start": 1, "items": [
+      "用4 mm筛筛分田间湿土，除去石块和未分解植物残体。",
+      "向250 mL锥形瓶加入足量田间湿土，使烘干土质量为20 g。必要时按质量基准补加蒸馏水，使土壤达到田间持水量（水势−33 kPa）。每瓶嵌入一个Suba Seal。必须预先测定田间湿土含水量及田间持水量，才能确定应加入的湿土质量和补水量。",
+      "按前述方法用氦或氩冲洗各瓶顶空。用注射器抽取相当于锥形瓶顶空体积10%的气体，再用另一支注射器以不含丙酮的乙炔替换所取气体。密闭体系取气会降压；由理想气体定律并假定温度恒定，实际应由注射器抽取的体积按式(37.1)计算。"
+    ]},
+    {"type": "equation-explanation", "equation": "37.1", "text": "Vₛ为所需注射器取样体积（mL），C为希望取走的气体占锥形瓶顶空体积的理想百分比（%），V_F为锥形瓶顶空体积（mL），且C<100。若V_F=240.5 mL、C=10%，则Vₛ=[10/(100−10)]×240.5 mL=26.72 mL。"},
+    {"type": "printed-page-number", "text": "350"}
+  ],
+  "formulas": [
+    {"id": "37.1", "display": "Vₛ = [C/(100 − C)]V_F,  C < 100"},
+    {"id": "37.1-example", "display": "Vₛ = [10/(100 − 10)] × 240.5 mL = 26.72 mL"}
+  ],
+  "tables": [],
+  "contentSha256": "28f92952ad0c84f4006d2dc65561904fa1dcf359bcafaa0f3bca2208f889dd0b"
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 87,
+  "sourceImageSha256": "f647762b81e4eb34e7a99bf3e1d0bcdc0b0da1bf0f507775d7d42fc77cf4c81d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐步对照原分辨率图和两套OCR，完成式（62.1）、62.3.3、62.4、62.4.1及62.4.2(1)～(10)"},
+    "precisionPass": {"status": "verified", "method": "核验w₁/w₂下标、4.0/2.0/1.0/0.5/0.25 mm、250 mL、0.5% (w/v)、40 g、3.7 cm、29次·min⁻¹、10 min、50 mL、45 min、wc单位"},
+    "secondVisualPass": {"status": "verified", "method": "由步骤(10)反向复核至跨页首句，检查式（62.1）分子分母、单筛/多筛运动参数和粗颗粒校正流程；印刷页码596"}
+  },
+  "blocks": [
+    {"type": "calculation-introduction", "text": "湿团聚体稳定性百分数%WAS按式（62.1）计算。"},
+    {"type": "heading", "number": "62.3.3", "title": "注释", "level": 3},
+    {"type": "notes", "items": [
+      "建议同时做2个重复以估计样品内变异。",
+      "可用1～4 mm团聚体代替1～2 mm，但结果必须注明初始粒级，不可直接混比。",
+      "固定筛高：上行时保持团聚体完全浸水，或下行时刚好淹没；下行冲击会额外破坏，同一项目须使用统一方式。"
+    ]},
+    {"type": "heading", "number": "62.4", "title": "水稳性团聚体的粒级分布", "level": 2},
+    {"type": "paragraph", "text": "多筛法分析整土的水稳性团聚体粒级分布；多数土壤需对与相应团聚体同粒级的粗大初级颗粒（砂粒/碎屑）作质量校正。"},
+    {"type": "heading", "number": "62.4.1", "title": "材料、设备及试剂", "level": 3},
+    {"type": "materials-list", "items": [
+      "(1) 湿筛设备，套筛孔径依次为4.0、2.0、1.0、0.5和0.25 mm。",
+      "(2) 250 mL锥形烧瓶。",
+      "(3) 0.5% (w/v)六偏磷酸钠溶液，或超声波探头。"
+    ]},
+    {"type": "heading", "number": "62.4.2", "title": "步骤", "level": 3},
+    {"type": "procedure-steps", "items": [
+      "(1) 称40.00 g过8 mm筛的土样（湿重w₁）；依研究目的选风干样或田间湿样，并记录。",
+      "(2) 将土样均匀铺在最上层筛上。",
+      "(3) 将套筛置于湿筛装置。",
+      "(4) 降低套筛至顶筛与水面齐高，由毛细作用润湿10 min；其他润湿处理见62.6。",
+      "(5) 套筛垂直移动行程3.7 cm、29次·min⁻¹，湿筛10 min。固定筛高和浸没方式，全部样品保持同一条件。",
+      "(6) 升起套筛，将每层筛上保留的稳定团聚体分别冲入已去皮的锥形烧瓶。",
+      "(7) 105 °C烘干各粒级并称重w₂ᵢ。",
+      "(8) 每个锥形烧瓶加约50 mL 0.5% (w/v)六偏磷酸钠，振荡45 min；或用超声波完全分散。",
+      "(9) 将每个已分散粒级冲洗到其粒级下限对应孔径的筛上；筛上粗大初级颗粒转入去皮烧瓶，105 °C烘干称重w₃ᵢ。",
+      "(10) 另取小份土样测质量含水量wc，以g g⁻¹表示。"
+    ]}
+  ],
+  "formulas": [
+    {"label": "(62.1)", "plain": "%WAS = 100w₁/(w₁+w₂)", "latex": "\\%\\mathrm{WAS}=\\frac{100w_1}{w_1+w_2}", "variables": [
+      {"symbol": "w₁", "meaning": "湿筛后稳定部分的烘干净重"},
+      {"symbol": "w₂", "meaning": "湿筛后不稳定部分的烘干净重"}
+    ], "conditions": ["原书印刷式", "无>250 μm粗大初级颗粒时可直接用", "若有砂粒/碎屑，应先从分子和分母扣除其质量"]}
+  ],
+  "tables": [],
+  "contentSha256": "f46a3a4b8301fed5381d501c542884c88e84b42921033c7b874a46ce452fb6ab"
+}

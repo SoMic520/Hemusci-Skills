@@ -1,0 +1,23 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 91,
+  "sourceImageSha256": "f9fb35763210b2e0f1cc5fe60c5d18404139ae5a9a9c421751ef43e7d3f28482",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章首页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复作者单位、7.1层级和三段正文"},
+    "precisionPass": {"status": "verified", "method": "放大核对M3/M3-P等缩写、P/K/Ca/Mg/Na/Cu/Zn/Mn/B/Al/Fe元素符号、CH₃COOH、NH₄NO₃、NH₄F、HNO₃、EDTA、NaHCO₃、EUF、mol/L、μg/g及pH范围"},
+    "secondVisualPass": {"status": "verified", "method": "按章题作者、提取液组成、各元素提取机理、相关性研究和环境应用未完段反向复核；确认本页图像未见印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "7", "title": "Mehlich 3提取态元素"},
+    {"type": "author", "name": "N. Ziadi", "affiliation": ["Agriculture and Agri-Food Canada", "Quebec, Quebec, Canada"]},
+    {"type": "author", "name": "T. Sen Tran", "affiliation": ["Institute of Research and Development in Agroenvironment", "Quebec, Quebec, Canada"]},
+    {"type": "section-heading", "level": 2, "number": "7.1", "title": "引言"},
+    {"type": "paragraph", "text": "在过去的几年里，许多用于估算土壤有效养分的方法和技术得到了发展。在这些方法中，由于Mehlich 3（M3）适用的土壤类型较广，同时可以作为一个“通用”的土壤测试提取剂，因此M3法是一种较为经济、有效的化学方法（Sims，1989；Zbiral，2000a；Bolland等，2003）。M3法由Mehlich（1984）提出，因其可作为土壤多元素提取剂而被广泛应用（特别是在农艺学研究中），主要用于评价土壤养分状况和确定湿润地区磷肥和钾肥的推荐施用量。M3提取液可以用于分析以下元素：P、K、Ca、Mg、Na、Cu、Zn、Mn、B、Al和Fe。提取液由0.2 mol/L CH₃COOH、0.25 mol/L NH₄NO₃、0.015 mol/L NH₄F、0.013 mol/L HNO₃和0.001 mol/L乙二胺四乙酸（EDTA）组成。M3可提取的P元素（M3-P）由醋酸和氟化物反应后得到；而K、Ca、Mg和Na（分别表示为M3-K、M3-Ca、M3-Mg和M3-Na）可以通过硝酸铵和硝酸作用后提取；Cu、Zn、Mn和Fe（M3-Cu、M3-Zn、M3-Mn和M3-Fe）则可由NH₄和螯合剂EDTA提取得到。", "inlineNotation": ["M3", "M3-P", "M3-K", "M3-Ca", "M3-Mg", "M3-Na", "M3-Cu", "M3-Zn", "M3-Mn", "M3-Fe", "0.2 mol/L CH₃COOH", "0.25 mol/L NH₄NO₃", "0.015 mol/L NH₄F", "0.013 mol/L HNO₃", "0.001 mol/L", "EDTA"]},
+    {"type": "paragraph", "text": "许多研究显示，M3法与其他化学和非化学方法所得结果具有显著的相关性（Zbiral和Nemec，2000；Cox，2001；Bolland等，2003）。事实上，M3-P与用M2、Bray 1、Bray 2、Olsen、氯化锶—柠檬酸和水（Mehlich，1984；Simard等，1991；Zbiral和Nemec，2002）提取得到的磷的量都紧密相关。在加拿大魁北克，Tran等（1990）的研究显示在大多数非钙质土壤中，M3-P与Bray 1法得到的结果几乎相同。Mallarino（2003）通过对爱荷华州（Iowa）pH值从5.2～8.2的土壤进行研究，认为M3测试对于预测玉米（Zea mays L.）对磷的响应比Bray测试更有效。M3-P与利用阴离子交换膜和电超滤（EUF）技术解吸的P之间也具有良好的相关性（Tran等，1992a、b；Ziadi等，2001）。许多研究表明，在很多类型的土壤中，M3-P和植物吸收的磷，或者M3-P和植物产量之间有很强的相关性（Tran和Giroux，1987；Ziadi等，2001；Mallarino，2003）。然而，另外一些研究显示在评价磷对植物的生物有效性方面，一些碱性提取剂（比如NaHCO₃）要优于酸性提取剂（M3）（Bates，1990）。对于大多数常见的作物，M3-P的临界含量大约为30～60 μg/g，这取决于所使用的测定方法（Sims，1989；Tran和Giroux，1989；Bolland等，2003）。", "inlineNotation": ["M3", "M3-P", "M2", "Bray 1", "Bray 2", "Olsen", "pH 5.2～8.2", "EUF", "NaHCO₃", "30～60 μg/g"]},
+    {"type": "paragraph", "continuation": true, "text": "除了在农艺学研究上的应用价值，M3-P也被用于环境领域的研究，如农业环境土壤中磷的测试（Sims，1993；Sharpley等，1996；Beauchemin等，2003），磷饱和度的概念在欧洲和北美被成功地用来指示土壤中磷的潜在解吸附能力（Breeuwsma和Reijerink，1992；Beauchemin and Simard，2000）。在美"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ac5aa6ddb703a0738374d7e87b7f57f2bdd9804df64e11e782d1df26b67b2b70"
+}

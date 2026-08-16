@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 376,
+  "sourceImageSha256": "f0ea958eb91faf6ad07598b48349034b37cbe08d333a63891e085b2c26638f76",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版第36章参考文献末页"},
+    "precisionPass": {"status": "verified", "method": "核验Korganova条目续页、作者缩写与Rønn字符、年份、题名、版次、卷页和书籍页码"},
+    "secondVisualPass": {"status": "verified", "method": "自Singh条目反向复核至Korganova续页，纠正Lee等书籍年份并保留印本差异说明；印刷页码345"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第36章｜原生动物｜"},
+    {"type": "reference-continuation", "text": "（承第375页）Korganova, G.A. and Geltser, J.G. 1977. Stained smears for the study of soil Testacida (Testacea, Rhizopoda). Pedobiologia 17: 222–225."},
+    {"type": "reference", "text": "Krebs, C.J. 1999. Ecological Methodology. 2nd ed. Benjamin Cummings, New York, NY, USA."},
+    {"type": "reference", "text": "Kuikman, P.J., Jansen, A.G., Van Veen, J.A., and Zehnder, A.J.B. 1990. Protozoan predation and the turnover of soil organic carbon and nitrogen in the presence of plants. Biol. Fertil. Soils 10: 22–28."},
+    {"type": "reference", "text": "Lee, J.J., Leedale, G.F., and Bradbury, P.C., eds. 2000. An Illustrated Guide to the Protozoa. 2nd ed. Society of Protozoologists, Lawrence, KS, USA."},
+    {"type": "source-fidelity-note", "scope": "Lee等参考文献", "text": "中译本按英文原书参考文献印作“Lee, J.J., Leedale, G.F., and Bradbury, P. 2002 ... (Year 2000)”。该书第2版的出版/版权年为2000，第三位编者姓名缩写应为P.C. Bradbury；校正文采用2000并记录印本差异。"},
+    {"type": "reference", "text": "Lousier, J.D. and Parkinson, D. 1981. Evaluation of a membrane filter technique to count soil and litter Testacea. Soil Biol. Biochem. 13: 209–213."},
+    {"type": "reference", "text": "Pussard, M., Alabouvette, C., and Levrat, P. 1994. Protozoan interactions with the soil microflora and possibilities for biocontrol of plant pathogens. In: J.F. Darbyshire, ed. Soil Protozoa. CAB International, Oxford, UK, pp. 123–146."},
+    {"type": "reference", "text": "Rønn, R., Ekelund, F., and Christensen, S. 1995. Optimizing soil extract and broth media for MPN enumeration of naked amoebae and heterotrophic flagellates in soil. Pedobiologia 39: 10–19."},
+    {"type": "reference", "text": "Singh, B.N. 1955. Culturing soil protozoa and estimating their numbers in soil. In: D.K. Kevan, ed. Soil Zoology. Butterworths, London, UK, pp. 104–111."},
+    {"type": "translator-credit", "text": "梁思婕 译，徐建明 校"},
+    {"type": "printed-page-number", "text": "345"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "907cb1c093c8527590acf185a84767bf5a1940580e0b9268ef02c12fb158b7d0"
+}

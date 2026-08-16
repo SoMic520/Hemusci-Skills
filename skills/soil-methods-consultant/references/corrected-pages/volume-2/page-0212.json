@@ -1,0 +1,31 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 212,
+  "sourceImageSha256": "33f97fe648cad0baef832beb7f241679bed721756899d51101560239fe748440",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐条对照原分辨率页图、两套OCR和英文原章，完成72.4(3)—(6)、10条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验48—200 h、24—48 h、5 cm/700 g、年份卷页、2nd ed.及pF 0—2.7"},
+    "secondVisualPass": {"status": "verified", "method": "由平衡影响方向反向核对四因素及载荷条件，再按作者顺序点验全部书目；印刷页码721"}
+  },
+  "blocks": [
+    {"type": "limits", "items": ["细质地高土样比粗质地矮土样慢；更负ψ_m比高ψ_m慢；低渗透介质/板比高渗透者慢；水力接触差比接触好慢。陶瓷板渗透性影响见Gee等（2002）。", "表72.1原状土芯时间由48—200 h排水率外推至排水可忽略而得；因饱和原状土芯前24—48 h排水快，随后极慢。", "有研究者建议以铅块加载保持脱水/吸水期间水力接触，例如直径5 cm土芯约700 g；也有研究认为用合适接触材料并在重放前湿润即可无需加载。地下采集的膨胀土样则需限胀并施加载荷模拟原位上覆压力，否则曲线不具代表性。", "张力计、张力板和压力抽取法的大致水头范围见图69.4。"]},
+    {"type": "references", "entries": [
+      "Ball, B.C. and Hunter, R. 1988. The determination of water release characteristics of soil cores at low suction. Geoderma 43: 195–212.",
+      "Collis-George, N. and Bridge, B.J. 1973. The effect of height of sample and confinement on the moisture characteristic of an aggregated swelling clay soil. Aust. J. Soil Res. 11: 107–120.",
+      "Gee, G.W., Ward, A.L., Zhang, Z.F., Campbell, G.S., and Mathison, J. 2002. The influence of hydraulic nonequilibrium on pressure plate data. Vadose Zone J. 1: 172–178.",
+      "Klute, A. 1986. Water retention: laboratory methods. In: A. Klute, ed. Methods of Soil Analysis, Part I—Physical and Mineralogical Methods. Agronomy Monograph No. 9, 2nd ed. American Society of Agronomy, Madison, WI, 635–662.",
+      "McKeague, J.A. 1978. Manual on Soil Sampling and Methods of Analysis, 2nd ed. Canadian Society of Soil Science, Ottawa, ON, Canada, 212.",
+      "Sheldrick, B.S. 1984. Analytical Methods Manual 1984. Land Resource Research Institute, LRRI Report No. 84-30. Agriculture Canada, Ottawa, ON, Canada, 35/1–36/2.",
+      "Stakman, W.P., Valk, G.A., and van der Harst, G.G. 1969. Determination of soil moisture retention curves: I. Sand-box apparatus—range pF 0 to 2.7. Institute for Land and Water Management Research, Wageningen, The Netherlands.",
+      "Topp, G.C., Galganov, Y.T., Ball, B.C., and Carter, M.R. 1993. Soil water desorption curves. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. Lewis Publishers, CRC Press, Boca Raton, FL, 569–579.",
+      "Topp, G.C. and Zebchuk, W.D. 1979. The determination of soil-water desorption curves for soil cores. Can. J. Soil Sci. 59: 19–26.",
+      "Townend, J., Reeve, M.J., and Carter, A. 2001. Water release characteristic. In: K.A. Smith and C.E. Mullins, eds. Soil and Environmental Analysis: Physical Methods, 2nd ed. Marcel Dekker, New York, NY, 95–140."
+    ]},
+    {"type": "credits", "text": "魏翠兰译，李保国校。"},
+    {"type": "source-fidelity-note", "text": "原书评论(5)误写“脱水和失水”，英文原章为desorbs or imbibes，已校正为脱水或吸水。700 g、48—200 h、24—48 h及参考文献上标/页码均按页图恢复。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2e99b9ecbd9fe59ca79ea54a9818c6bff04a08afba610f286317b4e3bd70ef1a"
+}

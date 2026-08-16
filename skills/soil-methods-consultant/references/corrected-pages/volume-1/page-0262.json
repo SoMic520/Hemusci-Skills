@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 262,
+  "sourceImageSha256": "9a1544d75c304a6a3c3ca8e20eeba054786d5f8a4cdaca4959d47071f6fd0a0e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第26章第231页，并与Apple Vision、PaddleOCR交叉比对，人工恢复式（26.6）、26.5焦磷酸钠法全套内容、式（26.7）～（26.8）及参考文献开头"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Na₄P₂O₇·10H₂O、0.1 mol·L⁻¹（44.6 g·L⁻¹）、N-100、0.1%、20 000/510 g（力）、0.025 μm、0.300/1 g、75 μg Fe·mL⁻¹及三条公式结果0.75"},
+    "secondVisualPass": {"status": "verified", "method": "从Chao和Zhou参考文献承接句反向复核至式（26.6），确认计算→26.5原理→试剂→步骤→计算→参考文献层级、公式变量与示例代入、印刷页码231"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第26章｜土壤中有效态铝、铁、锰、硅的元素分析｜"},
+    {"type": "heading", "level": 1, "number": "26.5", "title": "焦磷酸钠法（McKeague，1967）"},
+    {"type": "principle", "text": "焦磷酸钠法常用于提取与土壤有机质相关的铝、铁和锰。该方法不能提取蛋白石态或结晶的硅酸盐。该方法是加拿大土壤分类系统中识别灰化土B层的化学标准，也是土壤分类学中灰化层及联合国粮农组织的灰化土分类标准（Soil Survey Staff，1990；FAO，1990；Soil Classification Working Group，1998）。焦磷酸盐法的提取结果与离心和过滤操作密切相关，低速离心常不能使稍分散的硅酸盐和氧化物沉淀，因此常采用高速离心和超滤的方法使浸提液澄清（McKeague和Schuppli，1982；Schuppli等，1983）。"},
+    {"type": "heading", "level": 2, "number": "26.5.1", "title": "试剂"},
+    {"type": "reagent-item", "number": "（1）", "text": "焦磷酸钠溶液（Na₄P₂O₇·10H₂O）：0.1 mol·L⁻¹（44.6 g·L⁻¹）。"},
+    {"type": "reagent-item", "number": "（2）", "text": "絮凝剂（N-100）：0.1%（1.0 g·L⁻¹）；（可以由Cytec Canada Inc.得到，7900 Taschereau Bld, A-106 Suite, brossard, Que., J4X 1C2.）"},
+    {"type": "reagent-item", "number": "（3）", "text": "原子吸收误差标准：±1%。"},
+    {"type": "heading", "level": 2, "number": "26.5.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取0.300 g的风干土（<2 mm），研磨过0.15 mm（100目）筛，置于50 mL带螺旋盖的离心管中（如果可提取的铁、铝含量较低，那么土壤称样量调为1 g）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加入30 mL焦磷酸钠溶液于上述离心管中，并拧紧盖子。"},
+    {"type": "procedure-step", "number": "（3）", "text": "将离心管放入旋转振荡器中振荡过夜（16 h）。也可以使用水平方向的往复式振荡机，但会增加粒子之间的磨损。"},
+    {"type": "procedure-step", "number": "（4）", "text": "以20 000 g（力）离心10 min，或者加入0.5 mL 0.1%的絮凝剂，以510 g（力）离心10 min。注意以下几点："},
+    {"type": "procedure-substep", "number": "①", "text": "对于一些土壤样品而言，焦磷酸钠提取液中铁、铝的浓度可能会因为离心时间过长或离心转速过高而降低。"},
+    {"type": "procedure-substep", "number": "②", "text": "对于热带土壤或离心后结果有问题的土壤样品，可以利用0.025 μm的超滤微孔过滤器过滤。"},
+    {"type": "procedure-step", "number": "（5）", "text": "取上清液及时进行分析，如果滤液浑浊就需要再过滤。"},
+    {"type": "procedure-step", "number": "（6）", "text": "利用原子吸收光谱法（AAS）测定铝、铁、锰和硅。方法同26.2.2。"},
+    {"type": "heading", "level": 2, "number": "26.5.3", "title": "计算"},
+    {"type": "calculation-note", "text": "例如，0.300 g样品，30 mL提取剂，待测液测定值75 μg Fe·mL⁻¹："},
+    {"type": "heading", "level": 1, "title": "参考文献"},
+    {"type": "reference", "text": "Baril, R. and Bitton, G. 1967. Anomalous values of free iron in some Quebec soils containing magnetite. Can. J. Soil Sci. 47: 261."},
+    {"type": "reference", "text": "Chao, T.T. and Zhou, L. 1983. Extraction techniques for selective dissolution of amorphous iron oxides from soils and sediments.", "continued": true},
+    {"type": "printed-page-number", "text": "231"}
+  ],
+  "formulas": [
+    {"number": "26.6", "context": "0.100 g样品、25 mL提取剂、稀释5倍、6 μg Fe·mL⁻¹的示例", "display": "Fe（%）= (6×25×5)/(0.100×10 000) = 0.75", "latex": "\\mathrm{Fe}(\\%)=\\frac{6\\times25\\times5}{0.100\\times10000}=0.75"},
+    {"number": "26.7", "context": "焦磷酸钠法计算提取态Fe、Al、Mn质量分数", "display": "Fe、Al、Mn（%）= [溶液浓度（μg/mL）×提取剂体积（mL）] / [称样量（g）×10 000]", "latex": "\\mathrm{Fe,Al,Mn}(\\%)=\\frac{C(\\mu\\mathrm{g}/\\mathrm{mL})\\times V(\\mathrm{mL})}{m(\\mathrm{g})\\times10000}"},
+    {"number": "26.8", "context": "0.300 g样品、30 mL提取剂、75 μg Fe·mL⁻¹的示例", "display": "Fe（%）= (75×30)/(0.300×10 000) = 0.75", "latex": "\\mathrm{Fe}(\\%)=\\frac{75\\times30}{0.300\\times10000}=0.75"}
+  ],
+  "tables": [],
+  "contentSha256": "77c939aeb48871a0284668dc6175846e81a7a3ee4b0f70f521d4f8722a3a57bb"
+}

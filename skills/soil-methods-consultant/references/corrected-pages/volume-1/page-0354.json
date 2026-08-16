@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 354,
+  "sourceImageSha256": "1e28268dad4aaae8d3f2ad792e70ce8bd07517ae653f5c1579a26ed30f1455ba",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版34.5.2～34.7交叉比对"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验4个月、r/K选择、Microscolex dubius、全部引文、m⁻²/m⁻³量纲及34.5.3～34.7层级"},
+    "secondVisualPass": {"status": "verified", "method": "从页末蚓蚓数据分组反向复核至粪铸续文，矫正castings“脱落物”、声学估计和体积-面积换算语义；页码323"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第34章｜蚓蚓｜"},
+    {"type": "paragraph-continuation", "continuationOf": "page-0353#34.5.2", "text": "粪铸数不仅反映丰度，也反映活动性；在干燥天气中粪铸可积累，在湿润天气中可分解。考虑这些限制后，Hauser和Asawalam（1998）提出连续粪铸采样法，可在不扰动土壤的情况下产生有效数据。计数特定采样区的粪冢是一种非破坏法，已成功用于定量陆正蚓Lumbricus terrestris；但采样单元大小必须考虑粪冢的空间格局（Rossi和Nuutinen，2004）。"},
+    {"type": "source-fidelity-note", "scope": "34.5.2", "text": "中文标题“计数粪堆和脱落物”将castings误译为脱落物。本Skill统一为：midden=粪冢，cast/casting=蚓蚓粪铸。"},
+    {"type": "section-heading", "level": 3, "number": "34.5.3", "title": "标记与重捕"},
+    {"type": "paragraph", "text": "无脊椎动物的大部分传统标记方法不适用于蚓蚓，主要因其没有坚硬外骨骼。已尝试的技术包括无毒染料染色（Meinhart，1976；Mazaud和Bouché，1980）、放射性同位素（Joyner和Harmon，1961；Gerard，1963）以及冷冻环带标记（freeze-banding；Lee，1985）。Espinosa等（1997）在美国波多黎各的标记-重捕研究中把磷光染料注入蚓蚓体内，标记至少持续4个月。"},
+    {"type": "section-heading", "level": 3, "number": "34.5.4", "title": "声学估计"},
+    {"type": "paragraph", "text": "声学估计是一种新的、可能有前景的技术，可以在不扰动土壤的情况下对蚓蚓及其他大型土壤无脊椎动物进行野外采样；结合地统计分析后，可用于绘制种群的土壤分布图（Brandhorst-Hubbard等，2001）。"},
+    {"type": "section-heading", "level": 2, "number": "34.6", "title": "采集蚓蚓茧"},
+    {"type": "paragraph", "text": "蚓蚓茧内含蚓蚓卵。每茧卵数因物种而异，通常表栖型多于内栖型和深栖型（即r选择与K选择物种的差异）。气候和土壤因素被认为会影响蚓蚓繁殖率，但相关信息有限（Wever等，2001）。了解蚓蚓茧在何时、何地以及何种气候、土壤和植物群落条件下产生，对预测蚓蚓种群及理解繁殖生理学很重要。"},
+    {"type": "paragraph", "text": "蚓蚓茧可用手拣法和浮选法采集，与采集蚓蚓的方法相同；但同样存在效率低（尤其对最小的茧）和费力等问题。有作者在手拣时记录了茧（Baker等，1992），也有研究定量其丰度（Clapperton，1999）；至少可用于揭示季节性。一些茧在炎热干燥期间仍在土中存活，虽变得皱缩难见，但湿润条件恢复后会孵化，如表栖型Microscolex dubius（Doube和Auhl，1998）；其他茧在炎热干燥条件下会死亡。"},
+    {"type": "paragraph", "text": "Holmstrup（1999）提出并后续验证（Holmstrup，2000）了一种研究野外蚓蚓繁殖率的方法。直接把蚓蚓茧鉴定到种很困难，不能视为定量法；对一些常见且已广布全球的欧洲物种，可使用图谱检索表（Edwards和Lofty，1972；Sims和Gerard，1985）。也可饲养蚓蚓茧，待孵化并经数月生长成可识别蚓蚓后鉴定。实验室内可在湿土中简单饲养，但饲养温度会显著影响发育速率（Baker和Whitby，2003）。"},
+    {"type": "section-heading", "level": 2, "number": "34.7", "title": "蚓蚓数据的解释和分析"},
+    {"type": "paragraph", "text": "蚓蚓种群数据通常以单位面积内的总数或生物量表示，更常见为条·m⁻²或g·m⁻²。手拣数据可以体积基准表示；但与面积基准的驱避法比较时，必须明确手拣层厚d（m）：若体积密度为nᵥ（条·m⁻³），对该土层的面积密度nₐ=nᵥ×d（条·m⁻²）。"},
+    {"type": "source-fidelity-note", "scope": "34.7单位换算", "text": "原书说需“将立方米转化为平方米”，但体积和面积不能在不给出采样深度时直接换算。本Skill已补入土层厚d及正确的量纲换算式。"},
+    {"type": "paragraph", "text": "数据可表示为群落蚓蚓总数，也可按物种、生态功能类型（深栖型anecic、内栖型endogeic、表栖型epigeic）或成熟程度（成体与无生殖带的幼体）分类。各物种可表示为总数的百分比。如手拣采样包含多个深度，可报告各物种在各采样深度的百分比（Clapperton，1999）。样品中所有身体部位都计入总生物量；计数时只计有头部或前体段的碎片，避免同一个体重复计数。"},
+    {"type": "printed-page-number", "text": "323"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "3c604d879f0aa99afbe5d44e7d1f60cbf03f61d5ee043cf45bbfc3560474188e"
+}

@@ -1,0 +1,86 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 346,
+  "sourceImageSha256": "1e37dd1e2df2a93ff16037554f9be99d77438b987fb9ecb94c656af6cfe6298e",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对案例应用结尾、图85.9及85.10注释第(1)～(2)项"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对35～50 cm、两组X/Y坐标、lnOC/Cly轴值和章节交叉引用"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "图号85.9、wt%、X/Y单位、负对数刻度及注释层级二次反查；印刷页码855"
+    }
+  },
+  "blocks": [
+    {
+      "type": "application-continuation",
+      "items": [
+        "θ_a空间信息可用于选择前期含水量、宏观结构和通气性相对一致的试验小区。",
+        "lnOC克里金曲面显示35～50 cm深度的有机碳空间上不一致。",
+        "Cly曲面仅显示两块黏粒含量相对一致区域：(X,Y)=(60～110 m,0～30 m)与(40～80 m,60～80 m)。",
+        "因此，在整个研究区同时要求35～50 cm深度OC与Cly均空间一致并不可行；应依据研究变量选择局部试验区。"
+      ]
+    },
+    {
+      "type": "figure",
+      "number": "85.9",
+      "title": "基于图85.7(b)半方差模型的克里金插值曲面",
+      "panels": [
+        {
+          "panel": "a",
+          "variable": "lnOC",
+          "z": "ln OC (wt%)，约−1.2～−0.6",
+          "x": "X (m)，0～100",
+          "y": "Y (m)，0～220"
+        },
+        {
+          "panel": "b",
+          "variable": "Cly",
+          "z": "Clay (wt%)，约36～48",
+          "x": "X (m)，0～100",
+          "y": "Y (m)，0～220"
+        }
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "图题原印“图58.7(b)”为倒置式图号错误，依据本章连续图号及半方差模型来源校正为“图85.7(b)”。"
+    },
+    {
+      "type": "heading",
+      "number": "85.10",
+      "title": "注释",
+      "level": 2
+    },
+    {
+      "type": "notes",
+      "items": [
+        {
+          "number": 1,
+          "text": "平稳性是解释半方差和自相关结构的关键；近似正态有利于部分推断，但不是二阶平稳或内蕴平稳的必要条件。非平稳性会使块金、基台、变程和相关值难以解释。极端偏态、零值或负值可能限制对数/Box–Cox等转换，但并不妨碍一般中心化或尺度标准化；必要时可用指示半方差等方法。"
+        },
+        {
+          "number": 2,
+          "text": "通常先计算全方向半方差，再按研究目的检查定向半方差。全方向结构复杂并不能自动排除各向异性；是否继续定向分析应由采样几何、数据对数和过程假设共同决定。"
+        }
+      ],
+      "references": [
+        "Isaaks和Srivastava，1989",
+        "Goovaerts，1997"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原注(1)把正态性写为半方差/自相关的必要条件，并称负值、零值使数据“不能标准化”，均不严谨；现分别校正为分布假设与特定变换限制。原注(2)把是否分析方向结构写成绝对结论，现改为可执行的判断条件。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "7aecaa286ba199eacacbcbb5e1820ca0d9db2fedb8c12f4347746a0e33ad1150"
+}

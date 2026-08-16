@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 176,
+  "sourceImageSha256": "4ffaee5ef8546236f2369d6006d32eb12463fbf5b2aa1e6819a06b5b6ebde405",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率参考文献页，并与Apple Vision、PaddleOCR交叉比对，人工合并跨行文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者缩写、Göttlein/Bélanger重音、Cote' B.、Asystem、Picea abies [L.] Karst.、卷页及英文标点"},
+    "secondVisualPass": {"status": "verified", "method": "从Kinniburgh条目反向复核至Adams首条，确认20条文献顺序、换行归属和页码145"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第17章｜土壤溶液的采集与测定｜"},
+    {"type": "references-heading", "text": "参考文献"},
+    {"type": "reference", "text": "Adams, F. 1974. Soil solutions. In: E.W. Carson, ed. The Plant Root and Its Environment. University Press of Virginia, Charlottesville, VA, 441-482."},
+    {"type": "reference", "text": "Adams, F., Burmester, C., Hue, N.V., and Long, F.L. 1980. A comparison of column displacement and centrifuge methods for obtaining soil solutions. Soil Sci. Soc. Am. J. 44: 733-735."},
+    {"type": "reference", "text": "Beier, C., Hansen, K., Gundersen, P., Andersen, B.R., and Rasmussen, L. 1992. Long-term field comparison of ceramic and poly (tetrafluoroethene) porous cup soil water samplers. Environ. Sci. Technol. 26: 2005-2011."},
+    {"type": "reference", "text": "Bélanger, N., Cote' B., Fyles, J.W., Courchesne, F., and Hendershot, W.H. 2004. Forest regrowth as the controlling factor of soil nutrient availability 75 years after fire in a deciduous forest of Southern Quebec. Plant Soil 262: 363-372."},
+    {"type": "reference", "text": "Brahy, V. and Delvaux, B. 2001. Comments on Artifacts caused by collection of soil solution with passive capillary samplers. Soil Sci. Soc. Am. J. 65: 1571-1572."},
+    {"type": "reference", "text": "Davies, B.E. and Davies, R.I. 1963. A simple centrifugation method for obtaining small samples of soil solution. Nature 198: 216-217."},
+    {"type": "reference", "text": "Dieffenbach, A., Göttlein, A., and Matzner, E. 1997. In-situ soil solution chemistry in an acid forest soil as influenced by growing roots of Norway spruce (Picea abies [L.] Karst.). Plant Soil 192: 57-61."},
+    {"type": "reference", "text": "Edmunds, W.M. and Bath, A.H. 1976. Centrifuge extraction and chemical analysis of interstitial waters. Environ. Sci. Technol. 10: 467-472."},
+    {"type": "reference", "text": "Elkhatib, E.A., Hern, J.L., and Staley, T.E. 1987. A rapid centrifugation method for obtaining soil solution. Soil Sci. Soc. Am. J. 51: 578-583."},
+    {"type": "reference", "text": "Foster, N.W., Mitchell, M.J., Morrison, I.K., and Shepard, J.P. 1992. Cycling of acid and base cations in deciduous stands of Huntington Forest, New York, and Turkey Lakes, Ontario. Can. J. Forest Res. 22: 167-174."},
+    {"type": "reference", "text": "Gillman, G.P. 1976. A centrifuge method for obtaining soil solution. CSIRO Division of Soils, Report No. 16, Adelaide, Australia."},
+    {"type": "reference", "text": "Göttlein, A. and Blasek, R. 1996. Analysis of small volumes of soil solution by capillary electrophoresis. Soil Sci. 161: 705-715."},
+    {"type": "reference", "text": "Göttlein, A., Hell, U., and Blasek, R. 1996. Asystem for microscale tensiometry and lysimetry. Geoderma 69: 147-156."},
+    {"type": "reference", "text": "Goyne, K.W., Day, R.L., and Chorover, C. 2000. Artifacts caused by collection of soil solution with passive capillary samplers. Soil Sci. Soc. Am. J. 64: 1330-1336."},
+    {"type": "reference", "text": "Haines, B.L., Waide, J.B., and Todd, R.L. 1982. Soil solution nutrient concentrations sampled with tension and zero-tension lysimeters: report of discrepancies. Soil Sci. Soc. Am. J. 46: 547-555."},
+    {"type": "reference", "text": "Heinrichs, H., Bottcher, G., Brumsack, H., and Pohlman, M. 1995. Squeezed soil-pore solutes—a comparison to lysimeter samples and percolation experiments. Water Air Soil Poll. 89: 189-204."},
+    {"type": "reference", "text": "Hendershot, W.H. and Courchesne, F. 1991. Comparison of soil solution chemistry in zero tension and ceramic cup tension lysimeters. J. Soil Sci. 42: 577-583."},
+    {"type": "reference", "text": "Hendershot, W.H., Mendes, L., Lalande, H.,Courchesne, F., and Savoie, S. 1992. Soil and stream water chemistry during spring snowmelt. Nord. Hydrol. 23: 13-26."},
+    {"type": "reference", "text": "Jones, D.L. and Edwards, A.C. 1993. Effect of moisture content and preparation technique on the composition of soil solution obtained by centrifugation. Commun. Soil Sci. Plant Anal. 24: 171-186."},
+    {"type": "reference", "text": "Kinniburgh, D.G. and Miles, D.L. 1983. Extraction and chemical analysis of interstitial water from soils and rocks. Environ. Sci. Technol. 17: 362-368."},
+    {"type": "printed-page-number", "text": "145"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "4d548d5f70c9f68c07175ed24d244c91815374b118bb729057fd946722131d39"
+}

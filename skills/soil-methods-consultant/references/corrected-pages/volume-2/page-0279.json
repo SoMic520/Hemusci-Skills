@@ -1,0 +1,88 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 279,
+  "sourceImageSha256": "51f346a47baba122dbe994d7e38643f02e9c50b1c0951fb838d5f0b33fe85e8b",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对81.4.1续、图81.2、81.4.2正文及式(81.7a)—(81.8)"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "复核10⁻⁵、S/S_c≈1、q/q₁/q₂/q_T、ΔS/Δθ/Δz、各系数和水头梯度符号"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "版面公式与英文原章逐式比对，确认式(81.7b)分母印刷错误；印刷页码788"
+    }
+  },
+  "blocks": [
+    {
+      "type": "convergence-continuation",
+      "text": "表81.2采用两轮含水量间的最小平方偏差。均质土常能快速收敛：三次迭代后最大含水量差已降至10⁻⁵ cm³·cm⁻³；当所有深度和时刻均有S(t)/S_c(t)≈1时，说明式(81.5)能一致拟合全部数据。"
+    },
+    {
+      "type": "figure",
+      "number": "81.2",
+      "title": "用蒸发法/Wind法数据迭代估算水分脱水曲线θ(ψ)",
+      "panels": [
+        "（a）2T设置；数据亦见表81.2。",
+        "（b）5T设置。"
+      ],
+      "axes": [
+        "横轴：土壤体积含水量θ，cm³·cm⁻³。",
+        "纵轴：土壤水基质水头ψ，cm，负值按对数尺度标示。"
+      ],
+      "series": ["初始值", "第一次迭代", "第二次迭代", "第三次迭代"]
+    },
+    {
+      "type": "heading",
+      "number": "81.4.2",
+      "title": "土壤导水率计算（2T设置）",
+      "level": 3
+    },
+    {
+      "type": "principle",
+      "text": "由两个张力计之间的水流通量密度q [L·T⁻¹]和相应总水头梯度求K(ψ)或K(θ)。q取上下两个测量平面通量q₁、q₂的平均。每一层的储水变化ΔS=ΔθΔz；若一个时间步内Δθ随深度线性变化，可由式(81.7d)求顶部总通量q_T（理论上等于蒸发通量E）。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "中文版式(81.7b)把q₁分母误印成ΔS₂；水流连续性和英文原章均明确为Δt，已校正为q₁=ΔS₁/Δt。图81.2中的ψ为负水头，纵轴负号不可丢失。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "81.7a",
+      "plain": "q=(q₁+q₂)/2",
+      "latex": "q=\\frac{q_1+q_2}{2}",
+      "resultUnit": "L·T⁻¹"
+    },
+    {
+      "label": "81.7b（校正）",
+      "plain": "q₁=ΔS₁/Δt；q₂=(ΔS₁+ΔS₂+ΔS₃)/Δt",
+      "latex": "q_1=\\frac{\\Delta S_1}{\\Delta t},\\qquad q_2=\\frac{\\Delta S_1+\\Delta S_2+\\Delta S_3}{\\Delta t}",
+      "resultUnit": "L·T⁻¹"
+    },
+    {
+      "label": "81.7c",
+      "plain": "ΔS=ΔθΔz",
+      "latex": "\\Delta S=\\Delta\\theta\\,\\Delta z",
+      "resultUnit": "L"
+    },
+    {
+      "label": "81.7d",
+      "plain": "q_T={(2.5Δθ₄.₅−0.5Δθ₁.₅)Δz+(Δθ₄.₅+Δθ₁.₅)Δz}/(2Δt)={(3.5Δθ₄.₅+0.5Δθ₁.₅)Δz}/(2Δt)",
+      "latex": "q_T=\\frac{(2.5\\Delta\\theta_{4.5}-0.5\\Delta\\theta_{1.5})\\Delta z+(\\Delta\\theta_{4.5}+\\Delta\\theta_{1.5})\\Delta z}{2\\Delta t}=\\frac{(3.5\\Delta\\theta_{4.5}+0.5\\Delta\\theta_{1.5})\\Delta z}{2\\Delta t}",
+      "resultUnit": "L·T⁻¹"
+    },
+    {
+      "label": "81.8",
+      "plain": "grad(tᵢ)=[(ψ₁.₅+z₁.₅)−(ψ₄.₅+z₄.₅)]/(z₁.₅−z₄.₅)，i=1,2,3,…",
+      "latex": "\\operatorname{grad}(t_i)=\\frac{(\\psi_{1.5}+z_{1.5})-(\\psi_{4.5}+z_{4.5})}{z_{1.5}-z_{4.5}},\\quad i=1,2,3,\\ldots",
+      "resultUnit": "L·L⁻¹"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "f4f0a3f2d3029218fea5b4ef5984ebaee7ef15c0f03c76958ca65d70b209ffd5"
+}

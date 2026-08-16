@@ -1,0 +1,45 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 263,
+  "sourceImageSha256": "b240dd529a225497e70e4fb3863ef2238a823512db1e693efb61100d6f8f5c34",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条核对第79章6条参考文献和译校署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验作者、年份、题名、期刊卷页、书名版次及章节页码"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "与英文原章参考文献逐项比对，确认Young/Youngs及160—164页；印刷页码772"
+    }
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "title": "参考文献",
+      "level": 2
+    },
+    {
+      "type": "references",
+      "items": [
+        "Amoozegar, A. 2002. Piezometer method (saturated zone). In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 870–877.",
+        "Amoozegar, A. and Warrick, A.W. 1986. Hydraulic conductivity of saturated soils: field methods. In: A. Klute, ed. Methods of Soil Analysis, Part 1: Physical and Mineralogical Methods, 2nd ed. Soil Science Society of America, Madison, WI, 735–770.",
+        "Topp, G.C. and Sattlecker, S. 1983. A rapid measurement of horizontal and vertical components of saturated hydraulic conductivity. Can. J. Agric. Eng. 25:193–197.",
+        "Young, M.H. 2002. Water Potential. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 547–573.",
+        "Youngs, E.G. 1968. Shape factors for Kirkham’s piezometer method for determining the hydraulic conductivity of soil in situ for soils overlying an impermeable floor or infinitely permeable stratum. Soil Sci. 106:235–237.",
+        "Youngs, E.G. 2001. Hydraulic conductivity of saturated soils. In: K.A. Smith and C.E. Mullins, eds. Soil and Environmental Analysis: Physical Methods, 2nd ed. Marcel Dekker, New York, NY, 160–164."
+      ]
+    },
+    {
+      "type": "credits",
+      "text": "刘海涛译，李保国校。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "71b098bcac0a89bd3989d8e596d34a30729503bbab292ab59f89dae988abc689"
+}

@@ -1,0 +1,80 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 533,
+  "sourceImageSha256": "bb4c589b79a01f5b3264213b43ab2973fcd6d7454315d5af7e0052b2310b84d9",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，完成53.3.4、53.3.5及53.3.6全文"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验¹H/¹³C、90°、1.5～2.5、5T₁(¹³C)、100 s、500/1 000次、≥24 h、45～60 μs、CH₂、73 ppm、300/400/100 MHz、4 500 Hz和5 kHz"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由53.3.6末段反向复核至53.3.4，检查偶极去相微秒符号、73 ppm归零含义、频率归属、TOSS适用条件和印刷页码502"
+    }
+  },
+  "blocks": [
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "53.3.4",
+      "title": "直接极化或Bloch衰变参数"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bloch衰变（BD；直接极化/单脉冲激发）用一个¹³C 90°脉冲后直接采集，不依赖¹H→¹³C CP。CP可能低估远离¹H、具有分子运动性或靠近顺磁中心的C；充分弛豫的BD因而更适于定量强度分布。CP理论最大增强约为γ(¹H)/γ(¹³C)≈4，许多土壤有机质样品实际约1.5～2.5。"
+    },
+    {
+      "type": "paragraph",
+      "text": "BD重复延迟由¹³C自旋-晶格弛豫T₁控制；书中给出5T₁(¹³C)通常约100 s。长延迟使相同扫描数的BD耗时更长、S/N较低；低C样品可能难以得到可用BD谱。书中示例：常规CP约500次扫描；典型BD用1 000次扫描、至少24 h，优点是定量较可靠。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "53.3.5",
+      "title": "偶极去相技术"
+    },
+    {
+      "type": "paragraph",
+      "text": "偶极去相（dipolar dephasing）在CP与采集之间关闭¹H去耦器约45～60 μs，使与¹H强偶极耦合的质子化C信号衰减，保留或相对增强未质子化C和高运动性C。未质子化C信号一般最强（羧基C>酚类C>芳香C）；甲基、甲氧基和可转动/摆动长链CH₂等运动性C可保留较弱信号。该技术多用于定性结构信息，也可在严格校准下用于定量研究。"
+    },
+    {
+      "type": "procedure-step",
+      "scope": "53.3.5",
+      "text": "对一组可比样品保持相同去相延迟；调节延迟，使约73 ppm的O-alkyl C信号归零（null），而不是把去相时间本身设为0。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "53.3.5",
+      "text": "原书写‘移相时间应该调整到零，此时烷氧碳信号约为73 ppm’，易被误解为t=0；正确操作含义是调节去相延迟，直到约73 ppm烷氧基C信号为零。原书另写‘长链CH₂基团上的甲基’，已校正为可运动长链CH₂基团。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "53.3.6",
+      "title": "旋转边带完全抑制技术"
+    },
+    {
+      "type": "paragraph",
+      "text": "因高场仪器或装样量限制而不能采用足够高MAS转速时，可用TOSS抑制旋转边带；代价可能是谱区变形和总信号降低。旋转边带干扰随化学位移各向异性与非对称性增大。书中示例：300 MHz（¹H名义频率）、MAS 4 500 Hz且芳香C/羧基C峰很小时可不做TOSS；400 MHz仪器（¹³C约100 MHz）、MAS 5 kHz时，为可靠高芳香C谱需TOSS。TOSS可与偶极去相组合用于定性。"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "53.3.4-cp-max-enhancement",
+      "display": "ε_CP,max ≈ γ(¹H)/γ(¹³C) ≈ 4",
+      "meaning": "CP理论最大信号增强；书中称频率比，物理上由旋磁比决定"
+    },
+    {
+      "id": "53.3.4-bd-delay",
+      "display": "t_delay(BD) ≈ 5T₁(¹³C) ≈ 100 s（书中典型值）",
+      "meaning": "Bloch衰变定量采集的充分弛豫延迟"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "154ff5e60ab30bc5a3f3146d807a1f00c89d523a770993f7cfc8ae24151b231c"
+}

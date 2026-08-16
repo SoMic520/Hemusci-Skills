@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 241,
+  "sourceImageSha256": "fab0831561d3ab944bc76a96135a03271f0ac2e083e09b8c3b1605bacd5ade4b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第210页，并与Apple Vision、PaddleOCR交叉比对，人工恢复材料与试剂（1）～（15）、四种酶的EC号/来源/活性及步骤（1）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验0.45 μm、25 mmol·L⁻¹、1/0.5/3/2 mmol或mol·L⁻¹、NaN₃、MgCl₂·6H₂O、EC 3.1.3.2/3.1.4.3/3.1.4.1/3.1.3.8及全部质量体积活性单位"},
+    "secondVisualPass": {"status": "verified", "method": "从步骤（1）反向复核至材料（1），确认15项材料层级、酶项目①～④、商品来源、pH、温度、离心条件和印刷页码210；另用书中给出的比活性与配液体积核验四处活性算术不一致"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure-group", "number": "1.", "title": "材料和试剂", "method": "24.4.2 酶解法表征有机磷"},
+    {"type": "material-item", "number": "（1）", "text": "带螺纹盖的50 mL聚丙烯离心管。"},
+    {"type": "material-item", "number": "（2）", "text": "能容纳上述离心管的振荡机。"},
+    {"type": "material-item", "number": "（3）", "text": "含刻度的一次性塑料离心管（15 mL），每个待测土壤样品浸提需要5个离心管。"},
+    {"type": "material-item", "number": "（4）", "text": "培养箱或37 ℃恒温振荡水浴。"},
+    {"type": "material-item", "number": "（5）", "text": "离心机。"},
+    {"type": "material-item", "number": "（6）", "text": "0.45 μm滤膜和真空过滤装置。"},
+    {"type": "reagent-item", "number": "（7）", "name": "1 mol·L⁻¹氢氧化钠溶液", "text": "将20 g NaOH溶解于约300 mL蒸馏水或去离子水的500 mL容量瓶中，冷却后用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（8）", "name": "0.5 mol·L⁻¹碳酸氢钠溶液（pH值8.5）", "text": "将21 g NaHCO₃和0.25 g NaOH溶解于含300 mL蒸馏水或去离子水的500 mL烧杯中，转移至500 mL容量瓶中，用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（9）", "name": "25 mmol·L⁻¹叠氮化钠溶液", "text": "将0.163 g NaN₃溶于40 mL蒸馏水或去离子水的100 mL容量瓶中，用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（10）", "name": "3 mol·L⁻¹硫酸", "text": "将83 mL浓硫酸缓缓加入300 mL蒸馏水或去离子水的500 mL容量瓶中，混匀并冷却，用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（11）", "name": "2 mol·L⁻¹ Tris-HCl缓冲液", "text": "将31.5 g Tris-HCl粉末（Polyscience, Inc., Warrington, PA）和0.041 g MgCl₂·6H₂O溶解于含60 mL蒸馏水或去离子水的100 mL烧杯中，调节pH值至8，将其转移至100 mL容量瓶，用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（12）", "name": "2 mol·L⁻¹甘氨酸-盐酸缓冲溶液", "text": "将0.041 g MgCl₂·6H₂O溶解于含有60 mL蒸馏水或去离子水的100 mL烧杯中，向其中加入20 mL浓缩10倍的1 mol·L⁻¹甘氨酸-盐酸缓冲溶液（Polyscience, Inc., Warrington, PA）。测定pH值，此时pH值应该为2.5，将其转移至100 mL容量瓶中，用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（13）", "name": "酶", "text": "可以从多种渠道获得合适的酶（如下所有的酶都能从Sigma Chemicals，圣路易斯购得，这里提到商品名是为了方便读者）。"},
+    {"type": "reagent-subitem", "number": "①", "name": "碱性磷酸酶（EC 3.1.3.2）", "text": "V-IIS型，源于牛的肠黏膜，配制的活性为1个单位/mL：向20 mL 2 mol·L⁻¹ Tris-HCl缓冲液（pH值8）中加入0.1 mL碱性磷酸酶（蛋白质含量为2.2 mg·mL⁻¹，每毫克蛋白质的活性为2 420个单位）。"},
+    {"type": "reagent-subitem", "number": "②", "name": "磷脂酶C（EC 3.1.4.3）", "text": "XI型，来自蜡状芽孢杆菌，配制的活性为1个单位/mL：向20 mL 2 mol·L⁻¹ Tris-HCl缓冲液（pH值8）中加入24.94 g磷脂酶（固态下其活性为16.04个单位/mg）和0.1 mL碱性磷酸酶。见24.4.2注释5。"},
+    {"type": "reagent-subitem", "number": "③", "name": "磷酸二酯酶（EC 3.1.4.1）", "text": "IV型，源于大响尾蛇毒液，配制的活性为0.03个单位/mL：向20 mL 2 mol·L⁻¹ Tris-HCl缓冲液（pH值8）中加入20 mg磷酸二酯酶（固态下其活性为0.02个单位/mg）和0.1 mL碱性磷酸酶，见24.4.2注释5。"},
+    {"type": "reagent-subitem", "number": "④", "name": "肌醇六磷酸酶（EC 3.1.3.8）", "text": "肌醇六磷酸3-磷酸水解酶型，来源于无花果曲霉，配制的活性为1个单位/mL：向80 mL 2 mol·L⁻¹甘氨酸-盐酸缓冲液（pH值2.5）中加入23 mg肌醇六磷酸酶（固态下其活性为1.1个单位/mg）。在1 500 g力下离心10 min。"},
+    {"type": "source-fidelity-note", "appliesTo": "试剂（13）①～④", "text": "原书所印“配制的活性”与同条给出的酶体积/质量、比活性和总体积不能直接算术相符：①按0.1 mL×2.2 mg·mL⁻¹×2 420 U·mg⁻¹÷20 mL约为26.6 U·mL⁻¹，并非1 U·mL⁻¹；②按24.94 g×16.04 U·mg⁻¹÷20 mL约为20 002 U·mL⁻¹，并非1 U·mL⁻¹；③按20 mg×0.02 U·mg⁻¹÷20 mL为0.02 U·mL⁻¹，并非0.03 U·mL⁻¹；④按23 mg×1.1 U·mg⁻¹÷80 mL约为0.316 U·mL⁻¹，并非1 U·mL⁻¹。可能涉及原书单位/数量印刷错误或活性定义差异，未经独立原始方法核验不得直接按校正猜值配制。"},
+    {"type": "reagent-item", "number": "（14）", "name": "2 mmol·L⁻¹氯化镁溶液", "text": "将0.041 g MgCl₂·6H₂O溶于含60 mL蒸馏水或去离子水的100 mL容量瓶中，用蒸馏水或去离子水转移并定容。"},
+    {"type": "reagent-item", "number": "（15）", "text": "显色液：见24.5.1。"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤", "method": "24.4.2 酶解法表征有机磷"},
+    {"type": "procedure-step", "number": "（1）", "text": "称量1.5 g土壤样品于50 mL离心管中，在测定过程中应该设置无土空白对照。"},
+    {"type": "printed-page-number", "text": "210"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "5aba5649426aea54433ec34ba5a66444c962535e94020247b0d2a697decf69a6"
+}

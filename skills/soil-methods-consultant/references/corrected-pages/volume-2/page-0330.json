@@ -1,0 +1,73 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 330,
+  "sourceImageSha256": "a244c83bb48b1b7eff01c1e6569083676c54dad2b45f54a827372d1b46e9d8e8",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐项核对图85.1两子图图例、拟合参数及标准化半方差说明"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对块金、偏基台、总基台、两级变程及式(85.4)归一化分母"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "双纵轴、滞后距/平均间距、单位%²和m以及γ*上标二次反查；印刷页码839"
+    }
+  },
+  "blocks": [
+    {
+      "type": "figure",
+      "number": "85.1(a)",
+      "title": "土壤含水量（体积百分比）的自相关与半方差",
+      "axes": {
+        "x": "滞后距h，0～8",
+        "leftY": "半方差 (%²)，−4～40",
+        "rightY": "自相关，−0.1～1.0"
+      },
+      "series": [
+        "方形：自相关",
+        "圆形：半方差",
+        "水平虚线：数据集总方差",
+        "实线：半方差模型拟合"
+      ],
+      "parameters": [
+        "块金值c₀=1.5 %²",
+        "偏基台值c=33.5 %²",
+        "总基台c₀+c=35 %²",
+        "变程a=滞后距6=60 m"
+      ],
+      "note": "理想端点：块金值为0时滞后距0的自相关系数为1。"
+    },
+    {
+      "type": "figure",
+      "number": "85.1(b)",
+      "title": "套合半方差拟合模型",
+      "axes": {
+        "x": "平均间距h，0～140",
+        "y": "标准化半方差，0.80～1.20"
+      },
+      "parameters": [
+        "块金值=0.86",
+        "第一基台=1.01，第一变程=50 m",
+        "第二基台=1.15，第二变程=110 m"
+      ],
+      "note": "此图用“标准”半方差和平均分割距离分别代替半方差和滞后距。"
+    },
+    {
+      "type": "standardization-note",
+      "text": "不同单元、方差和变程下比较结构时，可用标准化或“滞后一标准化”半方差γ*(h)，即用滞后h全部数据的头、尾方差几何均值归一化。也可用相对变异函数：γ(h)除以该滞后的平均值或数据集方差。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "85.4",
+      "plain": "γ*(h)=γ(h)/√(σ²_−hσ²_+h)",
+      "latex": "\\gamma^*(h)=\\frac{\\gamma(h)}{\\sqrt{\\sigma_{-h}^2\\sigma_{+h}^2}}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "4061c38b5830dc528ac48557cde85e481514281cfc3ede657e7118b07e5a3ddb"
+}

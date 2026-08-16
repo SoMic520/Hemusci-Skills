@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 234,
+  "sourceImageSha256": "41d5c0e7d5c7c70d8180bc616df870b52bc1dfd7272a4bfcfb7da2f7b1d7601f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第203页，并与Apple Vision、PaddleOCR交叉比对，人工恢复24.3总有机磷原理、方法比较、质量控制及24.3.1材料（1）～（13）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验550/250/90 ℃、20 μg P·g⁻¹、Pₒ、0.15～0.18 mm/100～180目、0.3/0.5/0.9 mol·L⁻¹、50/600/700 mL及作者拼写"},
+    "secondVisualPass": {"status": "verified", "method": "从材料（13）反向复核至页首跨页续句，确认方法适用性比较、阈值单位、浸提顺序、13项材料编号及页码203"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第24章｜总磷和有机磷｜"},
+    {"type": "paragraph-continuation", "continuedFromPreviousPage": true, "text": "在本质上的改变。各种浸提方法（Anderson，1960；Bowman，1989；Bowman和Moir，1993）都是先用各种酸和碱处理样品，随后再测定浸提液中的无机磷和全磷的含量。这些技术都存在两个主要问题。第一，对土壤有机磷提取不完全。第二，有机磷在提取液中可能水解。这些方法会导致对土壤有机磷含量的低估。灼烧法是用高温（550 ℃，Saunders和Willams，1955）或低温（250 ℃，Legg和Black，1955）将土壤有机磷氧化为无机磷，随后用弱酸或强酸提取相对应的灼烧和未灼烧的土壤样品，灼烧后样品的无机磷含量和未灼烧样品的无机磷含量之差即为有机磷含量。但有机磷氧化不完全、低温或高温灼烧引起矿质磷溶解度的改变及高温灼烧可能引起的磷挥发，均会导致这种方法得到的有机磷结果可能有偏差。每个方法由于测试条件及研究的问题的不同各有其优缺点，所以正如Bowman（1989）所指出的，浸提法更适用于不同土壤类型有机磷水平之间的比较，而灼烧法更适用于一个给定土壤类型的不同处理之间的比较。由于在有机磷的测定过程中存在各种误差，且有机磷含量是通过差值计算确定的，所以当土壤间磷含量相差小于20 μg P·g⁻¹时有机磷含量几乎无显著差异（Olsen和Sommers，1982）。"},
+    {"type": "source-fidelity-note", "scope": "24.3 Saunders作者", "text": "原书本页印作“Saunders和Willams，1955”，正文按原印保留；本章引言及参考文献原页均为“Saunders and Williams, 1955”，故Willams为排印错误，实际引证应使用Williams。"},
+    {"type": "paragraph", "text": "Condron等（1990）指出尽管一些研究表明浸提法测定的有机磷含量比灼烧法更高，但是也有一些研究证实灼烧法和浸提法之间有很好的相关性，且灼烧方法测得的有机磷含量更高（Condron等，1990；Agbenin等，1999）。此外，在某些土壤类型中也发现这两种方法之间存在着相当大的差异。更多有关不同的土壤Pₒ测定方法之间的比较，请参见Condron（1990，2005）、Dormaar和Webster（1964）、Steward和Oades（1972）及Turner等（2005）的文章。"},
+    {"type": "quality-control", "text": "为了提高分析的准确度和精确度，推荐用风干并磨细的土壤样品（0.15～0.18 mm或100～180目）。每次测定都应该包括平行土壤样品和无土空白。目前尚没有用于总有机磷测定的标准物质。"},
+    {"type": "source-fidelity-note", "scope": "24.3样品筛孔", "text": "本页再次印作“0.15～0.18 mm或100～180目”，与第198页相同；毫米范围与目数范围不对应，实际制样须按所用筛制标准确认。"},
+    {"type": "method-heading", "number": "24.3.1", "title": "高氯酸/氢氧化钠浸提法"},
+    {"type": "method-principle", "text": "在这个方法中，土壤依次被0.3 mol·L⁻¹氢氧化钠溶液、浓盐酸（先用热盐酸，后用室温下的盐酸）、室温下的0.5 mol·L⁻¹氢氧化钠溶液及90 ℃的0.5 mol·L⁻¹氢氧化钠溶液浸提。浸提液中的无机磷在浸提后立即测定，而全磷需要用过硫酸盐将有机质氧化后进行测定。"},
+    {"type": "procedure-group", "number": "1.", "title": "材料和试剂"},
+    {"type": "reagent-item", "number": "（1）", "text": "带螺旋盖的耐热聚丙烯离心管（50 mL）。"},
+    {"type": "reagent-item", "number": "（2）", "text": "90 ℃的水浴。"},
+    {"type": "reagent-item", "number": "（3）", "text": "离心机。"},
+    {"type": "reagent-item", "number": "（4）", "text": "涡旋混合器（选用）。"},
+    {"type": "reagent-item", "number": "（5）", "text": "往复振荡机。"},
+    {"type": "reagent-item", "number": "（6）", "text": "氢氧化钠浸提样品时所用的90 ℃烘箱。"},
+    {"type": "reagent-item", "number": "（7）", "text": "高压锅。"},
+    {"type": "reagent-item", "number": "（8）", "text": "铝箔。"},
+    {"type": "reagent-item", "number": "（9）", "text": "容量瓶（50 mL和100 mL）。"},
+    {"type": "reagent-item", "number": "（10）", "text": "浓硫酸。"},
+    {"type": "reagent-item", "number": "（11）", "name": "0.9 mol·L⁻¹硫酸", "text": "将50 mL浓硫酸缓缓加入含有600 mL蒸馏水或去离子水的1 L容量瓶中，混匀，冷却后用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（12）", "text": "浓盐酸。"},
+    {"type": "reagent-item", "number": "（13）", "name": "0.3 mol·L⁻¹氢氧化钠溶液", "text": "将12 g NaOH溶解于约含700 mL蒸馏水或去离子水的1 L容量瓶中，用蒸馏水或去离子水定容。"},
+    {"type": "printed-page-number", "text": "203"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "fb037c7e109bcae15334f327b0c0ee3d08b25970c547dbf48d1e2bf159ead3de"
+}

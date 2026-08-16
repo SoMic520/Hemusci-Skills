@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 220,
+  "sourceImageSha256": "89e480a4e41869bc1ad971e3b553e2b063491d280e703a5c35ad094f7ee878b1",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段对照原分辨率页图、两套OCR和英文原章，完成74.3(5)—(6)、式(74.3)—(74.4)、74.4及参考文献起始"},
+    "precisionPass": {"status": "verified", "method": "核验W_c+s+w/W_c+s/W_c、105±5 ℃、24—48 h、−6000/−1000/−40 m、±10 m/1%、±0.005 ℃、±0.5 ℃、20±1 ℃及7—15 mL"},
+    "secondVisualPass": {"status": "verified", "method": "按杯—湿样—烘干样质量差反向验算式(74.3)，并复核量程分段和温差精度；印刷页码729"}
+  },
+  "blocks": [
+    {"type": "procedure", "steps": ["取得ψ_m后立即取样称湿土+杯质量W_c+s+w。于105 ℃±5 ℃烘24—48 h，冷却至室温后称烘干土+杯质量W_c+s。式(74.3)中分子为水质量，分母为烘干土质量。", "由独立测得的ρ_b和ρ_w，用式(74.4)把θ_g换成θ_v；每组θ_g或θ_v与ψ_m构成一个曲线点。"]},
+    {"type": "heading", "number": "74.4", "title": "注释", "level": 2},
+    {"type": "limits", "items": ["量程−6000 m≤ψ_m≤−40 m；−1000至−40 m误差约±10 m，−6000至−1000 m误差约1%。干端曲线平坦，水头误差对预测θ影响通常较小。", "对ΔT=T_d−T_s极敏感：欲达ψ_m±10 m，ΔT精度须在±0.005 ℃；样品—密室温差在±0.5 ℃内，建议样品与仪器同置20 ℃±1 ℃恒温室。", "测前用已知水势/溶质势的标准盐溶液检查精度并按需校准。", "完全热/汽平衡要求少量扰动土（7—15 mL），故不能表征结构、容重和滞后影响；干端通常影响较小，但代表田间时空变异需较多重复。也有小型原状岩样应用。", "最大误差源为采集、制备、储存、温度平衡和测定期间蒸发失水或凝结/吸湿，粗质和干土尤甚。", "与其他方法的ψ_m范围比较见图69.4。"]},
+    {"type": "references", "entries": ["Andraski, B.J. and Scanlon, B.R. 2002. Thermocouple psychrometry. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Inc., Madison, WI, 609–642.", "Buck, A.L. 1981. New equations for computing vapor pressure and enhancement factor. J. Appl. Meteorology 20: 1527–1532.", "Decagon Devices, Inc. 2005. www.decagon.com/wp4/wptheory.html. Last verified July 2006.", "Flint, L.E., Hudson, D.B., and Flint, A.L. 1999. Unsaturated hydraulic parameters determined from direct and indirect methods. In:（续下页）"]},
+    {"type": "source-fidelity-note", "text": "原书把标准盐溶液的已知溶质势所对应量误称“基质水头”，标准溶液无土壤基质，校准对象应为其已知水势/溶质势。所有温差±号、负水头和W复合下标按页图恢复。"}
+  ],
+  "formulas": [
+    {"label": "74.3", "plain": "θ_g = (W_c+s+w - W_c+s)/(W_c+s - W_c)", "latex": "\\theta_g=\\frac{W_{c+s+w}-W_{c+s}}{W_{c+s}-W_c}", "resultUnit": "M·M⁻¹"},
+    {"label": "74.4", "plain": "θ_v = θ_g ρ_b/ρ_w", "latex": "\\theta_v=\\frac{\\theta_g\\rho_b}{\\rho_w}", "resultUnit": "L³·L⁻³"}
+  ],
+  "tables": [],
+  "contentSha256": "5c7f7811fc61ad5ed7552da9a1f4b9e8a6b30b8b474e601520b175bbcfa41f1d"
+}

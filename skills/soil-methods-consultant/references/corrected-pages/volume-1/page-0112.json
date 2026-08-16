@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 112,
+  "sourceImageSha256": "bc139d0f03a3f2a27829a0cd17092d28d374fd0b95d548356907fe132be89c39",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐行对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工合并Soltanpour续句至Workman各条及译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Methods ofSoil、NH₄HCO₃-DTPA、selenium(VI)/(IV)、macro-/micro-nutrients、作者缩写、卷页、机构专名和原书连写/页码残缺"},
+    "secondVisualPass": {"status": "verified", "method": "由spectrometry续句至Workman 1980反向复核，确认andMarchant、Society America、1331-133等原书排印特征、译校人名和印刷页码81"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第9章｜硼、钼和硒｜"},
+    {"type": "reference-entry", "continuation": true, "text": "spectrometry and inductively coupled plasma-mass spectrometry. In: D.L. Sparks et al., eds. Methods ofSoil Analysis, Part 3—Chemical Methods. Soil Science Society of America Book Series Number 5. American Society of Agronomy, Madison, WI, 91-140."},
+    {"type": "reference-entry", "text": "Soltanpour, P.N., Olsen, S.R., and Goos, R.J. 1982. Effect of nitrogen fertilization on dryland wheat on grain selenium concentration. Soil Sci. Soc. Am. J. 46: 430-433."},
+    {"type": "reference-entry", "text": "Soltanpour, P.N. and Schwab, A.P. 1977. A new soil test for simultaneous extraction of macro- and micro-nutrients in alkaline soils. Commun. Soil Sci. Plant Anal. 8: 195-207."},
+    {"type": "reference-entry", "text": "Soltanpour, P.N. and Workman, S.M. 1980. Use of the NH₄HCO₃-DTPA soil test to assess availability and toxicity of selenium to alfalfa plants. Commun. Soil Sci. Plant Anal. 11: 1147-1156."},
+    {"type": "reference-entry", "text": "Touchton, J.T., Boswell, F.C., andMarchant, W.H. 1980. Boron for soybeans grown in Georgia. Commun. Soil Sci. Plant Anal. 11: 369-378."},
+    {"type": "reference-entry", "text": "U.S. Salinity Laboratory Staff. 1954. Diagnosis and Improvement of Saline and Alkali Soils. USDA Handbook No. 60. U.S. Government Printing Office, Washington, DC."},
+    {"type": "reference-entry", "text": "Varo, P., Alfthan, G., Ekholm, P., Aro, A., and Koivistoinen, P. 1988. Selenium intake and serum selenium in Finland: effects of soil fertilization with selenium. Am. J. Clin. Nutr. 48: 324-329."},
+    {"type": "reference-entry", "text": "Vaughan, P.J. and Suarez, D.L. 2003. Constant capacitance model prediction of boron speciation for varying soil water content. Vadose Zone J. 2: 253-258."},
+    {"type": "reference-entry", "text": "Vlek, P.L.G. and Lindsay, W.L. 1977. Molybdenum contamination in Colorado pasture soils. In: W.R. Chappell and K.K. Peterson, eds. Molybdenum in the Environment, Vol. 2. Marcel Dekker, New York, NY, 619-650."},
+    {"type": "reference-entry", "text": "Wang, L., Reddy, K.J., and Munn, L.C. 1994. Comparison of ammonium bicarbonate-DTPA, ammonium carbonate, and ammonium oxalate to assess the availability of molybdenum in mine spoils and soils. Commun. Soil Sci. Plant Anal. 25: 523-536."},
+    {"type": "reference-entry", "text": "Welch, R.S., Allaway, W.H., House, W.A., and Kubota, J. 1991. Geographic distribution of trace element problems. In: J.J. Mortvedt, C.R. Cox, L.M. Shuman, and R.M. Welch, eds. Micronutrients in Agriculture. SSSA Book Series 4, Soil Science Society America, Inc., Madison, WI, 31-57."},
+    {"type": "reference-entry", "text": "Wolf, B. 1971. The determination of boron in soil extracts, plant materials, composts, manures, water, and nutrient solutions. Soil Sci. Plant Anal. 2: 363-374."},
+    {"type": "reference-entry", "text": "Workman, S.M. and Soltanpour, P.N. 1980. Importance of prereducing selenium(VI) to selenium(IV) and decomposing organic matter in soil extracts prior to determination of selenium using hydride generation. Soil Sci. Soc. Am. J. 44: 1331-133."},
+    {"type": "translator-note", "text": "（赵丽霞　陈雅丽　译，李永涛　翁莉萍　校）"},
+    {"type": "printed-page-number", "text": "81"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "174e63e080299a4adad8c7011c10171480d471e239fccc473865c4ca52b1146c"
+}

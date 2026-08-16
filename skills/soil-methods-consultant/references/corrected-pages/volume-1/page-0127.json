@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 127,
+  "sourceImageSha256": "500f7e5f8d2cfd3a9676ed33ba5e5bdda001d16ee7db38d63f174f9ea07cccf0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐行对照原分辨率参考文献页，并与Apple Vision、PaddleOCR交叉比对，人工复核Soon至Wright全部条目及译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验von Uexküll、Plant-Soil、Low pH、pyrocatechol violet、作者缩写、年份、卷期页码与地名大小写"},
+    "secondVisualPass": {"status": "verified", "method": "从末条Wright 1988反向复核至Soon 1990，确认原书断行均已合并、标点无遗漏，并核对印刷页码96"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-entry", "text": "Soon, Y.K. 1990. Comparison of parameters of soil phosphate availability for the northwestern Canadian prairie. Can. J. Soil Sci. 70: 227-237."},
+    {"type": "reference-entry", "text": "von Uexküll, H.R. and Mutert, E. 1995. Global extent and economic impact of acid soil. In: R.A. Date, et al., eds. Plant-Soil Interactions at Low pH: Principles and Management. Proceedings of the Third International Symposium on Plant-Soil Interactions at Low pH, 12-16 September 1993, Brisbane, Australia. Kluwer Academic Publishers, Dordrecht, the Netherlands, 5-19."},
+    {"type": "reference-entry", "text": "Webber, M.D. 1974. Atomic absorption measurements of Al in plant digests and neutral salt extracts of soils. Can. J. Soil Sci. 54: 81-87."},
+    {"type": "reference-entry", "text": "Webber, M.D., Hoyt, P.B., and Corneau, D. 1982. Soluble Al, exchangeable Al, base saturation and pH in relation to barley yield on Canadian acid soils. Can. J. Soil Sci. 62: 397-405."},
+    {"type": "reference-entry", "text": "Webber, M.D., Hoyt, P.B., Nyborg, M., and Corneau, D. 1977. A comparison of lime requirement methods for acid Canadian soils. Can. J. Soil Sci. 57: 361-370."},
+    {"type": "reference-entry", "text": "Wilson, A.H. and Sergeant, G.A. 1963. The colorimetric determination of aluminium in minerals by pyrocatechol violet. Analyst 88: 109-112."},
+    {"type": "reference-entry", "text": "Wright, R.J. 1989. Soil aluminum toxicity and plant growth. Commun. Soil Sci. Plant Anal. 20: 1479-1497."},
+    {"type": "reference-entry", "text": "Wright, R.J., Baligar, V.C., and Ahlrichs, J.L. 1989. The influence of extractable and soil solution aluminum on root growth of wheat seedlings. Soil Sci. 148: 293-302."},
+    {"type": "reference-entry", "text": "Wright, R.J., Baligar, V.C., and Wright, S.F. 1988. Estimation of plant available manganese in acidic subsoil horizons. Commun. Soil Sci. Plant Anal. 19: 643-662."},
+    {"type": "translator-credit", "text": "（陈雅丽 译，李永涛 翁莉萍 校）"},
+    {"type": "printed-page-number", "text": "96"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "12b1b5388810aa2646d8e4a595f2188bce7c7a8b577fa02c1c797bbe0d899735"
+}

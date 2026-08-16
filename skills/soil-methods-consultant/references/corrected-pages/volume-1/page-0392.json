@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 392,
+  "sourceImageSha256": "32154f94c0ee3a7b72c9b35ef204b41a24ab9960d5eef92aa9a43066637cf771",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版第37章参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验¹⁵N/³⁰N₂/N₂上下标、30/28质量比、作者重音、题名、年份、卷页和书籍页码"},
+    "secondVisualPass": {"status": "verified", "method": "从Tiedje 1994承下条反向复核至Mulvaney和Kurtz续页，纠正Stenström、Gächter、Sørensen等字符；印刷页码361"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第37章｜土壤反硝化测定技术｜"},
+    {"type": "reference-continuation", "text": "（承第391页）Mulvaney, R.L. and Kurtz, L.T. 1982. A new method for determination of ¹⁵N-labeled nitrous oxide. Soil Sci. Soc. Am. J. 46: 1178–1184."},
+    {"type": "reference", "text": "Mulvaney, R.L. and Vanden Heuvel, R.M. 1988. Evaluation of nitrogen-15 tracer techniques for direct measurement of denitrification in soil: IV. Field studies. Soil Sci. Soc. Am. J. 52: 1332–1337."},
+    {"type": "reference", "text": "Myrold, D.D. 1990. Measuring denitrification in soils using ¹⁵N techniques. In: N.P. Revsbech and J. Sørensen, eds. Denitrification in Soils and Sediments. Plenum Press, New York, NY, pp. 181–198."},
+    {"type": "reference", "text": "Nelson, D.W. 1982. Gaseous losses of nitrogen other than through denitrification. In: F.J. Stevenson, ed. Nitrogen in Agricultural Soils. American Society of Agronomy, Madison, WI, pp. 327–363."},
+    {"type": "reference", "text": "Nielsen, L.P. 1992. Denitrification in sediment determined from nitrogen isotope pairing. FEMS Microbiol. Ecol. 86: 357–362."},
+    {"type": "reference", "text": "Parkin, T.B., Kaspar, H.F., and Sexstone, A.J. 1984. A gas-flow soil core method to measure field denitrification rates. Soil Biol. Biochem. 16: 323–330."},
+    {"type": "reference", "text": "Parkin, T.B., Starr, J.L., and Meisinger, J.J. 1987. Influence of sample size measurements on soil denitrification. Soil Sci. Soc. Am. J. 51: 1492–1501."},
+    {"type": "reference", "text": "Paul, J.W., Beauchamp, E.G., and Zhang, X. 1993. Nitrous and nitric oxide emissions during nitrification and denitrification from manure-amended soil in the laboratory. Can. J. Soil Sci. 73: 539–553."},
+    {"type": "source-fidelity-note", "scope": "Paul等参考文献", "text": "中译本和英文原书参考文献误印为1994、529–553；期刊正式记录及DOI 10.4141/cjss93-054为1993、73(4):539–553。"},
+    {"type": "reference", "text": "Pell, M., Stenberg, B., Stenström, J., and Torstensson, L. 1996. Potential denitrification activity assay in soil—with or without chloramphenicol. Soil Biol. Biochem. 28: 393–398."},
+    {"type": "reference", "text": "Rochette, P. and Bertrand, N. 2003. Soil air sample storage and handling using polypropylene syringes and glass vials. Can. J. Soil Sci. 83: 631–637."},
+    {"type": "reference", "text": "Russow, R., Stevens, R.J., and Laughlin, R.J. 1996. Accuracy and precision for measurement of the mass ratio 30/28 in dinitrogen from air samples and its application to the investigation of N losses from soil by denitrification. Isotopes Environ. Health Stud. 32: 289–297."},
+    {"type": "reference", "text": "Seech, A.G. and Beauchamp, E.G. 1988. Denitrification in soil aggregates of different sizes. Soil Sci. Soc. Am. J. 52: 1616–1621."},
+    {"type": "reference", "text": "Siegel, R.S., Hauck, R.D., and Kurtz, L.T. 1982. Determination of ³⁰N₂ and application to measurement of N₂ evolution during denitrification. Soil Sci. Soc. Am. J. 46: 68–74."},
+    {"type": "reference", "text": "Smith, M.S. and Tiedje, J.M. 1979. Phases of denitrification following oxygen depletion in soil. Soil Biol. Biochem. 11: 261–267."},
+    {"type": "reference", "text": "Steingruber, S.M., Friedrich, J., Gächter, R., and Wehrli, B. 2001. Measurement of denitrification in sediments with the ¹⁵N isotope pairing technique. Appl. Environ. Microbiol. 67: 3771–3778."},
+    {"type": "reference", "text": "Stevens, R.J. and Laughlin, R.J. 2001. Lowering the detection limit for dinitrogen using the enrichment of nitrous oxide. Soil Biol. Biochem. 33: 1287–1289."},
+    {"type": "reference", "text": "Stevens, R.J., Laughlin, R.J., Atkins, G.J., and Prosser, S.J. 1993. Automated determination of nitrogen-15-labeled dinitrogen and nitrous oxide by mass spectrometry. Soil Sci. Soc. Am. J. 57: 981–988."},
+    {"type": "reference", "text": "Stevens, R.J., Laughlin, R.J., Burns, L.C., and Arah, J.R.M. 1997. Measuring the contributions of nitrification and denitrification to the flux of nitrous oxide from soil. Soil Biol. Biochem. 29: 139–151."},
+    {"type": "reference", "text": "Taylor, N.M., Wagner-Riddle, C., Thurtell, G.W., and Beauchamp, E.G. 1999. Nitric oxide fluxes from an agricultural soil using a flux-gradient method. J. Geophys. Res. 104: 12213–12220."},
+    {"type": "reference", "text": "Tiedje, J.M. 1982. Denitrification. In: A.L. Page et al., eds. Methods of Soil Analysis, Part 2. American Society of Agronomy, Madison, WI, pp. 1011–1026."},
+    {"type": "reference", "text": "Tiedje, J.M. 1988. Ecology of denitrification and dissimilatory nitrate reduction to ammonium. In: A.J.B. Zehnder, ed. Biology of Anaerobic Microorganisms. John Wiley & Sons, New York, NY, pp. 179–244."},
+    {"type": "reference-continuation", "text": "Tiedje, J.M. 1994. Denitrifiers. In: R.W. Weaver, J.S. Angle, and P.S. Bottomley, eds. Methods of Soil Analysis, Part（续见第393页）"},
+    {"type": "printed-page-number", "text": "361"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ef7ce965ed50a22073dd31848d7e2bdf2a17f3127c2979401d80ee827292cb21"
+}

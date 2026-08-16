@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 395,
+  "sourceImageSha256": "94954ccb022e716de1369adf3c8b27d99cbff9b6ef28562f3ad49d095bcc3c1c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版38.1～38.3"},
+    "precisionPass": {"status": "verified", "method": "核验NH₄⁺、NO₂⁻、NO₃⁻、4 d、4 °C、2 mol·L⁻¹ KCl、1 h、Berthelot反应、镉还原差量关系、20 °C和28 d"},
+    "secondVisualPass": {"status": "verified", "method": "从38.3承下句反向复核至38.1承上句，校正硝化指标逻辑并逐项核对样品保存与滤纸预洗；印刷页码364"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "continuation", "text": "（承第394页38.1）净硝化法会因新生NO₃⁻被固持或由其他过程消耗而低估真实硝化速率（deCatanzaro等，1987；Stark和Hart，1997；Silver等，2001）。"},
+    {"type": "paragraph", "text": "田间原位法包括：采集田间土样；破坏性分析其中一个土样以确定初始NO₃⁻浓度；把其余土芯或装在聚乙烯袋中的土壤放回田间；在特定时间后测定NO₃⁻累积。该法让硝化在昼夜温度波动等田间条件下进行，水分波动处理见38.6节。"},
+    {"type": "paragraph", "text": "NH₄⁺是自养和部分异养硝化的底物，来源包括尿素、铵态肥或无水氨肥料、粪肥、大气沉降以及植物或土壤有机氮矿化。NH₄⁺进入土壤后可被微生物固持（尤其有新鲜植物残体等可利用碳源时）、被植物吸收、在碱性土壤挥发、被黏土矿物固定，或硝化为NO₂⁻再转为NO₃⁻。因此NH₄⁺随时间下降不能单独归因于硝化；培养并测定NO₂⁻和NO₃⁻库的净增加才是更有效的硝化速率指标。"},
+    {"type": "paragraph", "text": "土壤氮矿化和硝化速率可用于预测作物或树木可利用氮，调整氮肥用量和施用时间以匹配植物需求并减少环境影响。植物虽可吸收NH₄⁺和NO₃⁻，但NO₃⁻更易向根部迁移，也更易在湿润地区淋失，并在厌氧且有可利用碳源时经反硝化损失。管理措施还包括硝化抑制剂，如三氯甲基吡啶（nitrapyrin）或双氰胺，以及生育期内少量多次施用尿素或铵态氮肥。"},
+    {"type": "section-heading", "level": 2, "number": "38.2", "title": "土壤预处理、分析及存储"},
+    {"type": "paragraph", "text": "供试土壤应尽可能以完整土芯采集并在4 °C储存，采样后4 d内处理。某些“敏感”森林土壤即使受到脚步声等轻微扰动，也会使可提取NO₃⁻显著升高。储存超过4 d会提高NO₃⁻；冻融或干燥会提高NH₄⁺，从而影响硝化速率估计。上述注意事项同时适用于培养前制样和培养后分析。"},
+    {"type": "paragraph", "text": "滤纸自身的NO₃⁻和NH₄⁺污染是浸提液过滤的潜在误差源；不同等级、材料、批次甚至同一包装内均可能有显著差异。采集分析用浸提液前，建议先用2 mol·L⁻¹ KCl或去离子水预洗滤纸，再用少量土壤浸提液润洗。"},
+    {"type": "paragraph", "text": "测定NO₃⁻和NH₄⁺时，称取湿土置于烧瓶，加入2 mol·L⁻¹ KCl，在旋转或往复摇床振荡1 h，再过滤或离心。自动分析仪用Berthelot反应测NH₄⁺，用镉还原法测NO₃⁻。镉把NO₃⁻还原为NO₂⁻，再比色测NO₂⁻，所以带镉柱结果为NO₂⁻+NO₃⁻之和；多数土壤NO₂⁻很低。若要单测NO₂⁻，移除集流器上的镉柱重新分析；NO₃⁻浓度=带镉柱结果（NO₂⁻+NO₃⁻）−不带镉柱结果（NO₂⁻）。"},
+    {"type": "section-heading", "level": 2, "number": "38.3", "title": "净硝化速率", "citation": "Drury和Beauchamp，1991；Hart等，1997"},
+    {"type": "paragraph", "text": "本法在田间持水量、20 °C或与田间相关的温度下培养28 d，以土壤NO₃⁻净产生量确定净硝化速率；本段续见第396页。"},
+    {"type": "printed-page-number", "text": "364"}
+  ],
+  "formulas": [
+    {"id": "38.2-cadmium-total", "display": "with Cd column = [NO₂⁻] + [NO₃⁻]"},
+    {"id": "38.2-nitrite", "display": "without Cd column = [NO₂⁻]"},
+    {"id": "38.2-nitrate-difference", "display": "[NO₃⁻] = result_with_Cd − result_without_Cd"}
+  ],
+  "tables": [],
+  "contentSha256": "23a9f9aaafd1e67283d1b5e7324d6dc0af38d7dfe8d1b9cd691e5ea7d886f010"
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 304,
+  "sourceImageSha256": "7612a914fdd3d5da406041cb2310d5a8f18044c85c7c6be81bb9ffe8404a3f33",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第30章第273页，人工恢复30.8孢子提取原理、形态/活性评价、PCR系分子方法及30.8.1前7项材料试剂"},
+    "precisionPass": {"status": "verified", "method": "核对AM孢子形态术语、MTT/INT缩写、PCR/nested PCR/PCR-DGGE/qPCR全称、全部作者年份，以及1000/500/150/50/40 μm、100 mL、1/2 L规格"},
+    "secondVisualPass": {"status": "verified", "method": "从页底Whatman 1号（40 μm）反向复核至页首跨页续句，并以Cytiva/Whatman厂商过滤产品指南核对Grade 1的典型颗粒截留值"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第30章｜丛枝菌根｜"},
+    {"type": "continuation", "fromPage": 303, "section": "30.8", "text": "将孢子进行筛分并移注来提取AM真菌孢子，非常适用于生物多样性和分类学上的研究（Khan，1999）。然而，这一方法非常耗时且不太适用于大部分基本土壤AM种类，以及土壤群落研究和基础研究；下面所提出的孢子提取方法是将现有的一系列方法进行结合加以改进，包括土壤筛分，倾倒，蔗糖离心和过滤，使之在原有基础上有所改善并且适应于一些特殊的研究需求。主要包括多种梯度方法（Ohms，1957；Allen等，1979；Furlan等，1980；Kucey和McCready，1982）及湿筛方式（Gerdemann和Nicolson，1963；Daniels和Skipper，1982；Singh和Tiwari，2001）。本书的章节和综述文章也提到了于这些步骤的评价和描述，详见：（Tommerup，1992；Brundrett等，1996；Clapp等，1996；Jarstfer和Sylvia，1997；Johnson等，1999；Khan，1999）。"},
+    {"type": "paragraph", "text": "一旦孢子从土壤物质中提取，它们可直接用作初始培养体或者根据其形态类型不同进行群落研究（Smilauer，2001；Brundrett，2004）。在封固在显微镜载玻片上作AM真菌多样性评价之前，可根据孢子的大小、颜色及对向菌丝的形态进行分类。当所提取的孢子作为初始接种体供AM真菌菌株繁殖之前，须要对原始孢子进行活性测试，即测定其发芽潜力。此外，脱氢酶活性染色如四唑溴染色（四甲基偶氮唑盐（MTT））及四唑氯染色（碘硝基氯化四氮唑蓝（INT））经常被测试用作AM孢子活性的评价（An和Hendrix，1988；Meier和Charvat，1993；Walley和Germida，1995）。尽管这一染色方法可能令人费解，但它仍然是最简单也是最节省时间的方法。孢子提取及活体染色的步骤详见30.8.1节。"},
+    {"type": "terminology-note", "scope": "30.8孢子形态", "text": "原书的‘对向菌丝’应对应subtending hypha，在AM真菌孢子形态鉴定中常译作连孢菌丝、孢子下菌丝或孢子支持菌丝。检索索引应收录这些同义词。"},
+    {"type": "source-fidelity-note", "scope": "30.8 MTT/INT染色", "severity": "major", "text": "原书将MTT释为‘四甲基偶氮唑盐’，该名称不足以唯一确定试剂；MTT实验中通常指溴化噩2，5-二苯基-3-（4，5-二甲基-2-噩唑基）四氮唑。INT也必须按试剂全名、CAS或供应商规格核对，不得仅根据这些中文略名配制。"},
+    {"type": "paragraph", "text": "由于传统方法从土壤样品中提取AM真菌孢子过程繁琐费时，而且特定孢子形貌特征有限，无法从定殖根系鉴定AM真菌，因此发展了分子技术来研究AM真菌群落。以聚合酶链式反应（polymerase chain reaction，PCR）为基础的数种方法发展起来，并直接用于研究检测及其基因多样性（Claassen等，1996；Vandenkoornhuyse等，2002）。嵌套PCRs（两步放大）是一种更加快捷高效用于研究土壤和根系AM真菌群落的方法（van Tuinen等，1998；Jacquot等，2000；Jansa等，2003；de Souza等，2004）。聚合酶链式反应—变性梯度凝胶电泳（polymerase chain reaction-denaturing gradient gel electrophoresis，PCR-DGGE）也可直接用于土壤和根系样品中扩增后的DNA分析。它可以在不同核苷酸序列中分离同样长度的DNA产物及单个碱基，并且不需要克隆过程（Ma等，2005；Sato等，2005），直接可以鉴别不同物种（Kowalchuk等，2002；de Souza等，2004）。"},
+    {"type": "paragraph", "text": "最后，定量实时PCR（qPCR）将对PCR产物的荧光信号成比例放大，然后进行检测，该方法不仅可以检测而且可以同时定量染色体DNA（Filion等，2003；Isayenkov等，2004）。"},
+    {"type": "paragraph", "text": "用来研究土壤真菌群落，以及AM真菌多样性的方法通常基于PCR原理，这些方法的比较及应用详见Anderson和Cairney（2004）及Clapp等（2002）。"},
+    {"type": "heading", "level": 2, "number": "30.8.1", "title": "筛分和蔗糖技术提取土壤AM孢子"},
+    {"type": "heading", "level": 3, "number": "1", "title": "材料和试剂"},
+    {"type": "materials", "items": [
+      "（1）天平。",
+      "（2）烧瓶（1 L）。",
+      "（3）一系列大小筛子（建议筛孔大小：1000 μm截留砂砾、土壤残渣；500 μm、150 μm和50 μm收集子实体和不同大小的孢子）。",
+      "（4）离心管：圆底，100 mL。",
+      "（5）离心机。",
+      "（6）真空抽滤装置（真空来源，布氏漏斗和并联烧瓶（2 L））。",
+      "（7）滤纸（Whatman 1号（40 μm））。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "30.8.1.1（7）", "severity": "critical", "text": "原书印作‘Whatman 1号（40 μm）’。Cytiva/Whatman厂商产品指南给出Grade 1定性滤纸在98%效率下的典型颗粒截留值为11 μm，而非40 μm。40 μm可能来自旧版资料、其他滤材或译排误差；未核对原始方法前不得把40 μm当作Whatman Grade 1的标准规格。", "provenance": ["Cytiva Whatman filtration product guide: Grade 1 typical particle retention 11 μm at 98% efficiency", "https://info.cytivalifesciences.com/rs/614-VFU-334/images/Whatman-filtration-product-guide.pdf"]},
+    {"type": "printed-page-number", "text": "273"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a454880683833cc1641b2c6fbd0a11fa9e5ebf13e596bc0ebfd5467ab4b3c11f"
+}

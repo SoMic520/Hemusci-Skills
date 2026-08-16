@@ -1,0 +1,60 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 194,
+  "sourceImageSha256": "8d5f29ae4734637846eaa24320a94c5071c14fe05f27512d75356620cecbd14f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐标注对照原分辨率装置图页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复图20.1 A～J、图源、20.4.3两组步骤及式（20.4）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Mg(ClO₄)₂、6 mol/L HCl、125 mL、HCl-FeCl₂、CaCO₃、CO₂、0.1 mg、5～10气泡 s⁻¹、30 min/1 h、227.3和烧碱石棉Ⅱᴿ"},
+    "secondVisualPass": {"status": "verified", "method": "从页末重量增加法（4）反向复核至图例A，确认D/E旋塞、H/U形管、J/玻璃管的步骤引用、图源英文和页码163"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第20章｜碳酸盐｜"},
+    {
+      "type": "figure",
+      "number": "图20.1",
+      "caption": "准确定量测定碳酸钙含量的装置",
+      "source": "From Raad, A.A., in J.A. McKeague (ed.), Manual on Soil Sampling and Methods of Analysis, 2nd edn. Canadian Society of Soil Science, AAFC, Ottawa, Ontario, Canada, 1978.",
+      "labels": [
+        {"label": "A", "text": "玻璃棉塞"},
+        {"label": "B", "text": "无水高氯酸镁，Mg(ClO₄)₂"},
+        {"label": "C", "text": "装有6 mol/L HCl溶液的小瓶"},
+        {"label": "D", "text": "旋塞"},
+        {"label": "E", "text": "旋塞"},
+        {"label": "F", "text": "125 mL锥形瓶"},
+        {"label": "G", "text": "塞子"},
+        {"label": "H", "text": "U形管"},
+        {"label": "I", "text": "短型氯化钙管"},
+        {"label": "J", "text": "玻璃管"}
+      ]
+    },
+    {"type": "section-heading", "level": 3, "number": "20.4.3", "title": "步骤"},
+    {"type": "procedure-group", "number": "1.", "title": "重量亏损法"},
+    {"type": "procedure-step", "group": "1", "number": "（1）", "text": "称取1～10 g烘干土样（＜100目）于125 mL锥形瓶中，样品中CaCO₃的含量应该少于1 g。"},
+    {"type": "procedure-step", "group": "1", "number": "（2）", "text": "用10 mL重去离子水冲洗锥形瓶的内壁边缘。"},
+    {"type": "procedure-step", "group": "1", "number": "（3）", "text": "添加7 mL HCl-FeCl₂溶液于图20.1所示的小瓶中，并使其直立于锥形瓶内，必须避免试剂洒出。"},
+    {"type": "procedure-step", "group": "1", "number": "（4）", "text": "在瓶塞处涂抹甘油，并撒上少量磨细至180目的石英砂用来防滑。按照图20.1组装仪器，暂时不将活塞E与U形管相连，关闭活塞D、E。"},
+    {"type": "procedure-step", "group": "1", "number": "（5）", "text": "将装置放置平稳，并使锥形瓶内的温度达到室温。"},
+    {"type": "procedure-step", "group": "1", "number": "（6）", "text": "将该装置放于称量天平上，打开活塞D，记录装置的整体重量，精确到0.1 mg，之后立即关闭活塞D，10 min后再次称量保证重量不变。"},
+    {"type": "procedure-step", "group": "1", "number": "（7）", "text": "打开活塞D，摇晃锥形瓶使小瓶倒下，从而使酸与土样反应。"},
+    {"type": "procedure-step", "group": "1", "number": "（8）", "text": "10 min后，将装置与U形管H连接，打开活塞E，并在D处提供一个轻微的吸力，使干燥后的空气以每秒5～10个气泡的速度通过J管进入锥形瓶从而将CO₂排出，每隔10 min摇动一次锥形瓶。"},
+    {"type": "procedure-step", "group": "1", "number": "（9）", "text": "反应完全（通常为30 min，若含白云石则需要1 h）后停止吸力，关闭活塞D和E，将U形管H拆除。待1 h后，打开活塞，称量装置及其内含物的重量，并在10 min后再次称重检验。"},
+    {"type": "procedure-step", "group": "1", "number": "（10）", "text": "计算公式如下：", "formulaRef": "20.4"},
+    {"type": "procedure-group", "number": "2.", "title": "重量增加法"},
+    {"type": "procedure-step", "group": "2", "number": "（1）", "text": "称量含有烧碱石棉Ⅱᴿ干燥管的重量，精确至0.1 mg，并将此装置连于20.1图中的活塞D处。"},
+    {"type": "procedure-step", "group": "2", "number": "（2）", "text": "按照质量亏损法进行实验，但需要在聚乙烯干燥管后提供吸力使气体能够经过烧碱石棉Ⅱᴿ干燥管将其中的CO₂吸收。"},
+    {"type": "procedure-step", "group": "2", "number": "（3）", "text": "取下吸收CO₂的干燥管并称量干燥管及其内含物的总重量。"},
+    {"type": "procedure-step", "group": "2", "number": "（4）", "continued": true, "text": "计算公式如下："},
+    {"type": "printed-page-number", "text": "163"}
+  ],
+  "formulas": [
+    {
+      "number": "20.4",
+      "context": "重量亏损法",
+      "display": "CaCO₃% = [(初始总重量(g)−反应后总重量(g))/土样质量(g)] × 227.3",
+      "latex": "CaCO_3\\%=\\frac{\\text{初始总重量}(\\mathrm{g})-\\text{反应后总重量}(\\mathrm{g})}{\\text{土样质量}(\\mathrm{g})}\\times227.3"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "c0ccc6c85bd5b18fdab0e258b44402d5989667683fab9f7c927cb3aed39a5eaf"
+}

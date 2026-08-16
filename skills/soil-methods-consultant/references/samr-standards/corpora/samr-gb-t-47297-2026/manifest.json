@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-47297-2026",
+  "label": "GB/T 47297-2026《土壤总碳、总氮、总硫含量的测定》",
+  "standardNo": "GB/T 47297-2026",
+  "title": "土壤总碳、总氮、总硫含量的测定",
+  "published": "2026-03-31",
+  "implemented": "2026-10-01",
+  "domain": "soil",
+  "sourceType": "official-online-reader",
+  "sourceFingerprint": "18ce157663b9025f32f0d1db8fb53411c8988dc09e6ee42b421761af05ffb314",
+  "includedPageCount": 19,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=4464A075316E52CA6CDA57842E7C1F68"
+}

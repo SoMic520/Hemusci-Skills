@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 276,
+  "sourceImageSha256": "d1b55e703b016b6857b5fe105ea9b4d2e9ce66c38203d0f64802a587da1d6c78",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第28章第245页，人工恢复28.2.1续文、28.2.2材料、28.2.3步骤与式（28.1）、28.3、28.3.1全文"},
+    "precisionPass": {"status": "verified", "method": "逐字符核骎100～300 g、24 h、1～2 min、50 g、M、105～110℃、375～800℃、0.25～2.00 g、ASTM年份及公式括号"},
+    "secondVisualPass": {"status": "verified", "method": "从页底元素分析反向复核至页首‘积取样’，确认28.2.1→28.2.2→28.2.3→28.3→28.3.1层级、式（28.1）位置及印刷页码245"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第28章｜有机质土的化学特性｜"},
+    {"type": "body-continuation", "continuesFromPage": 275, "text": "积取样，以便保证结果的一致性。Harrison（1979）认为对于容重发生变化的土壤，其数据应该基于土壤体积来表示。"},
+    {"type": "heading", "level": 2, "number": "28.2.2", "title": "材料"},
+    {"type": "material-item", "number": "（1）", "text": "分析天平。"},
+    {"type": "material-item", "number": "（2）", "text": "高速搅拌机。"},
+    {"type": "material-item", "number": "（3）", "text": "大型平底盘或同类器皿。"},
+    {"type": "material-item", "number": "（4）", "text": "勺子或小铲子。"},
+    {"type": "heading", "level": 2, "number": "28.2.3", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "将有机质土壤样品充分混匀，称取100～300 g有代表性的样品。将称重后的样品均匀平铺在一个大的平底盘、方形橡胶板或纸上。用勺子或小铲子压碎土块，之后将样品置于室内至少24 h，使其湿度与室内空气平衡。"},
+    {"type": "procedure-step", "number": "（2）", "text": "不定期搅拌样品，使整个样品最大程度地暴露于空气中。"},
+    {"type": "procedure-step", "number": "（3）", "text": "当样品质量达到恒定值时，计算风干过程中散失的水分占原始样品质量的百分比。"},
+    {"type": "procedure-step", "number": "（4）", "text": "取出一部分具有代表性的风干样品在高速搅拌机中研磨1～2 min。以克为单位确定相当于50 g原始样品的风干样重量，计算方法如下："},
+    {"type": "formula-reference", "number": "（28.1）", "text": "等量风干样重量（g）= 50.0−[（50×M）/100]"},
+    {"type": "formula-definition", "text": "式中，M是指土壤样品在风干过程中的水分散失率。"},
+    {"type": "procedure-step", "number": "（5）", "text": "将样品放入干燥器中。"},
+    {"type": "heading", "level": 1, "number": "28.3", "title": "水分和灰分含量（ASTM，1988）"},
+    {"type": "heading", "level": 2, "number": "28.3.1", "title": "介绍"},
+    {"type": "principle", "text": "重量法是直接测定土壤含水量的最简单方法。称量土壤样品（鲜样）在105～110℃烘箱中烘干前后的重量，从而计算出土壤含水量。土壤含水量既可以用烘干土质量的百分比表示，也可以用鲜土质量的百分比表示。但在用烘干土测定氮含量、pH值、阳离子交换量或其他土壤化学性质时，这种含水量测定方法并不适合。美国试验材料协会（ASTM）提出用风干样品替代烘干样品的方法，该方法不但可以除去全部水分，而且其样品也比较稳定（ASTM，1997）。该方法包括两个步骤："},
+    {"type": "method-stage", "number": "（1）", "text": "在室温下蒸发土壤水分（风干）。"},
+    {"type": "method-stage", "number": "（2）", "text": "之后将风干土放入105℃烘箱中烘干。"},
+    {"type": "principle", "text": "测定泥炭或有机样品的灰分（无机组分）主要有两种方法：干灰化法和湿灰化法。干灰化法是指将样品置于可控温的马弗炉中经过中温（375～800℃）灼烧除去有机质。在该方法中，灼烧时间或温度不足会导致灼烧不充分，温度过高则会引起损失，而这些都会使干灰化法的系统误差增加（Allen，1989）。"},
+    {"type": "method-note", "text": "若有必要，则需要在灰化前将样品烘干（105～110℃）。灼烧后残留的物质主要为灰分及矿物杂质，如沙子。通过计算得到灼烧后的重量损失，可以作为酸性有机质土和非钙质泥炭土有机质含量的近似值。测定灰分时的容器推荐使用瓷器、石英或白金碟。所需样品的重量在0.25～2.00 g范围内。试验得到的灰分可以进一步用酸性溶液溶解进行元素分析。"},
+    {"type": "printed-page-number", "text": "245"}
+  ],
+  "formulas": [
+    {"number": "28.1", "context": "由风干过程水分散失率M求相当于50 g原始样品的风干样重量", "display": "等量风干样重量（g）= 50.0−[（50×M）/100]", "latex": "m_{air-dry}(g)=50.0-[(50\\times M)/100]"}
+  ],
+  "tables": [],
+  "contentSha256": "2fc72169ef53839b833f969d0bf4f06dee6c76239a3741683fb97a89f235237c"
+}

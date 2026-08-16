@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-34765-2024",
+  "label": "GB/T 34765-2024《肥料和土壤调理剂 黄腐酸含量及碳系数的测定方法》",
+  "standardNo": "GB/T 34765-2024",
+  "title": "肥料和土壤调理剂 黄腐酸含量及碳系数的测定方法",
+  "published": "2024-09-29",
+  "implemented": "2025-04-01",
+  "domain": "fertilizer",
+  "sourceType": "official-pdf",
+  "sourceFingerprint": "32bdccf0e3ddd92e7be16bdea6702b27dcab528a197807d10ebe70216f416edb",
+  "includedPageCount": 15,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=3C98210D54100A8BE7C5298B2331A381"
+}

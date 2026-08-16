@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 246,
+  "sourceImageSha256": "315c7dd04fbe2882641da73ea439ac3d2eafd10c7306766178ae4ecae1044e8d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第215页，并与Apple Vision、PaddleOCR交叉比对，人工恢复Rowland至Williams共18条英文参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者缩写、年份、题名、NaHCO₃、引号内nonextractable、期刊名、卷号页码和梁东丽/党海燕/王朝辉署名"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至Rowland和Grimshaw（1985），确认18条文献顺序、每条边界、卷页、原书Steward拼写和印刷页码215"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第24章｜总磷和有机磷｜"},
+    {"type": "reference", "text": "Rowland, A.P. and Grimshaw, H.M. 1985. A wet oxidation procedure suitable for total nitrogen and phosphorus in soil. Commun. Soil Sci. Plant Anal. 16: 551-560."},
+    {"type": "reference", "text": "Saunders, W.M. and Williams, E.G. 1955. Observations on the determination of organic phosphorus in soils. J. Soil Sci. 6: 254-267."},
+    {"type": "reference", "text": "Smith, B.F.L. and Bain, D.C. 1982. A sodium hydroxide fusion method for the determination of total phosphate in soils. Commun. Soil Sci. Plant Anal. 13: 185-190."},
+    {"type": "reference", "text": "Sommers, L.E., Harris, R.F., Williams, J.D.H., Armstrong, D.E., and Syers, J.K. 1970. Determination of total organic phosphorus in lake sediments. Limnol. Oceanogr. 15: 301-304."},
+    {"type": "reference", "text": "Sommers, L.E. and Nelson, D.W. 1972. Determination of total phosphorus in soils: A rapid perchloric acid digestion procedure. Soil Sci. Soc. Am. Proc. 36: 902-904."},
+    {"type": "reference", "text": "Steward, J.H. and Oades, J.M. 1972. The determination of organic phosphorus in soils. J. Soil Sci. 23: 38-49."},
+    {"type": "reference", "text": "Syers, J.K., Williams, J.D.H., Campbell, A.S., and Walker, T.W. 1967. The significance of apatite inclusions in soil phosphorus studies. Soil Sci. Soc. Am. Proc. 31: 752-756."},
+    {"type": "reference", "text": "Syers, J.K., Williams, J.D.H., Tyner, E.H., and Walker, T.W. 1969. Primary and secondary origin of “nonextractable” soil inorganic phosphorus. Soil Sci. Soc. Am. Proc. 33: 635-636."},
+    {"type": "reference", "text": "Syers, J.K., Williams, J.D.H., and Walker, T.W. 1968. The determination of total phosphorus in soils and parent materials. N. Z. J. Agric. Res. 11: 757-762."},
+    {"type": "reference", "text": "Taylor, M.D. 2000. Determination of total phosphorus in soil using simple Kjeldahl digestion. Commun. Soil Sci. Plant Anal. 31: 2665-2670."},
+    {"type": "reference", "text": "Thomas, R.L., Sheard, R.W., and Moyer, J.R. 1967. Comparison of conventional and automated procedures for nitrogen, phosphorus and potassium analysis of plant material using a single digestion. Agron. J. 59: 240-243."},
+    {"type": "reference", "text": "Toor, G.S., Condron, L.M., Di, H.J., Cameron, K.C., and Cade-Menun, B.J. 2003. Characterization of organic phosphorus in leachate from a grassland soil. Soil Biol. Biochem. 35: 1319-1325."},
+    {"type": "reference", "text": "Turner, B.L., Cade-Menun, B.J., Condron, L.M., and Newman, S. 2005. Extraction of organic phosphorus from soil and manure. Talanta 66: 294-306."},
+    {"type": "reference", "text": "Turner, B.L., Cade-Menun, B.J., and Westermann, D.T. 2003. Organic phosphorus composition and potential bioavailability in semi-arid arable soils of the western United States. Soil Sci. Soc. Am. J. 67: 1168-1179."},
+    {"type": "reference", "text": "Turner, B.L., McKelvie, I.D., and Haygarth, P.M. 2002. Characterization of water-extractable soil organic phosphorus by phosphatase hydrolysis. Soil Biol. Biochem. 34: 27-35."},
+    {"type": "reference", "text": "Walker, T.W. and Adams, A.F.R. 1958. Studies on soil organic matter. I. Influence of phosphorus content of parent materials on accumulation of carbon, nitrogen, sulfur and organic phosphorus in grassland soils. Soil Sci. 85: 307-318."},
+    {"type": "reference", "text": "Watanabe, F.S. and Olsen, S.R. 1965. Test of an ascorbic acid method for determining phosphorus in water and NaHCO₃ extracts from soil. Soil Sci. Soc. Am. Proc. 29: 677-678."},
+    {"type": "reference", "text": "Williams, J.D.H., Syers, J.K., Walker, T.W., and Rex, R.W. 1970. A comparison of methods for the determination of soil organic phosphorus. Soil Sci. 110: 13-18."},
+    {"type": "translator-credit", "text": "（梁东丽　党海燕　译，王朝辉　校）"},
+    {"type": "printed-page-number", "text": "215"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1bdcd52b97222e3869a6a566d670844f68dd34255778ff9af296eae662b8d0e4"
+}

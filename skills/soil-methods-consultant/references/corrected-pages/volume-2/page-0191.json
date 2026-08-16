@@ -1,0 +1,21 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 191,
+  "sourceImageSha256": "17500ef04997b44a859c225d3af43a6f4f1298de31cc76e69d558ceffd5a4843",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐图对照原分辨率页图和两套OCR，完成图71.1、压力计势分量、71.2.1材料设备1—5"},
+    "precisionPass": {"status": "verified", "method": "核验ψ_t/ψ_p/ψ_g下标、1.0—1.5 m、滤网上60 cm、ABS全称和0.01—0.10 m语境"},
+    "secondVisualPass": {"status": "verified", "method": "由水位监测跨页句反向复核两类安装剖面和材料限制；印刷页码700"}
+  },
+  "blocks": [
+    {"type": "figure", "number": "71.1", "title": "压力计安装", "panels": [{"label": "a", "description": "非水文孤立压力计：升流管周围回填过筛原生材料或工程砂，上部泥浆/表层保护"}, {"label": "b", "description": "水文孤立压力计：滤网以上先回填≥60 cm，再设厚1.0—1.5 m膨润土塞，上覆工程砂和到地面泥浆"}]},
+    {"type": "paragraph", "text": "压力计可测饱和介质总水势ψ_t与压力势ψ_p。按单位重量能量表示时，ψ_t对应连接管水面相对基准的高程/水深；重力势ψ_g由进入口中心与基准面（如平均海平面）高程差计算。饱和土无基质势，压力计也不能测渗透势。水位井是进入口从基准面延伸至介质表面附近的特殊压力计，用于非承压含水层水位高程。"},
+    {"type": "heading", "number": "71.2.1", "title": "材料和设备", "level": 3},
+    {"type": "equipment", "items": ["连接管：铁、铝、不锈钢、ABS塑料等；ABS便宜易操作。测水化学/EC时材料不得浸出、吸附或电干扰；取样/测压头时管径须容纳设备。", "进入口：预制井滤网，或管底锯槽外包滤布；稳定高渗粗砂可用金属丝网/滤布包开口端。", "钻井设备：按深度、孔径、质地、密度、石性选钻机、冲击锤或手/电钻。", "测量基准：记录进入口和附近地表相对统一基准的高程；水位常先测距地表水深再由已知入口深度换算高程。", "水位监测：电子水位指示器、电磁带、带浮筒测带或自动传感器，续见下页。"]},
+    {"type": "source-fidelity-note", "text": "势的计算必须统一高程基准和符号。压力计不测基质势/渗透势，不能把管内水位直接当成全部土水势分量。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "47e089896004b7d90d367333f65bf3602732d5be5e1974ef84b1eaa9ffceb32b"
+}

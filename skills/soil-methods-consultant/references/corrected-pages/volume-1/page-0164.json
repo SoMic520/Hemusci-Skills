@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 164,
+  "sourceImageSha256": "3cc087006a12adf2860e8d784d7f313b07704b11fcc60180068f32b719db4f08",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率方法和公式页，并与Apple Vision、PaddleOCR交叉比对，人工恢复交换性酸原理、试剂、步骤和式（16.1）"},
+    "precisionPass": {"status": "verified", "method": "逐字符放大核验H⁺、Al³⁺、AlOH²⁺、Al(OH)₂⁺、Ca(OH)₂、BaCl₂·2H₂O、NaF、NaOH、cmol(+) kg⁻¹、V_A/V_B/V_a/V_b及公式分子分母"},
+    "secondVisualPass": {"status": "verified", "method": "从式（16.1）反向复核至16.3.3，确认原书步骤（1）印为1 mol L⁻¹ BaCl₂（与前文0.1 mol L⁻¹不一致，仍原样保留）、公式标号和页码133"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第16章｜土壤反应和交换性酸｜"},
+    {"type": "section-heading", "level": 3, "number": "16.3.3", "title": "注释"},
+    {"type": "paragraph", "text": "CaCl₂溶液的pH和电导率应该保持恒定，其pH应该维持在5.5～6.5范围内，在25 ℃条件下导电率应该维持在2.3 mS cm⁻¹左右。如果CaCl₂溶液的pH超出以上范围，就应该用HCl或Ca(OH)₂溶液进行调节。若电导率超出可以接受的范围，则需要重新制备浸提溶液。"},
+    {"type": "section-heading", "level": 2, "number": "16.4", "title": "交换性酸"},
+    {"type": "paragraph", "text": "除了钙、镁、钾、钠等盐基离子，土壤胶体复杂的交换体系中还存在一定数量的交换性酸。交换性酸的数量在很大程度上影响着土壤的pH和交换能力。在多数土壤中，交换性酸的主要成分包括交换性H⁺、以Al³⁺或部分中性Al-OH化合物（如AlOH²⁺或Al(OH)₂⁺）形式存在的交换性铝及弱有机酸。"},
+    {"type": "paragraph", "text": "施用石灰时，土壤交换性酸将随pH上升而被中和。因此，采用石灰调整土壤pH时，交换性酸数量可以作为确定石灰用量的指标。"},
+    {"type": "paragraph", "text": "Thomas（1982）采用1 mol L⁻¹ KCl溶液作为浸提液，2003年土壤专家论坛提出以0.1 mol L⁻¹ BaCl₂溶液作为浸提液。本书选用0.1 mol L⁻¹ BaCl₂溶液作为测定交换性阳离子的浸提液，同时推荐选用其作为测定交换性酸的浸提液。因为氯化钡溶液的浓度较低，所以其浸提交换出的阳离子量比氯化钾溶液少。Jonsson等（2002）还研究确定了用于比较两种浸提溶液交换能力差异的回归方程。"},
+    {"type": "section-heading", "level": 3, "number": "16.4.1", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "text": "50 mL离心管，5000 g的离心机和往复式振荡机（15 rpm）。"},
+    {"type": "reagent-item", "number": "（2）", "name": "0.1 mol L⁻¹ BaCl₂浸提液", "text": "称取24.43 g BaCl₂·2H₂O溶于重去离子水，定容于1 L容量瓶。"},
+    {"type": "reagent-item", "number": "（3）", "name": "铝络合溶液（1 mol L⁻¹ NaF）", "text": "称取41.99 g NaF，加入大约900 mL重去离子水溶于1 L烧杯中，用氢氧化钠溶液滴定至酚酞变色终点，而后转移至1 L容量瓶中定容。"},
+    {"type": "reagent-item", "number": "（4）", "name": "氢氧化钠溶液", "text": "浓度约0.05 mol L⁻¹，经过标定后使用。"},
+    {"type": "reagent-item", "number": "（5）", "name": "酚酞溶液", "text": "称取1 g酚酞溶于100 mL乙醇。"},
+    {"type": "section-heading", "level": 3, "number": "16.4.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取矿质土壤2.5 g，有机土壤样品2 g，放入50 mL离心管中，加入30 mL 1 mol L⁻¹ BaCl₂溶液，振荡1 h，再用5000 g离心力离心10 min，转移上清液至100 mL容量瓶中。剩余土壤再加入30 mL BaCl₂溶液，进行振荡、离心和转移上清液，重复此过程两次，将所有的上清液收集在同一个100 mL容量瓶中，用BaCl₂溶液定容并摇匀。用滤纸（42号或类似型号滤纸）将提取液过滤至塑料瓶中，置于冰箱内存储备测。"},
+    {"type": "procedure-step", "number": "（2）", "title": "交换性酸的测定", "text": "用移液器吸取25 mL提取液至100 mL的聚乙烯烧杯中，加入4滴或5滴酚酞指示剂，用0.05 mol L⁻¹ NaOH溶液滴定到第一变色点（粉红色），记录NaOH溶液的消耗量（注：粉色太深表明过量），记为V_A。同时以25 mL的BaCl₂溶液作为空白，滴定至变色终点并记录NaOH溶液的消耗量，记为V_B。每千克土壤由BaCl₂溶液提取的交换性酸量（cmol(+) kg⁻¹）由式（16.1）计算得出。"},
+    {"type": "procedure-step", "number": "（3）", "title": "交换性H⁺的测定", "text": "用移液器吸取25 mL提取液至100 mL的聚乙烯烧杯中，加入2.5 mL 1 mol L⁻¹ NaF溶液，用0.05 mol L⁻¹ NaOH溶液滴定到第一变色点（粉红色），记录NaOH溶液的消耗量，记为V_a。同时以25 mL的BaCl₂溶液作为空白，滴定至变色终点并记录NaOH溶液的消耗量，记为V_b。"},
+    {"type": "section-heading", "level": 3, "number": "16.4.3", "title": "计算"},
+    {"type": "equation", "label": "（16.1）", "text": "交换性酸量（cmol(+) kg⁻¹）=[(V_A−V_B)×M_NaOH×100×V]/(g×V_s)"},
+    {"type": "printed-page-number", "text": "133"}
+  ],
+  "formulas": [
+    {"label": "（16.1）", "plain": "交换性酸量（cmol(+) kg⁻¹）=[(V_A−V_B)×M_NaOH×100×V]/(g×V_s)", "latex": "\\text{交换性酸量}\\,(\\mathrm{cmol}(+)\\,\\mathrm{kg}^{-1})=\\frac{(V_A-V_B)\\times M_{\\mathrm{NaOH}}\\times100\\times V}{g\\times V_s}", "context": "BaCl₂浸提交换性酸计算"}
+  ],
+  "tables": [],
+  "contentSha256": "926515fcb35ea698be62e8d2d5034d4e3dbd70b25228019057b5a08ea2c3dca9"
+}

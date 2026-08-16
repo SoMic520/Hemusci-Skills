@@ -1,0 +1,48 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 385,
+  "sourceImageSha256": "aa5dd93c80e65bf791a18e2756309baf3ca349ad6409035656937ab5c2466490",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版37.6.2～37.7.2"},
+    "precisionPass": {"status": "verified", "method": "核验20 °C、1/2/3/5 h、9/5.9 mL、25 mL、5 d、NO₃⁻、5 cm×5 cm和500 mL"},
+    "secondVisualPass": {"status": "verified", "method": "从37.7.2步骤1承下句反向复核至37.6.2步骤4，确认原状土芯材料尺寸和方法层级；印刷页码354"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "continuation", "text": "（承第384页37.6.2步骤4）培养温度20 °C；于1 h、2 h、3 h和5 h后用注射器从瓶中抽取9 mL气样，注入并储存在抽空的5.9 mL进样瓶中。"},
+    {"type": "ordered-list", "start": 5, "items": [
+      "用配电子捕获检测器的气相色谱仪分析气样和标准气；测试步骤和气相色谱设置同37.5.2节。",
+      "按37.5.2节方法计算各时间间隔的N₂O量。与37.5节不同之处是瓶中溶液总体积还包括土壤水和另加的25 mL溶液；这部分体积既影响式(37.3)的顶空体积，也影响式(37.4)通过本生吸收系数计算的溶解态N₂O量。"
+    ]},
+    {"type": "section-heading", "level": 3, "number": "37.6.3", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      "潜在反硝化试验是涉及已有酶和新合成酶的连续反应过程，不存在彼此分离的线性生长阶段与非线性生长阶段（Pell等，1996）。产物形成方程可很好拟合数据，并同时确定已有酶活性和微生物生长速率。",
+      "土壤采样后应在5 d内完成分析；储存时间更长会使潜在反硝化活性降低。",
+      "文献对是否需要振荡培养瓶存在分歧；振荡的优点是保证测定潜在反硝化速率时底物扩散不成为限制因素。"
+    ]},
+    {"type": "section-heading", "level": 2, "number": "37.7", "title": "原状土柱培养法测定反硝化作用"},
+    {"type": "paragraph", "text": "反硝化微生物可获得的NO₃⁻和碳源、以及氧扩散到反应位点的程度，会影响土壤反硝化损失。土壤结构——包括团聚、压实程度，影响气体和水分运动的物理过程，以及厌氧微位点——都会影响NO₃⁻经反硝化流失的量，因此可用完整土柱评价土壤结构对反硝化过程的影响。"},
+    {"type": "paragraph", "text": "该法也有采样和培养限制。取芯时必须避免压实；即使尽量减小压实，样品表面附近、尤其接触土芯筒壁处仍可能受到扰动。密闭培养时，乙炔向土芯内扩散或反硝化气体从土芯逸出可能受限。本试验旨在评价土壤环境对反硝化NO₃⁻损失的影响；土壤质地、结构及其支持能产生反硝化酶的微生物群体的能力，均会影响实测反硝化损失。"},
+    {"type": "section-heading", "level": 3, "number": "37.7.1", "title": "分析仪器和材料"},
+    {"type": "ordered-list", "items": [
+      "配电子捕获检测器的气相色谱仪，最好连接自动进样器。",
+      "使用自动进样器时，用5.9 mL Exetainer保存气样。",
+      "用于抽空进样瓶的集流管（见前文和图37.1）。",
+      "经浓硫酸纯化、再经蒸馏水洗涤的乙炔，以除去丙酮等有机杂质；浓硫酸变色时更换。也可用碳化钙制备不含丙酮的乙炔。",
+      "带外部斜面切削刃的铝合金圆筒：直径5 cm、长5 cm。",
+      "盖上装有Suba Seal血清瓶塞的密封罐（如500 mL广口玻璃罐）；血清瓶塞应涂硅胶，以减少气体漏入或漏出。"
+    ]},
+    {"type": "section-heading", "level": 3, "number": "37.7.2", "title": "步骤"},
+    {"type": "ordered-list", "start": 1, "items": [
+      "在田间采集土柱时，用液压探头，或用木槌和木板手工、轻缓而均匀地把土芯筒敲入土中，斜面切削刃朝下；本步骤续见第386页。"
+    ]},
+    {"type": "printed-page-number", "text": "354"}
+  ],
+  "formulas": [
+    {"id": "37.6-sampling-schedule", "display": "t = 1, 2, 3, 5 h; V_sample = 9 mL; V_Exetainer = 5.9 mL"},
+    {"id": "37.7-core-dimensions", "display": "d_core = 5 cm; L_core = 5 cm"}
+  ],
+  "tables": [],
+  "contentSha256": "f6cfada49051cbaef2c49d5dd5397b250f14d53b29dabfc15a51cb02244734f6"
+}

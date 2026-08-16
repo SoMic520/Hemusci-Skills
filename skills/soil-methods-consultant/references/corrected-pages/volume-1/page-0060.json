@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 60,
+  "sourceImageSha256": "cbaca6d57a82e007c97514ec9c2ff2bad6c39241e80c5cb8b28a4e615de4dd84",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部作者、题名、刊名、标点和译校署名"},
+    "precisionPass": {"status": "verified", "method": "放大核对¹⁵N上标、原页carbon (13C)字形、2004a/2004b、全部作者首字母、卷期页码及pistonaction、Archael等原页拼写"},
+    "secondVisualPass": {"status": "verified", "method": "按字母顺序逐条复核作者、年份、题名、同位素、刊名、卷期页码、译校署名和印刷页码"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第3章｜土壤有机碳储量的测定｜"},
+    {"type": "bibliography-entry", "continuation": true, "text": "Garten, C.T. and Wullschleger, S.D. 1999. Soil carbon inventories under a bioenergy crop (switchgrass): measurement limitations. J. Environ. Qual. 28: 1359-1365."},
+    {"type": "bibliography-entry", "text": "Gregorich, E.G., Carter, M.R., Doran, J.W., Pankhurst, C.E., and Dwyer, L.M. 1997. Biological attributes of soil quality. In: E.G. Gregorich and M.R. Carter, eds. Soil Quality for Crop Production and Ecosystem Health. Elsevier, Amsterdam, 81-113."},
+    {"type": "bibliography-entry", "text": "Janzen, H.H. 2005. Soil carbon: a measure of ecosystem response in a changing world? Can. J. Soil Sci. 85: 467-480."},
+    {"type": "bibliography-entry", "text": "Kelley, K.R. 1994. Conveyor-belt apparatus for fine grinding of soil and plant materials. Soil Sci. Soc. Am. J. 58: 144-146."},
+    {"type": "bibliography-entry", "text": "Lal, R. 2004a. Soil carbon sequestration to mitigate climate change. Geoderma 123: 1-22."},
+    {"type": "bibliography-entry", "text": "Lal, R. 2004b. Soil carbon sequestration impacts on global climate change and food security. Science 304: 1623-1627."},
+    {"type": "bibliography-entry", "text": "Lawes, J.B. and Gilbert, J.H. 1885. On some points in the composition of soils with results illustrating the sources of the fertility of Manitoba prairie soils. J. Chem. Soc. 47: 380-422."},
+    {"type": "bibliography-entry", "text": "McGee, E.A., Vohman, D.D., White, S.A., and Thompson, T.L. 1999. Rapid method for fine grinding soils for organic N and ¹⁵N analysis. Commun. Soil Sci. Plant Anal. 30: 419-426.", "inlineNotation": ["¹⁵N"]},
+    {"type": "bibliography-entry", "text": "Peterson, G.A., Halvorson, A.D., Havlin, J.L., Jones, O.R., Lyon, D.J., and Tanaka, D.L. 1998. Reduced tillage and increasing cropping intensity in the Great Plains conserves soil C. Soil Till. Res. 47: 207-218."},
+    {"type": "bibliography-entry", "text": "Post, W.M., Izaurralde, R.C., Mann, L.K., and Bliss, N. 2001. Monitoring and verifying changes of organic carbon in soil. Climatic Change 51: 73-99."},
+    {"type": "bibliography-entry", "text": "Rondon, M.A. and Thomas, R.J. 1994. A pistonaction ball mill for the rapid preparation of plant and soil samples for the automated analysis of nitrogen (¹⁵N) and carbon (13C). Commun. Soil Sci. Plant Anal. 25: 435-445.", "inlineNotation": ["¹⁵N", "13C"]},
+    {"type": "bibliography-entry", "text": "Theocharopoulos, S.P., Mitsios, I.K., and Arvanitoyannis, I. 2004. Traceability of environmental soil measurements. Trends Anal. Chem. 23: 237-251."},
+    {"type": "bibliography-entry", "text": "VandenBygaart, A.J. 2006. Monitoring soil organic carbon stock changes in agricultural landscapes: issues and a proposed approach. Can. J. Soil Sci. 86: 451-463."},
+    {"type": "bibliography-entry", "text": "Waters, D.F. and Sweetman, I.C. 1955. The Rukuhia soil grinder. Soil Sci. 79: 411-413."},
+    {"type": "bibliography-entry", "text": "Whitlam, R.G. 1998. Cyberstaking archaeological sites: using electronic marker systems (EMS) for a site datum and monitoring station. Soc. Am. Archael. Bull. 16(2): 39-47."},
+    {"type": "bibliography-entry", "text": "Wilding, L.P., Drees, L.R., and Nordt, L.C. 2001. Spatial variability: enhancing the mean estimate of organic and inorganic carbon in a sampling unit. In: R. Lal, J.M. Kimble, R.F. Follett, and B.A. Stewart, eds. Assessment Methods for Soil Carbon. Lewis Publishers, Boca Raton, FL, 69-86."},
+    {"type": "translator-credit", "text": "（李晓晶　孙扬　译，李永涛　翁莉萍　校）"},
+    {"type": "printed-page-number", "text": "29"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "7717d978bfb5b265c42392ed5a23c3dd2ed74db8a3f8c3caf8aa2bd8805e4fd1"
+}

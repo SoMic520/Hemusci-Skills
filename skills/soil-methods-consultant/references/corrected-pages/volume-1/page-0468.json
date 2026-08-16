@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 468,
+  "sourceImageSha256": "59aa96b785c5cad52a7721b2d217e4c3cc4f3c773ad242853559bf6c27df2306",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页、两套OCR及英文章题信息，恢复第46章作者机构、46.1四段和46.2.1跨页首段"},
+    "precisionPass": {"status": "verified", "method": "核验20～200 kg N·ha⁻¹、30周、7 d、好氧/厌氧、潜在可矿化氮与矿质态氮概念边界及所有文献年份"},
+    "secondVisualPass": {"status": "verified", "method": "由46.2.1页末承下句反向复核至章题，检查层级、作者顺序、地名和单位负指数；印刷页码437"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "46", "title": "矿化态氮", "originalTitle": "Mineralizable Nitrogen"},
+    {"type": "author", "name": "Denis Curtin", "affiliation": "New Zealand Institute for Crop and Food Research, Christchurch, New Zealand"},
+    {"type": "author", "name": "C.A. Campbell", "affiliation": "Agriculture and Agri-Food Canada, Ottawa, Ontario, Canada"},
+    {"type": "section-heading", "level": 2, "number": "46.1", "title": "引言"},
+    {"type": "paragraph", "text": "农业生产系统中，氮通常是最常见的植物生长限制性营养元素。植物吸收的氮来自肥料、生物固氮，以及土壤有机质、植物残茬和有机肥矿化形成的氮（Keeney，1982）。土壤氮矿化可为作物提供20～200 kg N·ha⁻¹（Goh，1983；Cabrera等，1994），矿化量取决于可矿化有机氮的数量以及土壤温度和水分等控制矿化速率的环境条件。长期草地可积累大量可矿化有机氮，随后矿化可向快速生长作物供应大量氮；集约化农田往往只有少量氮可矿化，作物吸氮更多依赖施用氮肥。"},
+    {"type": "paragraph", "text": "潜在可矿化氮是土壤有机氮的活性组分，主要经微生物作用释放矿质态氮。它由微生物生物量、新鲜作物残茬和腐殖质等异质有机物组成。尚无化学方法能可靠分析土壤可矿化氮（Jalil等，1996；Picone等，2002），所以培养试验仍是估算可矿化氮的首选。"},
+    {"type": "paragraph", "text": "Stanford和Smith（1972）提出在最适温度和水分条件下，对土壤—砂混合物进行30周好氧培养；期间释放的矿质氮总量作为潜在可矿化氮。该法是标准参考方法，但耗时太长，不适于常规分析，只宜作研究工具。短期好氧培养可有效评估土壤供氮能力（Paul等，2002；Curtin和McCallum，2004），但仍需数周并要求多项专业技能。"},
+    {"type": "paragraph", "text": "Keeney和Bremner（1966）提出厌氧培养估算可矿化氮。培养期短（7 d）且无需精细调节土壤含水量，使厌氧（渍水土壤）法比好氧法更实用、易操作，有时用于商业实验室常规土壤肥力测定。Keeney和Bremner最初报告厌氧培养可矿化氮与温室植物吸氮量高度相关，后续大田试验结果并不一致（Thicke等，1993；Christensen等，1999）。"},
+    {"type": "section-heading", "level": 2, "number": "46.2", "title": "潜在可矿化氮"},
+    {"type": "section-heading", "level": 3, "number": "46.2.1", "title": "原理"},
+    {"type": "paragraph", "text": "理论上，潜在可矿化氮是在最适温度和水分条件下、无限长时间内能够矿化的氮量。测定时在最适条件下培养土壤，定期淋洗无机氮，并建立无机氮量与时间的函数关系，据此确定氮矿化量[公式见第469页]。"}
+  ],
+  "formulas": [
+    {"id": "46.1-field-mineralized-n-range", "display": "20～200 kg N·ha⁻¹", "meaning": "原书给出的土壤氮矿化对作物供氮量范围；未指定时间基准，引用时不得擅自改成每年"},
+    {"id": "46.1-anaerobic-duration", "display": "7 d", "meaning": "Keeney和Bremner厌氧培养法的短培养时间"}
+  ],
+  "tables": [],
+  "contentSha256": "eb36f034a8476d5462041c30b105d381188633aa5afcf0a4463c02ab81ad1a34"
+}

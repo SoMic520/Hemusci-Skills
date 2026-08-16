@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 179,
+  "sourceImageSha256": "adb35395485863f27c7262ec53367fb2777a307d3024d19b53d796516220555f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段对照原分辨率页图和两套OCR，完成步骤3、70.3.3、式(70.1)—(70.2)及70.3.4剖面方法"},
+    "precisionPass": {"status": "verified", "method": "核验1 h、3×10⁸ m·s⁻¹、0.115/0.176、0.05 kg·kg⁻¹、1.5 m、±0.03 m³·m⁻³和45°"},
+    "secondVisualPass": {"status": "verified", "method": "用量纲及传播速度定义反向复核式(70.1)漏因子，再检查三种剖面布置；印刷页码688"}
+  },
+  "blocks": [
+    {"type": "procedure", "steps": ["用已知介电常数的参照液定期检查仪表重复性、偏移和故障。田间测量时把探针浸于异丙醇或水中记录数据，每隔1 h重复；容器必须足够大，使信号测量体积完全位于液体内。"]},
+    {"type": "heading", "number": "70.3.3", "title": "计算过程", "level": 3},
+    {"type": "paragraph", "text": "先把双程传播时间Δt=t₂−t₁换算为速度v与相对介电常数ε_ra。L为探针长度，c为真空中光/电磁波速度3×10⁸ m·s⁻¹。再用校准关系把ε_ra换为体积含水量θ_v；未校准土可用式(70.2)，但每种土壤应单独验证。"},
+    {"type": "paragraph", "text": "黏土含量、盐分含量或有机质含量>0.05 kg·kg⁻¹时应建立土壤专属校准。高黏粒/高盐/高有机质可能需改变式(70.2)斜率0.115并引入曲率；容重因固相组成可影响截距。"},
+    {"type": "heading", "number": "70.3.4", "title": "注释", "level": 3},
+    {"type": "paragraph", "text": "距地表1.5 m内剖面可用三种布置：(1) 多根不同长度探针自地表垂直插入，利于总量/水平衡但受横向变异约±0.03 m³·m⁻³、地表裂缝和冻胀影响；(2) 各深度水平安装，剖面更精细且横向变异影响小，但垂向离散、需挖坑/钻孔且连接必须密封；(3) 约45°斜插，可形成独立垂直断面并同时跨越水平、垂直方向，续见下页。"},
+    {"type": "source-fidelity-note", "text": "原书式(70.1)印成Δt=2L/v=√ε_ra/c，末项缺少2L，量纲为T·L⁻¹而非时间。依据v=c/√ε_ra，规范式已纠正为Δt=2L√ε_ra/c；这是公式印误纠正，不是OCR改写。"}
+  ],
+  "formulas": [
+    {"label": "70.1（按量纲与v=c/√ε_ra纠正）", "plain": "t₂-t₁ = 2L/v = 2L√ε_ra/c; equivalently √ε_ra = c(t₂-t₁)/(2L)", "latex": "t_2-t_1=\\frac{2L}{v}=\\frac{2L\\sqrt{\\varepsilon_{ra}}}{c};\\quad \\sqrt{\\varepsilon_{ra}}=\\frac{c(t_2-t_1)}{2L}", "resultUnit": "s"},
+    {"label": "70.2", "plain": "θ_v = 0.115√ε_ra - 0.176", "latex": "\\theta_v=0.115\\sqrt{\\varepsilon_{ra}}-0.176", "resultUnit": "m³·m⁻³"}
+  ],
+  "tables": [],
+  "contentSha256": "4335eb0a8b35504d29ff6cab22da6bcd46566e357d4951ea01c3b34c5a6be6bb"
+}

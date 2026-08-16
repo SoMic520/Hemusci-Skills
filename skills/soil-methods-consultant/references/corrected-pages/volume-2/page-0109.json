@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 109,
+  "sourceImageSha256": "ed387a51f5056678be744dd346cf539bd57bb44fe67a78ffd8107306b716e962",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐项对照原分辨率图和两套OCR，完成Clark电极设计、64.4.2.2～64.4.2.3、图64.3及64.4.3"},
+    "precisionPass": {"status": "verified", "method": "核验101.7%、2 mg·L⁻¹校正、每月校准/换液、O₂/N₂O/CO₂/NH₃/H₂S/SO₂/CH₄及全部电极部件"},
+    "secondVisualPass": {"status": "verified", "method": "由64.4.3末句反向复核至页首，检查图中Ag/AgCl、Pt/Au、化学式下标和原书2 μL·L⁻¹单位错误；印刷页码618"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "Clark电极可加热敏电阻进行温度补偿。第二层透气膜与第一层之间用尼龙网隔开，避免靠近Pt阴极的内膜凝结水阻断扩散；即使外膜有水滴，两膜之间仍保留O₂低阻扩散路径。该探头可测土壤气相和溶液O₂。Revsbech（1989）增加保护阴极以阻止O₂由内部电解液向探针尖端扩散，后用于土体及根际O₂分布测量。"},
+    {"type": "heading", "number": "64.4.2.2", "title": "步骤", "level": 4},
+    {"type": "procedure-steps", "items": [
+      "探头可自制或购买；激活、膜/电解液装配、极化、温度补偿和使用按具体制造商说明执行。",
+      "书中一般建议至少每月校准一次，精度要求更高或膜/电解液/温度发生变化时应增加频率；为维持性能，书中建议每月更换电解液。",
+      "可在水饱和空气中做第一点校准。由于O₂在水和空气中的扩散不同，部分Orion仪表把水饱和空气校准值乘以101.7%，以对应空气饱和水；该系数只适用于制造商指定探头和条件。",
+      "测低浓度样品（<2 mg·L⁻¹，即约2 ppm质量浓度）时，通常加做零氧标准第二点校准；若该型号在零氧时无背景电流并由制造商确认零点，可不另定零点。"
+    ]},
+    {"type": "heading", "number": "64.4.2.3", "title": "注释", "level": 4},
+    {"type": "paragraph", "text": "O₂微电极支持其他方法难以实现的微尺度研究。Sexstone等（1985）直接测单个土壤团聚体内O₂剖面，用于建立厌氧微生境并估算内部扩散；Revsbech等（1988）的O₂/N₂O复合电极被Højberg等（1994）用于研究团聚体呼吸和反硝化条件下O₂空间分布。"},
+    {"type": "figure", "number": "64.3", "title": "Clark型安培式O₂微电极", "labels": ["同轴电缆", "树脂", "Cu罩", "玻璃", "Ag/AgCl阳极", "电解质", "内部导体", "Pt或Au阴极", "透气膜"]},
+    {"type": "heading", "number": "64.4.3", "title": "其他气体传感器", "level": 3},
+    {"type": "paragraph", "text": "Clark型O₂微探头在环境研究中应用广泛（Kühl和Revsbech，2001）。书中还列出CO₂、NH₃、H₂S、SO₂和CH₄电化学探头；截至该版资料所述，土壤气体研究应用实例主要为电位型CO₂探头（Jensen等，1965）。电化学、光纤和生物传感器仍在发展。光纤O₂传感器相较传统Clark传感器易微型化用于原位监测、制作较简单、干扰较少且长期稳定性较好。"},
+    {"type": "source-fidelity-note", "text": "原书把Orion低浓度二点校准阈值印成“2 μL·L⁻¹”。Thermo Electron/Orion《Dissolved Oxygen Theory》原资料明确为less than 2 ppm；对水样应写作<2 mg·L⁻¹，已据制造商资料校正。101.7%也来自同一资料，不能移用于未规定该系数的其他探头。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "7a8cd6554b0d700e30c8759cdf09f7ea4c6a932dd2a5fbc9c6ce1318430a6603"
+}

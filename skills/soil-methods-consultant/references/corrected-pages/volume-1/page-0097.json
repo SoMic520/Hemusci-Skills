@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 97,
+  "sourceImageSha256": "5b6c145f7f11913d55e651a4eeffc36922d702e9a208034e386c9b65bc6b7043",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章首页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复作者单位、8.1全文及8.2未完段"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对NaHCO₃、Olsen-P、Pᵢ、Pₒ、Bicarb-Pᵢ、Bicarb-Pₒ、0.5 mol/L、pH 8.5、16 h、第14/25章及化学组分下标"},
+    "secondVisualPass": {"status": "verified", "method": "按章题作者、Olsen-P适用性、NaHCO₃提取机理、连续提取说明、环境用途和8.2未完段反向复核；确认章首页未见印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "8", "title": "碳酸氢钠—可提取态磷"},
+    {"type": "author", "name": "J.J. Schoenau", "affiliation": ["University of Saskatchewan", "Saskatoon, Saskatchewan, Canada"]},
+    {"type": "author", "name": "I.P. O’Halloran", "affiliation": ["University of Guelph", "Ridgetown, Ontario, Canada"]},
+    {"type": "section-heading", "level": 2, "number": "8.1", "title": "引言"},
+    {"type": "paragraph", "text": "碳酸氢钠（NaHCO₃）—提取态磷，通常被称为Olsen-P（Olsenet al.，1954），因其可作为土壤有效磷的一个指标指导农业生产中磷肥的推荐施用量，故在全世界范围内有着悠久的应用历史（Cox，1994）。它可用于检测酸性和石灰性土壤中的磷含量（Kamprath和Watson，1980）。在土壤测试中，Olsen-P对于影响土壤生物可利用磷水平的管理措施，比如化肥（O’Halloran等，1985）或者有机肥（Qian等，2004）施用响应敏感，然而它不适合对施用过难溶于水的磷材料如磷矿石的土壤进行磷提取（Mackay等，1984；Menon等，1989）。", "inlineNotation": ["NaHCO₃", "Olsen-P"]},
+    {"type": "paragraph", "text": "作为提取剂，NaHCO₃的作用是通过pH值和离子效应去除溶液中的无机磷（Pᵢ）及一些不稳定的固相Pᵢ化合物，如吸附在游离石灰上的磷酸盐、微溶磷酸钙沉淀，以及吸附在铁铝氧化物和黏土矿物上的弱吸附态磷酸盐。碳酸氢钠也可以去除不稳定的有机磷（Bicarb-Pₒ）（Bowman和Cole，1978；Schoenau等，1989），这部分有机磷容易水解成Pᵢ而成为植物可利用的磷（Tiessen等，1984；O’Halloran等，1985；Atia和Mallarino，2002）或者被微生物重新吸收利用（Coleman等，1983）。虽然这些不稳定的Pₒ一旦矿化便可能在作物的磷营养供给中发挥重要作用，但是大部分地区进行Olsen-P土壤测试时仍只考虑Pᵢ部分。作为土壤磷连续提取过程的步骤之一，第25章介绍了改进的Olsen-P方法。在这个方法中，NaHCO₃-提取态Pᵢ（Bicarb-Pᵢ）和Bicarb-Pₒ在提取16 h后进行测定。如果有研究者对衡量提取这些不稳定Pᵢ和Pₒ的处理和措施的影响感兴趣，只需遵循第25章概述中NaHCO₃的提取和分析步骤，忽略最初使用交换树脂进行提取的部分。与许多土壤磷试验一样，Olsen-P测试也可作为一种替代方法用来确定径流所带来的潜在磷损失（Pote等，1996；Turner等，2004），有些地区将Olsen-P测试作为推荐的土壤P试验方法，常将Olsen-P作为评价土壤P损失风险和对地表水影响的土壤P指数的判据（Sharpley等，1994）。关于确定环境土壤磷指标更全面的方法讨论，读者可以查阅第14章。由于Olsen-P在评估磷的可利用性和环境磷承载调控方面的广泛应用，本章介绍了Olsen-P的土壤测试方法。", "inlineNotation": ["NaHCO₃", "Pᵢ", "Pₒ", "Bicarb-Pᵢ", "Bicarb-Pₒ", "16 h", "第25章", "第14章", "Olsen-P"]},
+    {"type": "section-heading", "level": 2, "number": "8.2", "title": "碳酸氢钠—提取态无机磷（Olsen等，1954）"},
+    {"type": "paragraph", "continuation": true, "text": "在提取过程中，土壤样品中加入0.5 mol/L NaHCO₃并将pH值调至8.5后振荡提取，然后过滤得到澄清、无颗粒的滤液。根据土壤中有机质的去除程度，滤液的颜色通常为淡黄色到深棕色。当有机质去除程度较低时（淡黄色滤液），可以通过空白试验进行简单校正（即样品稀释后不加显色剂直接测定吸光度）。较高浓度的有机质会干扰比色法中的显色过程，或者导致有机物结合形成沉淀。可以通过使用", "inlineNotation": ["0.5 mol/L NaHCO₃", "pH 8.5"]}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "0b388dbfa6eeb2a05b4eb1988f9784795536205bc30bf767325cc51ecd2841cc"
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 82,
+  "sourceImageSha256": "25fb129f648ac0582add71f3453f710ac98316ade9062fee3a68142f2340f279",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐项逐步对照原分辨率图和两套OCR，完成61.3.1余项、61.3.2、61.3.3及参考文献前3条"},
+    "precisionPass": {"status": "verified", "method": "核验Saga 355、Magnehelic、水压计/差压表选择、小内径管、稳态/瞬态条件、密封测试和书目卷页"},
+    "secondVisualPass": {"status": "verified", "method": "由Ball等（1988）反向复核至跨页首句，检查流量校准、压力仪表功能和步骤层级；印刷页码591"}
+  },
+  "blocks": [
+    {"type": "materials-list-continuation", "items": ["(2) 电机驱动注射器柱塞。用每刻度排水质量标定注射器体积，再按电机转速标定空气流量；Saga 355只是示例，等效匀速驱动均可。", "(3) 水压计或Magnehelic差压表，按稳态/瞬态要求选用。", "(4) 同61.2.1的平衡原状土柱。", "(5) 小内径刚性管，减小系统死体积。"]},
+    {"type": "heading", "number": "61.3.2", "title": "步骤", "level": 3},
+    {"type": "procedure-steps", "items": ["(1) 土柱以O形环密封在刚性容器内，接合处浸水检漏，出口通大气。", "(2) 接注射器并恒速推进；按样品透气性选择容量和转速，预调流量。监测Δh，待其恒定；此时稳态质量流量恒定。", "(3) 稳态后以Q和Δh按式（61.2）求k_a。", "(4) 未达稳态时须按瞬态模型计算；使用水压计记录瞬态，书中指出Magnehelic的内部体积交换可能影响过程。详细数学法见Groenevelt和Lemoine（1987）。"]},
+    {"type": "heading", "number": "61.3.3", "title": "注释", "level": 3},
+    {"type": "paragraph", "text": "恒定通量法装置简单，可测低透气样品；瞬态计算较复杂。每次都要做密封测试：封出口加压，关泵后压力应保持不变。"},
+    {"type": "heading", "title": "参考文献", "level": 2},
+    {"type": "references", "items": ["Ball, B.C. 1981. Pore characteristics of soils from two cultivation experiments as shown by gas diffusivities and permeabilities and air-filled porosities. J. Soil Sci. 32:483–498.", "Ball, B.C., Harris, W., and Burford, J.R. 1981. A laboratory method to measure gas diffusion and flow in soil and other porous materials. J. Soil Sci. 32:323–333.", "Ball, B.C., O'Sullivan, M.F., and Hunter, R. 1988. Gas diffusion, fluid flow and derived pore continuity indices in relation to vehicle traffic and tillage. J. Soil Sci. 39:327–339."]}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "42f419b853c83197a0ea911f18ffea8a4f30aa569c3fdad5a3355a61d99921d5"
+}

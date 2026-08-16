@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 338,
+  "sourceImageSha256": "6ada4bbbdf56ab384a9b22fc7ae445c77c26335f4c5937487871d10e9376f28f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率参考文献页面，并与Apple Vision、PaddleOCR及英文原版交叉比对，恢复第32章末13条文献和译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者变音符号Søvik、物种名Ameronothrus lineatus、MacFadyen大小写、网址、卷页、XIV版及译校姓名"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向逐条复核至Ohio State University（2006），确认斜体题名内容及soil/social排印差异；页码307"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第32章｜小型节肢动物｜"},
+    {"type": "reference", "text": "Ohio State University. 2006. Acarology Summer Program, The Ohio State University, Columbus, OH. Available at: http://www.biosci.ohio-state.edu/~acarolog/sum2k1.htm (last verified, June 2006)."},
+    {"type": "reference", "text": "Petersen, H. 1978. Some properties of two high gradient extractors for soil microarthropods and an attempt to evaluate their extraction efficiency. Natura Jutlandica 20: 95–122."},
+    {"type": "source-fidelity-note", "scope": "Petersen（1978）题名", "text": "本页清晰印作“social microarthropods”，但原始题名及英文原版参考文献为“soil microarthropods”；校正文采用soil，检索保留social误排别名。"},
+    {"type": "reference", "text": "Petersen, H. and Luxton, M. 1982. A comparative analysis of soil fauna populations and their role in decomposition processes. Oikos 39: 287–388."},
+    {"type": "reference", "text": "Seastedt, T.R. 1984. The role of microarthropods in decomposition and mineralization processes. Ann. Rev. Entomol. 29: 25–46."},
+    {"type": "reference", "text": "Seastedt, T.R. and Crossley, D.A. Jr. 1978. Further investigations of microarthropod populations using the Merchant-Crossley high-gradient extractor. J. Georgia Entomol. Soc. 13: 333–338."},
+    {"type": "reference", "text": "Snider, R.M. and Snider, R.J. 1997. Efficiency of arthropod extraction from soil cores. Ent. News 108: 203–208."},
+    {"type": "reference", "text": "Søvik, G. and Leinaas, H.P. 2002. Variation in extraction efficiency between juvenile and adult oribatid mites: Ameronothrus lineatus (Oribatida, Acari) in a Macfadyen high-gradient canister extractor. Pedobiologia 46: 34–41."},
+    {"type": "reference", "text": "Takeda, H. 1979. On the extraction process and efficiency of MacFadyen’s high-gradient extractor. Pedobiologia 19: 106–112."},
+    {"type": "reference", "text": "Tamura, H. 1976. Biases in extracting Collembola through Tullgren funnel. Rev. Ecol. Biol. Sol. 13: 21–34."},
+    {"type": "reference", "text": "Wallwork, J.A. 1976. The Distribution and Diversity of Soil Fauna. Academic Press, London, UK, 355."},
+    {"type": "reference", "text": "Walter, D.E., Kethley, J., and Moore, J.C. 1987. A heptane flotation method for recovering microarthropods from semiarid soils, with comparison to the Merchant-Crossley high-gradient extraction method and estimates of microarthropod biomass. Pedobiologia 30: 221–232."},
+    {"type": "reference", "text": "Wardle, D.A. 2002. Communities and Ecosystems: Linking the Aboveground and Below-ground Components. Princeton University Press, Princeton, NJ."},
+    {"type": "reference", "text": "Williams, S., Ed. 1984. In: Official Methods of Analysis of the Association of Official Analytical Chemists, XIV edition, 887–890."},
+    {"type": "reference", "text": "Woolley, T.A. 1982. Mites and other soil microarthropods. In: A.L. Page et al., eds. Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties. Soil Science Society of America, Madison, WI, 1131–1142."},
+    {"type": "translation-credit", "translator": "许伯乐", "reviewer": "徐建明", "text": "（许伯乐 译，徐建明 校）"},
+    {"type": "printed-page-number", "text": "307"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "08c2a53489576b6e427c0038aa6b0cd5118369df6d91df5de8cac05cf37398ad"
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 5,
+  "sourceImageSha256": "c9139dd05276476016f3f0058143ce35b33ed922b4e6a529e06341527bc41156",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率序言和两套OCR，完成全页五段及署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验1993年、7部分、85章、2个附录、140位作者及合作者、每部分2名编辑/至少2名审稿人和Elaine Nobbs姓名"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由M.R. Carter/E.G. Gregorich署名反向复核至标题，检查新增章节范围和饱和/非饱和水力学表述"
+    }
+  },
+  "blocks": [
+    {
+      "type": "section-heading",
+      "level": 1,
+      "title": "序"
+    },
+    {
+      "type": "paragraph",
+      "text": "《土壤采样和分析方法》首次出版于1993年，本版在第一版基础上更新，仍旨在为土壤样品采集与分析提供常规、相对简单易用的方法。各方法详述材料和操作步骤，说明优点与不足，并列主要参考文献。"
+    },
+    {
+      "type": "paragraph",
+      "text": "随着分析方法变复杂，本版部分章节除方法本身外，还对测定原理和某些特定测量概念作入门性说明。"
+    },
+    {
+      "type": "paragraph",
+      "text": "本版保留、修订并更新第一版全部章节，同时在生物分析、物理分析、土壤采样及处理方面新增内容：土壤生物分析反映新兴微生物技术和土壤生态研究；新增表征土壤有机质动力学和化学特性的工具；土壤水章节加入田间和实验室测定饱和及非饱和土壤水力学特性的方法。"
+    },
+    {
+      "type": "publication-scope",
+      "text": "全书分7部分，共85章、2个附录，由140位作者及合作者完成；每部分由两名编辑共同完成，并由至少两名审稿人审稿校正。序言特别感谢Elaine Nobbs的支持。"
+    },
+    {
+      "type": "signature",
+      "text": "M.R. Carter and E.G. Gregorich"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d8baca654352c1fd15130956f6284ab7d7fef2157dea5fbe5137f8a85bdbf7ce"
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.samr-review-gate.v1",
+  "status": "verified",
+  "bookId": "samr-gb-t-44343-2024",
+  "standardNo": "GB/T 44343-2024",
+  "sourceFingerprint": "3558c4d15172e6c312072e14599516b62b8ad286f305297d0cf3534f7f29656a",
+  "pageCount": 15,
+  "textPass": "verified",
+  "precisionPass": "verified",
+  "secondVisualPass": "verified",
+  "evidence": {
+    "officialSourceHashPass": true,
+    "contentHashPass": true,
+    "allPagesDualOcrPass": false,
+    "nativePdfGlyphGeometryPass": true,
+    "formulaVisualTranscriptionCount": 1,
+    "precisionSensitivePages": [
+      1,
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "hierarchyContinuityPass": true,
+    "unitAndVariableCorrectionLayerPass": true,
+    "forbiddenGlyphScanPass": true
+  },
+  "reviewScope": "全页源图/原生PDF哈希、全页文本编码扫描与层级复核；公式、单位、变量和表格页按官方页面逐项转录校正。"
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 51,
+  "sourceImageSha256": "2dc1214831a4edf77ac0f779b623b52e2dccb029131ba8941adf211cfc32625b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章首页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复章题、作者单位、正文漏字和标点"},
+    "precisionPass": {"status": "verified", "method": "放大核对SOC、CO₂下标、Mg C、Mg C/ha、Mg C/ha/year、30～60 cm、100、0.5、t=x、t=0、处理A/B和5～10年"},
+    "secondVisualPass": {"status": "verified", "method": "按章题、三组作者与单位、3.1层级、四段正文、化学式、变量表达、数值单位和页末句号反向复核原页"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "level": 2, "number": "第3章", "title": "土壤有机碳储量的测定"},
+    {"type": "author", "text": "B.H. Ellert and H.H. Janzen"},
+    {"type": "affiliation", "text": "Agriculture and Agri-Food Canada"},
+    {"type": "location", "text": "Lethbridge, Alberta, Canada"},
+    {"type": "author", "text": "A.J. VandenBygaart"},
+    {"type": "affiliation", "text": "Agriculture and Agri-Food Canada"},
+    {"type": "location", "text": "Ottawa, Ontario, Canada"},
+    {"type": "author", "text": "E. Bremer"},
+    {"type": "affiliation", "text": "Symbio Ag Consulting"},
+    {"type": "location", "text": "Lethbridge, Alberta, Canada"},
+    {"type": "section-heading", "level": 3, "number": "3.1", "title": "引言"},
+    {"type": "paragraph", "text": "从早期土壤调查开始，有机碳就是土壤成分中最常规的测定指标。早在19世纪，化学家们已经开始例行分析土壤碳含量了（如Lawes和Gilbert，1885）。最初，这些指标用来调查成土作用和评价土壤生产力，两者都与有机碳密切相关（Gregorich等，1997）。但近年来，科学家们一直在分析土壤有机碳（SOC）的另一个原因是测定土壤和大气之间碳的净交换量（Janzen，2005）。实际上，增加土壤有机碳存储量已经成为减缓大气中由化石燃料燃烧引起的CO₂浓度上升的一种途径（Lal 2004a,b）。", "inlineNotation": ["SOC", "CO_2", "2004a,b"]},
+    {"type": "paragraph", "text": "量化土壤碳“汇”测定的土壤有机碳（SOC）比评估土壤生产力测定的SOC，需要更严格的样品采集和分析。过去，测量浓度随时间的相对差异或处理之间的相对差异就足够了，现在我们需要知道每公顷Mg C中存储的C的量的变化。SOC测定的相关研究主要集中于将样品带回实验室之后测定SOC浓度化学方法的研发。这里我们着重介绍土壤取样程序和计算方法来估计SOC储量的时间变化。从设计土壤采样方案、实地采样、样品处理和存储，到土壤碳库的化学分析和计算等，整个环节中的不确定性都需要被考虑到（Theocharopoulos等，2004）。", "inlineNotation": ["SOC", "Mg C", "C"]},
+    {"type": "paragraph", "text": "SOC是动态的：光合作用固定的碳定期以植物凋落物的形式进入土壤，现存的SOC逐渐又被土壤生物分解成CO₂。改变碳输入和分解相对速率的管理或环境条件，将会影响SOC储量的变化。然而，与现存巨大量的SOC相比（在30～60 cm土层中高达100 Mg C/ha，或者更多），SOC的变化速率（通常小于0.5 Mg C/ha/year）很微小。因此，SOC变化的有效测定需要基于数年甚至数十年的数据（Post等，2001）。由于SOC的空间分布存在固有的变异性，因此必须区分时间动态变化（如由管理措施、环境条件变化和连续性变化引起）与空间动态变化（如由地形、长期的地貌过程及不统一管理引起）。", "inlineNotation": ["SOC", "CO_2", "30～60 cm", "100 Mg C/ha", "0.5 Mg C/ha/year"]},
+    {"type": "paragraph", "text": "SOC的时间动态变化有两种定义方式（图3.1）：存储C的绝对变化（t=x时SOC减去t=0时SOC），或者处理组之间碳储量的净变化（x年后，处理A与处理B中SOC的差值）。前者可估算出土壤和大气之间的碳交换量，后者估算了处理A相对于处理B的土壤和大气之间的碳交换量。这两种定义的时间动态变化可以从控制性实验中获得，即选择合适的样本量（评估空间变异性），然后以不同的时间间隔（如5～10年）进行监测。", "inlineNotation": ["SOC", "C", "t=x", "t=0", "x", "A", "B", "5～10年"]}
+  ],
+  "formulas": [
+    {"context": "存储C的绝对变化", "displayAsPrinted": "t=x时SOC减去t=0时SOC", "tokens": ["t=x", "SOC", "t=0", "SOC"]},
+    {"context": "处理组之间碳储量的净变化", "displayAsPrinted": "x年后，处理A与处理B中SOC的差值", "tokens": ["x", "A", "B", "SOC"]}
+  ],
+  "tables": [],
+  "contentSha256": "74190f2b8132b962167d996f6b37df0744507193b21df38536b38be61044c380"
+}

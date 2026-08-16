@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 146,
+  "sourceImageSha256": "814e10edc16c6f33e361418f5cc8ff0fe2a3fbbbca9080adb6d993dcd8056f9e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐项对照原分辨率图和两套OCR，完成68.5.2步骤(8)—(12)、式(68.16)及68.5.3原理、材料和步骤(1)—(8)"},
+    "precisionPass": {"status": "verified", "method": "核验Q/L/R_f/A/h、1.66、−1—−20 kPa、14/10/12 cm、942 cm³、80/4/10/2.2/20 mm、±0.03%、10⁻³ s及全部平衡时间"},
+    "secondVisualPass": {"status": "verified", "method": "由步骤(8)反向复核至水头测量，检查式(68.16)水力梯度、−15/−5/0 kPa和传感器高度；印刷页码655"}
+  },
+  "blocks": [
+    {"type": "steps-continuation", "items": [
+      "测定恒定水面高出基质表面的水头h；实验结束测基质最终高度L，并计算有效入渗面积A。",
+      "按容器几何和底孔分布由Allaire等（1994）图5取得三维流量校正因子R_f。示例：常见1 L多孔盆、L=7 cm、h=3 cm时R_f=1.66；该值不能用于其他容器。",
+      "将稳态体积流率Q、L、A、h和R_f代入式(68.16)求等效K_s。"
+    ]},
+    {"type": "variables", "items": ["Q：稳态体积流率（L³·T⁻¹）", "L：基质最终高度（L）", "h：基质表面上方恒定水头（L）", "A：有效基质表面积（L²）", "R_f：容器三维流校正因子（无量纲）", "K_s：等效饱和导水率（L·T⁻¹）"]},
+    {"type": "heading", "number": "68.5.3", "title": "栽培基质的非饱和导水率", "level": 3},
+    {"type": "paragraph", "text": "瞬时剖面法（Watson，1966；Wind，1969；Hillel等，1972；Vachaud和Dane，2002）可测排水和再湿过程中不同深度的K(ψ)，也已用于装填基质柱（Naasz等，2005）。接近饱和的−1—0 kPa变异较大，但−1—−20 kPa有效范围内较快；原书指出水势低于−2 kPa时定水头非饱和法不够准确。"},
+    {"type": "heading", "title": "材料", "level": 4},
+    {"type": "list", "items": [
+      "预处理用两个PVC筒，直径14 cm、高14 cm；测量用若干PVC筒，直径10 cm、高12 cm、体积942 cm³",
+      "TDR：两支三针微型探头，针长80 mm、直径4 mm、间距10 mm；经多路转换器接Tektronix 1502C，由WinTDR v6.1控制",
+      "两支陶瓷微型张力计，直径2.2 mm、长20 mm（SDEC 220），接差压传感器，精度±0.03%、响应时间10⁻³ s，并在线采集",
+      "小型风扇；用于底部定水头入渗的Mariotte瓶"
+    ]},
+    {"type": "heading", "title": "步骤", "level": 4},
+    {"type": "steps", "items": [
+      "标准化制样：松装入14 cm筒，避免压实；底部润湿30 min，以蒸馏水饱和24 h，在−5 kPa张力台平衡48 h；取出混匀后装入10 cm×12 cm测量筒，再从底部饱和24 h。",
+      "在距筒底h₁=9 cm和h₂=3 cm处各水平插入一对TDR与微型张力计，分别测θ和ψ。",
+      "密封筒底后用Mariotte瓶从底部缓慢饱和；TDR和张力计显示静水力平衡（书示约30 min）后开始蒸发。",
+      "用风扇控制表面蒸发；上部张力计达−30 kPa时停止蒸发。",
+      "随后在−15、−5、0 kPa三个底部压力水平逐级增加进行入渗实验。干湿循环约1个月，每5 min采样一次，约8000组θ—ψ数据。"
+    ]},
+    {"type": "source-fidelity-note", "text": "原书步骤(9)OCR成“最终水位高度L”，原图为最终基质高度L；式(68.16)据此量纲成立。Q是体积流率，R_f为三维几何校正，二者不可遗漏。原书部分OCR把−5 kPa读成+5 kPa，已按原图恢复。"}
+  ],
+  "formulas": [
+    {"label": "68.16", "plain": "K_s = Q L R_f / [A(h + L)]", "latex": "K_s=\\frac{QLR_f}{A(h+L)}", "resultUnit": "长度·时间⁻¹"}
+  ],
+  "tables": [],
+  "contentSha256": "a477d66ca1991335f62fa96368bd8663a14c07506a97df23cf56604513a40113"
+}

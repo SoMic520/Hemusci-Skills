@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 133,
+  "sourceImageSha256": "11a6043e5aea98594985ca861a070282f1fe8cafa08d23df488be342b5294589",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成第67章参考文献Antonov至Parent等共16条"},
+    "precisionPass": {"status": "verified", "method": "核验作者、变音符、法文题名、GOST号、专著号、卷页、出版地和机构"},
+    "secondVisualPass": {"status": "verified", "method": "由Parent等条目反向复核至Antonov，检查跨行连字符、书名、期刊缩写及数字；印刷页码642"}
+  },
+  "blocks": [
+    {"type": "references", "items": [
+      "Antonov, V. and Kopenkin, V.D. 1983. Technology and Complex Mechanization of Peat Production. 2nd ed. Nedra, Moscow (in Russian).",
+      "Caron, J., Blanchet, L., Richard, G., Tardif, P., and Daigle, J.Y. 1997. Guide d’analyse des propriétés physiques des milieux artificiels, des tourbes et des sols organiques. Conseil des productions végétales du Québec, Québec, QC, Canada.",
+      "Dinel, H. and Lévesque, M. 1976. Une technique simple pour l’analyse granulométrique de la tourbe en milieu aqueux. Can. J. Soil Sci. 56:119–120.",
+      "Farnham, R.S. and Finney, H.R. 1965. Classification and properties of organic soils. Adv. Agron. 17:115–162.",
+      "Grosse-Brauckmann, G. 1976. Peat stratification. In: K. Göttlich, ed. Moor- und Torfkunde. E. Schweizerbart’sche Verlagsbuchhandlung (Nägele und Obermiller), Stuttgart, Germany, 91–133.",
+      "Ilnicki, P. and Zeitz, J. 2003. Irreversible loss of organic soil functions after reclamation. In: L.E. Parent and P. Ilnicki, eds. Organic Soils and Peat Materials for Sustainable Agriculture. CRC Press, Boca Raton, FL, 15–32.",
+      "Kaila, A. 1956. Determination of the degree of humification in peat samples. Maatal. Tiet. Aikak. 28:18–35.",
+      "Lévesque, M. and Dinel, H. 1977. Fibre content, particle-size distribution and some related properties of four peat materials in eastern Canada. Can. J. Soil Sci. 57:187–195.",
+      "Lévesque, M. and Mathur, S.P. 1979. A comparison of various means of measuring the degree of decomposition of virgin peat materials in the context of their relative biodegradability. Can. J. Soil Sci. 59:397–400.",
+      "Lishtvan, I.I. and Kroll, N.T. 1975. Basic Properties of Peat and Methods for Their Determination. Nauka and Tekhnica, Minsk (in Russian).",
+      "Lynn, W.C., McKinzie, W.E., and Grossman, R.B. 1974. Field laboratory tests for the characterization of Histosols. In: A.R. Aandahl et al., eds. Histosols: Their Characterizations, Use, and Classification. SSSA Special Publication No. 6. Soil Science Society of America, Madison, WI, 11–20.",
+      "Malterer, T.J. 1988. A comparative analysis of the USDA fiber volume, USSR centrifugation and von Post humification methods for determining fiber content and degree of decomposition (humification). Vol. IV, Proceedings of the 8th International Peat Congress, Leningrad, USSR, 129–139.",
+      "Malterer, T.J., Verry, E.S., and Erjavec, J. 1992. Fiber content and degree of decomposition: A review of national methods. Soil Sci. Soc. Am. J. 56:1200–1211.",
+      "Mills, G.F., Hopkins, L.A., and Smith, R.E. 1977. Organic Soils of the Roseau River Watershed in Manitoba. Monograph No. 17. Agriculture Canada, Ottawa, ON, Canada.",
+      "Ministry of Fuel Industry RSFSR. 1976. The State Standard of the USSR Peat. Method for the determination of the degree of decomposition: GOST 10650-72. Trans. Comm. I, International Peat Society, Working Group for the Classification of Peat, Helsinki, Finland, 57–66.",
+      "Okruszko, H. and Ilnicki, P. 2003. The moorsh horizons as quality indicators of reclaimed organic soils. In: L.E. Parent and P. Ilnicki, eds. Organic Soils and Peat Materials for Sustainable Agriculture. CRC Press, Boca Raton, FL, 1–14.",
+      "Parent, L.E. 1980. Guidelines for peat utilization in Quebec and the Maritimes. Technical Contribution J. 826, Technical Bulletin 15. Agriculture Canada, Saint-Jean-sur-Richelieu, QC, Canada.",
+      "Parent, L.E., Fanous, M.A., and Millette, J.A. 1982. Comments on parametric test limitations for analyzing data on peat decomposition. Can. J. Soil Sci. 62:545–547."
+    ]},
+    {"type": "source-fidelity-note", "text": "原书GOST号印作10650-10672，按标准号格式及本章方法来源校正为GOST 10650-72。Caron条目漏作者分隔逗号，Grosse-Brauckmann条目的Göttlich、Schweizerbart’sche和Nägele因字符损坏，均已恢复；不改变文献次序。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "51299e61697894f55cbf9d4752aea98b15a639be12c2d172076be3a86724e8fd"
+}

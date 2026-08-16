@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 84,
+  "sourceImageSha256": "99d09c82451839823ff76487b809fb8406840ed2f0c7a148794ee8142ecd56d2",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章首页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复作者、单位、6.1—6.2.1层级和全部正文"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对NO₃、NH₄、NO₃-N、NH₄-N、K₂SO₄、KCl、¹⁵N、SFA、FIA以及0.05/0.1/1.0/2.0 mol/L中的上下标和单位空格，并确认原页未印离子电荷"},
+    "secondVisualPass": {"status": "verified", "method": "按章题与作者、6.1六段、6.2标题、6.2.1原理段及右下角淡印页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "6", "title": "硝态氮和可交换性铵态氮"},
+    {"type": "author", "name": "D.G Maynard", "affiliation": ["Natural Resources Canada", "Victoria, British Columbia, Canada"]},
+    {"type": "author", "name": "Y.P. Kalra and J.A. Crumbaugh", "affiliation": ["Natural Resources Canada", "Edmonton, Alberta, Canada"]},
+    {"type": "section-heading", "level": 2, "number": "6.1", "title": "引言"},
+    {"type": "paragraph", "text": "土壤中的无机氮主要以硝酸盐（NO₃）和铵盐（NH₄）的形式存在。亚硝酸盐的检出频率很低，只有在施用过含NH₄或能够产生NH₄的肥料的中性和碱性土壤中能够检出（Keeney和Nelson，1982）。土壤检测实验室通常用测定的NO₃的量估算农业土壤中可利用氮量，而实验室分析苗圃和森林土壤时经常要测定NO₃和NH₄的含量。", "inlineNotation": ["NO₃", "NH₄"]},
+    {"type": "paragraph", "text": "不同实验室之间提取和测定NO₃和NH₄的过程存在很大的差异。此外，培养法（包括好氧和厌氧）常被用于分析潜在的矿质化氮（见第46章），离子交换树脂法则用于获得氮素供给率（见第13章）。", "inlineNotation": ["NO₃", "NH₄", "第46章", "第13章"]},
+    {"type": "paragraph", "text": "硝酸盐是可溶的，可以用包括水在内的很多溶液作为提取剂。可交换态NH₄是指在室温下可以被中性钾盐溶液提取的NH₄。钾盐溶液的摩尔浓度是不同的，比如0.05 mol/L的K₂SO₄、0.1 mol/L的KCl、1.0 mol/L的KCl和2.0 mol/L的KCl溶液（Keeney和Nelson，1982）。但是，最常见的NO₃和NH₄的提取剂是2.0 mol/L的KCl溶液（如Magill和Aber，2000；Shahandeh等，2005）。", "inlineNotation": ["NH₄", "0.05 mol/L", "K₂SO₄", "0.1 mol/L", "1.0 mol/L", "2.0 mol/L", "KCl", "NO₃"]},
+    {"type": "paragraph", "text": "NO₃和NH₄的测定方法远远多于其提取方法（Keeney和Nelson，1982）。这些方法包括离子选择性电极法、手动比色法、微量扩散法、水蒸气蒸馏法和连续流动分析法。有时仍然使用水蒸气蒸馏法测定¹⁵N；而常规分析时更多地采用连续流动分析仪的自动比色技术。间隔流动分析法（SFA）和流动注射分析法（FIA）是快速、灵敏且不易受大多土壤干扰的连续流动分析体系。", "inlineNotation": ["NO₃", "NH₄", "¹⁵N", "SFA", "FIA"]},
+    {"type": "paragraph", "text": "本章介绍了目前测定NO₃和NH₄最常用的溶剂（2.0 mol/L KCl）提取和SFA两种方法。FIA通常使用同样的化学提取方法，但是需要使用不同的设备（如Burt，2004）。近些年由于水蒸气蒸馏法在测定NO₃和NH₄上没有大的变化，故这里未提及。关于这些方法的详细介绍可以参考其他文献（Bremner，1965；Keeney和Nelson，1982）。", "inlineNotation": ["NO₃", "NH₄", "2.0 mol/L KCl", "SFA", "FIA"]},
+    {"type": "section-heading", "level": 2, "number": "6.2", "title": "溶剂（2 mol/L KCl）提取NO₃-N和NH₄-N"},
+    {"type": "section-heading", "level": 3, "number": "6.2.1", "title": "原理"},
+    {"type": "paragraph", "text": "铵在土壤中以可交换态的形式存在，其方式与可交换态的金属阳离子相同。固定态或不可交换态NH₄是土壤中氮的重要组成部分；只是将土壤中不能被中性钾盐溶液提取的NH₄定义为固定态NH₄（Keeney和Nelson，1982）。可交换态NH₄可以用2.0 mol/L的KCl溶液振荡提取。硝酸盐可溶于水，可以用2.0 mol/L的KCl溶液提取。土壤中能够检测到的亚硝酸盐含量很少，通常不需要测定。", "inlineNotation": ["NH₄", "2.0 mol/L", "KCl"]},
+    {"type": "printed-page-number", "text": "53"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "0240765456db1100b963bc58aef6616bae41d42321eebd6b3d20dd24f3fbac48"
+}

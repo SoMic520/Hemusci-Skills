@@ -1,0 +1,23 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 213,
+  "sourceImageSha256": "7b06beea06d0859683b2dd7dccb20b6afee14a00c000466cbfbfc19b372212e3",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率页图、两套OCR和英文原章，完成第73章标题、73.1及73.2材料1—2"},
+    "precisionPass": {"status": "verified", "method": "核验θ_v、ψ_m、<2 m、ψ_m≥−1 m、0.5—2.0 m、≥8 cm、TDR及底盖进气值要求"},
+    "secondVisualPass": {"status": "verified", "method": "由静态平衡水头关系反向复核定水头基准、负水头防进气结构、柱类型和近饱和适用域；印刷页码722"}
+  },
+  "blocks": [
+    {"type": "chapter", "number": "73", "title": "土壤水分特征曲线（脱水和吸水）：长土柱法", "authors": ["W.D. Reynolds", "G. Clarke Topp"]},
+    {"type": "heading", "number": "73.1", "title": "引言", "level": 2},
+    {"type": "principle", "text": "长土柱法用选定长度的竖直土柱，在脱水或吸水静态平衡后测不同高度的体积含水量θ_v，形成特征曲线。可在选定高度布置电容、电阻或TDR含水量探针。某位置ψ_m由该位置高程水头与定水头装置水头之差确定；通常把定水头装置水头设为零或靠近柱底。若定水头为负，柱底需张力介质、多孔板或膜防空气进入。方法在柱上某处（通常近底部）固定ψ_m，让水在施加梯度下流动至无净流的静态平衡，再读各高度ψ_m与θ_v。"},
+    {"type": "scope", "items": ["可用均质、分层、原状或装填土柱。", "常用于长度<2 m准原状土柱近饱和段ψ_m≥−1 m的精确脱水/吸水曲线。"]},
+    {"type": "heading", "number": "73.2", "title": "材料与物品", "level": 2},
+    {"type": "equipment", "items": ["土柱：圆形或矩形，长0.5—2.0 m；用TDR/电容/电阻探针时柱体须电绝缘（如ABS、PVC或熟石膏），内径或宽度≥8 cm。也可用γ射线衰减测含水量。", "底盖：与定水头装置良好水力连通；可用进气值足够的张力介质或多孔板提供最低（可为负）ψ_m。底盖—柱体连接须密封不透水，以维持张力和进出水。"]},
+    {"type": "source-fidelity-note", "text": "本章水势变量统一为基质水头ψ_m，含水量为θ_v；OCR易把两者识为v/8。近饱和适用范围ψ_m≥−1 m的负号与不等号按页图核定。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "60d51d0925df3256e21114309404d14631046474d51711102f906da8700ebe03"
+}

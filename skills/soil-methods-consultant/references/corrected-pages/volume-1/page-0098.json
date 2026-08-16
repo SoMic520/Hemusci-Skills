@@ -1,0 +1,43 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 98,
+  "sourceImageSha256": "1be67c76e9005a8cec57f276d65106257ce500e2e574d4fe170003bd86509325",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复8.2续文、8.2.1—8.2.3及8.3未完段"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对NaHCO₃、NaOH、HCl、Pᵢ、0.5/6 mol/L、pH 8.5、质量体积、2 mm、25℃、120转/min、30 min、16 h、5～40/0.43 mg/kg、20～30℃、1℃和5天"},
+    "secondVisualPass": {"status": "verified", "method": "按去有机质两法、三项试剂、七步提取、三条注释和8.3未完句反向复核，并核验滤纸型号与印刷页码67"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第8章｜碳酸氢钠—可提取态磷｜"},
+    {"type": "paragraph", "continuation": true, "text": "木炭（Olsen等，1954）和聚丙烯酰胺等方法去除提取液中的有机质（Banderis等，1976）。"},
+    {"type": "section-heading", "level": 3, "number": "8.2.1", "title": "提取试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "0.5 mol/L碳酸氢钠（NaHCO₃）提取液，调节pH值至8.5。将42 g NaHCO₃和0.5 g NaOH溶解于1000 mL去离子水中。因为溶液pH值的变化可能会影响提取磷的量，所以NaHCO₃提取液应每月重新配制并密封存储。"},
+      {"number": "（2）", "text": "使用木炭去除提取液的有机物质：准备300 g不含磷酸盐的木炭和900 mL去离子水，混合（见8.2.3节中的注释2）。"},
+      {"number": "（3）", "text": "使用聚丙烯酰胺去除提取液中的有机物质：将0.5 g聚丙烯酰胺溶解于约600 mL去离子水，搅拌几个小时，当其完全溶解后，转移至1 L容量瓶中并用去离子水定容。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "8.2.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "称取2.5 g风干土样（研磨过2 mm筛）放在125 mL的锥形烧瓶中，同时设置不加土壤的空白样品。"},
+      {"number": "（2）", "text": "在25℃条件下，加入50 mL 0.5 mol/L的NaHCO₃提取液。"},
+      {"number": "（3）", "text": "如果使用木炭去除提取液中的土壤有机质：添加0.4 mL的木炭悬浊液。"},
+      {"number": "（4）", "text": "如果使用聚丙烯酰胺去除提取液中的土壤有机质：添加0.25 mL的聚丙烯酰胺溶液。"},
+      {"number": "（5）", "text": "置于往复振荡器中，以120转/min的频率振荡30 min。"},
+      {"number": "（6）", "text": "用中速滤纸（如VWR 454或Whatman 40号）过滤提取液到干净的样品杯中。如果滤液浑浊，则再次进行过滤。"},
+      {"number": "（7）", "text": "滤液中的Olsen-P的测定方法见8.3节。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "8.2.3", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "提取条件的不同会影响从土壤中提取的磷含量。提高振荡速度和增加振荡时间会导致提取的磷的量增加（Olsen和Sommers，1982）。虽然16 h的提取时间也许能得到一个更彻底并且重复性更好的提取结果，但大多数土壤测试方法将提取时间限制为30 min。增加提取温度也会增加磷的提取量。Olsen等（1954）报道称，在磷含量为5～40 mg/kg的土壤测试试验中，提取温度在20～30℃范围内每增加1℃，提取到的Pᵢ含量增加0.43 mg/kg。因此，如果试验结果要根据当地的管理推荐值来解释，那么提取条件一定要接近当地土壤测试的标准条件。如果结果用于样品间的相互比较，那么样本提取条件的统一比选择一个特定的振荡速度、持续时间和提取温度更重要。"},
+      {"number": "（2）", "text": "大多数市场上买到的木炭或炭黑中都含有磷。强烈建议使用6 mol/L的HCl清洗木炭以去除磷，然后用去离子水反复清洗。通过分析添加与不添加木炭的空白NaHCO₃提取液能够指示木炭中的磷是否被彻底去除干净。"},
+      {"number": "（3）", "text": "要尽快对NaHCO₃提取液进行分析。因为即使在冷藏的情况下，微生物也会快速生长。为了抑制微生物活性，可以添加1～2滴甲苯，但这样会增加滤液的生物危害等级和处置的难度。如果不能立即分析提取液，应该冷藏保存，并在5天内完成分析。"}
+    ]},
+    {"type": "section-heading", "level": 2, "number": "8.3", "title": "提取液中磷的测定"},
+    {"type": "paragraph", "continuation": true, "text": "NaHCO₃提取液中的正磷酸盐通常用比色法和其他不同方法测定，包括手动方法和自动方法。这里介绍的手动方法是由Murphy和Riley（1962）提出的钼酸铵—酒石酸锑钾—抗坏血酸法，是应用最广泛"},
+    {"type": "printed-page-number", "text": "67"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "380c625f480ca15de39ac156249d5e29e439d541c9b467217e73bac7bde6fb3a"
+}

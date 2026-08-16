@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 469,
+  "sourceImageSha256": "dbe424aa7a8c2c4cf1ea8895a7492605ef8ac4e63ada9c4e28949c3a55a4bbe9",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页、两套OCR及方法来源，恢复式（46.1）、材料（1）～（7）、步骤（1）～（7）和46.2.4承下句"},
+    "precisionPass": {"status": "verified", "method": "核验e⁻ᵏᵗ、Nₘᵢₙ/N₀/k、40/35 °C、−80 kPa、6/3 mm、20目、全部mol·L⁻¹、针规、NO₃⁻-N和NH₄⁺-N"},
+    "secondVisualPass": {"status": "verified", "method": "由46.2.4页末承下文反向复核至式（46.1），逐项检查体积、土砂比、淋洗周期、滤纸型号和离子电荷；印刷页码438"}
+  },
+  "blocks": [
+    {"type": "paragraph", "continuationOf": "page-0468:46.2.1", "text": "潜在可矿化氮可用一级动力学方程（46.1）计算。Nₘᵢₙ为时间t的氮矿化累积量，N₀为潜在可矿化氮量，k为矿化速率常数。N₀和k通常用适当统计软件进行非线性最小二乘迭代估计。"},
+    {"type": "section-heading", "level": 3, "number": "46.2.2", "title": "材料"},
+    {"type": "materials-list", "items": [
+      {"number": "（1）", "text": "可维持40 °C的恒温箱；相对湿度需接近100%，防止培养期间土样变干。该项是设备能力要求，实际步骤设定35 °C。"},
+      {"number": "（2）", "text": "可在−80 kPa表压下抽取渗滤液的真空泵。"},
+      {"number": "（3）", "text": "能支撑待培养土样的淋洗装置：特制渗漏管（Campbell等，1993）、市售沥滤元件（如150 mL膜过滤器元件；MacKay和Carefoot，1981）或布氏漏斗（Ellert和Bettany，1988；Benedetti和Sebastiani，1996）。"},
+      {"number": "（4）", "text": "玻璃棉：制作厚约6 mm的底垫和厚约3 mm的顶垫。"},
+      {"number": "（5）", "text": "20目酸洗石英砂。"},
+      {"number": "（6）", "text": "0.01 mol·L⁻¹ CaCl₂淋洗液，由CaCl₂原液配制。"},
+      {"number": "（7）", "text": "无氮营养液：0.002 mol·L⁻¹ CaSO₄、0.002 mol·L⁻¹ MgSO₄、0.005 mol·L⁻¹ Ca(H₂PO₄)₂和0.0025 mol·L⁻¹ K₂SO₄，用于补充淋溶损失的非氮养分。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "46.2.3", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "培养前通常把土样风干、过筛，也可用田间含水状态鲜土。氮矿化速率对样品预处理很敏感，早期培养阶段尤其明显（见46.2.5）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "将15～50 g土样与砂混匀。中等质地土壤的土∶砂质量比为1∶1；细质地土壤为1∶2。把样品转入渗漏管时可加少量水，避免土壤颗粒或团聚体按大小分选。"},
+    {"type": "procedure-step", "number": "（3）", "text": "渗漏管底部放玻璃棉垫，或放玻璃棉/Whatman GF/A玻璃微纤维滤纸/玻璃棉复合夹层，再装入土砂混合物；顶部覆盖薄玻璃棉垫，防止加淋洗液时破坏团聚体。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用100 mL、0.01 mol·L⁻¹ CaCl₂分次（每次约10 mL）淋洗土样原有矿质氮，再用25 mL无氮营养液淋洗。让土砂混合物自然排水，再以真空泵在−80 kPa下抽去多余水分；弃去第一次渗滤液。"},
+    {"type": "procedure-step", "number": "（5）", "text": "塞住渗漏管两端，置35 °C培养箱。底部插入38 mm长、16～18 gauge皮下注射针促进气体流通；每周两次拔出顶部塞子进行气体交换。"},
+    {"type": "procedure-step", "number": "（6）", "text": "培养开始后8～10周内，每2周重复步骤（4）一次；此后每4周一次。收集渗滤液，经Whatman 42号滤纸过滤，测定NO₃⁻-N和NH₄⁺-N。"},
+    {"type": "procedure-step", "number": "（7）", "text": "氮矿化累积量达到平台时终止培养，通常约需20周（见46.2.5）。"},
+    {"type": "section-heading", "level": 3, "number": "46.2.4", "title": "计算"},
+    {"type": "paragraph", "text": "非线性最小二乘回归是估计一级动力学模型N₀和k的适宜统计方法（Campbell等，1993；Benedetti和Sebastiani，1996）。初始迭代需给出N₀和k的粗略值：建议k初值为0.10 week⁻¹（常见范围0.05～0.20 week⁻¹），N₀初值约比培养结束时的累计矿化氮高50%[续见第470页]。"}
+  ],
+  "formulas": [
+    {"id": "46.1", "display": "Nₘᵢₙ(t) = N₀(1 − e⁻ᵏᵗ)", "variables": {"Nₘᵢₙ(t)": "时间t内氮的累计矿化量，与N₀同单位", "N₀": "潜在可矿化氮量", "k": "一级矿化速率常数，时间⁻¹", "t": "培养时间，须与k的时间单位一致"}, "meaning": "单库一级动力学模型；Nₘᵢₙ随t渐近N₀"},
+    {"id": "46.2.2-n-free-nutrient", "display": "0.002 mol·L⁻¹ CaSO₄ + 0.002 mol·L⁻¹ MgSO₄ + 0.005 mol·L⁻¹ Ca(H₂PO₄)₂ + 0.0025 mol·L⁻¹ K₂SO₄", "meaning": "无氮营养液的溶质终浓度"},
+    {"id": "46.2.3-mineral-n", "display": "mineral N = NO₃⁻-N + NH₄⁺-N", "meaning": "渗滤液中用于累计氮矿化量的两种无机氮形态"}
+  ],
+  "tables": [],
+  "contentSha256": "7537e04a67b787d3afe2642eac5da58d7538267c4cec767fcc0f90b977d45cc5"
+}

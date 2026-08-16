@@ -1,0 +1,49 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 201,
+  "sourceImageSha256": "15bcba43a7e71f92b03798a9b0a6e4c1f0bac97edc3d8b0230e1a68951382e8e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复式（21.2）、21.2.4校准、21.2.5标准样品及21.3原理和反应"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验g·kg⁻¹、105/550/1 000 ℃、16/24 h、0.12、CaCO₃、Cr₂O₇²⁻、Cr³⁺、H₂Cr₂O₇、H₂SO₄、Cr₂(SO₄)₃、CO₂、H₂O、75%～80%和1.3"},
+    "secondVisualPass": {"status": "verified", "method": "从页末未完句反向复核至式（21.2），确认标准品列表、线性范围、铂金—甘汞电极、反应式系数和页码170"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "calculation-item", "number": "（2）", "formulaRef": "21.2"},
+    {"type": "section-heading", "level": 3, "number": "21.2.4", "title": "碳酸盐校准"},
+    {"type": "paragraph", "text": "对于基于连续流动排气且燃烧温度高于1 000 ℃的CO₂测定分析，可以用数学方法对碳酸盐含量进行校准，但一些收集给定体积的排出气体的CO₂分析仪限制了样品加热至高温的时间。后者在同时分析碳和氮含量的仪器中较为常见。在这种情况下，碳酸盐可能没有完全分解，使总碳含量偏低。通常可以通过称取更少量样品的方法来解决这个问题，但这种分析需要进行测试以确定碳酸盐存在下的全碳测定是否是定量的。否则，那么简单的校准将无法定量进行，样品中的碳酸盐需要按上述步骤中的方法在分析前去除。"},
+    {"type": "paragraph", "text": "对于那些定量测定总碳的分析仪器，可以通过下面的公式进行校准："},
+    {"type": "section-heading", "level": 3, "number": "21.2.5", "title": "标准样品"},
+    {"type": "paragraph", "text": "必须通过样品燃烧容器的预燃烧来消除污染。对于金属杯，可以在550 ℃下燃烧。对于陶瓷皿，可以在1 000 ℃下燃烧16 h。"},
+    {"type": "paragraph", "text": "许多物质可以作为测定有机碳的标准样品，包括碳酸钙、EDTA、蔗糖、葡萄糖、邻苯二甲酸氢钾和尿素。已经给定碳含量的标准样品也可以从公司购买，如Laboratory Equipment Corporation。建议采用的标准样品应该与样品表现出类似的燃烧特性，但不是必须的。使用高有机质含量的标准样品或样品会出现问题。对于连续监测的仪器，这样的标准样品或样品瞬间燃烧会在短时间内产生强烈的CO₂脉冲通过检测器，超出检测器的线性检测范围。可以采用给样品覆盖一层燃烧过的砂子降低燃烧速率的方法来解决。所用的砂子应该小于1 mm且在大于1 000 ℃的条件下燃烧至少24 h，并在燃烧过程中频繁搅动砂子以便确保任何形式的碳都被完全燃烧成CO₂。"},
+    {"type": "paragraph", "text": "检测器的线性检测范围可以通过分析不同重量的标准样品和样品来确定。这些标准样品和样品要能涵盖待测样品的总碳和有机碳含量的范围。"},
+    {"type": "section-heading", "level": 2, "number": "21.3", "title": "重铬酸盐氧化还原法"},
+    {"type": "paragraph", "text": "在本方法中，重铬酸盐（Cr₂O₇²⁻）溶液与硫酸混合氧化有机碳形成CO₂。橙色的重铬酸盐被还原为绿色的Cr³⁺，反应如下："},
+    {"type": "paragraph", "text": "有机质中碳的氧化态（Baldock等，2004）能够影响氧化剂的消耗量。高H/C比的分子，例如，脂质，和高O/C比的分子相比，具有更高的回收效率（Skjemstad，1992）。由于土壤有机质化学组成的高度多样，就一个具体的土壤而言，则这两种效应往往会相互抵消，但已经有关于有机碳的氧化态随着分解程度加深而发生变化的研究（Baldock等，2004）。因此，如果仅考虑某个特定的土壤有机碳组分，那么这个问题可能值得重视。"},
+    {"type": "paragraph", "continued": true, "text": "如果用氧化剂的消耗量来定量土壤有机碳，那么测定可以在加热条件（Heanes，1984）或没有外加热的条件（Walkley和Black，1934）下进行。氧化剂的消耗量可以通过使用指示剂滴定、铂金—甘汞电极或者比色法确定。如果像Walkley和Black（1934）的方法一样，只利用反应所产生的热而不再外加热，那么获得的碳回收率常常只有75%～80%，通常将1.3作为将此法测定的有机碳结果换算为热氧化"},
+    {"type": "printed-page-number", "text": "170"}
+  ],
+  "formulas": [
+    {
+      "number": "21.2",
+      "context": "预处理后土壤有机碳含量校正",
+      "display": "土壤有机碳含量（105 ℃）g·kg⁻¹ =（预处理后样品的有机碳含量g·kg⁻¹）×（预处理后样品烘干（105 ℃）重量）/（待处理的样品风干重量/ODF）",
+      "latex": "\\text{土壤有机碳含量}(105\\,^{\\circ}\\mathrm{C})\\,\\mathrm{g}\\cdot\\mathrm{kg}^{-1}=\\frac{(\\text{预处理后样品的有机碳含量}\\,\\mathrm{g}\\cdot\\mathrm{kg}^{-1})\\times(\\text{预处理后样品烘干}(105\\,^{\\circ}\\mathrm{C})\\text{重量})}{\\text{待处理的样品风干重量}/ODF}"
+    },
+    {
+      "number": "21.3",
+      "context": "碳酸盐校准",
+      "display": "有机碳（g·kg⁻¹）= 总碳（g·kg⁻¹）−0.12 × CaCO₃（g·kg⁻¹）",
+      "latex": "\\text{有机碳}(\\mathrm{g}\\cdot\\mathrm{kg}^{-1})=\\text{总碳}(\\mathrm{g}\\cdot\\mathrm{kg}^{-1})-0.12\\times CaCO_3(\\mathrm{g}\\cdot\\mathrm{kg}^{-1})"
+    },
+    {
+      "number": "21.4",
+      "context": "重铬酸盐氧化有机碳",
+      "display": "2H₂Cr₂O₇ + 6H₂SO₄ + 3C → 2Cr₂(SO₄)₃ + 3CO₂ + 8H₂O",
+      "latex": "\\mathrm{2H_2Cr_2O_7+6H_2SO_4+3C\\rightarrow2Cr_2(SO_4)_3+3CO_2+8H_2O}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "34bf5fcb575b8d694b81d69dfd3e6000e8a011bd9967da66a9e296f5943224c7"
+}

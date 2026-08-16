@@ -1,0 +1,57 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 312,
+  "sourceImageSha256": "ce4a93b5db804c40fe151a46414de84fbf871680a37eb1d65d21a31a59d5bbc8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复表31.1续表、来源脚注、章节说明及31.2根瘤菌分离方法引言"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验所有拉丁学名、bv.缩写、脚注上标a、来源URL、年份、章节号和跨页层级"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Rice和Olsen（1993）反向复核至续表首行，确认原书反复印作viceae、见35.3节及若干分类名拼写；页码281"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第31章｜根瘤菌与共生固氮作用｜"},
+    {"type": "table-continuation", "number": "31.1", "continuationOf": "page-0311"},
+    {"type": "table-source", "table": "31.1", "text": "来源：Sahgal, M. and Johri, N., Curr. Sci., 84, 43, 2003. http://www.rhizobia.co.nz/Rhizobia_Taxonomy.html."},
+    {"type": "table-footnote", "table": "31.1", "marker": "a", "text": "这些豆科植物的根瘤菌仍然未知。"},
+    {"type": "source-fidelity-note", "scope": "表31.1续表", "text": "原书反复印作Rhizobium leguminosarum bv. viceae，规范拼写为bv. viciae；另印作Mesorhizobium cicero（规范为M. ciceri）、Onobrychis vivifolia（通常写作O. viciifolia），并将Phaseolus vulgaris常用名列为“刀豆”。表格逐字保留原印，实际分类与物种检索应使用规范名并显示原书差异。"},
+    {"type": "paragraph", "text": "本章阐述了分离估算土壤中根瘤菌群落数量的方法，以此评价共生固氮作用，可以让经验不足的科研工作者得到可靠数据。比如简要阐述了利用基因分析手段来直接分离和估算土壤中根瘤菌群落数量的方法；提供相关的文献以便获得更完整的信息。"},
+    {"type": "section-heading", "level": 2, "number": "31.2", "title": "根瘤菌的分离方法"},
+    {"type": "paragraph", "text": "共生根瘤菌通常寄生在豆科植物和非豆科植物的根际，除了在豆科植物体内生存，它们也可以内生于一些非豆科植物，比如水稻和玉米（Sessitsch等，2002）。然而，土壤中也存在着非共生的根瘤菌（Sullivan等，1996），因此这里讨论的方法适用于分离使豆科植物形成根瘤的根瘤菌。根瘤菌可以从种植过豆科植物的田间获得，同时也可以在无菌的实验室条件下，向表面无菌的豆科植物种子接种根瘤菌，并让其在土壤悬液中生长，从而刺激根瘤的形成（见35.3节）。Date和Halliday（1987），Somasegaran和Hoben（1994）阐述和讨论了收集根瘤和收集过程中保存根瘤的方法。"},
+    {"type": "source-fidelity-note", "scope": "31.2交叉引用", "text": "原书清晰印作“见35.3节”，但本章植物感染MPN法位于31.3，属于明显交叉引用错误；执行与导航时应读作“见31.3节”，原文仍保留以便追溯。"},
+    {"type": "paragraph", "text": "这里提供的分离方法是从选定的植物中获得寄生于植物根瘤上的根瘤菌时需要执行的基本步骤（Rice和Olsen，1993）。"},
+    {"type": "printed-page-number", "text": "281"}
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "number": "31.1（续）",
+      "title": "加拿大原生和种植的豆科植物及促进形成根瘤的根瘤菌种类",
+      "columns": ["豆科植物种类｜拉丁名", "豆科植物种类｜常用名", "根瘤菌种类"],
+      "rows": [
+        ["Cicer arietinum", "鹰嘴豆", "Mesorhizobium cicero, Mesorhizobium mediterraneum"],
+        ["Galega", "山羊豆", "Rhizobium galegae"],
+        ["Glycine max", "大豆", "Bradyrhizobium japonicum, B. elkanii, B. liaoningense, Sinorhizobium fredii, S. xinjiangense"],
+        ["Lathyrus spp.", "香豌豆，丹吉尔香豌豆，海滩豌豆", "Rhizobium leguminosarum bv. viceae"],
+        ["Lathyrus sativus", "山黧豆，草香豌豆", "Rhizobium leguminosarum bv. viceae"],
+        ["Lathyrus pratensis", "黄山黧豆", "Rhizobium leguminosarum bv. viceae"],
+        ["Lens culinaris", "兵豆", "Rhizobium leguminosarum bv. viceae"],
+        ["Lotus corniculatus", "鸟足拟三叶草", "Mesorhizobium loti"],
+        ["Lupinus spp.", "羽扇豆（白，蓝，黄）", "Bradyrhizobium sp."],
+        ["Medicago spp.", "苜蓿", "Sinorhizobium meliloti, S. medicae"],
+        ["Melilotus spp.", "草木樨（白，黄）", "Sinorhizobium meliloti, S. medicae"],
+        ["Onobrychis vivifolia", "红豆草", "Rhizobium sp.ᵃ"],
+        ["Oxytropis sp.", "", "Mesorhizobium sp.ᵃ"],
+        ["Phaseolus vulgaris", "刀豆", "Rhizobium leguminosarum bv. phaseoli, R. gallicum, R. giardinii, R. etli"],
+        ["Pisum sativum", "豌豆", "Rhizobium leguminosarum bv. viceae"],
+        ["Securigera varia", "小冠花", "Rhizobium sp.ᵃ"],
+        ["Trifolium spp.", "三叶草", "Rhizobium leguminosarum bv. trifolii"],
+        ["Vicia sativa", "莠草", "Rhizobium leguminosarum bv. viceae"],
+        ["Vicia villosa", "毛叶苕子", "Rhizobium leguminosarum bv. viceae"],
+        ["Vicia faba", "蚕豆", "Rhizobium leguminosarum bv. viceae"]
+      ],
+      "continuedFromPage": 311,
+      "sourceNote": "来源：Sahgal, M. and Johri, N., Curr. Sci., 84, 43, 2003. http://www.rhizobia.co.nz/Rhizobia_Taxonomy.html.；ᵃ这些豆科植物的根瘤菌仍然未知。"
+    }
+  ],
+  "contentSha256": "289e7f563dade2e0e86b34c1dca88f9fe45cf0a27006915a32001a0f2f6eed7f"
+}

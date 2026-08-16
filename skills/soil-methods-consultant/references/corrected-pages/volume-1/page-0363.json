@@ -1,0 +1,60 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 363,
+  "sourceImageSha256": "e9098b7cd37abe0af310e380f51fcc3f3940ce04b5ccb737a58047f2581bf2b0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版35.3.1～35.3.2"},
+    "precisionPass": {"status": "verified", "method": "核验35%、70%/95%/100%（v/v）、5滴/100 mL、1.5 mL、10 mL、15∶5∶1、60～80 °C及每一步体积时间"},
+    "secondVisualPass": {"status": "verified", "method": "从步骤（17）反向复核至35.3.1标题，改正苦味酸、Permount封固剂、盖玻片、脱色/脱水和二甲苯步骤；印刷页码332"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "35.3.1", "title": "材料和试剂"},
+    {"type": "ordered-list", "items": [
+      "苦味酸（2,4,6-三硝基苯酚）饱和水溶液（注意：见35.3.3注释）。",
+      "甲醛溶液（约35%）。",
+      "冰醋酸。",
+      "70%（v/v）乙醇。",
+      "硼砂卡红（borax carmine）或副卡红（paracarmine）染色液。",
+      "酸性乙醇：向100 mL 70%乙醇中加入5滴盐酸。",
+      "95%乙醇。",
+      "100%乙醇或100%异丙醇。",
+      "二甲苯。",
+      "Permount封固剂。",
+      "显微镜载玻片。",
+      "盖玻片。",
+      "巴斯德吸管（1.5 mL）及橡胶吸头。",
+      "玻璃试管（10 mL）。"
+    ]},
+    {"type": "section-heading", "level": 3, "number": "35.3.2", "title": "步骤"},
+    {"type": "ordered-list", "start": 1, "items": [
+      "按体积比15∶5∶1混合苦味酸饱和水溶液、甲醛溶液和冰醋酸，配成Bouin固定液。注意：须戴手套并在通风橱内处理所有溶液。干燥/结晶苦味酸具有爆炸危险；避免洒出并保持瓶盖洁净。另见35.3.3注释。",
+      "取1 mL Bouin固定液于试管中，在水浴中加热至60～80 °C。",
+      "将样本放入试管内热的Bouin固定液中固定。从水浴中取出试管使其冷却，并让样本在固定液中保持2～6 h。",
+      "用巴斯德吸管吸出固定液。此时线蚓科动物脆而易碎，不要扰动。",
+      "加入1 mL 70%乙醇，静置15 min。",
+      "用吸管尽量除去乙醇；重复用70%乙醇清洗数次，直至样本呈浅白色。",
+      "除去最后一次乙醇洗液，加入1 mL染色液，静置10～30 min。",
+      "用一支新的、洁净的巴斯德吸管吸去染色液。",
+      "加入1 mL酸性乙醇脱色。静置至线蚓科动物呈浅红色且隔膜腺呈深色；较细样本需2～3 h，较粗样本可需2 d。",
+      "用一支新的巴斯德吸管除去酸性乙醇。",
+      "加入1 mL 95%乙醇处理30 min，使样本脱水。",
+      "用1 mL 100%乙醇替换95%乙醇，保持15 min。",
+      "再用1 mL新的100%乙醇替换前一份100%乙醇，静置30 min。",
+      "加入1 mL二甲苯，静置15 min。",
+      "用洁净的巴斯德吸管尽量除去乙醇—二甲苯残液，并按安全要求处置。",
+      "再加入1 mL二甲苯，静置30 min。",
+      "用巴斯德吸管（或大口径吸管）轻柔取出样本，连同少量二甲苯转移至显微镜载玻片；迅速操作以免挥发。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "试剂名称", "text": "中文本“三硝基酚”已明确为苦味酸（2,4,6-三硝基苯酚）；“分封胶”是Permount封固剂的误译；英文cover slide在此按标准器材名改为盖玻片。"},
+    {"type": "safety-note", "text": "苦味酸、甲醛、冰醋酸和二甲苯均须按实验室化学品安全规程及SDS操作；特别避免苦味酸干燥结晶。"},
+    {"type": "printed-page-number", "text": "332"}
+  ],
+  "formulas": [
+    {"id": "35.3.2-bouin-ratio", "display": "V(saturated picric acid) : V(~35% formaldehyde) : V(glacial acetic acid) = 15 : 5 : 1", "meaning": "Bouin固定液体积配比"},
+    {"id": "35.3.1-acid-ethanol", "display": "5 drops HCl / 100 mL of 70% (v/v) ethanol", "meaning": "酸性乙醇配制"}
+  ],
+  "tables": [],
+  "contentSha256": "215a374d35345e61d9556b16996631002ed5793b015996b2e4fdd6c2c1324409"
+}

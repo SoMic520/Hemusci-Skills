@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 379,
+  "sourceImageSha256": "6a4d7c74e55ff4d0336dee2088d75d2cab949cab398838451adfa20cd93e4a53",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版37.2.1～37.2.2与图37.1"},
+    "precisionPass": {"status": "verified", "method": "核验0.01～20 torr、1 torr=133.322 Pa、5.9 mL、10瓶、4 min、<0.05 torr及图中全部部件"},
+    "secondVisualPass": {"status": "verified", "method": "从步骤4承下句反向复核至37.2.1标题，校正Exetainer品牌名、阀门类别和真空管路；印刷页码348"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "37.2.1", "title": "抽空进样瓶的分析仪器和材料"},
+    {"type": "ordered-list", "items": [
+      "高真空旋转泵。",
+      "通过一个阀门连接到旋转泵的气体集流装置（见图37.1）；注射器和针头再通过旋塞阀连接到集流器。材料表英文称diffusion valve，而图37.1和操作说明均标为diaphragm valve（隔膜阀），实际识别应以图示和阀门状态为准。",
+      "数字真空计，量程0.01～20 torr（1 torr=133.322 Pa）。",
+      "5.9 mL Exetainer进样瓶（Labco，UK）。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "37.2.1阀门名称", "text": "英文材料表写diffusion valve，图37.1标注及后续步骤写diaphragm valve；中文本材料表译作“扩散阀”、图中译作“隔膜阀”。两处原始名称均记录，搭建与操作时按图37.1的隔膜阀识别。"},
+    {"type": "figure", "number": "37.1", "title": "气体集流装置的隔膜原理示意图", "description": "该集流装置既可抽空玻璃气样瓶，也可用惰性气体冲洗培养瓶。图示部件包括：隔膜阀、数字真空表、杠杆钳、快速法兰（QF）真空配件、真空管件、两级高真空旋转泵、氦气钢瓶、进样瓶和旋塞阀。QF配件把真空管道连接到泵。数字真空表量程为0.01～20 torr。抽空气样瓶时：打开隔膜阀，关闭惰性气体钢瓶的旋塞阀，打开各注射器旋塞阀，再启动真空泵。冲洗培养瓶时：关闭隔膜阀，打开惰性气体钢瓶和注射器旋塞阀，并停止真空泵。"},
+    {"type": "section-heading", "level": 3, "number": "37.2.2", "title": "步骤"},
+    {"type": "ordered-list", "start": 1, "items": [
+      "把连接到真空集流器的针头分别插入每个5.9 mL Exetainer进样瓶（见图37.1）。",
+      "打开隔膜阀，确认连接气瓶的旋塞阀处于关闭状态、各注射器旋塞阀处于打开状态，然后启动高真空旋转泵。每次抽空10个进样瓶较为方便。",
+      "抽真空4 min，使容器真空度达到<0.05 torr；随后关闭连接各针头的旋塞阀，并立即取下进样瓶。",
+      "每次抽空时建议牺牲一个进样瓶检查系统是否漏气：在进样瓶倒置浸没于盛水烧杯的状态下，把针头刺入瓶盖（Rochette和Bertrand，2003）。进样瓶应被水充满，剩余气泡最多只能有一粒豌豆大小；本步骤续见第380页。"
+    ]},
+    {"type": "printed-page-number", "text": "348"}
+  ],
+  "formulas": [
+    {"id": "37.2.1-pressure-conversion", "display": "1 torr = 133.322 Pa"},
+    {"id": "37.2.2-evacuation", "display": "t = 4 min; P < 0.05 torr"}
+  ],
+  "tables": [],
+  "contentSha256": "7ea7d478a975ac99edbedf9ab5d229ec23cd280db30c3ae1c2c971a8fb3bc89e"
+}

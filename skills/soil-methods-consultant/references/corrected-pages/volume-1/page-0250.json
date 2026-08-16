@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 250,
+  "sourceImageSha256": "f8c1ef6ee74bae9e54a8d16fc9ba9d43be1d5a9ba98f7b557167975ef42efce8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第25章第219页，并与Apple Vision、PaddleOCR交叉比对，人工恢复磷组分功能讨论、残留磷处理及25.4、25.4.1、25.4.2（1）～（2）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验20%～60%、0.45 μm、50/75/100 mL、0.5 mol·L⁻¹、88.5 mL、2 L、84/1 g、NaHCO₃/NaOH、pH 8.5及Cross/Schlesinger等引文"},
+    "secondVisualPass": {"status": "verified", "method": "从浸提液（2）反向复核至页首承接句，确认25.3续文→25.4→25.4.1→25.4.2层级、八项仪器材料、两项浸提液及印刷页码219"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第25章｜用连续浸提法确定土壤有效磷的特征｜"},
+    {"type": "body-continuation", "continuesFromPage": 249, "text": "不同磷库及它们之间转化的概念模型相关的土壤磷水平。虽然有人以不同的方式将磷组分重新分组，并反映了土壤磷循环过程中的一些有趣的概念，但是20世纪80年代以来发表的论文表明，关于磷组分的功能分配或其特性的认识几乎没有改变。Cross和Schlesinger（2001）把不同的提取液中分离出无机磷和有机磷组分相加来作为该提取液的全磷含量，结果表明磷稳定的模式是土壤磷的最重要特征，而不是区分有机磷和无机磷的形态。土壤矿物学性质明显影响对磷组分的解释。在半干旱地区的钙质土壤里，Cross和Schlesinger（2001）发现酸可以提取的磷不但包括磷酸钙，同时还包括各种不同形态的与碳酸盐结合的磷。为了更清楚地区分这些组分，Samadi和Gilkes（1998）在酸浸提之前添加了（在其他修改方法的基础上）醋酸铵浸提。"},
+    {"type": "body", "text": "这种分组方法是目前唯一一个相对成功的可以评价有效态有机磷的方法。Cross和Schlesinger（1995）将碳酸氢钠浸提的有机磷与交换树脂加碳酸氢钠浸提磷之和的比值作为磷生物有效性的指标。这种方法可能只适用于温带土壤，因为矿质态磷与土壤中矿物的反应的存在，类似于可矿化氮或硫库用培养和淋溶的技术测定潜在可矿化态有机磷库是不可行的（Ellert和Bettany，1988）。各种可提取的有机磷库的性质并不能像无机磷库那样已被清楚地确定和定义（Stewart和Tiessen，1987）。土壤氮和硫的转化与有效性通常取决于碳的矿化，而其间磷只是作为副产品被释放出来，尽管溶解态的有机磷可以很快地被土壤酶矿化。对土壤有机磷的不断认识多数都来自对土壤有机质的研究（Tiessen等，1983；Stewart和Tiessen，1987）。用物理方法获得土壤有机质组分再测定其中的磷往往比用化学方法浸提得到的有机磷和生物功能的关联更为合理。除非有充分的理由证明化学提取的有机组分有其特定的生物学意义，否则最好的方法可能就是对有机组分进行分组，并通过连续浸提法用多重浸提剂来获得尽可能多的土壤有机磷。"},
+    {"type": "body", "text": "原始的分组方法（Hedley等，1982a）会使20%～60%的土壤磷不能被浸提出来。这些残留的磷中往往含有大量的有机磷，它们有时会参与到土壤中相对短期的磷转化过程中，有效性也较高。在由钙主导的相对年轻的土壤中，这些残留的有机磷可以在酸浸提之后用氢氧化钠浸提获得，在风化程度较高的土壤中，热盐酸可以提取大部分的有机和无机残留磷（Mehta等，1954）。热盐酸浸提法能很好地适用于大多数土壤，下面将其作为一种广泛应用的磷分组方法进行介绍。"},
+    {"type": "heading", "level": 1, "number": "25.4", "title": "磷的分组步骤"},
+    {"type": "heading", "level": 2, "number": "25.4.1", "title": "仪器和材料"},
+    {"type": "material-item", "number": "（1）", "text": "带螺旋盖的50 mL离心管和冷冻高速离心机。"},
+    {"type": "material-item", "number": "（2）", "text": "振荡机，最好是往复式振荡机以防止样品在离心管底部聚集成块。"},
+    {"type": "material-item", "number": "（3）", "text": "0.45 μm滤膜和过滤装置。"},
+    {"type": "material-item", "number": "（4）", "text": "水浴锅。"},
+    {"type": "material-item", "number": "（5）", "text": "75 mL或100 mL的消煮管及消煮炉。"},
+    {"type": "material-item", "number": "（6）", "text": "高压灭菌器或家用高压锅。"},
+    {"type": "material-item", "number": "（7）", "text": "存储浸提液的塑料小瓶。"},
+    {"type": "material-item", "number": "（8）", "text": "Whatman 40号滤纸（或同型号的其他滤纸）。"},
+    {"type": "heading", "level": 2, "number": "25.4.2", "title": "浸提液"},
+    {"type": "reagent-item", "number": "（1）", "name": "0.5 mol·L⁻¹盐酸溶液", "text": "吸取88.5 mL浓盐酸，用去离子水稀释至2 L。"},
+    {"type": "reagent-item", "number": "（2）", "name": "0.5 mol·L⁻¹碳酸氢钠溶液（pH值8.5）", "text": "将84 g NaHCO₃和1 g NaOH用去离子水溶解，定容至2 L。"},
+    {"type": "printed-page-number", "text": "219"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "993d2850361aa7848d2f1faaf277544c703fd8910998f6d8f17f959607cebd91"
+}

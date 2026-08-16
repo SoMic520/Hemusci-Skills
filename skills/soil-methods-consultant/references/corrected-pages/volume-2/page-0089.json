@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 89,
+  "sourceImageSha256": "79aa46dfbd88315cff4a0f2329ebc5f7c4fedb963d73f2e61e083c3dfe8c90b0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成62.5.2、62.6、致谢及本页4条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验1～2/2～6 mm、250 μm隐含阈值、不同润湿速率/方式、化学前处理与作用机制、文献卷页"},
+    "secondVisualPass": {"status": "verified", "method": "由Angers等（1992）跨页题名反向复核至62.5.2，检查Hénin/Le Bissonnais/van Steenbergen拼写及方法层级；印刷页码598"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "62.5.2", "title": "注释", "level": 3},
+    {"type": "paragraph", "text": "组合法可用较少设备和空间批量分析，同时测整土及不同粒径团聚体，并得到两个结构尺度的稳定性信息。"},
+    {"type": "heading", "number": "62.6", "title": "一般性说明", "level": 2},
+    {"type": "method-selection", "items": [
+      "单筛给定粒级法（如1～2 mm）快，但多筛整土法能显示管理效应集中在哪个粒级；初始粒级不同时不得直接混比。",
+      "浊度与大团聚体水稳性可相关，但测量尺度和被测过程不同；浊度对某些管理处理更敏感。",
+      "水稳性两个主要控制因素是初始含水量和润湿过程。近风干团聚体直接入水会因封闭空气压缩/逃逸而崩解；若就是要模拟骤湿，应保留此处理；若要最小化崩解，用水蒸气、细雾、真空/压力润湿或毛细润湿。",
+      "比较样品时，应使湿筛前含水量和润湿速率尽可能一致，并报告采样时含水量。",
+      "为分离黏合机制，可用高碘酸钠氧化碳水化合物/有机质，用焦磷酸钠破坏阳离子桥，或用苯形成疏水薄层；这些是机制试验，不是常规水稳性结果的等价前处理。",
+      "Le Bissonnais（1996）综合乙醇预湿润、慢速湿润、快速湿润和机械破坏，用于区分不同键合/破坏机制。",
+      "报告结果必须写全采样时间和深度、储存温度/时间、风干或田间湿润、初始粒级、预湿法、水质、筛孔、行程、频率、时间、分散法、粗颗粒校正和烘干条件。"
+    ]},
+    {"type": "acknowledgements", "text": "感谢Gary Lehrsch博士在本章准备中提供建设性建议和忠告。"},
+    {"type": "heading", "title": "参考文献", "level": 2},
+    {"type": "references", "items": [
+      "Alderfer, R.B. 1946. Seasonal variability in the aggregation of Hagerstown silt loam. Soil Sci. 62:151–169.",
+      "Angers, D.A. and Giroux, M. 1996. Recently-deposited organic matter in soil water-stable aggregates. Soil Sci. Soc. Am. J. 60:1547–1551.",
+      "Angers, D.A. and Mehuys, G.R. 1988. Effects of cropping on macro-aggregation of a marine clay soil. Can. J. Soil Sci. 68:723–732.",
+      "Angers, D.A., Pesant, A., and Vigneux, J. 1992. Early cropping-induced changes in soil aggregation, organic matter, and microbial …"
+    ]}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "47fa00756be90960a1ba5aec480629bf7a175a3792d177b99dcedf699ed1a500"
+}

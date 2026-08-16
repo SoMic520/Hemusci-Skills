@@ -1,0 +1,49 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 187,
+  "sourceImageSha256": "989203f7b0dd7bbad1ce2ff5f36d363450db6bf60c7e190b58038ab636306fb0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率方法页，并与Apple Vision、PaddleOCR交叉比对，人工恢复19.2.2步骤（8）～（9）、19.2.3试剂/步骤/计算和19.2.4注释"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验HF-HCl、CO₂、Na₃C₆H₈O₇·2H₂O、HOC₆H₄CO₂Na、Na₂Fe(CN)₅NO·2H₂O、NaOCl、μg、nm、cm、mg/kg、pH 13及全部体积浓度"},
+    "secondVisualPass": {"status": "verified", "method": "从页末注释（2）反向复核至步骤（8），确认靛酚蓝比色法、黑色塑料膜、公式中的“步骤7增加的体积”、F定义和页码156"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure-step", "number": "（8）", "text": "加10 mL 5 mol L⁻¹ HF-1 mol L⁻¹ HCl混合液，在往复式振荡器上以每分钟120次的振荡频率振荡24 h。若土样中含有碳酸盐，则在过夜振荡前需要注意排除因为加酸产生的CO₂。"},
+    {"type": "procedure-step", "number": "（9）", "text": "在1 000 g力下离心5 min，把上清液转到塑料瓶中进行铵态氮测定。"},
+    {"type": "section-heading", "level": 3, "number": "19.2.3", "title": "铵态氮的测定"},
+    {"type": "paragraph", "text": "传统的Silva-Bremner法是用蒸馏滴定法测定酸浸提出来的非交换态铵，而Doram和Evans（1983）及Soon（1998）使用了靛酚蓝比色法进行测定。下面将介绍自动分析法，第6章提出的用于测定交换态铵的自动分析法或Kempers和Zweers（1986）介绍的方法均适用于非交换态铵测定。"},
+    {"type": "procedure-group", "number": "1.", "title": "试剂"},
+    {"type": "paragraph", "text": "若无特别指明，则下面使用的试剂均为分析纯。"},
+    {"type": "reagent-item", "group": "1", "number": "（1）", "name": "柠檬酸三钠溶液（试剂A）", "text": "溶解20.0 g柠檬酸三钠（Na₃C₆H₈O₇·2H₂O）于700 mL蒸馏水中。把10.0 g氢氧化钠溶于蒸馏水中稀释到700 mL。将二者混合。"},
+    {"type": "reagent-item", "group": "1", "number": "（2）", "name": "水杨酸-硝普盐试剂（试剂B）", "text": "溶解18.0 g水杨酸钠（HOC₆H₄CO₂Na，2-羟基苯甲酸钠）于250 mL蒸馏水中。溶解0.20 g硝普酸钠（Na₂Fe(CN)₅NO·2H₂O）于250 mL蒸馏水中。二者混合存储于棕色瓶中备用。"},
+    {"type": "reagent-item", "group": "1", "number": "（3）", "name": "碱性次氯酸钠溶液（试剂C）", "text": "溶解1.5 g氢氧化钠于50 mL蒸馏水中，加入8.0 mL次氯酸钠溶液（5%～5.25% NaOCl），稀释至100 mL。此试剂随配随用。"},
+    {"type": "reagent-item", "group": "1", "number": "（4）", "name": "铵标准溶液", "text": "用5 mol L⁻¹ HF-1 mol L⁻¹ HCl混合液把1 000 mg L⁻¹铵储备液稀释成每毫升含0 μg、5 μg、10 μg、15 μg、20 μg和25 μg铵态氮的标准系列溶液。"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤"},
+    {"type": "procedure-step", "group": "2", "number": "（1）", "text": "用移液管移取0.2 mL氢氟酸-盐酸（HF-HCl）土壤提取液或铵标准溶液（含铵态氮不超过5 μg）于16 mm×125 mm的比色管中。"},
+    {"type": "procedure-step", "group": "2", "number": "（2）", "text": "加入7 mL试剂A，立即混匀。"},
+    {"type": "procedure-step", "group": "2", "number": "（3）", "text": "加入2 mL试剂B，立即混匀。"},
+    {"type": "procedure-step", "group": "2", "number": "（4）", "text": "加入0.5 mL试剂C，立即混匀。"},
+    {"type": "procedure-step", "group": "2", "number": "（5）", "text": "立即在比色管外覆盖一层黑色塑料膜，静置60 min，使其显色。"},
+    {"type": "procedure-step", "group": "2", "number": "（6）", "text": "在660 nm的波长上用1 cm比色杯测定铵标准系列溶液和待测溶液的吸光度。"},
+    {"type": "procedure-step", "group": "2", "number": "（7）", "text": "利用标准曲线算出待测溶液铵态氮的浓度。"},
+    {"type": "procedure-step", "group": "2", "number": "（8）", "text": "计算公式如下：", "formulaRef": "19.1"},
+    {"type": "formula-explanation", "formulaRef": "19.1", "text": "当提取液需要稀释时，F指稀释因子，土样重量以克表示。"},
+    {"type": "section-heading", "level": 3, "number": "19.2.4", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "溶液的最终pH值在13左右时有利于形成最稳定的颜色，用水杨酸盐代替苯酚的好处是增加了显色的敏感度、稳定性，并降低了试剂的毒性（Kempers和Zweers，1986）。与EDTA或酒石酸钾钠相比，柠檬酸钠更容易去除干扰离子的影响（Willis等，1993）。"},
+    {"type": "note-item", "number": "（2）", "text": "如果用自动测定仪器，那么应该采取以下步骤以便减少分析取样器与管道玻璃中元素的缓慢蚀溶，例如，采用有滤膜的分析仪通道来稀释测试溶液中的氟化物浓度。管道清洗液中不应该含有氢氟酸，其酸度可以用6 mol L⁻¹盐酸调整和维持，这样不影响仪器的基线。"},
+    {"type": "printed-page-number", "text": "156"}
+  ],
+  "formulas": [
+    {
+      "number": "19.1",
+      "printedNumber": null,
+      "context": "非交换态铵",
+      "display": "非交换态铵(mg/kg) = [每mL提取剂中的铵态氮含量(μg) × (10＋步骤7增加的体积) × F] / 土样重量",
+      "latex": "\\text{非交换态铵}(\\mathrm{mg/kg})=\\frac{\\text{每mL提取剂中的铵态氮含量}(\\mu\\mathrm{g})\\times(10+\\text{步骤7增加的体积})\\times F}{\\text{土样重量}}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "3e182e11343b4bbaefb56c7f95f2897f15252c33dac7eea740ea4d45609d7f60"
+}

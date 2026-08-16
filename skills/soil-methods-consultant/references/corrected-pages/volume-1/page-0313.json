@@ -1,0 +1,51 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 313,
+  "sourceImageSha256": "7a4ad42c792707cdcd235c14085f73693028983e9e5dac523f05338db89867ca",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复31.2.1全部材料和31.2.2步骤（1）～（12）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验w/v、v/v、10～20 mL、1/4、YMA/YMB、各培养基组分、121 ℃、时间温度及−20 ℃负号"},
+    "secondVisualPass": {"status": "verified", "method": "从步骤（12）反向复核至31.2.1标题，确认原书乙醇清晰印作95%（w/v）、甘油均未误作油、NaCl字母l未误作数字1；页码282"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "31.2.1", "title": "材料"},
+    {"type": "material-item", "number": "（1）", "text": "田间采样工具——铁锹、园林铲、小刀等。"},
+    {"type": "material-item", "number": "（2）", "text": "塑料采样袋。"},
+    {"type": "material-item", "number": "（3）", "text": "冷却器和干冰。"},
+    {"type": "material-item", "number": "（4）", "text": "收集容器：①带有旋盖的玻璃瓶（10～20 mL容量），内含干燥剂（无水氯化钙或二氧化硅凝胶）占容器的1/4体积，底部垫有棉花塞；或②带有旋盖的玻璃或者塑料瓶，内含50%的甘油。"},
+    {"type": "reagent-item", "number": "（5）", "text": "95%（w/v）乙醇。"},
+    {"type": "source-fidelity-note", "scope": "31.2.1（5）", "text": "原书清晰印作“95%（w/v）乙醇”。乙醇常用浓度通常以体积分数v/v表示，实际配制或采购时必须核对方法原始来源及试剂规格，不得擅自把w/v与v/v视为相同。"},
+    {"type": "reagent-item", "number": "（6）", "text": "消毒液：8%（w/v）次氯酸钠或次氯酸钙溶液或者3%（v/v）过氧化氢溶液。"},
+    {"type": "material-item", "number": "（7）", "text": "无菌水、试管、玻璃棒。"},
+    {"type": "reagent-item", "number": "（8）", "name": "酵母浸出液—甘露醇培养基（YMA）", "text": "Petri培养皿，含20 mL酵母浸出液—甘露醇培养基（yeast-extract mannitol agar，YMA）：成分（g/L）：甘露醇，10.0；K₂HPO₄，0.5；MgSO₄·7H₂O，0.2；NaCl，0.1；酵母浸出液，1.0；琼脂，15.0。用1 mol/L NaOH或HCl调节pH值为7.0，121 ℃高压灭菌15 min。"},
+    {"type": "material-item", "number": "（9）", "text": "带有旋盖的离心管，内含斜面培养基YMA；无菌矿物油。"},
+    {"type": "material-item", "number": "（10）", "text": "含有YMB（不含琼脂的YMA）的冷冻管，内有25%的甘油。"},
+    {"type": "section-heading", "level": 3, "number": "31.2.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "用铁锹在所选植物周围划出直径为15 cm、深度不少于20 cm的土壤区块。"},
+    {"type": "procedure-step", "number": "（2）", "text": "取出所选土壤区块，小心地从植物根上取下土壤，避免次生根与植物体分离。这个过程可以将土壤区块浸到水里，使土壤快速分离。根据根瘤的大小，选取适宜目数的筛子，这有利于获得从土壤根系上分离下来的根瘤。"},
+    {"type": "procedure-step", "number": "（3）", "text": "如果分离过程可以在24 h内完成，将含有根瘤的根系放入采样袋，用冷却器将其转移到实验室。新鲜的根系根瘤可以在冰箱中过夜保存，按步骤（6）进行处理。"},
+    {"type": "procedure-step", "number": "（4）", "text": "为了更长时间地保存根瘤，可以将其放入收集容器，用此方法根瘤可以保存6～12个月。然而，根瘤菌的复苏与豆科植物的种类和存储温度有关，所以根瘤需要在3周内进行处理。将干根瘤放入水中60 min使其充分吸水。存储时间超过3个星期的根瘤需要在冰箱中过夜保存再进行吸水。"},
+    {"type": "procedure-step", "number": "（5）", "text": "或者，在我们的实验室，我们发现根瘤可以在−20 ℃下，在含有50%甘油的瓶子中保存1年以上。此外，假如在采样的时候没有时间将根瘤从根系上分离下来，有根瘤的根系可以用吸收了50%甘油的纸巾包裹，放入塑料袋，存储在−20 ℃的条件下。"},
+    {"type": "procedure-step", "number": "（6）", "text": "将根瘤浸入95%乙醇5～10 s，然后放入灭菌剂中3～4 min。"},
+    {"type": "procedure-step", "number": "（7）", "text": "倒掉灭菌剂，用无菌水洗至少5次。"},
+    {"type": "procedure-step", "number": "（8）", "text": "为检验根瘤表面是否无菌，将无菌水洗过的根瘤划过酵母菌固体培养基表面。丢弃表面有污染的根瘤分离物。"},
+    {"type": "procedure-step", "number": "（9）", "text": "在试管中，用灭菌过的玻璃棒将根瘤压碎。添加无菌水使其成为悬浊液，转移一滴到YMA平板上。"},
+    {"type": "procedure-step", "number": "（10）", "text": "将这一滴悬液在琼脂表面上划开，使得悬液渐渐稀释。"},
+    {"type": "procedure-step", "number": "（11）", "text": "将平板倒置放在适宜的温度（25～30 ℃）下培养以获得目标根瘤菌。每日观察平板寻找具有典型根瘤菌Rhizobium或者Bradyrhizobium外观的菌落。"},
+    {"type": "procedure-step", "number": "（12）", "text": "挑出完全分离的单个菌落并再次在新的平板上划线，获得纯培养的菌。如果平板上出现了多个类似于目标根瘤菌的菌落，每一个菌落都需要进行纯培养。"},
+    {"type": "printed-page-number", "text": "282"}
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "number": "31.2.1-YMA",
+      "title": "酵母浸出液—甘露醇培养基（YMA）配方",
+      "columns": ["组分", "用量（g/L）"],
+      "rows": [["甘露醇", "10.0"], ["K₂HPO₄", "0.5"], ["MgSO₄·7H₂O", "0.2"], ["NaCl", "0.1"], ["酵母浸出液", "1.0"], ["琼脂", "15.0"]],
+      "conditions": "用1 mol/L NaOH或HCl调节pH值为7.0；121 ℃高压灭菌15 min；每个Petri培养皿20 mL。"
+    }
+  ],
+  "contentSha256": "47057f40f6282a9c1fa732ed5508074ed4d3f914b355af10a7ce46b7829ef00e"
+}

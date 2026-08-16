@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 157,
+  "sourceImageSha256": "8318255593ed364dcb0797031351e5bbf1a518c07202aec9773c64f3dedf829b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率参考文献页，并与Apple Vision、PaddleOCR交叉比对，人工合并换行与末页续文"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验1985a/1985b、http://=异常网址、作者缩写、卷页、In:后空格及原书紧连标点"},
+    "secondVisualPass": {"status": "verified", "method": "从Soltanpour未完条目反向复核至Kohut条目，确认全21条文献顺序、跨页标记和页码126"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference", "text": "Kohut, C.K. and Dudas, M.J. 1994. Comparison of immiscibly displaced soil solutions and saturated paste extracts from saline soils. Can. J. Soil Sci. 74:409-419."},
+    {"type": "reference", "text": "Maas,E.V. 1990.Crop salt tolerances. In:K.K.Tanji, ed. Agricultural Salinity Assessment and Management. ASCE, New York, NY, 262-304."},
+    {"type": "reference", "text": "McKenzie, R.C. 1988. Tolerance of plants to soil salinity. Soil and Water Program, 1987. Pamphlet 88-10. Alberta Special Crops and Horticultural Research Centre, Brooks, AB, Canada."},
+    {"type": "reference", "text": "McKenzie, R.C., Chomistek, W., and Clark, N.F. 1989. Conversion of electromagnetic inductance readings to saturated paste extract values in soil for different temperature, texture, and moisture conditions. Can. J. Soil Sci. 69:25-32."},
+    {"type": "reference", "text": "Nieto, K.F. and Frankenberger, W.T. 1985a. Single ion chromatography. I. Analysis of inorganic anions in soils. Soil Sci. Soc. Am. J. 49:587-592."},
+    {"type": "reference", "text": "Nieto, K.F. and Frankenberger, W.T. 1985b. Single ion chromatography. II. Analysis of ammonium, alkali metals, and alkaline earth cations in soils. Soil Sci. Soc. Am. J. 49:592-596."},
+    {"type": "reference", "text": "Pittman, J.J., Kress, M.W., and Zhang, H. 2004. Comparison of two soil salinity extraction methods. Available at:http://=ipec.utulsa.edu/Ipec/Conf2001/Conf/zhang_31.pdf (last verified March, 2006)."},
+    {"type": "reference", "text": "Pratt, P.F. 1984. Salinity, sodium, and potassium in an irrigated soil treated with bovine manure. Soil Sci. Soc. Am. J. 48:823-828."},
+    {"type": "reference", "text": "Reitemeier, R.F. 1946. Effect of moisture content on dissolved and exchangeable ions of soils of arid regions. Soil Sci. 61:195-214."},
+    {"type": "reference", "text": "Rengasamy, P., Greene, R.B.S., Ford, G. W., and Mehanni, A.H. 1984. Identification of dispersive behaviour and the management of red-brown Earths. Aust. J. Soil Res. 22:413-431."},
+    {"type": "reference", "text": "Rhoades, J.D. 1978. Monitoring soil salinity:a review of methods. In:L.G. Everett andK.D. Schmidt, eds. Establishment of Water Quality Monitoring Programs, Vol. 2. AmericanWater ResourceAssociation, SanFrancisco, CA, 150-165."},
+    {"type": "reference", "text": "Rhoades, J.D. 1990. Determining soil salinity from measurements of electrical conductivity. Commun. Soil Sci. Plant Anal. 21:1887-1926."},
+    {"type": "reference", "text": "Rhoades, J.D. 1992. Instrumental field methods of salinity appraisal. In:G.C. Topp et al., eds. Advances in Measurement of Soil Physical Properties:Bringing Theory into Practice. SSSA Special Publication No. 30. ASA, CSSA, and SSSA, Madison, WI, 231-248."},
+    {"type": "reference", "text": "Rhoades, J.D. 1996. Salinity:electrical conductivity and total dissolved solids. In:D.L. Sparks et al., eds. Methods of Soil Analysis, Part 3—Chemical Methods. SSSA Book Series No. 5, SSSA and ASA, Madison, WI, 417-436."},
+    {"type": "reference", "text": "Rhoades, J.D., Chanduvi, F., and Lesch, S. 1999. Soil salinity assessment:methods and interpretation of electrical conductivity measurements. FAO Irrigation and Drainage Paper No. 57. FAO-UN, Rome, Italy."},
+    {"type": "reference", "text": "Rhoades, J.D. and Corwin, D.L. 1981. Determining soil electrical conductivity-depth relations using an inductive electromagnetic soil conductivity meter. Soil Sci. Soc. Am. J. 42:255-260."},
+    {"type": "reference", "text": "Rhoades, J.D. and Oster, J.D. 1986. Solute content. In:A. Klute, ed. Methods of Soil Analysis, 2nd ed. Agronomy Monograph 9, ASA and SSSA, Madison, WI, 985-1006."},
+    {"type": "reference", "text": "Richter, U., Krengel-Rothensee, K., and Heitand, P. 1999. In:New Applications for Nonmetals Determination by ICP-AES. American Laboratory, Shelton, CT, 170-171."},
+    {"type": "reference", "text": "Robbins, C.W. and Wiegand, C.L. 1990. Field and laboratory measurements. In:K.K. Tanji, ed. Agricultural Salinity Assessment and Management. ASCE, New York, NY, 201-219."},
+    {"type": "reference", "text": "Soil Science Society of America. 2001. Glossary of Soil Science Terms. Soil Science Society of America, Madison, WI."},
+    {"type": "reference", "continued": true, "text": "Soltanpour, P.N., Johnson, G. W., Workman, S.M., Benton Jones, J. Jr., and Miller, R.O.1996. Inductively coupled plasma emission spectrometry. In:D.L. Sparks et al., eds. Methods of Soil Analysis, Part 3—Chemical Methods. SSSA Book Series No. 5,"},
+    {"type": "printed-page-number", "text": "126"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "4ea8f917c9d649ae4d4af37ca4f9c4ae91ba2bcd4a435635cdae035a2291baa6"
+}

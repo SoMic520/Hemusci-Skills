@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 268,
+  "sourceImageSha256": "609610d4d0e3056053e7c36f6bd6cee910a5bc4df3211a7f248b7db26bab08b1",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第27章第237页，人工恢复27.2.2续文、材料和试剂、步骤、计算、注释及27.3、27.3.1标题与起始句"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验ABS、mol·L⁻¹、mm、mL、h、℃、C∶N、Acer saccharum Marsh.、Paré、章节号与全部数值范围"},
+    "secondVisualPass": {"status": "verified", "method": "从页底pH起始句反向复核至页首‘动和矿化产物的输出’，确认27.2.2→四级方法内容→27.3→27.3.1层级及印刷页码237"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第27章｜森林土壤养分有效性的测定｜"},
+    {"type": "body-continuation", "continuesFromPage": 267, "text": "动和矿化产物的输出，所以这项技术能模拟更接近未经扰动的土壤环境。假设土芯底部不会发生淋失，则另一种更为简便的方法是用顶部封闭的土芯，因为这样就不会有水从土芯的顶部流入。在此，我们将介绍顶部封闭的田间培养法。"},
+    {"type": "procedure-group", "number": "1.", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "text": "长30 cm、直径4.5 cm且顶部封闭的丙烯腈（ABS）圆管。"},
+    {"type": "source-fidelity-note", "text": "原书印为‘丙烯腈（ABS）圆管’。ABS的规范化学名称为丙烯腈—丁二烯—苯乙烯共聚物，不是单一的丙烯腈；检索时同时索引原文与规范名。"},
+    {"type": "material-item", "number": "（2）", "text": "2 mol·L⁻¹氯化钾溶液。"},
+    {"type": "material-item", "number": "（3）", "text": "Whatman 42号滤纸。"},
+    {"type": "material-item", "number": "（4）", "text": "往复式振荡器。"},
+    {"type": "material-item", "number": "（5）", "text": "三角瓶（250 mL）。"},
+    {"type": "material-item", "number": "（6）", "text": "漏斗。"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "将两根管带到田间，用第一根管采集土壤样品以便测定矿化氮的初始含量，将第二根管插入靠近第一根管的一个位点的预定土壤深度，并将其留在田间完成培养周期（即1周到1年，对于北方混交林的肥沃土壤，培养6周其结果重现性好，但在测定黑云杉生长区的净矿化量时6周的培养时间过短）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "从田间取回管子并置于冷藏箱中，在48 h内提取测定。"},
+    {"type": "procedure-step", "number": "（3）", "text": "土壤样品分为森林枯枝落叶层样和矿质土壤样品。将采自有机腐殖质层和矿质土层的样品分别通过6 mm和4 mm筛，并称量过筛后新土样的湿重。"},
+    {"type": "procedure-step", "number": "（4）", "text": "取部分过筛后的有机层样品和矿质土层样品分别在65℃和105℃下烘干，以便测定其土壤水分含量，这些样品还可以用于利用碳氮分析仪测定全氮量和全碳量（详见第21章和第22章）。"},
+    {"type": "procedure-step", "number": "（5）", "text": "称取相当于10 g干土重（对于有机质含量高的样品则称样量减半）的新鲜土壤样品放入250 mL的三角瓶中，然后添加100 mL氯化钾溶液，将三角瓶加盖振荡1 h后用Whatman 42号滤纸过滤，滤液用于分析硝态氮和铵态氮（详见第6章）。"},
+    {"type": "procedure-group", "number": "3.", "title": "计算"},
+    {"type": "calculation", "text": "用最终浓度和初始浓度之差计算净氮矿化量、净硝化量、净铵产出量或者上述全部指标。该产出率，若用基于时间、土壤干重或全氮、全碳的氮素重量表示，则可以反映土壤有机质的质量。若用基于面积的氮素重量表示，则可以估算养分通量。"},
+    {"type": "procedure-group", "number": "4.", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "对有高C∶N比、高有机质含量、低氮转化量、低净硝化量、硝酸盐含量低的土壤，或者有欧石南类菌根真菌和外生菌根真菌存在的土壤，建议采用长期培养法或室内培养法。另外，短期培养试验适于稀疏的森林或不存在净硝化有机层的森林（如糖槭林（Acer saccharum Marsh.））。"},
+    {"type": "note-item", "number": "（2）", "text": "在有着深厚有机层的北方黑云杉林中经常会发现净矿化率（净固定率）很低、甚至为负值（D. Paré，未发表数据）。这样的结果较为常见但通常不被发表。总之，建议将研究结果与养分收支进行比较研究。"},
+    {"type": "note-item", "number": "（3）", "text": "通过估算凋落物中的氮素含量及生物固定量可以估算氮矿化率，这虽然完全不用依赖于培养试验，但是其结果与培养法具有可比性。尽管不能总是得到这样的估算，但是在森林土壤氮素矿化研究过程中应该在一些小区和土壤类型上，将培养结果与这种收支平衡估算结果之间进行比较。"},
+    {"type": "heading", "level": 1, "number": "27.3", "title": "土壤pH值、有效阳离子交换量和交换性阳离子"},
+    {"type": "heading", "level": 2, "number": "27.3.1", "title": "土壤pH值"},
+    {"type": "body", "continuesOnPage": 269, "text": "鉴于农业土壤离子强度的变化性，在加拿大测定农业土壤pH值时，最常用的方法是0.01 mol·L⁻¹"},
+    {"type": "printed-page-number", "text": "237"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "3207227df55c68d6b539229fe38981560d3de166efc4a2117de77690dab4b8c3"
+}

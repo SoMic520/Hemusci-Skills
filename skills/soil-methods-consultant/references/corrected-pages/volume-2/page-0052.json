@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 52,
+  "sourceImageSha256": "55f11a770658add885a212972f4aab5a94297a609fc2e1167c5ab146fe6ac498",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成57章末4条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验作者、年份、题名、期刊卷页、机构地名与译者校者；校正Nielsen/field/Faillace书目拼写"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至Thomasson条目；印刷页码561"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Thomasson, A.J. 1978. Towards an objective classification of soil structure. J. Soil Sci. 29:38–46.",
+      "Topp, G.C. and Zebchuk, W. 1979. The determination of soil-water desorption curves for soil cores. Can. J. Soil Sci. 59:19–26.",
+      "Warrick, A.W. and Nielsen, D.R. 1980. Spatial variability of soil physical properties in the field. In: D. Hillel, ed. Applications of Soil Physics. Academic Press, New York, NY, 319–344.",
+      "Yu, C., Loureiro, C., Cheng, J.-J., Jones, L.G., Wang, Y.Y., Chia, Y.P., and Faillace, E. 1993. Data Collection Handbook to Support Modeling Impacts of Radioactive Material in Soil. Environmental Assessment and Information Sciences Division, Argonne National Laboratory, Argonne, IL."
+    ]},
+    {"type": "source-fidelity-note", "text": "原书把Nielsen误作Neilson、field误作filed、Faillace误作Failance；已按书目信息校正。"},
+    {"type": "credits", "text": "张猛、王雅婧译，任图生校。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9e5a89bf8134f8771d56e85e7cfbbaf1bc14ca0c60e633d3d0250cd9cf733c72"
+}

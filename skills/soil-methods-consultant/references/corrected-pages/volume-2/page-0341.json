@@ -1,0 +1,79 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 341,
+  "sourceImageSha256": "5ebfbca1528bc890607cfb469ccec7839645e66e392e87d4940d678eddb9e194",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐项核对图85.4、套合变程结论、85.9.2试验设计与第一步正态性说明"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对20/90/109 m、164点、10 m、35～50 cm、6个变量及仪器方法"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "K_s、K_fs、θ_a、El、Sa、Cly、OC上下标和单位二次反查；印刷页码850"
+    }
+  },
+  "blocks": [
+    {
+      "type": "figure",
+      "number": "85.4",
+      "title": "图85.3(a)饱和导水率半方差函数模型拟合结果",
+      "panels": [
+        {
+          "panel": "a",
+          "x": "距离(m)，0～200",
+          "y": "K_s半方差，约1.0～4.0 cm²·h⁻²",
+          "series": "空心方形为实验值；实线为线性平稳模型；虚线为球状模型"
+        },
+        {
+          "panel": "b",
+          "x": "距离(m)，0～200",
+          "y": "K_s半方差，约0.5～4.0 cm²·h⁻²",
+          "series": "空心方形为实验值；实线为纯块金模型与两个球状模型的线性组合"
+        }
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书把套合模型变程写成109 m；109 m是上一页单一球状模型的变程，而式(85.14)套合结构的两个有限变程为20 m和90 m，最大结构变程应为90 m。经典独立同分布统计若要求近似空间独立，采样间距应大于最大变程，而不是“至少在109 m以外”这种含混表述。"
+    },
+    {
+      "type": "heading",
+      "number": "85.9.2",
+      "title": "高程、土壤质地、有机碳含量、土壤含水量及导水率",
+      "level": 3
+    },
+    {
+      "type": "study-design",
+      "items": [
+        "试验区为种植草和豆类的三角形小牧场，以10 m网格布设164个样点。",
+        "每点测量地面高程El、砂粒含量Sa、黏粒含量Cly、有机碳含量OC、前期体积含水量θ_a和田间饱和导水率K_fs（Vieira等，1988）。",
+        "土壤为结构良好的粉质黏土，研究深度35～50 cm。",
+        "K_fs在原位用Guelph入渗仪测量；θ_a在K_fs测定前用TDR原位测量。",
+        "Sa、Cly和OC用Guelph仪土钻取样后测定；El以任意基准线用测距仪测定。"
+      ]
+    },
+    {
+      "type": "case-step",
+      "step": 1,
+      "title": "非正态分布检验",
+      "items": [
+        "表85.4的Anderson–Darling结果把六个原始变量均标为NN（非正态）。",
+        "偏度和峰度显示Sa、OC、K_fs偏离正态尤其明显；El、θ_a和Cly较接近对称/常峰，但仍未通过表中检验。",
+        "Sa、OC和K_fs作自然对数转换后偏度和峰度减小，后续空间分析使用lnSa、lnOC和lnK_fs。",
+        "转换后表85.4仍标为NN，因此只能说分布形态改善，不能说已经通过正态性检验。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书先说六个变量均为非正态，随后又把El、θ_a、Cly写为“分布接近正态”，并称仅三项“需要标准化”。现区分“近似对称”与“通过正态检验”，并把此处的“标准化”改为实际执行的自然对数转换。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e37917a0c798be6b4bcb7ead31eb8f2244984e5506d886e62bae4aba2079624d"
+}

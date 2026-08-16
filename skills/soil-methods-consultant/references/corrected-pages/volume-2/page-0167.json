@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 167,
+  "sourceImageSha256": "e0f4bf8f29094668b1ad073e816b35221e35607ca97f35b65487b171948fc6a4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段对照原分辨率页图和两套OCR，完成式(69.16)—(69.19)、α/α*适用条件及PD/NP定义"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验α*上标、1/2与4次方、2σ、128μ、πρg及σ/ρ/g/μ量纲"},
+    "secondVisualPass": {"status": "verified", "method": "由图69.8引文反向复核至式(69.16)，检查−50/−260 cm与数量级变化；印刷页码676"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "当K(ψᵢ)≪K(ψ₀)时，基质通量势可近似为K(ψ₀)/α*(ψ₀)。α*(ψ₀)[L⁻¹]定义为“吸渗数”。通常用α*而不直接用α，是因为式(69.15)中的K(ψᵢ)难以或无法确定。α*或α较大表示重力相对毛管吸附力较强，较小则相反。"},
+    {"type": "paragraph", "text": "α(ψ₀)通常随ψ₀增加而增加，但实际K(ψ)并非理想指数函数，砂土和无结构壤土的α曲线可有局部极值。图69.7(b)中结构壤土在ψ₀<−50 cm时α*相对α偏离增大，因为取K(ψᵢ)=K(−260 cm)后，K(ψᵢ)≪K(ψ₀)的假设逐渐失效；K(ψᵢ)不可忽略时，α*及基于它的关系应慎用。"},
+    {"type": "paragraph", "text": "式(69.17)表明，介质吸水能力S取决于有效水贮量θ(ψ₀)−θ(ψᵢ)、K(ψ₀)和α*(ψ₀)。前期含水量增加、导水率降低或吸渗数增大均使S减小；结果对α*关系的准确性敏感。"},
+    {"type": "paragraph", "text": "FWM孔隙直径PD(ψ₀)[L]由式(69.18)定义。σ为空气—孔隙水界面表面张力[M·T⁻²]，ρ为孔隙水密度[M·L⁻³]，g为重力加速度[L·T⁻²]。PD常称入渗时导水有效“流量权重平均”当量孔径，但更准确地说是反映导水活性孔隙平均水力传导性的指标，而非实测几何孔径；它还综合孔径、弯曲度、粗糙度和连通度。"},
+    {"type": "paragraph", "text": "假设圆柱毛管和稳定流，由Poiseuille定律得单位入渗表面FWM孔隙数NP(ψ₀)[L⁻²]。μ为水的动力黏滞度[M·L⁻¹·T⁻¹]。图69.8显示该结构壤土中PD增加约2个数量级时，K增加约6个数量级，而NP减少约4个数量级。"},
+    {"type": "source-fidelity-note", "text": "式(69.16)—(69.19)中α*的星号、S式的1/2次方以及[PD]^4均为关键上标。原书把PD解释为“孔隙直径”后又明确它不是实际孔径，检索结果必须同时返回这一限制。"}
+  ],
+  "formulas": [
+    {"label": "69.16", "plain": "φ(ψ₀) ≈ K(ψ₀)/α*(ψ₀); K(ψᵢ) ≪ K(ψ₀)", "latex": "\\phi(\\psi_0)\\approx\\frac{K(\\psi_0)}{\\alpha^*(\\psi_0)};\\quad K(\\psi_i)\\ll K(\\psi_0)", "resultUnit": "L²·T⁻¹"},
+    {"label": "69.17", "plain": "S(ψ₀) = {r[θ(ψ₀)-θ(ψᵢ)]K(ψ₀)/α*(ψ₀)}^{1/2}", "latex": "S(\\psi_0)=\\left\\{r[\\theta(\\psi_0)-\\theta(\\psi_i)]\\frac{K(\\psi_0)}{\\alpha^*(\\psi_0)}\\right\\}^{1/2}", "resultUnit": "L·T⁻¹ᐟ²"},
+    {"label": "69.18", "plain": "PD(ψ₀) = 2σK(ψ₀)/[ρgφ(ψ₀)] = 2σα*(ψ₀)/(ρg)", "latex": "PD(\\psi_0)=\\frac{2\\sigma K(\\psi_0)}{\\rho g\\phi(\\psi_0)}=\\frac{2\\sigma\\alpha^*(\\psi_0)}{\\rho g}", "resultUnit": "L"},
+    {"label": "69.19", "plain": "NP(ψ₀) = 128μK(ψ₀)/{πρg[PD(ψ₀)]⁴}", "latex": "NP(\\psi_0)=\\frac{128\\mu K(\\psi_0)}{\\pi\\rho g[PD(\\psi_0)]^4}", "resultUnit": "L⁻²"}
+  ],
+  "tables": [],
+  "contentSha256": "f92d23701b48f6ca09e7b44bab2b7c93faf76aa10ce6dd9acb437b40bb77cfb1"
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 528,
+  "sourceImageSha256": "483222a415e23ded4a435e4131d80b6eb74e8ce328496ea1c91d107a52b61b95",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条对照原分辨率页面和两套OCR，完成MacCarthy至Swift共5条参考文献及译校署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验0.5 M NaOH、0.1 M Na₄P₂O₇、卷页、Methods of Soil Analysis书名和SSSA Book Series No. 5"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由译校署名反向复核至MacCarthy条，检查Na₄P₂O₇下标、标点、页码和印刷页码497"
+    }
+  },
+  "blocks": [
+    {
+      "type": "reference",
+      "text": "MacCarthy, P. 2001. The principles of humic substances. Soil Science 166: 738–751."
+    },
+    {
+      "type": "reference",
+      "text": "Rice, J.A. 2001. Humin. Soil Science 166: 848–857."
+    },
+    {
+      "type": "reference",
+      "text": "Schnitzer, M. and Schuppli, P. 1989. The extraction of organic matter from selected soils and particle size fractions with 0.5 M NaOH and 0.1 M Na₄P₂O₇ solutions. Canadian Journal of Soil Science 69: 253–262."
+    },
+    {
+      "type": "reference",
+      "text": "Schoenau, J.J. and Bettany, J.R. 1987. Organic matter leaching as a component of carbon, nitrogen, phosphorus, and sulfur cycles in a forest, grassland and gleyed soil. Soil Science Society of America Journal 51: 646–651."
+    },
+    {
+      "type": "reference",
+      "text": "Swift, R.S. 1996. Organic matter characterization. In: D.L. Sparks et al., eds. Methods of Soil Analysis, Part 3—Chemical Methods. SSSA Book Series, No. 5. Soil Science Society of America and American Society of Agronomy, Madison, WI, pp. 1011–1029."
+    },
+    {
+      "type": "translator-credit",
+      "text": "窦森、关松、党海燕译，王朝辉校。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "0c8a23b4110fccfdb44526c67cf8c10e04598c55cc1eb0c19555bef81a268302"
+}

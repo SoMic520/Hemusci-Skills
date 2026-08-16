@@ -1,0 +1,52 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 130,
+  "sourceImageSha256": "67f721b15914b29d97dde0d5aa47dc2b4e12bbacf77dd982159ee49d9666816a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率图和两套OCR，完成离心法数据分析(1)—(3)、表67.2—67.3、67.2.4原理、材料、Munsell步骤及比色步骤(1)"},
+    "precisionPass": {"status": "verified", "method": "核验灰分修正区间、精度矩阵、550 nm、10YR、Na₄P₂O₇·10H₂O、0.025 mol·L⁻¹、11.152 g·L⁻¹及PI判据"},
+    "secondVisualPass": {"status": "verified", "method": "由比色步骤(1)反向复核至跨页首句，检查表格边界、化学式下标、尺寸和Munsell value/chroma关系；印刷页码639"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "图67.2查得的R值越高，表示泥炭分解度越高。灰分质量分数大于15%时，应按表67.2从R中减去修正值；分析精度随R和泥炭质量含水量而变，见表67.3。"},
+    {"type": "heading", "number": "67.2.4", "title": "比色法", "level": 3},
+    {"type": "paragraph", "text": "Kaila于1956年提出该法。碱性焦磷酸钠溶液提取、溶解腐殖质；可在550 nm测定滤液吸光度，或把滤液颜色与Munsell 10YR色页比较，以评价分解度。原书“过滤物在550 nm下比色”应为滤液。"},
+    {"type": "heading", "title": "方法与试剂", "level": 4},
+    {"type": "list", "items": [
+      "2.5 mL注射器、30 mL塑料容器、层析纸、透明三角瓶、往复式振荡器、漏斗、分光光度计",
+      "焦磷酸钠十水合物Na₄P₂O₇·10H₂O；0.025 mol·L⁻¹溶液：称11.152 g溶于水并定容至1.000 L"
+    ]},
+    {"type": "heading", "title": "Munsell色卡法步骤", "level": 4},
+    {"type": "steps", "items": [
+      "取2.5 mL定容湿样，加1 g Na₄P₂O₇·10H₂O晶体和4 mL水，在30 mL塑料容器中充分混匀，放置过夜。",
+      "重新混匀，插入0.5 cm×3 cm层析纸条，让有色溶液把纸条完全润湿。撕去粘土样的一端，把纸条轻放在另一张层析纸上，再与Munsell 10YR色页比对。",
+      "记录Munsell value（明度）和chroma（彩度），计算焦磷酸盐指数PI=value−chroma。",
+      "分类时，PI≥5表示fibric（纤维质）材料，PI≤3表示非纤维质有机材料；PI=4为原书未明确归类的过渡值，不得强行二分。"
+    ]},
+    {"type": "heading", "title": "分光比色法步骤", "level": 4},
+    {"type": "steps", "items": ["称0.500 g过2 mm筛的风干泥炭，转入125 mL锥形瓶；后续提取和550 nm测定步骤见下页。"]},
+    {"type": "source-fidelity-note", "text": "表67.2原印区间在15%、25%、35%、45%处重叠，校正展示为左开右闭区间，但修正数值不变。表67.3及小节标题只写>65%和<65%，恰好65%未定义；不能由本书擅定，实际SOP须说明边界归组。原书Munsell步骤印作10 TR，按本页原理和Munsell标准色相记号校正为10YR。原书“PI值为5 h纤维类”排版缺损，按上下分类语义恢复为PI≥5；PI=4仍保留未分类状态。0.025 mol·L⁻¹十水焦磷酸钠理论用量约11.152 g·L⁻¹，与原书一致。"}
+  ],
+  "formulas": [
+    {"label": "焦磷酸盐指数", "plain": "PI = Munsell value − Munsell chroma", "latex": "PI=\\mathrm{value}-\\mathrm{chroma}"},
+    {"label": "灰分修正", "plain": "R_corrected = R_nomogram − C_ash", "latex": "R_{\\mathrm{corrected}}=R_{\\mathrm{nomogram}}-C_{\\mathrm{ash}}", "resultUnit": "%"}
+  ],
+  "tables": [
+    {
+      "number": "67.2",
+      "title": "灰分质量分数超过15%时从计算分解度中减去的修正值",
+      "columns": ["灰分含量（%）", "减去的修正值（百分点）"],
+      "rows": [["≤15", "0"], [">15且≤25", "2"], [">25且≤35", "3"], [">35且≤45", "4"], [">45且≤55", "5"]],
+      "notes": ["来源：改编自Ministry of Fuel Industry RSFSR, The State Standard of the USSR Peat, 1976, 57–66。", "原书未给出灰分>55%的修正值，不得外推。"]
+    },
+    {
+      "number": "67.3",
+      "title": "确定泥炭分解度的精度",
+      "columns": ["质量含水量（%）", "R=1—15", "R=15—30", "R=30—50", "R>50"],
+      "rows": [[">65", "1.5", "2.0", "3.0", "5.0"], ["<65", "2.0", "3.0", "5.0", "5.0"]],
+      "notes": ["表值单位为分解度百分点。", "原书未定义质量含水量恰等于65%时采用哪一行。", "来源同表67.2。"]
+    }
+  ],
+  "contentSha256": "ba5f2dccbc1a39b869e1adb8857348c13b300959182792ccd71317ef6ce9b9e2"
+}

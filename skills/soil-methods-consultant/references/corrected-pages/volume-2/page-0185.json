@@ -1,0 +1,31 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 185,
+  "sourceImageSha256": "e9dbd918518c9092ad0c689c8acb369c4f61d656f279935d51eb544c5773f49d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐表逐段对照原分辨率页图和两套OCR，完成表70.2续表、探针类型、70.5.2及70.5.3起句"},
+    "precisionPass": {"status": "verified", "method": "核验6行厂商型号、C?/P/B/S/CR/PR脚注、38/50频率及EC>0.03 S·m⁻¹"},
+    "secondVisualPass": {"status": "verified", "method": "由校准跨页句反向复核至续表首行，检查ECH₂O下标和AQUA-TEL-TDR换行；印刷页码694"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "电容探针主要有两类：平行杆式，插入或埋于土中，取样体积沿杆长并位于电极间，适合近表层；金属环式，由绝缘塑料环隔开的圆柱金属环装在支架上并插入预装PVC管，适合剖面离散层，但测区限于PVC管附近并包括塑料环、管壁和散射场。"},
+    {"type": "heading", "number": "70.5.2", "title": "步骤", "level": 3},
+    {"type": "paragraph", "text": "最佳流程为传感器标准化、校准、测量。标准化使传感器间读数差最小，使统一校准覆盖所有传感器并允许不断序更换；可用空气和水等两个已知介电常数参考流体比较仪器响应。受土质和电导率影响，电容探针准确测水仍需针对土类校准。"},
+    {"type": "heading", "number": "70.5.3", "title": "校准", "level": 3},
+    {"type": "paragraph", "text": "理论上标准化已是一种校准；只有无法由计算获得电导率，或土壤电导率>0.03 S·m⁻¹时，书中认为有必要做基于土壤的校准。具体过程随电极配置变化，实验室和野外相似，续见下页。"},
+    {"type": "source-fidelity-note", "text": "表中“频率”原页未明确标出单位，结合上页正文通常按MHz理解，但不得替设备空缺项补值。C?表示原书对电容分类带疑问号，须保留。"}
+  ],
+  "formulas": [],
+  "tables": [
+    {"number": "70.2（续）", "title": "电容和电阻设备及探针与操作信息举例", "columns": ["供应商及国家", "型号", "频率", "C/I", "用法", "探针类型", "记录数据", "EC校准", "温度校准"], "rows": [
+      ["Troxler公司，美国", "Sentry 200 AP", "50", "C", "P", "CR", "是", "无", "无"],
+      ["Decagon Device公司，美国", "ECH₂O", "—", "C?", "B", "—", "是", "无", "无"],
+      ["Stevens水监测系统，美国", "Hydra Probe", "50", "C", "P,B", "PR", "是", "无", "无"],
+      ["SDEC France品牌，法国", "HMS 9000", "38", "C", "P,B", "PR", "是", "有", "有"],
+      ["Geneq公司，加拿大", "AQUA-TEL-TDR", "—", "C?", "S", "—", "是", "无", "无"],
+      ["Aquapro传感器，美国", "AP Moisture Probe", "—", "C", "B", "CR", "是", "无", "无"]
+    ], "footnotes": ["C或I：电容或电阻。", "B：埋藏式；P：便携式探针；S：半永久性装置。", "CR：圆环在PVC管内；PR：并行探针。"]}
+  ],
+  "contentSha256": "7d109c1113dc5ffbea897c1aba999271d65195bbfd255221c5eb5ff06cb5fba0"
+}

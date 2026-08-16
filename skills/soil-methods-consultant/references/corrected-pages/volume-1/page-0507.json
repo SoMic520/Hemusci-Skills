@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 507,
+  "sourceImageSha256": "df2ea566d13cbc19fe0ad6df4c9793f37d974930a650a75bad00a91ea7d971d7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成第50章题、作者机构、50.1全文及50.2跨页段"},
+    "precisionPass": {"status": "verified", "method": "核验10%～15%、5%～10%、单糖/氨基糖名称、0.5/2.5 mol·L⁻¹ H₂SO₄、GC/HPLC与引文年份"},
+    "secondVisualPass": {"status": "verified", "method": "由页末2.5 mol·L⁻¹ H₂SO₄反向复核至章题，检查术语层级、浓度上标、作者名及印刷页码476"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "level": 1, "number": "第50章", "title": "碳水化合物"},
+    {"type": "author", "name": "Martin H. Chantigny", "affiliation": "Agriculture and Agri-Food Canada, Québec, Québec, Canada"},
+    {"type": "author", "name": "Denis A. Angers", "affiliation": "Agriculture and Agri-Food Canada, Québec, Québec, Canada"},
+    {"type": "section-heading", "level": 2, "number": "50.1", "title": "引言"},
+    {"type": "paragraph", "text": "碳水化合物约占土壤有机碳总量的10%～15%（Cheshire，1979）；其中氨基糖氮约占土壤有机氮的5%～10%（Greenfield，2001）。多数土壤碳水化合物以复杂多糖存在，由植物源或微生物源单糖单元构成，如纤维素、半纤维素、肽聚糖和几丁质。它们既是土壤微生物群落的能源和养分来源，也参与土壤团聚体形成与稳定。"},
+    {"type": "source-fidelity-note", "scope": "50.1有机氮比例", "text": "原书笼统写‘碳水化合物占有机氮的5%～10%’；普通中性糖不含N，该比例在Greenfield（2001）语境中专指氨基糖氮。已改为‘氨基糖氮约占土壤有机氮的5%～10%’，避免把所有碳水化合物错误计入有机氮。"},
+    {"type": "paragraph", "text": "酸水解是从土壤提取多糖的常用方法。多糖先水解为单糖，再用比色法定量；显色试剂包括蒽酮、碱性铁氰化物、苯酚-硫酸混合液或Ehrlich试剂。直接酸解原土可产生不同结构的单糖，但不能区分其来源化合物；单体中性糖色谱可用于评价植物源与微生物源对土壤碳水化合物的贡献。"},
+    {"type": "paragraph", "text": "氨基糖主要来源于土壤微生物。色谱定量可评价细菌和真菌相对丰度。土壤常见氨基糖包括葡萄糖胺、半乳糖胺、甘露糖胺和胞壁酸；胞壁酸是细菌特异来源，真菌几丁质是土壤葡萄糖胺的主要来源。因此，葡萄糖胺与胞壁酸可作为评价真菌和细菌对土壤有机质积累、团聚体形成与稳定的相对贡献指标。"},
+    {"type": "paragraph", "text": "单体糖可用气相色谱定量；该法灵敏、专一，但费时且需衍生化使水解单体挥发。高效液相色谱也可定量单糖，耗时较短；其灵敏度和专一性近年来显著提高。本章给出土壤碳水化合物酸水解法，以及中性糖和氨基糖的两种色谱定量法。"},
+    {"type": "section-heading", "level": 2, "number": "50.2", "title": "中性糖的浸提"},
+    {"type": "paragraph", "text": "H₂SO₄广泛用于水解土壤多糖。不同多聚物的耐酸性不同：热水和0.5 mol·L⁻¹ H₂SO₄提取较易分解组分；2.5 mol·L⁻¹ H₂SO₄水解多数非纤维素类多糖；12 mol·L⁻¹ H₂SO₄预浸后再用0.5 mol·L⁻¹ H₂SO₄高温水解纤维素类物质。[续见第508页]"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "aa25b63676d41166d2fde83914ac8ca2b96b7aafe8aac5ea9bb751c97b49208e"
+}

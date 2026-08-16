@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 441,
+  "sourceImageSha256": "2f3039722ac89930cb9851bbcac6c921edca3f18cc5c4574e57fa5c5dfa36797",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率中文页面、两套OCR及英文原版第42章参考文献末页"},
+    "precisionPass": {"status": "verified", "method": "核验作者变音符、NH₄⁺上下标、拉丁学名、GC–MS、卷页号、书籍页码及译校信息；纠正Feng、Øvreås、Goksøyr和Pedrós-Alió等拼写"},
+    "secondVisualPass": {"status": "verified", "method": "由译校行反向复核至Feng承上句，逐字符检查连字符、期刊缩写、卷页号与印刷页码410"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "bibliography", "text": "Feng, Y., Motta, A.C., Reeves, D.W., Burmester, C.H., van Santen, E., and Osborne, J.A. 2003. Soil microbial communities under conventional-till and no-till continuous cotton systems. Soil Biol. Biochem. 35: 1693–1703."},
+    {"type": "bibliography", "text": "Haack, S.K., Garchow, H., Odelson, D.A., Forney, L.J., and Klug, M.J. 1994. Accuracy, reproducibility, and interpretation of fatty acid profiles of model bacterial communities. Appl. Environ. Microbiol. 60: 2483–2493."},
+    {"type": "bibliography", "text": "Harwood, J.L. and Russell, N.J. 1984. Lipids in Plants and Microbes. George Allen and Unwin Ltd., Herts, UK."},
+    {"type": "bibliography", "text": "Ibekwe, A.M. and Kennedy, A.C. 1999. Fatty acid methyl ester (FAME) profiles as a tool to investigate community structure of two agricultural soils. Plant Soil 206: 151–161."},
+    {"type": "bibliography", "text": "Kennedy, A.C. 1994. Carbon utilization and fatty acid profiles for characterization of bacteria. In: R.W. Weaver et al., eds. Methods of Soil Analysis, Part 2—Microbiological and Biochemical Properties. Soil Science Society of America, Madison, WI, USA, pp. 543–556."},
+    {"type": "bibliography", "text": "Klug, M.J. and Tiedje, J.M. 1993. Response of microbial communities to changing environmental conditions: chemical and physiological approaches. In: R. Guerrero and C. Pedrós-Alió, eds. Trends in Microbial Ecology. Spanish Society for Microbiology, Barcelona, Spain, pp. 371–374."},
+    {"type": "bibliography", "text": "Øvreås, L. and Torsvik, V. 1998. Microbial diversity and community structure in two different agricultural soil communities. Microb. Ecol. 36: 303–315."},
+    {"type": "bibliography", "text": "Pankhurst, C.E., Yu, S., Hawke, B.G., and Harch, B.D. 2001. Capacity of fatty acid profiles and substrate utilization patterns to describe differences in soil microbial communities associated with increased salinity or alkalinity at three locations in South Australia. Biol. Fert. Soils 33: 204–217."},
+    {"type": "bibliography", "text": "Petersen, S.O., Frohne, P.S., and Kennedy, A.C. 2002. Dynamics of a soil microbial community under spring wheat. Soil Sci. Soc. Am. J. 66: 826–833."},
+    {"type": "bibliography", "text": "Ratledge, C. and Wilkinson, S.G. 1988. Microbial Lipids. Academic Press, Inc., New York, NY."},
+    {"type": "bibliography", "text": "Sasser, M. 1990. Identification of bacteria by gas chromatography of cellular fatty acids. Technical Note #101. Microbial ID, Newark, DE."},
+    {"type": "bibliography", "text": "Schutter, M.E. and Dick, R.P. 2000. Comparison of fatty acid methyl ester (FAME) methods for characterizing microbial communities. Soil Sci. Soc. Am. J. 64: 1659–1668."},
+    {"type": "bibliography", "text": "Smithwick, E.A.H., Turner, M.G., Metzger, K.L., and Balser, T.C. 2005. Variation in NH₄⁺ mineralization and microbial communities with stand age in lodgepole pine (Pinus contorta) forests, Yellowstone National Park (USA). Soil Biol. Biochem. 37: 1546–1559."},
+    {"type": "bibliography", "text": "Torsvik, V., Goksøyr, J., and Daae, F.L. 1990. High diversity in DNA of soil bacteria. Appl. Environ. Microbiol. 56: 782–787."},
+    {"type": "bibliography", "text": "White, D.C., Davis, W.M., Nickels, J.S., King, J.D., and Bobbie, R.J. 1979. Determination of the sedimentary microbial biomass by extractable lipid phosphate. Oecologia 40: 51–62."},
+    {"type": "bibliography", "text": "White, D.C. and Ringelberg, D.B. 1998. Signature lipid biomarker analysis. In: R.S. Burlage, R. Atlas, D. Stahl, G. Geesey, and G. Sayler, eds. Techniques in Microbial Ecology. Oxford University Press, New York, NY, pp. 255–272."},
+    {"type": "bibliography", "text": "Wollenweber, H.W. and Rietschel, E.T. 1990. Analysis of lipopolysaccharide (lipid A) fatty acids. J. Microbiol. Methods 11: 195–211."},
+    {"type": "bibliography", "text": "Zelles, L. 1999. Fatty acid patterns of phospholipids and lipopolysaccharides in the characterization of microbial communities in soil: a review. Biol. Fert. Soils 29: 111–129."},
+    {"type": "bibliography", "text": "Zelles, L. and Bai, Q.Y. 1993. Fractionation of fatty acids derived from soil lipids by solid phase extraction and their quantitative analysis by GC–MS. Soil Biol. Biochem. 25: 495–507."},
+    {"type": "bibliography", "text": "Zelles, L., Bai, Q.Y., Beck, T., and Beese, F. 1992. Signature fatty acids in phospholipids and lipopolysaccharides as indicators of microbial biomass and community structure in agricultural soils. Soil Biol. Biochem. 24: 317–323."},
+    {"type": "source-fidelity-note", "scope": "参考文献", "text": "校正原书或英文排印中的conventionaltill→conventional-till、van Stanten→van Santen、Ovreas→Øvreås、Goksoyr→Goksøyr、Pedros-Alio→Pedrós-Alió，并恢复NH₄⁺上下标。"},
+    {"type": "translator-note", "text": "邱晨译，徐建明校。"},
+    {"type": "printed-page-number", "text": "410"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9b5526a01fa5ed84ca35f30092cba426e65c8b32ff364c7971ac346b7ad440f0"
+}

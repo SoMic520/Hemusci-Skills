@@ -1,0 +1,53 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 3,
+  "sourceImageSha256": "31d78fc89271f6b8bfce551254ed1350dad38e07c84c0064ab50ce7b1d5b8b33",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面图像"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "逐项核对 ISBN、版权号、CIP 分类号、日期、价格、电话和邮箱"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "重新读取原页，并逐项复核与 Vision 文本的全部字符差异"
+    }
+  },
+  "blocks": [
+    {
+      "type": "copyright",
+      "text": "Soil Sampling and Methods of Analysis 2nd edited by M.R. Carter and E.G. Gregorich (ISBN: 978-0-8493-3586-0).\nCopyright © 2008 by Taylor & Francis Group, LLC.\nAll Rights Reserved. Authorized translation from English language edition published by CRC Press, an member of the Taylor & Francis Group, LLC.\nPublishing House of Electronics Industry is authorized to publish and distribute exclusively the Chinese (Simplified Characters) language edition. This edition is authorized for sale throughout Mainland of China. No part of the publication may be reproduced or distributed by any means, or stored in a database or retrieval system, without the prior written permission of the publisher.\nCopies of this book sold without a Taylor & Francis sticker on the cover are unauthorized and illegal."
+    },
+    {
+      "type": "copyright",
+      "text": "本书原版由 Taylor & Francis 出版集团旗下的 CRC 出版公司出版，并经其授权翻译出版。版权所有，侵权必究。\n本书中文简体翻译版授权由电子工业出版社独家出版并限在中国大陆地区销售。未经出版者书面许可，不得以任何方式复制或发行本书的任何部分。\n本书封面贴有 Taylor & Francis 公司防伪标签，无标签者不得销售。"
+    },
+    {
+      "type": "identifier",
+      "text": "版权贸易合同登记号　图字：01-2016-7940"
+    },
+    {
+      "type": "heading",
+      "text": "图书在版编目（CIP）数据"
+    },
+    {
+      "type": "bibliographic",
+      "text": "土壤采样与分析方法. 上册/（加）M.R.卡特（M.R. Carter），（加）E.G.格雷戈里奇（E.G. Gregorich）主编；李保国等主译. —北京：电子工业出版社，2022.3\n书名原文：Soil Sampling and Methods of Analysis 2nd\nISBN 978-7-121-41908-9\nⅠ. ①土…　Ⅱ. ①M… ②E… ③李…　Ⅲ. ①土壤环境—环境质量—采样②土壤分析　Ⅳ. ①X825②S151.9\n中国版本图书馆 CIP 数据核字（2021）第179461号"
+    },
+    {
+      "type": "publication",
+      "text": "责任编辑：缪晓红\n印刷：三河市鑫金马印装有限公司\n装订：三河市鑫金马印装有限公司\n出版发行：电子工业出版社\n北京市海淀区万寿路173信箱　邮编：100036\n开本：880×1230　1/16　印张：57　字数：1735千字\n版次：2022年3月第1版\n印次：2022年3月第2次印刷\n定价：480.00元（上、下册）"
+    },
+    {
+      "type": "contact",
+      "text": "凡所购买电子工业出版社图书有缺损问题，请向购买书店调换。若书店售缺，请与本社发行部联系，联系及邮购电话：（010）88254888，88258888。\n质量投诉请发邮件至 zlts@phei.com.cn，盗版侵权举报请发邮件至 dbqq@phei.com.cn。\n本书咨询联系方式：（010）88254760。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2e5bd73a66b3c02100790b5fcfa6dba4b8fdb65c986d99deac0b58c2516b946e"
+}

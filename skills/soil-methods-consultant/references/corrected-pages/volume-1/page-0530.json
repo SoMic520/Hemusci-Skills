@@ -1,0 +1,103 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 530,
+  "sourceImageSha256": "104c38e16dfbff43e1312f5bb2c94f6ebf3c49db322fe01cd0dd2e2c4eba7eea",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，接续TOSS段并完成HF/HCl预处理说明、53.2、53.2.1及53.2.2步骤（1）～（3）"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验10%（v/v）、0.1 mol·L⁻¹ HCl/0.3 mol·L⁻¹ HF、250/200 mL、4 000×g、5～10 g、2 mm、<200 μm及18～24 h"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由步骤（3）反向复核至跨页句，检查HF安全警示、Gonçalves/Gélinas重音、浓度组合、粒径上标和印刷页码499"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph-continuation",
+      "scope": "53.1",
+      "text": "[承第529页] 实验所需时间。"
+    },
+    {
+      "type": "paragraph",
+      "text": "低有机C或高铁氧化物样品可在固态¹³C NMR前用HF预处理，去除含铁顺磁性矿物、提高有机C相对含量与信噪比并缩短采集时间；富碳酸盐样品还需HCl。文献曾用10%（v/v）HF；该处理可使B层土壤发生C损失。较低浓度的0.1 mol·L⁻¹ HCl/0.3 mol·L⁻¹ HF被用于降低脱灰导致的有机C损失。"
+    },
+    {
+      "type": "paragraph",
+      "text": "本章说明样品制备、NMR数据采集与处理。书中对富碳酸盐样品强烈推荐HCl/HF预处理，以富集有机质并去除可能干扰采集的含铁磁性矿物。预处理可能改变回收率，结果解释必须记录原样与处理后C回收。"
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "number": "53.2",
+      "title": "样品预处理"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "53.2.1",
+      "title": "仪器与材料"
+    },
+    {
+      "type": "materials-list",
+      "items": [
+        {
+          "number": "（1）",
+          "text": "分析天平。"
+        },
+        {
+          "number": "（2）",
+          "text": "0.1 mol·L⁻¹ HCl/0.3 mol·L⁻¹ HF混合液。"
+        },
+        {
+          "number": "（3）～（7）",
+          "text": "250 mL带防漏盖的高密度塑料离心管；水平摇床；可达4 000×g的高速离心机；去离子水；冷冻干燥机。"
+        }
+      ]
+    },
+    {
+      "type": "safety-note",
+      "text": "HF有剧毒并可造成深部、迟发性全身中毒；只能由受过HF专项培训的人员在合规通风橱内操作。HF腐蚀玻璃，须用兼容塑料器皿。佩戴机构规定的HF个人防护用品，现场备葡萄糖酸钙凝胶并执行实验室HF暴露应急方案；任何接触均须立即冲洗并紧急就医，凝胶不能替代医疗处置。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "53.2.2",
+      "title": "样品预处理的步骤"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（1）",
+      "text": "称5～10 g风干土入250 mL塑料离心管。土样预先过2 mm筛并研磨至粒径<200 μm。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（2）",
+      "text": "加200 mL 0.1 mol·L⁻¹ HCl/0.3 mol·L⁻¹ HF混合液；无碳酸盐样品可只加0.3 mol·L⁻¹ HF。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（3）",
+      "text": "振荡18～24 h。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "53.2.1 HF急救措辞",
+      "text": "原书把葡萄糖酸钙软膏称为‘氢氟酸解毒软膏’。已改为‘凝胶/急救用品’，并明确其不能替代紧急医学处置，避免把局部急救措施误解为完整解毒治疗。"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "53.2.2-soil-solution-range",
+      "display": "soil:solution = 5–10 g:200 mL = 1:40–1:20 (g:mL)",
+      "meaning": "按称样量变化的预处理土液比范围"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "885d9585eb4cad76893d1923054f539113c703dcf45e32d1476ce46fe30e4597"
+}

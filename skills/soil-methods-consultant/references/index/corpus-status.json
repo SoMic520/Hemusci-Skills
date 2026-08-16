@@ -1,0 +1,13 @@
+{
+  "schema": "soil-methods-consultant.corpus-status.v1",
+  "status": "verified_complete",
+  "runtimeReady": true,
+  "requiredPages": 915,
+  "verifiedPages": 915,
+  "verificationStandard": [
+    "textPass",
+    "precisionPass",
+    "secondVisualPass"
+  ],
+  "message": "《土壤采样与分析方法》上下册共915页已完成文字、公式/单位/表格和第二遍视觉复核；运行时只读取最终校正语料。"
+}

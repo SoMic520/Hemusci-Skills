@@ -1,0 +1,67 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 352,
+  "sourceImageSha256": "b45afb21c1a6e0e1f10b87f0821a59c5655148471215a71b7f6dd69b7cdf3830",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐项核对表A3全部剖面字段、本页参考文献和译校署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对层级、深度/厚度/%字段、作者年份、出版项、报告编号和页数"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "表号缺字、英文题名、URL分隔符及印刷页码861二次反查"
+    }
+  },
+  "blocks": [
+    {
+      "type": "source-fidelity-note",
+      "text": "本页表题原印“表3 土壤剖面描述”，与前文A1～A3编号体系不一致，校正为“表A3”。书中旧网址因排版把“://”“/”“?”等符号替成等号或长横，以下按可辨识结构规范化，并标记为2007年核验信息而非当前有效性保证。"
+    },
+    {
+      "type": "references",
+      "entries": [
+        "Day, J.H., ed. 1983. The Canada Soil Information System (CanSIS): Manual for Describing Soils in the Field. Expert Committee on Soil Survey. LRRC #82-52. Ottawa, Canada, 97.",
+        "GPS web sites (last verified January 2007): http://www.trimble.com/gps; http://www.garmin.com/aboutGPS; http://www.omnistar.com.",
+        "Knapik, L.J., Russell, W.B., Riddell, K.M., and Stevens, N. 1988. Forest Ecosystem Classification and Land System Mapping Pilot Project, Duck Mountain, Manitoba. Canadian Forest Services and MB Forest Br., Ottawa, Canada, 129.",
+        "Maguire, T. and Jensen, T. 1997. Guide to Field Experimentation in Agriculture: Site Location. Last verified January 2007. http://www1.agric.gov.ab.ca/$department/deptdocs.nsf/all/sag3025.",
+        "North Dakota State University (NDSU) Extension Service. 1998. Soil Sampling as a Basis for Fertilizer Application. Last verified January 2007. http://www.ext.nodak.edu/extpubs/plantsci/soilfert/sf-990-3.htm.",
+        "Schoeneberger, P.J., Wysocki, D.A., Benham, E.C., and Broderson, W.D., eds. 2002. Field Book for Describing and Sampling Soils, Version 2.0. Natural Resources Conservation Service, National Soil Survey Center, Lincoln, NE.",
+        "Soil Classification Working Group. 1998. The Canadian System of Soil Classification. Agriculture and Agri-Food Canada Publication 1646 (Revised), Ottawa, Canada, 187.",
+        "Soil Survey Staff. 1951. Soil Survey Manual. SCS, U.S. Department of Agriculture Handbook 18, Washington, DC, 503.",
+        "Soil Survey Staff. 1975. Soil Taxonomy. SCS, U.S. Department of Agriculture Handbook 436, Washington, DC, 754.",
+        "Taylor, N.H. and Pohlen, I.J. 1962. Soil Survey Method: A New Zealand Handbook for the Field Study of Soils. Soils Bureau Bulletin 25. Taita Exp. Sta., Hutt Valley, New Zealand, 241.",
+        "USDA. 2002. Field Book for Describing and Sampling Soils. National Soil Survey Centre, Resources Conservation Service, Washington, DC, 228.",
+        "Walmsley, M., Utzig, G., Vold, T., Moon, D., and van Barneveld, J. 1980. Describing Ecosystems in the Field. RAB Technical Paper 2, Land Management Report No. 7. Ministry of Environment and Ministry of Forests, Victoria, BC, Canada, 224.",
+        "Webster, R. and Butler, B.E. 1976. Soil classification and survey studies at Ginninderra. Aust. Soil Res. 14:1–24."
+      ]
+    },
+    {
+      "type": "credits",
+      "translator": "吕贻忠",
+      "reviewer": "李保国"
+    }
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "number": "A3",
+      "title": "土壤剖面描述",
+      "rows": [
+        ["1", "土层厚度", []],
+        ["2", "残落物层", ["a 厚度", "b 有机物质组成", "c 大致腐化程度"]],
+        ["3", "游离碳酸盐层深度", []],
+        ["4", "盐渍化土层深度", []],
+        ["5", "地下水位埋深", []],
+        ["6", "基岩埋藏深度", []],
+        ["7", "根系分布层", ["a 根层深度", "b 颗粒粒径"]],
+        ["8", "根系限制层", ["a 限制层深度", "b 限制类型", "c 涉及区域比例(%)"]]
+      ]
+    }
+  ],
+  "contentSha256": "efa28ea04cae2824cf3acfa2525bc4a47920620b5a53078f4526da602bfda3b7"
+}

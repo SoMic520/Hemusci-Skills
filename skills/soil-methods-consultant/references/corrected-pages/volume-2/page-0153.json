@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 153,
+  "sourceImageSha256": "3572de742aa066e862b68a58c39e2f34e041b448c18632cbd0809acbf3debf26",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Nkongolo至Young共19条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验Université Laval、in situ、作者逗号、Water Resour. Res.、Part 4页码、卷页和书名"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至Nkongolo，检查年份、缩写、标题和页码；印刷页码662"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Nkongolo, N.V.K. 1996. Tortuosity of porous space: Importance, assessment and effect on plant growth (in French, with English summary). PhD thesis, Université Laval, Sainte-Foy, QC, Canada.",
+      "Nkongolo, N.V. and Caron, J. 1999. Bark particle sizes and the modification of the physical properties of peat substrates. Can. J. Soil Sci. 79:111–116.",
+      "Paquet, J., Caron, J., and Banton, O. 1993. In situ determination of the water desorption characteristics of peat substrates. Can. J. Soil Sci. 73:329–339.",
+      "Parent, L.E. and Caron, J. 1993. Physical properties of organic soils. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. CRC Press, Boca Raton, FL, 441–458.",
+      "Rolston, D.E. 1986. Gas diffusivity. In: A. Klute, ed. Methods of Soil Analysis, Part 1. 2nd ed. American Society of Agronomy, Madison, WI, 1089–1102.",
+      "Sheppard, M.I., Tarnocai, C., and Thibault, D.H. 1993. Sampling organic soils. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. CRC Press, Boca Raton, FL, 423–439.",
+      "Silc, T. and Stanek, W. 1977. Bulk density estimation of several peats in northern Ontario using the von Post humification scale. Can. J. Soil Sci. 57:75.",
+      "Topp, G.C., Davis, J.L., and Annan, A.P. 1980. Electromagnetic determination of soil water content: Measurements in coaxial transmission lines. Water Resour. Res. 16:574–582.",
+      "Topp, G.C. and Zebchuk, W. 1979. The determination of soil-water desorption curves for soil cores. Can. J. Soil Sci. 59:19–26.",
+      "Vachaud, G. and Dane, J.H. 2002. Simultaneous determination of water transmission and retention properties: Direct methods: Field. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4. SSSA Book Series 5. Soil Science Society of America, Madison, WI, 937–945.",
+      "Valat, B., Jouany, C., and Rivière, L.M. 1991. Characterization of the wetting properties of air-dried peats and composts. Soil Sci. 152:100–107.",
+      "Verdonck, O. and Gabriels, R. 1992. Reference method for the determination of physical properties of plant substrates. Acta Hortic. 302:169–179.",
+      "Verdonck, O.F., Cappaert, T.M., and de Boodt, M.F. 1978. Physical characterization of horticultural substrates. Acta Hortic. 82:191–200.",
+      "Washburn, E.W. 1921. The dynamics of capillary flow. Phys. Rev. 17:273–283.",
+      "Watson, K.K. 1966. An instantaneous profile method determining the hydraulic conductivity of unsaturated porous materials. Water Resour. Res. 2:709–715.",
+      "Watson, C.L. and Letey, J. 1970. Indices for characterizing soil-water repellency based upon contact angle–surface tension relationships. Soil Sci. Soc. Am. J. 34:841–844.",
+      "Wever, G. 1991. Guide values for physical properties of peat substrates. Acta Hortic. 294:41–47.",
+      "Wever, G. 1995. Physical analysis of peat and peat-based growing media. Acta Hortic. 401:561–567.",
+      "Wind, P. 1969. Capillary conductivity data estimated by a simple method. In: P.E. Rijtema and H. Wassink, eds. Water in the Unsaturated Zone. Proceedings of the Wageningen Symposium, June 1966, Vol. 1. IASH, Gentbrugge, Belgium, 181–191.",
+      "Young, T. 1805. An essay on the cohesion of fluids. Philos. Trans. R. Soc. Lond. 95:65–87."
+    ]},
+    {"type": "credits", "text": "赵龙华译，任图生校。"},
+    {"type": "source-fidelity-note", "text": "原书Sheppard条目漏作者后的逗号，已补；Topp的Water Resour. Res.、Vachaud的G.C. Topp和IASH缩写按书目信息恢复。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "16f0909a256b6716d81a729b9c9b37d7fcfcfbd8c4777c3a4b29d47f17d07fdb"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 411,
+  "sourceImageSha256": "e5083702bdfec71553759b59dd9b58ce945118cc1f19e810e1120feda7559aaf",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版39.3承上和39.3.1"},
+    "precisionPass": {"status": "verified", "method": "核验IAR=1.0与3.12、F∶B、6 h、1 h、1/5/10 g ODW、CO₂及全部抑制剂名称"},
+    "secondVisualPass": {"status": "verified", "method": "由39.3.1反向复核至IAR承上句，纠正组成酶、F∶B分布断句和非目标抑制含义；印刷页码380"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "text": "抑制剂加和比（inhibitor additivity ratio，IAR）用于定量抗生素对土壤微生物的作用，并指示非目标抑制。IAR显著大于1.0，说明真菌抑制剂和细菌抑制剂分别加入时抑制的呼吸比例大于二者合加时，表明其作用有重叠。这种重叠会歪曲F∶B，因为不能假定重叠作用可平均归于真菌抑制剂和细菌抑制剂；IAR低而F∶B高时，即使很小的重叠也会显著影响两类微生物中较小的一类（Bailey等，2002）。"},
+    {"type": "paragraph", "text": "也有人认为IAR>1.0是抗生素合加不如分别加入有效。作者赞同Beare等（1990）和Velvis（1997），建议将IAR优化到1.0，因为表观重叠最可能来自非目标抑制。因此，方法优化必须包含抗生素合加试验，使IAR尽量接近1.0。可降低抗生素浓度；Velvis（1997）发现，土壤中环己酰亚胺用量增加时，除目标真菌外也开始抑制细菌。文献IAR可高达3.12（Imberger和Chiu，2001），如此高的IAR会给计算比值带来很大不确定性。"},
+    {"type": "paragraph", "text": "没有任何真菌抑制剂—细菌抑制剂组合能在6 h培养期间完全抑制土壤呼吸（Wardle和Parkinson，1990；Bailey等，2002）。合加两类抑制剂后仍有呼吸，可能有以下原因："},
+    {"type": "reason-item", "number": "（1）", "text": "只有新生物量的合成过程易受所用抗生素影响（Anderson和Domsch，1973）。"},
+    {"type": "reason-item", "number": "（2）", "text": "试验期间可能已有组成酶存在并保持活性（Heilmann等，1995）。"},
+    {"type": "reason-item", "number": "（3）", "text": "抗生素阻止新酶合成，而已有组成酶在培养期间降解较慢（Heilmann等，1995）。"},
+    {"type": "reason-item", "number": "（4）", "text": "真菌和细菌的抗生素耐药菌株可能贡献土壤呼吸（Heilmann等，1995）。"},
+    {"type": "reason-item", "number": "（5）", "text": "抗生素本身可能成为非目标微生物的底物（Badalucco等，1994；Alphei等，1995）。"},
+    {"type": "reason-item", "number": "（6）", "text": "部分抗生素可能被土壤组分吸附或发生其他转化，因而不能在整个6 h内充分起效（Alphei等，1995）。"},
+    {"type": "reason-item", "number": "（7）", "text": "对不可培养土壤微生物及其抗生素敏感性知之甚少；这些生物可能在抗生素存在时仍维持正常代谢。"},
+    {"type": "paragraph", "text": "有人可能假定：正在生长、对抗生素敏感的生物量组分的F∶B分布，与式（39.6）中D所代表的不受影响、已经存在的生物量组分的F∶B分布成正比（Anderson和Domsch，1975）。作者建议谨慎采用，因为没有证据证明这一点；不敏感组分可能由当前方法不能培养的不同生物类群组成，因而无法分离验证其抗生素响应。"},
+    {"type": "source-fidelity-note", "scope": "39.3承上段", "text": "中译本把constitutive enzymes误译为“组合酶”，并把F∶B分布句排成不通顺断句；据英文原版分别校正为“组成酶”和完整比例假设。"},
+    {"type": "paragraph", "text": "必须在加抗生素约1 h后再加葡萄糖；若二者同时加入，葡萄糖会在抗生素产生抑制前刺激呼吸，造成误导性的高呼吸值。"},
+    {"type": "paragraph", "text": "土壤释放的CO₂可用气相色谱法（Bailey等，2003）或氢氧化物捕集法（Anderson，1982）测定。本方法采用GC，因此同样受SIR部分所述高pH土壤问题影响。以下方法以1 g ODW土样为基础，也可按可测CO₂量放大到5 g或10 g；但抑制剂可能难以在较大土样中均匀分布。"},
+    {"type": "section-heading", "level": 3, "number": "39.3.1", "title": "材料和试剂"},
+    {"type": "paragraph", "text": "除39.2.1所列材料和试剂外，另需："},
+    {"type": "reagent-item", "number": "（1）", "text": "真菌抑制剂：环己酰亚胺（cycloheximide）或克菌丹（captan）。"},
+    {"type": "reagent-item", "number": "（2）", "text": "细菌抑制剂：盐酸氧四环素（oxytetracycline-HCl）、硫酸链霉素或溴硝醇（bronopol）。"},
+    {"type": "equipment-item", "number": "（3）", "text": "分析天平，读数至小数点后4位，用于准确称取抗生素。"},
+    {"type": "equipment-item", "number": "（4）", "text": "小称量舟。"},
+    {"type": "equipment-item", "number": "（5）", "text": "混合土壤与抗生素用铲。"},
+    {"type": "printed-page-number", "text": "380"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "82eb8ce9660503178855625187bc8b39b2eae83a7c77ab16325bd3532c827453"
+}

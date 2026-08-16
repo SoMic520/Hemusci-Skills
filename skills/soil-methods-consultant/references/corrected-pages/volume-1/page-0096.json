@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 96,
+  "sourceImageSha256": "4f402b5431dd093520157a20b1d67e724a6391eba46ac3b2450a759c5571c037",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐字符对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复法文重音、作者串、卷页和译校署名"},
+    "precisionPass": {"status": "verified", "method": "放大核对Mehlich-III、³²P、EUF、ICP-AES、0: 01M CaCl₂、法文专名与重音，以及原书Tran./逗号、J.1995、J.C.1992a、A.2001等连写"},
+    "secondVisualPass": {"status": "verified", "method": "由Delaware soils续句至Ziadi等2001逐条反向复核，并核验译校人名与印刷页码65"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第7章｜Mehlich 3提取态元素｜"},
+    {"type": "reference-entry", "continuation": true, "text": "Delaware soils. Commun. Soil Sci. Plant Anal. 22: 1031-1045."},
+    {"type": "reference-entry", "text": "Sims, J.T., Maguire, R.O., Leytem, A.B., Gartley,K.L., and Pautler, M.C. 2002. Evaluation of Mehlich 3 as an agri-environmental soil phosphorus test for the mid-Atlantic United States of America. Soil Sci. Soc. Am. J. 66: 2016-2032."},
+    {"type": "reference-entry", "text": "Tran, T.S. 1989. Détermination des minéraux et oligo-éléments par la méthode Mehlich-III. Méthodes d’analyse des sols, des fumiers, et des tissues végétaux. Conseil des productions végétales du Québec. Agdex. 533. Ministère de l’Agriculture, des Pêcheries et de l’Alimentation du Québec, QC, Canada."},
+    {"type": "reference-entry", "text": "Tran, T.S. and Giroux, M. 1987. Disponibilité du phosphore dans les sols neutres et calcaires du Québec en relation avec les propriétés chimiques et physiques. Can. J. Soil Sci. 67: 1-16."},
+    {"type": "reference-entry", "text": "Tran. T.S. and Giroux, M. 1989. Evaluation de la méthode Mehlich-III pour déterminer les éléments nutritifs (P, K, Ca, Mg, Na) des sols du Québec. Agrosol 2: 27-33."},
+    {"type": "reference-entry", "text": "Tran,T.S., Giroux, M., Audesse, P., and Guilbault, J.1995. Importance des éléments mineurs en agriculture: symptômes visuels de carence, analyses des végétaux et des sols. Agrosol 8: 12-22."},
+    {"type": "reference-entry", "text": "Tran, T.S., Giroux, M., Guilbeault, J., and Audesse, P. 1990. Evaluation of Mehlich-III extractant to estimate the available P in Quebec soils. Commun. Soil Sci. Plant Anal. 21: 1-28."},
+    {"type": "reference-entry", "text": "Tran, T.S., Simard, R.R., and Fardeau, J.C.1992a. A comparison of four resin extractions and ³²P isotopic exchange for the assessment of plant-available P. Can. J. Soil Sci. 72: 281-294."},
+    {"type": "reference-entry", "text": "Tran, T.S., Simard, R.R., and Tabi, M. 1992b. Evaluation of the electro-ultrafiltration technique (EUF) to determine available P in neutral and calcareous soils. Commun. Soil Sci. Plant Anal. 23: 2261-2281."},
+    {"type": "reference-entry", "text": "van der Zee, S.E.A.T.M., Fokkink, L.G.J., and van Riemsdijk, W.H. 1987. A new technique for assessment of reversibly adsorbed phosphate. Soil Sci. Soc. Am. J. 51: 599-604."},
+    {"type": "reference-entry", "text": "Zbiral, J. 2000a. Determination of phosphorus in calcareous soils by Mehlich 3, Mehlich 2, CAL, and Egner extractants. Commun. Soil Sci. Plant Anal. 31: 3037-3048."},
+    {"type": "reference-entry", "text": "Zbiral, J. 2000b. Analysis of Mehlich III soil extracts by ICP-AES. Rostlinna-Vyroba 46 (4), 141-146."},
+    {"type": "reference-entry", "text": "Zbiral, J. and Nemec, P. 2000. Integrating of Mehlich 3 extractant into the Czech soil testing scheme. Commun. Soil Sci. Plant Anal. 31: 2171-2182."},
+    {"type": "reference-entry", "text": "Zbiral, J. and Nemec, P. 2002. Comparison of Mehlich 2, Mehlich 3, CAL, Egner, Olsen, and 0: 01M CaCl₂ extractants for determination of phosphorus in soils. Commun. Soil Sci. Plant Anal. 33: 3405-3417."},
+    {"type": "reference-entry", "text": "Ziadi, N., Simard, R.R., Tran, T.S., and Allard, A.2001. Evaluation of soil-available phosphorus for grasses with Electro-Ultrafiltration technique and some chemical extractions. Can. J. Soil Sci. 81: 167-174."},
+    {"type": "translator-note", "text": "（赵丽霞　译，李永涛　翁莉萍　校）"},
+    {"type": "printed-page-number", "text": "65"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "aa44b8533f73f1a7b2da1b2140dd24b5a755c21b9ea3f6959c880258c21f5369"
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 104,
+  "sourceImageSha256": "0220172f396ef42155d4cdf54e32795336b8d3de94b199078d4d52c4aebda2f9",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐式对照原分辨率图和两套OCR，完成进样/定量、式（64.1）～（64.2）及Sitaula系统全部参数"},
+    "precisionPass": {"status": "verified", "method": "核验IRF乘除次序与tg/is下标、78%、200个、20000～30000、500 μL、25 m×0.53 mm、35/70/350 °C及全部气体流量"},
+    "secondVisualPass": {"status": "verified", "method": "由Blackmer跨页句反向复核至页首，独立重构两式并代回验算，检查μL、mL·min⁻¹、Ar–CH₄比例和色谱柱长/内径；印刷页码613"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "准确进样很重要，气样与标准样体积变化会引入误差。书中建议手动注射时，以充分通气土壤气体中约78%的N₂作样品体积内部检查并据偏差作尺度校正；更稳妥的体积控制是固定样品环或自动进样器。N₂比例检查只适用于符合该组成假设的通气良好土壤，不能用于缺氧、富集其他气体或受外源N₂影响的样品。"},
+    {"type": "paragraph", "text": "自动进样可提高重复性并支持无人值守批量分析。市售系统可容纳多达200个样品；书中Saskatchewan大学以CombiPAL（CTC Analytics AG, Switzerland）每年分析20000～30000个气样，日操作时间<2 h。此为特定实验室通量实例，不是单次序列容量。"},
+    {"type": "paragraph", "text": "目标气体用峰面积或峰高与已知浓度标准比较，以覆盖目标范围的线性或非线性最小二乘校准曲线定量；每种目标气体分别校准。也可把已知内标加入未知样，以内部响应因子IRF校正色谱响应变化。先注入已知浓度的目标气体与内标，按式（64.1）求IRF；未知样加入同一内标后，按式（64.2）求目标浓度。商业校准气体用于工作标准前仍应评估并交叉核验（Lemke等，2002）。"},
+    {"type": "instrument-method", "name": "Sitaula等（1992）土壤CO₂、CH₄和N₂O气相色谱系统", "conditions": [
+      "仪器：Fractovap 4200（Carlo Erba, Italy）；TCD测CO₂、FID测CH₄、ECD测N₂O。",
+      "进样：500 μL定量环在线进样。",
+      "色谱柱：Poraplot Q大口径毛细管柱，长25 m、内径0.53 mm；柱温35 °C。",
+      "检测线路：TCD 70 °C后串联FID；ECD 350 °C位于第二线路；六通阀切换两线路。载气为He，柱流量7 mL·min⁻¹。",
+      "辅助气：TCD另加He 7～8 mL·min⁻¹；FID空气200 mL·min⁻¹、H₂ 20 mL·min⁻¹；ECD用Ar–CH₄（10:1）18 mL·min⁻¹。",
+      "三种气体总分析时间约3.3 min。"
+    ]},
+    {"type": "source-fidelity-note", "text": "原书把Poraplot Q规格印成“内径25 m×0.53 mm”，量纲显示25 m是柱长、0.53 mm才是内径，已校正。约78% N₂仅作为满足通气良好假设时的体积合理性检查，不能替代气密性、定量环体积和标准物质校准。"}
+  ],
+  "formulas": [
+    {"label": "(64.1)", "plain": "IRF = (Aᵢₛ/Cᵢₛ)(Cₜg/Aₜg) = AᵢₛCₜg/(CᵢₛAₜg)", "latex": "\\mathrm{IRF}=\\left(\\frac{A_{is}}{C_{is}}\\right)\\left(\\frac{C_{tg}}{A_{tg}}\\right)=\\frac{A_{is}C_{tg}}{C_{is}A_{tg}}", "variables": [
+      {"symbol": "Cₜg", "meaning": "已知目标气体浓度"},
+      {"symbol": "Cᵢₛ", "meaning": "已知内标气体浓度"},
+      {"symbol": "Aₜg", "meaning": "目标气体峰面积"},
+      {"symbol": "Aᵢₛ", "meaning": "内标气体峰面积"},
+      {"symbol": "IRF", "meaning": "按本书定义的内部响应因子"}
+    ], "conditions": ["目标与内标须处于各自有效校准范围", "浓度单位必须一致", "峰面积与浓度的对应顺序不可倒置"]},
+    {"label": "(64.2)", "plain": "Cₜg = IRF·AₜgCᵢₛ/Aᵢₛ", "latex": "C_{tg}=\\mathrm{IRF}\\,\\frac{A_{tg}C_{is}}{A_{is}}", "variables": [
+      {"symbol": "Cₜg", "meaning": "未知样中目标气体浓度"},
+      {"symbol": "Cᵢₛ", "meaning": "加入未知样的内标气体浓度"},
+      {"symbol": "Aₜg", "meaning": "未知样目标气体峰面积"},
+      {"symbol": "Aᵢₛ", "meaning": "未知样内标气体峰面积"}
+    ], "conditions": ["由式（64.1）代数重排得到", "未知样和建立IRF时的进样/色谱条件保持一致"]}
+  ],
+  "tables": [],
+  "contentSha256": "ad5b463f8c97b5ff9f2388215ab4a9d0a11de59f40afb18b156c1e67aeb275a2"
+}

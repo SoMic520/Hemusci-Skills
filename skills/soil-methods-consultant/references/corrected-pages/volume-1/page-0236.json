@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 236,
+  "sourceImageSha256": "ab54243995b91ee4188dc99690bdabc4b427499bf195dc3be28c2f55c1d27511",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第205页，并与Apple Vision、PaddleOCR交叉比对，人工恢复24.3.2五条注释、24.3.3原理及材料和试剂（1）～（11）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Pₒ、H₂SO₄/H₂O₂、0.25/0.05/0.5/0.1/5.5/0.9 mol·L⁻¹、Na₂EDTA、(NH₄)₂S₂O₈、pH≤1.5、85 ℃及各体积质量"},
+    "secondVisualPass": {"status": "verified", "method": "从材料（11）反向复核至24.3.2注释（1），确认章节层级、引文年份、试剂顺序、上下标和印刷页码205；另核出24.3.2（2）的书内交叉引用冲突"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第24章｜总磷和有机磷｜"},
+    {"type": "heading", "level": 3, "number": "24.3.2", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "应该尽快测定浸提液中的无机磷含量，以便降低因为磷的水解而导致对土壤有机磷含量的可能低估。"},
+    {"type": "note-item", "number": "（2）", "text": "对于腐殖质和金属含量高的土壤，如森林土壤和湿地土壤，在有机质沉淀过程中由于形成磷-金属-有机质配合物而可能引起无机磷的损失（Darke和Walbridge，2000），所以导致对Pₒ浓度的高估。这些类型土壤中的有机磷的浓度必须用另一种方法，如灼烧法（见24.3.3）来验证。"},
+    {"type": "source-fidelity-note", "appliesTo": "24.3.2（2）", "text": "原书印作“灼烧法（见24.3.3）”，但本页24.3.3实际为“碱性EDTA浸提法”，下一页明确将“灼烧法”列为24.3.4，故此处“24.3.3”为书内交叉引用印刷错误，应为“24.3.4”。原文保留，校正值另行明示。"},
+    {"type": "note-item", "number": "（3）", "text": "也可以不酸化沉淀NaOH浸提液中的有机质，只要能提供一个适宜的空白来校正浸提液中有机质的吸光度，就能对其中的无机磷直接进行测定。具体步骤如下：吸取等量的同一样品浸提液于两个50 mL容量瓶中，调节pH值。其中一个如24.5描述，加入8 mL显色液，另外一个则加入8 mL不含抗坏血酸的显色液，稀释至刻度，测定溶液的吸光度，用含抗坏血酸溶液的吸光度减去不含抗坏血酸溶液的吸光度。"},
+    {"type": "note-item", "number": "（4）", "text": "尽管样品中有机质含量高时需要稀释，但是浸提液中的全磷含量可以用电感耦合等离子体光谱仪（ICP）直接测定。"},
+    {"type": "note-item", "number": "（5）", "text": "浸提液中的全磷也可以用其他的方法消解后测定，例如，Thomas等（1967）的H₂SO₄/H₂O₂消解，或用过硫酸钾在电炉上消解（Bowman，1989）。"},
+    {"type": "heading", "level": 2, "number": "24.3.3", "title": "碱性EDTA浸提法（Bowman和Moir，1993）"},
+    {"type": "principle", "text": "在这个方法中，用0.25 mol·L⁻¹ NaOH溶液和0.05 mol·L⁻¹乙二胺四乙酸二钠（Na₂EDTA）溶液提取有机磷。这个方法与Anderson（1960）提出的HCl/NaOH浸提法或Saunders和Williams（1955）提出的灼烧法效果相同，且更为简便、快速。溶液中过量的EDTA会干扰磷的测定，将浸提液酸化至pH值≤1.5可以使浸提液中的土壤有机质和EDTA同时沉淀，经过离心或者过滤（Nnadi等，1975）除去沉淀后即可测定溶液中可溶态活性磷的含量。"},
+    {"type": "procedure-group", "number": "1.", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "text": "带螺旋盖的耐热聚丙烯离心管（50 mL）。"},
+    {"type": "material-item", "number": "（2）", "text": "离心机。"},
+    {"type": "material-item", "number": "（3）", "text": "85 ℃的培养箱或烘箱。"},
+    {"type": "material-item", "number": "（4）", "text": "定量精密滤纸（如Whatman No.42）。"},
+    {"type": "reagent-item", "number": "（5）", "name": "0.5 mol·L⁻¹氢氧化钠溶液", "text": "将10 g NaOH溶解于约含300 mL蒸馏水或去离子水的500 mL容量瓶，用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（6）", "name": "0.1 mol·L⁻¹乙二胺四乙酸二钠溶液", "text": "将18.6 g Na₂EDTA溶于含有300 mL蒸馏水或去离子水的500 mL容量瓶中，并用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（7）", "name": "NaOH-EDTA混合液", "text": "将0.5 mol·L⁻¹ NaOH溶液和0.1 mol·L⁻¹ Na₂EDTA溶液混匀，最终溶液浓度为0.25 mol·L⁻¹ NaOH和0.05 mol·L⁻¹ Na₂EDTA。"},
+    {"type": "reagent-item", "number": "（8）", "text": "过硫酸铵：(NH₄)₂S₂O₈。"},
+    {"type": "reagent-item", "number": "（9）", "name": "5.5 mol·L⁻¹硫酸", "text": "将306 mL浓硫酸缓缓加入约含500 mL蒸馏水或去离子水的1 L容量瓶中，混匀，冷却，用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（10）", "name": "0.9 mol·L⁻¹硫酸", "text": "将50 mL浓硫酸缓缓加入含600 mL蒸馏水或去离子水的1 L容量瓶中，混匀，用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（11）", "text": "显色液（见24.5.1）。"},
+    {"type": "printed-page-number", "text": "205"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "6e6d290e9c98af19fa23985dfd0445ef215ee49f48d5f1c2ed1f56bba2a5fe91"
+}

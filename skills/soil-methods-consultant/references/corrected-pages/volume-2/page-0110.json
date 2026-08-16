@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 110,
+  "sourceImageSha256": "f8273030c84a7307035b9c581d4fc3f3bbfc881bec5ce2aef6f0fa4f0808eb65",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成第64章参考文献Ambus至Deyo跨页起始共19条"},
+    "precisionPass": {"status": "verified", "method": "核验作者、年份、题名、期刊/书名、卷页、15N上标及Deyo跨页题名；复核Callebaut和Deyo原始记录"},
+    "secondVisualPass": {"status": "verified", "method": "由Deyo跨页句反向复核至Ambus，检查二版上标、期刊缩写、专名连字符及页码；印刷页码619"}
+  },
+  "blocks": [
+    {"type": "heading", "title": "参考文献", "level": 2},
+    {"type": "references", "items": [
+      "Ambus, P. and Robinson, G.P. 1998. Automated near-continuous measurement of carbon dioxide and nitrous oxide fluxes from soil. Soil Sci. Soc. Am. J. 62:394–400.",
+      "Anderson, J.P.E. 1982. Soil respiration. In: A.L. Page et al., eds. Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties. 2nd ed. American Society of Agronomy, Madison, WI, 831–871.",
+      "Armstrong, W. and Wright, E.J. 1976. A polarographic assembly for multiple sampling of soil oxygen flux in the field. J. Appl. Ecol. 13:849–856.",
+      "Bakker, E. 2004. Electrochemical sensors. Anal. Chem. 76:3285–3298.",
+      "Banwart, W.L. and Bremner, J.M. 1974. Gas chromatographic identification of sulfur gases in soil atmospheres. Soil Biol. Biochem. 6:113–115.",
+      "Barrie, A. and Prosser, S.J. 1996. Automated analysis of light-element stable isotopes by isotope ratio mass spectrometry. In: T.W. Boutton and S. Yamasaki, eds. Mass Spectrometry of Soils. Marcel Dekker, New York, NY, 1–46.",
+      "Birkle, D.E., Letey, J., Stolzy, L.H., and Szuszkiewicz, T.E. 1964. Measurement of oxygen diffusion rates with the platinum micro-electrode. II. Factors influencing the measurements. Hilgardia 35:555–566.",
+      "Blackmer, A.M. and Bremner, J.M. 1977. Gas chromatographic analysis of soil atmospheres. Soil Sci. Soc. Am. J. 41:908–912.",
+      "Blackwell, P.S. 1983. Measurements of aeration in waterlogged soils: Some improvements of techniques and their application to experiments using lysimeters. J. Soil Sci. 34:271–285.",
+      "Buyanovsky, G.A. and Wagner, G.H. 1983. Annual cycles of carbon dioxide level in soil air. Soil Sci. Soc. Am. J. 47:1139–1145.",
+      "Callebaut, F., Balcaen, M., Gabriels, D., and De Boodt, M. 1980. Data acquisition system for field determination of redox potential, oxygen diffusion rate and soil electrical resistance. Meded. Fac. Landbouwwet. Rijksuniv. Gent 45(1):15–29.",
+      "Christensen, P.B., Revsbech, N.P., and Sand-Jensen, K. 1994. Microsensor analysis of oxygen in the rhizosphere of the aquatic macrophyte Littorella uniflora (L.) Ascherson. Plant Physiol. 105:849–852.",
+      "Clark, M., Jarvis, S., and Maltby, E. 2001. An improved technique for measuring concentration of soil gases at depth in situ. Commun. Soil Sci. Plant Anal. 32:369–377.",
+      "Colbourn, P., Harper, I.W., and Iqbal, M.M. 1984. Denitrification losses from ¹⁵N-labelled calcium nitrate fertilizer in a clay soil in the field. J. Soil Sci. 35:539–547.",
+      "Cortassa, S., Aon, M.A., and Villon, P.F. 2001. A method for quantifying rates of O₂ consumption and CO₂ production in soil. Soil Sci. 166:68–77.",
+      "Covert, J.A., Tenuta, M., and Beauchamp, E.G. 1995. Automated analysis of gases stored in Vacutainer vials. Commun. Soil Sci. Plant Anal. 26:2995–3003.",
+      "de Jong, E., Schappert, H.J.V., and MacDonald, K.B. 1974. Carbon dioxide evolution from virgin and cultivated soil as affected by management practices and climate. Can. J. Soil Sci. 54:299–307.",
+      "de Souza, T.L.C. 1984. Supelpak-S: The GC separating column for sulphur gases. J. Chromatogr. Sci. 22:470–472.",
+      "DeLaune, P.B., Moore, P.A., Jr., Daniel, T.C., and Lemunyon, J.L. 2004. Effect of chemical and microbial amendments on ammonia volatilization from composting poultry litter. J. Environ. Qual. 33:728–734.",
+      "Devitt, D.A., Stolzy, L.H., Miller, W.W., Campana, J.E., and Sternberg, P. 1989. Influence of salinity, leaching fraction, and soil type on oxygen diffusion rate measurements and electrode “poisoning.” Soil Sci. 148:327–335.",
+      "Deyo, B.G., Robbins, G.A., and Binkhorst, G.K. 1993. Use of portable oxygen and carbon dioxide detectors to screen soil gas for …"
+    ]},
+    {"type": "source-fidelity-note", "text": "Callebaut等（1980）在原书印为难辨的“Mooed. Fac. Landbouwwet. RUG 45:15–24”，已据AGRIS原始书目记录校正为Meded. Fac. Landbouwwet. Rijksuniv. Gent 45(1):15–29。Deyo第三作者原书印G.B.，已据期刊原页校正为G.K. Binkhorst；题名和卷页在下页续完。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "6f2f602fcd801c468fef56e8134e4d8291f4fe5cff7e122e7b613650b2def146"
+}

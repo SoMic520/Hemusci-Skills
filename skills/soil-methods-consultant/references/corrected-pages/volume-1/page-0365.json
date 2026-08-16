@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 365,
+  "sourceImageSha256": "185186c2aac67cac4f7fa59b0096968027bafb526ab0a29f5b5925da7c461459",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版35.4.3和参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验125～500 mL、20 L、作者拼写、年份、题名、卷页、重音符号、书籍页数及译校署名"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至35.4.3承上句，纠正Dehradun、Dózsa-Farkas、Lagerlöf、Andrén、Villemin及法文题名；印刷页码334"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "continuation", "text": "（承上页35.4.3注释1）单种培养可用125～500 mL塑料容器；多物种混合培养可用20 L水族缸。"},
+    {"type": "ordered-list", "start": 2, "parent": "35.4.3 注释", "items": [
+      "有些线蚓科动物偏好较湿的生境，另一些在较干土壤中生长良好；容器含水状态应模拟该物种的自然生境。",
+      "有些物种偏好有机质较少的土壤。此时可混合砂与盆栽土，或用未施肥、未施农药的农田矿质土代替森林土。",
+      "缩短高压灭菌时间，以使部分真菌和细菌存活；它们分解土壤有机质，有利于线蚓科动物的消化和同化。回接土壤真菌、原生生物和小型无脊椎动物的土壤系统在长期培养中可能更稳定。"
+    ]},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference", "text": "Dash, M.C. 1983. The Biology of Enchytraeidae (Oligochaeta). International Book Distributors, Dehradun, India, vii + 171 pp."},
+    {"type": "reference", "text": "Dash, M.C. 1990. Enchytraeidae. In: D.L. Dindal, ed. Soil Biology Guide. John Wiley and Sons, New York, NY, pp. 311–340."},
+    {"type": "reference", "text": "Didden, W.A.M. 1993. Ecology of Enchytraeidae. Pedobiologia 37: 2–29."},
+    {"type": "reference", "text": "Dózsa-Farkas, K. 1982. Konsum verschiedener Laubarten durch Enchytraeiden (Oligochaeta). Pedobiologia 23: 251–255."},
+    {"type": "reference", "text": "Kasprzak, K. 1982. Review of Enchytraeids (Oligochaeta, Enchytraeidae) community structure and function in agricultural ecosystems. Pedobiologia 23: 217–232."},
+    {"type": "reference", "text": "Lagerlöf, J., Andrén, O., and Paustian, K. 1989. Dynamics and contribution to carbon flows of Enchytraeidae (Oligochaeta) under four cropping systems. J. Appl. Ecol. 26: 183–199."},
+    {"type": "reference", "text": "Nielsen, C.O. and Christensen, B. 1959. The Enchytraeidae. Critical revision and taxonomy of European species. Studies on Enchytraeidae VII. Nat. Jutl. 8–9: 1–160."},
+    {"type": "reference", "text": "Nielsen, C.O. and Christensen, B. 1961. Studies on Enchytraeidae VII. Critical revision and taxonomy of European species. Supplement 1. Nat. Jutl. 10: 1–23."},
+    {"type": "reference", "text": "Nielsen, C.O. and Christensen, B. 1963. Studies on Enchytraeidae VII. Critical revision and taxonomy of European species. Supplement 2. Nat. Jutl. 10: 1–19."},
+    {"type": "reference", "text": "Phillips, C.T., Kuperman, R.G., and Checkai, R.T. 1999. A rapid and highly efficient method for extracting enchytraeids from soil. Pedobiologia 43: 523–527."},
+    {"type": "reference", "text": "Schmelz, R.M. 2003. Taxonomy of Fridericia (Oligochaeta, Enchytraeidae): Revision of Species with Morphological and Biochemical Methods. Abh. Naturwiss. Ver. Hamb. (NF) 38."},
+    {"type": "reference", "text": "Toutain, F., Villemin, G., Albrecht, A., and Reisinger, O. 1982. Étude ultrastructurale des processus de biodégradation. II. Modèle Enchytraéides-litière de feuillus. Pedobiologia 23: 145–156."},
+    {"type": "reference", "text": "van Vliet, P.C.J. 2000. Enchytraeids. In: M. Sumner, ed. The Handbook of Soil Science. CRC Press, Boca Raton, FL, pp. C-70–C-75."},
+    {"type": "source-fidelity-note", "scope": "参考文献校正", "text": "据文献题名与书目信息校正中文本/英文原版中的明显讹误：Dehradum→Dehradun；Dosza-Farkas→Dózsa-Farkas；Lagerloef→Lagerlöf；Andren→Andrén；Vilemin→Villemin；Fl→FL；Dash（1983）的“171”明确为全书页数（vii + 171 pp.）。Schmelz（2003）原书写“38, 450”，不同目录对总页数著录不一，故不把450作为未经确定的页数写入主引文。"},
+    {"type": "translator-credit", "text": "虞梦婕 译，徐建明 校"},
+    {"type": "printed-page-number", "text": "334"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "184545d2685f924849fedc7269d75dd248cfa35e0c74c7de93e36c72d3bf144e"
+}

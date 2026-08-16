@@ -1,0 +1,61 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 14,
+  "sourceImageSha256": "6063f68925500600064ce5904c61f9dd9dbb04b2a29b871886edc4fc5f1c5ebc",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率目录和两套OCR，完成73章参考文献至78.1"},
+    "precisionPass": {"status": "verified", "method": "核验露点干湿计、定/降水头土芯法、井渗法、圆环入渗法、钻孔法及726～762页码"},
+    "secondVisualPass": {"status": "verified", "method": "由78.1反向复核至73章参考文献，检查圆柱状土芯、设备和步骤、分析和计算及罗马页码XIII"}
+  },
+  "blocks": [
+    {
+      "type": "toc-tree-continuation",
+      "entries": [
+        {"number": "第73章参考文献", "title": "参考文献", "page": 726, "level": 2},
+        {"number": "第74章", "title": "土壤水分特征曲线：露点干湿计法", "page": 727, "level": 1},
+        {"number": "74.1", "title": "引言", "page": 727, "level": 2},
+        {"number": "74.2", "title": "理论与原理", "page": 727, "level": 2},
+        {"number": "74.3", "title": "装置与步骤", "page": 728, "level": 2},
+        {"number": "74.4", "title": "注释", "page": 729, "level": 2},
+        {"number": "第74章参考文献", "title": "参考文献", "page": 729, "level": 2},
+        {"number": "第75章", "title": "饱和水力学特性：室内测定法", "page": 731, "level": 1},
+        {"number": "75.1", "title": "引言", "page": 731, "level": 2},
+        {"number": "75.2", "title": "定水头土芯法", "page": 731, "level": 2},
+        {"number": "75.2.1", "title": "装置和步骤（圆柱状土芯）", "page": 732, "level": 3},
+        {"number": "75.2.2", "title": "分析和计算", "page": 733, "level": 3},
+        {"number": "75.2.3", "title": "注释", "page": 734, "level": 3},
+        {"number": "75.3", "title": "降水头土芯法", "page": 735, "level": 2},
+        {"number": "75.3.1", "title": "装置和步骤（圆柱状土芯）", "page": 735, "level": 3},
+        {"number": "75.3.2", "title": "分析和计算", "page": 736, "level": 3},
+        {"number": "75.3.3", "title": "注释", "page": 736, "level": 3},
+        {"number": "75.4", "title": "其他室内方法", "page": 737, "level": 2},
+        {"number": "第75章参考文献", "title": "参考文献", "page": 738, "level": 2},
+        {"number": "第76章", "title": "饱和水力学特性：井渗法", "page": 739, "level": 1},
+        {"number": "76.1", "title": "引言", "page": 739, "level": 2},
+        {"number": "76.2", "title": "定水头井渗法", "page": 739, "level": 2},
+        {"number": "76.2.1", "title": "装置和步骤", "page": 740, "level": 3},
+        {"number": "76.2.2", "title": "分析和计算", "page": 741, "level": 3},
+        {"number": "76.2.3", "title": "注释", "page": 745, "level": 3},
+        {"number": "76.3", "title": "降水头井渗法", "page": 747, "level": 2},
+        {"number": "76.3.1", "title": "设备和步骤", "page": 747, "level": 3},
+        {"number": "76.3.2", "title": "分析和计算", "page": 748, "level": 3},
+        {"number": "76.3.3", "title": "注释", "page": 749, "level": 3},
+        {"number": "第76章参考文献", "title": "参考文献", "page": 750, "level": 2},
+        {"number": "第77章", "title": "饱和水力学特性：圆环入渗法", "page": 752, "level": 1},
+        {"number": "77.1", "title": "引言", "page": 752, "level": 2},
+        {"number": "77.2", "title": "单圆环入渗法", "page": 752, "level": 2},
+        {"number": "77.2.1", "title": "装置和步骤", "page": 753, "level": 3},
+        {"number": "77.2.2", "title": "分析和计算", "page": 755, "level": 3},
+        {"number": "77.2.3", "title": "注释", "page": 758, "level": 3},
+        {"number": "77.3", "title": "其他圆环入渗法", "page": 760, "level": 2},
+        {"number": "第77章参考文献", "title": "参考文献", "page": 760, "level": 2},
+        {"number": "第78章", "title": "饱和水力学特性：钻孔法", "page": 762, "level": 1},
+        {"number": "78.1", "title": "引言", "page": 762, "level": 2}
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "b026aa6dd364041af6cdbfe5f827469461cd5b1be01b597c231cbb3f0413bfc1"
+}

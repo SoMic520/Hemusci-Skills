@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 524,
+  "sourceImageSha256": "57288d979bde0738b3dff13d54d77f6c1e455d7dc4881cff1de1c57c7ed7ad2b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成第52章题、作者机构及52.1全文"},
+    "precisionPass": {"status": "verified", "method": "核验<50%、30%～60%、>50%、1/3～1/2、HA/FA/胡敏素分组、pH依赖与引文"},
+    "secondVisualPass": {"status": "verified", "method": "由52.1结语反向复核至章题，检查三类操作性组分、比例、作者拼写及章页层级；印刷页码493"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "level": 1, "number": "第52章", "title": "土壤腐殖质组分"},
+    {"type": "author", "name": "D.W. Anderson", "affiliation": "University of Saskatchewan, Saskatoon, Saskatchewan, Canada"},
+    {"type": "author", "name": "J.J. Schoenau", "affiliation": "University of Saskatchewan, Saskatoon, Saskatchewan, Canada"},
+    {"type": "section-heading", "level": 2, "number": "52.1", "title": "引言"},
+    {"type": "paragraph", "text": "土壤有机质常操作性地区分为腐殖物质与非腐殖物质。腐殖物质是高度转化、暗棕至黑色并与矿质紧密结合的有机物；非腐殖物质包括颗粒残体和土壤溶液中的简单可溶组分。但二者不能被彻底、唯一地分离。"},
+    {"type": "paragraph", "text": "腐殖物质可视为含大量不同化学结构的超级混合物；因此，提取、纯化和结构鉴定不能把所得组分误当成单一、天然、确定的化学实体。提取率通常<50%，过程还可能产生人为改变，但提取分组仍可用于相对比较、去除矿物干扰、浓缩和溶解有机质。"},
+    {"type": "paragraph", "text": "碱提后分离土渣并酸化提取液，得到三类操作性组分：富里酸（FA）保留在酸化上清液中，通常淡黄色；胡敏酸（HA）是酸化后形成的深棕至黑色沉淀；胡敏素是未被碱提取的残留有机质。土壤腐殖质约30%～60%可在碱性条件下提取。"},
+    {"type": "source-fidelity-note", "scope": "52.1分组性质", "text": "HA、FA和胡敏素是由溶解度与pH定义的操作性组分，不是可由本法证明的单一分子或绝对天然库。运行时回答必须注明这一局限。"},
+    {"type": "paragraph", "text": "多数土壤中胡敏素占有机C的50%以上，但因任何pH下均不溶而研究最少。胡敏素一般比HA更脂肪族，并含芳香族和碳水化合物成分。碱提残渣加水可分离约1/3～1/2的C，超声分散并离心后酸化上清可获得黏粒结合的深色腐殖物质；它们芳香性较弱、较易酸解、富N且分子量较高。"},
+    {"type": "paragraph", "text": "第二组HA分离后残渣中的胡敏素主要包括根系颗粒、真菌和木炭。若研究胡敏素内部组分，可用不同pH液相与甲基异丁基酮分级。下文推荐碱提方法用于相关土壤间比较，并须承认其操作性局限。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ebe795dfb5ad5703c63d1964c74760fb42248bd2485ca4b15c795b96eaf82ee6"
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 516,
+  "sourceImageSha256": "7c64b569e35c858e54b17a22c42367863eccf94c73ca45348fe61096f3f452d6",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页面和两套OCR，接续Puget条并完成Six至Zhang共7条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验¹⁴C上标、Methods of Soil Analysis版次、卷页、作者顺序和书籍总页数"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至Puget跨页条，检查上下标、连字符与印刷页码485"}
+  },
+  "blocks": [
+    {"type": "reference-continuation", "text": "[承第515页] soils. Soil Biology and Biochemistry 31: 55–63."},
+    {"type": "reference", "text": "Six, J., Guggenberger, G., Paustian, K., Haumaier, L., Elliott, E.T., and Zech, W. 2001. Sources and composition of soil organic matter fractions between and within soil aggregates. European Journal of Soil Science 52: 607–618."},
+    {"type": "reference", "text": "Stevenson, F.J. 1982a. Nitrogen—Organic forms. In: A.L. Page et al., eds. Methods of Soil Analysis, Part 2, 2nd ed. American Society of Agronomy, Madison, WI, pp. 625–641."},
+    {"type": "reference", "text": "Stevenson, F.J. 1982b. Humus Chemistry. John Wiley & Sons, New York, NY, 443 pp."},
+    {"type": "reference", "text": "Tisdall, J.M. and Oades, J.M. 1982. Organic matter and water-stable aggregates in soils. Journal of Soil Science 33: 141–163."},
+    {"type": "reference", "text": "Zelles, L. 1988. The simultaneous determination of muramic acid and glucosamine in soil by high-performance liquid chromatography with precolumn fluorescence derivatization. Biology and Fertility of Soils 6: 125–130."},
+    {"type": "reference", "text": "Zhang, X. and Amelung, W. 1996. Gas chromatographic determination of muramic acid, glucosamine, mannosamine, and galactosamine in soils. Soil Biology and Biochemistry 28: 1201–1206."},
+    {"type": "translator-credit", "text": "吴景贵、党海燕译，王朝辉校。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "64b21b8212f917640cb79a8cf990be85862982286ab539004f9a5ac0fb814cdd"
+}

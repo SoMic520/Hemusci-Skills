@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 310,
+  "sourceImageSha256": "fab24ab3457ed0b917ce6b438b2474073d90c5600c0d7f279b188be5d98a67c0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复参考文献Vandenkoornhuyse至Wright及译校信息"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Piché、Part 2—Microbiological、rootinhabiting原书拼写、作者缩写、期刊卷页和译校姓名"},
+    "secondVisualPass": {"status": "verified", "method": "从译校信息反向复核至Vandenkoornhuyse等（2002），确认原书Walker条目页码清晰印作69-69；页码279"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第30章｜丛枝菌根｜"},
+    {"type": "reference", "text": "Vandenkoornhuyse, P., Husband, R., Daniell, T.J., Watson, J., Duck, J.M., Fitter, A.H., and Young, J.P.W. 2002. Arbuscular mycorrhizal community composition associated with two plant species in a grassland ecosystem. Mol. Ecol. 11: 1555-1564."},
+    {"type": "reference", "text": "Vierheilig, H., Coughlan, A.P., Wyss, U., and Piché, Y. 1998. Ink and vinegar, a simple staining technique for arbuscular-mycorrhizal fungi. Appl. Environ. Microbiol. 64: 5004-5007."},
+    {"type": "reference", "text": "Vilarino, A., Arines, J., and Schuepp, H. 1993. Extraction of vesicular-arbuscular mycorrhizal mycelium from sand samples. Soil Biol. Biochem. 25: 99-100."},
+    {"type": "reference", "text": "Walker, C. 2005. A simple blue staining technique for arbuscular mycorrhizal and other rootinhabiting fungi. Inoculum 45: 69-69."},
+    {"type": "source-fidelity-note", "scope": "Walker（2005）参考文献", "text": "原书清晰印作“rootinhabiting”和页码“69-69”，按原文保留，未擅自补空格或改动页码。"},
+    {"type": "reference", "text": "Walley, F.L. and Germida, J.J. 1995. Estimating the viability of vesicular-arbuscular mycorrhizae fungal spores using tetrazolium salts as vital stains. Mycologia 87: 273-279."},
+    {"type": "reference", "text": "Woomer, P.L. 1994. Most probable number counts. In: R.W. Weaver et al., eds. Methods of Soil Analysis, Part 2—Microbiological and biochemical properties. Soil Science Society of America, Madison, WI, 59-80."},
+    {"type": "reference", "text": "Wright, S.F. 2000. A fluorescent antibody assay for hyphae and glomalin from arbuscular mycorrhizal fungi. Plant Soil 226: 171-177."},
+    {"type": "reference", "text": "Wright, S.F. and Upadhyaya, A. 1999. Quantification of arbuscular mycorrhizal fungi activity by the glomalin concentration on hyphal traps. Mycorrhiza 8: 283-285."},
+    {"type": "translator-credit", "text": "（柳飞 译，徐建明 校）"},
+    {"type": "printed-page-number", "text": "279"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "720a2fa7cda2c5a73ca848e49fd4ba191404174551a4b29903a1753a6790390a"
+}

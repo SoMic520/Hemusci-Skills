@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 62,
+  "sourceImageSha256": "db6422c540e1a7595d8c5bcfe569fb21aff2c058faf5cf5224351a5d11eeeeed",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步对照原分辨率图和两套OCR，完成59.3.1、59.3.2、59.4、59.4.1六步及跨页结尾"},
+    "precisionPass": {"status": "verified", "method": "核验100/1000 Hz、49 mm/4400 N/±0.05%/±0.1%/200 mm、7/25 mm s⁻¹、σ/e/VCL/SL/T/t/h/σ_p"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页末句反向复核至步骤(1)，检查速度单位负指数、误差百分数、Casagrande作图顺序和符号；印刷页码571"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "59.3.1", "title": "步骤", "level": 3},
+    {"type": "procedure-steps", "items": ["(1) 挖至目标深度；试坑面积须可放置仪器，并能在同一深度作数次重复。", "(2) 表面测定先去作物残留；将目标深度剖面修平，使贯入板竖直下沉。", "(3) 安放仪器。图59.3型需两人分别站两侧踏板，提供平衡/反力。", "(4) 启动试验。", "(5) 用高频采集系统记录垂直压力和位移，例如100 Hz。"]},
+    {"type": "equipment-example", "text": "Dawidowski等（2001）和Keller等（2004）所用参数：圆板直径49 mm；最大负荷4400 N、最大误差±0.05%；贯入深度最大误差±0.1%；最大位移200 mm；下降速度7或25 mm s⁻¹；最大记录频率1000 Hz。"},
+    {"type": "heading", "number": "59.3.2", "title": "结果计算和说明", "level": 3},
+    {"type": "paragraph", "text": "将数据绘为log₁₀σ—位移图，可按59.2.4～59.2.5近似求预压应力及高、低应力段斜率。平板下方侧向变形未受约束，所以这里用logσ—位移，而侧限压缩仪常用logσ—e；因此把平板曲线高应力段斜率称‘压缩指数’并不严格，仅在位移小、侧向变形也小时较可比，见59.5.1。"},
+    {"type": "heading", "number": "59.4", "title": "预压应力的测定", "level": 2},
+    {"type": "paragraph", "text": "预压应力可由压缩曲线用多种方法估算，常用法见Dias和Pierce（1995）。"},
+    {"type": "heading", "number": "59.4.1", "title": "卡萨格兰德（Casagrande）法", "level": 3},
+    {"type": "paragraph", "text": "Casagrande（1936）经验作图法被视为标准方法。"},
+    {"type": "procedure-steps", "items": ["(1) 用足够多高应力数据点确定VCL。", "(2) 找曲线上曲率半径最小（曲率最大）的点T。", "(3) 过T作切线t。", "(4) 过T作水平线h。", "(5) 作t与h夹角的二等分线。", "(6) 二等分线与VCL交点对应的应力即σ_p。"]},
+    {"type": "paragraph-continuation", "text": "原法依赖作图，点T由目测确定，具有主观性且受坐标尺度影响。Dawidowski和Koolen（1994）据此提出一系列……"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2cf949f4ee0950a283e5f9075d231482e529ff0bba93a58b64754bb4de21cbc7"
+}

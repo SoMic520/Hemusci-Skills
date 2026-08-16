@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 63,
+  "sourceImageSha256": "e775cb562e0af01a595a0b73ba24c0d30f7976f5e24954e11ece391aa89e1075",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成59.4.1跨页余文、图59.4、59.4.2、59.5.1及图59.5"},
+    "precisionPass": {"status": "verified", "method": "核验log载荷0～3、形变0～0.12、r_min/t/h/b/α/2/σ_p、SL/VCL和图59.5应力0～1000 kPa/下沉0～25 mm"},
+    "secondVisualPass": {"status": "verified", "method": "由图59.5注反向复核至跨页首句，检查图轴方向、符号、会议卷号III及线性/对数应力区别；印刷页码572"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "数学步骤计算σ_p；也可把数据拟合为数学方程后计算各作图点，例如van Genuchten型对数函数（Bailey等，1986）或多项式（Arvidsson和Keller，2004）。"},
+    {"type": "figure", "number": "59.4", "caption": "Casagrande法确定土壤预压应力。", "axes": {"x": "荷载的log₁₀值（kPa；0.0～3.0）", "y": "形变（收缩；0.00～0.12，向下增大）"}, "labels": ["原始压缩线VCL", "r_min", "切线t", "水平线h", "二等分线b", "α/2", "σ_p"], "source": "改编自Casagrande, Proceedings of the International Conference on Soil Mechanics and Foundation Engineering, Vol. III, Cambridge, UK, 1936。"},
+    {"type": "heading", "number": "59.4.2", "title": "其他方法", "level": 3},
+    {"type": "paragraph", "text": "因最大曲率点难定，已有多种回归法（Sällfors，1975；Culley和Larson，1987；Jose等，1989；Lebert和Horn，1991；Dias和Pierce，1995）。最简单方法以两条回归线交点估算σ_p：低应力再压缩段回归得SL，高应力原始压缩段回归得VCL。不同方法所得σ_p可略有差异（Arvidsson和Keller，2004）。"},
+    {"type": "heading", "number": "59.5", "title": "注释", "level": 2},
+    {"type": "heading", "number": "59.5.1", "title": "侧限实验室测试与田间土壤压缩性评估的比较", "level": 3},
+    {"type": "paragraph", "text": "压缩仪环刀抵消横向力、限制侧向变形；田间平板载荷允许侧向变形，因此两者机理不同。"},
+    {"type": "figure", "number": "59.5", "caption": "压缩仪（固结计，有侧限）与原位平板下沉试验的土壤压实结果比较。", "axes": {"x": "外加应力（0～1000 kPa，线性）", "y": "下沉距离（0～25 mm，向下增大）"}, "curves": ["侧限压缩仪：下沉约0～7 mm", "原位平板：高应力下继续下沉至约23 mm"], "note": "与图59.1、59.4不同，本图应力轴为线性。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "fa0ab0abb7af8325d3c41eb3c991cd29d4f19225152ebe7a66b7c51f595ca53d"
+}

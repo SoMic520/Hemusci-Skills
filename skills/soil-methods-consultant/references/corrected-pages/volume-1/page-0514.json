@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 514,
+  "sourceImageSha256": "f795f1cca8fc0d95600a20bd29a84e8957a9695698c9fb9c9656c4bf34c2e234",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐格对照原分辨率页面和两套OCR，完成表50.2、图50.2、每日清洗（2）～（3）、50.5.4及首条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验0.0/2.5/17.5/20.0/20.5 min、1.5 mL·min⁻¹、A/B梯度、4个峰6.3/8.0/10.2/10.7 min、100%甲醇10 min、平衡10/15 min及5 min±15 s"},
+    "secondVisualPass": {"status": "verified", "method": "由Alexander文献反向复核至表50.2，逐峰检查氨基糖名称、图轴mV、脚注、清洗顺序及印刷页码483"}
+  },
+  "blocks": [
+    {"type": "figure", "number": "图50.2", "title": "用HPLC测量土壤浸提液中氨基糖的典型色谱图", "xAxis": "Time (min)", "yAxis": "fluorescence response (mV)", "peaks": [
+      {"peak": 1, "analyte": "胞壁酸（muramic acid）", "retentionTime_min": 6.3},
+      {"peak": 2, "analyte": "甘露糖胺（mannosamine）", "retentionTime_min": 8.0},
+      {"peak": 3, "analyte": "半乳糖胺（galactosamine）", "retentionTime_min": 10.2},
+      {"peak": 4, "analyte": "葡萄糖胺（glucosamine）", "retentionTime_min": 10.7}
+    ]},
+    {"type": "maintenance-step", "number": "每日清洗（2）", "text": "把洗脱液B换为100%甲醇清洗液，至少运行10 min。"},
+    {"type": "maintenance-step", "number": "每日清洗（3）", "text": "换回洗脱液B，平衡色谱柱10 min；再于约2 min内把洗脱液A线性升至分析所需比例，运行15 min后方可注入新样。"},
+    {"type": "section-heading", "level": 3, "number": "50.5.4", "title": "注释"},
+    {"type": "note", "number": "（1）", "text": "Ehrlich试剂比色可测总氨基糖，但单个氨基糖丰度须色谱分析。本法修订自Zelles（1988），与Appuhn等（2004）相似，运行较短且可手工衍生、进样，无需恒温自动进样器。"},
+    {"type": "note", "number": "（2）", "text": "2-巯基乙醇存在时，氨基糖与OPA形成的荧光衍生物不稳定，因此所有样品操作时间须完全一致。手工法也可行，但从加入2-巯基乙醇到进样必须固定为5 min±15 s，此时响应最强且重复性最好。"},
+    {"type": "note", "number": "（3）", "text": "各氨基糖的荧光响应和检出限不同；响应由强到弱为：胞壁酸>葡萄糖胺>半乳糖胺>甘露糖胺。甘露糖胺响应最低，且可能与未知含N化合物共洗脱，不能仅凭保留时间无验证地精确定量。"},
+    {"type": "source-fidelity-note", "scope": "50.5.4荧光响应顺序", "text": "原书句子误写为‘胞壁酸的荧光发散性按以下顺序依次衰减：葡萄糖胺、半乳糖胺和甘露糖胺’，漏掉比较关系。按Appuhn等（2004）的响应结果，完整降序是胞壁酸、葡萄糖胺、半乳糖胺、甘露糖胺。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference", "text": "Alexander, M. 1977. Introduction to Soil Microbiology, 2nd ed. John Wiley & Sons, New York, NY, 467 pp."}
+  ],
+  "formulas": [],
+  "tables": [
+    {"number": "表50.2", "title": "HPLC测定土壤浸提液氨基糖的系统时间表", "headers": ["运行时间/min", "步骤描述", "总流量/(mL·min⁻¹)", "洗脱液A/%", "洗脱液B/%"], "rows": [
+      ["0.0", "注射", "1.5", "85", "15"],
+      ["2.5", "梯度相位", "1.5", "85", "15"],
+      ["17.5", "梯度相位", "1.5", "70", "30"],
+      ["20.0", "结束梯度", "1.5", "85", "15"],
+      ["20.5", "调节", "1.5", "85", "15"]
+    ], "notes": ["洗脱液A：柠檬酸钠/乙酸钠-甲醇-THF混合液；洗脱液B：65%甲醇。", "从加入2-巯基乙醇起计时，衍生5 min±15 s时运行HPLC。"]}
+  ],
+  "contentSha256": "275915eed8daa5f99f42f468026a782e2ae7334882f5f85110e2428d57e63b37"
+}

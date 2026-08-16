@@ -1,0 +1,53 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 118,
+  "sourceImageSha256": "cec4382fd27bf6ad4fea3d0f12f2e4eeddb40b016195b8e49b62abd976f8dada",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐项对照原分辨率方法页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复10.4.2续步、10.4.3—10.4.4和10.5材料步骤及计算式"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对EDTA、H₂EDTA、HNO₃、ICP-MS、5000 g、min、℃、μm、mol/L、g、mL、μg/g、μg/L、DF、0.025/0.100 L、mc、百分比和酸度"},
+    "secondVisualPass": {"status": "verified", "method": "按EDTA提取步骤、式（10.3）、注释、热酸提取材料步骤和式（10.4）反向复核，确认公式乘除关系、层级和印刷页码87"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第10章｜微量元素测定｜"},
+    {"type": "ordered-list", "parent": "10.4.2｜步骤", "items": [
+      {"number": "（2）", "continuation": true, "text": "的速度振荡1 h。"},
+      {"number": "（3）", "text": "以5000 g的速度离心10 min，尽量将离心时的温度保持在20℃，经0.45 μm的滤膜过滤后，在4℃下保存于密封良好的聚乙烯瓶中。分析时用超纯水稀释。保证用于校准的标准物质与稀释的溶液基质相同。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "10.4.3", "title": "计算"},
+    {"type": "paragraph", "text": "计算同10.3.3节："},
+    {"type": "formula-reference", "labels": ["10.3"]},
+    {"type": "paragraph", "text": "式中，M表示金属元素含量；C表示测定的金属元素浓度；mc是以小数点后两位表示的含水量（即5%=0.05）。", "inlineNotation": ["M", "C", "mc", "5%=0.05"]},
+    {"type": "section-heading", "level": 3, "number": "10.4.4", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "EDTA是一种强提取剂，能够从土壤表面的高亲和位点提取大量的微量元素。同样地，EDTA能够提取与溶液接触的塑料和玻璃器皿表面的所有元素。因此为了避免样品受到污染，实验前实验器材需先用0.5 mol/L H₂EDTA再用水冲洗。"},
+      {"number": "（2）", "text": "样品和标准物质要使用相同的基质。不要尝试在测量金属元素含量之前或过程中酸化溶液，因为这会导致EDTA沉淀。"}
+    ]},
+    {"type": "section-heading", "level": 2, "number": "10.5", "title": "热酸提取法（USEPA，1994）"},
+    {"type": "section-heading", "level": 3, "number": "10.5.1", "title": "材料和试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "微波消解系统专用的聚四氟乙烯管。"},
+      {"number": "（2）", "text": "微量金属级硝酸（HNO₃）。"},
+      {"number": "（3）", "text": "100 mL的聚乙烯容量瓶。"},
+      {"number": "（4）", "text": "超纯水。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "10.5.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "遵照制造商的安全说明使用微波消解系统。在通风橱下工作并穿戴防护服和防护装备。"},
+      {"number": "（2）", "text": "称量0.500 g土样。如果样品中有机质或碳酸盐含量较高，则需减少称样量。有机土壤和森林地被物重量应为0.200 g。"},
+      {"number": "（3）", "text": "加入10 mL HNO₃。如反应强烈，在密封容器前先将样品放置数小时（或隔夜）以减少容器加热过程中释放气体的可能性。密封容器并放入微波系统中。遵循制造商对加热程序的建议，最少在185℃条件下保持10 min。"},
+      {"number": "（4）", "text": "消解完成后，放置冷却并将整个样品转移到100 mL的容量瓶中（最终酸度为10% HNO₃）。让其沉淀过夜并将上清液倾倒在30 mL的聚乙烯瓶中。"},
+      {"number": "（5）", "text": "用超纯水稀释5次后进行ICP-MS分析（最终酸度为2%）。标准溶液需使用相同的基质配制。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "10.5.3", "title": "计算"},
+    {"type": "formula-reference", "labels": ["10.4"]},
+    {"type": "paragraph", "text": "式中，M表示金属元素含量；C表示测定的金属元素浓度；mc是以小数点后两位表示的含水量（即"},
+    {"type": "printed-page-number", "text": "87"}
+  ],
+  "formulas": [
+    {"label": "10.3", "plain": "M（μg/g）=C（μg/L）×0.025 L/[湿土（g）×（1-mc）]", "latex": "M(\\mu\\mathrm{g}/\\mathrm{g})=\\frac{C(\\mu\\mathrm{g}/\\mathrm{L})\\times0.025\\mathrm{L}}{\\text{湿土}(\\mathrm{g})\\times(1-mc)}", "context": "按湿土质量及含水量换算EDTA提取金属元素含量"},
+    {"label": "10.4", "plain": "M（μg/g）=C（μg/L）×DF×0.100 L/[湿土（g）×（1-mc）]", "latex": "M(\\mu\\mathrm{g}/\\mathrm{g})=\\frac{C(\\mu\\mathrm{g}/\\mathrm{L})\\times DF\\times0.100\\mathrm{L}}{\\text{湿土}(\\mathrm{g})\\times(1-mc)}", "context": "按稀释倍数、定容体积、湿土质量及含水量换算热酸提取金属元素含量"}
+  ],
+  "tables": [],
+  "contentSha256": "1a69963389baeb884ea8bc9a3fd71557f2de0aab579eb9e6cf710dbd64aa6ac4"
+}

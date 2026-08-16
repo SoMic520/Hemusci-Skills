@@ -1,0 +1,45 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 455,
+  "sourceImageSha256": "204f7807cb167e61ea3e5490b52ae44d2206b460398f60c255474c04d692f9e1",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照中文原页、两套OCR及英文原版44.3.3～参考文献跨页处；恢复式（44.7）～（44.9）、甲醛配制、μm和μm⁻³及作者重音符号"},
+    "precisionPass": {"status": "verified", "method": "核验EI/SI/CI分子分母、0.9+0.1 mL、16%甲醛、40%福尔马林、10 μm、0.212 pg C·μm⁻³以及11条参考文献卷页"},
+    "secondVisualPass": {"status": "verified", "method": "由Bottomley跨页条目反向复核至式（44.7）；分别用b/e/fₑ/s定义检查三指数维度和百分数范围；印刷页码424"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "equation", "number": "44.7", "text": "富集指数（EI）=e/(b+e)×100。"},
+    {"type": "equation", "number": "44.8", "text": "结构指数（SI）=s/(b+s)×100。"},
+    {"type": "equation", "number": "44.9", "text": "通道指数（CI）=f_e/e×100。"},
+    {"type": "section-heading", "level": 3, "number": "44.3.4", "title": "注意事项"},
+    {"type": "paragraph", "text": "线虫总数最好在活体状态下测定，因为其运动有助于在40×计数皿视野中发现个体。若不能及时完成鉴定，可把样品浓缩至0.9 mL，按前述方法热杀，再加入0.1 mL 16%甲醛（由40%福尔马林溶液配制）作防腐剂。"},
+    {"type": "section-heading", "level": 2, "number": "44.4", "title": "用于食物网模型的微动物生物量计算"},
+    {"type": "paragraph", "text": "若线虫数据用于计算食物网养分或能量通量，或模拟食物网动态，必须把各营养类群的个体数转换为生物量。在复式显微镜鉴定时可测量线虫长度和宽度，并按Andrássy（1956）换算为生物体积；也可根据各分类单元已发表的测量值推算生物量（Forge等，2005）。"},
+    {"type": "paragraph", "text": "按第36章提取和定量原生动物后，可假定细胞为球形，由平均细胞直径估算生物体积。Forge等（2003）测得一个以鞭毛虫为主的原生动物组合平均直径为10 μm。再用0.212 pg C·μm⁻³的换算因子，把原生动物生物体积转换为生物量碳（Griffiths和Ritz，1988）。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference-entry", "text": "Andrássy, I. 1956. The determination of volume and weight of nematodes. Acta Zoologica Academiae Scientiarum Hungaricae 2: 1–15."},
+    {"type": "reference-entry", "text": "Bååth, E. and Söderström, B. 1980. Comparisons of the agar-film and membrane-filter methods for the estimation of hyphal lengths in soil, with particular reference to the effect of magnification. Soil Biology and Biochemistry 12: 385–387."},
+    {"type": "reference-entry", "text": "Beare, M.H., Neely, C.L., Coleman, D.C., and Hargrove, W.L. 1990. A substrate-induced respiration (SIR) method for measurement of fungal and bacterial biomass on plant residues. Soil Biology and Biochemistry 22: 585–594."},
+    {"type": "reference-entry", "text": "Behan-Pelletier, V.M. 1999. Oribatid mite biodiversity in agroecosystems: Role for bioindication. Agriculture, Ecosystems & Environment 74: 411–423."},
+    {"type": "reference-entry", "text": "Berg, M., de Ruiter, P., Didden, W., Jansen, M., Schouten, T., and Verhoef, H. 2001. Community food web, decomposition and nitrogen mineralization in a stratified Scots pine forest soil. Oikos 94: 130–142."},
+    {"type": "reference-entry", "text": "Bloem, J., Veninga, M., and Shepherd, J. 1995. Fully automatic determination of soil bacterium numbers, cell volumes, and frequencies of dividing cells by confocal laser scanning microscopy and image analysis. Applied and Environmental Microbiology 61: 926–936."},
+    {"type": "reference-entry", "text": "Bölter, M., Bloem, J., Meiners, K., and Möller, R. 2002. Enumeration and biovolume determination of microbial cells—A methodological review and recommendations for applications in ecological research. Biology and Fertility of Soils 36: 249–259."},
+    {"type": "reference-entry", "text": "Bongers, T. 1990. The maturity index: An ecological measure of environmental disturbance based on nematode species composition. Oecologia 83: 14–19."},
+    {"type": "reference-entry", "text": "Bongers, T. 1999. The Maturity Index, the evolution of nematode life history traits, adaptive radiation and c-p scaling. Plant and Soil 212: 13–22."},
+    {"type": "reference-entry", "text": "Bossio, D.A., Scow, K.M., Gunapala, N., and Graham, K.J. 1998. Determinants of soil microbial communities: Effects of agricultural management, season, and soil type on phospholipid fatty acid profiles. Microbial Ecology 36: 1–12."},
+    {"type": "reference-entry", "text": "Bottomley, P. 1994. Light microscopic methods for studying soil microorganisms. In R.W. Weaver et al., eds. Methods of Soil Analysis [续见第456页]."},
+    {"type": "printed-page-number", "text": "424"}
+  ],
+  "formulas": [
+    {"id": "44.7", "plain": "EI=100e/(b+e)", "context": "富集指数，理论范围0～100"},
+    {"id": "44.8", "plain": "SI=100s/(b+s)", "context": "结构指数，理论范围0～100"},
+    {"id": "44.9", "plain": "CI=100f_e/e", "context": "通道指数；等价于100×0.8Fu2/(3.2Ba1+0.8Fu2)"},
+    {"id": "44.3.4-preservative-check", "plain": "0.1 mL×16%/(0.9+0.1)mL=1.6% formaldehyde final", "context": "线虫保存液终甲醛浓度"},
+    {"id": "44.4-sphere", "plain": "V=(4/3)π(d/2)³", "context": "把原生动物近似为球体时，由平均直径d估算生物体积"},
+    {"id": "44.4-protozoan-carbon", "plain": "biomass C=biovolume×0.212 pg C·μm⁻³", "context": "原生动物生物体积转生物量碳"}
+  ],
+  "tables": [],
+  "contentSha256": "3081620a3ba4291f6827380f79beee03ff4d7872c0d2ca14b825148e2258f2ad"
+}

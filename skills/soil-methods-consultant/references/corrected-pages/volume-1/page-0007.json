@@ -1,0 +1,60 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 7,
+  "sourceImageSha256": "147c7f3acb9bb82d67071fee74893fd9816c540faa7e56d03ff6e09e9e64e3b7",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率目录页，并与Apple Vision、PaddleOCR两份机器稿交叉比对"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "逐项核对篇、章、节编号，标题用字、英文层位符号Ah及页码"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "按页码列反向逐项复核原页，确认目录层级和条目对应关系"
+    }
+  },
+  "blocks": [
+    {"type": "title", "text": "目　录"},
+    {"type": "toc-part", "level": 1, "number": "第一篇", "title": "土壤样品采集与处理"},
+    {"type": "toc-entry", "level": 2, "number": "第1章", "title": "土壤采样设计", "targetPage": 3},
+    {"type": "toc-entry", "level": 3, "number": "1.1", "title": "引言", "targetPage": 3},
+    {"type": "toc-entry", "level": 3, "number": "1.2", "title": "采样方法", "targetPage": 3},
+    {"type": "toc-entry", "level": 4, "number": "1.2.1", "title": "偶然、判断和概率抽样", "targetPage": 3},
+    {"type": "toc-entry", "level": 4, "number": "1.2.2", "title": "采用判断抽样的研究设计", "targetPage": 3},
+    {"type": "toc-entry", "level": 4, "number": "1.2.3", "title": "采用概率抽样的研究设计", "targetPage": 4},
+    {"type": "toc-entry", "level": 3, "number": "1.3", "title": "采样设计的统计学概念", "targetPage": 4},
+    {"type": "toc-entry", "level": 4, "number": "1.3.1", "title": "集中趋势和离散趋势测定", "targetPage": 4},
+    {"type": "toc-entry", "level": 4, "number": "1.3.2", "title": "独立性、随机性和重复性", "targetPage": 5},
+    {"type": "toc-entry", "level": 3, "number": "1.4", "title": "样点布局和间距", "targetPage": 5},
+    {"type": "toc-entry", "level": 4, "number": "1.4.1", "title": "简单随机和分层随机采样", "targetPage": 5},
+    {"type": "toc-entry", "level": 4, "number": "1.4.2", "title": "系统采样", "targetPage": 7},
+    {"type": "toc-entry", "level": 3, "number": "1.5", "title": "特定研究目标的采样设计", "targetPage": 8},
+    {"type": "toc-entry", "level": 4, "number": "1.5.1", "title": "观测性和控制性实验的采样设计", "targetPage": 8},
+    {"type": "toc-entry", "level": 4, "number": "1.5.2", "title": "土壤养分调查采样", "targetPage": 9},
+    {"type": "toc-entry", "level": 4, "number": "1.5.3", "title": "采样时间、采样深度和样品处理", "targetPage": 10},
+    {"type": "toc-entry", "level": 4, "number": "1.5.4", "title": "地统计、频谱和小波分析采样", "targetPage": 10},
+    {"type": "toc-entry", "level": 3, "title": "参考文献", "targetPage": 11},
+    {"type": "toc-entry", "level": 2, "number": "第2章", "title": "森林土壤采样", "targetPage": 13},
+    {"type": "toc-entry", "level": 3, "number": "2.1", "title": "引言", "targetPage": 13},
+    {"type": "toc-entry", "level": 3, "number": "2.2", "title": "采样量", "targetPage": 13},
+    {"type": "toc-entry", "level": 3, "number": "2.3", "title": "采样方法", "targetPage": 15},
+    {"type": "toc-entry", "level": 3, "number": "2.4", "title": "森林表层土壤和Ah层土壤的区分", "targetPage": 15},
+    {"type": "toc-entry", "level": 3, "number": "2.5", "title": "容重和粗碎屑", "targetPage": 16},
+    {"type": "toc-entry", "level": 3, "number": "2.6", "title": "深度采样还是诊断层采样", "targetPage": 16},
+    {"type": "toc-entry", "level": 3, "number": "2.7", "title": "混合采样", "targetPage": 17},
+    {"type": "toc-entry", "level": 3, "title": "参考文献", "targetPage": 18},
+    {"type": "toc-entry", "level": 2, "number": "第3章", "title": "土壤有机碳储量的测定", "targetPage": 20},
+    {"type": "toc-entry", "level": 3, "number": "3.1", "title": "引言", "targetPage": 20},
+    {"type": "toc-entry", "level": 3, "number": "3.2", "title": "采样地点和模式的选择", "targetPage": 21},
+    {"type": "toc-entry", "level": 4, "number": "3.2.1", "title": "材料", "targetPage": 21},
+    {"type": "toc-entry", "level": 4, "number": "3.2.2", "title": "步骤", "targetPage": 21},
+    {"type": "toc-entry", "level": 4, "number": "3.2.3", "title": "非分层采样", "targetPage": 21}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1de8bd3cad6bfb6208b6aa957621516ffbea9317fd30a4c9f6cd26f843075fb8"
+}

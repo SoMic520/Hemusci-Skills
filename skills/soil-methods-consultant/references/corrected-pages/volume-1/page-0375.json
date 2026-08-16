@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 375,
+  "sourceImageSha256": "8549332ec5be25f863965396745a8350f623693fb397b8922584542861011c10",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版36.8.3与参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验5 cm/10 cm、作者名缩写与重音、年份、题名、卷页、El Niño、Ø及德文文献"},
+    "secondVisualPass": {"status": "verified", "method": "从Korganova条目反向复核至36.8.3，改正“脊椎动物”为“无脊椎动物”、Adl姓名倒置及多处文献拼写；印刷页码344"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "36.8.3", "title": "注释"},
+    {"type": "paragraph", "text": "实验中也会看到无脊椎动物，尤其是轮虫和线虫，偶见缓步动物、介形类和线蚓科动物；但数量通常太少，既难以定量，也难以给出详细物种名录。若在直径5 cm或10 cm培养皿中使用更大的凋落物子样，可把本繁育/交替培养流程改用于无脊椎动物计数。"},
+    {"type": "source-fidelity-note", "scope": "36.8.3动物类群", "text": "中文本开头误写“脊椎动物”，随后又写“无脊椎动物物种清单”；英文原文始终为invertebrates。正文统一纠正为无脊椎动物。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference", "text": "Acosta-Mercado, D. and Lynn, D.H. 2003. The edaphic quantitative protargol stain: A sampling protocol for assessing soil ciliate abundance and diversity. J. Microbiol. Meth. 53: 365–375."},
+    {"type": "reference", "text": "Adl, S.M. 2003. The Ecology of Soil Decomposition. CABI, Wallingford, UK."},
+    {"type": "reference", "text": "Adl, S.M. and Coleman, D.C. 2005. Dynamics of soil protozoa using a direct count method. Biol. Fertil. Soils 42: 168–171."},
+    {"type": "reference", "text": "Adl, S.M. and Gupta, V.V.S.R. 2006. Protists in soil ecology and forest nutrient cycling. Can. J. For. Res. 36: 1805–1817."},
+    {"type": "reference", "text": "Adl, S.M., Simpson, A.G.B., Farmer, M.A., Andersen, R.A., Anderson, O.R., Barta, J., Bowser, S., Brugerolle, G., Fensome, R., Fredericq, S., James, T.Y., Karpov, S., Kugrens, P., Krug, J., Lane, C., Lewis, L.A., Lodge, J., Lynn, D.H., Mann, D., McCourt, R.M., Mendoza, L., Moestrup, Ø., Mozley-Standridge, S.E., Nerad, T.A., Shearer, C., Smirnov, A.V., Spiegel, F., and Taylor, F.J.R. 2005. The new higher level classification of eukaryotes with emphasis on the taxonomy of protists. J. Eukaryot. Microbiol. 52: 399–451."},
+    {"type": "reference", "text": "Alphei, J., Bonkowski, M., and Scheu, S. 1996. Protozoa, Nematoda and Lumbricidae in the rhizosphere of Hordelymus europaeus (Poaceae): Faunal interactions, response of microorganisms and effects on plant growth. Oecologia 106: 111–116."},
+    {"type": "reference", "text": "Anderson, O.R. 2000. Abundance of terrestrial gymnamoebae at a Northeastern U.S. site: A four-year study, including El Niño Winter of 1997–1998. J. Eukaryot. Microbiol. 47: 148–155."},
+    {"type": "reference", "text": "Berthold, A. and Palzenberger, M. 1995. Comparison between direct counts of active soil ciliates (Protozoa) and most probable number estimates obtained by Singh’s dilution culture method. Biol. Fertil. Soils 19: 348–356."},
+    {"type": "reference", "text": "Bonkowski, M. 2004. Protozoa and plant growth: The microbial loop in soil revisited. New Phytol. 162: 617–631."},
+    {"type": "reference", "text": "Clarholm, M. 1981. Protozoan grazing of bacteria in soil—impact and importance. Microb. Ecol. 7: 343–350."},
+    {"type": "reference", "text": "Coûteaux, M.M. and Palka, L. 1988. A direct counting method for soil ciliates. Soil Biol. Biochem. 20: 7–10."},
+    {"type": "reference", "text": "Dalhousie University Soil Ecology Portal. 2006. http://soilecology.biology.dal.ca/index.htm (accessed 27 June 2006)."},
+    {"type": "reference", "text": "Darbyshire, J.F. 1994. Soil Protozoa. CABI, Wallingford, UK."},
+    {"type": "reference", "text": "Duczek, L.J. 1983. Populations of mycophagous amoebae in Saskatchewan soils. Plant Disease 67: 606–608."},
+    {"type": "reference", "text": "Foissner, W. 1987. Soil protozoa: Fundamental problems, ecological significance, adaptations in ciliates and testaceans, bioindicators and guide to the literature. In: J.O. Corliss and D.J. Patterson, eds. Progress in Protistology, Vol. 2. Biopress, Bristol, UK, pp. 69–212."},
+    {"type": "reference", "text": "Foissner, W., Berger, H., and Kohmann, F. 1992. Taxonomische und ökologische Revision der Ciliaten des Saprobiensystems—Band II: Peritrichia, Heterotrichida, Odontostomitida. Informationsberichte des Bayerischen Landesamtes für Wasserwirtschaft, Heft 5/92."},
+    {"type": "reference", "text": "Fredslund, L., Ekelund, F., Jacobsen, C.S., and Johnsen, K. 2001. Development and application of a most probable number-PCR assay to quantify flagellate populations in soil samples. Appl. Environ. Microbiol. 67: 1613–1618."},
+    {"type": "reference", "text": "Griffiths, B.S., Bonkowski, M., Dobson, G., and Caul, S. 1999. Changes in soil microbial community structure in the presence of microbial-feeding nematodes and protozoa. Pedobiologia 43: 297–304."},
+    {"type": "reference-continuation", "text": "Korganova, G.A. and Geltser, J.G. 1977. Stained smears for the study of soil Testacida (Testacea, Rhizopoda). Pedobiologia 17:（页码续见第376页）"},
+    {"type": "source-fidelity-note", "scope": "参考文献作者", "text": "章作者和原始论文作者为S.M. Adl，中文本参考文献多次倒置成M.S. Adl，已统一校正；Bonowski改为Bonkowski，并恢复Coûteaux、El Niño、Moestrup Ø等字符。"},
+    {"type": "printed-page-number", "text": "344"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "6eaded14d2e7dc0aab91ef4cb0fa882af05e00beb4754357f17d1c42526307cd"
+}

@@ -1,0 +1,100 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 343,
+  "sourceImageSha256": "b20a0736dfd9e34b9028931c00425815745a64e5dfdda0abc1a9e52a79cfc67c",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对续表85.4、脚注、案例第二/三步、图85.6和半方差结构比较"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对偏度/峰度、NN/N定义、站号坐标、70～80 m、50 m与V_N/V_S"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "lnSa/lnOC/lnK_fs、θ_a、El、Cly及百分比上下标二次反查；印刷页码852"
+    }
+  },
+  "blocks": [
+    {
+      "type": "table-notes",
+      "for": "表85.4",
+      "items": [
+        "CV为变异系数。",
+        "低尾偏态为负，正态分布为0，高尾偏态为正。",
+        "平顶峰度为负，正态分布为0，尖顶峰度为正。",
+        "Anderson–Darling判定中NN为非正态，N为正态。",
+        "上页表85.4(b)平均值为几何平均数。"
+      ]
+    },
+    {
+      "type": "case-step",
+      "step": 2,
+      "title": "数据趋势和非平稳性检验",
+      "items": [
+        "El、θ_a、lnSa、Cly、lnOC、lnK_fs的站号图未见需要先去除的大尺度单调趋势。",
+        "均值和方差随位置仍表现不同程度的空间变异。",
+        "El具有明显的有组织空间变化，不满足二阶平稳；直接计算其自协方差和自相关可能产生误导。",
+        "其余变量至少近似满足有限区域内的平稳性。"
+      ]
+    },
+    {
+      "type": "case-step",
+      "step": 3,
+      "title": "半方差函数的计算和解释",
+      "items": [
+        "计算θ_a、lnSa、Cly、lnOC和lnK_fs的全方向半方差，并用式(85.4)标准化后比较；出现有限基台支持近似二阶平稳。",
+        "El半方差未出现基台，支持其缺少二阶平稳性的判断。",
+        "θ_a与lnK_fs半方差结构相似，相关尺度约70～80 m，块金/总基台比16.7%，属强空间依赖。",
+        "Cly与lnOC结构近似相同，相关尺度约50 m，块金/总基台比83.3%，属弱空间依赖。",
+        "lnSa块金/总基台比64.2%，属中等空间依赖，相关尺度约72 m。"
+      ]
+    },
+    {
+      "type": "figure",
+      "number": "85.6",
+      "title": "网格各点六个参数的相对值",
+      "axes": {
+        "x": "站号，0～180",
+        "y": "相对值，−5～5"
+      },
+      "series": [
+        "Theta：前期体积含水量θ_a",
+        "lnK_fs：对数转换后的田间饱和导水率",
+        "Elev：高程El",
+        "lnOC：对数转换后的有机碳含量",
+        "lnSa：对数转换后的砂粒含量",
+        "Clay：黏粒含量"
+      ],
+      "normalization": "仅为把六条序列分离后绘于同一尺度，每个数据集除以其最大值。",
+      "stationOrdering": "图85.5网格点按自左向右编号；1号坐标(0,0)，20号坐标(70,10)。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "块金比分类",
+      "plain": "θ_a、lnK_fs：V_N/V_S=16.7%；Cly、lnOC：83.3%；lnSa：64.2%",
+      "latex": "\\theta_a,\\ln K_{fs}:\\frac{V_N}{V_S}=16.7\\%;\\quad Cly,\\ln OC:83.3\\%;\\quad \\ln Sa:64.2\\%"
+    }
+  ],
+  "tables": [
+    {
+      "number": "85.4(b)-续",
+      "title": "对数转换数据（续）",
+      "columns": [
+        "统计",
+        "lnSa (wt%)",
+        "lnOC (wt%)",
+        "lnK_fs (cm·s⁻¹)"
+      ],
+      "rows": [
+        ["偏度", 0.17, 0.47, -0.79],
+        ["峰度", 1.17, 0.07, 0.16],
+        ["Anderson–Darling分布判定", "NN", "NN", "NN"]
+      ]
+    }
+  ],
+  "contentSha256": "8bfd100766580fb45137bfa6c063694281081249409194cf883c46bd2af79e41"
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 202,
+  "sourceImageSha256": "a98918d64a40ce1ce6553d93eebabab8c6ae8bf90b588065eb8bccc35b25c659",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐图对照原分辨率页图、两套OCR和英文原章，完成张力台结构续文及图72.1三系统"},
+    "precisionPass": {"status": "verified", "method": "核验6—20 μm、约3 mm、定水头量管、真空系统、压力抽取系统及吸水供水源"},
+    "secondVisualPass": {"status": "verified", "method": "按图(a)—(c)流路反向点验全部标注、阀/调压部件和图注；印刷页码711"}
+  },
+  "blocks": [
+    {"type": "equipment", "name": "张力台构造续", "items": ["常用矩形有机玻璃（丙烯酸）槽或圆柱形聚乙烯/聚氯乙烯槽，均配排水系统。", "矩形槽底：凹槽网，上覆玻璃微纤维阻滞筛。", "圆柱槽底：孔径6—20 μm的细尼龙网覆在孔径约3 mm的不锈钢丝粗网格上。", "上方松盖不透明盖：允许空气交换，避免改变ψ_m时形成真空或压力；降低样品表面蒸发和入光，抑制真菌、藻及微生物生长。"]},
+    {"type": "figure", "number": "72.1", "title": "张力台/板和压力抽取系统", "panels": [
+      {"label": "a", "title": "通过定水头量管系统控制基质势的低张力系统", "annotations": ["托盘", "覆盖布", "张力介质", "阻滞筛", "胶结密封", "排水筛", "盖子", "土样", "尼龙布", "橡皮筋", "定水头量管", "卷尺"]},
+      {"label": "b", "title": "张力台/板中使用的可控真空系统", "annotations": ["出水口", "存水瓶", "蓄水池", "压力", "压力调节器", "排压"]},
+      {"label": "c", "title": "压力抽取系统", "annotations": ["出水", "橡皮筋", "水力连接泥浆", "陶土盘", "盖子", "土样", "尼龙布", "压力容器", "测压表", "压力调节器", "压力源"]}
+    ]},
+    {"type": "paragraph", "text": "测吸水曲线时，定水头量管及存水瓶是水分供给源。"},
+    {"type": "source-fidelity-note", "text": "图72.1(a)原书写“低压系统”，按英文图注low-tension table规范为“低张力系统”；图中“压力”指真空系统的压力指示，不应与(c)的正压抽取混同。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9496bd3923067bb16da19f756faaceb883cfe8f1d6a464a63d884993f76c5848"
+}

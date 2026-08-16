@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 339,
+  "sourceImageSha256": "98fe59e42fecb882b5414f0f9d8adbe35d939d908a7fa2fb302a5004179dabfb",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版33.1～33.2交叉比对，恢复第33章作者、引言三段及样品前处理开头"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Pratylenchus/Meloidogyne/Heterodera/Globodera属、Criconematidae科、二龄幼虫、全部a/b/c引文后缀及方法类别"},
+    "secondVisualPass": {"status": "verified", "method": "从页末33.2跨页引文反向复核至章题作者署名，确认内寄生生活史、根/土亚种群、Baermann与离心浮选比较；印刷页无页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "33", "title": "线虫"},
+    {"type": "chapter-author", "name": "T.A. Forge", "affiliation": "Agriculture and Agri-Food Canada; Agassiz, British Columbia, Canada"},
+    {"type": "chapter-author", "name": "J. Kimpinski", "affiliation": "Agriculture and Agri-Food Canada; Charlottetown, Prince Edward Island, Canada"},
+    {"type": "section-heading", "level": 2, "number": "33.1", "title": "引言"},
+    {"type": "paragraph", "text": "本章讨论如何从土壤中提取线虫。迁移性内寄生线虫（如短体线虫属Pratylenchus spp.）在其各生活史阶段的任何给定时间都可存在于土壤或根中（Vrain等，1997），因此正确的种群定量取决于同时分析根和土壤中的亚种群。从根及其他植物组织提取迁移性内寄生线虫最常用的方法包括振荡法（Bird，1971；Barker，1985a；Ingham，1994）和雾室提取法（Barker，1985a；Hooper，1986b；Hooper和Evans，1993；Ingham，1994）。定栖性内寄生线虫的卵和具侵染性的二龄幼虫〔如根结线虫属Meloidogyne spp.、异皮线虫属Heterodera spp.和球异皮线虫属Globodera spp.〕通常从土壤中提取，其计数必须结合该地区物种的生活史知识解释。定栖性内寄生线虫的中间龄期和成虫期很难从根中提取，但可通过透明和染色根组织来观察并定量（Hooper，1986c；Hooper和Evans，1993；Baker和Gowen，1996）。"},
+    {"type": "source-fidelity-note", "scope": "33.1定栖性内寄生线虫阶段", "text": "中文本仅印作“第二阶段（具可侵染性）的幼虫”，遗漏英文原版开头的Eggs and。校正文恢复为“卵和具侵染性的二龄幼虫”；检索中把“第二阶段”规范化为线虫学术语“二龄幼虫（J2）”。"},
+    {"type": "paragraph", "text": "从土壤中提取线虫的方法可分为两大类：①基于线虫的能动性；②基于线虫的大小、密度等物理特征（Verschoor和De Goede，2000）。多数基于能动性的方法都是对贝尔曼漏斗法（Baermann，1917）的改进。贝尔曼漏斗最初用于回收动物粪便中的线虫，后来经植物线虫学家调整和修改，用于回收土壤或植物组织中的线虫（Hooper，1986a，b）。由贝尔曼漏斗衍生的具体提取技术依赖线虫活动，因此线虫种间能动性的内在差异、样品处理和土壤质地都会影响提取效率（Kimpinski和Welch，1971；Viglierchio和Schmitt，1983；Barker，1985b）。筛分—离心浮选法是应用最广泛的基于线虫大小和密度的方法。由于小型线虫更容易在某一筛分步骤中损失，离心浮选法的提取效率主要受线虫大小影响（Barker，1985a）。"},
+    {"type": "paragraph", "text": "为正确表征线虫种群，需要尽可能准确地估计种群数量，而提取效率对此至关重要（Ferris，1987）。可选择提取方法以优化目标物种的回收效率。例如，环线虫科（Criconematidae）成员相对不活跃，已知离心浮选法比贝尔曼漏斗法提取更有效（Barker，1985a）。近年来，越来越多研究把整个自由生活线虫群落〔食微生物型、杂食型和捕食型〕作为土壤食物网状态的指标；提取方法对线虫群落分析的影响直到较近时期才开始得到研究。McSorley和Frederick（2004）报道，贝尔曼漏斗法回收杂食性和捕食性线虫相对更有效，而离心浮选法回收植食性线虫相对更有效。当研究目标是整个土壤线虫群落时，仍需充分研究提取方法的优化和标准化。"},
+    {"type": "source-fidelity-note", "scope": "33.1类群与营养类群术语", "text": "中文本印作含混的“环科线虫”和“噬微生物的、杂食的、食肉的”；英文原版明确为Criconematidae及microbivorous, omnivorous, and predacious，校正为“环线虫科”及“食微生物型、杂食型和捕食型”。"},
+    {"type": "section-heading", "level": 2, "number": "33.2", "title": "样品前处理"},
+    {"type": "paragraph", "id": "sample-pretreatment-intro", "continuation": "page-0340", "text": "线虫采样的时空变异和抽样统计注意事项已在其他文献中详细评述和描述（Barker，1985b；"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "4c18f143924f9ea4ba2ec6256b60c45f8c98a123089425fae4fc2a017eaa6ccf"
+}

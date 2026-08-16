@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 168,
+  "sourceImageSha256": "86a03a94604a5f96897b14595bd089d80f188bf8facf2c244364cab7cfe7af49",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率无压蒸渗仪方法页，并与Apple Vision、PaddleOCR交叉比对，人工恢复材料清单、准备步骤和安装步骤"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验180/75/50/19/25×50 mm、2 m、70/45/23/51 cm、3/4与1/8英寸、1/2 L、ABS全称、5%（v/v）及所有部件名称"},
+    "secondVisualPass": {"status": "verified", "method": "从安装步骤（4）反向复核至页首续句，确认材料9项、准备5步、安装4步、原书“砂土”“备用漏斗”句法和页码137"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第17章｜土壤溶液的采集与测定｜"},
+    {"type": "paragraph", "continuation": true, "text": "容易被中断，石英砂设计就能收集到盘式蒸渗仪和穿孔盘式蒸渗仪不能收集到的土壤水分，而且相关的材料与市售蒸渗仪相比价格更为低廉。要避免使用玻璃纤维芯收集器，因为玻璃纤维比石英砂具有更强的化学活性，会引起土壤溶液化学性质的改变（Goyne等，2000；Brahy和Delvaux，2001）。"},
+    {"type": "section-heading", "level": 3, "number": "17.2.1", "title": "材料"},
+    {"type": "material-item", "number": "（1）", "text": "直径为180 mm聚乙烯或聚丙烯漏斗。"},
+    {"type": "material-item", "number": "（2）", "text": "2 mm的石英砂。"},
+    {"type": "material-item", "number": "（3）", "text": "长约2 m、直径为75 mm（3英寸）或50 mm（2英寸）的丙烯腈-丁二烯-苯乙烯（ABS）排水管。"},
+    {"type": "material-item", "number": "（4）", "text": "ABS管道端盖、与ABS管匹配的可拆卸盖子。"},
+    {"type": "material-item", "number": "（5）", "text": "两个19 mm（3/4英寸）塑料软管，L型和直型各一个。"},
+    {"type": "material-item", "number": "（6）", "text": "长约70 cm、厚3 mm（1/8英寸）、直径19 mm（3/4英寸）的干净塑料软管。"},
+    {"type": "material-item", "number": "（7）", "text": "环氧树脂双组分水泥和ABS融合胶。"},
+    {"type": "material-item", "number": "（8）", "text": "25 mm×50 mm的尼龙筛网。"},
+    {"type": "material-item", "number": "（9）", "text": "5%的盐酸（v/v）。"},
+    {"type": "section-heading", "level": 3, "number": "17.2.2", "title": "准备"},
+    {"type": "procedure-step", "number": "（1）", "text": "将L型管用环氧树脂粘在漏斗底部。"},
+    {"type": "procedure-step", "number": "（2）", "text": "切断ABS排水管，使其掩埋进土壤时露出地面45 cm以上，避免雨水飞溅，在积雪地区，通常情况下也不被积雪掩埋。用环氧树脂或ABS胶将硬质塑料盖与管子的另一端连接，并在每个管子顶部进行标记（最好用油漆或雕刻方法标记，以便长时间保留）。"},
+    {"type": "procedure-step", "number": "（3）", "text": "在ABS管上钻一个孔，并用锤子将涂有环氧树脂的直型软管插进去，软管接头至管底的距离取决于蒸渗仪的容积。若所用ABS管直径为75 mm，蒸渗仪容积为1 L，则软管安装在距底部23 cm的地方。若蒸渗仪容积为2 L，则距离为45 cm。若所用ABS管直径为50 mm，蒸渗仪容积为1 L，则安装距离为51 cm。在浅层土或多岩石的土中，直径为75 mm的ABS管安装更方便。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用5%的盐酸洗ABS管、漏斗、透明塑料管和填满漏斗的石英砂，并用去离子水润洗直到其电导率与去离子水相等或接近。"},
+    {"type": "procedure-step", "number": "（5）", "text": "将石英砂和用干净管子连接好的漏斗分别放入塑料袋里，运到试验地点。ABS管应该有塑料软管接头和可拆卸盖子的上端塑料盖。"},
+    {"type": "figure-reference", "text": "如图17.1所示为无压蒸渗仪的安装。"},
+    {"type": "section-heading", "level": 3, "number": "17.2.3", "title": "安装步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "隔离蒸渗仪站，避免周围有人行走，防止其受到土壤或其他杂物的污染。"},
+    {"type": "procedure-step", "number": "（2）", "text": "挖一个具有斜坡朝向坑底的坑，如果地面不平坦，那么在蒸渗仪安装的最低处继续深挖1 m。将下层土和表层土分开，以便在安装结束后把土按层次重新回填，尽可能减少对安装地点土层的干扰。"},
+    {"type": "procedure-step", "number": "（3）", "text": "从安装最深层蒸渗仪的位置开始，在坑的侧面划定区域挖出一条安放漏斗的隧道。为了避免污染，用酸洗过的漏斗，应该以备用漏斗做参照确保隧道尺寸合适。"},
+    {"type": "procedure-step", "number": "（4）", "text": "将尼龙筛网填入L型接头软管中，用石英砂填充漏斗，并小心地使其滑落到位，并确保与上层土壤有良好的接触。把漏斗推到确定的位置上，在底部L型接头软管处填充石块，并仔细回填漏斗下表面四周的土壤，确保漏斗下表面四周土壤完好回填，以便使石英砂与土柱保持稳定。最后将透明管连接到ABS管的软管接头上。"},
+    {"type": "printed-page-number", "text": "137"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "037abc301f8e71d04e91ebf4b2e6165718c36182dc4a5f8850b109a3b9db74ad"
+}

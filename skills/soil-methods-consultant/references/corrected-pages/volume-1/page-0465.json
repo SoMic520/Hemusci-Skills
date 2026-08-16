@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 465,
+  "sourceImageSha256": "962d141e2d24307868459e041bcc17a67d7bd22acbeb5082b63074a35f0e6df5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页、两套OCR和英文原章，校正培养室泄漏说明、45.6开放式气路、图45.3图注和45.7电导呼吸法"},
+    "precisionPass": {"status": "verified", "method": "核验CO₂、NaOH、KOH、H₂O、浓硫酸、碱石灰、96个室、30～45 min及Methods of Soil Analysis英文书目信息"},
+    "secondVisualPass": {"status": "verified", "method": "由45.7末句反向复核至45.5.3承上段，检查图45.3气流方向、泵连接、四个瓶体及放大视图；印刷页码434"}
+  },
+  "blocks": [
+    {"type": "paragraph", "continuationOf": "page-0464:45.5.3", "text": "培养室可由常用材料组装，但CO₂可透过某些塑料，部件连接处也可能泄漏CO₂；培养前应检查塑料材料的气密性，或改用玻璃器皿。使用塑料注射器时，应确保针筒与柱塞之间没有土壤颗粒，以免泄漏。顶部空间较小时，延长培养而不更新空气会增加厌氧和CO₂泄漏风险，因此必须及时更新空气。"},
+    {"type": "section-heading", "level": 2, "number": "45.6", "title": "开放式培养法"},
+    {"type": "paragraph", "text": "图45.3的系统用于在开放式培养容器中收集CO₂。可用抽吸泵或真空管线抽气通过装置，也可用泵（如隔膜鱼池泵）或压缩气瓶迫使空气流过系统。应根据气源确定气体纯度；必要时用浓硫酸净气器去除压缩气瓶或泵带入的有机污染物。土样上游进气端可用碱石灰去除进气中的CO₂。"},
+    {"type": "paragraph", "text": "培养后，将NaOH吸收液定量转入烧杯，按45.4.2滴定所产生的CO₂。本法没有厌氧风险，也不易发生CO₂泄漏；气流进入水瓶后立即上升进入培养室，可减缓土壤干燥。装置可用实验室常见玻璃器皿组装；重复测定需建立多套并列系统，会占用更多实验空间。"},
+    {"type": "figure", "number": "图45.3", "title": "开放式培养，利用碱液吸收法测定CO₂释放量", "description": "气流依次通过多重NaOH预吸收瓶、H₂O加湿瓶、土壤培养瓶，再进入两个串联NaOH吸收瓶并连接泵；下游第一个NaOH瓶入口端局部结构给出放大视图。", "labels": ["气流", "多重氢氧化钠吸收", "NaOH", "H₂O", "土壤样品", "放大视图", "连接泵"], "source": "改编自Zibilske, L.M., in R.W. Weaver, S. Angle, P. Bottomly, D. Bezdicek, S. Smith, A. Tabatabai, and A. Wollum (Eds), Methods of Soil Analysis, Part 2—Microbiological and Biochemical Processes, Soil Science Society of America, Madison, Wisconsin, 1994."},
+    {"type": "section-heading", "level": 2, "number": "45.7", "title": "电导呼吸法"},
+    {"type": "paragraph", "text": "多种专用多通道呼吸计可测定土壤、沉积物、堆肥、动物和细胞培养物（包括微生物）的CO₂通量，某些情况下还能测定其他气体。土壤研究中广泛使用Respicond型仪器（Nordgren，1988）。该仪器最多有96个培养室（图45.4），用KOH溶液吸收CO₂；吸收使KOH浓度下降，电导随之下降。"},
+    {"type": "paragraph", "text": "仪器可每隔30～45 min测一次电导变化，并连续运行数月，仅短暂中断数次。电导测量对温度波动和供电变化敏感；即使仪器有内置控温系统，把它置于控温且独立供电的房间内仍可获得最佳结果。"}
+  ],
+  "formulas": [
+    {"id": "45.7-conductivity-principle", "display": "CO₂ absorption → [KOH]↓ → conductivity↓", "meaning": "Respicond电导呼吸法的信号链"},
+    {"id": "45.7-sampling-interval", "display": "30～45 min", "meaning": "仪器可设的电导测量时间间隔"}
+  ],
+  "tables": [],
+  "contentSha256": "5fa74774383661f060570168bf748969f83219ace25ffdf9f09a57851148e05a"
+}

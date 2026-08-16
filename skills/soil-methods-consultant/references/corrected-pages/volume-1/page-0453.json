@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 453,
+  "sourceImageSha256": "8ecb370422b21aa424c1b3f356266d45cadcc0aa1a2d60880c5e9fc53d1d7391",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐格对照表44.1续表原图、两套OCR和英文原版表格；逐行恢复27个科名、摄食组、c-p级别、权重及b/e/s组别，再逐段核对EI、CI、SI说明"},
+    "precisionPass": {"status": "verified", "method": "核验表44.1全部续表数值并与Ferris权重体系交叉；修正Bastianiidae与Tylopharyngidae拼写，核对高CI=真菌通道、EI与食细菌线虫丰度同N矿化正相关"},
+    "secondVisualPass": {"status": "verified", "method": "由页末跨页句反向复核至续表第一行，按B/F/O/C类群分别复算c-p与E-S组归属；印刷页码422"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "table-continuation", "tableId": "table-44.1", "text": "表44.1续表。"},
+    {"type": "table-source-note", "text": "数据主要摘自Bongers, T. 1999. Plant and Soil 212: 13及Ferris, H., Bongers, T., and de Goede, R.G.M. 2001. Applied Soil Ecology 18: 13；Tylenchidae在Bongers（1990，1999）原方案中被列为食根类群。"},
+    {"type": "table-abbreviation-note", "text": "F-Rh=食真菌—根毛取食者；F=食真菌；B=食细菌；O=杂食；C=食肉。括号内字母表示该科进入的求和组：b=基础组，e=富集组，s=结构组。"},
+    {"type": "source-fidelity-note", "scope": "表44.1科名", "text": "原书把Tylopharyngidae误拼为Tylopharingidae，把Bastianiidae误拼为Basianiidae；均已按规范科名校正。"},
+    {"type": "paragraph", "text": "有机质输入、耕作及其他导致微生物生产和周转增加的变化，也会富集机会型线虫，主要包括Rhabditidae、Diplogasteridae和Panagrolaimidae的食细菌线虫，以及Aphelenchidae和Aphelenchoididae的食真菌线虫（表44.1）。Ferris等（2001）提出富集指数（enrichment index，EI），用于量化食细菌和食真菌富集机会型线虫丰度的增加。通道指数（channel index，CI）反映分解者生物量由细菌通道或真菌通道主导的程度；CI越高，真菌主导的分解途径越明显。EI和食细菌线虫总丰度均与氮矿化呈正相关（Hassink等，1993；Forge和Simard，2001；Ferris和Matute，2003；Parfitt等，2005）。"},
+    {"type": "paragraph", "text": "少数食细菌、食真菌科以及全部杂食和食肉科通常指示结构更复杂的食物网，例如含有较高营养级消费者并在广义营养类群内具有更高功能多样性；这些类群被赋予较高的富集—结构（E-S）权重（表44.1）。结构指数（structure index，SI）衡量线虫群落由这些结构类群主导的程度。SI本身不是分类多样性指标，但加入具有较高c-p等级和结构权重的分类单元时，分类多样性也随之提高（Ferris等，2001）。因此，基于科水平而非种水平鉴定的SI可用于评估动物多样性乃至整体土壤生物多样性的变化[续见第454页]。"},
+    {"type": "printed-page-number", "text": "422"}
+  ],
+  "formulas": [],
+  "tables": [
+    {"id": "table-44.1-part-2", "title": "表44.1续：陆生线虫常见科的摄食类群、c-p等级和E-S权重", "columns": ["科", "摄食类群", "c-p等级", "E-S权重（求和组）"], "rows": [
+      ["Cephalobidae", "B", 2, "0.8(b)"], ["Teratocephalidae", "B", 3, "1.8(s)"],
+      ["Monhysteridae", "B", 2, "0.8(b)"], ["Plectidae", "B", 2, "0.8(b)"],
+      ["Achromadoridae", "B", 3, "1.8(s)"], ["Desmodoridae", "B", 3, "1.8(s)"],
+      ["Odontolaimidae", "B", 3, "1.8(s)"], ["Bastianiidae", "B", 3, "1.8(s)"],
+      ["Prismatolaimidae", "B", 3, "1.8(s)"], ["Ironidae", "B", 4, "3.2(s)"],
+      ["Tripylidae", "B", 3, "1.8(s)"], ["Alaimidae", "B", 4, "3.2(s)"],
+      ["Mononchidae", "C", 4, "3.2(s)"], ["Anatonchidae", "C", 4, "3.2(s)"],
+      ["Nygolaimidae", "C", 5, "5(s)"], ["Dorylaimidae", "O", 4, "3.2(s)"],
+      ["Chrysonematidae", "O", 5, "5(s)"], ["Thornenematidae", "O", 5, "5(s)"],
+      ["Nordiidae", "O", 4, "3.2(s)"], ["Qudsianematidae", "O", 4, "3.2(s)"],
+      ["Aporcelaimidae", "O-C", 5, "5(s)"], ["Belondiridae", "O", 5, "5(s)"],
+      ["Actinolaimidae", "C", 5, "5(s)"], ["Discolaimidae", "C", 5, "5(s)"],
+      ["Leptonchidae", "F", 4, "3.2(s)"], ["Diphtherophoridae", "F", 3, "1.8(s)"]
+    ]}
+  ],
+  "contentSha256": "b19d8a53b8cc467209d7cb191e40ef03409a3a6f8389929a490577ee0d1fafb7"
+}

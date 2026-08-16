@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 216,
+  "sourceImageSha256": "a74b2984a83b26ba2703d1abd4d814fb461fbfd5ef5a78bfb921d304ca2dc161",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第22章参考文献第185页，并与Apple Vision、PaddleOCR交叉比对，人工恢复上页Goh条目续文及本页21条完整文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者缩写及重音符、¹⁵N、N-15、2ⁿᵈ ed.、LECOCNS-2000、卷页、书名和原印连写/拼写"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Smith条目反向复核至页首23:275-284，确认22条文献单元、标点、期刊卷页、原印isotoperatios/Bertholet等拼写及页码185"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第22章｜全氮｜"},
+    {"type": "reference-entry-continuation", "continuedFromPreviousPage": true, "text": "23: 275-284."},
+    {"type": "reference-entry", "text": "Hach, C.C., Bowden, B.K., Kopelove, A.B., and Brayton, S.V. 1987. More powerful peroxide Kjeldahl digestion method. J. Assoc. Off. Anal. Chem. 70: 783-787."},
+    {"type": "reference-entry", "text": "Hach, C.C., Brayton, S.V., and Kopelove, A.B.1985. A powerful Kjeldahl nitrogen method using peroxymonosulfuric acid. J. Agric. Food Chem. 33: 1117-1123."},
+    {"type": "reference-entry", "text": "Kirsten, W.J. and Jansson, K.H. 1986. Rapid and automatic determination of nitrogen using flash combustion of large samples. Anal. Chem. 58: 2109-2112."},
+    {"type": "reference-entry", "text": "Kowalenko, C.G. 2001. Assessment of LECOCNS-2000 analyzer for simultaneously measuring total carbon, nitrogen and sulfur in soil.Commun. Soil Sci. Plant Anal. 32: 2065-2078."},
+    {"type": "reference-entry", "text": "Marcó, A., Rubio, R., Compañó, R., and Casals, I. 2002. Comparison of the Kjeldahl method and a combustion method for total nitrogen determination in animal feed. Talanta 57: 1019-1026."},
+    {"type": "reference-entry", "text": "Marshall, R.B. and Whiteway, J.N. 1985. Automation of an interface between a nitrogen analyzer and an isotope ratio mass spectrometer. Analyst 110: 867-871."},
+    {"type": "reference-entry", "text": "Mason, C.J., Coe, G, Edwards, M., and Riby, P.G. 1999. The use of microwaves in the acceleration of digestion and colour development in the determination of total Kjeldahl nitrogen in soil. Analyst 124: 1719-1726."},
+    {"type": "reference-entry", "text": "Matejovic, I. 1995. Total nitrogen in plant-material determined by means of dry combustion—a possible alternative to determination by Kjeldahl digestion. Commun. Soil Sci. Plant Anal. 26: 2217-2229."},
+    {"type": "reference-entry", "text": "McGeehan, S.L. and Naylor, D.V. 1988. Automated instrumental analysis of carbon and nitrogen in plant and soil samples. Commun. Soil Sci.Plant Anal. 19: 493-505."},
+    {"type": "reference-entry", "text": "Minagawa, M., Winter, D.A., and Kaplan, I.R.1984. Comparison of Kjeldahl and combustion methods for measurement of nitrogen isotoperatios in organic matter. Anal. Chem. 56: 1859-1861."},
+    {"type": "reference-entry", "text": "Panasiuk, R. and Redshaw, E.S. 1977. A simple apparatus used for effective fume control during plant tissue digestion using a heating block. Commun. Soil Sci. Plant Anal. 8: 411-416."},
+    {"type": "reference-entry", "text": "Pérez, D.V., de Alcantara, S., Arruda, R.J., and Meneghelli, N.D.A. 2001. Comparing two methods for soil carbon and nitrogen determination using selected Brazilian soils. Commun. Soil Sci. Plant Anal. 32: 295-309."},
+    {"type": "reference-entry", "text": "Pruden, G., Kalembasa, S.J., and Jenkinson, D.S.1985. Reduction of nitrate prior to Kjeldahl digestion. J. Sci. Food Agric. 36: 71-73."},
+    {"type": "reference-entry", "text": "Schepers, J.S., Francis, D.D., and Thompson, M.T. 1989. Simultaneous determination of totalC, total N and ¹⁵N in soil and plant material.Commun. Soil Sci. Plant Anal. 20: 949-959."},
+    {"type": "reference-entry", "text": "Schindler, F.V. and Knighton, R.E. 1999. Sample preparation for total nitrogen and N-15ratio analysis by the automated Dumas combustion method. Commun. Soil Sci. Plant Anal. 30: 1315-1324."},
+    {"type": "reference-entry", "text": "Schuman, G.E., Stanley, M.A., and Knudsen, D.1973. Automated total nitrogen analysis of soil and plant samples. Soil Sci. Soc. Am. Proc. 37: 480-481."},
+    {"type": "reference-entry", "text": "Searle, P.L. 1984. The Bertholet or indophenol reaction and its use in the analytical chemistry of nitrogen. Analyst 109: 549-568."},
+    {"type": "reference-entry", "text": "Simonne, E.H., Harris, C.E., and Mills, H.A.1998. Does the nitrate fraction account for differences between Dumas-N and Kjeldahl-N valuesin vegetable leaves? J. Plant Nutr. 21: 2527-2534."},
+    {"type": "reference-entry", "text": "Smith, F.E. and Arsenault, E.A. 1996. Microwave assisted sample preparation in analytical chemistry. Talanta 43: 1207-1268."},
+    {"type": "reference-entry", "text": "Smith, K.A. and Scott, A. 1991. Continuous-flow, flow-injection, and discrete analysis. In: K.A.Smith, ed. Soil Analysis: Modern Instrumental Techniques, 2ⁿᵈ ed. Marcel Dekker, New York, 183-227."},
+    {"type": "printed-page-number", "text": "185"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f140ce1864880e76762f4d2e68d959c30b7ca6fa8676af25f0202ad512e8b8d7"
+}

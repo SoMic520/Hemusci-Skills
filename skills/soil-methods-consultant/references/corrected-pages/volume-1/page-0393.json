@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 393,
+  "sourceImageSha256": "58fc4c95ec3f79db2b704d7c46ab89c54659fb12d27a89e03107ed4df3b7804f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版第37章参考文献末页"},
+    "precisionPass": {"status": "verified", "method": "核验¹⁵N/³⁰N₂/N₂O、作者连字符和缩写、年份、题名、卷页及出版地"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至Tiedje 1994续页，确认6条完整文献和承上条；印刷页码362"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-continuation", "text": "（承第392页）Tiedje, J.M. 1994. Denitrifiers. In: R.W. Weaver, J.S. Angle, and P.S. Bottomley, eds. Methods of Soil Analysis, Part 2—Microbiological and Biochemical Properties. Soil Science Society of America, Madison, WI, pp. 245–267."},
+    {"type": "reference", "text": "Vanden Heuvel, R.M., Mulvaney, R.L., and Hoeft, R.G. 1988. Evaluation of nitrogen-15 tracer techniques for direct measurement of denitrification in soil: II. Simulation studies. Soil Sci. Soc. Am. J. 52: 1322–1326."},
+    {"type": "reference", "text": "Wagner-Riddle, C., Thurtell, G.W., Kidd, G.E., Beauchamp, E.G., and Sweetman, R. 1997. Estimates of nitrous oxide emissions from agricultural fields over 28 months. Can. J. Soil Sci. 77: 135–144."},
+    {"type": "reference", "text": "Wagner-Riddle, C., Thurtell, G.W., King, K.M., Kidd, G.E., and Beauchamp, E.G. 1996. Nitrous oxide and carbon dioxide fluxes from a bare soil using a micrometeorological approach. J. Environ. Qual. 25: 898–907."},
+    {"type": "reference", "text": "Well, R., Becker, K.-W., Langel, R., Meyer, B., and Reineking, A. 1998. Continuous flow equilibration for mass spectrometric analysis of dinitrogen emissions. Soil Sci. Soc. Am. J. 62: 906–910."},
+    {"type": "reference", "text": "Well, R., Becker, K.-W., and Meyer, B. 1993. Equilibrating of ¹⁵N gases by electrodeless discharge: A method of indirect mass spectrometric analysis of ³⁰N₂ for denitrification studies in soils. Isotopenpraxis 29: 175–180."},
+    {"type": "reference", "text": "Well, R. and Myrold, D.D. 1999. Laboratory evaluation of a new method for in situ measurement of denitrification in water-saturated soils. Soil Biol. Biochem. 31: 1109–1119."},
+    {"type": "reference", "text": "Yeomans, J.C. and Beauchamp, E.G. 1978. Limited inhibition of nitrous oxide reduction in soil in the presence of acetylene. Soil Biol. Biochem. 10: 517–519."},
+    {"type": "reference", "text": "Yoshinari, T., Hynes, R., and Knowles, R. 1977. Acetylene inhibition of nitrous oxide reduction and measurement of denitrification and nitrogen fixation in soil. Soil Biol. Biochem. 9: 177–183."},
+    {"type": "translator-credit", "text": "黄丹 译，徐建明 校"},
+    {"type": "printed-page-number", "text": "362"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a10cea9101e25135815c7ddbed4a557ada6d636b785eb30eee2d3607183a3da1"
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 349,
+  "sourceImageSha256": "243b600e90202906bec73c91b739660eb2216bf7e7667f0b9769a2ebf6080992",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条核对末三条参考文献以及译者、校者署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对作者、年份、题名、期刊卷号和页码"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "multifractal、relationships、Geoderma及中文署名二次反查；印刷页码858"
+    }
+  },
+  "blocks": [
+    {
+      "type": "references",
+      "entries": [
+        "Zeleke, T.B. and Si, B.C. 2004. Scaling properties of topographic indices and crop yield: multifractal and joint multifractal approaches. Agron. J. 96:1082–1090.",
+        "Zeleke, T.B. and Si, B.C. 2005. Scaling relationships between saturated hydraulic conductivity and soil physical properties. Soil Sci. Soc. Am. J. 69:1691–1702.",
+        "Zeleke, T.B. and Si, B.C. 2006. Characterizing scale-dependent spatial relationships between soil properties using multifractal techniques. Geoderma 134:440–452."
+      ]
+    },
+    {
+      "type": "credits",
+      "translator": "谭丽丽",
+      "reviewer": "李保国"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c961049cf273e1068a23ba7578e927d630c2ee36b60cf0e3639454e353500725"
+}

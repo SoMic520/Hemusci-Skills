@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 501,
+  "sourceImageSha256": "d6a25c47e0a5b24a7699b21bdb3cdbef9ba8165047ad4d227fc271552a8ac617",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面与两套OCR，完成49.4.6、49.5、49.5.1全文及式（49.8）～（49.11）"},
+    "precisionPass": {"status": "verified", "method": "逐式复核VS、MS、P_F、P_UF、P_spiked、k_EP、R及250 μg P加标量的单位；复算14.7 g CaCl₂·2H₂O/10 L=0.0100 mol·L⁻¹"},
+    "secondVisualPass": {"status": "verified", "method": "由材料（4）反向复核至49.4.6，检查公式括号、上下标、μg·mL⁻¹、μg P·g⁻¹土和印刷页码470"}
+  },
+  "blocks": [
+    {"type": "section-heading", "level": 3, "number": "49.4.6", "title": "微生物量磷的计算"},
+    {"type": "calculation-step", "number": "（1）", "text": "土壤水分含量（WS）用式（49.1）计算。"},
+    {"type": "calculation-step", "number": "（2）", "text": "干土质量（MS）用式（49.2）计算。"},
+    {"type": "calculation-step", "number": "（3）", "text": "土壤浸提液总体积（VS）用式（49.8）计算。水或无机P校正液均计入1 mL。"},
+    {"type": "calculation-step", "number": "（4）", "text": "熏蒸（F）和未熏蒸（UF）土壤样品中可提取无机P的总量分别记为P_F和P_UF，按式（49.9）换算为每克干土的P。"},
+    {"type": "calculation-step", "number": "（5）", "text": "加入无机P校正液的土壤样品中可提取无机P总量P_spiked按式（49.10）计算。"},
+    {"type": "calculation-step", "number": "（6）", "text": "土壤微生物量磷（MB-P）按式（49.11）计算；k_EP=0.40，R为无机P校正液回收率（%）。"},
+    {"type": "source-fidelity-note", "scope": "49.4.6标题与回收率公式", "text": "原书步骤（6）把‘土壤微生物量磷’误印为‘土壤微生物量氮’，但符号MB-P明确指磷，已校正。原书又写R=100[(Pi校正土壤−土壤P_UF)/Pi校正液]且Pi校正液=250 μg Pi；P_spiked和P_UF的单位为μg P·g⁻¹土，不能直接除以绝对量250 μg。可执行公式必须先用P_added=250 μg/MS换算为每克干土的加标量，再计算R。"},
+    {"type": "section-heading", "level": 2, "number": "49.5", "title": "微生物量硫"},
+    {"type": "paragraph", "text": "微生物量硫由氯仿熏蒸土壤与未熏蒸土壤的总可提取硫之差估算（Saggar等，1981）。用CaCl₂溶液同时提取有机硫和无机硫；分析时先把有机硫转化为无机硫，再测总可提取硫，并用熏蒸释放硫增量和提取率计算微生物量硫。"},
+    {"type": "section-heading", "level": 3, "number": "49.5.1", "title": "材料和试剂"},
+    {"type": "materials-list", "items": [
+      {"number": "（1）", "text": "无醇氯仿；试剂级氯仿纯化见49.6注释（1）。"},
+      {"number": "（2）", "text": "大型真空干燥器：对氯仿蒸气惰性、无油密封、可承受真空且可同时容纳约25个样品；宜用厚壁玻璃真空干燥器。"},
+      {"number": "（3）", "text": "0.010 mol·L⁻¹ CaCl₂浸提液：向约9.5 L水加入14.7 g CaCl₂·2H₂O，磁力搅拌至完全溶解，再用水定容至10 L。"},
+      {"number": "（4）", "text": "其他：通风橱；沸石；100 mL带塞玻璃瓶；土壤水分测定铝盒；0.45 μm微孔滤膜（Millipore）；用于收集滤液的50 mL玻璃瓶。"}
+    ]},
+    {"type": "source-fidelity-note", "scope": "49.5.1 CaCl₂浸提液", "text": "原书材料标题误印为0.10 mol·L⁻¹ CaCl₂（pH 8.5），但配方14.7 g CaCl₂·2H₂O/10 L复算为0.0100 mol·L⁻¹，且下一页操作明确写0.01 mol·L⁻¹；10 mmol·L⁻¹ CaCl₂方法不规定pH 8.5。运行时采用0.010 mol·L⁻¹ CaCl₂，不执行误印的0.10 mol·L⁻¹或pH 8.5。页面还把Saggar误印为Sagger，已校正。"}
+  ],
+  "formulas": [
+    {"id": "49.8", "display": "VS (mL) = [m_fresh (g) − MS (g)]/(1 g·mL⁻¹) + V_extractant (mL) + 1 mL", "meaning": "浸提液总体积；以水密度1 g·mL⁻¹把土壤含水质量换算为体积，另计1 mL水或无机P校正液"},
+    {"id": "49.9", "display": "P_F or P_UF (μg P·g⁻¹ soil) = c_Pi (μg P·mL⁻¹) × VS (mL)/MS (g)", "meaning": "熏蒸或未熏蒸土壤的可提取无机P"},
+    {"id": "49.10", "display": "P_spiked (μg P·g⁻¹ soil) = c_Pi,spiked (μg P·mL⁻¹) × VS (mL)/MS (g)", "meaning": "无机P加标土壤样品的可提取无机P"},
+    {"id": "49.11", "display": "MB-P (μg P·g⁻¹ soil) = [(P_F − P_UF)/k_EP] × (100/R)", "meaning": "土壤微生物量P；k_EP=0.40，R以百分数代入"},
+    {"id": "49.11-recovery", "display": "P_added = 250 μg P/MS (g); R (%) = 100 × (P_spiked − P_UF)/P_added", "meaning": "量纲闭合的无机P加标回收率；250 μg为每个样品加入的绝对P量"},
+    {"id": "49.5.1-cacl2-check", "display": "c(CaCl₂) = (14.7 g/147.02 g·mol⁻¹)/10 L = 0.0100 mol·L⁻¹", "meaning": "CaCl₂·2H₂O配方浓度复核"}
+  ],
+  "tables": [],
+  "contentSha256": "e059ca7afb14e2e179a4a57a43eebc127e22ec5be36ac3ebc4c8e20c9b30771c"
+}

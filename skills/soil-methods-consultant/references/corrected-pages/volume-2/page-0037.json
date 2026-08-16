@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 37,
+  "sourceImageSha256": "92f2d5601aadd1646f81ad9a76682cc30143cc8b41d439f06b7f56bf4badae75",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成步骤(13)、图56.4、三条注释和参考文献首4条"},
+    "precisionPass": {"status": "verified", "method": "核验e/θ、1:1线、进气点、0～2双轴刻度、聚乙二醇渗透压、全部引文及卷页"},
+    "secondVisualPass": {"status": "verified", "method": "由Braudeau条目反向复核至步骤(13)，按图中曲线、虚线、标签和坐标逐项检查；印刷页码546"}
+  },
+  "blocks": [
+    {"type": "procedure-step", "number": "13", "text": "以各收缩阶段的含水体积比θ为横坐标、孔隙比e为纵坐标作收缩曲线；叠加1:1线（e=θ）以确定进气点（图56.4）。"},
+    {"type": "figure", "number": "图56.4", "title": "典型的带有进气值和收缩直线的收缩曲线与1:1线的关系", "xAxis": "含水体积比θ（0～2.0）", "yAxis": "孔隙比e（0～2.0）", "annotations": ["土壤收缩θ<e", "进气点", "1:1收缩e=θ"]},
+    {"type": "procedure-subheading", "number": "3", "title": "注释"},
+    {"type": "notes", "items": ["(1) 不规则土样难以在不扰动、不接触条件下直接测质量和体积。橡胶膜需薄至能紧密贴合，又厚至不撕裂；不同形状需不同膜。吸入缸有助贴合，但实验前需练习以排除膜—土间隙。", "(2) 室内无载收缩不同于自然覆盖物下收缩。可施加等效自然负载，或校正水吸力。可把土样按相应深度浸水以施加载荷；也可用多孔膜包裹并浸入渗透压可调液体（如聚乙二醇），此时进、排气管用一根即可。", "(3) 多种收缩曲线分析可求膨胀土收缩限、塑限及其他结构特性（Groenevelt和Grant，2002；Peng等，2005；Cornelis等，2006）。"]},
+    {"type": "heading", "number": "第56章参考文献", "title": "参考文献", "level": 2},
+    {"type": "reference-entry", "text": "Aitchison, G.D. and Holmes, J.W. 1953. Aspects of swelling in the soil profile. Aust. J. Appl. Sci. 4: 244–259."},
+    {"type": "reference-entry", "text": "Auchinleck, G. 1912. The measurement of shrinkage in soils and its application in agriculture. West Indian Bull. 12: 50–61."},
+    {"type": "reference-entry", "text": "Boivin, P., Garnier, P., and Tessier, D. 2004. Relationship between clay content, clay type, and shrinkage properties of soil samples. Soil Sci. Soc. Am. J. 68: 1145–1153."},
+    {"type": "reference-entry", "text": "Braudeau, E., Costantini, J.M., Bellier, G., and Colleuille, H. 1999. New device and method for soil shrinkage curve measurement and characterization. Soil Sci. Soc. Am. J. 63: 525–535."}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f4e1659855c2dcf507389f66c557758d31ac0208be39810c39972ad4fe3ae12e"
+}

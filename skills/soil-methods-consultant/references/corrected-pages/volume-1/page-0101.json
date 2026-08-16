@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 101,
+  "sourceImageSha256": "0d2adccf511080d7b5d59a88ce0605612c608bcdda6ff1aeed8c18a6b66d9e32",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工合并每条跨行条目并核对译校者署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者缩写、年份、期刊名、卷页、Saskatchewan、Biogeochemistry、Wedepohl、pedogenesis、phosphomolybdic、NaHCO₃及原书连写和空格"},
+    "secondVisualPass": {"status": "verified", "method": "由Qian等2004至Watanabe和Olsen 1965反向复核原图，确认J.R.1989、R.,Sims、UnitedStates等原书排印特征、译校行和印刷页码70"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-entry", "text": "Qian, P., Schoenau, J.J., Wu, T., and Mooleki, P. 2004. Phosphorus amounts and distribution in a Saskatchewan soil after five years of swine and cattle manure application. Can. J. Soil Sci. 84: 275-281."},
+    {"type": "reference-entry", "text": "Schoenau, J.J., Stewart, J.W.B., and Bettany, J.R.1989. Forms and cycling of phosphorus in prairie and boreal forest soils. Biogeochemistry 8: 223-237."},
+    {"type": "reference-entry", "text": "Sharpley, A.N., Chapra, S.C., Wedepohl, R.,Sims, J.T., Daniel, T.C., and Reddy, K.R. 1994. Managing agricultural phosphorus for protection of surface waters: issues and options. J. Environ. Qual. 23: 437-441."},
+    {"type": "reference-entry", "text": "Tiessen, H., Stewart, J.W.B., and Cole, C.V. 1984. Pathways of phosphorus transformations in soils of differing pedogenesis. Soil Sci. Soc. Am. J. 48: 853-858."},
+    {"type": "reference-entry", "text": "Towns, T.G. 1986. Determination of aqueous phosphate by ascorbic acid reduction of phosphomolybdic acid. Anal. Chem. 58: 223-229."},
+    {"type": "reference-entry", "text": "Turner, B.L., Kay, M.A., and Westermann, D.T. 2004. Phosphorus in surface runoff from calcareous arable soils of the semiarid western UnitedStates. J. Environ. Qual. 33: 1814-1821."},
+    {"type": "reference-entry", "text": "Watanabe, F.S. and Olsen, S.R. 1965. Test of an ascorbic acid method for determining phosphorus in water and NaHCO₃ extracts from soils. Soil Sci. Soc. Am. Proc. 29: 677-678.", "inlineNotation": ["NaHCO₃"]},
+    {"type": "translator-credit", "text": "（赵丽霞 译，李永涛 翁莉萍 校）"},
+    {"type": "printed-page-number", "text": "70"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "648bacc4cb05130c7dbbd9691ecfb786a1c5466f43f494289f5db514975f2611"
+}

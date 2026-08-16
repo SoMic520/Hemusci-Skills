@@ -1,0 +1,65 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 271,
+  "sourceImageSha256": "3f35833ee513092536b6182bcfb8a26d9a89bb56ed4be17f2fcfa125639ab48d",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对80.9第3点续、第4—5点、全部14条参考文献及译校署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "复核t₀下标、期刊卷页、2000a/2000b以及Dawes等作者拼写"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "整页高倍复核并对照英文原章参考文献；印刷页码780"
+    }
+  },
+  "blocks": [
+    {
+      "type": "comment-continuation",
+      "number": "80.9(3)",
+      "text": "Vandervaere等（2000a,b）的微分法用于含随机噪声的数据时也可能有问题，因为微分会显著放大随机干扰，使土壤开始控制入渗的时刻t₀反而不清楚。"
+    },
+    {
+      "type": "comments",
+      "number": "80.9",
+      "items": [
+        "（4）取芯圆筒必须耐腐蚀，并有足够强度，保证推入土体时不变形或破裂。PVC、铝和不锈钢通常均可；不锈钢因强度高、切削刃能长期保持锋利且耐用而最为推荐。",
+        "（5）张力入渗仪的饱和与校准见第82章。"
+      ]
+    },
+    {
+      "type": "references",
+      "items": [
+        "Clothier, B.E. and White, I. 1981. Measurement of sorptivity and soil water diffusivity in the field. Soil Sci. Soc. Am. J. 45: 241–245.",
+        "Cook, F.J. 1991. Calculation of hydraulic conductivity from suction permeameter measurements. Soil Sci. 152: 321–325.",
+        "Dawes, L., Sweeney, C., Cook, F.J., Bristow, K.L., Eldridge, S., Biggs, J., and Thorburn, P.J. 2003. Soil Hydraulic Properties of the Fairymead Soils, Bundaberg. CRC Sugar Technical Publication, CRC for Sustainable Sugar Production, Townsville, Australia, 24 pp.",
+        "McKenzie, N.J. and Cresswell, H.P. 2002. Laboratory measurement of hydraulic conductivity. In: N.J. McKenzie et al., eds. Soil Physical Measurements and Interpretation for Land Evaluation. CSIRO Publishing, Australia, pp. 150–162.",
+        "Moret, D., Lopez, M.V., and Arrue, J.L. 2004. TDR application for automated water level measurement from Mariotte reservoirs in tension disc infiltrometers. J. Hydrol. 297: 229–235.",
+        "Perroux, K.M. and White, I. 1988. Designs for disc permeameters. Soil Sci. Soc. Am. J. 52: 1205–1215.",
+        "Philip, J.R. 1957. The theory of infiltration. 4. Sorptivity and algebraic infiltration equations. Soil Sci. 84: 257–264.",
+        "Philip, J.R. 1969. The theory of infiltration. Adv. Hydrosci. 5: 215–296.",
+        "Reynolds, W.D. and Zebchuk, W.D. 1996. Use of contact material in tension infiltrometer measurements. Soil Technol. 9: 141–159.",
+        "Smiles, D. and Knight, J.H. 1976. A note on the use of Philip infiltration equation. Aust. J. Soil Res. 14: 103–108.",
+        "Soil Survey Staff. 1990. Keys to Soil Taxonomy. Virginia Polytechnic Institute and State University, Blacksburg, VA.",
+        "Vandervaere, J.-P., Vauclin, M., and Elrick, D.E. 2000a. Transient flow from tension infiltrometers: I. The two-parameter equation. Soil Sci. Soc. Am. J. 64: 1263–1272.",
+        "Vandervaere, J.-P., Vauclin, M., and Elrick, D.E. 2000b. Transient flow from tension infiltrometers: II. Four methods to determine sorptivity and conductivity. Soil Sci. Soc. Am. J. 64: 1272–1284.",
+        "Ward, R.D. and Hayes, M.J. 1991. Measurement of near-saturated hydraulic conductivity of undisturbed cores by use of the permeameter tube. DSIR Land Resources, Technical Record 20, New Zealand, 6 pp."
+      ]
+    },
+    {
+      "type": "translation-credit",
+      "text": "焦会青译，李保国校。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "Dawes等（2003）作者名在本书及英文原章印作“Elridge, S.”；该报告的后续规范引文作“Eldridge, S.”，故正文检索记录校正为Eldridge，并在本注保留原载差异。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "427f34583eae8b948956127359df6c225ce702b1eaeabc2c6b384e9d23a4fd0b"
+}

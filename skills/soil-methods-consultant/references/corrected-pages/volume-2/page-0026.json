@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 26,
+  "sourceImageSha256": "176b554d1b276fd2c756c1ff59e4a46fe892da90176051c69a34a72506fa086d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成吸管法式（55.6）～（55.7）及比重计法55.3～55.3.3"},
+    "precisionPass": {"status": "verified", "method": "核验A/B/K/D、R_L/R₄₀ₛ/R₇ₕ、ASTM 152H、g L⁻¹、36±2 cm、温度/时间/体积/质量及Calgon"},
+    "secondVisualPass": {"status": "verified", "method": "由55.3.3(9)反向复核至式（55.6），纠正OCR的362 cm、Rz、悬独液和单位指数；印刷页码535"}
+  },
+  "blocks": [
+    {"type": "procedure-subheading", "number": "3", "title": "吸出样品部分"},
+    {"type": "procedure-subheading", "number": "4", "title": "粉粒部分"},
+    {"type": "heading", "number": "55.3", "title": "比重计法", "level": 2},
+    {"type": "paragraph", "text": "比重计用于测定不同沉降时间后土壤悬浊液的密度，进而推断土壤颗粒组成。该方法可用于55.2.2节列出的任何经过预处理的土壤悬浊液。实际应用中，比重计法常用于估测未经预处理的土壤悬浊液密度，并据此得到粒径分布。这里给出的是简化的Day（1965）方法。"},
+    {"type": "heading", "number": "55.3.1", "title": "材料与试剂", "level": 3},
+    {"type": "materials-list", "items": ["标准比重计：ASTM No. 152H，Bouyoucos刻度，单位g L⁻¹。", "电动搅拌器。", "活塞。", "旋转振荡器。", "1000 mL沉降桶，内部距底部36±2 cm处有标记。", "正戊醇。", "Calgon牌分散剂溶液：50 g L⁻¹，含六偏磷酸钠。", "恒温室。"]},
+    {"type": "source-fidelity-note", "text": "原书印作‘ASTM No. 1.152H’，标准土壤比重计型号规范为ASTM 152H；本Skill采用152H并保留勘误。沉降桶标记高度为36±2 cm，不是OCR的362 cm。"},
+    {"type": "heading", "number": "55.3.2", "title": "比重计标定", "level": 3},
+    {"type": "procedure-steps", "items": ["(1) 在沉降桶中加入100 mL Calgon溶液，以去离子水定容至1000 mL，混匀并置于20～25 °C恒温室。", "(2) 将比重计缓慢放入溶液，根据刻度读取水银半月面上方读数R_L。"]},
+    {"type": "heading", "number": "55.3.3", "title": "比重计法步骤", "level": 3},
+    {"type": "procedure-steps", "items": ["(1) 称取40 g土壤（壤砂土或砂土取100 g）至600 mL烧杯，加入100 mL Calgon溶液和300 mL去离子水，放置过夜。", "(2) 另取10 g土样用于确定烘干质量；105 °C烘干24 h后冷却、称重。", "(3) 将Calgon处理后的土样转入分散杯，电动搅拌5 min；再转入振荡瓶，在旋转振荡器上振荡过夜。", "(4) 将振荡后的悬浊液转入沉降桶，以去离子水定容至1000 mL。", "(5) 静置，使悬浊液温度与20～25 °C室温平衡。", "(6) 用活塞上下搅拌至悬浮液完全均匀；接近底部时有力上提并在土粒上方旋转，最后2～3次缓慢平稳。记录结束时刻，加1滴正戊醇消泡。", "(7) 小心放入比重计，40 s后读取R₄₀ₛ。", "(8) 取出比重计，润洗、擦干。", "(9) 7 h后再次放入比重计，读取R₇ₕ。"]}
+  ],
+  "formulas": [
+    {"label": "(55.6)", "plain": "吸出部分百分含量 = (A − B)KD_f", "latex": "P_p=(A-B)KD_f", "sourceIntegrityNote": "原书仍用D；承接式（55.4），运行时用D_f消除与粒径D的冲突。"},
+    {"label": "(55.7)", "plain": "粉粒百分含量 = 100 −（0～2 μm黏粒百分含量 + 砂粒百分含量）", "latex": "P_{silt}=100-(P_{clay,0-2\\,\\mu m}+P_{sand})"}
+  ],
+  "tables": [],
+  "contentSha256": "0ada21351e9789f0bd7ba67e8932f11892d5ca0c6e4c65f2d5ba9438392d229e"
+}

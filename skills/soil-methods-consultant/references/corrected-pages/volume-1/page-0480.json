@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 480,
+  "sourceImageSha256": "68ebacf852367c158b668a02225c34d79e5d579bd91a2cb9e34b6aef2e42ac2a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页和两套OCR，完成式（47.4）变量、47.4.2～47.4.4及参考文献前三条承下文；校正rganic漏字"},
+    "precisionPass": {"status": "verified", "method": "复核式（47.4）质量基准，区分550 °C 4 h后灰分残余与灼烧损失；核验20 mL 3 mol·L⁻¹ CaCl₂、53 μm和2～3次洗涤"},
+    "secondVisualPass": {"status": "verified", "method": "由Cambardella和Elliott承下条反向复核至式（47.4），逐项检查分子分母、dw下标、质量平衡与污染类型；印刷页码449"}
+  },
+  "blocks": [
+    {"type": "paragraph", "continuationOf": "page-0479:47.4.1", "text": "式（47.4）中，组分C/土壤总C为POM或LF中的C占土壤总C比例；fraction_dw为组分干质量占全土干质量的比例（g组分/g全土）；POM C或LF C为组分C质量分数（g C/g组分干质量）；土壤总C为全土C质量分数（g C/g土）。"},
+    {"type": "paragraph", "text": "灰分校正LF可估计轻质矿物或硅酸体污染。样品在550 °C马弗炉灼烧4 h；灰分含量应由灼烧后残余质量计算，灼烧前后质量差则是灼烧损失。"},
+    {"type": "section-heading", "level": 3, "number": "47.4.2", "title": "分组过程中的损失"},
+    {"type": "paragraph", "text": "首次操作需测回收率并定位损失步骤；流程稳定、操作谨慎后可降低检测频率。将全土质量或有机C与各组分质量或C总和比较，检验分组损失是否造成偏差。质量平衡需回收粒径法的粉粒—黏粒组分或密度法重组分。"},
+    {"type": "paragraph", "text": "可向过53 μm筛悬液加入CaCl₂（如20 mL、3 mol·L⁻¹）或其他絮凝剂，回收粉粒—黏粒结合态有机质；抽去上清，把泥浆转入可冷冻容器。密度法则吸出重液回收重组分，用洗液多次再悬浮、离心、抽取上清；重组分在通常2～3次清洗后难再形成稳定颗粒时，置离心管冷冻干燥。"},
+    {"type": "section-heading", "level": 3, "number": "47.4.3", "title": "轻组分的生物测定"},
+    {"type": "paragraph", "text": "重液可能损害微生物群落活性及产物，改变LF可分解性或使其络合。Magid等（1996）发现胶体二氧化硅悬液会增强LF-C矿化，聚钨酸钠会降低。因此涉及LF生物测定时，必须全面评估分离介质污染及其对分解过程的影响。"},
+    {"type": "section-heading", "level": 3, "number": "47.4.4", "title": "木炭或矿质土壤对非复合有机质的污染"},
+    {"type": "paragraph", "text": "非复合有机质可含木炭，显著影响化学组成和转化；显微技术已在多种土壤LF和POM中检出木炭（Spycher等，1983；Baisden等，2002）。若把LF/POM作为‘年轻’或易循环有机质研究，去除木炭对正确评价组分大小、养分和转化很重要，但尚无标准木炭校正法。"},
+    {"type": "paragraph", "text": "按操作定义，>53 μm POM含较多砂粒；测POM质量时应用重液除砂。LF也可被少量矿质土污染，使测得LF含有额外的老化、不活跃、矿物复合有机质。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference-list", "entries": [
+      "Baisden, W., Amundson, R., Cook, A.C., and Brenner, D.L. 2002. Turnover and storage of C and N in five density fractions from California annual grassland surface soils. Global Biogeochemical Cycles 16:1117.",
+      "Beare, M.H., Hendrix, P.F., and Coleman, D.C. 1994. Water-stable aggregates and organic matter fractions in conventional and no-tillage soils. Soil Science Society of America Journal 58:777–786.",
+      "Cambardella, C.A., and Elliott, E.T. 1992. Particulate soil organic-matter changes across a grassland cultivation sequence. Soil Science [条目续见第481页]"
+    ]},
+    {"type": "source-fidelity-note", "scope": "47.4.1灰分表述", "text": "原书说由550 °C灼烧4 h前后的‘重量变化’确定灰分。严格说，质量差给出灼烧损失（LOI）；灰分是灼烧后残余。可执行计算已分别给出两式。"}
+  ],
+  "formulas": [
+    {"id": "47.4", "display": "C_fraction/C_soil = [m_fraction,dw/m_soil,dw × C_fraction] / C_soil", "variables": {"m_fraction,dw/m_soil,dw": "组分干质量占全土干质量比例，g·g⁻¹", "C_fraction": "POM或LF的C质量分数，g C·g⁻¹组分", "C_soil": "全土C质量分数，g C·g⁻¹土"}, "meaning": "POM-C或LF-C占土壤总C比例"},
+    {"id": "47.4-ash", "display": "ash fraction = m_after 550°C / m_before 550°C", "meaning": "灰分质量分数；质量均按干基"},
+    {"id": "47.4-loi", "display": "LOI fraction = (m_before − m_after)/m_before", "meaning": "550 °C、4 h灼烧损失；不得误称灰分"},
+    {"id": "47.4-mass-recovery", "display": "mass recovery = Σm_fractions/m_initial soil", "meaning": "分组质量回收率；碳回收率同理用ΣC_fractions/C_initial"}
+  ],
+  "tables": [],
+  "contentSha256": "7f986c18bbd8eb17044e1cf9f26436ce6cfedf92cfc9791865aed8c42187e37d"
+}

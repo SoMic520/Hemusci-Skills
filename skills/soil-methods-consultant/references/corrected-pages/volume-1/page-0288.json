@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 288,
+  "sourceImageSha256": "2535ddb050b78da29f614a47151b929f670a1d71448666f2a511ab48c23b13a0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第29章第257页，人工恢复放线菌培养基续文、两种真菌培养基、29.4原理、29.4.1材料及29.4.2步骤（1）～（4）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核骎10⁻⁴～10⁻⁷、10⁴～10⁵、MPN/VAM、μg·mL⁻¹、pH、g/mL/L/℃、Czapek-Dox、Streptomycin-rose bengal及所有配方数值"},
+    "secondVisualPass": {"status": "verified", "method": "从页底步骤（4）反向复核至页首七水合硫酸亚铁，确认培养基续文→真菌培养基→29.4→29.4.1→29.4.2层级及印刷页码257"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第29章｜土壤和根相关微生物培养方法｜"},
+    {"type": "culture-medium-recipe-continuation", "continuesFromPage": 287, "text": "七水合硫酸亚铁，0.01 g；琼脂，15.0 g；蒸馏水，1 L；pH值，7.2。经高压灭菌后使用。培养基中还可以添加抑真菌剂（Williams和Davies，1965）。"},
+    {"type": "procedure-group", "number": "3.", "title": "真菌培养基"},
+    {"type": "culture-medium-recipe", "number": "（1）", "title": "察氏琼脂（Czapek-Dox agar）", "text": "溶液1：蔗糖，30.0 g；硝酸钠，2.0 g；磷酸一氢钾，0.1 g；氯化钾，0.5 g；七水合硫酸镁，0.5 g；硫酸亚铁，微量；蒸馏水，500 mL；pH值，3.5（用10%乳酸调节）。溶液2：琼脂，15.0 g；蒸馏水，500 mL。如果必要可以额外添加0.5 g酵母粉（Gray和Parkinson，1968）。将溶液1和溶液2分别高压灭菌。待两者冷却后，无菌条件下将溶液1倒入溶液2，立即使用。"},
+    {"type": "culture-medium-recipe", "number": "（2）", "title": "孟加拉红琼脂（Streptomycin-rose bengal agar）", "text": "葡萄糖，10.0 g；蛋白胨，5.0 g；磷酸一氢钾，1.0 g；七水合硫酸镁，0.5 g；玫瑰红，0.03 g；琼脂，20.0 g；自来水，1 L。将培养基高压灭菌、冷却至大约48℃，加入1 mL链霉素（浓度为0.3 g/10 mL，由无菌水配制）。培养基中链霉素的最终浓度为大约30 μg/mL（Martin，1950）。"},
+    {"type": "heading", "level": 1, "number": "29.4", "title": "最近似值法"},
+    {"type": "principle", "text": "最近似值法应用了绝迹稀释法（Dilution to extinction）的概念来计算给定样品的微生物数量（Taylor，1962；Woomer，1994）。土壤稀释液在经过数次连续的稀释后，其每个重复中微生物生长情况会发生变化，这种方法就是根据微生物在稀释后的重复样品中的存在与否来估算微生物在土壤中的数量的。比如说我们在一系列肉汤培养基上接种了10⁻⁴到10⁻⁷稀释度的土壤稀释液，当稀释比达到10⁻⁵时培养基上的微生物低于检测限，我们就可以据此推断原微生物细胞数量在10⁴～10⁵。这种方法的关键在于目标微生物具有可以鉴定的特殊性状或者代谢特点。此时我们才能通过观察微生物生长（如测定培养基的混浊度）、代谢活动（如底物消耗）和代谢产物的产生等现象来判断某稀释比的微生物是否在培养基上生长繁殖，然后就能使用最近似值法推断原微生物的细胞数量。最近似值法还可以应用于土壤中感染性囊泡丛枝菌根（Vesicular-arbuscular mycorrhizae，VAM）的繁殖体（详见第30章）或矿根瘤菌（Nodule-forming rhizobia）（详见第31章）的计数。"},
+    {"type": "method-comparison", "text": "用最近似值法计算土壤样品异养菌数量的技术流程和涂布平板计数法的过程大致相同；唯一的区别在于使用最近似值法时，要将土壤稀释液接种到装有液体培养基的试管中。使用最近似值法时也可以用多孔微量滴定板（Multiwell microtiter plates，如每板24孔）来代替试管培养——这样能够节省材料、试剂、培养空间并同时增加重复试验的数量。"},
+    {"type": "heading", "level": 2, "number": "29.4.1", "title": "材料"},
+    {"type": "material-item", "number": "（1）", "text": "25支装有培养基的试管或者一次性无菌微量滴定板（每板24孔或96孔）。"},
+    {"type": "material-item", "number": "（2）", "text": "水稀释空白（见29.3.1节）。"},
+    {"type": "material-item", "number": "（3）", "text": "无菌的1 mL和10 mL吸量管（见29.3.1节）。"},
+    {"type": "heading", "level": 2, "number": "29.4.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "为准备计数的微生物准备合适的培养基。"},
+    {"type": "procedure-step", "number": "（2）", "text": "向无菌的试管或微量滴定板中分装经灭菌处理的培养基。"},
+    {"type": "procedure-step", "number": "（3）", "text": "准备一系列的1∶10土壤样品稀释液序列（见29.3.2节）。"},
+    {"type": "source-fidelity-note", "text": "步骤（3）原书指向‘29.3.2节’，但土壤稀释液的准备实际见29.3.3节；29.3.2是琼脂培养皿的准备。"},
+    {"type": "procedure-step", "number": "（4）", "text": "选择能够反映微生物性质的一系列土壤稀释液。从最大稀释比的土壤稀释液开始，向5个平行设置的微量滴定板上的单个孔中各加入0.1 mL土壤稀释液；按照同样的流程降低浓度，依次将不同稀释比例的0.1 mL土壤稀释液加入5个平行设置的微量滴定板上的各个孔中。"},
+    {"type": "printed-page-number", "text": "257"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "db89d72e28e0fcffd481659dc2696657f7dcaa38d6bf3cad63b8ec5d6cd191fb"
+}

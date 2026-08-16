@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 56,
+  "sourceImageSha256": "c8a7990eff6cc9db604a028357db5a2b5b78920bff915830f6e640d1ec139aeb",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐步对照原分辨率图和两套OCR，完成58.2.3跨页结尾、注释、58.3、58.3.1及式（58.3）"},
+    "precisionPass": {"status": "verified", "method": "核验20 mm/3.2 mm/170 kPa、15/8 g、425 μm、80～90次 min⁻¹、6～8段/6.4～9.5 mm、w_P/w_L/PI"},
+    "secondVisualPass": {"status": "verified", "method": "由式（58.3）反向复核至跨页‘透度计’，检查塑限终点、直径条件、上下标及步骤层级；印刷页码565"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "测定结果注明获取w_L所用方法（锥式透度计）。"},
+    {"type": "subheading", "title": "4. 注释"},
+    {"type": "note", "text": "带电子自动控制器和数显的锥式透度计可减小操作者不确定性。多项研究显示，以20 mm穿透深度定义w_L可能低估或高估液限（McBride和Baumgartner，1992；Leroueil和Le Bihan，1996），使用时须说明方法并谨慎比较。"},
+    {"type": "heading", "number": "58.3", "title": "塑性下限", "level": 2},
+    {"type": "paragraph", "text": "塑性下限w_P是土壤从可塑态转为半固态时的质量含水量。按ASTM Casagrande法，把土样搓成约3.2 mm直径土条，并在达到该直径时开始碎裂，对应含水量即w_P；此状态下不排水土壤黏结力约170 kPa（Wroth和Wood，1978）。"},
+    {"type": "heading", "number": "58.3.1", "title": "卡萨格兰德（Casagrande）法", "level": 3},
+    {"type": "subheading", "title": "1. 装置和材料"},
+    {"type": "materials-list", "items": ["(1) 调土皿，直径10～12 cm。", "(2) 金属调土刀，长7～8 cm、宽2 cm。", "(3) 毛玻璃板，用于搓滚土样。", "(4) 土样储存容器，用于测含水量。", "(5) 天平，精度0.01 g。", "(6) 烘箱，105 °C。", "(7) 15 g过40号筛（孔径425 μm）的风干土。"]},
+    {"type": "subheading", "title": "2. 步骤"},
+    {"type": "procedure-steps", "items": [
+      "(1) 仅测w_P时，取15 g风干土置调土皿，加蒸馏水充分混匀至可轻松塑成团；取8 g土团试验。",
+      "(2) 同时测w_L和w_P时，按58.2.1制样，取8 g；加水至可轻松塑成团且不粘手。",
+      "(3) 挤压揉成椭球，置毛玻璃板，用手指搓成约3 mm直径土条。搓滚速率80～90次 min⁻¹，前推再返回原位算1次完整搓滚。",
+      "(4) 土条约3.2 mm时分成6～8段，重新挤压揉成椭球，再搓至3.2 mm；反复破开、揉捏、搓滚，直至土条在达到约3.2 mm直径时碎裂。不同土壤可碎成小团聚体、由两端向中部破裂的薄片，或黏重土的6.4～9.5 mm柱状段。低塑性土可直接揉捏椭球至近3.2 mm，以减少重塑。",
+      "(5) 收集全部碎土置已称量容器，测质量含水量。"
+    ]},
+    {"type": "source-fidelity-note", "text": "原书步骤(4)印作‘当土条在直径大于3.2 mm时发生断裂为止’，与ASTM塑限终点及本页定义矛盾；正确终点是反复搓滚后，土条在达到约3.2 mm直径时碎裂。"},
+    {"type": "subheading", "title": "3. 计算"},
+    {"type": "calculation-steps", "items": ["(1) 按式（58.1）求重塑土质量含水量，即w_P，修约至最接近整数。", "(2) 塑性指数PI为液限与塑限之差，见式（58.3）。", "(3) 下页所列例外情况不按式（58.3）给数值，而报告NP。"]}
+  ],
+  "formulas": [
+    {"label": "(58.3)", "plain": "PI = w_L − w_P", "latex": "PI=w_L-w_P", "variables": [{"symbol": "PI", "meaning": "塑性指数（百分点）"}, {"symbol": "w_L", "meaning": "液限（%）"}, {"symbol": "w_P", "meaning": "塑性下限（%）"}]}
+  ],
+  "tables": [],
+  "contentSha256": "6ba23c6ee056a0c20192bcda084c9df400acb7d5f0a4b70c3b375de97b8ded50"
+}

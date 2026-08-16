@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 556,
+  "sourceImageSha256": "f3e8c1881a8a3892863a8a9cdb4b6e3a51143b2a6038c5bdb4d49be48baa2bb8",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条对照原分辨率页面和两套OCR，完成参考文献Unkovich至Whiticar及译校署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验δ¹⁵N/δ¹⁸O、N₂O、NO₃⁻、C₅–C₈、CSIC、作者拼写、卷页及译校人名"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由译校署名反向复核至Unkovich，确认OCR的Cs-Cg为C₅–C₈并检查印刷页码525"
+    }
+  },
+  "blocks": [
+    {
+      "type": "reference-list",
+      "entries": [
+        "Unkovich, M.J., Pate, J.S., McNeill, A., and Gibbs, D.J. 2001. Stable Isotope Techniques in the Study of Biological Processes and Functioning of Ecosystems. Springer, New York, NY, 289.",
+        "van Groenigen, J.W., Zwart, K.B., Harris, D., and van Kessel, C. 2005. Vertical gradients of δ¹⁵N and δ¹⁸O in soil atmospheric N₂O—temporal dynamics in a sandy soil. Rapid Commun. Mass Spectrom. 19: 1289–1295.",
+        "Wassenaar, L.I. 1995. Evaluation of the origin and fate of nitrate in the Abbotsford Aquifer using the isotopes of ¹⁵N and ¹⁸O in NO₃⁻. Appl. Geochem. 10: 391–405.",
+        "Werner, R. and Brand, W. 2001. Referencing strategies and techniques in stable isotope ratio analysis. Rapid Commun. Mass Spectrom. 15: 501–519.",
+        "Whiticar, M.J. and Snowdon, L.R. 1999. Geochemical characterization of selected Western Canada oils by C₅–C₈ Compound Specific Isotope Correlation (CSIC). Org. Geochem. 30: 1127–1161."
+      ]
+    },
+    {
+      "type": "translator-credit",
+      "text": "何海龙、党海燕译，王朝辉校。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e75d8b25e6bcb238edfee805a1b1d11408c02fde2fab92b1436ea2f779005cb2"
+}

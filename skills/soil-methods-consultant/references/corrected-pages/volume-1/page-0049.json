@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 49,
+  "sourceImageSha256": "70145b885007c64b3bec5a67c4c0fc5b0da19c860f3f3b7b470021bd876312fb",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文与参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部中英文、标点和文献著录细节"},
+    "precisionPass": {"status": "verified", "method": "放大核对CV、15个样品、LF/H层、P/Cu/Ca/Al/Mn/C元素符号、相关系数r>0.90，以及全部作者名、年份、卷期页码和2ⁿᵈ上标"},
+    "secondVisualPass": {"status": "verified", "method": "按续接正文、混合采样论述、参考文献标题、逐条英文文献、原页连写词、上标、页码和印刷页码顺序反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "continuation": true, "text": "表面积较小，但是考虑到该研究在微尺度下进行且似乎不需要较大、较多的样品去计算有效的总体平均值，因此采样方案是合理的。同样地，森林土壤科学家研究小区域的样地时往往采用森林地被物的混合样品，即把来自相同小区地块的一组样品均匀地混合在一起，以便于使它们在重量和体积方面一致。显然，在野外这是一个很乏味的工作，不幸的是我们不能确定土样是否混合均匀。所以，最好在实验室风干、过筛样品后进行单独存放和混合。"},
+    {"type": "paragraph", "text": "在一个地块中，混合样品的缺点是不能计算标准偏差和变异系数（CV）值。为了评估混合森林地被物样品测定变量的精确度，Carter和Lowe（1986）在一个地块中采集了15个样品，依据土层深度和容重计算了土壤养分的平均含量，并与这15个样品的混合样测定值进行了比较（依据土层深度和容重）。除LF层的全P和Cu浓度外，混合样品的测定值均在平均值的一个标准偏差范围内。此外，他们研究了六个试验小区内加权平均值和混合样品测定值之间的关系，发现大部分变量之间相关性很强，这表明混合样品可以较好地估计样品总体均值（除LF层的Ca、Al浓度及LF和H层的Mn、C浓度外，r>0.90）。同样，Bruckner等（2000）在奥地利的挪威云杉人工林调查了混合土壤样品对微型节肢动物丰度研究的影响。假设土壤颗粒在混合过程中的研磨作用会伤害或杀死部分微型节肢动物，从而低估了相对于单个样品分析所得种群数量的加权平均值。然而，Bruckner等（2000）发现，使用特定的混合提取程序，以系统的方式等量混合大量的样本能够避免微型节肢动物受到伤害和损失。", "inlineNotation": ["CV", "15", "LF", "P", "Cu", "Ca", "Al", "H", "Mn", "C", "r>0.90"]},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "bibliography-entry", "text": "Arp, P.A. and Krause, H.H. 1984. The forest floor: lateral variability as revealed by systematic sampling. Canada. Can. J. Soil Sci. 64: 423-437."},
+    {"type": "bibliography-entry", "text": "Aust, W.M., Tippett, M.D., Burger, J.A., and McKee, W.H. Jr. 1995. Compaction and rutting during harvesting affect better drained soils more than poorly drained soils on wet pine flats. South. J. Appl.Forest 19: 72-77."},
+    {"type": "bibliography-entry", "text": "Beatty, S.W. and Stone, E.L. 1986. The variety of soil microsites created by tree falls. Can. J. Forest Res. 16: 539-548."},
+    {"type": "bibliography-entry", "text": "Bélanger, N., Paré, D., Bouchard, M., and Daoust, G. 2004. Is the use of trees showing superior growth a threat to soil nutrient availability? A case study with Norway spruce. Can. J. Forest Res. 34: 560-572."},
+    {"type": "bibliography-entry", "text": "Bock, M.D. and van Rees, K.C.J. 2002. Forest harvesting impacts on soil properties and vegetation communities in the Northwest Territories. Can. J. Forest Res. 32: 713-724."},
+    {"type": "bibliography-entry", "text": "Bruckner, A., Barth, G., and Scheibengraf, M. 2000. Composite sampling enhances the confidence of soil microarthropod abundance and species richness estimates. Pedobiologia 44: 63-74."},
+    {"type": "bibliography-entry", "text": "Cade-Menun, B.J., Berch, S.M., Preston, C.M., and Lavkulich, L.M. 2000. Phosphorus forms and related soil chemistry of Podzolic soils onnorthern Vancouver Island. I. A comparison of two forest types. Can. J. Forest Res. 30: 1714-1725."},
+    {"type": "bibliography-entry", "text": "Carter, R.E. and Lowe, L.E. 1986. Lateral variability of forest floor properties under secondgrowth Douglas-fir stands and the usefulness of composite sampling techniques. Can. J. Forest Res. 16: 1128-1132."},
+    {"type": "bibliography-entry", "text": "Clinton, B.D. and Baker, C.R. 2000. Catastrophic windthrow in the southern Appalachians: characteristics of pits and mounds and initial vegetation responses. Forest Ecol. Manag. 126: 51-60."},
+    {"type": "bibliography-entry", "text": "Côté, B., Hendershot, W.H., Fyles, J.W., Roy, A.G., Bradley, R., Biron, P.M., and Courchesne, F. 1998. The phenology of fine root growth in a maple-dominated ecosystem: relationships with some soil properties. Plant Soil 201: 59-69."},
+    {"type": "bibliography-entry", "text": "Dijkstra, F.A. and Smits, M.M. 2002. Tree species effects on calcium cycling: the role of calcium uptake in deep soils. Ecosystems 5: 385-398."},
+    {"type": "bibliography-entry", "text": "Eriksson, H.M. and Rosen, K. 1994. Nutrient distribution in a Swedish tree species experiment. Plant Soil 164: 51-59."},
+    {"type": "bibliography-entry", "text": "Expert Committee on Soil Survey. 1987. The Canadian System of Soil Classification, 2ⁿᵈ edn. Agriculture Canada Publ. 1646, Supplies and Services, Ottawa, Canada, 164.", "inlineNotation": ["2ⁿᵈ"]},
+    {"type": "printed-page-number", "text": "18"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e28bd91374c6446d90b0c6349cb9a0ba7b626daa4151460a1bba68462d67c949"
+}

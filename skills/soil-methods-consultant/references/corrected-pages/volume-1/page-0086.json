@@ -1,0 +1,61 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 86,
+  "sourceImageSha256": "59bad461e4848a153bae2edc5f3c297c63c84b48fd44ff84849c146f5dd92359",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复CRC六步活化、两条注意、标准液和五类试剂层级"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对μg、NO₃-N、KNO₃、NH₄OH、NH₄Cl、H₃PO₄、CuSO₄·5H₂O、HCl、pH 8.5、Brij-35、w/v及全部质量/体积/浓度/温度/时间"},
+    "secondVisualPass": {"status": "verified", "method": "由6.3.1续文至6.3.3两步逐项反向复核，特别确认原书印作“叠氮化合物”、6.2.5节交叉引用及CRC装置规格"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第6章｜硝态氮和可交换性铵态氮｜"},
+    {"type": "paragraph", "continuation": true, "text": "在酸性条件下亚硝酸盐离子与磺胺反应形成叠氮化合物，再与N-1-萘乙二胺二盐酸盐一起形成一种红紫色偶氮染料（Technicon Instrument Corporation，1971）。"},
+    {"type": "section-heading", "level": 3, "number": "6.3.2", "title": "材料和试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "Technicon自动分析器由采样器、扩增器、比例泵、CRC、色度计和数据采集系统组成。"},
+      {"number": "（2）", "text": "CRC—CRC的活化（O.I. Analytical，2001a）——参考本小节第5部分。此步骤必须在CRC连接到系统之前完成。在活化过程中不要让空气进入CRC中（见6.3.5节注释6关于CRC性能的描述）。"}
+    ]},
+    {"type": "ordered-list", "parent": "（2）CRC—CRC的活化", "items": [
+      {"number": "①", "text": "使用10 mL的Luer-Lok注射器和1/4\"-28的Luer-Lok装置，用10 mL的去离子水缓慢冲洗CRC。如果有杂质从CRC中出来，那么继续用去离子水冲洗直到所有的杂质被去除。"},
+      {"number": "②", "text": "用10 mL 0.5 mol/L的HCl溶液缓慢冲洗CRC。然后快速进行下一步骤，因为HCl溶液在CRC内停留超过几秒钟就会对镉表面造成破坏。"},
+      {"number": "③", "text": "用10 mL去离子水冲洗CRC去除HCl。"},
+      {"number": "④", "text": "用10 mL 2%的CuSO₄溶液缓慢冲洗CRC，让该溶液在CRC中停留5～10 min。"},
+      {"number": "⑤", "text": "用10 mL NH₄Cl溶液强力冲洗CRC，消除在反应器内可能生成的所有游离态铜，持续冲洗直到全部去除。"},
+      {"number": "⑥", "text": "不使用时需将CRC装满去离子水保存。"}
+    ]},
+    {"type": "caution", "text": "注意：当冲洗或者保存CRC时，不能使用包含Brij-35的溶液。"},
+    {"type": "caution", "text": "注意：仅允许去离子水和上述试剂进入CRC。有些溶液可能会对反应器造成不可逆的损伤。"},
+    {"type": "ordered-list", "continuation": true, "items": [
+      {"number": "（3）", "text": "标准溶液。"}
+    ]},
+    {"type": "ordered-list", "parent": "（3）标准溶液", "items": [
+      {"number": "①", "text": "储备液（100 μg NO₃-N/mL）：将0.7218 g KNO₃（105℃烘干过夜）溶解于装有去离子水的1 L容量瓶中，加入1 mL的三氯甲烷，定容到1 L并摇匀。"},
+      {"number": "②", "text": "工作曲线标准溶液：移取0.5、1.0、1.5和2.0 mL的储备液到100 mL的容量瓶中，用2.0 mol/L的KCl溶液定容，分别获得0.5、1.0、1.5和2.0 μg NO₃-N/mL标准溶液。"}
+    ]},
+    {"type": "ordered-list", "continuation": true, "items": [
+      {"number": "（4）", "text": "试剂。"}
+    ]},
+    {"type": "ordered-list", "parent": "（4）试剂", "items": [
+      {"number": "①", "text": "稀释氨水（NH₄OH）溶液：向约30 mL去离子水中加4～5滴浓氨水。"},
+      {"number": "②", "text": "氯化铵（NH₄Cl）溶液：将10 g NH₄Cl溶解于装有750 mL去离子水的1 L容量瓶中，加入稀释的NH₄OH调节pH值至8.5，添加0.5 mL Brij-35，定容到1 L，摇匀。（注意：只需要加入两滴稀释的NH₄OH就可以达到预期pH值。）"},
+      {"number": "③", "text": "显色剂：向装有大约750 mL去离子水的1 L容量瓶中小心加入100 mL浓H₃PO₄（见6.3.5节的注释2）和10 g的磺胺，完全溶解后，加入0.5 g N-1-萘基-乙二胺二盐酸盐（马歇尔试剂）并使之溶解，用去离子水定容至1 L并摇匀，再加入0.5 mL Brij-35，存储在棕色玻璃瓶中，可以稳定保存一个月。"}
+    ]},
+    {"type": "ordered-list", "continuation": true, "items": [
+      {"number": "（5）", "text": "CRC所需试剂"}
+    ]},
+    {"type": "ordered-list", "parent": "（5）CRC所需试剂", "items": [
+      {"number": "①", "text": "硫酸铜溶液（2% w/v）：将20 g CuSO₄·5H₂O溶解在一个装有大约900 mL去离子水的1 L容量瓶中，用去离子水定容至1 L并摇匀。"},
+      {"number": "②", "text": "盐酸溶液（0.5 mol/L）：在装有大约70 mL去离子水的100 mL容量瓶中缓慢加入4.15 mL的浓HCl（见6.2.5节注释2），用去离子水定容至100 mL并摇匀。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "6.3.3", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "将冷藏的土壤提取液恢复至室温。"},
+      {"number": "（2）", "text": "摇匀。"}
+    ]},
+    {"type": "printed-page-number", "text": "55"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "fb63b11150774be1de3d0835801ca0424d24bdf0bb3fa0a7b1a3640240b0fa9d"
+}

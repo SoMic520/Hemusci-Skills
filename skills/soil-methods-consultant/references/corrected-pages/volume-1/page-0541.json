@@ -1,0 +1,91 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 541,
+  "sourceImageSha256": "7aad6d9436d3b7694a85d47704dbd3589e9a62c8ee06d07e3d49b8d98c0f44f9",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行逐格对照原分辨率页面和两套OCR，完成54.1结语、54.2、表54.1及式（54.1）～（54.3）"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验H/C/N/O/S全部13个核素的质量与atom%、10～90 atom% ¹⁵N、u与g·mol⁻¹、F/APE/R定义及上下标"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由跨页末句反向复核至54.1结语，逐格检查表54.1小数位、atm%误印、三个公式和印刷页码510"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph-continuation",
+      "scope": "54.1",
+      "text": "本章重点说明常规土壤组分的C、N同位素分析。"
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "number": "54.2",
+      "title": "稳定同位素的命名、符号、标准和转换"
+    },
+    {
+      "type": "paragraph",
+      "text": "土壤与环境研究常用H、C、N、O、S等质量数<40的轻元素，也应用Li、B、Si、Cl、He、Ne、Ar等。人工富集示踪可用10～90 atom% ¹⁵N尿素等造成明显丰度跃变，适合短时间、小空间尺度的特定迁移问题；自然丰度的微小变化常用于整合较大尺度生物地球化学过程。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "54.2丰度单位",
+      "text": "原页两处把atom%误印为atm%；已统一为atom%。atom%是原子摩尔分数百分数，与大气压atm无关。表54.1为书载2002年同位素组成值，运行时若用于现代高精度标准计算须注明其版本年代。"
+    },
+    {
+      "type": "paragraph",
+      "text": "人工示踪常用原子分数F或atom%=100F；超量原子百分数（atom percent excess, APE）是富集样与基线/背景的atom%之差。同位素比R定义为稀有同位素摩尔数与最高丰度同位素摩尔数之比。"
+    },
+    {
+      "type": "paragraph-continuation",
+      "text": "F与R可相互换算；对C体系通常忽略¹¹C和¹⁴C，[续见第542页]"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "54.1",
+      "display": "F = n(E_rare)/n(E_total) ≈ n(E_rare)/[n(E_major)+n(E_rare)]；例如F(¹³C)=¹³C/(¹²C+¹³C)",
+      "meaning": "稀有同位素原子/摩尔分数；多同位素元素右侧二同位素式仅为近似"
+    },
+    {
+      "id": "54.2",
+      "display": "APE = [F_enriched − F_background] × 100",
+      "meaning": "超量原子百分数；F以0～1分数代入，结果单位为百分点（atom% excess）"
+    },
+    {
+      "id": "54.3",
+      "display": "R = n(E_rare)/n(E_major)；例如R(¹³C)=¹³C/¹²C",
+      "meaning": "同位素摩尔比定义"
+    }
+  ],
+  "tables": [
+    {
+      "id": "table-54.1",
+      "title": "常用稳定性同位素的相对原子质量与书载原子丰度",
+      "columns": ["元素", "同位素", "原子质量（u）", "相对丰度（atom%）"],
+      "rows": [
+        ["氢", "¹H", "1.007 825 032", "99.984 426"],
+        ["氢", "²H或D", "2.014 101 778", "0.015 574"],
+        ["碳", "¹²C", "12.000 000 000", "98.894 400"],
+        ["碳", "¹³C", "13.003 354 838", "1.105 600"],
+        ["氮", "¹⁴N", "14.003 074 007", "99.633 700"],
+        ["氮", "¹⁵N", "15.000 108 970", "0.366 300"],
+        ["氧", "¹⁶O", "15.994 914 622", "99.762 060"],
+        ["氧", "¹⁷O", "16.999 131 500", "0.037 900"],
+        ["氧", "¹⁸O", "17.999 160 400", "0.200 400"],
+        ["硫", "³²S", "31.972 070 730", "95.039 570"],
+        ["硫", "³³S", "32.971 458 540", "0.748 650"],
+        ["硫", "³⁴S", "33.967 866 870", "4.197 190"],
+        ["硫", "³⁶S", "35.967 080 809", "0.014 590"]
+      ],
+      "source": "Coplen et al., USGS Water-Resources Investigations Report 01-4222 (2002), Reston, Virginia."
+    }
+  ],
+  "contentSha256": "da6d9b2504794f9819f00ecb582d0799d3217a9e705cf00c8e5d5ebc3c5aca99"
+}

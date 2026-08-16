@@ -1,0 +1,21 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 170,
+  "sourceImageSha256": "76827de0528fecefdce7ab606ec29f3aaf047c030b336a51344890902547260b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐图对照原分辨率页图和两套OCR，完成基质/大孔隙续文、影响因素、土壤斥水性及图69.9"},
+    "precisionPass": {"status": "verified", "method": "核验ψ₀≤ψ_mat条件、φ/α/α*/S/PD/NP符号及PD mm、NP m⁻²、ψ cm图轴"},
+    "secondVisualPass": {"status": "verified", "method": "由图69.9(b)反向复核总量t、基质m、大孔隙p下标和斥水性时间效应；印刷页码679"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "当ψ₀≤ψ_mat时，大孔隙为空、只有基质孔隙导水，因此基质流参数与总介质参数变化一致。随ψ₀变化，大孔隙流参数关系较复杂，其值可大于、等于或小于相应基质及总介质参数。"},
+    {"type": "paragraph", "text": "质地、结构、孔隙水黏滞度、可溶盐浓度/种类及介质斥水性均影响非饱和流参数。测量必须尽可能保持介质自然、原位、原始状态；黏度和盐分作用与饱和/田间饱和导水率相似。"},
+    {"type": "paragraph", "text": "斥水土部分或完全憎水而不能湿润，因毛管作用降低甚至反向，会阻碍入渗。疏水有机组分积累，或极端/长期烤干（长期干旱、森林火灾后）可诱发斥水性。相对亲水介质，斥水性降低φ(ψ₀)、α(ψ₀)、α*(ψ₀)、S(ψ₀)、PD(ψ₀)和NP(ψ₀)等毛管参数；浅层积水初期可能强烈阻滞入渗，但随时间消失并恢复正常毛管作用。"},
+    {"type": "figure", "number": "69.9", "title": "结构性壤土的总土壤、基质流区与大孔隙流区参数", "panels": [{"label": "a", "x": "孔隙水压力水头ψ（cm）", "y": "FWM孔隙直径PD（mm）", "series": ["PD_p(ψ)：大孔隙流区", "PD_m(ψ)：基质流区", "PD_t(ψ)：总土壤"]}, {"label": "b", "x": "孔隙水压力水头ψ（cm）", "y": "FWM孔隙数NP（孔隙个数·m⁻²）", "series": ["NP_p(ψ)：大孔隙流区", "NP_m(ψ)：基质流区", "NP_t(ψ)：总土壤"]}]},
+    {"type": "source-fidelity-note", "text": "图69.9图例下标p、m、t分别表示大孔隙流区、基质流区和总土壤，不能把曲线相加当成统一线性分配。正文对斥水性的影响是条件性陈述，且明确其浅层积水阻滞可随时间消退。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "fadfe08f28177490a78e9c782c173d4bea4f8ba3bfc79436c27273f4e0ee3471"
+}

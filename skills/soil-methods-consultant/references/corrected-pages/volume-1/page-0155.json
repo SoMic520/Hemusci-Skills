@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 155,
+  "sourceImageSha256": "3b79f196801c6ee7e02a0144379270ebe88d6eeaf18e5b0c6587aba04f65a4fd",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复SAR、ESP、PAR、临界钙比及参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符放大核验式（15.2）/（15.3）分式、[Ca²⁺+Mg²⁺]⁰·⁵、SARₚ/SARₜ、K_g、(mmol/L)⁻⁰·⁵、Na⁺/K⁺、CaSO₄·2H₂O和0.10"},
+    "secondVisualPass": {"status": "verified", "method": "对公式区域单独裁切放大后反向复核全页，确认SARₚ、SARₜ下标、K_g下标、文献英文和页码124"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 4, "number": "15.4.4", "title": "钠吸附比"},
+    {"type": "paragraph", "text": "SAR，一个土壤溶液碱度或相对钠含量、水提取物或水土平衡的有效指数，计算如下："},
+    {"type": "equation", "label": "（15.2）", "text": "SAR=[Na⁺]/[Ca²⁺+Mg²⁺]⁰·⁵"},
+    {"type": "paragraph", "text": "式中，阳离子浓度用mmol/L表示。"},
+    {"type": "paragraph", "text": "尽管有报道提出了其他的临界值（Bennett，1988；Sumner等，1998），但通常SAR值大于13被认为是碱化土壤（Soil Science Society of America，2001），式15.2常被称为实际SAR值（SARₚ），理论SAR（SARₜ）值用相同的公式计算，但用自由离子活度代替离子浓度（Kohut和Dudas，1994）。因为阴离子排斥或可溶性矿物质的轻微沉淀产生的误差，可交换的阳离子很难在盐碱土壤中测量，土壤水提取液的SAR值已经成为判断碱化土壤的主要工具（Bohn等，1979；Jurinak，1990）。"},
+    {"type": "section-heading", "level": 4, "number": "15.4.5", "title": "可交换性钠百分比"},
+    {"type": "paragraph", "text": "ESP可由基于线性方程的SAR计算："},
+    {"type": "equation", "label": "（15.3）", "text": "ESP/[100−ESP]=K_gSAR"},
+    {"type": "paragraph", "text": "式中，K_g是Gapon选择系数。K_g会随土壤有机质含量和pH值变化（Curtin等，1995），但一般取值为0.015（mmol/L）⁻⁰·⁵（U.S. Salinity Laboratory Staff，1954）。一般情况下，随着有机质导致的阳离子交换能力增强，土壤对Na的亲和力降低。"},
+    {"type": "section-heading", "level": 4, "number": "15.4.6", "title": "钾吸附比"},
+    {"type": "paragraph", "text": "钾的吸附比（PAR）可通过将式15.2中Na⁺换成K⁺计算得出。过多的K⁺浓度可能干扰作物吸收其他养分，降低土壤水力传导性和渗透性，增加土壤流失性（Hao和Chang，2003）。钾离子浓度在畜禽粪便中很高，并且K⁺可能成为粪肥施用土壤中主要的可溶性阳离子（Pratt，1984）。Pratt（1984）报道了在渗透性好的灌溉土地上长期施用粪肥的危害更多的来自K⁺的积累，而非Na⁺。含过量K⁺土壤的临界PAR值仍有待确定。"},
+    {"type": "section-heading", "level": 4, "number": "15.4.7", "title": "临界钙比"},
+    {"type": "paragraph", "text": "大量的研究表明，盐渍化土壤中的作物产量很大程度上受土壤溶液中Ca²⁺与其他阳离子比例的影响（Howard和Adams，1965；Carter等，1979；Janzen和Chang，1987；Janzen，1993）。可以观察到，当Ca²⁺与总阳离子的比例约低于0.10时，作物产量下降。这个比值在碱化土壤（Carter等，1979）、盐渍土壤，以及由于CaSO₄·2H₂O（石膏）溶解性差而造成Ca浓度较低的石灰性土壤中会降到临界值以下（Curtin等，1993）。"},
+    {"type": "references-heading", "text": "参考文献"},
+    {"type": "reference", "text": "Adams, F. 1966. Calcium deficiency as a causal agent of ammonium phosphate injury to cotton seedlings. Soil Sci. Soc. Am. Proc. 30:485-488."},
+    {"type": "reference", "text": "American Public Health Association. 1998. In:Standard Methods for the Examination of Water and Wastewater, 20ᵗʰ edn. APHA, Washington, DC, 1-1207."},
+    {"type": "reference", "text": "Ayers, R.S. and Westcott, D.W. 1985. Water quality for agriculture. FAO Irrigation and Drainage Paper 29 (Rev. 1). FAO, Rome, Italy."},
+    {"type": "printed-page-number", "text": "124"}
+  ],
+  "formulas": [
+    {"label": "（15.2）", "plain": "SAR=[Na⁺]/[Ca²⁺+Mg²⁺]⁰·⁵", "latex": "SAR=\\frac{[Na^+]}{[Ca^{2+}+Mg^{2+}]^{0.5}}", "units": "阳离子浓度用mmol/L表示", "context": "钠吸附比"},
+    {"label": "（15.3）", "plain": "ESP/[100−ESP]=K_gSAR", "latex": "\\frac{ESP}{100-ESP}=K_gSAR", "context": "由SAR计算可交换性钠百分比"},
+    {"plain": "PAR由式15.2将Na⁺换成K⁺计算", "latex": "PAR=\\frac{[K^+]}{[Ca^{2+}+Mg^{2+}]^{0.5}}", "context": "钾吸附比（原文文字表述）"}
+  ],
+  "tables": [],
+  "contentSha256": "d14e977d83747cada829c01feea3d76acbd224c4d880f2d672adca32b1b76954"
+}

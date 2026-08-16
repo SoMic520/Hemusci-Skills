@@ -1,0 +1,96 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 320,
+  "sourceImageSha256": "7e1ce1d035c1fe6c1f4400e755c8f431dc06843eead341288d2564032bcb4068",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对ROSETTA敏感性说明、表84.6、图84.4、Minasny输入与表84.7"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "逐格核对PTF2～PTF5和ENR2/6/7参数，复算POR=0.611并核对d_g、σ_g"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "θ_3.3/θ_150下标、ρ_b、K_sat指数及曲线图例二次反查；印刷页码829"
+    }
+  },
+  "blocks": [
+    {
+      "type": "sensitivity-note",
+      "text": "表84.6中θ_r、θ_sat、n等参数对ROSETTA预测水平相对不敏感，而a_v、K_sat等高度敏感。各预测与RETC拟合虽接近（图84.3），van Genuchten预测曲线仍有较大变化；随输入级别提高，拟合逐渐改善。"
+    },
+    {
+      "type": "figure",
+      "number": "84.4",
+      "title": "基于ROSETTA替代数据系统和表84.6参数，用van Genuchten模型预测θ(ψ)（见表84.3）",
+      "axes": {
+        "x": "基质势 (m)，对数坐标0.001～1000",
+        "y": "含水量 (m³·m⁻³)，0～0.6"
+      },
+      "series": [
+        "实测值",
+        "SSC",
+        "SSC+ρ_b",
+        "SSC+ρ_b+θ_3.3",
+        "SSC+ρ_b+θ_3.3+θ_150"
+      ]
+    },
+    {
+      "type": "subheading",
+      "title": "(2) Minasny等方法"
+    },
+    {
+      "type": "calculation-results",
+      "text": "由表84.3、84.4计算Minasny et al. (1999)所需输入：d_g=0.142 mm，σ_g=1.806，POR=1−ρ_b/ρ_s=0.611；表84.7列出结合表84.2系数所得参数。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "84.32",
+      "plain": "d_g=0.142 mm",
+      "latex": "d_g=0.142\\,\\mathrm{mm}"
+    },
+    {
+      "label": "84.33",
+      "plain": "σ_g=1.806",
+      "latex": "\\sigma_g=1.806"
+    },
+    {
+      "label": "84.34",
+      "plain": "POR=1−ρ_b/ρ_s=0.611",
+      "latex": "POR=1-\\frac{\\rho_b}{\\rho_s}=0.611"
+    }
+  ],
+  "tables": [
+    {
+      "number": "84.6",
+      "title": "使用ROSETTA中的PTF2～PTF5估算van Genuchten θ—ψ—K参数",
+      "columns": ["参数", "PTF2：SSC", "PTF3：SSC+ρ_b", "PTF4：SSC+ρ_b+θ_3.3", "PTF5：SSC+ρ_b+θ_3.3+θ_150"],
+      "rows": [
+        ["θ_r (m³·m⁻³)", "0.062", "0.070", "0.060", "0.109"],
+        ["θ_sat (m³·m⁻³)", "0.394", "0.513", "0.516", "0.548"],
+        ["n", "1.383", "1.454", "1.306", "1.287"],
+        ["a_v (m⁻¹)", "2.05", "1.36", "1.72", "5.17"],
+        ["K_sat (m·s⁻¹)", "1.69×10⁻⁶", "1.12×10⁻⁵", "1.70×10⁻⁵", "1.82×10⁻⁵"]
+      ],
+      "notes": [
+        "SSC为砂、粉、黏粒质量百分比；ρ_b为容重；θ_3.3、θ_150分别为ψ=−3.3 m、−150 m时体积含水量。"
+      ]
+    },
+    {
+      "number": "84.7",
+      "title": "采用Minasny等（1999）方法获得的van Genuchten参数；土壤数据来自表84.3、84.4，系数来自表84.2",
+      "columns": ["参数", "ENR2", "ENR6", "ENR7"],
+      "rows": [
+        ["θ_r (m³·m⁻³)", "0.257", "0.155", "0.254"],
+        ["θ_sat (m³·m⁻³)", "0.533", "0.529", "0.532"],
+        ["n", "1.403", "1.397", "1.494"],
+        ["a_v (m⁻¹)", "0.189", "0.168", "0.128"]
+      ]
+    }
+  ],
+  "contentSha256": "b7f6d8ae710118b9a79fc5e0fa51c17910a6ac7c22b7535bf97139f4f1fd178e"
+}

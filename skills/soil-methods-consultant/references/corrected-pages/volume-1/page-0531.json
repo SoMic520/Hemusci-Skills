@@ -1,0 +1,105 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 531,
+  "sourceImageSha256": "ca5eb525e439bc8605ec75a9ba3a33629a94d5c91440a0ecc3a397c1ff1bdd04",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，接续53.2.2步骤（4）～（7），完成53.3、53.3.1、53.3.2及53.3.3至参数（1）跨页段"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验4 000×g、20～25 min、200 mL、0.1 mol·L⁻¹ HCl/0.3 mol·L⁻¹ HF、≥25% C、4～6 h、≥3次、¹H/¹³C、90°、SW、5T₁H、4/1～2 s"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由参数（1）反向复核至步骤（4），检查HF废液、NMR磁体安全、MAS转子平衡、循环时间定义和印刷页码500"
+    }
+  },
+  "blocks": [
+    {
+      "type": "procedure-step",
+      "scope": "53.2.2",
+      "number": "（4）～（5）",
+      "text": "4 000×g离心20～25 min，小心倒出上清；加200 mL新配0.1 mol·L⁻¹ HCl/0.3 mol·L⁻¹ HF混合液，或无碳酸盐时加0.3 mol·L⁻¹ HF。重复步骤（3）～（5），直至样品有机C含量≥25%；低有机质土样可能需要多轮。"
+    },
+    {
+      "type": "procedure-step",
+      "scope": "53.2.2",
+      "number": "（6）",
+      "text": "用去离子水洗去残余HCl/HF。最后一次除去酸液后加去离子水，振荡4～6 h，再以4 000×g离心20～25 min；该水洗至少重复3次以除盐。残余酸会损坏元素分析仪等后续设备。"
+    },
+    {
+      "type": "procedure-step",
+      "scope": "53.2.2",
+      "number": "（7）",
+      "text": "冷冻干燥处理后的样品，密闭保存供固态¹³C NMR分析。"
+    },
+    {
+      "type": "safety-note",
+      "scope": "53.2.2",
+      "text": "所有HCl/HF上清液和洗液均作为含HF危险废物按机构规定收集，禁止倒入水槽。仅以‘至少3次’水洗不能证明无HF；进入后续仪器前须按实验室程序确认洗净并安全处置。"
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "number": "53.3",
+      "title": "¹³C核磁共振分析"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "53.3.1",
+      "title": "安全须知"
+    },
+    {
+      "type": "safety-note",
+      "text": "超导磁体通常持续励磁。心脏起搏器或其他植入式/随身医疗设备人员不得进入未经设备管理方确认的磁体受控区；磁体上下方也可能存在危险杂散场。进入前移除钥匙、回形针、工具、刀具等铁磁物，磁条卡、手表、磁盘和电子设备也应留在区外。铁磁物可成为高速抛射物；不得踩踏通电电缆。具体禁区边界和准入条件以本机房标识及MRI/NMR安全负责人规定为准。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "53.3.2",
+      "title": "样品准备"
+    },
+    {
+      "type": "paragraph",
+      "text": "把样品均匀、轴向对称地装入MAS转子；对称位置质量应平衡，空余体积按仪器厂商要求用质量匹配的间隔件固定。用原厂工具安装端帽/转子并确认完整、牢固。装样偏心、质量不平衡或安装不牢会使MAS转速不稳，并可能严重损坏转子或探头。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "53.3.2",
+      "text": "原书把转子的高速魔角旋转误称为‘高速离心’，且‘样品数量小于转子中可容纳的样品数量’表述含混。已按固态NMR含义校正为单个MAS转子内装样、间隔件与动态平衡；所有尺寸和装填方式必须服从具体转子厂商说明。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "53.3.3",
+      "title": "CP/MAS的参数采集"
+    },
+    {
+      "type": "paragraph",
+      "text": "CP/MAS把丰核¹H磁化转移给稀核¹³C，并利用较快的¹H弛豫，比直接极化更快。通用参数包括弛豫延迟、¹H 90°脉冲宽度、CP接触时间t_c、扫描宽度SW和采集时间；实际设置须由熟悉具体谱仪与探头的人员优化。循环时间约为弛豫延迟与采集时间之和。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（1）",
+      "text": "弛豫延迟：为使¹H自旋-晶格弛豫充分，书中建议约5T₁H。甘氨酸约4 s；高C土壤有机质样品（如凋落物、森林表层土）约1～2 s；低C矿质土壤条件续见第532页。"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "53.3.3-cycle-time",
+      "display": "t_cycle ≈ t_delay + t_acq",
+      "meaning": "连续扫描之间的循环时间近似为弛豫延迟与采集时间之和"
+    },
+    {
+      "id": "53.3.3-relaxation-delay",
+      "display": "t_delay ≈ 5T₁H",
+      "meaning": "书中用于CP/MAS的¹H充分弛豫经验设置"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "1f2b2dcabbbb08f7fdde8daa97d167cc47af3f2d53692ae65a7eb1f0bc1cf691"
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 80,
+  "sourceImageSha256": "b3356ed03edffd6531f0616e38d9f346de89f240112baf4da76cc586795301d5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐字符对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复作者、题名、期刊、卷页及跨页续文"},
+    "precisionPass": {"status": "verified", "method": "放大核对IAEA-TECDOC-1415、ISO/IEC 17025: 2005、77(5): 827-841、D.Q.O.相关缩写、全部URL路径、查询参数和验证日期"},
+    "secondVisualPass": {"status": "verified", "method": "由CCME续句至Ramsey未完条目逐条反向复核原页，保留原书可见的连写和标点形式"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第5章｜土壤化学分析中的质量控制｜"},
+    {"type": "reference-entry", "continuation": true, "text": "Analysis, and Data Management for Contaminated Sites. CCME, Winnipeg, Manitoba."},
+    {"type": "reference-entry", "text": "Environment Canada. 2002a. Contaminated Site Remediation Section Technical Assistance Bulletins. [Online] Available at: http://www.on.ec.gc.ca/pollution/ecnpd/contaminassist_e.html [verified March 2005]. This Webpage shows a list of Technical Assistance Bulletins. See Section 5: QC samples in Tab#4: Sampling and Analysis of Hydrocarbon Contaminated Soil."},
+    {"type": "reference-entry", "text": "Environment Canada. 2002b. Guidance Documentfor the Sampling and Analysis of Metal Mining Effluents. [Online] Available at: http://www.ec.gc.ca/nopp/docs/rpt/2MM5/en/C7.cfm (verified October 2004)."},
+    {"type": "reference-entry", "text": "Eurachem. 2000. Eurachem Guide: Qualifying Uncertainty in Analytical Measurement, 2nd Edition. [Online] Available at: http://www.eurachem.ul.pt/guides/QUAM2000-1.pdf (verified February 2007)."},
+    {"type": "reference-entry", "text": "Garfield, F.M., Klesta, E., and Hirsch, J. 2000. Quality Assurance Principles for Analytical Laboratories, 3rd edn. AOAC International, Gaithersburg, MD."},
+    {"type": "reference-entry", "text": "Gerlach, R., Dobb, D.E., Raab, G.A., and Nocerino, J.M. 2002. Gy Sampling Theory in Environmental Studies. 1. Assessing Soil Splitting Protocols. J. Chemometr. 16: 321-328."},
+    {"type": "reference-entry", "text": "Hoskins, B. and Wolf, A.M. 1998. Laboratory quality assurance program. In: Recommended Chemical Soil Test Procedures for the North Central Region. North Central Regional Research Publication No. 221 (revised), 65-69. Available at: http://muextension.missouri.edu/explorepdf/miscpubs/sb1001.pdf (verified February 2006)."},
+    {"type": "reference-entry", "text": "International Atomic Energy Agency (IAEA). 2004. Soil Sampling for Environmental Contaminants. IAEA-TECDOC-1415. InternationalAtomic Energy Agency, Vienna. Worked DQOs examples p. 39."},
+    {"type": "reference-entry", "text": "International Organization for Standardization (ISO). 2005. ISO/IEC 17025: 2005 General Requirements for the Competence of Testing and Calibration Laboratories. [Online] Available at: http://www.iso.org/iso/en/Catalogue DetailPage. CatalogueDetail?CSNUMBER=39883&ICS1=3&ICS2=120&ICS3=20 (01 March 2006)."},
+    {"type": "reference-entry", "text": "International Union of Pure and Applied Chemistry (IUPAC). 1997. Chapter 18. Quality assurance of analytical processes. In: Compendium of Analytical Nomenclature Definitive Rules 1997. [Online] Available at: http://www.iupac.org/publications/analytical_compendium/ (verified March 2005)."},
+    {"type": "reference-entry", "text": "International Union of Pure and Applied Chemistry (IUPAC). 2005. Terminology in Soil Sampling.International Union of Pure and Applied Chemistry, Analytical Chemistry Division. Pure Appl. Chem. 77(5): 827-841."},
+    {"type": "reference-entry", "text": "Jenkins, T.F., Walsh, M.E., Thorne, P.G., Thiboutot, S., Ampleman, G., Ranney, T.A., andGrant, C.L. 1997. Assessment of Sampling Error Associated with Collection and Analysis of Soil Samples at a Firing Range Contaminated with HMX. [Online] Available at: http://www.crrel.usace.army.mil/techpub/CRREL_Reports/reports/SR97_22.pdf (07 March 2005)."},
+    {"type": "reference-entry", "text": "Keith, L.H. 1991. Environmental Sampling and Analysis—A Practical Guide. Lewis Publishers, Boca Raton, FL."},
+    {"type": "reference-entry", "text": "Keith, L.H. 2002. Environmental Monitoringand Measurement Advisor—A New Expert System. [Online] Available at: http://www.emmaexpertsystem.com/EMMA-WTQA.html (verified April 2006)."},
+    {"type": "reference-entry", "text": "Kelly, W.D., Ratcliff, T.A., and Nenadic, C. Jr. 1992. Basic Statistics for Laboratories—A Primer for Laboratory Workers. John Wiley & Sons, Hoboken, NJ."},
+    {"type": "reference-entry", "text": "Lewis, D.L. 1988. Assessing and controlling sample contamination. In: L.H. Keith, ed. Principles of Environmental Sampling. American Chemical Society, Washington, DC, 118-144."},
+    {"type": "reference-entry", "text": "Maskarinic, M.P. and Moody, R.L. 1988. Storage and preservation of environmental sample. In: L.H. Keith, ed. Principles of Environmental Sampling. American Chemical Society, Washington, DC, 145-155."},
+    {"type": "reference-entry", "text": "Pulsipher, B., Gilbert, R., and Wilson, J. 2003. Measurement Uncertainty in Visual Sample Plan. [Online] Available at: http://dqo.pnl.gov/vsp/PNNLSA38977.pdf (verified February 2006)."},
+    {"type": "reference-entry", "continuation": true, "text": "Ramsey, M.H. 1998. Sampling as a source of measurement uncertainty: techniques for quantification and comparison with"},
+    {"type": "printed-page-number", "text": "49"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2b980e002345f14422dd3676d851d8a3a23afc1ffc6b278a20503d20571b1229"
+}

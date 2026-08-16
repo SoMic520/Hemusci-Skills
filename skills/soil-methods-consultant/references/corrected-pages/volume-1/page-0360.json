@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 360,
+  "sourceImageSha256": "dff4934817b961ed26e63881b1fac2dbb3cda69fae68e73d6cb6b0e9f66af5a3",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版35.1～35.2.1交叉比对"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验数百微米～6 cm、≥600种、10³～10⁵ m⁻²、2～4个月、Nielsen和Christensen三个年份、Fridericia及35.2.1/35.2.2层级"},
+    "secondVisualPass": {"status": "verified", "method": "从页末湿法原理反向复核至章题和作者，矫正分类层级、土壤探测器、对数量级和食性的误识别/误译；印刷页码329"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第35章", "title": "线蚓科动物"},
+    {"type": "author", "text": "S.M. Adl"},
+    {"type": "affiliation", "text": "Dalhousie University, Halifax, Nova Scotia, Canada"},
+    {"type": "section-heading", "level": 2, "number": "35.1", "title": "引言"},
+    {"type": "paragraph", "text": "线蚓科动物（enchytraeids）有时称“盆虫”（potworms），广布全球且常见于多数土壤。其分类属于环节动物门Annelida、环带纲Clitellata、寡毛类Oligochaeta、线蚓科Enchytraeidae，不应简化为“蚓蚓的一种”。不同物种体长从数百微米到6 cm。其内部解剖结构与蚓蚓相似；表皮和角质层通常透明，虽然某些类群的组织有浅色素，仍可在显微镜下由活体直接观察内部结构。"},
+    {"type": "source-fidelity-note", "scope": "35.1分类层级", "text": "中文本写“是蚓蚓（寡毛类：环带纲：线蚓科）的一种”，将科级类群错述为一个物种，且遗漏环节动物门层级。本Skill已恢复Oligochaeta: Annelida: Clitellata: Enchytraeidae的语义并用现代中文名并列。"},
+    {"type": "paragraph", "text": "已描述的水生和陆生线蚓科动物至少有600种，多数由欧洲材料描述（Dash，1990）；由于很多地区尚未采样，仍有大量物种待描述。Nielsen和Christensen（1959，1961，1963）的专著描述了许多欧洲物种；其后文献又报道了很多新种。Dash（1990）提供了属级检索表及众多北美物种名录。Schmelz（2003）近期综述了白线蚓属Fridericia。线蚓科的生物学见Dash（1983），生态学见Lagerloef等（1989）、Didden（1993）和van Vliet（2000）等综述。"},
+    {"type": "paragraph", "text": "线蚓科动物在大多数土壤的食物网和有机质分解中具有重要作用，甚至可见于积雪和冰川冰层之下。其在亚北极地区常见，那里有较大型物种；在有机质丰富土壤和森林地表层中更丰富。有机层丰度约为10³～10⁵ m⁻²。其食物包括宏观碎屑和微碎屑，尤喜已被真菌部分消化和软化的碎屑（Dózsa-Farkas，1982；Kasprzak，1982；Toutain等，1982）。它们可在正分解的根和凋落物内外穿行；至少有些物种难以或不能消化纤维素。随凋落物被摄入的原生生物、菌丝和细菌是重要食物组成，取食时还可摄入矿物颗粒。"},
+    {"type": "source-fidelity-note", "scope": "35.1丰度与食性", "text": "丰度按原图及英文原版确认为10³～10⁵ m⁻²，不是OCR中的10³～10%。macrodetritus and microdetritus也不应只笼统写成“碎屑”。"},
+    {"type": "paragraph", "text": "蚓茧中卵的发育通常需2～4个月，取决于物种和温度。线蚓科中可发生断裂生殖、孤雌生殖和自体受精。"},
+    {"type": "section-heading", "level": 2, "number": "35.2", "title": "采样与提取"},
+    {"type": "paragraph", "text": "用土壤取样器（soil probe/土钻）取得土样，然后在凉爽室内用原用于线虫的改良贝尔曼漏斗法提取线蚓科动物。提取效率可变，对某些物种和土壤可很低。线蚓科动物分布于土壤整个根系层；下述流程适于从野外采样点获得有代表性数量的个体。所需土芯数由研究目标决定，漏斗装置数（见35.2.1节）等于土芯数。第二种基于硅胶提取的方法（见35.2.2节）通常更高效、更快，但成本更高。"},
+    {"type": "source-fidelity-note", "scope": "35.2取样设备", "text": "中文本将soil probe误译为“土壤探测器”；此处是取出土芯的土壤取样器/土钻，已矫正。"},
+    {"type": "section-heading", "level": 3, "number": "35.2.1", "title": "湿法提取"},
+    {"type": "paragraph", "text": "本法通过加水使土壤结构解体。线蚓科动物移动时在重力作用下下沉；白炽灯等热源可加快其移动并增加收集数。筛网截留土壤颗粒。提取目标是尽可能多地收集个体，同时尽可能少地带入土壤颗粒。"},
+    {"type": "printed-page-number", "text": "329"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "fd8606e2190ed5653f9d39674dfdaaffa32be52b1fb794e2f0b191b3516913fa"
+}

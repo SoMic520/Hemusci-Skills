@@ -1,0 +1,50 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 539,
+  "sourceImageSha256": "2fd28793981f08370675b3bb6549971cf7ebbc32535af2b5d05e9d6f2f6e8496",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条对照原分辨率页面和两套OCR，完成Smernik（2001a）至Smernik等（2004）共4条参考文献及译校署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验¹³C上标、SOM、solid-state题名、卷页及Olk作者拼写"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由译校署名反向复核至首条文献，检查年份后缀、破折号、期刊卷页和印刷页码508"
+    }
+  },
+  "blocks": [
+    {
+      "type": "reference",
+      "text": "Smernik, R.J. and Oades, J.M. 2001a. ¹³C-NMR dipolar dephasing experiments for quantifying protonated and non-protonated carbon in soil organic matter and model systems. European Journal of Soil Science 52: 103–120."
+    },
+    {
+      "type": "reference",
+      "text": "Smernik, R.J. and Oades, J.M. 2001b. Background signal in solid-state ¹³C NMR of soil organic matter (SOM)—quantification and minimization. Solid State Nuclear Magnetic Resonance 20: 74–84."
+    },
+    {
+      "type": "reference",
+      "text": "Smernik, R.J. and Oades, J.M. 2002. Paramagnetic effects on solid state carbon-13 nuclear magnetic resonance spectra of soil organic matter. Journal of Environmental Quality 31: 414–420."
+    },
+    {
+      "type": "reference",
+      "text": "Smernik, R.J., Olk, D.C., and Mahieu, N. 2004. Quantitative solid-state ¹³C NMR spectroscopy of organic matter fractions in lowland rice soils. European Journal of Soil Science 55: 367–379."
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "Smernik等（2004）",
+      "text": "Paddle OCR把第二作者Olk误识为Ok；原页和正式论文均为D.C. Olk，已恢复。"
+    },
+    {
+      "type": "translator-credit",
+      "text": "曲植、党海燕译，王朝辉校。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "be68fecb43d991e9e82917d0543d16f0bee140f10afc56d23034b63c419a8bcd"
+}

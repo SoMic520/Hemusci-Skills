@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 61,
+  "sourceImageSha256": "fac55cf445c4338c6590f65832fd7f541b4e385e1e2d32c744a1c1b9a6164fe1",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐式对照原分辨率图和两套OCR，完成59.2.4、59.2.5、式（59.3）～（59.7）、59.3引言及图59.3"},
+    "precisionPass": {"status": "verified", "method": "核验w₀/m₀/m_dry、e₀/ρ_s/ρ₀/V₀/m_s、e(Δh)/πr²(h₀−Δh)、C_c/C_s/σ_p及对数斜率"},
+    "secondVisualPass": {"status": "verified", "method": "由图59.3图注反向复核至59.2.4，逐层检查全部分式、下标、Δ、π、曲线区间和设备编号；印刷页码570"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "59.2.4", "title": "计算", "level": 3},
+    {"type": "paragraph", "text": "每个样品先确定初始条件。由试验前初始含水状态质量m₀和烘干质量m_dry求初始质量含水量w₀；由土粒密度ρ_s、初始干容重ρ₀、初始样品体积V₀（环刀体积）及干土质量m_s求初始孔隙比e₀。"},
+    {"type": "heading", "number": "59.2.5", "title": "结果说明", "level": 3},
+    {"type": "paragraph", "text": "以施加压力的对数与应变、容重或孔隙比e等压实参数作图。环刀半径r、初始高度h₀，轴向位移Δh后样品体积为πr²(h₀−Δh)，由式（59.5）求e。压缩曲线给出C_s、C_c和σ_p；C_c为VCL斜率的绝对值，C_s为SL斜率的绝对值。σ_p见59.4。"},
+    {"type": "source-fidelity-note", "text": "原书式（59.6）和（59.7）把分母写成log(Δσ)，数学上不是半对数压缩曲线的斜率。正确分母为Δlog₁₀σ=log₁₀(σ₂/σ₁)；为使指数按惯例为正，采用(e₁−e₂)/log₁₀(σ₂/σ₁)，其中σ₂>σ₁。原文还把孔隙比e称‘孔隙率’，已纠正。"},
+    {"type": "heading", "number": "59.3", "title": "田间原位平板载荷试验：板式贯入计", "level": 2},
+    {"type": "paragraph", "text": "平板载荷试验源于越野车辆通行阻力预测。Alexandrou和Earl（1995）指出可用于测预压应力。板式贯入计含荷载传感器测力、深度传感器测圆板下沉，以及电机按设定位移速率驱动圆板。"},
+    {"type": "figure", "number": "59.3", "caption": "板式贯入计纵剖面。", "components": ["(1) 动力单元", "(2) 数据记录开关", "(3) 数据存储/计算机", "(4) 深度传感器", "(5) 荷载传感器", "(6) 保护框/站人踏板", "(7) 贯入板", "外接电源"], "source": "据Dawidowski, Morrison and Snieg, Trans. Am. Soc. Agric. Eng. 44:1059, 2001改绘。"}
+  ],
+  "formulas": [
+    {"label": "(59.3)", "plain": "w₀ = (m₀ − m_dry)/m_dry", "latex": "w_0=\\frac{m_0-m_{\\mathrm{dry}}}{m_{\\mathrm{dry}}}", "variables": [{"symbol": "m₀", "meaning": "压缩试验前样品湿质量"}, {"symbol": "m_dry", "meaning": "烘干样品质量"}, {"symbol": "w₀", "meaning": "初始质量含水量（小数）"}]},
+    {"label": "(59.4)", "plain": "e₀ = ρ_s/ρ₀ − 1 = ρ_s V₀/m_s − 1", "latex": "e_0=\\frac{\\rho_s}{\\rho_0}-1=\\frac{\\rho_sV_0}{m_s}-1", "variables": [{"symbol": "ρ_s", "meaning": "土粒密度"}, {"symbol": "ρ₀", "meaning": "初始干容重"}, {"symbol": "V₀", "meaning": "初始样品体积/环刀体积"}, {"symbol": "m_s", "meaning": "烘干土质量"}]},
+    {"label": "(59.5)", "plain": "e(Δh) = ρ_s V(Δh)/m_s − 1 = ρ_s πr²(h₀−Δh)/m_s − 1", "latex": "e(\\Delta h)=\\frac{\\rho_sV(\\Delta h)}{m_s}-1=\\frac{\\rho_s\\pi r^2(h_0-\\Delta h)}{m_s}-1", "variables": [{"symbol": "r", "meaning": "环刀内半径"}, {"symbol": "h₀", "meaning": "样品初始高度"}, {"symbol": "Δh", "meaning": "轴向压缩位移；正值表示高度减少"}]},
+    {"label": "(59.6，数学校正式)", "plain": "C_c = (e₁ − e₂)/log₁₀(σ₂/σ₁), σ₁,σ₂∈VCL, σ₂>σ₁", "latex": "C_c=\\frac{e_1-e_2}{\\log_{10}(\\sigma_2/\\sigma_1)},\\quad \\sigma_1,\\sigma_2\\in\\mathrm{VCL},\\ \\sigma_2>\\sigma_1", "variables": [{"symbol": "C_c", "meaning": "原始压缩指数，取正值"}]},
+    {"label": "(59.7，数学校正式)", "plain": "C_s = (e₁ − e₂)/log₁₀(σ₂/σ₁), σ₁,σ₂∈SL, σ₂>σ₁", "latex": "C_s=\\frac{e_1-e_2}{\\log_{10}(\\sigma_2/\\sigma_1)},\\quad \\sigma_1,\\sigma_2\\in\\mathrm{SL},\\ \\sigma_2>\\sigma_1", "variables": [{"symbol": "C_s", "meaning": "再压缩/膨胀指数，取正值"}]}
+  ],
+  "tables": [],
+  "contentSha256": "a6ef4602ed7fc23ed5e466a417cad0824d1bc58b0f83664297000e2271a7a706"
+}

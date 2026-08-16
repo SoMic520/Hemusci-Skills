@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 280,
+  "sourceImageSha256": "d4d4a80fd5a46f5deeb1cc7363fb8672235bdd0538285dbef5d5be202228ae16",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第28章第249页，人工恢复注释（8）续文、（9）～（11）、仪器选择及Ali至Chen的8条参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符区分HClO₄中字母l与数字1，核验HNO₃、H₂O₂、HF、HBF₄、HCl、H₃BO₃、AAS/GFAAS/ICP-AES/ICP-MS、ppb及ASTM书录"},
+    "secondVisualPass": {"status": "verified", "method": "从Chen等（2005）反向复核至页首‘额定功率下’，确认注释续文→仪器选择→参考文献层级、高氯酸安全条件及印刷页码249"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第28章｜有机质土的化学特性｜"},
+    {"type": "interference-note-continuation", "continuesFromPage": 279, "text": "额定功率下再次消解10～15 min。冷却后在通风橱中拧松管盖排出管内气体，去掉盖子后将管子静置2 min以便排出所有气体。如果消解不充分，那么将样品重新放入微波炉消解直至彻底消解。将样品转移至聚丙烯容量瓶中，用蒸馏水或去离子水冲洗消化管和盖子后定容至50 mL。这种消解方法并不适用于土壤消解液中硼的测定。"},
+    {"type": "method-selection-note", "number": "（9）", "text": "必须根据具体需求和设备情况来选择最佳消解方法。可供选择的消解液包括HNO₃+HClO₄+HF（Papp和Harms，1985）、HNO₃+H₂O₂+HF和HNO₃+H₂O₂+HClO₄+HF（Weiss等，1999）、HNO₃+HBF₄（Krachler等，2002）、HNO₃+HCl和HNO₃+HCl+HF（Burt等，2003）、HNO₃+HClO₄。加热方式可以选择电热板、微波炉或电热消解器。所用容器可以选择开放或密闭容器。用HNO₃+HClO₄处理泥炭或土壤样品时，并非每次都能消解完全，有时可能会出现残留物质（硅酸物质）。用Whatman 42号滤纸过滤可以有效地去除溶液中那些能够堵塞光谱分析仪毛管尖端的固体颗粒。"},
+    {"type": "safety-note", "number": "（9）-高氯酸", "text": "当使用高氯酸溶液进行酸消解时需要配置高氯酸烟罩。高氯酸是一种强氧化剂，可能会出现很多风险，不能单独使用，但是可以与其他酸联合使用。作为一种安全措施，推荐在用HNO₃/HClO₄消解前先用HNO₃溶液进行消解。只有当制造商对操作流程进行了检验和许可时才能在微波炉中使用HClO₄溶液。当消解混合物接近干燥时，HClO₄会发生爆炸反应。通常情况下，由于高氯酸盐是易溶物，所以使用HClO₄可以大大减少HNO₃的使用量，并且可以使样品在短时间内完全氧化。"},
+    {"type": "note-item", "number": "（10）", "text": "分析人员可以根据仪器的检测范围和离子浓度来选择合适的稀释倍数。"},
+    {"type": "instrument-selection-note", "number": "（11）", "text": "原子吸收光谱法（AAS）可以用于测定消解液中的金属元素，使用这种方法时需要在提取液（测定Ca和Mg）中加入镧作为抑制剂。钠和钾通常用火焰分光光度计测定。测定某些含量低于ppb水平的元素时需要用石墨炉原子吸收法（GFAAS）。大多数元素均可用电感耦合等离子体原子发射光谱法（ICP-AES）和电感耦合等离子体质谱仪（ICP-MS）测定。硒可以用氢化物发生系统连接于电感耦合等离子体发射光谱仪进行测定。如果需要测定硼的含量，就需要用无H₃BO₃的消解液测定。磷、硫和硼可以采用分光光度法测定。"},
+    {"type": "heading", "level": 1, "title": "参考文献"},
+    {"type": "reference", "text": "Ali, M. W., Zoltai, S. C., and Radford, F. G. 1988. A comparison of dry and wet ashing methods for the elemental analysis of peat. Can. J. Soil Sci. 68: 443-447."},
+    {"type": "reference", "text": "Allen, S. E. 1989. Chemical Analysis of Ecological Materials, 2nd edn. Blackwell Scientific Publications, Oxford, UK."},
+    {"type": "reference", "text": "Anderson, D. L. and Beverly, R. B. 1985. The effects of drying upon extractable phosphorus, potassium and bulk density of organic and mineral soils of the Everglades. Soil Sci. Soc. Am. J. 49: 362-366."},
+    {"type": "reference", "text": "Andrejko, M. J., Fiene, F., and Cohen, A. D. 1983. Comparison of ashing techniques for determination of inorganic content of peats. In: P. M. Jarret, ed. Testing of Peats and Organic Soils. ASTM STP 820. American Society for Testing and Materials, Philadelphia, PA, 5-20."},
+    {"type": "reference", "text": "ASTM (American Society for Testing and Materials). 1988 (02974). Annual Book of ATM Standards, Volume 04.08. ASTM, Philadelphia, PA."},
+    {"type": "source-fidelity-note", "text": "上一条原书印为‘(02974)’和‘ATM Standards’；结合本节28.3水分、灰分和有机质测定主题，可核验的标准号与书名应为‘D2974’和‘ASTM Standards’。原印刷文本与勘误同时保留。"},
+    {"type": "reference", "text": "ASTM (American Society for Testing and Materials). 1997. Annual Book of ATM Standards, Volume 11.05. ASTM, Philadelphia, PA."},
+    {"type": "source-fidelity-note", "text": "1997年该条也印为‘ATM Standards’，规范书名应为‘ASTM Standards’。"},
+    {"type": "reference", "text": "Burt, R., Wilson, M. A., Mays, M. D., and Lee, C. W. 2003. Major and trace elements of selected pedons in the USA. J. Environ. Qual. 32: 2109-2121."},
+    {"type": "reference", "text": "Chen, B., Krachler, M., Gonzalez, Z. I., and Shotyk, W. 2005. Improved determination of arsenic in environmental and geological specimens using HG-AFS. J. Anal. At. Spectrom. 20: 95-102."},
+    {"type": "printed-page-number", "text": "249"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "54c762554c1bacaa9f1924d1270e1dab75fc0fbfdd44ba7e27e1f9a0ef5706d7"
+}

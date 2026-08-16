@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 270,
+  "sourceImageSha256": "e3d0198edb1316051b78b5beff246dc6c638fbd898b0355e719ee5edaebf8215",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第27章第239页，人工恢复步骤（4）、计算式（27.2）～（27.3）、27.3.3全文、式（27.4）及27.4起始段"},
+    "precisionPass": {"status": "verified", "method": "逐字符核骎cmolᶜ·kg⁻¹、cmolᶜ·L⁻¹、M⁺、H⁺、Al³⁺、NH₄Cl、BaCl₂、KCl、DF、lg、R²、℅、公式括号和引文人名"},
+    "secondVisualPass": {"status": "verified", "method": "从页底Bailey等（2004）反向复核至页首步骤（4），确认步骤→计算→27.3.3→27.4层级、三条编号公式位置及印刷页码239"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第27章｜森林土壤养分有效性的测定｜"},
+    {"type": "procedure-step", "number": "（4）", "text": "用AAS或其他合适的仪器测定上清液中的Ca、Mg、K、Na、Al、Fe和Mn含量，在测定Ca、K、Mg和Na时可能需要稀释（10～100倍）。在利用AAS测定Ca、Mg和K时，每10 mL的稀释浸提液中需要添加0.1 mL镧溶液和0.1 mL铯溶液（有关这方面和其他方面分析的详细说明，请参考AAS使用手册）。若有需要，则可以利用0.2%硝酸酸化以便防止样品中铁和铝的损失。"},
+    {"type": "procedure-group", "number": "3.", "title": "计算"},
+    {"type": "calculation-item", "number": "（1）", "title": "交换性阳离子"},
+    {"type": "formula-reference", "number": "（27.2）", "text": "M⁺（cmolᶜ·kg⁻¹）= C（cmolᶜ·L⁻¹）×（0.025 L/土重 g）×1 000 g·kg⁻¹×DF"},
+    {"type": "formula-definition", "text": "式中，M⁺表示某种吸附性阳离子的浓度（cmolᶜ·kg⁻¹）；C表示测得的NH₄Cl浸提液中该种阳离子的浓度（cmolᶜ·L⁻¹）；DF表示稀释倍数（若需要稀释）。"},
+    {"type": "calculation-item", "number": "（2）", "title": "有效阳离子交换量"},
+    {"type": "formula-reference", "number": "（27.3）", "text": "ECEC（cmolᶜ·kg⁻¹）= Σ cmolᶜ（Ca、Mg、K、Na、Fe、Al、Mn）·kg⁻¹"},
+    {"type": "quality-control-reference", "text": "有关质量控制、标准物质及不同土液比对结果的影响等方面的详细介绍，参见18.2.4。"},
+    {"type": "heading", "level": 2, "number": "27.3.3", "title": "交换性H⁺对有效阳离子交换量的贡献"},
+    {"type": "body", "text": "很难确定交换反应所产生的H⁺的数量，以及H⁺对NH₄Cl或BaCl₂浸提法测得的ECEC的贡献，因为浸提液中的某些H⁺可能不仅仅来自交换性H⁺（例如，有机酸解离的H⁺），而且在有Al—OH配合物参与的反应或游离态Al³⁺水解过程中会产生或消耗H⁺（Thomas和Hargrove，1984）。盐溶液、离子强度和土液比也会影响交换位点置换的交换性H⁺的数量。因此，Thomas（1982）建议用1 mol·L⁻¹ KCl浸提滴定法（具体细节参见第18章）来确定交换性H⁺对ECEC或盐基饱和度的贡献。交换性H⁺在酸性有机层（例如，森林枯枝落叶层）中比较丰富，但是在酸性矿质土壤（例如，Bhf和Bf层）中也有足以引起关注的高含量的交换性H⁺（Ross等，1996；Bélanger等，2006）。Bélanger等（2006）指出‘从根本上来说，任何有效的ECEC测定方法都必须能够估算交换性H⁺浓度或者有证据能够表示其可以忽略’。但直接测定交换性H⁺的方法很耗费时间，不适用于常规分析。因此，Bélanger等（2006）利用水浸法测得的土壤pH值（见第16章）和ECEC（用BaCl₂溶液浸提，详见第18章）估算发育于花岗岩类基岩或母质的酸性森林土有机腐殖质层和灰化B层样品中交换性H⁺浓度。虽然式（27.4）能够很好地估算各种类型森林的有机层和灰化B层中交换复合体上交换性H⁺的比例，但若需要更好的预测结果，则建议读者用自己的样品建立具体的函数关系。"},
+    {"type": "formula-reference", "number": "（27.4）", "text": "lg（交换性H⁺）/ECEC = 0.682−（0.308×水浸法所得土壤pH值）；R² = 0.691"},
+    {"type": "heading", "level": 1, "number": "27.4", "title": "元素P、K、Ca和Mg的构成及其在矿物风化过程中的释放"},
+    {"type": "body", "text": "人们很早就认识到树木中的钙和镁主要源自矿物风化释放到土壤溶液中的钙和镁（van Breemen等，2000；Blum等，2002），另外，还有研究指出矿物母质的元素构成可以作为衡量树木钙和镁营养状况的一个可靠指标。例如，Thiffault等（2006）将生长在魁北克省的黑云杉和香脂冷杉（Abies balsamea（L.）Mill.）进行全树采集和仅茎干采集，并检测其土壤和叶片的营养状况，发现矿物母质C层的元素含量对养分限制的指示作用比表层土壤有效养分含量更明显：在上部土层（包括森林枯枝落叶层）中有效性低的钙、镁信号非常微弱，可能因为在这些土层中，物质的化学组成在很大的程度上受养分比例比较均衡的森林凋落物的控制（Knecht和Göransson，2004）。还有研究表明矿物母质的元素构成可能是树木死亡率和钙、镁营养的一个重要的预测器。例如，van Breemen等（1997）研究表明美国东北部糖槭的死亡率随矿物母质C层中钙元素含量的下降而升高。与森林枯枝落叶层的钙、镁构成相比，糖槭的叶片中钙、镁的营养状况及死亡率与B层的关系更为紧密（Bailey等，2004）。"},
+    {"type": "printed-page-number", "text": "239"}
+  ],
+  "formulas": [
+    {"number": "27.2", "context": "计算某种交换性阳离子M⁺的浓度", "display": "M⁺（cmolᶜ·kg⁻¹）= C（cmolᶜ·L⁻¹）×（0.025 L/土重 g）×1 000 g·kg⁻¹×DF", "latex": "M^+(cmol_c\\,kg^{-1})=C(cmol_c\\,L^{-1})\\times(0.025\\,L/(m\\,g))\\times1000\\,g\\,kg^{-1}\\times DF"},
+    {"number": "27.3", "context": "由各交换性阳离子总量求ECEC", "display": "ECEC（cmolᶜ·kg⁻¹）= Σ cmolᶜ（Ca、Mg、K、Na、Fe、Al、Mn）·kg⁻¹", "latex": "ECEC(cmol_c\\,kg^{-1})=\\sum cmol_c(Ca,Mg,K,Na,Fe,Al,Mn)\\,kg^{-1}"},
+    {"number": "27.4", "context": "用水浸法土壤pH值估算交换性H⁺对ECEC的贡献", "display": "lg（交换性H⁺）/ECEC = 0.682−（0.308×水浸法所得土壤pH值）；R² = 0.691", "latex": "lg(exchangeable\\ H^+)/ECEC=0.682-(0.308\\times pH_{water});\\ R^2=0.691"}
+  ],
+  "tables": [],
+  "contentSha256": "a02e9c49899cf8fb354ff9ede1bddef95b936601dd727107dfc864b03f09a52d"
+}

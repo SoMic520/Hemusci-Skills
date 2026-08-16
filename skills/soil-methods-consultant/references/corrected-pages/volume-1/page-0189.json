@@ -1,0 +1,49 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 189,
+  "sourceImageSha256": "3295c8516690d3776708daeb8dadb328813e8b9ffaf7fda6abb267b4d25fbd06",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章节末页，并与Apple Vision、PaddleOCR交叉比对，人工恢复19.3.3续项、校正公式、19.3.4注释及本页16条参考文献内容"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Y、Z%、mg g⁻¹、g kg⁻¹、0.5 g、Z×10×Y/0.5、NH₄-N、英文作者、年份、卷页、2ⁿᵈ edn.和参考文献续接"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Silva-Bremner未完条目反向复核至（2），确认“干残余物”、三项优点、全部英文标点及页码158"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "list-item", "number": "（2）", "text": "干残余物的重量（g）是步骤8中测得的Y。Z%乘以10后把百分含量转换成mg g⁻¹或g kg⁻¹。由于所有的原始土壤样品重量为0.5 g，故非交换态铵原始土壤校正含量（g kg⁻¹）=Z×10×Y/0.5。", "formulaRef": "19.2"},
+    {"type": "section-heading", "level": 3, "number": "19.3.4", "title": "注释"},
+    {"type": "paragraph", "text": "与最初的Silva-Bremner法相比，用自动定氮仪测定土壤残余物中的非交换态铵有以下几个优点。"},
+    {"type": "note-item", "number": "（1）", "text": "避免了使用氢氟酸。"},
+    {"type": "note-item", "number": "（2）", "text": "提高了方法的精确性。"},
+    {"type": "note-item", "number": "（3）", "text": "简化了步骤，而且若把元素分析仪与质谱仪连接，则还可以测定氮的同位素比率，也缩短了分析需要的时间。"},
+    {"type": "references-heading", "text": "参考文献"},
+    {"type": "reference-entry", "text": "Barshad, I. 1951. Cation exchange in soils: I. Ammonium fixation and its relation to potassium fixation and to determination of ammonium exchange capacity. Soil Sci. 72: 361-371."},
+    {"type": "reference-entry", "text": "Bremner, J.M. 1965. Inorganic forms of nitrogen. In: C.A. Black et al., eds., Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties. American Society of Agronomy, Madison, WI, 1179-1238."},
+    {"type": "reference-entry", "text": "Bremner, J.M., Nelson, D.W., and Silva, J.A. 1967. Comparison and evaluation of methods of determining fixed ammonium in soils. Soil Sci. Soc. Am. Proc. 31: 466-472."},
+    {"type": "reference-entry", "text": "Doram, D.R. and Evans, L.J. 1983. Native fixed ammonium and fixation of added ammonium in relation to clay mineralogy in some Ontario soils. Can. J. Soil Sci. 63: 631-639."},
+    {"type": "reference-entry", "text": "Drury, C.F. and Beauchamp, E.G. 1991. Ammonium fixation, release, nitrification and immobilization in high and low fixing soils. Soil Sci. Soc. Am. J. 55: 125-129."},
+    {"type": "reference-entry", "text": "Green, C.J., Blackmer, A.M., and Yang, N.C. 1994. Release of fixed ammonium during nitrification in soils. Soil Sci. Soc. Am. J. 58: 1411-1415."},
+    {"type": "reference-entry", "text": "Hinman, W.C. 1964. Fixed ammonium in some Saskatchewan soils. Can. J. Soil Sci. 44: 151-157."},
+    {"type": "reference-entry", "text": "Keeney, D.R. and Nelson, D.W. 1982. Nitrogen—inorganic forms. In: A.L. Page et al., eds., Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties, 2ⁿᵈ edn. American Society of Agronomy, Soil Science Society America, Madison, WI, 643-698."},
+    {"type": "reference-entry", "text": "Kempers, A.J. and Zweers, A. 1986. Ammonium determination in soil extracts by the salicylate method. Commun. Soil Sci. Plant Anal. 17: 715-723."},
+    {"type": "reference-entry", "text": "Kudeyarov, V.N. 1981. Mobility of fixed ammonium in soil. Ecol. Bull. (Stockholm) 33: 281-290."},
+    {"type": "reference-entry", "text": "Liang, B.C., MacKenzie, A.F., and Gregorich, E.G. 1999. Measurement of fixed ammonium and nitrogen isotope ratios using dry combustion. Soil Sci. Soc. Am. J. 63: 1667-1669."},
+    {"type": "reference-entry", "text": "McBeth, I.G. 1917. Fixation of ammonia in soils. J. Agr. Res. 9: 141-155."},
+    {"type": "reference-entry", "text": "Nieder, R., Neugebauer, E., Willenbockel, A., Kersebaum, K.C., and Richter, J. 1996. Nitrogen transformation in arable soils of north-west Germany during the cereal growing season. Biol. Fert. Soils. 22: 179-183."},
+    {"type": "reference-entry", "text": "Scherer, H.W. 1993. Dynamics and availability of the non-exchangeable NH₄-N—a review. Eur. J. Agron. 2: 149-160."},
+    {"type": "reference-entry", "text": "Scherer, H.W. and Werner, W. 1996. Significance of soil micro-organisms for the mobilization of non-exchangeable ammonium. Biol. Fert. Soils. 22: 248-251."},
+    {"type": "reference-entry", "continued": true, "text": "Silva, J.A. and Bremner, J.M. 1966. Determination and isotope-ratio analysis of different forms of nitrogen in soils. 5. Fixed"},
+    {"type": "printed-page-number", "text": "158"}
+  ],
+  "formulas": [
+    {
+      "number": "19.2",
+      "printedNumber": null,
+      "context": "非交换态铵原始土壤校正含量",
+      "display": "非交换态铵原始土壤校正含量（g kg⁻¹）= Z × 10 × Y / 0.5",
+      "latex": "\\text{非交换态铵原始土壤校正含量}\\,(\\mathrm{g}\\,\\mathrm{kg}^{-1})=Z\\times10\\times Y/0.5"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "79fe4889030aeb5e0a3183c8ccfb0cb3e6b5ff46e36658d93f4dae230f937621"
+}

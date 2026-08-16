@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 90,
+  "sourceImageSha256": "a7df187b567f32fa69f969259814e4349ed41212efacac999c3677c9345cb977",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐字符对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复作者、题名、出版号、卷页和译校署名"},
+    "precisionPass": {"status": "verified", "method": "放大核对SFA、15300301、15330501、32-69W、154-71W、期刊卷页、原书ammoniumin/Ammoniain连写及全部标点"},
+    "secondVisualPass": {"status": "verified", "method": "由Maynard和Kalra条目至Technicon 1973逐条反向复核，并核验赵丽霞、李永涛、翁莉萍署名及印刷页码"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第6章｜硝态氮和可交换性铵态氮｜"},
+    {"type": "reference-entry", "text": "Maynard, D.G. and Kalra, Y.P. 1993. Nitrate and extractable ammonium nitrogen. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. Lewis Publishers, Boca Raton, FL, 25-38."},
+    {"type": "reference-entry", "text": "Muneta, P. 1980. Analytical errors resulting from nitrate contamination of filter paper. J. Assoc. Off. Anal. Chem. 63: 937-938."},
+    {"type": "reference-entry", "text": "O.I. Analytical. 2001a. Nitrate plus nitrite nitrogen and nitrite nitrogen in soil and plant extracts by segmented flow analysis (SFA). Publication No. 15300301. College Station, TX, 27."},
+    {"type": "reference-entry", "text": "O.I. Analytical.2001b. Ammonia in soil and plant extracts by segmented flow analysis (SFA). Publication No. 15330501. College Station, TX, 17."},
+    {"type": "reference-entry", "text": "Searle, P.L. 1984. The Berthelot or indophenol reaction and its use in the analytical chemistry of nitrogen: a review. Analyst 109: 549-568."},
+    {"type": "reference-entry", "text": "Selmer-Olsen, A.R. 1971. Determination of ammoniumin soil extracts by an automated indophenol method. Analyst 96: 565-568."},
+    {"type": "reference-entry", "text": "Shahandeh, H., Wright, A.L., Hons, F.M., and Lascano, R.J. 2005. Spatial and temporal variation in soil nitrogen parameters related to soil texture and corn yield. Agron. J. 97: 772-782."},
+    {"type": "reference-entry", "text": "Sparrow, S.D. and Masiak, D.T. 1987. Errors in analysis for ammonium and nitrate caused by contamination from filter papers. Soil Sci. Soc. Am. J. 51: 107-110."},
+    {"type": "reference-entry", "text": "Technicon Instrument Corporation 1971. Nitrate and Nitrite in Water. Industrial method No. 32-69W. Technicon Instrument Corporation, Tarrytown, New York, NY."},
+    {"type": "reference-entry", "text": "Technicon Instrument Corporation 1973. Ammoniain Water and Seawater. Industrial method No.154-71W. Technicon Instrument Corporation, Tarrytown, New York, NY."},
+    {"type": "translator-note", "text": "（赵丽霞　译，李永涛　翁莉萍　校）"},
+    {"type": "printed-page-number", "text": "59"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d77d90c94091c298a82c03a5e7e37768d3b52b2c0850c9e6bc795a4421d409cd"
+}

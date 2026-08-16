@@ -1,0 +1,91 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 347,
+  "sourceImageSha256": "cd1361912743480d6585ae4a4c5ea808f9fe40ada559d014c29629cc90c65895",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐项核对85.10注释第(3)～(8)项及本页12条参考文献"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对方法名、作者年份、卷期页码和一/二版标记"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "协方差/自协方差/半方差术语、克里金邻域及英文标点二次反查；印刷页码856"
+    }
+  },
+  "blocks": [
+    {
+      "type": "notes",
+      "items": [
+        {
+          "number": 3,
+          "text": "异常值存在时可使用稳健半方差估计（Cressie，1993；Lark，2000）或比较不同估计器（Deutsch和Journel，1998）。稳健估计不能替代对非平稳趋势的识别与去除。"
+        },
+        {
+          "number": 4,
+          "text": "同时包含较均匀的小距离和大距离样本对，有利于精确估计块金值、短尺度结构、变程及基台。"
+        },
+        {
+          "number": 5,
+          "text": "小数据集的经验半方差本身不稳定；图形拟合可作为探索，但模型参数与不确定性必须结合数据对数、重采样或交叉验证判断，不能据“无偏”字样保证可靠。"
+        },
+        {
+          "number": 6,
+          "text": "对二阶平稳数据，自协方差、自相关和半方差包含等价的二阶空间/时间结构信息；半方差常更便于作图和克里金建模。"
+        },
+        {
+          "number": 7,
+          "text": "协同克里金和交叉半方差等多变量方法可利用易测辅助变量提高难测土壤属性的空间估计精度，也可描述多个过程的共同尺度结构；交叉结构本身表示关联，不单独证明因果影响。"
+        },
+        {
+          "number": 8,
+          "text": "交叉验证和模型检验客观、可复验，能评价预测性能，但未必唯一识别块金、基台或整个半方差模型。模型选择还应匹配研究目的及克里金邻域实际使用的滞后距。"
+        }
+      ],
+      "references": [
+        "Cressie，1993",
+        "Lark，2000",
+        "Deutsch和Journel，1998",
+        "Nielsen和Wendroth，2003"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原注(3)把稳健估计同时当作非平稳性的处理法，现限制为抗异常值，并保留去趋势要求；原注(5)语句缺失比较对象且“无偏参数”无法由小样本图形拟合保证；原注(7)把交叉变异写成单向影响，校正为关联结构。"
+    },
+    {
+      "type": "heading",
+      "title": "参考文献",
+      "level": 2
+    },
+    {
+      "type": "references",
+      "entries": [
+        "Alfaro, M. 1980. The random coin method: solution of the problem of the simulation of a random function in the plane. Math. Geol. 12:25–32.",
+        "Barnes, R.J. 1991. The variogram sill and the sample variance. Math. Geol. 23:673–678.",
+        "Cambardella, C.A., Moorman, T.B., Novak, J.M., Parkin, T.B., Karlen, D.L., Turco, R.F., and Konopka, A.E. 1994. Field-scale variability of soil properties in central Iowa soils. Soil Sci. Soc. Am. J. 58:1501–1511.",
+        "Cressie, N. 1985. Fitting variogram models by weighted least squares. J. Int. Assoc. Math. Geol. 17:563–586.",
+        "Cressie, N. 1991. Statistics for Spatial Data, 1st ed. John Wiley & Sons, New York.",
+        "Cressie, N. 1993. Statistics for Spatial Data, 2nd ed. John Wiley & Sons, New York.",
+        "Deutsch, C.V. and Journel, A.G. 1998. GSLIB Geostatistical Software Library and User’s Guide, 2nd ed. Oxford University Press, New York.",
+        "Fagroud, M. and van Meirvenne, M. 2002. Accounting for soil spatial autocorrelation in the design of experimental trials. Soil Sci. Soc. Am. J. 66:1134–1142.",
+        "Faulkner, B.R. 2002. Java classes for nonprocedural variogram modeling. Comput. Geosci. 28(3):387–397.",
+        "Goovaerts, P. 1997. Geostatistics for Natural Resources Evaluation. Oxford University Press, New York.",
+        "Goovaerts, P. and Chiang, C. 1993. Temporal persistence of spatial patterns for mineralizable nitrogen and selected soil properties. Soil Sci. Soc. Am. J. 57:397–414.",
+        "Gotway, C.A. 1991. Fitting semivariogram models by weighted least squares. Comput. Geosci. 17:171–172.",
+        "Hawkins, D.M. 1980. Identification of Outliers. Chapman and Hall, London, UK."
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "Gotway条目原印卷号“117”，按期刊卷序及同年文献校正为“17”。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "47df219f30ebd62699b4aa71a4d97f6c42d4bdb4b0687827030eecf13bd768e4"
+}

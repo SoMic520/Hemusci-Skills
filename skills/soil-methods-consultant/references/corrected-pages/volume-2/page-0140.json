@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 140,
+  "sourceImageSha256": "a0d740c0777a25224738e7d11a54d236d6004ed0f62fb192cd126ab5111bb084",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段对照原分辨率图和两套OCR，完成68.4.2计算/注释、68.4.3式(68.6)—(68.9)及68.4.4原理和材料(1)—(2)"},
+    "precisionPass": {"status": "verified", "method": "核验TP/PD/BD、1.55/2.65、%OM/%ash/%solids、18%、5/10/2/1.5/0.5 cm、V_R及气体类型"},
+    "secondVisualPass": {"status": "verified", "method": "由尼龙纱布反向复核至TDR计算，检查公式分母、质量分数归一化、真空适用情形和脱湿环结构；印刷页码649"}
+  },
+  "blocks": [
+    {"type": "heading", "title": "68.4.2计算与注释", "level": 4},
+    {"type": "paragraph", "text": "用经材料专属标定的介电响应求饱和体积含水量。若确认气体全部排出，可取TP=θ_v,sat；结合PD可由BD=PD(1−TP)反算容重。关键是缓慢升水位并验证完全饱和。该法较适于湿润棕色泥炭（Caron等，2002）；风干白色或黑色泥炭误差可能较大（Wever，1995），应延长饱和并定期检查TDR读数是否稳定。必要时在张力箱中排气（Nemati等，2002）。新割带根盆栽植物可能释放大量气体，饱和时可施真空防止截留；田间泥炭还常有甲烷滞留（Buttler等，1991）。"},
+    {"type": "heading", "number": "68.4.3", "title": "总孔隙度计算", "level": 3},
+    {"type": "paragraph", "text": "测得BD后，可由BD和PD求TP。若未直接测PD，本书以干固体灰分估算有机质质量分数F，并假设有机组分颗粒密度1.55 g·cm⁻³、矿质灰分颗粒密度2.65 g·cm⁻³（Verdonck等，1978）。所有百分数必须在同一烘干基上并先归一化为质量分数。"},
+    {"type": "variables", "items": [
+      "%OM：干基有机质质量百分数", "%ash：干基灰分质量百分数", "%solids：干固体总百分数=%OM+%ash，归一化样品为100%",
+      "F：有机质占干固体的质量分数，0—1", "PD：混合固体颗粒密度（g·cm⁻³或Mg·m⁻³）",
+      "BD：同单位的容重", "TP：总孔隙度体积分数，0—1"
+    ]},
+    {"type": "paragraph", "text": "也可用密度瓶法直接测颗粒密度，置换液可用煤油或乙醇（Blake和Hartge，1986）。由灰分估算的PD与真实值误差可达18%（Macfarlane，1969），高精度工作应优先直接测PD。"},
+    {"type": "heading", "number": "68.4.4", "title": "泥炭的脱湿曲线", "level": 3},
+    {"type": "paragraph", "text": "该法在欧洲及国际园艺学会的苗圃、温室栽培基质研究中广泛使用（Verdonck和Gabriels，1992；Hidding，1999），求不同水势下的体积含水量/持水量。单纯浸泡—重力排水法中，有效水势随样柱高度变化；若不报告环高，结果不够准确，只宜作单点持水能力评价。完整脱湿曲线能提供更多水分保持信息。"},
+    {"type": "heading", "title": "材料（本页部分）", "level": 4},
+    {"type": "list", "items": [
+      "同内径双环：每环高5 cm、内径10 cm。底环内体积记V_R；外套耐热聚丙烯连接圈高2 cm，与底环重叠1.5 cm、与顶环重叠0.5 cm，并用胶固定",
+      "包覆底环底部的尼龙纱布"
+    ]},
+    {"type": "source-fidelity-note", "text": "原书式(68.8)写F=%OM/%solids；%solids若误解为“矿质固体百分数”会得到错误结果。这里明确%solids是全部干固体（%OM+%ash），归一化后等于100%。式(68.7)中的1.55和2.65均有密度单位，式(68.9)要求BD与PD同单位。原书称total pore，规范术语为total porosity。"}
+  ],
+  "formulas": [
+    {"label": "68.6", "plain": "%OM = 100% − %ash", "latex": "\\%OM=100\\%-\\%ash"},
+    {"label": "68.7", "plain": "PD = 1 / [F/1.55 + (1−F)/2.65]", "latex": "PD=\\frac{1}{\\dfrac{F}{1.55}+\\dfrac{1-F}{2.65}}", "resultUnit": "g·cm⁻³或Mg·m⁻³"},
+    {"label": "68.8", "plain": "F = %OM / %solids = %OM / (%OM + %ash)", "latex": "F=\\frac{\\%OM}{\\%solids}=\\frac{\\%OM}{\\%OM+\\%ash}"},
+    {"label": "68.9", "plain": "TP = 1 − BD/PD", "latex": "TP=1-\\frac{BD}{PD}", "resultUnit": "体积分数；乘100为%"}
+  ],
+  "tables": [],
+  "contentSha256": "8e35d77a87a33416fde111251451912e1a29f843bb39c2a87917e7182f332512"
+}

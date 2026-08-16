@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 36,
+  "sourceImageSha256": "668e52c92135e088bebd52b98edce7be2e62e6955c41bbd860bbee0296350732",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步对照原分辨率图和两套OCR，完成三维收缩材料、步骤(1)～(12)及式（56.4）～（56.5）全部从属式"},
+    "precisionPass": {"status": "verified", "method": "核验30～500 cm³、M_sample(air/water)、V_pores/V_solids/V_water、M_ODsolids/M_water、ρ_solids/ρ_water及1 g cm⁻³"},
+    "secondVisualPass": {"status": "verified", "method": "由页末水密度反向复核至材料(1)跨页续句，逐级检查主式和‘其中’从属式；印刷页码545"}
+  },
+  "blocks": [
+    {"type": "materials-list-continuation", "items": ["(1) 刚性黄铜开口圆柱体（吸入缸），顶部为O形橡胶环，底部有吸气口［图56.3(a)］；尺寸应容纳土样并允许薄橡胶膜拉伸至上沿后由O形环固定。", "(2) 薄层气球：拉伸包裹土样后质量和体积应尽量小。", "(3) 制作含进气管、出气管的土样支撑装置材料［图56.3(b)］。", "(4) 实验室铁支架和可调升降台。", "(5) 数字顶载天平，量程1 kg。", "(6) 1000 mL烧杯或其他容器。", "(7) 干燥压缩空气，流量可调。", "(8) 体积30～500 cm³的土块，稍大亦可。", "(9) 与土样同温的水。", "(10) 图56.3(c)所示其他材料。"]},
+    {"type": "procedure-subheading", "number": "2", "title": "步骤"},
+    {"type": "procedure-steps", "items": ["(1) 按图56.3(a)～(c)装配装置。", "(2) 在刚性开口圆柱顶部套橡胶薄膜，从下方施加吸力，拉伸膜并放入土样。", "(3) 释放吸力，使膜紧密包裹土样且膜内无截留空气。", "(4) 从吸入缸取出土样，把薄膜缠绕在橡胶塞上［图56.3(b)］，避免堵住进、出气口。", "(5) 关闭进气阀、打开出气阀，施加吸力排除多余空气，使膜贴紧土样。", "(6) 测空气中土样质量M_sample(air)。", "(7) 将盛水烧杯置于数字天平，土样悬挂在铁架上并浸入水中；用深度标记保持固定浸深［图56.3(c)］，读取水中表观质量M_sample(water)。", "(8) 取出土样，两个阀同时打开，通入稳定小正压，使空气穿过土样后由出气管排出以干燥。", "(9) 调节气流以控制收缩速率。", "(10) 收缩开始后按时间间隔重复步骤(5)～(7)测体积。", "(11) 不再收缩时拆除薄膜，105 °C烘至恒重，测干质量和体积。", "(12) 用式（56.3）计算各阶段体积，再计算孔隙比e和以固体体积为分母的含水体积比θ。"]},
+    {"type": "variable-definitions", "items": [{"symbol": "M_ODsolids", "meaning": "烘干土固体质量"}, {"symbol": "M_water", "meaning": "各收缩阶段土样所含水的质量"}, {"symbol": "ρ_water", "meaning": "水密度，原书常取1 g cm⁻³"}]},
+    {"type": "terminology-correction", "text": "原书把e=V_pores/V_solids称为‘孔隙率’，严格术语应为孔隙比（void ratio）；孔隙率应为V_pores/V_sample。原书θ=V_water/V_solids也不是通常以土样总体积为分母的体积含水量，本Skill称其为以固体体积为分母的含水体积比。"}
+  ],
+  "formulas": [
+    {"label": "(56.4)", "plain": "e = V_pores/V_solids", "latex": "e=\\frac{V_{pores}}{V_{solids}}", "variables": [{"symbol": "e", "meaning": "孔隙比"}]},
+    {"label": "(56.4a)", "plain": "V_pores = V_sample − V_solids", "latex": "V_{pores}=V_{sample}-V_{solids}"},
+    {"label": "(56.4b)", "plain": "V_solids = M_ODsolids/ρ_solids", "latex": "V_{solids}=\\frac{M_{ODsolids}}{\\rho_{solids}}"},
+    {"label": "(56.5)", "plain": "θ = V_water/V_solids", "latex": "\\theta=\\frac{V_{water}}{V_{solids}}", "variables": [{"symbol": "θ", "meaning": "以固体体积为分母的含水体积比"}]},
+    {"label": "(56.5a)", "plain": "V_water = M_water/ρ_water", "latex": "V_{water}=\\frac{M_{water}}{\\rho_{water}}"}
+  ],
+  "tables": [],
+  "contentSha256": "72ad7c7d56a0478c7ccda24eadf730574ea39f246b975325d425c71cdc7725ea"
+}

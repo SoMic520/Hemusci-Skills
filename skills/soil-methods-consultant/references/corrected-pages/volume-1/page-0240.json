@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 240,
+  "sourceImageSha256": "f074ce32c53aabeebcfab94a9027ececaa5c96b0ebfe7788149ccec2e86c6eae",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第209页，并与Apple Vision、PaddleOCR交叉比对，人工恢复试剂（8）续文、（9）～（12）、九步³¹P样品制备及24.4.2酶解法原理"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Na₂EDTA、D₂O、0.5/0.1/0.25/0.05/10 mol·L⁻¹、1～2 g、30/1.6/1/0.4 mL、5～16/16～24/24～48 h、1 500 g、pH>12、³¹P、NaHCO₃"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Turner与Toor引文反向复核至首行试剂（8）续文，确认试剂承接、九步操作、24.4.2方法层级、酶种与底物关系及印刷页码209"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第24章｜总磷和有机磷｜"},
+    {"type": "reagent-continuation", "number": "（8）", "name": "10 mol·L⁻¹氢氧化钠溶液", "text": "冷却后用蒸馏水或去离子水定容。", "continuesFromPage": 239},
+    {"type": "reagent-item", "number": "（9）", "name": "0.5 mol·L⁻¹氢氧化钠溶液", "text": "将10 g NaOH溶解于约含300 mL蒸馏水或去离子水的500 mL容量瓶中，冷却后用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（10）", "name": "0.1 mol·L⁻¹ Na₂EDTA溶液", "text": "将18.6 g Na₂EDTA溶于含有300 mL蒸馏水或去离子水的500 mL的容量瓶中，用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（11）", "name": "NaOH-EDTA混合液", "text": "将0.5 mol·L⁻¹ NaOH溶液和0.1 mol·L⁻¹ Na₂EDTA溶液混匀（最终溶液浓度为0.25 mol·L⁻¹ NaOH和0.05 mol·L⁻¹ Na₂EDTA）。"},
+    {"type": "reagent-item", "number": "（12）", "text": "适用于核磁共振分析的氧化氘（D₂O）。"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤", "method": "24.4.1 NaOH-EDTA浸提—液态³¹P核磁共振光谱法"},
+    {"type": "procedure-step", "number": "（1）", "text": "称量1～2 g土壤样品于50 mL离心管中。如果已知土壤中全磷含量较低，那么需要加大土壤样品称样量，而对于富含铁或有机质的土壤样品则要减小称样量。"},
+    {"type": "procedure-step", "number": "（2）", "text": "向离心管中加入30 mL NaOH-EDTA混合液，盖紧盖子。"},
+    {"type": "procedure-step", "number": "（3）", "text": "在室温下振荡5～16 h，较长时间的浸提能增加全磷特别是闭蓄态磷的回收率，但同时也增大了一些形态的磷如RNA和磷脂类磷降解的风险。"},
+    {"type": "procedure-step", "number": "（4）", "text": "在1 500 g力下离心20 min，将上清液小心地倒入另一个50 mL离心管中。如果上清液中含有颗粒物，就需要在倒入另一个离心管前进行过滤。"},
+    {"type": "procedure-step", "number": "（5）", "text": "吸取1 mL上清液，用蒸馏水或去离子水稀释至10 mL，用于测定P、Fe和Mn。"},
+    {"type": "procedure-step", "number": "（6）", "text": "将装有剩余上清液的离心管盖子拧紧，冷冻16～24 h直至完全冻结。注意，冰冻时应该将离心管倾斜放置以便使表面积最大。"},
+    {"type": "procedure-step", "number": "（7）", "text": "将离心管的盖子取下，用保鲜膜或类似的材料轻轻覆盖（在保鲜膜上戳一些小孔以便保证空气流通）。将离心管垂直放入冻干瓶中，按照冻干机说明书冻干24～48 h，直至完全变干。从冻干瓶中取出离心管，拧紧盖子，室温保存。"},
+    {"type": "procedure-step", "number": "（8）", "text": "如果用的是10 mm探针的光谱仪，那么可以通过向离心管中直接加入1.6 mL蒸馏水或去离子水、1 mL氧化氘和0.4 mL 10 mol·L⁻¹ NaOH溶液（为了达到最大的峰距，需要调节pH值>12）使样品溶解。静置30 min，其间偶尔振荡或用涡旋混合器来溶解所有固体。在1 500 g力下离心20 min，将上清液小心地倒入核磁共振管中。假如用5 mm探针的光谱仪，则需要按相应的要求调节溶液的体积。"},
+    {"type": "procedure-step", "number": "（9）", "text": "参见Cade-Menun（2005）“用³¹P核磁共振成功测定土壤浸提液的适宜光谱仪参数的讨论”一文。"},
+    {"type": "heading", "level": 2, "number": "24.4.2", "title": "酶解法表征有机磷"},
+    {"type": "principle", "text": "该方法表征有机磷的原理是基质特异性磷酸酶能从特定的磷形态中释放出无机磷。因此，向土壤浸提液中加入商用的有效磷酸酶，并用比色法测定释放出来的无机磷，浸提液中的磷形态可以按照含磷化合物的种类进行分类。磷形态的具体分类取决于实验中所用的酶的类型。例如，酸性磷酸酶或者碱性磷酸酶一般会水解正磷酸盐单酯，而肌醇六磷酸酶能水解一种特定的正磷酸盐单酯——植酸（肌醇六磷酸）。"},
+    {"type": "body", "text": "酶水解的一个特点是其可以用于许多不同的土壤浸提液，包括连续浸提法中用到的水、NaHCO₃、NaOH和HCl（He和Honeycutt，2001）。但在酶水解表征有机磷前，要将溶液的pH值调节到相应酶的pH值范围。"},
+    {"type": "body", "text": "有关酶水解有许多不同的方法，包括最近He等（2004）开发的万能缓冲法。下述方法改编自Turner（2002，2003）和Toor等（2003）。"},
+    {"type": "printed-page-number", "text": "209"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ad0b418e956fa2438e0f64fe307a9aed63cd0f552fe5fdecf1c46633568ea53f"
+}

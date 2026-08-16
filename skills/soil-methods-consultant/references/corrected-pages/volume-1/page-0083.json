@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 83,
+  "sourceImageSha256": "abaed89f3976386d64af50eb9ffbc5941a88290840ced0cb3590c136de98340a",
+  "review": {
+    "textPass": {"status": "verified", "method": "对照原分辨率署名扉页，并与Apple Vision、PaddleOCR两份结果核对"},
+    "precisionPass": {"status": "verified", "method": "逐字核对主译身份及赵丽霞、陈雅丽、马杰三个人名"},
+    "secondVisualPass": {"status": "verified", "method": "再次通览整页，确认除主译署名外无页码、公式、表格或其他正文"}
+  },
+  "blocks": [
+    {"type": "credit", "role": "主译", "names": ["赵丽霞", "陈雅丽", "马杰"], "text": "主译：赵丽霞　陈雅丽　马杰"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "87fc0687c98d7c722f393dec16a3a1c814ff75b002c51cca23de4cef8c0a1710"
+}

@@ -1,0 +1,111 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 527,
+  "sourceImageSha256": "63d5f5f4b3cb84cae3064845061f3a4044aaf99bb088cae1f122f21550fdc87d",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行、逐条对照原分辨率页面和两套OCR，完成52.4.3、52.5及Anderson至Leinweber共7条参考文献"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验HF-HCl、0.05 mol·L⁻¹ NaHCO₃、34 μg·g⁻¹ C、465/665 nm、E₄/E₆、¹³C NMR、Py-FIMS、C/N K-edge XANES及卷页"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由Leinweber条反向复核至52.4.3，检查浓度单位、吸光度比、碱水解硫酸酯伪影、同步辐射误译和印刷页码496"
+    }
+  },
+  "blocks": [
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "52.4.3",
+      "title": "注释"
+    },
+    {
+      "type": "note-list",
+      "items": [
+        {
+          "number": "（1）",
+          "text": "可按IHSS标准法（Swift, 1996）用HF-HCl混合液脱除HA灰分，但处理可能造成N和碳水化合物损失（Schnitzer and Schuppli, 1989）。"
+        },
+        {
+          "number": "（2）～（3）",
+          "text": "样品可冻干成干燥腐殖物质，用消解或自动燃烧等元素分析法测定；溶解态腐殖质组分的C通常用可溶性碳分析仪测定（见第48章）。"
+        },
+        {
+          "number": "（4）",
+          "text": "E₄/E₆可作为腐殖物质表观分子量的经验指标：用0.05 mol·L⁻¹ NaHCO₃溶解HA或FA，书中建议C浓度34 μg·g⁻¹，分别测A₄₆₅与A₆₆₅并计算比值。IR与固态¹³C NMR可提供结构信息；FA可按IHSS法过XAD-8树脂柱以降低灰分。"
+        },
+        {
+          "number": "（5）",
+          "text": "研究腐殖质无机硫时须考虑碱提水解：有机硫酸酯基团在NaOH作用下可能转成无机硫酸盐，造成方法伪影（Schoenau and Bettany, 1987）。"
+        }
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "52.4.3（4）E₄/E₆浓度",
+      "text": "原页明确印作‘一般碳浓度为34 μg·g⁻¹’，本语料按原书保留。作为对照，Anderson et al. (1974)原始论文的UV-可见光谱条件为17 ppm humate-C，而34 ppm用于凝聚阈值试验；因此不得把书中34 μg·g⁻¹误称为Anderson原始光谱条件。"
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "number": "52.5",
+      "title": "全土的腐殖质特征"
+    },
+    {
+      "type": "paragraph",
+      "text": "全土有机质可原位用固态¹³C NMR（见第53章）和热解-场致离子质谱（Py-FIMS）分析。同步辐射X射线吸收近边结构谱（XANES）与固态¹³C NMR联用，可研究腐殖质结构及有机硫形态；C K-edge XANES可估计脂肪族、芳香族和碳水化合物结构的相对比例，N K-edge XANES可识别酰胺态N和杂环态N。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "52.5同步辐射与N形态",
+      "text": "原书将synchrotron-based method误译为‘同步超声法/同步超声光谱法’，并把amide N印作‘氨基态氮’；结合所引Jokic文献与技术名称，已校正为同步辐射XANES和酰胺态N。"
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "title": "参考文献"
+    },
+    {
+      "type": "reference",
+      "text": "Anderson, D.W., Paul, E.A., and St. Arnaud, R.J. 1974. Extraction and characterization of humus with reference to clay-associated humus. Canadian Journal of Soil Science 54: 317–323."
+    },
+    {
+      "type": "reference",
+      "text": "Bettany, J.R., Stewart, J.W.B., and Saggar, S. 1979. The nature and forms of sulfur in organic matter fractions of soils selected along an environmental gradient. Soil Science Society of America Journal 43: 481–485."
+    },
+    {
+      "type": "reference",
+      "text": "Hatcher, P.G., Dria, K.J., Kim, S., and Frazier, S.W. 2001. Modern analytical studies of humic substances. Soil Science 166: 770–794."
+    },
+    {
+      "type": "reference",
+      "text": "Jokic, A., Cutler, J.N., Anderson, D.W., and Walley, F. 2004. Detection of heterocyclic N compounds in whole soils using N-XANES spectroscopy. Canadian Journal of Soil Science 84: 291–293."
+    },
+    {
+      "type": "reference",
+      "text": "Jokic, A., Cutler, J.N., Ponomarenko, E., van der Kamp, G., and Anderson, D.W. 2003. Organic carbon and sulfur compounds in wetland soils: insights on structure and transformation processes using K-edge XANES and NMR spectroscopy. Geochimica et Cosmochimica Acta 67: 2585–2597."
+    },
+    {
+      "type": "reference",
+      "text": "Kononova, M.M. 1966. Soil Organic Matter, 2nd ed. Pergamon Press, London, UK, 544 pp."
+    },
+    {
+      "type": "reference",
+      "text": "Leinweber, P. and Schulten, H.-R. 1999. Advances in the analytical pyrolysis of soil organic matter. Journal of Analytical and Applied Pyrolysis 49: 358–383."
+    }
+  ],
+  "formulas": [
+    {
+      "id": "52.4.3-e4e6",
+      "display": "E₄/E₆ = A₄₆₅/A₆₆₅",
+      "meaning": "465 nm与665 nm吸光度之比；经验性表观分子量指标"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "5745e2260449e2fd517390023173ab14d0d904c151043b9ffe21897f0be9b118"
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 181,
+  "sourceImageSha256": "ff7f71dae4b8522d291832da5f962c60604c41e769cd778d8f0fbe98116911f0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复18.3.1材料（3）～（9）、18.3.2步骤（1）～（13）及18.3.3标题"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Ca(NO₃)₂·4H₂O、HNO₃、Ca(OH)₂、KCl、LaCl₃·7H₂O、CsCl、mol L⁻¹、mg L⁻¹、g L⁻¹、mL、rpm、min、700 g和各酸碱加入梯度"},
+    "secondVisualPass": {"status": "verified", "method": "从页末18.3.3反向复核至材料（3），确认步骤顺序、20管分组、鲜土换算、稀释倍数、AAS测定对象及页码150"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reagent-item", "number": "（3）", "name": "0.05 mol L⁻¹的硝酸钙溶液", "text": "将23.62 g Ca(NO₃)₂·4H₂O溶于重去离子水并定容至2 L容量瓶中。"},
+    {"type": "reagent-item", "number": "（4）", "name": "0.1 mol L⁻¹的硝酸", "text": "用重去离子水稀释6.3 mL HNO₃至1 L容量瓶中。"},
+    {"type": "reagent-item", "number": "（5）", "name": "0.05 mol L⁻¹的氢氧化钙溶液", "text": "将3.70 g Ca(OH)₂溶于重去离子水并定容至1 L，并用Whatman No.41过滤器过滤（可以使用玻璃微纤维过滤器Whatman GF/C进行预过滤）。"},
+    {"type": "reagent-item", "number": "（6）", "name": "0.005 mol L⁻¹的硝酸钙溶液", "text": "用重去离子水稀释200 mL的0.05 mol L⁻¹ Ca(NO₃)₂溶液定容于2 L容量瓶中。"},
+    {"type": "reagent-item", "number": "（7）", "name": "1.0 mol L⁻¹的氯化钾溶液", "text": "将149.12 g KCl溶于重去离子水定容至2 L容量瓶中。"},
+    {"type": "reagent-item", "number": "（8）", "name": "100 mg L⁻¹的镧溶液", "text": "将53.5 g LaCl₃·7H₂O溶解于200 mL容量瓶中并定容，用于原子吸收分光光度法（AAS）的测定分析。"},
+    {"type": "reagent-item", "number": "（9）", "name": "100 g L⁻¹的铯溶液", "text": "将25.2 g CsCl溶于200 mL容量瓶中并定容，用于AAS分析。"},
+    {"type": "section-heading", "level": 3, "number": "18.3.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取20个50 mL空离心管，精确到0.001 g（20个离心管为一组，用于一个土壤样品的测定）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "向每个试管中加入1.0 g风干的粒径小于2 mm的土壤样品，并记录试管与土壤的总重量，精确到0.001 g。对每个目标的pH值进行重复分析，并且每批样品设置两个质量控制样品。如果待测样品为潮湿的鲜土，那么应该首先另外称取4份样品分别放入小烧杯中，自然风干以便确定相当于1 g风干土的潮湿土壤重量。"},
+    {"type": "procedure-step", "number": "（3）", "text": "加入25 mL 0.05 mol/L的硝酸钙溶液，盖上离心管，使用旋转振荡器（15 rpm）振荡1 h。"},
+    {"type": "procedure-step", "number": "（4）", "text": "离心（10 min，700 g）后通过倾析弃去上清液，应该注意避免在倾析过程中损失土壤。"},
+    {"type": "procedure-step", "number": "（5）", "text": "再次向每个离心管中加入25 mL 0.05 mol L⁻¹的硝酸钙溶液，然后向一组重复试管中加入0 mL、0.25 mL、0.5 mL、1.0 mL或2.5 mL的0.1 mol L⁻¹的硝酸，向剩余一组重复试管中加入0.25 mL、0.5 mL、1.0 mL或2.5 mL的0.05 mol L⁻¹的氢氧化钙溶液。同时向质量控制样品中加入1.0 mL 0.1 mol L⁻¹的硝酸或0.05 mol L⁻¹的氢氧化钙溶液。之后用涡旋混合器摇混使土壤重新悬浮。"},
+    {"type": "procedure-step", "number": "（6）", "text": "加盖后在旋转振荡器上振荡过夜。"},
+    {"type": "procedure-step", "number": "（7）", "text": "离心（10 min，700 g）并弃去上清液。"},
+    {"type": "procedure-step", "number": "（8）", "text": "加入25 mL 0.005 mol L⁻¹的硝酸钙溶液，并使土壤重新悬浮，离心（10 min，700 g），弃去上清液。"},
+    {"type": "procedure-step", "number": "（9）", "text": "重复步骤8，并分取出部分上清液测量pH值，剩余的上清液用重去离子水稀释100倍后用于分析钙离子和硝酸根离子。称量离心管与土壤及其中土壤溶液的总重量。"},
+    {"type": "procedure-step", "number": "（10）", "text": "加入25 mL 1.0 mol L⁻¹的氯化钾溶液，振荡1 h，离心（10 min，700 g）。"},
+    {"type": "procedure-step", "number": "（11）", "text": "保留上清液并用重去离子水将其稀释10倍用于测定置换出来的钙离子和硝酸根离子。"},
+    {"type": "procedure-step", "number": "（12）", "text": "采用AAS法测定步骤11稀释10倍后的氯化钾提取液和步骤9中0.005 mol L⁻¹的硝酸钙平衡溶液中的钙离子含量。采用此法测定钙离子，需要向每10 mL稀释后的提取液中加入0.1 mL的镧溶液和0.1 mL的铯溶液。有关仪器操作的详细说明，参阅AAS手册。"},
+    {"type": "procedure-step", "number": "（13）", "text": "测量步骤11未稀释的氯化钾提取液和步骤9稀释的0.005 mol L⁻¹的硝酸钙平衡溶液中的硝酸根离子。"},
+    {"type": "section-heading", "level": 3, "number": "18.3.3", "title": "计算"},
+    {"type": "calculation-item", "number": "（1）", "title": "残留钙离子和硝酸根离子", "continued": true},
+    {"type": "printed-page-number", "text": "150"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "271b1e92aeae5f5638ef1ca7669178de72bf956bab4de1bbe84d9313c1da8e9b"
+}

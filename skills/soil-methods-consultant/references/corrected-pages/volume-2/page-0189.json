@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 189,
+  "sourceImageSha256": "72e4b1a62a23703145db2b10dfe154fcc58dce427d7ac19da4394deb0775fc3f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页图和两套OCR，完成McNairn至Topp/Zegelin/White共19条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验URL、2003a/2003b、SPIE 4758、Near-surface、in situ、卷页与重音符"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至McNairn，检查题名断词与期刊缩写；印刷页码698"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "McNairn, H., Pultz, T.J., and Boisvert, J.B. 2002. Active microwave remote sensing methods. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 475–488.",
+      "Neal, A. 2004. Ground-penetrating radar and its use in sedimentology: Principles, problems, and progress. Earth Sci. Rev. 66(3–4):261.",
+      "Or, D., Jones, S.B., VanShaar, J.R., and Wraith, J.M. 2003. WinTDR 6.0 Users Guide (Windows-based TDR program for soil water content and electrical conductivity measurement). Available at: http://129.123.13.101/soilphysics/wintdr/documentation.htm (posted Fall 2003; verified 6 June 2004). Utah Agric. Exp. Stn. Res., Logan, UT.",
+      "Parkin, G., Redman, D., von Bertoldi, P., and Zhang, Z. 2000. Measurement of soil water content below a waste water trench using ground penetrating radar. Water Resour. Res. 36:2147–2154.",
+      "Redman, J.D., Davis, J.L., Galagedara, L.W., and Parkin, G.W. 2002. Field studies of GPR air launched surface reflectivity measurements of soil water contents. Proceedings of Ninth Conference on Ground Penetrating Radar. SPIE 4758:156–161.",
+      "Robinson, D.A., Gardner, C.M.K., Evans, J., Cooper, J.D., Hodnett, M.G., and Bell, J.P. 1998. The dielectric calibration of capacitance probes for soil hydrology using an oscillation frequency response mode. Hydrol. Earth Syst. Sci. 2:83–92.",
+      "Robinson, D.A., Jones, S.B., Wraith, J.M., Or, D., and Friedman, S.P. 2003a. A review of advances in dielectric and electrical conductivity measurements in soils using time domain reflectometry. Vadose Zone J. 2:444–475.",
+      "Robinson, D.A., Schaap, M., Jones, S.B., Friedman, S.P., and Gardner, C.M.K. 2003b. Considerations for improving the accuracy of permittivity measurement using TDR: Air/water calibration, effects of cable length. Soil Sci. Soc. Am. J. 67:62–70.",
+      "Rucker, D.F. and Ferré, Ty. P.A. 2003. Near-surface water content estimation with borehole ground penetrating radar using critically refracted waves. Vadose Zone J. 2:247–252.",
+      "Schwartz, R.C. and Evett, S.R. 2003. Conjunctive use of tension infiltrometry and time-domain reflectometry for inverse estimation of soil hydraulic parameters. Vadose Zone J. 2:530–538.",
+      "Starr, J.L. and Paltineanu, I.C. 2002. Capacitance devices. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 463–474.",
+      "Todoroff, P. and Luk, J. 2001. Calculation of in situ soil water content profiles from TDR signal traces. Meas. Sci. Technol. 12:27–36.",
+      "Topp, G.C. 1987. The application of time-domain reflectometry (TDR) to soil water content measurement. In: Proceedings of International Conference on Measurement of Soil and Plant Water Status. Logan, Utah, 1:85–93.",
+      "Topp, G.C. and Davis, J.L. 1985. Measurement of soil water content using TDR: A field evaluation. Soil Sci. Soc. Am. J. 49:19–24.",
+      "Topp, G.C., Davis, J.L., and Annan, A.P. 1980. Electromagnetic determination of soil-water content: Measurements in coaxial transmission lines. Water Resour. Res. 16:574–582.",
+      "Topp, G.C. and Ferré, Ty. P.A. 2002. Water content. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 417–545.",
+      "Topp, G.C. and Ferré, Ty. P.A. 2004. Time domain reflectometry. In: D. Hillel et al., eds. Encyclopedia of Soils in the Environment, Vol. 4. Elsevier, Oxford, UK, 174–181.",
+      "Topp, G.C. and Reynolds, W.D. 1998. Time domain reflectometry: A seminal technique for measuring mass and energy in soil. Soil Till. Res. 47:125–132.",
+      "Topp, G.C., Zegelin, S.J., and White, I. 2000. Impacts of the real and imaginary components of relative permittivity on TDR measurements in soils. Soil Sci. Soc. Am. J. 64:1244–1252."
+    ]},
+    {"type": "credits", "text": "谭丽丽译，李保国校。"},
+    {"type": "source-fidelity-note", "text": "Topp等1980题名再次印作Measurement，已与该文规范题名统一为Measurements。原书历史URL仅作来源记录，不保证当前可访问。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "596404f07290e3bcd6d2a22acb0c51cf21e17d6124833bd4cf2ca10a5dc8f9ce"
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 129,
+  "sourceImageSha256": "a48499bb99c9e0f25121913749bc0312ad72306506a75b3916cd557ba3903994",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐格对照原分辨率正文与表12.1，并与Apple Vision、PaddleOCR交叉比对，人工恢复续句、地名、方法说明及全部表值"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验A-E/SMP名称、CaCO₃、4.5 Mg/ha、100 g/kg、pH阈值、21行×5列表值、表源与脚注中的20 cm和Mg CaCO₃级"},
+    "secondVisualPass": {"status": "verified", "method": "按页码、脚注、表格末行至首行、表题、12.2.1正文和上页续句反向复核，确认表中8.0、8.2、9.2、10.2、16.2、17.6等OCR易漏小数均准确"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "continuation": true, "text": "美的常规土壤测试实验室，Adam-Evans（A-E）缓冲法（Adams和Evans，1962）和Shoemaker-McLean-Pratt（SMP）法（Shoemaker等，1961）是最常用的方法。以加拿大为例，新斯科舍省（Nova Scotia）和纽芬兰省（Newfoundland）目前使用的是A-E法，而新不伦瑞克省（New Brunswick）、爱德华王子岛（Prince Edward Island）、安大略省（Ontario）、不列颠哥伦比亚省（British Columbia）和魁北克省（Quebec）使用的是SMP法。Webber等（1977）建议将SMP法用于加拿大的酸性土壤。Tran和van Lierop（1982）及van Lierop（1983）也认为SMP法适用于魁北克省的酸性矿质和有机土壤。Warman等（2000）建议在新斯科舍省和纽芬兰省用SMP法代替A-E法。由于上述原因，本章中只介绍SMP法。"},
+    {"type": "section-heading", "level": 3, "number": "12.2", "title": "Shoemaker-McLean-Pratt单一缓冲液法"},
+    {"type": "section-heading", "level": 4, "number": "12.2.1", "title": "原理"},
+    {"type": "paragraph", "text": "SMP法是1961年对俄亥俄州（Ohio）14个酸性土壤进行土壤—石灰（CaCO₃）培养研究建立起来的方法（Shoemaker等，1961）。此方法的精确度依赖于土壤—缓冲pH值的降低与石灰需求量增加这两者间的校准关系。最初，这个方法特别适合确定石灰需求量大于4.5 Mg/ha、pH值小于5.8，以及有机质含量小于100 g/kg的这类土壤的石灰需求量（McLean，1982）。van Lierop（1990）改进了SMP单一缓冲液法在低石灰需求量下的精确度，并列出了达到目标pH值为5.5、6.0、6.5和7.0时的石灰需求量（表12.1）。经过大量研究，前人通过对土壤—缓冲pH值和石灰需求量之间进行非线性拟合而不是线性拟合，改进了SMP法（McLean，1982；Soon和Bates，1986；Tran和van Lierop，1993）。", "inlineNotation": ["CaCO₃", "4.5 Mg/ha", "pH<5.8", "100 g/kg"]},
+    {"type": "table-reference", "number": "12.1", "title": "矿质土壤pH值达到5.5、6.0、6.5和7.0时土壤SMP—缓冲pH值与石灰需求量间的关系"},
+    {"type": "printed-page-number", "text": "98"}
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "number": "12.1",
+      "title": "矿质土壤pH值达到5.5、6.0、6.5和7.0时土壤SMP—缓冲pH值与石灰需求量间的关系",
+      "columnGroup": "达到目标pH值时的石灰材料施用量（Mg/ha）",
+      "columns": ["土壤—缓冲pH值", "5.5", "6.0", "6.5", "7.0"],
+      "rows": [
+        ["6.9", "0.5", "0.6", "0.7", "0.9"],
+        ["6.8", "0.6", "1.0", "1.2", "1.5"],
+        ["6.7", "0.7", "1.4", "1.8", "2.2"],
+        ["6.6", "0.9", "1.8", "2.5", "2.8"],
+        ["6.5", "1.2", "2.3", "3.3", "3.6"],
+        ["6.4", "1.6", "2.9", "4.0", "4.4"],
+        ["6.3", "2.0", "3.5", "4.9", "5.2"],
+        ["6.2", "2.5", "4.2", "5.7", "6.0"],
+        ["6.1", "3.1", "4.9", "6.6", "7.0"],
+        ["6.0", "3.8", "5.6", "7.5", "8.0"],
+        ["5.9", "4.5", "6.5", "8.5", "9.0"],
+        ["5.8", "5.3", "7.3", "9.5", "10.0"],
+        ["5.7", "6.1", "8.2", "10.5", "11.2"],
+        ["5.6", "7.0", "9.2", "11.6", "12.4"],
+        ["5.5", "8.0", "10.2", "12.7", "13.6"],
+        ["5.4", "9.1", "11.3", "14.0", "14.9"],
+        ["5.3", "10.2", "12.4", "15.0", "16.2"],
+        ["5.2", "11.4", "13.6", "16.2", "17.6"],
+        ["5.1", "12.7", "14.8", "17.5", "19.0"],
+        ["5.0", "14.0", "16.1", "18.8", "20.4"],
+        ["4.9", "15.5", "17.4", "20.1", "22.0"]
+      ],
+      "source": "van Lierop, W., In: R.L. Westerman (Ed.), Soil Testing and Plant Analysis,2nd ed., SSSA, Madison, Wisconsin, 1990, 73-126.",
+      "footnotes": {"note": "20 cm深土壤耕作层的石灰需求量为Mg CaCO₃级。"}
+    }
+  ],
+  "contentSha256": "aa68292256428e57f723c92819c74aa31ee27cf51a356c6a83490bbfa62a93f4"
+}

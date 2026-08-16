@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 142,
+  "sourceImageSha256": "575ff1328c0be8e03c8b392c80bc7eb3c88f7f349644b1d8c9094f0f12b0d167",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐项对照原分辨率方法与图14.1，并与Apple Vision、PaddleOCR交叉比对，人工恢复14.4.2八步、计算前两项、图注及步骤（3）续句"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验储备液0/1/2/5/10/15/20 mL、原书29 mg P/L、3000 g、0.45 μm、图中r²/Sₘₐₓ/k/EPC₀数值与单位及S/S₀下标"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Langmiur原书误拼反向复核至14.4.2，确认图14.1双面板坐标、注释箭头、浓度序列、图题和页码111"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第14章｜环境土壤磷指数｜"},
+    {"type": "section-heading", "level": 4, "number": "14.4.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取1 g风干土样装入40 mL离心管中，做2个重复。"},
+    {"type": "procedure-step", "number": "（2）", "text": "分别加入0、1、2、5、10、15和20 mL的磷储备溶液（50 mg P/L），并加入蒸馏水使体积均达到25 mL，以10 r/min转速旋转振荡24 h。这样一来，各瓶中平衡磷浓度分别为0、50、100、250、500、750和1000 mg P/kg土壤，或0、2、4、10、29、30和40 mg P/L。磷的浓度范围可以按需调整，以确保上述浓度绘制的磷吸附等温线具有一个明显的曲率。"},
+    {"type": "procedure-step", "number": "（3）", "text": "在3000 g下离心10 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用Whatman 42号滤纸将溶液过滤，若滤液不澄清可改用0.45 μm的滤膜。"},
+    {"type": "procedure-step", "number": "（5）", "text": "用ICP-AES或抗坏血酸方法测定磷（见14.2.1节）。"},
+    {"type": "procedure-step", "number": "（6）", "text": "移取5 mL水提取液至25 mL容量瓶中，加入5 mL Murphy-Riley显色剂并用蒸馏水将体积补充到25 mL。"},
+    {"type": "procedure-step", "number": "（7）", "text": "按需要调整样品量，并在加入显色剂后将体积补至25 mL。"},
+    {"type": "procedure-step", "number": "（8）", "text": "在880 nm下，测定样品和标液的吸光度，样品浓度由每日新绘制的标准曲线确定。"},
+    {"type": "section-heading", "level": 4, "number": "14.4.3", "title": "磷吸附等温线的计算"},
+    {"type": "calculation-item", "number": "（1）", "text": "土壤吸附的磷量（S，mg P/kg土壤）即为加入的磷量与平衡24 h后溶液中剩余磷量的差值。现有一些可用于测定土壤磷原始吸附量（S₀）的方法，如最小二乘法拟合模型、草酸提取磷、离子交换树脂交换提取磷等方法（Nair，等1998）。"},
+    {"type": "calculation-item", "number": "（2）", "text": "用平衡溶液中磷的浓度（C，mg P/L）为横坐标，磷的吸附量为纵坐标，绘制Langmuir吸附等温线，如图14.1a所示。"},
+    {"type": "figure", "number": "14.1", "caption": "典型的Langmuir磷吸附等温线（a）和线性拟合图（b），计算得出了磷的最大吸附量、结合能、平衡磷浓度", "panels": [
+      {"label": "（a）", "kind": "Langmuir磷吸附等温线", "xAxis": "溶液中的磷浓度/（mg/L）", "yAxis": "吸附的磷（mg/kg）", "annotation": "磷吸附平衡浓度", "yTicks": ["-100", "0", "100", "200", "300", "400"]},
+      {"label": "（b）", "kind": "线性拟合图", "xAxis": "溶液中的磷浓度/（mg/L）", "yAxis": "溶液中的磷浓度/吸附的磷", "annotations": ["r²=0.99", "Sₘₐₓ=370 mg P/kg", "k=0.011 L/mg P", "EPC₀=0.73 mg P/L"]}
+    ]},
+    {"type": "calculation-item", "number": "（3）", "continued": true, "text": "利用Langmiur吸附方程，可计算出磷的最大吸附量（Sₘₐₓ，mg P/kg土壤）和与土壤的结合"},
+    {"type": "printed-page-number", "text": "111"}
+  ],
+  "formulas": [
+    {"label": null, "plain": "r²=0.99", "latex": "r^2=0.99", "context": "图14.1b线性拟合"},
+    {"label": null, "plain": "Sₘₐₓ=370 mg P/kg", "latex": "S_{max}=370\\,mg\\,P/kg", "context": "图14.1b最大吸附量"},
+    {"label": null, "plain": "k=0.011 L/mg P", "latex": "k=0.011\\,L/(mg\\,P)", "context": "图14.1b结合能参数"},
+    {"label": null, "plain": "EPC₀=0.73 mg P/L", "latex": "EPC_0=0.73\\,mg\\,P/L", "context": "图14.1b平衡磷浓度"}
+  ],
+  "tables": [],
+  "contentSha256": "902478320f8d2b654f9fae0135aecc08b3f16baa741b5d6f8aebf436c06da79d"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 103,
+  "sourceImageSha256": "f75c8a58db70b4f8860b215c4bde4013df2ef4914fee40fe07bbf4ef9a679f3b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复9.2续文、9.2.1试剂、9.2.2三步和9.2.3首项"},
+    "precisionPass": {"status": "verified", "method": "放大核对CaCl₂、AB-DTPA、ICP-AES、0.02/1/0.01 mol/L、0～0.07 mg/kg、25/0.4 g、2 mm、250/50/10 mL、5/10 min、30℃及Whatman 42号"},
+    "secondVisualPass": {"status": "verified", "method": "由页首Cartwright续句至甲亚胺-H配制逐段反向复核，确认人名地名、土壤—植物系统、方法层级、项目编号和印刷页码72"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "continuation": true, "text": "（Cartwright等，1983）、0.02 mol/L的热CaCl₂溶液（Parker和Gardner，1981）和1 mol/L的醋酸铵（Gupta和Stewart，1978），都可以用来测定土壤中有效态硼。采用CaCl₂提取的一个优势是它可以降低土壤溶液颜色的干扰，同时当CaCl₂浓度在0～0.07 mg/kg时，土壤溶液颜色造成的误差较低（Parker和Gardner，1981）。这些经过过滤的提取液也不含有胶体物质。", "inlineNotation": ["0.02 mol/L", "CaCl₂", "1 mol/L", "0～0.07 mg/kg"]},
+    {"type": "paragraph", "text": "Oyinlola和Chude（2002）报道称，相比其他提取剂，尼日利亚萨凡纳的土壤（Savannah soils of Nigeria）中的生物量，只与热水溶解的硼含量有显著的相关性。同样地，Matsi等（2000）指出在希腊北部，与碳酸氢铵—二乙三胺五乙酸（AB-DTPA）作为提取剂相比，热水溶解的硼含量与当地土壤中的生物量呈现更好的相关性。针对巴西土壤的研究也得出了相同的结论，相对于盐酸和甘露醇，选用热水作提取剂能更好地预测硼对向日葵的有效性（Silva和Ferreyra，1998）。同时，Chaudhary和Shukla（2004）对印度西部酸性土壤的研究表明，0.01 mol/L的CaCl₂和热水均适合用来检测硼对芥菜（Brassica juncea）的有效性。", "inlineNotation": ["AB-DTPA", "0.01 mol/L", "CaCl₂"]},
+    {"type": "paragraph", "text": "与大多数研究结果相反，Karamanos等（2003）认为热水可提取的硼不能作为确定加拿大西部土壤中硼水平的有效诊断工具。但是，他们强调土壤性质，特别是有机质，对所施用的硼在土壤—植物系统中的行为起着至关重要的作用。另一方面，Raza等（2002）发现热水可提取的硼可以很好地用来估测萨斯喀彻温省（Saskatchewan）草原土壤中的有效态硼。他们进一步指出，土壤阴离子交换能力可能是预测土壤中有效态硼的一个重要特征。"},
+    {"type": "paragraph", "text": "最常见的热水提取法最早由Berger和Truog（1939）提出并由Gupta（1993）做了改进。随后，改良的版本相继出现。Offiah和Axley（1988）将热水提取法应用于添加硼的土壤，这种方法能够去除土壤中固定下来而与植物吸收不相关的那部分硼的干扰。因此这个方法比土壤不添加硼的热水提取法更具有优势，通过将沸腾时间延长至10 min（常规为5 min），可以有效去除足够的硼来达到提取曲线的坪区，以此降低典型弱发育湿润老成土壤的分析误差（Odom，1980）。", "inlineNotation": ["10 min", "5 min"]},
+    {"type": "paragraph", "text": "硼从土壤中提取出来之后，可以用比色法测定其含量，可用试剂如胭脂红（Hatcher和Wilcox，1950）、甲亚胺-H（Wolf，1971）。最近更多的是用电感耦合等离子体原子发射光谱法（ICP-AES）来测定硼（Keren，1996）。", "inlineNotation": ["甲亚胺-H", "ICP-AES"]},
+    {"type": "section-heading", "level": 3, "number": "9.2.1", "title": "试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "去离子水。"},
+      {"number": "（2）", "text": "木炭。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "9.2.2", "title": "步骤（Gupta，1993）"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "称取25 g的风干土壤，过2 mm筛，放入250 mL酸洗过的烧杯中。同时加入0.4 g木炭和50 mL去离子水，混合均匀。加入木炭的质量随着土壤中有机质含量的变化而变化，添加量应保证溶液在煮沸5 min后变成无色（参照9.2.5节中的注释2和注释3）。空白试验中不加土壤，只加去离子水和同样质量的木炭，与土壤样品同时提取。"},
+      {"number": "（2）", "text": "在加热板上将土壤—水—木炭或者水—木炭混合物煮沸5 min。"},
+      {"number": "（3）", "text": "因煮沸导致的重量损失应通过添加去离子水补充，同时混合物要趁热使用Whatman 42号滤纸或者同类型滤纸过滤。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "9.2.3", "title": "甲亚胺—H法测定硼"},
+    {"type": "section-heading", "level": 4, "number": "1.", "title": "试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "甲亚胺-H：利用水浴加热或置于30℃热水龙头下，将0.5 g甲亚胺-H溶于约10 mL重蒸水中。"}
+    ]},
+    {"type": "printed-page-number", "text": "72"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "bcf9b814c3799781e49d50045f70df6f54861157beba4f98f1f5ce6950cf48e7"
+}

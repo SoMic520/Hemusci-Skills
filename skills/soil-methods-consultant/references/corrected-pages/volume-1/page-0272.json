@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 272,
+  "sourceImageSha256": "89afcdd768335638712b82fd181d34791e90f0bdc27ec5994fb97afb62cdd9db",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第27章第241页，人工恢复Binkley和Högberg至Nadelhoffer的21条参考文献及跨页续文"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者姓名、变音符号、年份后缀a/b、题名、期刊缩写、卷号、页码、报告号和地名"},
+    "secondVisualPass": {"status": "verified", "method": "从页底Nadelhoffer未完条目反向复核至页首Binkley和Högberg（1997），确认参考文献顺序、跨页边界及印刷页码241"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第27章｜森林土壤养分有效性的测定｜"},
+    {"type": "reference", "text": "Binkley, D. and Högberg, P. 1997. Does atmospheric deposition of nitrogen threaten Swedish forests? Forest Ecol. Manag. 92: 119-152."},
+    {"type": "reference", "text": "Birkeland, P. W. 1999. Soils and Geomorphology, 3rd ed. Oxford University Press, New York, 430."},
+    {"type": "reference", "text": "Blum, J. D., Klaue, A., Nezat, C. A., Driscoll, C. T., Johnson, C. E., Siccama, T. G., Eagar, C., Fahey, T. J., and Likens, G. E. 2002. Mycorrhizal weathering of apatite as an important calcium source in base-poor forest ecosystems. Nature 417: 729-731."},
+    {"type": "reference", "text": "Brais, S., Paré, D., Camiré, C., Rochon, P., and Vasseur, C. 2002. Nitrogen net mineralization and dynamics following whole-tree harvesting and winter windrowing on clayey sites of northwestern Quebec. Forest Ecol. Manag. 157: 119-130."},
+    {"type": "reference", "text": "Côté, L., Brown, S., Paré, D., Fyles, J., and Bauhus, J. 2000. Dynamics of carbon and nitrogen mineralization in relation to stand type, stand age and soil texture in the boreal mixedwood. Soil Biol. Biochem. 32: 1079-1090."},
+    {"type": "reference", "text": "Courchesne, F., Hallé, J.-P., and Turmel, M.-C. 2002. Bilans élémentaires holocènes et alteration des minéraux dans trois sols forestiers du Québec méridional. Géogr. Phys. Quatern. 56: 5-17."},
+    {"type": "reference", "text": "Courchesne, F., Savoie, S., and Dufresne, A. 1995. Effects of air-drying on the measurement of soil pH in acidic forest soils of Quebec, Canada. Soil Sci. 160: 56-68."},
+    {"type": "reference", "text": "DiStefano, J. and Gholz, H. L. 1986. A proposed use of ion exchange resin to measure nitrogen mineralization and nitrification in intact soil cores. Commun. Soil Sci. Plant Anal. 17: 989-998."},
+    {"type": "reference", "text": "Eno, C. 1960. Nitrate production in the field by incubating the soil in polyethylene bags. Soil Sci. Soc. Am. Proc. 24: 277-279."},
+    {"type": "reference", "text": "Food and Agriculture Organization of the United Nations. 1974. FAO-UNESCO Soil Map of the World, Vol. 1, Legend. UNESCO, Paris, France, 59."},
+    {"type": "reference", "text": "Gillman, G. P. and Sumpter, E. A. 1986. Modification to the compulsive exchange method to for measuring exchange characteristics of soils. Aust. J. Soil Res. 24: 61-66."},
+    {"type": "reference", "text": "Hamilton, W. N. and Krause, H. H. 1985. Relationship between jack pine growth and site variables in New Brunswick plantations. Can. J. Forest Res. 15: 922-926."},
+    {"type": "reference", "text": "Hodson, M. E. 2002. Experimental evidence for mobility of Zr and other trace elements in soils. Geochim. Cosmochim. Acta 66: 819-828."},
+    {"type": "reference", "text": "Ingestad, T. 1979a. Nitrogen stress in birch seedlings. II. N, P, Ca, and Mg nutrition. Physiol. Plant. 45: 149-159."},
+    {"type": "reference", "text": "Ingestad, T. 1979b. Mineral nutrient requirement of Pinus silvestris and Picea abies seedlings. Physiol. Plant. 45: 373-380."},
+    {"type": "reference", "text": "Kalra, Y. P. and Maynard, D. G. 1991. Methods Manual for Forest Soil and Plant Analysis. Information Report NOR-X-319. Forestry Canada, Northwest Region, Northern Forestry Centre, Edmonton, Alberta, Canada."},
+    {"type": "reference", "text": "Kirkwood, D. E. and Nesbitt, H. W. 1991. Formation and evolution of soils from an acidified watershed: Plastic Lake, Ontario, Canada. Geochim. Cosmochim. Acta 55: 1295-1308."},
+    {"type": "reference", "text": "Knecht, M. F. and Göransson, A. 2004. Terrestrial plants require nutrients in similar proportions. Tree Physiol. 24: 447-460."},
+    {"type": "reference", "text": "Kolka, R. K., Grigal, D. F., and Nater, E. A., 1996. Forest soil mineral weathering rates: use of multiple approaches. Geoderma 73: 1-21."},
+    {"type": "reference", "text": "MacDonald, N. W., Zak, D. R., and Pregitzer, K. S. 1995. Temperature effects on kinetics of microbial respiration and net nitrogen and sulphur mineralization. Soil Sci. Soc. Am. J. 59: 233-240."},
+    {"type": "reference", "text": "Melkerud, P. A., Bain, D. C., Jongmans, A. G., and Tarvainen, T. 2000. Chemical, mineralogical and morphological characterization of three podzols developed on glacial deposits in Northern Europe. Geoderma 94: 125-148."},
+    {"type": "reference", "text": "Morrison, I. K. and Foster, N. W. 1995. Effect of nitrogen, phosphorus and magnesium fertilizers on growth of a semimature jack pine stand, northwestern Ontario. For. Chron. 71: 422-425."},
+    {"type": "reference", "continuesOnPage": 273, "text": "Nadelhoffer, K. J. 1990. Microlysimeter for measuring nitrogen mineralization and microbial respiration in aerobic soil"},
+    {"type": "printed-page-number", "text": "241"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "527d207cfcea362fd71bfc1e27d8d3ec77f53d4af1bbecbb2f2f6c213e157839"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 67,
+  "sourceImageSha256": "f02f17739c0e6870905c264886869739dd06e661016f4c4eaab31aa19fc7b908",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部作者、题名、刊名、标点和页末续接"},
+    "precisionPass": {"status": "verified", "method": "放大核对作者首字母、化学元素Cu/Zn/Fe/Mn、DTPA、OECD、#217、全部卷期页码及原页连写词"},
+    "secondVisualPass": {"status": "verified", "method": "按字母顺序逐条复核作者、年份、题名、编辑书目、刊名、卷期页码、原页拼写和印刷页码"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "bibliography-entry", "continuation": true, "text": "Edwards, C.A. and Fletcher, K.E. 1971. A comparison of extraction methods for terrestrial arthropods. In: J. Phillipson, ed. Methods of Study in Quantitative Soil Ecology: Population, Production and Energy Flow. IBP Handbook No. 18,Blackwell Scientific Publications, Oxford, U.K. 150-185."},
+    {"type": "bibliography-entry", "text": "Ehrlichmann, H., Eisentrager, A., Moller, M., and Dott, W. 1997. Effect of storage conditions of soil on ecotoxicological assessment. Int. Biodeter. Biodegr. 39: 55-59."},
+    {"type": "bibliography-entry", "text": "Fierer, N. and Schimel, J.P. 2002. Effects of dryingrewetting frequency on soil carbon and nitrogen transformations. Soil Biol. Biochem. 34: 777-787."},
+    {"type": "bibliography-entry", "text": "Goberna, M., Insam, H., Pascual, J.A., and Sanchez, J. 2005. Storage effects on the community level physiological profiles of Mediterranean forest soils. Soil Biol. Biochem. 37: 173-178."},
+    {"type": "bibliography-entry", "text": "Grierson, P.F., Comerford, N.B., and Jokela, E.J. 1998. Phosphorus mineralization kinetics and response of microbial phosphorus to drying and rewetting in a Florida Spodosol. Soil Biol. Biochem. 30: 1323-1331."},
+    {"type": "bibliography-entry", "text": "Haynes, R.J. and Swift, R.S. 1985. Effects of airdrying on the adsorption and desorption of phosphate and levels of extractable phosphate in a group of acid soils, New Zealand. Geoderma 35: 145-157."},
+    {"type": "bibliography-entry", "text": "Haynes, R.J. and Swift, R.S. 1991. Concentrations of extractable Cu, Zn, Fe and Mn in a group of soils as influenced by air- and ovendrying and rewetting. Geoderma 49: 319-333.", "inlineNotation": ["Cu", "Zn", "Fe", "Mn"]},
+    {"type": "bibliography-entry", "text": "Kaiser, K., Kaupenjohann, M., and Zech, W. 2001. Sorption of dissolved organic carbon in soils: effects of soil sample storage, soil-to-solution ratio, and temperature. Geoderma 99: 317-328."},
+    {"type": "bibliography-entry", "text": "Leggett, G.E. and Argyle, D.P. 1983. The DTPAextractable iron, manganese, copper, and zinc from neutral and calcareous soils dried under different conditions. Soil Sci. Soc. Am. J. 47: 518-522."},
+    {"type": "bibliography-entry", "text": "Lehmann, R.G. and Harter, R.D. 1983. Copper adsorption by soils exposed to desiccation stress. Soil Sci. Soc. Am. J. 47: 1085-1088."},
+    {"type": "bibliography-entry", "text": "Liggett, W.S., Inn, K.G.W., and Hutchinson, J.M.R. 1984. Statistical assessment of subsampling procedures. Environ. Int. 10: 143-151."},
+    {"type": "bibliography-entry", "text": "Luo, J.X. and Jackson, M.L. 1985. Potassium release on drying of soil samples from a varietyof weathering regimes and clay mineralogy in China. Geoderma 35: 197-208."},
+    {"type": "bibliography-entry", "text": "Magesan, G.N., White, R.E., Scotter, D.R., and Bolan, N.S. 2002. Effect of prolonged storage of soil lysimeters on nitrate leaching. Agr. Ecosyst. Environ. 88: 73-77."},
+    {"type": "bibliography-entry", "text": "Meyer, W.L. and Arp, P.A. 1994. Exchangeable cations and cation exchange capacity of forest soil samples: effects of drying, storage, and horizon. Can. J. Soil Sci. 74: 421-429."},
+    {"type": "bibliography-entry", "text": "Mondini, C., Contin, M., Leita, L., and De Nobili, M. 2002. Response of microbial biomass to air-drying and rewetting in soils and compost. Geoderma 105: 111-124."},
+    {"type": "bibliography-entry", "text": "Neary, A.J. and Barnes, S.R. 1993. The effect of sample grinding on extractable iron and aluminum in soils. Can. J. Soil Sci. 73: 73-80."},
+    {"type": "bibliography-entry", "text": "Neilsen, C.B., Groffman, P.M., Hamburg, S.P., Driscoll, C.T., Fahey, T.J., and Hardy, J.P. 2001. Freezing effects on carbon and nitrogen cycling in northern hardwood forest soils. Soil Sci. Soc. Am. J. 65: 1723-1730."},
+    {"type": "bibliography-entry", "text": "OECD 2000. Organisation for Economic Cooperation and Development (OECD) Guidelines for the Testing of Chemicals—Section 2: Soil Microorganisms, Carbon Transformation Test. Adopted Guideline #217, Adopted January 2000."},
+    {"type": "bibliography-entry", "text": "Pesaro, M., Nicollier, G., Zeyer, J., and Widmer, F. 2004. Impact of soil drying-rewetting stress on microbial communities and activities and on degradation of two crop protection products. Appl. Environ. Microbiol. 70: 2577-2587."},
+    {"type": "bibliography-entry", "text": "Pesaro, M., Widmer, F., Nicollier, G., and Zeyer, J. 2003. Effects of freeze-thaw stress during soil storage on microbial communities and methidathion degradation. Soil Biol. Biochem. 35: 1049-1061."},
+    {"type": "bibliography-entry", "continuation": true, "text": "Potter, R.L., Jordan, C.F., Guedes, R.M., Batmanian, G.J., and Han, X.G. 1991. Assessment of a phosphorus fractionation method"},
+    {"type": "printed-page-number", "text": "36"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e7f7f08529466a73c8d1d802d6479065c95a12efd7a2251233f049422a710b0c"
+}

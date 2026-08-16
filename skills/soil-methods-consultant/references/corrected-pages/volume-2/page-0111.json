@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 111,
+  "sourceImageSha256": "c46f0118e73a18c9b7a085060679ae3df6dda843b11b3c770942c12e6d02f6cb",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Deyo跨页结尾及Ding至Letey跨页起始共20条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者变音符、化学式下标、题名、书名、期刊、卷页和机构；校正Fahrni、different、complementary等"},
+    "secondVisualPass": {"status": "verified", "method": "由Letey跨页题名反向复核至Deyo结尾，检查Højberg/Jäger/Jørgensen、FTIR、METT及页码；印刷页码620"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Deyo, B.G., Robbins, G.A., and Binkhorst, G.K. 1993. Use of portable oxygen and carbon dioxide detectors to screen soil gas for subsurface gasoline contamination. Ground Water 31:598–604.",
+      "Ding, C.P. and Wang, J.H. 1993. Voltammetric methods. In: T.R. Yu and G.L. Ji, eds. Electrochemical Methods in Soil and Water Research. Pergamon Press, Oxford, UK, 366–412.",
+      "Fang, C. and Moncrieff, J.B. 1998. Simple and fast technique to measure CO₂ profiles in soil. Soil Biol. Biochem. 30:2107–2112.",
+      "Farrell, R.E., Elliott, J.A., and de Jong, E. 1993. Soil air. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. Canadian Society of Soil Science, Lewis Publishers, Boca Raton, FL, 663–672.",
+      "Farrell, R.E., Elliott, J.A., and de Jong, E. 2002. Gas sampling and analysis. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 1076–1111.",
+      "Farrell, R.E., Swerhone, G.D.W., and van Kessel, C. 1991. Construction and evaluation of a reference electrode assembly for use in continuous monitoring of in situ soil redox potentials. Commun. Soil Sci. Plant Anal. 22:1059–1068.",
+      "Flanagan, L.B., Ehleringer, J.R., and Pataki, D.E., eds. 2005. Stable Isotopes and Biosphere–Atmosphere Interactions: Processes and Biological Controls. Elsevier, San Diego, CA.",
+      "Griffith, D.W.T., Leuning, R., Denmead, O.T., and Jamie, I.M. 2002. Air–land exchanges of CO₂, CH₄ and N₂O measured by FTIR spectrometry and micrometeorological techniques. Atmos. Environ. 36:1833–1842.",
+      "Gut, A., Blatter, A., Fahrni, M., Lehmann, B.E., Neftel, A., and Staffelbach, T. 1998. A new membrane tube technique (METT) for continuous gas measurements in soil. Plant Soil 198:79–87.",
+      "Hall, K.C. and Dowdell, R.J. 1981. An isothermal gas chromatographic method for the simultaneous estimation of oxygen, nitrous oxide and carbon dioxide content of gases in the soil. J. Chromatogr. Sci. 19:107–111.",
+      "Hirano, T., Setoyama, H., Tanaka, Y., and Kim, H. 2000. Diffusive CO₂ efflux from the soil surface of a deciduous broad-leaved forest in Hokkaido, Japan. In: Proceedings of the International Workshop for Advanced Flux Network and Flux Evaluation. Center for Global Environmental Research, National Institute for Environmental Studies, Japan, 113–118.",
+      "Hitchman, M.L. and Berlouis, L.E.A. 1995. Electrochemical methods. In: F. McLennan and B.R. Kowalski, eds. Process Analytical Chemistry. Blackie Academic & Professional, London, UK, 217–258.",
+      "Højberg, O., Revsbech, N.P., and Tiedje, J.M. 1994. Denitrification in soil aggregates analyzed with microsensors for nitrous oxide and oxygen. Soil Sci. Soc. Am. J. 58:1691–1698.",
+      "Izaurralde, R.C., Lemke, R.L., Goddard, T.W., McConkey, B., and Zhang, Z. 2004. Nitrous oxide emissions from agricultural toposequences in Alberta and Saskatchewan. Soil Sci. Soc. Am. J. 68:1285–1294.",
+      "Jensen, C.R., Van Gundy, S.D., and Stolzy, L.H. 1965. Recording CO₂ in soil root systems with a potentiometric membrane electrode. Soil Sci. Soc. Am. Proc. 29:631–633.",
+      "Kabwe, L.K., Farrell, R.E., Carey, S.K., Hendry, M.J., and Wilson, G.W. 2005. Characterizing spatial and temporal variations in CO₂ fluxes from ground surface using three complementary measurement techniques. J. Hydrol. 311:80–90.",
+      "Kammann, C., Grünhage, L., and Jäger, H.-J. 2001. A new sampling technique to monitor concentrations of CH₄, N₂O and CO₂ in air at well-defined depths in soils with varied water potential. Eur. J. Soil Sci. 52:297–303.",
+      "Khan, A.R., Chandra, D., Quraishi, S., and Sinha, R.K. 2000. Soil aeration under different soil surface conditions. J. Agron. Crop Sci. 185:105–112.",
+      "Kühl, M. and Revsbech, N.P. 2001. Biogeochemical microsensors for boundary layer studies. In: B.P. Boudreau and B.B. Jørgensen, eds. The Benthic Boundary Layer. Oxford University Press, New York, 180–210.",
+      "Lemke, R., Goddard, T., Hahn, D., Burton, D., Ellert, B., Farrell, R., Monreal, M., and Noot, D. 2002. An inter-laboratory comparison of nitrous oxide analysis in western Canada. Commun. Soil Sci. Plant Anal. 33:2705–2713.",
+      "Letey, J. and Stolzy, L.H. 1964. Measurement of oxygen diffusion rates with the platinum micro-electrode. I. Theory and equipment. …"
+    ]},
+    {"type": "source-fidelity-note", "text": "原书Kabwe题名印作“complimentary”，依题意和后续规范书目校正为“complementary”；Gut作者Fahrni、Khan题名different及多个变音符均按原始书目规范化。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "8229c97e46c3b4076e8da355ce5331d9126c6572a0724625665f9d5c8e8aa7c9"
+}

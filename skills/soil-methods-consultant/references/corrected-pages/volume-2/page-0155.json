@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 155,
+  "sourceImageSha256": "bbb84b7d6597730df7d3b8b48bbea812536026ccd24d29a2c8c098f661eb6c14",
+  "review": {
+    "textPass": {"status": "verified", "method": "对照原分辨率图确认本页仅有第七篇主译署名"},
+    "precisionPass": {"status": "verified", "method": "核验姓名为李保国，角色为主译"},
+    "secondVisualPass": {"status": "verified", "method": "全页复核，无正文、公式、表格或页码"}
+  },
+  "blocks": [
+    {"type": "part-credit", "part": "第七篇 土壤水分析", "role": "主译", "name": "李保国"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "965a836e0deb8ff52d3918813c371b08383665073082e4e5f52f3d573bc9fada"
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 470,
+  "sourceImageSha256": "7a60ad38609dd9aa27cbfca5d5fedf4adbb9d8354daf158f683ea5f0780c15ca",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页、两套OCR及式（46.1）上下文，恢复46.2.4承上句、46.2.5四条注释及46.3跨页正文"},
+    "precisionPass": {"status": "verified", "method": "核验4/28/35 °C、2 mm、6个月、−5～−10 kPa、16～20/20～40/25周、0.054 week⁻¹、56/28 d、C/N与Avena sativa L."},
+    "secondVisualPass": {"status": "verified", "method": "由46.3页末承下句反向复核至Campbell 1993承上文，逐字检查N₀、k、Nₘᵢₙ上下标和所有时间温度；印刷页码439"}
+  },
+  "blocks": [
+    {"type": "paragraph", "continuationOf": "page-0469:46.2.4", "text": "上述N₀和k初值建议引自Campbell等（1993）。"},
+    {"type": "section-heading", "level": 3, "number": "46.2.5", "title": "注释"},
+    {"type": "note", "number": "（1）", "text": "培养前的最适样品处理尚无定论，既有研究用风干土也用鲜土。鲜土应在培养开始前约4 °C冷藏。Campbell等（1993）认为田间土壤常处于风干状态的地区可先风干再培养；但风干会杀死部分微生物，复湿后其生物量氮会快速矿化。单指数模型可能不能准确表示复湿初期的矿化峰（Cabrera，1993），估算N₀时有时需剔除最初2周数据（Stanford和Smith，1972）。筛分细度也可能影响结果，但Stenger等（2002）发现未过筛土样与过2 mm筛土样培养6个月的氮矿化量几乎无差别。"},
+    {"type": "note", "number": "（2）", "text": "式（46.1）假设只有一个可矿化氮库，但土壤存在多种‘活性氮’形态。研究者曾用双库或三库模型提高拟合度（Deans等，1986）。双库（双指数）模型虽可比单指数模型更精确拟合实验室氮矿化数据（Curtin等，1998），仍不能保证普遍适用（Campbell等，1988）。"},
+    {"type": "note", "number": "（3）", "text": "由式（46.1）拟合的N₀和k会随温度、含水量和培养持续时间改变（Wang等，2003）。氮矿化最适温度通常为35 °C；低温培养如28 °C可能在开始后2周内出现滞后，富含碳基质的森林土壤因初期氮固定占主导，初始净氮矿化量可能很低（Campbell等，1993；Scott等，1998）。最适含水量接近田间持水量（基质势−5～−10 kPa）。理想培养时间至少25周（Ellert，1990）；培养延长时N₀通常增加、k减小（Paustian和Bonde，1987；Wang等，2003），累计矿化氮Nₘᵢₙ一般在16～20周达到最大并趋于稳定（Campbell等，1993）。"},
+    {"type": "note", "number": "（4）", "text": "一级模型拟合中N₀和k常呈反比。为使N₀更能表征土壤氮真实矿化量，有人建议把k固定为标准值，如0.054 week⁻¹（Wang等，2003）。该方法减小培养期对N₀的影响，使20～40周范围内N₀基本不受培养时长影响。"},
+    {"type": "section-heading", "level": 2, "number": "46.3", "title": "短期好气培养法"},
+    {"type": "paragraph", "text": "短期好气培养法能更及时估算可矿化氮，且不需周期性淋洗，劳动需求较低。Campbell等（1994）比较两组数据后发现，北美土壤培养最初2周的氮矿化量通常与N₀显著相关，但并非总是如此；高C/N森林土壤等样品可能在短期培养中固定大量氮，使短期净矿化量与N₀关系不密切（Scott等，1998）。这种相关性会随培养周期和温度改变。"},
+    {"type": "paragraph", "text": "Parfitt等（2005）在新西兰进行56 d、25 °C好氧培养，培养期氮矿化量与豆科牧草吸氮量显著相关。Curtin和McCallum（2004）对代表不同管理历史和母质的30种土壤进行28 d、20 °C好氧培养，氮矿化量与温室燕麦（Avena sativa L.）吸氮量密切相关。56 d培养可能比28 d更好反映整个生长季的供氮水平，但时效性较差。通过按土壤温度和湿度调整培养基本值，可估算田间矿化率[续见第471页]。"}
+  ],
+  "formulas": [
+    {"id": "46.2.5-fixed-k", "display": "k = 0.054 week⁻¹", "meaning": "Wang等（2003）建议的标准固定一级矿化速率常数"},
+    {"id": "46.2.5-optimum-water-potential", "display": "ψₘ ≈ −5～−10 kPa", "meaning": "原书给出的近似最适含水状态，以基质势表示并近似田间持水量"},
+    {"id": "46.3-short-aerobic-options", "display": "56 d at 25 °C; 28 d at 20 °C", "meaning": "本页列举的两种短期好氧培养研究条件，不应混合成一个统一标准"}
+  ],
+  "tables": [],
+  "contentSha256": "161ac8e61f817cf203badc9053f4f5b4db33d86ac6a9203d71de566d6ddd0a37"
+}

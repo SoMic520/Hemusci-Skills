@@ -1,0 +1,46 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 88,
+  "sourceImageSha256": "dbb79d65cb4ea4b1378939b6d3493c51aabdef877c13588ddaafa662741a1e9e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段对照原分辨率图和两套OCR，完成62.4.3、62.4.4、62.5及62.5.1"},
+    "precisionPass": {"status": "verified", "method": "核验式（62.2）的整个分母与求和范围、式（62.3）上下限、筛级权重、−0.1 kPa、250 μm、620 nm"},
+    "secondVisualPass": {"status": "verified", "method": "由62.5.1(3)反向复核至式（62.2），检查大分式、Σ的i=1到n、xᵢ/WSAᵢ下标和负吸力符号；印刷页码597"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "62.4.3", "title": "计算", "level": 3},
+    {"type": "paragraph", "text": "每一粒级的水稳性团聚体比例WSAᵢ按式（62.2）计算。i=1,2,…,n对应各筛级。若需单指标，按式（62.3）求平均质量直径MWD；必须包括通过最细筛的组分。"},
+    {"type": "paragraph", "text": "团聚体粒级分布通常更近似对数正态分布，也可用几何平均质量直径GMWD、幂函数常数或分形指标描述。一种农学加权法把1～5 mm视为理想粒级，对8～4、4～2、2～1、1～0.25和<0.25 mm组分依次赋权3、8.5、9.5、4和0；该权重是特定农学指数，不是MWD的筛孔均值。"},
+    {"type": "heading", "number": "62.4.4", "title": "注释", "level": 3},
+    {"type": "notes", "items": [
+      "最大误差源是样品制备；风干样和田间湿样都应尽量少扰动。",
+      "用四分法取代表性子样：堆成圆锥、用大抹刀分4份，从两个对角四分样各取1份40 g子样；一份测粒级分布，一份测含水量。",
+      "通常用<8 mm整土；若用<6 mm，可省略套筛中4 mm筛，但必须报告初始上限。"
+    ]},
+    {"type": "heading", "number": "62.5", "title": "测定湿团聚体稳定性和浊度的综合方法", "level": 2},
+    {"type": "paragraph", "text": "Pojasok和Kay（1990）法同时表征1～2 mm大团聚体水稳性与破坏后黏粒分散性（浊度），两个指标尺度不同，不得相互代替。"},
+    {"type": "heading", "number": "62.5.1", "title": "步骤", "level": 3},
+    {"type": "procedure-steps", "items": [
+      "(1) 用湿润台将田间湿润的1～2 mm团聚体在基质势−0.1 kPa下毛细润湿；放入试管，上下端倒振荡10 min。",
+      "(2) 将悬液过250 μm筛；筛上部分为水稳性大团聚体，按62.3的称重与粗颗粒校正思路定量。",
+      "(3) 根据Stokes定律选取沉降深度，用620 nm光测定筛下滤液的透光率；用悬浮黏粒百分比—透光率标准曲线换算悬浮黏粒量。"
+    ]},
+    {"type": "source-fidelity-note", "text": "原书写“在压力下（0.1 kPa）润湿”，缺少吸力符号且容易误解为正压。Pojasok–Kay程序是在湿润台基质势−0.1 kPa下毛细润湿，已校正。原书称620 nm为“红外线波长”不准确；620 nm属可见红光。"}
+  ],
+  "formulas": [
+    {"label": "(62.2)", "plain": "WSAᵢ = (w₂ᵢ−w₃ᵢ)/[w₁/(1+wc) − Σⱼ₌₁ⁿ w₃ⱼ]", "latex": "\\mathrm{WSA}_i=\\frac{w_{2i}-w_{3i}}{\\dfrac{w_1}{1+wc}-\\sum_{j=1}^{n}w_{3j}}", "variables": [
+      {"symbol": "WSAᵢ", "meaning": "水稳性团聚体第i粒级的质量比例（无量纲）"},
+      {"symbol": "w₁", "meaning": "初始湿土样质量"},
+      {"symbol": "wc", "meaning": "质量含水量，g g⁻¹"},
+      {"symbol": "w₂ᵢ", "meaning": "湿筛后第i粒级烘干质量"},
+      {"symbol": "w₃ᵢ", "meaning": "第i粒级中粗大初级颗粒的烘干质量"}
+    ], "conditions": ["分子扣除该粒级粗大初级颗粒", "分母为初始烘干土重扣除全部粒级的粗颗粒总重", "求和索引与j区分，避免与左边自由下标i混淆"]},
+    {"label": "(62.3)", "plain": "MWD = Σᵢ₌₁ⁿ xᵢWSAᵢ", "latex": "\\mathrm{MWD}=\\sum_{i=1}^{n}x_i\\mathrm{WSA}_i", "variables": [
+      {"symbol": "xᵢ", "meaning": "第i粒级的平均直径（相邻筛孔尺寸的代表值）"},
+      {"symbol": "WSAᵢ", "meaning": "第i粒级的质量比例"}
+    ], "conditions": ["WSAᵢ必须用小数比例而非百分数", "必须包含<最细筛的粒级", "MWD的长度单位与xᵢ一致"]}
+  ],
+  "tables": [],
+  "contentSha256": "3ad09c68fb93b9ae7064e10528d2c3045e2a8b6d21293832d1238fdc196f318e"
+}

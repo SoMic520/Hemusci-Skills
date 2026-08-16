@@ -1,0 +1,50 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 75,
+  "sourceImageSha256": "a424df8d2cbeb12593e50e56a9c9562349b2bbadb504788ce9a45d7b3eb4b7b7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐格对照原分辨率正文与表5.4，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工消除行动阈值、足够多、设置/设施等识别歧义"},
+    "precisionPass": {"status": "verified", "method": "放大核对A型/B型决策错误、α/β、P=0.01、DQO/DQOs、QC、MDL、PQL、PT及表5.4全部单元格与出处"},
+    "secondVisualPass": {"status": "verified", "method": "按5.3.1续文、5.3.2两类错误、5.4标题、表5.4田间/实验室分组和印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "continuation": true, "text": "果是指那些能在可接受的及已知的偏差范围内再现的结果，这样，就可以论证为正确的和可以长久使用的标准方法。"},
+    {"type": "section-heading", "level": 3, "number": "5.3.2", "title": "决策错误"},
+    {"type": "paragraph", "text": "如上所述，两类可能的决策错误可以在解释取样过程和分析数据的基础上得以识别。"},
+    {"type": "section-heading", "level": 4, "number": "1", "title": "假阳性（B型决策错误或错误接受）"},
+    {"type": "paragraph", "text": "在化学分析数据中，一个重要的标准是保证被检测到的参数是存在的。同样重要的是，研究区域的平均浓度在统计学上是否显著高于行动阈值。在这两种情况下，如果做出了不正确的结论，最终结果都是假阳性，也就是说本来不存在的分析对象被认为是存在的。空白处理被用来排除假阳性的存在。B型决策错误的后果会导致对该假阳性结果的进一步研究和评估，从而增加不必要的成本开支。", "inlineNotation": ["B型"]},
+    {"type": "section-heading", "level": 4, "number": "2", "title": "假阴性（A型决策错误或错误拒绝）"},
+    {"type": "paragraph", "text": "根据分析数据正确地做出“样品中分析对象不存在”的结论也很重要。没能检测到一个确定存在的参数，那么这个样品就呈现出假阴性。类似地，如果研究区域内分析物的平均浓度在统计学上没有显著地高于行动阈值，但实际上是显著高出的，那么这个样品也呈现出假阴性。假阴性常常是由土壤基质中较低的分析对象回收率引起的，或者由能掩盖分析物响应信号的干扰因素所致。方法添加（基质添加）用于排除假阴性的存在。最大限度地降低假阴性对于风险评估和监管处理十分重要。A型决策错误会导致诸如对健康风险的未检出和未被识别等后果。", "inlineNotation": ["A型"]},
+    {"type": "paragraph", "text": "这两种决策错误都需要检验，并且，需要判别哪种错误的后果更为严重。比如，决策小组可能认为A型决策错误（假阴性）的后果更严重，因为土壤污染物的真实状态可能不会被检测到，进而可能对附近居民的健康造成威胁。", "inlineNotation": ["A型"]},
+    {"type": "paragraph", "text": "DQO决策的步骤6为以下方面设置了可接受的限值：与DQO相关的精确度、准确度、假阳性和/或假阴性决策错误的概率及取样的置信水平和分析数据。这些决策错误限值是根据超过它们的后果所设定的（IAEA，2004）。可允许的决策错误初始值设为1%（即P=0.01）。也就是说，需要收集和分析足够多的样本，保证假阴性（α）或假阳性（β）决策错误出现的概率仅为1%。", "inlineNotation": ["DQO", "1%", "P=0.01", "α", "β"]},
+    {"type": "section-heading", "level": 2, "number": "5.4", "title": "用于误差评估的质量控制（QC）程序"},
+    {"type": "paragraph", "text": "QC样本类型的选择取决于研究地点的DQOs。需要依据以下情况来进行选择（参见表5.4）：", "inlineNotation": ["QC", "DQOs", "表5.4"]},
+    {"type": "table-reference", "number": "5.4", "title": "田间和实验室使用的质控样品类型"},
+    {"type": "source-note", "text": "摘自：British Columbia Ministry of the Environment (BCME), 2003."},
+    {"type": "printed-page-number", "text": "44"}
+  ],
+  "formulas": [
+    {"label": null, "plain": "P=0.01", "latex": "P=0.01", "context": "可允许的决策错误初始值"}
+  ],
+  "tables": [
+    {
+      "number": "5.4",
+      "title": "田间和实验室使用的质控样品类型",
+      "columns": ["类别", "目的", "需要使用的QC程序"],
+      "rows": [
+        ["田间", "代表性检查", "设置田间重复（精密度）"],
+        ["田间", "基质效应检查", "使用替代物、添加回收、设置重复"],
+        ["田间", "污染物检查", "设置空白（田间空白、洗涤液空白）"],
+        ["田间", "减缓化学反应", "缩短保存时间、使用较低的温度和合适的容器、添加防腐剂"],
+        ["实验室", "代表性检查", "设置实验室重复（来自子样本）"],
+        ["实验室", "方法偏差检查", "设施实验室对照样本，使用参照物"],
+        ["实验室", "管理条例检查（偏差）", "方法检测水平（MDL），实际定量限（PQL）"],
+        ["实验室", "可比性检查（与其他实验室相比）", "外来的QC样品，如性能测试（PT）样品"]
+      ],
+      "sourceNote": "摘自：British Columbia Ministry of the Environment (BCME), 2003."
+    }
+  ],
+  "contentSha256": "3e9ce0e9ef1ec947807b473f9fd78e16ca5b2b52cf08d7351e601cae8d62b4e8"
+}

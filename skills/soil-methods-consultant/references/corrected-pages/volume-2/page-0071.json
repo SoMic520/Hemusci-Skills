@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 71,
+  "sourceImageSha256": "198ec2b762d47d855ca0e15689bee5f3bd82b8e9a429beaccf385be58521dc59",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐式对照原分辨率图和两套OCR，完成60.2.5余文、式（60.1）～（60.4）及60.3引言"},
+    "precisionPass": {"status": "verified", "method": "核验C_c/C₀/W_c/W₀/dC/dW、MPa、g g⁻¹、自然指数e、a/b及一阶导数口径"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页Cohron句反向复核至含水量定点，逐式检查下标、导数、括号和指数；印刷页码580"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "若不能同步测含水量，应在CI测点近旁取样。含水量与CI通常负相关；忽略它会掩盖管理效应。Busscher等（1997）用式（60.1）把原始CI校正到共同参考含水量。先在试验数据中选择式（60.2）～（60.4）之一拟合C(W)，再在W₀处求dC/dW并线性校正至W_c。"},
+    {"type": "variables-note", "text": "C_c为校正CI，C₀为原始CI，W_c为共同参考质量含水量，W₀为C₀测定时的质量含水量；C单位MPa，W用g g⁻¹小数；a、b为经验参数，e为自然指数底。"},
+    {"type": "source-fidelity-note", "text": "原书仅给三种拟合式，未写出导数代入形式；方法卡补全解析导数，避免把dC/dW误当常数或在错误含水量处求值。式（60.1）本质为在W₀处的一阶线性校正，不应远距离外推。"},
+    {"type": "paragraph", "text": "C—W关系可能随处理和时间改变。Lapen等（2004）发现免耕黏壤土关系随时间较一致，而传统耕作在春播后3个月内变化强，说明试验设计前需尽早调查现场。"},
+    {"type": "heading", "number": "60.3", "title": "土壤抗剪切强度", "level": 2},
+    {"type": "paragraph", "text": "抗剪强度用于地基、车轮牵引和耕具破土评价，是土体抵抗剪切变形/破坏的能力。田间受力多向，直接测定困难，多数方法在室内对重塑土或原状土块/土柱进行。剪切强度强烈依赖含水量，更准确地说依赖水势；土壤变干或水势降低时通常增强。非饱和土室内剪切综述与工程标准见Fredlund和Vanapalli（2002）。"},
+    {"type": "paragraph", "text": "Lloyd和Collis-George（1982）描述结构土的四种田间剪切类型，并提出近零载荷扭转剪切装置估算内聚力贡献。手持叶片扭剪计可测零载荷土柱表面剪切；水平叶片零法向载荷难保持，仪器还可配不同直径水平叶或不同尺寸轴向叶。本节采用Cohron（1963）便携剪应力记录仪，它可同时测剪切过程中的法向应力。"}
+  ],
+  "formulas": [
+    {"label": "(60.1)", "plain": "C_c = C₀ + [dC/dW]_(W₀)(W_c − W₀)", "latex": "C_c=C_0+\\left.\\frac{dC}{dW}\\right|_{W_0}(W_c-W_0)", "variables": [{"symbol": "W_c", "meaning": "共同参考质量含水量"}, {"symbol": "W₀", "meaning": "原始CI测定时含水量"}]},
+    {"label": "(60.2)", "plain": "C = aW^b；dC/dW = abW^(b−1)", "latex": "C=aW^b;\\qquad\\frac{dC}{dW}=abW^{b-1}"},
+    {"label": "(60.3)", "plain": "C = a(1−W)^b；dC/dW = −ab(1−W)^(b−1)", "latex": "C=a(1-W)^b;\\qquad\\frac{dC}{dW}=-ab(1-W)^{b-1}"},
+    {"label": "(60.4)", "plain": "C = ae^(bW)；dC/dW = abe^(bW)", "latex": "C=ae^{bW};\\qquad\\frac{dC}{dW}=abe^{bW}"}
+  ],
+  "tables": [],
+  "contentSha256": "8ae84cba48a9c61ea8f3f3709ec2dc8ebd988ecf98643bd3a3da9352e0682582"
+}

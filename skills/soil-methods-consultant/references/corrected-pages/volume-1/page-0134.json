@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 134,
+  "sourceImageSha256": "1c08b069aea821c44795038fd7ad505cbc0d93339cda21627d87b8653207ecc5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率方法页，并与Apple Vision、PaddleOCR交叉比对，人工恢复NSR定义、三明治测试原理、材料试剂9项及准备/再生步骤"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验μg、μmol、cm²、24 h、8 cm²、NaHCO₃、HCl、HCO₃⁻、mol/L、g、mL、L、h、min及膜面积用量"},
+    "secondVisualPass": {"status": "verified", "method": "从HCO₃⁻离子状态反向复核至页首NSR定义，确认Western Ag Innovation单数写法、13.2标题层级、准备/再生子层级和页码103"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第13章｜使用离子交换树脂测定离子供给率｜"},
+    {"type": "paragraph", "text": "通过扩散敏感体系，我们容易测出养分供给率（NSR）。NSR被定义为在与土壤直接接触的一定时间内，单位表面积树脂膜吸附的养分离子的量，对于一定的直接接触时间（如24 h），它可以表示为μg（或μmol）/cm²。由于测量方法不同，供给率与由常规提取法确定的土壤养分浓度间没有直接的校准关系。使用离子交换树脂膜与土壤直接接触测量有效态养分的方法，可代替传统的化学提取法，它不仅可以测量养分离子通量，还可模拟和跟踪土壤中离子对植物根系离子供给的动力学行为（Qian和Schoenau，2002a）。作为一种独特的多元素评价方法，它广泛适用于不同地区和不同性质的土壤。", "inlineNotation": ["NSR", "24 h", "μg（或μmol）/cm²"]},
+    {"type": "paragraph", "text": "目前，在土壤养分离子供给率的评估中，无论是在实验室还是在田间，都采用树脂与土壤直接接触的方法（Qian和Schoenau，2002a）。树脂膜置于探针中便于离子交换树脂的现场原位使用或实验室新鲜大块土壤样品中的应用。一种被叫作“三明治测试”的实验室测试方法可用来测定土壤的NSR，这种方法仅需要几克土样，可测量干燥研磨后的土样。本章接下来的内容将介绍“三明治”测试法。"},
+    {"type": "section-heading", "level": 3, "number": "13.2", "title": "养分（离子）供给率的实验室测试——“三明治”测试法"},
+    {"type": "section-heading", "level": 4, "number": "13.2.1", "title": "原理"},
+    {"type": "paragraph", "text": "“三明治”测试法可用最少量处理过（风干、研磨后）的土样来实现NSR的测量。其基本原理是让树脂膜与土壤在潮湿条件下直接接触24 h，以吸收土壤中的养分离子。"},
+    {"type": "section-heading", "level": 4, "number": "13.2.2", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "text": "树脂膜：由Western Ag Innovation公司（Saskatoon，SK）提供。其他的经销商有BDH（Poole，England）和Ionics（Watertown，Massachusetts）公司。膜片切成约8 cm²的正方形，以确保可刚好装入瓶盖内。"},
+    {"type": "material-item", "number": "（2）", "text": "Snapcap瓶盖（7号）。"},
+    {"type": "material-item", "number": "（3）", "text": "带盖子的Snapcap瓶（7号）。"},
+    {"type": "material-item", "number": "（4）", "text": "封口膜。"},
+    {"type": "material-item", "number": "（5）", "text": "分析天平。"},
+    {"type": "material-item", "number": "（6）", "text": "振荡器。"},
+    {"type": "material-item", "number": "（7）", "text": "移液枪（1 mL或2 mL）和枪头（或滴管）。"},
+    {"type": "material-item", "number": "（8）", "text": "0.5 mol/L NaHCO₃溶液：将42 g NaHCO₃溶于去离子水，定容于1 L容量瓶中。"},
+    {"type": "material-item", "number": "（9）", "text": "0.5 mol/L HCl：用去离子水与42 mL浓盐酸混合，定容于1 L容量瓶中。"},
+    {"type": "section-heading", "level": 4, "number": "13.2.3", "title": "步骤"},
+    {"type": "procedure-heading", "level": 5, "number": "1.", "title": "准备/再生"},
+    {"type": "paragraph", "text": "树脂膜在使用之前必须清洗和再生。在进行测定之前，所用的膜不能被离子污染，这一点很重要。"},
+    {"type": "procedure-step", "number": "（1）", "text": "使用前，阳离子交换树脂膜必须用0.5 mol/L的HCl清洗/再生两次，每次1 h，每1 cm²膜需要使用3 mL的HCl清洗。这可以将阳离子交换膜交换位点处于质子化状态，作为电荷平衡离子。二者混合后应每15 min搅动或搅拌一次，或者如果可能的话在旋转或往复振荡器上持续低速振荡。若平衡离子为非质子，则清洗过程应重复四次。"},
+    {"type": "procedure-step", "number": "（2）", "text": "清洗新的或再生的阴离子交换膜，需用0.5 mol/L的NaHCO₃溶液浸泡四次，每次2 h，每1 cm²膜需要3 mL的NaHCO₃溶液浸泡。溶液也需要定期搅拌或慢慢摇动。这可以将阴离子交换膜交换位点置于HCO₃⁻离子状态。"},
+    {"type": "printed-page-number", "text": "103"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d97f07e725cf66039a85ec90799c1bb48956971bb68ff1e719d440aeeba9e94a"
+}

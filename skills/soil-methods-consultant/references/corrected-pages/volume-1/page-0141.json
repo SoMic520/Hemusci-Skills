@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 141,
+  "sourceImageSha256": "255048d6ef597a3383c3e6b66679cff5d03d595d86509d0e4e42644aaa123a1d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率方法页，并与Apple Vision、PaddleOCR交叉比对，人工恢复14.3步骤、计算、注释及14.4原理和材料9项"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Pₛₐₜ、Pₘ₃、Alₘ₃、Feₘ₃、mmol/kg、pH<7.0、ICP-AES/ICPs、CaCl₂、KH₂PO₄、mg P/L及所有长度/浓度"},
+    "secondVisualPass": {"status": "verified", "method": "从14.4.1（9）反向复核至14.3.2（1），确认分式分母加法、变量下标、Whatman No. 42写法、光程范围和页码110"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 4, "number": "14.3.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取2.5 g风干土壤装至40 mL离心管中，2个重复。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加入25 mL Mehlich-3试剂并在10 r/min转速下振荡5 min。"},
+    {"type": "procedure-step", "number": "（3）", "text": "用Whatman 42号滤纸将溶液过滤，若滤液不澄清可改用0.45 μm的滤膜。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用ICP-AES测量磷、铝和铁含量，分别用Pₘ₃、Alₘ₃和Feₘ₃表示。"},
+    {"type": "section-heading", "level": 4, "number": "14.3.3", "title": "计算"},
+    {"type": "calculation-item", "number": "（1）", "text": "在所有的情况下，Pₛₐₜ用被提取元素的摩尔浓度（mmol/kg）来表示。"},
+    {"type": "calculation-item", "number": "（2）", "text": "对于酸性土壤（pH值<7.0）：Pₛₐₜ=Pₘ₃/(Alₘ₃+Feₘ₃)"},
+    {"type": "section-heading", "level": 4, "number": "14.3.4", "title": "注释"},
+    {"type": "paragraph", "text": "土壤磷吸附饱和度越来越多地被用作土壤磷对径流的有效性的环境指标，它可以很容易地根据土壤测试实验室和国家数据库的数据计算得到。一些研究表明，使用Mehlich-3数据可有效评估大范围酸性和碱性土壤的Pₛₐₜ。目前，大多数土壤测试实验室使用ICPs对Mehlich-3提取液进行测定，可同时测得计算Pₛₐₜ所需的数据（Pₘ₃、Alₘ₃和Feₘ₃）。然而，由于ICP测得的几乎是总可溶性磷（无机磷和有机磷），因此ICP测得的磷含量通常会大于比色法。对于采用不同实验方法所测得的磷含量，在创建数据库或进行对比研究时必须谨慎。"},
+    {"type": "section-heading", "level": 3, "number": "14.4", "title": "磷吸附容量"},
+    {"type": "paragraph", "text": "土壤磷吸附的估算值会随土壤溶液比、背景电解质溶液的离子强度和阳离子种类、平衡时间、初始磷浓度范围、吸附平衡管中土壤悬浮液与顶空的体积比、振荡速率和类型，以及平衡后固液分离的类型和程度等条件变化（Nair等，1984）。即使用类似的基本步骤测定磷吸附，上述参数中仍存在相当大的变数，使得不同研究的结果之间很难进行比较。因此，Nair等（1984）提出了一种磷吸附的标准方法，该方法能够在多种类型的土壤中得到一致的结果。这一方法经过一系列评估、修订、实验室测试，最终得出了一种标准化的磷吸附方法，详细描述如下。"},
+    {"type": "section-heading", "level": 4, "number": "14.4.1", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "text": "带螺旋盖的离心管（40 mL）。"},
+    {"type": "material-item", "number": "（2）", "text": "旋转振荡器。"},
+    {"type": "material-item", "number": "（3）", "text": "离心机。"},
+    {"type": "material-item", "number": "（4）", "text": "过滤装置（0.45 μm微孔滤膜或Whatman No. 42滤纸）。"},
+    {"type": "material-item", "number": "（5）", "text": "分光光度计：带有红外光电管的分光光度计，用于880 nm处，提供至少2.5 cm的光程，5 cm长的光程更佳。对于0.5、1.0和5.0 cm长的光程，磷的范围分别在0.3～2.0、0.15～1.30和0.01～0.25 mg/L。"},
+    {"type": "material-item", "number": "（6）", "text": "酸洗的玻璃器具和塑料瓶：量筒（5～100 mL）、容量瓶（100、500和1000 mL）、存储瓶、移液管、滴管瓶、用于读取样品吸光度的测试试管或烧瓶。分光光度计应每天按照厂商所提供的标准程序进行校准。"},
+    {"type": "material-item", "number": "（7）", "text": "用于称量试剂和样品的天平需根据说明书校准，并进行常规清洁以确保精确度。"},
+    {"type": "material-item", "number": "（8）", "text": "背景溶液为0.01 mol/L的CaCl₂，存于冰箱待用。"},
+    {"type": "material-item", "number": "（9）", "text": "以0.01 mol/L CaCl₂为背景溶液的50 mg P/L的KH₂PO₄无机磷溶液，存于冰箱待用。"},
+    {"type": "printed-page-number", "text": "110"}
+  ],
+  "formulas": [
+    {"label": null, "plain": "Pₛₐₜ=Pₘ₃/(Alₘ₃+Feₘ₃)", "latex": "P_{sat}=\\frac{P_{M3}}{Al_{M3}+Fe_{M3}}", "context": "酸性土壤（pH值<7.0）的磷吸附饱和度"}
+  ],
+  "tables": [],
+  "contentSha256": "0416614a72a4e2e75fda782ef5d21842e59f5718c1a4aea53d62277686178899"
+}

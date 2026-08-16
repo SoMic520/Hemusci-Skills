@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 149,
+  "sourceImageSha256": "4d4cdbd5dfbf73a8602b322aa1662bdfc1102e65b120bc6ad68aab696b2b35ad",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段对照原分辨率图和两套OCR，完成式(68.19)、注释、68.5.5引言、方法及式(68.20)"},
+    "precisionPass": {"status": "verified", "method": "核验L_s/(ΔH_T/J_T−R_R)、−2—0 kPa、K_s/K(ψ)、θ/θ_s/θ_r、[1+(αψ)ⁿ]ᵇ全部上下标"},
+    "secondVisualPass": {"status": "verified", "method": "由式(68.20)反向复核至计算标题，检查复合系统阻力单位、气体扩散适用范围和Milks模型括号指数；印刷页码658"}
+  },
+  "blocks": [
+    {"type": "heading", "title": "68.5.4计算与注释", "level": 4},
+    {"type": "paragraph", "text": "张力盘膜和玻璃珠的阻力在近饱和时不可忽略。独立标定复合盘系统流阻R_R，以基质+张力盘总头降(ΔH)_T=A−L₂、通过复合系统的面积通量J_T及基质厚L_s按式(68.19)求K_s。不同ψ下K(ψ)需按Caron和Elrick（2005）数值求解，不能把式(68.19)直接逐点套用。"},
+    {"type": "variables", "items": ["L_s：基质厚度（L）", "(ΔH)_T：基质+张力盘复合系统总头降（L）", "J_T：通过复合系统的面积水通量（L·T⁻¹）", "R_R：独立测得的张力盘/珠层水力阻力（T）", "K_s：饱和导水率（L·T⁻¹）"]},
+    {"type": "paragraph", "text": "该法覆盖再湿基质的高水势范围，约−2—0 kPa，适于潮汐灌溉和毛管垫等地下灌溉有机基质，也可用于高导水砂质或强结构矿质土。模型已在生长基质和砂上验证，但不应外推至低导水细质土。"},
+    {"type": "heading", "number": "68.5.5", "title": "气体扩散率", "level": 3},
+    {"type": "paragraph", "text": "气体扩散率是栽培基质通气诊断关键指标，且随体积含水量变化，必须在与盆栽水势相近的多个含水状态测量或估算。对泥炭/有机生长介质，可用同一样品的K_s、脱湿曲线和进气值预测扩散率及孔隙连通性；该经验框架不适用于矿质土（Caron和Nkongolo，2004）。"},
+    {"type": "heading", "title": "方法与拟合", "level": 4},
+    {"type": "list", "items": ["同一圆柱样品原位测得的K_s、脱湿曲线和进气值", "可作非线性拟合与数值积分的软件"]},
+    {"type": "paragraph", "text": "以Milks等（1989）园艺基质持水函数拟合θ(ψ)，得到θ_s、θ_r、α、n、b。ψ须采用与α单位相容的绝对水势尺度；若保留负ψ，应避免非整数幂产生复数，通常用|ψ|拟合。"},
+    {"type": "source-fidelity-note", "text": "式(68.19)只有在J_T是面积通量、R_R单位为时间时量纲成立；若原始数据是cm³·min⁻¹体积流率，须先除以张力盘有效面积。原书68.5.5末句把“气体扩散率乘以体积含水量”混写；正确乘子见下页，是充气孔隙度θ_a而非含水量θ。"}
+  ],
+  "formulas": [
+    {"label": "68.19", "plain": "K_s = L_s / [(ΔH)_T/J_T − R_R]", "latex": "K_s=\\frac{L_s}{\\dfrac{(\\Delta H)_T}{J_T}-R_R}", "resultUnit": "长度·时间⁻¹"},
+    {"label": "68.20", "plain": "θ = θ_r + (θ_s − θ_r)/[1 + (α|ψ|)ⁿ]ᵇ", "latex": "\\theta=\\theta_r+\\frac{\\theta_s-\\theta_r}{\\left[1+(\\alpha|\\psi|)^n\\right]^b}"}
+  ],
+  "tables": [],
+  "contentSha256": "9759862292de90aa1e23dad953aae1679fc37b892656b1f2f7077c31bdc006b1"
+}

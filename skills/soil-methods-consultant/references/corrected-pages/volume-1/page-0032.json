@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 32,
+  "sourceImageSha256": "c3a12e664bb0a67e213489eefe42d833f50ea3b7d58c8dccf3cda11290e2196f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐字对照原分辨率篇章扉页，并与Apple Vision、PaddleOCR两份机器稿交叉比对"},
+    "precisionPass": {"status": "verified", "method": "核对篇号、篇名用字和层级"},
+    "secondVisualPass": {"status": "verified", "method": "从篇名反向逐字复核原页"}
+  },
+  "blocks": [
+    {"type": "part-heading", "level": 1, "number": "第一篇", "title": "土壤样品采集与处理"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c1410ac5504d0a57c4fb9c93ad8f6419f3e14489310b3272bf80e3ac98fa8734"
+}

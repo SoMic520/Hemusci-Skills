@@ -1,0 +1,50 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 3,
+  "sourceImageSha256": "48ec97ad29bb194d357fa6a160cf2441a2065d7c58aaa923fc29032a1639cbb1",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行逐项对照原分辨率版权页和两套OCR，完成英文版权、中文授权、CIP及出版印刷信息"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验978-0-8493-3586-0、978-7-121-41908-9、01-2016-7940、179460、X825/S151.9、880×1230 1/16、57印张、1735千字、版印次、电话和邮箱"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由咨询电话反向复核至英文书名，检查所有数字、连字符、地址、金额、英文大小写和OCR断词"
+    }
+  },
+  "blocks": [
+    {
+      "type": "original-edition-metadata",
+      "text": "Soil Sampling and Methods of Analysis, 2nd ed., edited by M.R. Carter and E.G. Gregorich；ISBN 978-0-8493-3586-0；Copyright © 2008 by Taylor & Francis Group, LLC. 英文版由CRC Press出版。"
+    },
+    {
+      "type": "rights-notice",
+      "text": "电子工业出版社获授权在中国大陆独家出版、发行中文简体翻译版；未经出版者书面许可，不得复制、发行或存入检索系统。封面须贴Taylor & Francis防伪标签。版权贸易合同登记号：图字01-2016-7940。"
+    },
+    {
+      "type": "cip-metadata",
+      "text": "《土壤采样与分析方法·下册》/[加]M.R.卡特（M.R. Carter）、[加]E.G.格雷戈里奇（E.G. Gregorich）主编；李保国等主译。北京：电子工业出版社，2022.3。书名原文：Soil Sampling and Methods of Analysis 2nd。ISBN 978-7-121-41908-9。主题/分类：土壤环境—环境质量—采样；土壤分析；X825；S151.9。中国版本图书馆CIP数据核字（2021）第179460号。"
+    },
+    {
+      "type": "publication-metadata",
+      "text": "责任编辑：缪晓红。印刷、装订：北京七彩京通数码快印有限公司。出版发行：电子工业出版社，北京市海淀区万寿路173信箱，邮编100036。开本880×1230，1/16；印张57；字数1735千字。2022年3月第1版，2022年8月第3次印刷。定价480.00元（上、下册）。"
+    },
+    {
+      "type": "contact-metadata",
+      "text": "发行及邮购电话：（010）88254888、88258888；质量投诉：zlts@phei.com.cn；盗版侵权举报：dbqq@phei.com.cn；本书咨询：（010）88254760。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "英文版权说明",
+      "text": "原页英文含‘an member’以及Simplified/part的跨行拆分；结构化正文按正常语法和完整单词归并，不把版面断词当作正文。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "791eb4e9992904307a4cdc3f7673985b65490334651a195400254383f9f387a9"
+}

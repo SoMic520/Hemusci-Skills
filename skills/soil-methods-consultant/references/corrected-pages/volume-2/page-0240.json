@@ -1,0 +1,49 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 240,
+  "sourceImageSha256": "9c20e3cdf09c2a8b666bbb1248c1f1d3385dc437d2b10679769cc19ab5b8650f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐图注逐格逐注对照原分辨率页图、两套OCR和英文原章，完成图76.4、表76.4及76.3.3(1)—(2)"},
+    "precisionPass": {"status": "verified", "method": "核验a=2 cm、H₀=100 cm、Δθ=0.25、K_fs/α*/φ_m/ψ_f/S/PD/NP全部指数，A³=665.8044、ρ_b³=91.0和1.257 L"},
+    "secondVisualPass": {"status": "verified", "method": "用式(76.6b)、(76.7b)独立复算A³和ρ_b³，再复核式(76.7a)K_fs=2.27×10⁻⁵ cm·s⁻¹；印刷页码749"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "有套管降水头法及式(76.6)—(76.7)的细节见Elrick and Reynolds (1986, 2002)、Munoz-Carpena et al. (2002)、Reynolds and Elrick (2005)。"},
+    {
+      "type": "figure",
+      "number": "76.4",
+      "title": "降水头井渗法式(76.6a)的H—t拟合",
+      "inputs": ["a=2 cm", "H₀=100 cm", "Δθ=0.25"],
+      "fitted": ["K_fs=2.29×10⁻⁵ cm·s⁻¹", "α*=0.12 cm⁻¹"],
+      "derived": ["φ_m=1.91×10⁻⁴ cm²·s⁻¹", "ψ_f=−8.3 cm", "S=9.31×10⁻³ cm·s⁻¹ᐟ²", "PD=0.0178 cm", "NP=9.51×10⁴ pores·m⁻²"]
+    },
+    {"type": "heading", "number": "76.3.3", "title": "注释", "level": 3},
+    {
+      "type": "method-notes",
+      "items": [
+        "套管—井壁必须水密；外侧短路流会高估K_fs和毛管参数。可随成井同步打入锋利薄壁金属外套，在套管外涂油脂，或底部装可膨胀封隔器；一旦发现侧漏，舍弃结果。",
+        "H_b可取任何小于H₀的值（包括0），但H_b=0可能耗时过长；实用选择通常H_b≥H₀/2。可固定t_b测H_b，或固定H_b测t_b。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "表76.4中文把structured silt loam误译为“结构良好的黏壤土”，规范为“有结构粉壤土”。页首把Elrick误排为Blrick。表中ρ_b³=91.0再次证明式(76.7b)必须用H₀−H_b。"
+    }
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "number": "76.4",
+      "title": "降水头井渗法简化分析数据及K_fs计算（式76.6、76.7）",
+      "columns": ["累积时间t (h)", "高于井底的水位H (cm)"],
+      "rows": [["0 (t₀)", "100 (H₀)"], ["3 (t_b)", "85 (H_b)"]],
+      "notes": [
+        "A³=665.8044（式76.6b）；ρ_b³=91.0（式76.7b）；K_fs=2.27×10⁻⁵ cm·s⁻¹（式76.7a）。",
+        "a=2 cm；d=50 cm；H₀=100 cm；形成H₀需水1.257 L。",
+        "有结构粉壤土，按表76.1估α*=0.12 cm⁻¹；θ_fs=0.65，θ_i=0.40，Δθ=0.25。"
+      ]
+    }
+  ],
+  "contentSha256": "3b86b3853de6189e0770e8cc5a8bb0ba048e0b4d8d5c0096eb1af1258814fcfd"
+}

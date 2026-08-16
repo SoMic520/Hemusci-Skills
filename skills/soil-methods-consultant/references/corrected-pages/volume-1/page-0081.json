@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 81,
+  "sourceImageSha256": "ad2e7ff9f885e872adb15e218f53ce8b4d063de4fcc3b319c4530542e4578654",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐字符对照原分辨率参考文献页，并与Apple Vision、PaddleOCR结果交叉比对，人工恢复作者串、题名、版本、标准号及译校署名"},
+    "precisionPass": {"status": "verified", "method": "放大核对SCC、EM 200-1-10、40 CFR136.2 Appendix B、QA/G-4、EPA QA=G-9、QA00、OLM04.2、URL路径与查询参数"},
+    "secondVisualPass": {"status": "verified", "method": "由Ramsey续句至USEPA 2004逐条反向复核，并核验原书连字符/破折号、年份后缀、验证日期、译校人名和印刷页码"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-entry", "continuation": true, "text": "analytical sources. J. Anal. Atom. Spectrom. 13: 97-104."},
+    {"type": "reference-entry", "text": "Standards Council of Canada (SCC). 2005. Programs and Services—Laboratories. [Online] Available at: http://www.scc.ca/en/programs/laboratory/index.shtml (verified March 2005)."},
+    {"type": "reference-entry", "text": "Swyngedouw, C., Chapman, M., Johnston, J., Kubik, S., Montgomery, S., Nam, C., Seveck, M., Shuvell, C.-A., and Lessard, R. 2004. Laboratory Measurement Uncertainty. Environmental Informatics Archives 2: 200-212. [Online] Available at: http://www.iseis.org/EIA/pdfstart.asp?no=04023(verified May 2006)."},
+    {"type": "reference-entry", "text": "Taylor, J.K. 1988. Defining the accuracy, precision, and confidence limits of sample data. In: L.H. Keith, ed. Principles of Environmental Sampling. American Chemical Society, Washington, DC, 101-107."},
+    {"type": "reference-entry", "text": "Taylor, J.K. 1990. Quality Assurance of Chemical Measurements. Lewis Publishers, Boca Raton, FL."},
+    {"type": "reference-entry", "text": "Taylor, J.K. 1997. An Introduction to Error Analysis: The Study of Uncertainties in Physical Measurement, 2nd edn. University Science Books, Sausalito, CA."},
+    {"type": "reference-entry", "text": "United Nations—Food and Agriculture Organization (FAO). 1998. Guidelines for Quality Management in Soil and Plant Laboratories. [Online] Available at: http://www.fao.org/docrep/W7295E/w7295e00.htm (verified March 2005)."},
+    {"type": "reference-entry", "text": "U.S. Army Corps of Engineers (USACE). 2005. Chapter 5: Holding Times and Preservation in Environmental Quality—Guidance for Evaluating Performance-Based Chemical Data. EM 200-1-10 (June 2005). [Online] Available at: http://www.usace.army.mil/usace-docs/eng-manuals/em200-1-10/ (verified February 2006)."},
+    {"type": "reference-entry", "text": "U.S. Environmental Protection Agency (USEPA). 1984. Definition and Procedure for the Determination of the Method Detection Limit. 40 CFR136.2 Appendix B. [Online] Available at: http://ca.water.usgs.gov/pnsp/rep/interpret/def.html (verified February 2006)."},
+    {"type": "reference-entry", "text": "U.S. Environmental Protection Agency (USEPA). 1989. Soil Sampling Quality Assurance User's Guide, 2nd edn. [Online] Available at: http://www.epa.gov/nerlesd1/cmb/research/bs122.pdf (verified February 2006)."},
+    {"type": "reference-entry", "text": "U.S. Environmental Protection Agency (USEPA). 1996. Revised Data Validation Guidance 12/96. [Online] Available at: http://www.epa.gov/ne/oeme (verified March 2005)."},
+    {"type": "reference-entry", "text": "U.S. Environmental Protection Agency (USEPA). 2000a. Guidance for the Data Quality Objectives Process (QA/G-4). August 2000. [Online] Available at: http://www.epa.gov/quality/qs-docs/g4-final.pdf (verified February 2006)."},
+    {"type": "reference-entry", "text": "United States Environmental Protection Agency (USEPA). 2000b. Chapter 5: Draw Conclusions from the Data, in Practical Methods for Data Analysis, Guidance for Data Quality Assessment. EPA QA=G-9, QA00 Version (July 2000). [Online] Available at: www.epa.gov/quality/qs-docs/g9-final.pdf (verified February 2006)."},
+    {"type": "reference-entry", "text": "U.S. Environmental Protection Agency (USEPA). 2003. Exhibit E Quality Assurance/Quality Control Procedures and Requirements. In: Analytical Methods—Statement of Work for Organic Analysis OLM04.2. [Online] Available at: http://www.epa.gov/superfund/programs/clp/olm4.htm (verified March 2005)."},
+    {"type": "reference-entry", "text": "U.S. Environmental Protection Agency (USEPA). 2004. Agency-wide Quality System Documents. [Online] Available at: http://www.epa.gov/quality/qa_docs.html (verified March 2005)."},
+    {"type": "translator-note", "text": "（孙扬　赵丽霞　译，李永涛　翁莉萍　校）"},
+    {"type": "printed-page-number", "text": "50"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "32606f0d799b3c176f18fdd560f362b3cf5d1bdbc0db1f2808f005c1e48e0d0b"
+}

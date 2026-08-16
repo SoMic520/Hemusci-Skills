@@ -1,0 +1,122 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 336,
+  "sourceImageSha256": "e86ca44496391c2be5be1759c70399f799d77dbe6c041ffb897bdd2b0e9deea6",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对表85.1注释、85.7.1拟合程序和85.7.2模型选择及交叉验证"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "逐式核对3a、√3a、SSE、三种权重、RMSE、MRE及求和上下限"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "γ̃_i/γ_i、N_i、w_i、ŷ_i、绝对值和平方根二次反查；印刷页码845"
+    }
+  },
+  "blocks": [
+    {
+      "type": "table-note",
+      "for": "表85.1",
+      "items": [
+        "γ为半方差，h为滞后距，a为尺度参数，c₀为块金值，c为偏基台值，c₀+c为总基台值，m和p为经验拟合常数。",
+        "指数模型和高斯模型渐近接近基台；以达到总结构方差的95%定义实用变程时，指数模型约为3a，高斯模型约为√3a。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "85.7.1",
+      "title": "拟合标准和程序",
+      "level": 3
+    },
+    {
+      "type": "fitting-guidance",
+      "items": [
+        "滞后距离超过研究域最大时间或空间跨度的1/2～2/3时，边缘效应和数据对数减少使半方差估计代表性降低，通常不用于模型拟合。",
+        "加权非线性最小二乘法可同时调整块金值、变程和基台值，使加权误差平方和SSE最小。",
+        "w_i=N_i或w_i=N_i/γ̃_i²会使数据对较多、通常位于较小滞后距的半方差点权重较大；w_i=1则各滞后点等权。",
+        "Mathcad、Matlab、Surfer和SAS等软件可执行加权非线性最小二乘拟合。"
+      ],
+      "references": [
+        "Cressie，1985",
+        "Gotway，1991"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书在最大滞后限制后印为较大间隔“可能更具有代表性”，与边缘效应和数据对减少的理由相反；按半方差估计原理校正为代表性降低。"
+    },
+    {
+      "type": "heading",
+      "number": "85.7.2",
+      "title": "最优半方差函数模型选择",
+      "level": 3
+    },
+    {
+      "type": "model-selection",
+      "items": [
+        "优先考虑参数较少且SSE较小的模型，但SSE、RMSE和MRE只概括预测误差，不能完整表示各滞后箱内个体差异的离散性。",
+        "更可靠的选择方法是交叉验证：依次删除一个观测点（或删除若干点），用其余数据拟合半方差模型并进行克里金估计，再比较估计值ŷ_i与实测值y_i。",
+        "可用决定系数r²、标准误差、RMSE和MRE等指标比较候选模型，以能够最好预测被留出观测的模型为优。"
+      ],
+      "references": [
+        "McBratney和Webster，1986",
+        "Isaaks和Srivastava，1989",
+        "Goovaerts，1997"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "label": "指数模型95%实用变程",
+      "plain": "h₉₅=−a ln(0.05)≈3a",
+      "latex": "h_{95}=-a\\ln(0.05)\\approx3a"
+    },
+    {
+      "label": "高斯模型95%实用变程",
+      "plain": "h₉₅=a√[−ln(0.05)]≈√3a",
+      "latex": "h_{95}=a\\sqrt{-\\ln(0.05)}\\approx\\sqrt{3}\\,a"
+    },
+    {
+      "label": "85.11",
+      "plain": "SSE=Σᵢ₌₁ᵐw_i(γ̃_i−γ_i)²",
+      "latex": "SSE=\\sum_{i=1}^{m}w_i\\left(\\widetilde{\\gamma}_i-\\gamma_i\\right)^2",
+      "definitions": {
+        "m": "滞后距数量",
+        "γ̃_i": "第i个滞后距的实验半方差",
+        "γ_i": "相应模型预测半方差",
+        "w_i": "权重"
+      }
+    },
+    {
+      "label": "85.12a",
+      "plain": "w_i=N_i",
+      "latex": "w_i=N_i"
+    },
+    {
+      "label": "85.12b",
+      "plain": "w_i=N_i/γ̃_i²",
+      "latex": "w_i=\\frac{N_i}{\\widetilde{\\gamma}_i^2}"
+    },
+    {
+      "label": "85.12c",
+      "plain": "w_i=1",
+      "latex": "w_i=1"
+    },
+    {
+      "label": "均方根误差",
+      "plain": "RMSE=√{[Σᵢ₌₁ⁿ(y_i−ŷ_i)²]/n}",
+      "latex": "RMSE=\\sqrt{\\frac{\\sum_{i=1}^{n}(y_i-\\widehat{y}_i)^2}{n}}"
+    },
+    {
+      "label": "平均相对误差",
+      "plain": "MRE=(1/n)Σᵢ₌₁ⁿ|(y_i−ŷ_i)/y_i|",
+      "latex": "MRE=\\frac{1}{n}\\sum_{i=1}^{n}\\left|\\frac{y_i-\\widehat{y}_i}{y_i}\\right|"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "1feb9529268ab934e7a27515ceeb52e4ae0eedb72b8c16587b2795e0bb185258"
+}

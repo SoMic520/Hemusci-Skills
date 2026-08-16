@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 138,
+  "sourceImageSha256": "6f962d3ef4317c7e898f1c4223fbc9ea908b6fc953d56fbb9a091a9baf1f0aa3",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文页，并与Apple Vision、PaddleOCR交叉比对，人工恢复引言续文、磷吸附等温线、PSI、磷指数法及14.2原理段"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验KH₂PO₄、CaCl₂、0.01 mol/L、24～40 h、Mehlich-3、r=0.97、P>0.001、>75%、<20%、PSI和ICP-AES"},
+    "secondVisualPass": {"status": "verified", "method": "从ICP-AES反向复核至Lookman续引，确认Langmuir/Freundlich/Tempkin原书拼写、两项磷指数用途层级、加入/添加用词差异和页码107"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第14章｜环境土壤磷指数｜"},
+    {"type": "paragraph", "continuation": true, "text": "Lookman等，1996）。例如，在磷吸附饱和度高的土壤中加入磷比在磷吸附饱和度低的土壤中添加磷更容易使径流中磷含量增加，这与土壤中磷的含量无关（Sharpley，1995；Leinweber等，1997）。很多土壤分析实验室已不再应用传统的评估土壤磷吸附饱和的测试方法，如避光条件下酸性草酸铵提取法（Schoumans和Breeuwsma，1997）和磷吸附等温线法（Sharpley，1995）。研究表明，酸性土壤中的磷吸附饱和度可用Mehlich-3提取铝和铁（吸附磷的主要成分）和磷的量准确地估算出来（Beauchemin和Simard，1999；Kleinman和Sharpley，2002；Nair和Graetz，2002）。"},
+    {"type": "paragraph", "text": "土壤对磷的吸附也被用来评估土壤对固定外源磷的潜力。在特定情况下，如做污泥土地利用规划时需对土壤的磷吸附能力作详细的评价，以确定磷通过该土壤剖面淋溶的潜力（U.S. Environmental Protection Agency，1993；Bastian，1995）。传统的磷吸附等温线是通过批处理实验绘制完成，即将磷（KH₂PO₄）添加到0.01 mol/L的CaCl₂为背景的溶液中反应24～40 h达到平衡（Syers等，1973；Nair等，1984）。Langmuir、Freundlich和Tempkin等模型被用于描述被吸附磷量和平衡溶液中磷量之间的关系，以及计算土壤的磷最大吸附量、结合能和平衡磷浓度（Berkheiser等，1980；Nair等，1984）。本章只讨论Langmuir模型。"},
+    {"type": "paragraph", "text": "磷的吸附等温线可以提供大量的土壤特异性信息，这些信息对于预测农业和环境的磷吸附容量特征十分有用，但是土壤检测实验室使用的常规手段测量复杂、耗时，而且费用高（Sharpley等，1994）。为克服这些局限，Bache和Williams（1971）提出了使用高浓度磷以达到平衡的方法（单点等温线）来计算磷吸附指数（PSI），可快速测定土壤磷吸附容量。他们发现PSI与42种酸性或石灰性苏格兰土壤中磷的最大吸附容量（由吸附等温线确定）密切相关（r=0.97；P>0.001）（Bache和Williams，1971）。其他研究者随后发现，无论化学物理性质如何，土壤的PSI都与磷最大吸附量有关（Sharpley等，1984；Mozaffari和Sims，1994；Simard等，1994）。"},
+    {"type": "paragraph", "text": "美国大多数州都采用磷指数法测定磷作为磷养分管理规划的要求，以便磷流失高风险区域可以得到有针对性的治理或更严格的管理（Sharpley等，2003）。磷指数法是基于这样一种认识，即农业流域的大部分磷流失（>75%每年）发生在流域小而明确的区域（<20%的土地面积）（Smith等，1991；Schoumans和Breeuwsma，1997；Pionke等，2000）。通过确定高磷源潜力（即土壤磷以肥料或有机肥添加到土壤中的速率、方法、时间和类型），同时考虑高运移潜能（即地表径流、淋溶、侵蚀和溪流周边），将这些关键源区排序（Lemunyon和Gilbert，1993）。磷指数法是比较成功的方法之一，其通盘考虑磷的来源、管理和迁移，将各种磷流失变量互相整合到一个操作性强的程序方法中以评估特定区域磷流失潜力（Gburek等，2000；Sharpley等，2003）。磷指数法的使用帮助农民、咨询专家、推广机构和畜牧业经营者明确了两点："},
+    {"type": "ordered-list-item", "number": "①", "text": "具有最大风险富营养化的农业区域或实践方法；"},
+    {"type": "ordered-list-item", "number": "②", "text": "土地使用者可采用的管理办法，以此灵活制定补救措施。"},
+    {"type": "paragraph", "text": "本章详述了测量土壤中水溶态磷、磷的吸附饱和、磷的吸附容量，以及指定区域磷流失潜力的方法。所有这些化学方法操作和试剂的准备过程中，推荐使用标准实验室防护服和眼罩。"},
+    {"type": "section-heading", "level": 3, "number": "14.2", "title": "水提取土壤磷"},
+    {"type": "paragraph", "text": "用水提取土壤中的磷是一种快速、简单的测定从土壤释放到径流中磷的含量的方法。该方法认为水的提取模拟了土壤和径流的反应过程，因此与土壤类型无关。下面的方法是在Olsen和Sommers（1982）提出的土壤中水溶态磷测定方法的基础上做了改进。土壤样品和水混合振荡一定时间后，被提取的磷用钼酸盐—抗坏血酸分光光度法比色测定（Murphy和Riley，1962）。或者，滤液中的总溶解性磷也可用电感耦合等离子体原子发射光谱仪（ICP-AES）分析。"},
+    {"type": "printed-page-number", "text": "107"}
+  ],
+  "formulas": [
+    {"label": null, "plain": "r=0.97", "latex": "r=0.97", "context": "PSI与磷最大吸附容量的相关性"},
+    {"label": null, "plain": "P>0.001", "latex": "P>0.001", "context": "原书给出的显著性符号"}
+  ],
+  "tables": [],
+  "contentSha256": "693e8627001f19618f0815f325bc96369bb800fc8c7e7248071fed9938347f75"
+}

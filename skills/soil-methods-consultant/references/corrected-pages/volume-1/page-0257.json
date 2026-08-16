@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 257,
+  "sourceImageSha256": "dc18aeb7d4982e768fe67be19ce4757f6cc61475fa314b9e6dd974b1678b1164",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第25章第226页，并与Apple Vision、PaddleOCR交叉比对，人工恢复Sibbesen至Williams共11条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验SCOPE、P Cycles书名、Regional Workshop 1、60-70 years、Kelowna、ferrihydrite、Chang and Jackson’s、作者缩写、卷页及译校姓名"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至Sibbesen（1978），确认11条文献边界、题名、会议文献信息、卷页和印刷页码226"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference", "text": "Sibbesen, E. 1978. A simple ion exchange resin procedure for extracting plant available elements from soil. Plant Soil 50: 305-321."},
+    {"type": "reference", "text": "Soon, Y.K. 1990. Comparison of parameters of soil phosphate availability for the northwestern Canadian prairie. Can. J. Soil Sci. 70: 222-237."},
+    {"type": "reference", "text": "Stewart, J.W.B. and Tiessen, H. 1987. Dynamics of soil organic phosphorus. Biogeochemistry 4: 41-60."},
+    {"type": "reference", "text": "Syers, J.K. and Curtin, D. 1989. Inorganic reactions controlling phosphorus cycling. In: H. Tiessen, ed. P Cycles in Terrestrial and Aquatic Ecosystems. Regional Workshop 1. Proceedings of a Workshop by the Scientific Committee on Problems of Environment (SCOPE). University of Saskatchewan, Saskatoon, SK, Canada, 17-29."},
+    {"type": "reference", "text": "Thomas, R.L., Sheard, R.W., and Moyer, J.R. 1967. Comparison of conventional and automated procedures for nitrogen, phosphorus, and potassium analysis of plant material using a single digestion. Agron. J. 59: 240-243."},
+    {"type": "reference", "text": "Tiessen, H., Stewart, J.W.B., and Cole, C.V. 1984. Pathways of phosphorus transformations in soils of differing pedogenesis. Soil Sci. Soc. Am. J. 48: 853-858."},
+    {"type": "reference", "text": "Tiessen, H., Stewart, J.W.B., and Moir, J.O. 1983. Changes in organic and inorganic phosphorus composition of two grassland soils and their particle size fractions during 60-70 years of cultivation. J. Soil Sci. 34: 815-823."},
+    {"type": "reference", "text": "van Lierop, W. 1988. Determination of available phosphorus in acid and calcareous soils with the Kelowna multiple-element extractant. Soil Sci. 146: 284-291."},
+    {"type": "reference", "text": "Willett, I.R., Chartres, C.J., and Nguyen, T.T. 1988. Migration of phosphate into aggregated particles of ferrihydrite. J. Soil Sci. 39: 275-282."},
+    {"type": "reference", "text": "Williams, J.D.H., Syers, J.K., and Walker, T.W. 1967. Fractionation of soil inorganic phosphate by a modification of Chang and Jackson’s procedure. Soil Sci. Soc. Am. Proc. 31: 736-739."},
+    {"type": "reference", "text": "Williams, J.D.H. and Walker, T.W. 1969. Fractionation of phosphate in a maturity sequence of New Zealand basaltic soil profiles. Soil Sci. 107: 22-30."},
+    {"type": "translator-credit", "text": "（张育林　党海燕　译，王朝辉　校）"},
+    {"type": "printed-page-number", "text": "226"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "49b5f54e6f97b86eb8f70d909e8b1963526776075681796bc1caa2482f0bd413"
+}

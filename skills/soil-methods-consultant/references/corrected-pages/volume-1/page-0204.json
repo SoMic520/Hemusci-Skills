@@ -1,0 +1,49 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 204,
+  "sourceImageSha256": "2f29731d02be49124c5749b3bea0687a1cb1db1ccd86a53bc03c28151a35e660",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复21.3.2两式及21.4原理、反应管准备和全部试剂"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验T₁/T₂/B/M/W、式（21.7）/（21.8）、CO₂、K₂Cr₂O₇、H₂SO₄、H₃PO₄、NaOH、FeSO₄·7H₂O、BaCl₂·2H₂O、1.000 mol L⁻¹、120 ℃和15 mm×45 mm，并对两处原书误印做化学计量复算"},
+    "secondVisualPass": {"status": "verified", "method": "从页末试剂（6）反向复核至式（21.7）：原书确印“Fe₂SO₄·7H₂O”和“48.86 g BaCl₂·H₂O”；结构化正文已分别矫正为“FeSO₄·7H₂O”和“BaCl₂·2H₂O”，并保留原书误印记录；页码173"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第21章｜土壤总碳与有机碳｜"},
+    {"type": "formula-explanation", "formulaRef": "21.7", "text": "式中，T₁为Fe(NH₄)₂(SO₄)₂溶液的滴定体积，单位为mL。"},
+    {"type": "calculation-item", "number": "（2）", "text": "计算样品中的有机碳含量：", "formulaRef": "21.8"},
+    {"type": "formula-explanation", "formulaRef": "21.8", "text": "式中，B和T₂分别是加热的空白对照与样品的滴定量（mL），M是Fe(NH₄)₂(SO₄)₂溶液的摩尔浓度，W是样品重量（g）。"},
+    {"type": "section-heading", "level": 2, "number": "21.4", "title": "重铬酸盐氧化—CO₂吸收法（Snyder和Trofymow，1984）"},
+    {"type": "paragraph", "text": "在本方法中，硫酸-重铬酸盐混合液氧化样品时产生的CO₂用氢氧化钠溶液吸收，然后采用滴定法，以指示剂或pH计为指示进行测定。本方法与氧化还原方法相比更加复杂，但是消除了氧化还原法中的许多干扰因素。本方法的另一个优点是吸收的CO₂还能够确定碳的同位素组成（Amato，1983）。许多容器都可以用来进行反应及收集CO₂。Snyder和Trofymow（1984）用带螺旋盖的试管进行实验，Amato（1983）则使用具有基底层的试管，Dalal（1979）使用的是McCartney瓶。"},
+    {"type": "paragraph", "text": "由于反应过程处于酸性环境下，所以样品中存在的碳酸盐都会定量地转化成CO₂并被测定。如果测定含碳酸盐土壤中的有机碳，那么反应容器中的碳酸盐应该先去除或者对测定结果进行碳酸盐的校正。碳酸盐的含量可以使用相同的反应容器或者其他适合的分析方法测得。"},
+    {"type": "paragraph", "text": "Snyder和Trofymow（1984）介绍的方法可以在120 ℃下处理固体或液体样品。如果只是处理固态样品，那么可以提高消解温度但不能超过酸性混合液的沸点。如果混合液沸腾，那么消解容器可能会出现裂纹甚至破碎。对于含碳酸盐土壤的有机碳含量测定，加酸预处理或者样品总碳含量碳酸盐校正的方法在21.2.4中已经有介绍。"},
+    {"type": "section-heading", "level": 3, "number": "21.4.1", "title": "反应管的准备"},
+    {"type": "paragraph", "text": "标准培养管应该具有带圆锥形密封圈的螺旋盖子，管的顶部附近三个锯齿状凹凸，以便支撑一个嵌入管中的小玻璃瓶（15 mm×45 mm）。或者是将一端弯曲的玻璃棒插入管中使玻璃棒弯曲处在反应混合液上方以一个适当的高度支撑小瓶（Amato，1983）。Amato（1983）还建议使用具有基底层的常规消煮管。这两种方法都是可行的。"},
+    {"type": "section-heading", "level": 3, "number": "21.4.2", "title": "试剂"},
+    {"type": "reagent-item", "number": "（1）", "name": "预处理酸性混合液（去除碳酸盐）", "text": "将57 mL 98%的浓硫酸缓慢加入600 mL蒸馏水或去离子水中，边加入边搅动进行稀释，加入92 g FeSO₄·7H₂O，溶解并定容到1 L，得到含5%抗氧化剂的约1 mol L⁻¹的H₂SO₄。"},
+    {"type": "source-fidelity-note", "scope": "21.4.2（1）", "text": "原书清晰印作“Fe₂SO₄·7H₂O”，其中Fe后多了下标“₂”；本Skill可执行正文已矫正为FeSO₄·7H₂O。92 g FeSO₄·7H₂O折合无水FeSO₄约50.3 g/L，约为5%（m/V），与配方目的相符。"},
+    {"type": "reagent-item", "number": "（2）", "name": "消解混合液", "text": "各试剂单独保存，只在反应管中混合：（1）K₂Cr₂O₇；（2）98%的浓硫酸和85%的H₃PO₄溶液以3∶2比例混合的混合液。"},
+    {"type": "reagent-item", "number": "（3）", "name": "CO₂吸收液", "text": "将16.0 g NaOH溶于200 mL蒸馏水或去离子水中，得到约2 mol L⁻¹ NaOH溶液。此溶液应该保存在密闭瓶中或处于CO₂过滤阀下。"},
+    {"type": "reagent-item", "number": "（4）", "name": "指示剂", "text": "溶解0.4 g酚酞于100 mL酒精与蒸馏水或去离子水以1∶1混合的混合液中。"},
+    {"type": "reagent-item", "number": "（5）", "name": "氯化钡溶液", "text": "溶解41.66 g无水BaCl₂或48.86 g BaCl₂·2H₂O于蒸馏水或去离子水中，定容到200 mL，得到约1 mol L⁻¹ BaCl₂溶液。"},
+    {"type": "source-fidelity-note", "scope": "21.4.2（5）", "text": "原书清晰印作“48.86 g BaCl₂·H₂O”；本Skill可执行正文已矫正为BaCl₂·2H₂O。48.86 g对应0.2 mol BaCl₂·2H₂O；若确使用BaCl₂·H₂O，0.2 mol应称约45.25 g；无水BaCl₂应称约41.65 g（原书41.66 g可用）。"},
+    {"type": "reagent-item", "number": "（6）", "name": "滴定液", "text": "精确的1.000 mol L⁻¹的盐酸标准溶液。"},
+    {"type": "printed-page-number", "text": "173"}
+  ],
+  "formulas": [
+    {
+      "number": "21.7",
+      "context": "硫酸亚铁铵溶液标定",
+      "display": "Fe(NH₄)₂(SO₄)₂溶液的摩尔浓度 = (15×0.4)/T₁",
+      "latex": "M_{Fe(NH_4)_2(SO_4)_2}=\\frac{15\\times0.4}{T_1}"
+    },
+    {
+      "number": "21.8",
+      "context": "土样有机碳含量",
+      "display": "土样有机碳含量（g·kg⁻¹）= (B−T₂) × M × 3/W",
+      "latex": "\\text{土样有机碳含量}(\\mathrm{g}\\cdot\\mathrm{kg}^{-1})=(B-T_2)\\times M\\times3/W"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "f5dd2f12bb75d7a6036b0de824828fe95d9122cff30b2404c03bf58a0da20809"
+}

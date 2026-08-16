@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 401,
+  "sourceImageSha256": "0459fabd5b299343f87cd610071f32b50a1513f02abb8dafa5d13ebcd9ad7ccd",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版38.5.2承上定义与38.5.3注释（1）～（7）"},
+    "precisionPass": {"status": "verified", "method": "核验[NO₃⁻]₀/[NO₃⁻]ₜ、mg N·kg⁻¹、0.3663 atom% ¹⁵N、pH≈10、IRMS、2 mg NO₃⁻-N·kg⁻¹ ODE、<50%、4 mL/80 g、0.05 kg·kg⁻¹、−0.35 MPa及¹⁵NO"},
+    "secondVisualPass": {"status": "verified", "method": "从注释（7）反向复核至式（38.3）～（38.4）承上定义，检查同位素、变量、阈值和因果方向；印刷页码370"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "variable-definition", "symbol": "[NO₃⁻]₀", "text": "0时刻NO₃⁻总浓度，mg N·kg⁻¹。"},
+    {"type": "variable-definition", "symbol": "[NO₃⁻]ₜ", "text": "t时刻NO₃⁻总浓度，mg N·kg⁻¹。"},
+    {"type": "variable-definition", "symbol": "t", "text": "本方法建议培养1～2 d。"},
+    {"type": "section-heading", "level": 3, "number": "38.5.3", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "加¹⁵N前的背景（“自然”）丰度可假定为0.3663 atom% ¹⁵N；要求更高精度时，应测定加标前土壤KCl浸提液中的该值。"},
+    {"type": "note-item", "number": "（2）", "text": "式（38.3）和式（38.4）仅适用于总硝化生产速率GNR不等于NO₃⁻消耗速率c_N的情形。GNR=c_N时应采用Kirkham和Bartholomew（1954）给出的另一方程；该情形很少遇到。"},
+    {"type": "source-fidelity-note", "scope": "38.5.3（2）", "text": "原书此处用n表示硝化生产速率，而式（38.3）及变量表用GNR；为保持本方法变量体系一致，正文统一为GNR。"},
+    {"type": "note-item", "number": "（3）", "text": "用IRMS测0时刻和t时刻KCl浸提液中NO₃⁻库的¹⁵N原子百分数。先把pH提高至约10以移除NH₄⁺，再加代氏合金（Devarda’s alloy）把NO₃⁻转化为NH₃，在密闭体系中经气体扩散收集到酸化滤片上。滤片在浓酸上方干燥，装入锡囊，以连接元素分析仪的IRMS测定（详见Stark和Hart，1996）。KCl浸提液总NO₃⁻浓度按前述比色法测定；换算NO₃⁻含量时，浸提体积须计入土壤自带水分（参见式（38.2））。比较加标与未加标土壤的重力含水量，可核验标记液加入量。"},
+    {"type": "note-item", "number": "（4）", "text": "加¹⁵N前的初始浸提液可同时测NH₄⁺和NO₃⁻库大小，辅助解释GNR与c_N。NH₄⁺库反映自养硝化菌的底物有效性；比较初始NO₃⁻与¹⁵NO₃⁻添加量（2 mg NO₃⁻-N·kg⁻¹ ODE）可求加标造成的NO₃⁻库增量。c_N部分受NO₃⁻库大小控制；加标后库增幅较小（<50%）通常不会显著改变c_N（Hart等，1994a，b）。"},
+    {"type": "note-item", "number": "（5）", "text": "0时刻浸提用于校正加标后立即发生的¹⁵N非生物消耗。若部分¹⁵N在0时刻变为不可提取态、培养中又释放回土壤溶液，则真实同位素稀释被低估，GNR也被低估；若所加¹⁵NO₃⁻不是立即而是整个培养期持续置换胶体上的¹⁴NO₃⁻，GNR会被高估。Davidson等（1991）在灭菌土中发现非生物¹⁵NO₃⁻固定在0时刻浸提前完成；该假设已在多种荒地土得到验证，但其他土类可能不同，应用前宜检验各土壤的非生物¹⁵NO₃⁻消耗动力学。"},
+    {"type": "note-item", "number": "（6）", "text": "培养时间、¹⁵N加入量和标记液¹⁵N丰度均可改变（Davidson等，1991）。向80 g ODE土加入4 mL标记液，含水量约增加0.05 kg·kg⁻¹，可能刺激微生物并提高氮转化，尤其在很干的土壤中。改用体积更小、浓度更高的标记液可减弱湿润效应，但可能降低标记均匀性。模拟结果表明，此加水量主要会显著改变加标前水势低于−0.35 MPa土壤的GNR和c_N（Hart等，1994a）。用¹⁵N标记气体（如¹⁵NO）富集NO₃⁻库可望均匀标记且不增水，但尚缺乏足够验证以供常规使用（Stark和Firestone，1995；Murphy等，2003）。"},
+    {"type": "note-item", "number": "（7）", "text": "本法可原位实施：标记与浸提均在田间进行（Hart等，1994a）；装有标记土壤的袋子按研究深度埋藏一个培养期，须完全覆土以免日照使袋内过热，并在袋内保留环境空气后封口维持好氧。所得GNR比任意恒定实验室温度下的结果更具田间代表性。"},
+    {"type": "printed-page-number", "text": "370"}
+  ],
+  "formulas": [
+    {"id": "38.5-tracer-dose", "display": "¹⁵NO₃⁻-N addition = 2 mg N·kg⁻¹ ODE soil"},
+    {"id": "38.5-wet-up", "display": "4 mL label / 80 g ODE soil ≈ 0.05 kg water·kg⁻¹ soil"}
+  ],
+  "tables": [],
+  "contentSha256": "cad2e392362403578bd6e071f8c3e78c971d50e9473afb0b7955dd80d82b6b35"
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 366,
+  "sourceImageSha256": "b3d0ba157f2d6e0ea574c7f02ce672abb3504c9ef85ef21b8baa30e84f25c9c7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版第36章章题与36.1"},
+    "precisionPass": {"status": "verified", "method": "核验3位作者与单位、24 h、100倍、10⁷ cells g⁻¹ dry soil/litter及全部引文年份"},
+    "secondVisualPass": {"status": "verified", "method": "从页末丰度量级反向复核至章题，恢复consumer and prey双重角色并矫正多处生态学术语；印刷页码335"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第36章", "title": "原生动物"},
+    {"type": "author", "text": "S.M. Adl"},
+    {"type": "affiliation", "text": "Dalhousie University, Halifax, Nova Scotia, Canada"},
+    {"type": "author", "text": "D. Acosta-Mercado"},
+    {"type": "affiliation", "text": "University of Puerto Rico, Mayagüez, Puerto Rico"},
+    {"type": "author", "text": "D.H. Lynn"},
+    {"type": "affiliation", "text": "University of Guelph, Guelph, Ontario, Canada"},
+    {"type": "section-heading", "level": 2, "number": "36.1", "title": "引言"},
+    {"type": "paragraph", "text": "在微生物类群中，原生动物参与水生和陆地生态系统的关键过程。在土壤生态系统中，原生动物十分显著（Berthold和Palzenberger，1995）：它们既是其他土壤微生物的消费者，也是其猎物（Clarholm，1981）；影响细菌群落的发育和代谢活动（Pussard等，1994；Griffiths等，1999）；同时可增加植物生物量（Kuikman等，1990；Alphei等，1996）。近期综述讨论了土壤原生动物的作用与多样性（Adl，2003；Adl和Gupta，2006）；Foissner（1987）与Darbyshire（1994）综合了更早的大量文献，Bonkowski（2004）综述了原生动物与植物根的相互作用。"},
+    {"type": "source-fidelity-note", "scope": "36.1食物网角色", "text": "中文本把serving as consumers and prey译成仅“作为消费者捕食其他土壤微生物”，遗漏“也是猎物”；正文已恢复双重营养角色。"},
+    {"type": "paragraph", "text": "本章把原生动物操作性定义为异养、非丝状原生生物。在分解食物网中，它们通常被认为主要摄食细菌；但其消费者角色更为多样，也会相互捕食、取食真菌组分，甚至取食某些土壤后生动物。较小的原生动物（如纳米鞭毛虫）经胞口摄食时，通常一次摄入一个细菌或原生生物；具有胞口的较大型物种，尤其较大型纤毛虫，一个食物泡可同时摄入数百个细菌或数个原生生物。少数变形虫属、若干纤毛虫属和某些有壳变形虫能摄取真菌菌丝或菌丝、孢子的细胞质；这些食真菌类群可用孢子或菌丝培养或诱集。真黏菌类（Eumycetozoa，slime moulds）在原书中列为主要腐生营养者，其底物包括树皮、凋落叶、木材或粪便等木质或纤维素材料。"},
+    {"type": "paragraph", "text": "一些原生动物（如有壳变形虫和食组织性纤毛虫）会取食无脊椎动物或濒死的小型无脊椎动物（如线虫），并可聚集在虚弱个体周围。多数物种具有一定猎物偏好，不同细菌或原生生物猎物的营养价值并不相同。不要把壶菌和卵菌类群（原文Peronosporomycetes）的游动/扩散细胞误认成食细菌鞭毛虫；这些腐生营养或捕食无脊椎动物类群的扩散阶段通常是在寻找合适基质定居。"},
+    {"type": "paragraph", "text": "物种多样性和个体丰度通常在凋落物层与有机层最高，向下进入矿质土后随深度增加而降低。根际也会出现富集，尤其在荒漠环境或农业生态系统作物行附近明显。温度和含水量等环境条件的昼夜及季节变化可显著影响活跃原生动物的丰度；有些土壤原生动物仅在特定季节或特定温湿组合下活跃。降雨、土壤升温或降温后，丰度可在24 h内上下波动100倍（Adl和Coleman，2005）。干旱、贫养或侵蚀土壤中，活跃细胞可低至每克干土数百个；森林土壤适宜条件下可高达10⁷ cells·g⁻¹干土或凋落物。"},
+    {"type": "terminology-note", "text": "“原生动物（protozoa）”是本书采用的历史性操作术语，并非现代系统分类中的单系分类单元；本Skill保留章名以保证检索一致，同时在具体类群处使用原书名称和现代中文术语。"},
+    {"type": "printed-page-number", "text": "335"}
+  ],
+  "formulas": [
+    {"id": "36.1-active-cell-upper-abundance", "display": "N_active ≤ 10⁷ cells·g⁻¹ dry soil or litter", "meaning": "森林土壤适宜条件下原书给出的活跃细胞丰度上限量级"},
+    {"id": "36.1-short-term-fluctuation", "display": "N(t + 24 h) / N(t) may vary by 10²", "meaning": "降雨或温度变化后24 h内可能出现的丰度波动量级"}
+  ],
+  "tables": [],
+  "contentSha256": "b6b47d580e4d08e68f164902ab56b75699037285cacaecfc309c14b409a9fc38"
+}

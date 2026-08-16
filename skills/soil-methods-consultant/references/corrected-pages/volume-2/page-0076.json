@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 76,
+  "sourceImageSha256": "9613014beb7bb110478dc13078c7d37c7a7e46305ba9e4b1d2ffa46ee8e9071a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐项对照原分辨率图和两套OCR，完成60.3.4步骤(2)～(6)、60.3.5、表60.1及图60.6前置说明"},
+    "precisionPass": {"status": "verified", "method": "核验τ/σ_n/c/tanφ/φ/R²、表60.1全部27个数值、m³ m⁻³、0.14、120±7 kPa及6 min"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页句反向复核至步骤(2)，逐格检查表头层级、峰值/极限值和标准偏差；印刷页码585"}
+  },
+  "blocks": [
+    {"type": "calculation-steps-continuation", "items": ["(2) 每条路径取峰值剪应力τ_peak及该时刻对应法向应力σ_n；图60.5圈出作者所取点。", "(3) 对各法向应力级的(σ_n,τ_peak)按式（60.5）线性回归：截距c，斜率tanφ，φ=arctan斜率。", "(4) 表60.1列砂壤土及灌水前后两种含水状态黏壤土的回归。", "(5) 黏壤土可能脆性屈服：峰值强度取峰前最大τ；极限/峰后强度取峰后下降至较低斜率或平台的区段另行回归。原书说明表中同时给出两类参数，但未提供严格选段规则，使用时须公开判据。", "(6) 用同步含水量分析剪切强度的水分依赖。"]},
+    {"type": "heading", "number": "60.3.5", "title": "注释", "level": 3},
+    {"type": "paragraph", "text": "本章数据未与其他方法系统验证。砂壤土峰值附近σ_n路径较平，作者仍以最大σ_n配对回归。黏壤土峰值更清楚；含水量约0.14 m³ m⁻³的3个重复中仅1个呈明显峰后脆降，另2个更塑性。计划σ_n约120 kPa时，实际波动约±7 kPa且随τ增加更难保持。"},
+    {"type": "paragraph", "text": "传统Cohron记录仪40年来使用较少，操作和图形数字化繁琐。TDR+负载传感器改型可由单人约6 min完成一个应力路径及对应水分并自动记录；未改型装置田间至少耗时两倍，后续数字化亦耗时。两类仪器数据精度据称相当，仍需更充分质量评估。"}
+  ],
+  "formulas": [
+    {"label": "Mohr–Coulomb回归", "plain": "c = intercept；tanφ = slope；φ = arctan(slope)", "latex": "c=\\mathrm{intercept};\\qquad\\tan\\varphi=\\mathrm{slope};\\qquad\\varphi=\\arctan(\\mathrm{slope})"}
+  ],
+  "tables": [
+    {"number": "60.1", "title": "田间剪切数据采集仪回归参数", "columns": ["土壤类型", "c峰值(kPa)", "c极限值(kPa)", "φ峰值(°)", "φ极限值(°)", "R²峰值", "R²极限值", "体积含水量(m³ m⁻³)", "含水量标准偏差"], "rows": [["砂壤土", 9.7, null, 12.8, null, 0.612, null, 0.216, 0.027], ["黏壤土", 24.5, 7.3, 6.7, 10.4, 0.496, 0.824, 0.140, 0.017], ["黏壤土", 16.3, 5.9, 18.4, 14.4, 0.846, 0.679, 0.207, 0.018]], "notes": ["黏壤土两行代表灌水前后两种含水状态。", "短横线表示未给值，不等于0。"]}
+  ],
+  "contentSha256": "ed09591a279e14ec8310c24e2e7e8e5c6bf087c64c84e739151a1454e22a9ca0"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "verified",
+  "bookId": "soil-analysis-spec-2e-2006",
+  "sourcePdfSha256": "eb41c75c0b04304b53b9f4e5823ddfa185bf34a8dcc49bbfc126bc2782b48d74",
+  "pageCount": 267,
+  "textPass": "verified",
+  "precisionPass": "verified",
+  "secondVisualPass": "verified"
+}

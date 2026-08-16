@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 100,
+  "sourceImageSha256": "cdd96040c488e599331420bc5ac4a1249d7707e0afb3b1dac4a13092c9622601",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Youker跨页条目、本页其余5条文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验作者、年份、题名、期刊、卷页，校正Aggregate-Mean连字及Zobeck等（2003）全8名作者"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至Youker跨页结尾，检查J. Soil Sci.、Soil Tillage Res.及题名连字；印刷页码609"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Youker, R.E. and McGuinness, J.L. 1957. A short method of obtaining mean weight-diameter values of aggregate analyses of soils. Soil Sci. 83:291–294.",
+      "Young, I.M. and Crawford, J.W. 1991. The fractal structure of soil aggregates: Its measurement and interpretation. J. Soil Sci. 42:187–192.",
+      "Young, I.M., Crawford, J.W., and Rappoldt, C. 2001. New methods and models for characterizing structural heterogeneity of soil. Soil Tillage Res. 61:33–45.",
+      "Zobeck, T.M. 1991. Soil properties affecting wind erosion. J. Soil Water Conserv. 46:112–118.",
+      "Zobeck, T.M. and Popham, T.W. 1990. Dry aggregate size distribution of sandy soils as influenced by tillage and precipitation. Soil Sci. Soc. Am. J. 54:198–204.",
+      "Zobeck, T.M., Popham, T.W., Skidmore, E.L., Lamb, J.A., Merrill, S.D., Lindstrom, M.J., Mokma, D.L., and Yoder, R.E. 2003. Aggregate-mean diameter and wind-erodible soil predictions using dry aggregate-size distributions. Soil Sci. Soc. Am. J. 67:425–436."
+    ]},
+    {"type": "credits", "text": "赵龙华、王雅婧译，任图生校。"},
+    {"type": "source-fidelity-note", "text": "Zobeck等（2003）题名在原书印成“Aggregatemean”，已依期刊原页校正为Aggregate-Mean；作者列表、卷页和DOI对应的原始记录一致。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "bf077983ac1909510f7fd73fa79d282edb190c3bbc16582a74ef50802836c03a"
+}

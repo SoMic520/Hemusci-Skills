@@ -1,0 +1,53 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 361,
+  "sourceImageSha256": "1c980d9704564d895364705dc846619e77a3db34b0df8e4df461cf2955186969",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版35.2.1"},
+    "precisionPass": {"status": "verified", "method": "核验5～8 cm、10 cm、1 mm、40 W、3 cm、1/4柱高、3 h、40 °C、0.5～1 d及图35.1各部件"},
+    "secondVisualPass": {"status": "verified", "method": "从页末步骤（10）反向复核至承上页残句，改正图题对象和超过40 °C的误译；印刷页码330"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "continuation", "text": "（承上页）收集尽可能多的线蚓科动物，并尽量减少混入的土壤颗粒。"},
+    {"type": "subsection-heading", "level": 4, "title": "1. 材料和试剂", "parent": "35.2.1 湿法提取"},
+    {"type": "ordered-list", "items": [
+      "直径5～8 cm的土壤取样器（土钻/soil probe）。",
+      "用于保存每个土芯的带拉链可重复密封塑料袋。",
+      "记号笔。",
+      "直径10 cm的玻璃漏斗。",
+      "与漏斗颈相配的柔性橡胶管。",
+      "橡胶管夹。",
+      "粗棉布（cheesecloth）或孔径1 mm的塑料网。",
+      "蒸馏水。",
+      "配有变阻器、可调光的40 W钨丝白炽灯泡。",
+      "解剖显微镜。",
+      "倒置显微镜。",
+      "培养皿。"
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "2. 步骤", "parent": "35.2.1 湿法提取"},
+    {"type": "ordered-list", "start": 1, "items": [
+      "在选定的野外采样点取得深3 cm的土芯。",
+      "将土芯放入带拉链可重复密封塑料袋，密封时不要扰动土芯，并作适当标记。",
+      "提取前保持样品不受扰动并置于凉处（冷藏室或冰箱）。",
+      "在漏斗内铺一层粗棉布或塑料网，将土芯置于其上（见图35.1）。",
+      "用管夹夹紧橡胶管，防止水流出。",
+      "沿漏斗壁加入蒸馏水，使水位达到土芯高度的1/4；不要把水直接浇到土芯上。",
+      "排出少量水，以除去漏斗下部玻璃颈内积聚的气泡；必要时补水至原高度。",
+      "将灯泡调至低强度，缓慢加热土芯表面3 h。",
+      "调高灯泡强度，使土芯表面进一步升温至40 °C，并保持0.5～1 d。",
+      "第二天排出漏斗中的水以收集线蚓科动物；以后每天重复排水数日，直至不再提取出线蚓科动物。将提取液置于培养皿中供显微镜观察。每次沿漏斗壁补加新鲜、含氧的水，不要直接浇在土芯上。"
+    ]},
+    {"type": "figure", "number": "图35.1", "title": "用于提取线蚓科动物的改良贝尔曼漏斗装置示意图", "labels": ["白炽灯（40 W钨丝灯泡）", "土芯", "网", "漏斗", "橡胶管", "管夹", "收集容器"]},
+    {"type": "source-fidelity-note", "scope": "图35.1图题", "text": "中文本与英文原版图题均写成“用于提取线虫（nematodes）”，但本节对象、步骤（10）和图所在章均明确为线蚓科动物；这是沿用贝尔曼漏斗图时遗留的对象名错误，正文已改正为“线蚓科动物”。"},
+    {"type": "source-fidelity-note", "scope": "步骤（9）温度", "text": "中文本写“使土柱表面温度超过40 °C”，英文原版为warm ... to 40 °C，不含“超过”；已恢复为升温至40 °C。"},
+    {"type": "printed-page-number", "text": "330"}
+  ],
+  "formulas": [
+    {"id": "35.2.1-water-height", "display": "h_water = 1/4 h_core", "meaning": "漏斗水位达到土芯高度的四分之一"},
+    {"id": "35.2.1-temperature", "display": "T_surface = 40 °C", "meaning": "土芯表面目标温度；不是超过40 °C"}
+  ],
+  "tables": [],
+  "contentSha256": "124c0641389fc8ca32a9619729bf21fe2d7ece4e4280d52271dea04298b22b4f"
+}

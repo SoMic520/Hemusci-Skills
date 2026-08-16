@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-44741-2024",
+  "label": "GB/T 44741-2024《农产品产地土壤有效态砷的测定方法》",
+  "standardNo": "GB/T 44741-2024",
+  "title": "农产品产地土壤有效态砷的测定方法",
+  "published": "2024-10-26",
+  "implemented": "2025-02-01",
+  "domain": "soil",
+  "sourceType": "official-pdf",
+  "sourceFingerprint": "58a7a311708fd71a349c0d7e9964918e37bca7b734ee2a3797b2a4307131bb2d",
+  "includedPageCount": 11,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=839031B04DEE9C725C0E67EA5C74C699"
+}

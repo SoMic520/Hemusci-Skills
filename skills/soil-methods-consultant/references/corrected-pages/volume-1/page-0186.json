@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 186,
+  "sourceImageSha256": "442db7ba73d54af0ca5278c692f6546c9789dffa4bf2b91e110abea30f8dfbb7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复方法A/B说明、19.2原理、材料试剂（1）～（7）和步骤（1）～（7）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验¹⁴N/¹⁵N、KOBr-HF、KOH、KCl、HF-HCl、mol L⁻¹、52%、31 mol L⁻¹、1 150 W、10 min、0.5 g、60目、1 000 g及mg kg⁻¹"},
+    "secondVisualPass": {"status": "verified", "method": "从页末步骤（7）反向复核至续句“剂量”，确认原书材料（5）确印“用1 L的量筒量取1.5 L蒸馏水”，按原文保留并记录；页码155"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第19章｜非交换态铵的测定｜"},
+    {"type": "paragraph-continuation", "text": "剂量。Nieder等（1996）和Liang等（1999）提出的深度简化版直接去掉了氢氟酸浸提过程（方法B），这个方法最主要的改进就是由原来次溴酸钾和氯化钾浸提测定土壤中残留的非交换态铵，改为用自动定氮仪干烧法直接测定，去掉了危险性高的氢氟酸浸提过程，也避免了随后对氢氟酸的处理过程，而且在测定过程中因为分析步骤减少而大大节省了测定时间。当氮素分析仪与连续流动氮同位素（¹⁴N/¹⁵N）质谱仪相连时，氮的同位素比率也能很方便地测定。"},
+    {"type": "section-heading", "level": 2, "number": "19.2", "title": "次溴酸钾—氢氟酸（KOBr-HF）提取法"},
+    {"type": "paragraph", "text": "下面介绍Zhang和Scherer（1998）对Silva-Bremner法（1966）的修订方法。这个方法是将土样放入离心管中利用沸水浴使有机质直接被氧化，而不是将土样放到烧杯内在电热板上加热氧化，省去了把残余土壤转移到离心管的步骤。Zhang和Scherer（1998）发现用50%功率的1 150瓦微波炉加热10 min与在沸水浴中加热测得的非交换态铵值没有差别，但要根据试验和误差对不同功率的微波炉进行调整比较麻烦。下面介绍利用沸水浴加热的方法。"},
+    {"type": "section-heading", "level": 3, "number": "19.2.1", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "text": "带内螺丝盖的聚丙烯或聚乙烯离心管（50 mL）。"},
+    {"type": "reagent-item", "number": "（2）", "name": "2 mol L⁻¹氢氧化钾溶液", "text": "把112.2 g KOH溶于约600 mL蒸馏水中，冷却后稀释至1 L。"},
+    {"type": "reagent-item", "number": "（3）", "name": "次溴酸钾溶液（随用随配）", "text": "把6 mL液溴缓慢加入200 mL 2 mol L⁻¹的KOH溶液中（每分钟约0.5 mL），不断地搅拌。在整个加液过程中，KOH溶液放在冰浴中冷却。"},
+    {"type": "reagent-item", "number": "（4）", "name": "0.5 mol L⁻¹氯化钾溶液", "text": "把149 g KCl溶于600 mL蒸馏水中并定容至4 L。"},
+    {"type": "reagent-item", "number": "（5）", "name": "5 mol L⁻¹氢氟酸-1 mol L⁻¹盐酸混合液（5 mol L⁻¹ HF-1 mol L⁻¹ HCl）", "text": "用1 L的量筒量取1.5 L蒸馏水加到2 L的带刻度的聚丙烯或聚乙烯锥形瓶中。然后随着不断地搅拌慢慢加入167 mL浓盐酸（比重为1.19），之后加入325 mL约52%的氢氟酸（约31 mol L⁻¹），最后用蒸馏水定容到2 L并充分摇匀。"},
+    {"type": "source-fidelity-note", "scope": "19.2.1（5）", "text": "原书清晰印作“用1 L的量筒量取1.5 L蒸馏水”，按原文保留。"},
+    {"type": "material-item", "number": "（6）", "text": "沸水浴。"},
+    {"type": "material-item", "number": "（7）", "text": "往复式振荡器。"},
+    {"type": "section-heading", "level": 3, "number": "19.2.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "准确称取0.5 g过60目筛的土样，加入50 mL离心管中，记录离心管和土壤的总重，加10 mL次溴酸钾溶液后拧紧盖子。颠倒离心管几次使其内容物充分混合，拧松盖子静置2 h，同时水浴加热。"},
+    {"type": "procedure-step", "number": "（2）", "text": "把放有离心管的试管架浸于沸水浴中，并使沸水浴液面高于离心管中的次溴酸钾液面。待离心管中的液体沸腾后，再加热10 min。"},
+    {"type": "procedure-step", "number": "（3）", "text": "取下离心管，使离心管内容物冷却和沉淀。如果有必要，可以在1 000 g力下离心5 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "轻轻倒掉上清液。"},
+    {"type": "procedure-step", "number": "（5）", "text": "在离心管中加入30 mL 0.5 mol L⁻¹的氯化钾溶液，振荡5 min使土壤充分分散，在1 000 g力下离心5 min，倒掉上清液。"},
+    {"type": "procedure-step", "number": "（6）", "text": "再重复步骤5两次。"},
+    {"type": "procedure-step", "number": "（7）", "text": "称离心管和土壤的总重，超过最初重量（步骤1）的部分代表土壤吸持的KCl溶液体积，这部分液体的体积必须在步骤8中加到加入的酸试剂体积中，以便准确计算土壤非交换态铵的含量（mg kg⁻¹）。"},
+    {"type": "printed-page-number", "text": "155"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "97f26783085af6bf6fbaa8095bc6c68a6d4a6cdbbf98c5ae38c6f1e98c735f60"
+}

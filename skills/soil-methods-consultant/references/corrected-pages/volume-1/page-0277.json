@@ -1,0 +1,45 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 277,
+  "sourceImageSha256": "4a71643410f5da285d671e4f49f1db32f6d9fd9b17a9a6efaf0f429015de3b58",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第28章第246页，人工恢复28.3.2材料、28.3.3步骤、28.3.4结果计算、式（28.2）～（28.3）及28.3.5六条注释"},
+    "precisionPass": {"status": "verified", "method": "逐字符核骎（600±5）℃、370℃、550℃、600℃、440℃、mL、mm、mg、h、a/b/c定义、g/100 g、百分号及公式括号"},
+    "secondVisualPass": {"status": "verified", "method": "从注释（6）反向复核至28.3.2材料（1），确认材料→步骤→结果计算→注释层级、两条编号公式位置及印刷页码246"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "heading", "level": 2, "number": "28.3.2", "title": "材料"},
+    {"type": "material-item", "number": "（1）", "text": "马弗炉：可以将灰化温度控制为（600±5）℃。"},
+    {"type": "material-item", "number": "（2）", "text": "高温型瓷坩埚（30 mL）。"},
+    {"type": "material-item", "number": "（3）", "text": "瓷坩埚盖或铝箔纸，重型。"},
+    {"type": "material-item", "number": "（4）", "text": "干燥箱或带有干燥剂的非真空干燥器。"},
+    {"type": "material-item", "number": "（5）", "text": "分析天平和勺子。"},
+    {"type": "material-item", "number": "（6）", "text": "电烘箱：调至恒温105℃。"},
+    {"type": "heading", "level": 2, "number": "28.3.3", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "将30 mL高温型瓷坩埚置于天平上称重后归零，称取2 g过2 mm筛的烘干土壤样品（105℃）于其中，重量精确至0.1 mg。随后称量带盖瓷坩埚的重量，并在去掉盖子后将坩埚放入马弗炉中。"},
+    {"type": "procedure-step", "number": "（2）", "text": "逐步将炉温调至370℃并保持1小时，随后将样品在550℃灰化16～20 h（Andrejko等，1983），或在600℃灰化6 h（Goldin，1987）。"},
+    {"type": "procedure-step", "number": "（3）", "text": "将坩埚从马弗炉中取出，盖上盖子后放在干燥器中，冷却后称重，精确至0.1 mg。保存坩埚和灰化物用于金属离子的测定。"},
+    {"type": "heading", "level": 2, "number": "28.3.4", "title": "结果计算"},
+    {"type": "calculation-intro", "text": "灰分含量的计算如下："},
+    {"type": "formula-reference", "number": "（28.2）", "text": "灰分含量（g/100 g）= [（a−c）/（b−c）]×100"},
+    {"type": "formula-definition", "text": "式中，a——坩埚和灰分最后的重量（g）；b——坩埚和样品的重量（g）；c——坩埚本身的重量（g）。"},
+    {"type": "calculation-intro", "text": "上述过程还可以用下式计算有机物质的含量："},
+    {"type": "formula-reference", "number": "（28.3）", "text": "有机质含量% = 100−矿物质（灰分）含量%"},
+    {"type": "heading", "level": 2, "number": "28.3.5", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "Andrejko等（1983）发现在利用上述步骤测定灰分含量时，将温度调至550℃即可满足多数实验要求。美国试验材料协会（ASTM，1997）推荐的标准方法是将温度设置为440℃，并在该温度下将样品加热至完全灰化（即继续加热不会改变重量）。"},
+    {"type": "note-item", "number": "（2）", "text": "干灰化法可能会高估土壤有机质含量。正误差取决于土壤性质，例如，碳酸盐含量及土壤矿质组分中黏粒的类型和数量（Goldin，1987）。"},
+    {"type": "note-item", "number": "（3）", "text": "上述操作步骤可以测定有机质土壤中灰分和有机质的质量百分数，其中主要包括苔藓、腐殖质和芦苇—莎草类有机质土壤（Day等，1979）。"},
+    {"type": "note-item", "number": "（4）", "text": "样品应该放入未加热的马弗炉，且马弗炉的温度应该缓慢升高以便防止因为剧烈爆燃引起的挥发损失。"},
+    {"type": "note-item", "number": "（5）", "text": "如果要保留灰分用作元素分析，那么应该用带盖的高温型瓷坩埚或类似的容器。这些坩埚可以避免由炉壁挥发的硼对灰分的污染（Williams和Vlamis，1961）。"},
+    {"type": "note-item", "number": "（6）", "text": "通过烧失量计算得到的结果只能作为近似值（Allen，1989）。"},
+    {"type": "printed-page-number", "text": "246"}
+  ],
+  "formulas": [
+    {"number": "28.2", "context": "由坩埚、样品和灰分称量值计算灰分质量分数", "display": "灰分含量（g/100 g）= [（a−c）/（b−c）]×100", "latex": "Ash(g/100\\,g)=[(a-c)/(b-c)]\\times100"},
+    {"number": "28.3", "context": "由灰分含量求有机质含量", "display": "有机质含量% = 100−矿物质（灰分）含量%", "latex": "Organic\\ matter(\\%)=100-Mineral\\ matter\\ (ash)(\\%)"}
+  ],
+  "tables": [],
+  "contentSha256": "f0826263b46fb0ac2ebceb1368847fd16a3b5c8c9df13059acc9a532c7ec64ec"
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 547,
+  "sourceImageSha256": "3ddf8caed8b585234fbfd443ec36b5444930120e4bbe8450e00ebe527eaffc75",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，接续54.4.3并完成54.4.4"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验δ¹⁵N/δ¹⁸O、NO₃⁻/NO₂⁻/N₂O/Ag₂O/AgNO₃、2 mol·L⁻¹ KCl、<10/≤4/≥24 ppmv、0.254 mm×100 mm、230/10 mL、m/z 44/45/46及α/β位点核素上标"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由54.5标题反向复核至跨页句，确认书中m/z‘44、45、45’为误印并矫正为44、45、46，检查N₂O非对称结构、采气尺寸和印刷页码516"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph-continuation",
+      "scope": "54.4.3",
+      "text": "[承第546页] Amberger和Schmidt（1987）提出同时利用NO₃⁻的δ¹⁵N与δ¹⁸O提高来源区分能力；双同位素法后来广泛用于水文和氮循环研究。候选来源可包括土壤有机N矿化、矿质肥料、有机肥以及大气沉降，但端元重叠和过程分馏仍需纳入解释。"
+    },
+    {
+      "type": "method-summary",
+      "title": "AgNO₃法",
+      "text": "经典方法先用阴离子交换材料从水样中分离NO₃⁻，再与Ag₂O反应制成AgNO₃。测NO₃⁻-O时将AgNO₃装入银杯，经高温裂解转化为CO后测δ¹⁸O；测NO₃⁻-N时装入锡杯，以Dumas燃烧转为N₂后测δ¹⁵N（Silva等，2000）。高盐会抑制离子交换，因此不能把2 mol·L⁻¹ KCl土壤浸提液未经验证直接套用。"
+    },
+    {
+      "type": "method-summary",
+      "title": "反硝化细菌法",
+      "text": "利用缺失N₂O还原酶的反硝化细菌，把NO₃⁻定量还原为N₂O而不继续生成N₂，再由N₂O测NO₃⁻的δ¹⁵N和δ¹⁸O（Casciotti等，2002；Rock和Ellert，2007）。执行时还须校正氧交换、培养空白和同位素尺度；不能把‘只生成N₂O’理解为无需质控。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "54.4.4",
+      "title": "土壤气体中N₂O的δ¹⁸O值和δ¹⁵N值测定"
+    },
+    {
+      "type": "paragraph",
+      "text": "环境空气中CH₄和N₂O通常低于10 ppmv，直接进样信号不足，需先预浓缩并除去干扰气体。书中配置为PreCon预浓缩装置、毛细管GC和IRMS联用；N₂O同位素测量采集m/z 44、45、46，并对同量异位和其他质量干扰进行校正。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "54.4.4质量数",
+      "text": "原书清晰印作‘44、45、45’，末一项为误印。本Skill可执行正文矫正为m/z 44、45、46，与本章表54.2及N₂O同位素质量守恒一致。"
+    },
+    {
+      "type": "sampling-method",
+      "text": "书载原位水平土壤气体取样：将内径0.254 mm、长100 mm的毛细管水平埋入未扰动土壤，以预抽真空的230 mL不锈钢瓶收集约2 h。N₂O≤4 ppmv时用230 mL气样；N₂O≥24 ppmv时约10 mL可满足分析。浓度阈值和需气量高度依赖预浓缩器与IRMS灵敏度，使用前必须实测方法检出限和线性范围。"
+    },
+    {
+      "type": "paragraph",
+      "text": "N₂O是非对称线性分子，可区分中心N（α位，邻O）和末端N（β位）的位点特异δ¹⁵N：¹⁴N¹⁵N¹⁶O对应δ¹⁵Nα，¹⁵N¹⁴N¹⁶O对应δ¹⁵Nβ。同位素异位体具有相同同位素组成数量、但同位素占位不同；位点偏好可辅助判断硝化和反硝化等过程，但不能单独证明唯一来源。"
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "number": "54.5",
+      "title": "应用"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "54.4.4-n2o-isotopomers",
+      "display": "δ¹⁵Nα: ¹⁴N–¹⁵N–¹⁶O；δ¹⁵Nβ: ¹⁵N–¹⁴N–¹⁶O",
+      "meaning": "N₂O中心N（α）与末端N（β）的位点特异同位素组成"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "c6c2a887687f40e3d29b83b4a87a67f95a4a8433e755a9063e6e197b0a910900"
+}

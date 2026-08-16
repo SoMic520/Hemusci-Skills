@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-47437-2026",
+  "label": "GB/T 47437-2026《气候变化监测 土壤有机碳氧同位素分析 质谱法》",
+  "standardNo": "GB/T 47437-2026",
+  "title": "气候变化监测 土壤有机碳氧同位素分析 质谱法",
+  "published": "2026-04-30",
+  "implemented": "2026-08-01",
+  "domain": "soil",
+  "sourceType": "official-online-reader",
+  "sourceFingerprint": "51e95f0b4cc74130788c3b0744a20f9ce0c722424a8857e56a89f217de5bf45b",
+  "includedPageCount": 15,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=419A896165BEE9252D276B8D17B29C04"
+}

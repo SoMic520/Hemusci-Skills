@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 160,
+  "sourceImageSha256": "a5ab25822560b64d68f1315c9ae3ec8b7973875103a1cd67dda8b9ab6a3b7635",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段对照原分辨率图和两套OCR，完成69.4.1续文、图69.3注、69.4.2至空气容量跨页句"},
+    "precisionPass": {"status": "verified", "method": "核验式(69.4)V_w/V_b、θ_s/θ_fs、2—5百分点、FC 2—3 d、ψ_FC −0.5/−1/−5/−3.3 m、PWP ≥12 h及−150 m"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页“空气容量定义”反向复核至页首，检查田间持水/固定头定义差异和PWP生物学/替代头定义；印刷页码669"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "69.4.2", "title": "水和空气存储参数", "level": 3},
+    {"type": "paragraph", "text": "刚性土壤体积含水量θ_v=V_w/V_b。完全饱和且无空气时θ_v=θ_s=n；田间实际饱和有滞留气体时θ_v=θ_fs<n，通常低2—5个百分点（Bouwer，1978）。多数田间湿干循环测得的最大θ更接近θ_fs。"},
+    {"type": "variables", "items": ["V_w：土壤水体积（L³）", "V_b：原状或规定状态土壤总体积（L³）", "θ_s：完全饱和体积含水量", "θ_fs：田间实际饱和体积含水量"]},
+    {"type": "paragraph", "text": "田间持水量FC的过程定义：初始饱和或近饱和、无蒸发条件下重力排水2—3 d后保持的水量。为方便也常定义为指定基质头ψ_FC的平衡θ_FC：有正常田间结构的未扰动土常取−1 m；浅层潮湿条件可取−0.5 m，深水位可取−5 m；扰动重装土为与未扰动土比较常取−3.3 m。必须报告采用过程定义还是固定头定义。"},
+    {"type": "paragraph", "text": "永久萎蔫点PWP的生物学定义：在水汽饱和环境限制蒸散时，植物萎蔫至少12 h且不能恢复所对应的土壤含水量。工程上常以ψ_PWP=−150 m水头的平衡θ_PWP代替，但实际值随植物种类、生育期和土壤变化；该替代值不是所有植物的生理常数。空气容量和植物有效水容量的定义续见下页。"},
+    {"type": "source-fidelity-note", "text": "原书式(69.4)变量说明把V_w/V_b文字OCR错位，已按公式恢复。FC的−0.5、−1、−5、−3.3 m及PWP的−150 m负号均为关键单位信息；不得写成正吸力而不说明符号约定。"}
+  ],
+  "formulas": [
+    {"label": "69.4", "plain": "θ_v = V_w/V_b", "latex": "\\theta_v=\\frac{V_w}{V_b}", "resultUnit": "m³·m⁻³"}
+  ],
+  "tables": [],
+  "contentSha256": "7c5d15375b1269b8a38445a833dbed3e91eaf67f26478478cbcb181fa4882716"
+}

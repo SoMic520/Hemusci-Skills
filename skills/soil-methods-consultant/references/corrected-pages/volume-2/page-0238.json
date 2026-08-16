@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 238,
+  "sourceImageSha256": "319d96c672c55edae5185da551d898309ac85dd8906acc116dc3da43b93c109c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐图注对照原分辨率页图、两套OCR和英文原章，完成76.2.3(7)末、76.3导言及76.3.1"},
+    "precisionPass": {"status": "verified", "method": "核验井径4—10 cm、套管内半径a/直径2a、H₀/H_t、底部碎石5 cm及全部K_fs/φ_m/S/α*/ψ_f/PD/NP"},
+    "secondVisualPass": {"status": "verified", "method": "按仅从套管底部出流的边界复核水密封、初始水头、垂向参数适用性及降水头优缺点；印刷页码747"}
+  },
+  "blocks": [
+    {"type": "references-inline", "text": "其他定水头井渗仪、规程和分析见Amoozegar and Warrick (1986)、Koppi and Geering (1986)、Stephens et al. (1987)、Jenssen (1989)、Bell and Schofield (1990)、Amoozegar (1992)、Philip (1985)、Elrick and Reynolds (1992)、Reynolds et al. (1992)、Xiang (1994)等。"},
+    {"type": "heading", "number": "76.3", "title": "降水头井渗法", "level": 2},
+    {
+      "type": "method-principle",
+      "text": "把水密套管插至圆柱平底井底，加入已知初始水头H₀，水仅从套管底部流入非饱和介质，记录水位H_t随时间下降。井径通常4—10 cm但理论上不限；所得K_fs、φ_m、S、α*、ψ_f、PD、NP主要表征垂向流。相较定水头法，低渗介质测时大幅缩短且可测更低K_fs；局限是套管—井壁水密封困难，且与成熟方法的可比资料有限。"
+    },
+    {
+      "type": "figure",
+      "number": "76.3",
+      "title": "降水头井渗法仪器设备（有套管井）",
+      "components": ["土表以上伸出的刚性实壁套管", "套管内半径a、直径2a", "初始水头H₀", "t时刻水头H_t", "仅从套管底部向下/侧下方出流"]
+    },
+    {"type": "heading", "number": "76.3.1", "title": "设备和步骤", "level": 3},
+    {
+      "type": "procedure",
+      "steps": [
+        "按76.2挖圆柱平底井，井底高于地下水位/毛管上升带；按76.2和第78章清除涂抹和压实层。",
+        "把刚性套管滑入井内并与井壁紧密水封，阻止套管外短路流；顶端最好伸出地表，以提供足够初始水头。",
+        "快速加入固定体积水得到H=H₀；可直接注入，黏土中也可用伸至底部的管注水。为防首轮冲刷破坏井底和细粒淤积，可装高导水透水底套或铺5 cm厚碎石；底套/碎石层必须不限制水流。步骤续下页。"
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "066e20d675b7737bc5412fd8be6aca8cbfdde2b47d974cc9b7d267b52db74ea4"
+}

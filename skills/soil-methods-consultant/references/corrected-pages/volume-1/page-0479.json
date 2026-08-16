@@ -1,0 +1,31 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 479,
+  "sourceImageSha256": "b57edfa7b5a0300e3f2385895cf07e07178d9fd528d84148454ae8258b7fea1a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页和两套OCR，完成47.3.3六条注释、式（47.1）～（47.3）及47.4.1引入；恢复Na₆(H₂W₁₂O₄₀)与Ludox TM40"},
+    "precisionPass": {"status": "verified", "method": "复算F、S、L、SG、V示例：950 g水+1425 g NaI、总质量2375 g、密度1.8 g·cm⁻³得1319 cm³；核验1000×g、2∶1及2～3次"},
+    "secondVisualPass": {"status": "verified", "method": "由47.4.1页末承下公式反向复核至有机溶剂承上句，逐字符检查三式、下标、单位、比重/密度及质量分数；印刷页码448"}
+  },
+  "blocks": [
+    {"type": "note", "number": "（1，续）", "text": "有机溶剂不推荐（Gregorich和Ellert，1993；Sollins等，1999）。25 °C下可用偏钨酸钠Na₆(H₂W₁₂O₄₀)配制密度至3.1 g·cm⁻³；它较惰性且溶解性C较少（Plewinsky和Kamps，1984；Sollins等，1999）。胶体二氧化硅Ludox TM40可配至1.37 g·cm⁻³，但高pH（如9）会提取大量腐殖物质。"},
+    {"type": "note", "number": "（2）", "text": "除密度外，黏度、表面张力和介电常数也影响密度分组。LF表观密度取决于重液进入颗粒内部孔隙的程度，而后者受表面张力影响。"},
+    {"type": "note", "number": "（3）", "text": "颗粒密度反映有机质与矿质颗粒之比（Sollins等，1999）；重液很小的密度变化也会显著改变所提取C量和C∶N（Richter等，1975；Gregorich等，2006）。推荐1.7 g·cm⁻³。实际最适值可在1.2～1.9 g·cm⁻³连续分离并测灰分、C和C∶N：当密度再升高导致灰分突增或C∶N明显下降时，该转折密度可作为生物相关LF的界限。立体显微镜检查有助评估矿质污染及组成。"},
+    {"type": "note", "number": "（4）", "text": "按特定温度下溶质质量分数配制目标比重重液。F为NaI质量占NaI+水总质量的分数，S为NaI质量（g），L为水质量（g），SGsol'n为溶液比重，Vsol'n为溶液体积（cm³）。比重1.6、1.7、1.8、1.9对应F约0.51、0.55、0.60、0.64。例：配比重1.8且F=0.60的NaI液，在950 g水中加1425 g NaI；以密度数值1.8 g·cm⁻³计算，终体积=(950+1425)/1.8=1319 cm³。"},
+    {"type": "note", "number": "（5）", "text": "可用约1000×g离心代替1×g静置，加快轻重组分分离并增大垂直距离。液∶土比不得低于2∶1，否则非复合有机质可能包埋进重组分。离心法建议使重组分再悬浮，重复分离至少2～3次（见47.3.2步骤9）。"},
+    {"type": "note", "number": "（6）", "text": "应测原土C和养分如N，才能把LF-C或LF-N表示为全土总C或总N百分数。"},
+    {"type": "section-heading", "level": 2, "number": "47.4", "title": "重点注意事项"},
+    {"type": "section-heading", "level": 3, "number": "47.4.1", "title": "结果计算"},
+    {"type": "paragraph", "text": "LF量可按干土质量百分数表示，但矿质土污染会高估LF量。POM-C或LF-C占土壤总C的比例按式（47.4）计算，见第480页。"},
+    {"type": "notation-note", "scope": "式（47.3）的SG量纲", "text": "比重本应无量纲；原式直接以SG×V得到溶液质量，实际上使用了与数值相同的溶液密度（g·cm⁻³），隐含水密度约1 g·cm⁻³。严格计算应写S=F·ρsolution·Vsolution。"}
+  ],
+  "formulas": [
+    {"id": "47.1", "display": "F = S/(S + L)", "variables": {"F": "NaI质量分数", "S": "NaI质量，g", "L": "水质量，g"}},
+    {"id": "47.2", "display": "S = FL/(1 − F)", "meaning": "由目标质量分数和水质量求NaI质量"},
+    {"id": "47.3", "display": "S = F·ρsolution·Vsolution", "sourceDisplay": "S = F·SGsol'n·Vsol'n", "meaning": "由目标质量分数、溶液密度与目标体积求NaI质量；校正原式隐含量纲"},
+    {"id": "47.3-example", "display": "F=0.60, L=950 g → S=1425 g; V=(950+1425)/1.8=1319 cm³", "meaning": "比重/密度1.8 NaI溶液示例复算"}
+  ],
+  "tables": [],
+  "contentSha256": "9de992f6fba18d98851962958dad71d67572ce04502a49697d7ebf515e75eba1"
+}

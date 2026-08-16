@@ -1,0 +1,59 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 55,
+  "sourceImageSha256": "8c639a5ba59d4b94f2af64a8faf046c61cb5adc6922a3ab9bc991ba7d13a5225",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率方法与计算页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复步骤续文、公式、变量说明和注释"},
+    "precisionPass": {"status": "verified", "method": "放大核对50～80 g、105°C、48 h、2 mm、式（3.2）的W_s/M_AD/M_OD/M_tin、式（3.3）的D_cs/M_cs/M_g/W_s/L_cs/R_b²、g/cm³和2 Mg C/ha"},
+    "secondVisualPass": {"status": "verified", "method": "按步骤3～6、3.3.3两级计算项目、两条公式及全部上下标、变量定义、3.3.4注释、采样深度续文和印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "numbered-item", "number": "3", "continuation": true, "text": "的损失，并注意在风干过程中避免受到灰尘、植物体、纸或者其他含碳污染物污染。此外，处理土样时戴上橡胶手套避免污染。"},
+    {"type": "numbered-item", "number": "4", "text": "一旦样品风干，记录样品和铝盒的重量。取一小部分具有代表性的样品（如50～80 g，除去石头和大片的植物残体），在105°C将样品烘干48 h，测定风干土的含水量。除此之外，也可以在湿土被捏碎风干之前，从聚乙烯袋中取出时立刻记录湿土和铝盒的重量。在这种情况下，土壤田间持水量的准确性对估计土芯段密度十分重要，并且与风干之后称重相比，此时称重土样损失较少。在二次采样确定土壤田间持水量之前，需要从混合均匀的土样中取出一部分用于土壤生物相分析。", "inlineNotation": ["50～80 g", "105°C", "48 h"]},
+    {"type": "numbered-item", "number": "5", "text": "压碎或磨碎全部土壤样品，并过2 mm筛，去除直径大于2 mm的砂砾。样品中所有的有机物质应该都被包含在内；如果有必要，可以单独磨碎根和其他较大的有机残体过2 mm筛，并混入样品中。“Rukuhia”牌的辊式研磨机（Waters和Sweetman，1955）能够有效地将土壤样品磨碎以便进行SOC分析。另外，对于每个样品，去除并记录直径大于2 mm砂砾的干重。", "inlineNotation": ["2 mm", "SOC"]},
+    {"type": "numbered-item", "number": "6", "text": "将粗磨后的样品放入标记好的棕色袋子中，分析前在阴凉干燥处保存。若要长期存储（一年以上），可将土壤样品放置于密封玻璃瓶或塑料广口瓶中，在阴凉、干燥、避光条件下保存。如果需要对土壤进行精磨（如元素微量分析），需要对粗磨土壤（<2 mm）彻底混合，并在装袋前二次取样。", "inlineNotation": ["<2 mm"]},
+    {"type": "section-heading", "level": 4, "number": "3.3.3", "title": "计算"},
+    {"type": "section-heading", "level": 5, "number": "1", "title": "风干土的含水量"},
+    {"type": "formula-reference", "number": "3.2", "text": "W_s=(M_AD−M_OD)/(M_OD−M_tin)", "inlineNotation": ["W_s=(M_AD-M_OD)/(M_OD-M_tin)"]},
+    {"type": "paragraph", "text": "式中，W_s表示自然风干土壤的含水量（g/g）；M_AD表示自然风干土壤和锡箔纸的总质量（g）；M_OD表示烘干土壤和锡箔纸的总质量（g）；M_tin表示锡箔纸的质量（g）。", "inlineNotation": ["W_s", "g/g", "M_AD", "g", "M_OD", "M_tin"]},
+    {"type": "section-heading", "level": 5, "number": "2", "title": "土芯段密度"},
+    {"type": "paragraph", "text": "以下计算为我们提供了一种土芯段密度的估算方法。这可能不同于对土壤容重的精确估计，因为压实作用或松散的表层可能妨碍在不改变原有质量的情况下收集相同体积的样品。即便如此，在计算土壤有机碳元素含量时，人们更倾向于使用土芯段密度估算，而非单独测量容重。"},
+    {"type": "formula-reference", "number": "3.3", "text": "D_cs=[(M_cs−M_g)/(1+W_s)]/[L_csπR_b²]", "inlineNotation": ["D_cs=[(M_cs-M_g)/(1+W_s)]/[L_cs*pi*R_b^2]"]},
+    {"type": "paragraph", "text": "式中，D_cs为土芯段密度（g/cm³），表示每立方厘米的样本去除砂砾后的质量；M_cs为土芯段中风干土壤的总质量；M_g为砂砾的质量（g）；L_cs是土芯段的长度（cm）；R_b为土芯的半径，即土钻内径的一半。如果样本由多个土芯段组成，那么L_cs表示累计长度，比如，如果样本由两个10～20 cm的土芯段组成，则样本土芯段累计长度L_cs=20 cm。", "inlineNotation": ["D_cs", "g/cm^3", "M_cs", "M_g", "g", "L_cs", "cm", "R_b", "10～20 cm", "L_cs=20 cm"]},
+    {"type": "section-heading", "level": 4, "number": "3.3.4", "title": "注释"},
+    {"type": "paragraph", "text": "上述方法经过改进可适用于特定的研究地点和研究对象。下面说明一些重要的注意事项："},
+    {"type": "section-heading", "level": 5, "number": "1", "title": "采样深度"},
+    {"type": "paragraph", "continuation": true, "text": "采样深度至少深达受管理措施影响明显的土层。例如，它应该完全包括耕作影响到的整个土层。最佳的采样深度因作物种类的不同也有差异，比如，对多年生牧草生长的地块采样比只种植浅根性一年生作物的地块可能需要更深的采样深度。采样深度越大，需要耗费在采样、样品处理、数据分析上的人力和物力就越多。随着土层厚度增加，检测土壤碳的特定变化（如2 Mg C/ha）会变得比较困难，因为这些土层中增加的土壤碳含量变化也被平均化。在这种情况下，人们更倾向于将采样方案从考虑深度上转移到考虑采样点数量上。但是，如果某些土层比采样土层薄（薄层土的最小值可能达到30 cm），那么应", "inlineNotation": ["2 Mg C/ha", "30 cm"]},
+    {"type": "printed-page-number", "text": "24"}
+  ],
+  "formulas": [
+    {
+      "number": "3.2",
+      "display": "W_s = (M_AD−M_OD)/(M_OD−M_tin)",
+      "latex": "W_{s}=\\frac{M_{AD}-M_{OD}}{M_{OD}-M_{tin}}",
+      "variables": [
+        {"symbol": "W_s", "meaning": "自然风干土壤的含水量", "unit": "g/g"},
+        {"symbol": "M_AD", "meaning": "自然风干土壤和锡箔纸的总质量", "unit": "g"},
+        {"symbol": "M_OD", "meaning": "烘干土壤和锡箔纸的总质量", "unit": "g"},
+        {"symbol": "M_tin", "meaning": "锡箔纸的质量", "unit": "g"}
+      ]
+    },
+    {
+      "number": "3.3",
+      "display": "D_cs = [(M_cs−M_g)/(1+W_s)]/[L_csπR_b²]",
+      "latex": "D_{cs}=\\frac{(M_{cs}-M_g)/(1+W_s)}{L_{cs}\\pi R_b^2}",
+      "variables": [
+        {"symbol": "D_cs", "meaning": "土芯段密度；每立方厘米的样本去除砂砾后的质量", "unit": "g/cm³"},
+        {"symbol": "M_cs", "meaning": "土芯段中风干土壤的总质量"},
+        {"symbol": "M_g", "meaning": "砂砾的质量", "unit": "g"},
+        {"symbol": "W_s", "meaning": "自然风干土壤的含水量", "unit": "g/g"},
+        {"symbol": "L_cs", "meaning": "土芯段的长度；多个土芯段时表示累计长度", "unit": "cm"},
+        {"symbol": "R_b", "meaning": "土芯的半径，即土钻内径的一半", "unit": "cm"}
+      ]
+    }
+  ],
+  "tables": [],
+  "contentSha256": "6df420f8f8441a2c01262ab46907f61e43f3a1eaeea1525761b0efd46e1f3805"
+}

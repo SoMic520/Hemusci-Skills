@@ -1,0 +1,43 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 337,
+  "sourceImageSha256": "70221aff22f1073446053d9c8ef6e1f88c58b4399388a788d60739fff2629474",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率参考文献页面，并与Apple Vision、PaddleOCR及英文原版交叉比对，恢复Evans（1985）续文和其后22条完整文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者首字母、a/b年份后缀、卷期页码、书名、期刊缩写、网址与重音字符Ö"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Norton和Sanders（1985）反向逐条复核至页首Evans（1985）续文，确认Marshall拼写及全部卷页；页码306"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-continuation", "continuationOf": "page-0336#evans-1985", "text": "Agriculture, Sutton Bonington, Loughborough, Leics, UK."},
+    {"type": "source-fidelity-note", "scope": "Evans等（1985）出版机构", "text": "中文本/英文版排印作University of Notingham；规范校名为University of Nottingham。为保持跨页原印可追溯，条目正文保留Notingham，检索同时索引Nottingham。"},
+    {"type": "reference", "text": "Evans, G.O., Sheals, J.G., and Macfarlane, D. 1961. The Terrestrial Acari of the British Isles. Vol. 1. Introduction and Biology. British Museum (Natural History), London, UK, 219."},
+    {"type": "reference", "text": "Geurs, M., Bongers, J., and Brussaard, L. 1991. Improvements to the heptane flotation method for collecting microarthropods from silt loam soil. Agric. Ecosyst. Environ. 34: 213–221."},
+    {"type": "reference", "text": "Kethley, J. 1991. A procedure for extraction of microarthropods from bulk soil samples with emphasis on inactive stages. Agric. Ecosyst. Environ. 34: 193–200."},
+    {"type": "reference", "text": "Krantz, G.W. 1978. A Manual of Acarology. Oregon State University Press, Corvallis, OR, 509."},
+    {"type": "reference", "text": "Lakly, M.B. and Crossley, D.A. 2000. Tullgren extraction of soil mites (Acarina): effect of refrigeration time on extraction efficiency. Exp. Appl. Acar. 24: 135–140."},
+    {"type": "reference", "text": "Leinaas, H.P. 1978. Seasonal variation in sampling efficiency of Collembola and Protura. Oikos 31: 307–312."},
+    {"type": "reference", "text": "Lussenhop, J. 1971. A simplified canister-type soil arthropod extractor. Pedobiologia 11: 40–45."},
+    {"type": "reference", "text": "Luxton, M. 1982. The biology of mites from beech woodland. Pedobiologia 23: 1–8."},
+    {"type": "reference", "text": "Macfadyen, A. 1955. A comparison of methods for extracting soil arthropods. In: D.K. McE. Kevan, ed. Soil Zoology. Butterworth, London, UK, 315–332."},
+    {"type": "reference", "text": "Macfadyen, A. 1961. Improved funnel-type extractors for soil arthropods. J. Anim. Ecol. 30: 171–184."},
+    {"type": "reference", "text": "Macfadyen, A. 1962. Soil arthropod sampling. In: Advances in Ecological Research. Academic Press, London, UK, 1–34."},
+    {"type": "source-fidelity-note", "scope": "Macfadyen（1962）题名", "text": "原书印作“In: Advanced Ecology. Research”，正确连续出版物题名为Advances in Ecological Research；校正文采用规范题名。"},
+    {"type": "reference", "text": "Marshall, S.A., Anderson, R.S., Roughley, R.E., Behan-Pelletier, V., and Danks, H.V. 1994. Terrestrial arthropod biodiversity: planning a study and recommended sampling techniques. A brief prepared by the Biological Survey of Canada (Terrestrial Arthropods). Published by the Entomological Society of Canada Supplement to the Bulletin, Vol. 26 (1). Available at: http://www.biology.ualberta.ca/bsc/briefs/brterrestrial.htm, March 1994."},
+    {"type": "reference", "text": "Marshall, V.G. 1972. Comparison of two methods of estimating efficiency of funnel extractors for soil microarthropods. Soil Biol. Biochem. 4: 417–426."},
+    {"type": "reference", "text": "Merchant, V.A. and Crossley, D.A. Jr. 1970. An inexpensive high-efficiency Tullgren extractor for soil microarthropods. J. Georgia Entomol. Soc. 5: 83–87."},
+    {"type": "reference", "text": "Meyer, E. 1996. Mesofauna. In: F. Schinner, R. Öhlinger, E. Kandeler, and R. Margesin, eds. Methods in Soil Biology. Springer-Verlag, Berlin, Germany, 338–345."},
+    {"type": "reference", "text": "Moore, J.C. and Walter, D.E. 1988. Arthropod regulation of micro- and mesobiota in below-ground detrital food webs. Ann. Rev. Entomol. 33: 419–439."},
+    {"type": "reference", "text": "Murphy, P.W. 1962a. Extraction methods for soil animals. I. Dynamic methods with particular reference to funnel processes. In: P.W. Murphy, ed. Progress in Soil Zoology. Butterworths, London, UK, 75–114."},
+    {"type": "reference", "text": "Murphy, P.W. 1962b. Extraction methods for soil animals. II. Mechanical methods. In: P.W. Murphy, ed. Progress in Soil Zoology. Butterworths, London, UK, 115–155."},
+    {"type": "reference", "text": "Norton, R.A. 1985a. Aspects of the biology of soil arachnids, particularly saprophagous and mycophagous mites. Quaest. Entomol. 21: 523–541."},
+    {"type": "reference", "text": "Norton, R.A. 1985b. A variation of the Merchant-Crossley soil microarthropod extractor. Quaest. Entomol. 21: 669–671."},
+    {"type": "reference", "text": "Norton, R.A. 1998. Morphological evidence for the evolutionary origin of Astigmata (Acari: Acariformes). Exp. Appl. Acar. 22: 559–594."},
+    {"type": "reference", "text": "Norton, R.A. and Sanders, F. 1985. Superior microneedles for manipulating and dissecting soil invertebrates. Quaest. Entomol. 21: 673–674."},
+    {"type": "printed-page-number", "text": "306"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "75843b7389459f41d553cd53d0cb1cbe09552fac8f6895426c2ccd9cc7ff729e"
+}

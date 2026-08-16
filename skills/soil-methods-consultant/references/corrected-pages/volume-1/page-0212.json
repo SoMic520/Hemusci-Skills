@@ -1,0 +1,44 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 212,
+  "sourceImageSha256": "d3f53cb07bcc0a5bbc2067f60b9437cf5be79d94fc9996e1f0fdf777bfb2df02",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第22章第181页，并与Apple Vision、PaddleOCR交叉比对，人工恢复步骤（14）～（20）、计算式（22.1）、变量定义及注释（1）～（4）未完内容"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验6 mL·min⁻¹、10/0.01 mol·L⁻¹、H₂SO₄、28.01 mg、V₁/V₀、g·kg⁻¹、150 μm、3.5 g/袋及pH≈5.4"},
+    "secondVisualPass": {"status": "verified", "method": "从注释（4）跨页末句反向复核至步骤（14），确认式（22.1）分子分母、变量顺序、化学上下标、单位、公司专名及页码181"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第22章｜全氮｜"},
+    {"type": "procedure-step", "number": "（14）", "text": "打开蒸汽供应器通向蒸馏装置，使蒸汽进入管道，并打开排水管道以便可以排出蒸汽。"},
+    {"type": "procedure-step", "number": "（15）", "text": "在冷凝器下放一个100 mL的具有刻度的烧杯，在烧杯中加入5 mL 2%的硼酸，并使冷凝器的尖端浸入硼酸溶液中。"},
+    {"type": "procedure-step", "number": "（16）", "text": "通过蒸馏器顶端缓慢加入过量10 mol·L⁻¹的NaOH溶液（一般为30 mL，见22.2.5），不要让贮存器中的NaOH溶液加完变空，否则氨气将会由活塞开关口挥发损失。"},
+    {"type": "procedure-step", "number": "（17）", "text": "将排水管的夹钳夹紧或者关闭活塞开关，使蒸汽直接进入蒸馏瓶。应该保证蒸馏液以6 mL·min⁻¹的速度蒸出，并收集40 mL蒸馏液。"},
+    {"type": "procedure-step", "number": "（18）", "text": "打开排水管的夹钳，移走蒸馏瓶，然后夹紧通向蒸馏装置的夹钳。这个步骤很重要，可以防止被蒸汽烫伤及蒸馏瓶中的液体倒流进入蒸馏系统。"},
+    {"type": "procedure-step", "number": "（19）", "text": "用蒸馏水冲洗冷凝器尖端，并将冲洗液收集到烧杯中。"},
+    {"type": "procedure-step", "number": "（20）", "text": "用0.01 mol·L⁻¹的H₂SO₄标准溶液滴定蒸馏液，滴定终点的颜色由绿色变为粉红色（pH值≈5.4）。"},
+    {"type": "method-subheading", "number": "22.2.4", "title": "计算"},
+    {"type": "calculation-note", "text": "1 mL 1 mol·L⁻¹的H₂SO₄溶液可以滴定28.01 mg的氮。"},
+    {"type": "variable-definition", "symbol": "M", "text": "标准H₂SO₄溶液的浓度（mol/L）；"},
+    {"type": "variable-definition", "symbol": "V₁", "text": "滴定样品消耗的H₂SO₄标准溶液的体积（mL）；"},
+    {"type": "variable-definition", "symbol": "V₀", "text": "滴定空白消耗的H₂SO₄标准溶液的体积（mL）；"},
+    {"type": "variable-definition", "symbol": "m", "text": "烘干土重（g）。"},
+    {"type": "blank-note", "text": "空白不加土壤样品，其他操作与待测土壤样品相同。"},
+    {"type": "method-subheading", "number": "22.2.5", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "土壤样品必须为干样（通常风干）、磨细过100目（150 μm）筛。"},
+    {"type": "note-item", "number": "（2）", "text": "由Tecator或Technicon公司提供的恒温加热消煮炉及消煮管已经被应用于凯氏消煮过程。Panasiuk和Redshaw（1977）提到的空气冷凝管可以由专业的玻璃吹制工制作，Tecator公司也可以提供同类型装置。大量复杂精密的消煮装置也可以从VELP、Gernhardt和其他一些制造厂商购置（例如，Fisher、VWR、Cole Parmer或其他供应商）。一些公司使用红外消解系统，该系统与传统的铝质消煮炉相比极大地缩短了加热和冷却的时间。"},
+    {"type": "note-item", "number": "（3）", "text": "K₂SO₄-CuSO₄混合物既可以在实验室配制，也可以从供应商（例如，由Tecator公司注册商标的Kjeltabs牌）处购买约3.5 g/袋、按比例混合并包装好的商品混合物。混合物应该使用低氮原料，并且保存于密封的存储器中，以便防止吸湿结块。"},
+    {"type": "note-item", "number": "（4）", "continued": true, "text": "很多制造商（例如，Labconco、Gernhardt、VELP等公司）可以提供各种手动、半自动及全自动蒸馏设备，这些设备消煮速度很快，可以将图22.1装置的消煮时间从7～8 min缩短到约2 min。Bremner（1996）、Bremner和Breitenbeck（1983）提出的蒸馏装置与图22.1相似。目前，也有商业化的蒸馏系统"},
+    {"type": "printed-page-number", "text": "181"}
+  ],
+  "formulas": [
+    {
+      "number": "22.1",
+      "context": "微量凯氏消煮—蒸汽蒸馏法测定土壤全氮",
+      "display": "全氮（g·kg⁻¹）= [V₁（mL）−V₀（mL）]×M×28.01 / m（g）",
+      "latex": "\\text{全氮}(\\mathrm{g}\\cdot\\mathrm{kg}^{-1})=\\frac{[V_1(\\mathrm{mL})-V_0(\\mathrm{mL})]\\times M\\times28.01}{m(\\mathrm{g})}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "c3a6a3a1e0ec3c2446dcbb8ab96961f69659554a1978031380adb0b7ce92fb48"
+}

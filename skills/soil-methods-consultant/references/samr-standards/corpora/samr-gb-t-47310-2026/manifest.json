@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-47310-2026",
+  "label": "GB/T 47310-2026《土壤全量硅、铝、铁、钾、钠、钙、镁、锰、磷、钛、硫的测定 单波长激发-能量色散X射线荧光光谱法》",
+  "standardNo": "GB/T 47310-2026",
+  "title": "土壤全量硅、铝、铁、钾、钠、钙、镁、锰、磷、钛、硫的测定 单波长激发-能量色散X射线荧光光谱法",
+  "published": "2026-03-31",
+  "implemented": "2026-10-01",
+  "domain": "soil",
+  "sourceType": "official-online-reader",
+  "sourceFingerprint": "380d8376adeaa750b503e99dd166769c482f4e81144b1b1e6f3ca89f36c55af7",
+  "includedPageCount": 15,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=8BD5C3C54AAD852F0C018FBD6CF0554F"
+}

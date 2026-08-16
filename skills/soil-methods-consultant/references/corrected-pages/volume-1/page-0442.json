@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 442,
+  "sourceImageSha256": "c6d4473036f1d1e380e5581b73654dbb5347369bdf81c19dfc638ebd46328124",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率中文页面、两套OCR及英文原版第43章章题与43.1引言"},
+    "precisionPass": {"status": "verified", "method": "核验作者Y.-C. Tien、MPN、10,000种、10⁹ g⁻¹、5×10³⁰、49×10²⁷、DNA/rRNA/mRNA/16S rRNA/rDNA、DGGE–PCR及保守序列；保持数量级等价规范"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页“对比”反向复核至章题，逐一检查乘方、上下标、缩写、机构名及章节连续性；本章首页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第43章", "title": "细菌群落信息的变性梯度凝胶电泳（DGGE）分析"},
+    {"type": "author", "text": "E. Topp and Y.-C. Tien"},
+    {"type": "affiliation", "text": "Agriculture and Agri-Food Canada, London, Ontario, Canada"},
+    {"type": "author", "text": "A. Hartmann"},
+    {"type": "affiliation", "text": "National Institute of Agronomic Research, Dijon, France"},
+    {"type": "section-heading", "level": 2, "number": "43.1", "title": "引言"},
+    {"type": "paragraph", "text": "传统微生物学常用平板计数或最大可能数（MPN）等方法，以可检出的活细胞数表征土壤微生物数量；其主要缺点是只能检出能在所选培养基和指定培养条件（如温度）下生长的活微生物。传统培养法可培养的细菌只占土壤细菌极小部分，可能因为其营养需求复杂，或与原生动物等其他生物存在专性关联。"},
+    {"type": "paragraph", "text": "土壤DNA复性行为表明，每克土壤可能含多达10,000种细菌（Torsvik等，1996）；典型农田土壤每克常含10⁹个或更多细菌。地球上原核生物总数估计约5×10³⁰个，其中约49×10²⁷个分布在地表耕地的上部1 m土层中（Whitman等，1998）。无需培养、直接解析从土壤提取的细菌核酸序列，是研究细菌丰度、身份和活性的有力途径。"},
+    {"type": "source-fidelity-note", "scope": "43.1数量级", "text": "原书印作49×10²⁷，与规范科学计数法4.9×10²⁸数值完全相同；Skill正文保留原书系数形式，检索计算时两者视为等价，禁止误读为4.9×10²⁷。"},
+    {"type": "paragraph", "text": "土壤微生物生态学常用DNA、核糖体RNA（rRNA）和信使RNA（mRNA）。除部分病毒外，每个生物体都携带由DNA组成的基因组。DNA编码的基因经转录和翻译控制蛋白质氨基酸组成：特定DNA序列先转录为mRNA，再指导氨基酸组装。核糖体由蛋白质和3种rRNA构成；编码16S rRNA的核糖体RNA基因是细菌分类的重要工具，其部分序列在不同菌群间高度保守，可用于鉴定细菌和建立进化相关关系。特异rDNA序列的存在可指示特定细菌类群，其分子数量可反映相应细菌在土壤中的丰度。"},
+    {"type": "paragraph", "text": "变性梯度凝胶电泳–聚合酶链式反应（DGGE–PCR）是表征细菌群落组成的相对易操作、有效的非培养方法，可生成对土壤处理变化敏感的群落指纹。以通用细菌引物扩增土壤提取物中的16S rDNA保守区，可得到土壤中大多数细菌的基因片段；PCR产物数量与序列随土壤细菌多样性和种类而变。凝胶中分离的DNA条带可与已知序列[续见第443页]。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "6401e22e7725adbaa40252e17b3213960a32cc1ef5b4d1d2a2f77509c01c0f14"
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 549,
+  "sourceImageSha256": "1ee8fdba8f7c4114a5c6d630ba3f0640c0d5dc70c22ceba8571d8d3edd98d5f6",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，完成图54.2、54.5.1方法假设及54.5.2首段"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验图54.2的−28/−14‰端点、y=0.0714x+2、1～3/3～6‰、2～10年、n与n+1源、¹⁵N、APE和δ记号"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由54.5.2跨页句反向复核至图54.2，检查所有负号、百分比轴、来源数条件、历史网址语境和印刷页码518"
+    }
+  },
+  "blocks": [
+    {
+      "type": "figure",
+      "number": "图54.2",
+      "title": "以土壤δ¹³C估算C₄来源比例的二端元示例",
+      "details": "横轴为土壤有机质δ¹³C（‰），纵轴为C₄植物来源有机质比例；端点(−28,0)与(−14,1)，直线y=0.0714x+2。仅在两端元固定、线性混合且无额外分馏时成立。"
+    },
+    {
+      "type": "method-design",
+      "text": "植被转换研究可比较转换前后配对地点或建立年代序列。必须尽量控制土壤类型、气候、管理、地形和初始C库差异，并检查植物输入在空间/土层中的δ¹³C、不同有机质组分的δ¹³C以及分解引起的同位素变化；若这些条件不满足，简单混合比例和衰减常数会产生系统偏差。"
+    },
+    {
+      "type": "method-limitation",
+      "text": "植物δ¹³C可随季节、水分、盐分和N状况变化；生物合成还会使化合物间分馏，书载木质素和脂类可比糖类贫化约3‰～6‰。短期2～10年的某些研究中多种分馏可能近似抵消，但不能预设；长期剖面中残留SOM的δ¹³C可随深度升高约1‰～3‰。"
+    },
+    {
+      "type": "model-note",
+      "text": "在端元已知且独立、混合线性、测量误差和分馏得到处理的理想条件下，n个独立同位素示踪维度最多可解n+1个来源比例。实际应用还受端元变异、共线性和不确定性限制，应报告端元范围和误差传播，不能只给单一比例。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "54.5.1软件",
+      "text": "原书列出早期同位素混合模型软件及历史下载网址；为避免把失效网址或旧实现作为当前可执行依赖，本Skill仅保留方法学事实，不把该网址列为运行时推荐。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "54.5.2",
+      "title": "用¹⁵N标记肥料测定肥料N去向"
+    },
+    {
+      "type": "paragraph",
+      "text": "施用¹⁵N富集肥料后，可由样品相对于天然背景的原子百分超（atom percent excess, APE）估算肥料来源N比例。富集示踪优先使用APE而非δ，因为天然背景不等于零且高富集时δ尺度不便。样品与肥料APE必须相对同一未标记背景计算。[续见第550页]"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "54.5.2-ape",
+      "display": "APE = atom% ¹⁵N_labeled − atom% ¹⁵N_background",
+      "meaning": "相对于同类未标记背景的¹⁵N原子百分超"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "593ba7eeea3b05226d199fbc629b54aa56039e01e90ff693a9f3a4ff51008a3e"
+}

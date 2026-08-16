@@ -1,0 +1,98 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 310,
+  "sourceImageSha256": "9cfab47069ea3d33c2596972c619cbcb0ea167c81033a75819435bb896a6cc89",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对式(84.1c)、参数定义、三种求参法、回归法及两点法开头"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "验证式(84.1a～c)在(ψ_i,θ_i)连续，复核lg变换、斜率−1/b、截距C₁及a反算式"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "绝对值、指数2b、ρ_b/ρ_s下标与质量密度单位二次反查；印刷页码819"
+    }
+  },
+  "blocks": [
+    {
+      "type": "source-fidelity-note",
+      "text": "原页把ρ_b和ρ_s的质量密度单位排成“mg·m⁻³”，与ρ_s=2.65的标准土粒密度量级不符；科学上应为Mg·m⁻³（兆克·米⁻³，数值等同g·cm⁻³），已校正。"
+    },
+    {
+      "type": "model-parameters",
+      "items": [
+        "θ_sat[L³·L⁻³]为饱和或田间饱和土壤体积含水量。",
+        "a[L]为类似脱水曲线进气压力水头或吸水曲线进水压力水头的常量。",
+        "b为无量纲经验常数。",
+        "(ψ_i,θ_i)为脱水—吸水曲线上连接幂函数曲线（式84.1b）与抛物线（式84.1c）的拐点。该修正形式避免了|ψ|=a处的数学不连续。"
+      ]
+    },
+    {
+      "type": "parameter-estimation-options",
+      "items": [
+        "有适当范围的含水量—基质水头数据时，用最小二乘法拟合式(84.1b)。",
+        "θ(ψ)曲线上只有两个间隔较大的数据点时，使用“两点法”。",
+        "使用“替代数据法”，由其他土壤数据如质地、容重、平均土粒密度等求参数。"
+      ]
+    },
+    {
+      "type": "subheading",
+      "title": "1. Brooks–Corey θ(ψ)模型回归法"
+    },
+    {
+      "type": "analysis-note",
+      "text": "把式(84.1b)写成式(84.2a)，得到斜率−1/b、纵轴截距C₁的直线；由lgθ对lg|ψ|最小二乘回归求b和C₁。b已知后由式(84.1a)求θ_i；式(84.1b)和式(84.2a)也适用于(θ_i,ψ_i)，据式(84.2c)求ψ_i，再由式(84.2d)求a。算例见84.4。"
+    },
+    {
+      "type": "subheading",
+      "title": "2. Brooks–Corey θ(ψ)模型两点法（Cresswell and Paydar, 1996）"
+    },
+    {
+      "type": "analysis-note",
+      "text": "先用式(84.3a)估计θ_sat。ρ_b为土样干容重，ρ_s=2.65 Mg·m⁻³为平均土粒密度，C₂=0.93为常见于饱和或田间饱和土壤的残留空气系数。在式(84.1b)适用范围测两个间隔较大的点(ψ₁,θ₁)、(ψ₂,θ₂)，满足ψ₁、ψ₂≤ψ_i且θ₁、θ₂≤θ_i；并假定有效范围内lgθ与lgψ近似线性。b的计算续见下一页。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "84.1c",
+      "plain": "θ/θ_sat=1−{ψ²[1−(θ_i/θ_sat)]}/{a²(θ_i/θ_sat)^(2b)}；ψ_i≤ψ<0",
+      "latex": "\\frac{\\theta}{\\theta_{sat}}=1-\\frac{\\psi^2\\left(1-\\frac{\\theta_i}{\\theta_{sat}}\\right)}{a^2\\left(\\frac{\\theta_i}{\\theta_{sat}}\\right)^{2b}};\\qquad \\psi_i\\leq\\psi<0"
+    },
+    {
+      "label": "84.2a",
+      "plain": "lgθ=−(1/b)lg|ψ|+C₁；θ≤θ_i；ψ≤ψ_i",
+      "latex": "\\lg\\theta=-\\frac{1}{b}\\lg|\\psi|+C_1;\\qquad \\theta\\leq\\theta_i,\\ \\psi\\leq\\psi_i"
+    },
+    {
+      "label": "84.2b",
+      "plain": "C₁=lgθ_sat+(1/b)lga",
+      "latex": "C_1=\\lg\\theta_{sat}+\\frac{1}{b}\\lg a"
+    },
+    {
+      "label": "84.2c",
+      "plain": "lg|ψ_i|=−b(lgθ_i−C₁)",
+      "latex": "\\lg|\\psi_i|=-b(\\lg\\theta_i-C_1)"
+    },
+    {
+      "label": "84.2d",
+      "plain": "a=|ψ_i|(θ_i/θ_sat)^b",
+      "latex": "a=|\\psi_i|\\left(\\frac{\\theta_i}{\\theta_{sat}}\\right)^b"
+    },
+    {
+      "label": "84.3a",
+      "plain": "θ_sat=C₂(1−ρ_b/ρ_s)",
+      "latex": "\\theta_{sat}=C_2\\left(1-\\frac{\\rho_b}{\\rho_s}\\right)",
+      "variables": {
+        "ρ_b": "土壤样本干容重，Mg·m⁻³",
+        "ρ_s": "平均土粒密度，取2.65 Mg·m⁻³",
+        "C₂": "残留空气系数，取0.93"
+      }
+    }
+  ],
+  "tables": [],
+  "contentSha256": "4e876dfb5f5c3a21794c50357863e7aad8c243a8ad9cc3a47de536084c839c2b"
+}

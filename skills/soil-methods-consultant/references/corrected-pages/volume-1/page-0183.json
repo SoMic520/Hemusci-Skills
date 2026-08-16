@@ -1,0 +1,50 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 183,
+  "sourceImageSha256": "b11fc50c54b00eb4a2d94f0034f088d79ecd41f0a754b85646d23df7d8d2d3ca",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率乙酸铵法页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复材料试剂、可交换阳离子/CEC步骤和式（18.9）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验NH₄OAc、KCl、NH₄⁺、200/10/20/40/80 mg·L⁻¹、408 ℃、3～4 h、1 mol L⁻¹与1 mol/L、55 mm、500/250/100 mL、115 rpm、cmol(+)及上下标"},
+    "secondVisualPass": {"status": "verified", "method": "从页末式（18.9）反向复核至18.4.1，确认原书确印“408 ℃下干燥3～4 h”和步骤1（6）的“氯化铵溶液”，均不据常识擅改；页码152"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "18.4.1", "title": "材料与试剂"},
+    {"type": "material-item", "number": "（1）", "name": "离心管", "text": "100 mL离心管和塞子。"},
+    {"type": "material-item", "number": "（2）", "text": "往复式振荡机。"},
+    {"type": "material-item", "number": "（3）", "text": "直径55 mm的布氏漏斗和连接低压真空管线的500 mL过滤烧瓶。"},
+    {"type": "reagent-item", "number": "（4）", "name": "1 mol L⁻¹乙酸铵溶液", "text": "将77.08 g乙酸铵（NH₄OAc）溶于重去离子水并定容于1 L容量瓶中，用氢氧化铵或乙酸调节pH值至7.0。"},
+    {"type": "reagent-item", "number": "（5）", "name": "异丙醇", "text": "异丙醇。"},
+    {"type": "reagent-item", "number": "（6）", "name": "1 mol L⁻¹的氯化钾溶液", "text": "将74.6 g KCl溶于重去离子水并定容于1 L容量瓶中。"},
+    {"type": "reagent-item", "number": "（7）", "name": "含氮200 mg·L⁻¹的标准铵溶液", "text": "将0.238 g在408 ℃下干燥3～4 h的硫酸铵溶于约100 mL重去离子水中，然后在250 mL容量瓶中稀释定容。用200 mg·L⁻¹的母液配制浓度为10 mg·L⁻¹、20 mg·L⁻¹、40 mg·L⁻¹和80 mg·L⁻¹的标准溶液。"},
+    {"type": "source-fidelity-note", "scope": "18.4.1（7）", "text": "原书清晰印作“408 ℃下干燥3～4 h”，本页按原文保留，不擅自改为其他温度。"},
+    {"type": "reagent-item", "number": "（8）", "text": "使用1 mol/L的乙酸铵溶液作为基质制备Ca、Mg、K和Na标准溶液。"},
+    {"type": "section-heading", "level": 3, "number": "18.4.2", "title": "步骤"},
+    {"type": "procedure-group", "number": "1.", "title": "可交换阳离子的测定"},
+    {"type": "procedure-step", "group": "1", "number": "（1）", "text": "有机质含量低的土壤样品称取10 g，有机质含量高的土壤样品称取5 g或2 g，放入100 mL离心管中。同时设置空白和质量控制样品。"},
+    {"type": "procedure-step", "group": "1", "number": "（2）", "text": "向离心管中加入40 mL 1 mol L⁻¹的乙酸铵溶液。盖上盖子并在往复式振荡机（115 rpm）上振荡5 min。从振荡器中取出离心管，摇动以便冲洗附着在管壁上的土壤，并放置过夜。"},
+    {"type": "procedure-step", "group": "1", "number": "（3）", "text": "再次将离心管振荡15 min。将Whatman No.42滤纸放入布氏漏斗并将其装在500 mL过滤瓶上。"},
+    {"type": "procedure-step", "group": "1", "number": "（4）", "text": "将离心管内的土液混合物转移到漏斗中，同时使用真空泵抽吸，用装有1 mol L⁻¹乙酸铵溶液的洗涤瓶冲洗离心管和塞子，使转移完全。"},
+    {"type": "procedure-step", "group": "1", "number": "（5）", "text": "用1 mol L⁻¹乙酸铵溶液淋洗布氏漏斗中的土壤四次，每次30 mL，且每次冲洗要确保前一次的液体完全排干，而土壤没有变干或开裂。"},
+    {"type": "procedure-step", "group": "1", "number": "（6）", "text": "将滤液转移到250 mL容量瓶中，用1 mol L⁻¹氯化铵溶液冲洗过滤瓶并定容。充分摇匀后取部分提取液冷藏保存，用于测定Al、Ca、Mg、K和Na。"},
+    {"type": "source-fidelity-note", "scope": "18.4.2步骤1（6）", "text": "原书清晰印作“1 mol L⁻¹氯化铵溶液”，按印刷值保留。"},
+    {"type": "procedure-group", "number": "2.", "title": "对于总交换量（CEC）"},
+    {"type": "procedure-step", "group": "2", "number": "（1）", "text": "将盛有铵饱和土壤的漏斗更换到过滤瓶上。分三次，每次用40 mL异丙醇淋洗布氏漏斗中的土壤，以便从土壤中除去残余的乙酸铵。每次淋洗时，待液体完全排干后再进行下一次冲洗，最后一次洗涤之后，需要在土壤变干前停止抽吸。弃去丙醇洗涤液，先后用自来水和重去离子水冲洗烧瓶。"},
+    {"type": "procedure-step", "group": "2", "number": "（2）", "text": "将漏斗放回到过滤瓶上，用1 mol L⁻¹氯化钾溶液淋洗土壤四次，每次50 mL，待前一次液体完全排干后再进行下一次淋洗。最后，将浸出液转移到250 mL容量瓶中，用重去离子水冲洗过滤瓶中的残留滤液至容量瓶中，并定容。混合后保存一部分滤液用于测定NH₄⁺。"},
+    {"type": "section-heading", "level": 3, "number": "18.4.3", "title": "计算"},
+    {"type": "calculation-group", "number": "1.", "title": "可交换阳离子"},
+    {"type": "formula-explanation", "formulaRef": "18.9", "text": "M⁺为交换性阳离子浓度，单位为cmol(+) kg⁻¹；C为乙酸铵提取液中的阳离子浓度，单位为cmol(+) L⁻¹；wt.为风干土壤称样量，单位为g。mg·L⁻¹与cmol(+) L⁻¹的转换见18.2.4。"},
+    {"type": "printed-page-number", "text": "152"}
+  ],
+  "formulas": [
+    {
+      "number": "18.9",
+      "context": "可交换阳离子",
+      "display": "M⁺ cmol(+) kg⁻¹ = C cmol(+) L⁻¹ × (0.25 L/wt. g) × 1 000 g·kg⁻¹",
+      "latex": "M^{+}\\,\\mathrm{cmol}(+)\\,\\mathrm{kg}^{-1}=C\\,\\mathrm{cmol}(+)\\,\\mathrm{L}^{-1}\\times\\left(\\frac{0.25\\,\\mathrm{L}}{wt.\\,\\mathrm{g}}\\right)\\times1\\,000\\,\\mathrm{g}\\cdot\\mathrm{kg}^{-1}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "5db95c3aeccc0153cceef3e8f6eec2cea3a2679e1fe2804e52217e4486b0524f"
+}

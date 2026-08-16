@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 171,
+  "sourceImageSha256": "9367084c0b4b12d41516669fdab8b4e2f9321f5f768a622c0bc726219c940791",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐图逐条对照原分辨率页图和两套OCR，完成图69.10、80—84章方法导航及5条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验PD/NP的p/m/t下标、mm/m⁻²/cm单位、非饱和术语及卷页码"},
+    "secondVisualPass": {"status": "verified", "method": "由Bouma 1985跨页条目反向复核至图69.10，检查图例和参考文献标点；印刷页码680"}
+  },
+  "blocks": [
+    {"type": "figure", "number": "69.10", "title": "结构性壤土", "panels": [{"label": "a", "x": "孔隙水压力水头ψ（cm）", "y": "FWM孔隙直径PD（mm）", "series": ["PD_p(ψ)：大孔隙流区", "PD_m(ψ)：基质流区", "PD_t(ψ)：总土壤"]}, {"label": "b", "x": "孔隙水压力水头ψ（cm）", "y": "FWM孔隙数NP（孔隙个数·m⁻²）", "series": ["NP_p(ψ)：大孔隙流区", "NP_m(ψ)：基质流区", "NP_t(ψ)：总土壤"]}]},
+    {"type": "paragraph", "text": "第80—84章叙述非饱和水力学特性的测定方法：室内张力入渗仪法（第80章）、蒸发法（第81章）、田间张力入渗仪法（第82章）、瞬时剖面法（第83章）及选择性估计法（第84章）。"},
+    {"type": "references", "items": [
+      "Bauters, T.W.J., DiCarlo, D.A., Steenhuis, T.S., and Parlange, J.-Y. 1998. Preferential flow in water repellent sands. Soil Sci. Soc. Am. J. 62:1185–1190.",
+      "Bauters, T.W.J., Steenhuis, T.S., DiCarlo, D.A., Nieber, J.L., Dekker, L.W., Ritsema, C.J., Parlange, J.-Y., and Haverkamp, R. 2000. Physics of water repellent soils. J. Hydrol. 231–232:233–243.",
+      "Bilderback, T.E., Warren, S.L., Owen, J.S., and Albano, J.P. 2005. Healthy substrates need physicals too! Hort. Technology 15:747–751.",
+      "Bouma, J. 1983. Use of soil survey data to select measurement techniques for hydraulic conductivity. Agric. Water Manage. 6:177–190.",
+      "Bouma, J. 1985. Soil variability and soil survey. In: J. Bouma and D.R. Nielsen, eds. Proceedings of Soil Spatial Variability Workshop. PUDOC, Wageningen, The Netherlands, 130–149.（条目续至下页）"
+    ]},
+    {"type": "source-fidelity-note", "text": "OCR把“非饱和水力学特性”漏成“饱和学特性”，已按页图恢复。图69.10的p/m/t下标分别表示大孔隙、基质和总土壤，不得与压力p混淆。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "8a17768ca94a95ee43a030b7a2f265f387d1ee7abd5a7aa70e1a9c7c8dd6351f"
+}

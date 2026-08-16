@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 387,
+  "sourceImageSha256": "2c2bb1dc6b94b2fed12e64911ed23364414f58478f375ea8170634206fb47bd2",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版37.8～37.8.2"},
+    "precisionPass": {"status": "verified", "method": "核验¹⁵N、¹⁵NO₃⁻、N₂、N₂O、29/28和30/28同位素比、15～30 cm、5.9/12 mL、99/50 atom%及a_p/d下标"},
+    "secondVisualPass": {"status": "verified", "method": "从37.8.2步骤4反向复核至同位素分布法承上句，校正离线/在线、同位素配对和测量层级；印刷页码356"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "continuation", "text": "（承第386页37.8）该方法最初称为“同位素分布法”（Hauck等，1958；Hauck和Bouldin，1961），因为它区分¹⁵N标记NO₃⁻还原过程中形成的N₂分子种类的二项分布与大气背景N₂分子种类的二项分布。也称“Hauck技术”和“非平衡技术”。"},
+    {"type": "paragraph", "text": "Hauck等（1958）的方程后来针对现代设备不断修正、完善。Nielsen（1992）另提出“同位素配对”法用于沉积物反硝化；不同计算方法应得到相同结果。本节采用Arah（1992）使用最广的术语和方程。"},
+    {"type": "paragraph", "text": "同位素分布法的变型已用于测定N₂O通量，以及区分硝化和反硝化对N₂O通量的贡献。一些团队还在同位素比质谱测试前，用离线或在线方法使N₂分子种类达到平衡，部分仪器可由此提高灵敏度。下述田间方法很容易改为37.8.3所述气密容器培养土壤的实验室测定。"},
+    {"type": "section-heading", "level": 3, "number": "37.8.1", "title": "分析仪器和材料"},
+    {"type": "ordered-list", "items": [
+      "气体收集室：尺寸和材料可变，常用直径15～30 cm聚氯乙烯管，配带橡胶隔膜的聚氯乙烯密封盖；通常保持较小总容积以提高灵敏度。",
+      "抽取气样用注射器和针头。",
+      "储存气样的抽空瓶，如5.9 mL或12 mL Exetainer；通常应与所用同位素比质谱仪的自动进样系统匹配。",
+      "¹⁵N标记NO₃⁻盐溶液，通常为99 atom% ¹⁵N，以使土壤NO₃⁻库富集到约50 atom% ¹⁵N。",
+      "同位素比质谱仪，或有权使用能测定气样的服务实验室。"
+    ]},
+    {"type": "section-heading", "level": 3, "number": "37.8.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      "建立与气体收集室尺寸一致的土壤微区。收集室可压入土表数厘米，或使用埋得更深的永久基座；测量时把收集室连接到基座。",
+      "以¹⁵N把微区NO₃⁻标记到≥50 atom%。因富集度高，只需加入少量标记NO₃⁻，约为背景NO₃⁻库的2～3倍；必须尽量均匀添加，通常把NO₃⁻溶于水并按网格注射。",
+      "把气体收集室置于已标记土壤上，培养期间每隔数小时定期采气；同时从未标记地点采集气样，确定大气背景N₂的同位素标记。气样宜储存在Exetainer等抽空管中供后续质谱分析。延长培养可提高灵敏度，但不能因收集室放置过久而降低通气、升高温度或干扰植物过程。",
+      "用同位素比质谱仪测定²⁹N₂/²⁸N₂和³⁰N₂/²⁸N₂。按表37.1计算参与反硝化的NO₃⁻库的¹⁵N原子分数a_p，以及顶空气体中来自反硝化的气体分数d。反硝化通量=收集室总N₂量×d/(土表面积×时间)。该通量同时包含产生和传输，求反硝化速率还需进一步计算。计算反硝化速率只需要d，不需要a_p。"
+    ]},
+    {"type": "printed-page-number", "text": "356"}
+  ],
+  "formulas": [
+    {"id": "37.8-label-enrichment", "display": "NO₃⁻ pool enrichment ≥ 50 atom% ¹⁵N (label solution typically 99 atom% ¹⁵N)"},
+    {"id": "37.8-isotope-ratios", "display": "²⁹N₂/²⁸N₂ and ³⁰N₂/²⁸N₂"},
+    {"id": "37.8-flux", "display": "denitrification flux = d × total N₂ in chamber/(soil surface area × time)"}
+  ],
+  "tables": [],
+  "contentSha256": "16019a6f61325b32a30acfd1ea1f685570dea914e156d6301e944b6bb6d40e6b"
+}

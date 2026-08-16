@@ -1,0 +1,48 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 116,
+  "sourceImageSha256": "149cb6056b627347f8333b2670d7b622ee84b2b5d31e2a7d503a76aad25b8209",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐项对照原分辨率方法页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复10.2.4续项、10.3材料步骤、计算式和注释"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对CaCl₂-CaSO₄、CaCl₂·2H₂O、HNO₃、0.01 mol/L、1.47/2.500 g、mL、μm、r/min、h、5000 g、μg/g、μg/L、0.025 L、mc及5%=0.05"},
+    "secondVisualPass": {"status": "verified", "method": "按10.2.4三条、10.3.1五项、10.3.2三步、式（10.2）和10.3.4反向复核，确认公式括号分母、单位、层级和印刷页码85"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第10章｜微量元素测定｜"},
+    {"type": "ordered-list", "parent": "10.2.4｜注释", "items": [
+      {"number": "（2）", "text": "由于土柱法变异性大，因此必须小心处理土柱使其保持稳定。我们建议通过三步分层加入土样，并且在每一步除去密封部件后通过10次轻敲注射器活塞压实土柱。"},
+      {"number": "（3）", "text": "设置两个重复样品，包括每批的空白和质量控制样品。"},
+      {"number": "（4）", "text": "抽提过程相当耗时，需要5天时间完成。第一天（通常是周一），完成三种洗涤溶液的过柱和收集——每种淋洗3 h（过柱1 h，平衡2 h），这个过程共需要10 h。第一天晚上离开时首次往柱中加入CaCl₂-CaSO₄溶液，利用晚上过柱，然后第二天早上收集出水溶液。第2～4天晚上重复用CaCl₂-CaSO₄溶液进行淋洗。"}
+    ]},
+    {"type": "section-heading", "level": 2, "number": "10.3", "title": "0.01 mol/L CaCl₂提取法（Quevauviller，1998）"},
+    {"type": "section-heading", "level": 3, "number": "10.3.1", "title": "材料和试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "离心机和50 mL的Boston型聚乙烯离心管（经HNO₃洗涤）。"},
+      {"number": "（2）", "text": "旋转振荡器（15 r/min）。"},
+      {"number": "（3）", "text": "0.01 mol/L CaCl₂溶液：将1.47 g CaCl₂·2H₂O溶解于超纯水中，转移至1 L聚乙烯容量瓶并用超纯水定容。"},
+      {"number": "（4）", "text": "10%的微量金属级HNO₃：将10 mL浓硝酸稀释到100 mL。"},
+      {"number": "（5）", "text": "0.45 μm的滤膜（尼龙或聚碳酸酯）。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "10.3.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "在室温下进行。取样前，务必充分搅拌样品约1 min以确保样品彻底混匀。设置三个平行样品。每个土样取一个子样品以估算其含水量。在每批提取实验中设置两个空白溶液（离心管中不加土壤只加溶液）及两个质量控制样品。"},
+      {"number": "（2）", "text": "称取约2.500 g土样到50 mL的离心管中并记录重量。每个离心管加入25 mL 0.01 mol/L CaCl₂，盖上盖子并在旋转振荡器上以15 r/min的速度振荡3 h。"},
+      {"number": "（3）", "text": "取一个子样品测量其pH值后丢弃（每三个做一次）。在5000 g的速度下离心10 min。在低真空下用0.45 μm的滤膜小心过滤以避免污染。将滤液保存在30 mL的聚乙烯瓶中。根据每10 mL溶液加入0.2 mL 10% HNO₃的方法保存过滤后的溶液或该溶液的子样本（若需保留一部分该溶液用作其他分析），且应该尽快进行分析。如果需要稀释，HNO₃的量应该保持恒定。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "10.3.3", "title": "计算"},
+    {"type": "formula-reference", "labels": ["10.2"]},
+    {"type": "paragraph", "text": "式中，M表示金属元素含量；C表示测定的金属元素浓度；mc是以小数点后两位表示的含水量（即5%=0.05）。", "inlineNotation": ["M", "C", "mc", "5%=0.05"]},
+    {"type": "section-heading", "level": 3, "number": "10.3.4", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "必须避免污染。采用聚乙烯来避免金属元素在容器壁上的吸附和解吸附。离心管、样品瓶和过滤装置必须干净，在15% HNO₃中浸泡24 h后用去离子水冲洗干净，最后再用超纯水或同等级的水进行润洗。"},
+      {"number": "（2）", "text": "上述方法改自Quevauviller的方法，这是一个针对较小样品量的折中常规分析方法。建议读者"}
+    ]},
+    {"type": "printed-page-number", "text": "85"}
+  ],
+  "formulas": [
+    {"label": "10.2", "plain": "M（μg/g）=C（μg/L）×0.025 L/[湿土（g）×（1-mc）]", "latex": "M\\,(\\mu\\mathrm{g}/\\mathrm{g})=\\frac{C\\,(\\mu\\mathrm{g}/\\mathrm{L})\\times0.025\\,\\mathrm{L}}{\\text{湿土}\\,(\\mathrm{g})\\times(1-mc)}", "context": "按湿土质量及含水量换算金属元素含量"}
+  ],
+  "tables": [],
+  "contentSha256": "a2a4d7551fdfe860aeae8010c249b0024c1c7bf512b656fe43504bb285f9a15d"
+}

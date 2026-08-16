@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 284,
+  "sourceImageSha256": "d087854c77ceeb21a94390ae5717da7c7d857ae06136a5f34fc03a95a2ffe5cd",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第29章首页，人工恢复章名、作者机构、29.1全文、29.2原理、四步计数流程及选择性培养基续文"},
+    "precisionPass": {"status": "verified", "method": "逐字符核骎pH、CO₂、Heterogeneous nature、Plate count technique、Most probable number/MPN、专有人名与全部引文年份"},
+    "secondVisualPass": {"status": "verified", "method": "从页底Chitin-degrading跨页词反向复核至章首，确认章→29.1→29.2→选择性培养基层级，并确认本页未印页码"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "第29章", "title": "土壤和根相关微生物培养方法"},
+    {"type": "chapter-author", "text": "J. J. Germida和J. R. de Freitas"},
+    {"type": "chapter-affiliation", "text": "University of Saskatchewan；Saskatoon, Saskatchewan, Canada"},
+    {"type": "heading", "level": 1, "number": "29.1", "title": "引言"},
+    {"type": "body", "text": "土壤作为一种生态系统，其中包含了大量的微生物种群。这些微生物种群表现出了很多生理类型。比如说，真菌等就属于好氧的化能有机营养型微生物（异养生物）。它们能够利用有机化合物作为它们的碳源和能量来源。而其他诸如硝化细菌等则属于好氧的化能无机营养型微生物（自养生物）。它们能够利用二氧化碳作为碳源，同时通过氧化（还原态的无机氮）来获得能量。有的微生物还需要特殊的生长因子来保证最佳的生长状况，比如特定环境的pH值、较低的含氧量或者无氧条件（如厌氧生物）。特定土壤的化学、物理和生物性质及其上所生长的植物，都会影响到土壤中微生物的数量和活性。同时，由于土壤的异质性（Heterogeneous nature），我们可以在邻近的地域找到很多不同生理类型的微生物。土壤微生物群落的重要性能够从三个方面体现出来：①微生物与土壤肥力的关系；②微生物和元素的生物地球化学循环的关系；③部分微生物在工业应用领域的具有潜在的利用价值。因此，计数并分离出土壤微生物群落中的主要和次要种群是十分必要的。"},
+    {"type": "body", "text": "对土壤微生物非选择性的计数和分离是一种相对直接的方法，但是这种方法的最终结果并不一定具有意义（Parkinson等，1971；Wollum，1994）。相反，对特定生理类型的土壤微生物的选择性计数和分离则能够得出有意义的数据（如Lawrence和Germida，1988；Germida，1993；Koedam等，1994）。随着我们对土壤微生物种类的认识不断扩展，土壤微生物计数和分离的方法也在持续地更新着（Vincent，1970；Woomer，1994；Pepper和Gerba，2005）。在本章中，我们将以一些具有代表性的土壤微生物为例，为土壤微生物计数和培养基配制方法提供依据和参考。"},
+    {"type": "heading", "level": 1, "number": "29.2", "title": "原理"},
+    {"type": "principle", "text": "平板计数法（Plate count technique）和最近似值法（Most probable number，MPN）是实现土壤微生物的计数的两种技术手段。这些计数方法的主要原理是：①将样品以合适的稀释倍数分散；②将部分样品分配到合适的生长培养基上；③在适当的条件下培养接种的平板；④计算产生的菌群数或MPN管数。整个技术流程非常标准，可以被应用于非根际土壤种群（Germida，1993）、根际土壤种群（Goodfellow等，1968；Kucey，1983）和植物内生种群（Germida等，1998）的计数中。"},
+    {"type": "culture-medium-selection", "continuesOnPage": 285, "text": "生长培养基成分的不同往往会影响最后的结果，所以用于微生物种群计数的生长培养基成分在计数的过程中十分重要。生长培养基可以分为选择性和非选择性两种（虽然从严格意义上来说真正的非选择性培养基是不存在的）（James，1958）。选择性培养基中的特定成分能够允许或者促进目标微生物群落的生长。而在非选择性培养基中，培养基能够促进所有群落的生长，增加种群的多样性。所以我们能够设计出在合适的气压和温度条件下培养、减少非目标种群的干扰的生长培养基，来对具有特定生理性状的微生物进行计数。比如说在以几丁质作为唯一碳源和氮源培养基中，几丁质降解放线菌（Chitin-degrading"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "69365a6eb0a0e3811ce67a25e82b2d8833f4dc7c62aaff961460ad8a57ad7a57"
+}

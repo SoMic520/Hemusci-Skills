@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 493,
+  "sourceImageSha256": "35a7e6a4d106ba071d88c09192bd91aa7eb04104052377616ecf65749246fae4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率中文页与两套OCR，完成Guggenberger等（1989）承上及Guggenberger和Zech至Ludwig等跨页条"},
+    "precisionPass": {"status": "verified", "method": "核验全19条书目的作者、年份、卷页，恢复δ¹³C、CO₂、Kögel-Knabner、Böttcher和Kielland等规范写法"},
+    "secondVisualPass": {"status": "verified", "method": "由Ludwig跨页条反向复核至Guggenberger承上句，检查英文题名、连字符、特殊字母和期刊卷页；印刷页码462"}
+  },
+  "blocks": [
+    {"type": "reference-list", "scope": "chapter-48", "items": [
+      "[Guggenberger et al. 1989 continued] matter with deionized water as eluent. II. Spectroscopic and chemical characterization of fractions obtained from an aqueous litter extract. Science of the Total Environment 81–82: 447–457.",
+      "Guggenberger, G. and Zech, W. 1992. Sorption of dissolved organic carbon by ceramic P-80 suction cups. Journal of Plant Nutrition and Soil Science 155: 151–155.",
+      "Hagedorn, F., Blaser, P., and Siegwolf, R. 2002. Elevated atmospheric CO₂ and increased N deposition effects on dissolved organic carbon—clues from δ¹³C signature. Soil Biology and Biochemistry 34: 355–366.",
+      "Hagedorn, F., Saurer, M., and Blaser, P. 2004. A ¹³C tracer study to identify the origin of dissolved organic carbon in forested mineral soils. European Journal of Soil Science 55: 91–100.",
+      "Hagedorn, F. and Schleppi, P. 2000. Determination of total dissolved nitrogen by persulfate oxidation. Journal of Plant Nutrition and Soil Science 163: 81–82.",
+      "Heinrichs, H., Böttcher, G., Brumsack, H.-J., and Pohlmann, M. 1996. Squeezed soil-pore solutes—a comparison to lysimeter samples and percolation experiments. Water, Air, & Soil Pollution 89: 189–204.",
+      "Herbert, B.E. and Bertsch, P.M. 1995. Characterization of dissolved and colloidal organic matter in soil solution: a review. In: W.W. McFee and J.M. Kelly, eds. Carbon Forms and Functions in Forest Soils. Soil Science Society of America, Madison, WI, pp. 63–88.",
+      "Jones, D.L. and Edwards, A.C. 1993. Evaluation of polysulfon hollow fibres and ceramic suction samplers as devices for the in situ extraction of soil solution. Plant and Soil 150: 157–165.",
+      "Jones, D.L. and Kielland, K. 2002. Soil amino acid turnover dominates the nitrogen flux in permafrost-dominated taiga forest soils. Soil Biology and Biochemistry 34: 209–219.",
+      "Jones, D.L., Owen, A.G., and Farrar, J.F. 2002. Simple method to enable the high resolution determination of total free amino acids in soil solutions and soil extracts. Soil Biology and Biochemistry 34: 1893–1902.",
+      "Kaiser, K., Kaupenjohann, M., and Zech, W. 2001. Sorption of dissolved organic carbon in soils: effects of soil sample storage, soil-to-solution ratio, and temperature. Geoderma 99: 317–328.",
+      "Kalbitz, K., Schmerwitz, J., Schwesig, D., and Matzner, E. 2003. Biodegradation of soil-derived dissolved organic matter as related to its properties. Geoderma 113: 273–291.",
+      "Kalbitz, K., Solinger, S., Park, J.H., Michalzik, B., and Matzner, E. 2000. Controls on the dynamics of dissolved organic matter in soils: a review. Soil Science 165: 277–304.",
+      "Kawahigashi, M., Sumida, H., and Yamamoto, K. 2003. Seasonal changes in organic compounds in soil solutions obtained from volcanic ash soils under different land uses. Geoderma 113: 381–396.",
+      "Korshin, G.V., Li, C.W., and Benjamin, M.M. 1997. Monitoring the properties of natural organic matter through UV spectroscopy: a consistent theory. Water Research 31: 1787–1795.",
+      "Kuiters, A.T. and Denneman, C.A.J. 1987. Water-soluble phenolic substances in soils under several coniferous and deciduous tree species. Soil Biology and Biochemistry 19: 765–769.",
+      "Lemke, R.L., Izaurralde, R.C., and Nyborg, M. 1998. Seasonal distribution of nitrous oxide emissions from soils in the Parkland region. Soil Science Society of America Journal 62: 1320–1326.",
+      "Liang, B.C., MacKenzie, A.F., Schnitzer, M., Monreal, C.M., Voroney, P.R., and Beyaert, R.P. 1998. Management-induced change in labile soil organic matter under continuous corn in eastern Canadian soils. Biology and Fertility of Soils 26: 88–94.",
+      "Lu, Y.H., Wassmann, R., Neue, H.U., and Huang, C.Y. 2000. Dynamics of dissolved organic carbon and methane emissions in a flooded rice soil. Soil Science Society of America Journal 64: 2011–2017.",
+      "Ludwig, B., Meiwes, K.J., Khanna, P., Gehlen, R., Fortmann, H., and Hildebrand, E.E. 1999. Comparison of different laboratory methods with lysimetry for soil solution composition—experimental and model results. Journal of Plant Nutrition and Soil Science 162: 343–351. [续见第494页]"
+    ]},
+    {"type": "source-fidelity-note", "scope": "第48章参考文献姓名", "text": "原书将Jones和Kielland（2002）的第二作者印为Kjelland；正式论文作者为K. Kielland，已校正。Hagedorn两条的C-13/delta C-13也已按同位素规范写为¹³C/δ¹³C。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2221187de68a40a51e7b121b108e242861d5af013ed2982f53dd1f09def0b598"
+}

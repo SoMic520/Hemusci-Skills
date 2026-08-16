@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 193,
+  "sourceImageSha256": "e5006c81fbc7efb7e13adcefa3ccbaa477c60fb6bb24bfe8e36de1421795fc98",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐步骤对照原分辨率页图和两套OCR，完成安装续步、71.2.3—71.2.5及71.3原理构造"},
+    "precisionPass": {"status": "verified", "method": "核验密封1—1.5 m、ψ_t=ψ_p+ψ_g、300/2 m示例及ψ_m/ψ_g/ψ_π下标"},
+    "secondVisualPass": {"status": "verified", "method": "依据总势定义反向复核71.3括号内印误和梯度分母；印刷页码702"}
+  },
+  "blocks": [
+    {"type": "procedure", "steps": ["孤立压力计在入口上方以膨润土、灌浆或水泥环状密封，厚1—1.5 m；夯实回填并继续回填到地表。", "装通气孔盖维持大气压并防雨水/异物。"]},
+    {"type": "heading", "number": "71.2.3", "title": "压力计的响应时间及改进", "level": 3},
+    {"type": "paragraph", "text": "响应时间是水位或周围条件改变后重新平衡的时间，应反映介质渗透率而非入口/井壁损伤。新井因细粒堵入口、井壁涂抹压实需“清醒”：冲洗并快速抽水，持续至抽出水无悬浮砂、盐和黏粒。"},
+    {"type": "heading", "number": "71.2.4", "title": "监测和数据采集", "level": 3},
+    {"type": "procedure", "steps": ["为每口井定义参考高度（常为管顶）并测其高程。", "校准并按手动/自动水位仪手册操作。", "按研究需求启动采集。"]},
+    {"type": "heading", "number": "71.2.5", "title": "计算注意事项", "level": 3},
+    {"type": "paragraph", "text": "总水势ψ_t=ψ_p+ψ_g，水势梯度应为总水势差除以空间距离。计算常把量级差很大的值相减（例ψ_g=300 m、ψ_p=2 m），会放大误差，ψ_p、ψ_g及位置距离均须精密准确。"},
+    {"type": "heading", "number": "71.3", "title": "张力计法", "level": 2},
+    {"type": "paragraph", "text": "张力计原位测非饱和介质总水势ψ_t=ψ_m+ψ_g，广用于水势/梯度、通气性和植物有效水。装置为充水管、底部饱和多孔杯、顶部密封盖/塞/隔片及压力读出。多孔杯隔空气并联通管水与土水；平衡后读ψ_m。溶质可穿杯，故对渗透势ψ_π不敏感。变干时排气/蒸发形成气泡并最终失水，使响应和读数失败。"},
+    {"type": "source-fidelity-note", "text": "71.3正文先正确说总势由ψ_m与ψ_g组成，括号却印作ψ_t=ψ_m+ψ_p；压力势ψ_p不适用于该非饱和分解，规范关系已纠正为ψ_t=ψ_m+ψ_g。原书梯度分式扫描近似Δψ_t/Δψ_g，物理定义应为Δψ_t/Δz（或沿流向距离Δl），不可用势分量作空间分母。"}
+  ],
+  "formulas": [
+    {"label": "总水势分解", "plain": "ψ_t = ψ_p + ψ_g (piezometer, saturated); ψ_t = ψ_m + ψ_g (tensiometer, unsaturated)", "latex": "\\psi_t=\\psi_p+\\psi_g;\\qquad \\psi_t=\\psi_m+\\psi_g", "resultUnit": "m water head"},
+    {"label": "总水势梯度（纠正分母）", "plain": "i = Δψ_t/Δz (or Δψ_t/Δl)", "latex": "i=\\frac{\\Delta\\psi_t}{\\Delta z}\\;\\text{(or }\\Delta\\psi_t/\\Delta l\\text{)}", "resultUnit": "1"}
+  ],
+  "tables": [],
+  "contentSha256": "b8b3b1608226067b7363c14435c660bb606b4ba7cd1ab58f3ca32c30b0d3417b"
+}

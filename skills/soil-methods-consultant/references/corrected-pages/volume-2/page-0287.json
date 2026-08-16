@@ -1,0 +1,52 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 287,
+  "sourceImageSha256": "c824bdb0579e844321f770572e0d7a3b6aca7ac5f72bbae56cc7ec116114960e",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对图82.1、步骤(2)及图82.2全部部件标注"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "复核11—21、5—10、1.0、约0.5、约60 cm、内径≥0.25 cm及270目等尺寸"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "逐图元复看固定环、接触层、气路/水路和储水管同轴置顶关系；印刷页码796"
+    }
+  },
+  "blocks": [
+    {
+      "type": "figure",
+      "number": "82.1",
+      "title": "张力入渗仪固定环、压平圆板、接触砂层及保护膜",
+      "components": [
+        "用于平整接触砂的圆板。",
+        "固定环内径11—21 cm、高5—10 cm，压入土面约0.5 cm。",
+        "接触砂平均厚1.0 cm。",
+        "接触砂下铺270目尼龙布，固定环外为270目保护膜；下方示意土壤大孔隙。"
+      ]
+    },
+    {
+      "type": "procedure-step",
+      "step": 2,
+      "text": "轻轻把有锐缘的固定环压入入渗面约0.5 cm。固定环可用PVC管制成，内径必须合适，使所选直径10—20 cm的入渗仪恰好放入。"
+    },
+    {
+      "type": "figure",
+      "number": "82.2",
+      "title": "Guelph式储水管同轴置顶张力入渗仪装置原理",
+      "components": [
+        "入渗板为直径10—20 cm透明聚碳酸酯板，底部为多孔圆盘/薄膜，下面依次是接触材料、270目尼龙筛布和土壤表面。",
+        "供水管连接储水管与入渗板出水口；储水管位于板上方，水柱高度约60 cm，由三脚架支撑。",
+        "调压管设定压力水头；调压管空气管和第二支空气管内径均≥0.25 cm。",
+        "调压管空气管通过塞子和O形环密封，设有进气口；储水管空气管底端密封，抬离/压住出水口以启闭供水。"
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "8a3181484efc847d7886ede12c01837aba9ecd8a80116bd8771ad70119258676"
+}

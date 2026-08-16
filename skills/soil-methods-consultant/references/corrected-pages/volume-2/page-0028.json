@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 28,
+  "sourceImageSha256": "837a230a2dcb027db4b025dc30effb0d694993b162017276c52b3254a2798f82",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步对照原分辨率图和两套OCR，完成55.4.2余下步骤、55.5新技术及参考文献前5条"},
+    "precisionPass": {"status": "verified", "method": "核验20/75 mm、5/20 kg、200号筛、105 °C、16～24 h、S_w、2%/10%、C_u/D₆₀/D₁₀、μm与英文卷页"},
+    "secondVisualPass": {"status": "verified", "method": "由McKeague条目反向复核至跨页20 mm，检查半对数曲线、筛号顺序和粒径区间；印刷页码537"}
+  },
+  "blocks": [
+    {"type": "procedure-steps-continuation", "items": ["最大颗粒约20 mm：参考样品质量5 kg；最大颗粒约75 mm：参考样品质量20 kg。", "细质地土壤干燥后易形成硬土块或团聚体。为获得较好重复性：烘干定量土样，尽量碾碎土块或团聚体，用200号筛湿筛、烘干，再将残余部分在套筛上手工或用摇筛器水平晃动10 min。", "(3) 首次湿筛需仔细，避免损坏筛子和溅失样品；在筛上用自来水冲洗至出水澄清。", "(4) 用洗瓶将残留物反向冲入陶瓷蒸发皿，尽量倒去多余水且避免土样流失；105 °C烘16～24 h。", "(5) 取出烘干样品，在蒸发皿上覆玻璃，冷却至室温，称得样品质量S_w。", "(6) 依次用4、10、40和200号套筛；为提高半对数曲线拟合精度，建议增加20、60、100和140号筛。", "(7) 振筛10 min；逐个称量筛子加土样质量，减去筛子初始质量，计算各筛上质量百分数。", "(8) 各筛残留质量之和与步骤(5)的S_w比较；差异>2%时重测。", "(9) 从100%开始逐级减去各粒径的质量百分数，得到通过各筛的累积百分数。", "(10) 绘制粒径分布半对数曲线。通过200号筛的样品<10%时结束；>10%时继续细颗粒粒径分析。", "(11) 由粒径分布曲线计算均匀系数C_u=D₆₀/D₁₀。D₁₀和D₆₀分别为累计通过质量百分数10%和60%对应的有效粒径；C_u反映粒径范围或离散度，值越大表示D₆₀与D₁₀差异越大。"]},
+    {"type": "source-fidelity-note", "text": "原书将D₁₀、D₆₀解释为‘小于该百分比的数量’，粒径级配曲线应使用累计通过质量百分数；本Skill已明确为10%和60%质量通过量对应的粒径。"},
+    {"type": "heading", "number": "55.5", "title": "新技术", "level": 2},
+    {"type": "paragraph", "text": "Gee和Or（2002）列举的粒径组成新技术包括X射线衰减法、颗粒计数法（Coulter法）和激光散射（衍射）法。Elias等（1999）和Vaz等（1999）讨论γ射线衰减法；McTainsh等（1997）提出筛分法（>75 μm）、颗粒计数法（2～75 μm）和吸管法（<2 μm）的组合方法。"},
+    {"type": "heading", "number": "第55章参考文献", "title": "参考文献", "level": 2},
+    {"type": "reference-entry", "text": "Day, P.R. 1965. Particle fractionation and particle size-analysis. In: C.A. Black et al., eds. Methods of Soil Analysis. Agronomy No. 9, Part 1. American Society of Agronomy, Madison, WI, 545–567."},
+    {"type": "reference-entry", "text": "Elias, E.A., Bacchi, O.O.S., and Reichardt, K. 1999. Alternative soil particle-size analysis by gamma-ray attenuation. Soil Till. Res. 52: 121–123."},
+    {"type": "reference-entry", "text": "Gee, G.W. and Or, D. 2002. Particle-size analysis. In J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 255–293."},
+    {"type": "reference-entry", "text": "Gregorich, E.G., Turchenek, L.W., Carter, M.R., and Angers, D.A., eds. 2001. Soil and Environmental Science Dictionary. CRC Press, Boca Raton, FL."},
+    {"type": "reference-entry", "text": "McKeague, J.A., ed. 1978. Manual on Soil Sampling and Analysis, 2nd ed. Canadian Society of Soil Science, Ottawa, ON, Canada."}
+  ],
+  "formulas": [
+    {"label": null, "plain": "C_u = D₆₀/D₁₀", "latex": "C_u=\\frac{D_{60}}{D_{10}}", "variables": [{"symbol": "D₁₀", "meaning": "累计通过质量百分数为10%时的粒径"}, {"symbol": "D₆₀", "meaning": "累计通过质量百分数为60%时的粒径"}]}
+  ],
+  "tables": [],
+  "contentSha256": "4c44b2ebd07ab29201610b20726fa5fe03cc45b900c055d6c54310a5b006e479"
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 132,
+  "sourceImageSha256": "fa9e5f529018421575fb373d4131b94f19176022d92809d8613b62ae7a4068d4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步对照原分辨率图和两套OCR，完成湿筛步骤(6)—(8)、图67.3、注释及67.3.2"},
+    "precisionPass": {"status": "verified", "method": "核验1/16 h、10/100目、70 ℃、40/45/14.5/1.5 cm、0.5/1/2/5%分类边界及130 cm深度"},
+    "secondVisualPass": {"status": "verified", "method": "由木质含量末句反向复核至步骤(6)，检查装置A—G标注、分级干质量基准和残株量适用场景；印刷页码641"}
+  },
+  "blocks": [
+    {"type": "steps-continuation", "items": [
+      "打开圆筒底部进气口并调节流量，使整个筛组连续、均匀鼓泡1 h，避免样品从筛缘旁路或溢失。",
+      "依次取出各筛，把每一筛上残留纤维分别用水定量洗入漏斗，以预先称量的滤纸过滤。",
+      "若需鉴定纤维的植物组成，把滤纸上纤维移入玻璃瓶并加入保存液。若测纤维含量，则把各粒级连滤纸在70 ℃烘干，冷却称量并扣除滤纸干质量；以对应25 g湿样由重复样换算的初始干质量为分母，计算各筛级干质量百分数，同时报告总回收率。"
+    ]},
+    {"type": "figure", "number": "67.3", "title": "泥炭物质湿筛装置", "dimensions": ["圆筒内径14.5 cm", "图示总高40 cm（正文另记46 cm）", "橡胶管长45 cm、直径1.5 cm"], "labels": {"A": "进气口", "B": "出水口", "C": "橡胶管", "D": "聚乙烯管配件", "E": "水位", "F": "气流", "G": "漏斗"}, "sieves": ["10目", "20目", "40目", "100目", "200目"], "source": "Dinel and Lévesque, Can. J. Soil Sci. 56:119, 1976"},
+    {"type": "heading", "title": "注释", "level": 4},
+    {"type": "paragraph", "text": "用电解质溶液分散泥炭颗粒未见明显优势，且仍需长时间过夜振荡（Lévesque和Dinel，1977）。Ontario地质调查中，100目纤维测定经机械振荡10 min所得结果近似未揉搓纤维法，振荡16 h后则近似揉搓纤维法（Riley，1989）。湿筛法在欧洲和北美工业中常用，但结果高度依赖筛分时间和曝气/振荡强度，这会限制小样品的可比性（Caron等，1997）。"},
+    {"type": "heading", "number": "67.3.2", "title": "木质含量", "level": 3},
+    {"type": "paragraph", "text": "木质含量和残株量是泥炭的重要性质。残株量指泥炭总体积中树木残体及其他木质物的体积分数（Antonov和Kopenkin，1983），会影响有机土壤和泥炭地的水分入渗及维护工程。地质调查可用某木质层在剖面中出现的频率定量。土壤调查把残株量定义为在调查至130 cm深、计入直径≥10 cm树木残体的空间内，树木残体所占体积分数（Mills等，1977）。"},
+    {"type": "paragraph", "text": "针对泥炭开采，原书分为无（0）、低（应为>0且<0.5%）、中等（0.5%—2%）和高（>2%）（Antonov和Kopenkin，1983）；2%的端点归属原书重叠/缺失，使用时须在SOP中明确。针对泥炭耕作，应为低（<1%）、中等（1%—5%）和高（>5%）（Mills等，1977），而不是把所有<1%称为“无”。"},
+    {"type": "source-fidelity-note", "text": "原书图67.3把C标作“橡胶圈”，但材料尺寸和连接功能表明它是橡胶管，已校正。原书步骤(8)只说“以干重为基础”，现明确各筛级以初始样干质量为分母，并要求回收率，避免把各筛级在回收物中的构成误当全样含量。木质残株分类原印“低（0.5%）”缺少不等号，已按相邻区间补为>0且<0.5%；端点2%仍如实标为原书未消歧。"}
+  ],
+  "formulas": [
+    {"label": "筛级干质量", "plain": "m_i = m_(filter+i,dry) − m_(filter,dry)", "latex": "m_i=m_{\\mathrm{filter}+i,\\,dry}-m_{\\mathrm{filter},\\,dry}", "resultUnit": "g"},
+    {"label": "筛级含量", "plain": "P_i = m_i / m₀,dry × 100%", "latex": "P_i=\\frac{m_i}{m_{0,\\mathrm{dry}}}\\times100\\%", "resultUnit": "%"},
+    {"label": "总回收率", "plain": "Recovery = Σm_i / m₀,dry × 100%", "latex": "\\mathrm{Recovery}=\\frac{\\sum_i m_i}{m_{0,\\mathrm{dry}}}\\times100\\%", "resultUnit": "%"}
+  ],
+  "tables": [],
+  "contentSha256": "12866acad55131bec868a4458a3d585ad71b80ece048140c4038291c3b6ee0c5"
+}

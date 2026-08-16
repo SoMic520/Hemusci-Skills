@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 45,
+  "sourceImageSha256": "234b89c0c2b9b048148b5f300ed7b215aec961c6ace78170acb7ac3de5a1d255",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步对照原分辨率图和两套OCR，完成57.3.1余项、57.3.2～57.3.4、式（57.10）～（57.11）及57.4本页引言"},
+    "precisionPass": {"status": "verified", "method": "核验θ_w/D_w/W_w/W_a/W_s/W_sw/D_p、100/50/10 g、2 mm、0.001 g、105 °C及孔隙度百分范围"},
+    "secondVisualPass": {"status": "verified", "method": "由页末跨页句反向复核至材料(2)，逐式检查括号、分母和上下标；印刷页码554"}
+  },
+  "blocks": [
+    {"type": "materials-list-continuation", "items": ["(2) 蒸馏水。", "(3) 温度计。", "(4) 过2 mm筛风干土。", "(5) 天平，精度0.001 g。", "(6) 最高105 °C烘箱。"]},
+    {"type": "heading", "number": "57.3.2", "title": "步骤", "level": 3},
+    {"type": "procedure-steps", "items": ["(1) 105 °C烘干土样，测风干土质量含水量θ_w；重复2次。", "(2) 去离子水煮沸数分钟，冷却至室温制去气水；记录温度和该温度水密度D_w。", "(3) 比重瓶装满去气水，加塞并使塞内毛细孔充水；擦干外壁称W_w。", "(4) 倒出约一半水，加塞、擦干外壁并称重。", "(5) 加入约10 g过2 mm筛风干土，加塞称重；与步骤(4)之差为风干土质量W_a。按式（57.10）求烘干土质量W_s。", "(6) 加满去气水并使毛细孔充水；称比重瓶+去气水+土总质量W_sw。"]},
+    {"type": "heading", "number": "57.3.3", "title": "计算", "level": 3},
+    {"type": "heading", "number": "57.3.4", "title": "注释", "level": 3},
+    {"type": "note", "text": "使用100 mL容量瓶时，加50 g风干土，其余同比重瓶。"},
+    {"type": "heading", "number": "57.4", "title": "土壤孔隙", "level": 2},
+    {"type": "paragraph", "text": "孔隙数量、大小、构型和分布可评价土壤物理性质与结构（Carter和Ball，1993），但孔隙等级尚无统一标准。孔隙体积、连续性和充气孔隙量是重要结构指标。砂质表层孔隙度约35%～50%，细质土约40%～60%，压实底土约25%～30%。容重越高，孔隙度通常越低。砂土总孔隙度低但大孔隙多，水气移动快；细土总孔隙度高但小孔隙多，运移受限。"},
+    {"type": "paragraph", "text": "孔隙分布可辅助预测入渗、水分有效性、储水、通气、结构类型和导水率；饱和导水率与大孔隙度/有效孔隙度相关。孔隙分布主要提供孔隙系统定性信息而非绝对值，其测定受……"}
+  ],
+  "formulas": [
+    {"label": "(57.10)", "plain": "W_s = W_a/(1 + θ_w)", "latex": "W_s=\\frac{W_a}{1+\\theta_w}", "variables": [{"symbol": "θ_w", "meaning": "风干土质量含水量（kg kg⁻¹或等效质量比）"}]},
+    {"label": "(57.11)", "plain": "D_p = D_w W_s/[W_s − (W_sw − W_w)]", "latex": "D_p=\\frac{D_wW_s}{W_s-(W_{sw}-W_w)}", "variables": [{"symbol": "W_s−(W_sw−W_w)", "meaning": "被土粒排开的水质量"}]}
+  ],
+  "tables": [],
+  "contentSha256": "6b6e5c851d9339729b9de00aeb7ff5f5694bc1d8f3f3ea44f97ff68c0ede7d75"
+}

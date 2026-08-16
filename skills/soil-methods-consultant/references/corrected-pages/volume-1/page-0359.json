@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 359,
+  "sourceImageSha256": "1984696ad04812601363f03dcf6c0ed6dae0cbef68a5e1fb721ddf7d6151d7c3",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页面、Apple Vision、PaddleOCR和英文原版参考文献表"},
+    "precisionPass": {"status": "verified", "method": "核验作者、年份、题名、期刊、卷页、拉丁学名、Québec重音及译校署名"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至Southwood文献，确认本页全8条文献及页码328"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第34章｜蚓蚓｜"},
+    {"type": "reference", "text": "Southwood, T.R.E. 1978. Ecological Methods. Chapman and Hall, London, UK."},
+    {"type": "reference", "text": "Springett, J.A. and Gray, R.A.J. 1992. Effect of repeated low doses of biocides on the earthworm Aporrectodea caliginosa in laboratory culture. Soil Biol. Biochem. 24: 1739–1744."},
+    {"type": "reference", "text": "St. Remy, E.A. de and Daynard, T.B. 1982. Effects of tillage methods on earthworm populations in monoculture corn. Can. J. Soil Sci. 62: 699–703."},
+    {"type": "reference", "text": "Tisdall, J.M. and McKenzie, B.M. 1999. A method of extracting earthworms from cores of soil with minimum damage to the soil. Biol. Fert. Soils 30: 96–99."},
+    {"type": "reference", "text": "Wever, L.A., Lysyk, T.J., and Clapperton, M.J. 2001. The influence of soil moisture and temperature on the survival, aestivation, growth and development of juvenile Aporrectodea tuberculata (Eisen) (Lumbricidae). Pedobiologia 45: 121–133."},
+    {"type": "reference", "text": "Whelan, J.K. 2004. Spatial and temporal distribution of earthworm patches in corn field, hayfield and forest systems of southwestern Québec, Canada. Appl. Soil Ecol. 27: 143–151."},
+    {"type": "reference", "text": "Wormwatch. 2002. www.wormwatch.ca. Agriculture and Agri-Food Canada and Environment Canada, Environmental Monitoring and Assessment Network, Ottawa, ON, Canada."},
+    {"type": "reference", "text": "Zaborski, E.R. 2003. Allyl isothiocyanate: an alternative chemical expellant for sampling earthworms. Appl. Soil Ecol. 22: 87–95."},
+    {"type": "translator-credit", "text": "郭婷 译，徐建明 校"},
+    {"type": "printed-page-number", "text": "328"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "696e5d587e4966cefd7189cc329931557a209a1e7047d21c7e456b0a00063ba1"
+}

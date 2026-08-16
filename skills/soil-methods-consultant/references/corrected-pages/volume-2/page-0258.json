@@ -1,0 +1,83 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 258,
+  "sourceImageSha256": "0c6da85880a2d5e63efa3ce4ce27a18ab575ff81bb17a3a044f4d65a3ce06171",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对第79章题名、作者、79.1引言前半及图79.1全表"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "用原始几何和水位数据重算h_c/r_c、d/r_c、C_P/r_c、C_P、ln(y_a/y_b)与K_s"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "图表区高倍裁切复核，并以表79.1双线性插值和量纲检验识别原图连锁计算错误；印刷页码767"
+    }
+  },
+  "blocks": [
+    {
+      "type": "chapter",
+      "number": "79",
+      "title": "饱和水力学特性：测压管法",
+      "author": "G. Clarke Topp",
+      "affiliation": "Agriculture and Agri-Food Canada, Ottawa, Ontario, Canada"
+    },
+    {
+      "type": "heading",
+      "number": "79.1",
+      "title": "引言",
+      "level": 2
+    },
+    {
+      "type": "principle",
+      "text": "测压管法用于田间原位测定地下水位以下饱和区的饱和导水率K_s [L·T⁻¹]。把两端开口管插入钻孔并伸入潜水层或承压含水层；管可到达孔底，或在管端以下保留圆柱形测压腔。"
+    },
+    {
+      "type": "figure",
+      "number": "79.1",
+      "title": "测压管法数据处理表格（并列给出第78章钻孔法示意）",
+      "inputs": [
+        "T=19 ℃；h_c=27 cm；测压腔半径r_c=5 cm；测压管内半径r=3.65 cm",
+        "F′=∞；F=F′−D−E=∞；F/H=∞",
+        "W′=51.5 cm；E=44 cm；W=W′−E=7.5 cm",
+        "d=H−h_c=E+D−W′−h_c=57 cm"
+      ],
+      "observations": [
+        "(i,t/s,y′/cm,y/cm,y_i/y_{i+1})：(1,0,95,51,1.06)，(2,60,92.3,48.3,1.06)，(3,120,89.7,45.7,1.05)，(4,180,87.6,43.6,1.06)，(5,240,85,41,1.06)，(6,300,82.8,38.8,—)",
+        "t_b−t_a=300 s；y_a/y_b=51/38.8=1.314；ln(y_a/y_b)=0.2734",
+        "正确几何比：h_c/r_c=5.4；d/r_c=11.4；F/r_c=∞",
+        "按表79.1在h_c/r_c=4、8和d/r_c=8、12之间作双线性插值：C_P/r_c≈22.6；C_P≈113 cm",
+        "按式(79.1)得K_s≈3.38×10⁻⁴ cm·s⁻¹（线性插值示例值）"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "图79.1存在连锁原印错误：①把数值51/38.8标成y_b/y_a，正确为y_a/y_b；②用管内半径r=3.65 cm误算本应以测压腔半径r_c=5 cm归一化的h_c/r_c和d/r_c，原印7.4、15.6应为5.4、11.4；③把C_P=(C_P/r_c)r_c误算成除以r_c，原印C_P=7.40 cm不合量纲关系；④由此原印K_s=9.65×10⁻³ cm·s⁻¹错误。规范值按表79.1双线性插值重算，并明确实际工作宜用非线性图解插值提高精度。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "图79.1-水位换算",
+      "plain": "W=W′−E; d=E+D−W′−h_c; y_i=y_i′−E",
+      "latex": "W=W'-E,\\quad d=E+D-W'-h_c,\\quad y_i=y_i'-E",
+      "resultUnit": "L"
+    },
+    {
+      "label": "图79.1-形态因子",
+      "plain": "C_P=(C_P/r_c)r_c",
+      "latex": "C_P=\\left(\\frac{C_P}{r_c}\\right)r_c",
+      "resultUnit": "L"
+    },
+    {
+      "label": "图79.1-校正示例",
+      "plain": "K_s=π(3.65 cm)² ln(51/38.8)/[(113 cm)(300 s)]≈3.38×10⁻⁴ cm·s⁻¹",
+      "latex": "K_s=\\frac{\\pi(3.65\\,\\mathrm{cm})^2\\ln(51/38.8)}{(113\\,\\mathrm{cm})(300\\,\\mathrm{s})}\\approx3.38\\times10^{-4}\\,\\mathrm{cm\\,s^{-1}}",
+      "resultUnit": "cm·s⁻¹"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "2b6b609d18f5d3a8e3bf7ebc6598ab2324436595c581fc40294b2e9100d1a9d1"
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 164,
+  "sourceImageSha256": "a8194bda61ab6d04ccd653abd3d55c9077b5cd54e1a94543dcad25aa782bf644",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段对照原分辨率页图和两套OCR，完成Richards式(69.10)、变量、K关系及式(69.11)"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验∂θ/∂t、两个∂/∂z项、H=ψ+z、L³·L⁻³、−150 m≤ψ≤0及ψ_s/θ_sat下标"},
+    "secondVisualPass": {"status": "verified", "method": "由式(69.11)反向复核至69.6续文，检查z向上符号约定、K(ψ)/K(θ)和下标省略说明；印刷页码673"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "对刚性、均质、非饱和孔隙介质，取z向上为正，垂直水流可由Richards方程描述。体积含水量θ随时间的变化等于K(ψ)或K(θ)乘总水头梯度后对z的散度；总水头H=ψ+z。"},
+    {"type": "variables", "items": ["θ[L³·L⁻³]：体积含水量", "t[T]：时间", "K(ψ)[L·T⁻¹]：与孔隙水基质水头ψ相关的导水率", "K(θ)[L·T⁻¹]：与体积含水量θ相关的导水率", "H[L]：总水头", "z[L]：人为基准面以上高度或重力水头，向上为正", "ψ[L]：孔隙水基质水头"]},
+    {"type": "paragraph", "text": "水流由总水头梯度∂H/∂z和导水率函数共同决定。K(ψ)或K(θ)给出渗透性与ψ或θ的关系；二者通过θ(ψ)吸—脱水曲线联系。介质从饱和状态θ=θ_s、ψ=0变干时，K由K_sat迅速下降；在植物生长相关的−150 m≤ψ≤0范围可变化多个数量级。"},
+    {"type": "paragraph", "text": "K关系受孔隙数量和分布，以及孔隙度、结构、质地、有机质和黏土矿物学影响；K(ψ)和K(θ)还受孔隙弯曲度、粗糙度、连通性和连续性影响。图69.5比较代表性砂质土、无结构壤质土和有结构壤质土，并为便于比较假定两类壤质土θ(ψ)相同。刚性非膨胀介质饱和后，K(ψ)=K(θ)=常数K_sat。"},
+    {"type": "source-fidelity-note", "text": "式(69.10)按原书采用z向上、H=ψ+z的符号约定，不能与z向下或压力头取正吸力的版本混用。原书说明为简化省略ψ与θ的下标v、m；本页式(69.11)印作ψ_s和θ_sat，均按原式保留。"}
+  ],
+  "formulas": [
+    {"label": "69.10", "plain": "∂θ/∂t = ∂/∂z[K(ψ)∂H/∂z] = ∂/∂z[K(θ)∂H/∂z]; H = ψ + z", "latex": "\\frac{\\partial\\theta}{\\partial t}=\\frac{\\partial}{\\partial z}\\left[K(\\psi)\\frac{\\partial H}{\\partial z}\\right]=\\frac{\\partial}{\\partial z}\\left[K(\\theta)\\frac{\\partial H}{\\partial z}\\right];\\quad H=\\psi+z", "resultUnit": "T⁻¹"},
+    {"label": "69.11", "plain": "K(ψ) = K(θ) = constant = K_sat; ψ ≥ ψ_s, θ ≥ θ_sat", "latex": "K(\\psi)=K(\\theta)=\\mathrm{constant}=K_{sat};\\quad \\psi\\geq\\psi_s,\\ \\theta\\geq\\theta_{sat}", "resultUnit": "L·T⁻¹"}
+  ],
+  "tables": [],
+  "contentSha256": "9fe7bb2109c22fee0db7b4e4d45e3c4831ef5a6adbadf718aaee06e8d3ce6717"
+}

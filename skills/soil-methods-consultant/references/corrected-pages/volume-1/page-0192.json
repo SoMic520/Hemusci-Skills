@@ -1,0 +1,52 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 192,
+  "sourceImageSha256": "d737e96a776c054114da7792f586f51b36146dbc7a1bf24533a1b9bc4d2e234e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复材料（2）～（4）、标准曲线/土样步骤、计算、注释及20.3引言"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验0.4/1 mol L⁻¹、CH₃COOH、Ca²⁺、CH₃COO⁻、H₂O、CO₂、5～500 mg、8 h、30 s、4 min、lg、T、20%、H⁺和式（20.2）"},
+    "secondVisualPass": {"status": "verified", "method": "从页末20.3段落反向复核至材料（2），确认反应式电荷、式（20.2）分子分母、误差因素、Allison/Moodie/Raad年份及页码161"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第20章｜碳酸盐｜"},
+    {"type": "reagent-item", "number": "（2）", "name": "0.4 mol L⁻¹的醋酸溶液", "text": "用重去离子水将400 mL 1 mol L⁻¹的醋酸溶液稀释并定容于1 L容量瓶中。"},
+    {"type": "material-item", "number": "（3）", "name": "pH计", "text": "推荐使用数字pH计。"},
+    {"type": "material-item", "number": "（4）", "name": "超声波探针", "text": "保证探针可以插入50 mL离心管。"},
+    {"type": "section-heading", "level": 3, "number": "20.2.2", "title": "步骤"},
+    {"type": "procedure-group", "number": "1.", "title": "标准曲线"},
+    {"type": "procedure-step", "group": "1", "number": "（1）", "text": "按照一定的梯度分别准确称量5～500 mg不同重量的冰洲石于50 mL聚丙烯离心管中。"},
+    {"type": "procedure-step", "group": "1", "number": "（2）", "text": "向离心管中加入25 mL 0.4 mol L⁻¹的CH₃COOH溶液，此用量能保证最大样品量（500 mg）的碳酸钙反应完全，该反应过程为：", "formulaRef": "20.R1"},
+    {"type": "procedure-step", "group": "1", "number": "（3）", "text": "间歇性地振荡离心管8 h，每隔1 h需要摇动离心管，以便使反应物充分接触并进行排气。振荡完成后将离心管管口半掩开，静置一夜排出CO₂。"},
+    {"type": "procedure-step", "group": "1", "number": "（4）", "text": "最后用超声波探针低速排气30 s，注意避免液体飞溅。"},
+    {"type": "procedure-step", "group": "1", "number": "（5）", "text": "完成排气4 min后，离心并测定记录上清液的pH值，结果保留两位小数。"},
+    {"type": "procedure-step", "group": "1", "number": "（6）", "text": "绘制关于pH值与lg[CaCO₃/(T−CaCO₃)]的标准曲线。注意：T是指一定量的醋酸被完全中和时所消耗碳酸钙的质量（mg）。当醋酸溶液的体积和浓度变化时对应碳酸钙的质量也会发生变化。"},
+    {"type": "procedure-group", "number": "2.", "title": "土样中的碳酸钙含量"},
+    {"type": "procedure-step", "group": "2", "number": "（1）", "text": "准确称量2 g土壤（＜100目），一般2 g土壤中含400 mg CaCO₃，如果该土样中碳酸盐含量超过20%，就需要减少称取的土壤样品量。"},
+    {"type": "procedure-step", "group": "2", "number": "（2）", "text": "重复上述标准曲线制作的步骤2～5。"},
+    {"type": "section-heading", "level": 3, "number": "20.2.3", "title": "计算"},
+    {"type": "paragraph", "text": "将测得的土样pH值代入标准曲线中得lg[CaCO₃/(T−CaCO₃)]，从而计算出土样中CaCO₃的重量（mg），最终土壤总碳酸盐含量通过下式计算："},
+    {"type": "section-heading", "level": 3, "number": "20.2.4", "title": "注释"},
+    {"type": "paragraph", "text": "如果土样中含有白云石，就需要增加反应次数，以使土样溶解并反应完全，而实验结果的精确性会受到各种因素的影响，包括土样中所含的其他成分消耗H⁺，矿物分解过程中的水解作用会产生酸，高CO₂分压，醋酸的挥发，pH的测定误差。可以用以下方法降低误差：向土样和标准样品中加入氯化钙溶液以便定量加入Ca²⁺；研磨土样，以便提高砂粒大小的碳酸盐的反应活性，同时可以减少醋酸与其他矿物的反应时间；使用管塞，减少醋酸挥发；将CO₂及时排出；减少悬浮物以便降低其对pH值读数的影响（Loeppert等，1984）。"},
+    {"type": "section-heading", "level": 2, "number": "20.3", "title": "重量估计法（Allison和Moodie，1965；Raad，1978）"},
+    {"type": "paragraph", "text": "将含有碳酸盐的土样称重后与酸反应，通过测定土样重量的减少量可以得出CO₂释放量进而计算出碳酸钙的含量。方解石与白云石从形态上不易区分，但可以通过测定土壤重量随时间的减少来估算样品中白云石的比例。"},
+    {"type": "printed-page-number", "text": "161"}
+  ],
+  "formulas": [
+    {
+      "number": "20.R1",
+      "printedNumber": null,
+      "context": "醋酸与碳酸钙反应",
+      "display": "CaCO₃ + 2CH₃COOH → Ca²⁺ + 2CH₃COO⁻ + H₂O + CO₂",
+      "latex": "\\mathrm{CaCO_3+2CH_3COOH\\rightarrow Ca^{2+}+2CH_3COO^-+H_2O+CO_2}"
+    },
+    {
+      "number": "20.2",
+      "context": "土壤总碳酸盐含量",
+      "display": "CaCO₃% = [CaCO₃(mg)/土样质量(mg)] × 100",
+      "latex": "CaCO_3\\%=\\frac{CaCO_3(\\mathrm{mg})}{\\text{土样质量}(\\mathrm{mg})}\\times100"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "f72fa18649f313af2dd0e857da2c433edff71af8c276557c973167fafb58074f"
+}

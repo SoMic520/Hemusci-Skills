@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 27,
+  "sourceImageSha256": "78b25a172eb3959cceb41556ca4ffd07ebf38d5f099321b51f0ef6e1fc390321",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成55.3.4～55.4.2(2)及式（55.8）～（55.10）"},
+    "precisionPass": {"status": "verified", "method": "核验R₄₀ₛ/R₇ₕ/R_L、质量分母、ASTM筛号/孔径、20 cm、500 mL、1000 g、0.1 g、105 °C"},
+    "secondVisualPass": {"status": "verified", "method": "由页末500 g反向复核至55.3.4，逐式检查括号、百分号和下标；印刷页码536"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "55.3.4", "title": "计算", "level": 3},
+    {"type": "heading", "number": "55.3.5", "title": "注释", "level": 3},
+    {"type": "note", "text": "钙质土壤、盐渍土或有机碳含量>2%的土壤，不建议采用本章简化比重计法；完整方法见Day（1965）。"},
+    {"type": "heading", "number": "55.4", "title": "筛分法（机械方法）", "level": 2},
+    {"type": "paragraph", "text": "工程中用土壤粒径组成对土壤分类，粒径分布曲线也是道路施工的参照指标。例如公路路堤施工中，粒径组成可用于判断土壤对冻胀的敏感性。"},
+    {"type": "paragraph", "text": "粒径组成分析测定一定质量土壤中各粒径颗粒的比例，但有局限。Day（1965）指出，在给定振荡时间内，颗粒通过筛子的概率与颗粒性质、该粒径颗粒数量及筛子属性有关。Gee和Or（2002）建议，为保证重复性，需认真标准化每一步。"},
+    {"type": "heading", "number": "55.4.1", "title": "材料与试剂", "level": 3},
+    {"type": "materials-list", "items": ["筛子和底盘：直径20 cm；建议ASTM 4号筛（4.76 mm）、10号筛（2.00 mm）、40号筛（0.42 mm）、200号筛（0.074 mm）。", "筛子专用刷。", "500 mL玻璃烧杯。", "直径20 cm陶瓷蒸发皿。", "天平：量程1000 g，精度0.1 g。", "研钵和带乳胶头的研棒。", "105 °C烘箱。", "筛子振荡器。"]},
+    {"type": "heading", "number": "55.4.2", "title": "步骤", "level": 3},
+    {"type": "procedure-steps", "items": ["(1) 清理每个筛子并称重，精确至0.1 g。筛子从底部用刷子清洁；不要强推嵌入筛孔的颗粒，以免筛孔变大，可轻拍筛壁使其脱落。", "(2) 称取约500 g代表性土样，用手或研磨棒碾碎。样品质量取决于最大粒径；最大颗粒约5 mm时，参考质量为500 g。"]}
+  ],
+  "formulas": [
+    {"label": "(55.8)", "plain": "砂粒% = 100 − (R₄₀ₛ − R_L) × 100/m_d", "latex": "P_{sand}=100-(R_{40s}-R_L)\\frac{100}{m_d}", "variables": [{"symbol": "m_d", "meaning": "用于换算的烘干土样质量（g）"}]},
+    {"label": "(55.9)", "plain": "黏粒% = (R₇ₕ − R_L) × 100/m_d", "latex": "P_{clay}=(R_{7h}-R_L)\\frac{100}{m_d}"},
+    {"label": "(55.10)", "plain": "粉粒% = 100 −（砂粒% + 黏粒%）", "latex": "P_{silt}=100-(P_{sand}+P_{clay})"}
+  ],
+  "tables": [],
+  "contentSha256": "4b9b0fcda3897c8dcc10e7d57089ed6bdec93ec1d1869f792e5be96d478533fd"
+}

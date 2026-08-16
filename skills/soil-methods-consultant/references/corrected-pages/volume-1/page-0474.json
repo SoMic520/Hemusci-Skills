@@ -1,0 +1,22 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 474,
+  "sourceImageSha256": "06228f542be7e2f71b9d9410654a9ae9b33f8c501b2f742e8ce465253e8f13af",
+  "review": {
+    "textPass": {"status": "verified", "method": "对照原分辨率页面逐条转录第46章最后3条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验Thicke、Russelle、Hesterman、Sheaffer及Wang两条文献的作者、卷页和英式拼写mineralisable/standardised"},
+    "secondVisualPass": {"status": "verified", "method": "全页自下而上二次扫描，确认仅3条书目和4人译校署名，无淡印正文、公式、表格或图；印刷页码443"}
+  },
+  "blocks": [
+    {"type": "reference-list", "continuationOf": "page-0473:chapter46-references", "entries": [
+      "Thicke, F.E., Russelle, M.P., Hesterman, O.B., and Sheaffer, C.C. 1993. Soil nitrogen mineralization indexes and corn response in crop rotations. Soil Science 156:322–335.",
+      "Wang, W.J., Smith, C.J., Chalk, P.M., and Chen, D. 2001. Evaluating chemical and physical indices of nitrogen mineralization capacity with an unequivocal reference. Soil Science Society of America Journal 65:368–376.",
+      "Wang, W.J., Smith, C.J., and Chen, D. 2003. Towards a standardised procedure for determining the potentially mineralisable nitrogen of soil. Biology and Fertility of Soils 37:362–374."
+    ]},
+    {"type": "translator-credit", "translators": ["张树兰", "谢钧宇", "党海燕"], "reviewer": "王朝辉"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "210ed25259d15322139c3dab27866907e40e798baeb7eac4a624560cbc782c29"
+}

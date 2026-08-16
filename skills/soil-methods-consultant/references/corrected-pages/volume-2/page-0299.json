@@ -1,0 +1,97 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 299,
+  "sourceImageSha256": "43ebcde981aa68baf07848ec41c1e2d900c23e51036366142a984aa80d511236",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对优点、应用、坡地/接触材料限制、稳态与瞬态比较及两条跨页参考文献"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对ψ₀范围、K_cs/K_fs/ψ_w阈值、式(82.4)～(82.9)与式(82.12)～(82.16)交叉引用"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "更正原书混用m与cm的范围表达及Vogeler作者名排印错误；印刷页码808"
+    }
+  },
+  "blocks": [
+    {
+      "type": "source-fidelity-note",
+      "text": "原页把适用水头范围排成“−0.20 m≤ψ₀≤0 cm”，左右端单位混用；按数值等价性统一为“−20 cm≤ψ₀≤0 cm”。正文引文中的“Vogelertffu, 1996”属明显排印错误，按同章参考文献和作者名校正为“Vogeler et al., 1996”。"
+    },
+    {
+      "type": "continuation",
+      "section": "82.5 张力入渗仪法的优缺点",
+      "paragraphs": [
+        "与其他方法相比，张力入渗仪更可行；无需钻井或嵌入圆环，对土体扰动小，可为松散、脆弱和大孔隙丰富的土体提供可靠估计。",
+        "其主要理论优点是可确定−20 cm≤ψ₀≤0 cm近饱和范围内的重要水分运动参数，如K(ψ₀)、S(ψ₀)、α*(ψ₀)、PD(ψ₀)和NP(ψ₀)。在此范围内，参数值及水分/溶质运移会随ψ₀的微小变化而剧烈改变，因此可把“大孔隙”和“基质孔隙”的水流参数与土壤条件或管理变化联系起来。"
+      ]
+    },
+    {
+      "type": "applications",
+      "items": [
+        "PD(ψ₀)变化可量化宏观结构破坏与大孔隙填充、土壤裂隙、耕作、根系生长以及沉积物侵蚀和沉积。",
+        "近饱和K(ψ₀)和S(ψ₀)可量化耕作方式、生物活动、生长期土壤结构变化、土壤质地改变、车轮碾压及土壤疏水性发展对水分运动的影响。",
+        "还可描述近饱和和可动—不可动土壤含水量、溶质运移特性、溶质吸附等温线以及地表结皮的水力学特性。"
+      ]
+    },
+    {
+      "type": "limitations",
+      "items": [
+        "主要缺点是在坡地上测定困难，并需通过接触砂层建立和保持入渗仪与多孔介质表面的水力联系。坡度小于20%时虽可不切平台，但切出的水平平台无法代表完整、未扰动坡面。",
+        "接触砂层应满足K_cs≥10⁻² cm·s⁻¹，且大于多数无结构农田土壤的K_fs；其进水基质水头ψ_w≤−20 cm，并比多数入渗仪板的最小设定水头更负。K_cs和ψ_w还应稳定、标准差小。",
+        "接触材料应亲水、颗粒大小均一，便于平整并建立良好水力联系；还应容易获取、便宜、可重复使用。多数天然土壤材料难以全部满足，玻璃珠是较好的选择。"
+      ]
+    },
+    {
+      "type": "method-comparison",
+      "methods": [
+        {
+          "name": "稳态流多水头法（式82.4～式82.9）",
+          "advantages": "理论完善且经验证，稳健；可在同一入渗面测数个水头；测试体积较大、代表性较强；可精确校正接触砂层影响。",
+          "limitations": "平衡时间可能较长；对介质异质性（如分层）和测试体积内含水量非均匀分布所致误差敏感。"
+        },
+        {
+          "name": "瞬态流法（式82.12～式82.16）",
+          "advantages": "测试时间短，不要求达到稳态流；能简单、有效、可靠地获得结果并剔除接触砂层干扰；可用线性回归直接求导水率和吸渗率。",
+          "limitations": "β参数和多孔介质—接触砂层界面处基质水头ψ_s不能精确获知；不能在同一入渗面获得一系列ψ₀的结果。"
+        }
+      ],
+      "conclusion": "一般而言，稳态流分析测定K(ψ₀)更有效，瞬态流分析更适于确定S(ψ₀)。"
+    },
+    {
+      "type": "heading",
+      "title": "参考文献",
+      "level": 2
+    },
+    {
+      "type": "references",
+      "entries": [
+        "Angulo-Jaramillo, R., Moreno, F., Clothier, B.E., Thony, J.L., Vachaud, G., Fernandez-Boy, E., and Cayuela, J.A. 1997. Seasonal variation of hydraulic properties of soils measured using a tension disk infiltrometer. Soil Sci. Soc. Am. J. 61: 27–32.",
+        "Ankeny, M.D. 1992. Methods and theory of unconfined infiltration measurements. In: G.C. Topp, W.D. Reynolds, and R.E. Green, eds. [续见下一页]"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "label": "张力入渗仪近饱和适用范围",
+      "plain": "−20 cm≤ψ₀≤0 cm",
+      "latex": "-20\\,\\mathrm{cm}\\leq\\psi_0\\leq0\\,\\mathrm{cm}"
+    },
+    {
+      "label": "接触砂层导水率条件",
+      "plain": "K_cs≥10⁻² cm·s⁻¹，且K_cs>K_fs",
+      "latex": "K_{cs}\\geq10^{-2}\\,\\mathrm{cm\\,s^{-1}},\\qquad K_{cs}>K_{fs}"
+    },
+    {
+      "label": "接触砂层进水基质水头条件",
+      "plain": "ψ_w≤−20 cm",
+      "latex": "\\psi_w\\leq-20\\,\\mathrm{cm}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "c64eabf5af1c3aeecff61422d261d5749862ebf04b399cbe0af0b55a45352a5f"
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 498,
+  "sourceImageSha256": "0d0f3c3dee7205352a58e414285d7b22370c2807c4abe52f088836980d825d55",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成49.3.2、49.3.3、49.3.4全文及49.3.5（1）至跨页句"},
+    "precisionPass": {"status": "verified", "method": "核验2 mm、25 °C、40%～50%、<1 cm、250/15/25～50 g、105 °C 24 h、50 mL氯仿、真空次数/时间、0.5 mol·L⁻¹ K₂SO₄与1:2～1:5"},
+    "secondVisualPass": {"status": "verified", "method": "由页末550 nm跨页句反向复核至49.3.2（1），检查危险提示、真空度、干重换算、提取比和保存条件；印刷页码467"}
+  },
+  "blocks": [
+    {"type": "section-heading", "level": 3, "number": "49.3.2", "title": "土壤样品的制备"},
+    {"type": "procedure-step", "number": "（1）", "text": "标准法一般将过2 mm筛土在25 °C、含水量40%～50%下预培养数天，使土壤代谢和水分稳定（Vance等，1987）。过湿或过干难以研磨过筛时，可破碎成<1 cm小块预培养，总土样量约250 g，熏蒸前充分混匀（Ocio和Brookes，1990b）。大量新鲜植物残体和活根必须用手或筛去除（Mueller等，1992）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "称取约15 g鲜土3份于水分称量容器，105 °C烘至少24 h直至完全干燥或恒重；移入干燥器冷却、称量并计算含水量。所有微生物量结果均以烘干土重计。"},
+    {"type": "procedure-step", "number": "（3）", "text": "称取25～50 g鲜土6份于100 mL玻璃瓶；3份氯仿熏蒸24 h后浸提，另3份不熏蒸并立即浸提。"},
+    {"type": "section-heading", "level": 3, "number": "49.3.3", "title": "熏蒸处理"},
+    {"type": "safety-warning", "text": "氯仿有毒且易挥发；全部熏蒸、放气和残留氯仿去除操作必须在通风橱中进行，废氯仿按危险废物处理。"},
+    {"type": "procedure-step", "number": "（1）", "text": "沿干燥器底部边缘铺刚浸湿的纸巾。将土样瓶与装50 mL氯仿和少量沸石的100 mL烧杯同放入干燥器，密封后抽真空；缓慢排出真空泵气体，至氯仿剧烈沸腾，继续抽1～2 min。真空密封，室温（20～25 °C）避光熏蒸24 h。"},
+    {"type": "procedure-step", "number": "（2）", "text": "24 h后释放真空，打开干燥器，移走氯仿烧杯和湿纸巾。剩余氯仿装入密封瓶作危险废物；纸巾装入密封袋按实验室规定处理。"},
+    {"type": "procedure-step", "number": "（3）", "text": "反复抽真空去除土样残留氯仿：用水抽气泵抽3～6次，每次约5 min；再用二级旋转式油泵（可产生约10⁻⁵ kPa压力）抽15～20 min。"},
+    {"type": "section-heading", "level": 3, "number": "49.3.4", "title": "微生物量碳、氮的提取"},
+    {"type": "procedure-step", "number": "（1）", "text": "分别向未熏蒸和熏蒸样品瓶加0.5 mol·L⁻¹ K₂SO₄；烘干土重（g）:提取剂（mL）=1:2～1:5（Joergensen和Olfs，1998）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加盖，往复或旋转振荡1 h，用Whatman GF 934-AH过滤土壤悬浊液。测有机C和总N通常需滤液5～20 mL。加盖滤液可在4 °C最多储存2～3 d；>3 d必须冷冻。解冻时近中性和碱性土提取液可出现白色CaSO₄沉淀，不影响分析（Joergensen和Olfs，1998）。"},
+    {"type": "section-heading", "level": 3, "number": "49.3.5", "title": "浸提液中碳、氮的测定"},
+    {"type": "procedure-step", "number": "（1）", "text": "有机C可用自动燃烧或湿氧化法，首选高温总C分析仪：先去除无机C，再将提取液C氧化为CO₂，用红外检测。也可用紫外催化湿式氧化–红外检测，或比色法：用无N、无C高速气流通过酸化样品去除碳酸盐CO₂，样品与0.5 mol·L⁻¹ H₂SO₄和4% (w/v) K₂S₂O₈混合后紫外照射；产生的CO₂穿过硅胶膜渗析并与弱缓冲的酚酞指示剂反应，550 nm颜色强度的减少与有机C成正比。[续见第499页]"}
+  ],
+  "formulas": [
+    {"id": "49.3.2-dry-basis", "display": "all microbial biomass results are expressed per unit oven-dry soil", "meaning": "本章C、N、P、S微生物量结果的质量基准"},
+    {"id": "49.3.4-extraction-ratio", "display": "oven-dry soil (g):0.5 mol·L⁻¹ K₂SO₄ (mL) = 1:2 to 1:5", "meaning": "微生物量C/N标准浸提比"},
+    {"id": "49.3.5-carbon-colorimetry", "display": "ΔA₅₅₀ ∝ organic C", "meaning": "紫外–过硫酸盐氧化后CO₂导致酚酞指示剂颜色减弱的比色关系"}
+  ],
+  "tables": [],
+  "contentSha256": "be0a5efda25126d43c44264068234796f590cc2659877acf85e9bd1202f94a9f"
+}

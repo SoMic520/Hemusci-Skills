@@ -1,0 +1,66 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 259,
+  "sourceImageSha256": "d3454976b61bb2c1711311a7f60f73b9623bb10e72efd4f8e06b1209516018ce",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对79.1续、式(79.1)变量和79.2装置1—6"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验πr²、ln(y_a/y_b)、C_P(t_b−t_a)、d、h_c、r_c、F及0.5 L·s⁻¹、1/3 mm·s⁻¹"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "公式区放大并与英文原章复核r是内半径而非内径、压力传感器和封隔器结构；印刷页码768"
+    }
+  },
+  "blocks": [
+    {
+      "type": "principle-continuation",
+      "text": "孔底通常修平，管—孔壁必须严密封闭，防止管外渗漏或小范围环流。操作与钻孔法相似：先使管内水位达到静水位，再快速加/抽水改变水位并监测恢复。非承压含水层的静水位为地下水位；承压含水层为测压面水位。水位上升时用式(79.1)计算K_s。"
+    },
+    {
+      "type": "heading",
+      "number": "79.2",
+      "title": "装置和物品",
+      "level": 2
+    },
+    {
+      "type": "apparatus",
+      "items": [
+        "直径≥10 cm的土钻：荷兰/泥土钻用于黏土，桶式/砂土钻或螺旋钻用于砂质或含砾石土壤；达到深度后用平底钻修平。",
+        "快速改变水位设备：抽水可用提水筒或泵；泵流率应>0.5 L·s⁻¹。直接加水虽简单但不推荐。已知体积实心圆柱可快速没入使水位升高，或在平衡后快速提出使水位降低。",
+        "计时器：秒表或以秒分度的等效计时器。",
+        "水位监测装置：变化<1 mm·s⁻¹时可人工读取电动水位带、弹响式水位带或泡沫浮标—柔性金属带系统；变化约>3 mm·s⁻¹时宜用孔底快速响应压力传感器并接数据采集器。",
+        "测压管：常用两端开口、薄壁、外径与钻孔内径一致的管；另一型半径较小，底部配可膨胀封隔器。Topp和Sattlecker（1983）给出两种常用封隔器。",
+        "数据表格：图79.1式表可加快采集并便于现场计算K_s；表格形式和计算法可按需求调整（续下页）。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "式(79.1)变量说明中的r英文为inside radius，中文误作“内径”；规范为测压管内半径。中文“液压计”按英文pressure transducer校为压力传感器，并恢复bailer、bucket/sand auger、popper tape等漏译设备。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "79.1",
+      "plain": "K_s = πr² ln(y_a/y_b)/[C_P(t_b−t_a)]",
+      "latex": "K_s=\\frac{\\pi r^2\\ln(y_a/y_b)}{C_P(t_b-t_a)}",
+      "resultUnit": "L·T⁻¹",
+      "variables": [
+        "y_a、y_b：t_a、t_b时相对静水位的水位高度，[L]；水位上升时y_a>y_b",
+        "r：测压管内半径，[L]",
+        "C_P：形态因子，[L]",
+        "d：测压管底端至静水位的距离，[L]",
+        "h_c：测压腔高度，[L]",
+        "r_c：测压腔半径，[L]",
+        "F：测压腔底至下伏导水率显著不同层的距离，[L]"
+      ]
+    }
+  ],
+  "tables": [],
+  "contentSha256": "7d755f45b98c319af38225a65039740b2dbf83762dbfd1740e58941e513e4ee8"
+}

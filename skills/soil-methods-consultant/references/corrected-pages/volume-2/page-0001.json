@@ -1,0 +1,46 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 1,
+  "sourceImageSha256": "a1563e438197bf384d129c740e9dd0d6351f4cadddd4543bffb479d518986cdf",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐项对照原分辨率封面和两套OCR，记录中英文书名、册次、主编、主译和出版社"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验M.R. Carter、E.G. Gregorich、5名主译姓名、下册、CRC Press/Taylor & Francis Group和出版社网址"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由出版社标识反向复核至书名，检查封面示意中的K、Ca、H₂O、Air和全部中英文空格"
+    }
+  },
+  "blocks": [
+    {
+      "type": "cover-title",
+      "title": "土壤采样与分析方法（下册）",
+      "englishTitle": "SOIL SAMPLING AND METHODS OF ANALYSIS"
+    },
+    {
+      "type": "editor-credit",
+      "text": "[加] M.R. Carter（M.R.卡特）、E.G. Gregorich（E.G.格雷戈里奇）主编。"
+    },
+    {
+      "type": "translator-credit",
+      "text": "李保国、李永涛、任图生、王朝辉、徐建明主译。"
+    },
+    {
+      "type": "publisher-credit",
+      "text": "CRC Press, Taylor & Francis Group；中国工信出版集团、电子工业出版社（Publishing House of Electronics Industry）；http://www.phei.com.cn。"
+    },
+    {
+      "type": "cover-art-description",
+      "text": "田间作物照片叠加土壤剖面框和团聚体—孔隙—水—K/Ca离子示意放大图。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "72f1916e27f8571dfa87f2eb56216d99b9446badbdb8ef1d3065b9ad33040d66"
+}

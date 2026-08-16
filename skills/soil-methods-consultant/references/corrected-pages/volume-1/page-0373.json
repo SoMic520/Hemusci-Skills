@@ -1,0 +1,47 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 373,
+  "sourceImageSha256": "03028a497a80e1461123cee816a7afdf7ddd04e08fcce65481b9f6938cce474f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版36.6.3～36.7.3"},
+    "precisionPass": {"status": "verified", "method": "核验10⁵～10⁷和>10⁶ cells·g⁻¹、5 cm、5 mL、0.5 g、50×/200×/400×、至少3次及1 cm网格"},
+    "secondVisualPass": {"status": "verified", "method": "从36.7.3注释（4）反向复核至36.6.3，改正1 g→0.5 g、相差倒置显微镜和empty tests→空壳；印刷页码342"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "36.6.3", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      "本法可快速、且高度重复地计数和鉴定鞭毛虫；显微镜观察者可按自身专业知识把鞭毛虫划分为分类群或功能群。",
+      "干土中鞭毛虫通常为10⁵～10⁷ cells·g⁻¹，计数板观察前可能还需稀释；高黏粒土壤也可能需要进一步稀释，以得到足够清澈、便于观察细胞的悬浮液。"
+    ]},
+    {"type": "section-heading", "level": 2, "number": "36.7", "title": "活跃纤毛虫和有壳变形虫的丰度"},
+    {"type": "paragraph", "text": "活跃纤毛虫通常出现在湿润、细菌丰度较高的时期；土壤干燥或细菌数量和活性下降时，其丰度可降至零。有壳变形虫常见于表土和凋落物，也可埋在分解植物组织碎片内；它们是农业生态系统和修复场地有价值的生物指示类群。在温带地区其数量随季节波动；活跃时丰度可超过10⁶ cells·g⁻¹土壤或凋落物。生物量换算见表36.3。"},
+    {"type": "section-heading", "level": 3, "number": "36.7.1", "title": "材料"},
+    {"type": "ordered-list", "items": ["新鲜土样。", "直径5 cm培养皿。", "蒸馏水或去离子水。", "精密天平和小刮勺。"]},
+    {"type": "section-heading", "level": 3, "number": "36.7.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      "在培养皿中加入5 mL水和0.5 g新鲜土样，轻柔使土壤悬浮。",
+      "用解剖显微镜观察并扫描纤毛虫和有壳变形虫。",
+      "分别记录游动纤毛虫和底部有壳变形虫的数量。纤毛虫既可在水柱中，也可在底部沉积物中。若无合适的解剖显微镜，可用相差倒置显微镜在50×下观察，但重复计数或漏计风险会增加。",
+      "弃去悬浮液，仍用同一培养皿重复该流程至少3次，取平均值。",
+      "丰度表示为每克干土的细胞数（cells·g⁻¹ dry soil）。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "36.7.2步骤（1）", "text": "中文本印为“1 g新鲜土壤和5 mL水”，英文原版明确为0.5 g fresh soil with 5 mL water。直接照中文本会使稀释比相差2倍，正文已校正为0.5 g。"},
+    {"type": "section-heading", "level": 3, "number": "36.7.3", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      "溶液过多会使待扫描体积不能全部处于焦平面，难以可靠计数。活跃个体过多时，可在培养皿下画1 cm方格或用预标网格皿；土壤质地妨碍观察时，减少用土量。",
+      "有壳变形虫位于培养皿底部沉积物中，活跃个体会用伪足移动或探查底物。用相差倒置显微镜在200×或400×下扫描贯穿培养皿的样带，可得到更好估计。每条样带所见个体数须按样带代表的培养皿面积比例或土壤质量比例外推（样带法见Krebs，1999）。很多有壳变形虫在提取和计数时停止摄食或移动；须把空壳（empty tests）与活体区分。",
+      "滤膜法（Lousier和Parkinson，1981）和载玻片涂片法（Korganova和Geltser，1977）均可得到良好估计，且滤膜和涂片可稍后制备/判读。",
+      "Acosta-Mercado和Lynn（2003）还描述了适用于纤毛虫的滤膜法；染色流程较复杂，但可作物种鉴定。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "36.7.3空壳", "text": "英文test是有壳变形虫的壳，empty tests指空壳；中文本误译为“空白试验”。另“反相倒置显微镜”已按phase contrast inverted microscope改为相差倒置显微镜。"},
+    {"type": "printed-page-number", "text": "342"}
+  ],
+  "formulas": [
+    {"id": "36.7.2-suspension-ratio", "display": "0.5 g fresh soil : 5.0 mL water"},
+    {"id": "36.7.3-transect", "display": "N_total = N_transect / f_scanned", "meaning": "f_scanned为样带代表的培养皿面积或土壤质量分数"}
+  ],
+  "tables": [],
+  "contentSha256": "a0f0d4b5a0cdeedff407a63dd1c62bfdcb702aa0e4e86a0364593a7da53ac173"
+}

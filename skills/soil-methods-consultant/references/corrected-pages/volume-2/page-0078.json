@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 78,
+  "sourceImageSha256": "979e5061a156d066211bbfddbc8bf780b81f9f637073b895d7dd39a7e4886895",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成60章参考文献余19条及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验作者拼写、年份、题名、期刊/会议卷页、网页核验日期及译校署名；纠正Ahmad/Motavalli/Starr"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向逐条复核至Grant等（1985）；印刷页码587"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Grant, C.D., Kay, B.D., Groenevelt, P.H., Kidd, G.E., and Thurtell, G.W. 1985. Spectral analysis of micropenetrometer data to characterize soil structure. Can. J. Soil Sci. 65:789–804.",
+      "Hummel, J.W., Ahmad, I.S., Newman, S.C., Sudduth, K.A., and Drummond, S.T. 2004. Simultaneous soil moisture and cone index measurement. Trans. ASAE 47:607–618.",
+      "Jamieson, J.R., Morris, R.J., and Mullins, C.E. 1988. Effect of subsoiling on physical properties and crop growth on a sandy soil with a naturally compact subsoil. In Proceedings 11th Int. Conf. Int. Soil Till. Res. Org., Vol. 2, ISTRO, Edinburgh, Scotland, UK, 499–503.",
+      "Kirby, J.M. and Ayers, P.D. 1993. Cohron sheargraph data: interpretation using critical state soil mechanics. Soil Till. Res. 26:211–225.",
+      "Lapen, D.R., Topp, G.C., Gregorich, E.G., and Curnoe, W.E. 2004. Combination cone penetrometer-water content instrumentation to evaluate cone penetration-water content relationships in tillage research. Soil Till. Res. 79:51–62.",
+      "Lapen, D.R., Topp, G.C., Hayhoe, H.N., Gregorich, E.G., and Curnoe, W.E. 2001. Stochastic simulation of soil strength compaction and assessment of corn yield risk using threshold probability patterns. Geoderma 104:325–343.",
+      "Lloyd, J.E. and Collis-George, N. 1982. A torsional shear box for determining the shear strength of agricultural soils. Aust. J. Soil Res. 20:203–211.",
+      "Lowery, B. and Morrison, J.E., Jr. 2002. Soil penetrometers and penetrability. In: Dane, J.H. and Topp, G.C., eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 363–388.",
+      "Morrison, J.E., Jr., Lowery, B., and Hart, G.L. 2000. Soil penetrometer for sensing soil water content as in soil characterization for site-specific farming. In: Proc. Agrophysical and Ecological Problems of Agriculture in the 21st Century, Vol. 2. International Soil and Tillage Research Organization, St. Petersburg, Russia, 121–129.",
+      "Motavalli, P.P., Anderson, S.H., Pengthamkeerati, P., and Gantzer, C.J. 2003. Use of soil cone penetrometers to detect the effects of compaction and organic amendments in claypan soils. Soil Till. Res. 74:103–114.",
+      "New Zealand Geotechnical Society, Inc. 2001. Test method for determining the vane shear strength of a cohesive soil using a hand held shear vane, 5. Web document; verified April 2006.",
+      "O'Sullivan, M.F., Dickson, J.W., and Campbell, D.J. 1987. Interpretation and presentation of cone resistance data in tillage and traffic studies. J. Soil Sci. 38:137–148.",
+      "Perfect, E., Groenevelt, P.H., Kay, B.D., and Grant, C.D. 1990. Spatial variability of soil penetrometer measurement at the mesoscopic scale. Soil Till. Res. 16:267–271.",
+      "Starr, G.C., Lowery, B., and Cooley, E.T. 2000. Soil water content determination using a network analyzer and coaxial probe. Soil Sci. Soc. Am. J. 64:867–872.",
+      "Sun, Y., Lammers, P.S., and Ma, D. 2004. Evaluation of a combined penetrometer for simultaneous measurement of penetration resistance and soil water content. J. Plant Nutr. Soil Sci. 167:745–751.",
+      "Topp, G.C., Lapen, D.R., Edwards, M.J., and Young, G.D. 2003. Laboratory calibration, in-field validation and use of a soil penetrometer measuring cone resistance and water content. Vadose Zone J. 2:633–641.",
+      "Vesic, A.S. 1972. Expansion of cavities in infinite soil mass. J. Soil Mech. Found. Div., ASCE 98:265–290.",
+      "Waldron, L.J. and Constantin, G.K. 1970. Soil resistance to a slowly moving penetrometer. Soil Sci. 109:221–226.",
+      "Young, G.D., Adams, B.A., and Topp, G.C. 2000. A portable data collection system for simultaneous cone penetrometer force and volumetric soil water content measurements. Can. J. Soil Sci. 80:23–31."
+    ]},
+    {"type": "source-fidelity-note", "text": "原书分别误作Ahmnad、Motavelli、Star，已校正为Ahmad、Motavalli、Starr；Lowery与Morrison条目的Method改为书名Methods。旧网页地址已失去可靠可执行性，仅保留书中‘2006年4月核验’的来源记录。"},
+    {"type": "credits", "text": "张文璨、高伟达译，任图生校。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c472821fca0131cae9943b0ba16bd5bc2474c8a9ed18a9e1c72f8ea6509c5eba"
+}

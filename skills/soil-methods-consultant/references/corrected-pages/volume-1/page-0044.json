@@ -1,0 +1,53 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 44,
+  "sourceImageSha256": "39f7bbe5fdbe3fa29fc75e903b121ac6a0c4d67431af069b6bc3547b2399cca1",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部漏字与错字"},
+    "precisionPass": {"status": "verified", "method": "局部放大核对式（2.1）t的右上角2和右下角α、式（2.2）平方位置、900 m²、KCl、NO₃-N、NH₄-N、tα=1.96、α=0.05、1371和10%"},
+    "secondVisualPass": {"status": "verified", "method": "按章题、作者单位、正文段落、公式字符与位置、变量说明、化学式、数值单位和行尾续接顺序反向复核原页"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "level": 2, "number": "第2章", "title": "森林土壤采样"},
+    {"type": "author", "text": "N. Bélanger and Ken C.J. Van Rees"},
+    {"type": "affiliation", "text": "University of Saskatchewan"},
+    {"type": "location", "text": "Saskatoon, Saskatchewan, Canada"},
+    {"type": "section-heading", "level": 3, "number": "2.1", "title": "引言"},
+    {"type": "paragraph", "text": "引起森林土壤性质变异的原因很多。空间变异性是基岩类型和母质、气候、树种组成和下层植被、扰动（如砍伐、火灾、风倒），以及森林管理活动（如整地、间伐、修剪、施肥、植被管理）的函数。比如，与加拿大砍伐后的混交阔叶林区中前寒武纪地盾浅层岩石性冰碛土相比，澳大利亚次生50年树龄的新西兰松林园区中翻耕后冲积砂土的空间变异性相对较低。混交阔叶林的地被物可能显示出较高的变异性，比如受树倒（Beatty 和 Stone，1986；Clinton 和 Baker，2000）和不同树种影响（Finzi 等，1998；Dijkstra 和 Smits，2002）而造成的地被物厚度差异。此外，在松树林中对土壤进行翻耕可能减少某些由先前种植形成的土壤性质变异性（比如，当远离树干采样时土壤性质会发生改变）。与松树林相比，由于在多岩土中对容重和粗碎屑含量测定存在的问题，矿质土中养分库的评估更加困难（Kulmatiski 等，2003）。在天然林中，整个景观的水平层厚度是具有复杂空间模式的连续体，因此按深度制定重复采样方案也会有更大的问题。"},
+    {"type": "paragraph", "text": "在系统采样和描述森林土壤特性时，必须考虑到所有这些空间变异的来源。这就是为什么必须谨慎选择采样方案，本章专门讨论这一目标；另外，关于场地设计和地块建立的信息可以参考 Pennock（2004）或 Pennock 等人的研究。"},
+    {"type": "section-heading", "level": 3, "number": "2.2", "title": "采样量"},
+    {"type": "paragraph", "text": "要制定一个代表固有变异性和总体真值的采样方案，需要在森林地被物中采集许多样点。确定采样量很重要，因为采样量太大会导致时间、人力和财力的巨大投入，而采样量太小会引起统计检验出现错误。误差范围（d）是指观测样本平均值和总体真平均值之间的最大差异。可以按照下面的公式进行计算（Snedecor 和 Cochran，1980）："},
+    {"type": "formula-reference", "number": "2.1", "text": "d=t_α²·s/√n（按原页字形记录）", "inlineNotation": ["d=t_{alpha}^2 s/sqrt(n)"]},
+    {"type": "paragraph", "text": "式中，tα是一个给定置信水平的t因子（通常是95%），s是平均值百分比的变异系数（CV）。如果已知p值和误差范围，可以对方程进行变形，即可求解所需的采样量：", "inlineNotation": ["t_alpha", "s", "CV", "p"]},
+    {"type": "formula-reference", "number": "2.2", "text": "n=[(t_αs)/d]²", "inlineNotation": ["n=[(t_{alpha}s)/d]^2"]},
+    {"type": "paragraph", "continuation": true, "text": "Arp 和 Krause（1984）在一项测试森林地被物养分浓度和养分库空间变异性的实地研究中，在一块900 m²的地块上采集了98个位点的森林地被物样本。他们的调查研究表明，鲜土中KCl浸提态的NO₃-N、NH₄-N和有效P的浓度和养分库的变异系数值最高，在置信水平为95%和tα=1.96（α=0.05）时，需要多达1371个样品（即KCl浸提的NO₃-N库）才能将总体平均误差范围降低到10%。精确估计养分平均含量需要的样品量比测定其平均浓度所需的更多。这主要是由于研究中森林地被物重量和厚度的变异性较大而引", "inlineNotation": ["900 m^2", "KCl", "NO_3-N", "NH_4-N", "P", "95%", "t_alpha=1.96", "alpha=0.05", "1371", "10%"]}
+  ],
+  "formulas": [
+    {
+      "number": "2.1",
+      "displayAsPrinted": "d=t_α²·s/√n",
+      "latexAsPrinted": "d=t_{\\alpha}^{2}\\frac{s}{\\sqrt{n}}",
+      "sourceIntegrityNote": "原页视觉上t的右上角印有2、右下角印有α，按原貌记录为t_α²；但式（2.2）、变量说明及后文示例按t_α使用，原书内部不一致，未擅自改写。",
+      "variables": [
+        {"symbol": "d", "meaning": "误差范围"},
+        {"symbol": "tα", "latex": "t_{\\alpha}", "meaning": "给定置信水平的t因子（原书称通常是95%）"},
+        {"symbol": "s", "meaning": "平均值百分比的变异系数（CV）"},
+        {"symbol": "n", "meaning": "采样量"}
+      ]
+    },
+    {
+      "number": "2.2",
+      "display": "n=[(t_αs)/d]²",
+      "latex": "n=\\left[\\frac{t_{\\alpha}s}{d}\\right]^2",
+      "variables": [
+        {"symbol": "n", "meaning": "所需采样量"},
+        {"symbol": "tα", "latex": "t_{\\alpha}", "meaning": "给定置信水平的t因子"},
+        {"symbol": "s", "meaning": "平均值百分比的变异系数（CV）"},
+        {"symbol": "d", "meaning": "误差范围"}
+      ]
+    }
+  ],
+  "tables": [],
+  "contentSha256": "063c38886e7c614594e03ac74f39b2149bbaa5721a0a516b96c1a9822e460544"
+}

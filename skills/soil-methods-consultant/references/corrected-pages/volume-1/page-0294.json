@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 294,
+  "sourceImageSha256": "d862df0370fc427227843c4680e3a9b69ad77a3a7ae94ca8e7a69afb64e5e89a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第30章首页，人工恢复章名、作者与机构、30.1引言、30.2采样方法及页底跨页断句"},
+    "precisionPass": {"status": "verified", "method": "核对Dalpé附加符号、菌根三类中英文名称与AM/EM/ERM缩写、植物科名、引文、百分数及15 cm、20～25 cm、40～50 cm深度单位"},
+    "secondVisualPass": {"status": "verified", "method": "从页底‘混合’跨页断句反向复核至章标题，确认层级、三类菌根编号、非宿主科列表及全部作者年份"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "第30章", "title": "丛枝菌根"},
+    {"type": "chapter-author", "name": "Y. Dalpé", "affiliation": "Agriculture and Agri-Food Canada", "location": "Ottawa, Ontario, Canada"},
+    {"type": "chapter-author", "name": "C. Hamel", "affiliation": "Agriculture and Agri-Food Canada", "location": "Swift Current, Saskatchewan, Canada"},
+    {"type": "heading", "level": 1, "number": "30.1", "title": "引言"},
+    {"type": "paragraph", "text": "大多数植物类型可以与菌根真菌形成共生体，它能增加根系对水分和矿质养分的摄取。这些土传真菌可以寄生在根际皮层并形成外部菌丝，从而连接根系和土壤。它们被普遍认为能够改善植物适应性和土壤质量，广泛分布于所有生态系统，是农业系统中最普遍的共生体，进而影响植物产量和植物保护。"},
+    {"type": "paragraph", "text": "菌根真菌可以细分为三个主要类别：①丛枝菌根（arbuscular mycorrhizal，AM）真菌，专性共生体，隶属于球囊菌门，通常与大部分禾本科和栽培类植物及一些落叶林共生；②外生菌根（ectomycorrhizal，EM）真菌，分类学上和通常与乔木共生的担子菌类及子囊菌有关联；③欧石楠类菌根（ericoid mycorrhizal，ERM），一种主要与子囊菌和欧石楠族植物（如蓝莓、杜鹃和石南属植物）之间形成的共生体。"},
+    {"type": "heading", "level": 1, "number": "30.2", "title": "采样方法"},
+    {"type": "paragraph", "text": "一些用于菌根研究的方法很耗费时间，因而采样计划通常需要平衡对精密度的要求和有限的资源。为考虑不同变量的精确测量，在多样化的采样位点中，需要采用更加集中或由目标导向的采样方式。因此，了解影响土壤AM结构分布差异的因素有助于确定高效的采样方案。"},
+    {"type": "paragraph", "text": "采样方法必须根据试验目标、研究区域条件，以及这些条件下AM真菌在土壤中的分布进行仔细计划。土壤中AM真菌的出现很大程度上受到植物分布的驱动。一些植物物种并不能作为AM真菌的宿主。这些非宿主物种主要存在于蓼科、灯心草科、十字花科、石竹科、藜科、苋科、半日花科、松科、山毛榉科、欧石楠科及毛茛科。此外，不同植物物种可能会选择性地增加周围环境中不同AM物种，同时，在一些植物群落中，AM真菌物种分布可能会遵循植物物种的分布（Gollotte等，2004）。"},
+    {"type": "paragraph", "continuesOnPage": 295, "text": "AM孢子的丰度一般随土壤深度增加而减少，通常在根区以下消失。在加拿大东部耕作和非耕作区，约75%的AM孢子和菌丝发现于土壤表层15 cm处，但这些结构仍然存在于20～25 cm深度（Kabir等，1998b）。很少有繁殖体发现于40～50 cm以下（Jakobsen和Nielsen，1983）。AM群落在深层土壤不仅丰度下降，结构也与表层土壤群落存在差异。深度土壤AM群落可能比土壤表层的更稳定，而表层土壤群落会受到作物管理的影响（Oehl等，2005）。AM真菌往往遵循植物根系分布，在行栽作物的土壤中，行内要比行间丰度更高（Kabir等，1998a）。AM根际定殖的发展是一个三部过程，包括迟滞期、指数期和平台期（McGonigle，2001）。迟滞期的长度取决于土壤菌根潜力及宿主植物菌根依赖度，这可以通过降低土壤温度增加其依赖度。例如，根际定殖在玉米开花期达到峰值，之后降低直至宿主达衰老期（Kabir等，1998a）。取样策略必须适合于所研究问题的要求。混合"},
+    {"type": "source-fidelity-note", "scope": "30.2", "text": "原书印作‘AM根际定殖的发展是一个三部过程’，结合后文‘迟滞期、指数期和平台期’，语义应为三个阶段或三步过程。本语料保留原书‘三部’字样并显式加注。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9eb66841a31a5c2a40c19e6c86a1cf66b6afef12714b2104cf23c8b250a1ec72"
+}

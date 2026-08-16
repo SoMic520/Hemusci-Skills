@@ -1,0 +1,78 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 551,
+  "sourceImageSha256": "b3172346526b2a8e168a13d909f1da9016a074c1a05371e7dc27db1c60a41470",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，完成图54.3、Keeling图说明、54.6及参考文献首条"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验δ¹⁵N/δ¹³C、CO₂、1/浓度、y=246.18x−19.247、R²=0.9954、<1‰以及C/N/S元素符号"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由参考文献跨页条目反向复核至图54.3，检查坐标、负号、‰符号、引文年份和印刷页码520"
+    }
+  },
+  "blocks": [
+    {
+      "type": "figure",
+      "number": "图54.3",
+      "title": "盆栽植物叶片δ¹⁵N与总N浓度及其倒数的示例关系",
+      "details": "图(a)为δ¹⁵N对总N浓度（任意单位）；图(b)为δ¹⁵N对总N浓度倒数，回归y=246.18x−19.247，R²=0.9954。图(b)的y轴截距−19.247‰可估计在提高总N浓度同时使叶片δ¹⁵N下降的氮源端元δ¹⁵N，前提是两来源线性混合及浓度依赖假设成立。"
+    },
+    {
+      "type": "method-summary",
+      "title": "Keeling图估算土壤呼吸CO₂的δ¹³C",
+      "text": "沿空气CO₂浓度梯度采集一系列样品，同时测CO₂浓度和δ¹³C；将δ¹³C对CO₂浓度倒数作图，在背景端元稳定、呼吸源端元稳定且二端元混合成立时，回归截距估算土壤呼吸CO₂的δ¹³C（Keeling，1958，1961；Flanagan和Ehleringer，1998）。土壤CO₂扩散造成的同位素分馏可能需要校正。"
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "number": "54.6",
+      "title": "关于稳定同位素在环境研究中应用的说明"
+    },
+    {
+      "type": "paragraph",
+      "text": "轻元素连续流同位素比质谱的发展和自动化提高了分析效率，并可减少制样与操作误差。但在许多土壤研究中，田间试验与取样引入的同位素组成变异可能大于仪器分析变异；若忽略端元、转化过程和分馏，结果很容易被误解。"
+    },
+    {
+      "type": "quality-principle",
+      "text": "书引O’Leary等（1992）的‘归零法则’：对<1‰的效应保持怀疑。小于1‰的差异可能真实且统计显著，但土壤内在变异和有机质异质性也可能掩盖或伪造这种微小效应；必须以重复、质控、效应量和不确定度判断。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "54.6归零法则",
+      "text": "原页符号为‘<1‰’，不是‘<1%’。本Skill统一采用术语‘稳定同位素’，原书章名中的‘稳定性同位素’仅作为原题名保留在来源层。"
+    },
+    {
+      "type": "paragraph",
+      "text": "同位素技术应嵌入设计严谨、并采用适当非同位素方法的研究（Pennock，2004），以浓度、通量、库容、水文、地质和地球化学等独立信息约束解释。Kendall和Caldwell（1998）所引Fretwell法则强调：稳定同位素数据不能脱离这些背景证据单独使用。"
+    },
+    {
+      "type": "reference-list-heading",
+      "title": "参考文献"
+    },
+    {
+      "type": "reference-entry-cross-page",
+      "text": "Accoe, F., Boeckx, P., van Cleemput, O., Hofman, G., Zhang, Y., hua Li, R., and Guanxiong, C. 2002. Evolution of the δ¹³C signature related to total carbon contents and carbon decomposition rate constants in a soil profile under grassland. Rapid [续见第552页]"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "figure-54.3-regression",
+      "display": "δ¹⁵N_leaf = 246.18(1/N_leaf) − 19.247；R²=0.9954",
+      "meaning": "图54.3(b)示例回归；截距估计未知氮源端元δ¹⁵N"
+    },
+    {
+      "id": "54.5.3-keeling-form",
+      "display": "δ¹³C_mix = a(1/[CO₂]_mix) + δ¹³C_source",
+      "meaning": "Keeling图的线性形式；截距为源CO₂的同位素组成"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "45da7385b671a6fa78add8fb1489f4cc9d8e6c4d01eaac74f17ae35c3b7909ee"
+}

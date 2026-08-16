@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 218,
+  "sourceImageSha256": "2d48c44d70db5fdf2015111f0763ee91ba2e7ee71fba5b394c8dad5b7ff4c912",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐式对照原分辨率页图、两套OCR、英文原章及量纲，完成第74章标题、74.1、74.2和式(74.1)"},
+    "precisionPass": {"status": "verified", "method": "核验7—15 mL、10—20 g、−20至−40 m、R=8.314 J·mol⁻¹·K⁻¹、T(K)、V_w=1.8×10⁻⁵ m³·mol⁻¹及e/e_s"},
+    "secondVisualPass": {"status": "verified", "method": "由式(74.1)压力量纲反推水头转换ρ_wg，并反向复核全页[L]/[M·M⁻¹]/[M·L⁻³]和负号；印刷页码727"}
+  },
+  "blocks": [
+    {"type": "chapter", "number": "74", "title": "土壤水分特征曲线：露点干湿计法", "authors": ["W.D. Reynolds", "G. Clarke Topp"]},
+    {"type": "heading", "number": "74.1", "title": "引言", "level": 2},
+    {"type": "principle", "text": "露点干湿计同时测扰动土样基质水头ψ_m和相对烘干土质量变化，得到质量含水量θ_g；另测干容重ρ_b和水密度ρ_w后由θ_v=θ_gρ_b/ρ_w求体积含水量。只需7—15 mL（10—20 g）土，主要用于曲线干端（约ψ_m≤−20至−40 m）；每个平衡样的一次测定形成一个曲线点。"},
+    {"type": "heading", "number": "74.2", "title": "理论与原理", "level": 2},
+    {"type": "principle", "text": "干湿计由土壤空气平衡相对水汽压e/e_s（相对湿度）求孔隙水基质水头。R=8.314 J·mol⁻¹·K⁻¹，T为绝对温度（K），V_w为水摩尔体积1.8×10⁻⁵ m³·mol⁻¹，ρ_w为水密度，g为重力加速度；e和e_s分别为温度T下实际与饱和水汽压。热电偶干湿计用凝结—再蒸发造成的湿球热电偶温降；露点法冷却已与土壤空气平衡的镜面至凝结露点。露点法量程更宽、对温度梯度稍不敏感、测定更快。"},
+    {"type": "paragraph", "text": "露点仪把土样置小密室，使顶部空气与土壤水达到温度和水汽压平衡；密室原理续下页。"},
+    {"type": "source-fidelity-note", "text": "原书及英文原章把ψ_m定义为基质水头[L]，但式(74.1)印为(RT/V_w)ln(e/e_s)，其量纲为压力Pa而非长度。用于水头m时必须除以ρ_wg，故规范式补入ρ_wg；若输出基质势压力，则可用原印压力形式。原书T单位写°K，规范为K；V_w指数核定为10⁻⁵。"}
+  ],
+  "formulas": [
+    {"label": "74.1", "plain": "ψ_m = [RT/(ρ_w g V_w)] ln(e/e_s)", "latex": "\\psi_m=\\frac{RT}{\\rho_w g V_w}\\ln\\left(\\frac{e}{e_s}\\right)", "resultUnit": "m water head"}
+  ],
+  "tables": [],
+  "contentSha256": "3fcd13d91d54609e96ab37bccfefb05ca421e5c417c5b926764b99482eac7efb"
+}

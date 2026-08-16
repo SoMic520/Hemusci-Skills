@@ -1,0 +1,21 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 168,
+  "sourceImageSha256": "612da8c9c989d125f371f57460c6a45d34032073efca8f03f50bd6523139224c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐图逐轴对照原分辨率页图和两套OCR，完成图69.7(a)(b)、图69.8及饱和材料适用说明"},
+    "precisionPass": {"status": "verified", "method": "核验α/α*、cm⁻¹、K(ψ) cm·s⁻¹、NP m⁻²、PD mm及对数轴数量级"},
+    "secondVisualPass": {"status": "verified", "method": "由页末说明反向复核三图图例、曲线类型与坐标单位；印刷页码677"}
+  },
+  "blocks": [
+    {"type": "figure", "number": "69.7(a)", "title": "代表性砂质土及有结构、无结构壤质土的参数α(ψ)与基质水头ψ关系", "axes": {"x": "孔隙水压力水头ψ（cm）", "y": "参数α(ψ)（cm⁻¹）"}, "series": ["砂土（实线）", "壤土/无结构壤土（点线）", "有结构壤土（虚线）"]},
+    {"type": "figure", "number": "69.7(b)", "title": "有结构壤土的α(ψ)与吸渗数α*(ψ)关系", "axes": {"x": "孔隙水压力水头ψ（cm）", "y": "α(ψ)或α*(ψ)（cm⁻¹）"}, "series": ["α(ψ)（实线）", "α*(ψ)（点线）"]},
+    {"type": "figure", "number": "69.8", "title": "有结构壤土K(ψ)、单位面积FWM孔隙数NP(ψ)与FWM孔隙直径PD(ψ)的关系", "axes": {"x": "流量权重平均直径PD(ψ)（mm，对数轴）", "y": "K(ψ)（cm·s⁻¹）或NP(ψ)（孔隙个数·m⁻²），对数轴"}, "series": ["K(ψ)（实线）", "NP(ψ)（点线）"]},
+    {"type": "paragraph", "text": "对非饱和多孔材料（见69.5节），测定其饱和流参数时也可应用式(69.14)—(69.19)。"},
+    {"type": "source-fidelity-note", "text": "本页主体为参数关系图，不应把示例曲线离散读数当作通用土壤常数。图69.8同时使用两种y轴量纲，必须按图例区分K与NP；PD横轴单位为mm而非cm。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "3e06e526dc3598d09e94dec6026de38574da3e0210311b3dcfd40d7abb1e1ff2"
+}

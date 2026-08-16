@@ -1,0 +1,103 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 311,
+  "sourceImageSha256": "b0cb9736e4c5a484cb6638de77ac9de4ab76825549b3736b9ea8397439707839",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对两点法续文、图84.1、替代数据法、式(84.3b,c)/(84.4a～c)及表84.1"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "由lgθ—lg|ψ|斜率复核b的负倒数，核对Sa/Cl粒级、kPa单位及表84.1全部12个常数"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "绝对值、Δx/Δy、ln与lg、指数b及系数I/J/L逐字符二次反查；印刷页码820"
+    }
+  },
+  "blocks": [
+    {
+      "type": "continuation",
+      "section": "84.2.1 Brooks–Corey θ(ψ)模型两点法",
+      "paragraphs": [
+        "b为两点间直线斜率的负倒数（见图84.1）。把θ_sat和b代入式(84.1a)得θ_i；重排式(84.3b)为式(84.3c)求ψ_i，其中数据点(ψ₁,θ₁)必须位于式(84.1b)有效范围。算例见84.4。"
+      ]
+    },
+    {
+      "type": "figure",
+      "number": "84.1",
+      "title": "基于表84.3的土壤含水量θ与基质水头ψ的关系",
+      "axes": {
+        "x": "基质势（对数）",
+        "y": "含水量（对数）"
+      },
+      "series": [
+        "全部数据",
+        "回归拟合数据",
+        "线性回归",
+        "基于“两点法”拟合的数据"
+      ],
+      "note": "图中同时给出Brooks–Corey模型回归法和两点法的拟合结果。"
+    },
+    {
+      "type": "subheading",
+      "title": "3. Brooks–Corey θ(ψ)模型替代数据法（Saxton等，1986）"
+    },
+    {
+      "type": "model-note",
+      "text": "替代数据法基于土壤质地经验回归，用式(84.4a)～式(84.4c)计算θ_sat、b和a。Cl为直径<2 μm的黏粒质量百分数，Sa为0.05～2 mm砂粒的质量百分数；此砂粒范围按USDA系统划分，不同于英国和澳大利亚系统，后续算例见表84.4的质地调整。式(84.4c)所得a的单位为kPa。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "84.3b",
+      "plain": "b=−Δx/Δy=−[lg|ψ₁|−lg|ψ₂|]/(lgθ₁−lgθ₂)",
+      "latex": "b=-\\frac{\\Delta x}{\\Delta y}=-\\frac{\\lg|\\psi_1|-\\lg|\\psi_2|}{\\lg\\theta_1-\\lg\\theta_2}"
+    },
+    {
+      "label": "84.3c",
+      "plain": "lg|ψ_i|=−b(lgθ_i−lgθ₁)+lg|ψ₁|",
+      "latex": "\\lg|\\psi_i|=-b(\\lg\\theta_i-\\lg\\theta_1)+\\lg|\\psi_1|"
+    },
+    {
+      "label": "84.4a",
+      "plain": "θ_sat=A+B(Sa)+D ln(Cl)",
+      "latex": "\\theta_{sat}=A+B(Sa)+D\\ln(Cl)"
+    },
+    {
+      "label": "84.4b",
+      "plain": "b=E+F(Cl)²+G(Sa)²(Cl)",
+      "latex": "b=E+F(Cl)^2+G(Sa)^2(Cl)"
+    },
+    {
+      "label": "84.4c",
+      "plain": "a=100exp[H+I(Cl)+J(Sa)²+L(Sa)²(Cl)]/θ_sat^b（kPa）",
+      "latex": "a=\\frac{100\\exp\\!\\left[H+I(Cl)+J(Sa)^2+L(Sa)^2(Cl)\\right]}{\\theta_{sat}^{b}}\\ \\mathrm{kPa}"
+    }
+  ],
+  "tables": [
+    {
+      "number": "84.1",
+      "title": "采用Saxton等（1986）土壤质地法确定Brooks–Corey θ(ψ)模型所用参数",
+      "columns": ["参数", "值"],
+      "rows": [
+        ["A", "0.332"],
+        ["B", "−7.251×10⁻⁴"],
+        ["D", "0.0555"],
+        ["E", "3.140"],
+        ["F", "2.22×10⁻³"],
+        ["G", "3.484×10⁻⁵"],
+        ["H", "−4.396"],
+        ["I", "−0.0751"],
+        ["J", "−4.880×10⁻⁴"],
+        ["L", "−4.285×10⁻⁵"]
+      ],
+      "notes": [
+        "M=−0.108、N=0.341，均为无量纲经验常数；用于下一页式(84.4d)。"
+      ]
+    }
+  ],
+  "contentSha256": "fe02be6a90355ba8be53a5b4e34ea7fce6584fc8683f0f062deca6d2309fbd57"
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 249,
+  "sourceImageSha256": "b6cfefb476e88b4a626cfc0bcf09fa0365dd23b9429ae440f0ce15cc61ce39d5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐图注逐格逐段对照原分辨率页图、两套OCR和英文原章，完成图77.5、表77.3及77.2.3(1)—(2)未完"},
+    "precisionPass": {"status": "verified", "method": "核验Δθ=0.50、R=0.0278、C=−16.9856、H₀=0.50 m/50 cm、8000 s、K_fs=1.41×10⁻⁷及全部派生参数"},
+    "secondVisualPass": {"status": "verified", "method": "以C=1−0.50/0.0278复算−16.9856，并用K_fs/α*复算φ_m=3.53×10⁻⁶；印刷页码758"}
+  },
+  "blocks": [
+    {
+      "type": "figure",
+      "number": "77.5",
+      "title": "降水头单环法H—t数据拟合式(77.5)",
+      "inputs": ["Δθ=0.50", "R=0.0278", "C=−16.9856", "H₀=0.50 m"],
+      "fitted": ["K_fs=1.41×10⁻⁷ cm·s⁻¹", "α*=0.04 cm⁻¹"],
+      "derived": ["φ_m=3.53×10⁻⁶ cm²·s⁻¹", "ψ_f=−25 cm", "S=1.79×10⁻³ cm·s⁻¹ᐟ²", "PD=0.0059 cm", "NP=4.85×10⁴ pores·m⁻²"]
+    },
+    {"type": "heading", "number": "77.2.3", "title": "注释", "level": 3},
+    {
+      "type": "method-notes",
+      "items": [
+        "代表性样体积至少应含20个结构单元。均匀单粒砂/无结构介质环径宜≥5—10 cm；石砾多且异质的砂、有结构砂壤土/粉壤土宜≥30 cm；有结构黏土/黏壤土宜≥50 cm。",
+        "按表76.1分类估α*会带来误差。单恒水头式(77.1)可增大a和H，简化降水头式(77.6)可增大H₀和H_a，以降低α*项相对影响；也可用相邻分类α*重算作敏感性界限。内容续下页。"
+      ]
+    },
+    {"type": "source-fidelity-note", "text": "表77.3介质英文原表为unstructured clay loam，规范为“无结构黏壤土”，不是含糊的“结构性差”。C为负值−16.9856，负号由定义和数值反算确认。"}
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "number": "77.3",
+      "title": "单圆环简化降水头分析案例（式77.6）",
+      "columns": ["项目", "数值"],
+      "rows": [["圆环半径r_c","15 cm"],["插入深度d","10 cm"],["储水管半径r_s","2.5 cm"],["初始水头H₀","50 cm"],["介质","无结构黏壤土；α*=0.04 cm⁻¹"],["含水量","θ_fs=0.70，θ_i=0.20，Δθ=0.50"],["初始点","t₀=0 s，H₀=50 cm"],["计算点","t_a=8000 s，H_a=40 cm"],["R=A_s/A_c","0.0278"],["C=1−Δθ/R","−16.9856"],["K_fs","1.41×10⁻⁷ cm·s⁻¹"]]
+    }
+  ],
+  "contentSha256": "779c2b11e0aeba3077fbadb0f4b20fa39c9e96db62b6e1d51b60ace59e654cee"
+}

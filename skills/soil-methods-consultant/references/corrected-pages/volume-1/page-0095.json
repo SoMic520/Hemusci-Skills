@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 95,
+  "sourceImageSha256": "93a19e53ce004659f0ca20251511fe8ab64e9ea069ec97c7bbfded322862bc21",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐字符对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复法文重音、作者串、题名、卷页及跨页末句"},
+    "precisionPass": {"status": "verified", "method": "放大核对DTPA、SP126、EPA method 3050、期刊缩写、URL、2-5 September 1992、1ʳᵉdition等版本字符及原书Mehlich-1and/Cuand连写"},
+    "secondVisualPass": {"status": "verified", "method": "由Breeuwsma续句至Sims等1991未完条目逐条反向复核，并核验法文专名、所有年份卷页和印刷页码64"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-entry", "continuation": true, "text": "eds. Chemical Time Bombs. Proceedings of the European Conference, Veldhoven, the Netherlands, 2-5 September 1992. Foundation for Ecodevelopment, Hoofddorp, the Netherlands, 79-85."},
+    {"type": "reference-entry", "text": "Cancela, R.C., de Abreu, C.A., and Paz Gonzalez, A. 2002. DTPA and Mehlich-3 micronutrient extractability in natural soils. Commun. Soil Sci. Plant Anal. 33: 2879-2893."},
+    {"type": "reference-entry", "text": "Cox, M.S. 2001. The Lancaster soil test method as an alternative to the Mehlich 3 soil test method. Soil Sci. 166: 484-489."},
+    {"type": "reference-entry", "text": "CPVQ. 1989. Grille de fertilisation. Conseil des productions végétales du Québec. Ministére de l’Agriculture, des Pêcheries et de l’Alimentation du Québec, Québec, QC, Canada, 128."},
+    {"type": "reference-entry", "text": "CRAAQ. 2003. Guide de référence en fertilisation. 1ʳᵉdition. Centre de référence en agriculture et agroalimentaire du Québec (CRAAQ). Québec, QC, Canada, 294."},
+    {"type": "reference-entry", "text": "Eckert, D.J. and Watson, M.E. 1996. Integrating the Mehlich-3 extractant into existing soil test interpretation schemes. Commun. Soil Sci. Plant Anal. 27: 1237-1249."},
+    {"type": "reference-entry", "text": "Jones, J.B. Jr. 1998. Soil test methods: past, present, and future use of soil extractants. Commun. Soil Sci. Plant Anal. 29: 1543-1552."},
+    {"type": "reference-entry", "text": "Khiari, L., Parent, L.E., Pellerin, A., Alimi, A.R.A., Tremblay, C., Simard, R.R., and Fortin, J. 2000. An agri-environmental phosphorus saturation index for acid coarse-textured soils. J. Environ. Qual. 29: 1561-1567."},
+    {"type": "reference-entry", "text": "Lindsay, W.L. and Norvell, W.A. 1978. Development of a DTPA soil test for zinc, iron, manganese, and copper. Soil Sci. Soc. Am. J. 42: 421-428."},
+    {"type": "reference-entry", "text": "Makarim, A.K. and Cox, F.R. 1983. Evaluation of the need for copper with several soil extractants. Agron. J. 75: 493-496."},
+    {"type": "reference-entry", "text": "Mallarino, A. and Sawyer, J.E. 2000. Interpreting Mehlich-3 soil test results, SP126. Iowa State University, University Extension: Ames, IW; www.extension.iastate.edu/Publications/SP126.pdf, Ames Iowa (last verified March 2006)."},
+    {"type": "reference-entry", "text": "Mallarino, A.P. 2003. Field calibration for corn of the Mehlich-3 soil phosphorus test with colorimetric and inductively coupled plasma emission spectroscopy determination methods. Soil Sci.Soc. Am. J. 67: 1928-1934."},
+    {"type": "reference-entry", "text": "Mehlich, A. 1984. Mehlich-3 soil test extractant: a modification of Mehlich-2 extractant. Commun. Soil Sci. Plant Anal. 15: 1409-1416."},
+    {"type": "reference-entry", "text": "Michaelson, G.J., Ping C.L., and Mitchell, C.A. 1987.Correlation of Mehlich-3, Bray 1 and ammonium acetate extractable P, K, Ca, and Mg for Alaska agricultural soils. Commun. Soil Sci. Plant Anal. 18: 1003-1015."},
+    {"type": "reference-entry", "text": "Munter, R.C. 1990. Advances in soil testing and plant analysis analytical technology. Commun. Soil Sci. Plant Anal. 21: 1831-1841."},
+    {"type": "reference-entry", "text": "Mylavarapu, R.S., Sanchez, J.F., Nguyen, J.H., and Bartos, J.M. 2002. Evaluation of Mehlich-1and Mehlich-3 extraction procedures for plant nutrients in acid mineral soils of Florida. Commun. Soil Sci. Plant Anal. 33: 807-820."},
+    {"type": "reference-entry", "text": "Sharpley, A., Daniel, T.C., Sims, J.T., and Pote, D.H. 1996. Determining environmentally sound soil phosphorus levels. J. Soil Water Conserv. 51: 160-166."},
+    {"type": "reference-entry", "text": "Sikora, F.J., Howe, P.S., Hill, L.E., Reid, D.C., and Harover, D.E. 2005. Comparison of colorimetric and ICP determination of phosphorus in Mehlich 3 soil extracts. Commun. Soil Sci. Plant Anal. 36: 875-887."},
+    {"type": "reference-entry", "text": "Simard, R.R., Tran, T.S., and Zizka, J. 1991. Strontium chloride-citric acid extraction evaluated as a soil-testing procedure for phosphorus. Soil Sci. Soc. Am. J. 55: 414-421."},
+    {"type": "reference-entry", "text": "Sims, J.T. 1989. Comparison of Mehlich-1 and Mehlich-3 extractants for P, K, Ca, Mg, Mn, Cuand Zn in Atlantic Coastal plain soils. Commun. Soil Sci. Plant Anal. 20: 1707-1726."},
+    {"type": "reference-entry", "text": "Sims, J.T. 1993. Environmental soil testing for phosphorus. J. Prod. Agric. 6: 501-507."},
+    {"type": "reference-entry", "continuation": true, "text": "Sims, J.T., Igo, E., and Skeans, Y. 1991. Comparison of routine soil tests and EPA method 3050 as extractants for heavy metals in"},
+    {"type": "printed-page-number", "text": "64"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "43b1f72c723295a3582c896149490e542e9a4f01bc78100f0762e786b4f061ca"
+}

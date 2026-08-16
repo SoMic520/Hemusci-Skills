@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 156,
+  "sourceImageSha256": "f93539654e3db3598f127dd838bcb97c6b03ad1509e030a551dd49d86a8e11d7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率参考文献页，并与Apple Vision、PaddleOCR交叉比对，人工合并换行"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者缩写、撒利文符号、年份、卷页、1 : 1/1 : 2、25M=3=83、In:和英文标点"},
+    "secondVisualPass": {"status": "verified", "method": "从Jurinak条目反向复核至Basta条目，确认全21条文献顺序、分行归属和页码125"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第15章｜电导率和可溶性离子｜"},
+    {"type": "reference", "text": "Basta, N.T. and Tabatabai, M. 1985. Determination of exchangeable bases in soils by ion chromatography. Soil Sci. Soc. Am. J. 49:84-89."},
+    {"type": "reference", "text": "Bennett, D.R. 1988. Soil chemical criteria for irrigation suitability classification of Brown Solonetzic soils. Can. J. Soil Sci. 68:703-714."},
+    {"type": "reference", "text": "Bernstein, L. 1975. Effects of salinity and sodicity on plant growth. Ann. Rev. Phytopathol. 13:295-312."},
+    {"type": "reference", "text": "Bohn, H., McNeal, B., and O’Connor, G. 1979. Soil Chemistry. John Wiley & Sons, Toronto, ON, Canada."},
+    {"type": "reference", "text": "Cannon, M.E., McKenzie, R.C., and Lachapelle, G. 1994. Soil salinity mapping with electromagnetic induction and satellite-based navigation methods. Can. J. Soil Sci. 74:335-343."},
+    {"type": "reference", "text": "Carter, M.R., Webster, G.R., and Cairns, R.R. 1979. Calcium deficiency in some Solonetzic soils of Alberta. J. Soil Sci. 30:161-174."},
+    {"type": "reference", "text": "Corwin, D.I. and Rhoades, J.D. 1982. An improved technique for determining soil electrical conductivity-depth relations from aboveground electromagnetic measurements. Soil Sci. Soc. Am. J. 46:517-520."},
+    {"type": "reference", "text": "Corwin, D.L. and Lesch, S.M. 2003. Application of soil electrical conductivity to precision agriculture:theory, principles, and guidelines. Agron. J. 95:455-471."},
+    {"type": "reference", "text": "Curtin, D., Selles, F., and Steppuhn, H. 1995. Sodium-calcium exchange selectivity as influenced by soil properties and method of determination. Soil Sci. 159:176-184."},
+    {"type": "reference", "text": "Curtin, D., Steppuhn, H., and Selles, F. 1993. Plant responses to sulfate and chloride salinity:growth and ionic relations. Soil Sci. Soc. Am. J. 57:1304-1310."},
+    {"type": "reference", "text": "Frankenberger, W.T. Jr., Tabatabai, M.A., Adriano, D.C., and Doner, H.E. 1996. Bromine, chlorine, and fluorine. In:D.L. Sparks et al., eds. Methods of Soil Analysis, Part 3—Chemical Methods. SSSA Book Series No. 5, SSSA and ASA, Madison, WI, 833-868."},
+    {"type": "reference", "text": "Freeze, R.A. and Cherry, J.A. 1979. Ground Water. Prentice-Hall, Englewood Cliffs, NJ."},
+    {"type": "reference", "text": "Hao, X. and Chang, C. 2003. Does long-term heavy manure application increase salinity of a clay loam soil in semi-arid southern Alberta? Agric. Ecosyst. Environ. 94:89-103."},
+    {"type": "reference", "text": "Helmke, P.A. and Sparks, D.L. 1996. Lithium, sodium, potassium, rubidium, and cesium. In:D.L. Sparks et al., eds. Methods of Soil Analysis, Part 3—Chemical Methods. SSSA Book Series No. 5, SSSA and ASA, Madison, WI, 551-574."},
+    {"type": "reference", "text": "Hendrickx, J.M.H., Baerends, B., Raza, Z.I., Sadig, M., and Akram, M. 1992. Soil salinity assessment by electromagnetic induction of irrigated land. Soil Sci. Soc. Am. J. 56:1933-1941."},
+    {"type": "reference", "text": "Hogg, T.J. and Henry, J.L. 1984. Comparison of 1 : 1 and 1 : 2 suspensions and extracts with the saturation extract in estimating salinity in Saskatchewan soils. Can. J. Soil Sci. 64:699-704."},
+    {"type": "reference", "text": "Holm, H.M. 1983. Soil Salinity, a Study in Crop Tolerances and Cropping Practices. Saskatchewan Agriculture Publication No. 25M=3=83. Plant Industry Branch, Regina, SK, Canada."},
+    {"type": "reference", "text": "Howard, D.D. and Adams, F. 1965. Calcium requirement for penetration of subsoils by primary cotton roots. Soil Sci. Soc. Am. Proc. 29:558-562."},
+    {"type": "reference", "text": "Janzen, H.H. 1993. Soluble salts. In:M.R. Carter, ed. Soil Sampling and Methods of Analysis. Lewis Publishers, Boca Raton, FL, 161-166."},
+    {"type": "reference", "text": "Janzen, H.H. and Chang, C. 1987. Cation nutrition of barley as influenced by soil solution composition in a saline soil. Can. J. Soil Sci. 67:619-629."},
+    {"type": "reference", "text": "Jurinak, J.J. 1990. The chemistry of salt-affected soils and waters. In:K.K. Tanji, ed. Agricultural Salinity Assessment and Management. ASCE, New York, NY, 42-63."},
+    {"type": "printed-page-number", "text": "125"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "438fc0bb02c4009f84dfbfbc1944afa7c26e954d3e945d478f157fe4cf55ebbc"
+}

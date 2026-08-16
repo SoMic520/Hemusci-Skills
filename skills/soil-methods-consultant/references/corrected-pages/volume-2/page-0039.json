@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 39,
+  "sourceImageSha256": "f98b88137ee9e512ec2f862a7e3c1e19129e35d4832b8ed9d05fdd5170e95b60",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Kirby续句至Yule 1980b共21条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验作者缩写、年份后缀、引号、书名/期刊、卷页、Report No. 113、Handbook No. 436和译校姓名"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向逐条复核至Kirby续词，规范access tube、Melbourne和Aust.检索拼写并保留来源事实；印刷页码548"}
+  },
+  "blocks": [
+    {"type": "reference-entry-continuation", "text": "Kirby, J.M., Bernardi, A.L., Ringrose-Voase, A.J., Young, R., and Rose, H. 2003. Field swelling, shrinking, and water content change in a heavy clay soil. Aust. J. Soil Res. 41: 963–978."},
+    {"type": "reference-entry", "text": "McGarry, D. 2002. Soil shrinkage. In N.J. McKenzie, K.J. Coughlan, and H.P. Cresswell, eds. Soil Physical Measurement and Interpretation for Land Evaluation. CSIRO Australia, Melbourne, 240–260."},
+    {"type": "reference-entry", "text": "McKenzie, N.J., Jacquier, D.J., and Ringrose-Voase, A.J. 1994. A rapid method for estimating soil shrinkage. Aust. J. Soil Res. 32: 931–938."},
+    {"type": "reference-entry", "text": "Mills, J.J., Murphy, B.W., and Wickham, H.G. 1980. A study of three simple laboratory tests for the prediction of soil shrink-swell behaviour. J. Soil Cons. Serv. NSW 36: 77–82."},
+    {"type": "reference-entry", "text": "Mitchell, A.R. 1992. Shrinkage terminology: escape from ‘normalcy’. Soil Sci. Soc. Am. J. 56: 993–994."},
+    {"type": "reference-entry", "text": "Parker, J.C., Amos, D.F., and Kaster, D.L. 1977. An evaluation of several methods of estimating soil volume change. Soil Sci. Soc. Am. J. 41: 1059–1064."},
+    {"type": "reference-entry", "text": "Peng, X., Horn, R., Deery, D., Kirkham, M.B., and Blackwell, J. 2005. Influence of soil structure on the shrinkage behaviour of a soil irrigated with saline-sodic water. Aust. J. Soil Res. 43: 555–563."},
+    {"type": "reference-entry", "text": "Pillai-McGarry, U.P.P. and McGarry, D. 1999. Structure repair of a compacted vertisol with wet-dry cycles and rotation crops. Soil Sci. Soc. Am. J. 63: 201–210."},
+    {"type": "reference-entry", "text": "Prebble, R.E. 1991. Shrinkage, moisture characteristic, and strength of cracking clay soils. CSIRO Division of Soils, Divisional Report No. 113, Melbourne, Australia, 19."},
+    {"type": "reference-entry", "text": "Reeve, M.J. and Hall, D.G.M. 1978. Shrinkage in clayey subsoils of contrasting structure. J. Soil Sci. 29: 315–323."},
+    {"type": "reference-entry", "text": "Richards, B.G. 1986. The role of lateral stresses on soil water relations in swelling clays. Aust. J. Soil Res. 24: 457–476."},
+    {"type": "reference-entry", "text": "Ringrose-Voase, A.J., Paydar, Z., and Cresswell, H.P. 2000. Swelling soils: problems with access tube installations. In P. Charlesworth, ed. Irrigation Insights No. 1 Soil Water Monitoring. Land and Water Australia, Canberra, Australia, 54–56."},
+    {"type": "reference-entry", "text": "Ross, G.S. 1978. Relationships of specific surface area and clay content to shrink-swell potential of soils having different clay mineralogical compositions. Can. J. Soil Sci. 58: 159–166."},
+    {"type": "reference-entry", "text": "Schafer, W.M. and Singer, M.J. 1976. A new method of measuring shrink-swell potential using soil pastes. Soil Sci. Soc. Am. J. 40: 805–806."},
+    {"type": "reference-entry", "text": "Soil Survey Staff. 1999. Soil Taxonomy: A Basic System of Soil Classification for Making and Interpreting Soil Surveys, 2nd ed. United States Department of Agriculture, Natural Resources Conservation Service, Agricultural Handbook No. 436. U.S. Government Printing Office, Washington, DC."},
+    {"type": "reference-entry", "text": "Stroosnijder, L. 1976. Infiltration in swelling and shrinking soils. Versl. Landbouwkd. Onderz. (Agric. Res. Rep.) 847: 119–174 (translated into English by T. Talsma)."},
+    {"type": "reference-entry", "text": "Talsma, T. 1977. A note on the shrinkage behaviour of a clay paste under various loads. Aust. J. Soil Res. 15: 275–277."},
+    {"type": "reference-entry", "text": "Tariq, A.R. and Durnford, D.S. 1993. Soil volumetric shrinkage measurements: a simple method. Soil Sci. 155: 325–330."},
+    {"type": "reference-entry", "text": "Warkentin, B.P. 1993. Soil shrinkage. In M.R. Carter, ed. Soil Sampling and Methods of Analysis. Canadian Society of Soil Science, Lewis Publishers, CRC Press, Boca Raton, FL, 513–518."},
+    {"type": "reference-entry", "text": "Yaalon, D.H. and Kalmar, D. 1972. Vertical movement in an undisturbed soil: continuous measurement of swelling and shrinkage with a sensitive apparatus. Geoderma 8: 231–240."},
+    {"type": "reference-entry", "text": "Yule, D.F. and Ritchie, J.T. 1980a. Soil shrinkage relationships of Texas vertisols. 1. Small cores. Soil Sci. Soc. Am. J. 44: 1285–1291."},
+    {"type": "reference-entry", "text": "Yule, D.F. and Ritchie, J.T. 1980b. Soil shrinkage relationships of Texas vertisols. 2. Large cores. Soil Sci. Soc. Am. J. 44: 1291–1295."},
+    {"type": "translator-credit", "translators": ["王力", "高伟达"], "reviewer": "任图生"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "0145ddd0532bc5c8c40028f5ded879d8b086a51e714a4896a0fc07534938ea7b"
+}

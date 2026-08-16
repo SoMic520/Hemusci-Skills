@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 148,
+  "sourceImageSha256": "650e4ba9aaaa8aa83395a6cb3bf0be7bfebfcf0b860604055d8d00e69c6c482d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐行对照原分辨率参考文献页，并与Apple Vision、PaddleOCR交叉比对，人工完成Mozaffari续句及Murphy至Sharpley 1984各条"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者缩写、RUSLE、Handbook 703、书名版次、卷页、1999a/1999b及原书animalbased、andEdwards、T.L.Interlaboratory连写"},
+    "secondVisualPass": {"status": "verified", "method": "从Sharpley 1984反向复核至Mozaffari续句，确认Nair P.S.条原书确实缺年份、Weeies原书拼写、McDowell双l和页码117"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第14章｜环境土壤磷指数｜"},
+    {"type": "reference-entry", "continuation": true, "text": "intensive, animalbased agriculture. Soil Sci. 157: 97-107."},
+    {"type": "reference-entry", "text": "Murphy, J. and Riley, J.P. 1962. A modified single solution method for the determination of phosphate in natural waters. Anal. Chem. Acta 27: 31-36."},
+    {"type": "reference-entry", "text": "Nair, P.S., Logan, T.J., Sharpley,A.N., Sommers,L.E., Tabatabai, M.A., and Yuan, T.L.Interlaboratory comparison of a standardized phosphorus adsorption procedure. J. Environ. Qual. 13: 591-595."},
+    {"type": "reference-entry", "text": "Nair, V.D. and Graetz, D.A. 2002. Phosphorus saturation in Spodosols impacted by manure. J. Environ. Qual. 31: 1279-1285."},
+    {"type": "reference-entry", "text": "Nair, V.D., Graetz, D.A., and Reddy, K.R. 1998. Dairy manure influences on phosphorus retention capacity of Spodosols. J. Environ. Qual. 27: 522-527."},
+    {"type": "reference-entry", "text": "Olsen, S.R. and Sommers, L.E. 1982. Phosphorus. In: A.L. Page et al., eds. Methods of Soil Analysis. Agronomy 9, 2nd edn. American Society of Agronomy, Inc., Madison, WI, 403-430."},
+    {"type": "reference-entry", "text": "Pionke, H.B., Gburek, W.J., and Sharpley, A.N. 2000. Critical source area controls on water quality in an agricultural watershed located in the Chesapeake Basin. Ecol. Eng. 14: 325-335."},
+    {"type": "reference-entry", "text": "Pote, D.H., Daniel, T.C., Nichols, D.J., Moore, P.A., Miller, D.M., and Edwards, D.R. 1999a. Seasonal and soil-drying effects on runoff phosphorus relationships to soil phosphorus. Soil Sci. Soc. Am. J. 63: 1006-1012."},
+    {"type": "reference-entry", "text": "Pote, D.H., Daniel, T.C., Nichols, D.J., Sharpley, A.N., Moore, P.A., Miller, D.M., andEdwards, D.R. 1999b. Relationship between phosphorus levels in three ultisols and phosphorus concentrations in runoff. J. Environ. Qual. 28: 170-175."},
+    {"type": "reference-entry", "text": "Pote, D.H., Daniel, T.C., Sharpley, A.N., Moore, P.A., Edwards, D.R., and Nichols, D.J. 1996. Relating extractable soil phosphorus to phosphorus losses in runoff. Soil Sci. Soc. Am. J. 60: 855-859."},
+    {"type": "reference-entry", "text": "Renard, K.G., Foster, G.R., Weeies, G.A., McCool, D.K., and Yoder, D.C. 1997. Predicting soil erosion by water: a guide to conservation planning with the revised universal soil loss equation (RUSLE). U.S. Department of Agriculture. Agriculture Handbook 703. U.S. Government Printing Office, Washington, DC, 384."},
+    {"type": "reference-entry", "text": "Schoumans, O.F. and Breeuwsma, A. 1997. The relation between accumulation and leaching of phosphorus: laboratory, field and modelling results. In: H. Tunney et al., eds. Phosphorus Loss from Soil to Water. CAB International Press, Cambridge, England, 361-363."},
+    {"type": "reference-entry", "text": "Schoumans, O.F., Breeuwsma, A., and de Vries, W. 1987. Use of soil survey information for assessing the phosphate sorption capacity of heavily manured soils. In: W. van Duijvenbooden and H.G. van Waegeningh, eds. Proceedings of the International Conference on the Vulnerability of Soil and Groundwater to Pollutants, Noordwijk aan Zee, the Netherlands, 1079-1088."},
+    {"type": "reference-entry", "text": "Sharpley, A.N. 1995. Dependence of runoff phosphorus on extractable soil phosphorus. J. Environ. Qual. 24: 920-926."},
+    {"type": "reference-entry", "text": "Sharpley, A.N. (ed.). 2000. Agriculture and Phosphorus Management: The Chesapeake Bay. CRC Press, Boca Raton, FL."},
+    {"type": "reference-entry", "text": "Sharpley, A.N., Daniel, T.C., Sims, J.T., and Pote, D.H. 1996. Determining environmentally sound soil phosphorus levels. J. Soil Water Conserv. 51: 160-166."},
+    {"type": "reference-entry", "text": "Sharpley, A.N., Kleinman, P.J.A., McDowell, R.W., and Weld, J.L. 2001. Assessing site vulnerability to phosphorus loss in an agricultural watershed. J. Environ. Qual. 30: 2026-2036."},
+    {"type": "reference-entry", "text": "Sharpley, A.N., Sims, J.T., and Pierzynski, G.M. 1994. Innovative soil phosphorus indices: assessing inorganic phosphorus. In: J. Havlin et al., eds. Soil Testing: Prospects for Improving Nutrient Recommendations. Soil Science Society America Special Publication 40, Soil Science Society America, Inc., Madison, WI, 403-430."},
+    {"type": "reference-entry", "text": "Sharpley, A.N., Smith, S.J., Stewart, B.A., and Mathers, A.C. 1984. Forms of phosphorus in soils receiving cattle feedlot waste. J. Environ. Qual. 13: 211-215."},
+    {"type": "printed-page-number", "text": "117"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "fb1d8cb66426cf7310727dd6db6505ca12ce54b149538d572e4cdf2b0de20945"
+}

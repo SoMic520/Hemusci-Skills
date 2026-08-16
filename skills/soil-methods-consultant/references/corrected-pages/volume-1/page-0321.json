@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 321,
+  "sourceImageSha256": "1ce65335db44bab7932a63f6289d93a87647b319372050c91d115ba6969b9cd8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复土壤稀释续文、31.5直接检测方法及31.6共生固氮效率引言"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验2 g、10 mL、3 h、0.5 mL、16S-23S rRNA IGS、REP/ERIC/IS/RS缩写、DNA/PCR及70%～90%"},
+    "secondVisualPass": {"status": "verified", "method": "从页末对照处理反向复核至土壤稀释，确认原书注释清晰印作MNP而非MPN，并确认ERIC英文全称中的intergeneric；页码290"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure", "method": "31.4.3", "name": "土壤稀释", "text": "将2 g土壤样品加入10 mL的灭菌水中，充分搅动，自然沉降3 h，然后吸出上层悬浮液。将悬浮液连续稀释，取0.5 mL涂在琼脂培养基的表面。"},
+    {"type": "note", "method": "31.4.3", "text": "尽管并不推荐该方法用于计数，但是这个方法的结果与MNP植物感染计数的结果通常一致。"},
+    {"type": "source-fidelity-note", "scope": "31.4.3注释", "text": "原书清晰印作“MNP植物感染计数”，结合本章31.3及上下文应为“MPN植物感染计数”。检索与回答采用MPN作为规范缩写，同时保留原书MNP误排。"},
+    {"type": "section-heading", "level": 2, "number": "31.5", "title": "根瘤菌的直接检测方法"},
+    {"type": "paragraph", "text": "基于PCR技术的非培养方法对特定环境（土壤、根瘤、根、接种菌）中的根瘤菌检测具有潜在应用价值。根据区分水平（种或者菌株检测），鉴定特定的DNA（总DNA中的寡核苷酸、染色体或者共生的基因）是可能实现的，并可用于基于PCR技术的方法或者杂交方法中，见31.4节。"},
+    {"type": "paragraph", "text": "最初研究根瘤菌基因组的变化是为了明确根瘤菌的多样性，以及分类和鉴定根瘤菌。16S RNA被用于鉴定种及更高水平的根瘤菌，然而基因间间隔区（IS；16S-23S rRNA IGS）基因在同一个菌种之间存在差异。运用基因外重复序列基因片段（repetitive extragenic palindromic，REP），以及基因间保守重复序列基因片段（enterobacterial repetitive intergeneric consensus，ERIC）引物扩增获得的DNA指纹图谱已经被用于鉴定和分类一些根瘤菌种（Laguerre等，1996）。共生基因用于归类和分类根瘤菌是十分有效的，如31.4.1节和31.4.2节中举例的在杂交方法中运用nod探针（来自结瘤基因）。插入序列（insertion sequences，IS）或者重复DNA序列（repeated DNA sequences，RS）被用于菌株鉴定和评估菌落的基因结构（Hartmann等，1992）。"},
+    {"type": "source-fidelity-note", "scope": "31.5 ERIC全称", "text": "原书印作enterobacterial repetitive intergeneric consensus；通用扩展名为enterobacterial repetitive intergenic consensus。原文保留，规范检索采用intergenic，并注意本段IS同时被用于intergenic spacer和insertion sequences两个不同概念。"},
+    {"type": "paragraph", "text": "基于PCR技术的方法首先要从环境样品中提取微生物的DNA。因为土壤组成成分较为复杂，这一步可能比预想的要复杂。DNA提取物中的混合物可能会抑制后续的PCR扩增，不同的DNA提取方法也会影响菌群的丰度和组成（Martin-Laurent等，2001）。在根瘤中，不需要进行DNA提取，因为可以直接利用粉碎后的根瘤进行PCR（Tas等，2005）。已有文章发表了提取环境样品中DNA和DNA序列检测的方法（Kowalchuk等，2004）。"},
+    {"type": "paragraph", "text": "尽管PCR被认为是检测环境样品中特定DNA最灵敏的定性方法，它的定量测定却仅限于医疗领域（Jansson和Leser，2004）。直到现在，依旧没有标准的、强有力的筛选工具用于直接检测、计数土壤根瘤菌。只有较少的方法可用于跟踪特定的菌株，例如，对于根瘤的竞争研究（Tas等，1996）和根部定殖（Tan等，2001）。"},
+    {"type": "section-heading", "level": 2, "number": "31.6", "title": "根瘤菌的共生固氮效率"},
+    {"type": "paragraph", "text": "高效固氮的根瘤菌能够在各种土壤物理和化学条件下与土壤中其他的原生根瘤菌竞争相应豆科植物的根际生长空间。这种高效菌种可以在植物宿主根上形成很多固氮根瘤，这些根瘤可以为大部分豆科植物提供70%～90%的氮养分。因此，估算根瘤菌共生固氮效率的最好方法是在试验田中进行植物接种试验。然而，从土壤中分离出来的菌株中只有10%是非常高效的，假如我们的目标是获得接种菌株，那么我们需要测试从土壤中分离出来的大量菌株的共生固氮效率。因此，我们首先需要在人工灭菌的条件下，在试管、生长袋、Leonard广口瓶、装满沙子或蛭石的盆中进行筛选培养。这些实验室内的方法可以鉴别出具有高固氮能力的根瘤菌菌株，但是并不能反映这些菌株的竞争生长能力。我们可以通过田间的盆栽试验解决这一问题（Somasegaran和Hoben，1994）。然而，一个菌株真正的共生固氮效率不能离开田间接种试验。关于筛选高效菌株的方法和试验设计，试验田的选择与准备，我们建议读者查阅Somasegaran和Hoben（1994）的书籍。除了接种根瘤菌菌株的处理，通常还有未接种和添加氮肥的对照处理（Vincent，1970）。市场上可以买到豆科植物接种剂，内含高效的根瘤菌菌株，并且在田间条件下已经试验过多次，可以作为良好的对照。"},
+    {"type": "printed-page-number", "text": "290"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "295089ace7f052ec1b4970d5cc43b5e1467bb862d6c59728fc9b1aac23a40ddd"
+}

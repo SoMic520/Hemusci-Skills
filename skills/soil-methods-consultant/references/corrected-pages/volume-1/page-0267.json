@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 267,
+  "sourceImageSha256": "a51411dc891ed81170daaf3bc15892755b749c93b35ea7d7773b1583e8d38252",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第27章第236页，并与Apple Vision、PaddleOCR交叉比对，人工恢复材料（3）～（8）、长期室内培养步骤、计算、注释及27.2.2起始段"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验mol·L⁻¹、mm汞柱、cm³、℃、Nₜ、N₀、e⁻ᵏᵗ、式（27.1）、上下标、氏族人名及全部数值单位"},
+    "secondVisualPass": {"status": "verified", "method": "从页尾‘水的运’反向复核至页首材料（3），确认材料和试剂→步骤→计算→注释→27.2.2层级、公式位置及印刷页码236"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "material-item", "number": "（3）", "text": "1 mol·L⁻¹盐酸溶液。"},
+    {"type": "material-item", "number": "（4）", "text": "0.005 mol·L⁻¹硫酸钾溶液。"},
+    {"type": "material-item", "number": "（5）", "text": "真空泵（60 mm汞柱）。"},
+    {"type": "material-item", "number": "（6）", "text": "布氏漏斗。"},
+    {"type": "material-item", "number": "（7）", "text": "Whatman 42号滤纸。"},
+    {"type": "material-item", "number": "（8）", "text": "1 mm（18目）酸洗石英砂。"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "采集一定体积的土壤样品，将新鲜、潮湿的腐殖质层（FH）和矿质层的样品分别通过6 mm和4 mm筛，去除植物粗碎屑和根系后称重。为了尽可能保持潮湿样品的土壤结构，要用大孔径筛子来混匀样品。"},
+    {"type": "procedure-step", "number": "（2）", "text": "称取25 g新鲜的有机腐殖质层土壤样品（平均约9 g干有机腐殖质层物质）和100 g新鲜的矿质土壤（平均约73 g干矿质土壤），将其倒入玻璃棉预洗层（1 mol·L⁻¹盐酸溶液和去离子水）之上，即过滤装置顶部。之后，将土壤轻轻地包住，得到体积分别为70 cm³和100 cm³的有机层和矿质层土壤样品。细质矿物土壤可以与酸洗石英砂混合（占土壤体积的50%），其中，石英砂用1 mol·L⁻¹盐酸溶液进行洗涤，冲洗至其电导率下降到与去离子水相同。"},
+    {"type": "procedure-step", "number": "（3）", "text": "在22℃培养箱内培养土壤样品，维持其相对湿度在85%左右以便保持土壤潮湿。除了短时间（24～28 h）的呼吸测量，需要保持培养箱内的微环境始终处于能与外界空气进行交换的开放状态。每周利用称重法将土壤样品的含水量调至田间持水量的85%。"},
+    {"type": "procedure-step", "number": "（4）", "text": "每个月用100 mL 0.005 mol·L⁻¹硫酸钾溶液淋洗土壤一次。用滴定管（2×50 mL）将冲洗液缓缓加入土壤中，以免破坏土壤结构。使土壤自由排水，剩余溶液用真空泵去除。如果溶液中含有土壤颗粒，那么可以用布氏漏斗和滤纸重新过滤。处理后的样品放于4℃的冰箱内保存，在2周内测定其铵态氮、硝态氮和全氮含量。"},
+    {"type": "procedure-group", "number": "3.", "title": "计算"},
+    {"type": "calculation-intro", "text": "累积矿化氮与时间（Nₜ）的关系符合以下简单的负指数模型（Stanford和Smith，1972）："},
+    {"type": "formula-reference", "number": "（27.1）", "text": "Nₜ = N₀（1−e⁻ᵏᵗ）"},
+    {"type": "formula-definition", "text": "式中，N₀表示潜在矿化氮；k表示矿化率，无单位；基于全氮的N₀可以用于评价有机质质量，而基于面积的N₀则可以表示一定的土壤深度内潜在矿化氮的储量。更多细节详见第46章。"},
+    {"type": "procedure-group", "number": "4.", "title": "注释"},
+    {"type": "note", "text": "在培养过程中常设置较高的温度（如35℃），这样的高温通常能使一阶方程表现出更好的拟合效果和收敛性。然而，式（27.1）中的常数（N₀和k）对温度敏感（MacDonald等，1995；Paré等，2006），因此推荐使用较高的土壤温度（如22℃），但不要超过封闭林冠下表层土壤观测到的温度范围。"},
+    {"type": "heading", "level": 2, "number": "27.2.2", "title": "田间培养法"},
+    {"type": "body", "continuesOnPage": 268, "text": "田间培养技术是指在尽可能减少扰动的野外环境下培养土壤样品，并估算样品中铵根和硝酸根的净累积量。培养周期为1周到1年不等。这些技术源于在聚乙烯袋内培养样品的原位埋袋法（Eno，1960），其主要缺点是对土壤样品的扰动，使矿化率增加2～10倍（Raison等，1987）。Raison等（1987）描述了应用上部封闭、两侧穿孔、底部开放的管状容器进行的原位培养技术。这项技术不仅能减少对土壤样品的扰动而且还能让样品埋得更深（40 cm）。另外，DiStefano和Gholz（1986）提出在培养的土芯上方和下方添加树脂芯，并在试验周期结束后去掉上方的树脂芯，其作用仅是防止大气氮进入而污染培养的土壤。氮素矿化作用可以用土芯中的净矿化氮量加下层树脂芯吸收的氮来评估。由于土芯中存在水的运"},
+    {"type": "printed-page-number", "text": "236"}
+  ],
+  "formulas": [
+    {"number": "27.1", "context": "累积矿化氮Nₜ与时间t的一阶负指数模型", "display": "Nₜ = N₀（1−e⁻ᵏᵗ）", "latex": "N_t=N_0(1-e^{-kt})"}
+  ],
+  "tables": [],
+  "contentSha256": "6e619783cf21aebf3544e63553853277d6447c4a10bd177ff75b333f423efa5e"
+}

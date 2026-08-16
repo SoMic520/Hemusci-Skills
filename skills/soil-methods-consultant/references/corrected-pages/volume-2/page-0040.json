@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 40,
+  "sourceImageSha256": "a96d880b66422d40486e11afcbff2aaad9697357199367fe191e220f004a8c3f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成第57章标题、5位作者单位及57.1本页引言"},
+    "precisionPass": {"status": "verified", "method": "核验D_b=m_s/V_t、D_p=m_s/V_s、S_t/F_a/WFPS全部上下标及作者地名"},
+    "secondVisualPass": {"status": "verified", "method": "由页末跨页句反向复核至章标题，纠正OCR对V_t/V_s和下标的误识别，检查5组作者—单位对应关系"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第57章", "title": "土壤容重和孔隙"},
+    {"type": "author-affiliation", "authors": ["X. Hao"], "affiliation": "Agriculture and Agri-Food Canada, Lethbridge, Alberta, Canada"},
+    {"type": "author-affiliation", "authors": ["B.C. Ball"], "affiliation": "Scottish Agricultural College, Edinburgh, Scotland, United Kingdom"},
+    {"type": "author-affiliation", "authors": ["J.L.B. Culley"], "affiliation": "Agriculture and Agri-Food Canada, Ottawa, Ontario, Canada"},
+    {"type": "author-affiliation", "authors": ["M.R. Carter"], "affiliation": "Agriculture and Agri-Food Canada, Charlottetown, Prince Edward Island, Canada"},
+    {"type": "author-affiliation", "authors": ["G.W. Parkin"], "affiliation": "University of Guelph, Guelph, Ontario, Canada"},
+    {"type": "heading", "number": "57.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "土壤由大小不同的固体颗粒（矿物和有机质）组成。颗粒在有机质、无机氧化物和带电黏粒作用下形成团聚体；粒间孔隙互连成复杂孔隙网络。总孔隙包括颗粒间孔隙和团聚体间孔隙，水、气、热和养分经其交换或运移。不同质地、结构和有机质含量的土壤，孔隙数量和大小差异很大。"},
+    {"type": "paragraph", "text": "土壤容重D_b=m_s/V_t，是烘干土固体质量m_s与土样总体积V_t之比；V_t包括固相体积及粒间孔隙体积（Blake和Hartge，1986a）。容重可表征紧实状态、换算质量含水量与体积含水量、在已知颗粒密度时计算总孔隙度，以及估算难以称重的土块质量。"},
+    {"type": "paragraph", "text": "土壤颗粒密度D_p=m_s/V_s，是单位土壤固体体积V_s的质量，不含粒间孔隙（Blake和Hartge，1986b）。孔隙度、容重、气相空间关系以及液体中土粒沉降速率计算均需颗粒密度。"},
+    {"type": "paragraph", "text": "土壤孔隙度S_t是孔隙体积占土样总体积的百分比。孔隙可充空气（F_a，充气孔隙度）或水（WFPS，充水孔隙度/饱和度）；孔径类型同样重要，大孔隙与水气运移有关（Carter和Ball，1993）。"},
+    {"type": "paragraph", "text": "耕作和重型机械轮胎会压实土壤，改变容重和孔隙度（Gysi等，2000；Cameira等，2003；Osunbitan等，2005）。提高有机质的管理通常改善颗粒结构、提高孔隙度或降低容重（Shaver等，2003）。土壤容重和孔隙度是评估人为扰动土壤情……"},
+    {"type": "source-fidelity-note", "text": "原书引文姓氏印作Blake和Harge；标准书目作者为K.H. Hartge，本Skill正文规范为Hartge，参考文献页仍按书目进一步核验。"}
+  ],
+  "formulas": [
+    {"label": null, "plain": "D_b = m_s/V_t", "latex": "D_b=\\frac{m_s}{V_t}", "variables": [{"symbol": "D_b", "meaning": "土壤容重"}, {"symbol": "m_s", "meaning": "烘干土固体质量"}, {"symbol": "V_t", "meaning": "土样总体积（固相加孔隙）"}]},
+    {"label": null, "plain": "D_p = m_s/V_s", "latex": "D_p=\\frac{m_s}{V_s}", "variables": [{"symbol": "D_p", "meaning": "土壤颗粒密度"}, {"symbol": "V_s", "meaning": "土壤固体体积"}]}
+  ],
+  "tables": [],
+  "contentSha256": "661f2a6289de6fceb0ea6b155e869647f14c4b43c0408d36450405800e577b6e"
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 284,
+  "sourceImageSha256": "eb60fc644f8ca7c957aad1403268a8b98bcd17757d475540a6cdf548bd8b333d",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对图81.4、图81.5的坐标/符号/图注及本页7条参考文献"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "复核K对数轴、ψ负值轴、q_B/q_T、ΔS₁—ΔS₅、Δz=L/5与文献卷页"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "逐图元和逐条书目再次核对原页，保留德文题名及期刊缩写；印刷页码793"
+    }
+  },
+  "blocks": [
+    {
+      "type": "figure",
+      "number": "81.4",
+      "title": "蒸发法/Wind法所得导水率与土壤水压力水头关系",
+      "panels": [
+        "(a) 2T设置；数据亦见表81.2。",
+        "(b) 5T设置。"
+      ],
+      "axes": [
+        "横轴：土壤水压力水头ψ，cm；负值按对数尺度。",
+        "纵轴：导水率K，cm·d⁻¹；对数尺度10⁻⁴—10²。"
+      ],
+      "series": [
+        "实心点：蒸发法。",
+        "空心点：张力入渗法在ψ=−1、−5、−10 cm处的测值。"
+      ]
+    },
+    {
+      "type": "figure",
+      "number": "81.5",
+      "title": "蒸发法/Wind法5T设置的水流通量计算",
+      "components": [
+        "土柱总长度L=10 cm，分为5个等高区间，Δz=L/5。",
+        "5个张力计/含水量代表深度1、3、5、7、9 cm；比较tᵢ与tᵢ₊₁。",
+        "自下而上储水变化为ΔS₁—ΔS₅，区间通量为q₁—q₄。",
+        "底边界q_B=0；顶边界q_T=E。"
+      ]
+    },
+    {
+      "type": "references",
+      "items": [
+        "Becher, H.H. 1971a. Ein Verfahren zur Messung der ungesättigten Wasserleitfähigkeit. Z. Pflanzenern. Bodenkd. 128: 1–12.",
+        "Becher, H.H. 1971b. Ergebnisse von Wasserleitfähigkeitsmessungen im wasserungesättigten Zustand. Z. Pflanzenern. Bodenkd. 128: 227–234.",
+        "Becher, H.H. 1975. Bemerkungen zur Ermittlung der ungesättigten Wasserleitfähigkeit unter nichtstationären Bedingungen. Z. Pflanzenern. Bodenkd. 132: 1–12.",
+        "Campbell, G.S. 1974. A simple method for determining conductivity from moisture retention data. Soil Sci. 117: 311–314.",
+        "Groenevelt, P.H. and Grant, C.D. 2004. A new method for the soil-water retention curve that solves the problem of residual water contents. Eur. J. Soil Sci. 55: 479–485.",
+        "Idso, S.B., Reginato, R.J., Jackson, R.D., Kimball, B.A., and Nakayama, F.S. 1974. The three stages of drying of a field soil. Soil Sci. Soc. Am. Proc. 38: 831–837.",
+        "Press, W.H., Flannery, B.P., Teukolsky, S.A., and Vetterling, W.T. 1990. Numerical Recipes. Cambridge University Press, New York, NY, 702 pp."
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "6802c4e1bead3fa3e44fea56b364e70e79485e2a8381e6ec2adf8ed9fea85a3c"
+}

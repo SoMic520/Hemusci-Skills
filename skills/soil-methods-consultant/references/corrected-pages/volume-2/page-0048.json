@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 48,
+  "sourceImageSha256": "0e142ab441bebfc8e56b70eb8c600c2aba4790bcb8548275141e774caec1c07b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成57.4.5第3项余文、计算、注释及第4项方法1首段"},
+    "precisionPass": {"status": "verified", "method": "核验0.998 Mg m⁻³、9.8 m s⁻²、−1 m/−0.1 bar/−10 kPa、30 μm、−1500～−1 kPa、式（57.17）～（57.18）和4% w/V"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页末句反向复核至接触角定义，检查负压符号、单位上下标、质量差/体积/水密度层级；印刷页码557"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "式（57.16）中接触角α通常取0；20 °C水密度ρ为0.998 Mg m⁻³，重力加速度g为9.8 m s⁻²。施加−1 m水头（约−0.1 bar或−10 kPa）时，20 °C下保持充水的最大孔径约30 μm。"},
+    {"type": "paragraph", "text": "测定时应逐渐降低基质势并使土样逐级排水，否则水分滞后会影响指定基质势下的含水量；测脱湿曲线期间孔径分布也应保持稳定。黏粒>30%的细质土会随时间收缩并改变孔隙分布；砂粒>80%的砂质土水分黏着力低，水会受重力排出。此类情况下可用压汞法或氮吸附法，两者也以圆柱孔模型计算孔径分布。压汞法详见Danielson和Sutherland（1986）及Flint和Flint（2002）。"},
+    {"type": "paragraph", "text": "本节脱湿法最适于中等质地土，也可用于砂质或细质土；黏质土主要用于低吸力范围−100～−1 kPa。不同基质势范围采用不同装置：0～−20 kPa用张力台脱湿法；−500～−20 kPa用压力板法；−1500～−100 kPa用压力膜法。三法操作见第72章。"},
+    {"type": "subheading", "title": "1）计算"},
+    {"type": "paragraph", "text": "绘制体积含水量θ_v—基质势图。由指定基质势下土样加环刀质量W_p、烘干后土样加环刀质量W_2、土柱体积V_t和水密度D_w计算θ_v。在−10 kPa平衡时保持充水的最大孔径约30 μm；任意吸力下的最大排水孔径可用式（57.18）近似。两个指定孔径所对应状态之间的排水体积，即该孔径区间的孔隙体积。"},
+    {"type": "subheading", "title": "2）注释"},
+    {"type": "notes-list", "items": ["(1) 所得孔径为当量孔径EPD的近似值。式（57.16）假定α=0，并非所有情况都成立；该法不能给出孔隙连通性或形状。含大量EPD>50 μm孔隙的土柱难以靠毛管润湿饱和，宜用真空润湿法，或按式（57.12）由容重求总孔隙度。", "(2) 刚耕作土壤松散，难以采集原状土柱；通常需经天气等作用自然沉实后再采样。", "(3) 饱和时可向土表喷4% w/V甲醛溶液，以消除或抑制蚯蚓及其他大型土壤动物活动（Ball和Hunter，1988）。"]},
+    {"type": "safety-note", "text": "甲醛有毒、致敏且具有致癌危险。仅应在合规通风设施中由受训人员使用适当个体防护，按当地化学品规定储存和处置；能避免时优先采用替代控制方法。"},
+    {"type": "subheading", "title": "4. ≥1 mm当量孔径的分布"},
+    {"type": "paragraph", "text": "≥1 mm孔隙及其连续性对模拟水分入渗和溶质运移尤其重要。Douglas（1986）提出评估大孔隙维数的形态学方法：方法1适用于干燥时收缩不明显的土壤；方法2适用于饱和时结构稳定的土壤。"},
+    {"type": "subheading", "title": "1）方法1"},
+    {"type": "procedure", "text": "烘干原状土柱，记录在土柱两端均有开口且直径≥1 mm的贯通孔数量和直径；孔隙……"},
+    {"type": "source-fidelity-note", "text": "原式（57.18）写D(μm)=300/kPa，若把基质势按负值直接代入会得到负孔径；已明确分母应取吸力绝对值|ψ|。"}
+  ],
+  "formulas": [
+    {"label": "(57.17)", "plain": "θ_v(%) = [(W_p − W_2)/V_t] × 100/D_w", "latex": "\\theta_v(\\%)=\\frac{W_p-W_2}{V_t}\\times\\frac{100}{D_w}", "variables": [{"symbol": "W_p", "meaning": "指定基质势下土样与环刀总质量"}, {"symbol": "W_2", "meaning": "烘干后土样与环刀总质量"}, {"symbol": "V_t", "meaning": "土柱体积"}, {"symbol": "D_w", "meaning": "水密度；质量和体积单位须与之相容"}]},
+    {"label": "(57.18，符号校正式)", "plain": "D(μm) = 300/|ψ(kPa)|", "latex": "D(\\mathrm{\\mu m})=\\frac{300}{|\\psi(\\mathrm{kPa})|}", "variables": [{"symbol": "D", "meaning": "近似当量孔径（μm）"}, {"symbol": "ψ", "meaning": "基质势或吸力压力；代入其kPa数值的绝对值"}]}
+  ],
+  "tables": [],
+  "contentSha256": "fde7eba12d8a4898a9fbf09c25f5846819f2f67e732a9ff23840c4bdfc86eb98"
+}

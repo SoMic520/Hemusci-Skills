@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 402,
+  "sourceImageSha256": "74d95d18b3711402224b62b0192dcd05aab06ab131faf09b178ae1c4f6d09849",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版38.5.3（8）～（12）、38.6及38.6.1（1）"},
+    "precisionPass": {"status": "verified", "method": "核验¹⁵N、IRMS、c_N、NO₃⁻、<1 cm、4 mL/10 g ODE、PVC、IER、5～10 cm和10～30 cm；复核自养/异养硝化术语"},
+    "secondVisualPass": {"status": "verified", "method": "从材料（1）承下句反向复核至注释（8），检查方法比较、好氧条件、硝化类型及原位方法层级；印刷页码371"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第38章｜土壤硝化测定技术"},
+    {"type": "note-item", "number": "（8）", "text": "若希望测接近最大但不受水分有效性限制的速率，可在加标前把土壤湿润至接近田间持水量（Stark和Firestone，1996）。若目标是潜在速率，振荡土壤悬液法比同位素稀释法简便、重复性好。田间GNR与振荡悬液法结合，可有效评价田间硝化限制（Davidson等，1990）。"},
+    {"type": "note-item", "number": "（9）", "text": "培养期间必须保持好氧，因为自养硝化是好氧过程。在反硝化极少的好氧条件下，c_N实质上近似NO₃⁻微生物固持速率，过程控制因素更易解释。"},
+    {"type": "scientific-correction-note", "scope": "38.5.3（9）", "text": "中译本误写“异养硝化作用是一个好氧过程”；英文原版为autotrophic nitrification，正文纠正为自养硝化。"},
+    {"type": "note-item", "number": "（10）", "text": "稍加修改本步骤并使用自养硝化抑制剂，可把异养硝化从总硝化（异养+自养）中分离（Hart等，1997）。"},
+    {"type": "scientific-correction-note", "scope": "38.5.3（10）", "text": "中译本误写“使用异养硝化抑制剂”；英文原版为autotrophic nitrification inhibitors。抑制自养部分后剩余量才用于估计异养硝化。"},
+    {"type": "note-item", "number": "（11）", "text": "有机土或有机层可把材料切成<1 cm小块，并将每个子样ODE质量约减至十分之一，例如向10 g ODE有机质加入4 mL标记液（Hart等，1994b）。"},
+    {"type": "note-item", "number": "（12）", "text": "GNR法需较昂贵的¹⁵N标记盐；同位素制样和分析耗时、昂贵，且须有实验室或服务机构IRMS，时间和成本均明显高于本章其他方法。但若要测量独立于反硝化、固持等其他氮转化过程的硝化速率，本法为首选。"},
+    {"type": "section-heading", "level": 2, "number": "38.6", "title": "原位测定净硝化速率的方法", "citation": "Eno，1960；Adams和Attiwill，1986"},
+    {"type": "paragraph", "text": "Eno（1960）的埋藏袋法把过筛、混匀的扰动土壤装入薄壁聚乙烯袋，埋回田间培养，以NO₃⁻净增加量估计净硝化速率。袋内土温随周围土壤波动，薄膜允许足够气体交换以维持好氧，同时阻止NO₃⁻淋失和植物吸收，所以培养期内袋中NO₃⁻库净变化等于净硝化量。缺点是袋中水分不能随培养期变化，且扰动减弱扩散限制，可能显著提高净硝化速率（Binkley和Hart，1989）；但Burns和Murdoch（2005）发现埋藏袋混合土与加盖PVC管原状土芯的净硝化速率无显著差异。"},
+    {"type": "paragraph", "text": "Adams和Attiwill（1986）提出培养最小扰动完整土芯的另一原位法，两法所得净硝化速率无显著差异。土芯顶部松盖以尽量减小氮淋失并阻止植物吸收NO₃⁻。Knoepp和Swank（1995）认为仅顶部加盖的PVC土芯优于埋藏袋，因为土芯水分可通过底部毛细作用进出并随周围非根际土发生定性变化，而埋藏袋水分相对恒定。不过两者的水分均不能紧密跟随周围土壤：封装土壤蒸散较低且阻隔新降水。因此宜选择周围土壤水分动态最小的培养期。原状土芯减弱扰动缺点（Cabrera和Kissel，1988；Sierra，1992），但仍可能因反硝化损失NO₃⁻。"},
+    {"type": "paragraph", "text": "在土芯底部放置离子交换树脂（IER）袋，可截留从土芯淋失的NO₃⁻，形成树脂—土芯法（Binkley和Hart，1989）。土芯温度与周围土壤一致；顶部开放时可响应蒸发干燥和降水湿润。但因土芯无植物根系、树脂袋与土壤间存在水力不连续，土芯水分变化仍可能不同于周围土壤（Hart和Firestone，1989）。"},
+    {"type": "section-heading", "level": 3, "number": "38.6.1", "title": "材料和试剂"},
+    {"type": "material-item-continuation", "number": "（1）", "text": "薄壁PVC圆筒，内径5～10 cm、长10～30 cm，底端削尖，以便尽量不压实筒内土壤地插入；本条续见第403页。"},
+    {"type": "printed-page-number", "text": "371"}
+  ],
+  "formulas": [
+    {"id": "38.6-buried-bag-net", "display": "net nitrification = ([NO₃⁻]_final − [NO₃⁻]_initial)/incubation time  (when plant uptake and leaching are excluded)"}
+  ],
+  "tables": [],
+  "contentSha256": "fe017aeb557d9f64381f6f5657e42c14008088ec0ab82cab36b7024b4c536c2b"
+}

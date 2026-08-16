@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 494,
+  "sourceImageSha256": "55e37ab9b073a1e6d09a7b43d182194357e8617dc68a51ed11e9074f640b8701",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率中文页与两套OCR，完成Ludwig承上条及Marques至Wessel-Bothe全部参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验全22条书目的作者、年份、卷页；重点校正Aitkenhead-Peterson、Jödemann、Pätzold、171–223页和McDowell题名中carbon"},
+    "secondVisualPass": {"status": "verified", "method": "由Wessel-Bothe页末条反向复核至Ludwig承上句，检查特殊字母、页码顺序、书名和误入的[42]引文号；印刷页码463"}
+  },
+  "blocks": [
+    {"type": "reference-list", "scope": "chapter-48", "items": [
+      "[Ludwig et al. 1999 continued] methods with lysimetry for soil solution composition—experimental and model results. Journal of Plant Nutrition and Soil Science 162: 343–351.",
+      "Marques, R., Ranger, J., Gelhaye, D., Pollier, B., Ponette, Q., and Goedert, O. 1996. Comparison of chemical composition of soil solutions collected by zero-tension plate lysimeters with those from ceramic-cup lysimeters in a forest soil. European Journal of Soil Science 47: 407–417.",
+      "Marschner, B. and Kalbitz, K. 2003. Controls on bioavailability and biodegradability of dissolved organic matter in soils. Geoderma 113: 211–235.",
+      "McDowell, W.H., Zsolnay, A., Aitkenhead-Peterson, J.A., Gregorich, E.G., Jones, D.L., Jödemann, D., Kalbitz, K., Marschner, B., and Schwesig, D. 2006. A comparison of methods to determine the biodegradable dissolved organic carbon from different terrestrial sources. Soil Biology and Biochemistry 38: 1933–1942.",
+      "McGill, W.B., Cannon, K.R., Robertson, J.A., and Cook, F.D. 1986. Dynamics of soil microbial biomass and water-soluble organic C in Breton L after 50 years of cropping to rotations. Canadian Journal of Soil Science 66: 1–19.",
+      "Mejbaum, W. 1939. Über die Bestimmung kleiner Pentosemengen, insbesondere in Derivaten der Adenylsäure. Hoppe-Seyler's Zeitschrift für physiologische Chemie 258: 117–120.",
+      "Michalzik, B., Kalbitz, K., Park, J.-H., Solinger, S., and Matzner, E. 2001. Fluxes and concentrations of dissolved organic carbon and nitrogen—a synthesis for temperate forests. Biogeochemistry 52: 173–205.",
+      "Moore, S. and Stein, W.H. 1948. Photometric ninhydrin method for use in the chromatography of amino acids. Journal of Biological Chemistry 176: 367–388.",
+      "Morita, M. 1980. Total phenolic content in the pyrophosphate extracts of two peat soil profiles. Canadian Journal of Soil Science 60: 291–297.",
+      "Murphy, D.V., Macdonald, A.J., Stockdale, E.A., Goulding, K.W.T., Fortune, S., Gaunt, J.L., Poulton, P.R., Wakefield, J.A., Webster, C.P., and Wilmer, W.S. 2000. Soluble organic nitrogen in agricultural soils. Biology and Fertility of Soils 30: 374–387.",
+      "Novak, J.M. and Bertsch, P.M. 1991. The influence of topography on the nature of humic substances in soil organic matter at a site in the Atlantic Coastal Plain of South Carolina. Biogeochemistry 15: 111–126.",
+      "Novak, J.M., Mills, G.L., and Bertsch, P.M. 1992. Estimating the percent aromatic carbon in soil and aquatic humic substances using ultraviolet absorbance spectrometry. Journal of Environmental Quality 21: 144–147.",
+      "Ohno, T. and Paul, R. 1998. Assessment of the Folin and Ciocalteu method for determining soil phenolic carbon. Journal of Environmental Quality 27: 776–782.",
+      "Raber, B., Kögel-Knabner, I., Stein, C., and Klem, D. 1998. Partitioning of polycyclic aromatic hydrocarbons to dissolved organic matter from different soils. Chemosphere 36: 79–97.",
+      "Siemens, J. and Kaupenjohann, M. 2003. Dissolved organic carbon is released from sealings and glues of pore-water samplers. Soil Science Society of America Journal 67: 795–797.",
+      "Thurman, E.M. 1985. Organic Geochemistry of Natural Waters. Nijhoff/Junk Publishers, Dordrecht, The Netherlands, 497 pp.",
+      "Titus, B.D. and Mahendrappa, M.K. 1996. Lysimeter system designs used in soil research: a review. Natural Resources Canada and Canadian Forest Service, Newfoundland and Labrador Region, Information Report N-X-301, Ottawa, ON, Canada, 113 pp.",
+      "Traina, S., Novak, J., and Smeck, N.E. 1990. An ultraviolet absorbance method of estimating the percent aromatic carbon content of humic acids. Journal of Environmental Quality 19: 151–153.",
+      "Vance, E.D., Brookes, P.C., and Jenkinson, D.S. 1987. An extraction method for measuring soil microbial biomass C. Soil Biology and Biochemistry 19: 703–707.",
+      "Wessel-Bothe, S., Pätzold, S., Klein, C., Behre, G., and Welp, G. 2000. Sorption of pesticides and DOC on glass and ceramic suction cups. Journal of Plant Nutrition and Soil Science 163: 53–56."
+    ]},
+    {"type": "source-fidelity-note", "scope": "第48章参考文献勘误（本页）", "text": "原书McDowell等（2006）把正式题名中的‘biodegradable dissolved organic carbon’误作‘matter (DOM)’，并漏掉Aitkenhead-Peterson中连字符；已按期刊论文校正。原书Zsolnay（1996）终页误印123，正式书章页码为171–223。Moore和Stein（1948）条前误入‘[42]’，非本章参考文献编号，已删除。Patzold恢复为Pätzold。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e6fb987e7b6853004102d6533abff24fe42eb53672e23dc8803840634cca991f"
+}

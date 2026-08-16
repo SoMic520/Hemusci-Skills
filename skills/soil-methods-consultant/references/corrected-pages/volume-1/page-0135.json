@@ -1,0 +1,43 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 135,
+  "sourceImageSha256": "7ec66b1d544fb408b46070581ac467000021505ae50b37c314b9dbae3a815b8f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率方法页，并与Apple Vision、PaddleOCR交叉比对，人工恢复准备/再生续步、提取、洗脱、离子测定、计算和注释全部内容"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验HCl、H⁺、Cl⁻、NO₃-N、0.5 mol/L、20 mL、200 r/min、1 h、24 h、cm²、μg/mL、μg/cm²及公式变量C/V/S"},
+    "secondVisualPass": {"status": "verified", "method": "从注释（3）反向复核至准备/再生（3），确认公式（13.1）、示例代入式、8 cm²指数负号位置、仪器缩写AA-FE/ICP和页码104"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure-step", "number": "（3）", "text": "用去离子水冲洗新的或再生的膜，并在使用前将膜放置在去离子水中。"},
+    {"type": "procedure-heading", "level": 5, "number": "2.", "title": "提取"},
+    {"type": "procedure-step", "number": "（1）", "text": "风干的土壤样品（<2 mm）放入两个Snapcap瓶盖中，将土样装满，高于盖子边缘，以确保膜表面和土壤充分接触。"},
+    {"type": "procedure-step", "number": "（2）", "text": "将装有土壤样品的Snapcap瓶盖放在分析天平上。加入去离子水至土壤接近饱和，或加至田间持水量。如果只加至田间持水量，应提前测定所需的水量。"},
+    {"type": "procedure-step", "number": "（3）", "text": "将阳离子或阴离子交换膜放在其中一个Snapcap瓶盖中土样的表面，然后将另一个带土样的瓶盖覆盖在上面，做成一个“三明治”，即膜被夹在两个含土壤的瓶盖中间。通常情况下，如果测量所有的阴、阳离子，需要分别制作一个阴离子和一个阳离子交换膜“三明治”。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用封口膜将“三明治”密封，避免提取过程中水分流失。"},
+    {"type": "procedure-step", "number": "（5）", "text": "和商业实验室中膜的提取时间相似，提取时间通常设置为24 h。"},
+    {"type": "procedure-heading", "level": 5, "number": "3.", "title": "洗脱"},
+    {"type": "procedure-step", "number": "（1）", "text": "向Snapcap瓶（7号）中加入20 mL 0.5 mol/L的HCl。"},
+    {"type": "procedure-step", "number": "（2）", "text": "除去“三明治”的封口膜，将两个瓶盖分开并用镊子挑出膜，然后用去离子水将膜表面冲洗干净，这一点对于避免土壤颗粒进入HCl洗脱液非常重要。"},
+    {"type": "procedure-step", "number": "（3）", "text": "洗净的膜放入装有0.5 mol/L HCl的瓶中，将盖子盖上并在振荡器上以200 r/min转速振荡1 h。同一土壤样品的阳离子交换膜和阴离子交换膜可放置在同一批20 mL HCl洗脱液中，H⁺会洗脱阳离子，Cl⁻可以洗脱阴离子。在振荡过程中洗脱液应完全覆盖膜以确保洗脱完全。"},
+    {"type": "procedure-heading", "level": 5, "number": "4.", "title": "离子测定"},
+    {"type": "paragraph", "text": "HCl洗脱液中养分离子的浓度可通过多种常用的土壤化学分析设备进行测定，包括手动或自动比色法、离子色谱法、原子吸收火焰发射（AA-FE）光谱法、电感耦合等离子体（ICP）光谱法等。"},
+    {"type": "section-heading", "level": 4, "number": "13.2.4", "title": "计算"},
+    {"type": "paragraph", "text": "NSR可通过以下公式计算："},
+    {"type": "equation", "label": "（13.1）", "text": "NSR=(C×V)/S"},
+    {"type": "formula-definition", "text": "式中，C是HCl洗脱液中被吸附的阳离子或阴离子的浓度（μg/mL）；V是洗脱液的体积（mL）；S是膜的表面积（cm²）。"},
+    {"type": "calculation-example", "text": "例如，采用8 cm²阴离子交换膜制成的“三明治”，24 h后将树脂膜取出、清洗干净，并放置在20 mL 0.5 mol/L的HCl溶液中，用比色法测得0.5 mol/L HCl溶液中NO₃-N的浓度为10 μg/mL时，NSR的值为（10 μg/mL×20 mL）/8 cm²=25 μg/cm²。"},
+    {"type": "section-heading", "level": 4, "number": "13.2.5", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "离子交换树脂膜法是一种非常敏感的养分供给测量方法。因此，想要得到可重复的结果，必须保持土壤与膜持续均一接触。如果膜和土壤接触不完全，那么实际能吸附土壤中离子的膜表面面积与计算供给量时所假定的不同。"},
+    {"type": "note-item", "number": "（2）", "text": "实验应在相同的湿度和温度条件下进行。湿度和温度对土壤中离子的扩散和矿化/溶解具有显著影响。"},
+    {"type": "note-item", "number": "（3）", "text": "“三明治”测试只需要少量的风干土样（每个7号瓶盖需要4.5 g土样或每个“三明治”需要9 g土样）。因此，不需要准备大量土壤样品。"},
+    {"type": "printed-page-number", "text": "104"}
+  ],
+  "formulas": [
+    {"label": "（13.1）", "plain": "NSR=(C×V)/S", "latex": "\\mathrm{NSR}=\\frac{C\\times V}{S}", "context": "养分供给率计算", "variables": {"C": "HCl洗脱液中被吸附的阳离子或阴离子的浓度（μg/mL）", "V": "洗脱液的体积（mL）", "S": "膜的表面积（cm²）"}},
+    {"label": null, "plain": "(10 μg/mL×20 mL)/8 cm²=25 μg/cm²", "latex": "\\frac{10\\,\\mu g/mL\\times20\\,mL}{8\\,cm^2}=25\\,\\mu g/cm^2", "context": "NO₃-N示例计算"}
+  ],
+  "tables": [],
+  "contentSha256": "e02625194c2ce1cfc519ff68d672363f4a9daf8a864bac1570c56581975330bf"
+}

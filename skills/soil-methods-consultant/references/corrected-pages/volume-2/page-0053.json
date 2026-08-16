@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 53,
+  "sourceImageSha256": "6909feb3a0b8c594a915f413dcf2094835f0964227f390ffd4f8d7b93d7ac9ad",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成第58章题名、作者单位、58.1、58.2及58.2.1材料(1)～(5)"},
+    "precisionPass": {"status": "verified", "method": "核验w_P/w_L、ASTM/BS 1377、25次/13 mm/1.7 kPa、7～8 cm/2 cm/10～12 cm/0.01 g及标准年份"},
+    "secondVisualPass": {"status": "verified", "method": "由材料(5)反向复核至章题，逐项检查上下标、引文、单位和层级；印刷页码562"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "58", "title": "土壤结持性：塑性上限和下限"},
+    {"type": "author", "text": "R.A. McBride；University of Guelph，Guelph, Ontario, Canada"},
+    {"type": "heading", "number": "58.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "土壤Atterberg结持性界限主要用于工程领域黏性土分类（对应ASTM，2000b），并与其他基础土壤性质密切相关（De Jong等，1990）；也常用于估算剪切强度、承载能力、压缩性、膨胀能力及比表面积等工程指标（McBride，1989）。"},
+    {"type": "paragraph", "text": "收缩限、塑性下限w_P和塑性上限（液限）w_L都是质量含水量，分别标志土壤固态—半固态—可塑态—液态结持性转变的三个临界点。ASTM测定w_P和w_L的操作（对应ASTM，2000a）属于较主观的抗剪测试，操作变异影响较大。单点w_L法比常规多点法省时省费，但并未提高重现性。"},
+    {"type": "paragraph", "text": "替代、程序统一的测试包括压力板提取脱附（McBride，1989）、土壤—水悬浊液固结（McBride和Bober，1989；McBride和Baumgartner，1992）、泥浆体黏度和圆锥穿透等。只有圆锥穿透w_L试验已标准化，并由英国标准BS 1377: Part 2: 1990（BSI，2000）推荐；Harison（1988）指出圆锥穿透不能直接测w_P。本章只概述已标准化且广泛接受的方法，主要依据AASHTO（2000a，2000b）、ASTM（2000a）、BSI（2000）和Sheldrick（1984）。"},
+    {"type": "source-fidelity-note", "text": "原书将BS 1377: Part 2年份印为1900，应为1990；并把ASTM 2000a（D 4318试验方法）与2000b（D 2487分类标准）的文内引用对调，已依据本章参考文献纠正。Harison是原论文作者的正确拼写。"},
+    {"type": "heading", "number": "58.2", "title": "塑性上（液）限", "level": 2},
+    {"type": "paragraph", "text": "黏性土的塑性上限（液限）是在可重塑状态下，液态与可塑态边界对应的质量含水量（%）。按ASTM Casagrande法：标准液限仪土碟内土样经标准划槽刀分为两半，冲击25次后槽底两侧土样流动合拢13 mm时的含水量即w_L。此状态下不排水土壤黏结力约1.7 kPa（Wroth和Wood，1978）。"},
+    {"type": "heading", "number": "58.2.1", "title": "卡萨格兰德（Casagrande）法", "level": 3},
+    {"type": "subheading", "title": "1. 测定装置和材料"},
+    {"type": "materials-list", "items": ["(1) ASTM液限测试装置，带划槽刀。", "(2) 金属调土刀，长7～8 cm、宽2 cm。", "(3) 调土皿，直径10～12 cm。", "(4) 土样储存容器，用于测定含水量。", "(5) 天平，精度0.01 g。"]}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "aaa1c8d42dc06848517878a505c0ec5f06667abf341fd2209c1df0f3551724e8"
+}

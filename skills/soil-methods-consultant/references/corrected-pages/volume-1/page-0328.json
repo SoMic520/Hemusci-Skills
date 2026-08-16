@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 328,
+  "sourceImageSha256": "da283afba42840d0679bd1e0eb521faf06d044bab1b110608c046d2f424cecf8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复图32.1全部标注、机械分离法、章节概述及32.2采样开头"},
+    "precisionPass": {"status": "verified", "method": "逐标签核验25～60 W、10～15 cm、4 ℃、图号、来源网址、水—庚烷及1 mm"},
+    "secondVisualPass": {"status": "verified", "method": "从页末采样句反向复核至图32.1顶部，确认图题原书印作Berlese-Tullgre并逐项核对10个图示标签；页码297"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第32章｜小型节肢动物｜"},
+    {"type": "figure", "number": "32.1", "title": "简易的台式Berlese-Tullgre动态提取器", "labels": ["25～60 W的白炽灯和护罩", "钳夹住灯罩", "10～15 cm", "土壤或疏松的枯枝落叶样品", "尼龙筛膜", "圆环架", "塑料漏斗", "玻璃瓶", "收集溶液", "实验室支架台"], "caption": "简易的台式Berlese-Tullgre动态提取器，可在室温或者4 ℃条件下操作。光源可采用白炽台灯。这款提取器有商业化产品。（来自Burkard Scientific 2006. Tullgren Funnels. Uxbridge, Middlesex, UK. 线上请访问：http://www.burkardscientific.co.uk（最近一次验证是2006年6月））"},
+    {"type": "source-fidelity-note", "scope": "图32.1名称", "text": "原书图题印作Berlese-Tullgre，标准名称通常写作Berlese-Tullgren；原图题保留并索引规范拼写。来源网址及2006年验证日期仅作历史溯源。"},
+    {"type": "method-category", "number": "（2）", "name": "机械分离法", "text": "机械分离法是利用动物的物理和化学性质（如体型大小、密度和疏水性）来机械地提取它们。一般步骤是通过将土壤与盐溶液或者油水混合液搅拌而使其悬浮。当停止搅拌后，小型节肢动物会漂浮在液体表面。在油水悬浮液中，当搅拌停止后，油会携带亲脂性小型节肢动物漂浮在表面，但也会携带少量亲水的植物残体。"},
+    {"type": "paragraph", "text": "本章介绍了两种提取土壤中小型节肢动物的方法：动态提取法使用高（温度和湿度）梯度提取器，机械分离法使用水—庚烷混合液。虽然使用庚烷成本更高，但可以用来验证高梯度提取器。本章提供了土壤采样方法的建议，并且给出了动态提取法和机械分离法的推荐案例。处理和保存小型节肢动物的方法也会在本章中简要描述。"},
+    {"type": "section-heading", "level": 2, "number": "32.2", "title": "采样"},
+    {"type": "paragraph", "text": "使用动态提取法的前提是动物群是存活的，并尽一切努力促使它们从样品中脱离出来。软体动物，如弹尾目、前气门目、未成熟的甲螨亚目和中气门目，在粗糙的操作过程中极易被破坏。需要注意的是，在采样过程中不能将土壤压实，以便动物可以从孔隙中出来并被计数。"},
+    {"type": "paragraph", "text": "动态提取器的土壤样品可以通过往土壤中压入一个金属圆筒或“去心器”来采样。圆筒的底边边缘应为斜面以便切入土壤中。若需要采集一系列深度的土柱，可以使用如图32.2所示的采样器。土壤保留在金属环或耐热的塑料环中。为了减少样品的紧实度，样品环的内径比采样器的刃口宽1 mm。在向下压“去心器”时，可利用尖刀切割采样器的外部周围来采集植物残体样品。"},
+    {"type": "printed-page-number", "text": "297"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "561ea95dec0bb4720e27042b90c574a0154b925c881791c39fcbb6baba08cb25"
+}

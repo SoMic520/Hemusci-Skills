@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-44615-2024",
+  "label": "GB/T 44615-2024《农产品产地土壤中挥发性有机物检测方法 双柱气相色谱法》",
+  "standardNo": "GB/T 44615-2024",
+  "title": "农产品产地土壤中挥发性有机物检测方法 双柱气相色谱法",
+  "published": "2024-09-29",
+  "implemented": "2025-01-01",
+  "domain": "soil",
+  "sourceType": "official-pdf",
+  "sourceFingerprint": "1138a1c81aa81718d256286da93d38b0ec3a6c595fbde83110b6ac109b29df2a",
+  "includedPageCount": 19,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=29D258A185BD88A6AD7DB768B25D0B78"
+}

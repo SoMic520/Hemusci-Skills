@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 253,
+  "sourceImageSha256": "8b770573080d64a0570a5e6bfaa2a2dc8d8a405e76133a92da78e25916de15fb",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第25章第222页，并与Apple Vision、PaddleOCR交叉比对，人工恢复无机磷测定步骤续文、三类浸提液全磷测定、25.4.6注释和25.5解释开篇"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验6/1.6 mL、0.9/0.5/0.1 mol·L⁻¹、0.4/0.5/0.6 g、0 ℃、25 000 g、60/90 min、1～40 mL、pH 8.5/13、Pₜ/Pᵢ及锡箔纸原印术语"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Pₜ−Pᵢ承接句反向复核至酸化子步骤①，确认3→4→25.4.6→25.5层级、三种浸提液分别处理、灭菌时间和印刷页码222"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure-substep", "number": "①", "text": "酸化0.5 mol·L⁻¹ NaHCO₃浸提液：6 mL 0.9 mol·L⁻¹ H₂SO₄溶液。", "section": "25.4.5-3 无机磷的测定"},
+    {"type": "procedure-substep", "number": "②", "text": "酸化0.1 mol·L⁻¹ NaOH浸提液：1.6 mL 0.9 mol·L⁻¹ H₂SO₄溶液。"},
+    {"type": "procedure-step", "number": "（3）", "text": "在0 ℃ 25 000 g力下离心10 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "将上清液转移至50 mL容量瓶中。"},
+    {"type": "procedure-step", "number": "（5）", "text": "用少量酸化的水小心冲洗离心管，将冲洗液加入容量瓶中，注意不要干扰到有机质（一般冲洗2～3次）。"},
+    {"type": "procedure-step", "number": "（6）", "text": "调节pH值，用Murphy和Riley的方法测定磷含量（见25.4.5）。"},
+    {"type": "procedure-group", "number": "4.", "title": "0.5 mol·L⁻¹ NaHCO₃、0.1 mol·L⁻¹ NaOH和浓盐酸浸提液中全磷的测定（EPA，1971）"},
+    {"type": "principle", "text": "测定磷含量之前用过硫酸铵氧化可溶性有机质。"},
+    {"type": "procedure-step", "number": "（1）", "text": "用移液管吸取5 mL溶液于50 mL容量瓶中。"},
+    {"type": "procedure-step", "number": "（2）", "text": "对于0.5 mol·L⁻¹ NaHCO₃浸提液：加入约0.5 g过硫酸铵和10 mL 0.9 mol·L⁻¹ H₂SO₄溶液。"},
+    {"type": "procedure-substep", "number": "①", "text": "对于0.1 mol·L⁻¹ NaOH浸提液：加入约0.6 g过硫酸铵和10 mL 0.9 mol·L⁻¹ H₂SO₄溶液。"},
+    {"type": "procedure-substep", "number": "②", "text": "对于浓盐酸浸提液：加入约0.4 g过硫酸铵和10 mL去离子水。"},
+    {"type": "procedure-note", "text": "过硫酸盐可以用一端带有勺子的小铲子根据体积加入，而不需要每次称量。"},
+    {"type": "procedure-step", "number": "（3）", "text": "用锡箔纸盖住（浓盐酸浸提液需要覆盖两层）进行高压灭菌。NaHCO₃和HCl浸提液需要60 min，NaOH浸提液需要90 min（家用高压锅也可以替代高压灭菌锅）。"},
+    {"type": "source-fidelity-note", "appliesTo": "全磷测定步骤（3）", "text": "原书本页明确印作“锡箔纸”，而本书第24章相近的高压消解步骤使用“铝箔”。两者材质不同，且本页未提供进一步说明；校正语料保留原印“锡箔纸”，实际操作前必须核对原始方法或实验室SOP，不得擅自替换。"},
+    {"type": "procedure-step", "number": "（4）", "text": "调节pH值，用Murphy和Riley的方法测定磷含量（见25.4.5）。"},
+    {"type": "heading", "level": 2, "number": "25.4.6", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "在Murphy和Riley的方法中，浸提液的用量可以从含磷较高的酸浸提液的1 mL变化到含磷量很低的树脂浸提液的40 mL。"},
+    {"type": "note-item", "number": "（2）", "text": "大多数情况下出错的原因都是由于Murphy和Riley比色法中受到了干扰。显色前pH值调控不足是显色时最常见的问题。在消煮过程中残留物的氧化剂肯定会影响显色过程中的还原反应。在一些土壤中，我们观察到在二次酸化后的NaOH溶液中存在溶解态二氧化硅的干扰，导致吸光值正向偏移（即增大）。这种干扰一旦发生就很难控制。尽管显色时间精确至10 min时得到的吸光值读数一致性很好，但是其结果不可信。"},
+    {"type": "heading", "level": 1, "number": "25.5", "title": "结果的解释和限定"},
+    {"type": "body", "text": "对连续分组法所得数据的解释需要基于对具体提取剂的作用、浸提顺序（见图25.1）及其与土壤化学和生物学特性关系的理解。必须记住，如果磷的分组目的是尝试根据磷活性的大小来划分磷库，那么任何化学分组法都只能大概地表征其生物功能。树脂提取的磷被定义为可以自由交换的无机磷是合理的，因为树脂提取不以化学方法改变土壤溶液。碳酸氢盐浸提的磷是对植物可能有效的无机磷组分，因为其化学变化微弱，同时可以在某种程度上反映根系作用（呼吸作用）。这部分磷和广泛使用的肥力测试是不可比较的（Olsen等，1954），因为此刻树脂可以提取的磷库已经被移出，而且Olsen磷的提取时间只需要30分钟。"},
+    {"type": "body", "text": "碳酸氢盐和氢氧化物提取的无机磷并不是完全独立的磷库，特别是在酸性土壤中，但是随着pH值的增加（从土壤初始pH值到8.5、13）铁结合态磷和铝结合态磷含量表现出一定的连续性。这两种试剂浸提的有机磷也可以代表类似的磷库。由于在每种浸提液中，有机磷是用全磷（Pₜ）和无机磷（Pᵢ）之间的差值来表示的，所以会有误差。全磷的测定相当准确，但是无机磷是在用酸沉淀法将有机物沉淀后", "continued": true},
+    {"type": "printed-page-number", "text": "222"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1105306ac1afe05a3a1303407da7655c6edcb4345c3503a436745e212b145cd4"
+}

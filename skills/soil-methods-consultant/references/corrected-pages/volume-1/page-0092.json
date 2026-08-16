@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 92,
+  "sourceImageSha256": "361bb38b6c1d252bd229994eff8b20b72277f050baa2505ec639d4e3efaa0ca5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复7.1续文、ICP比较段及7.2材料清单"},
+    "precisionPass": {"status": "verified", "method": "放大核对M3-P/(M3-Al+M3-Fe)、M3-P/M3-Al、15%/25%、DTPA-TEA、0.1 mol/L HCl、ICP/OES/MS、ICP-OES/ICP-MS、2%～8%、8%～14%、50%、R²=0.84及NH₄F/EDTA储备液配比"},
+    "secondVisualPass": {"status": "verified", "method": "由页首“美国”跨页续句至M3储备液第①项逐段反向复核，并核验材料编号、公式上下标、容量质量及印刷页码61"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第7章｜Mehlich 3提取态元素｜"},
+    {"type": "paragraph", "continuation": true, "text": "国大西洋沿岸中部地区，Sims等（2002）指出可以用M3-P/（M3-Al+M3-Fe）比值来预测径流和渗滤液中的磷浓度。在加拿大魁北克地区的一项研究中，Khiari等（2000）报道称环境临界百分比（M3-P/M3-Al）为15%时，与荷兰草酸盐提取法得出的磷酸盐饱和度为25%的临界程度相对应。在魁北克地区（Quebec），M3-P/M3-Al比值已被纳入当地玉米种植的推荐条件之中（CRAAQ，2003）。读者可以查阅第14章关于环境土壤磷指数的完整描述。", "inlineNotation": ["M3-P/（M3-Al+M3-Fe）", "M3-P/M3-Al", "15%", "25%", "第14章"]},
+    {"type": "paragraph", "text": "除P外，用M3提取剂和当前不同实验室采用其他方法提取出的其他营养元素（K、Ca、Mg、Na、Cu、Zn、Mn、Fe和B）含量间也具有显著相关性（Tran，1989；Cancela等，2002；Mylavarapu等，2002）。此外，Michaelson等（1987）指出M3和醋酸铵两种提取剂所提取出来的K、Ca、Mg的含量也具有明显的相关性。同样地，M3可提取的Cu、Zn、Mn、Fe和B，与由二元酸、二乙烯三胺五乙酸三乙醇胺（DTPA-TEA），或者0.1 mol/L HCl和Mehlich 1提取得到的量之间也高度相关（Sims，1989；Sims等，1991；Zbiral和Nemec，2000）。", "inlineNotation": ["M3", "DTPA-TEA", "0.1 mol/L HCl", "Mehlich 1"]},
+    {"type": "paragraph", "text": "从20世纪90年代早期以来，自动分析方法在土壤养分定量应用方面发展迅速（Munter，1990；Jones，1998）。在土壤常规检测实验室，电感耦合等离子体（ICP）发射光谱仪是当下最流行的设备之一。ICP（发射光谱OES或质谱MS）的优点是它可以同时定量分析多种元素。然而，特别是针对磷元素，传统上常用比色法进行化肥施用量的土壤测试校准，用ICP替代比色法仍存在争议（Mallarino和Sawyer，2000；Zbiral，2000b；Sikora等，2005）。由于ICP和比色法得到的P的量不同，美国的一些地区不建议使用ICP来测定任何土壤试验提取物中的P（Mallarino和Sawyer，2000）。Zbiral（2000b）报道称由ICP-OES和火焰原子吸收法测定K和Mg时存在一个很小但很显著的差异（2%～8%）。在相同的试验中，使用ICP-OES测定的P的量比用分光光度法测定的结果高8%～14%。Sikora等（2005）分别通过ICP和比色法测定M3-P证实了这些结果，并指出使用ICP得到较高的结果，究竟是由于磷具有较高的生物有效性还是分析误差仍需进一步的研究。Eckert和Watson（1996）报道指出ICP比比色法测量磷所得的结果有时高出50%。导致这些差异的原因是分光光度法只测定土壤提取液中的正磷酸盐，而ICP则测定总磷（即有机磷和总无机磷，不仅是正磷酸盐）（Zbiral，2000a；Mallarino，2003）。Mallarino（2003）指出ICP方法和传统比色法测得的磷含量之间具有显著的相关性（R²=0.84），认为由ICP测出的M3-P应作为一种不同的测试，并根据野外校准结果加以解释，而不是根据比色法的测定结果来换算。由于自动化系统经常被用来测量提取液中营养离子的浓度，仪器的具体操作条件和步骤在仪器操作手册中都已给出，因此本章只给出了人工操作的方法。", "inlineNotation": ["ICP", "OES", "MS", "ICP-OES", "2%～8%", "8%～14%", "M3-P", "50%", "R²=0.84"]},
+    {"type": "section-heading", "level": 2, "number": "7.2", "title": "材料和试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "往复式振荡器。"},
+      {"number": "（2）", "text": "125 mL锥形瓶。"},
+      {"number": "（3）", "text": "过滤漏斗。"},
+      {"number": "（4）", "text": "滤纸（Whatman 42号）。"},
+      {"number": "（5）", "text": "一次性塑料小瓶。"},
+      {"number": "（6）", "text": "土壤化学实验室常用仪器。例如，传统比色法或自动比色法的分光光度计（比如Technicon自动分析器、Lachat流动注射系统）；火焰光度计；或者ICP-OES或ICP-MS。"},
+      {"number": "（7）", "text": "M3提取液："}
+    ]},
+    {"type": "ordered-list", "parent": "（7）M3提取液", "items": [
+      {"number": "①", "text": "M3储备液：（1.5 mol/L NH₄F+0.1 mol/L EDTA）。将55.56 g的氟化铵（NH₄F）溶解于600 mL去离子水中，加入29.23 g的EDTA，溶解，转移至1 L容量瓶并用去离子水定容，完全混合后存储在塑料瓶内。"}
+    ]},
+    {"type": "printed-page-number", "text": "61"}
+  ],
+  "formulas": [
+    {"label": null, "plain": "M3-P/(M3-Al+M3-Fe)", "latex": "\\frac{\\mathrm{M3-P}}{\\mathrm{M3-Al}+\\mathrm{M3-Fe}}", "context": "预测径流和渗滤液中的磷浓度"},
+    {"label": null, "plain": "M3-P/M3-Al", "latex": "\\frac{\\mathrm{M3-P}}{\\mathrm{M3-Al}}", "context": "环境临界百分比"},
+    {"label": null, "plain": "R²=0.84", "latex": "R^2=0.84", "context": "ICP方法和传统比色法测得的磷含量相关性"}
+  ],
+  "tables": [],
+  "contentSha256": "ed272718bb9282e34707c3cbef85034c52fcaec769b54079ee4557bfbe425272"
+}

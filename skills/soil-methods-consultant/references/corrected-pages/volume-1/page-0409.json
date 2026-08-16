@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 409,
+  "sourceImageSha256": "b6ef3434b5595d0d103e727052e655179dbcb6b87ce018380dff17053a7d904f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版39.2.2承上、微生物生长曲线、前处理和39.2.3"},
+    "precisionPass": {"status": "verified", "method": "核验1 h、6～8 h、2～6 mm、105 °C、3～10 g、5～7 d、7 cm×5 cm、式（39.1）～（39.4）、22 °C±0.5 °C及所有分母单位"},
+    "secondVisualPass": {"status": "verified", "method": "从式（39.4）反向复核至葡萄糖饱和曲线步骤（3），逐符号检查峰高差、100、顶空体积、时间和土量；印刷页码378"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure-step", "group": "2", "number": "（3）", "text": "1 h后用注射器取顶空气，向GC注入适量气体；各瓶按相同计时操作。"},
+    {"type": "procedure-step", "group": "2", "number": "（4）", "text": "作1 h响应对葡萄糖添加量的饱和曲线。曲线应到达平台，即继续提高葡萄糖浓度不再增大响应。SIR选用平台高浓度端，确保条件变化时仍维持葡萄糖饱和。"},
+    {"type": "procedure-group", "number": "3", "title": "微生物生长曲线"},
+    {"type": "procedure-step", "group": "3", "number": "（1）", "text": "称10 g ODW土壤重复样于40 mL培养瓶。"},
+    {"type": "procedure-step", "group": "3", "number": "（2）", "text": "按饱和曲线确定的浓度加入葡萄糖。快速混匀，以湿润空气冲洗并封盖；记录时间。"},
+    {"type": "procedure-step", "group": "3", "number": "（3）", "text": "1 h后取顶空气进GC；再以湿润空气冲洗并重新密封。持续6～8 h，每小时重复取样。"},
+    {"type": "procedure-step", "group": "3", "number": "（4）", "text": "按式（39.2）计算各小时CO₂呼吸速率并对时间作图，确定呼吸速率开始上升的时点；上升前任一时间段均可作为SIR取样窗口。"},
+    {"type": "procedure-group", "number": "4", "title": "土壤前处理和准备"},
+    {"type": "procedure-step", "group": "4", "number": "（1）", "text": "测新鲜土壤微生物生物量时，应在土壤含水量低于田间持水量（基质势−0.033 MPa）时采样。过2～6 mm筛并均质；取两份在105 °C测含水量；另取3～10 g子样分别装40 mL玻璃瓶，按SIR基础步骤操作。"},
+    {"type": "procedure-step", "group": "4", "number": "（2）", "text": "测潜在土壤微生物生物量浓度时，在步骤（1）后以Parafilm封口膜覆盖瓶口，暗处预培养5～7 d；期间至少以湿润空气通气1次。预培养后按SIR基础步骤操作。"},
+    {"type": "procedure-step", "group": "4", "number": "（3）", "text": "测土壤培养过程中的生物量时，培养开始即准备各时间点独立瓶，随培养破坏性取样；每个时间点3个重复，取出后按SIR基础步骤操作。"},
+    {"type": "procedure-step", "group": "4", "number": "（4）", "text": "原位测定使用高7 cm、直径5 cm的塑料或金属圆筒。压入土中5 cm后取出土芯，在孔底放直径5 cm薄橡胶片，再把土芯放回。另取重复土芯测含水量，并预先测定或估算筒内干土质量。准备多次葡萄糖注射，使每克土达到饱和葡萄糖浓度和最佳含水量。以可穿针的气密塑料膜封顶；1 h后取顶空气并按SIR基础步骤测定。"},
+    {"type": "section-heading", "level": 3, "number": "39.2.3", "title": "计算"},
+    {"type": "calculation-step", "number": "（1）", "text": "按式（39.1）由样品、空气空白和标准气峰高求瓶顶空CO₂体积分数。"},
+    {"type": "calculation-step", "number": "（2）", "text": "GC测定时须由顶空CO₂浓度换算土壤释放量；使用氢氧化物吸收阱则不需此换算。10 g ODW土时按式（39.2）求单位干土呼吸速率。"},
+    {"type": "calculation-step", "number": "（3）", "text": "Anderson和Domsch（1978）微生物生物量碳换算式在22 °C±0.5 °C有效：先按式（39.3）换至100 g土尺度，再按式（39.4）换算生物量碳。"},
+    {"type": "printed-page-number", "text": "378"}
+  ],
+  "formulas": [
+    {"label": "（39.1）", "plain": "CO₂%(headspace)=[(H_sample−H_air)/H_standard]×CO₂%(standard)", "latex": "CO_2\\%(\\mathrm{headspace})=\\frac{H_{sample}-H_{air}}{H_{standard}}\\times CO_2\\%(\\mathrm{standard})", "context": "以GC峰高计算顶空CO₂体积分数"},
+    {"label": "（39.2）", "plain": "CO₂ respiration (mL·h⁻¹·g⁻¹ soil)=[CO₂%(headspace)/100]×V_headspace/(1 h×10 g soil)", "latex": "R_{CO_2}=\\frac{CO_2\\%(\\mathrm{headspace})}{100}\\times\\frac{V_{headspace}}{1\\,\\mathrm{h}\\times10\\,\\mathrm{g\\ soil}}", "context": "10 g ODW土壤的顶空CO₂换算"},
+    {"label": "（39.3）", "plain": "CO₂ (mL·h⁻¹·100 g⁻¹ soil)=respiration rate (mL·h⁻¹·g⁻¹ soil)×100", "latex": "R_{100g}=R_{1g}\\times100", "context": "把单位克土呼吸速率换为100 g土尺度"},
+    {"label": "（39.4）", "plain": "biomass C (mg·100 g⁻¹ soil)=40.04×CO₂ (mL·h⁻¹·100 g⁻¹ soil)+0.37", "latex": "C_{mic}\\,(\\mathrm{mg\\,100\\,g^{-1}})=40.04\\,R_{100g}+0.37", "context": "Anderson–Domsch SIR生物量碳经验换算；22 °C±0.5 °C"}
+  ],
+  "tables": [],
+  "contentSha256": "0562959b5a68aec65afc752f56a28e538002db69b99cdbc0350fe445e32c9707"
+}

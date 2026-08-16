@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 227,
+  "sourceImageSha256": "466321f41feb083a1f92a3274e9d8867d508162add15cc5b4d05144e8f0a9f6b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第23章参考文献末页，并与Apple Vision、PaddleOCR交叉比对，人工恢复本页11条文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验2ⁿᵈ ed.、1970a/1970b、highperformance原印连写、作者缩写、期刊卷页及译校人员"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至Roberts条目，确认11条文献顺序、书名、标点、卷页和页码196"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-entry", "text": "Roberts, T.L. and Bettany, J.R. 1985. The influence of topography on the nature and distribution of soil sulfur across a narrow environmental gradient. Can. J. Soil Sci. 65: 419-434."},
+    {"type": "reference-entry", "text": "Scott, N.M., Bick, W., and Anderson, H.A. 1981. The measurement of sulfur-containing amino acids in some Scottish soils. J. Sci. Food Agric. 32: 21-24."},
+    {"type": "reference-entry", "text": "Stallings, E.A., Candelaria, L.M., and Gladney, E.S. 1988. Investigation of a fusion technique for the determination of total sulfur in geological samples by ion chromatography. Anal. Chem. 60: 1246-1248."},
+    {"type": "reference-entry", "text": "Strick, J.E. and Nakas, J.P. 1984. Calibration of a microbial sulfur technique for use in forest soils. Soil Biol. Biochem. 16: 289-291."},
+    {"type": "reference-entry", "text": "Tabatabai, M.A. 1982. Sulfur. In: A.L. Page, R.H. Miller, and D.R. Keeney, eds. Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties, 2ⁿᵈ ed. American Society of Agronomy, Madison, WI, 501-538."},
+    {"type": "reference-entry", "text": "Tabatabai, M.A., Basta, N.T., and Pirela, H.J. 1988. Determination of total sulfur in soils and plant materials by ion chromatography. Commun. Soil Sci. Plant Anal. 19: 1701-1714."},
+    {"type": "reference-entry", "text": "Tabatabai, M.A. and Bremner, J.M. 1970a. An alkaline oxidation method for determination of total sulfur in soils. Soil Sci. Soc. Am. Proc. 34: 62-65."},
+    {"type": "reference-entry", "text": "Tabatabai, M.A. and Bremner, J.M. 1970b. Comparison of some methods for determination of total sulfur in soils. Soil Sci. Soc. Am. Proc. 34: 417-420."},
+    {"type": "reference-entry", "text": "Wainwright, M. and Johnson, J. 1980. Determination of sulfite in mineral soils. Plant Soil. 54: 299-305."},
+    {"type": "reference-entry", "text": "Watkinson, J.L., Lee, A., and Lauren, D.R. 1987. Measurement of elemental sulfur in soil and sediments: field sampling, sample storage, pretreatment, extraction and analysis by highperformance liquid chromatography. Aust. J. Soil Res. 25: 167-178."},
+    {"type": "reference-entry", "text": "Zhao, F.J., Loke, S.Y., Crosland, A.R., and McGrath, S.P. 1996. Method to determine elemental sulfur in soils applied to measure sulfur oxidation. Soil Biol. Biochem. 28: 1083-1087."},
+    {"type": "translator-credit", "text": "（王朝辉　党海燕　译，王朝辉　校）"},
+    {"type": "printed-page-number", "text": "196"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "343696cd7baae97c3dc32cad1aee7fedf45da3e9e17a2786f552ac11804144bc"
+}

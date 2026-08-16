@@ -1,0 +1,59 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 87,
+  "sourceImageSha256": "40f5c49350e48672338677fa8b38ee4455b12bc9eec42ab38028e618f1c1e49e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复6.3.3续步、6.3.4三式及6.3.5六项注释"},
+    "precisionPass": {"status": "verified", "method": "逐字符放大核对式（6.1）—（6.6）的分子分母、μg/g、μg/mL、NO₃、NO₂、H⁺、e、H₃NOH、NH₄⁺、H₂O、系数与反应箭头，并确认原式未给NO₃、NO₂、e和H₃NOH标电荷"},
+    "secondVisualPass": {"status": "verified", "method": "按步骤（3）—（13）、计算式、测试范围、CRC还原效率两条说明及印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "ordered-list", "continuation": true, "items": [
+      {"number": "（3）", "text": "启动自动分析器（Maynard和Kalra，1993；Kalra和Maynard，1991），让色度计预热至少30 min。"},
+      {"number": "（4）", "text": "所用管路用去离子水润洗10 min。"},
+      {"number": "（5）", "text": "所用管路用正确的试剂润洗20 min，以确保彻底冲洗该系统（通过清洗管路注入2.0 mol/L KCl）。"},
+      {"number": "（6）", "text": "建立一个稳定的基线。"},
+      {"number": "（7）", "text": "进高浓度的标样并运行5 min。"},
+      {"number": "（8）", "text": "如果需要，重设基线。"},
+      {"number": "（9）", "text": "转移标准溶液到样品杯中，并以降序排列置于托盘上。"},
+      {"number": "（10）", "text": "转移样品溶液到样品杯中，并依次放置在托盘上。"},
+      {"number": "（11）", "text": "开始运行。"},
+      {"number": "（12）", "text": "运行完成后，重新测定标样以确保没有漂移，并重新建立基线。"},
+      {"number": "（13）", "text": "关机前，用去离子水冲洗20 min。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "6.3.4", "title": "计算"},
+    {"type": "paragraph", "text": "根据已有的标样数据绘制一条标准曲线（吸光度vs.浓度），KCl提取液以μg NO₃-N/mL为单位，结果计算如下所示：", "inlineNotation": ["μg NO₃-N/mL"]},
+    {"type": "formula-reference", "labels": ["6.1", "6.2", "6.3"]},
+    {"type": "paragraph", "text": "根据色度计强度和输入的相关信息（比如样品重量、提取液体积和水分系数），集成数据采集系统的数据软件包将自动计算出待测物的浓度水平。"},
+    {"type": "section-heading", "level": 3, "number": "6.3.5", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "整个过程中需使用去离子水。"},
+      {"number": "（2）", "text": "警告：浓酸和水混合过程中会产生大量的热，注意采取适当的防护措施。"},
+      {"number": "（3）", "text": "所有的试剂瓶、样品杯、新的泵管均需要用1 mol/L的HCl溶液冲洗。"},
+      {"number": "（4）", "text": "测试范围：0.01～2 μg NO₃-N/mL的提取液。提取液中NO₃-N浓度大于标准溶液中最高浓度（2.0 μg NO₃-N/mL）时，需要用2.0 mol/L的KCl溶液稀释后再分析。"},
+      {"number": "（5）", "text": "可以从SFA零部件体系的各种供应商购买成品CRCs。之前的方法要求制备镉还原柱。然而，准备工作非常单调、耗时，且镉颗粒不易获得。"},
+      {"number": "（6）", "text": "CRC的还原效率（O.I. Analytical，2001a）。"}
+    ]},
+    {"type": "ordered-list", "parent": "（6）CRC的还原效率", "items": [
+      {"number": "①", "text": "在CRC中，硝酸盐被还原为亚硝酸盐。然而，在某些情况下，亚硝酸盐可能被进一步还原成羟胺和铵离子。这些反应是由pH值决定的。"}
+    ]},
+    {"type": "formula-reference", "labels": ["6.4", "6.5", "6.6"]},
+    {"type": "paragraph", "text": "在此方法的pH值缓冲范围内，反应6.4占主导地位。然而，如果镉表面过于活化，反应6.5和6.6将持续进行使亚硝酸盐进一步还原。"},
+    {"type": "ordered-list", "parent": "（6）CRC的还原效率", "continuation": true, "items": [
+      {"number": "②", "text": "如果镉表面活化不充分，硝酸盐转换成亚硝酸盐的效率将会降低，这种情况称为低还原效率。"}
+    ]},
+    {"type": "printed-page-number", "text": "56"}
+  ],
+  "formulas": [
+    {"label": "6.1", "plain": "湿土中的NO₃-N含量（μg/g）=[提取剂中的NO₃-N含量（μg/mL）×提取剂的体积（mL）]/湿土的重量（g）", "latex": "\\text{湿土中的}\\,\\mathrm{NO_3-N}\\,\\text{含量（}\\mu\\mathrm{g/g}\\text{）}=\\frac{\\text{提取剂中的}\\,\\mathrm{NO_3-N}\\,\\text{含量（}\\mu\\mathrm{g/mL}\\text{）}\\times\\text{提取剂的体积（mL）}}{\\text{湿土的重量（g）}}"},
+    {"label": "6.2", "plain": "水分系数=湿土重量（g）/烘干土重量（g）", "latex": "\\text{水分系数}=\\frac{\\text{湿土重量（g）}}{\\text{烘干土重量（g）}}"},
+    {"label": "6.3", "plain": "烘干土中的NO₃-N含量（μg/g）=湿土中的NO₃-N含量（μg/g）×水分系数", "latex": "\\text{烘干土中的}\\,\\mathrm{NO_3-N}\\,\\text{含量（}\\mu\\mathrm{g/g}\\text{）}=\\text{湿土中的}\\,\\mathrm{NO_3-N}\\,\\text{含量（}\\mu\\mathrm{g/g}\\text{）}\\times\\text{水分系数}"},
+    {"label": "6.4", "plain": "NO₃+2H⁺+2e→NO₂+H₂O", "latex": "\\mathrm{NO_3+2H^++2e\\rightarrow NO_2+H_2O}"},
+    {"label": "6.5", "plain": "NO₂+6H⁺+6e→H₃NOH+H₂O", "latex": "\\mathrm{NO_2+6H^++6e\\rightarrow H_3NOH+H_2O}"},
+    {"label": "6.6", "plain": "NO₂+8H⁺+6e→NH₄⁺+2H₂O", "latex": "\\mathrm{NO_2+8H^++6e\\rightarrow NH_4^++2H_2O}"}
+  ],
+  "tables": [],
+  "contentSha256": "6dd7b0c863c996e9169798149cbab760bcdfda1238a9b67cdab5bb9a8a634299"
+}

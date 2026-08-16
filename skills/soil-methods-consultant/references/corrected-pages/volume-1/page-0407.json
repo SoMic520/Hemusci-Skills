@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 407,
+  "sourceImageSha256": "dd06ef5d1c3988b067dea43494f4b51ba78528ab4bec4adae695ef257a853298",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版第39章章名、作者、39.1与39.2承下句"},
+    "precisionPass": {"status": "verified", "method": "核验Bailey拼写、CO₂、SIR、CFIM、F∶B、章节交叉引用及方法适用范围"},
+    "secondVisualPass": {"status": "verified", "method": "从39.2承下句反向复核至章名，检查作者、机构、缩写、层级和第49章交叉引用；印刷页码376"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "39", "title": "底物诱导呼吸作用和选择性抑制测定土壤中的微生物生物量"},
+    {"type": "author", "name": "V.L. Bailey", "affiliation": "Pacific Northwest National Laboratory, Richland, Washington, United States"},
+    {"type": "source-fidelity-note", "scope": "第39章作者", "text": "中译本章首页误印V.L. Baily；英文原版和作者正式拼写为V.L. Bailey。"},
+    {"type": "author", "name": "H. Bolton, Jr.", "affiliation": "Pacific Northwest National Laboratory, Richland, Washington, United States"},
+    {"type": "author", "name": "J.L. Smith", "affiliation": "U.S. Department of Agriculture; Washington State University, Pullman, Washington, United States"},
+    {"type": "section-heading", "level": 2, "number": "39.1", "title": "引言"},
+    {"type": "paragraph", "text": "土壤微生物生物量对过程研究很重要，因为微生物介导反应具有时间依赖性。碳、氮等元素矿化及许多有机化学物降解的动力学取决于底物浓度和土壤理化环境，并以微生物生物量为反应介质。若有可靠且不受土壤条件变化影响的生物量快速测定法，就可确定微生物生物量对矿化、化学降解和养分吸收动力学的影响。"},
+    {"type": "paragraph", "text": "底物诱导呼吸（substrate-induced respiration，SIR）法可简单、快速、经济地测定土壤和残体的微生物生物量碳。其原理是：加入可溶性供能底物后，微生物初始CO₂产生速率与微生物量成正比。该法最初用于区分细菌和真菌生物量，后来以氯仿熏蒸培养法（chloroform fumigation incubation method，CFIM）校准以定量土壤微生物生物量（见第49章）。应用要求：①底物浓度须使响应达到饱和；②须在生物量增长前测量底物响应。因此要先绘制葡萄糖饱和曲线和微生物生长曲线，确定滞后期（Smith等，1985）。"},
+    {"type": "source-fidelity-note", "scope": "39.1 CFIM交叉引用", "text": "中译本误写“参见第39章”，形成自指；英文原版为see Chapter 49，正文已纠正为第49章。"},
+    {"type": "paragraph", "text": "SIR已用于评价耕作（Lynch和Panting，1980；Ross，1980；Adams和Laughlin，1981）、农药（Anderson等，1981）、重金属（Brookes和McGrath，1984）和森林皆伐（Ayanaba等，1976）对土壤过程及微生物生物量的影响。生物量测定也用于研究土壤养分和能量流动（Paul和Voroney，1980；van Veen等，1985；Smith和Paul，1990）。"},
+    {"type": "paragraph", "text": "选择性抑制法用真菌抑制剂和细菌抑制剂计算真菌与细菌活性比（F∶B；Anderson和Domsch，1973）。它早于经校准的SIR生物量法（Anderson和Domsch，1978），本质上是SIR的变式。选择性抑制所得F∶B比较的是两群落的活性，不等同于两群落在总微生物生物量中的相对丰度（如磷脂脂肪酸法的F∶B）；两种比例之间可能相关（Bailey等，2002；Bååth和Anderson，2003）。"},
+    {"type": "section-heading", "level": 2, "number": "39.2", "title": "底物诱导呼吸作用"},
+    {"type": "paragraph", "text": "SIR法自20世纪70年代末出现后持续受到关注（Anderson和Domsch，1978），可测潜在生物量（预培养土壤）、培养不同阶段的土壤生物量和原位土壤生物量；其局限与改进续见第408页。"},
+    {"type": "printed-page-number", "text": "376"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "56820b258cec9b0e790d5dfeb98aeaa9308157488da54ba470cb481c53ab4a5b"
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 181,
+  "sourceImageSha256": "dcf6d59ca7048c3d7dd504ee4dd2c18effb48f03538189d5d03bf8fb5ab95c87",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段逐图对照原分辨率页图和两套OCR，完成式(70.3)、SAR说明、图70.3及GPR速度法/70.4.1"},
+    "precisionPass": {"status": "verified", "method": "核验A_r/A_m分式平方、>1 GHz、Tx/Rx、t₀/t_gw及WARR/CMP/FO缩写"},
+    "secondVisualPass": {"status": "verified", "method": "由70.4.1跨页句反向复核公式、两幅天线配置与多偏移操作；印刷页码690"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "空中发射—地表反射GPR的相对介电常数由反射相对最大振幅A_r与金属板全反射振幅A_m按式(70.3)计算。主动微波遥感SAR原理相同；频率>1 GHz时地表粗糙度和植被使反演复杂。SAR用于表层土壤含水量仍在发展，本章不提供完整使用指南。"},
+    {"type": "figure", "number": "70.3", "title": "两种GPR天线配置测定土壤含水量", "panels": [{"label": "a", "description": "地表GPR，直接地面波"}, {"label": "b", "description": "空中发射地表反射率GPR"}], "annotations": ["Tx：发射器（Transmitter）", "Rx：接收器天线（Receiver Antennae）", "地表配置波形标出t₀和t_gw；空中配置测反射振幅A_r"]},
+    {"type": "paragraph", "text": "地表GPR与地面直接接触，由直达/反射地面波速度求相对介电常数和含水量。可用固定偏移FO或多偏移WARR/CMP。WARR固定接收天线、逐步移开发射天线；CMP从近距离开始把发射和接收天线向相反方向同步移动。FO需直接选取地面波到达时间，WARR/CMP可利用峰值振幅到达时间—偏移量关系求波速。"},
+    {"type": "heading", "number": "70.4.1", "title": "材料和设备", "level": 3},
+    {"type": "paragraph", "text": "成书时无专为土壤含水量设计的商用GPR；以下步骤假设操作者已掌握设备基本操作、要求和健康安全问题，跨页续述。"},
+    {"type": "source-fidelity-note", "text": "式(70.3)最外层平方作用于完整比值；OCR容易丢失括号。SAR内容只说明可行性与限制，不构成可直接执行的方法步骤。"}
+  ],
+  "formulas": [
+    {"label": "70.3", "plain": "ε_r = [(1 + A_r/A_m)/(1 - A_r/A_m)]²", "latex": "\\varepsilon_r=\\left(\\frac{1+A_r/A_m}{1-A_r/A_m}\\right)^2", "resultUnit": "1"}
+  ],
+  "tables": [],
+  "contentSha256": "70bc6ad585604e0adbc10fcd91572a4a0e32859f4dfc3c63faff8c4939fb6451"
+}

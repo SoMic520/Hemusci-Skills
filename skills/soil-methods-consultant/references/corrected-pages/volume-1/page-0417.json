@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 417,
+  "sourceImageSha256": "644d3b80895e0b2231ca1313e781219ee858d080ef8a614af55f3686e64503da",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版40.2.3～40.2.6（40.1）"},
+    "precisionPass": {"status": "verified", "method": "核验网袋数乘法、0.01 g、65/500 °C、4 h、1 mm及式（40.1）的全部括号和变量下标"},
+    "secondVisualPass": {"status": "verified", "method": "放大复核式（40.1），从Xi/Xc/Xd定义反算确认其等价于干重/鲜重×100；印刷页码386"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "40.2.3", "title": "分解网袋的制作"},
+    {"type": "procedure-step", "number": "（1）", "text": "把网材裁成所需长、宽的条，条数为所需袋数的2倍；也可裁成袋宽2倍后对折，以减少需封边数。所需袋数=回收时间数×处理数×重复数。"},
+    {"type": "procedure-step", "number": "（2）", "text": "用热封、订书钉或尼龙线缝合网条四边中的三边。另制“旅行者”网袋，用于测定安放时运输和处理造成的残体损失，见Harmon等（1999）。"},
+    {"type": "procedure-step", "number": "（3）", "text": "计算每袋所需新鲜作物残体量。"},
+    {"type": "procedure-step", "number": "（4）", "text": "称计算量的新鲜作物残体至0.01 g，从开口侧装入各袋（包括旅行者袋），封口。以细导线系铝制或塑料标签，注明地点、处理、重复号和回收时间。"},
+    {"type": "section-heading", "level": 3, "number": "40.2.4", "title": "分解网袋的安放"},
+    {"type": "procedure-step", "number": "（1）", "text": "小心把网袋运至田间；旅行者袋与其他袋作相同运输、处理。"},
+    {"type": "procedure-step", "number": "（2）", "text": "常规耕作或少耕区，把袋平埋于耕层：移开耕层土，尽量平放使袋与土接触，再覆回土壤；标签线应足够长，使埋袋后标签留在土表。免耕等表施残体处理，把袋平放土表并以金属桩固定，保证土表接触和标签可见。同一区域不同回收时间的袋随机放置，且间隔足够远，以减小空间自相关。"},
+    {"type": "procedure-step", "number": "（3）", "text": "旅行者袋放到田间后立即取回；处理残体并复称至0.01 g。用测得的运输、处理损失校正袋内残体初始去灰分干重。"},
+    {"type": "section-heading", "level": 3, "number": "40.2.5", "title": "分解网袋的回收及处理"},
+    {"type": "procedure-step", "number": "（1）", "text": "按多个时间点回收。初期质量损失快，时间点应较密，后期可加大间隔。小心操作，避免分解残体碎裂掉出；尽量回收并记录碎裂或材料损失。回收袋立即装入已标记的可重封聚乙烯袋，在田间封口后谨慎运回实验室。"},
+    {"type": "procedure-step", "number": "（2）", "text": "从聚乙烯袋取出网袋，先清除袋表附着土壤和活植物材料；取出袋内材料，用刷除或细雾喷淋清洗，去除松散附着土粒。"},
+    {"type": "procedure-step", "number": "（3）", "text": "测回收残体未校正干重：65 °C烘至不再失重，称至0.01 g。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用Wiley磨研磨残体，过1.0 mm筛。"},
+    {"type": "procedure-step", "number": "（5）", "text": "按40.2.2，把研磨回收残体子样在马弗炉500 °C干灰化4 h，测灰分含量。"},
+    {"type": "procedure-step", "number": "（6）", "text": "把网袋内容物干重校正为去灰分干重，以扣除袋内土壤污染的影响。"},
+    {"type": "section-heading", "level": 3, "number": "40.2.6", "title": "计算"},
+    {"type": "calculation-group", "number": "1", "title": "新鲜残体干物质量"},
+    {"type": "calculation-step", "text": "按式（40.1）求残体干物质百分含量DM%。Xi为初始鲜残体+铝盒质量；Xc为干铝盒+盖质量；Xd为干残体+铝盒质量。该式等价于[(Xd−Xc)/(Xi−Xc)]×100。"},
+    {"type": "printed-page-number", "text": "386"}
+  ],
+  "formulas": [
+    {"label": "（40.1）", "plain": "DM%={1−{[(Xi−Xc)−(Xd−Xc)]/(Xi−Xc)}}×100=[(Xd−Xc)/(Xi−Xc)]×100", "latex": "DM_{\\%}=\\left(1-\\frac{(X_i-X_c)-(X_d-X_c)}{X_i-X_c}\\right)\\times100=\\frac{X_d-X_c}{X_i-X_c}\\times100", "context": "新鲜残体干物质百分含量"}
+  ],
+  "tables": [],
+  "contentSha256": "775e8a3a99156ce9a069a0454e66a12cfd00ef5115a0c0be530a565dede3a333"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 511,
+  "sourceImageSha256": "cf6317eb17522ae03c24efd3fc96c8988a0fb330806762f238ed4ecd09f79a49",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成50.4.3～50.4.5及50.4.5步骤（6）"},
+    "precisionPass": {"status": "verified", "method": "核验5 mL·min⁻¹、3～5个样品、HPAEC-PAD、CarboPac PA10尺寸、10～50 μL、18 MΩ·cm、0.45 μm、21/500 mmol·L⁻¹ NaOH、2.1/52.8 mL、E/t脉冲参数和0.7/0.5/0.2 mL"},
+    "secondVisualPass": {"status": "verified", "method": "由步骤（6）反向复核至50.4.3，检查检测器名称、E₁～E₃与t₁～t₃下标、负电位和印刷页码480"}
+  },
+  "blocks": [
+    {"type": "section-heading", "level": 3, "number": "50.4.3", "title": "注释"},
+    {"type": "note", "number": "（1）", "text": "中性糖色谱前通常须纯化以去除干扰离子，这是测定中最耗时的步骤。SCX、SAX柱须按制造商程序在样品间调节和清洗；水解液先过SAX、再过SCX可延长柱寿命。LC-SAX和LC-SCX通常净化3～5个样品后需再生或更换，水解液流速<5 mL·min⁻¹时纯化效率最佳。"},
+    {"type": "note", "number": "（2）", "text": "提取与纯化须设空白，特别是使用纤维素滤纸时；滤纸可能释放树胶醛糖、木糖和葡萄糖，空白用于校正样品。"},
+    {"type": "section-heading", "level": 3, "number": "50.4.4", "title": "材料与试剂——分析过程"},
+    {"type": "materials-list", "items": [
+      {"number": "（1）～（2）", "text": "配脉冲安培检测器的高效阴离子交换色谱系统（HPAEC-PAD；如Dionex DX-500），含梯度泵、电化学检测器、自动进样器及一次性金电极检测池。"},
+      {"number": "（3）", "text": "CarboPac PA10保护柱（4 mm×50 mm）与分析柱（4 mm×250 mm）串联。"},
+      {"number": "（4）", "text": "10～50 μL进样环；样品糖含量越高，进样环体积应越小。"},
+      {"number": "（5）～（6）", "text": "2套洗脱装置与2个2 L洗脱液容器；自动进样器用0.5 mL带滤帽塑料进样瓶。"},
+      {"number": "（7）", "text": "50%（w/w）NaOH溶液。"},
+      {"number": "（8）", "text": "超纯水，电阻率18 MΩ·cm；使用前经0.45 μm滤膜真空脱气。"}
+    ]},
+    {"type": "source-fidelity-note", "scope": "50.4.4检测器名称与水质单位", "text": "原书把pulsed amperometric detector译为‘脉冲电流滴定检测器’，正确为‘脉冲安培检测器’，PAD不是滴定检测。原书只写电阻率18 MΩ，实验室超纯水规范单位应为18 MΩ·cm。"},
+    {"type": "section-heading", "level": 3, "number": "50.4.5", "title": "色谱条件"},
+    {"type": "procedure-step", "number": "（1）", "text": "洗脱液A（21 mmol·L⁻¹ NaOH）：将2.1 mL 50%（w/w）NaOH缓慢加入已脱气超纯水并持续搅拌；冷却至室温，在2 L容量瓶定容，立即转入2 L洗脱液容器密封，顶部充He防止形成碳酸盐。"},
+    {"type": "procedure-step", "number": "（2）", "text": "洗脱液B（500 mmol·L⁻¹ NaOH）：按同法将52.8 mL 50%（w/w）NaOH配成2 L，立即转入容器密封并在顶部充He。"},
+    {"type": "procedure-step", "number": "（3）～（4）", "text": "电化学检测器设为脉冲安培模式；脉冲程序：E₁=0.1 V、t₁=300 ms；E₂=0.6 V、t₂=120 ms；E₃=−0.6 V、t₃=60 ms。"},
+    {"type": "procedure-step", "number": "（5）", "text": "取约0.7 mL纯化样品加入总容量1 mL、标称0.5 mL的进样瓶，插入滤帽后保留0.5 mL；约0.2 mL多余样品被滤帽排出。"},
+    {"type": "procedure-step", "number": "（6）", "text": "按表50.1运行色谱；该条件通常检出7种中性糖，峰鉴定见图50.1和第512页。"}
+  ],
+  "formulas": [
+    {"id": "50.4.5-eluent-A", "display": "2.1 mL 50% (w/w) NaOH diluted to 2.00 L ≈ 21 mmol·L⁻¹", "meaning": "洗脱液A；以供应商溶液实际密度/标定浓度为准"},
+    {"id": "50.4.5-eluent-B", "display": "52.8 mL 50% (w/w) NaOH diluted to 2.00 L ≈ 500 mmol·L⁻¹", "meaning": "洗脱液B；顶部充He以抑制CO₃²⁻形成"},
+    {"id": "50.4.5-pad-pulse", "display": "(E₁,t₁)=(0.1 V,300 ms); (E₂,t₂)=(0.6 V,120 ms); (E₃,t₃)=(−0.6 V,60 ms)", "meaning": "脉冲安培检测程序"}
+  ],
+  "tables": [],
+  "contentSha256": "789617936ec3d4028657c98dc5c083c1baa59f55e3c9a761cb098de6b21312ec"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 113,
+  "sourceImageSha256": "277243b125f1ae67944ee2949adcc636f91309a988836c73a0d16f1ad3f4a84f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Sakata跨页结尾及Saltzman至Zhao共17条参考文献和译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验版次、作者变音符、化学式、pCO₂、期刊、卷页、书名和译校署名；校正N₂及期刊全称缩写"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至FFPRI跨页页码，检查1st/2nd/3rd/8th、C–C、O₂/N₂/CO₂和所有连字；印刷页码622"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Sakata, T., Ishizuka, S., and Takahashi, M. 2004. A method for measuring fluxes of greenhouse gases from forest soils. Bull. FFPRI 3:259–265.",
+      "Saltzman, B.E. and Caplan, P.E. 1995. Detector tubes, direct-reading passive badges, and dosimeter tubes. In: B.S. Cohen and S.V. Hering, eds. Air Sampling Instruments for Evaluation of Atmospheric Contaminants. 8th ed. American Conference of Governmental Industrial Hygienists, Cincinnati, OH, 401–437.",
+      "Scrimgeour, C.M. and Robinson, D. 2004. Stable isotope analysis and applications. In: K.A. Smith and M.S. Cresser, eds. Soil and Environmental Analysis: Modern Instrumental Techniques. 3rd ed. Marcel Dekker, New York, NY, 381–431.",
+      "Sexstone, A.J., Revsbech, N.P., Parkin, T.B., and Tiedje, J.M. 1985. Direct measurement of oxygen profiles and denitrification rates in soil aggregates. Soil Sci. Soc. Am. J. 49:645–651.",
+      "Sitaula, B.K., Luo, J., and Bakken, L.R. 1992. Rapid analysis of climate gases by wide bore capillary gas chromatography. J. Environ. Qual. 21:493–496.",
+      "Smith, K.A. and Arah, J.R.M. 1991. Gas chromatographic analysis of the soil atmosphere. In: K.A. Smith, ed. Soil Analysis: Modern Instrumental Techniques. 2nd ed. Marcel Dekker, New York, NY, 505–546.",
+      "Smith, K.A. and Conen, F. 2004. Measurement of trace gases. I. Gas analysis, chamber methods, and related procedures. In: K.A. Smith and M.S. Cresser, eds. Soil and Environmental Analysis: Modern Instrumental Techniques. 3rd ed. Marcel Dekker, New York, NY, 433–476.",
+      "Smith, K.A. and Dowdell, R.J. 1973. Gas chromatographic analysis of the soil atmosphere: Automatic analysis of gas samples for O₂, N₂, Ar, CO, NO and C–C hydrocarbons. J. Chromatogr. Sci. 11:655–658.",
+      "Tang, J., Baldocchi, D.D., Qi, Y., and Xu, L. 2003. Assessing soil CO₂ efflux using continuous measurements of CO₂ profiles in soils with small solid-state sensors. Agric. For. Meteorol. 118:207–220.",
+      "Thomson, P.E., Parker, J.P., Arah, J.R.M., Clayton, H., and Smith, K.A. 1997. Automated soil monolith-flux chamber system for the study of trace gas fluxes. Soil Sci. Soc. Am. J. 61:1323–1330.",
+      "van Bavel, C.H.M. 1954. Simple diffusion well for measuring soil specific diffusion impedance and soil air composition. Soil Sci. Soc. Am. Proc. 18:229–234.",
+      "van Bavel, C.H.M. 1965. Composition of soil atmosphere. In: C.A. Black et al., eds. Methods of Soil Analysis, Part 1—Physical and Mineralogical Properties. 1st ed. American Society of Agronomy, Madison, WI, 315–319.",
+      "Veneman, P.L.M. and Pickering, E.W. 1983. Salt bridge for field redox potential measurements. Commun. Soil Sci. Plant Anal. 14:669–674.",
+      "Wafer, C.C., Richards, J.B., and Osmond, D.L. 2004. Construction of platinum-tipped redox probes for determining soil redox potential. J. Environ. Qual. 33:2375–2379.",
+      "Woebkenberg, M.L. and McCammon, C.S. 1995. Direct reading gas and vapor instruments. In: B.S. Cohen and S.V. Hering, eds. Air Sampling Instruments for Evaluation of Atmospheric Contaminants. 8th ed. American Conference of Governmental Industrial Hygienists, Cincinnati, OH, 439–510.",
+      "Wolfbeis, O.S. 2004. Fiber-optic chemical sensors and biosensors. Anal. Chem. 76:3269–3284.",
+      "Wood, M.J. 1980. An application of gas chromatography to measure concentrations of ethane, propane, and ethylene found in interstitial soil gases. J. Chromatogr. Sci. 18:307–310.",
+      "Yamamoto, S., Yoshida, Y., and Iida, T. 2003. Development of an underground radon detector using an optical fiber. IEEE Trans. Nucl. Sci. 50:987–990.",
+      "Zhao, P. and Cai, W.-J. 1997. An improved potentiometric pCO₂ microelectrode. Anal. Chem. 69:5052–5058."
+    ]},
+    {"type": "credits", "text": "苏志慧译，任图生校。"},
+    {"type": "source-fidelity-note", "text": "Smith和Dowdell题名原书印“O₂, N, Ar…”，按被分析气体校正为N₂；Tang期刊缩写由Agric. For. Met.规范为Agric. For. Meteorol.；Yamamoto第三作者为Iida（大写I），不是lida。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a6927b785c4b91e45edac746e66aab98897a4074846396961bff51545c531a53"
+}

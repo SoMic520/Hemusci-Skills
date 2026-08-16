@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 518,
+  "sourceImageSha256": "6fd78880f38a0c5313aca5e7866a184aa7f9fd7f7a4c8ae6210e73011813f8bb",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面与两套OCR，完成51.1跨页段至结语、51.2、51.2.1引言及材料（1）～（7）跨页句"},
+    "precisionPass": {"status": "verified", "method": "核验20%、<8%、25%、18%、10%、51%、35%、47%、3 mL·g⁻¹、6 mol·L⁻¹ HCl、12 h、513 mL、1.19、3.2 kg、4/8 L和10 mol·L⁻¹ NaOH"},
+    "secondVisualPass": {"status": "verified", "method": "由10 mol·L⁻¹ NaOH跨页配方反向复核至SPIDER跨页句，检查¹⁵N、NH₄⁺、MSA、CP/MAS下标与印刷页码487"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "scope": "51.1 SPIDER结果", "text": "[承第517页] 20%的土壤有机C以N结合芳香化合物存在，其中苯胺结构不足8%。该土壤的富酚腐殖质组分中，腐殖质N的25%为苯胺N、18%为杂环N；但常规¹⁵N NMR主要显示酰胺类信号，说明不同NMR技术对苯胺N、杂环N的响应与归属并不等价。SPIDER尚未普及，仍需三重共振NMR辅助。"},
+    {"type": "paragraph", "text": "传统酸水解-蒸汽蒸馏和GC/HPLC氨基糖分析表明，氨基糖N可占土壤全N的10%以上；氨基糖推荐测法见第50章。"},
+    {"type": "paragraph", "text": "Martens和Loeffelmann（2003）及Martens等（2006）用甲磺酸（MSA）替代HCl水解土壤，以减少含硫氨基酸氧化和丝氨酸、苏氨酸降解；MSA升温时不挥发且热稳定。阴离子色谱-脉冲安培检测可不经衍生化同时测氨基酸和氨基糖。该法在部分美国中西部土壤中鉴定出全N的51%，另有35%以NH₄⁺回收；同一组中12个样品用HCl水解后鉴定出全N的47%。"},
+    {"type": "paragraph", "text": "目前没有单一方法能高回收率定量全部土壤有机N形态。本章重点介绍热HCl水解后用蒸汽蒸馏或色谱分析，并简述MSA水解后用阴离子色谱-脉冲安培检测氨基酸和氨基糖。"},
+    {"type": "section-heading", "level": 2, "number": "51.2", "title": "盐酸水解——蒸汽蒸馏或色谱法分析氮素形态"},
+    {"type": "section-heading", "level": 3, "number": "51.2.1", "title": "土壤酸解样品的制备（Bremner，1965）"},
+    {"type": "paragraph", "text": "每克土壤加3 mL 6 mol·L⁻¹ HCl，在回流下水解12 h；中和水解产物前无需先去除过量酸。"},
+    {"type": "method-heading", "level": 4, "number": "1", "title": "材料和试剂"},
+    {"type": "materials-list", "items": [
+      {"number": "（1）～（4）", "text": "微量凯氏定氮仪；带24/40磨口接头的Liebig冷凝器；配标准锥形24/40磨口接头的圆底烧瓶；电热炉。"},
+      {"number": "（5）", "text": "6 mol·L⁻¹ HCl：把513 mL浓HCl（相对密度1.19）缓慢加入500 mL水并持续搅拌，冷却至室温后定容至1 L。"},
+      {"number": "（6）", "text": "正辛醇。"},
+      {"number": "（7）", "text": "10 mol·L⁻¹ NaOH：将3.2 kg试剂级NaOH置10 L厚壁Pyrex玻璃瓶，加4 L无CO₂水，振摇至完全溶解；用橡胶塞盖紧，冷却后以无CO₂水定容至8 L，混匀密封。[续见第519页]"}
+    ]},
+    {"type": "safety-note", "text": "浓HCl须缓慢加入水中并在通风橱操作。3.2 kg NaOH溶解强烈放热，必须使用耐碱厚壁容器、分批加料并充分冷却；不得趁热定容或密闭承压。"}
+  ],
+  "formulas": [
+    {"id": "51.2.1-soil-acid-ratio", "display": "V(6 mol·L⁻¹ HCl) = 3.0 mL × m_soil(g)", "meaning": "Bremner土壤HCl水解的酸液体积"},
+    {"id": "51.2.1-naoh-10M", "display": "c(NaOH) = (3200 g/40.00 g·mol⁻¹)/8.00 L = 10.0 mol·L⁻¹", "meaning": "10 mol·L⁻¹ NaOH配方复核"}
+  ],
+  "tables": [],
+  "contentSha256": "5ad3a0d4fbd7a6a5d63c23f4bd40eb88f9f3dee716cf11a2aef1fec3858245d7"
+}

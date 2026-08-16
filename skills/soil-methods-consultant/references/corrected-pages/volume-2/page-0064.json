@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 64,
+  "sourceImageSha256": "73187644d702e8f9708b1e14dafda48639096f318ec309c3e6393144cc59c2b2",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐条对照原分辨率图和两套OCR，完成59.5.1余文、59.5.2、59.5.3及参考文献前8条"},
+    "precisionPass": {"status": "verified", "method": "核验0～300/>300 kPa/<5 mm、σ₁/σ₃/C_s/C_c/σ_p、30～150 kPa/0.05～0.35及书目卷页"},
+    "secondVisualPass": {"status": "verified", "method": "由Dawidowski and Koolen条目反向复核至Earl段，检查三轴应力下标、Mohr–Coulomb参数、范围与参考文献；印刷页码573"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "小变形、约0～300 kPa范围内，两法数据相近，所得σ_p较可靠；>300 kPa后平板继续下沉主要含侧向变形，而侧限试验主要是压实（Earl，1997）。因此平板法只应采用明显侧向变形发生前的数据。Dawidowski等（2001）和Keller等（2004）对壤土至黏土三种质地比较时采用下沉<5 mm数据，两法σ_p无显著差异。"},
+    {"type": "heading", "number": "59.5.2", "title": "另一种实验室方法：三轴应力装置", "level": 3},
+    {"type": "paragraph", "text": "三轴仪可同时描述压缩性和剪切行为：压缩性用C_s、C_c、σ_p，剪切强度用Mohr–Coulomb内聚力c和内摩擦角φ。仪器由活塞施加轴向主应力σ₁，由液压施加侧向围压σ₃；侧限压缩仪中的σ₃未知。各向同性三轴压缩满足σ₁=σ₃。圆柱土样包橡胶膜，上下置透水石排水。压缩仪较省时易用，工程中常比三轴试验使用更多。"},
+    {"type": "heading", "number": "59.5.3", "title": "土壤压缩性参数的变化范围", "level": 3},
+    {"type": "paragraph", "text": "潮湿土壤σ_p一般30～150 kPa，C_c约0.05～0.35（Lebert和Horn，1991）。参数受质地、有机质含量与组成、容重、基质势/含水量及结构影响。已有研究用质地、有机质、容重和含水量等易测性质建立传递函数估算力学参数（Gupta和Larson，1982；McBride，1989；Angers，1990；Lebert和Horn，1991；McBride和Joosse，1996；Veenhof和McBride，1996；Défossez等，2003；Imhoff等，2004）。"},
+    {"type": "heading", "title": "参考文献", "level": 2},
+    {"type": "references", "items": [
+      "Alexandrou, A. and Earl, R. 1995. In situ determination of the pre-compaction stress of a soil. J. Agric. Eng. Res. 61:67–72.",
+      "Angers, D.A. 1990. Compression of agricultural soils from Québec. Soil Till. Res. 18:357–365.",
+      "Arvidsson, J. and Keller, T. 2004. Soil precompression stress I. A survey of Swedish arable soils. Soil Till. Res. 77:85–95.",
+      "Bailey, A.C., Johnson, C.E., and Schafer, R.L. 1986. A model for agricultural soil compaction. J. Agric. Eng. Res. 33:257–262.",
+      "Baumgartl, T. and Köck, B. 2004. Modelling volume change and mechanical properties with hydraulic models. Soil Sci. Soc. Am. J. 68:57–65.",
+      "Casagrande, A. 1936. Determination of the preconsolidation load and its practical significance. Proceedings of the International Conference on Soil Mechanics and Foundation Engineering, 22–26 June 1936, Vol. III, Cambridge, UK, 60–64.",
+      "Culley, J.L.B. and Larson, W.E. 1987. Susceptibility to compression of a clay loam Haplaquoll. Soil Sci. Soc. Am. J. 51:562–567.",
+      "Dawidowski, J.B. and Koolen, J. 1994. Computerized determination of the preconsolidation stress in compaction testing of field core samples. Soil Till. Res. 31:277–282."
+    ]},
+    {"type": "source-fidelity-note", "text": "原书把Bailey等（1986）页码印为822–825；已据论文记录校正为257–262。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "40bdd4b8f55f40ab1ec43a3275a2f1d1bbfa4334648d66fb644a95d941343ba5"
+}

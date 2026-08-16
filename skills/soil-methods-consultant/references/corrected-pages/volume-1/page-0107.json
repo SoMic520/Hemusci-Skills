@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 107,
+  "sourceImageSha256": "f1033027ab0313bca0d0309bc1069650bef596d80ac82294f2a54546901e4af1",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复9.4六段及页末跨页句"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对Se⁰、Se²⁻、SeO₄²⁻、HSeO₃⁻、SeO₃²⁻、SO₄²⁻、PO₄、硒（VI）/硒（IV）、r²=0.99/0.82、0～90 cm、18种及拉丁名"},
+    "secondVisualPass": {"status": "verified", "method": "按硒形态、母质影响、有效态评价、AB-DTPA/热水、饱和泥浆及硒形态吸收段反向复核，确认电荷上下标、引文和印刷页码76"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 2, "number": "9.4", "title": "硒"},
+    {"type": "paragraph", "text": "土壤中硒形态包括难溶的硫化硒、元素硒（Se⁰）和硒化物（Se²⁻）等还原态，以及较易溶的硒酸盐（SeO₄²⁻）和亚硒酸盐（HSeO₃⁻，SeO₃²⁻）。其中元素硒、硫化硒和硒化物只出现在还原性环境中，因此它们难溶且不能被植物和生物体吸收利用（McNeal和Balistrieri，1989）。在碱性的氧化土壤中，硒酸盐是主要的存在形式；而在弱酸性的氧化土壤中，亚硒酸盐是主要的存在形式。硒酸盐和亚硒酸盐的沉淀物和矿物在有氧环境下是高度可溶的，因此硒的溶解度主要受吸附和络合过程控制。已证实亚硒酸盐能很强地吸附在土壤表面而硒酸盐则吸附较弱（Neal等，1987）。", "inlineNotation": ["Se⁰", "Se²⁻", "SeO₄²⁻", "HSeO₃⁻", "SeO₃²⁻"]},
+    {"type": "paragraph", "text": "土壤母质对植物中的硒含量有着显著的影响。例如，在萨斯喀彻温省（Saskatchewan）中西部，对小麦进行的实地研究显示，生长在湖积黏土和冰碛土上的小麦植株体内硒含量较高，生长在湖积粉砂土上的小麦植株硒含量居中，而生长在风积砂土中的小麦硒含量最低（Doyle和Fletcher，1977）。在母质土层（C层土）中也有类似的变化趋势，湖积黏土中的硒含量最高，风积砂土中硒含量最低。Doyle和Fletcher（1977）的研究结果指出，在设计用于研究不同地区植物体中硒含量差异的采样方案时，土壤母质中硒含量的信息可能有用。"},
+    {"type": "paragraph", "text": "土壤中有效态硒的变化范围很大。尽管目前有关于土壤中硒含量与植物体内硒含量存在直接关系的实例（Varo等，1988），但更多的情况是土壤中的总硒不能用于预测植物对硒的吸收量（Diaz-Alarcon等，1996）。植物对硒的吸收不仅取决于硒在溶液和固相中的形态和分配，而且与土壤溶液中的其他离子（如SO₄²⁻）及植物种类有关（Bisbjerg和Gissel-Nielsen，1969；Mikkelsen等，1989）。因此，用于预测或评估有效态硒的理想提取剂应能提取出土壤溶液中的硒，以及与固相结合却又可能被释放至土壤溶液中的硒。可提取的硒与植物吸收的硒是否密切相关受许多因素影响，包括土壤种类、植物种类、季节和地区。植物对硒的吸收和用于预测及评价植物吸收硒的方法可从文献中查到（Soltanpour和Workman，1980；Soltanpour等，1982；Jump和Sabey，1989；Mikkelsen等，1989）。", "inlineNotation": ["SO₄²⁻"]},
+    {"type": "paragraph", "text": "Soltanpour和Workman（1980）在温室研究中发现，采用Soltanpour和Schwab（1977）的AB-DTPA方法提取的土壤硒含量和苜蓿对五种不同浓度硒（VI）的吸收量之间高度相关。此外，他们还发现用AB-DTPA方法提取的硒与用热水提取的硒之间有很高的相关性（r²=0.99）（Black等，1965）。用热水提取硒的方法是基于土壤和类土壤物质中的大量水溶性硒（多数为硒酸盐）会对植被产生硒毒的假设建立的（Black等，1965）。同样，AB-DTPA方法可通过碳酸氢根离子将水溶性硒及交换态硒酸盐或亚硒酸盐提取到溶液中。此外，Soltanpour等（1982）发现在秋季播种冬小麦（Triticum aestivum L.）前，用AB-DTPA法对0～90 cm土层提取的硒与接下来在夏天采集到的小麦中的硒含量有很好的相关性（r²=0.82）。", "inlineNotation": ["AB-DTPA", "硒（VI）", "r²=0.99", "Triticum aestivum L.", "0～90 cm", "r²=0.82"]},
+    {"type": "paragraph", "text": "饱和泥浆提取液中的硒含量也可以为预测土壤中植物有效态硒提供有用信息（U.S. Salinity Laboratory Staff，1954），因为通常饱和泥浆中的土壤/水比值与田间土壤含水量相关。Jump和Sabey（1989）通过比较几种不同提取剂（AB-DTPA、DTPA、热水、饱和泥浆和碳酸钠溶液）从18种不同土壤和矿山废弃物中提取出的硒含量，发现饱和泥浆提取液中的硒与植物中的硒含量相关性最高。", "inlineNotation": ["AB-DTPA", "DTPA", "18种"]},
+    {"type": "paragraph", "text": "此外，除了测定总的可提取硒含量，明确土壤溶液、饱和泥浆或任何其他提取液中硒的形态，也可为研究硒的植物吸收提供参考。Mikkelsen等（1989）研究了消耗能量的硒（VI）主动吸收和不消耗能量的硒（IV）被动吸收的不同机制。此外，他们还讨论了不同植物对硒吸收的差异性。Davis（1972a,b）在两个温室实验中证明了同一植物属内不同物种吸收硒的差异性。上述结果表明，植物在提取液或土壤溶液中硒（VI）和硒（IV）的形态信息也可能为研究植物吸收硒提供有用的信息。", "inlineNotation": ["硒（VI）", "硒（IV）"]},
+    {"type": "paragraph", "text": "基于正磷酸盐（PO₄）可置换被吸附的硒及这部分被吸附的硒主要为硒（IV）的假设前提，土壤中", "inlineNotation": ["PO₄", "硒（IV）"]},
+    {"type": "printed-page-number", "text": "76"}
+  ],
+  "formulas": [
+    {"label": null, "plain": "r²=0.99", "latex": "r^2=0.99", "context": "AB-DTPA提取硒与热水提取硒的相关性"},
+    {"label": null, "plain": "r²=0.82", "latex": "r^2=0.82", "context": "0～90 cm土层AB-DTPA提取硒与小麦硒含量的相关性"}
+  ],
+  "tables": [],
+  "contentSha256": "37a4f75458d90ce1a4a7de235daec93cb4e2a05d8faefa178e0073de28010cf4"
+}

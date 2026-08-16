@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 190,
+  "sourceImageSha256": "e7c540e9b915236c17913313a8320dfcc006e83e485c59c94dd0ccb21b530398",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率页图和两套OCR，完成第71章题名作者、71.1全文及71.2压力计构造"},
+    "precisionPass": {"status": "verified", "method": "核验69.3交叉引用、直接/间接方法分类、饱和/非饱和术语及0.01—0.10 m"},
+    "secondVisualPass": {"status": "verified", "method": "由压力计气孔盖反向复核至作者机构，检查章节层级与“非抽水井”定义；印刷页码699"}
+  },
+  "blocks": [
+    {"type": "chapter", "number": "71", "title": "土水势", "authors": ["N.J. Livingston（University of Victoria, Victoria, British Columbia, Canada）", "G. Clarke Topp（Agriculture and Agri-Food Canada, Ottawa, Ontario, Canada）"]},
+    {"type": "heading", "number": "71.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "土水势是土壤孔隙水相对标准参照条件的能量状态，用于判断水流方向和速度；定义与单位见69.3节。饱和正势到干燥负势跨多个数量级，没有一种方法覆盖完整范围。"},
+    {"type": "paragraph", "text": "直接测定包括水压和相对基准面的水面高程（压力传感器、水位等）；间接测定包括电阻、电导率、水汽压、含水量、植物木质部势等相关属性。压力管水面高程确定孔隙水正势属直接法，由土壤电阻或相对湿度估负势属间接法。"},
+    {"type": "paragraph", "text": "本章方法：压力计法用于饱和土壤水势；张力计、电阻块和热电偶干湿计用于非饱和土壤水势，重点为基本使用原则和实际应用。"},
+    {"type": "heading", "number": "71.2", "title": "压力计法", "level": 2},
+    {"type": "paragraph", "text": "压力计为小口径0.01—0.10 m的非抽水井，测饱和水流水势（水头）与方向，也可兼作水质采样井或原位饱和导水率测量。通常由伸出地面的连接/升流管及底部地下进入口构成；进入口可为预设井管滤网、管的开槽段或开口端。水自由进出后可测管内水位、压力计表面高程、地下水位和气压变化；顶部用气孔盖维持大气压并防外来水/物质。"},
+    {"type": "source-fidelity-note", "text": "OCR把用于张力计、电阻块和热电偶干湿计的“非饱和土壤水势”漏掉“非”，已按页图恢复。压力计是非抽水观测井，不应与压力表或抽水试验井混称。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f642b5eed9f9e659066b8bc6de553b6645514953a27e6ce7e4357e7cb25e2c8a"
+}

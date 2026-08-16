@@ -1,0 +1,43 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 519,
+  "sourceImageSha256": "c2346df5cc6041bb0b313ef4aff148cb20f6b2f5a0c9030c992df026dfc563d4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行和逐格对照原分辨率页面与两套OCR，完成材料（7）跨页段、（8）～（9）、51.2.1步骤（1）～（12）、51.2.2蒸馏说明及表51.1"},
+    "precisionPass": {"status": "verified", "method": "核验5/0.5 mol·L⁻¹ NaOH、100目、约10 mg N、20 mL 6 mol·L⁻¹ HCl、12 h、Whatman 50、60/100 mL、pH 6.5±0.1、pH 11.2、100 °C及0.0025 mol·L⁻¹ H₂SO₄"},
+    "secondVisualPass": {"status": "verified", "method": "由表51.1脚注反向复核至跨页配方，逐项检查NH₄⁺/NH₃、α-氨基N、差减公式、下标与印刷页码488"}
+  },
+  "blocks": [
+    {"type": "materials-list-continuation", "scope": "51.2.1", "items": [
+      {"number": "（7）", "text": "[承第518页] 用无CO₂水定容至8 L，混匀并盖紧，隔绝空气中的CO₂。"},
+      {"number": "（8）", "text": "5 mol·L⁻¹ NaOH：将500 mL 10 mol·L⁻¹ NaOH用无CO₂水稀释至1 L，带塞玻璃瓶保存。"},
+      {"number": "（9）", "text": "0.5 mol·L⁻¹ NaOH：将50 mL 10 mol·L⁻¹ NaOH用无CO₂水稀释至1 L，带塞玻璃瓶保存。"}
+    ]},
+    {"type": "method-heading", "level": 4, "number": "2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取研磨并过100目筛的土壤，使试样约含10 mg N，置带标准24/40磨口接头的圆底烧瓶。"},
+    {"type": "procedure-step", "number": "（2）～（4）", "text": "加2滴正辛醇和20 mL 6 mol·L⁻¹ HCl，振荡混匀；烧瓶接24/40 Liebig冷凝器，于电热炉上使土-酸混合物微沸回流12 h。"},
+    {"type": "procedure-step", "number": "（5）～（7）", "text": "用少量蒸馏水冲洗冷凝器，待烧瓶冷却后移离电热炉；用装Whatman 50滤纸的Büchner漏斗真空过滤至200 mL烧杯；以蒸馏水洗残渣，使滤液总体积到60 mL刻度。"},
+    {"type": "procedure-step", "number": "（8）～（9）", "text": "烧杯置碎冰中并使下半部浸没。持续搅拌，缓慢加NaOH且全过程不得使水解液呈碱性；先用5 mol·L⁻¹ NaOH调至约pH 5，再用0.5 mol·L⁻¹ NaOH精调至pH 6.5±0.1。也可先冷藏水解液，再用冷NaOH中和。"},
+    {"type": "procedure-step", "number": "（10）～（12）", "text": "转入100 mL容量瓶；用蒸馏水少量多次洗烧杯和电极，洗液并入容量瓶后定容；加塞并倒转数次混匀。"},
+    {"type": "section-heading", "level": 3, "number": "51.2.2", "title": "酸解产物中氮组分的测定"},
+    {"type": "method-heading", "level": 4, "title": "蒸汽蒸馏法分离氮组分"},
+    {"type": "paragraph", "text": "按Stevenson（1996）可把酸水解产物分为总水解N、酸不溶N、氨基酸N、铵态N、氨基糖N和可水解未知N。该分组与田间N循环相关性有限，存在方法学争议，且不能区分单体氨基化合物；不得把操作性组分直接解释为生态过程库。"},
+    {"type": "source-fidelity-note", "scope": "表51.1差减式与试剂名", "text": "原书‘可水解未知态氮’行排版漏出减号；正确为总水解N减去铵态N、氨基酸N和氨基糖N。原书‘水合茚三酮’统一为规范试剂名‘茚三酮（ninhydrin）’。"}
+  ],
+  "formulas": [
+    {"id": "51.1-acid-insoluble-N", "display": "N_acid-insoluble = N_total − N_total-hydrolyzable", "meaning": "酸不溶态N用差减法得到"},
+    {"id": "51.1-hydrolyzable-unknown-N", "display": "N_hydrolyzable-unknown = N_total-hydrolyzable − (N_NH₄ + N_amino-acid + N_amino-sugar)", "meaning": "可水解未知态N；校正原书排版漏失的减号"}
+  ],
+  "tables": [
+    {"number": "表51.1", "title": "蒸汽蒸馏法分析土壤水解样品中各形态的N", "headers": ["氮形态", "方法"], "rows": [
+      ["总水解N", "以H₂SO₄和K₂SO₄催化剂混合物凯氏消解，加NaOH蒸馏。"],
+      ["氨基酸N", "加NaOH并在100 °C去除氨基糖来源NH₃和原有NH₄⁺；再加茚三酮（pH 2.5，100 °C）把α-氨基N转为NH₄⁺，最后加磷酸盐-硼酸盐缓冲液蒸馏。"],
+      ["氨基糖N", "用pH 11.2磷酸盐-硼酸盐缓冲液蒸馏，收集NH₃-N。"],
+      ["铵态N", "用MgO蒸馏。"],
+      ["酸不溶N", "N_total − N_total-hydrolyzable。"],
+      ["可水解未知N", "N_total-hydrolyzable − (N_NH₄ + N_amino-acid + N_amino-sugar)。"]
+    ], "notes": ["以硼酸-指示剂溶液收集蒸馏释放的NH₃，再用0.0025 mol·L⁻¹标准H₂SO₄滴定。", "来源：Stevenson, F.J. 1996. Methods of Soil Analysis, Part 3—Chemical Methods, pp.1185–1200。"]}
+  ],
+  "contentSha256": "9cb478c1397e1fc1d9ad9fc9ff243d4572dfad90f07b20692ecbaeb0ca371a53"
+}

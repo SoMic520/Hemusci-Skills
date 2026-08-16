@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 279,
+  "sourceImageSha256": "17e7d098194bf71e2d6b9ad74e85be206d0bfe795c590b96ae92a30f6bd4a813",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第28章第248页，人工恢复28.4.3步骤（2）～（10）及28.4.4注释（1）～（8）跨页续文"},
+    "precisionPass": {"status": "verified", "method": "逐字符核骎HNO₃、H₂O₂、HF、H₃BO₃、296/250/565/450/350 W、min、mL、℃、m/v、ICP-MS、Ca/Mg/Al及所有安全条件"},
+    "secondVisualPass": {"status": "verified", "method": "从页底注释（8）‘高温或’反向复核至页首步骤（2），确认消解操作顺序、注释层级、跨页边界及印刷页码248"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure-step", "number": "（2）", "text": "加入4 mL痕量金属纯级的HNO₃溶液和1 mL H₂O₂溶液。"},
+    {"type": "procedure-step", "number": "（3）", "text": "将消化管放入微波炉中在296 W功率下消解30 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "将消化管的盖子拧紧封闭后在296 W下继续消解15 min。"},
+    {"type": "procedure-step", "number": "（5）", "text": "将消化管冷却约35 min，当其低于大气压下酸的沸点时打开反应室。"},
+    {"type": "procedure-step", "number": "（6）", "text": "加入4 mL浓硝酸+1 mL浓氢氟酸。将消化管的盖子拧紧封闭后按如下顺序消解：250 W下消解4 min、565 W下消解8 min、450 W下消解4 min、350 W下消解4 min、250 W下消解5 min，通风35 min。其他运行功率和温度参数可以按照仪器出厂说明进行设置。"},
+    {"type": "procedure-step", "number": "（7）", "text": "冷却后，在通风厨中，拧松消化管的盖子，排出管内气体。随后去掉盖子，将消化管静置2 min进一步排出气体。"},
+    {"type": "procedure-step", "number": "（8）", "text": "将消化管的内容物转移至50 mL聚丙烯容量瓶中。冲洗管内壁和盖子，用蒸馏水或去离子水定容至50 mL。消煮液呈无色表示有机质已经被有效分解。"},
+    {"type": "procedure-step", "number": "（9）", "text": "将样品溶液贮存在60 mL带螺帽的聚丙烯瓶中以便分析金属元素和其他元素。"},
+    {"type": "procedure-step", "number": "（10）", "text": "在消解样品的过程中需要设置一个含有所有试剂的空白样。"},
+    {"type": "heading", "level": 2, "number": "28.4.4", "title": "注释"},
+    {"type": "safety-note", "number": "（1）", "text": "本操作方法不能够解决实际使用时涉及的所有安全问题，所以使用者必须制定适当的安全和卫生标准，并在使用前确定规章制度的适用性。实验人员应该认真阅读所有警示，遵守仪器制造商提供的操作手册中所有的提示和说明，确保能够正确、安全地操作仪器。"},
+    {"type": "note-item", "number": "（2）", "text": "含有细粒物质、植物体和纤维物质混合物的泥炭样品，应该放入50℃烘箱中烘干，并在低速搅拌器上充分混匀以便确保测试样品中包含泥炭样品中所有的组分。为了确保所用少量样品的均匀性，烘干土或泥炭样品必须进行研磨并过100目筛。筛内残留样品应该在短时间内再次研磨过筛，直到所有样品全部过筛。"},
+    {"type": "contamination-control", "number": "（3）", "text": "所有消化管在使用前都要进行金属和其他污染元素的检测。试验期间避免使用含磷或其他元素的商业洗涤剂。所选用的试剂和滤纸都要尽可能不含金属元素和磷。考虑到浓无机酸的使用量通常是样品的几倍，因此必须使用金属含量较低的试剂和蒸馏水。"},
+    {"type": "note-item", "number": "（4）", "text": "样品量越少消解效果越好，但这也可能会影响到分析结果的准确性。样品量过多则会使消解效果较差。"},
+    {"type": "safety-note", "number": "（5）", "text": "硝酸要缓慢加入，并不断地摇动消化管。该过程可能需要较多的硝酸才能使有机质完全氧化。对于某些含有机物较多的样品，硝酸反应可能会比较剧烈。过氧化氢具有较高的氧化能力，可以产生剧烈的化学反应。"},
+    {"type": "safety-note", "number": "（6）", "text": "加酸和样品消解要在通风良好的通风橱中进行。"},
+    {"type": "safety-note", "number": "（7）", "text": "氢氟酸通常用于酸性混合物中以便分解硅酸盐。消解硅酸盐含量较高的泥炭或有机质土壤样品时需要较多的氢氟酸。但是，氢氟酸极易腐蚀玻璃器皿，灼烧损坏某些光谱仪的炬管，尤其是电感耦合等离子体质谱仪（ICP-MS）的炬管（Melaku等，2005）。通过使用抗氢氟酸的雾化系统和等离子体炬管可以避免上述问题的出现（Swami等，2001）。使用氢氟酸时必须注意详细的安全须知，并避免使用高硅玻璃材料和石英器皿。"},
+    {"type": "interference-note", "number": "（8）", "continuesOnPage": 280, "text": "在HNO₃/HF的处理过程中，某些元素如Ca、Mg、Al和稀有元素可能会生成易沉淀的难溶氟化物（Krachler等，2002；Wang等，2004）。通常向消解混合物中加础酸（H₃BO₃）溶液来分解那些微溶的氟化物。在这种情况下，操作步骤如下：按每加入1 mL氢氟酸需要加入10 mL H₃BO₃溶液（5%，m/v）（Swami等，2001）的量，将础酸加入已经分解的样品中（步骤7），再次密封消化管，并在高温或"},
+    {"type": "printed-page-number", "text": "248"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c5469e38c2e0fd4dd3aa204f1d4e1d73e68b6f39778067f01050a1f7f741447a"
+}

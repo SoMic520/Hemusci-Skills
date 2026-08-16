@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 43,
+  "sourceImageSha256": "94e6aca34020a267fbe782edfe75ef6ee5d68c9ef9250a8821485d39d37473a3",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部作者、题名、标点和页码"},
+    "precisionPass": {"status": "verified", "method": "放大核对15条英文参考文献的姓名缩写、年份、期刊/书名、卷页、URL原书空格及译校署名"},
+    "secondVisualPass": {"status": "verified", "method": "从末条文献向首条反向逐项复核作者、年份、题名、出版项，再复核译校署名和页码"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference", "text": "Eberhardt, L.L. and Thomas, J.M. 1991. Designing environmental field studies. Ecol.Monogr. 6: 53-73."},
+    {"type": "reference", "text": "Franzen, D.W. and Cihacek, L.J. 1998. Soil Sampling as a Basis for Fertilizer Application. North DakotaUniversity Extension Service Publication SF990. Available at: http: // www.ext. nodak.edu / extpubs / plantsci / soilfert / sf-990.ht (July 2006)."},
+    {"type": "reference", "text": "Gilbert, R.O. 1987. Statistical Methods for Environmental Pollution Monitoring. van Nostrand Reinhold, New York, NY, 320."},
+    {"type": "reference", "text": "Hurlbert, S.H. 1984. Pseudoreplication and the design of ecological field experiments. Ecol. Monogr. 54: 187-211."},
+    {"type": "reference", "text": "Laslett, G.M. 1997. Discussion of the paper by D.J. Brus and J.J. de Gruijter. Random sampling or geostatistical modeling? Geoderma 80: 45-49."},
+    {"type": "reference", "text": "McBratney, A.B., Anderson, A.N., Lark, R.M., and Odeh, I.O. 2002. Newer application techniques. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—PhysicalMethods. Soil Science Society of America, Inc., Madison, WI, 159-200."},
+    {"type": "reference", "text": "Mulla, D.J. and McBratney, A.B. 2000. Soil spatial variability. In: M.E. Sumner, ed. Handbook of Soil Science. CRC Press, Boca Raton, FL, A321-A352."},
+    {"type": "reference", "text": "Pennock, D.J. 2004. Designing field studies in soil science. Can. J. Soil Sci. 84: 1-10."},
+    {"type": "reference", "text": "Peterman, R.M. 1990. Statistical power analysis can improve fisheries research and management. Can. J. Fish. Aquat. Sci. 47: 2-15."},
+    {"type": "reference", "text": "Si, B. 2003. Scale and location dependent soil hydraulic properties in a hummocky landscape: a wavelet approach. In: Y. Pachepsky, D. Radcliffe, and H.M. Selim, eds. Scaling Methods in Soil Physics. CRC Press, Boca Raton, FL, 169-187."},
+    {"type": "reference", "text": "Steel, R.G.D. and Torrie, J.H. 1980. Principles and Procedures of Statistics. A Biometrical Approach. McGraw-Hill, New York, NY, 633."},
+    {"type": "reference", "text": "Webster, R. and Oliver, M.A. 1990. Statistical Methods in Soil and Land Resource Survey. OxfordUniversity Press, Oxford, 316."},
+    {"type": "reference", "text": "Wilding, L.P. and Drees, L.R. 1983. Spatial variability and pedology. In: L.P. Wilding, N.E.Smeck, and G.F. Hall, eds. Pedogenesis and Soil Taxonomy. I. Concepts and Interactions. Elsevier Science Publishing Company, New York, NY, 83-116."},
+    {"type": "reference", "text": "Williams, R.B.G. 1984. Introduction to Statistics for Geographers and Earth Scientists. Macmillan Publishers Ltd., London, 349."},
+    {"type": "reference", "text": "Yates, S.R. and Warrick, A.W. 2002. Geostatistics. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Inc., Madison, WI, 81-118."},
+    {"type": "credit", "translator": ["李晓晶"], "reviewers": ["李永涛", "翁莉萍"], "text": "（李晓晶　译，李永涛　翁莉萍　校）"},
+    {"type": "printed-page-number", "text": "12"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "22c53a2addb7d624a5a16fa4abe4fe7b4bdaa837691e7ae24d2ad543545f14c4"
+}

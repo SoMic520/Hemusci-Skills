@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 103,
+  "sourceImageSha256": "e036660be03c84f4bbe347f097aef739ee642ba7cdc24003661b99ce5a75865f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐格对照原分辨率图和两套OCR，完成64.2.3结尾、64.2.4、64.3、64.3.1及表64.1"},
+    "precisionPass": {"status": "verified", "method": "核验200 kPa、11周、<3%、≥50 cm³，及6类检测器全部检测范围、线性动态范围、气体和参考文献"},
+    "secondVisualPass": {"status": "verified", "method": "由表64.1来源反向逐格复核至页首，检查10的负指数/正指数、O₂/CO₂/CH₄/C₂H₄/N₂O和PTFE；印刷页码612"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "扩散井越短，采样室与入口附近真实土壤气体之间的浓度差通常越小。"},
+    {"type": "heading", "number": "64.2.4", "title": "采样和存储", "level": 3},
+    {"type": "procedure-steps", "items": [
+      "塑料注射器成本低，但气体仅宜暂存数小时（Rochette和Bertrand，2003）。",
+      "较长期保存可用气密真空玻璃小瓶，如Exetainer（Labco Ltd., High Wycombe, UK）或Vacutainer（Becton Dickinson, Oakville, ON）；小瓶可重复使用。",
+      "装样后用PTFE/硅胶双层隔膜，或在瓶口覆盖薄硅胶层以减少泄漏；轻微正压下可保存数周。书中实验室条件下，200 kPa压力的N₂O样品保存11周，损失<3%。",
+      "Exetainer类气密小瓶可直接用于采集和保存；真空采样管使用前需清洗以去除污染物（Covert等，1995）。"
+    ]},
+    {"type": "heading", "number": "64.3", "title": "气相的分析", "level": 2},
+    {"type": "paragraph", "text": "早期土壤气体组成测定采用吸收法，如碱吸收CO₂；该类方法通常需≥50 cm³土壤气体，回实验室后以滴定法定量吸收的气体。现代方法多由可分析小体积气样的气相色谱取代；原理和实践见Smith和Arah（1991）、Farrell等（2002）及Smith和Conen（2004）。"},
+    {"type": "heading", "number": "64.3.1", "title": "利用气相色谱法进行实验室分析", "level": 3},
+    {"type": "paragraph", "text": "气相色谱是土壤气体分析的常用方法。由注射器或气密小瓶取一小部分气样，经进样口进入流量受控的载气，组分在色谱柱中分离后通过检测器；检测信号与相应组分浓度相关，由电子积分器或数据站记录处理。色谱柱和检测器置于控温环境，部分仪器可程序升温。检测器选择示于表64.1。"},
+    {"type": "table-source", "text": "据Farrell, Elliott and de Jong（1993，Soil Sampling and Methods of Analysis，663–672）及Farrell, Elliott and de Jong（2002，Methods of Soil Analysis, Part 4—Physical Methods，1076–1111）。"},
+    {"type": "source-fidelity-note", "text": "原书把Exetainer误称为“呼吸质谱瓶”，已按产品类型校正为带隔膜的气密玻璃小瓶；早期吸收法示例原译“用酚吸收O₂”不能作为通用、明确配方的可执行步骤，故仅保留有明确化学依据的碱吸收CO₂，并要求采用原始方法规定的具体吸收剂和滴定程序。"}
+  ],
+  "formulas": [],
+  "tables": [
+    {"number": "64.1", "title": "常用土壤气体气相色谱检测器", "columns": ["检测器", "检测范围(g)", "线性动态范围", "示例检测气体", "参考文献"], "rows": [
+      ["热导检测器（TCD）", "10⁻⁹～10⁻⁶", "10⁴～10⁵", "O₂、CO₂、CH₄", "Kabwe等（2005）；Sakata等（2004）；Sitaula等（1992）；Hall和Dowdell（1981）"],
+      ["火焰离子化检测器（FID）", "10⁻¹⁰～10⁻⁹", "10⁶～10⁷", "CH₄、C₂H₄", "Sakata等（2004）；Wood（1980）；Smith和Dowdell（1973）"],
+      ["氦离子化检测器（HID）", "10⁻¹²～10⁻¹¹", "10³～10⁴", "CO₂", "Mitchell（1973）"],
+      ["电子捕获检测器（ECD）", "10⁻¹³～10⁻¹²", "10²～10³", "N₂O、CO₂", "Izaurralde等（2004）；Loftfield等（1997）；Thomson等（1997）"],
+      ["火焰光度检测器（FPD）", "10⁻¹³～10⁻¹¹", "10³～10⁴", "含硫气体", "de Souza（1984）；Banwart和Bremner（1974）"],
+      ["超声波检测器", "10⁻¹⁰～10⁻⁹", "10⁵～10⁶", "O₂、CO₂、N₂O、CH₄", "McCarty和Blicher-Mathiesen（1996）；Blackmer和Bremner（1977）"]
+    ], "notes": ["检测范围和动态范围为原书表列数量级，实际检出限依仪器、柱、载气、进样体积和操作条件而变，不能直接视为当前型号性能保证。"]}
+  ],
+  "contentSha256": "20ef8826f87e0bf1ba216b9d9cfb4ae5bc464cd803c65d8367ba1637b304c30f"
+}

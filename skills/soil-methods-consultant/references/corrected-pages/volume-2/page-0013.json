@@ -1,0 +1,61 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 13,
+  "sourceImageSha256": "c9b27fce2dfacc44f4239be46aa3128f878f9b51b6ad30bd0c53bec8fee927f0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率目录和两套OCR，完成71章至73.5"},
+    "precisionPass": {"status": "verified", "method": "核验压力计/张力计/电阻块/热电偶干湿计、露点湿度计及699～725页码"},
+    "secondVisualPass": {"status": "verified", "method": "由73.5反向复核至71章标题，检查脱水和吸水、材料与物品、计算注意事项及罗马页码XII"}
+  },
+  "blocks": [
+    {
+      "type": "toc-tree-continuation",
+      "entries": [
+        {"number": "第71章", "title": "土水势", "page": 699, "level": 1},
+        {"number": "71.1", "title": "引言", "page": 699, "level": 2},
+        {"number": "71.2", "title": "压力计法", "page": 699, "level": 2},
+        {"number": "71.2.1", "title": "材料和设备", "page": 700, "level": 3},
+        {"number": "71.2.2", "title": "步骤", "page": 701, "level": 3},
+        {"number": "71.2.3", "title": "压力计的响应时间及改进", "page": 702, "level": 3},
+        {"number": "71.2.4", "title": "监测和数据采集", "page": 702, "level": 3},
+        {"number": "71.2.5", "title": "计算注意事项", "page": 702, "level": 3},
+        {"number": "71.3", "title": "张力计法", "page": 702, "level": 2},
+        {"number": "71.3.1", "title": "材料和设备", "page": 703, "level": 3},
+        {"number": "71.3.2", "title": "步骤", "page": 703, "level": 3},
+        {"number": "71.3.3", "title": "计算注意事项", "page": 704, "level": 3},
+        {"number": "71.3.4", "title": "注释", "page": 704, "level": 3},
+        {"number": "71.4", "title": "电阻块法", "page": 705, "level": 2},
+        {"number": "71.4.1", "title": "材料和设备", "page": 705, "level": 3},
+        {"number": "71.4.2", "title": "步骤", "page": 705, "level": 3},
+        {"number": "71.4.3", "title": "计算注意事项", "page": 705, "level": 3},
+        {"number": "71.4.4", "title": "注释", "page": 706, "level": 3},
+        {"number": "71.5", "title": "热电偶干湿计法", "page": 706, "level": 2},
+        {"number": "71.5.1", "title": "原位土壤热电偶干湿计法", "page": 706, "level": 3},
+        {"number": "71.5.2", "title": "实验室露点湿度计法", "page": 707, "level": 3},
+        {"number": "71.6", "title": "结语", "page": 708, "level": 2},
+        {"number": "第71章参考文献", "title": "参考文献", "page": 708, "level": 2},
+        {"number": "第72章", "title": "土壤水分特征曲线（脱水和吸水）：张力和压力法", "page": 710, "level": 1},
+        {"number": "72.1", "title": "引言", "page": 710, "level": 2},
+        {"number": "72.2", "title": "张力台和张力板法", "page": 710, "level": 2},
+        {"number": "72.2.1", "title": "材料和物品", "page": 710, "level": 3},
+        {"number": "72.2.2", "title": "步骤", "page": 714, "level": 3},
+        {"number": "72.3", "title": "压力抽取法", "page": 716, "level": 2},
+        {"number": "72.3.1", "title": "材料和物品", "page": 716, "level": 3},
+        {"number": "72.3.2", "title": "步骤", "page": 717, "level": 3},
+        {"number": "72.3.3", "title": "分析和计算", "page": 718, "level": 3},
+        {"number": "72.4", "title": "注释", "page": 720, "level": 2},
+        {"number": "第72章参考文献", "title": "参考文献", "page": 721, "level": 2},
+        {"number": "第73章", "title": "土壤水分特征曲线（脱水和吸水）：长土柱法", "page": 722, "level": 1},
+        {"number": "73.1", "title": "引言", "page": 722, "level": 2},
+        {"number": "73.2", "title": "材料与物品", "page": 722, "level": 2},
+        {"number": "73.3", "title": "步骤", "page": 724, "level": 2},
+        {"number": "73.4", "title": "分析和计算", "page": 725, "level": 2},
+        {"number": "73.5", "title": "注释", "page": 725, "level": 2}
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "dbdaf9b0a4c525ebb78baf179306a0e691635aaca0f85b49d2f309d5d3bcfc9d"
+}

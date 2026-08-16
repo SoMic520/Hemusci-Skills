@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-31270-1-2025",
+  "label": "GB/T 31270.1-2025《化学农药环境安全评价试验准则 第1部分：土壤代谢试验》",
+  "standardNo": "GB/T 31270.1-2025",
+  "title": "化学农药环境安全评价试验准则 第1部分：土壤代谢试验",
+  "published": "2025-10-31",
+  "implemented": "2026-05-01",
+  "domain": "soil-ecotoxicology",
+  "sourceType": "official-online-reader",
+  "sourceFingerprint": "f300def34efc5b5a2d9c1136d32bd248c5f0d30f75230c496357697bc74813d0",
+  "includedPageCount": 23,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=FBC518D2EDA0CA41D53D5D28C97DF70B"
+}

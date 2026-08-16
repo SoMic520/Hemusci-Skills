@@ -1,0 +1,91 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 537,
+  "sourceImageSha256": "519f52304137db5184ee673874278ba0a513229e481f001e4385f754362f6c5d",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行逐格对照原分辨率页面和两套OCR，完成表53.1、解释段、53.5及Alemany至Dria跨页条共4条参考文献"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验8个化学位移区间、15/30～34/35～45/45～46/56/105/140～160 ppm、¹³C/¹H上标、卷页及作者名"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由Dria跨页条反向复核至表53.1，检查O-alkyl与anomeric C误译、表源、方法局限和印刷页码506"
+    }
+  },
+  "blocks": [
+    {
+      "type": "table-introduction",
+      "number": "表53.1",
+      "title": "土壤有机质中不同组分的典型化学位移范围"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "表53.1 65～110 ppm",
+      "text": "原书65～95 ppm行印作‘碳环’，95～110 ppm行印作‘异构碳’，均破坏官能团语义；依据表源与固态¹³C NMR通用归属，已恢复为醇/醚中的O-alkyl C和碳水化合物异头碳（anomeric C）。"
+    },
+    {
+      "type": "paragraph",
+      "text": "信号区间须综合解释；一种结构可跨多个区间。例如木质素既有约56 ppm甲氧基C信号，也有约140～160 ppm的含氧芳香/酚类C信号。化学位移归属不能单独证明唯一结构。"
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "number": "53.5",
+      "title": "注释"
+    },
+    {
+      "type": "paragraph",
+      "text": "固态¹³C NMR可对少量全土或分级样品给出alkyl、O-alkyl、芳香、酚类、羧基和羰基C相对比例，并减少溶液提取造成的选择性伪影；但HF/HCl等预处理本身可能改变回收，不能笼统称为‘不破坏土壤结构’。仪器通量低，通常不适合作为大批量常规分析。"
+    },
+    {
+      "type": "paragraph",
+      "text": "¹³C天然丰度和固有灵敏度低，低C样品常需浓缩/脱矿或更长采集；CP对不同C环境响应不等，定量可靠性受限。自旋计数可评估实际可观测C比例。复杂土壤有机质产生宽重叠共振，因此结果应与多维溶液NMR、质谱和化合物特异湿化学等互补。"
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "title": "参考文献"
+    },
+    {
+      "type": "reference",
+      "text": "Alemany, L.B., Grant, D.M., Alger, T.D., and Pugmire, R.J. 1983. Cross polarization and magic angle sample spinning NMR spectra of model organic compounds. 3. Effect of the ¹³C-¹H dipolar interaction on cross polarization and carbon-proton dephasing. Journal of the American Chemical Society 105: 6697–6704."
+    },
+    {
+      "type": "reference",
+      "text": "Baldock, J.A. and Skjemstad, J.O. 2000. Role of the soil matrix and minerals in protecting natural organic materials against biological attack. Organic Geochemistry 31: 697–710."
+    },
+    {
+      "type": "reference",
+      "text": "Bryce, D.L., Bernard, G.M., Gee, M., Lumsden, M.D., Eichele, K., and Wasylishen, R.E. 2001. Practical aspects of modern routine solid-state multinuclear magnetic resonance spectroscopy: one-dimensional experiments. Canadian Journal of Analytical Sciences and Spectroscopy 46: 46–82."
+    },
+    {
+      "type": "reference-continuation",
+      "text": "Dria, K.J., Sachleben, J.R., and Hatcher, P.G. 2002. Solid-state carbon-13 nuclear magnetic resonance of humic acids at high [续见第538页]"
+    }
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "id": "table-53.1",
+      "title": "土壤有机质中不同组分的典型¹³C化学位移范围",
+      "columns": ["化学位移（ppm）", "碳的结构特征"],
+      "rows": [
+        ["0～45", "未取代alkyl C：直链CH₂约30～34 ppm，末端CH₃约15 ppm；支链CH₂常在35～45 ppm"],
+        ["45～65", "取代alkyl C，例如与胺相关的C约45～46 ppm、methoxyl C约56 ppm"],
+        ["65～95", "碳水化合物中的O-alkyl C，以及醇和醚中的C"],
+        ["95～110", "碳水化合物中的di-O-alkyl C与异头C，常约105 ppm"],
+        ["110～145", "芳香C"],
+        ["145～160", "酚类/含氧芳香C"],
+        ["160～190", "羧基C、酰胺C和酯基C"],
+        ["190～220", "羰基C" ]
+      ],
+      "source": "Malcolm (1989), pp.339–372; Baldock and Skjemstad (2000), Organic Geochemistry 31:697–710."
+    }
+  ],
+  "contentSha256": "0004c703c5aa051e26a23aeafcfca088bdb8928e0ce059a5ff6f43e4875925c9"
+}

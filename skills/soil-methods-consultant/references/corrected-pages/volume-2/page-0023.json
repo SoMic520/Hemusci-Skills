@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 23,
+  "sourceImageSha256": "33b5637d694b22ac520f05c51b58250a27daadc2c914d43c9c49e47b70ee75a5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成55.2引言续句、55.2.1全部材料试剂、筛号表及55.2.2第1(1)步"},
+    "precisionPass": {"status": "verified", "method": "核验rpm、mL、cm、mg、mol L⁻¹、g L⁻¹、HCl、H₂O₂、(NaPO₃)ₙ、Na₂CO₃、全部筛孔与筛号"},
+    "secondVisualPass": {"status": "verified", "method": "由页末30 g反向复核至跨页续句，材料按(15)至(1)倒序复核，筛表逐格检查；印刷页码532"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "页）中的方法测试其含盐量。"},
+    {"type": "heading", "number": "55.2.1", "title": "材料与试剂", "level": 3},
+    {"type": "materials-list", "items": ["三角瓶：300 mL，带塑料盖。", "陶瓷滤芯。", "振荡器：①旋转式（上下颠倒），转速40～60 rpm；②摇筛机，振荡频率500次 min⁻¹。", "量筒：可容纳1205 mL土壤悬浊液，并标有1000 mL刻度。", "支架：①可悬挂4个电动搅拌器，带旋桨式搅拌器和Teflon牌护罩；②经改装可悬挂4个Lowry式吸管（25 mL）的Shaw吸管架；③可放置三角瓶、陶瓷滤芯和真空系统的定制木质支架。", "发泡胶管绝缘盖。", "100 mL烧杯或广口玻璃瓶。", "天平：精度0.1 mg。", "筛子：①300目、直径15 cm；②直径6.3 cm的铜网套筛，筛孔及筛号见本页表。", "30%或50%过氧化氢溶液。", "1 mol L⁻¹ HCl溶液。", "柠檬酸钠—碳酸氢钠缓冲液：0.3 mol L⁻¹柠檬酸钠（88.4 g L⁻¹）；每升柠檬酸钠溶液加入125 mL碳酸氢钠溶液（84 g L⁻¹）。", "连二亚硫酸钠（Na₂S₂O₄）。", "饱和NaCl溶液。", "含足量Na₂CO₃的偏磷酸钠溶液，使pH达到10；(NaPO₃)ₙ 35.7 g L⁻¹ + Na₂CO₃ 7.9 g L⁻¹较适宜。"]},
+    {"type": "source-fidelity-note", "text": "原书材料(12)把浓度写作‘0.3 M/L’，已规范为0.3 mol L⁻¹；材料(13)误写‘硫酸钠（连二亚硫酸）’，结合后文Na₂S₂O₄校正为连二亚硫酸钠；‘旋浆’规范为‘旋桨’。"},
+    {"type": "heading", "number": "55.2.2", "title": "样品预处理步骤", "level": 3},
+    {"type": "procedure-subheading", "number": "1", "title": "去除碳酸盐"},
+    {"type": "procedure-step", "number": "1(1)", "text": "称取10 g过2 mm筛的风干土，倒入300 mL三角瓶中（精确至1 mg）。若样品为砂质土壤，增加样品量（如30 g）。"}
+  ],
+  "formulas": [],
+  "tables": [
+    {"number": null, "title": "美国系列筛号与Tyler筛号对应表", "columns": ["筛孔（mm）", "美国系列筛号", "Tyler筛号"], "rows": [["1.00", "18", "16"], ["0.50", "35", "32"], ["0.25", "60", "60"], ["0.105", "140", "150"], ["0.047", "300", "300"]]}
+  ],
+  "contentSha256": "c543bc5d4b73a147660bf819c8ed6fc2f0be4e6d9943bbbda551ccec66f451bc"
+}

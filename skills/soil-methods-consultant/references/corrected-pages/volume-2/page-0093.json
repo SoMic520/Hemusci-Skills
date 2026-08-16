@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 93,
+  "sourceImageSha256": "bf19a67b68bd731b243637f747a56ef882768d6a5a9438cbfd993c215eecae6d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成63.1跨页结尾及63.2本页"},
+    "precisionPass": {"status": "verified", "method": "核验200 mm平筛、6～7层、EF<0.84 mm、EF>60%、土块比>9.4/<9.4 mm、GMD/GSD分位点与R²>0.9"},
+    "secondVisualPass": {"status": "verified", "method": "由R²>0.9反向复核至跨页首句，检查指标缩写、严格不等号、粒径与累积比例方向；印刷页码602"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "干筛法较少破坏微生物群落的物理分布，可测分离团聚体的水溶性C、N浓度，并更接近田间无雨或无灌溉时的土壤状态。Díaz-Zorita等（2002）对干筛/湿筛结构评价指标作了综述。"},
+    {"type": "heading", "number": "63.2", "title": "干筛法", "level": 2},
+    {"type": "paragraph", "text": "DASD多用旋转筛，以各筛级质量百分比表示；手动筛费时且过度用力会增加磨蚀。Ro-Tap可模拟手动圆形螺旋运动，同时作用于6个直径200 mm平筛；DASD通常用6～7层筛。任何装置都必须固定筛分时间、振幅/旋转速度和装样量。"},
+    {"type": "indicators", "items": [
+      "易侵蚀组分（erodible fraction, EF）：粒径<0.84 mm的团聚体质量百分比。书中经验阈值为EF>60%时风蚀可能性较大；这是筛分指标，不是通用风蚀损失量。",
+      "土块比（cloddiness ratio）：粒径>9.4 mm团聚体质量百分比与<9.4 mm质量百分比之比；越高表示苗床越粗糙。",
+      "MWD：用各粒级代表直径按质量比例加权。",
+      "GMD和GSD：在对数正态假设下表征分布中心与宽度。GMD为50%质量大于、50%小于的筛孔直径；84.13%点与50%点确定对数域标准差。"
+    ]},
+    {"type": "paragraph", "text": "GMD/GSD可用对数概率图或数值拟合；多峰分布需复合群体模型，且至少需足够筛级（本书建议>5）。Larney等（1994）以y=log₁₀(筛孔直径)对x=筛上累积质量分数的标准正态分位值（NED）做线性回归；即使筛组不含0.84 mm，也可用回归插值求EF。R²>0.9仅说明对数正态直线拟合度高，不等于整个测定无偏差。"}
+  ],
+  "formulas": [
+    {"label": "EF", "plain": "EF(%) = 100m(d<0.84 mm)/m_total", "latex": "\\mathrm{EF}(\\%)=100\\frac{m(d<0.84\\,\\mathrm{mm})}{m_{\\mathrm{total}}}", "variables": [], "conditions": ["质量基准一致", "严格小于0.84 mm"]},
+    {"label": "土块比", "plain": "CR = m(d>9.4 mm)/m(d<9.4 mm)", "latex": "\\mathrm{CR}=\\frac{m(d>9.4\\,\\mathrm{mm})}{m(d<9.4\\,\\mathrm{mm})}", "variables": [], "conditions": ["严格界限不含恰好9.4 mm，实验报告需说明边界归属"]}
+  ],
+  "tables": [],
+  "contentSha256": "41c4934d57a15ae563c32b2911ddc6e084f2c0b0de90443ef1e3abcd568833c1"
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 226,
+  "sourceImageSha256": "c6d3f56ea49fbd07d1e4d03dfeea2e3ea60782de033bef850108936aeefd0fcb",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐项逐步骤对照原分辨率页图和两套OCR，完成75.2.3(5)②—(7)、75.3导言及75.3.1"},
+    "precisionPass": {"status": "verified", "method": "核验0.5—30 cm、10⁻⁵—10⁰ cm·s⁻¹、10—15/30 cm、i—Q_s/A回归、10⁻⁷—10⁻⁴ cm·s⁻¹、50—100 mL、1 mm及50—100 cm"},
+    "secondVisualPass": {"status": "verified", "method": "由达西定律反推回归斜率m=1/K_s，并复核降水头装置的H基准和土芯翻转关系；印刷页码735"}
+  },
+  "blocks": [
+    {
+      "type": "apparatus-notes",
+      "items": [
+        "水槽法的水头差可由约0.5 cm调至30 cm，故定水头法覆盖K_s约10⁻⁵—10⁰ cm·s⁻¹；建议水槽置于10—15 cm高平台，槽壁高约30 cm。",
+        "270目尼龙织物允许土芯直接转移到张力（吸力）平台、张力板或压力抽提器，继续测脱水/吸水曲线。",
+        "可按土芯尺寸和设计制作不同水槽；第77章带凸缘不锈钢环也可作水槽法土芯容器，另装带O形圈和螺栓孔的丙烯酸塑料后盖并压紧水密封。",
+        "同一水槽也可用于75.3降水头法；缺点是比部分其他实验室方法需要更多装置。"
+      ]
+    },
+    {
+      "type": "calculation-guidance",
+      "name": "低渗介质的i—Q_s/A线性回归",
+      "text": "对低渗土壤或工程岩土材料，以y=i、x=Q_s/A拟合y=mx+b；m=1/K_s，b为i轴截距。该法可显露并减小由膨胀、孔隙堵塞、非线性梯度或装置造成的非零水头梯度阈值（b≠0）影响。"
+    },
+    {"type": "heading", "number": "75.3", "title": "降水头土芯法", "level": 2},
+    {
+      "type": "method-principle",
+      "text": "测量饱和圆柱土芯在下降水头驱动下的K_s。直径4—20 cm、长4—20 cm最实用，量程约10⁻⁷—10⁻⁴ cm·s⁻¹；本装置与75.2定水头水槽法互补。"
+    },
+    {"type": "heading", "number": "75.3.1", "title": "装置和步骤（圆柱状土芯）", "level": 3},
+    {
+      "type": "procedure",
+      "steps": [
+        "土芯采集和制备同75.2，但翻转土芯，使后盖接触土芯原位顶端、尼龙织物接触原位底端，从而测定时水由原位顶端流向底端。",
+        "把土芯置空水槽，按75.2步骤(3)饱和；后盖须充满水且不夹气。",
+        "将后盖管浸入水槽充水，再接到已充满同一水的降水头储水管。储水管容量50—100 mL，底部有旋塞，管身刻度1 mm；将刻度零点调到与稳定水槽水面齐平，使读数直接为储水管水面相对基准的高度H。",
+        "打开旋塞，记录水面依次从H₁降到H₂、H₃、H₄、H₅所需时间。开始计时前的水位应高于H₁，以排除开阀瞬间静水压力脉冲引起的弹性管膨胀或夹气压缩；建议连续记录约5个H值，H₁通常50—100 cm。",
+        "若水位下降太快无法准确读H_i，改用更大内径储水管或定水头法；水位H降低时流速也随之减慢。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书在水槽法缺点的引文中把Dirksen误排为KirKsen，规范字段已校正。acrylic后盖仍按丙烯酸塑料/有机玻璃规范。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "75.1-linearized",
+      "plain": "i = (1/K_s)(Q_s/A) + b",
+      "latex": "i=\\frac{1}{K_s}\\frac{Q_s}{A}+b",
+      "resultUnit": "L·L⁻¹",
+      "variables": ["回归斜率m=1/K_s", "截距b为水头梯度阈值；理想达西流b=0"]
+    }
+  ],
+  "tables": [],
+  "contentSha256": "a35f45bf1e1c1266e2dd361d03adeb7562556ef1ba1db4765d1dee1767c4ac8d"
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 131,
+  "sourceImageSha256": "e8cb95aac35fdc12517033c069fd919eb99879ed299c6f477714a866598111bc",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文和参考文献页，并与Apple Vision、PaddleOCR交叉比对，人工完成步骤（9）续文、12.3注释及全部文献条目"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验NH₄F·HF、H₂O-HCl、3 mol/L、50 ℃、KCl、5 h、10%、1 min、法文重音、作者缩写、卷页及原书propertiesand连写"},
+    "secondVisualPass": {"status": "verified", "method": "从Shoemaker文献反向复核至电极再生续句，确认原书重复列出的两条Curtin 1984均保留且仅propertiesand空格不同，页码100无误"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure-step", "number": "（9）", "continuation": true, "text": "的实验操作再生电极。可将电极浸入装有10%氟化氢铵（NH₄F·HF）溶液的塑料烧杯中，浸泡1 min，由此实现复合玻璃电极的再生。由于氟化氢铵（NH₄F·HF）是一种有害的化合物，应根据材料安全数据表采取适当的保护措施。电极用NH₄F·HF处理之后，可再浸润于1:1 H₂O-HCl溶液中以除去硅酸盐。然后用蒸馏水彻底冲洗电极，并用3 mol/L热（50 ℃）KCl溶液浸泡5 h。如果有必要，电极中的电解质（饱和KCl或甘汞）需要更换。"},
+    {"type": "section-heading", "level": 3, "number": "12.3", "title": "注释"},
+    {"type": "paragraph", "text": "石灰需求量超过约每公顷7吨时，建议将石灰分两次或两次以上进行施用，以避免局部施用过量（Brunelle和Vanasse，2004）。这一点很重要，因为建议的石灰需求量是假设石灰材料被均匀施用至耕作层中，而这在实际操作中难以实现。如果施用在土壤表面的石灰材料没有明显混入土壤（即无耕作活动），施用量应降至大约三分之一。在那些已耕作但深度没有达到测试实验所采用的耕作层时，石灰施用量也应适当降低（van Lierop，1989）。"},
+    {"type": "section-heading", "level": 3, "title": "参考文献"},
+    {"type": "reference-entry", "text": "Adams, F. and Evans, C.E. 1962. A rapid method for measuring lime requirement of Red-Yellow Podzolic soils. Soil Sci. Soc. Am. Proc. 26: 355-357."},
+    {"type": "reference-entry", "text": "Aitken, R.L. 1990. Relationship between extractable Al, selected soil properties, pH buffer capacityand lime requirement in some acidic Queensland soils. Aust. J. Soil Res. 30: 119-130."},
+    {"type": "reference-entry", "text": "Alatas, J., Tasdilas, C.D., and Sgouras, J. 2005. Comparison of two methods of lime requirement determination. Commun. Soil Sci. Plant Anal. 36: 183-190."},
+    {"type": "reference-entry", "text": "Brunelle, A. and Vanasse, A. 2004. Le chaulage des sols. Centre de référence en agriculture et agroalimentaire du Québec, Québec, QC, Canada, 41."},
+    {"type": "reference-entry", "text": "Conyers, M.K., Helyar, K.L., and Poile, G.J. 2000. pH buffering: the chemical response of acidic soils to added alkali. Soil Sci. 165: 560-566."},
+    {"type": "reference-entry", "text": "CRAAQ. 2003. Guide de référence en fertilisation, 1re édition. Centre de référence en agriculture et agroalimentaire du Québec (CRAAQ). Québec, QC, Canada, 294."},
+    {"type": "reference-entry", "text": "Curtin, D., Rostad, H.P.W., and Huang, P.M. 1984. Soil acidity in relation to soil propertiesand lime requirement. Can. J. Soil Sci. 64: 645-654."},
+    {"type": "reference-entry", "text": "Curtin, D., Rostad, H.P.W., and Huang, P.M. 1984. Soil acidity in relation to soil properties and lime requirement. Can. J. Soil Sci. 64: 645-654."},
+    {"type": "reference-entry", "text": "Machacha, S. 2004. Comparison of laboratory pH buffer methods for predicting lime requirement (LR) of acidic soils of Eastern Botswana. Commun. Soil Sci. Plant Anal. 35: 2675-2687."},
+    {"type": "reference-entry", "text": "Marschner, H. 1995. Nutrient availability in soils. In: Mineral Nutrition of Higher Plants, 2nd ed. Academic Press, London, UK, 483-505."},
+    {"type": "reference-entry", "text": "McLean, E.O. 1982. Soil pH and lime requirement. In: A.L. Page, R.H. Miller, and D.R. Keeney, eds. Methods of Soil Analysis, Part 2, Agronomy 9. SSSA, Madison, WI, 199-224."},
+    {"type": "reference-entry", "text": "OMAFRA. 2003. Agronomy Guide for Field Crops. Publication 811. Ministry of Agriculture, Food and Rural Affairs, Toronto, ON, Canada, 348."},
+    {"type": "reference-entry", "text": "Shoemaker, H.E., McLean, E.O., and Pratt, P.F. 1961. Buffer methods for determining lime requirement of soils with appreciable amounts of extractable aluminium. Soil Sci. Soc. Am. Proc. 25: 274-277."},
+    {"type": "printed-page-number", "text": "100"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ec56c7c48ec2f9c3a7fc46fc102b979a60ea94b538bd81f6183e8f709d6fa0ae"
+}

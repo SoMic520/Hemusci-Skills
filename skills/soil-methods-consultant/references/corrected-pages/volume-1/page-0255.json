@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 255,
+  "sourceImageSha256": "c8e25c5e1e1018f62f9e382ae0ed23a42448d4ece87ba4ddb7219eac7057e470",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第25章第224页，并与Apple Vision、PaddleOCR交叉比对，人工恢复25.5末句及Amer至Fardeau共20条英文/西文/德文/法文参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验³²P、NaHCO₃、作者变音符号Bühler/Egnér、德文Nährstoffzustandes/Böden、年份、卷号页码及机构地点"},
+    "secondVisualPass": {"status": "verified", "method": "从Fardeau和Jappe（1980）反向复核至25.5续文，确认20条文献顺序、每条边界、多语种题名、期刊卷页和印刷页码224"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "body-continuation", "continuesFromPage": 254, "text": "对有机磷转化做出合理解释，建议增加针对土壤有机质特征的磷分组，以便综合不同技术的测定结果来推断有机磷的特性。"},
+    {"type": "heading", "level": 1, "title": "参考文献"},
+    {"type": "reference", "text": "Amer, F., Bouldin, D.R., Black, C.A., and Duke, F.R. 1955. Characterization of soil phosphorus by anion exchange resin adsorption and ³²P equilibration. Plant Soil 6: 391-408."},
+    {"type": "reference", "text": "Anon. 1982. Groupo de trabajo de normalisacion de metodos analiticos. Revision bibliografica de metodos de extraction de phosphoro assimilable en suelos 1957-1980. Anales de Edafologia y Agrobiologia 41: 1085-1112."},
+    {"type": "reference", "text": "Bache, B.W. and Williams, E.G. 1971. A phosphate sorption index for soils. J. Soil Sci. 22: 289-301."},
+    {"type": "reference", "text": "Banderis, A.S., Barter, D.H., and Henderson, K. 1976. The use of polyacrylamide to replace carbon in the determination of Olsen’s extractable phosphate in soil. J. Soil Sci. 27: 71-74."},
+    {"type": "reference", "text": "Barrow, N.J. 1983. On the reversibility of phosphate sorption by soils. J. Soil Sci. 34: 751-758."},
+    {"type": "reference", "text": "Barrow, N.J. and Shaw, T.C. 1975. The slow reactions between soil and anions. 2. Effect of time and temperature on the decrease in phosphate concentration in the soil solution. Soil Sci. 119: 167-177."},
+    {"type": "reference", "text": "Barrow, N.J. and Shaw, T.C. 1977. Factors affecting the amount of phosphate extracted from soil by anion exchange resin. Geoderma 18: 309-323."},
+    {"type": "reference", "text": "Batsula, A.A. and Krivonosova, G.M. 1973. Phosphorus in the humic and fulvic acids of some Ukrainian soils. Soviet Soil Sci. 5: 347-350."},
+    {"type": "reference", "text": "Bowman, R.A. and Cole, C.V. 1978. Transformations of organic phosphorus substances in soils as evaluated by NaHCO₃ extraction. Soil Sci. 125: 49-54."},
+    {"type": "reference", "text": "Bray, R.H. and Kurtz, L.T. 1945. Determination of total, organic and available forms of phosphorus in soils. Soil Sci. 59: 39-45."},
+    {"type": "reference", "text": "Bühler, S., Oberson, A., Sinaj, S., Friesen, D.K., and Frossard, E. 2003. Isotope methods for assessing plant-available phosphorus in acid tropical soils. Eur. J. Soil Sci. 54: 605-616."},
+    {"type": "reference", "text": "Chang, S.C. and Jackson, M.L. 1957. Fractionation of soil phosphorus. Soil Sci. 84: 133-144."},
+    {"type": "reference", "text": "Chen, C.R., Sinaj, S., Condron, L.M., Frossard, E., Sherlock, R.R., and Davis, M.R. 2003. Characterization of phosphorus availability in selected New Zealand grassland soils. Nutr. Cycl. Agroecosys. 65: 89-100."},
+    {"type": "reference", "text": "Colwell, J.D. 1963. The estimation of the phosphorus fertilizer requirement of wheat in southern New South Wales by soil analysis. Aust. J. Exp. Agric. Anim. Husb. 3: 190-197."},
+    {"type": "reference", "text": "Cross, A.F. and Schlesinger, W.H. 1995. A literature review and evaluation of the Hedley fractionation: applications to the biogeochemical cycle of soil phosphorus in natural ecosystems. Geoderma 64: 197-214."},
+    {"type": "reference", "text": "Cross, A.F. and Schlesinger, W.H. 2001. Biological and geochemical controls on phosphorus fractions in semiarid soils. Biogeochemistry 52: 155-172."},
+    {"type": "reference", "text": "Egnér, H., Riehm, H., and Domingo, W.R. 1960. Untersuchungen über die chemische Bodenanalyse als Grundlage für die Beurteilung des Nährstoffzustandes der Böden. 2. Chemische Extraktionsmethoden zur Phosphor- und Kaliumbestimmung. Kungl. Landbrukshögskolans Annaler, Uppsala, Sweden 26: 199-215."},
+    {"type": "reference", "text": "Ellert, B.H. and Bettany, J.R. 1988. Comparisons of kinetic models for describing net sulfur and nitrogen mineralization. Soil Sci. Soc. Am. J. 52: 1692-1702."},
+    {"type": "reference", "text": "EPA 1971. Methods of Chemical Analysis for Water and Wastes. Environmental Protection Agency, Cincinnati, OH."},
+    {"type": "reference", "text": "Fardeau, J.C. and Jappe, J. 1980. Choix de la fertilization phosphorique des sols tropicaux: emploi du phosphore 32. Agron. Trop. 35: 225-231."},
+    {"type": "printed-page-number", "text": "224"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f3590738c32f9cb1ba1a54433024a688ac835fb6bd81486e4b8ffdd0471c3645"
+}

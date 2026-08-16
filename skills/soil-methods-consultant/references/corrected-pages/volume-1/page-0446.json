@@ -1,0 +1,51 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 446,
+  "sourceImageSha256": "e73029c7fce9e522b3972baf1eb07020771ef562582cb5301878efe592279ddc",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Paddle OCR、Apple OCR及英文原版43.4.1～43.4.3；恢复被OCR漏掉的μ、上下标、化学式与表格结构"},
+    "precisionPass": {"status": "verified", "method": "复算35%/65%变性胶中甲酰胺和尿素用量，核验7 mol·L⁻¹尿素、40%(v/v)甲酰胺、50×/1×TAE、37.5∶1、100 μL移液器、500 V、50 W、pH 8.3及≥1 μg DNA"},
+    "secondVisualPass": {"status": "verified", "method": "由43.4.3首句反向复核至43.4.1跨页句；逐格核对DGGE凝胶配方表和12项材料；印刷页码415"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第43章｜细菌群落信息的变性梯度凝胶电泳（DGGE）分析｜"},
+    {"type": "paragraph-continuation", "fromPage": 445, "text": "所选引物可显示范围很广或较为特定的细菌群落。DGGE凝胶的关键参数之一是变性剂浓度，应根据PCR产物的解链特性确定最佳梯度范围和实验条件。"},
+    {"type": "section-heading", "level": 3, "number": "43.4.2", "title": "材料与试剂"},
+    {"type": "material-item", "number": "（1）", "text": "DGGE装置：本实验室使用Bio-Rad DCode Universal Mutation Detection System，包括温度控制模块、可同时容纳两块16 cm凝胶的“三明治”芯组件、两套玻璃板和固定夹、1 mm间隔片、两个1 mm单孔制备梳及垫圈。"},
+    {"type": "source-fidelity-note", "scope": "DGGE装置规格", "text": "中文页把英文原版的两块16 cm凝胶及两套玻璃板结构误排成“16 cm及10 cm玻璃平板”，并把两个单孔制备梳写成“预备梳2齿”；按英文原版设备清单校正。"},
+    {"type": "material-item", "number": "（2）", "text": "垂直灌胶装置：丙烯酸材质的双室线性梯度仪，以25 cm塑料管连接20号注射针头和Luer-lock接头，使配好的溶液在重力作用下进入制胶“三明治”芯。"},
+    {"type": "material-item", "number": "（3）", "text": "电泳电源：直流电源，最高电压500 V，最大功率50 W。"},
+    {"type": "material-item", "number": "（4）", "text": "100 μL量程微量移液器及长型测序吸头，用于向聚丙烯酰胺凝胶加样。"},
+    {"type": "material-item", "number": "（5）", "text": "凝胶染色盘和脱色盘、紫外透射仪及凝胶成像设备。"},
+    {"type": "material-item", "number": "（6）", "text": "凝胶条带记录、存档和分析软件。"},
+    {"type": "reagent-item", "number": "（7）", "text": "凝胶制备溶液：按实验所需变性梯度配制；常用范围35%～65%。100%变性剂定义为7 mol·L⁻¹尿素[H₂NCONH₂，420.4 g·L⁻¹]和40%(v/v)去离子甲酰胺（CH₃NO）的组合。"},
+    {"type": "safety-note", "scope": "丙烯酰胺", "text": "丙烯酰胺单体具有致畸、潜在致癌和神经毒性；聚合前必须在通风橱内采取防护措施，聚合后的凝胶也须戴手套操作。"},
+    {"type": "reagent-item", "number": "（8）", "text": "50×TAE缓冲液：将242 g Tris碱、57.1 mL冰醋酸和18.6 g EDTA加入约900 mL蒸馏水中溶解，最后定容至1 L，pH约8.3。"},
+    {"type": "safety-note", "scope": "冰醋酸", "text": "冰醋酸易挥发且腐蚀性强，应在通风橱中操作。"},
+    {"type": "reagent-item", "number": "（9）", "text": "丙烯酰胺聚合催化剂：新鲜配制10%(w/v)过硫酸铵[(NH₄)₂S₂O₈]；另备N,N,N′,N′-四甲基乙二胺（TEMED）。"},
+    {"type": "safety-note", "scope": "APS和TEMED", "text": "过硫酸铵为强氧化剂；TEMED易挥发、易燃并有腐蚀性，吸入可致命；均应在通风橱中操作。"},
+    {"type": "reagent-item", "number": "（10）", "text": "6×上样缓冲液：0.25%(w/v)溴酚蓝、0.25%(w/v)二甲苯青FF、70%(v/v)甘油，以水配制。"},
+    {"type": "reagent-item", "number": "（11）", "text": "染色液：含1×SYBR Green I的1×TAE缓冲液。"},
+    {"type": "reagent-item", "number": "（12）", "text": "1×TAE电泳缓冲液：将50×TAE按50倍稀释配制。"},
+    {"type": "section-heading", "level": 3, "number": "43.4.3", "title": "操作步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "每个样品应获得至少1 μg带GC夹子的PCR产物。检查并调整产物的数量和质量，优化PCR以减少可能干扰凝胶电泳的杂质；DGGE前先以琼脂糖凝胶电泳检查纯度，只有形成明亮、单一目标条带的产物才进入后续DGGE分析[续见第447页]。"},
+    {"type": "printed-page-number", "text": "415"}
+  ],
+  "formulas": [
+    {"id": "43.4.2-denaturant-definition", "plain": "100% denaturant=7 mol·L⁻¹ urea+40%(v/v) deionized formamide", "context": "DGGE变性剂百分数定义，不是单一组分的质量分数"},
+    {"id": "43.4.2-low-gel-check", "plain": "420.4 g·L⁻¹×0.35×0.100 L=14.7 g urea; 40 mL·100 mL⁻¹×0.35=14 mL formamide", "context": "100 mL、35%变性胶复算"},
+    {"id": "43.4.2-high-gel-check", "plain": "420.4 g·L⁻¹×0.65×0.100 L=27.3 g urea; 40 mL·100 mL⁻¹×0.65=26 mL formamide", "context": "100 mL、65%变性胶复算"},
+    {"id": "43.4.2-TAE-dilution", "plain": "1 volume 50×TAE+49 volumes water=1×TAE", "context": "50倍稀释"}
+  ],
+  "tables": [
+    {"id": "table-43.4-DGGE-gel", "title": "DGGE凝胶制备参数（每种溶液终体积100 mL）", "columns": ["组分", "低变性剂（35%）", "高变性剂（65%）"], "rows": [
+      ["40%丙烯酰胺/双丙烯酰胺（37.5∶1）", "25 mL", "25 mL"],
+      ["50×TAE", "2 mL", "2 mL"],
+      ["去离子甲酰胺", "14 mL", "26 mL"],
+      ["尿素", "14.7 g", "27.3 g"],
+      ["溶液总容积", "100 mL", "100 mL"]
+    ]}
+  ],
+  "contentSha256": "d4f17f5edee5536a4eb825438202d2c4616ee765154c623f4913e188a55b4193"
+}

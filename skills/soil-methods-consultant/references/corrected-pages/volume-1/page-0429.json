@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 429,
+  "sourceImageSha256": "c2684809a14327d61f270ec2e0de94808b4ddbe2960af633771da1b42033c65d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、两套OCR及英文原版41.1承上、41.2.1和41.2.2（1）～（6）"},
+    "precisionPass": {"status": "verified", "method": "核验2 mm、−60 kPa、50%、5～7 d、pH/浓度/体积/温度，并按总体积和式量复算PA、EDTA及ATP标准液"},
+    "secondVisualPass": {"status": "verified", "method": "由ATP标准液反向复核全部试剂，确认100 μL、5 mg·mL⁻¹腺苷、EDTA二钠二水合物、2 μmol和−15 °C"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "text": "鉴于两种提取法结果一致，且PA法试剂易得、毒性/致癌性/致突变性较低，可降低暴露和环境风险，作者推荐PA法估计土壤ATP。本法以Webster等（1984）为主，并纳入Vaden等（1987）和Wen等（2005）的改进；提取液ATP用经典荧光素—荧光素酶系统测定。"},
+    {"type": "section-heading", "level": 2, "number": "41.2", "title": "土壤ATP测定方法"},
+    {"type": "section-heading", "level": 3, "number": "41.2.1", "title": "土壤采样和预处理"},
+    {"type": "paragraph", "text": "田间湿鲜土轻轻压碎、过2 mm筛，去粗矿粒和植物碎屑并均质；手工拣去根和残体。可按田间湿度直接测，也可以I级去离子水把含水量调至约50%持水量（以−60 kPa水势下含水量表示）。采样、过筛扰动会影响微生物生物量和活性，故提取ATP前宜在田间环境土温下实验室预培养5～7 d（Tate和Jenkinson，1982；Nannipieri等，1990）。"},
+    {"type": "source-fidelity-note", "scope": "41.2.1水分", "text": "中译本写“田间饱和持水量”，英文原版仅为water holding capacity；校正为约50%持水量，并保留−60 kPa定义。"},
+    {"type": "section-heading", "level": 3, "number": "41.2.2", "title": "试剂"},
+    {"type": "reagent-item", "number": "（1）", "text": "0.1 mol·L⁻¹ Tris碱性缓冲液，pH 10.66：12.11 g三(羟甲基)氨基甲烷溶于水，定容1 L。"},
+    {"type": "reagent-item", "number": "（2）", "text": "25 mmol·L⁻¹ HEPES缓冲液，pH 7.75：5.96 g 4-(2-羟乙基)哌嗪-1-乙磺酸溶于约900 mL水，以1 mol·L⁻¹ NaOH调至pH 7.75，定容1 L。"},
+    {"type": "reagent-item", "number": "（3）", "text": "ATP assay mix dilution buffer：按Sigma-Aldrich试剂说明以50 mL水复溶。每次读数用100 μL，10 mL可做100次；也用于ATP标准曲线。"},
+    {"type": "reagent-item", "number": "（4）", "text": "荧光素—荧光素酶溶液：ATP assay mix以5 mL冰冷水在30～50 mL玻璃细口瓶中复溶，静置10 min；加入20 mL冰冷ATP assay mix dilution buffer，冰上放置1 h后使用。"},
+    {"type": "reagent-item", "number": "（5）", "text": "PA提取液1 L，按顺序混合：a. 340 mL Lubrol溶液（5 g Lubrol/340 mL水，45～50 °C溶解）；b. 200 mL 3.33 mol·L⁻¹磷酸；c. 200 mL 10 mol·L⁻¹尿素（加热搅拌溶解）；d. 200 mL DMSO；e. 40 mL 5 mg·mL⁻¹腺苷。混合液加热至35 °C，加入20 mL 1 mol·L⁻¹ EDTA。提取液保持>25 °C并尽快使用，以防EDTA沉淀。"},
+    {"type": "source-fidelity-note", "scope": "41.2.2（5）e", "text": "中文版印成5 mg·L⁻¹腺苷，英文原版为5 mg adenosine·mL⁻¹；按原方法校正，否则浓度低1000倍。"},
+    {"type": "reagent-item", "number": "（5）EDTA", "text": "1 mol·L⁻¹ EDTA：18.612 g乙二胺四乙酸二钠二水合物和2.248 g固体NaOH溶于水，再以约7 mL 1 mol·L⁻¹ NaOH调pH 7.8～8.0，定容50 mL。加入热提取混合液前现配。Lubrol溶液使用前保持>35 °C（Vaden等，1987）。"},
+    {"type": "reagent-item", "number": "（6）", "text": "ATP标准储备液：把含约1 mg（约2 μmol）ATP二钠水合物、式量551.1的试剂复溶于10 mL冷水，得到约0.2 mmol·L⁻¹ ATP（实际量按瓶签）。分装0.5 mL于4 mL带盖塑料瓶；不立即使用时−15 °C冷冻。"},
+    {"type": "source-fidelity-note", "scope": "41.2.2（6）", "text": "中译本把瓶内约2 μmol写成“2 μM”；1 mg/551.1 g·mol⁻¹≈1.81 μmol，且定容10 mL后约0.2 mmol·L⁻¹，故按物质的量校正。"},
+    {"type": "printed-page-number", "text": "398"}
+  ],
+  "formulas": [
+    {"id": "41.2.2-atp-stock-check", "plain": "1 mg÷551.1 g·mol⁻¹≈1.81 μmol；1.81 μmol÷10 mL≈0.181 mmol·L⁻¹", "context": "ATP标准储备液标签量复核"}
+  ],
+  "tables": [
+    {"id": "41.2.2-pa-extractant", "title": "1 L PA提取液", "columns": ["顺序", "组分", "用量/条件"], "rows": [["a", "Lubrol溶液", "5 g/340 mL水；45～50 °C；取340 mL"], ["b", "磷酸", "200 mL，3.33 mol·L⁻¹"], ["c", "尿素", "200 mL，10 mol·L⁻¹；加热搅拌"], ["d", "DMSO", "200 mL"], ["e", "腺苷", "40 mL，5 mg·mL⁻¹"], ["最后", "EDTA", "混合液35 °C时加20 mL，1 mol·L⁻¹"]], "totalVolumeCheck": "340+200+200+200+40+20=1000 mL"}
+  ],
+  "contentSha256": "0aa91d0220efba7952ab37a86634433d3d02b0e3646dfbc22c8a510b5940579d"
+}

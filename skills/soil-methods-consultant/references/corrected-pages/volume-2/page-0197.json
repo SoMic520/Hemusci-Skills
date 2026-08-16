@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 197,
+  "sourceImageSha256": "5150d202548e078409f9d17c09c3813ff7181b2f21aa0a2dd2bfb48db558b39f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐式对照原分辨率页图、两套OCR和英文原章，完成71.4.4、71.5、式(71.4)及71.5.1操作模式"},
+    "precisionPass": {"status": "verified", "method": "核验−0.1/−0.08 MPa、J·mol⁻¹·K⁻¹、Pa、1 cm、50—100 μm、3—30 μm、>0.40 mm、5 ℃、5 μV·MPa⁻¹和0.001 ℃/0.01 MPa"},
+    "secondVisualPass": {"status": "verified", "method": "由式(71.4)量纲反向复核V_w定义、e/e_s括号、ψ_t下标及全文负号；印刷页码706"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "71.4.4", "title": "注释", "level": 3},
+    {"type": "paragraph", "text": "电阻块法的独特优势是连续、自动测量干土ψ_m和含水量；缺点为需定期实验校准（常须费力且谨慎地拆除、重装）、平衡慢、精度低，不能估算势梯度。"},
+    {"type": "heading", "number": "71.5", "title": "热电偶干湿计法", "level": 2},
+    {"type": "principle", "text": "热电偶干湿计测定范围为ψ_t≤−0.1 MPa，可补充张力计的−0.08 MPa≤ψ_t≤0范围；既有田间原位系统，也有测完整或扰动样品的实验室系统。系统平衡时，总液态水势与样品上方空气水汽压满足式(71.4)。其中R为通用气体常数（J·mol⁻¹·K⁻¹），T为绝对温度（K），V_w为水的摩尔体积（m³·mol⁻¹），e为空气水汽压（Pa），e_s为同温度饱和水汽压（Pa），e/e_s为无量纲相对水汽压（相对湿度）。"},
+    {"type": "heading", "number": "71.5.1", "title": "原位土壤热电偶干湿计法", "level": 3},
+    {"type": "equipment", "name": "原位土壤干湿计", "items": ["小多孔杯，直径和高度均约1 cm；材料为多孔陶瓷、黄铜或不锈钢，孔径3—30 μm。", "杯内热电偶直径50—100 μm；传感接点由细镍铬合金丝和康铜丝焊接，参考接点用较粗铜线（直径>0.40 mm）。", "杯开口端以聚四氟乙烯密封；部分装置另嵌热电偶测杯温。"]},
+    {"type": "procedure", "name": "干湿计操作模式", "steps": ["热平衡后给传感接点施加适当电位，利用珀尔帖效应冷却；降至杯内空气露点以下时凝结小水滴，最大冷却约比杯周温度低5 ℃。", "土水势<0 MPa时杯内相对湿度<100%，水滴再蒸发并冷却接点；以具微伏或纳伏灵敏度的电压表测温降对应电压，输出灵敏度通常约5 μV·MPa⁻¹。同步测干湿计温度，再用式(71.4)求土水势。", "将干湿计置于不同水势的恒温盐溶液中，建立输出电压—土水势校准关系。", "严格避免传感器或导线温度梯度：传感与参考接点相差0.001 ℃即可造成0.01 MPa误差；存在大温度梯度时通常不能使用，例如距土表0.15—0.30 m范围。"]},
+    {"type": "paragraph", "text": "Campbell（1979）采用高导热材料减小温度梯度，并用对称排列陶瓷口改善与土壤的水汽交换、降低内部凝结；改进效果续见下页。"},
+    {"type": "source-fidelity-note", "text": "原书式(71.4)后的变量说明漏列V_w，已按公式量纲和英文原章补为水的摩尔体积（m³·mol⁻¹）。本页ψ_t≤−0.1 MPa、−0.08 MPa≤ψ_t≤0及全部指数、微米符号均按页图恢复；作者原书误作Weibe、Szietz，规范姓名分别为Wiebe、Szeicz。"}
+  ],
+  "formulas": [
+    {"label": "71.4", "plain": "ψ_t = (RT/V_w) ln(e/e_s)", "latex": "\\psi_t=\\left(\\frac{RT}{V_w}\\right)\\ln\\left(\\frac{e}{e_s}\\right)", "resultUnit": "Pa"}
+  ],
+  "tables": [],
+  "contentSha256": "3253943c7eff15a44bd28770211982b2dd9704181bfc00cfe3a8ce3ad36a4e69"
+}

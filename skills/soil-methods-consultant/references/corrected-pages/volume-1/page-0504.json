@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 504,
+  "sourceImageSha256": "ec693189405fa3bdb68864df93ddc3b361fc3788ba4f318a94dd86d0904b065e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页面与两套OCR，完成Anderson至Gregorich共20条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者拼写、化学式上下标、0.5 mol·L⁻¹ K₂SO₄、¹⁴C、¹⁵N、卷期页码及Graham和Haynes的正式期刊元数据"},
+    "secondVisualPass": {"status": "verified", "method": "由Gregorich条反向复核至Anderson条，逐条核对标点、连字符、题名与印刷页码473"}
+  },
+  "blocks": [
+    {"type": "reference", "text": "Anderson, J.P.E. and Domsch, K.H. 1978. A physiological method for the quantitative measurement of microbial biomass in soils. Soil Biology and Biochemistry 10: 215–221."},
+    {"type": "reference", "text": "Badalucco, L., Gelsomino, A., Dell'Orco, S., Grego, S., and Nannipieri, P. 1992. Biochemical characterization of soil organic compounds extracted by 0.5 M K₂SO₄ before and after chloroform fumigation. Soil Biology and Biochemistry 24: 569–578."},
+    {"type": "reference", "text": "Barajas-Aceves, M. 2005. Comparison of different microbial biomass and activity measurement methods in metal-contaminated soils. Bioresource Technology 96: 1405–1414."},
+    {"type": "reference", "text": "Barajas-Aceves, M., Grace, C., Ansorena, J., Dendooven, L., and Brookes, P.C. 1999. Soil microbial biomass and organic C in a gradient of zinc concentrations around a spoil tip mine. Soil Biology and Biochemistry 31: 867–876."},
+    {"type": "reference", "text": "Bremer, E. and van Kessel, C. 1990. Extractability of microbial ¹⁴C and ¹⁵N following addition of variable rates of labelled glucose and (NH₄)₂SO₄ to soil. Soil Biology and Biochemistry 22: 707–713."},
+    {"type": "reference", "text": "Brookes, P.C., Ocio, J.A., and Wu, J. 1990. The soil microbial biomass: its measurement, properties and role in soil nitrogen and carbon dynamics following substrate incorporation. Soil Microorganisms 35: 39–51."},
+    {"type": "reference", "text": "Brookes, P.C., Powlson, D.S., and Jenkinson, D.S. 1982. Measurement of microbial biomass phosphorus in soil. Soil Biology and Biochemistry 14: 319–329."},
+    {"type": "reference", "text": "Cabrera, M.L. and Beare, M.H. 1993. Alkaline persulphate oxidation for determining total nitrogen in microbial biomass extracts. Soil Science Society of America Journal 57: 1007–1012."},
+    {"type": "reference", "text": "Carter, M.R., Gregorich, E.G., Angers, D.A., Beare, M.H., Sparling, G.P., Wardle, D.A., and Voroney, R.P. 1999. Interpretation of microbial biomass measurements for soil quality assessment in humid temperate regions. Canadian Journal of Soil Science 79: 507–520."},
+    {"type": "reference", "text": "Castro, J., Sánchez-Brunete, C., Rodríguez, J.A., and Tadeo, J.L. 2002. Persistence of chlorpyrifos and endosulfan in soil. Fresenius Environmental Bulletin 11: 578–582."},
+    {"type": "reference", "text": "Contin, M., Todd, A., and Brookes, P.C. 2001. The ATP concentration in the soil microbial biomass. Soil Biology and Biochemistry 33: 701–704."},
+    {"type": "reference", "text": "Couteaux, M.M. and Henkinet, R. 1990. Anomalies in microbial biomass measurements in acid organic soils using extractable carbon following chloroform fumigation. Soil Biology and Biochemistry 22: 955–957."},
+    {"type": "reference", "text": "Daniel, O. and Anderson, J.M. 1992. Microbial biomass and activity in contrasting soil materials after passage through the gut of the earthworm Lumbricus rubellus Hoffmeister. Soil Biology and Biochemistry 24: 465–470."},
+    {"type": "reference", "text": "DeLuca, T.H. and Keeney, D.R. 1993. Ethanol-stabilized chloroform as fumigant for estimating microbial biomass by reaction with ninhydrin. Soil Biology and Biochemistry 25: 1297–1298."},
+    {"type": "reference", "text": "Díaz-Raviña, M., Prieto, A., Acea, M.J., and Carballas, T. 1992. Fumigation-extraction method to estimate microbial biomass in heated soils. Soil Biology and Biochemistry 24: 259–264."},
+    {"type": "reference", "text": "Dyckmans, J., Chander, K., Joergensen, R.G., Priess, J., Raubuch, M., and Sehy, U. 2003. Adenylates as an estimate of microbial biomass C in different soil groups. Soil Biology and Biochemistry 35: 1485–1491."},
+    {"type": "reference", "text": "Elliott, L.F., Lynch, J.M., and Papendick, R.I. 1996. The microbial component of soil quality. In: G. Stotzky and J.-M. Bollag, eds. Soil Biochemistry, Vol. 9. Marcel Dekker, New York, NY, pp. 1–21."},
+    {"type": "reference", "text": "Gallardo, A. and Schlesinger, W.H. 1990. Estimating microbial biomass nitrogen using the fumigation-incubation and fumigation-extraction methods in a warm-temperate forest soil. Soil Biology and Biochemistry 22: 927–932."},
+    {"type": "reference", "text": "Graham, M.H. and Haynes, R.J. 2005. Catabolic diversity of soil microbial communities under sugarcane and other land uses estimated by Biolog and substrate-induced respiration methods. Applied Soil Ecology 29: 155–164. doi:10.1016/j.apsoil.2004.11.002."},
+    {"type": "reference", "text": "Gregorich, E.G., Wen, G., Voroney, R.P., and Kachanoski, R.G. 1990. Calibration of a rapid chloroform extraction method for measuring soil microbial biomass C. Soil Biology and Biochemistry 22: 1009–1011."},
+    {"type": "source-fidelity-note", "scope": "第504页参考文献勘误", "text": "按正式文献元数据校正：diffrent→different；Barajas Aceves→Barajas-Aceves；Prueto→Prieto；Elliot→Elliott；Stotsky→Stotzky；Elliott等页码1–20→1–21。Graham和Haynes（2005）的期刊原书误列为Soil Biology and Biochemistry，正确为Applied Soil Ecology 29:155–164。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1db3a94c3636a89d980f017ef594512f8ce576dc63c06852d1a299956a7af661"
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 125,
+  "sourceImageSha256": "4420870dee2170b339ea86ef7b312ce4cd6c6e24f2a345e9adea3c4daef24388",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐条对照原分辨率正文和参考文献，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复11.4.3、11.5及Akitt至Foy各条"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验PCV、OP、HH、ICP-AES、60 s、1～2 h、4周、²⁷Al、Al/Ca/P、Fagus sylvatica L.、CaCl₂、作者缩写、卷页及原书连写/标点"},
+    "secondVisualPass": {"status": "verified", "method": "由11.4.3至Foy 1984未完条目反向复核，确认magneticresonance、organicversus、forestdisturbance、0: 02 M、aluminiumas等原书排印特征和印刷页码94"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "11.4.3", "title": "注释"},
+    {"type": "paragraph", "text": "提取液应尽快进行分析。若必须延期测定，需略微酸化样品以防止单体铝聚合。PCV粉末和制备的溶液应在避光密闭容器中保存。可通过OP和HH试剂降低铁的干扰。显色程度会在1～2 h达到最大并且稳定下来，之后颜色逐渐变浅。用土壤提取剂的测定值作为空白值。PCV溶液最好现配现用，室温条件下其他试剂至少在4周内是稳定的。", "inlineNotation": ["PCV", "OP", "HH", "1～2 h", "4周"]},
+    {"type": "paragraph", "text": "上述分析方法包含单体铝、聚合铝及弱络合铝。Kerven等（1989）报道的PCV方法中有60 s反应时间，只用于测量单体铝。通常来说，森林表层土壤的有机质含量远高于农田土壤，因此测量其中可溶态总铝和单体无机铝间的差异更为重要。前人利用可溶态总铝对作物响应的土壤可提取态铝做了大量校正工作（Hoy和Webber，1974；Hoyt和Nyborg，1987）。McAvo等（1992）报道了利用离子交换从有机络合铝中分离出无机单体铝的PCV自动分析方法。", "inlineNotation": ["PCV", "60 s"]},
+    {"type": "section-heading", "level": 2, "number": "11.5", "title": "锰的测定"},
+    {"type": "paragraph", "text": "土壤提取液中的锰通过空气—乙炔火焰原子吸收光谱法测定。同时测定铝时，ICP-AES更为便捷。", "inlineNotation": ["ICP-AES"]},
+    {"type": "section-heading", "level": 2, "number": null, "title": "参考文献"},
+    {"type": "reference-entry", "text": "Akitt, J.W., Greenwood, N.N., Khandelwal, B.K., and Lester, G.D. 1972. ²⁷Al nuclear magneticresonance studies of the hydrolysis and polymerization of the hexa-aquo-aluminium (III)ation. J. Chem. Soc., Dalton Trans: 604-610."},
+    {"type": "reference-entry", "text": "Andersson, M. 1988. Toxicity and tolerance of aluminium in vascular plants: a literature review. Water Air Soil Pollut. 39: 439-462."},
+    {"type": "reference-entry", "text": "Arp, P. and Ouimet, R. 1986. Uptake of Al, Ca, and P in black spruce seedlings: effect of organicversus inorganic Al in nutrient solutions. Water Air Soil Pollut. 31: 367-375."},
+    {"type": "reference-entry", "text": "Asp, H. and Berggren, D. 1990. Phosphate and calcium uptake in beech (Fagus sylvatica L.) in the presence of aluminium and natural fulvic acids. Physiol. Plant 80: 307-314."},
+    {"type": "reference-entry", "text": "Bartlett, R.J. and Diego, D.C. 1972. Toxicity of hydroxy aluminum in relation to pH and phosphorus. Soil Sci. 114: 194-200."},
+    {"type": "reference-entry", "text": "Bélanger, N. 2000. Investigating the long-term influence of atmospheric deposition and forestdisturbance on soil chemistry and cation nutrient supplies in a forested ecosystem of southernQuebec, PhD thesis, Department of Natural Resource Science, McGill University, Montreal, QC, Canada, 164."},
+    {"type": "reference-entry", "text": "Bélanger, N., Fyles, H., and Hendershot, W.H. 1999. Chemistry, bioaccumulation and toxicityof aluminum in the terrestrial environment— PSL2 assessment of aluminum salts. A report prepared for the Commercial Chemicals Evaluation Branch, Environment Canada, ON, Canada, 78."},
+    {"type": "reference-entry", "text": "Carr, S.J., Ritchie, G.S.P., and Porter, W.M. 1991. A soil test for aluminium toxicity in acidic subsoils of yellow earths in Western Australia. Aust. J. Agric. Res. 42: 875-892."},
+    {"type": "reference-entry", "text": "Close, E.A. and Powell, H.K.J. 1989. Rapidly extracted (0: 02 M CaCl₂) ‘reactive’ aluminiumas a measure of aluminium toxicity in soils. Aust. J. Soil. Res. 27: 663-672."},
+    {"type": "reference-entry", "text": "Conyers, M.K., Poile, G.J., and Cullis, B.R. 1991. Lime responses by barley as related to availablesoil aluminium and manganese. Aust. J. Agric. Res. 42: 379-390."},
+    {"type": "reference-entry", "text": "Cronan, C.S. and Grigal, D.F. 1995. Use of calcium-aluminum ratios as indicators of stress in forest ecosystems. J. Environ. Qual. 24: 209-226."},
+    {"type": "reference-entry", "text": "Foy, C.D. 1984. Physiological effects of hydrogen, aluminum and manganese toxicities in acidsoil. In: F. Adams, ed. Soil Acidity"},
+    {"type": "printed-page-number", "text": "94"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "6bff7cac038bd307c4695ee61bf13b60eb513b43914f89f791334bbf4f030ebf"
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 78,
+  "sourceImageSha256": "346b17083495a3f1028bce011b43cfac9610e3c38f222e3bed1bba823c51c8d1",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复5.5.1—5.5.3层级和页末五项调查顺序"},
+    "precisionPass": {"status": "verified", "method": "放大核对±2σ、±3σ、UWL/LWL、UCL/LCL、95%/99%、QA/QC及破折号、括号和图表引用"},
+    "secondVisualPass": {"status": "verified", "method": "从数据质量四项验证方式至试验跟踪五项调查逐段反向复核原页，特别复核希腊字母σ和正负号"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第5章｜土壤化学分析中的质量控制｜"},
+    {"type": "paragraph", "text": "数据质量可以通过多种方式验证，这些方法是检验数据是否符合数据质量目标要求的基础："},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "分析数据中假阳性和假阴性的比率（%）。"},
+      {"number": "（2）", "text": "精确度（重复测定结果之间的重现性——用标准偏差表示）。"},
+      {"number": "（3）", "text": "偏差（准确度）。"},
+      {"number": "（4）", "text": "结果不确定性的预测。"}
+    ]},
+    {"type": "paragraph", "text": "这类信息可用于提升数据解释的质量。在检查样品数据之前先分析QC数据是非常有必要的。表5.5中列出了分析QC数据的典型范例。更多关于数据校验的信息可以查阅文献（如USEPA，1996）。", "inlineNotation": ["QC", "表5.5"]},
+    {"type": "section-heading", "level": 3, "number": "5.5.1", "title": "统计控制"},
+    {"type": "paragraph", "text": "除了记录不确定性，还可以使用QA程序的描述性统计来确定方法是否在“统计控制”范畴内，即是否长期符合QC标准。检查样品的统计学资料常被当作样品分析过程中的日常决策工具，用来判断能否得到期望的结果，以及分析程序是否合理可行（AOAC，1985）。如前所述，QC通过数据趋势分析提供决定样品和实验数据质量的信息（即统计过程控制）。统计报告通常会反映特殊的异常现象或者揭示多个地区的数据趋势（AOAC，1985；Kelly等，1992；FAO，1998；Garfield等，2000）。", "inlineNotation": ["QA", "QC"]},
+    {"type": "paragraph", "text": "这些趋势分析技术通常被用来长期监测实验室数据的可靠性，检测实验室输出的数据与QC要求或期望的数据水平的偏离情况，以及对通过单个实验结果无法显现的QA或QC问题做出早期预警。", "inlineNotation": ["QA", "QC"]},
+    {"type": "paragraph", "text": "趋势分析还提供了必要的信息，以便在先前使用了咨询标准的情况下（控制图），为更新的分析规程建立以性能为基础的标准。"},
+    {"type": "section-heading", "level": 3, "number": "5.5.2", "title": "控制图"},
+    {"type": "paragraph", "text": "为了便于解释，质量评估统计结果可以通过控制图表现出来。这类图可以呈现出数据的偏差和精确度。内、外部参考样本或者QC样本的重复测量值都可以绘制在一张以时间为横坐标的曲线图上。叠加在单个结果上的是累计的平均值或者已知值。以平均值为基准，以±2σ（上警戒限和下警戒限，UWL和LWL）和±3σ（上控制限和下控制限，UCL和LCL）（见图5.2）分别设定控制级别。在符合正态分布的样本总体中，警戒限代表95%的置信区间，而控制限相当于99%的置信区间。例如，在上控制限或者下控制限以外的值被认为是不可接受的。如果认为统计控制是不可接受的，那么应该对所有在不可接受的检验样本和最后一个检验的样本之间的常规样本进行重新分析。", "inlineNotation": ["QC", "±2σ", "UWL", "LWL", "±3σ", "UCL", "LCL", "图5.2", "95%", "99%"]},
+    {"type": "section-heading", "level": 3, "number": "5.5.3", "title": "试验跟踪"},
+    {"type": "paragraph", "text": "如果数据的质量没有达到标准，那么试验跟踪是一个很好的检验工具。在试验跟踪过程中运用系统的方法，从检查计算和输入错误开始。被检查的项目包括样品、标准品、试剂、设备、玻璃器皿、分析设备及它们的校准状况。然后检查方法本身，重点检查方法验证要素，比如：灵敏度（检出限）、精确度、回收率和干扰因素。批次控制也要检查，包括实验室控制样品、使用的参照物、控制图和反馈日志的检查（如投诉）。"},
+    {"type": "paragraph", "text": "调查的顺序与图5.1所示的顺序相反，具体如下：", "inlineNotation": ["图5.1"]},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "确认报告结果正确且与样品编号对应。"},
+      {"number": "（2）", "text": "重复检查结果并确认计算的准确性。"},
+      {"number": "（3）", "text": "验证与测试相关的分析QC，确保测量过程处于统计控制之中。"},
+      {"number": "（4）", "text": "调查例行程序和数据记录中的偏差。"},
+      {"number": "（5）", "text": "调查样品分析中的每个不合格因素，比如基质效应和保留时间。"}
+    ]},
+    {"type": "printed-page-number", "text": "47"}
+  ],
+  "formulas": [
+    {"label": null, "plain": "±2σ", "latex": "\\pm 2\\sigma", "context": "上警戒限和下警戒限（UWL和LWL）"},
+    {"label": null, "plain": "±3σ", "latex": "\\pm 3\\sigma", "context": "上控制限和下控制限（UCL和LCL）"}
+  ],
+  "tables": [],
+  "contentSha256": "e6de8c64243d987f84d821db99e19d0e8819e765542cbc68f1293bb65227e5d6"
+}

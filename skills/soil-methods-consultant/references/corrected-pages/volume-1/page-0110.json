@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 110,
+  "sourceImageSha256": "1618198434177b644def629f1c4465d60ceccce753d887104195348c31b4fa22",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐行对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工合并Diaz-Alarcon至Liu各条跨行内容"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者缩写、年份后缀、selenium(IV)、Trifolium pratense L.、San Joaquin、期刊卷页、Part 3—Chemical Methods、专著和机构名及原书连写/缺词"},
+    "secondVisualPass": {"status": "verified", "method": "由Diaz-Alarcon等1996至Liu等1996未完条目反向复核，确认Lopez- Martinez、Society America等原书排印特征和印刷页码79"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第9章｜硼、钼和硒｜"},
+    {"type": "reference-entry", "text": "Diaz-Alarcon, J.P., Navarro-Alarcon, M., De la Serrana, H.L., Asensio-Drima, C., and Lopez- Martinez, M.C. 1996. Determination and chemical speciation of selenium in farmlands from southeastern Spain: relation to levels found in sugar cane. J. Agric. Food Chem. 44: 2423-2427."},
+    {"type": "reference-entry", "text": "Doyle, P.J. and Fletcher, W.K. 1977. Influence of soil parent material on the selenium content of wheat from west-central Saskatchewan. Can. J. Plant Sci. 57: 859-864."},
+    {"type": "reference-entry", "text": "Ericksson, M. 1979. The effect of boron on nectar production and seed setting of red clover (Trifolium pratense L.). Swed. J. Agric. Res. 9: 37-41."},
+    {"type": "reference-entry", "text": "Fujii, R. and Burau, R.G. 1989. Estimation of adsorbed selenium(IV) in soils, western San Joaquin Valley, California. In Agronomy Abstracts. ASA, Madison, WI, p. 200."},
+    {"type": "reference-entry", "text": "Fujii, R., Hatfield, D.B., and Deverel, S.J. 1988. Distribution of selenium in soils of agricultural fields, western San Joaquin Valley, California. Soil Sci. Soc. Am. J. 52: 1274-1283."},
+    {"type": "reference-entry", "text": "Grigg, J.L. 1953. Determination of the available molybdenum of soils. N. Z. J. Sci. Tech. Sect. A-34: 405-414."},
+    {"type": "reference-entry", "text": "Gupta, S.K. and Stewart, J.W.B. 1978. An automated procedure for determination of boron in soils, plants and irrigation waters. Schweizerische Landwirtschaftliche Forschung 17: 51-55."},
+    {"type": "reference-entry", "text": "Gupta, U.C. 1993. Boron, molybdenum, and selenium. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. CRC Press, Boca Raton, FL, 91-99."},
+    {"type": "reference-entry", "text": "Gupta, U.C. and MacKay, D.C. 1965a. Extraction of water-soluble copper and molybdenum from podzol soils. Soil Sci. Soc. Am. Proc. 29: 323."},
+    {"type": "reference-entry", "text": "Gupta, U.C. and MacKay, D.C. 1965b. Determination of Mo in plant materials. Soil Sci. 99: 414-415."},
+    {"type": "reference-entry", "text": "Gupta, U.C. and MacKay, D.C. 1966. Procedure for the determination of exchangeable copper and molybdenum in podzol soils. Soil Sci. 101: 93-97."},
+    {"type": "reference-entry", "text": "Hatcher, J.T. and Wilcox, L.V. 1950. Colorimetric determination of boron using carmine. Anal. Chem. 22: 567-569."},
+    {"type": "reference-entry", "text": "Huang, P.M. and Fujii, R. 1996. Selenium and arsenic. In: D.L. Sparks et al., eds. Methods of Soil Analysis, Part 3—Chemical Methods. Soil Science Society of America Book Series Number 5. American Society of Agronomy, Madison, WI, 793-831."},
+    {"type": "reference-entry", "text": "Jarrell, W.M., Page, A.L., and Elseewi, A.A. 1980. Molybdenum in the environment. Residue Rev. 74: 1-43."},
+    {"type": "reference-entry", "text": "Johnson, C.M. and Ulrich, A. 1959. Analytical methods for use in plant analysis. Bulletin of the Californian Agricultural Experimental Station No. 766, Berkeley, CA."},
+    {"type": "reference-entry", "text": "Jump, R.K. and Sabey, B.R. 1989. Soil test extractants for predicting selenium in plants. In: L.W. Jacobs, ed. Selenium in Agriculture and the Environment. SSSA Special Publication 23, American Society of Agronomy, Inc., Soil Science Society America, Inc., Madison, WI, 95-105."},
+    {"type": "reference-entry", "text": "Karamanos, R.E., Goh, T.B., and Stonehouse, T.A. 2003. Canola response to boron in Canadian prairie soils. Can. J. Plant Sci. 83: 249-259."},
+    {"type": "reference-entry", "text": "Keren, R. 1996. Boron. In: D.L. Sparks et al., eds. Methods of Soil Analysis, Part 3—Chemical Methods. Soil Science Society of America Book Series Number 5. American Society of Agronomy, Madison, WI, 603-626."},
+    {"type": "reference-entry", "text": "Lindsay, W.L. 1979. Chemical Equilibria in Soils. John Wiley & Sons, New York, NY, 449."},
+    {"type": "reference-entry", "text": "Lindsay, W.L. and Norvell, W.A. 1978. Development of a DTPA soil test for zinc, iron, manganese, and copper. Soil Sci. Soc. Am. J. 42: 421-428."},
+    {"type": "reference-entry", "text": "Lipton, D.S. 1991. Association of selenium in inorganic and organic constituents of soils from a semi-arid region. PhD dissertation University of California, Berkeley, CA."},
+    {"type": "reference-entry", "text": "Liu, D., Clark, J.D., Crutchfield, J.D., and Sims, J.L. 1996. Effect of pH of ammonium oxalate extracting solutions on prediction"},
+    {"type": "printed-page-number", "text": "79"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "b0fa6d398f1ccac9ba8b67b589d17008580d7f57a60cd6256514e16276635f40"
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 94,
+  "sourceImageSha256": "1449a08d7684b3b7ea099f44bdfc34ff9bae8ed56394d2d6008237f755da3a0b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文与参考文献，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复7.3.3续步、7.3.4—7.4层级及四项相对关系"},
+    "precisionPass": {"status": "verified", "method": "放大核对1∶10、1～5/50/40/1 mL、CsCl-LaCl₃、0.2% AlCl₃、K/Ca/Mg/Na/Cu/Zn/Mn、DTPA、1.10、0.5～0.75、1.8及参考文献卷页"},
+    "secondVisualPass": {"status": "verified", "method": "由页首稀释比例至Breeuwsma未完条目逐段反向复核，确认本页CsCl-LaCl₃与前页原印LaCl₂差异、污染注意和页码63"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第7章｜Mehlich 3提取态元素｜"},
+    {"type": "paragraph", "continuation": true, "text": "（稀释比例至少为1∶10）。"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "移取1～5 mL的滤液到50 mL的容量瓶中。"},
+      {"number": "（2）", "text": "加入约40 mL的去离子水并混匀。"},
+      {"number": "（3）", "text": "加入1 mL的CsCl-LaCl₃溶液，再用去离子水定容并混匀。"},
+      {"number": "（4）", "text": "通过原子吸收法测定Ca和Mg，通过火焰发射法测定K和Na。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "7.3.4", "title": "原子吸收法测定铜、锌和锰的含量"},
+    {"type": "paragraph", "text": "提取液中Cu和Zn的浓度无须稀释直接测定，Mn的浓度需要由M3提取剂稀释后测定。"},
+    {"type": "section-heading", "level": 3, "number": "7.3.5", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "滤纸是可能影响最终结果的一个污染源，特别是Zn、Cu和Na。Mehlich（1984）建议使用0.2%的AlCl₃溶液对实验室的所有器具进行冲洗，包括定性滤纸。根据我们的测试结果，建议使用M3提取剂清洗滤纸。"},
+      {"number": "（2）", "text": "由于Zn的污染，Pyrex玻璃仪器不能在提取过程中使用，也不能用来存储M3提取剂或者实验室标样。"},
+      {"number": "（3）", "text": "自来水是Zn和Cu的主要污染源之一。"}
+    ]},
+    {"type": "section-heading", "level": 2, "number": "7.4", "title": "与其他提取剂的关系"},
+    {"type": "paragraph", "text": "在北美、欧洲和澳大利亚，M3提取剂被作为一种“通用提取剂”而广泛应用（Zbiral和Nemec，2000；Cox，2001；Bolland等，2003）。Jones（1998）指出M3因可以用来提取多种元素而被选用。在加拿大的魁北克省和爱德华王子岛，M3法还被用于土壤测试项目（CPVQ，1989；CRAAQ，2003）。全世界范围内已经对M3法和其他常用方法（包括乙酸铵提取K和DTPA提取微量元素）进行了对比，结果显示这些方法之间具有显著的相关性。各元素相对量的关系如下："},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "用M3提取的K和Na含量与乙酸铵提取量相同（Tran和Giroux，1989）。"},
+      {"number": "（2）", "text": "用M3提取的Ca和Mg含量是乙酸铵提取量的1.10倍（Tran和Giroux，1989）。"},
+      {"number": "（3）", "text": "用M3提取的Zn含量是DTPA提取量的0.5～0.75（Lindsay和Norvell，1978）。"},
+      {"number": "（4）", "text": "用M3提取的Cu含量是由DTPA提取量的1.8倍以上（Makarim和Cox，1983；Tran，1989；Tran等，1995）。"}
+    ]},
+    {"type": "section-heading", "level": 2, "number": null, "title": "参考文献"},
+    {"type": "reference-entry", "text": "Bates, T.E. 1990. Prediction of phosphorus availability from 88 Ontario soils using five phosphorus soil tests. Commun. Soil Sci. Plant Anal. 21: 1009-1023."},
+    {"type": "reference-entry", "text": "Beauchemin, S. and Simard, R.R. 2000. Phosphorus status of intensively cropped soils of the St-Lawrence lowlands. Soil Sci. Soc. Am. J. 64: 659-670."},
+    {"type": "reference-entry", "text": "Beauchemin, S., Simard, R.R., Bolinder, M.A., Nolin, M.C., and Cluis, D. 2003. Prediction of phosphorus concentration in tile-drainage water from the Montreal lowlands soils. Can. J. Soil Sci. 83: 73-87."},
+    {"type": "reference-entry", "text": "Bolland, M.D.A., Allen, D.G., and Walton, K.S. 2003. Soil testing for phosphorus: comparing the Mehlich 3 and Colwell procedures for soils of south-western Australia. Aust. J. Soil Res. 41: 1185-1200."},
+    {"type": "reference-entry", "continuation": true, "text": "Breeuwsma, A. and Reijerink, J.G.A. 1992. Phosphate saturated soils: a “new” environmental issue. In: G.R.B. ter Meulen et al.,"},
+    {"type": "printed-page-number", "text": "63"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "b9e7c0c7f200db32ad81d7025cd8e952b22cc7673d915b092792c0c190f177ec"
+}

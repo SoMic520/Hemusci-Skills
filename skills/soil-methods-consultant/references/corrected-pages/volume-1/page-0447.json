@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 447,
+  "sourceImageSha256": "26b0d12c67ac7c430153207dbbd21f5551ce6314c1a63b4dd7277c038654a120",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页、两套OCR及英文原版43.4.3～参考文献跨页处；修复OCR漏字并保持作者、题名、期刊、卷页层级"},
+    "precisionPass": {"status": "verified", "method": "核验150 ng·μL⁻¹、20+5 μL、每侧15 mL梯度液、150 μL 10% APS、15 μL TEMED、20/60 °C、25 μL、100 V、16 h、150/250 mL、15 μL 10,000×SYBR Green I及40/5～20 min"},
+    "secondVisualPass": {"status": "verified", "method": "从Heuer文献跨页处反向复核至步骤（1）首行；以梯度胶总体积和染料稀释倍数再次闭合所有mL/μL；印刷页码416"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure-step-continuation", "number": "（1）", "fromPage": 446, "text": "合并数个PCR反应的产物，以乙醇沉淀浓缩至约150 ng·μL⁻¹，以提高DGGE成功率；用荧光计定量DNA。加水把DNA溶液体积调至20 μL，再加入5 μL 6×上样缓冲液，涡旋混匀。"},
+    {"type": "procedure-step", "number": "（2）", "text": "分别把15 mL高浓度变性剂溶液和15 mL低浓度变性剂溶液加入双室梯度仪；先装入将先流出的高浓度液，再装低浓度液。灌胶前，在每个15 mL溶液中立即加入150 μL新鲜10%(w/v)过硫酸铵和15 μL TEMED，混匀后借重力把线性梯度注入“三明治”芯；凝胶成胶前插入梳子，在约20 °C放置至少1 h使其聚合。"},
+    {"type": "source-fidelity-note", "scope": "43.4.3步骤（2）体积", "text": "中文页把高、低变性剂各15 mL误排为15 μL；15 μL无法形成16 cm制备胶，也与20 mL梯度室及英文原版不符。APS和TEMED则分别确为150 μL和15 μL，三者不可混淆。"},
+    {"type": "procedure-step", "number": "（3）", "text": "缓冲槽加入1×TAE，装入凝胶，把温度调至60 °C；每孔加入25 μL DNA样品，在100 V恒压下电泳16 h。"},
+    {"type": "procedure-step", "number": "（4）", "text": "小心拆开“三明治”芯并剥离凝胶，将胶置于150 mL 1×TAE和15 μL 10,000×SYBR Green I组成的染色液中染色40 min；转入250 mL 1×TAE中脱色5～20 min，再在紫外透射仪上拍摄DNA条带。"},
+    {"type": "section-heading", "level": 3, "number": "43.4.4", "title": "分析"},
+    {"type": "paragraph", "text": "DGGE指纹以及特定条带的切取、回收、克隆和DNA片段测序均可提供土壤微生物群落信息。指纹可肉眼比较不同处理或条件下群落结构的差异；已有研究用其评价转基因马铃薯根际微生物群落、温度对土壤氨氧化细菌群落结构的影响、耕作制度和植物种类对氮转化细菌的影响，以及有机污染物、重金属等污染导致的群落变化（Heuer等，2002；Avrahami和Conrad，2003；Becker等，2006；Patra等，2006）。处理差异还可用多种数据分析软件检验（Fromin等，2002；Kropf等，2004）。"},
+    {"type": "paragraph", "text": "可切取DGGE凝胶上的特定条带，回收、克隆并测序，再把所得序列与数据库比对。该方法曾用于鉴定厌氧环境中定殖并降解水稻秸秆的细菌、阐明大豆胞囊线虫孢囊相关细菌，以及识别能产生抗生素抑制植物病原菌的根际假单胞菌（Weber等，2001；Nour等，2003；Bergsma-Vlami等，2005）。研究者可依据研究问题组合指纹比较、统计分析和条带测序。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference-entry", "text": "Avrahami, S. and Conrad, R. 2003. Patterns of community change among ammonia oxidizers in meadow soils upon long-term incubation at different temperatures. Applied and Environmental Microbiology 69: 6152–6164."},
+    {"type": "reference-entry", "text": "Becker, J.M., Parkin, T., Nakatsu, C.H., Wilbur, J.D., and Konopka, A. 2006. Bacterial activity, community structure, and centimeter-scale spatial heterogeneity in contaminated soil. Microbial Ecology 51: 220–231."},
+    {"type": "reference-entry", "text": "Bergsma-Vlami, M., Prins, M.E., Staats, M., and Raaijmakers, J.M. 2005. Assessment of genotypic diversity of antibiotic-producing Pseudomonas species in the rhizosphere by denaturing gradient gel electrophoresis. Applied and Environmental Microbiology 71: 993–1003."},
+    {"type": "reference-entry", "text": "Dieffenbach, C.W. and Dveksler, G.S., eds. 2003. PCR Primer: A Laboratory Manual, 2nd ed. Cold Spring Harbor Laboratory Press, Plainview, NY, USA."},
+    {"type": "reference-entry", "text": "Fromin, N., Hamelin, J., Tarnawski, S., Roesti, D., Jourdain-Miserez, K., Forestier, N., Teyssier-Cuvelle, S., Gillet, F., Aragno, M., and Rossi, P. 2002. Statistical analysis of denaturing gel electrophoresis (DGE) fingerprinting patterns. Environmental Microbiology 4: 634–643."},
+    {"type": "reference-entry", "text": "Heuer, H., Kroppenstedt, R.M., Lottmann, J., Berg, G., and Smalla, K. 2002. Effects of T4 lysozyme release from transgenic potato roots on bacterial rhizosphere communities are negligible relative to natural factors. Applied and Environmental Microbiology 68: [续见第448页]."},
+    {"type": "printed-page-number", "text": "416"}
+  ],
+  "formulas": [
+    {"id": "43.4.3-sample-volume", "plain": "20 μL DNA solution+5 μL 6×loading buffer=25 μL loaded sample", "context": "单孔上样体积闭合"},
+    {"id": "43.4.3-gradient-volume", "plain": "15 mL high-denaturant solution+15 mL low-denaturant solution≈30 mL gradient gel solution", "context": "16 cm DGGE制备胶；原书把mL误排为μL"},
+    {"id": "43.4.3-stain-dilution", "plain": "15 μL×10,000÷150,000 μL=1×SYBR Green I", "context": "染色液终浓度闭合"}
+  ],
+  "tables": [],
+  "contentSha256": "a26dc2952bf8498cc421da075a541f6415b5ceda25203adc4c3b3b7d23f63435"
+}

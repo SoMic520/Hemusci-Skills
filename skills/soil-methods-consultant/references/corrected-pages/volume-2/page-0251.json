@@ -1,0 +1,65 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 251,
+  "sourceImageSha256": "fbb483ddd96232159cbf6fd513792e205e6af55b46bf4d273f1e1a454a58a78f",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对77.2.3结尾、77.3全文与参考文献起始，变量下标和希腊字母对照英文原章"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验双环30/60 cm、姐妹/多环5—50 cm与5—20 cm，以及K_fs、φ_m、S、α*、ψ_f、PD、NP、q_s、t_f、z_f、d、ψ_a"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "复核双环法逻辑与进气渗透仪变量关系；参考文献跨页项留至下一页完整收录；印刷页码760"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph-continuation",
+      "text": "降水头分析的局限包括样本体积可能较小（取决于湿润锋迁移速率和测定时长）、必须测定Δθ（需另取土样或采用TDR等较昂贵的原位方法），且在粗质地或高度结构化多孔介质中可能因水流过快和湿润锋不稳定而不可靠。"
+    },
+    {
+      "type": "heading",
+      "number": "77.3",
+      "title": "其他圆环入渗法",
+      "level": 2
+    },
+    {
+      "type": "method-comparison",
+      "items": [
+        "双环（同心双环）法：内测量环直径30 cm，外保护/缓冲环直径60 cm（ASTM方法）。外环意在减小由积水头H、有限环半径a和介质毛管吸渗数α*引起的测量环下方水流分散，但不能消除侧向分流；若仍用传统式(77.2)，K_fs仍会被系统高估，只是高估程度通常小于单环。因此无论单环还是双环，都应避免用式(77.2)计算K_fs。",
+        "姐妹（双/对偶）环与多环法：相邻、非同心安装不同直径的单恒水头环；姐妹环用2个，多环用≥3个。环直径通常5—50 cm、高5—20 cm，间距应保证达到稳定入渗前各湿润锋不相交。可由恒水头稳定流分析求K_fs、φ_m、S、α*、ψ_f、PD和NP，但材料与劳动量较大，并对水平空间异质性高度敏感。",
+        "进气渗透仪：单环连接恒水头储水器；由恒水头入渗通量q_s、湿润锋达到指定深度z_f（必须z_f≤环插入深度d）所需时间t_f，以及由介质进气压力水头ψ_a估得的Green–Ampt湿润锋压力水头ψ_f，估算K_fs和α*。因设备笨重且易受扰、程序较复杂、z_f和ψ_f难以准确估计，应用不广。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "中文把外缓冲环作用写成“可以有效地防止”分流，英文原文仅称其为减小分流、改善式(77.2)准确度的尝试，且紧接着明确其不能消除分流；规范文本已校正该逻辑。原图OCR把Δθ、K_fs、φ_m、α*、ψ_f、q_s、z_f、t_f、ψ_a等多处误识别，均按版面与英文原章恢复。"
+    },
+    {
+      "type": "heading",
+      "title": "参考文献",
+      "level": 2
+    },
+    {
+      "type": "references",
+      "items": [
+        "Bagarello, V., Iovino, M., and Elrick, D.E. 2004. A simplified falling-head technique for rapid determination of field-saturated hydraulic conductivity. Soil Sci. Soc. Am. J. 68:66–73.",
+        "Bouma, J. 1985. Soil variability and soil survey. In: J. Bouma and D.R. Nielsen, eds. Proc. Soil Spatial Variability Workshop. PUDOC, Wageningen, The Netherlands, 130–149.",
+        "Daniel, D.E. 1989. In situ hydraulic conductivity tests for compacted clay. J. Geotech. Eng. 115:1205–1226.",
+        "Elrick, D.E., Angulo-Jaramillo, R., Fallow, D.J., Reynolds, W.D., and Parkin, G.W. 2002. Infiltration under constant head and falling head conditions. In: P.A.C. Raats, D. Smiles, and A.W. Warrick, eds. Environmental Mechanics: Water, Mass and Energy Transfer in the Biosphere. Geophysical Monograph 129, American Geophysical Union, Washington, DC, 47–53."
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "Bagarello等条目在中英文原章均印为2003，但期刊官网给出卷68(1)、66–73的正式出版日期为2004-01-01，DOI为10.2136/sssaj2004.6600；规范年份校为2004。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c644d9f624d65d1118a54644cdc1146d099e332edf591b3d3446b1ed715fe149"
+}

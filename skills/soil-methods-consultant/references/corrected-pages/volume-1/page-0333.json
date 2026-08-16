@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 333,
+  "sourceImageSha256": "531475f87bd1efab1bc083d782e361f4d252a8c35fb5a6bb9acfd663cd0126b3",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复注释（9）续文、32.3.2引言、材料（1）～（5）及图32.5"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验75%、26%～66%、28%/88%、1.2与1.0～1.1 Mg/m³、15 min、70%、18 L、50 mm、<50 μm、10 cm、1～2 L、95%～100%及<8%"},
+    "secondVisualPass": {"status": "verified", "method": "从页末庚烷规格反向复核至页首注释（9）续文，逐项核验图32.5六个标签、两幅分图说明和密度单位；页码302"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "note-continuation", "continuationOf": "page-0332#high-gradient-note-9", "text": "究报道对蜱螨亚纲和弹尾目的提取效率超过75%（Lussenhop，1971；Marshall，1972；Petersen，1978）。然而，当从半干旱土壤中提取小型节肢动物时，Walter等（1987）发现提取效率从26%到66%不等。Takeda（1979）研究发现对弹尾目的提取效率在夏天为28%，到冬天为88%。因此，精确的生态学研究需要对高梯度提取器进行校正。出于这个目的，可以在一系列栖息地中选出样品子集，然后在高梯度提取法后接下述的庚烷提取法提取。"},
+    {"type": "section-heading", "level": 3, "number": "32.3.2", "title": "机械提取方法：庚烷浮集法"},
+    {"type": "subsection-heading", "method": "32.3.2", "number": "1", "title": "引言"},
+    {"type": "paragraph", "text": "最简易的浮集方法是将土壤样品在饱和氯化钠或硫酸镁溶液中进行搅拌（密度约为1.2 Mg·m⁻³），密度较小的（1.0～1.1 Mg·m⁻³）动物残体将会浮于上层。静置溶液15 min后，收集上层的动物残体，并保存在70%的乙醇溶液中。这种方法在提取蜱螨亚纲和弹尾目中已被成功使用，但对大型甲螨还不适用，尤其是那些附着土壤的样本和大型昆虫（Murphy，1962b）。这种方法对含有大量有机物的样本并不适用，这种情况下高梯度的提取剂更加有效（Edwards和Fletcher，1971）。"},
+    {"type": "source-fidelity-note", "scope": "32.3.2饱和盐溶液物性", "text": "原书清晰印作“比重为1.2 Mg/m³”。比重（相对密度）应为无量纲数1.2，而Mg·m⁻³是密度单位；校正文按单位含义写为“密度约为1.2 Mg·m⁻³”。动物残体的1.0～1.1 Mg/m³同样规范化为1.0～1.1 Mg·m⁻³。"},
+    {"type": "paragraph", "text": "通过在油和水的混合物中不断搅拌，能更好地提取动物残体，由于动物的外壳是亲脂性的，当停止搅拌时就会随着油层到达混合物的上层，而植物残体的表面是亲水性的，不会包含在油中。植物残体与小型节肢动物漂浮在液体的表面，矿物质的成分就会沉积在底部。植物残体漂在水层的上部，小型节肢动物的残体就漂在水层油层的交界处。油层包含小型节肢动物与很少量的残留水层，而当小油滴粘在植物残体表面或者植物残体中含大量的截留空气时植物残体才会在油层中。因此在加油搅拌之前需要对加水的样本进行局部真空处理，将截留空气挤出。"},
+    {"type": "paragraph", "text": "下面是一种土壤中小型节肢动物的水—油提取法的介绍。它是Walter等（1987）在官方分析化学家协会（Association of Official Analytical Chemists；Williams，1984）标准浮集法步骤基础上改良得到的，后来Geurs等（1991）发表了该方法的简化步骤，Kethley（1991）又将该方法用于处理大体积的土壤样品（18 L）。"},
+    {"type": "source-fidelity-note", "scope": "32.3.2引言文献年份与协会名称", "text": "中文本印作“化学家协会的（Williams，1984）”及“Geurs等（1984）”。英文原版为Association of Official Analytical Chemists（Williams，1984），并明确为Geurs等（1991）；本章参考文献也列Geurs、Bongers和Brussaard（1991），故执行与引证采用1991。"},
+    {"type": "subsection-heading", "method": "32.3.2", "number": "2", "title": "材料和试剂"},
+    {"type": "material", "number": "（1）", "text": "磁力搅拌器、50 mm（聚四氟乙烯）搅拌棒或变速旋转摇荡器。"},
+    {"type": "material", "number": "（2）", "text": "不锈钢筛网（细度低于50 μm）。"},
+    {"type": "material", "number": "（3）", "text": "Wildman捕集瓶（图32.5）：1～2 L广口锥形瓶内插入紧密配合的氯丁橡胶塞；橡胶塞由直径5 mm、长度比烧瓶高度约长10 cm的金属棒支撑。金属棒下端带螺纹，以螺母和垫圈固定橡胶塞。"},
+    {"type": "source-fidelity-note", "scope": "32.3.2材料（3）装置名称与尺寸", "text": "中文本把Wildman trap flask误译/误排为“U形玻璃烧瓶”，并遗漏金属棒直径5 mm、下端螺纹及螺母和垫圈。英文原版及图32.5共同确认这些结构；可执行材料按Wildman捕集瓶恢复。"},
+    {"type": "figure", "number": "32.5", "title": "小型节肢动物的庚烷浮集法装置", "labels": ["金属棒", "庚烷层", "小型节肢动物", "水相", "氯丁橡胶塞", "螺母和垫圈"], "subfigures": [{"label": "（a）", "caption": "放有低位塞子的锥形瓶"}, {"label": "（b）", "caption": "当塞子到瓶口时的放大视图"}], "caption": "小型节肢动物的庚烷浮集法装置。"},
+    {"type": "material", "number": "（4）", "text": "95%～100%的乙醇（未变性）用蒸馏水按体积百分数稀释制成。"},
+    {"type": "material", "number": "（5）", "text": "正庚烷（n-heptane），甲苯含量<8%。"},
+    {"type": "critical-safety-note", "scope": "32.3.2庚烷浮集装置", "text": "庚烷、甲苯和高浓度乙醇均为易燃挥发性有机溶剂；庚烷还具有吸入和误吸危害。涉及搅拌、局部真空和玻璃容器时，必须使用经风险评估的防爆通风设施、无火花设备及适用于真空的完整容器，远离热源和点火源，并按SDS与危害废物规程操作。"},
+    {"type": "printed-page-number", "text": "302"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c8e2f3f1b89789f6ff8b2298251af6c10748f7287f14590439e4cc8434ff15aa"
+}

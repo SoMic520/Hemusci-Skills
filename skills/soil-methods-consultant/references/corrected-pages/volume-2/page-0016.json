@@ -1,0 +1,63 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 16,
+  "sourceImageSha256": "d52a3bb7b563a9cc524813239210417ecfc4aa56816c24d2e4d11c71e64e7c43",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率目录和两套OCR，完成81.4.4至84章参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验K(ψ)、θ(ψ)、K(θ)、Brooks-Corey、van Genuchten、Mualem-van Genuchten及790～830页码"},
+    "secondVisualPass": {"status": "verified", "method": "由84章参考文献反向复核至81.4.4，纠正OCR对θ/K/ψ的误识别，检查稳态流/瞬态流、5T及罗马页码XV"}
+  },
+  "blocks": [
+    {
+      "type": "toc-tree-continuation",
+      "entries": [
+        {"number": "81.4.4", "title": "土壤导水率计算（5T设置）", "page": 790, "level": 3},
+        {"number": "81.4.5", "title": "土壤毛管作用关系参数", "page": 791, "level": 3},
+        {"number": "81.5", "title": "注释", "page": 791, "level": 2},
+        {"number": "第81章参考文献", "title": "参考文献", "page": 793, "level": 2},
+        {"number": "第82章", "title": "非饱和水力学特性：田间张力入渗法", "page": 795, "level": 1},
+        {"number": "82.1", "title": "引言", "page": 795, "level": 2},
+        {"number": "82.2", "title": "装置和步骤", "page": 795, "level": 2},
+        {"number": "82.3", "title": "分析和计算", "page": 797, "level": 2},
+        {"number": "82.3.1", "title": "稳态流", "page": 797, "level": 3},
+        {"number": "82.3.2", "title": "瞬态流", "page": 799, "level": 3},
+        {"number": "82.3.3", "title": "接触砂层分析", "page": 800, "level": 3},
+        {"number": "82.4", "title": "注释", "page": 804, "level": 2},
+        {"number": "82.4.1", "title": "固定环和保护膜的作用", "page": 804, "level": 3},
+        {"number": "82.4.2", "title": "设计、饱和、密封性检测及校准", "page": 805, "level": 3},
+        {"number": "82.4.3", "title": "平衡时间、储水管的再次充水及蒸发损失", "page": 806, "level": 3},
+        {"number": "82.4.4", "title": "影响准确性和K(ψ)范围的因素", "page": 807, "level": 3},
+        {"number": "82.4.5", "title": "校准和坡地的敏感性", "page": 807, "level": 3},
+        {"number": "82.4.6", "title": "可供选择的设计方案和分析方法", "page": 807, "level": 3},
+        {"number": "82.5", "title": "张力入渗仪法的优缺点", "page": 807, "level": 2},
+        {"number": "第82章参考文献", "title": "参考文献", "page": 808, "level": 2},
+        {"number": "第83章", "title": "非饱和水力学特性：瞬时剖面法", "page": 811, "level": 1},
+        {"number": "83.1", "title": "引言", "page": 811, "level": 2},
+        {"number": "83.2", "title": "装置和步骤", "page": 811, "level": 2},
+        {"number": "83.3", "title": "分析和计算", "page": 812, "level": 2},
+        {"number": "83.4", "title": "注释", "page": 816, "level": 2},
+        {"number": "83.5", "title": "瞬时剖面法的优缺点", "page": 817, "level": 2},
+        {"number": "第83章参考文献", "title": "参考文献", "page": 817, "level": 2},
+        {"number": "第84章", "title": "土壤水力学特性估算", "page": 818, "level": 1},
+        {"number": "84.1", "title": "引言", "page": 818, "level": 2},
+        {"number": "84.2", "title": "土壤脱水—吸水关系", "page": 818, "level": 2},
+        {"number": "84.2.1", "title": "Brooks-Corey（1964）θ(ψ)模型", "page": 818, "level": 3},
+        {"number": "84.2.2", "title": "van Genuchten（1980）θ(ψ)模型", "page": 821, "level": 3},
+        {"number": "84.3", "title": "非饱和导水率", "page": 823, "level": 2},
+        {"number": "84.3.1", "title": "Brooks-Corey（1966）K(θ)模型", "page": 823, "level": 3},
+        {"number": "84.3.2", "title": "Mualem-van Genuchten K(θ)和K(ψ)模型", "page": 823, "level": 3},
+        {"number": "84.4", "title": "计算", "page": 824, "level": 2},
+        {"number": "84.4.1", "title": "Brooks-Corey θ(ψ)和K(θ)函数", "page": 825, "level": 3},
+        {"number": "84.4.2", "title": "van Genuchten θ(ψ)、K(θ)和K(ψ)函数", "page": 827, "level": 3},
+        {"number": "84.5", "title": "注释", "page": 830, "level": 2},
+        {"number": "第84章参考文献", "title": "参考文献", "page": 830, "level": 2}
+      ]
+    }
+  ],
+  "formulas": [
+    {"id": "toc-hydraulic-functions", "display": "θ(ψ)，K(θ)，K(ψ)", "variables": {"θ": "体积含水量（以正文定义为准）", "ψ": "压力水头或水势变量（以正文定义为准）", "K": "导水率（以正文定义为准）"}, "source": "目录82.4.4及84.2～84.4；保留希腊字母"}
+  ],
+  "tables": [],
+  "contentSha256": "f50de0bcdf96481c68db303f6e1b2047d0014bcf498145e0de16e7b1c3b2426c"
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 419,
+  "sourceImageSha256": "05b8dd1e68f347b8c2619d94d805d85f5732d7c10e944abbe550ef79b3815a36",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐行对照原分辨率中文页面、两套OCR及英文原版式（40.10）～（40.13）和40.2.7（1）～（3）"},
+    "precisionPass": {"status": "verified", "method": "核验Xapct/Xpct/Xdpct、t/ic下标、百分数×100、15～600/1300 cm²、30～46 cm、2.0 mm及2～5 cm"},
+    "secondVisualPass": {"status": "verified", "method": "从注释（3）承下句反向检查四式的分子分母，并统一DMAFLic变量；印刷页码388"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "calculation-step", "group": "6", "text": "按式（40.10）求回收网袋材料灰分百分含量ALt。Xapct为灰分+瓷坩埚质量；Xpct为干瓷坩埚质量；Xdpct为回收网袋材料干重+瓷坩埚质量。"},
+    {"type": "calculation-step", "group": "6", "text": "按式（40.11）由回收材料干重DMLt和灰分百分含量ALt求回收材料去灰分干重DMAFLt。"},
+    {"type": "calculation-group", "number": "7", "title": "质量损失率与残留率"},
+    {"type": "calculation-step", "group": "7", "text": "按式（40.12）求回收时点t的质量损失率%Mt；按式（40.13）求干重残留率%Rt。DMAFLt为t时点剩余去灰分干重，DMAFLic为经运输、处理损失校正的初始去灰分干重。"},
+    {"type": "section-heading", "level": 3, "number": "40.2.7", "title": "注意事项"},
+    {"type": "note-item", "number": "（1）", "text": "网袋法假设人工袋内环境与无网袋自然环境的分解速率相同，但网袋构造会改变影响残体分解的非生物和生物因素。袋大小会影响微气候及土壤动植物出现等因素的空间变异。多数研究用15～600 cm²网袋（Knacker等，2003）；Baker III等（2001）用过边长30～46 cm、面积1300 cm²的大袋。为减小土壤—残体接触不良，袋长宽应使残体层尽量薄且接近无袋状态；埋在耕层的袋，残体量可按袋所占体积而非表面积校正。"},
+    {"type": "note-item", "number": "（2）", "text": "网孔增大会增加土壤动物接触，减小人为微气候效应，但也增加碎片损失。应在尽量减少不必要损失和维持自然环境之间选择孔径。2.0 mm网孔既允许土壤动物自由进入，又足够小以减少分解残体损失；也可底面用小孔、顶面用大孔（Baker III等，2001）。不同孔径可按体型排除土壤生物，比较不同体型生物的分解贡献（Vreeken-Buijs和Brussaard，1996；Curry和Byrne，1997；Cortez和Bouché，1998）；也可用萘处理一组网袋抑制微型节肢动物，比较有、无微型节肢动物时的分解率（Heneghan等，1998）。"},
+    {"type": "note-item", "number": "（3）", "text": "袋内材料应尽量与还田材料相似，以估计田间分解率；作物残体应在收获时采集，并保持与田间相似的结构和质量。常切成2～5 cm片段，既保留结构、便于各植物部位均匀组合，也减少对袋内微气候的不利影响。不同植物部位适口性和分解速率不同，袋间材料组成不一致会增大残留量变异；宜给每袋分别称取适量叶、茎、荚等组分，而非先全部混合再分装。本条续见第420页。"},
+    {"type": "printed-page-number", "text": "388"}
+  ],
+  "formulas": [
+    {"label": "（40.10）", "plain": "ALt=[(Xapct−Xpct)/(Xdpct−Xpct)]×100", "latex": "A_{Lt}=\\frac{X_{apct}-X_{pct}}{X_{dpct}-X_{pct}}\\times100", "context": "回收网袋材料灰分百分含量"},
+    {"label": "（40.11）", "plain": "DMAFLt=DMLt−DMLt×(ALt/100)=DMLt×(1−ALt/100)", "latex": "DM_{AFLt}=DM_{Lt}\\left(1-\\frac{A_{Lt}}{100}\\right)", "context": "回收网袋材料去灰分干重"},
+    {"label": "（40.12）", "plain": "%Mt=[(DMAFLic−DMAFLt)/DMAFLic]×100", "latex": "\\%M_t=\\frac{DM_{AFLic}-DM_{AFLt}}{DM_{AFLic}}\\times100", "context": "t时点质量损失率"},
+    {"label": "（40.13）", "plain": "%Rt=(DMAFLt/DMAFLic)×100", "latex": "\\%R_t=\\frac{DM_{AFLt}}{DM_{AFLic}}\\times100", "context": "t时点干重残留率"},
+    {"id": "40.12-40.13-check", "display": "%Mt+%Rt=100%", "context": "同一时点、同一校正基准下的互补校验"}
+  ],
+  "tables": [],
+  "contentSha256": "71957c86c771979ff6759179f3d0f60e6cd182be68a77aa23158bf2f95168245"
+}

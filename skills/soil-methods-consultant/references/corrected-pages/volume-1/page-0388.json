@@ -1,0 +1,49 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 388,
+  "sourceImageSha256": "31a64d847f140653e4c19b2737376764afce95fd4dac257d9bb8b6c0f54f9e66",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版表37.1、37.8.3和37.9"},
+    "precisionPass": {"status": "verified", "method": "逐格核验表37.1的0/24 h、r″/r‴、²⁹x/³⁰x、¹⁵a、a_a/a_m/x_a/x_m、d/a_p及全部公式和结果"},
+    "secondVisualPass": {"status": "verified", "method": "从37.9末段反向复核至表题，纠正表中24 h的¹⁵a为0.003712并核验2.5～16 g N·ha⁻¹·d⁻¹；印刷页码357"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第37章｜土壤反硝化测定技术｜"},
+    {"type": "table-definition", "table": "37.1", "text": "r″=²⁹N₂⁺/²⁸N₂⁺；r‴=³⁰N₂⁺/²⁸N₂⁺；²⁹x=r″/(1+r″+r‴)；³⁰x=r‴/(1+r″+r‴)；¹⁵a=[²⁹x+2(³⁰x)]/2。d为反硝化产生的N₂分数；a_p为NO₃⁻库的¹⁵N原子分数。"},
+    {"type": "calculation-example", "text": "由表37.1：d=(a_m−a_a)²/(x_m+a_a²−2a_m a_a)=0.0001545；a_p=a_a+(x_m+a_a²−2a_m a_a)/(a_m−a_a)=0.3182。"},
+    {"type": "section-heading", "level": 3, "number": "37.8.3", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      "¹⁵N气体排放法存在与乙炔阻断法相似的气体扩散问题，两法比较时往往结果一致。理论上NO₃⁻库标记不均匀可使反硝化被低估或高估，但经验研究认为通常不是主要问题。",
+      "土壤达到或接近饱和时，滞留气泡会使测定产生偏差，导致低估反硝化速率和通量。",
+      "理论和试验均表明，¹⁵NO₃⁻分布不均匀会高估土壤NO₃⁻库的¹⁵N富集度，并低估真实反硝化速率。",
+      "同位素分布法的检出限取决于质谱仪灵敏度、培养体积和培养时间；一般可测低至2.5～16 g N·ha⁻¹·d⁻¹。延长培养能提高灵敏度，但需权衡收集室长期放置造成的通气降低、温度升高和植物过程改变。",
+      "本技术可按37.5节过筛土和37.7节完整土芯流程改为实验室试验。主要区别是用¹⁵N标记NO₃⁻盐溶液标记土壤且不加乙炔；按表37.1计算反硝化产生的气体分数。反硝化通量=该分数×收集器总N₂量/(土壤干重×时间)。"
+    ]},
+    {"type": "section-heading", "level": 2, "number": "37.9", "title": "连续气流法", "citation": "McKenney等，1996"},
+    {"type": "paragraph", "text": "连续气流系统以恒流湿润惰性气体（N₂或He）从厌氧土柱中吹脱NO和N₂O。优点是可同时测定土壤NO和N₂O通量；无需C₂H₂，因为高流速使N₂O转化为N₂的可能性降至最低。缺点是一次试验只能评价有限数量的土壤。"},
+    {"type": "printed-page-number", "text": "357"}
+  ],
+  "formulas": [
+    {"id": "37.8-r-double-prime", "display": "r″ = ²⁹N₂⁺/²⁸N₂⁺"},
+    {"id": "37.8-r-triple-prime", "display": "r‴ = ³⁰N₂⁺/²⁸N₂⁺"},
+    {"id": "37.8-x29", "display": "²⁹x = r″/(1 + r″ + r‴)"},
+    {"id": "37.8-x30", "display": "³⁰x = r‴/(1 + r″ + r‴)"},
+    {"id": "37.8-a15", "display": "¹⁵a = [²⁹x + 2(³⁰x)]/2"},
+    {"id": "37.8-d", "display": "d = (a_m − a_a)²/(x_m + a_a² − 2a_m a_a) = 0.0001545"},
+    {"id": "37.8-ap", "display": "a_p = a_a + (x_m + a_a² − 2a_m a_a)/(a_m − a_a) = 0.3182"}
+  ],
+  "tables": [
+    {
+      "number": "37.1",
+      "title": "使用同位素分布原理计算反硝化作用的示例",
+      "columns": ["时间/h", "离子流r″", "离子流r‴", "分子分数²⁹x", "分子分数³⁰x", "¹⁵N原子分数¹⁵a"],
+      "rows": [
+        ["0", "0.007353", "0.00001352", "0.007299", "0.00001342 (x_a)", "0.003663 (a_a)"],
+        ["24", "0.007420", "0.00002927", "0.007365", "0.00002905 (x_m)", "0.003712 (a_m)"]
+      ],
+      "sourceNote": "来源：Arah, J.R.M. 1992. Soil Sci. Soc. Am. J. 56: 795–800。"
+    }
+  ],
+  "contentSha256": "6ab24559f33c8bd71a7a711c4934e4c3d1ec2ddbe7a2ddf8d6dc0c0da8955abd"
+}

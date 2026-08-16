@@ -1,0 +1,31 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 158,
+  "sourceImageSha256": "655f586676a68eb3123275609c6fa776abc9c09d5e9242959cc5b1c3980f4812",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率参考文献末页，并与Apple Vision、PaddleOCR交叉比对，人工合并换行与上页续文"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验1:2、作者缩写、撒利文符号、卷页、In:、Part 3— Chemical Methods、PrintingOffice及原书紧连标点"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至Soltanpour跨页续句，确认11条完整文献、1条续文和页码127"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第15章｜电导率和可溶性离子｜"},
+    {"type": "reference", "continuation": true, "text": "SSSA and ASA, Madison, WI, 417-436."},
+    {"type": "reference", "text": "Sonneveld, C. and van den Ende, J. 1971. Soil analysis by means of a 1:2 volume extract. Plant Soil 35:505-516."},
+    {"type": "reference", "text": "Steppuhn, H., Volkmar, K.M., and Miller, P.R. 2001. Comparing canola, field pea, dry bean, and durum wheat crops grown in saline media. Crop Sci. 41:1827-1833."},
+    {"type": "reference", "text": "Steppuhn, H. and Wall, K.G. 1997. Grain yields from spring-sown Canadian wheats grown in saline rooting media. Can. J. Plant Sci. 77:63-68."},
+    {"type": "reference", "text": "Steppuhn, H. and Wall, K.G. 1999. Canada’s salt tolerance testing laboratory. Can. Agric. Eng. 41:185-189."},
+    {"type": "reference", "text": "Suarez, D.L. 1996. Beryllium, magnesium, calcium, strontium, and barium. In:D.L. Sparks et al., eds. Methods of Soil Analysis, Part 3—Chemical Methods. SSSA Book Series No. 5, SSSA and ASA, Madison, WI, 575-602."},
+    {"type": "reference", "text": "Sumner,M.E., Rengasamy, P., and Naidu, R. 1998. Sodic soils:a reappraisal. In:M.E. Sumner and R. Naidu, eds. Sodic Soils:Distribution, Properties, Management, and Environmental Consequences. Oxford University Press, New York, NY, 3-17."},
+    {"type": "reference", "text": "Tabatabai, M.A. 1996. Sulfur. In:D.L. Sparks et al., eds. Methods of Soil Analysis, Part 3— Chemical Methods. SSSA Book Series No. 5, SSSA and ASA, Madison, WI, 921-960."},
+    {"type": "reference", "text": "U.S. Salinity Laboratory Staff. 1954. Diagnosis and Improvement of Saline and Alkali Soils. USDA Handbook No. 60. U.S. Government PrintingOffice, Washington, DC."},
+    {"type": "reference", "text": "Vitale, R.J., Braids, O., and Schuller, R. 1991. Ground-water sample analysis. In:D.M. Nielsen, ed. Practical Handbook of Ground-Water Monitoring. Lewis Publishers, Chelsea, MI, 501-540."},
+    {"type": "reference", "text": "Wolf, A.M., Jones, J.B., and Hood, T. 1996. Proficiency testing for improving analytical performance in soil testing laboratories:a summary of results from the council’s soil and plant analysis proficiency testing programs. Commun. Soil Sci. Plant Anal. 275:1611-1622."},
+    {"type": "reference", "text": "Wright, R.J. and Stuczynski, T.I. 1996. Atomic absorption and flame emission spectrometry. In:D.L. Sparks et al., eds. Methods of Soil Analysis, Part 3—Chemical Methods. SSSA Book Series No. 5, SSSA and ASA, Madison, WI, 65-90."},
+    {"type": "translator-note", "text": "（马杰 译，李永涛 翁莉萍 校）"},
+    {"type": "printed-page-number", "text": "127"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "afe2e116957b0d3c98dabc9f4e477847bb11ebdda69e84b4f427df7a19a2df93"
+}

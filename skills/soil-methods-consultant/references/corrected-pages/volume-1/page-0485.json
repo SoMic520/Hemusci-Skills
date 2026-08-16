@@ -1,0 +1,44 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 485,
+  "sourceImageSha256": "4e63ef93510ef3126c2c9e574dfd33d3fa06ce940febd48a82205881cfbe8592",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页和两套OCR，完成SEOM材料九项、步骤五步、注释两条及48.3/48.3.1开头"},
+    "precisionPass": {"status": "verified", "method": "核验250/125 mL、20 g、100 mL、1 mol·L⁻¹ KCl、30 min、160次·min⁻¹、3000×g 10 min、0.4 μm、4/−20 °C与0.5 mol·L⁻¹ K₂SO₄"},
+    "secondVisualPass": {"status": "verified", "method": "由48.3.1页末承下句反向复核至材料（1），检查所有容器、浓度、振荡频率、保存条件和表征项目；印刷页码454"}
+  },
+  "blocks": [
+    {"type": "subsection-heading", "level": 4, "title": "1. 材料与试剂"},
+    {"type": "materials-list", "scope": "48.2.3", "items": [
+      {"number": "（1）", "text": "250 mL聚丙烯离心瓶。"},
+      {"number": "（2）", "text": "往复式振荡机。"},
+      {"number": "（3）", "text": "1 mol·L⁻¹ KCl。"},
+      {"number": "（4）", "text": "离心机（选用）。"},
+      {"number": "（5）", "text": "玻璃真空过滤或不锈钢压力过滤装置。"},
+      {"number": "（6）", "text": "0.4 μm聚碳酸酯滤膜。"},
+      {"number": "（7）", "text": "125 mL锥形瓶；真空过滤用带侧管瓶。"},
+      {"number": "（8）", "text": "真空泵或其他真空/压力系统。"},
+      {"number": "（9）", "text": "适当容积储存瓶：首选玻璃，冷冻用塑料。"}
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "2. 步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "离心瓶加入相当于20 g干重的土壤。矿质土预先混匀或过6 mm筛；采样后尽快提取。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加100 mL、1 mol·L⁻¹ KCl，往复式振荡30 min，160次·min⁻¹。"},
+    {"type": "procedure-step", "number": "（3）", "text": "可选：3000×g离心10 min，减少胶体堵膜。"},
+    {"type": "procedure-step", "number": "（4）", "text": "未离心则过滤泥浆，离心则过滤上清；用真空过滤器通过0.4 μm聚碳酸酯膜。"},
+    {"type": "procedure-step", "number": "（5）", "text": "2 d内分析：玻璃瓶、4 °C；长期：塑料瓶、−20 °C。"},
+    {"type": "subsection-heading", "level": 4, "title": "3. 注释"},
+    {"type": "note", "number": "（1）", "text": "采用KCl是因常规矿质氮分析也使用；SEOM亦常用0.5 mol·L⁻¹ K₂SO₄提取，未熏蒸土直接提取用于微生物生物量法（Vance等，1987；第49章）。热水或热KCl提取的有机质不等同SSOM，因为加热溶出更多有机质。"},
+    {"type": "note", "number": "（2）", "text": "提取前风干会增加SEOM，并可能改变其化学性质和生物可降解性。"},
+    {"type": "section-heading", "level": 2, "number": "48.3", "title": "可溶性有机质的表征方法"},
+    {"type": "paragraph", "text": "本节给出低成本、简便方法，表征SSOM、WEOM和SEOM的化学组成与生物可降解性，包括总C、总N、酚、己糖、戊糖、氨基酸、特定紫外吸光值和生物可降解性。"},
+    {"type": "section-heading", "level": 3, "number": "48.3.1", "title": "碳含量"},
+    {"type": "paragraph", "text": "过滤土壤溶液或提取液的C可用湿化学法或自动燃烧法测定。可先用紫外催化湿式氧化把C氧化，再用红外检测[续见第486页]。"}
+  ],
+  "formulas": [
+    {"id": "48.2.3-kcl-extraction", "display": "20 g dry soil + 100 mL 1 mol·L⁻¹ KCl; 30 min at 160 strokes·min⁻¹", "meaning": "本章SEOM标准提取条件，土∶液1∶5"},
+    {"id": "48.2.3-centrifuge", "display": "3000×g, 10 min (optional)", "meaning": "SEOM过滤前可选离心条件"}
+  ],
+  "tables": [],
+  "contentSha256": "65cded08483e861bd54f28c56c44dcf4fe1afb01aaaa6b8a3bbd6404e7c89631"
+}

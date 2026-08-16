@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 108,
+  "sourceImageSha256": "1cb9c4917cdeb8f49993fef447f20e1f6d05025cf3c272c46ac602ed3bbc1fc8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐项对照原分辨率图和两套OCR，完成64.4.1.3结尾、64.4.1.4全部建议及64.4.2.1本页"},
+    "precisionPass": {"status": "verified", "method": "核验−0.65 V、5～10 min、−0.2 V、一个数量级、4～8周、饱和/3.5 M KCl及ODR计算公式交叉引用"},
+    "secondVisualPass": {"status": "verified", "method": "由Clark电极跨页句反向复核至页首，检查所有负电位、极限电流平台、参比电极和错误公式号；印刷页码617"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "保证参比电极与土壤接触良好。参比电极可购置或按Phene（1986）、Armstrong和Wright（1976）、Blackwell（1983）及Farrell等（2002）制作；Veneman和Pickering（1983）的原位氧化还原电位盐桥也可用于ODR。"},
+    {"type": "procedure-steps-continuation", "items": [
+      "在Pt与参比电极间施加极化电位。为方法标准化常用−0.65 V；施加后通常等待5～10 min至电流稳定，记录i_lc，并按式（64.5）换算质量基ODR，或按式（64.4）计算摩尔通量。"
+    ]},
+    {"type": "heading", "number": "64.4.1.4", "title": "建议", "level": 4},
+    {"type": "paragraph", "text": "主要影响分为电化学因素（施加电位、稳定电流建立、电极安装、Pt污染）和土壤因素（含水量、含盐量、O₂浓度、温度）。常见错误来自不合适电位、Pt电极中毒，或含水量/盐分改变造成的土壤电阻变化。"},
+    {"type": "notes", "items": [
+      "施加电位：理想条件下O₂约在−0.2 V开始还原；进一步负向极化后进入扩散控制的极限电流平台，直到接近氢离子放电电势。虽常统一用−0.65 V，Armstrong和Wright（1976）及Blackwell（1983）建议先在现场绘制电流–电位曲线确定平台；若无稳定平台，应停止ODR定量。Blackwell报告按原位平台选择得到的ODR可比固定−0.65 V法小约一个数量级，故必须报告电位选择方法。若完整测多条曲线代价过高，可每个采样深度至少获取一条代表性曲线。",
+      "电极中毒：Pt表面化学或物理变化会干扰O₂还原。每次测后取出通常风险较小；长期固定电极可能因胶体迁移、碳酸盐或碳酸盐–硅铝酸盐沉积而中毒。长期布设可每4～8周取出清洗一次，并用标准体系复核响应。",
+      "含水量和盐分校正：二者改变土壤电阻，进而改变Pt与参比电极间真实电位和输出电流。ODR因此部分受土壤电阻影响；需按Callebaut等（1980）的思路同步测电阻并校正，且记录水分、盐分和温度。"
+    ]},
+    {"type": "paragraph", "text": "Pt微电极ODR的理论代表性仍有争议（McIntyre，1971），但在明确电位、污染和土壤电阻限制时，可提供有价值的土壤通气信息。"},
+    {"type": "heading", "number": "64.4.2", "title": "O₂浓度测量", "level": 3},
+    {"type": "heading", "number": "64.4.2.1", "title": "原理和设备", "level": 4},
+    {"type": "paragraph", "text": "Clark型O₂电极是安培型传感器，由Pt或Au阴极、Ag/AgCl阳极及KCl等电解质组成，外部以透气膜与土壤气相或溶液隔开。适当极化后，O₂经膜扩散并在阴极还原；在规定膜、温度、流动和极化条件下，稳态电流与到达阴极的O₂通量相关，经校准换算为O₂分压或浓度。"},
+    {"type": "source-fidelity-note", "text": "原书在ODR操作段误写“利用式64.2计算”，式（64.2）实际是GC内标浓度公式；已按量纲和本节公式体系校正为：质量通量用式（64.5），摩尔通量用式（64.4）。原书极谱图“形成一个”后漏词，按上下文补为“极限电流平台”。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d5335356c0057e2d8b49d5fe6e6f1e6992a2595580ec7dce59e30a8950c4a543"
+}

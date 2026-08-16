@@ -1,0 +1,31 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 20,
+  "sourceImageSha256": "a7595e7e8f369369146ea8d99e1546904f2f71e1d1d113e5a4694d57abd2fa29",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图、Apple OCR与Paddle OCR，完成章题、作者、55.1正文、表55.1和式（55.1）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验D. Kroetsch、C. Wang、CSSC/USDA/ISSS/AASHO/ASTM、8个粒级界限、v/D²/g/ρₛ/ρₗ/η及Mg m⁻³"},
+    "secondVisualPass": {"status": "verified", "method": "从页末假设③反向复核至章标题，纠正OCR的53.1、PS/PL/n及单位指数；表格按左右栏逐格复核"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第55章", "title": "颗粒大小分布"},
+    {"type": "author-affiliation", "authors": ["D. Kroetsch", "C. Wang"], "affiliation": "Agriculture and Agri-Food Canada, Ottawa, Ontario, Canada"},
+    {"type": "heading", "number": "55.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "土壤质地分级（如壤土、黏壤土、砂壤土）是根据筛分和沉降方法得到的初级土壤颗粒的大小和分布估计得到的。野外估计的土壤质地需要在室内对样品进一步分析后确认。颗粒大小分析指的是对土壤颗粒大小分布进行测定。加拿大土壤信息系统词汇表（Canadian Soil Information System Glossary）将粒径分布定义为土壤样品中不同粒级分散体的数量，通常用质量百分数表示（Gregorich等，2001）。"},
+    {"type": "paragraph", "text": "Gee和Or（2002）指出，颗粒大小分析的两个主要特征是分散和分级。首先，利用化学、机械或超声波方法，将土壤团聚体破坏（或分散）为独立的单元。其次，通过筛分和沉降分离将这些颗粒进一步分级，并计算某粒级在设定所有粒级中的相对质量，即得到其所占的比例。本章中，初级土壤颗粒分级基于加拿大土壤分类系统（The Canadian System of Soil Classification，CSSC；Soil Classification Working Group，1998），见表55.1。几种常用分类系统对土壤粒径大小分级的规定不同（见图55.1）。美国农业部（USDA）和国际土壤学会（ISSS）分类系统常用于土壤调查；美国州公路官员协会（AASHO）和统一土壤分类系统（美国检测与材料学会，ASTM）常用于工程领域。"},
+    {"type": "source-fidelity-note", "text": "原书译文两次写成‘常将CSSC用于……’，会错误地把USDA、ISSS、AASHO和统一分类系统说成使用CSSC；本Skill按该段比较不同分类系统的逻辑，校正为前两者常用于土壤调查、后两者常用于工程领域。AASHO规范为美国州公路官员协会。"},
+    {"type": "table-caption", "number": "表55.1", "title": "加拿大土壤分类系统中土壤颗粒粒径的分级标准"},
+    {"type": "table-source", "text": "Soil Classification Working Group, The Canadian System of Soil Classification, Agriculture and Agri-Food Canada Publication 1646 (Revised), Ottawa, Ontario, Canada, 1998."},
+    {"type": "paragraph", "text": "测定土壤粒径分布的常用方法包括吸管法（Pipette Method）和比重计法（Hydrometer Method）。两种方法都利用筛分法将粗颗粒组分分离出来，细颗粒组分根据Stokes定律用沉降速率分离。Stokes定律表明，固体颗粒的沉降速率取决于颗粒大小、颗粒与液体的密度差以及液体黏度；悬浮液中较大且密度较高的颗粒比小而密度较低的颗粒沉降得快。根据Stokes定律，对于密度为ρₛ、直径为D的球形土壤颗粒，其在密度为ρₗ、动力黏度为η的液体中的沉降速率v为（Sheldrick和Wang，1993）："},
+    {"type": "source-fidelity-note", "text": "原书把‘沉降速率’误译为‘沉降的数量’，并把ρₛ、ρₗ、η排印/识别为PS、PL、n；本Skill按Stokes沉降式规范为速率v、密度ρₛ/ρₗ和动力黏度η。"},
+    {"type": "paragraph", "text": "式中，g是重力加速度。沉降表（见表55.2）中列出的土壤粒径分布基于以下假设：①土壤颗粒为球形（大多数硅酸盐黏土颗粒为片状结构）；②ρₛ=2.65 Mg m⁻³或2.60 Mg m⁻³（土壤颗粒密度变化范围为2.0～3.2 Mg m⁻³）；③土壤颗粒沉降过程中水温保持恒定（最好控制在室温下进行……）"}
+  ],
+  "formulas": [
+    {"label": "(55.1)", "plain": "v = D²g(ρₛ − ρₗ)/(18η)", "latex": "v=\\frac{D^2 g(\\rho_s-\\rho_l)}{18\\eta}", "variables": [{"symbol": "v", "meaning": "球形颗粒的沉降速率"}, {"symbol": "D", "meaning": "颗粒直径"}, {"symbol": "g", "meaning": "重力加速度"}, {"symbol": "ρₛ", "meaning": "土壤颗粒密度"}, {"symbol": "ρₗ", "meaning": "液体密度"}, {"symbol": "η", "meaning": "液体动力黏度"}], "sourceIntegrityNote": "原书式面视觉字形近似PS、PL、n；按变量物理意义和Stokes定律规范为ρₛ、ρₗ、η。"}
+  ],
+  "tables": [
+    {"number": "表55.1", "title": "加拿大土壤分类系统中土壤颗粒粒径的分级标准", "columns": ["颗粒大小", "直径（mm）"], "rows": [["非常粗砂粒", "2.0～1.0"], ["粗砂粒", "1.0～0.5"], ["中砂粒", "0.5～0.25"], ["细砂粒", "0.25～0.10"], ["微砂粒", "0.10～0.05"], ["粉粒", "0.05～0.002"], ["黏粒", "≤0.002"], ["细黏粒", "≤0.0002"]], "source": "Soil Classification Working Group, 1998"}
+  ],
+  "contentSha256": "4ce100b2d37f960a7e8dc24e6f22794583442fb5e18d4c6453309812275e4a35"
+}

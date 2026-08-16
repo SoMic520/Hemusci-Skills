@@ -1,0 +1,92 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 315,
+  "sourceImageSha256": "b8ccb15733130ac3dadf858161727d392281741ae6b26195166926603667a7ca",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对式(84.8)～式(84.11)、参数说明、l校准建议及84.4算例土壤说明"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "从式(84.8)/(84.9)分别代数反解l，核对m(l+2)、1/m、Θ_FC及K_FC=10⁻⁸ m·s⁻¹"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "复核嵌套幂、绝对值、平方、自然对数和原书式(84.11)漏项；印刷页码824"
+    }
+  },
+  "blocks": [
+    {
+      "type": "source-fidelity-note",
+      "text": "原书式(84.11)右端漏写“−2”。由式(84.9)分母指数m(l+2)直接反解，必须得到l=(1/m)·ln(K_satN²/K_FC)/lnD−2；若不减2，求得的是l+2而非l。已在公式正文中校正，并保留本说明。"
+    },
+    {
+      "type": "model-parameters",
+      "items": [
+        "a_v[L⁻¹]为与进水或进气值有关的经验参数。",
+        "l为无量纲孔隙连通性参数，n、m为无量纲经验常数。",
+        "van Genuchten参数θ_r、θ_sat、a_v、n、m可用RETC拟合，或由ROSETTA土壤传递函数估计。"
+      ]
+    },
+    {
+      "type": "calibration-guidance",
+      "paragraphs": [
+        "Mualem (1976)由45组数据提出l=0.5，但后续研究表明l依土壤而定。可用式(84.8)算K(θ_FC)或式(84.9)算K(ψ_FC)，与“全局”田间持水量水力传导系数K_FC=1×10⁻⁸ m·s⁻¹比较；若相差超过约一个数量级，l=0.5假设无效。",
+        "θ_FC或ψ_FC已知、估计或假设时，可用式(84.10)或经校正的式(84.11)求更合适的l。之后可保留a_v、n、m并使用新l，也可用新l重新拟合van Genuchten模型校正a_v、n、m。",
+        "K降至约1×10⁻⁸ m·s⁻¹（约1 mm·d⁻¹）时，饱和后排水基本停止，继续变化可忽略，因此该K_FC合理。θ(ψ)与K(θ)数据同时输入时，RETC拟合的m、n、a_v更可靠。",
+        "物理参数有限时ROSETTA可估计K_sat，但通常高度不确定；仅有质地数据时可用UNSODA或式(84.7)估计。算例见84.4。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "84.4",
+      "title": "计算",
+      "level": 2
+    },
+    {
+      "type": "example-context",
+      "text": "算例脱水、容重、导水率和质地数据（见表84.3、84.4）来自一种酸性、氧化还原的水成土壤（澳大利亚土壤分类体系；Isbell, 1996）。0～30 cm为黏壤土，30～90 cm为砂质黏土，90 cm以下为粉质黏土；按2～7 cm层厚采集数据。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "84.8a",
+      "plain": "K(θ)=K_satΘˡ[1−(1−Θ^(1/m))^m]²",
+      "latex": "K(\\theta)=K_{sat}\\Theta^l\\left[1-\\left(1-\\Theta^{1/m}\\right)^m\\right]^2"
+    },
+    {
+      "label": "84.8b",
+      "plain": "Θ=(θ−θ_r)/(θ_sat−θ_r)",
+      "latex": "\\Theta=\\frac{\\theta-\\theta_r}{\\theta_{sat}-\\theta_r}"
+    },
+    {
+      "label": "84.9",
+      "plain": "K(ψ)=K_sat{[(1+|a_vψ|ⁿ)^m−|a_vψ|^(n−1)]²/[1+|a_vψ|ⁿ]^[m(l+2)]}",
+      "latex": "K(\\psi)=K_{sat}\\frac{\\left[\\left(1+|a_v\\psi|^n\\right)^m-|a_v\\psi|^{n-1}\\right]^2}{\\left[1+|a_v\\psi|^n\\right]^{m(l+2)}}"
+    },
+    {
+      "label": "84.10a",
+      "plain": "l=ln{K_FC/[K_sat·[1−(1−Θ_FC^(1/m))^m]²]}/lnΘ_FC",
+      "latex": "l=\\frac{\\ln\\!\\left\\{\\dfrac{K_{FC}}{K_{sat}\\left[1-\\left(1-\\Theta_{FC}^{1/m}\\right)^m\\right]^2}\\right\\}}{\\ln\\Theta_{FC}}"
+    },
+    {
+      "label": "84.10b",
+      "plain": "Θ_FC=(θ_FC−θ_r)/(θ_sat−θ_r)",
+      "latex": "\\Theta_{FC}=\\frac{\\theta_{FC}-\\theta_r}{\\theta_{sat}-\\theta_r}"
+    },
+    {
+      "label": "84.11（已校正原书漏项）",
+      "plain": "l=(1/m)·ln{K_sat[(1+|a_vψ_FC|ⁿ)^m−|a_vψ_FC|^(n−1)]²/K_FC}/ln(1+|a_vψ_FC|ⁿ)−2",
+      "latex": "l=\\frac{1}{m}\\frac{\\ln\\!\\left\\{\\dfrac{K_{sat}\\left[\\left(1+|a_v\\psi_{FC}|^n\\right)^m-|a_v\\psi_{FC}|^{n-1}\\right]^2}{K_{FC}}\\right\\}}{\\ln\\!\\left(1+|a_v\\psi_{FC}|^n\\right)}-2"
+    },
+    {
+      "label": "全局田间持水量传导系数",
+      "plain": "K_FC=1×10⁻⁸ m·s⁻¹≈1 mm·d⁻¹",
+      "latex": "K_{FC}=1\\times10^{-8}\\,\\mathrm{m\\,s^{-1}}\\approx1\\,\\mathrm{mm\\,d^{-1}}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "beab059efe6d2f332022be5db749a288ae639ee6fd0d1768528ff45d271c1ebf"
+}

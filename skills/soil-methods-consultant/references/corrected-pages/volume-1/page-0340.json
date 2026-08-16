@@ -1,0 +1,43 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 340,
+  "sourceImageSha256": "cd70a339be2c9ef96cdd91667e2e5aaa38caa0a5a08a287f3a27ca592964833a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版33.2～33.3.3交叉比对，恢复样品前处理、材料5项、步骤11项和注释（1）～（2）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验>5/2 mm、10/7.5/5/2/1 cm、100～250 μm、25 g、7天、>20/50/5～10 mL、>1 h及10～70×"},
+    "secondVisualPass": {"status": "verified", "method": "从页末注释（2）反向复核至页首33.2续文，核验筛孔方向、培养条件、沉降与计数体积及Stoller供氧说明；页码309"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第33章｜线虫｜"},
+    {"type": "paragraph-continuation", "continuationOf": "page-0339#sample-pretreatment-intro", "text": "Ingham，1994）。土壤样品应保存在聚乙烯袋中以防干燥，现场采样后应尽快冷藏（但不能冷冻）。样品不能置于阳光下直射，尤其是在夏季。样品处理的第一步通常是过筛去除粗碎片和根段。除非研究目标专门针对某些较小的类群〔如短体线虫属Pratylenchus spp.、根结线虫属Meloidogyne spp.的幼虫或异皮线虫属Heterodera spp.的幼虫〕，否则建议土壤通过筛孔>5 mm的筛，或完全不过筛；例如，当土壤通过2 mm或更小孔径的筛时，一些较大的矛线目线虫（如剑线虫属Xiphinema spp.）可能受损。"},
+    {"type": "section-heading", "level": 2, "number": "33.3", "title": "贝尔曼漏斗法（Baermann，1917）"},
+    {"type": "paragraph", "text": "贝尔曼漏斗法的基本做法是用布或纸巾包裹样品，并将其局部浸入装满水的漏斗中。线虫在饱和材料中移动，从材料中逸出并沉降至漏斗颈部底端，在那里回收。"},
+    {"type": "section-heading", "level": 3, "number": "33.3.1", "title": "材料和试剂"},
+    {"type": "material", "number": "（1）", "text": "直径10 cm的玻璃细颈漏斗；每个漏斗末端连接一段长5 cm的橡胶管。"},
+    {"type": "material", "number": "（2）", "text": "弹簧式管夹。"},
+    {"type": "material", "number": "（3）", "text": "篮状筛网插入件：把筛孔100～250 μm的尼龙网粘到PVC环上；PVC环宽2 cm，由直径7.5 cm的PVC管切取。"},
+    {"type": "material", "number": "（4）", "text": "三层面巾纸，剪成直径10 cm的圆片。"},
+    {"type": "material", "number": "（5）", "text": "漏斗支架。"},
+    {"type": "section-heading", "level": 3, "number": "33.3.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "充分但轻柔地混合土壤，以免伤害线虫。"},
+    {"type": "procedure-step", "number": "（2）", "text": "把面巾纸放在筛网上。"},
+    {"type": "procedure-step", "number": "（3）", "text": "将25 g土壤均匀铺在纸巾上。如果纸巾未剪成圆形，把纸巾四角向上折盖在土样上。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用管夹夹闭漏斗底端的橡胶管。"},
+    {"type": "procedure-step", "number": "（5）", "text": "从漏斗顶部加水；当筛网安装到位时，水位应比筛网底部高约1 cm。轻敲漏斗颈部，或排出一定量的水，以去除漏斗颈中的气泡。"},
+    {"type": "procedure-step", "number": "（6）", "text": "轻轻把筛网插入件放进漏斗，使土壤从底部开始湿润。"},
+    {"type": "procedure-step", "number": "（7）", "text": "用洗瓶调节水量；沿篮状筛网边缘喷水，不要直接喷到土壤上。土壤应完全饱和，但不能完全浸没。"},
+    {"type": "procedure-step", "number": "（8）", "text": "用培养皿盖或一块塑料膜覆盖筛网/漏斗，在室温下培养7天。"},
+    {"type": "procedure-step", "number": "（9）", "text": "打开管夹，从漏斗中排出>20 mL水至闪烁计数瓶或大试管中，例如50 mL聚乙烯离心管。"},
+    {"type": "procedure-step", "number": "（10）", "text": "静置>1 h，使线虫沉降到试管或小瓶底部。"},
+    {"type": "procedure-step", "number": "（11）", "text": "虹吸除去上清，仅保留底部5～10 mL（依计数皿尺寸而定）；把剩余液体倒入计数皿，静置数分钟使线虫沉降，再用体视显微镜或倒置显微镜在10～70×放大倍数下观察。"},
+    {"type": "section-heading", "level": 3, "number": "33.3.3", "title": "注释"},
+    {"type": "note", "number": "（1）", "text": "原始或改良贝尔曼漏斗法的优点是装置简单、易于安装，并可同时处理许多样品。许多线虫实验室会改装书架，用作大量漏斗的成组支架。"},
+    {"type": "source-fidelity-note", "scope": "33.3.3注释（1）处理能力", "text": "中文本印作“方法适用于任何样品”，英文原版是the method can be used to process many samples，含义为“可处理许多样品”，不是对任何样品都适用；校正文据此纠正。"},
+    {"type": "note", "number": "（2）", "text": "贝尔曼漏斗法的一个缺点是缺氧，特别是在漏斗底部线虫聚集处。为克服这一点，Stoller（1957）连接一根细聚乙烯管，向水中鼓入氧气或新鲜空气。另一缺点是筛网面积小，限制了可有效提取的土壤体积，因为提取效率会随土层厚度增加而降低（Bell和Watson，2001）。"},
+    {"type": "printed-page-number", "text": "309"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "30e3b1b886c65faccd384649dafb4290d62a90343feca9d1ca3c5e827f9fb2f7"
+}

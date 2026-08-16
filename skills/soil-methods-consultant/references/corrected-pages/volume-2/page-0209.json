@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 209,
+  "sourceImageSha256": "4cab9cf2fef53e3564b34a579522e2fbab2eef8697adeda98cdcefe61e56959a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐图对照原分辨率页图、两套OCR和英文原章，完成图72.3、72.3.3原状土壤及式(72.1)—(72.5)"},
+    "precisionPass": {"status": "verified", "method": "核验cm³、day⁻¹、−150 m、1 cm、34/40天、L/M量纲、ρ_w=0.9982 g·cm⁻³、πa²(l_c−Δl)、−1/−3.3 m及全部下标"},
+    "secondVisualPass": {"status": "verified", "method": "按质量守恒—体积—饱和度链反向验算五式量纲，并补核a为环内半径；印刷页码718"}
+  },
+  "blocks": [
+    {"type": "figure", "number": "72.3", "title": "压力抽取法在ψ_m=−150 m时两组1 cm厚装填黏壤土的累计出流量与时间倒数关系", "axes": ["y：累计出流体积（cm³）", "x：时间倒数t⁻¹（day⁻¹）"], "annotations": ["三角：34天达到平衡。", "圆形：40天后仍未平衡。"]},
+    {"type": "heading", "number": "72.3.3", "title": "分析和计算", "level": 3},
+    {"type": "calculation", "name": "原状土壤", "items": ["M_w(ψ_m)：各ψ_m下土中水质量。", "θ_v(ψ_m)：体积含水量。V_b为土壤总体积，ρ_w为室温水密度；20 ℃时ρ_w=0.9982 g·cm⁻³。", "V_c为采样环体积；V_h为土样顶部与环顶之间的空隙体积；a为环内半径；l_c为环高；Δl为土面至环顶距离。", "含水变化造成收缩/膨胀时，在指定水头测Δl，通常取田间持水量：原状土ψ_m=ψ_FC=−1 m，扰动土−3.3 m。", "S(ψ_m)为水饱和度；θ_sat为ψ_m=0 m时的饱和体积含水量。", "M_ods为烘干土质量；M_cce为彻底除土后的采样环+布/滤纸+橡皮筋总质量。"]},
+    {"type": "source-fidelity-note", "text": "式(72.3)原书变量说明漏掉a；英文原章明确a为采样环内半径，已补入。原书把M_cce解释为环刀、滤纸和橡皮筋，英文原章为sampling cylinder plus cloth plus elastic band；方法库以布/滤纸兼容表述。"}
+  ],
+  "formulas": [
+    {"label": "72.1", "plain": "M_w(ψ_m) = M_c(ψ_m) - M_d", "latex": "M_w(\\psi_m)=M_c(\\psi_m)-M_d", "resultUnit": "mass (e.g. g)"},
+    {"label": "72.2", "plain": "θ_v(ψ_m) = M_w(ψ_m)/(ρ_w V_b)", "latex": "\\theta_v(\\psi_m)=\\frac{M_w(\\psi_m)}{\\rho_w V_b}", "resultUnit": "L³·L⁻³"},
+    {"label": "72.3", "plain": "V_b = V_c - V_h = πa²(l_c - Δl)", "latex": "V_b=V_c-V_h=\\pi a^2(l_c-\\Delta l)", "resultUnit": "L³"},
+    {"label": "72.4", "plain": "S(ψ_m) = θ_v(ψ_m)/θ_sat", "latex": "S(\\psi_m)=\\frac{\\theta_v(\\psi_m)}{\\theta_{sat}}", "resultUnit": "dimensionless"},
+    {"label": "72.5", "plain": "M_ods = M_d - M_cce", "latex": "M_{ods}=M_d-M_{cce}", "resultUnit": "mass (e.g. g)"}
+  ],
+  "tables": [],
+  "contentSha256": "4d002ab5615ddef6c7ee0aef78a992885eaf16a6ddadb89c565f7dfd5669e65b"
+}

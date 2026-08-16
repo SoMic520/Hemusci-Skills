@@ -1,0 +1,47 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 454,
+  "sourceImageSha256": "e9af51bd0d004e762d6b40d0af188dda5f7f7a1c08330fef771c8c7a8481e44c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照中文原页、两套OCR及英文原版44.3.1～44.3.3；恢复family/genus层级、×g、显微倍率、下标变量和式（44.3）～（44.6）"},
+    "precisionPass": {"status": "verified", "method": "核验>4 mL、15 mL、>2 h或420×g 5 min、底部0.5 mL、60 °C 1 min、0.25 mL、100/500条线虫、4×/40×物镜与40×/400×总倍率，以及b/e/fₑ/s权重"},
+    "secondVisualPass": {"status": "verified", "method": "由式（44.6）反向复核至跨页首句；把表44.1和Ferris原始权重代入各求和式，确认e组权重为0.8或3.2而非原书误印1.8或3.2；印刷页码423"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第44章｜土壤食物链特性指示物｜"},
+    {"type": "paragraph-continuation", "fromPage": 453, "text": "这里的SI主要基于线虫科水平鉴定，而不是种水平鉴定。"},
+    {"type": "paragraph", "text": "本节说明如何评估线虫群落结构，前提是能把线虫鉴定到科水平，最好达到属水平。线虫基础鉴定超出本章范围；Freckman和Baldwin（1990）是土壤线虫鉴定的良好入门资料，一些线虫学实验室也举办密集鉴定培训。"},
+    {"type": "source-fidelity-note", "scope": "鉴定层级", "text": "中文版把family/genus误译为“门水平/种水平”；英文原文明确为“科水平，最好属水平”，已校正。"},
+    {"type": "section-heading", "level": 3, "number": "44.3.1", "title": "试剂与仪器"},
+    {"type": "material-item", "number": "（1）", "text": "带机械载物台的倒置显微镜或复式显微镜，以及体视显微镜。"},
+    {"type": "material-item", "number": "（2）", "text": "可置于倒置显微镜或体视显微镜下、能容纳>4 mL悬液的网格计数皿。"},
+    {"type": "material-item", "number": "（3）", "text": "15 mL圆锥底离心管。"},
+    {"type": "material-item", "number": "（4）", "text": "显微镜载玻片、#1盖玻片、指甲油。"},
+    {"type": "material-item", "number": "（5）", "text": "巴斯德吸管。"},
+    {"type": "material-item", "number": "（6）", "text": "按第33章提取的线虫。"},
+    {"type": "section-heading", "level": 3, "number": "44.3.2", "title": "计数"},
+    {"type": "procedure-step", "number": "（1）", "text": "把线虫样品倒入计数皿，用解剖体视显微镜观察，并按第33章方法测定线虫总数。"},
+    {"type": "procedure-step", "number": "（2）", "text": "把样品冲洗入15 mL圆锥底离心管，静置>2 h使线虫沉降；也可在420×g离心5 min。用巴斯德吸管或与真空相连的移液管除去上清，只保留底部0.5 mL悬液；将离心管浸入60 °C水浴1 min，热杀线虫。"},
+    {"type": "procedure-step", "number": "（3）", "text": "振荡使线虫重新悬浮，用巴斯德吸管吸取0.25 mL，在一张载玻片的两个位置各滴一滴；分别覆#1盖玻片并以指甲油封边。临时装片通常可保持一个工作日，但更久常会干燥；若制片数小时后才观察，应放冰箱保持低温。"},
+    {"type": "procedure-step", "number": "（4）", "text": "以400×复式显微镜沿每个盖玻片作等间距样带观察；把遇到的线虫鉴定到属、科或营养类群，直至鉴定100条。"},
+    {"type": "procedure-step", "number": "（5）", "text": "也可用配4×和40×物镜的高质量倒置显微镜，在同一计数皿内以40×计数、400×鉴定。首次采用时，宜先用复式显微镜（400×～1,000×）观察实验地点的大量线虫（如500条），鉴定优势分类单元，并学习在倒置显微镜40×～400×下识别主要属或科。"},
+    {"type": "section-heading", "level": 3, "number": "44.3.3", "title": "计算"},
+    {"type": "paragraph", "text": "在已鉴定的100条线虫中，计算表44.1各科的相对丰度pᵢ：pᵢ=nᵢ/100。用线虫总丰度乘各科相对丰度，得到各科绝对丰度Pᵢ。按Bongers（1990，1999；表44.1）赋予c-p等级，并按Ferris等（2001；表44.1）赋予E-S权重；对相应科求和得到下列加权丰度。"},
+    {"type": "equation", "number": "44.3", "text": "基础类群加权丰度：b=Σ(v_b n_b)，其中n_b为具食物网基础特征的各科丰度，v_b=0.8。"},
+    {"type": "equation", "number": "44.4", "text": "富集机会型类群加权丰度：e=Σ(v_e n_e)，其中n_e为具食物网富集特征的各科丰度，v_e为0.8或3.2。"},
+    {"type": "source-fidelity-note", "scope": "式（44.4）v_e", "text": "原书释义把v_e误印为1.8或3.2；表44.1和Ferris等（2001）均表明富集组由Ba1（3.2）与Fu2（0.8）组成，故应为0.8或3.2。1.8是c-p 3结构组权重。"},
+    {"type": "equation", "number": "44.5", "text": "食真菌富集机会型类群加权丰度：f_e=Σ(v_fe n_fe)，其中n_fe为具富集特征的各食真菌科丰度，v_fe=0.8。"},
+    {"type": "equation", "number": "44.6", "text": "结构类群加权丰度：s=Σ(v_s n_s)，其中n_s为具食物网结构特征的各科丰度，v_s为0.8～5。"},
+    {"type": "printed-page-number", "text": "423"}
+  ],
+  "formulas": [
+    {"id": "44.3-relative-abundance", "plain": "p_i=n_i/100; P_i=N_total×p_i", "context": "鉴定100条线虫时各科相对丰度和绝对丰度"},
+    {"id": "44.3", "plain": "b=Σ(v_b n_b), v_b=0.8", "context": "基础组加权丰度"},
+    {"id": "44.4", "plain": "e=Σ(v_e n_e), v_e∈{0.8,3.2}", "context": "富集组加权丰度；原书1.8为误排"},
+    {"id": "44.5", "plain": "f_e=Σ(v_fe n_fe), v_fe=0.8", "context": "食真菌富集机会型加权丰度"},
+    {"id": "44.6", "plain": "s=Σ(v_s n_s), v_s∈[0.8,5]", "context": "结构组加权丰度"}
+  ],
+  "tables": [],
+  "contentSha256": "d7a02e1b6940450936cf455249f3925b1c786f4171c62da1bb21d949de420e1b"
+}

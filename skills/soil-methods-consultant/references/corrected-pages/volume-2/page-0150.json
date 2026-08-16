@@ -1,0 +1,50 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 150,
+  "sourceImageSha256": "c824a873fdad62a63d8feae7868cfa13460071048aaee4d38bf384eddb2bab86",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐表对照原分辨率图和两套OCR，完成式(68.21)—(68.24)、68.6、表68.2及参考文献Allaire两条"},
+    "precisionPass": {"status": "verified", "method": "核验Θ、τ_w积分上下限、0.00028ρg/(ηK_s)、−2/n、γ=1/τ_w、D_s=D₀γθ_a及表68.2六列单位数值"},
+    "secondVisualPass": {"status": "verified", "method": "由第二条参考文献反向复核至式(68.21)，检查积分指数、−10 kPa、AFP/相对扩散率/EAW/K_s/α₁/ψ_b和脚注；印刷页码659"}
+  },
+  "blocks": [
+    {"type": "variables", "items": ["θ：体积含水量", "θ_s：饱和体积含水量/总孔隙度", "θ_r：接近残余体积含水量", "ψ：水势（kPa）", "α、b、n：经验拟合参数"]},
+    {"type": "steps-continuation", "items": [
+      "按式(68.21)将含水量归一化为有效饱和度Θ。",
+      "由式(68.22)积分求水流孔隙弯曲度τ_w。上限θ_ea取进气值对应含水量，下限θ_r在本法中取ψ=−10 kPa含水量；理论下限为0。系数0.00028只适用于原文配套单位体系，换单位须重新推导。",
+      "求孔隙有效系数γ=1/τ_w。对同一柱/盆求充气孔隙度θ_a=TP−θ；按King和Smith（1987）用D_s=D₀γθ_a估气体扩散率。",
+      "在多个水分状态重复计算，输出D_s及相对扩散率D_s/D₀=γθ_a。"
+    ]},
+    {"type": "heading", "number": "68.6", "title": "栽培基质质量的解释表", "level": 2},
+    {"type": "paragraph", "text": "表68.2汇总用于诊断田间水分、通气及苗圃灌溉表现的指示范围，来自特定条件下表现较好的基质，只能作诊断参考，不能替代作物、容器和灌溉制度的本地校准。"},
+    {"type": "references", "items": [
+      "Allaire, S., Caron, J., Duchesne, I., Parent, L.E., and Rioux, J.A. 1996. Air-filled porosity, gas relative diffusivity and tortuosity: Indices of Prunus × cistena sp. growth in peat substrates. J. Am. Soc. Hortic. Sci. 121:236–242.",
+      "Allaire, S., Caron, J., and Gallichand, J. 1994. Measuring the saturated hydraulic conductivity of peat substrates in nursery containers. Can. J. Soil Sci. 74:431–437."
+    ]},
+    {"type": "source-fidelity-note", "text": "式(68.22)指数经原图确认为−2/n，OCR易丢负号。式(68.24)中的θ_a是充气孔隙度，不是体积含水量；原书步骤(4)文字误写已校正。表68.2把K_s列在“非饱和导水率”组内，是曲线参数分组，不表示K_s本身是非饱和值。Prunus种名原书印作xcystena，规范乘号和拼写为× cistena。"}
+  ],
+  "formulas": [
+    {"label": "68.21", "plain": "Θ = (θ − θ_r)/(θ_s − θ_r)", "latex": "\\Theta=\\frac{\\theta-\\theta_r}{\\theta_s-\\theta_r}"},
+    {"label": "68.22", "plain": "τ_w = [0.00028ρg/(ηK_s)] ∫(θ_r→θ_ea) α²(Θ^(−1/b)−1)^(−2/n) dθ", "latex": "\\tau_w=\\frac{0.00028\\rho g}{\\eta K_s}\\int_{\\theta_r}^{\\theta_{ea}}\\alpha^2\\left(\\Theta^{-1/b}-1\\right)^{-2/n}\\,d\\theta"},
+    {"label": "68.23", "plain": "γ = 1/τ_w", "latex": "\\gamma=\\frac{1}{\\tau_w}"},
+    {"label": "68.24", "plain": "D_s = D₀ γ θ_a；D_s/D₀ = γ θ_a", "latex": "D_s=D_0\\gamma\\theta_a;\\quad\\frac{D_s}{D_0}=\\gamma\\theta_a"}
+  ],
+  "tables": [
+    {
+      "number": "68.2",
+      "title": "与气体和水的储存、交换有关的生长介质物理性质指示范围",
+      "columns": ["参数", "测定条件", "单位", "取值范围"],
+      "rows": [
+        ["充气孔隙度AFP", "−1 kPa", "cm³·cm⁻³", "0.15—0.30ᵃᵇ"],
+        ["相对气体扩散率D_s/D₀", "−0.8 kPa", "—", "0.010—0.015ᶜ"],
+        ["易利用含水量EAW", "−1至−5 kPa", "cm³·cm⁻³", "0.20—0.30ᵇ"],
+        ["K_s", "饱和", "cm·s⁻¹", "0.08ᵈ"],
+        ["α₁", "非饱和导水曲线参数", "kPa⁻¹", "9.6ᵉ"],
+        ["ψ_b", "进气值", "kPa", "−0.5ᵉ"]
+      ],
+      "notes": ["ᵃ Wever, 1991；ᵇ De Boodt and Verdonck, 1972；ᶜ Allaire et al., 1996；ᵈ Mustin, 1987；ᵉ Caron and Elrick, 2005。"]
+    }
+  ],
+  "contentSha256": "df451c8300464070bdb48275ffd0b9fd20490c4e5c64a4806a0487adbc5df1c6"
+}

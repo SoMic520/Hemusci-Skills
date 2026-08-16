@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 169,
+  "sourceImageSha256": "e91a746946bd71761ed5114ccb6be7e6e2e832a65653fec160c55cf0afb845ad",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段对照原分辨率页图和两套OCR，完成饱和值、式(69.20)—(69.23)及基质/大孔隙划分"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验K_sat/φ_m、ψ_f指数维度、θ_fs/θ_i、−10 cm、0.3 mm及K_p下标"},
+    "secondVisualPass": {"status": "verified", "method": "通过量纲、式(69.21)代数关系和上下文反向复核式(69.20)印误；印刷页码678"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "当ψ₀取最大值0时，K(ψ)、φ(ψ₀)、α*(ψ₀)、θ(ψ₀)、S(ψ₀)、PD(ψ₀)和NP(ψ₀)均取最大且为常数，分别记K_sat（K_s或K_fs）、φ_m、α*、θ_sat（θ_s或θ_fs）、S、PD和NP。φ_m为ψ=ψᵢ到ψ=ψ₀=0之间K(ψ)曲线下的面积，因此取决于K曲线形状/范围及先前水头ψᵢ。粗质、有结构、有生物孔隙或湿润材料通常比细质、无结构、缺乏生物孔隙或干燥材料的毛管吸力小。"},
+    {"type": "paragraph", "text": "在Gardner指数近似、田间持水量或更干条件下，最大吸渗数α*可由K_sat/φ_m近似，并与Green-Ampt湿润锋负基质水头ψ_f满足α*≈−ψ_f⁻¹。粗质/结构发育/多生物孔隙时ψ_f接近0、α*大；细质/无结构/缺生物孔隙时ψ_f负值绝对值大、α*小。"},
+    {"type": "paragraph", "text": "ψ₀=0时，S、φ_m、K_sat、α*与ψ_f的关系见式(69.21)。θ_fs为田间饱和体积含水量，θ_i为初始/先前体积含水量。θ_i增至θ_fs时S降为0，表示田间饱和介质已无能力继续吸收或贮存添加水。PD和NP可用于量化时间和管理引起的水流相关结构变化。"},
+    {"type": "paragraph", "text": "结构介质近饱和流和溶质运移常需区分基质流与大孔隙流。建议取ψ_mat=−10 cm，对应当量孔径0.3 mm：当量孔径≤0.3 mm（ψ≤ψ_mat）的为基质孔隙；>0.3 mm（ψ≥ψ_mat）的为大孔隙。总介质式(69.11)—(69.21)限制ψᵢ<ψ₀<ψ_mat可作为基质参数，限制ψ_mat<ψ₀<0可作为大孔隙参数，但大孔隙导水率须扣除K(ψ_mat)。"},
+    {"type": "source-fidelity-note", "text": "原书式(69.20)印作“−ψ_f⁻²”，与α*[L⁻¹]、K_sat/φ_m[L⁻¹]量纲不一致，也无法推出紧接的式(69.21)；应为−ψ_f⁻¹，已在规范公式纠正并保留此说明。同页先称ψ₀=0时φ_m最大，后又说“毛管力为零（即φ_m=0）”，前后矛盾；物理上饱和时基质压力头为0不等于从ψᵢ积分至0的φ_m为0，除非ψᵢ=ψ₀。"}
+  ],
+  "formulas": [
+    {"label": "69.20（按量纲与式69.21纠正）", "plain": "α ≈ α* = K_sat/φ_m ≈ -ψ_f⁻¹; ψ_f < 0 < α*", "latex": "\\alpha\\approx\\alpha^*=\\frac{K_{sat}}{\\phi_m}\\approx-\\psi_f^{-1};\\quad \\psi_f<0<\\alpha^*", "resultUnit": "L⁻¹"},
+    {"label": "69.21", "plain": "S = [r(θ_fs-θ_i)φ_m]^{1/2} = [r(θ_fs-θ_i)K_sat/α*]^{1/2} = [r(θ_i-θ_fs)K_sat ψ_f]^{1/2}", "latex": "S=[r(\\theta_{fs}-\\theta_i)\\phi_m]^{1/2}=\\left[r(\\theta_{fs}-\\theta_i)\\frac{K_{sat}}{\\alpha^*}\\right]^{1/2}=[r(\\theta_i-\\theta_{fs})K_{sat}\\psi_f]^{1/2}", "resultUnit": "L·T⁻¹ᐟ²"},
+    {"label": "69.22", "plain": "K_p(ψ) = K(ψ) - K(ψ_mat); ψ_mat ≤ ψ₀ ≤ 0", "latex": "K_p(\\psi)=K(\\psi)-K(\\psi_{mat});\\quad \\psi_{mat}\\leq\\psi_0\\leq0", "resultUnit": "L·T⁻¹"},
+    {"label": "69.23", "plain": "K_p(θ) = K(θ) - K[θ(ψ_mat)]; θ(ψ_mat) ≤ θ ≤ θ_s", "latex": "K_p(\\theta)=K(\\theta)-K[\\theta(\\psi_{mat})];\\quad \\theta(\\psi_{mat})\\leq\\theta\\leq\\theta_s", "resultUnit": "L·T⁻¹"}
+  ],
+  "tables": [],
+  "contentSha256": "62cdbd2cc192eba8651bd45403402e65f68684471002173f5a0c5297be634d5d"
+}

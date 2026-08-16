@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 170,
+  "sourceImageSha256": "3d33e2e7e5a8cde837f3af4fed18037ca24f50ff77d11b41a71f77bc8ae85cbc",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率张力蒸渗仪安装与制样页，并与Apple Vision、PaddleOCR交叉比对，人工恢复表面/基坑安装子层级、样品处理和注释"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验1 m²、30～60 kPa、4 ℃、10～20 mL、0.4 μm、0.2% HNO₃ v/v、pH/EC、6个月至1年及①②③子步骤"},
+    "secondVisualPass": {"status": "verified", "method": "从页末未完句反向复核至17.3.2，确认安装3步及两组子步骤、制样4步、注释2项、原书“含氮物质”和页码139"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第17章｜土壤溶液的采集与测定｜"},
+    {"type": "section-heading", "level": 3, "number": "17.3.2", "title": "安装步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "隔离蒸渗仪站，使其远离人行道，避免受到土壤或其他杂物的污染。"},
+    {"type": "procedure-step", "number": "（2）", "title": "表面安装", "text": "将与蒸渗仪装置具有相同孔径的带孔塑料片放置在土壤表面，以便在挖土时圈住土壤。使用与蒸渗仪大小相同的螺旋钻挖一个深度可达到安装蒸渗仪要求的洞。"},
+    {"type": "procedure-substep", "parent": "（2）表面安装", "number": "①", "text": "安装蒸渗仪，用蒸渗仪所在土层的土壤回填蒸渗仪轴周围的孔洞，并仔细将蒸渗仪上方的孔洞填满。"},
+    {"type": "procedure-substep", "parent": "（2）表面安装", "number": "②", "text": "确保用土壤将蒸渗仪周围密封，以防优先流发生。但要达到土壤与蒸渗仪完全紧密接触是很难的，可以取与蒸渗仪同一深度的土壤制备泥浆，并在安装蒸渗仪之前将少量泥浆灌入钻孔。"},
+    {"type": "procedure-group", "parent": "（2）", "title": "基坑安装", "text": "挖一个大约1 m²的坑，深度要大于蒸渗仪安装的最低位置。"},
+    {"type": "procedure-substep", "parent": "基坑安装", "number": "①", "text": "将下层土和表层土分开，并在安装结束后把土重新回填，尽可能减少对安装地点的干扰。"},
+    {"type": "procedure-substep", "parent": "基坑安装", "number": "②", "text": "从最深的蒸渗仪开始，在坑边的划定区域挖一条与多孔杯直径相同的隧道。小心地插入多孔杯，确保与隧道壁保持良好的接触。依次安装所有深度的蒸渗仪。"},
+    {"type": "procedure-substep", "parent": "基坑安装", "number": "③", "text": "连接真空机和样品管。记录蒸渗仪的位置，并仔细回填土壤。"},
+    {"type": "procedure-step", "number": "（3）", "text": "将蒸渗仪内抽成30～60 kPa的真空，并保持蒸渗仪内具有恒定的真空环境。恒定的真空体系可以在一段时间内不断地收集样品，但是比较昂贵，所以也可以使用不连续真空体系，在样品收集前几天再创造真空环境。但是应该注意，不连续真空体系收集的是较短时间内处于真空环境下的样品。"},
+    {"type": "section-heading", "level": 2, "number": "17.4", "title": "从蒸渗仪中制备土壤溶液样品"},
+    {"type": "paragraph", "text": "可以用手持真空泵或蠕动泵从蒸渗仪存储库提取土壤溶液，确保在收集溶液的过程中不会交叉污染。"},
+    {"type": "procedure-step", "number": "（1）", "text": "每次制样时，蒸渗仪都应该是完全空的，记录从蒸渗仪中取出溶液的总体积。"},
+    {"type": "procedure-step", "number": "（2）", "text": "应该立即把溶液样品转移至冷却器，并保证在把溶液样品运送至实验室的过程中处于4 ℃的黑暗环境中。"},
+    {"type": "procedure-step", "number": "（3）", "text": "把溶液样品运送至实验室后，先预留10～20 mL土壤溶液样品，剩下的样品在低真空条件下用0.4 μm聚碳酸酯进行过滤。对于需要进行元素分析但与空气接触后会发生变化的样品（如含氮物质），过滤后应该立即用聚碳酸酯瓶密封，将其保存在无氧环境中。用于金属分析的预留样品应该先进行酸化（0.2%的HNO₃ v/v），若要分析微量元素，则应该使用金属级酸。"},
+    {"type": "procedure-step", "number": "（4）", "text": "过滤会改变溶液的pH值，因此要在室温条件下即时测定未过滤样品溶液的pH值和EC值。"},
+    {"type": "section-heading", "level": 3, "number": "17.4.1", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "应该定期从蒸渗仪存储库中取样。通常情况下，每周、每两周或每月从蒸渗仪中取样监测，这是因为储集库中的溶液在长时间存储后可能会由于可溶性有机碳的分解或悬浮胶体物质的溶解而发生改变。此外，蒸渗仪中的溶液一旦从土壤中分离出来，就不能保持原位气体分压及相应的化学性质。"},
+    {"type": "note-item", "number": "（2）", "continued": true, "text": "蒸渗仪的安装会对土壤造成显著干扰，故应该确保在采样前蒸渗仪达到稳定状态。安装完成后，要监测蒸渗仪内溶液的pH值和EC值，在土壤溶液的pH值和EC值稳定前，土壤溶液不能代表土壤化学性质，其中蒸渗仪的稳定时间可能会长达6个月至1年。pH值和EC值是确定土壤溶液达到稳定状态的优良指标，但同时也应该监测从蒸渗仪中获得的初始土壤溶液样品的其他指标，以便保证所需成分尤"},
+    {"type": "printed-page-number", "text": "139"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e5366891397a84dd20e83055a4b00d1706e6f8c90e09bd51ac18c10a6b1e60cb"
+}

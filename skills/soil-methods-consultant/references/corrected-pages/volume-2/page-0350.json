@@ -1,0 +1,86 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 350,
+  "sourceImageSha256": "b9f1905b26bcb4ab70eaa43fce163c61f7b38b195731e06de263bc8e9885587f",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对附录A题名、作者、A.1引言、A.2说明和表A1本页表头"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对面积尺度、三类记录、GPS亚米级描述及A1～A3关系"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "作者英文、机构名、章节层级、表号与项目字段二次反查"
+    }
+  },
+  "blocks": [
+    {
+      "type": "appendix",
+      "number": "A",
+      "title": "样点描述",
+      "authors": [
+        "帕德森（G.T. Patterson）",
+        "伯若利（J.A. Brierley）"
+      ],
+      "affiliation": "加拿大粮农部"
+    },
+    {
+      "type": "heading",
+      "number": "A.1",
+      "title": "引言",
+      "level": 2
+    },
+    {
+      "type": "site-description",
+      "items": [
+        "样点描述记录某一具体位置的土壤与地形属性评价；代表面积可从1 m²到数平方千米或更大。",
+        "记录数量、精度和样点选择取决于项目目的。示范小区可优先考虑交通便利、易于寻找的地点，但通常仍应代表目标土壤—气候—景观类型。",
+        "描述应包括地理位置、地形与土壤特性的关系，以及描述与对应样品的关系；其作用是为分析结果提供背景并支持合理解释。",
+        "记录分三类：(a)采样者、地点、时间和目的等基本样品数据；(b)地形信息；(c)土层/剖面基本情况。",
+        "最低限度的样点描述至少包含前两类；若结果要外推到较大区域或用于区域解释，还应记录土层资料并衔接土壤分类系统。",
+        "全国尺度位置可由国家地形测量地图确定经纬度，具体农场可由土地法定说明取得；GPS可提供经度、纬度和海拔的亚米级坐标。",
+        "并非所有信息都必须田间测定；土壤调查报告、地表与基岩地质图、水文报告可补充地形和土壤背景。"
+      ],
+      "references": [
+        "Maguire and Jensen，1997",
+        "NDSU Extension Service，1998",
+        "Schoeneberger et al.，2002",
+        "Soil Survey Staff，1951、1975",
+        "Taylor and Pohlen，1962",
+        "Walmsley et al.，1980",
+        "Day，1983",
+        "Knapik et al.，1988",
+        "USDA，2002",
+        "Webster and Butler，1976",
+        "Soil Classification Working Group，1998"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "A.2",
+      "title": "样点属性",
+      "level": 2
+    },
+    {
+      "type": "overview",
+      "text": "表A1～A3是土壤相关研究的样点属性表：A1记录调查点基本信息及采样方法，A2记录地形描述，A3记录土壤剖面。"
+    }
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "number": "A1-本页部分",
+      "title": "基本采样信息",
+      "rows": [
+        ["项目编号", ""],
+        ["区域背景", ""]
+      ],
+      "continuedOnPage": 351
+    }
+  ],
+  "contentSha256": "742cab47dfeabf0440ec91e88e31229157fe279bfe57e3c5236a9d6bac7e7aba"
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 241,
+  "sourceImageSha256": "03ef8a51fdb9f939d69dd79e55c740d8274a94329f33c049a62f1cb7436c70e6",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐条对照原分辨率页图、两套OCR和英文原章，完成76.3.3(3)—(4)及参考文献前14条"},
+    "precisionPass": {"status": "verified", "method": "核验Δθ倍增/K_fs<20%、各K_fs/α*符号及作者、年份、卷页、书名、机构"},
+    "secondVisualPass": {"status": "verified", "method": "复核降水头法偏高机理和跨页参考文献边界，清除断词而不改变题名；印刷页码750"}
+  },
+  "blocks": [
+    {
+      "type": "method-notes",
+      "items": [
+        "式(76.6)—(76.7)对Δθ相对不敏感：Δθ改变2倍，K_fs通常改变<20%。只需K_fs近似值时，可用TDR获得的田间平均Δθ，或由质地和前期湿度估计。",
+        "有套管降水头井渗法相对其他方法常高估K_fs和α*；原因可能是Philip理论的简化假设、方法间流动几何/取样体积不同，或套管—井壁侧漏。"
+      ]
+    },
+    {
+      "type": "references",
+      "entries": [
+        "Amoozegar, A. 1992. Compact constant head permeameter: a convenient device for measuring hydraulic conductivity. In: G.C. Topp et al., eds. Advances in Measurement of Soil Physical Properties: Bringing Theory into Practice. SSSA Special Publication 30. Soil Science Society of America, Madison, WI, 31–42.",
+        "Amoozegar, A. 1993. Comments on ‘Methods for analyzing constant-head well permeameter data.’ Soil Sci. Soc. Am. J. 57: 559–560.",
+        "Amoozegar, A. 2002. Piezometer method (saturated zone). In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 859–878.",
+        "Amoozegar, A. and Warrick, A.W. 1986. Hydraulic conductivity of saturated soils: field methods. In: A. Klute, ed. Methods of Soil Analysis, Part 1—Physical and Mineralogical Methods. Agronomy 9. Soil Science Society of America, Madison, WI, 758–763.",
+        "Amoozegar, A. and Wilson, G.V. 1999. Methods for measuring hydraulic conductivity and drainable porosity. In: R.W. Skaggs and J. van Schilfgaarde, eds. Agricultural Drainage. Agronomy Monograph 38. American Society of Agronomy, Crop Science Society of America, and Soil Science Society of America, Madison, WI, 1149–1205.",
+        "Ankeny, M.D. 1992. Methods and theory for unconfined infiltration measurements. In: G.C. Topp et al., eds. Advances in Measurement of Soil Physical Properties: Bringing Theory into Practice. SSSA Special Publication 30. Soil Science Society of America, Madison, WI, 123–141.",
+        "Bagarello, V. 1997. Influence of well preparation on field-saturated hydraulic conductivity measured with the Guelph permeameter. Geoderma 80: 169–180.",
+        "Bell, R.W. and Schofield, N.J. 1990. Design and application of a constant head well permeameter for shallow high saturated hydraulic conductivity soils. Hydrol. Process. 4: 327–342.",
+        "Campbell, C.M. and Fritton, D.D. 1994. Factors affecting field-saturated hydraulic conductivity measured by the borehole permeameter technique. Soil Sci. Soc. Am. J. 58: 1354–1357.",
+        "Elrick, D.E. and Reynolds, W.D. 1986. An analysis of the percolation test based on three-dimensional, saturated–unsaturated flow from a cylindrical test hole. Soil Sci. 142: 308–321.",
+        "Elrick, D.E. and Reynolds, W.D. 1992. Methods for analyzing constant-head well permeameter data. Soil Sci. Soc. Am. J. 56: 320–323.",
+        "Elrick, D.E. and Reynolds, W.D. 1993. Reply to ‘Comments on “Methods for analyzing constant-head well permeameter data”.’ Soil Sci. Soc. Am. J. 57: 560–563.",
+        "Elrick, D.E. and Reynolds, W.D. 2002. Measuring water transmission parameters in vadose zone using ponded infiltration techniques. Agri. Sci. 7: 17–22.",
+        "Elrick, D.E., Reynolds, W.D., and Tan, K.A. 1989. Hydraulic conductivity measurements in the unsaturated zone using improved well analyses. Ground Water Monit. Rev. 9: 184–193."
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "28ffde1a06a992af8eb6dc570a6d51f7be6a5bc78b7f3b1d076f1f0fadb38bee"
+}

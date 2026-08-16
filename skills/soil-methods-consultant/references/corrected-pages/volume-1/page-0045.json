@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 45,
+  "sourceImageSha256": "abb34585145c6292dfdc13e161f4330ad60b715e07ebc5233c1e238cc1c80eed",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文与柱状图页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部漏字与错字"},
+    "precisionPass": {"status": "verified", "method": "放大核对全部百分比区间、300 m²/400 m²、KCl、NO₃-N、NH₄-N、Cₜ/Nₜ、60℃、LF/H层及Al与Fe等元素符号"},
+    "secondVisualPass": {"status": "verified", "method": "按续接段落、数值单位、化学式、图例、两图横纵轴、图题、图注、末段数字和页码顺序反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "continuation": true, "text": "起的。图2.1表示在 Arp 和 Krause（1984）的研究中，分别设10、15和20个采样点，置信水平设为95%时，运用变异系数得到的误差范围。这个简单的案例表明，除总C含量和土壤pH值外，使用10个采样点误差范围通常不可能达到5%。对于养分浓度（除NO₃-N、NH₄-N和鲜土中的P外）和物理特性（即含水量、深度和质量）来说，设10、15和20个采样点的误差范围分别为9.9%～31%、8.0%～26%和7.0%～22%，森林地被物重量的误差范围最高，全N的误差范围最低。然而，当这些浓度向库中转换时，需要20个采样点，以获得19%～29%的误差范围。同样地，McFee 和 Stone（1965）发现，在计算阿迪朗达克森林土中地被物的重量和厚度的平均值时，为将误差范围控制在10%以内，至少需要50个采样点（置信水平为95%）。这说明，对森林地被物养分库进行高置信水平评估的问题很大程度上是由于森林地被物重量和厚度的高变异性造成的。结果表明，对KCl浸提态NO₃-N和NH₄-N及鲜土中水溶态P的浓度和库来说，设置田间检验处理重复在经济上和逻辑上均不可行。", "inlineNotation": ["10", "15", "20", "95%", "5%", "NO_3-N", "NH_4-N", "P", "9.9%～31%", "8.0%～26%", "7.0%～22%", "19%～29%", "10%", "50", "KCl"]},
+    {"type": "paragraph", "text": "能够真正代表田块均值的采样点数量与田块尺度关系不大。与 Arp 和 Krause（1984）的研究相比，Quesnel 和 Lavkulich（1980）、Carter 和 Lowe（1986）的试验田面积相对较小（分别为300 m²和400 m²），但获得田块均值的合理估计值所需的抽样密度是相似的。有趣的是，Carter 和 Lowe（1986）分别以LF层和H层作为不同的样本进行研究，发现LF层（3～10个样品）比H层（3～38个样品）需要较少的样品就可以对C、N、P、S总量和pH值的总体平均值做出可靠的估算（误差范围为10%，置信水平为95%）。", "inlineNotation": ["300 m^2", "400 m^2", "LF", "H", "3～10", "3～38", "C", "N", "P", "S", "pH", "10%", "95%"]},
+    {
+      "type": "figure",
+      "number": "2.1",
+      "caption": "在 Arp 和 Krause（1984）的研究中，采用置信水平为95%，分别设10、15和20个采样点时的变异系数获取的总体平均值（森林地被物（a）重量、含水量、pH值和可浸提态的养分、总C（Cₜ）、总N（Nₜ）浓度，以及（b）可浸提态养分、Cₜ和Nₜ库）的误差范围。",
+      "legend": ["10个样点", "15个样点", "20个样点"],
+      "panels": [
+        {
+          "label": "a",
+          "yAxis": {"label": "误差范围", "unit": "%", "shownRange": "0～120", "tickStep": "20"},
+          "xCategories": ["Weight", "Moisture", "Cₜ", "Nₜ", "pH", "NO₃-N", "P (moist)", "P (60℃)", "NH₄-N", "Mg", "K", "Ca"]
+        },
+        {
+          "label": "b",
+          "yAxis": {"label": "误差范围", "unit": "%", "shownRange": "0～120", "tickStep": "20"},
+          "xCategories": ["Cₜ", "Nₜ", "NO₃-N", "P (moist)", "P (60℃)", "NH₄-N", "Mg", "K", "Ca"]
+        }
+      ],
+      "dataNote": "柱形仅以图形高度表示，原页未印逐柱数值；未据图形猜测精确数值。"
+    },
+    {"type": "paragraph", "text": "上述结果也表明，置信水平为95%、误差范围为20%以内时，15个样品足以描述LF层和H层中Mg、K、N、P、C、Cu和Zn的总量，脂类含量，pH值和容重的总体平均值。然而，为了获得相似的误差范围，H层中Ca和Mn的总量总体均值的估计分别需要81个和47个样品，LF层中Al和Fe的总量总体均值的估计则分别需要41个和50个样品。", "inlineNotation": ["95%", "20%", "15", "LF", "H", "Mg", "K", "N", "P", "C", "Cu", "Zn", "pH", "Ca", "Mn", "81", "47", "Al", "Fe", "41", "50"]},
+    {"type": "printed-page-number", "text": "14"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d6914d60174c98ed01f9f6f45128e9d5088081249bfea3c752b38695a24595e0"
+}

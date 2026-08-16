@@ -1,0 +1,88 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 265,
+  "sourceImageSha256": "3af4a4ba989032c0801e9c8d0a60157ae1ca49e0198d6c40e4a15daec23a8c30",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对80.1续、80.2全文、式(80.1a)—(80.3)及图80.2图注"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验湿端−7000≤ψ≤−100 mm、I/S/A/t量纲、平方根、极限、t≥t₀及三个S数值和m·s⁻¹ᐟ²单位"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "公式与坐标轴高倍复核，并对照英文原章确认I/√t—√t判别接触砂层；印刷页码774"
+    }
+  },
+  "blocks": [
+    {
+      "type": "scope-continuation",
+      "text": "第81章为湿端（−7000 mm≤ψ≤−100 mm）室内土柱K(ψ)；第82、83章为田间K(ψ)或S(ψ)；第84章为代理性质估算K(ψ)。因土芯约束，室内张力入渗仪的K(ψ)及毛管参数主要对应一维流。"
+    },
+    {
+      "type": "heading",
+      "number": "80.2",
+      "title": "近饱和吸渗率的计算",
+      "level": 2
+    },
+    {
+      "type": "calculation-guidance",
+      "text": "初始干燥土壤在固定ψ₀下，Philip早期展开为式(80.1a)，可整理成式(80.1b)。早期毛管力占主导，故I—√t图趋于过原点直线，斜率为S(ψ₀)；I/√t—√t图在理想早期趋于水平，纵截距为S(ψ₀)。"
+    },
+    {
+      "type": "method-note",
+      "text": "接触砂层虽用于建立水力接触，却会扰动最早期关系。绘制I/√t对√t：砂层初始湿润阶段斜率变化（区域1）；土壤控制后斜率稳定（区域2）。式(80.1a,b)只用于t≥t₀（砂层完全湿润）数据。Vandervaere等（2000a,b）给出另一种去除早期砂层影响的方法。"
+    },
+    {
+      "type": "figure",
+      "number": "80.2",
+      "title": "I—t¹ᐟ²和I/t¹ᐟ²—t¹ᐟ²图",
+      "interpretation": [
+        "区域1受接触砂层影响；区域2只受土壤影响。I—√t图难分区域2，I/√t—√t图较易。",
+        "跨区域1和2对式(80.1a)回归得S(ψ₀)=0.000258 m·s⁻¹ᐟ²，不准确。",
+        "仅用区域2（√t≥√t₀）：式(80.1a)得S(ψ₀)=0.000283 m·s⁻¹ᐟ²；式(80.1b)得0.000287 m·s⁻¹ᐟ²。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "图80.2横轴和变换均为t¹ᐟ²，不是t或t²；纵轴为I/t¹ᐟ²，单位m·s⁻¹ᐟ²。OCR把0.000258/0.000283/0.000287及负半次方多处破坏，均据原图恢复。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "80.1a",
+      "plain": "I=S(ψ₀)√t+At",
+      "latex": "I=S(\\psi_0)\\sqrt{t}+At",
+      "resultUnit": "L",
+      "variables": [
+        "I：累积入渗量，[L]",
+        "S(ψ₀)：固定基质水头ψ₀下吸渗率，[L·T⁻¹ᐟ²]",
+        "A：与土壤导水率有关的参数，[L·T⁻¹]",
+        "t：时间，[T]"
+      ]
+    },
+    {
+      "label": "80.1b",
+      "plain": "I/√t=A√t+S(ψ₀)",
+      "latex": "\\frac{I}{\\sqrt{t}}=A\\sqrt{t}+S(\\psi_0)",
+      "resultUnit": "L·T⁻¹ᐟ²"
+    },
+    {
+      "label": "80.2",
+      "plain": "lim_{t→0} I → S(ψ₀)√t",
+      "latex": "\\lim_{t\\to0}I\\to S(\\psi_0)\\sqrt{t}",
+      "resultUnit": "L"
+    },
+    {
+      "label": "80.3",
+      "plain": "S(ψ₀)≈I/√t (early time)",
+      "latex": "S(\\psi_0)\\approx\\frac{I}{\\sqrt{t}}\\quad(t\\to0)",
+      "resultUnit": "L·T⁻¹ᐟ²"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "54b249f7c4cb60bf08256bb1ff4870f8ceda2bb677b2033ea1bb6ad8f3b9ef7b"
+}

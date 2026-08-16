@@ -1,0 +1,54 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 489,
+  "sourceImageSha256": "7e219b95d79596fcc206c732bd6d8fd5f9e4b5019342719f27b0370d7a1c58da",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页与两套OCR，恢复48.3.6戊糖标题、全部材料/步骤/注释和48.3.7引言及材料（1）～（4）"},
+    "precisionPass": {"status": "verified", "method": "核验0.1 g FeCl₃/100 mL 32% HCl、3,5-二羟基甲苯结构、95 °C 20 min、660 nm、1:1试剂体积和戊糖/己糖比"},
+    "secondVisualPass": {"status": "verified", "method": "由48.3.7材料（4）反向复核至48.3.6章题，检查戊糖、己糖字形和第34/50章交叉引用；印刷页码458"}
+  },
+  "blocks": [
+    {"type": "section-heading", "level": 3, "number": "48.3.6", "title": "戊糖"},
+    {"type": "paragraph", "text": "戊糖也是土壤微生物的能源；同时测定戊糖与己糖可表征DOM中碳水化合物总丰度。土壤戊糖主要来自植物（第50章），因而戊糖/己糖比可表明DOM中植物源碳水化合物的相对丰度。"},
+    {"type": "subsection-heading", "level": 4, "title": "1. 材料与试剂", "scope": "48.3.6"},
+    {"type": "materials-list", "scope": "48.3.6", "items": [
+      {"number": "（1）", "text": "带聚四氟乙烯内衬螺旋盖的10 mL玻璃管。"},
+      {"number": "（2）", "text": "95 °C水浴锅。"},
+      {"number": "（3）", "text": "分光光度计。"},
+      {"number": "（4）", "text": "光径1 cm的光学玻璃或塑料比色皿。"},
+      {"number": "（5）", "text": "FeCl₃试剂：将0.1 g分析纯FeCl₃溶于100 mL分析纯浓盐酸（32% v/v）。"},
+      {"number": "（6）", "text": "95%分析纯乙醇。"},
+      {"number": "（7）", "text": "3,5-二羟基甲苯（苔黑酬，orcinol）试剂：将1 g 3,5-二羟基甲苯[CH₃C₆H₃-1,3-(OH)₂]溶于100 mL 95%乙醇。"},
+      {"number": "（8）", "text": "标准贮备液：用去离子水配制100 mg·L⁻¹分析纯核糖。"},
+      {"number": "（9）", "text": "标准工作液：2.5、5、10、20、30和50 mg·L⁻¹核糖。"}
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "2. 步骤", "scope": "48.3.6"},
+    {"type": "procedure-step", "number": "（1）", "text": "分别加1 mL DOM提取液、标准液或空白于玻璃管。"},
+    {"type": "procedure-step", "number": "（2）", "text": "每管各加1 mL FeCl₃试剂和1 mL 3,5-二羟基甲苯试剂，拧紧管盖。"},
+    {"type": "procedure-step", "number": "（3）", "text": "95 °C水浴20 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "在冰上冷却5 min。"},
+    {"type": "procedure-step", "number": "（5）", "text": "加2 mL 95%乙醇，混匀。"},
+    {"type": "procedure-step", "number": "（6）", "text": "将足量待测液或标准液转入比色皿，以空白为参比，在660 nm读取吸光度。"},
+    {"type": "procedure-step", "number": "（7）", "text": "作核糖标准曲线，计算戊糖含量，报告为mg核糖当量·L⁻¹。"},
+    {"type": "subsection-heading", "level": 4, "title": "3. 注释", "scope": "48.3.6"},
+    {"type": "note", "number": "（1）", "text": "本法改自生物组织戊糖释放测定法（Mejbaum，1939），已用于水提取液，并能可靠估计土壤DOM总戊糖（Kawahigashi等，2003）。"},
+    {"type": "note", "number": "（2）", "text": "单一化合物校准可能高估溶液戊糖。玻璃管使用前用超纯水清洗，避免己糖污染。戊糖色谱分析应参考第50章碳水化合物方法。"},
+    {"type": "source-fidelity-note", "scope": "48.3.6色谱法交叉引用", "text": "原书页面印作‘第34章’，但第34章为《蚯蚓》，与戊糖色谱无关；相邻己糖注释及本页前文均指向第50章《碳水化合物》。运行时交叉引用已校为第50章，同时保留原书误印记录。"},
+    {"type": "section-heading", "level": 3, "number": "48.3.7", "title": "氨基酸"},
+    {"type": "paragraph", "text": "DOM含低浓度游离氨基酸，这些游离氨基酸是自然生态系统中土壤微生物和植物所需氮的主要来源（Jones和Kjelland，2002）。"},
+    {"type": "subsection-heading", "level": 4, "title": "1. 材料与试剂", "scope": "48.3.7"},
+    {"type": "materials-list", "scope": "48.3.7", "items": [
+      {"number": "（1）", "text": "带聚四氟乙烯内衬螺旋盖的10 mL玻璃管。"},
+      {"number": "（2）", "text": "95 °C水浴锅。"},
+      {"number": "（3）", "text": "室温水浴锅。"},
+      {"number": "（4）", "text": "分光光度计。"}
+    ]}
+  ],
+  "formulas": [
+    {"id": "48.3.6-pentose-hexose-ratio", "display": "Rplant = [pentose]/[hexose]", "meaning": "DOM中植物源碳水化合物相对丰度指标；两者必须用一致的当量口径"},
+    {"id": "48.3.6-pentose-curve", "display": "pentoses = f⁻¹(A₆₆₀)", "unit": "mg ribose equivalents·L⁻¹", "meaning": "根据核糖标准曲线求戊糖当量"}
+  ],
+  "tables": [],
+  "contentSha256": "0ddd8ff7bf852b07f4c8259bfcc6b135732c625e5603cb1baa4af4ef2cc9650e"
+}

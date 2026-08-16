@@ -1,0 +1,103 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 337,
+  "sourceImageSha256": "8823411e66ad0297a3f604519164ab6ee4863b773fd224c8b26aab0b54148ba9",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对85.7.3套合拟合、85.8参数解释和85.9.1案例第一步"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对式(85.13)、b₀～b₂、a₁/a₂、V_N/V_S阈值、384 m、3 m和128个样品"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "纯块金/双球状组合、块金/偏基台/总基台概念及K_s下标二次反查；印刷页码846"
+    }
+  },
+  "blocks": [
+    {
+      "type": "continuation",
+      "text": "交叉验证的候选模型可用r²、标准误差、RMSE和MRE等指标比较。"
+    },
+    {
+      "type": "heading",
+      "number": "85.7.3",
+      "title": "套合半方差函数模型拟合",
+      "level": 3
+    },
+    {
+      "type": "nested-model",
+      "items": [
+        "套合结构可用两个或更多基本可容许半方差模型的线性组合表示，这一过程称线性区域化。",
+        "式(85.13)以一个纯块金模型g(h)和两个零块金、单位基台、变程分别为a₁和a₂的球状基函数SP₁、SP₂组合。",
+        "可先分别拟合单个结构以估计各尺度的变程，再以b₀、b₁、b₂作为贡献系数拟合组合模型。",
+        "交叉半方差的套合线性区域化还须满足联合可容许性约束，不能仅逐变量独立拟合。"
+      ],
+      "references": [
+        "Isaaks和Srivastava，1989",
+        "Goovaerts，1997",
+        "Morisette，1997"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "85.8",
+      "title": "块金值、变程、范围和基台值的解释",
+      "level": 2
+    },
+    {
+      "type": "parameter-definitions",
+      "items": [
+        "块金值c₀是半方差模型在h→0⁺处的截距；它综合反映测量误差和小于最小采样间距的微尺度变异。",
+        "变程a是结构相关性消失的特征距离。具有有限基台的模型在h≥a后达到常数；指数和高斯模型使用实用变程。",
+        "偏基台c是结构分量贡献，总基台为c₀+c。总基台常接近样本方差，但不要求严格相等。",
+        "h<a时样本仍存在空间/时间相关；有限变程模型在h≥a时相关性近似消失。",
+        "空间依赖强度常以块金/总基台比c₀/(c₀+c)表示：<25%为强空间依赖，25%～75%为中等，>75%为弱空间依赖。",
+        "当c₀=0时，偏基台与总基台相等。"
+      ],
+      "reference": "Cambardella等，1994"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书本节混用了偏基台与总基台，并印为“块金值为0时，范围和基台值相等”；距离与方差量纲不同，不可能相等。现统一为c₀（块金）、c（偏基台）、c₀+c（总基台），并把V_N/V_S明确为块金/总基台比。原书把>75%称为“不具有空间变异性”，校正为“空间依赖弱”。"
+    },
+    {
+      "type": "heading",
+      "number": "85.9",
+      "title": "计算实例",
+      "level": 2
+    },
+    {
+      "type": "heading",
+      "number": "85.9.1",
+      "title": "土壤导水率和砂粒含量空间变异性分析",
+      "level": 3
+    },
+    {
+      "type": "case-overview",
+      "items": [
+        "沿384 m样线每3 m采样一次，共128个样品；变量为土壤饱和导水率K_s和砂粒含量Sa（Zeleke和Si，2005）。",
+        "第一步检查平稳性、趋势、异常值和分布。沿样线未见显著单调趋势或明显异常值；分成4～5段后，各段均值和方差仍近似相似。",
+        "直方图没有大幅偏斜，故把K_s和Sa视为近似正态而不作转换；但正态性本身不是平稳性的必要条件。",
+        "两个变量均表现出空间结构。依表85.2的128组原始数据复算，K_s与Sa的Pearson相关系数约为+0.401，整体为正相关而非负相关。"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "label": "85.13",
+      "plain": "γ(h)=b₀g(h)+b₁SP₁(h,a₁)+b₂SP₂(h,a₂)",
+      "latex": "\\gamma(h)=b_0g(h)+b_1\\operatorname{SP}_1(h,a_1)+b_2\\operatorname{SP}_2(h,a_2)"
+    },
+    {
+      "label": "空间依赖强度",
+      "plain": "R_n=c₀/(c₀+c)×100%",
+      "latex": "R_n=\\frac{c_0}{c_0+c}\\times100\\%"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "692cf99efd3a0f8d2acda6a87350d1004b5cfc03eacbe76fbdde7516ae41aade"
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 153,
+  "sourceImageSha256": "cbda0617d7a3b9c435c84a44cb16d48796593e6c2283367b487ff68610e10470",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复电导率换算、表15.1和可溶性阴阳离子方法概述"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验μmho/cm、mmho/cm、S/m、dS/m、Na⁺、K⁺、Ca²⁺、Mg²⁺、Cl⁻、SO₄²⁻、HCO₃⁻、CO₃²⁻、S²⁻、Fe²⁺/³⁺、波长、百分比和表格交叉标记"},
+    "secondVisualPass": {"status": "verified", "method": "从页末未完句反向复核至页首注释续句，确认表15.1八列方法适用性、脚注、引文、英文缩写和页码122"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "continuation": true, "text": "的处理中，使用的单位为μmho/cm。国际电导率单位为S/m，但是结果更多的采用dS/m表示。水的电导率为0.0002 mho/cm时，也可表示为0.2 mmho/cm，200 μmho/cm，0.020 S/m，或0.2 dS/m。"},
+    {"type": "section-heading", "level": 4, "number": "15.3.2", "title": "可溶性离子含量方法概述和对比"},
+    {"type": "paragraph", "text": "各种可用于分析土壤—水提取液中可溶性阴阳离子的方法见表15.1。大多实验室都使用火焰原子吸收光谱仪（FL-AAS）分析可溶性阳离子，连续流动分析仪比色法测定Cl⁻和SO₄²⁻，滴定法分析HCO₃⁻和CO₃²⁻。"},
+    {"type": "table", "label": "表15.1", "title": "可用于测定饱和泥浆和固定比例提取液中可溶性阳离子和阴离子浓度的方法"},
+    {"type": "table-footnote", "text": "ᵃ FL-AAS：火焰原子吸收光谱仪；IC：离子色谱仪；ICP-AES：电感耦合等离子体原子发射光谱仪。"},
+    {"type": "paragraph", "text": "当经费有限、样品数量不大、不要求极低检测限时，火焰原子吸收光谱仪是分析可溶性阳离子的首选仪器（Wright和Stuczynski，1996）。离子色谱法（IC）多用于分析水体系（American Public Health Association，1998）和土壤提取液（Nieto和Frankenberger，1985a）中的Cl⁻和SO₄²⁻。虽然IC也可用于测定土壤中可溶性阳离子（Basta和Tabatabai，1985；Nieto和Frankenberger，1985b），但实际应用很少。"},
+    {"type": "paragraph", "text": "电感耦合等离子体原子发射光谱仪（ICP-AES）已越来越多地被用于分析土壤提取液（Soltanpour等，1996；Wright和Stuczynski，1996）和水（Vitale等，1991）中的可溶性Na⁺、K⁺、Ca²⁺和Mg²⁺。此外，ICP-AES还可用于测定水提取液中的非金属离子，如S²⁻和Cl⁻（Richter等，1999）。与传统的FL-AAS相比，ICP-AES的优点是等离子流极为稳定，使某些元素达到更低的检测限成为可能，并具有在2 min内同时测量水样中15～20种金属元素的能力（Vitale等，1991）。ICP-AES的缺点是初始成本和运行成本高（气、电、耗材）（Wright和Stuczynski，1996）和易受高浓度总溶解固体Na⁺、Ca²⁺、Fe²⁺/³⁺和Al³⁺的基质干扰（Vitale等，1991）。"},
+    {"type": "procedure-heading", "level": 5, "number": "1.", "title": "可溶性阳离子"},
+    {"type": "paragraph", "text": "钠普遍采用火焰发射光度法在589 nm波长下分析，而钾在766.5 nm波长下分析（Robbins和Wiegand，1990；Helmke和Sparks，1996）。预处理包括过滤去除所有固体颗粒。传统上，钙采用AAS在422.7 nm或285.2 nm波长下分析（Robbins和Wiegand，1990；Suarez，1996）。可形成稳定酸盐的元素（Al、Be、P、Si、Ti、V和Zr）可能会干扰Ca²⁺和Mg²⁺的检测，但这些元素可通过在样品中添加0.1%～1.0%的镧或锶的氯化物去除。"},
+    {"type": "procedure-heading", "level": 5, "number": "2.", "title": "可溶性阴离子"},
+    {"type": "paragraph", "continued": true, "text": "土壤提取液中的Cl⁻最常采用AgNO₃电位滴定法、固态选择离子电极直接电位分析法、连续流动分析法（硫氰酸汞法）或IC法分析（Frankenberger等，1996）。Cl⁻的测定方法中硫氰酸汞法应用最为广泛，但有向IC和ICP-AES方法发展的趋势，从而避免Hg和氰酸盐的使用及废液处理。重量法、比浊法、滴定法和比色法是最常用于分析土壤提取液中SO₄²⁻的方法，但最灵敏和准确的方法是亚甲基蓝（MB）比色法和IC法（Tabatabai，1996）。此外，甲基百里酚蓝连续流动分析法常用于直接测定水体系中的SO₄²⁻"},
+    {"type": "printed-page-number", "text": "122"}
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "label": "表15.1",
+      "title": "可用于测定饱和泥浆和固定比例提取液中可溶性阳离子和阴离子浓度的方法",
+      "columns": ["方法ᵃ", "Na⁺", "K⁺", "Ca²⁺", "Mg²⁺", "Cl⁻", "SO₄²⁻", "HCO₃⁻/CO₃²⁻"],
+      "rows": [
+        ["FL-AAS", "×", "×", "×", "×", "", "", ""],
+        ["IC", "×", "×", "×", "×", "×", "×", ""],
+        ["ICP-AES", "×", "×", "×", "×", "×", "", ""],
+        ["重量法", "", "", "", "", "×", "×", ""],
+        ["比色法", "", "", "", "", "×", "×", ""],
+        ["电位法", "", "", "", "", "×", "", "×"],
+        ["比浊法", "", "", "", "", "", "×", ""],
+        ["滴定法", "", "", "", "", "", "×", "×"]
+      ],
+      "footnotes": ["ᵃ FL-AAS：火焰原子吸收光谱仪；IC：离子色谱仪；ICP-AES：电感耦合等离子体原子发射光谱仪。"]
+    }
+  ],
+  "contentSha256": "22ba2d2149939bd1696ef59367ef4995c5ff0ab77ff2bb83cc1c559636e2af50"
+}

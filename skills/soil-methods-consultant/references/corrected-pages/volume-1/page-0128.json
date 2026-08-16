@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 128,
+  "sourceImageSha256": "009be7cab5af2a789bdbe1127b2fe4ba7089b5dc4bd8abdef7c8c04bf062fbfb",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照第12章首页原图，并与Apple Vision、PaddleOCR交叉比对，人工恢复两OCR中大量漏失的“土”“用”“生”等字及各段完整语义"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者与机构、作物拉丁名、pH、H⁺、CaCO₃、数值范围6.0～7.0、引文年份及四项原则层级"},
+    "secondVisualPass": {"status": "verified", "method": "从页末“在北”反向复核至章标题，确认段落边界、未闭合的原书括号写法、连接号和续页位置均与原图一致"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "第12章", "text": "石灰需求量"},
+    {"type": "author", "text": "N. Ziadi"},
+    {"type": "affiliation", "text": "Agriculture and Agri-Food Canada\nQuebec, Quebec, Canada"},
+    {"type": "author", "text": "T. Sen Tran"},
+    {"type": "affiliation", "text": "Institute of Research and Development in Agroenvironment\nQuebec, Quebec, Canada"},
+    {"type": "section-title", "number": "12.1", "text": "引言"},
+    {"type": "paragraph", "text": "土壤pH值指示土壤溶液的酸度，是最常测定的土壤理化性质之一，也是一个常规的土壤分析项目。土壤pH值影响许多元素的溶解度、有效性及其中的微生物活性（Curtin等，1984；Marschner，1995）。酸性土壤中铝或锰的含量一般较高，并会对一些植物产生毒害。土壤的目标pH值，是指最适宜植物生长的pH值，此值因作物种类而异，也会因土壤类型不同而变化。一般来说，虽然包括马铃薯（Solanum tuberosum L.）和越橘（Vaccinium spp.）在内的某些植物也能适应较低的土壤pH值，但大多数农作物（如玉米（Zea mays L.）、大豆（Glycine max L. Merr.）和小麦（Triticum aestivum）的理想土壤pH值在6.0～7.0。因此，在很多地区，向酸性土壤中施用石灰是保证土壤pH值适宜作物生长的基本手段。"},
+    {"type": "paragraph", "text": "用于确定石灰需求量的土壤酸度有两个组成部分，分别是活性酸度和潜性（贮备）酸度。活性酸度指土壤溶液中H⁺的浓度，可用于指示是否需要加入石灰以降低土壤酸度。潜性酸度是指吸附于土壤黏土矿物和有机质组分交换位点上的H⁺数量，这些H⁺会影响达到土壤目标pH值所需的石灰需求量。潜性（贮备）酸度越大，土壤对pH值变化的缓冲能力越强且石灰需求量也越大。"},
+    {"type": "paragraph", "text": "石灰需求量的定义是在酸性条件下增加土壤pH值以达到该土壤最适宜目标pH值水平时所用的农用石灰石（CaCO₃）或其他碱性材料的总量。石灰需求量受土壤酸度和土壤理化性质（主要是土壤质地和有机质含量）的影响。采用如土壤—石灰培养法、土壤—碱滴定法或土壤—缓冲平衡法等不同的实验方法也会影响建议施用的石灰量（Aitken，1990；Conyers等，2000；Alatas等，2005）。建立准确评估石灰需求量的方法是十分必要的，并且这些方法应基于研究和实践经验在不同地区进行不同石灰需求量实验。选取石灰需求量的具体测定技术还必须考虑一些实际的问题，如开展实验所需的时间、设备、器材及资金等。目前，全球范围内已有许多技术和方法成功地用于石灰需求量的测定，并在之前的研究中报道过（McLean，1982；van Lierop，1990）。这些方法大部分基于以下四项原则（Sims，1996）："},
+    {"type": "ordered-list-item", "number": "①", "text": "在田间施用石灰时，测定的石灰需求量应能反映达到目标pH值的石灰需求量；"},
+    {"type": "ordered-list-item", "number": "②", "text": "石灰需求量实验应能准确测量土壤中各种形式的酸度（解离和未解离的）；"},
+    {"type": "ordered-list-item", "number": "③", "text": "在需要进行石灰需求量实验的地区进行相应的校准；"},
+    {"type": "ordered-list-item", "number": "④", "text": "需对石灰需求量实验进行校准，以确定石灰石和其他石灰材料之间的转换系数。"},
+    {"type": "paragraph", "continued": true, "text": "可在田间或实验室采用不同的方法，估算改良土壤酸度及获得理想的土壤pH值所需的石灰用量。土壤—石灰培养法、土壤—碱滴定法或土壤—缓冲平衡法（Viscarra Rossel和McBratney，2003；Machacha，2004；Liu等，2005）是最常用的方法。然而，田间试验依然是确定土壤石灰需求量最准确的方法，对于新型石灰材料的评估更是如此。尽管这些方法耗时且昂贵，但它们是那些更加快速、廉价方法的基础。在北"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "080134b4288b77cc291c9a1b81e236cd3686a7e01ca04ef1f2b9d203a0dca3ff"
+}

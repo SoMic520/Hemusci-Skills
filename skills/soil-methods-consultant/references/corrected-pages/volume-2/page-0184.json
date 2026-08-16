@@ -1,0 +1,31 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 184,
+  "sourceImageSha256": "ff6fa27aa06168851b8dd055e4f9313d7d3f1830eec5f89757c91a17214fc07e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段逐表对照原分辨率页图和两套OCR，完成式(70.5)—(70.8)、70.5.1及表70.2前两行"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验g₁/g₂/g₃、√ε_ra、2π√LC、100—150 MHz及表格C/I、S、P/B、CR/PR"},
+    "secondVisualPass": {"status": "verified", "method": "由表70.2跨页处反向复核四式的根号范围和相等关系；印刷页码693"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "阻抗Z与相对介电常数平方根成反比，g₁为探针几何形状系数，可由计算或用已知ε的液体（如水）实测；确定特定杆式探针g₁后可用式(70.2)校准。"},
+    {"type": "paragraph", "text": "电容探针与邻近土壤构成LC共振电路，电容C=g₂ε_ra，g₂由电极形状决定。选择电感L使共振频率100—150 MHz，可尽量减小盐分和导电影响。F=(2π√LC)⁻¹，代入C后得到F与1/√ε_ra的线性式(70.8)，但导电土常需直接土壤校准。"},
+    {"type": "heading", "number": "70.5.1", "title": "材料和设备", "level": 3},
+    {"type": "paragraph", "text": "系统包括含土壤的探针、电子设备、数据记录器、软件以及校准/安装用品（如土钻）。探针与电路的物理排列会改变g₁、g₂，商用设备常将全部射频部分与探针固定以维持几何整体性。"},
+    {"type": "source-fidelity-note", "text": "式(70.8)第一分母为2π√(Lg₂)√ε_ra，根号不包含ε_ra；等价于g₃/√ε_ra。表70.2是历史设备举例，不作为当前规格。"}
+  ],
+  "formulas": [
+    {"label": "70.5", "plain": "Z = g₁/√ε_ra = f(θ_v)", "latex": "Z=\\frac{g_1}{\\sqrt{\\varepsilon_{ra}}}=f(\\theta_v)", "resultUnit": "instrument-specific"},
+    {"label": "70.6", "plain": "C = g₂ε_ra", "latex": "C=g_2\\varepsilon_{ra}", "resultUnit": "F"},
+    {"label": "70.7", "plain": "F = (2π√(LC))⁻¹ = f(θ_v)", "latex": "F=(2\\pi\\sqrt{LC})^{-1}=f(\\theta_v)", "resultUnit": "Hz"},
+    {"label": "70.8", "plain": "F = 1/[2π√(Lg₂)√ε_ra] = g₃/√ε_ra", "latex": "F=\\frac{1}{2\\pi\\sqrt{Lg_2}\\sqrt{\\varepsilon_{ra}}}=\\frac{g_3}{\\sqrt{\\varepsilon_{ra}}}", "resultUnit": "Hz"}
+  ],
+  "tables": [
+    {"number": "70.2", "title": "电容和电阻设备及探针与操作信息举例（本页起）", "columns": ["供应商及国家", "型号", "频率", "C/I", "用法", "探针类型", "记录数据", "EC校准", "温度校准"], "rows": [
+      ["Sentek公司，澳大利亚", "EnviroSCAN", "150", "C", "S", "CR", "是", "无", "无"],
+      ["Delta-T Devices，英国", "Theta Probe", "100", "I", "P,B", "PR", "是", "无", "无"]
+    ], "note": "续见下页；缩写释义也见下页。"}
+  ],
+  "contentSha256": "29430ee968468545ef17b11f5f4d3a9330e8284c1c73aadc38b47930fc63a922"
+}

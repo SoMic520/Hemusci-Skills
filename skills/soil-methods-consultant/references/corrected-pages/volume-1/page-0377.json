@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 377,
+  "sourceImageSha256": "3432feefce09db3f9c0dd71a523c578978b56547e8b001e2455e5147ce2aa70a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版37.1"},
+    "precisionPass": {"status": "verified", "method": "核验NO₃⁻、NO₂⁻、NO、N₂O、N₂、C₂H₂、¹⁵N、pH<5.0及三类测定路线"},
+    "secondVisualPass": {"status": "verified", "method": "从田间测定承下句反向复核至章名和作者单位，区分NO与N₂O的气候属性；印刷页码346"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "37", "title": "土壤反硝化测定技术"},
+    {"type": "author", "name": "C.F. Drury", "affiliation": "Agriculture and Agri-Food Canada, Harrow, Ontario, Canada"},
+    {"type": "author", "name": "D.D. Myrold", "affiliation": "Oregon State University, Corvallis, Oregon, United States"},
+    {"type": "author", "name": "E.G. Beauchamp", "affiliation": "University of Guelph, Guelph, Ontario, Canada"},
+    {"type": "author", "name": "W.D. Reynolds", "affiliation": "Agriculture and Agri-Food Canada, Harrow, Ontario, Canada"},
+    {"type": "section-heading", "level": 2, "number": "37.1", "title": "引言"},
+    {"type": "paragraph", "text": "反硝化作用是硝酸盐离子（NO₃⁻）和亚硝酸盐离子（NO₂⁻）被生物还原为一氧化氮（NO）、一氧化二氮（N₂O）及分子态氮（N₂）等气态氮的过程。在农业土壤中，无机氮是作物根系吸收的必需营养，而气态氮在很大程度上通过逸气从根区损失。"},
+    {"type": "paragraph", "text": "土壤反硝化过程主要包括生物反硝化和化学反硝化。生物反硝化是微生物介导的还原过程，发生在土壤部分厌氧至完全厌氧条件下；化学反硝化则主要发生于同时含NO₂⁻的酸性土壤（pH<5.0）（Nelson，1982；Tiedje，1994）。Tiedje（1988）、Firestone和Davidson（1989）、Conrad（1995）及McKenney和Drury（1997）对土壤反硝化过程作了综述。"},
+    {"type": "paragraph", "text": "测定农业与森林土壤中的反硝化作用十分重要：其产生的N₂O是强温室气体；NO属于短寿命活性氮氧化物，可通过大气化学产生间接气候效应，但不应与N₂O并列称为长寿命强温室气体。根区无机氮损失还会降低作物产量和昂贵氮肥的利用效率。掌握土壤反硝化也有助于建立小区、田块、区域和国家尺度的土壤氮收支，从而制定有利的管理措施，使化肥、粪肥等氮投入的效能最大化，并使含氮气体逸散最小化。"},
+    {"type": "scientific-correction-note", "scope": "NO与N₂O的气候属性", "text": "中译本及英文原文均写“尤其是NO和N₂O都是强温室气体”。该表述不准确：N₂O是直接、长寿命温室气体；NO/NOₓ主要作为短寿命气候强迫因子的前体，通过改变O₃、CH₄等产生间接且相互抵消的气候效应。正文已作区分。"},
+    {"type": "paragraph", "text": "本章重点讨论生物反硝化测定，因为多数农业土壤的pH超过5.0，化学反硝化的重要性因而大幅降低。除可用于田间、温室和实验室环境的¹⁵N技术外，本章将测定范围限定为实验室培养法。"},
+    {"type": "ordered-list", "intro": "常用土壤反硝化氮损失测定方法包括：", "items": [
+      "在密闭系统中用乙炔（C₂H₂）阻断N₂O向N₂的转化，测定N₂O随时间的累积；",
+      "在密闭系统中以¹⁵N标记的NO₃⁻作示踪剂，测定¹⁵N标记N₂O或N₂的累积；",
+      "在气流系统中通入惰性气体，在N₂O转化为N₂之前带走中间产物NO和N₂O。"
+    ]},
+    {"type": "paragraph", "text": "利用培养室在田间试验点测定N₂O释放量的分析方法见第65章。Wagner-Riddle等（1996，1997）介绍了测定N₂O释放的微气象技术，Taylor等（1999）介绍了NO释放测定；本段续见第378页。"},
+    {"type": "printed-page-number", "text": "346"}
+  ],
+  "formulas": [
+    {"id": "37.1-denitrification-products", "display": "NO₃⁻ / NO₂⁻ → NO → N₂O → N₂", "note": "概括性反硝化产物序列；具体反应受途径和条件控制。"},
+    {"id": "37.1-acetylene-block", "display": "C₂H₂ inhibits: N₂O → N₂"}
+  ],
+  "tables": [],
+  "contentSha256": "00d94286848c3088129ad173f657eedd5c29ab3a1c5e83ffc817a814232032f6"
+}

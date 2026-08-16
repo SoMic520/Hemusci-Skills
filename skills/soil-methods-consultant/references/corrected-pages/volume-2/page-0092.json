@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 92,
+  "sourceImageSha256": "4d4b23a357cea3c46bb0da5340054c922991c40fa872d8a32f5fd04b7fa78454",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成第63章题名、作者单位及63.1本页"},
+    "precisionPass": {"status": "verified", "method": "核验>15%黏粒、>100 mm土块、ASD/DASD/WASD缩写、干筛和湿筛的测量对象及适用层级"},
+    "secondVisualPass": {"status": "verified", "method": "由Sainju跨页句反向复核至章题，检查人名Díaz-Zorita、Ball-Coelho、数值界限和C/N/P符号；印刷页码601"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "63", "title": "干团聚体的粒级分布"},
+    {"type": "authors", "items": ["F.J. Larney；Agriculture and Agri-Food Canada, Lethbridge, Alberta, Canada"]},
+    {"type": "heading", "number": "63.1", "title": "引言", "level": 2},
+    {"type": "terminology", "items": [
+      "黏粒含量>15%的土壤在物理和生物过程下容易形成结构单元。土壤结构体（ped）是自然形成的；呈颗粒状时常与团聚体通用；本章把直径>100 mm的大块称土块（clod）。",
+      "Díaz-Zorita等（2002）建议把“团聚体”限于由内聚力、有机黏合、无机胶结、根系和菌丝等建造过程形成的单元；耕作、冻融、崩解和分散等破碎过程形成的宜称碎片（fragment）。实际地表常同时有形成与破碎，两者仍常被统称为土壤结构。"
+    ]},
+    {"type": "paragraph", "text": "耕层团聚体粒级分布（aggregate size distribution, ASD）受耕作强度/时间/整地工具、种植制度、有机肥以及降雨/降雪、干湿、冻融和冻干次数与强度影响。ASD影响种土接触、出苗、空气/水/溶质运移和风蚀；大团聚体增加表面粗糙度并降低近地风速，粒级越大通常风蚀风险越低。"},
+    {"type": "method-distinction", "items": [
+      "DASD（干团聚体粒级分布）：对风干团聚体干筛，主要表征苗床结构和风蚀易感性。",
+      "WASD（水稳性团聚体粒级分布）：测团聚体入水后的破坏/崩解，主要表征水蚀、结皮、沉降、压实敏感性及团聚—有机质转化。",
+      "两者都使用筛，但测量机制、解释和应用不同，结果不得互换。"
+    ]},
+    {"type": "paragraph", "text": "干筛粒级也用于分析微生物群落空间异质性、各粒级C/N/P含量、P吸附、土壤水分与有机质的物理保护。其优点是较少破坏微生物物理分布，并更接近无降雨/无灌溉时的田间状态。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f7d38c9261ae106dd2efe6afa7a1ddef2e45192ea91155eaa8db9fc26ef8a34c"
+}

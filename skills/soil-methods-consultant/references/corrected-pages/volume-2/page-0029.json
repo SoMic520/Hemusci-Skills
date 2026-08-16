@@ -1,0 +1,23 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 29,
+  "sourceImageSha256": "2416d6f24bd36531007d50c227b0a25c5d9d2b2b1f868e2945ac9ff066f2faec",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成第55章参考文献余下7条及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验作者缩写、年份、题名、机构、卷页、1646 (Revised)、Report No. 1及译校姓名"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至McTainsh条目，保留原书collectingsoil/1999.Soil/gammaray连写事实并规范可检索文本；印刷页码538"}
+  },
+  "blocks": [
+    {"type": "reference-entry", "text": "McTainsh, G.H., Lynch, A.W., and Hales, R. 1997. Particle-size analysis of aeolian dusts, soils, and sediments in very small quantities using a Coulter multisizer. Earth Surf. Proc. Land. 22: 1207–1216."},
+    {"type": "reference-entry", "text": "Sheldrick, B.H. and Wang, C. 1987. Compilation of data for ECSS reference soil samples. Land Resource Research Centre, Agriculture Canada, Ottawa, ON, Canada."},
+    {"type": "reference-entry", "text": "Sheldrick, B.H. and Wang, C. 1993. Particle size distribution. In M.R. Carter, ed. Soil Sampling and Methods of Analysis. Canadian Society of Soil Science. Lewis Publishers, Boca Raton, FL, 499–511."},
+    {"type": "reference-entry", "text": "Soil Classification Working Group. 1998. The Canadian System of Soil Classification. Agriculture and Agri-Food Canada Publication 1646 (Revised), Ottawa, ON, Canada."},
+    {"type": "reference-entry", "text": "Soil Conservation Service. 1984. Soil survey laboratory methods and procedure for collecting soil samples. Soil Survey Investigations, Report No. 1 (Revised 1984), U.S. Department of Agriculture, Washington, DC."},
+    {"type": "reference-entry", "text": "Vaz, C.M.P., Naime, J.M., and Macedo, A. 1999. Soil particle size fractions determined by gamma-ray attenuation. Soil Sci. 164: 403–410."},
+    {"type": "translator-credit", "translator": "卢奕丽", "reviewer": "任图生"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c5c3d2e03d821be24e71557193636199f68b96de820d96e2101e64d2f9cda4ae"
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 297,
+  "sourceImageSha256": "2c0b48e16a4db4805b301033c433765d2c8a82511b08a80731aea0ae222e985b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第30章第266页，人工恢复30.4跨页原理、PVLG封片配方、生物化学指示物、材料、步骤、注释及30.5引言"},
+    "precisionPass": {"status": "verified", "method": "核对200倍、50～100个×1 cm、PVLG名称与24～32 cP、全部配方量、C16:1ω5、50 μm、42%示例及式（30.1）的变量与上下标"},
+    "secondVisualPass": {"status": "verified", "method": "对PVLG配方与式（30.1）分别放大复核，确认原书确印作‘166 g’和‘R=An/2H’；再以Omar配方资料和Newman（1966）原始关系式做来源验证"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "continuation", "fromPage": 296, "section": "30.4", "text": "这种方法修正为‘放大交叉法’，因为根系是在200倍放大倍数下进行检测的。这种方法考虑了显微镜目镜十字光标和根系的交叉效应。更近距离的检测能够更精确地识别和记录丛枝状、菌丝状和囊状定殖。分辨菌丝状和囊状定殖时应仔细推测，因为它们也可以由非菌根真菌产生。该警告同样适用于网格线交叉法。采用载玻片法（Giovannetti和Mosse，1980），50～100个1 cm根系切片封固在含聚乙烯乳酸甘油（polyvinyl lactoglycerol，PVLG）封片剂的载玻片上（Omar等，1979）（166 g黏度高达24～32 cP的聚乙烯乙醇溶解在10 mL水中，加入10 mL乳酸和1 mL甘油）。测量定殖根系组织长度与所观察根系总长度之比，结果以百分数表示。"},
+    {"type": "source-fidelity-note", "scope": "30.4 PVLG封片剂配方", "severity": "critical", "text": "原书印作‘166 g’且将polyvinyl alcohol译作‘聚乙烯乙醇’。Omar系PVLG配方的可追溯资料为8.33 g聚乙烯醇（PVA）+50 mL水+50 mL乳酸+5 mL甘油；缩小为本页的1/5体积后应为1.66 g PVA+10 mL水+10 mL乳酸+1 mL甘油。原书少了小数点，质量被放大100倍，不得按166 g执行。"},
+    {"type": "validated-correction", "scope": "30.4 PVLG封片剂", "text": "经来源校验的本页等比配方：黏度规格24～32 cP的聚乙烯醇（PVA）1.66 g，水10 mL，乳酸10 mL，甘油1 mL。", "provenance": ["Omar, Bolland and Heather (1979), DOI: 10.1016/S0007-1528(79)80038-3", "https://invam.ku.edu/recipes"]},
+    {"type": "paragraph", "text": "生物化学方法也可以用来确定AM真菌根系定殖，有时候在区分AM真菌和其他根系内生菌时会体现出优势，此外，还能评价目前不太清楚的木质化程度高的根系。几丁质（Hepper，1977），24-甲基/亚甲基留醇（Fontaine等，2004）和磷脂脂肪酸（phospholipid fatty acid，PLFA）C16:1ω5（van Aarle和Olsson，2003）均作为AM定殖的指示物质。生物化学方法测定内生根AM定殖有一定局限性。几丁质并不是AM真菌专有，它同时存在于接合真菌细胞壁中。不同AM真菌种类留醇和脂肪酸指示物质的相对丰度不一致。因此，在评价田间生长植物根系AM定殖时，不推荐采用生物化学指示物质的方法，因为这种情况下的定殖很可能是混合真菌群落的结果。由于网格线交叉法简单，相对快速，适用于大多数根系菌根定殖的常规确定。方法如下："},
+    {"type": "heading", "level": 2, "number": "30.4.1", "title": "材料和试剂"},
+    {"type": "materials", "items": [
+      "（1）将一个塑料的皮式培养皿置于解剖刀片刻度线下方。线条可随机或者布置在网格图案上。带网格的培养皿也可以直接购买。",
+      "（2）含有用几滴食醋或HCl酸化水的洗瓶。",
+      "（3）镊子和针：用于分散根系。",
+      "（4）解剖显微镜。",
+      "（5）带双键的台式计数器，用于记录点数。",
+      "（6）干净和染色的根系。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "30.4.1（1）", "text": "原书印作‘塑料的皮式培养皿’，其中‘皮式’应为Petri皿的译名误写，通常作‘培养皿/培养盘’；本语料保留原书字样并建立规范检索词。"},
+    {"type": "heading", "level": 2, "number": "30.4.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "将染色的根系样品放在刻蚀过的皮式培养皿中，用喷洒式洗瓶中的酸化水、镊子和针分散根系。"},
+    {"type": "procedure-step", "number": "（2）", "text": "在解剖显微镜下扫描网格线，用键盘计数器记录下根系和线条交叉的总点数。类似的，也记录下这些含有AM定殖的交叉总数。例如，若100个交叉中发现有42个AM定殖，则AM根系定殖等于42%。"},
+    {"type": "heading", "level": 2, "number": "30.4.3", "title": "注释"},
+    {"type": "paragraph", "text": "根长可同时用根系计数法进行简易的计算，采用Newman（1966）关系式："},
+    {"type": "equation-reference", "number": "30.1", "text": "R=An/2H"},
+    {"type": "equation-variables", "text": "式中，R表示根长；A是皮式培养皿的面积；n是根系与网格线交叉总数；H是所有刻蚀线长的总和。"},
+    {"type": "source-fidelity-note", "scope": "式（30.1）", "severity": "critical", "text": "原书印作R=An/(2H)，遗漏圆周率π。Newman（1966）原始关系式为R=πNA/(2H)；本页的n与原文N同义，均为交叉总数。缺失π会使计算的根长仅为正确值的1/π，因此不得按印刷式执行。", "provenance": ["Newman, E. I. 1966. Journal of Applied Ecology 3(1): 139–145. DOI: 10.2307/2401670", "https://www.britishecologicalsociety.org/applied-ecology-resources/document/19661903833/"]},
+    {"type": "validated-correction", "scope": "式（30.1）", "text": "执行式：R=πAn/(2H)。R为根长，A为根系所在平面面积，n为根与直线的交叉总数，H为所有直线长度之和。"},
+    {"type": "note", "text": "测量根系时候，须小心操作，避免染色、清理、洗涤，以及从土壤中提取过程中丢失根系。定殖和总根长密度最好用总长或单位体积土壤定殖的根系长度来表示。"},
+    {"type": "heading", "level": 1, "number": "30.5", "title": "土壤菌根潜力的确定"},
+    {"type": "paragraph", "continuesOnPage": 298, "text": "有四种方法用来评价土壤菌根潜力："},
+    {"type": "printed-page-number", "text": "266"}
+  ],
+  "formulas": [
+    {"scope": "式（30.1）原书印刷式", "label": "30.1", "display": "R = An/(2H)", "latex": "R=\\frac{An}{2H}", "status": "source-error-missing-pi"},
+    {"scope": "式（30.1）经Newman（1966）验证的执行式", "label": "30.1-corrected", "display": "R = πAn/(2H)", "latex": "R=\\frac{\\pi An}{2H}", "status": "validated-correction", "doi": "10.2307/2401670"}
+  ],
+  "tables": [],
+  "contentSha256": "d87e3402a960e5559d7e6047d7e5031e0539e0498b1d595b05a559c0981c2c06"
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 83,
+  "sourceImageSha256": "2a5ab2c41d7e3a6b96335673830a8620a671ba2dd41dca086c7cd3c6f8b269ce",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成61章参考文献本页21条及跨页Moldrup题名"},
+    "precisionPass": {"status": "verified", "method": "核验作者附加符号、年份、题名、卷页、书名/专著号和Schjønning/Loll/Komatsu拼写"},
+    "secondVisualPass": {"status": "verified", "method": "由Moldrup等（2003）跨页题名反向复核至Ball and Schjønning；印刷页码592"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Ball, B.C. and Schjønning, P. 2002. Air permeability. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4. Soil Science Society of America, Series 5, Madison, WI, 1141–1158.",
+      "Buehrer, T.F. 1932. The movement of gases through the soil as a criterion of soil structure. Ariz. Agric. Exp. Sta. Tech. Bull. 39:57.",
+      "Corey, A.T. 1986. Air permeability. In: A. Klute, ed. Methods of Soil Analysis, Part 1—Physical and Mineralogical Methods, 2nd ed. Monograph No. 9. American Society of Agronomy, Madison, WI, 1121–1136.",
+      "Davis, J.M., Wilson, J.L., and Phillips, F.M. 1994. A portable air-minipermeameter for rapid in situ field measurements. Ground Water 32:258–266.",
+      "Fish, A.N. and Koppi, A.J. 1994. The use of a simple field air permeameter as a rapid indicator of functional soil pore space. Geoderma 63:255–264.",
+      "Green, R.D. and Fordham, S.J. 1975. A field method for determining air permeability in soil. In: Soil Physical Conditions and Crop Production. Tech. Bull. 29. HMSO, London, 273–288.",
+      "Green, W.H. and Ampt, G.A. 1911. Studies on soil physics. Part 1. The flow of air and water through soils. J. Agric. Sci. 4:1–24.",
+      "Groenevelt, P.H., Kay, B.D., and Grant, C.D. 1984. Physical assessment of a soil with respect to rooting potential. Geoderma 34:101–114.",
+      "Groenevelt, P.H. and Lemoine, G.G. 1987. On the measurement of air permeability. Neth. J. Agric. Sci. 35:385–394.",
+      "Grover, B.L. 1955. Simplified air permeameters for soil in place. Soil Sci. Soc. Am. Proc. 19:414–418.",
+      "Iversen, B.V., Moldrup, P., and Loll, P. 2004. Runoff modelling at two field slopes: use of in situ measurements of air permeability to characterize spatial variability of saturated hydraulic conductivity. Hydrol. Process. 18:1009–1026.",
+      "Iversen, B.V., Moldrup, P., Schjønning, P., and Jacobsen, O.H. 2003. Field application of a portable air permeameter to characterize spatial variability in air and water permeability. Vadose Zone J. 2:618–626.",
+      "Iversen, B.V., Moldrup, P., Schjønning, P., and Loll, P. 2001. Air and water permeability in differently textured soils at two measurement scales. Soil Sci. 166:643–659.",
+      "Iversen, B.V., Schjønning, P., Poulsen, T.G., and Moldrup, P. 2000. In situ, on-site and laboratory measurements of soil air permeability: boundary conditions and measurement scale. Soil Sci. 166:97–106.",
+      "Jalbert, M. and Dane, J.H. 2003. A handheld device for intrusive and nonintrusive field measurements of air permeability. Vadose Zone J. 2:611–617.",
+      "Janse, A.R.P. and Bolt, G.H. 1960. The determination of the air-permeability of soils. Neth. J. Agric. Sci. 8:124–131.",
+      "Kirkham, D. 1946. Field method for determination of air permeability of soil in its undisturbed state. Soil Sci. Soc. Am. Proc. 11:93–99.",
+      "Loll, P. and Moldrup, P. 1999. Predicting saturated hydraulic conductivity from air permeability: application in stochastic water infiltration modelling. Water Resour. Res. 35:2387–2400.",
+      "Maasland, M. and Kirkham, D. 1955. Theory and measurement of anisotropic air permeability in soil. Soil Sci. Soc. Am. Proc. 19:395–400.",
+      "McIntyre, D.S. and Tanner, C.B. 1959. A normally distributed soil physical measurements and nonparametric statistics. Soil Sci. 88:133–137.",
+      "Moldrup, P., Olesen, T., Komatsu, T., Schjønning, P., and Rolston, D.E. 2001. Tortuosity, diffusivity, and permeability in the soil liquid and gaseous phases. Soil Sci. Soc. Am. J. 65:613–623.",
+      "Moldrup, P., Yoshikawa, S., Olesen, T., Komatsu, T., and Rolston, D.E. 2003. Air permeability in undisturbed volcanic ash soils: …"
+    ]},
+    {"type": "source-fidelity-note", "text": "原书多处把Schjønning作Schjonning、Loll作Lol、Komatsu作Komatsum，并把Water Resources Research缩为易误解的Water Res.；已规范。McIntyre与Tanner题名语法可疑但本页未取得一手核验，按原书词序保留并标记待总书目审计。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d8ef1555927e7a0411e58bcbb42b80760ceb9bbeab451f56624a5430e4375ca1"
+}

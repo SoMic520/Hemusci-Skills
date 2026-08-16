@@ -1,0 +1,82 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 548,
+  "sourceImageSha256": "ed9e698e5cf28cbf01448dbc32165f55f821947fb0de747391f28acbc4dd6be1",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行逐式对照原分辨率页面和两套OCR，完成54.5引言及54.5.1至一级动力学式"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验¹⁵N/¹³C、C₃/C₄、−30～−25/−15～−13/−28/−14‰、7%·‰⁻¹、p_C4混合式、C_t=C₀e⁻ᵏᵗ、k、ln 2/k和1/k"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由一级衰减段反向复核至54.5标题，代数复算图54.2直线的斜率0.0714与截距+2.0，检查负号、指数和印刷页码517"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "scope": "54.5",
+      "text": "富集¹⁵N示踪可定量研究肥料N去向、生物固氮、反硝化以及矿化—固定化。天然丰度法可利用某些过程造成的同位素差异研究N循环；氨挥发和反硝化往往产生明显分馏，而固氮或淋失在特定条件下可能较小，但不能不经验证作绝对假设。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "54.5.1",
+      "title": "利用δ¹³C测定植被变化后土壤有机质的转化"
+    },
+    {
+      "type": "paragraph",
+      "text": "可用天然¹³C丰度差异估算不同植物源对土壤有机C的贡献。简单二端元模型常近似忽略分解过程的同位素分馏，并假定进入与累积在土壤中的有机质保持相应植物端元δ¹³C；这些是待检验的模型假设，不是普遍事实。"
+    },
+    {
+      "type": "paragraph",
+      "text": "C₃植物主要由Rubisco固定CO₂，书载δ¹³C约−30‰～−25‰；C₄植物先由PEP羧化酶固定CO₂，约−15‰～−13‰。以δ_C3=−28‰、δ_C4=−14‰为示例，样品中C₄来源比例由线性二端元混合式计算。样品δ¹³C每增加1‰，C₄来源比例约增加1/14，即0.0714（约7.14个百分点）。"
+    },
+    {
+      "type": "calculation-note",
+      "text": "示例直线应写p_C4=0.0714δ_sample+2.000：δ_sample=−28‰时p_C4=0，δ_sample=−14‰时p_C4=1。截距是−δ_C3/(δ_C4−δ_C3)，不是δ_C3/(δ_C4−δ_C3)。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "54.5.1混合直线",
+      "text": "原书正文把截距写作δ_C3/(δ_C4−δ_C3)，代入−28‰与−14‰会得−2，与式、端点和图54.2均矛盾。本Skill已补上前导负号，矫正为−δ_C3/(δ_C4−δ_C3)=+2。"
+    },
+    {
+      "type": "paragraph",
+      "text": "植被由C₃改为C₄后，在某时点以总SOC乘(1−p_C4)估计仍来自原C₃植被的C量；若把该原源C库视为一阶衰减，可由C_t=C₀e⁻ᵏᵗ估计k、半衰期和1/k。"
+    },
+    {
+      "type": "terminology-correction",
+      "text": "原书称1/k为‘全衰期’不准确。一阶指数衰减在有限时间不降至严格零；1/k是平均停留时间或e折时间（降至C₀/e），半衰期才是ln2/k。"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "54.5.1-c4-fraction",
+      "display": "p_C4 = (δ_sample−δ_C3)/(δ_C4−δ_C3)",
+      "meaning": "二端元、线性且无额外分馏假设下的C₄来源比例"
+    },
+    {
+      "id": "54.5.1-c4-example",
+      "display": "p_C4 = (δ_sample+28)/14 = 0.0714δ_sample+2.000",
+      "meaning": "δ_C3=−28‰、δ_C4=−14‰时的示例直线"
+    },
+    {
+      "id": "54.5.1-original-c-stock",
+      "display": "C_original,t = SOC_t(1−p_C4)",
+      "meaning": "植被转换后时点t仍来自原植被的土壤有机C库"
+    },
+    {
+      "id": "54.5.1-first-order",
+      "display": "C_t = C₀e^(−kt)；k=(ln C₀−ln C_t)/t；t₁⁄₂=ln2/k；τ=1/k",
+      "meaning": "原源C库的一阶衰减、速率常数、半衰期和平均停留/e折时间"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "32423b10c3711adf3eef0f824409582783a1b42d43f682683e19959ffe4ccb40"
+}

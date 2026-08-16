@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 265,
+  "sourceImageSha256": "3ad4dda0b0c57e6f8a2cec63c0774c0f474d3fcb46b4e7d6fd86a8e79826d2c1",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第27章章首页，并与Apple Vision、PaddleOCR交叉比对，人工恢复章名、三位作者机构及27.1引言全文承接"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验N. Bélanger/D. Paré/W. H. Hendershot、Picea mariana (Mill.) BSP、Pinus banksiana Lamb.、N/K/Ca/Mg、ECEC、pH及全部引文年份"},
+    "secondVisualPass": {"status": "verified", "method": "从页末“水或氯”承接句反向复核至章名，确认第27章→27.1层级、作者与机构映射、树种学名、养分层次和本章首页未印页码"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "第27章", "title": "森林土壤养分有效性的测定"},
+    {"type": "author", "name": "N. Bélanger", "affiliation": "University of Saskatchewan", "location": "Saskatoon, Saskatchewan, Canada"},
+    {"type": "author", "name": "D. Paré", "affiliation": "Natural Resources Canada", "location": "Quebec, Quebec, Canada"},
+    {"type": "author", "name": "W. H. Hendershot", "affiliation": "McGill University", "location": "Sainte Anne de Bellevue, Quebec, Canada"},
+    {"type": "heading", "level": 1, "number": "27.1", "title": "引言"},
+    {"type": "body", "text": "氮素是决定树木生长的主要养分，这在加拿大北方地盾区的施肥试验或氮素净矿化量研究中已经得到充分证实（Attiwill和Adams，1993；Reich等，1997）。然而，Ingestad（1979a，b）研究表明，如果其他营养元素，特别是磷和钾的供给速率不能满足树木的需要，那么即使氮素过量，树木对其他元素的吸收也会受到限制。例如，单施氮肥、氮肥配施磷肥或钾肥、或三者共同使用均能促进黑云杉〔Picea mariana (Mill.) BSP〕（Wells，1994；Paquin等，1998）和斑克松（Pinus banksiana Lamb.）（Morrison和Foster，1995；Weetman等，1995）的生长。仅有少量研究证明增加钙和镁的有效性对加拿大森林树木的营养及产量有促进作用（Hamilton和Krause，1985；Bernier和Brazeau，1988；Thiffault等，2006）。Binkley和Högberg（1997）的一篇综述认为施用钙肥和镁肥只会偶尔促进北方树木的生长。实际上，施用钙肥和镁肥对树木生长产生的促进作用可能与石灰施用对氮素有效性的间接影响有关（Nohrstedt，2001；Sikström，2002）。目前，因为一些永久性的位点因素，例如，气候、排水和土壤物理特性对树木的更大影响，使得缺乏除氮外其他土壤养分在改善树木营养和促进树木生长方面作用的科学证据（Post和Curtis，1970）。"},
+    {"type": "body", "text": "枯枝落叶层含有大量的树木细根（Steele等，1997），可以将氮磷转化与树木生产力和营养联系起来（Paré和Bernier，1989；Reich等，1997），是很多养分研究的重点。此外，一般认为枯枝落叶层代表着土壤总养分库的主体部分（Bélanger等，2003）。树木中的钾、钙和镁主要来源于矿物风化，近期的研究认为土壤的母质元素组成和矿物风化评估可以很好地指示这些元素的有效性（van Breemene等，2000；Bailey等，2004；Thiffault等，2006）。就磷的有效性而言，不仅受凋落物腐解过程和来自生物库作用（植物和微生物吸收）的影响，也受地球化学库作用的影响。"},
+    {"type": "source-fidelity-note", "appliesTo": "27.1第二段van Breemene引文", "text": "原书正文印作“van Breemene等，2000”。该作者拼写可能与本章后续参考文献不一致；此页先保留原印，待参考文献页逐字符核验后再给出校正值。"},
+    {"type": "body", "text": "森林土壤和农业土壤有很多的共同点，但它们的利用和管理方式不同，多数情况下也要求不同的测定与研究方法。本章将提出目前最为认可的分析方法来测定森林生态系统中N、K、Ca和Mg的有效性，并建立其与树木营养、生长和死亡的联系。主要内容将着重于可矿化氮、pH值、有效阳离子交换量（ECEC）和交换性阳离子、元素Ca、Mg和K的构成及其在矿物风化中的释放。有效磷指标主要与活性磷的浸提方法有关，具体细节读者可以参阅第24章和第25章。关于测定土壤有机碳、pH值（水或氯", "continued": true}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ad0f04dad89bf44cfc376fc65c4a33fd860933b8cf4672e8303e0193ffaa3508"
+}

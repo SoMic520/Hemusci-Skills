@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 243,
+  "sourceImageSha256": "aa112afe2baec21c15cac4e943a5d8d58d4ec4512b24400aad13fb7d3c361ed0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第212页，并与Apple Vision、PaddleOCR交叉比对，人工恢复比色法范围、24.5.1九项试剂、24.5.2五步操作和24.5.3注释开头"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验0.2/0.8/3 mg P·L⁻¹、1～40 μg P、(NH₄)₆Mo₇O₂₄·4H₂O、KSbOC₄H₄O₆、KH₂PO₄、0～0.8 μg P·mL⁻¹、882/712 nm及全部浓度质量体积"},
+    "secondVisualPass": {"status": "verified", "method": "从24.5.3注释（1）反向复核至页首承接句，确认24.5.1→24.5.2→24.5.3层级、试剂A配制归并、显色pH流程、标准曲线基质匹配和印刷页码212"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "body-continuation", "continuesFromPage": 242, "text": "仅给出最终溶液浓度（最终显色的溶液）为0.2 mg P·L⁻¹时，仍然符合比尔定理。随后，发现此方法适用于最终溶液的磷浓度约为0.8 mg P·L⁻¹的测定（Rodriguez等，1994），但通过进一步调整锑的离子强度和抗坏血酸的浓度能将最终溶液中磷的浓度扩大到3 mg P·L⁻¹（Harwood等，1969）。该方法相当简单，与氯化锡作为还原剂的方法相比其干扰更小，而且可以手工测定或与自动系统联用（Drummond和Maher，1995）。下面将介绍由Watanabe和Olsen（1965）改进的手工测定方法，它适用于最终体积为50 mL且其中可溶性磷含量为1～40 μg样品的比色测定。"},
+    {"type": "heading", "level": 2, "number": "24.5.1", "title": "试剂"},
+    {"type": "reagent-item", "number": "（1）", "name": "钼酸铵溶液", "text": "将12 g四水钼酸铵〔(NH₄)₆Mo₇O₂₄·4H₂O〕溶于250 mL蒸馏水或去离子水中。"},
+    {"type": "reagent-item", "number": "（2）", "name": "酒石酸锑钾溶液", "text": "将0.290 8 g酒石酸锑钾（KSbOC₄H₄O₆）溶于100 mL蒸馏水或去离子水中。"},
+    {"type": "reagent-item", "number": "（3）", "name": "2.5 mol·L⁻¹硫酸", "text": "将139 mL 18 mol·L⁻¹浓硫酸缓缓加入含600 mL蒸馏水或去离子水的1 L容量瓶中，摇匀，冷却后用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（4）", "name": "试剂A", "text": "将上述三种溶液混入2 L容量瓶中，用蒸馏水或去离子水定容，并充分混匀，将溶液存储在派热克斯玻璃瓶中，并存放于冰箱中。"},
+    {"type": "reagent-item", "number": "（5）", "name": "显色液", "text": "将1.056 g抗坏血酸溶于200 mL溶液A中，混匀。此液需要每天配制，如果配制时间超过24 h就要弃去重配。"},
+    {"type": "reagent-item", "number": "（6）", "name": "对硝基酚溶液", "text": "将约0.25 g对硝基酚溶于100 mL蒸馏水或去离子水中。"},
+    {"type": "reagent-item", "number": "（7）", "name": "4 mol·L⁻¹氢氧化钠溶液", "text": "将160 g NaOH溶解于含800 mL蒸馏水或去离子水的1 L容量瓶中，冷却后用蒸馏水或去离子水定容，充分摇匀。"},
+    {"type": "reagent-item", "number": "（8）", "name": "0.25 mol·L⁻¹硫酸", "text": "将14 mL浓硫酸缓缓加入约含800 mL蒸馏水或去离子水的1 L容量瓶中，用蒸馏水或去离子水定容，充分摇匀。"},
+    {"type": "reagent-item", "number": "（9）", "name": "标准磷储备液（100 mg P·L⁻¹）", "text": "将0.439 4 g KH₂PO₄溶于1 L蒸馏水或去离子水中，将其用蒸馏水或去离子水稀释配制成标准工作液（10 mg P·L⁻¹）。"},
+    {"type": "heading", "level": 2, "number": "24.5.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "用移液管吸取适量含有1～40 μg磷的溶液到预先含有15 mL蒸馏水或去离子水的50 mL容量瓶中。"},
+    {"type": "procedure-step", "number": "（2）", "text": "吸取系列磷标准溶液于一组容量瓶中，使其中含浸提液中磷的浓度范围。向每个含标准溶液的容量瓶中加入与样品等量的空白溶液。"},
+    {"type": "procedure-step", "number": "（3）", "text": "加入1～2滴对硝基酚溶液，调节溶液的pH值为5。如果溶液的pH值<5，那么逐滴加入4 mol·L⁻¹ NaOH溶液直至溶液变黄，然后再逐滴加入0.25 mol·L⁻¹硫酸直至黄色刚好褪去为止（变为无色）。如果样液的pH值>5，那么逐滴加入0.25 mol·L⁻¹硫酸直至黄色刚好褪去即可。"},
+    {"type": "procedure-step", "number": "（4）", "text": "加入8 mL显色液，用蒸馏水或去离子水定容，充分混匀，10 min后在882 nm或者712 nm波长（当溶液中因为含有机质而呈淡黄色时）测定溶液的吸光度。"},
+    {"type": "procedure-step", "number": "（5）", "text": "按照与样品相同的方法测定相应的标准溶液（最终溶液浓度为0～0.8 μg P·mL⁻¹，或每50 mL容量瓶中含有1～40 μg磷），标准溶液中应该含有与样品相同体积的浸提液或消解液。"},
+    {"type": "heading", "level": 2, "number": "24.5.3", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "Murphy和Riley（1962）的方法出版了很多版本，读者要注意的是推荐的方法产生偏差可能会导致测定结果的错误。要形成符合比尔定理的稳定的蓝色，需要按照样品中磷的浓度调节溶液pH值及", "continued": true},
+    {"type": "printed-page-number", "text": "212"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "18c3beb96a2945cb57e10552aef89131eb247fcaed82019bca131c578f689f8a"
+}

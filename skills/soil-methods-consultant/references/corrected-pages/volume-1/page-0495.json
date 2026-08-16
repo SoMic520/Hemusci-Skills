@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 495,
+  "sourceImageSha256": "267be7dc0ca7977f7df8ca02f8959a0dc45f4c93ad7ee1d126e5be66222fb8b8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率中文页与两套OCR，完成Yavitt及Zsolnay全部五条参考文献和第48章译校信息"},
+    "precisionPass": {"status": "verified", "method": "核验作者、年份、书名/期刊、卷页，重点将Zsolnay 1996页码由171–123校为171–223并复核Baigar、Jimenez、Saccomandi"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至Yavitt条，检查Typha latifolia斜体语义、冻融标题、地名和全部页码；印刷页码464"}
+  },
+  "blocks": [
+    {"type": "reference-list", "scope": "chapter-48", "items": [
+      "Yavitt, J.B. 1997. Methane and carbon dioxide dynamics in Typha latifolia (L.) wetlands in central New York State. Wetlands 17: 394–406.",
+      "Zsolnay, A. 1996. Dissolved humus in soil waters. In: A. Piccolo, ed. Humic Substances in Terrestrial Ecosystems. Elsevier, Amsterdam, The Netherlands, pp. 171–223.",
+      "Zsolnay, A. 1997. The complexity of the flux of natural substrates in soils: a freeze-thaw can increase the formation of ischemic and anaerobic microsites. In: H. Insam and A. Rangger, eds. Microbial Communities. Springer, Heidelberg, pp. 236–241.",
+      "Zsolnay, A. 2003. Dissolved organic matter: artefacts, definitions, and functions. Geoderma 113: 187–209.",
+      "Zsolnay, A., Baigar, E., Jimenez, M., Steinweg, B., and Saccomandi, F. 1999. Differentiating with fluorescence spectroscopy the sources of dissolved organic matter in soils subjected to drying. Chemosphere 38: 45–50."
+    ]},
+    {"type": "source-fidelity-note", "scope": "Zsolnay 1996页码", "text": "中译本印作171–123，终页早于起页，且与出版社书章记录不符；正确页码为171–223。"},
+    {"type": "translator-credit", "text": "刘金山、李小涵 译，王朝辉 校。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "11530e1f1d4aa6724b01663a81fe8d68b79ba83368d9f90932a7c593ba3cd5cf"
+}

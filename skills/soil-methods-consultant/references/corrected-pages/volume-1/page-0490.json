@@ -1,0 +1,57 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 490,
+  "sourceImageSha256": "47bdeedcb329e945334589e997ac3523cc87e85202cd7787cfb86458951bcc3f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页与两套OCR，完成氨基酸材料（5）～（10）、步骤与注释，及蛋白质引言、材料和步骤"},
+    "precisionPass": {"status": "verified", "method": "核验54 g CH₃COONa·3H₂O、pH 5.5、2 g茋三酮+0.3 g hydrindantin、75/25 mL、20～100 μmol·L⁻¹亮氨酸、570/620 nm及μmol→mg换算"},
+    "secondVisualPass": {"status": "verified", "method": "由蛋白质步骤（5）反向复核至氨基酸材料（5）；对照Moore–Stein原始试剂核定2-甲氧基乙醇译名，检查全部上下标和当量单位；印刷页码459"}
+  },
+  "blocks": [
+    {"type": "materials-list-continuation", "scope": "48.3.7", "items": [
+      {"number": "（5）", "text": "光径1 cm的玻璃或塑料比色皿。"},
+      {"number": "（6）", "text": "醋酸盐缓冲液（pH 5.5）：将54 g分析纯三水醋酸钠（CH₃COONa·3H₂O）溶于40 mL去离子水，加10 mL冰醋酸，用NaOH调pH至5.5。"},
+      {"number": "（7）", "text": "茋三酮试剂：将2 g分析纯茋三酮和0.3 g还原茋三酮（hydrindantin）溶于75 mL分析纯2-甲氧基乙醇（methyl cellosolve），用N₂吹扫30 min，再加25 mL pH 5.5醋酸盐缓冲液。现配现用，并尽量避免与空气接触。"},
+      {"number": "（8）", "text": "稀释液：等体积95%分析纯乙醇与去离子水混合。"},
+      {"number": "（9）", "text": "标准贮备液：用去离子水配制1000 μmol·L⁻¹分析纯亮氨酸。"},
+      {"number": "（10）", "text": "标准工作液：20、40、60、80和100 μmol·L⁻¹亮氨酸。"}
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "2. 步骤和计算", "scope": "48.3.7"},
+    {"type": "procedure-step", "number": "（1）", "text": "分别加2 mL DOM提取液、标准液或空白于玻璃管。"},
+    {"type": "procedure-step", "number": "（2）", "text": "缓慢加1.25 mL茋三酮试剂，立即加盖。"},
+    {"type": "procedure-step", "number": "（3）", "text": "95 °C水浴25 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "在另一水浴锅中冷却到室温。"},
+    {"type": "procedure-step", "number": "（5）", "text": "加4.5 mL稀释液，混匀。"},
+    {"type": "procedure-step", "number": "（6）", "text": "将足量待测液或标准液转入比色皿，以空白为参比，在570 nm读取吸光度。"},
+    {"type": "procedure-step", "number": "（7）", "text": "作亮氨酸标准曲线，先得到μmol亮氨酸当量·L⁻¹；需报告mg亮氨酸当量·L⁻¹时，按亮氨酸摩尔质量131.17 g·mol⁻¹换算。"},
+    {"type": "subsection-heading", "level": 4, "title": "3. 注释", "scope": "48.3.7"},
+    {"type": "note", "number": "（1）", "text": "本法改自Moore和Stein（1948）。"},
+    {"type": "note", "number": "（2）", "text": "关键是避免还原茋三酮与O₂反应。Jones等（2002）提出了游离氨基酸与邻苯二甲醛（OPA）和β-巯基乙醇反应的更灵敏荧光法。"},
+    {"type": "source-fidelity-note", "scope": "48.3.7茋三酮试剂溶剂", "text": "中译本印作‘2-羟基乙醇’，但Moore–Stein茋三酮–还原茋三酮配方的methyl cellosolve是乙二醇单甲醚，规范名为2-甲氧基乙醇；原译名将‘甲氧基’误成‘羟基’。可执行试剂已按正确溶剂校正。"},
+    {"type": "source-fidelity-note", "scope": "48.3.7氨基酸结果单位", "text": "原书使用20～100 μmol·L⁻¹亮氨酸标准液，却直接要求结果以mg·L⁻¹报告，遗漏摩尔质量换算。已增加mg·L⁻¹=(μmol·L⁻¹)×131.17/1000，禁止直接把曲线横坐标数值当作mg·L⁻¹。"},
+    {"type": "section-heading", "level": 3, "number": "48.3.8", "title": "蛋白质"},
+    {"type": "paragraph", "text": "蛋白质是土壤可溶性有机氮的重要来源，也是DOM游离氨基酸库的重要补充，因而对土壤微生物生长很重要。"},
+    {"type": "subsection-heading", "level": 4, "title": "1. 材料与试剂", "scope": "48.3.8"},
+    {"type": "materials-list", "scope": "48.3.8", "items": [
+      {"number": "（1）", "text": "分光光度计。"},
+      {"number": "（2）", "text": "光径1 cm的光学玻璃或塑料比色皿。"},
+      {"number": "（3）", "text": "Bradford蛋白质试剂（可购自SIGMA），冷藏。"},
+      {"number": "（4）", "text": "标准贮备液：用去离子水配制100 mg·L⁻¹牛血清白蛋白（BSA）。现配现用，冷冻亦不能良好保存。"},
+      {"number": "（5）", "text": "标准工作液：2.5、5、10、15、20和25 mg·L⁻¹ BSA。"}
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "2. 步骤和计算", "scope": "48.3.8"},
+    {"type": "procedure-step", "number": "（1）", "text": "向比色皿加0.5 mL Bradford蛋白质试剂。"},
+    {"type": "procedure-step", "number": "（2）", "text": "在不同比色皿中分别加0.5 mL DOM提取液、标准液或空白。"},
+    {"type": "procedure-step", "number": "（3）", "text": "混匀，室温静置5 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "以空白为参比，在620 nm读取吸光值。"},
+    {"type": "procedure-step", "number": "（5）", "text": "作BSA标准曲线，计算蛋白质浓度，报告为mg BSA当量·L⁻¹。"}
+  ],
+  "formulas": [
+    {"id": "48.3.7-amino-acid-curve", "display": "CLeu,μmol·L⁻¹ = f⁻¹(A₅₇₀)", "meaning": "由亮氨酸物质的量浓度标准曲线求总游离氨基酸当量"},
+    {"id": "48.3.7-leucine-unit-conversion", "display": "CLeu,mg·L⁻¹ = CLeu,μmol·L⁻¹ × 131.17/1000", "meaning": "亮氨酸当量由μmol·L⁻¹换算为mg·L⁻¹；M(亮氨酸)=131.17 g·mol⁻¹"},
+    {"id": "48.3.8-protein-curve", "display": "protein = f⁻¹(A₆₂₀)", "unit": "mg BSA equivalents·L⁻¹", "meaning": "根据BSA标准曲线计算蛋白质当量"}
+  ],
+  "tables": [],
+  "contentSha256": "ff3aa013f4839fd999291df78a78c48e522ee2a57c0a6b613bd4df42eb0ad651"
+}

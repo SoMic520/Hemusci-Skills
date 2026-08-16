@@ -1,0 +1,23 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 174,
+  "sourceImageSha256": "f76c9a59c3ed9c8c00e3f0f6ce2fdb8abbb450aaaa5b7a5ab32f50e4c2e03e86",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页图和两套OCR，完成Verdonck跨页续文、2条White文献和译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验231–232/1514–1522、SSSA Special Publication No. 30、69–103及作者连字符"},
+    "secondVisualPass": {"status": "verified", "method": "全页反向复核有效文字及留白，确认无遗漏公式、表格或正文；印刷页码683"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Verdonck, O., Penninck, R., and de Boodt, M. 1983. Physical properties of different horticultural substrates. Acta Hortic. 150:155–160.（承上页）",
+      "White, I. and Sully, M.J. 1987. Macroscopic and microscopic capillary length and time scales from field infiltration. Water Resour. Res. 23:1514–1522.",
+      "White, I., Sully, M.J., and Perroux, K.M. 1992. Measurement of surface-soil hydraulic properties: disk permeameters, tension infiltrometers, and other techniques. In: G.C. Topp, W.D. Reynolds, and R.E. Green, eds. Advances in Measurement of Soil Physical Properties: Bringing Theory into Practice. SSSA Special Publication No. 30, Soil Science Society of America, Madison, WI, 69–103."
+    ]},
+    {"type": "credits", "text": "李保国译校。"},
+    {"type": "source-fidelity-note", "text": "本页中下部为原书留白；仅前三条参考文献（含承上页条目）与译校署名属于有效内容。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "b7a85b4c48b5c3646037c191bb0be2217c8616674b3427c33f2e25d7ba0df8b3"
+}

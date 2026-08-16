@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 391,
+  "sourceImageSha256": "0023ce101edc928634ab0fafafe4a5a92bfb97c2e1e2398def316620cfbbe0fa",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版第37章参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者缩写、¹⁵N/¹⁵N₂/N₂O/C₂H₂/O₂上下标、书名、年份、卷页及重音字符"},
+    "secondVisualPass": {"status": "verified", "method": "从Mulvaney和Kurtz承下条反向复核至Drury等2004承上条，纠正Exchange、Eriksen和Holtan-Hartwig；印刷页码360"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-continuation", "text": "（承第390页）Drury, C.F., Yang, X.M., Reynolds, W.D., and Tan, C.S. 2004. Influence of crop rotation and aggregate size on carbon dioxide and nitrous oxide emissions. Soil Till. Res. 79: 87–100."},
+    {"type": "reference", "text": "Firestone, M.K. and Davidson, E.A. 1989. Microbial basis of NO and N₂O production and consumption in soil. In: M.O. Andreae and D.S. Schimel, eds. Exchange of Trace Gases between Terrestrial Ecosystems and the Atmosphere. John Wiley & Sons, New York, NY, pp. 7–21."},
+    {"type": "source-fidelity-note", "scope": "Firestone和Davidson参考文献", "text": "中译本随英文参考文献误印书名Exchanger of Trace Gases；实际书名为Exchange of Trace Gases between Terrestrial Ecosystems and the Atmosphere，并补全编者M.O. Andreae末字母e。"},
+    {"type": "reference", "text": "Hart, S.C. and Myrold, D.D. 1996. ¹⁵N tracer studies of soil nitrogen transformations. In: T.W. Boutton and S.I. Yamasaki, eds. Mass Spectrometry of Soils. Marcel Dekker, Inc., New York, NY, pp. 225–245."},
+    {"type": "reference", "text": "Hauck, R.D. and Bouldin, D.R. 1961. Distribution of isotopic nitrogen in nitrogen gas during denitrification. Nature (London) 191: 871–872."},
+    {"type": "reference", "text": "Hauck, R.D., Melsted, S.W., and Yankwich, P.E. 1958. Use of N-isotope distribution in nitrogen gas in the study of denitrification. Soil Sci. 86: 287–291."},
+    {"type": "reference", "text": "Hutchinson, G.L. and Mosier, A.R. 1981. Improved soil cover method for field measurement of nitrous oxide flux. Soil Sci. Soc. Am. J. 45: 311–316."},
+    {"type": "reference", "text": "Hyman, M.R. and Arp, D.J. 1987. Quantification and removal of some contaminating gases from acetylene used to study gas-utilizing enzymes and microorganisms. Appl. Environ. Microbiol. 53: 298–303."},
+    {"type": "reference", "text": "Kjeldby, M., Eriksen, A.B., and Holtan-Hartwig, L. 1987. Direct measurement of dinitrogen evolution from soil using nitrogen-15 emission spectrometry. Soil Sci. Soc. Am. J. 51: 1180–1183."},
+    {"type": "source-fidelity-note", "scope": "Kjeldby等参考文献", "text": "中译本和英文原书参考文献把第二作者写成Erikson；美国土壤科学学会后续权威书目列为A.B. Eriksen，校正文采用Eriksen。"},
+    {"type": "reference", "text": "Lindau, C.W., Patrick, W.H., DeLaune, R.D., Reddy, K.R., and Bollich, P.K. 1988. Entrapment of ¹⁵N₂ during soil denitrification. Soil Sci. Soc. Am. J. 52: 538–540."},
+    {"type": "reference", "text": "Luo, J., White, R.E., Ball, P.R., and Tillman, R.W. 1996. Measuring denitrification activity in soils under pasture: Optimizing conditions for the short-term denitrification enzyme assay and effects of soil storage on denitrification activity. Soil Biol. Biochem. 28: 409–417."},
+    {"type": "reference", "text": "Malone, J.P., Stevens, R.J., and Laughlin, R.J. 1998. Combining the ¹⁵N and acetylene inhibition techniques to examine the effect of acetylene on denitrification. Soil Biol. Biochem. 30: 31–37."},
+    {"type": "reference", "text": "Martin, K., Parsons, L.L., Murray, R.E., and Smith, M.S. 1988. Dynamics of soil denitrifier populations: Relationships between enzyme activity, most probable numbers counts, and actual N gas loss. Appl. Environ. Microbiol. 54: 2711–2716."},
+    {"type": "reference", "text": "McKenney, D.J. and Drury, C.F. 1997. Nitric oxide production in agricultural soils. Glob. Change Biol. 3: 317–326."},
+    {"type": "reference", "text": "McKenney, D.J., Drury, C.F., and Wang, S.W. 1996. Effect of acetylene on nitric oxide production in soil under denitrifying conditions. Soil Sci. Soc. Am. J. 60: 811–820."},
+    {"type": "reference", "text": "McKenney, D.J., Drury, C.F., and Wang, S.W. 1997. Reaction of NO with C₂H₂ and O₂: Implications for denitrification assays. Soil Sci. Soc. Am. J. 61: 1370–1375."},
+    {"type": "reference", "text": "Mosier, A.R. and Klemedtsson, L. 1994. Measuring denitrification in the field. In: R.W. Weaver, J.S. Angle, and P.J. Bottomley, eds. Methods of Soil Analysis, Part 2—Microbiological and Biochemical Properties. Soil Science Society of America, Madison, WI, pp. 1047–1066."},
+    {"type": "reference", "text": "Mosier, A.R. and Schimel, D.S. 1993. Nitrification and denitrification. In: R. Knowles and T.H. Blackburn, eds. Nitrogen Isotope Techniques. Academic Press, San Diego, CA, pp. 181–208."},
+    {"type": "reference", "text": "Mulvaney, R.L. 1984. Determination of ¹⁵N-labeled dinitrogen and nitrous oxide with triple-collector mass spectrometers. Soil Sci. Soc. Am. J. 48: 690–692."},
+    {"type": "reference", "text": "Mulvaney, R.L. and Boast, C.W. 1986. Equations for determination of nitrogen-15-labeled dinitrogen and nitrous oxide by mass spectrometry. Soil Sci. Soc. Am. J. 50: 360–363."},
+    {"type": "reference-continuation", "text": "Mulvaney, R.L. and Kurtz, L.T. 1982. A new method for determination of ¹⁵N-labeled nitrous oxide. Soil Sci. Soc. Am. J. 46:（页码续见第392页）"},
+    {"type": "printed-page-number", "text": "360"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9c2905918229cbfda3047ab624cb821a57d90ae86b3e97e2d2d55ed052e28f36"
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 405,
+  "sourceImageSha256": "8b1887bd554cd79c8ab4d27698f332b2863916e6b18b6254a3f2c612675f4fc7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率中文页面、Apple Vision、PaddleOCR、英文原版第38章参考文献及正式出版书目"},
+    "precisionPass": {"status": "verified", "method": "核验¹⁵NH₄⁺、CO₂、¹⁵N、作者缩写、年份、卷页和书名；纠正old-growth、Bottomley、Methods of Soil Analysis、Jefts卷35及Stockdale"},
+    "secondVisualPass": {"status": "verified", "method": "从Pajuste和Frey条反向复核至Drury和Beauchamp条，逐条消除粘连、断词、错名和错误卷号；印刷页码374"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference", "text": "Drury, C.F. and Beauchamp, E.G. 1991. Ammonium fixation, release, nitrification, and immobilization in high- and low-fixing soils. Soil Sci. Soc. Am. J. 55: 125–129."},
+    {"type": "reference", "text": "Drury, C.F., Beauchamp, E.G., and Evans, L.J. 1989. Fixation and immobilization of recently added ¹⁵NH₄⁺ in selected Ontario and Quebec soils. Can. J. Soil Sci. 69: 391–400."},
+    {"type": "reference", "text": "Drury, C.F., McKenney, D.J., Findlay, W.I., and Gaynor, J.D. 1993. Influence of tillage on nitrate loss in surface runoff and tile drainage. Soil Sci. Soc. Am. J. 57: 797–802."},
+    {"type": "reference", "text": "Drury, C.F., Tan, C.S., Gaynor, J.D., Oloya, T.O., and Welacky, T.W. 1996. Influence of controlled drainage subirrigation on surface and tile drainage nitrate loss. J. Environ. Qual. 25: 317–324."},
+    {"type": "reference", "text": "Edmonds, R.L. and McColl, J.G. 1989. Effects of forest management on soil nitrogen in Pinus radiata stands in the Australian Capital Territory. For. Ecol. Manage. 29: 199–212."},
+    {"type": "reference", "text": "Eno, C.F. 1960. Nitrate production in the field by incubation of soil in polyethylene bags. Soil Sci. Soc. Am. Proc. 24: 277–279."},
+    {"type": "reference", "text": "Gordon, A.M., Tallas, M., and Van Cleve, K. 1987. Soil incubations in polyethylene bags: Effect of bag thickness and temperature on nitrogen transformations and CO₂ permeability. Can. J. Soil Sci. 67: 65–75."},
+    {"type": "reference", "text": "Hart, S.C., Binkley, D., and Perry, D.A. 1997. Influence of red alder on soil nitrogen transformations in two conifer forests of contrasting productivity. Soil Biol. Biochem. 29: 1111–1123."},
+    {"type": "reference", "text": "Hart, S.C. and Firestone, M.K. 1989. Evaluation of three in situ soil nitrogen availability assays. Can. J. For. Res. 19: 185–191."},
+    {"type": "reference", "text": "Hart, S.C., Nason, G.E., Myrold, D.D., and Perry, D.A. 1994a. Dynamics of gross nitrogen transformations in an old-growth forest: The carbon connection. Ecology 75: 880–891."},
+    {"type": "source-fidelity-note", "scope": "Hart等1994a参考文献", "text": "原书把正式题名old-growth forest缩成old forest；正文已按期刊正式题名恢复。"},
+    {"type": "reference", "text": "Hart, S.C., Stark, J.M., Davidson, E.A., and Firestone, M.K. 1994b. Nitrogen mineralization, immobilization, and nitrification. In: R.W. Weaver, J.S. Angle, P.S. Bottomley, D.F. Bezdicek, S. Smith, M.A. Tabatabai, and A.G. Wollum, eds. Methods of Soil Analysis, Part 2—Microbiological and Biochemical Properties. Soil Science Society of America, Madison, WI, pp. 985–1018."},
+    {"type": "source-fidelity-note", "scope": "Hart等1994b参考文献", "text": "原书误印P. Bottomed、S. Smith Tabatabai及Methods of oil Analysis；已据出版方书目纠正为P.S. Bottomley、S. Smith与M.A. Tabatabai两位编者，以及Methods of Soil Analysis，并补足其余编者首字母。"},
+    {"type": "reference", "text": "Hynes, R.K. and Knowles, R. 1980. Denitrification, nitrogen fixation and nitrification in continuous flow laboratory soil columns. Can. J. Soil Sci. 60: 355–363."},
+    {"type": "reference", "text": "Jefts, S.S., Fernandez, I.J., Rustad, L.E., and Dail, D.B. 2004. Comparing methods for assessing forest soil net nitrogen mineralization and net nitrification. Commun. Soil Sci. Plant Anal. 35(19–20): 2875–2890."},
+    {"type": "source-fidelity-note", "scope": "Jefts等参考文献", "text": "原书卷号误印19；该文正式书目为第35卷第19–20期，页2875–2890，DOI 10.1081/CSS-200036479。"},
+    {"type": "reference", "text": "Kaye, J.P., Binkley, D., Zou, X., and Parrotta, J.A. 2002. Non-labile soil ¹⁵N retention beneath three tree species in a tropical plantation. Soil Sci. Soc. Am. J. 66: 612–619."},
+    {"type": "reference", "text": "Kaye, J.P. and Hart, S.C. 1998. Ecological restoration alters nitrogen transformations in a ponderosa pine-bunchgrass ecosystem. Ecol. Appl. 8: 1052–1060."},
+    {"type": "reference", "text": "Killham, K. 1987. A new perfusion system for the measurement of potential rates of soil nitrification. Plant Soil 97: 267–272."},
+    {"type": "reference", "text": "Kirkham, D. and Bartholomew, W.V. 1954. Equations for following nutrient transformation in soil utilizing tracer data. Soil Sci. Soc. Am. Proc. 18: 33–34."},
+    {"type": "reference", "text": "Knoepp, J.D. and Swank, W.T. 1995. Comparison of available soil nitrogen assays in control and burned forested sites. Soil Sci. Soc. Am. J. 59: 1750–1754."},
+    {"type": "reference", "text": "Kowalenko, C.G. and Yu, S. 1996. Assessment of nitrate adsorption in soils by extraction, equilibration and column-leaching methods. Can. J. Soil Sci. 76: 49–57."},
+    {"type": "reference", "text": "Murphy, D.V., Recous, S., Stockdale, E.A., Fillery, I.R.P., Jensen, L.S., Hatch, D.J., and Goulding, K.W.T. 2003. Gross nitrogen fluxes in soil: Theory, measurement and application of ¹⁵N pool dilution techniques. Adv. Agron. 79: 69–118."},
+    {"type": "source-fidelity-note", "scope": "Murphy等参考文献", "text": "原书把第三作者误印为Stockdalem；正式书目为E.A. Stockdale。"},
+    {"type": "reference", "text": "Pajuste, K. and Frey, J. 2003. Nitrogen mineralization in podzol soils under boreal Scots pine and Norway spruce stands. Plant Soil 257: 237–247."},
+    {"type": "printed-page-number", "text": "374"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "004619fb5cd3fb26a54c84957e78fceeaa5849e93de75b9c2ee6ce0f3191d04b"
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 172,
+  "sourceImageSha256": "6a5ed498a1c2f37b7f5e7890a5a779ae42ef2f05edd38d8d59ef91149121748e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐项对照原分辨率图17.2及安装步骤，并与Apple Vision、PaddleOCR交叉比对，人工恢复图中尺寸、部件标注、图注和7项步骤"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验5/10/50 mm、1.59 mm（1/16英寸）、内径5 mm、1 cm、PEEK/PVC、30～60 kPa、4 ℃、pH/EC及Göttlein重音"},
+    "secondVisualPass": {"status": "verified", "method": "从步骤（7）反向复核至图顶玻璃尖端，确认图17.2十二类标注、来源引文、图17.3交叉引用和页码141"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第17章｜土壤溶液的采集与测定｜"},
+    {"type": "figure", "label": "图17.2", "title": "微型蒸渗仪装置：包括微型蒸渗仪抽吸装置、支撑板和样品采集室", "labels": ["陶瓷毛细管", "玻璃尖端", "5 mm", "10 mm", "径宽1.59 mm（1/16英寸）、长50 mm聚醚醚酮（PEEK）毛细管用来连接收集装置", "用以固定的长钉", "内径5 mm网格状钻孔", "有机玻璃板", "1 cm", "聚醚醚酮（PEEK）毛细管", "锁紧螺钉", "密封橡胶塞", "样品瓶", "瓶架（有机玻璃）", "真空泵连接处", "聚氯乙烯箱"], "source": "Göttlein, A., Hell, U.,和Blasek, R., Geoderma, 69, 147, 1996."},
+    {"type": "section-heading", "level": 3, "number": "17.5.3", "title": "安装步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "确定微型蒸渗仪在土壤中的安装位置是在土壤自然剖面的表面还是在装有土壤的根管中。"},
+    {"type": "procedure-step", "number": "（2）", "text": "在确定的位置，用不锈钢杆在土壤中钻出一个与微型蒸渗仪尺寸相同的洞。"},
+    {"type": "procedure-step", "number": "（3）", "text": "拔出不锈钢杆，把微型蒸渗仪插入合适的深度，确定好微型蒸渗仪抽吸杯前端的位置。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用一块与微型蒸渗仪径宽或根管侧面大小相同的带孔有机玻璃板支撑各个微型蒸渗仪，以便确保它们在土壤中精确、固定的安放位置（见图17.3）。"},
+    {"type": "procedure-step", "number": "（5）", "text": "将蒸渗仪内抽至30～60 kPa的恒定真空环境，也可以使用较短时间真空环境的不连续真空体系法获取土壤溶液。"},
+    {"type": "procedure-step", "number": "（6）", "text": "与任何蒸渗仪一样，微型蒸渗仪也需要检测溶液的pH值和EC值来判断是否与周围土壤保持平衡。只有pH值和EC达到稳定值，微型蒸渗仪获得的数据才能够代表土壤溶液的化学性质。"},
+    {"type": "procedure-step", "number": "（7）", "text": "溶液样品应该立即转移至冷藏装置内，确保运送至实验室前处于4 ℃黑暗环境中保存。"},
+    {"type": "printed-page-number", "text": "141"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a14bafb89def03460d6a11d21cb3bdc515b792a4a13ab168ef235dc730bbdff1"
+}

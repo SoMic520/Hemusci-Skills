@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 200,
+  "sourceImageSha256": "d5dfe85b462a6fae16226117db2e289b6c8c898dffd8b4c3a5914993683b8f08",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页图、两套OCR、英文原章及可核验书目信息，完成第71章参考文献和译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验年份、卷期、页码、专名缩写、D5092-90承接内容及书名中的soil"},
+    "secondVisualPass": {"status": "verified", "method": "按作者字母序反向逐条点验22条参考文献与跨页Brown条目；印刷页码709"}
+  },
+  "blocks": [
+    {"type": "references", "entries": [
+      "Brown, R.W. and van Haveren, B.P. 1972. Psychrometry in water relations research. Proceedings of the Symposium on Thermocouple Psychrometers. Utah Agricultural Experimental Station, Utah State University, Logan, UT, 1–27（承上页）。",
+      "Campbell, G.S. 1979. Improved thermocouple psychrometers for measurement of soil water potential in a temperature gradient. J. Phys. E: Sci. Instrum. 12: 739–743.",
+      "Carlson, T.N. and El Salam, J. 1987. Measurement of soil moisture using gypsum blocks. In: R.J. Hanks and R.W. Brown, eds. Proceedings of International Conference on Measurement of Soil and Plant Water Status. Vol. 1. Logan, Utah State University, UT, July 1987, 193–200.",
+      "Gee, G.W., Campbell, M.D., Campbell, G.S., and Campbell, J.H. 1992. Rapid measurement of low soil water potentials using a water activity meter. Soil Sci. Soc. Am. J. 56: 1068–1070.",
+      "Hanks, R.J. and Brown, R.W. 1987. eds. Proceedings of International Conference on Measurement of Soil and Plant Water Status, Vol. 1, Logan, UT, July 1987, 115–119.",
+      "Kramer, P.J. and Boyer, J.S. 1995. Water Relations of Plants and Soil. Academic Press, San Diego, CA.",
+      "Lang, A.R.G. 1967. Osmotic coefficients and water potentials of sodium chloride solutions from 0 to 40 ℃. Aust. J. Chem. 20: 2017–2023.",
+      "Lang, A.R.G. 1968. Psychrometric measurement of soil water potential in situ under cotton plants. Soil Sci. 106: 460–464.",
+      "Marthaler, H.P., Vogelsanger, W., Richard, F., and Wierenga, P.J. 1983. A pressure transducer for field tensiometers. Soil Sci. Soc. Am. J. 47: 624–627.",
+      "Miller, E.E. and Salehzadeh, A. 1993. Stripper for bubble-free tensiometry. Soil Sci. Soc. Am. J. 57: 1470–1473.",
+      "Neumann, H.H. and Thurtell, G.W. 1972. A Peltier cooled thermocouple dewpoint hygrometer for in situ measurement of water potential. In: R.W. Brown and B.P. van Haveren, eds. Psychrometry in Water Relations Research. Utah Agricultural Experimental Station, Logan, Utah State University, UT, 103–112.",
+      "Rawlins, S.L. and Dalton, F.N. 1967. Psychrometric measurement of soil water potential without precise temperature control. Soil Sci. Soc. Am. Proc. 31: 297–300.",
+      "Richards, L.A. 1965. Physical conditions of water in soil. In: C.A. Black et al., eds. Methods of Soil Analysis. American Society of Agronomy, Madison, WI, 128–152.",
+      "Rundel, P.W. and Jarrell, W.R. 1989. Water in the environment. In: R.W. Pearcy, J. Ehleringer, H.A. Mooney, and P.W. Rundel, eds. Plant Physiological Ecology. Chapman and Hall, New York.",
+      "Savage, M.J., Ritchie, J.T., and Khuvutlu, I.N. 1987. Soil hygrometers for obtaining water potential. In: R.J. Hanks and R.W. Brown, eds. Proceedings of International Conference on Measurement of Soil and Plant Water Status. Vol. 1. Logan, Utah State University, UT, July 1987, 119–124.",
+      "Scanlon, B.R., Andraski, B.J., and Bilskie, J. 2002. Miscellaneous methods for measuring matric or water potential. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods, Soil Science Society of America, Madison, WI, 643–670.",
+      "Strangeways, I. 2003. Measuring the Natural Environment. Cambridge University Press, Cambridge, UK.",
+      "Szeicz, G. 1975. Instruments and their exposure. In: J.L. Monteith, ed. Vegetation and the Atmosphere. Vol. 1. Academic Press, London, 229–273.",
+      "Wiebe, H.H., Campbell, G.S., Gardner, W.H., Rawlins, S.L., Cary, J.W., and Brown, R.W. 1971. Measurement of Plant and Soil Water Status. Utah Agricultural Experiment Station Bulletin 484. Utah State University, Logan, UT.",
+      "Young, M.H. 2002. Piezometry. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods, SSSA Book Series No. 5, Soil Science Society of America, Madison, WI, 547–573.",
+      "Young, M.H. and Sisson, J.B. 2002. Tensiometry. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods, Soil Science Society of America, Madison, WI, 575–608."
+    ]},
+    {"type": "credits", "text": "魏翠兰译，李保国校。"},
+    {"type": "source-fidelity-note", "text": "书目经逐条校正：原书Marthale应为Marthaler；Szietz应为Szeicz；Weibe应为Wiebe；其1971年书名漏soil，规范为Measurement of Plant and Soil Water Status；Miller条目的期刊顺序规范为Soil Sci. Soc. Am. J.；补入Szeicz条目页码229–273。原页其余著录内容保留。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "41bdefde5d92f7c49c782ae157b56a6a3339377c18cdd9cda3567cf5144236cf"
+}

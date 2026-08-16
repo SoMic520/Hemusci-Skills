@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 105,
+  "sourceImageSha256": "00fe7afca5f93d832656deb5732371d9873ba1273a7d63af55922b8bb940b927",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复9.3续文、提取剂评价、两种方法概述及9.3.1首项"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对pH 3.3/6.0/3.0、AB-DTPA、H₂O₂、CaCl₂、Mehlich 3、r²=0.81、0.01/0.2 mol/L、24.9/12.605 g、800 mL及Nicotiana tabacom L./Medicago sativa L."},
+    "secondVisualPass": {"status": "verified", "method": "由页首“规土壤测试方法”跨页续句至草酸铵配制跨页句反向复核，核验段落逻辑、文献人名年份、方法层级和印刷页码74"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "continuation": true, "text": "规土壤测试方法，但目前已尝试采用多种提取剂来提取土壤中的有效态钼。钼缺乏症很少见，主要是豆科作物需要关注这个问题。由于牧草中过量的钼对动物有害，故通常基于直观的钼缺乏症状或轮作历史来施用钼肥。"},
+    {"type": "paragraph", "text": "目前，已有许多提取剂用于评价土壤中的有效态钼。这些提取剂有：草酸铵，pH值为3.3（Grigg，1953）；水（Gupta和MacKay，1965a）；热水，阴离子交换树脂；AB-DTPA（Soltanpour和Workman，1980）；碳酸铵（Vlek和Lindsay，1977），以及氧化铁滤纸（Sarkar和O’Connor，2001）。然而，这些提取剂大部分用于研究缺钼方面而不考虑其毒性效应（Davies，1980）。", "inlineNotation": ["pH值为3.3", "AB-DTPA"]},
+    {"type": "paragraph", "text": "尽管存在上述缺点，评估土壤中有效态钼最常用的提取剂是pH值为3.3的草酸铵缓冲溶液（Grigg，1953）。成功利用酸性草酸铵预测植物对钼的吸收（Wang等，1994）及其失败案例（Mortvedt和Anderson，1982；Liu等，1996）可在文献中查到。从未能成功利用酸性草酸铵来预测植物对钼吸收的研究中发现，植物中的钼与土壤的某些性质（如pH值）关系更为密切，而与土壤中可提取态钼的关系较弱。有研究表明，以土壤pH值为因子时，土壤中酸性草酸可提取态钼与植物中的钼之间存在较好的回归关系（Mortvedt和Anderson，1982）。Sharma和Chatterjee（1997）指出，土壤的pH值、有机质、母质和质地等土壤理化性质在确定碱性土壤中钼的有效性方面发挥了重要作用。多元回归方程解释了各因子的贡献，可以更好地预测临界值。此外，Liu等（1996）发现，用草酸铵（pH值为6.0）从肯塔基州土壤中提取的钼与温室中烟草（Nicotiana tabacom L.）所吸收的钼之间具有显著的相关性（r²=0.81）。然而，用pH值为3.3的草酸铵缓冲溶液提取却并不存在很好的统计学相关性。", "inlineNotation": ["pH值为3.3", "pH值为6.0", "Nicotiana tabacom L.", "r²=0.81"]},
+    {"type": "paragraph", "text": "阴离子交换树脂法和AB-DTPA法虽然未经广泛验证但却有很好的应用前景。阴离子交换树脂法已成功用于提取土壤中的有效态钼（Ritchie，1988）。AB-DTPA法（Soltanpour和Workman，1980；Soltanpour等，1982）也已成功用于碱性和钼污染土壤的提取（Pierzynski和Jacobs，1986；Wang等，1994）。此外，特别是对于已产生钼毒性问题的土壤，用碳酸铵（Vlek和Lindsay，1977）提取的有效态钼与植物吸收的钼之间也显示出良好的相关性。经过上述提取步骤之后，再利用H₂O₂处理所得的脱色提取物，可用比色法进行钼分析（Wang等，1994）。", "inlineNotation": ["AB-DTPA", "H₂O₂"]},
+    {"type": "paragraph", "text": "为了测定污泥施用土壤中的有效态钼，Sarkar和O’Connor（2001）对比研究了铁氧化物浸润滤纸结合草酸铵提取有效态钼和土壤总钼。其数据显示，先用氧化铁滤纸条再用草酸铵从土壤中提取的钼和植物中的钼相关性最好；但土壤中的总钼和植物吸收钼之间基本不具有相关性。同时，Sarkar和O’Connor（2001）进一步指出，即使应用于污泥施用土壤，氧化铁滤纸条仍是一种令人满意的有效态钼测定方法。"},
+    {"type": "paragraph", "text": "McBride等（2003）指出，对于生长于污泥改良、近中性土壤上的三叶草，稀CaCl₂溶液在测定有效态钼和其他微量金属元素方面优于Mehlich 3提取剂来作为通用提取剂。生长在污泥改良土壤上的紫花苜蓿（Medicago sativa L.）中的钼含量与用0.01 mol/L CaCl₂提取的土壤中的钼具有良好的相关性。相比于土壤中可提取的钼（0.01 mol/L CaCl₂），土壤中的总钼和前期土壤的钼承载量对预测紫花苜蓿中钼含量的可靠性较低（McBride和Hale，2004）。", "inlineNotation": ["CaCl₂", "Mehlich 3", "Medicago sativa L.", "0.01 mol/L CaCl₂"]},
+    {"type": "paragraph", "text": "两种提取方法概述如下："},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "草酸铵，pH值为3.0（改自Grigg，1953）；"},
+      {"number": "（2）", "text": "AB-DTPA（Soltanpour和Schwab，1977）。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "9.3.1", "title": "草酸铵（pH值为3.0）法提取钼（改自Grigg，1953）"},
+    {"type": "section-heading", "level": 4, "number": "1.", "title": "试剂（Gupta和MacKay，1966）"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "0.2 mol/L草酸铵调节pH值到3.0：将24.9 g草酸铵和12.605 g草酸溶解于约800 mL去离子"}
+    ]},
+    {"type": "printed-page-number", "text": "74"}
+  ],
+  "formulas": [
+    {"label": null, "plain": "r²=0.81", "latex": "r^2=0.81", "context": "草酸铵提取的钼与烟草吸收钼之间的相关性"}
+  ],
+  "tables": [],
+  "contentSha256": "a19343c7618aa022923dd250d37105c7893422c925739158a6d5ab964cae4e93"
+}

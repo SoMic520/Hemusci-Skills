@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 355,
+  "sourceImageSha256": "bb3cfb1032cda2f42cb536c59b31b31571a4388fb3370aee360eaadab4dac84a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版34.7.1～34.8.1交叉比对"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验5%福尔马林、3%～5%、24 h、15 ℃、60 ℃/24 h、52%/84%/89%/95%/59%/90%、70%（V/V）和15%～20%（V/V）/15 min"},
+    "secondVisualPass": {"status": "verified", "method": "从页末麻醉步骤反向复核至断体计数续句，矫正吸水饱和滤纸、无灰分干质量、收集时间间水分平衡和试验始末步骤语义；页码324"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第34章｜蚓蚓｜"},
+    {"type": "paragraph-continuation", "continuationOf": "page-0354#34.7", "text": "样品中所有身体部位均计入总生物量；但计数时，只有带头部或前体段的碎片可计入。"},
+    {"type": "section-heading", "level": 3, "number": "34.7.1", "title": "蚓蚓生物量"},
+    {"type": "paragraph", "text": "蚓蚓生物量（即质量）常与蚓蚓数量同时记录。相比个体数，生物量可能更准确地指示某一土壤功能水平。以数量或生物量作为衡量某物种存在程度的基准时，对不同体型蚓蚓物种影响土壤性质和植物生产的相对结论可不同（Baker等，1999）。"},
+    {"type": "paragraph", "text": "蚓蚓采集后的生物量测量有多个误差源，包括标本水合状态、近期取食导致的肠道土壤或食物，以及保存后的失重。Piearce（1972）发现，蚓蚓在5%福尔马林中保存1周后体重下降3%～5%。通常用干重，或在标准水合水平和明确保存时长下的重量表示生物量。Martin（1986）、Springett和Gray（1992）、Dalby等（1996）给出了排空肠道内容物以消除该误差的方法，尤其适用于后续测量生长的试验。Blair等（1996）认为无灰分干质量能更准确地比较不同时间和研究的数据。下文摘要介绍Dalby等（1996）的方法。"},
+    {"type": "source-fidelity-note", "scope": "34.7.1", "text": "中文本的“无灰分质量”遗漏原文dry；已恢复为无灰分干质量（ash-free dry mass）。"},
+    {"type": "section-heading", "level": 3, "number": "34.7.2", "title": "排空蚓蚓肠道内容物以评估生物量的步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "从野外或培养箱收集蚓蚓，放在吸水饱和的滤纸或湿纸巾上，置于塑料培养皿内（用胶带或橡皮筋固定上下皿，防止蚓蚓逃逸），或置于密闭容器内24 h。此期间蚓蚓肠道内容物的绝大部分会排出。"},
+    {"type": "source-fidelity-note", "scope": "34.7.2（1）", "text": "中文本把water-saturated filter paper误译为“渗透水的滤纸”；已改为吸水饱和的滤纸。"},
+    {"type": "procedure-step", "number": "（2）", "text": "在适宜温度下维持蚓蚓（对大多数正蚓科Lumbricidae，约15 ℃合适）。用水轻柔冲洗；也可让蚓蚓在盛水瓶中“游”约1 min。用纸巾轻印吸干后称重。蚓蚓组织干重可在60 ℃干燥24 h后测定。用各种尺寸的马毛或软毛油画笔清除体表多余土壤，也比镊子更温和。涉及生长测量的试验，必须在试验开始和结束时均按同一程序执行。"},
+    {"type": "section-heading", "level": 3, "number": "34.7.3", "title": "注释"},
+    {"type": "comment", "number": "（1）", "text": "肠道内容物不能全部排空，一部分会不可避免地黏附在肠壁内陷处。在缓和水流下清洗后，用拇指和食指轻柔但稳定地“挤排”肠道内容物，从头部到肛门行程约2/3处开始，向肛门方向操作。把蚓蚓置于水、湿滤纸或普通纸巾环境中限制活动，还可使同一次及不同采集时间间的蚓蚓水分状态趋于一致（详见Dalby等，1996）。限制超过24 h只会小幅进一步减少肠内容物，但可能使蚓蚓体况开始劣化。"},
+    {"type": "source-fidelity-note", "scope": "34.7.3（1）", "text": "中文本“用水、湿纸巾固定蚓蚓，简单的纸巾也可以平衡……含水量”未表达原文confining与within and between collection times，已恢复为限制环境及采集时间内/间的水分平衡。"},
+    {"type": "comment", "number": "（2）", "text": "有些采样法能高效提取种群中最大个体，因而对生物量估计很准，却因遗漏很多小个体而不能准确估计数量。Raw（1960）手拣湿草地土壤（蚓蚓多集中在厚草毯中），仅获得52%的蚓蚓数量和84%的生物量，最常遗漏小型物种及大型物种的未成熟个体。相反，手拣无根毯的牧草地土壤获得89%的数量和95%的生物量；在一块老旧耕地的结构不良黏土中，获得59%的数量和90%的生物量。"},
+    {"type": "section-heading", "level": 2, "number": "34.8", "title": "蚓蚓参考收藏标本的制备"},
+    {"type": "paragraph", "text": "用于种群数量或生物量估计及分子遗传学研究的蚓蚓可保存在70%（V/V）乙醇中。但用于鉴定和系统参考收藏中长期保存的代表性标本，需要不同的处理和保存方式，以避免分解或变得过于脆硬而不适合解剖。"},
+    {"type": "section-heading", "level": 3, "number": "34.8.1", "title": "固定和保存步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "将日后用于分类学研究的蚓蚓先置于15%～20%（V/V）乙醇中麻醉约15 min，或至轻轻探触时不再有反应。可用软毛油画笔轻柔按摩，使蚓蚓伸直。"},
+    {"type": "printed-page-number", "text": "324"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a2c65ca92ef735bee76ace89231550c2b88019197c1672292017a02d38c94bef"
+}

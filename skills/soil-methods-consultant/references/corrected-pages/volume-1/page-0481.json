@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 481,
+  "sourceImageSha256": "1afc0c9aafe843b4e7be48057a376fb4a4f5ecbf84a0c358c79c028112b76a93",
+  "review": {
+    "textPass": {"status": "verified", "method": "对照原分辨率页面逐条转录第47章参考文献续页和译校署名，恢复¹⁴C、连字符、卷页及题名引号"},
+    "precisionPass": {"status": "verified", "method": "核验Cambardella承上条及18条完整书目；校正Kjærgaard、Makromolekulare Chemie、Biology and Fertility of Soils等正式拼写"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至Cambardella和Elliott承上条，确认无正文、公式、表格或图示遗漏；印刷页码450"}
+  },
+  "blocks": [
+    {"type": "reference-list", "continuationOf": "page-0480:chapter47-references", "entries": [
+      "Cambardella, C.A., and Elliott, E.T. 1992. Particulate soil organic-matter changes across a grassland cultivation sequence. Soil Science Society of America Journal 56:777–782.",
+      "Campbell, C.A., Selles, F., Lafond, G.P., Biederbeck, V.O., and Zentner, R.P. 2001. Tillage-fertilizer changes: Effect on some soil quality attributes under long-term crop rotations in a thin black chernozem. Canadian Journal of Soil Science 81:157–165.",
+      "Curtin, D., McCallum, F.M., and Williams, P.H. 2003. Phosphorus in light fraction organic matter separated from soils receiving long-term applications of superphosphate. Biology and Fertility of Soils 37:280–287.",
+      "Golchin, A., Oades, J.M., Skjemstad, J.O., and Clarke, P. 1994. Soil structure and carbon cycling. Australian Journal of Soil Research 32:1043–1068.",
+      "Gregorich, E.G., Beare, M.H., McKim, U.F., and Skjemstad, J.O. 2006. Chemical and biological characteristics of physically uncomplexed organic matter. Soil Science Society of America Journal 70:975–985.",
+      "Gregorich, E.G., and Ellert, B.H. 1993. Light fraction and macroorganic matter in mineral soils. In M.R. Carter (ed.), Soil Sampling and Methods of Analysis, pp. 397–407. Canadian Society of Soil Science; Lewis Publishers, Boca Raton, FL.",
+      "Gregorich, E.G., and Janzen, H.H. 1996. Storage of soil carbon in the light fraction and macroorganic matter. In M.R. Carter and B.A. Stewart (eds.), Structure and Organic Matter Storage in Agricultural Soils, pp. 167–190. Lewis Publishers/CRC Press, Boca Raton, FL.",
+      "Ladd, J.N., and Amato, M. 1980. Mineralization in calcareous soils: IV. Changes in the organic nitrogen of light and heavy subfractions of silt and fine clay-size particles during nitrogen turnover. Soil Biology and Biochemistry 12:185–189.",
+      "Ladd, J.N., Parsons, J.W., and Amato, M. 1977. Studies of nitrogen immobilization and mineralization in calcareous soils—II. Mineralization of immobilized nitrogen from soil fractions of different particle size and density. Soil Biology and Biochemistry 9:319–325.",
+      "Magid, J., Gorissen, A., and Giller, K.E. 1996. In search of the elusive ‘active’ fraction of soil organic matter: Three size-density fractionation methods for tracing the fate of homogeneously ¹⁴C-labelled plant materials. Soil Biology and Biochemistry 28:89–99.",
+      "Magid, J., and Kjærgaard, C. 2001. Recovering decomposing plant residues from the particulate soil organic matter fraction: Size versus density separation. Biology and Fertility of Soils 33:252–257.",
+      "Oorts, K., Vanlauwe, B., Recous, S., and Merckx, R. 2005. Redistribution of particulate organic matter during ultrasonic dispersion of highly weathered soils. European Journal of Soil Science 56:77–91.",
+      "Plewinsky, B., and Kamps, R. 1984. Sodium metatungstate: A new medium for binary and ternary density gradient centrifugation. Die Makromolekulare Chemie 185:1429–1439.",
+      "Richter, M., Mizuno, I., Aranguez, S., and Uriarte, S. 1975. Densimetric fractionation of soil organomineral complexes. Journal of Soil Science 26:112–123.",
+      "Salas, A.M., Elliott, E.T., Westfall, D.G., Cole, C.V., and Six, J. 2003. The role of particulate organic matter in phosphorus cycling. Soil Science Society of America Journal 67:181–189.",
+      "Scheffer, B. 1977. Stabilization of organic matter in sand mixed cultures. In Soil Organic Matter Studies, Vol. 2, pp. 359–363. International Atomic Energy Agency, Vienna, Austria.",
+      "Sollins, P., Glassman, C., Paul, E.A., Swanston, C., Lajtha, K., Heil, J.W., and Elliott, E.T. 1999. Soil carbon and nitrogen: Pools and fractions. In G.P. Robertson, D.C. Coleman, C.S. Bledsoe, and P. Sollins (eds.), Standard Soil Methods for Long-Term Ecological Research, pp. 89–105. Oxford University Press, Oxford, UK.",
+      "Spycher, G., Sollins, P., and Rose, S. 1983. Carbon and nitrogen in the light fraction of a forest soil: Vertical distribution and seasonal patterns. Soil Science 135:79–87.",
+      "Wander, M. 2004. Soil organic matter fractions and their relevance to soil function. In F. Magdoff and R.R. Weil (eds.), Soil Organic Matter in Sustainable Agriculture, pp. 67–102. CRC Press, Boca Raton, FL."
+    ]},
+    {"type": "translator-credit", "translators": ["耿玉辉", "党海燕"], "reviewer": "王朝辉"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "86dcd63b32ebe9c7bea4f1e3018aee004dbf0e9ba3aa292d74838a7768ab4872"
+}

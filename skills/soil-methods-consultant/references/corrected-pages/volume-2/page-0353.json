@@ -1,0 +1,70 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 353,
+  "sourceImageSha256": "e2637e1f2591e0fe24937fabb1d83b7f87b691b694fd51d9dab96529a8d429cc",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条核对附录B作者信息、B.1一般安全规范和B.2碱类总则"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对SDS/MSDS、WHMIS、PPE、NFPA四色4级标识和五种强碱化学式"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "LiOH/NaOH/KOH/RbOH/CsOH元素符号、括号及安全动作二次反查"
+    }
+  },
+  "blocks": [
+    {
+      "type": "appendix",
+      "number": "B",
+      "title": "实验室一般安全操作规范",
+      "author": "乔治斯（P. St-Georges）",
+      "affiliation": "加拿大粮农部，渥太华，安大略，加拿大"
+    },
+    {
+      "type": "heading",
+      "number": "B.1",
+      "title": "一般安全规范",
+      "level": 2
+    },
+    {
+      "type": "safety-procedure",
+      "steps": [
+        "作业前阅读最新版安全数据表SDS（原书称MSDS），确认危害、工程控制、PPE、储存相容性、泄漏与急救措施。",
+        "所有主管、员工、学生和志愿者应接受适用的WHMIS及本实验室专项培训；遵守所在地市、省/州和国家法规以及机构SOP。",
+        "确认所需PPE可用、尺寸合适并按程序穿戴；高危化学品须获得专项培训与授权。",
+        "识别NFPA健康（蓝）、易燃（红）和不稳定/反应性（黄）等级；4级代表最高等级的严重危险，不能在无专项控制条件下操作。",
+        "所有原装及分装容器均须有合规标签；检查保质期、容器状态和过期后可能形成的不稳定性。",
+        "开始实验前确认试剂供应、通风柜、洗眼器、安全淋浴及泄漏/急救物资。",
+        "搬运玻璃试剂瓶不得只抓瓶颈；双手托持或使用兼容的橡胶/塑料瓶架和二次容器。",
+        "按SDS及相容性分区储存，控制通风，维持准确化学品目录。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "B.2",
+      "title": "碱类",
+      "level": 2
+    },
+    {
+      "type": "hazards",
+      "items": [
+        "强碱有腐蚀性，低表面张力使污染物不易完全冲洗。",
+        "眼接触可致严重、不可逆损伤；皮肤接触可致深部化学灼伤；摄入可灼伤并穿孔消化道。",
+        "酸与碱按不相容性分区储存，并设置兼容二次容器。",
+        "列举的强碱：LiOH（氢氧化锂）、NaOH（氢氧化钠）、KOH（氢氧化钾）、RbOH（氢氧化铷）、CsOH（氢氧化铯）。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "将原书“MSDS”保留为历史称谓并统一映射到现行SDS；“NFPA反应性”按现行菱形标识规范写为“不稳定性/反应性”。安全条目是最低要求，实际操作以化学品最新版SDS、机构SOP和当地法规为准。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "00feed38857dc309da6ed6c40d04b3834edabb053ccd2e989c4fc3dae6ac2265"
+}

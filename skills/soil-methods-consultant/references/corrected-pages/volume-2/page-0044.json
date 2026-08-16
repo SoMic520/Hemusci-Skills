@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 44,
+  "sourceImageSha256": "016f7e9da25bd9da8dcabeabc4d26bcea53ffce5935e88522b469c3ecb677029",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成57.2.4核辐射法、57.3引言、混合密度式（57.9）及57.3.1(1)"},
+    "precisionPass": {"status": "verified", "method": "核验γ、¹³⁷Cs/²⁴¹Am-Be、370/1900 MBq、2.60～2.75/1.3～1.5/2.65 g cm⁻³、x₁～x₃、D_p1～D_p3"},
+    "secondVisualPass": {"status": "verified", "method": "由材料(1)反向复核至57.2.4，纠正衰变/衰减混用、核素上下标和干湿容重换算量纲；印刷页码553"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "57.2.4", "title": "核辐射法", "level": 3},
+    {"type": "paragraph", "text": "γ射线法可快速测湿容重，但需标定。原理是γ射线散射或衰减受容重等性质影响，通过放射源与探测器间的散射或透射衰减确定容重。散射法用单一源与探测器；透射法用两探针，γ源和Geiger探测器分置。探针插入预钻孔或测管，测散射/衰减率并同步测含水量，把湿容重换算为干容重。γ—中子复合探头可同时测湿容重和含水量，干容重仍需校正。"},
+    {"type": "paragraph", "text": "示例设备Campbell Pacific Nuclear Dual Probes Strata Gauge MC-S-24：¹³⁷Cs γ源活度370 MBq用于湿容重，²⁴¹Am-Be快中子源活度1900 MBq用于含水量。严格换算为D_b=D_bw−θρ_w，而非简单以湿容重减去无量纲θ。"},
+    {"type": "safety-note", "text": "按制造商说明和当地辐射法规操作、标定、检查泄漏、运输、培训、存储与处置。该法非破坏、快速，但成本和合规要求高。"},
+    {"type": "source-fidelity-note", "text": "原书多次写γ射线‘衰变’，此处物理过程应为在土体中的衰减（attenuation）；已规范。原书写干容重由湿容重减体积含水量，完整量纲式应减θρ_w。"},
+    {"type": "heading", "number": "57.3", "title": "土壤颗粒密度", "level": 2},
+    {"type": "paragraph", "text": "颗粒密度是全部土粒的复合平均密度。常见矿物约2.60～2.75 g cm⁻³；含磁铁矿、锆石、电气石、角闪石等重矿物时可>2.75 g cm⁻³。矿物组成可随地形与管理变化，计算孔隙度时宜实测（Ball等，2000）。有机质颗粒密度约1.3～1.5 g cm⁻³，少量即可显著降低复合密度；表土常低于底土。"},
+    {"type": "paragraph", "text": "缺测时常假定2.65 g cm⁻³（石英）。三组分土壤质量分数x₁、x₂、x₃，组分密度D_p1、D_p2、D_p3，其混合颗粒密度D_p按式（57.9）。实测时称颗粒质量，再由其排开水或其他液体的质量与密度求体积。"},
+    {"type": "heading", "number": "57.3.1", "title": "材料", "level": 3},
+    {"type": "materials-list", "items": ["比重瓶或100 mL容量瓶。"]}
+  ],
+  "formulas": [
+    {"label": "(57.9)", "plain": "1/D_p = x₁/D_p1 + x₂/D_p2 + x₃/D_p3", "latex": "\\frac{1}{D_p}=\\frac{x_1}{D_{p1}}+\\frac{x_2}{D_{p2}}+\\frac{x_3}{D_{p3}}", "variables": [{"symbol": "x_i", "meaning": "第i组分质量分数；三者之和为1"}, {"symbol": "D_pi", "meaning": "第i组分颗粒密度"}]}
+  ],
+  "tables": [],
+  "contentSha256": "4314d43b9c935f7746c473175e133c811f13e62a823b4461b1bc1a3126e17ae7"
+}

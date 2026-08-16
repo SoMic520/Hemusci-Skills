@@ -1,0 +1,43 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 139,
+  "sourceImageSha256": "a54f1a733f5643ac75c1d4ee9f4cd20f38b1453337da1f1840e201bac893c09e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐项对照原分辨率图和两套OCR，完成式(68.5)变量、68.3.1注释、68.3.2、68.4、68.4.1及68.4.2材料和步骤"},
+    "precisionPass": {"status": "verified", "method": "核验5/85/105/70 ℃、TDR全称、1 cm、24 h、探针方向、介电标定和有机—矿质混合样适用性"},
+    "secondVisualPass": {"status": "verified", "method": "由步骤(2)末反向复核至BD变量，检查烘温含义、饱和含水量假设、探针尺度和引用；印刷页码648"}
+  },
+  "blocks": [
+    {"type": "variables", "items": ["BD：容重，即单位总体积的干固体质量", "SDW：样品烘至恒量的干质量", "V：环刀内体积"]},
+    {"type": "heading", "title": "环刀法注释", "level": 4},
+    {"type": "paragraph", "text": "取样应尽量减少压实。泥炭BD强烈受含水量和装填状态影响；原书建议填样前在5 kPa吸力下预平衡（Verdonck和Gabriels，1992），报告时应写为基质水势/压力头条件而非无符号压力。BD还与灰分（Grigal等，1989）和分解度（Silc和Stanek，1977）相关。泥炭有机质在>85 ℃可能分解失重，105 ℃烘干会使干质量偏低并稍高估计算含水量（Macfarlane，1969），故本章建议70 ℃烘至恒量；必须依据材料特性选择并报告温度。"},
+    {"type": "heading", "number": "68.3.2", "title": "原位容重测定", "level": 3},
+    {"type": "paragraph", "text": "可用TDR（time domain reflectometry，时域反射法）作栽培基质BD的原位非破坏测定（Paquet等，1993）。自然或人工压实后，先用TDR测饱和体积含水量并据此估总孔隙度，再结合颗粒密度计算BD；也可用于土壤剖面饱和层（见68.4.2）。该方法不是TDR直接读取BD，两个换算步骤及各自标定均不可省略。"},
+    {"type": "heading", "number": "68.4", "title": "水分和空气存储", "level": 2},
+    {"type": "heading", "number": "68.4.1", "title": "总孔隙度", "level": 3},
+    {"type": "paragraph", "text": "总孔隙度是脱湿曲线的饱和起点，代表材料可容纳水和空气的最大体积分数，是评价商业栽培基质的重要参数（Hidding，1999）。可在盆栽基质中直接原位测定，也可间接监测有机土田间总孔隙度；疏松基质的制样与吸湿曲线方法一致。"},
+    {"type": "heading", "number": "68.4.2", "title": "原位测定总孔隙度", "level": 3},
+    {"type": "paragraph", "text": "从环刀或容器底部缓慢润湿、排气，测饱和体积含水量，并在“饱和后空气已全部排出”的假设下令总孔隙度TP=θ_v,sat。该假设在疏水、有根或产气材料中必须验证。"},
+    {"type": "heading", "title": "材料", "level": 4},
+    {"type": "list", "items": [
+      "装填样品的盆栽容器或环刀，或待测饱和土层",
+      "可从容器底部缓慢供水的水浴；蒸馏水或去离子水",
+      "长度与测量体积相匹配的TDR探针",
+      "TDR主机、CS-615或其他时域/频域反射仪；电容探针等可用但准确性较低",
+      "针对待测基质和装填状态建立的探头校准曲线"
+    ]},
+    {"type": "heading", "title": "步骤", "level": 4},
+    {"type": "steps", "items": [
+      "逐渐升高外部水位，从底部润湿样品；水位保持在基质表面下1 cm，浸润24 h。监测读数确认是否达到稳定饱和，不能仅凭24 h假定。",
+      "完全插入TDR探针。探针长度应与环刀高度（垂直）、指定剖面深度或环刀直径（水平）匹配；可在其他位置重复插入。由介电响应换算θ_v前，必须用称量法对该有机基质、密度和含水范围校准，因为矿质土壤通用关系不适用于有机土（Paquet等，1993；Anisko等，1994；Da Sylva等，1998）。"
+    ]},
+    {"type": "source-fidelity-note", "text": "原书称105 ℃结果“稍微高估泥炭土含水量”，机制是有机质热分解使干质量偏低；不是高估泥炭含量。原位BD必须由TP和PD反算，不能把TDR体积含水量直接当BD。24 h只是本方法给定起始时间，疏水泥炭应以读数稳定性验证饱和。"}
+  ],
+  "formulas": [
+    {"label": "饱和法总孔隙度假设", "plain": "TP = θ_v,sat", "latex": "TP=\\theta_{v,\\mathrm{sat}}"},
+    {"label": "由总孔隙度反算容重", "plain": "BD = PD(1 − TP)", "latex": "BD=PD(1-TP)"}
+  ],
+  "tables": [],
+  "contentSha256": "71eb5da4f454d13eb4dcd179a0e418710007fbf6f645c856ef5c45c314826ad1"
+}
