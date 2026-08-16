@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 352,
+  "sourceImageSha256": "dfd4fff29b80572e63f54a2bba16f520aa6f73de6c0b2f5072adb643dab867af",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版芥末施用/收集步骤、注释和福尔马林法交叉比对"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验3 L、7 L、1～2 min、15～25 min、5～8 ℃、10 ℃、2周、61.4%/62.3%/84.5%及SE、六个拉丁学名和37%甲醛水溶液"},
+    "secondVisualPass": {"status": "verified", "method": "从页末福尔马林安全警示反向复核至采样点记录，重点矫正“阻止和固定”误译、拉丁学名分组和福尔马林物质身份；页码321"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第34章｜蚓蚓｜"},
+    {"type": "procedure-step", "stage": "2）", "number": "（4）", "text": "记录采样点信息、蚓蚓收集容器上的样品编号和采样标志旗编号。处理小区试验如有需要，在野外处理设计图或草图上记录采样区位置。"},
+    {"type": "procedure-step", "stage": "2）", "number": "（5）", "text": "插入土壤温度计或电子温度探头，记录土温。"},
+    {"type": "procedure-stage", "number": "3）", "title": "野外施用辛辣芥末悬液"},
+    {"type": "procedure-step", "stage": "3）", "number": "（1）", "text": "在家用塑料桶中加约3 L水。戴塑料手套，把装芥末糊的整个容器浸入桶中旋转漂洗，用药匙或刷子取下残留芥末糊。用大型搅拌器、长柄勺，或安装油漆搅拌杆的无线电钻搅拌，确保没有大块。补水至桶内液面7 L刻度，剧烈搅拌悬液。"},
+    {"type": "procedure-step", "stage": "3）", "number": "（2）", "text": "把塑料漏斗插入喷壶口，将桶内芥末悬液缓慢倒入，期间定期停下并重新搅混。"},
+    {"type": "procedure-step", "stage": "3）", "number": "（3）", "text": "每次转移到喷壶前，均要立即在桶中重新搅拌芥末悬液。如桶底有芥末颗粒残留，不得再加水冲入喷壶。每个采样区按总量7 L施用；多加水会降低驱出效力，并破坏采样点间的可比性。"},
+    {"type": "procedure-step", "stage": "3）", "number": "（4）", "text": "把蚓蚓收集容器放在采样框旁。装70%乙醇的玻璃罐不要长时间敞口，以免乙醇快速挥发而改变浓度；可将盖子松松放在瓶口，加蚓蚓时揭起，加完立即盖回。"},
+    {"type": "procedure-step", "stage": "3）", "number": "（5）", "text": "将芥末悬液缓慢、均匀地施在采样框限定区域内，使其有时间渗入土壤。蚓蚓应在1～2 min内出现。"},
+    {"type": "procedure-stage", "number": "4）", "title": "收集采样区内的蚓蚓"},
+    {"type": "procedure-step", "stage": "4）", "text": "如需保留蚓蚓，戴手套，用尖头长镊或宽头镊轻轻夹起正在出土的蚓蚓，放入玻璃瓶。应在蚓蚓出土时收取，不要等它停下并在洞穴中锚紧后拉拽，否则可能拉断。只收集采样框内出现的蚓蚓，并等整条蚓蚓离开洞穴后再取，以免遗漏或损伤。"},
+    {"type": "source-fidelity-note", "scope": "34.4.1步骤4）", "text": "中文本“不要等到蚓蚓被阻止和固定下来”误译stopped and anchored。此处指蚓蚓停下并在洞壁锚紧身体，已按操作语义矫正。"},
+    {"type": "procedure-step", "stage": "4）", "text": "蚓蚓活动通常在15～25 min内结束。土温较低（约5～8 ℃）时出土较慢，每个采样点可采用20～25 min的时限；实际时限应根据采样当时的野外条件调整。把装玻璃瓶的箱或桶放入大型保冷箱，气温很高时尤其如此。回到室内后，立即将样品置于10 ℃冷藏室或冰箱中待处理；如延迟超过2周，更换各瓶乙醇。"},
+    {"type": "subsection-heading", "method": "34.4.1", "number": "3", "title": "注释"},
+    {"type": "comment", "number": "（1）", "text": "方法一致性很重要；可能时，整个试验使用同一品牌的芥末。"},
+    {"type": "comment", "number": "（2）", "text": "Zaborski（2003）建议用异硫氰酸烯丙酯（AITC，辛辣芥末中活性最强的成分）驱出蚓蚓，认为AITC与福尔马林提取的蚓蚓数量无差异，但警告该化学品必须极其小心地操作。"},
+    {"type": "comment", "number": "（3）", "text": "Lawrence和Bowers（2002）在40个采样点的试验中，辛辣芥末法提取出61.4%（SE 4.2%）的蚓蚓数量、62.3%（SE 4.3%）的生物量和84.5%（SE 4.4%）的物种。后续手拣复核表明，该驱避液驱出了100%的Dendrobaena octaedra，约70%的Lumbricus terrestris、Aporrectodea rosea和Aporrectodea caliginosa，约50%的Allolobophora chlorotica，以及45%的Octolasion tyrtaeum。"},
+    {"type": "section-heading", "level": 3, "number": "34.4.2", "title": "福尔马林提取"},
+    {"type": "subsection-heading", "method": "34.4.2", "number": "1", "title": "材料和试剂"},
+    {"type": "material", "number": "（1）", "text": "37%甲醛水溶液（市售福尔马林原液）。稀释工作液按方案与喷壶施水量在野外配制。"},
+    {"type": "critical-safety-note", "scope": "34.4.2福尔马林", "text": "甲醛经吸入或皮肤接触可致严重急性伤害甚至死亡，且属致癌危害物。靠近排水设施、水道，或可渗入地下水的地点禁止使用。本法仅作原书方法记录；实施前必须由机构完成替代法评估、SDS风险评估、个人防护、运输许可、环境排放和危废回收方案。"},
+    {"type": "source-fidelity-note", "scope": "34.4.2试剂名称", "text": "中文本写“37%福尔马林（甲醛）”，易把溶液名与化合物名等同。已改为37%甲醛水溶液（市售福尔马林原液）。"},
+    {"type": "printed-page-number", "text": "321"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9767bcfed65b2ffadf010db87b8a67bcb55865c8029007164c851262c3de52a6"
+}

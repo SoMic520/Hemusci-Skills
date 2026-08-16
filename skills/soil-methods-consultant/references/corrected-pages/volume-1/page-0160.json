@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 160,
+  "sourceImageSha256": "8c20dc12f3cf4b075d1f4245078339588c4dd77420fa7a54c729dd9bb0f586cd",
+  "review": {
+    "textPass": {"status": "verified", "method": "原分辨率全页对照，并与Apple Vision、PaddleOCR交叉比对篇章标题"},
+    "precisionPass": {"status": "verified", "method": "核验中心排版文字“第 三 篇”与“土壤化学分析”，确认无其他文字、公式、单位、页码"},
+    "secondVisualPass": {"status": "verified", "method": "第二次从页底向页顶扫视，确认为第三篇扉页"}
+  },
+  "blocks": [
+    {"type": "part-heading", "number": "第 三 篇", "title": "土壤化学分析"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a618941ef559865cc17274fda2cf2738934999674f193f6b771b56668027511f"
+}

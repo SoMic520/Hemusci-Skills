@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 425,
+  "sourceImageSha256": "c2ede756955c050415b82c46cffc334642e47ae5df3fc05cde4360b1f27a886e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、两套OCR及英文原版40.3.7（8）续、（9）和参考文献至Harmon承下"},
+    "precisionPass": {"status": "verified", "method": "核验至少3组、每处理每区组至少1组、16片、均值/标准差/标准误、¹⁴C及全部卷页号"},
+    "secondVisualPass": {"status": "verified", "method": "自Harmon承下句反向复核参考文献，纠正Baker III、litter、G.R.、¹⁴C、编辑者标识和标点；印刷页码394"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "note-item", "number": "（8）续", "text": "低有机质粗砂土的土壤生物多样性和丰度可能天然较低。"},
+    {"type": "note-item", "number": "（9）", "text": "田间监测至少设置3个重复层片组，以便统计均值、标准差和标准误等。可在每一田间处理中设3个或更多重复，或采用区组设计、每区组每处理至少1组。一组可少于16片，但必须评估片数减少是否显著影响结果。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "bibliography", "text": "Andrén, O., Steen, E., and Rajkai, K. 1992. Modelling the effect of moisture on barley straw and root decomposition in the field. Soil Biol. Biochem. 24: 727–736."},
+    {"type": "bibliography", "text": "Baker III, T.T., Lockaby, B.G., Conner, W.H., Meier, C.E., Stanturf, J.A., and Burke, M.K. 2001. Leaf litter decomposition and nutrient dynamics in four southern forested floodplain communities. Soil Sci. Soc. Am. J. 65: 1334–1347."},
+    {"type": "bibliography", "text": "Beare, M.H., Wilson, P.E., Fraser, P.M., and Butler, R.C. 2002. Management effects on barley straw decomposition, nitrogen release, and crop production. Soil Sci. Soc. Am. J. 66: 848–856."},
+    {"type": "bibliography", "text": "Blair, J.M. 1988. Nitrogen, sulphur and phosphorus dynamics in decomposing deciduous leaf litter in the southern Appalachians. Soil Biol. Biochem. 20: 693–701."},
+    {"type": "bibliography", "text": "Bocock, K.L. and Gilbert, O.J.W. 1957. The disappearance of leaf litter under different woodland conditions. Plant Soil 9: 179–185."},
+    {"type": "bibliography", "text": "Burgess, M.S., Mehuys, G.R., and Madramootoo, C.A. 2002. Decomposition of grain-corn residues (Zea mays L.): A litterbag study under three tillage systems. Can. J. Soil Sci. 82: 127–138."},
+    {"type": "bibliography", "text": "Burgess, M.S., Mehuys, G.R., and Madramootoo, C.A. 2003. Nitrogen dynamics of decomposing corn residue components under three tillage systems. Soil Sci. Soc. Am. J. 66: 1350–1358."},
+    {"type": "bibliography", "text": "Christensen, B.T. 1985a. Decomposability of barley straw: Effect of cold-water extraction on dry weight and nutrient content. Soil Biol. Biochem. 17: 93–97."},
+    {"type": "bibliography", "text": "Christensen, B.T. 1985b. Wheat and barley straw decomposition under field conditions: Effect of soil type and plant cover on weight loss, nitrogen, and potassium content. Soil Biol. Biochem. 17: 691–697."},
+    {"type": "bibliography", "text": "Christensen, B.T. 1986. Barley straw decomposition under field conditions: Effect of placement and initial nitrogen content on weight loss and nitrogen dynamics. Soil Biol. Biochem. 18: 523–529."},
+    {"type": "bibliography", "text": "Cogle, A.L., Saffigna, P.G., Strong, W.M., Ladd, J.N., and Amato, M. 1987. Wheat straw decomposition in subtropical Australia. I. A comparison of ¹⁴C labelling and two weight-loss methods for measuring decomposition. Aust. J. Soil Res. 25: 473–479."},
+    {"type": "bibliography", "text": "Cortez, J. and Bouché, M.B. 1998. Field decomposition of leaf litters: earthworm–microorganism interactions—the ploughing effect. Soil Biol. Biochem. 30: 795–804."},
+    {"type": "bibliography", "text": "Curry, J.P., Bolger, T., and Purvis, G., eds. 1998. Special Issue XII International Colloquium on Soil Zoology: Soil Organisms and Soil Resource Management. Dublin, 22–26 July 1996. Appl. Soil Ecol. 9: 1–543."},
+    {"type": "bibliography", "text": "Curry, J.P. and Byrne, D. 1997. Role of earthworms in straw decomposition in a winter cereal field. Soil Biol. Biochem. 29: 555–558."},
+    {"type": "bibliography", "text": "Curtin, D. and Fraser, P.M. 2003. Soil organic matter as influenced by straw management practices and inclusion of grass and clover seed crops in cereal rotations. Aust. J. Soil Res. 41: 95–106."},
+    {"type": "bibliography", "text": "Fox, C.A., Topp, E., Mermut, A., and Simard, R., eds. 2003. Soil biodiversity in Canadian agroecosystems. Can. J. Soil Sci. 83 (Special Issue): 227–336."},
+    {"type": "bibliography", "text": "Harmon, M.E., Nadelhoffer, K.J., and Blair, J.M. 1999. Measuring decomposition, nutrient turnover, and stores in plant litter. [文献续见第426页]"},
+    {"type": "printed-page-number", "text": "394"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "7f6f2935eb5e8f581c892d7f1047fa04a0f01c63c4b7fe160e504a928f53dc79"
+}

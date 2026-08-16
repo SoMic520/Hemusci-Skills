@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 120,
+  "sourceImageSha256": "8ad444a7f5d4950874d7c3615ad1104554cd176da4857467e5051245a4bd4180",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐行对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工合并Ross至Walker各条及译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验USEPA Method 3051、原书URL字符串、Last verified日期、standardreference、continuous-flow、作者缩写、期刊卷页和原书空格/连写"},
+    "secondVisualPass": {"status": "verified", "method": "由Ross 1994至Walker 2003反向复核，确认URL原样异常、2001.Fractionation、standardreference等排印特征、译校人名和印刷页码89"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第10章｜微量元素测定｜"},
+    {"type": "reference-entry", "text": "Ross, S.M. 1994. Toxic Metals in Soil-Plant Systems. John Wiley & Sons, New York, NY, 469."},
+    {"type": "reference-entry", "text": "Shiowatana, J., McLaren, R.G., Chanmekha, N., and Samphao, A. 2001.Fractionation of arsenic in soil by a continuous-flow sequential extraction method. J. Environ. Qual. 30: 1940-1949."},
+    {"type": "reference-entry", "text": "Tessier, A., Campbell, P.G.C., and Bisson, M. 1979. Sequential extraction procedure for the speciation of particulate trace metals. Anal. Chem. 51: 844-851."},
+    {"type": "reference-entry", "text": "Ure, A.M. 1996. Single extraction schemes for soil analysis and related applications. Sci. Total Environ. 178: 3-10."},
+    {"type": "reference-entry", "text": "U.S. Environmental Protection Agency (USEPA). 1994. Method 3051: Microwave assisted acid digestion of sediments, sludges, soils and oils. (http: =//www.epa.gov/epaoswer/hazwaste/ test/ pdfs/3051.pdf); Washington, DC. (Last verified March, 2006)"},
+    {"type": "reference-entry", "text": "van Herreweghe, S., Swennen, R., Vandecasteele, C., and Cappuyns, V. 2003. Solid phase speciation of arsenic by sequential extraction in standardreference materials and industrially contaminated soil samples. Environ. Pollut. 122: 323-342."},
+    {"type": "reference-entry", "text": "Walker, D.J., Clemente, R., Roig, A., and Bernal, P. 2003. The effect of soil amendments on heavy metal bioavailability in two contaminated Mediterranean soils. Environ. Pollut. 122: 303-312."},
+    {"type": "translator-note", "text": "（陈雅丽　译，李永涛　翁莉萍　校）"},
+    {"type": "printed-page-number", "text": "89"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "5cf278ac2f26476f1b668dd0f2c4c2246d8b32d6809bef6f344e25d7c444f1c5"
+}

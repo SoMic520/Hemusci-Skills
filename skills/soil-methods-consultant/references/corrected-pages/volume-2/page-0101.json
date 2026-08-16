@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 101,
+  "sourceImageSha256": "964eca94acd0916ea0dfa3899cd76a88ed2058482f1811c9d98146588a3fc50b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成第64章题名、作者、64.1及64.2本页全部跨页内容"},
+    "precisionPass": {"status": "verified", "method": "核验O₂/CO₂/NO/N₂O/N₂、GC、四类采样方法、主动/被动采样定义及扩散井几何因素"},
+    "secondVisualPass": {"status": "verified", "method": "由多井管跨页句反向复核至章题，检查化学式上下标、作者机构、编号层级和跨行连字；印刷页码610"}
+  },
+  "blocks": [
+    {"type": "chapter", "number": "64", "title": "土壤气体", "authors": ["R.E. Farrell（University of Saskatchewan, Saskatoon, Saskatchewan, Canada）", "J.A. Elliott（Environment Canada, Saskatoon, Saskatchewan, Canada）"]},
+    {"type": "heading", "number": "64.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "任一时刻土壤大气（或土壤气相）的组成由三类过程共同决定：土壤中各气体的产生与消耗速率平衡；土壤气体与地表大气的交换速率；气体在土壤气相、液相和固相间的分配。呼吸通常消耗O₂并产生CO₂；硝酸盐的生物还原还可释放NO、N₂O和N₂。肥料中氨的挥发及氡从土壤矿物组分中释放也是气体来源。"},
+    {"type": "paragraph", "text": "土壤气体剖面可反映呼吸过程偏好氧或厌氧；只有结合适当的气体传输系数，才能由浓度分布计算过程速率。de Jong等（1974）用已知土壤扩散系数由CO₂分布估算CO₂通量，Rolston（1978）和Colbourn等（1984）以同类方法估算厌氧土壤N₂O通量；Tang等（2003）用固态探头原位测定CO₂浓度剖面并估算地表CO₂通量。后者假定稳态且只计扩散交换。完整描述还应包括扩散、质量流动及气体在液相中的溶解与解吸。"},
+    {"type": "paragraph", "text": "土壤气体分析包括取得代表性样品并测定目标气体。常用采样可归为四类：全空气采样、吸附/吸收采样、水样采集和原状土柱顶空采样（Farrell等，2002）；又可分为主动采样（在一定吸力下抽取气体或水样）和被动采样（气体靠扩散进入采样室）。现场和原位检测系统很多，但采后样品通常首选气相色谱法（GC）。"},
+    {"type": "heading", "number": "64.2", "title": "气相的采集", "level": 2},
+    {"type": "paragraph", "text": "全空气采样是最常用的土壤气体采样方式。即时“抓取法”把取样器插至指定深度，在轻微真空下（如用注射器）缓慢抽气；取样器插入扰动、取样体积和抽气速度均可导致周围漏气或优先抽取大孔隙气体而污染样品。因此该法一般只用于筛查，需分析具体组成时多采用扩散井。"},
+    {"type": "paragraph", "text": "扩散井内气体经入口扩散并与周围土壤气体平衡；平衡时间取决于土壤气体扩散系数、入口横截面积、井长以及采样室/管路几何。最简单的井是顶端封闭的PVC管；入口越小，平衡越慢。缩小底部采样室体积可加快采样室平衡，但抽气管内气体较慢，分析前可先清除。多井管在一个孔内布置多个相同几何的深度采样室，可减少每小区所需井管数，并使不同深度的几何条件一致。"},
+    {"type": "source-fidelity-note", "text": "原书将液相释放过程写作“解析作用”，按气体在液相中的相间分配术语校正为“解吸”；此处浓度剖面推算通量明确依赖传输系数和稳态/传输机制假设，不能仅凭单次浓度直接当作通量。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9f81de9c45d1c327f26513f16bb52b57f878ee5ee6bdf8500970a8a006ad479d"
+}

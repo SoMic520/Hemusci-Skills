@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 165,
+  "sourceImageSha256": "3c7b82023d566a845748e6d09b68015a56d51dec3b15b2ad059512917a3dc8d9",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率公式说明、注释和参考文献页，并与Apple Vision、PaddleOCR交叉比对，人工恢复变量说明、文献换行和译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验cmol(+) kg⁻¹、H⁺、V_A/V_B/V_a/V_b/V_s、NaOH、pH 7.8、0.1 mol L⁻¹ BaCl₂、Part IIIa及原书网址空格/大小写"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至式（16.1）续释，确认8条参考文献、变量下标、章节交叉引用18.2和页码134"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "continuation": true, "text": "cmol(+) kg⁻¹ H⁺量同样采用以上公式，分别用V_a和V_b代换V_A和V_B计算即可。式中，V_A或V_a为滴定交换性酸和交换性H⁺浸提液的NaOH溶液体积，V_s为提取液的测定分取体积，V为提取液的总收集体积，M为NaOH溶液的浓度，g是土壤样品的称样量。"},
+    {"type": "section-heading", "level": 3, "number": "16.4.4", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "采用手动滴定时，推荐选用本方法所述pH指示溶液。若使用自动滴定仪，则变色点pH应该设为7.8。"},
+    {"type": "note-item", "number": "（2）", "text": "2003年土壤专家论坛推荐通过多次交换的提取过程，同时对交换性阳离子和交换性酸进行提取与测定。尽管该提取过程比本书第18章（18.2节）中提出的0.1 mol L⁻¹ BaCl₂溶液提取法稍显复杂，但是测得的结果是接近的。"},
+    {"type": "references-heading", "text": "参考文献"},
+    {"type": "reference", "text": "Conyers, M.K. and Davey, B.G. 1988. Observations on some routine methods for soil pH determination. Soil Sci. 145: 29-36."},
+    {"type": "reference", "text": "Courchesne, F., Savoie, S., and Dufresne, A. 1995. Effects of air-drying on the measurement of soil pH in acidic forest soils of Quebec, Canada. Soil Sci. 160: 56-68."},
+    {"type": "reference", "text": "Davey, B.G. and Conyers, M.K. 1988. Determining the pH of acid soils. Soil Sci. 146: 141-150."},
+    {"type": "reference", "text": "Expert Panel on Soil 2003. Manual on Methods and Criteria for Harmonized Sampling, Assessment, Monitoring and Analysis of the Effects of Air Pollution on Forests. Part IIIa. Sampling and Analysis of Soil. International co-operative programme on assessment and monitoring of air pollution effects on forests. (www.icp-forests. Org/pdf/manual3a.pdf, verified February 9, 2005)"},
+    {"type": "reference", "text": "Jonsson, U., Rosengren, U., Nihlgard, B., and Thelin, G. 2002. A comparative study of two methods for determination of pH, exchangeable base cations and aluminium. Commun. Soil Sci. Plant Anal. 33: 3809-3824."},
+    {"type": "reference", "text": "Peech, M. 1965. Hydrogen-ion activity. In: C.A. Black et al., eds., Methods of Soil Analysis. Part 2. American Society of Agronomy, Madison, WI, 914-926."},
+    {"type": "reference", "text": "Schofield, R.K. and Taylor, A.W. 1955. The measurement of soil pH. Soil Sci. Soc. Am. Proc. 19: 164-167."},
+    {"type": "reference", "text": "Thomas, G.W. 1982. Exchangeable cations. In: A.L. Page et al., eds., Methods of Soil Analysis. 2nd ed. American Society of Agronomy, Madison, WI, 159-166."},
+    {"type": "translator-note", "text": "（王寅 党海燕 译，王朝辉 校）"},
+    {"type": "printed-page-number", "text": "134"}
+  ],
+  "formulas": [
+    {"plain": "交换性H⁺量（cmol(+) kg⁻¹）=[(V_a−V_b)×M_NaOH×100×V]/(g×V_s)", "latex": "\\text{交换性H}^{+}\\text{量}\\,(\\mathrm{cmol}(+)\\,\\mathrm{kg}^{-1})=\\frac{(V_a-V_b)\\times M_{\\mathrm{NaOH}}\\times100\\times V}{g\\times V_s}", "context": "按式（16.1）分别用V_a和V_b代换V_A和V_B"}
+  ],
+  "tables": [],
+  "contentSha256": "d4408360a3d01ea841f6b1d16c7e2ab58e22aeb946e0d647c60cd4fe45ca42a5"
+}

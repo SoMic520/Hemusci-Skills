@@ -1,0 +1,31 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 228,
+  "sourceImageSha256": "0d72a31f3d2cb3978b0c9937fd2ec780aafd6c7a81431dfae712fdbde91bb433",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章首页，并与Apple Vision、PaddleOCR交叉比对，人工恢复章题、作者单位及24.1引言全部可见正文"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Pₜ/Pₒ/Pᵢ/srP、Na₂CO₃、HClO₄、NaOBr/NaOH、H₂SO₄/H₂O₂/HF、Li₂SO₄/Se、HPO₄²⁻与H₂PO₄⁻及原印1937"},
+    "secondVisualPass": {"status": "verified", "method": "从页末跨页未完“正磷酸盐单”反向复核至章题，确认化学上下标、电荷、方法分类、引文年份、层级及印刷页码197"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "第24章", "title": "总磷和有机磷"},
+    {"type": "author", "text": "I.P. O'Halloran"},
+    {"type": "affiliation", "text": "University of Guelph"},
+    {"type": "affiliation-location", "text": "Ridgetown, Ontario, Canada"},
+    {"type": "author", "text": "B.J. Cade-Menun"},
+    {"type": "affiliation", "text": "Stanford University"},
+    {"type": "affiliation-location", "text": "Stanford, California, United States"},
+    {"type": "section-heading", "number": "24.1", "title": "引言"},
+    {"type": "paragraph", "text": "这一章介绍几个用于测定和表征土壤总磷（Pₜ）及有机磷（Pₒ）的方法。"},
+    {"type": "paragraph", "text": "土壤总磷的测定要求通过对土壤矿物质和含有机磷的物质分解或破坏使磷溶解。在历史上，Na₂CO₃熔融法和HClO₄消解法是两个被广泛接受的测定土壤总磷的方法（Olsen和Sommers，1982），但目前仍然没有一个被广泛接受用于土壤总磷的测定方法。尽管Na₂CO₃熔融法被认为是定量测定土壤总磷的最可靠的方法，但是它费力、耗时，且不适用于大批样品的测定。虽然HClO₄消解法更适用于日常的实验分析，但是需要在HClO₄消解专用通风橱内进行，且由于HClO₄聚集或者其与有机物质反应所引发的潜在爆炸危险，所以使许多研究所和实验室不再使用HClO₄消解法。考虑到HClO₄消解法具有广泛的适用性，可以作为日常实验室大量样品测定，所以这一章中包括了其操作步骤。读者如果需要Na₂CO₃熔融法的操作细节，可以参看这本书以前的版本（O'Halloran，1937）或参看Olsen和Sommers（1982）发表的文章。此外，这一章还介绍了其他三种测定土壤总磷的方法：一种方法是用NaOBr/NaOH碱性氧化样品（Dick和Tabatabai，1977），其他两种是用H₂SO₄/H₂O₂/HF（Bowman，1988）或H₂SO₄/H₂O₂/Li₂SO₄/Se的湿法酸性消解（Parkinson和Allen，1975）。"},
+    {"type": "source-fidelity-note", "scope": "24.1 O'Halloran年份", "text": "原书本页清晰印作“O'Halloran，1937”，正文按原印保留；已反向核验本章参考文献原页（扫描页245/印刷页214），条目明确为“O'Halloran, I.P. 1993. Total and organic phosphorus.”，故1937为正文排印错误，实际引证应使用1993。"},
+    {"type": "paragraph", "text": "土壤有机磷（Pₒ）的测定方法可以分为两类，一类是测定总有机磷的含量，另外一类是表征土壤中有机磷的数量和形态。前一类包括浸提法（Mehta等，1954；Bowman和Moir，1993）或灼烧法（Saunders和Williams，1955）。在任何情形下，土壤总有机磷含量都无法直接测得，但土壤总有机磷含量可以通过土壤浸提液消解或土壤样品灼烧后测定的无机磷（Pᵢ）的增加量来求算出。灼烧法相对于浸提法更简便，但易于引起更大的误差。"},
+    {"type": "paragraph", "text": "表征土壤有机磷的形态可以采用连续分组技术，将土壤有机磷按操作过程分为不同的组分，或者采用能识别土壤有机磷中的特定组分或形态的技术。连续分组技术，例如，本书第25章中Hedley等（1982）修订的步骤，要表征土壤Pₒ的形态需要对每一个分组中的全磷（Pₜ）和可溶态活性磷（srP）含量进行测定，且假设全磷和可溶态活性磷含量之差即为有机磷。但解释连续分组法所得有机磷含量时需要慎重。首先，任何一个连续分组的步骤中有机磷的形态都可能被前一步所用浸提剂改变。其次，由于可溶性磷测定的仅仅只是正磷酸盐（HPO₄²⁻、H₂PO₄⁻），从溶液中全磷和可溶性磷之差获得的有机磷也可能还包含如焦磷酸盐或聚磷酸盐这类无机磷络合物。"},
+    {"type": "paragraph", "continued": true, "text": "通过鉴别特定的有机磷化合物，已经在土壤中检测到四类有机磷化合物：磷酸酯类中的正磷酸盐单"},
+    {"type": "printed-page-number", "text": "197"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "3305bdfaad79e11b8e062b54e75fa982cdd1f879087f5079d7cb356dd69ee12b"
+}

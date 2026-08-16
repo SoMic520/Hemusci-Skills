@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 32,
+  "sourceImageSha256": "274172284d11233ec53a8d8f7fcb6f2d49e3c7b164ce650677bf97eb76b594e1",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐字对照原分辨率图和两套OCR，完成图56.1、现场含水量校正、式（56.1）及56.3～56.3.1跨页引言"},
+    "precisionPass": {"status": "verified", "method": "核验θ=exp[(CR−c)/m]、CR/c/m、聚苯乙烯/棉团、混凝土基础插件、L/L_d及全部引文"},
+    "secondVisualPass": {"status": "verified", "method": "由页末未完句反向复核至图56.1顶部，按图示箭头逐一核验8个部件标签；印刷页码541"}
+  },
+  "blocks": [
+    {"type": "figure", "number": "图56.1", "title": "测定垂直方向土壤移动和含水量的设备", "labels": ["固定在整个可动土壤区域之下的标准杆", "连接在悬浮片上的深度计", "不锈钢杆", "置于土壤表面、可悬浮的不锈钢片", "聚苯乙烯颗粒或棉团", "金属外壳", "将不锈钢杆固定在给定膨胀性黏土层中的混凝土基础插件上", "周围包被有聚苯乙烯颗粒或棉团的中子仪管", "放置在所有膨胀性黏土层下的混凝土基础插件"]},
+    {"type": "paragraph", "text": "土壤收缩通常主要发生在近地表、含水量变化最大的土层；当根系从不同深度吸水时，含水量变化与高度变化难以对应。此时需校正中子仪管，获得不同深度的土壤容重，并考虑饱和状态下剖面总深度（材料深度）来调整含水量剖面（Ringrose-Voase等，2000）。膨胀性土壤的中子仪校正需要容重信息，而容重随含水量非线性变化。Greacen等（1981）给出式（56.1）以由计数率求准确含水量θ。"},
+    {"type": "paragraph", "text": "式中，CR为计数率，c和m为无量纲拟合参数。"},
+    {"type": "heading", "number": "56.3", "title": "室内土壤收缩测定方法", "level": 2},
+    {"type": "paragraph", "text": "实验室方法取决于仪器和所需精度。常测线性收缩：重塑土样从固定含水状态干燥至风干，测初始与最终长度。三维（体积）收缩信息更全面，但更复杂耗时。方法选择需权衡快速简单但信息有限的测定，与能提供丰富细致信息的复杂测定（Grant等，2002）。"},
+    {"type": "heading", "number": "56.3.1", "title": "线性收缩", "level": 3},
+    {"type": "paragraph", "text": "一种简便方法（McGarry，2002）是：加水使土样达到结持状态（Atterberg液限，见第58章）；压入长度为L的半圆柱模具，轻拍排除气泡；缓慢干燥至风干含水量，测长度L_d。风干过程中，用……"}
+  ],
+  "formulas": [
+    {"label": "(56.1)", "plain": "θ = exp[(CR − c)/m]", "latex": "\\theta=\\exp\\left(\\frac{CR-c}{m}\\right)", "variables": [{"symbol": "θ", "meaning": "膨胀性土壤含水量测定值"}, {"symbol": "CR", "meaning": "中子仪计数率"}, {"symbol": "c", "meaning": "无量纲拟合参数"}, {"symbol": "m", "meaning": "无量纲拟合参数"}]}
+  ],
+  "tables": [],
+  "contentSha256": "818cb2568e130b65f92e6849184a54cfc243688c1f07408dbf3988b2cec506ab"
+}

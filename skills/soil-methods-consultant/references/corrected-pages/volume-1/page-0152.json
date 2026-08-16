@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 152,
+  "sourceImageSha256": "7dbeea38613f54f36fba3d44544a3a3b2d685895871a4cc4b9e529eb6e184c86",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率公式与方法页，并与Apple Vision、PaddleOCR交叉比对，人工恢复公式15.1、饱和提取余步、固定比例提取和电导率步骤"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验SP分式、ECₑ/EC₁:₁/EC₁:₂/EC₁:₅、KCl、0.010/0.01 mol/L、0.7456 g、μmho/cm、mmho/cm、dS/m、25.0 ℃±0.1 ℃及0.0191 ℃⁻¹"},
+    "secondVisualPass": {"status": "verified", "method": "从未完注释反向复核至步骤（5）续句，确认布氏漏斗、饱和终点判断、仪器校正顺序、公式编号和页码121"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第15章｜电导率和可溶性离子｜"},
+    {"type": "procedure-step", "number": "（5）", "continuation": true, "text": "加入的体积计算）。按下式计算饱和度（SP）："},
+    {"type": "equation", "label": "（15.1）", "text": "SP=[（所加水量+样品中含水量）/烘干后土重]×100"},
+    {"type": "procedure-step", "number": "（6）", "text": "让泥浆放置足够长的时间以建立土壤矿物质和水之间的平衡（至少4 h，最好是过夜）。如果需要测量pH值，则样品需要完全混合，用pH计测量。饱和泥浆的pH值通常比饱和泥浆提取液的pH值更有意义（Robbins和Wiegand，1990）。"},
+    {"type": "procedure-step", "number": "（7）", "text": "将湿土转移到装有低速滤纸的布氏漏斗中，使用真空泵收集提取液直到空气通过过滤器。如果滤液浑浊须再过滤。"},
+    {"type": "procedure-step", "number": "（8）", "text": "提取液在4 ℃下存储，待测定电导率和可溶性阴阳离子。"},
+    {"type": "procedure-heading", "level": 5, "number": "2.", "title": "注释"},
+    {"type": "paragraph", "text": "如果可能，有机土壤应该在未干燥时提取，否则会影响SP。有机土壤可能需要过夜饱和并二次加水以达到最终的饱和终点。对于细质地土壤，一次性在样品中加入足够的水，稍加混合后即可达到饱和。粗质地土壤中不要过度加水，如果放置一段时间后土壤表面有游离水表明粗质地土壤已经过饱和。"},
+    {"type": "section-heading", "level": 4, "number": "15.2.2", "title": "固定比例提取（Janzen，1993；Rhoades，1996）"},
+    {"type": "procedure-heading", "level": 5, "number": "1.", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取适量风干土壤于烧瓶中，加入足量去离子水使其达到所需提取比例，振荡1 h。"},
+    {"type": "procedure-step", "number": "（2）", "text": "用低速滤纸过滤悬浮液，分析前在4 ℃下保存。"},
+    {"type": "procedure-heading", "level": 5, "number": "2.", "title": "注释"},
+    {"type": "paragraph", "text": "1∶1和1∶2土水比提取优于1∶5。但是，1∶5的土水比是澳大利亚盐分测定工作中常用的比例（Rengasamy等，1984；Sumner等，1998）。"},
+    {"type": "section-heading", "level": 3, "number": "15.3", "title": "分析"},
+    {"type": "section-heading", "level": 4, "number": "15.3.1", "title": "电导率（ECₑ、EC₁:₁、EC₁:₂和EC₁:₅）"},
+    {"type": "paragraph", "text": "各种提取液中的总溶质浓度一般通过测定EC值估算得到。虽然电导率和盐浓度的关系多变且某种程度上取决于溶液的离子组成，但是EC提供了一个快速而又相对精确的溶质浓度估算方法。现代电导率仪可提供自动温度补偿、自动调节仪器内部的电极常数，并可直接以μmho/cm或相似单位读出电导率值。对于较老的不具备以上三个特征的电导率仪，可以参考Rhoades（1996）或美国公共卫生协会（American Public Health Association，1988）的说明。"},
+    {"type": "procedure-heading", "level": 5, "number": "1.", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "配制0.010 mol/L KCl标准溶液，用于仪器内部自动校正电极常数。溶解0.7456 g试剂级无水KCl并用超纯水定容至1 L（EC<0.001 dS/m）。在25 ℃下，此溶液的电导率为1.413 dS/m且当电极常数在1～2时可适用于大多数溶液。可使用更强或更弱的KCl溶液标定其他电极常数。"},
+    {"type": "procedure-step", "number": "（2）", "text": "用标准KCl溶液校正电导率仪以自动调节仪器内部电极常数。用0.01 mol/L KCl溶液冲洗探头三次，将温度调节至第四挡的25.0 ℃±0.1 ℃。将温度补偿调到0.0191 ℃⁻¹。将探头插入KCl标准溶液并将仪器读数调整到1413 μmho/cm或1.413 dS/m。"},
+    {"type": "procedure-step", "number": "（3）", "text": "用电导率仪的EC探头读取提取液的电导率，结果报告使用国际单位dS/m。"},
+    {"type": "procedure-heading", "level": 5, "number": "2.", "title": "注释"},
+    {"type": "paragraph", "continued": true, "text": "应使用误差不超过1%或1 μmho/cm或0.001 dS/m的电导率仪。EC的基本单位mho/cm对于大多天然水体来说太大（Bohn et al. 1979），更合适的单位是mmho/cm。较早的文献中，或是对于一些低盐度水"},
+    {"type": "printed-page-number", "text": "121"}
+  ],
+  "formulas": [
+    {"label": "（15.1）", "plain": "SP=[（所加水量+样品中含水量）/烘干后土重]×100", "latex": "SP=\\frac{W_{added}+W_{sample}}{W_{oven-dry\\ soil}}\\times100", "context": "饱和度计算"}
+  ],
+  "tables": [],
+  "contentSha256": "9e7bf1fbd703d17b42e124f7be86d98f8e1565b320eacd8fdadeceb1eb597fc6"
+}

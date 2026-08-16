@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 210,
+  "sourceImageSha256": "f3eaf2f0ee0fb10180fa554469dce927ecdc6fcdccae613cb4e674adb6211a87",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第22章第179页，并与Apple Vision、PaddleOCR交叉比对，人工恢复引言末段、22.2适用范围及22.2.1～22.2.2材料试剂"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验NO₂⁻、NO₃⁻、¹⁵N、360 ℃、18/10/0.1/0.01 mol·L⁻¹、K₂SO₄、CuSO₄·5H₂O、CO₂、8.8∶1、2% w/v及全部体积尺寸"},
+    "secondVisualPass": {"status": "verified", "method": "从试剂（7）反向复核至页首跨页续句，确认方法标题层级、编号顺序、原文重复“（见图22.1）见22.2.5”、上下标和页码179"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第22章｜全氮｜"},
+    {"type": "paragraph-continuation", "continuedFromPreviousPage": true, "text": "现代红外消煮设备，而且与传统铝块加热消煮炉相比，其加热和冷却时间更快。"},
+    {"type": "paragraph", "text": "这里详细介绍了一些能够被广泛应用的现代方法，还提出并简单说明了一些具有特定测定目的的方法，也提供了一些老方法和传统方法的索引。微量凯氏消化法介绍了包含和不包含NO₂⁻与NO₃⁻的测定步骤。通常在土壤全氮中NO₂⁻和NO₃⁻的含量是可以忽略的，在22.2中介绍了相应的程序步骤可以满足其测定需求。目前全量凯氏定氮法应用较少，主要在于其费用高且需要处理消煮过程用到的化学试剂，而且其精度不及微量凯氏定氮法和杜马斯法。"},
+    {"type": "method-heading", "number": "22.2", "title": "微量凯氏消煮—蒸汽蒸馏法：不含NO₂⁻和NO₃⁻"},
+    {"type": "scope", "text": "此法适合测定NO₃⁻和NO₂⁻含量可以忽略不计的表层土样的总氮量。如果待测样品中含有大量的NO₃⁻或NO₂⁻，那么测定结果将会高于土样中固定态铵和有机氮的总和，但低于包含NO₃⁻和NO₂⁻的总氮量。由于标记的NO₃⁻或NO₂⁻对¹⁵N分析有显著影响，所以此法不推荐用于¹⁵N示踪研究中土壤样品的总氮分析。¹⁵N示踪土壤样品的总氮量测定详见22.3。"},
+    {"type": "method-subheading", "number": "22.2.1", "title": "材料和试剂：消解"},
+    {"type": "reagent-item", "number": "（1）", "text": "配有消煮管的消煮炉、计时器和温控器（见22.2.5）。消煮炉要能持续维持5个小时以上的360 ℃高温。可以容纳40个100 mL消煮管（直径20 mm×长350 mm）的消煮炉广泛应用于微量凯氏定氮法。"},
+    {"type": "reagent-item", "number": "（2）", "text": "与消煮管适配的空气冷凝器（见22.2.5）。"},
+    {"type": "reagent-item", "number": "（3）", "text": "18 mol·L⁻¹浓硫酸。"},
+    {"type": "reagent-item", "number": "（4）", "text": "分析纯试剂K₂SO₄与CuSO₄·5H₂O按8.8∶1的比例混合，每个样品需要约3.5 g。"},
+    {"type": "reagent-item", "number": "（5）", "text": "含硒和不含硒的Hengar沸石颗粒。"},
+    {"type": "method-subheading", "number": "22.2.2", "title": "材料和试剂：蒸馏和滴定"},
+    {"type": "reagent-item", "number": "（1）", "text": "微量凯氏蒸汽蒸馏装置（见图22.1）见22.2.5。"},
+    {"type": "reagent-item", "number": "（2）", "text": "可与19/38标准锥形磨口玻璃接头连接的0.5 L圆底蒸馏瓶。"},
+    {"type": "reagent-item", "number": "（3）", "text": "10 mol·L⁻¹和0.1 mol·L⁻¹氢氧化钠溶液：用去CO₂的去离子水配制。"},
+    {"type": "reagent-item", "number": "（4）", "text": "含指示剂的硼酸（2% w/v）：将80 g硼酸粉末放入250 mL烧杯中，向其中加入20～40 mL水，并用玻璃棒搅拌，使所有硼酸湿润。将硼酸倒入装有约3 L水的4 L烧瓶中并用电动搅拌棒搅拌，当硼酸溶解后加入80 mL的混合指示剂（0.099 g溴甲酚绿和0.066 g甲基红溶解于100 mL乙醇中）。用0.1 mol·L⁻¹ NaOH溶液滴定至溶液变为红紫色（pH值4.8～5.0），用去离子水定容至4 L并摇匀。"},
+    {"type": "reagent-item", "number": "（5）", "text": "标有刻度的100 mL烧杯。"},
+    {"type": "reagent-item", "number": "（6）", "text": "滴定管：最小刻度值为0.02 mL或0.01 mL的标有刻度的10 mL滴定管及配套的磁力搅拌器。"},
+    {"type": "reagent-item", "number": "（7）", "text": "0.01 mol·L⁻¹硫酸标准溶液。"},
+    {"type": "printed-page-number", "text": "179"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "272de00a3080cdcdb3a19fe4b5bd616d4ea2cd39da5bea4fc274282b66eab85b"
+}

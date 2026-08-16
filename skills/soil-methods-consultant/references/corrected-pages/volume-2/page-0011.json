@@ -1,0 +1,61 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 11,
+  "sourceImageSha256": "3b16d4dd66e0e71eb9e7177773099778c0e32516882a13a48f86c388cf34cbbd",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率目录和两套OCR，完成66.2至68.5"},
+    "precisionPass": {"status": "verified", "method": "核验LFH、von Post、Lynn等（1974）、加拿大燃料工业部（1976）及630～653页码"},
+    "secondVisualPass": {"status": "verified", "method": "由68.5反向复核至66.2，检查有机土/栽培基质、湿润性（或斥水性）、毛细管上升法及罗马页码X"}
+  },
+  "blocks": [
+    {
+      "type": "toc-tree-continuation",
+      "entries": [
+        {"number": "66.2", "title": "原理", "page": 630, "level": 2},
+        {"number": "66.3", "title": "近地表有机层（LFH）", "page": 631, "level": 2},
+        {"number": "66.3.1", "title": "材料和设备", "page": 631, "level": 3},
+        {"number": "66.3.2", "title": "步骤", "page": 631, "level": 3},
+        {"number": "66.3.3", "title": "计算", "page": 631, "level": 3},
+        {"number": "66.3.4", "title": "注释", "page": 631, "level": 3},
+        {"number": "66.4", "title": "矿质土壤", "page": 632, "level": 2},
+        {"number": "66.4.1", "title": "材料和设备", "page": 632, "level": 3},
+        {"number": "66.4.2", "title": "步骤", "page": 632, "level": 3},
+        {"number": "66.4.3", "title": "计算", "page": 632, "level": 3},
+        {"number": "66.4.4", "title": "注释", "page": 633, "level": 3},
+        {"number": "第66章参考文献", "title": "参考文献", "page": 633, "level": 2},
+        {"number": "第67章", "title": "有机土壤和生长基质的物理性质：土壤粒径和分解度", "page": 635, "level": 1},
+        {"number": "67.1", "title": "引言", "page": 635, "level": 2},
+        {"number": "67.2", "title": "分解度", "page": 635, "level": 2},
+        {"number": "67.2.1", "title": "von Post按压方法", "page": 636, "level": 3},
+        {"number": "67.2.2", "title": "纤维体积法（Lynn等，1974）", "page": 636, "level": 3},
+        {"number": "67.2.3", "title": "离心法（加拿大燃料工业部，1976）", "page": 637, "level": 3},
+        {"number": "67.2.4", "title": "比色法", "page": 639, "level": 3},
+        {"number": "67.3", "title": "泥炭土的粒径分布和木质含量", "page": 640, "level": 2},
+        {"number": "67.3.1", "title": "粒径分布", "page": 640, "level": 3},
+        {"number": "67.3.2", "title": "木质含量", "page": 641, "level": 3},
+        {"number": "第67章参考文献", "title": "参考文献", "page": 642, "level": 2},
+        {"number": "第68章", "title": "有机土和栽培基质的物理性质：水、空气的存储和流体动力学", "page": 644, "level": 1},
+        {"number": "68.1", "title": "引言", "page": 644, "level": 2},
+        {"number": "68.2", "title": "湿润性（或斥水性）", "page": 644, "level": 2},
+        {"number": "68.2.1", "title": "水滴穿透时间法", "page": 645, "level": 3},
+        {"number": "68.2.2", "title": "直接接触角测定：液滴法", "page": 645, "level": 3},
+        {"number": "68.2.3", "title": "间接接触测定：毛细管上升法", "page": 646, "level": 3},
+        {"number": "68.3", "title": "容重", "page": 647, "level": 2},
+        {"number": "68.3.1", "title": "环刀法（适用于有机土或疏松基质）", "page": 647, "level": 3},
+        {"number": "68.3.2", "title": "原位容重测定", "page": 648, "level": 3},
+        {"number": "68.4", "title": "水分和空气存储", "page": 648, "level": 2},
+        {"number": "68.4.1", "title": "总孔隙度", "page": 648, "level": 3},
+        {"number": "68.4.2", "title": "原位测定总孔隙度", "page": 648, "level": 3},
+        {"number": "68.4.3", "title": "总孔隙度计算", "page": 649, "level": 3},
+        {"number": "68.4.4", "title": "泥炭土的脱湿曲线", "page": 649, "level": 3},
+        {"number": "68.4.5", "title": "栽培基质的脱湿曲线", "page": 651, "level": 3},
+        {"number": "68.4.6", "title": "进气值", "page": 652, "level": 3},
+        {"number": "68.5", "title": "水分和气体运动", "page": 653, "level": 2}
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a30acbf2b333dd9394d18ddca76ba4b34cb7ba96459a0079d1ee19c6bf65ebef"
+}

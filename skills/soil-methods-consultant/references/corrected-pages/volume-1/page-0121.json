@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 121,
+  "sourceImageSha256": "190cdff904000a2e69134b914cd7c9216a1bb440f70bcf4260c3c4af5769d698",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章首页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复章题作者、11.1两段、11.1.1两段及页末跨页句"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对Al³⁺、Al(OH)²⁺、Al(OH)₂⁺、Al₂(OH)₂⁴⁺、Al₁₃O₄(OH)₂₄⁷⁺、39.5亿公顷、5%/67%、pH 5/6.5、0.003/0.02 mmol/L及10%/50%"},
+    "secondVisualPass": {"status": "verified", "method": "按章题署名、铝溶解与形态、农田毒性阈值和石灰需求量段反向复核，确认所有化学式上下标与电荷、方法层级及本章首页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "11", "title": "酸性土壤中的易溶性铝和锰"},
+    {"type": "author", "name": "Y.K. Soon", "affiliation": ["Agriculture and Agri-Food Canada", "Beaverlodge, Alberta, Canada"]},
+    {"type": "author", "name": "N. Bélanger", "affiliation": ["University of Saskatchewan", "Saskatoon, Saskatchewan, Canada"]},
+    {"type": "author", "name": "W.H. Hendershot", "affiliation": ["McGill University", "Sainte Anne de Bellevue, Quebec, Canada"]},
+    {"type": "section-heading", "level": 2, "number": "11.1", "title": "引言"},
+    {"type": "paragraph", "text": "39.5亿公顷的酸性土壤中，约5%用于农业生产，而67%是森林和林地（von Uexküll和Mutert，1995）。植物在酸性土壤中的生长通常受低pH值或铝毒的影响。当矿质土壤的pH低于5时，铝和锰的溶解度则迅速增加，因此低pH值和高可溶性铝和锰含量呈正相关。虽然在土壤低pH值下，P、Ca等植物营养元素的有效性会受到限制（Foy，1984；Asp和Berggren，1990），但铝毒可能仍是酸性土壤中最主要的植物生长限制因子（Andersson，1988）。当土壤溶液中溶解的铝含量达到有毒水平时，植物根系的生长受到抑制，伴随的水分和养分的吸收也会受到抑制。", "inlineNotation": ["39.5亿公顷", "5%", "67%", "pH", "P", "Ca"]},
+    {"type": "paragraph", "text": "酸性土壤溶液中的可溶性铝通常由单体铝离子（如Al³⁺、Al(OH)²⁺和Al(OH)₂⁺）和铝有机络合物及多核形式（如Al₂(OH)₂⁴⁺和Al₁₃O₄(OH)₂₄⁷⁺（Akitt等，1972））组成。多核和有机络合形式的铝被认为几乎没有植物毒性（Andersson，1988；Wright，1989），但也存在一些聚合铝的反例（Bartlett和Diego，1972；Hunter和Ross，1991）。理想情况下，需要对根际区土壤溶液中对植物有害的铝形态进行浓度分析。若以判定铝的毒性作为目的，上述流程十分耗时。因此，通常情况下，采用稀的中性盐溶液提取土壤铝来尽可能减少对离子平衡的扰动，并且在该提取过程中仅溶解易溶铝部分（即不与固相结合的铝）。上述提取物中主要包含单体铝离子和聚合铝，以及低分子量的有机配位体络合铝。", "inlineNotation": ["Al³⁺", "Al(OH)²⁺", "Al(OH)₂⁺", "Al₂(OH)₂⁴⁺", "Al₁₃O₄(OH)₂₄⁷⁺"]},
+    {"type": "section-heading", "level": 3, "number": "11.1.1", "title": "农田土壤中铝和锰的毒性"},
+    {"type": "paragraph", "text": "因为铝在植物的地上部分并不累积，因此其在植物组织中的浓度不能用来判断其毒性。酸性土壤中，尽管锰在植物中的累积与其对植物的损害成一定比例，但它在植物组织中的含量并不是其毒性的可靠指标（Foy，1984）。因此，铝和锰毒性的判断标准，尤其对于铝而言，需要通过土壤分析获得。Bélanger等（1999）在对农作物或牧草的铝毒性阈值进行荟萃分析时发现，总溶解铝浓度在0.003 mmol/L和0.02 mmol/L时分别有10%和50%的农作物或牧草产生毒性效应。然而，不同的作物和牧草，甚至是同种作物和牧草的不同品种，其对于溶解铝的敏感性也不同。", "inlineNotation": ["0.003 mmol/L", "0.02 mmol/L", "10%", "50%"]},
+    {"type": "paragraph", "text": "通常情况下，通过往土壤中施用石灰或钙调理剂来调节土壤的酸度。石灰的需求量（见第12章），即施用到土壤中使土壤pH值升高到某个期望值（通常是6.5）的碳酸钙或同等效果调理剂的量，该施用量可以通过测定土样与缓冲盐溶液达到平衡后的pH值来确定（Shoemaker等，1961；McLean等，", "inlineNotation": ["第12章", "pH", "6.5"]}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c497312b5a208cd26a25b378f60671f3f44ec377fd5274e7013036913457ccf8"
+}

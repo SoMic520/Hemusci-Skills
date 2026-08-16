@@ -1,0 +1,63 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 301,
+  "sourceImageSha256": "b964f927e270e564cdb18366d8950bb1b62c7adcb6de9b9f0073508668138142",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第30章第270页，人工恢复30.6.1续页材料、GC条件及30.6.2提取、脂类分离和转甲基酯化前2步"},
+    "precisionPass": {"status": "verified", "method": "逐项核对19:0、16:1ω5、200 μL、50 m、30 mL/min、4 g干重、9.5/2.5/10/5/2/4 mL、1:2:0.8、1:1、25:1 v/v、1500/1000 g、时间与温度"},
+    "secondVisualPass": {"status": "verified", "method": "从页底MeOH/H₂SO₄步骤反向复核至页首材料（8），确认DMC/DCM异文、N₂下标、GC/FID型号、淋洗顺序及印刷页码270"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "materials-continuation", "fromPage": 300, "section": "30.6.1.3", "items": [
+      "（8）己烷。",
+      "（9）涡旋振荡器。",
+      "（10）超纯水。",
+      "（11）十九烷酸甲酯（19:0；Sigma，Aldrich）。",
+      "（12）200 μL带针头的玻璃注射器。",
+      "（13）200 μL锥形玻璃内衬管和气相色谱（gas chromatograph，GC）小瓶。"
+    ]},
+    {"type": "heading", "level": 3, "number": "4", "title": "脂肪酸气相色谱测定"},
+    {"type": "materials", "section": "30.6.1.4", "items": [
+      "（1）16:1ω5标准脂肪酸（来自MJS Biolynx #MT1208）。",
+      "（2）带火焰离子化检测器（flame ionization detector，FID）的气相色谱仪。这里使用美国瓦里安3900型号的GC，配有CP-8400自动进样器，氦气作为载气（30 mL/min），以及50 m瓦里安毛细管选择FAME #cp7420进样柱。"
+    ]},
+    {"type": "heading", "level": 2, "number": "30.6.2", "title": "步骤"},
+    {"type": "heading", "level": 3, "number": "1", "title": "提取"},
+    {"type": "procedure-step", "number": "（1）", "section": "30.6.2.1", "text": "为提取全部土壤脂质，将4 g（干重）冷冻土或鲜土加入9.5 mL DMC:MeOH:柠檬酸盐缓冲液（1:2:0.8 v/v）中，在玻璃离心管中振荡2 h。"},
+    {"type": "procedure-step", "number": "（2）", "section": "30.6.2.1", "text": "每管中加入2.5 mL DMC和10 mL饱和NaCl溶液，同时振荡5 min以上。"},
+    {"type": "source-fidelity-note", "scope": "30.6.2.1（1）—（2）", "severity": "major", "text": "原书沿用DMC作为二氯甲烷的缩写，而后续步骤使用DCM。按试剂全名与后续一致性，（1）和（2）的DMC均应指二氯甲烷/DCM，不得替换为碳酸二甲酯。"},
+    {"type": "procedure-step", "number": "（3）", "section": "30.6.2.1", "text": "离心管在1500 g条件下离心10 min。"},
+    {"type": "procedure-step", "number": "（4）", "section": "30.6.2.1", "text": "将有机组分吸入干净小瓶中。"},
+    {"type": "procedure-step", "number": "（5）", "section": "30.6.2.1", "text": "试管中加5 mL DCM:MeOH（1:1 v/v）溶液。"},
+    {"type": "procedure-step", "number": "（6）", "section": "30.6.2.1", "text": "振荡15 min。"},
+    {"type": "procedure-step", "number": "（7）", "section": "30.6.2.1", "text": "1000 g条件下离心10 min。"},
+    {"type": "procedure-step", "number": "（8）", "section": "30.6.2.1", "text": "将对应小瓶中的有机组分与离心底物干样在37℃通风橱中的N₂气流下混合。"},
+    {"type": "source-fidelity-note", "scope": "30.6.2.1（8）", "severity": "major", "text": "原书印作‘将对应小瓶中的有机组分与离心底物干样在37℃通风橱中的N₂气流下混合’，‘混合’与N₂气流干燥的操作逻辑、以及‘离心底物干样’的去留存在明显语义歧义。本语料保留原句，不将其自动改写成可执行步骤；实施前须向原方法或方法提供者核对应合并哪些有机相、是否丢弃固体底物及N₂干燥终点。"},
+    {"type": "procedure-step", "number": "（9）", "section": "30.6.2.1", "text": "用2 mL DCM溶解样品。"},
+    {"type": "procedure-step", "number": "（10）", "section": "30.6.2.1", "text": "如有必要，样品可在−20℃条件下短暂保存。"},
+    {"type": "heading", "level": 3, "number": "2", "title": "脂类分离"},
+    {"type": "paragraph", "text": "脂类分离在巴斯德吸液管中的硅胶柱中操作。"},
+    {"type": "procedure-step", "number": "（1）", "section": "30.6.2.2", "text": "用吸液管吸入样品后装载于柱子中，用少量DCM洗涤两次样品瓶，然后将洗涤液加入柱子。必须非常小心以保证溶剂液面一直高于硅胶。"},
+    {"type": "procedure-step", "number": "（2）", "section": "30.6.2.2", "text": "首先用大约2 mL DCM淋溶柱子浸提中性脂质组分，用4 mL小瓶收集淋出液。"},
+    {"type": "procedure-step", "number": "（3）", "section": "30.6.2.2", "text": "用大约2 mL丙酮淋溶柱子洗提糖脂组分，用其他4 mL小瓶收集淋出液。"},
+    {"type": "procedure-step", "number": "（4）", "section": "30.6.2.2", "text": "用大约2 mL MeOH淋溶柱子洗提磷脂组分，同样用4 mL小瓶收集淋出液。"},
+    {"type": "procedure-step", "number": "（5）", "section": "30.6.2.2", "text": "弃掉糖脂组分。"},
+    {"type": "procedure-step", "number": "（6）", "section": "30.6.2.2", "text": "在37℃通风橱中的N₂气流下干燥中性及磷脂组分。"},
+    {"type": "procedure-step", "number": "（7）", "section": "30.6.2.2", "text": "将干燥组分溶解在数毫升MeOH中作PLFA分析，或DCM中作NLFA分析，也可保存在−20℃条件下备用。"},
+    {"type": "heading", "level": 3, "number": "3", "title": "转甲基酯化"},
+    {"type": "paragraph", "text": "脂肪酸甲酯按如下步骤通过弱酸作用下分解得到："},
+    {"type": "procedure-step", "number": "（1）", "section": "30.6.2.3", "text": "在37℃通风橱中的N₂气流下干燥中性及磷脂组分。"},
+    {"type": "procedure-step", "number": "（2）", "section": "30.6.2.3", "continuesOnPage": 302, "text": "向小瓶中加入一半巴斯德吸液管的MeOH/H₂SO₄（25:1 v/v）溶液。"},
+    {"type": "source-fidelity-note", "scope": "30.6.2.3引言", "text": "原书称‘通过弱酸作用下分解得到’，但配方是MeOH/浓H₂SO₄=25:1（v/v）的酸催化转甲基酯化体系；‘弱酸’不能解读为可以任意替换成弱酸试剂。"},
+    {"type": "printed-page-number", "text": "270"}
+  ],
+  "formulas": [
+    {"scope": "30.6.2.1（1）", "label": "提取液体积比", "display": "DCM:MeOH:柠檬酸盐缓冲液 = 1:2:0.8 (v/v)", "latex": "\\mathrm{DCM{:}MeOH{:}citrate\\ buffer}=1{:}2{:}0.8\\ (v/v)"},
+    {"scope": "30.6.2.1（5）", "label": "二次提取液体积比", "display": "DCM:MeOH = 1:1 (v/v)", "latex": "\\mathrm{DCM{:}MeOH}=1{:}1\\ (v/v)"},
+    {"scope": "30.6.2.3（2）", "label": "转甲基酯化试剂体积比", "display": "MeOH:H₂SO₄ = 25:1 (v/v)", "latex": "\\mathrm{MeOH{:}H_2SO_4}=25{:}1\\ (v/v)"}
+  ],
+  "tables": [],
+  "contentSha256": "ded62ba9277259556001aaed8b0c7ea465934302c26fb270d76f7fdb0b28be13"
+}

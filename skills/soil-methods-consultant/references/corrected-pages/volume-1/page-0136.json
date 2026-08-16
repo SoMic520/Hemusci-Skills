@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 136,
+  "sourceImageSha256": "6e51bdc3cd1c921dc90b983277fc58f006d0d3cd95944ff666b8ff5b05210108",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐行对照原分辨率参考文献页，并与Apple Vision、PaddleOCR交叉比对，人工合并Abrams至Ziadi全部条目"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验32P、IERM、C=N、UNIBEST、年份后缀1991a/1991b与2002a/2002b、作者缩写、书名版次、卷页和原书连写"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至Abrams条目，确认environmentsoil、Thephytoavailability两处原书连写、全部作者间逗号及页码105"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第13章｜使用离子交换树脂测定离子供给率｜"},
+    {"type": "section-heading", "level": 3, "title": "参考文献"},
+    {"type": "reference-entry", "text": "Abrams, M.M. and Jarrel, W.M. 1992. Bioavailability index for phosphorus using ion exchange resin impregnated membranes. Soil Sci. Soc. Am. J. 56: 1532-1537."},
+    {"type": "reference-entry", "text": "Amer, F., Bouldin, D.R., Black, C.A., and Duke, F.R. 1955. Characterization of soil phosphorus by anion exchange resin adsorption and 32P equilibration. Plant Soil 6: 391-408."},
+    {"type": "reference-entry", "text": "Curtin, D., Syers, J.K., and Smillie, G.W. 1987. The importance of exchangeable cations and resin-sink characteristics in the release of soil phosphorus. J. Soil Sci. 38: 711-716."},
+    {"type": "reference-entry", "text": "Havlin, J.L., Beaton, J.D., Tisdale, S.L., and Nelson, W.L. 2005. Soil fertility evaluation. In: Soil Fertility and Fertilizers: An Introduction to Nutrient Management, 7th edn. Prentice-Hall, New Jersey, NJ, 298-361."},
+    {"type": "reference-entry", "text": "Kuo, S. 1996. Phosphorus. In: Sparks, D.L., ed. Methods of Soil Analysis, 3rd edn. Part 3. SSSA, Madison, WI, 869-920."},
+    {"type": "reference-entry", "text": "Martin, H.W. and Sparks, D.L. 1983. Kinetics of non-exchangeable potassium release from two Coastal Plain soils. Soil Sci. Soc. Am. J. 47: 883-887."},
+    {"type": "reference-entry", "text": "Olsen, S.R. and Sommers, L.E. 1982. Phosphorus. In: Page, A.L. et al., eds. Methods of Soil Analysis, 2nd edn. Part 2. Agronomy Monograph No. 9. ASA and SSSA, Madison, WI, 403-430."},
+    {"type": "reference-entry", "text": "Pratt, P.F. 1951. Potassium removal from Iowa soils by greenhouse and laboratory procedures. Soil Sci. 72: 107-118."},
+    {"type": "reference-entry", "text": "Qian, P. and Schoenau, J.J. 1996. Ion exchange resin membrane (IERM): a new approach for in situ measurement of nutrient availability in soil. Plant Nutr. Fert. Sci. 2: 322-330."},
+    {"type": "reference-entry", "text": "Qian, P. and Schoenau, J.J. 2002a. Practical applications of ion exchange resins in agricultural and environmental soil research. Can. J. Soil Sci. 82: 9-21."},
+    {"type": "reference-entry", "text": "Qian, P. and Schoenau, J.J. 2002b. Availability of nitrogen in solid manure amendments with different C=N ratios. Can. J. Soil Sci. 82: 219-225."},
+    {"type": "reference-entry", "text": "Qian, P., Schoenau, J.J., and Huang, W. 1992. Use of ion exchange membranes in routine soil testing. Commun. Soil Sci. Plant Anal. 23: 1791-1804."},
+    {"type": "reference-entry", "text": "Skogley, E.O. 1992. The universal bioavailability environmentsoil test UNIBEST. Commun. Soil Sci. Plant Anal. 23: 2225-2246."},
+    {"type": "reference-entry", "text": "Sparks, D.L. 1987. Potassium dynamics in soils. Adv. Soil Sci. 6: 1-63."},
+    {"type": "reference-entry", "text": "Turrion, M.B., Gallardo, J.F., and Gonzales, M.I. 1999. Extraction of soil-available phosphate, nitrate, and sulphate ions using ion exchange membranes and determination by ion exchange chromatography. Commun. Soil Sci. Plant Anal. 30: 1137-1152."},
+    {"type": "reference-entry", "text": "Yang, J.E. and Skogley, E.O. 1992. Diffusion kinetics of nutrient accumulation by mix-bed ion-exchange resin. Soil Sci. Soc. Am. J. 56: 408-414."},
+    {"type": "reference-entry", "text": "Yang, J.E., Skogley, E.O., Georgitis, S.J., Schaff, B.E., and Ferguson, A.H. 1991a. Thephytoavailability soil test: development and verification of theory. Soil Sci. Soc. Am. J. 55: 1358-1365."},
+    {"type": "reference-entry", "text": "Yang, J.E., Skogley, E.O., and Schaff, B.E. 1991b. Nutrient flux to mix-bed ion-exchange resin: temperature effects. Soil Sci. Soc. Am. J. 55: 762-767."},
+    {"type": "reference-entry", "text": "Ziadi, N., Simard, R.R., Allard, G., and Lafond, J. 1999. Field evaluation of anion exchange membrane as a N soil testing method for grasslands. Can. J. Soil Sci. 79: 281-294."},
+    {"type": "translator-credit", "text": "（马杰 译，李永涛 翁莉萍 校）"},
+    {"type": "printed-page-number", "text": "105"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c7ec663633e5f7d42bd69ecdad4427e738aa4132ab2ce6fe0d9ea044ee98507b"
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 68,
+  "sourceImageSha256": "3382b78ab0483fccfe4cd58de6c5bb9e9b963c0d046d0dfba593a295873d58b8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率参考文献末页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复页首续接、全部英文著录和译校署名"},
+    "precisionPass": {"status": "verified", "method": "放大核对ISO 11269-2、Cu/Zn/Fe/Mn、PAHs、PGPR、作者首字母、全部卷期页码及原页连写词"},
+    "secondVisualPass": {"status": "verified", "method": "按页首Potter续文、R至Z字母顺序、逐条作者题名刊名卷页、译校署名和印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第4章｜土壤样本的处理和存储｜"},
+    {"type": "bibliography-entry", "continuation": true, "text": "for soils: problems for further investigation. Agr. Ecosyst. Environ. 34: 453-463."},
+    {"type": "bibliography-entry", "text": "Riepert, F. and Felgentreu, D. 2002. Relevance of soil storage to biomass development, N-mineralisation and microbial activity using the higher plant growth test, ISO 11269-2, for testing of contaminated soils. Appl. Soil Ecol. 20: 57-68."},
+    {"type": "bibliography-entry", "text": "Ross, D.J. 1970. Effects of storage on dehydrogenase activities of soils. Soil Biol. Biochem. 2: 55-61."},
+    {"type": "bibliography-entry", "text": "Ross, D.J. 1989. Estimation of soil microbial C by a fumigation-extraction procedure: influence of soil moisture content. Soil Biol. Biochem. 21: 767-772."},
+    {"type": "bibliography-entry", "text": "Ross, D.S., Hales, H.C., Shea-McCarthy, G.C., and Lanzirotti, A. 2001. Sensitivity of soil manganese oxides: drying and storage cause reduction. Soil Sci. Soc. Am. J. 65: 736-743."},
+    {"type": "bibliography-entry", "text": "Rost, H., Loibner, A.P., Hasinger, M., Braun, R., and Szolar, O.H.J. 2002. Behavior of PAHsduring cold storage of historically contaminated soil samples. Chemosphere 49: 1239-1246."},
+    {"type": "bibliography-entry", "text": "Schumacher, B.A., Shines, K.C., Burton, J.V., and Papp, M.L. 1990. Comparison of three methods for soil homogenization. Soil Sci. Soc. Am. J. 54: 1187-1190."},
+    {"type": "bibliography-entry", "text": "Sheppard, S.C. and Evenden, W.G. 1998. Approach to Defining a Control or Diluent Soil for Ecotoxicity Assays. ASTM Special Technical Publication 1333: 215-226."},
+    {"type": "bibliography-entry", "text": "Shishido, M. and Chanway, C.P. 1998. Storage effects on indigenous soil microbial communities and PGPR efficacy. Soil Biol. Biochem. 30: 939-947."},
+    {"type": "bibliography-entry", "text": "Simonsson, M., Berggren, D., and Gustafsson, J.P. 1999. Solubility of aluminum and silica in spodic horizons as affected by drying and freezing. Soil Sci. Soc. Am. J. 63: 1116-1123."},
+    {"type": "bibliography-entry", "text": "Stenberg, B., Johansson, M., Pell, M., SjodahlSvensson, K., Stenstrom, J., and Torstensson, L. 1998. Microbial biomass and activities in soil as affected by frozen and cold storage. Soil Biol.Biochem. 30: 393-402."},
+    {"type": "bibliography-entry", "text": "Turner, B.L. and Haygarth, P.M. 2003. Changes in bicarbonate-extractable inorganic and organic phosphorus by drying pasture soils. Soil Sci. Soc. Am. J. 67: 344-350."},
+    {"type": "bibliography-entry", "text": "van Gestel, M., Merckx, R., and Vlassak, K. 1993. Microbial biomass responses to soil drying and rewetting: the fate of fast- and slow-growing microorganisms in soils from different climates. Soil Biol. Biochem. 25: 109-123."},
+    {"type": "bibliography-entry", "text": "Verchot, L.V. 1999. Cold storage of a tropical soil decreases nitrification potential. Soil Sci. Soc. Am. J. 63: 1942-1944."},
+    {"type": "bibliography-entry", "text": "Walworth, J.L. 1992. Soil drying and rewetting, or freezing and thawing, affects soil solution composition. Soil Sci. Soc. Am. J. 56: 433-437."},
+    {"type": "bibliography-entry", "text": "Wang, D., Snyder, C., and Bormann, F. 1993. Potential errors in measuring nitrogen content of soils low in nitrogen. Soil Sci. Soc. Am. J. 57: 1533-1536."},
+    {"type": "bibliography-entry", "text": "Worsfold, P.J., Gimbert, L.J., Mankasingh, U., Omaka, O.N., Hanrahan, G., Gardolinski, P.C.F.C., Haygarth, P.M., Turner, B.L., Keith-Roach, M.J., and McKelvie, I.D. 2005. Sampling, sample treatment and quality assurance issues for thedetermination of phosphorus species in natural waters and soils. Talanta 66: 273-293."},
+    {"type": "bibliography-entry", "text": "Zantua, M.I. and Bremner, J.M. 1975. Preservation of soil samples for assay of urease activity. Soil Biol. Biochem. 7: 297-299."},
+    {"type": "bibliography-entry", "text": "Zelles, L., Adrian, P., Bai, Q.Y., Stepper, K., Adrian, M.V., Fischer, K., Maier, A., and Ziegler, A. 1991. Microbial activity measured in soils stored under different temperature and humidity conditions. Soil Biol. Biochem. 23: 955-962."},
+    {"type": "translator-credit", "text": "（孙扬　译，李永涛　翁莉萍　校）"},
+    {"type": "printed-page-number", "text": "37"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c742d3b3a44d5fd71b92edb4e7de6fc4215b5064d38cd67976c0fbc8e1acf8b7"
+}

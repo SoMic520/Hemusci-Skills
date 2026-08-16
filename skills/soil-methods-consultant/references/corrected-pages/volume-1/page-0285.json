@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 285,
+  "sourceImageSha256": "2eb9f7bb65e56f426464943c5e8a049567587e3e97d1958536d09215901ae46e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第29章第254页，人工恢复29.2续文、29.3原理与流程、29.3.1材料及29.3.2步骤（1）跨页续文"},
+    "precisionPass": {"status": "verified", "method": "逐字符核骎5类目标微生物英文名、ETOH、ATCC、R2A、mL/mm、kg·cm⁻²、℃、min、稀释比及全部引文"},
+    "secondVisualPass": {"status": "verified", "method": "从页底‘已冷却至48～49℃’反向复核至页首actinomycetes续文，确认29.2→29.3→29.3.1→29.3.2层级及印刷页码254"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "culture-medium-selection-continuation", "continuesFromPage": 284, "text": "actinomycetes）能够进行计数（Lingappa和Lockwood，1962；Hsu和Lockwood，1975），而培养基中包含的特定抗生素则可以阻止其他微生物的生长（Williams和Davies，1965）。同样地，选择性培养基也被应用于其他不同的很多土壤微生物，如溶磷菌（Phosphate-solubilizing bacteria）（Kucey，1983）、产铁载体菌（Siderophore-producing microorganisms）（Koedam等，1994）、自生固氮菌（Free-living nitrogen-fixing bacteria）（Rennie，1981；Knowles和Barraquio，1994）、硝化细菌（Nitrifying bacteria）（Schmidt和Belser，1994）和硫氧化菌（Sulfur-oxidizing organisms）（Postgate，1966；Germida，1985；Lawrence和Germida，1988）等。"},
+    {"type": "limitation", "text": "虽然平板计数法和最近似值法都易于操作，但是它们的有效性受到一些关键因素的制约（Germida，1993；Wollum，1994；Woomer，1994）。培养基的多次选择、分散问题甚至吸量管对细菌的吸附都会对计数过程的标准化产生干扰。而连续、准确地使用重复样品则能够减少这些问题。研究者们需要认识到微生物并不是均匀地分布在土壤环境中的，同时特定微生物的数量大小也不能够反映它的重要性。"},
+    {"type": "heading", "level": 1, "number": "29.3", "title": "涂布平板计数法"},
+    {"type": "principle", "text": "通过涂布平板计数法对微生物种群进行计数是一种简单快速的、计算土壤微生物细胞数的方法。但是，用这种方法得到的数值一般要比显微镜直接对土壤涂片进行计数小10到100倍（Skinner等，1952）。造成这一数值差异的原因主要有两点：①土壤涂片在计数中测定了有活性微生物和无活性微生物的总数量；②涂布平板计数所使用的生长培养基无法提供足够或适量的营养物质（Germida，1993）。总的来说，这种方法主要包括：①以一定的稀释倍数准备一系列的土壤样品稀释液（比如1∶10倍稀释）；②将一滴稀释液涂抹在琼脂培养基的表面上；③在合适的环境条件下培养琼脂平板。"},
+    {"type": "isolation-note", "text": "这些涂布平板除了可以用于计数，还可以用于开始微生物分离的过程。在用于计数时为了保证纯度，一个单一的菌群挑选出来，以重复条带的方式布置在合适的生长培养基上培养。这样转移了数次后，菌群就完成了培养，并可以用于之后的研究和鉴定。使用选择性培养基还是非选择性培养基则主要基于试验目标微生物的性质。土壤浸出琼脂（Soil extract agar）（James，1958）就是一种用于土壤细菌计数的非选择性培养基。‘土壤溶液等效培养基’（Soil solution equivalent medium）（Angle等，1991）则是目前所使用的土壤浸出琼脂的替代品，即‘胰酶解蛋白酪大豆琼脂’（trypticase soy agar）与‘R2A琼脂培养基’（R2A medium）这两种商品化的复合培养基（Martin，1975；Reasoner和Geldreich，1985）。"},
+    {"type": "source-fidelity-note", "text": "原书将trypticase soy agar译为‘胰酶解蛋白酪大豆琼脂’；实验室常用规范名为‘胰蛋白胨大豆琼脂’（TSA）。原名、英文名和规范中文名同时索引。"},
+    {"type": "heading", "level": 2, "number": "29.3.1", "title": "材料"},
+    {"type": "material-item", "number": "（1）", "text": "含约20 mL琼脂类培养基（如土壤浸出琼脂）的培养皿。"},
+    {"type": "material-item", "number": "（2）", "text": "装有稀释液（如无菌水）的稀释瓶（如50×160 mm；200 mL体积）和（或）试管（如18×150 mm）。"},
+    {"type": "material-item", "number": "（3）", "text": "灭菌的1 mL和10 mL移液管。"},
+    {"type": "material-item", "number": "（4）", "text": "玻璃涂布棒（如曲棍状玻璃棒）。"},
+    {"type": "material-item", "number": "（5）", "text": "装有95%乙醇（ETOH）的玻璃容器。"},
+    {"type": "heading", "level": 2, "number": "29.3.2", "title": "琼脂培养皿的准备"},
+    {"type": "procedure-step", "number": "（1）", "continuesOnPage": 286, "text": "按照商用脱水配方或者其他文献中所使用的配料表准备琼脂培养基。具体可以参考美国标准菌库（The American Type Culture Collection，ATCC）（2005）和Atlas（1995）的配方和相关参考文献。按照配方准备配制培养基，在1.05 kg·cm⁻²和121℃的条件下高压灭菌20 min，冷却至大约48℃后倒入培养皿。对于部分热不稳定的成分，先过滤灭菌，之后加入经高压灭菌的琼脂培养基（已冷却至48～49℃）"},
+    {"type": "printed-page-number", "text": "254"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "52cee73a4fa725be8ae45597cc73a47eb8b87d6692bae535a429323dd489688b"
+}

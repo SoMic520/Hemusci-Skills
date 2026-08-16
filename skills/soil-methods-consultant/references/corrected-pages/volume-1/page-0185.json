@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 185,
+  "sourceImageSha256": "6f5870c771f5ae6aead4d46b6c35858ac3a99258cb9e0d0aef751161eec83cce",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第19章首页，并与Apple Vision、PaddleOCR交叉比对，人工恢复章名、作者机构、19.1引言、两项方法不足及Silva-Bremner三步框架"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者Y.K. Soon/B.C. Liang、机构地名、10%/50%、KOBr-HF、NH₄相关术语、作者年份、方法A及非交换态/非交换性/交换态用词差别"},
+    "secondVisualPass": {"status": "verified", "method": "从页末未完句反向复核至章标题，确认“植物生物氮数量”“土壤有效氮”“含氮有机质”等易误识文字；本扫描页未见印刷页码，不补造"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第19章", "title": "非交换态铵的测定"},
+    {"type": "author", "name": "Y.K. Soon", "affiliation": ["Agriculture and Agri-Food Canada", "Beaverlodge, Alberta, Canada"]},
+    {"type": "author", "name": "B.C. Liang", "affiliation": ["Environment Canada", "Gatineau, Quebec, Canada"]},
+    {"type": "section-heading", "level": 2, "number": "19.1", "title": "引言"},
+    {"type": "paragraph", "text": "早在20世纪初期研究人员就发现，含有蛭石和云母等黏土矿物的土壤具有固定铵的能力，这种很难用稀酸或稀碱溶液提取的铵（McBeth，1917）就是固定态或非交换态铵。Barshad（1951）认为非交换态铵指那些在土壤中不能被钾盐溶液长时间浸提或淋洗而代换的铵离子。表层土壤中非交换性铵的含量一般不超过总氮含量的10%，但其含量会随着土壤深度增加而增加，深层土壤的含量甚至会超过50%（Hinman，1964；Bremner，1965）。土壤中非交换态铵的来源主要有土壤有机质矿化产生的铵和施入土壤中的氨态氮肥及土壤母质中已有的固定态铵。许多研究证明非交换态铵可以被植物和微生物利用（Kudeyarov，1981；Scherer，1993；Green等，1994；Scherer和Werner，1996；Soon，1998），而且植物根区土壤中非交换态铵的含量也非常高，因此量化土壤中非交换态铵的库容量具有重要意义。据Soderland和Svensson（1976）估计，在全球土壤中非交换态铵的数量与土壤-植物系统中的植物生物氮数量相当。当土壤中交换态铵开始耗尽时，非交换性铵态氮库就成为土壤有效氮的一个重要来源（Drury和Beauchamp，1991）。从农业和环境角度来说，了解土壤，尤其是固铵能力强的土壤，例如，含蛭石和云母较多的土壤中铵态氮的固定与释放特征，对于有效管理和利用土壤中的氮素具有重要意义。"},
+    {"type": "paragraph", "text": "尽管有不少方法能用来测定土壤非交换态铵（Young和Aldag，1982），但是普遍使用的是Silva和Bremner在1966年提出的方法。1967年，Bremner等对不同的测定方法进行评估后发现，除Silva和Bremner的方法外，其他所有方法具有以下不足。"},
+    {"type": "list-item", "number": "（1）", "text": "用于消除有机氮化合物干扰的前处理无效或会导致测定结果偏高或偏低。"},
+    {"type": "list-item", "number": "（2）", "text": "用来释放非交换态铵的方法不可量化，或可能引起有机氮化合物分解形成铵态氮。Keeney和Nelson（1982）认为Silva-Bremner法能被广泛使用的原因是方法本身没有明显的不足之处，但要注意“也没有方法证实次溴酸钾-氢氟酸（KOBr-HF）处理是准确的”。Bremner等1967年提出测定非交换态铵时可能存在的两个问题，一是氢氟酸处理能将含氮有机物中的氮释放出来，二是金属磷酸铵盐不溶于次溴酸钾或氯化钾溶液但能溶于氢氟酸。这两种情况都会导致非交换态铵的测定结果偏高，但正常条件下这些影响非常小，可以忽略不计。"},
+    {"type": "paragraph", "text": "Silva-Bremner法有三个基本步骤。"},
+    {"type": "method-framework-step", "number": "（1）", "text": "除去可交换态铵。"},
+    {"type": "method-framework-step", "number": "（2）", "text": "氧化除去含氮有机质。"},
+    {"type": "method-framework-step", "number": "（3）", "text": "用氢氟酸和盐酸提取并测定非交换态铵。这个方法的两种修订版本将在下面进行介绍。"},
+    {"type": "paragraph", "continued": true, "text": "Zhang和Scherer（1998）提出的简化版Silva-Bremner方法（方法A）能减少测定时间和所用的试"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "15cd241573822f736fb8af8300d300fffcd70f0525e22997e5dada16227eaa4f"
+}

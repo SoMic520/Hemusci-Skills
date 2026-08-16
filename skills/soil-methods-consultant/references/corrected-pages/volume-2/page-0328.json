@@ -1,0 +1,76 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 328,
+  "sourceImageSha256": "e9d63a1b2f0cde3fd5d9bb0f03f7063265e8bc6b870816e09a2fded8c82a802b",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对85.2续文、五项研究意义、85.3及85.3.1开头"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对Fisher假设、克里金、各向异性、三尺度定义及式(85.1a,b)求和范围"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "按协方差定义校正式(85.1a)括号位置，并与式(85.2b,c)交叉验证；印刷页码837"
+    }
+  },
+  "blocks": [
+    {
+      "type": "source-fidelity-note",
+      "text": "原页式(85.1a)排版把均值项置入z(·)自变量，容易读成z(x_i−m)。按协方差定义及下一页式(85.2b,c)，正确形式必须是[z(x_i)−m_−h][z(x_i+h)−m_+h]；已校正括号。"
+    },
+    {
+      "type": "continuation",
+      "section": "85.2 地统计分析",
+      "paragraphs": [
+        "空间/时间分布结构可由两点协方差这一分离或比例函数描述。确定土壤有机碳、容重等变量的结构有以下意义：避免重复采样中因距离/时间过近导致样本不独立；揭示数据格局和尺度并帮助识别成因；确定控制空间尺度的主要动态过程；使考虑结构的克里金插值对未采样点预测更准确、估计误差更小且无偏；改进试验地形状、大小、方位和监测网络设计，帮助选分析方法并评估模型与不确定性。",
+        "若结构有方向性（各向异性），长方形试验田可能比正方形更有效。纯块金半方差模型适用传统Fisher方差分析；非纯块金模型应采用过程混合模型等替代分析。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "85.3",
+      "title": "测量时间或空间结构",
+      "level": 2
+    },
+    {
+      "type": "scale-framework",
+      "items": [
+        "小尺度：小于采样间隔的结构通常不合理，多由测量误差造成。",
+        "大尺度：相对当前采样域的大尺度模式/趋势，如坡面过程、气候变化、周期性农场管理造成的正弦变化；与中尺度结构无关。",
+        "中尺度：用于分析基本空间/时间结构；需先删除大尺度趋势，再以自协方差、自相关和半方差函数建模。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "85.3.1",
+      "title": "自协方差和自相关结构分析",
+      "level": 3
+    },
+    {
+      "type": "definitions",
+      "items": [
+        "C(h)和η(h)分别为自协方差和自相关函数，描述测量相似性/相关程度随空间或时间间距h的变化。",
+        "N(h)为间距h的样本点总数；z(x_i)为位置或时点x_i的实测值。",
+        "m_−h为去掉样本+h头部数据后的尾部数据均值；m_+h定义见下一页。"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "label": "85.1a（括号已校正）",
+      "plain": "C(h)=[1/N(h)]Σᵢ₌₁ᴺ⁽ʰ⁾[z(x_i)−m_−h][z(x_i+h)−m_+h]",
+      "latex": "C(h)=\\frac{1}{N(h)}\\sum_{i=1}^{N(h)}\\left[z(x_i)-m_{-h}\\right]\\left[z(x_i+h)-m_{+h}\\right]"
+    },
+    {
+      "label": "85.1b",
+      "plain": "m_−h=[1/N(h)]Σᵢ₌₁ᴺ⁽ʰ⁾z(x_i)",
+      "latex": "m_{-h}=\\frac{1}{N(h)}\\sum_{i=1}^{N(h)}z(x_i)"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "ba502ba24e2cfe1c5c2bc40fcfca525710b3c34f715049b2a9e0f33ceab6923e"
+}

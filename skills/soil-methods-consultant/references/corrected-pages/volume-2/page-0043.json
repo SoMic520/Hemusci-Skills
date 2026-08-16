@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 43,
+  "sourceImageSha256": "b5b6c634277eedf712b8c55dba3f75cc679fba4440542758b8ebed677bcd71a5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成粗颗粒修正、环刀注释、57.2.2蜡封法及57.2.3挖坑法"},
+    "precisionPass": {"status": "verified", "method": "核验2 mm、W₆/V₆、W₁/W₂/W₅/V、7.5 cm、5～7.5 cm、105 °C、10%及所有引文"},
+    "secondVisualPass": {"status": "verified", "method": "由页末挖坑法反向复核至式（57.8），按质量守恒定位原式多减W₁；印刷页码552"}
+  },
+  "blocks": [
+    {"type": "procedure-subheading", "number": "5", "title": "对粗颗粒的修正"},
+    {"type": "paragraph", "text": "若目标是<2 mm细土容重：土样过2 mm筛，细土烘干；>2 mm颗粒冲洗、烘干，称质量W₆并用排水法测体积V₆。按校正式（57.8）计算。"},
+    {"type": "formula-correction", "text": "原书式（57.8）分子为W₅−W₂−W₁−W₆；但W₅是干土+铝盒质量，不含环刀，故W₁不应相减。按步骤与式（57.2）校正为[(W₅−W₂)−W₆]/(V−V₆)。"},
+    {"type": "procedure-subheading", "number": "6", "title": "注释"},
+    {"type": "notes", "items": ["(1) 取样压实是环刀法最大误差源。黏性大、紧实或塑性强土壤宜用直径>7.5 cm且高度不大于直径的环刀；只测容重常用5～7.5 cm。", "(2) McCauley泥炭钻用半环刀，常用于泥炭土。", "(3) 设备便宜但采样耗时；深层采样常需两人。", "(4) 破坏性取样结果受含水量影响，膨胀收缩土尤甚，应同步测容重和含水量。"]},
+    {"type": "heading", "number": "57.2.2", "title": "蜡封法", "level": 3},
+    {"type": "paragraph", "text": "蜡封法按阿基米德原理测土块体积（Blake和Hartge，1986a；Grossman和Reinsch，2002）。称土块，涂防水层或以石蜡/树脂等斥水材料饱和；分别在空气和已知温度、密度液体中称量（Campbell和Henshall，2001）。全部土样105 °C烘干以定含水量并算容重。"},
+    {"type": "note", "text": "方法耗时，只适合团聚体稳定或黏结性强的土壤，准确度仍有限。烘干树脂损失10%的假设影响较小。涂层前可在压力板或张力台平衡以研究特定含水范围收缩。不适合小土块，也难从受扰土层取得代表性土块。"},
+    {"type": "heading", "number": "57.2.3", "title": "挖坑法", "level": 3},
+    {"type": "paragraph", "text": "耕作土和森林表层疏松或多石，挖坑法常优于环刀/蜡封。挖出一定土量，烘干称重；用已知填充密度的惰性材料回填坑体求体积，再算容重。"}
+  ],
+  "formulas": [
+    {"label": "(57.8 corrected)", "plain": "D_b(<2 mm) = [(W₅ − W₂) − W₆]/(V − V₆)", "latex": "D_{b,<2\\,mm}=\\frac{(W_5-W_2)-W_6}{V-V_6}", "variables": [{"symbol": "W₆", "meaning": ">2 mm颗粒烘干质量"}, {"symbol": "V₆", "meaning": ">2 mm颗粒体积"}]}
+  ],
+  "tables": [],
+  "contentSha256": "21c2dd08ce189d445ffaf1fc353d450cb7f18a00ff4e2a67eb81a6dcb9d251f2"
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 21,
+  "sourceImageSha256": "af6517e26d589d7cf631e989c672f8effba4502b8c9d7359bc1cccfb075d10f4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐字对照原分辨率图和两套OCR，完成55.1续句、图55.1全部系统标签/坐标刻度及表55.2首段"},
+    "precisionPass": {"status": "verified", "method": "核验5种分类系统、mm/筛孔刻度、½/¾/3英寸、2 μm、h/°C/cm及20～22°C全部数值"},
+    "secondVisualPass": {"status": "verified", "method": "从表55.2末行反向复核至页首续句，图按5列自左向右、表按行列交叉复核；印刷页码530"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "测定）。同时，该技术也假设在沉降过程中土壤颗粒不受其他颗粒或管壁的影响。"},
+    {"type": "figure", "number": "图55.1", "title": "5种土壤分类系统中颗粒大小的分级比较", "axis": {"particleSizeMm": [0.0001, 0.0002, 0.002, 0.003, 0.004, 0.006, 0.008, 0.01, 0.02, 0.03, 0.04, 0.06, 0.08, 0.1, 0.2, 0.3, 0.4, 0.6, 0.8, 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 10.0, 20.0, 30.0, 40.0, 60.0, 80.0], "sieveOrInchLabels": ["300", "270", "200", "140", "60", "40", "20", "10", "4", "½英寸", "¾英寸", "3英寸"]}, "systemsTopToBottom": [{"system": "加拿大土壤分类系统", "labels": ["细黏粒", "粗黏粒", "细粉粒", "中粉粒", "粗粉粒", "微砂粒", "细砂粒", "中砂粒", "粗砂粒", "很粗砂粒", "石砾", "小石头", "石头"]}, {"system": "美国土壤分类系统", "labels": ["黏粒", "粉粒", "很细砂粒", "细砂粒", "中砂粒", "粗砂粒", "很粗砂粒", "细石砾", "粗石砾", "小石头"]}, {"system": "国际土壤分类系统", "labels": ["黏粒", "粉粒", "细砂粒", "粗砂粒", "石砾"]}, {"system": "工程用土壤分类系统", "labels": ["细颗粒（粉粒或黏粒）", "细砂粒", "中砂粒", "粗砂粒", "细石砾", "粗石砾", "卵石"]}, {"system": "美国各州公路工作者协会", "labels": ["胶体", "黏粒", "粉粒", "细砂粒", "中砂粒", "细石砾", "中砂粒", "粗石砾", "卵石"]}], "source": "Sheldrick and Wang, in M.R. Carter (Ed.), Soil Sampling and Methods of Analysis, Canadian Society of Soil Science, Lewis Publishers, Boca Raton, Florida, 1993; Gee and Or, in J.H. Dane and G.C. Topp (Eds.), Methods of Soil Analysis, Part 4—Physical Methods, Soil Science Society of America, Madison, Wisconsin, 2002."},
+    {"type": "source-fidelity-note", "text": "图55.1最右列在8～20 mm区间原书清晰印作‘中砂粒’，与相邻石砾层级及该粒径区间不协调；本页来源层按原貌保留，运行时不得据此擅自替换，待正文或原英文图复核。"},
+    {"type": "table-caption", "number": "表55.2", "title": "特定时间和温度下粒径2 μm颗粒的沉降深度"}
+  ],
+  "formulas": [],
+  "tables": [
+    {"number": "表55.2（首段）", "title": "特定时间和温度下粒径2 μm颗粒的沉降深度", "columns": ["温度（°C）", "4.5 h深度（cm）", "5 h深度（cm）", "5.5 h深度（cm）", "6.5 h深度（cm）"], "rows": [["20", "5.79", "6.44", "7.08", "8.37"], ["20.3", "5.81", "6.48", "7.13", "8.43"], ["20.5", "5.86", "6.52", "7.17", "8.47"], ["20.7", "5.89", "6.55", "7.2", "8.51"], ["21", "5.93", "6.59", "7.25", "8.57"], ["21.3", "5.97", "6.64", "7.3", "8.63"], ["21.5", "6.01", "6.68", "7.33", "8.68"], ["21.7", "6.04", "6.72", "7.39", "8.73"], ["22", "6.09", "6.75", "7.43", "8.78"]]}
+  ],
+  "contentSha256": "db220102f1973541cbcbb4d70018043e67c848c0b9974747c84d2d370f70ab4f"
+}

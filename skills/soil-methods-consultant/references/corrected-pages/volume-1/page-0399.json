@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 399,
+  "sourceImageSha256": "3d60a14507afc00caf2d3f4edea5f418d0593634a47b239ddc5b055cb0acb909",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版38.4.3～38.5.1"},
+    "precisionPass": {"status": "verified", "method": "核验NH₄⁺、NO₂⁻、NO₃⁻、NaClO₃、1.1 g·L⁻¹、<4 mm、4 °C、¹⁵NO₃⁻、¹⁴NH₄⁺、K¹⁵NO₃、40 mg N·L⁻¹、2 mol·L⁻¹ KCl及10 L配液量"},
+    "secondVisualPass": {"status": "verified", "method": "从材料（6）反向复核至注释（3），并以英文原版和化学计量复核KCl质量；印刷页码368"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "note-item", "number": "（3）", "text": "宜测定过滤土壤悬液中的NH₄⁺，确认培养期间未降至限制水平。含高NH₄⁺固定能力矿物或发生较强微生物氮固持的土壤，若观测到NH₄⁺偏低，应补加NH₄⁺。"},
+    {"type": "note-item", "number": "（4）", "text": "有效碳高的土壤会因异养活动强而在悬液中发生反硝化、损失NO₃⁻；提高摇速可能缓解。"},
+    {"type": "note-item", "number": "（5）", "text": "若初始NO₃⁻浓度高或硝化速率很低，加入1.1 g NaClO₃·L⁻¹可提高灵敏度，因为NO₂⁻而不是NO₃⁻成为硝化终产物（Belser和Mays，1980）。"},
+    {"type": "note-item", "number": "（6）", "text": "有机层或有机土可将用料约减至十分之一，并把有机物剪成<4 mm的小块；移取的悬液必须过滤，不能以离心代替。"},
+    {"type": "note-item", "number": "（7）", "text": "取样后必须立即过滤土壤悬液，防止继续硝化。浸提液在4 °C保存并尽快分析；长期延迟则冷冻。解冻后、分析前须剧烈振荡。"},
+    {"type": "note-item", "number": "（8）", "text": "可采用2、6、20和24 h以外的时点，但估计斜率时宜将观测点集中在线性区间两端，即使用“杠杆点”。"},
+    {"type": "section-heading", "level": 2, "number": "38.5", "title": "总硝化速率", "citation": "Hart等，1994b，1997；Chen和Stark，2000"},
+    {"type": "paragraph", "text": "土壤总硝化速率（实际硝化速率）是土壤NO₃⁻的生产速率。与前述方法相同，它排除了植物吸收和淋失；不同之处是不用NO₃⁻库随时间的净变化代替生产，因为库大小同时受硝化生产及NO₃⁻微生物固持、反硝化和异化硝酸盐还原等消耗过程影响。¹⁵N同位素稀释法可把硝化生产与这些消耗途径分开估计。"},
+    {"type": "paragraph", "text": "土壤充分混匀、通气良好且维持高NH₄⁺时（如振荡土壤悬液法），NO₃⁻消耗很少，NO₃⁻库净变化近似总硝化速率（Stark和Firestone，1995）；其他硝化试验通常不同时满足这些条件，总硝化速率可远高于净硝化速率，即使土壤NO₃⁻库很小亦然（Stark和Hart，1997）。"},
+    {"type": "paragraph", "text": "向土壤加入¹⁵NO₃⁻，提高环境NO₃⁻库的¹⁵N丰度。随着自养硝化菌主要把¹⁴NH₄⁺转成¹⁴NO₃⁻，或异养硝化菌主要把有机¹⁴N或¹⁴NH₄⁺转成¹⁴NO₃⁻，NO₃⁻库的¹⁵NO₃⁻相对丰度降低，即发生同位素稀释。NO₃⁻消耗过程会改变库大小，但通常不显著改变其同位素组成。在培养期间转化速率恒定、转化氮不循环且标记与未标记NO₃⁻库均匀混合的假设下，可解析计算硝化速率和NO₃⁻消耗速率（Hart等，1994b）。"},
+    {"type": "paragraph", "text": "下法适用于混合（扰动）矿质土，可在实验室或田间使用。扰动会影响许多土壤的总硝化速率（Booth等，2006）；未扰动土测定参见Hart等（1994b）。"},
+    {"type": "section-heading", "level": 3, "number": "38.5.1", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "text": "1个5 mL注射器和细针头。"},
+    {"type": "reagent-item", "number": "（2）", "name": "K¹⁵NO₃标记液", "text": "¹⁵N丰度99%，浓度40 mg N·L⁻¹。"},
+    {"type": "material-item", "number": "（3）", "text": "可容纳4 mL K¹⁵NO₃溶液的小瓶。"},
+    {"type": "reagent-item", "number": "（4）", "name": "2 mol·L⁻¹ KCl溶液", "text": "将1.49 kg试剂级KCl溶于去离子水并配至约10 L。按精确配制，10.00 L需1.491 kg KCl。"},
+    {"type": "source-fidelity-note", "scope": "38.5.1（4）", "text": "中译本误印为“在10 L去离子水中溶解1.49 g KCl”，相差1000倍；英文原版为1.49 kg。KCl摩尔质量74.551 g·mol⁻¹，2 mol·L⁻¹×10 L需约1491 g。正文已纠正。"},
+    {"type": "material-item", "number": "（5）", "text": "带紧密盖子的120 mL聚乙烯样品容器。"},
+    {"type": "material-item", "number": "（6）", "text": "振荡KCl—土壤悬液用定轨或往复式摇床。"},
+    {"type": "printed-page-number", "text": "368"}
+  ],
+  "formulas": [
+    {"id": "38.5-kcl-check", "display": "m(KCl) = 2 mol·L⁻¹ × 10 L × 74.551 g·mol⁻¹ = 1491 g ≈ 1.49 kg"}
+  ],
+  "tables": [],
+  "contentSha256": "8b43687d0c0f5762407edfaf8566efab5833ce356490ee3a2f8299b2e0b26cf1"
+}

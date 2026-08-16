@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 500,
+  "sourceImageSha256": "54d9f5db5168e55f2f53c51abedc4bf61c3fcdf4f95c4a0e49d498702ab52bfe",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成49.4.1（2）～（5）、49.4.2、49.4.3、49.4.4和49.4.5全文"},
+    "precisionPass": {"status": "verified", "method": "核验420 g NaHCO₃、7.2 g NaOH、pH 8.5、250 μg P·mL⁻¹、1.098 g KH₂PO₄、10 g+200 mL=1:20、20 °C、150 r·min⁻¹、30 min和712 nm"},
+    "secondVisualPass": {"status": "verified", "method": "由49.4.5页末反向复核至49.4.1（2），对照称量–定容复算P标准液，并根据明示10 g/200 mL纠正不一致的1:2～1:5；印刷页码469"}
+  },
+  "blocks": [
+    {"type": "materials-list-continuation", "scope": "49.4.1", "items": [
+      {"number": "（2）", "text": "大型真空干燥器：对氯仿蒸气惰性、无油密封、可承受高真空且容纳约25个样品；宜用厚壁玻璃真空干燥器。"},
+      {"number": "（3）", "text": "0.5 mol·L⁻¹ NaHCO₃浸提液（pH 8.5；Olsen等，1954）：将420 g NaHCO₃加入约9 L水，加7.2 g NaOH颗粒，用10 mol·L⁻¹ NaOH或浓H₂SO₄精确调pH至8.5，再定容至10 L。浓度无需绝对精确，pH必须精确。"},
+      {"number": "（4）", "text": "250 μg P·mL⁻¹无机P（Pi）校正液：将1.098 g KH₂PO₄溶于900 mL水，转入1 L容量瓶定容。"},
+      {"number": "（5）", "text": "其他：通风橱；沸石；250 mL带塞玻璃锥形瓶；水分称量铝盒；Whatman 42号滤纸；50 mL分析玻璃瓶。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "49.4.2", "title": "土壤样品制备"},
+    {"type": "procedure-step", "number": "（1）", "text": "按49.3.2筛分并混合土样。"},
+    {"type": "procedure-step", "number": "（2）", "text": "按49.3.2称量和烘干土样，测定含水量。"},
+    {"type": "procedure-step", "number": "（3）", "text": "称取鲜土9份，每份约相当于10 g烘干土，置250 mL锥形瓶。①3份氯仿蒸气熏蒸24 h后浸提；②3份不熏蒸，在含水和碱石灰的密封干燥器中放24 h后浸提；③另3份不熏蒸，同样放24 h，然后用加入无机P校正液的提取液浸提。"},
+    {"type": "section-heading", "level": 3, "number": "49.4.3", "title": "熏蒸处理"},
+    {"type": "cross-reference", "text": "按49.3.3进行熏蒸。"},
+    {"type": "section-heading", "level": 3, "number": "49.4.4", "title": "微生物量磷的提取"},
+    {"type": "procedure-step", "number": "（1）", "text": "向每个未熏蒸对照和熏蒸样品锥形瓶加200 mL提取剂和1 mL水。按本页明示的约10 g烘干土计，土:液=1 g:20 mL（加水后实际约1:20.1）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "向3份未熏蒸加标样品分别加200 mL提取剂和1 mL无机P校正液，土:液同上。"},
+    {"type": "procedure-step", "number": "（3）", "text": "每组设3个空白。样品和空白在20 °C定轨摇床振荡30 min（150 r·min⁻¹），用Whatman 42号滤纸过滤至酸洗塑料瓶。"},
+    {"type": "source-fidelity-note", "scope": "49.4.4土液比", "text": "原书同页明示每份约10 g烘干土与200 mL提取剂，却把土重（g）:提取剂（mL）误印为1:2～1:5。由200/10=20，按配方正确比例为1:20；运行时必须优先执行明示称量与体积，不得用1:2～1:5。"},
+    {"type": "section-heading", "level": 3, "number": "49.4.5", "title": "提取态磷的测定"},
+    {"type": "paragraph", "text": "熏蒸释放的无机P用于估算微生物量P。土壤提取液无机P按Murphy和Riley（1962）法测定：酸性下，钼酸铵和酒石酸氧锑钾与磷酸盐生成锑磷钼复合物，抗坏血酸将其还原为深蓝色复合物；在适用浓度范围内，712 nm吸光值与P浓度成正比。详见25.4.5。"}
+  ],
+  "formulas": [
+    {"id": "49.4.1-pi-spike", "display": "1.098 g KH₂PO₄·L⁻¹ ≈ 250 μg P·mL⁻¹", "meaning": "无机P回收率校正液；1.098/136.086×30.974≈0.250 kg P·m⁻³"},
+    {"id": "49.4.4-extraction-ratio", "display": "10 g oven-dry-equivalent soil + 200 mL extractant ⇒ soil:solution = 1:20", "meaning": "根据明示质量与体积得到的微生物量P提取比；校正原书1:2–1:5误印"},
+    {"id": "49.4.5-blue-method", "display": "A₇₁₂ ∝ [Pi]", "meaning": "Murphy–Riley锑磷钼蓝比色法"}
+  ],
+  "tables": [],
+  "contentSha256": "6187a27149b9629473f081305621176d3e15598118149d00aae1e3d8facdba8c"
+}

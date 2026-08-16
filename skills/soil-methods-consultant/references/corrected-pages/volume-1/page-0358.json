@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 358,
+  "sourceImageSha256": "182c1bca83ebfe58649dd6ac1b9be40a349e835094e7d3e4aea19d8470a3f6f5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页面、Apple Vision、PaddleOCR和英文原版参考文献表"},
+    "precisionPass": {"status": "verified", "method": "核验作者、年份、题名、期刊、卷页、拉丁学名、专著信息和法德文字符"},
+    "secondVisualPass": {"status": "verified", "method": "从Sims和Gerard文献反向复核至Joyner续文，矫正Meinhardt缺失姓名首字母和个别断词；页码327"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第34章｜蚓蚓｜"},
+    {"type": "reference-continuation", "continuationOf": "page-0357#Joyner-Harmon-1961", "text": "71: 378–384."},
+    {"type": "reference", "text": "Kukkonen, S., Palojarvi, A., Rakkolainen, M., and Vestberg, M. 2004. Peat amendment and production of different crop plants affect earthworm populations in field soil. Soil Biol. Biochem. 36: 415–423."},
+    {"type": "reference", "text": "Lawrence, A.P. and Bowers, M.A. 2002. A test of the “hot” mustard extraction method of sampling earthworms. Soil Biol. Biochem. 34: 549–552."},
+    {"type": "reference", "text": "Lee, K.E. 1959. The earthworm fauna of New Zealand. New Zealand Department of Science and Industrial Research Bulletin 130. Wellington, New Zealand."},
+    {"type": "reference", "text": "Lee, K.E. 1985. Earthworms: Their Ecology and Relationships with Soils and Land Use. Academic Press, Sydney, NSW, Australia."},
+    {"type": "reference", "text": "Ljungström, P.-O. 1970. Introduction to the study of earthworm taxonomy. Pedobiologia 10: 265–285."},
+    {"type": "reference", "text": "Martin, N.A. 1986. Earthworm biomass: influence of gut content and formaldehyde preservation on live-to-dry weight ratios of three common species of pasture Lumbricidae. Soil Biol. Biochem. 18: 245–250."},
+    {"type": "reference", "text": "Mazaud, D. and Bouché, M.B. 1980. Introductions en surpopulation et migrations de lombiciens marques. In: D.L. Dindal, ed. Soil Biology as Related to Land Use Practices. Proceedings of the 7th International Soil Zoology Colloquium, Syracuse, New York, 1979. U.S. Environmental Protection Agency, Washington, DC, pp. 687–701."},
+    {"type": "reference", "text": "McLean, M.A. and Parkinson, D. 1997. Changes in the structure, organic matter and microbial activity of pine forest following the introduction of Dendrobaena octaedra (Oligochaeta, Lumbricidae). Soil Biol. Biochem. 29: 537–540."},
+    {"type": "reference", "text": "Meinhardt, U. 1976. Dauerhafte Markierung von Regenwürmern durch ihre Lebendfärbung. Nachrichtenbl. Dtsch. Pflanzenschutzdienstes (Braunschweig) 28: 84–86."},
+    {"type": "source-fidelity-note", "scope": "Meinhardt 1976文献", "text": "原书漏了作者首字母，并把Meinhardt印作Meinhart；已据论文原页矫正为Meinhardt, U.。"},
+    {"type": "reference", "text": "Petersen, H. 2000. Collembola populations in an organic crop rotation: population dynamics and metabolism after conversion from clover-grass ley to spring barley. Pedobiologia 44: 502–515."},
+    {"type": "reference", "text": "Piearce, T.G. 1972. Acid intolerant and ubiquitous Lumbricidae in selected habitats in north Wales. J. Anim. Ecol. 41: 397–410."},
+    {"type": "reference", "text": "Raw, F. 1959. Estimating earthworm populations by using formalin. Nature (London) 184: 1661–1662."},
+    {"type": "reference", "text": "Raw, F. 1960. Earthworm population studies: a comparison of sampling methods. Nature (London) 187: 257."},
+    {"type": "reference", "text": "Reynolds, J.W. 1973. Earthworm (Annelida: Oligochaeta) ecology and systematics. In: D.L. Dindal, ed. Proceedings of 1st Soil Microcommunities Conference, Syracuse, NY. US Atomic Energy Commission, Office of Information Services Centre, Washington, DC, pp. 95–120."},
+    {"type": "reference", "text": "Reynolds, J.W. 1977. The Earthworms (Lumbricidae and Sparganophilidae of Ontario). Royal Ontario Museum, Life Sciences, Miscellaneous Publications, Toronto, ON, Canada."},
+    {"type": "reference", "text": "Rossi, J.P. and Nuutinen, V. 2004. The effect of sampling unit size on the perception on the spatial pattern of earthworm (Lumbricus terrestris L.) middens. Appl. Soil Ecol. 27: 189–196."},
+    {"type": "reference", "text": "Satchell, J.E. 1955. An electrical method of sampling earthworm populations. In: D.K.McE. Kevan, ed. Soil Zoology. Butterworths, London, UK, pp. 356–364."},
+    {"type": "reference", "text": "Satchell, J.E. 1969. Methods of sampling earthworm populations. Pedobiologia 9: 20–25."},
+    {"type": "reference", "text": "Schmidt, O. 2001a. Time-limited soil sorting for long-term monitoring of earthworm populations. Pedobiologia 45: 69–85."},
+    {"type": "reference", "text": "Schmidt, O. 2001b. Appraisal of the electrical octet method for estimating earthworm populations in arable land. Ann. Appl. Biol. 138: 231–241."},
+    {"type": "reference", "text": "Schwert, D.P. 1990. Oligochaeta: Lumbricidae. In: D.L. Dindal, ed. Soil Biology Guide. John Wiley and Sons, New York, pp. 341–356."},
+    {"type": "reference", "text": "Sims, R.W. and Gerard, B.M. 1985. Earthworms. Synopses of the British Fauna, No. 31. Linnaean Society of London, London, UK."},
+    {"type": "printed-page-number", "text": "327"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f071c49f77177d5b687190068b36c1efdf8916310858ff8001f38edb942bac90"
+}

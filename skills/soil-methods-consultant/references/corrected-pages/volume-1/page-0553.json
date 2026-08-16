@@ -1,0 +1,54 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 553,
+  "sourceImageSha256": "76eb6e6ce178335fb71bc8988c44df34906d47c4f74b29cf449f5d14cb9bab24",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条对照原分辨率页面和两套OCR，完成参考文献Durka至Keeling 1958跨页条目"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验CO₂、¹³C/¹⁵N、N₂O、K/P/S/Zn、IAEA报告号与116/247页、作者变音符号、卷页和历史URL"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由Keeling跨页条目反向复核至Durka，检查Follett、Högberg、Persson、Chantilly和印刷页码522"
+    }
+  },
+  "blocks": [
+    {
+      "type": "reference-list",
+      "entries": [
+        "Durka, W., Schulze, E.D., and Gebauer, G. 1994. Effects of forest decline on uptake and leaching of deposited nitrate determined from N-15 and O-18 measurements. Nature 372: 765–767.",
+        "FAO/IAEA (Food and Agriculture Organization of the United Nations and the International Atomic Energy Agency). 1966. The Use of Isotopes in Soil Organic Matter Studies (Proceedings of the Technical Meeting, Brunswick Völkenrode, Germany, 1963; Supplement to Journal of Applied Radiation and Isotopes). Pergamon Press, New York, NY, 505.",
+        "Flanagan, L.B. and Ehleringer, J.R. 1998. Ecosystem-atmosphere CO₂ exchange: interpreting signals of change using stable isotope ratios. Trends Ecol. Evol. 13: 10–14.",
+        "Follett, R.F. 2001. Innovative ¹⁵N microplot research techniques to study nitrogen use efficiency under different ecosystems. Commun. Soil Sci. Plant Anal. 32: 951–979.",
+        "Frossard, E. and Sinai, S. 1997. The isotope exchange kinetic technique: a method to describe the availability of inorganic nutrients. Applications to K, P, S, and Zn. Isotopes Environ. Health Stud. 33: 61–77.",
+        "Fry, B. 2006. Stable Isotope Ecology. Springer, New York, NY, 308, plus CD-ROM.",
+        "Gehre, M. and Strauch, G. 2003. High-temperature elemental analysis and pyrolysis techniques for stable isotope analysis. Rapid Commun. Mass Spectrom. 17: 1497–1503.",
+        "Glaser, B. 2005. Compound-specific stable isotope (δ¹³C) analysis in soil science. J. Plant Nutr. Soil Sci. 168: 633–648.",
+        "Harris, D., Horwath, W.R., and van Kessel, C. 2001. Acid fumigation of soils to remove carbonates prior to total organic carbon or carbon-13 isotopic analysis. Soil Sci. Soc. Am. J. 65: 1853–1856.",
+        "Hauck, R.D. and Bremner, J.M. 1976. Use of tracers for soil and fertilizer nitrogen research. Adv. Agron. 28: 219–266.",
+        "Hayes, J.M. 2001. Fractionation of the isotopes of carbon and hydrogen in biosynthetic processes. In: J.W. Valley and D. Cole, eds. Stable Isotope Geochemistry, Vol. 43 of Reviews in Mineralogy & Geochemistry, Mineralogical Society of America, Chantilly, VA, 225–278.",
+        "Hayes, J.M., Freeman, K.H., Popp, B.N., and Hoham, C.H. 1989. Compound-specific isotopic analyses: a novel tool for reconstruction of ancient biogeochemical processes. Org. Geochem. 16: 1115–1128.",
+        "Högberg, P. 1997. Tansley Review No. 95: ¹⁵N natural abundance in soil-plant systems. New Phytol. 137: 179–203.",
+        "IAEA. 2001. Use of isotope and radiation methods in soil and water management and crop nutrition. Training Course Series No. 14. International Atomic Energy Agency, Vienna, Austria, 247. Historical URL printed in source: http://www.iaea.org/programmes/nafa/d1/public/tcs-14.pdf (last verified May 2006).",
+        "IAEA. 2004. Analytical Quality Control Services Reference Materials Catalogue, 2004-05. International Atomic Energy Agency, Vienna, Austria, 116. Historical URL printed in source: http://www.iaea.org/programmes/aqcs/pdf/catalogue.pdf (last verified May 2006).",
+        "Inoue, H.Y. and Mook, W.G. 1994. Equilibrium and kinetic nitrogen and oxygen isotope fractionations between dissolved and gaseous N₂O. Chem. Geol. 113: 135–148.",
+        "Jansson, S.L. and Persson, J. 1982. Mineralization and immobilization of soil nitrogen. In: F.J. Stevenson, ed. Nitrogen in Agricultural Soils. Agronomy Monograph 22. ASA, CSSA, and SSSA, Madison, WI, 229–252.",
+        "Jardine, T.D. and Cunjak, R.A. 2005. Analytical error in stable isotope ecology. Oecologia 144: 528–533.",
+        "Jenkinson, D.S., Coleman, K., and Harkness, D.D. 1995. The influence of fertilizer nitrogen and season on the carbon-13 abundance of wheat straw. Plant Soil 171: 365–367.",
+        "Jenkinson, D.S., Fox, R.H., and Rayner, J.H. 1985. Interactions between fertilizer nitrogen and soil nitrogen—the so-called priming effect. J. Soil Sci. 36: 425–444."
+      ]
+    },
+    {
+      "type": "reference-entry-cross-page",
+      "text": "Keeling, C.D. 1958. The concentration and isotopic abundances of atmospheric carbon dioxide in rural areas. Geochim. [续见第554页]"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "82450213141983b992255cc83258a1beb710d07ac0112943106791037bc33bf0"
+}

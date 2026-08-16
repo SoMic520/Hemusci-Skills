@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 513,
+  "sourceImageSha256": "6cc083cf7429aa5fb09cb1e15899477afebe6db4c605f5d3df12277ae5dda4db",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成50.5.1（1）～（11）、50.5.2和50.5.3至每日清洗步骤（1）"},
+    "precisionPass": {"status": "verified", "method": "核验NOVA-PAK C18 4 μm 8×100 mm、30.55 g/200 mL、pH 10.0、250 mg/50 mL、4 °C、25.59/11.84 g、870 mL×2、164 mL甲醇、96 mL THF、650:350、980:20 μL、20 000×g、5 min±15 s、40 °C、425/338 nm和25 μL"},
+    "secondVisualPass": {"status": "verified", "method": "由每日清洗步骤（1）反向复核至跨页设备实例，检查mL/μL、四水合物量纲、OPA名称、衍生化计时和印刷页码482"}
+  },
+  "blocks": [
+    {"type": "materials-list-continuation", "scope": "50.5.1", "items": [
+      {"number": "（1）", "text": "[承第512页] 设备实例：Waters HPLC（Milford, MA），由Millennium系统控制。"},
+      {"number": "（2）～（3）", "text": "NOVA-PAK C18分析柱，4 μm，8 mm×100 mm（Waters #8NVC18 4 μm）；NOVA-PAK C18 4 μm保护柱。"},
+      {"number": "（4）～（5）", "text": "带沸水浴的旋转真空蒸发器和25 mL蒸发瓶；适配1.5 mL微量离心管的微型离心机。"},
+      {"number": "（6）", "text": "0.5 mol·L⁻¹四硼酸钾：将30.55 g K₂B₄O₇·4H₂O溶于200 mL去离子水；必要时用1 mol·L⁻¹ NaOH调pH至10.0，室温密闭保存。"},
+      {"number": "（7）～（8）", "text": "邻苯二甲醛（OPA）溶液：250 mg、纯度99%的OPA溶于50 mL 0.5 mol·L⁻¹四硼酸钾溶液，4 °C保存；另备2-巯基乙醇。"},
+      {"number": "（9）", "text": "洗脱液A（柠檬酸钠/乙酸钠-甲醇-四氢呋喃）：25.59 g柠檬酸钠溶于870 mL超纯水；另将11.84 g乙酸钠溶于870 mL超纯水。混合，以冰乙酸调pH至5.3，加入164 mL甲醇和96 mL THF，混匀并经0.45 μm真空过滤脱气，棕色玻璃瓶保存。"},
+      {"number": "（10）", "text": "洗脱液B（65%甲醇，v/v）：650 mL HPLC级甲醇与350 mL超纯水分别经0.45 μm真空过滤脱气，再混合并置玻璃瓶保存。"},
+      {"number": "（11）", "text": "色谱柱清洗液：100% HPLC级甲醇，经0.45 μm真空过滤脱气，玻璃瓶保存。"}
+    ]},
+    {"type": "source-fidelity-note", "scope": "50.5.1四硼酸钾与洗脱液A", "text": "30.55 g配成200 mL、0.5 mol·L⁻¹对应摩尔质量305.5 g·mol⁻¹，故试剂必须为K₂B₄O₇·4H₂O；原书漏写‘四水合物’。原书又把洗脱液A中的甲醇写成164 mg；前两份水溶液合计1740 mL，只有再加164 mL甲醇和96 mL THF才恰为2.000 L，因此正确单位为164 mL。"},
+    {"type": "section-heading", "level": 3, "number": "50.5.2", "title": "样品制备和衍生"},
+    {"type": "procedure-step", "number": "（1）", "text": "取50.3.2步骤（6）的水解液1 mL置25 mL蒸发瓶，用旋转真空蒸发器蒸干。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加入980 μL OPA溶液和20 μL 2-巯基乙醇，涡旋充分混匀；加入2-巯基乙醇即为衍生化计时起点。"},
+    {"type": "procedure-step", "number": "（3）", "text": "尽量把全部衍生化混合物转入1.5 mL微量离心管，以20 000×g离心2～3 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "吸取25 μL上清；衍生时间达到5 min±15 s时立即注入HPLC并启动运行。未使用的衍生化样品弃去。"},
+    {"type": "section-heading", "level": 3, "number": "50.5.3", "title": "色谱条件"},
+    {"type": "procedure-step", "number": "（1）～（4）", "text": "分析柱40 °C；OPA荧光检测：发射425 nm、激发338 nm；氙灯；进样25 μL。"},
+    {"type": "procedure-step", "number": "（5）", "text": "梯度程序见表50.2。该条件可分离图50.2所示4个氨基糖峰，但甘露糖胺定量需额外验证共洗脱干扰。"},
+    {"type": "maintenance-step", "number": "每日清洗（1）", "text": "总流量设1.5 mL·min⁻¹，在约2 min内把洗脱液B由15%线性升至100%，至少运行5 min。[续见第514页]"}
+  ],
+  "formulas": [
+    {"id": "50.5.1-tetraborate", "display": "c = (30.55 g/305.5 g·mol⁻¹)/0.200 L = 0.500 mol·L⁻¹", "meaning": "K₂B₄O₇·4H₂O四硼酸钾溶液配方复核"},
+    {"id": "50.5.1-eluent-A-volume", "display": "870 mL + 870 mL + 164 mL MeOH + 96 mL THF = 2000 mL", "meaning": "洗脱液A总体积闭合；证明甲醇单位应为mL而非mg"},
+    {"id": "50.5.2-derivatization", "display": "980 μL OPA solution + 20 μL 2-mercaptoethanol; t_deriv = 5 min ± 15 s", "meaning": "手工OPA衍生反应与固定进样时点"}
+  ],
+  "tables": [],
+  "contentSha256": "c6b8b1e5cd46dba6f7b9b96ff2fc62aa099382774120f833e81c18f1d78827d8"
+}

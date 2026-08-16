@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 443,
+  "sourceImageSha256": "fd5944c836d5ce2315063d2469e5fee434848e87859f455f3d1ab465775150fe",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐项对照原分辨率中文页面、两套OCR及英文原版43.1末段～43.2.2（15）"},
+    "precisionPass": {"status": "verified", "method": "核验BLAST/NCBI、5%～20%、SDS/PVPP、0.1/2 mm、−20/70 °C、14,000×g、≥300 V、Tris–HCl/Na₂EDTA/NaCl 100 mmol·L⁻¹、SDS 2%(w/v)、CH₃COOK 3 mol·L⁻¹及pH"},
+    "secondVisualPass": {"status": "verified", "method": "由异丙醇/乙醇反向复核至跨页“对比”，逐个检查化学式、负号、下标、浓度、设备型号和印刷页码412"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "text": "比较以推断未知菌株种类。可切取单个凝胶条带，把DNA洗脱到缓冲液中，将片段克隆到合适载体并测序，再与归档序列比较；例如用基本局部比对搜索工具BLAST在美国国家生物技术信息中心（NCBI）数据库中比对（McGinnis和Madden，2004）。"},
+    {"type": "section-heading", "level": 2, "number": "43.2", "title": "提取土壤DNA（Martin-Laurent等，2001）"},
+    {"type": "section-heading", "level": 3, "number": "43.2.1", "title": "注意事项及原则"},
+    {"type": "paragraph", "text": "目标是从土壤微生物群落提取并纯化可供PCR扩增的DNA；若腐殖质等抑制物未除去，PCR会受到严重干扰。常见方法有两类：先从土壤基质分离微生物再提取DNA，需密度梯度离心且繁琐，不同土壤的微生物回收率仅5%～20%，会引入群落结构偏差；或直接从非根际整体土壤提取DNA，应用更广，但必须充分纯化以除去腐殖质。"},
+    {"type": "paragraph", "text": "本法改自Martin-Laurent等（2001）：以珠磨机械破碎微生物细胞，以阴离子洗涤剂十二烷基硫酸钠（SDS）化学裂解；离心除土，在乙酸钾存在下用异丙醇沉淀DNA；先经聚乙烯聚吡咯烷酮（PVPP）柱纯化，再用Geneclean Turbo Kit的玻璃奶（glass milk）柱进一步纯化。"},
+    {"type": "section-heading", "level": 3, "number": "43.2.2", "title": "材料与试剂"},
+    {"type": "material-item", "number": "（1）", "text": "冰桶、冰。"},
+    {"type": "material-item", "number": "（2）", "text": "2 mL无菌旋盖管；2 mL和1.5 mL无菌弹扣式微量离心管。"},
+    {"type": "material-item", "number": "（3）", "text": "直径0.1 mm和2 mm的无菌玻璃珠。"},
+    {"type": "material-item", "number": "（4）", "text": "珠磨仪（Mikrodismembrator S, B. Braun Biotech International）。"},
+    {"type": "material-item", "number": "（5）", "text": "可将2 mL管调至70 °C的水浴或干式加热块。"},
+    {"type": "material-item", "number": "（6）", "text": "−20 °C冰箱。"},
+    {"type": "source-fidelity-note", "scope": "43.2.2（6）", "text": "中文版印作“冷冻（20 °C）”，漏负号；按保存用途和英文原版校为−20 °C冰箱。"},
+    {"type": "material-item", "number": "（7）", "text": "Micro Bio-Spin层析柱（Bio-Rad，#732-6204）。"},
+    {"type": "material-item", "number": "（8）", "text": "冷冻台式离心机，配1.5 mL微量离心管转子，至少可达14,000×g。"},
+    {"type": "material-item", "number": "（9）", "text": "水平琼脂糖凝胶电泳装置及电源（至少300 V）。"},
+    {"type": "material-item", "number": "（10）", "text": "凝胶成像设备，如AlphaImager（Alpha Innotech Corporation）。"},
+    {"type": "material-item", "number": "（11）", "text": "微量移液器及无菌吸头。"},
+    {"type": "reagent-item", "number": "（12）", "name": "裂解缓冲液", "text": "100 mmol·L⁻¹ Tris–HCl（pH 8）、100 mmol·L⁻¹ Na₂EDTA（pH 8）、100 mmol·L⁻¹ NaCl、2%（w/v）SDS。"},
+    {"type": "reagent-item", "number": "（13）", "text": "3 mol·L⁻¹乙酸钾（CH₃COOK），pH 5.5。"},
+    {"type": "reagent-item", "number": "（14）", "text": "聚乙烯聚吡咯烷酮（PVPP；Sigma-Aldrich Chemical Co.）。"},
+    {"type": "reagent-item", "number": "（15）", "text": "异丙醇、乙醇。"},
+    {"type": "printed-page-number", "text": "412"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f3d3e499aa0e7780d3a7f3a555d6a48b5beeda8842120f8792537a2239607395"
+}

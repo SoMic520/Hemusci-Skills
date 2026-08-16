@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 150,
+  "sourceImageSha256": "63f3af42bc16ea4be91f262c79063c3971438805065dc31692ed0593a6224379",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照第15章首页原图，并与Apple Vision、PaddleOCR交叉比对，人工恢复盐渍化定义、盐离子组成、EC测定体系及原位电导率方法"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Na⁺、Ca²⁺、Mg²⁺、SO₄²⁻、Cl⁻、K⁺、HCO₃⁻、CO₃²⁻、NO₃⁻、ECₐ/ECₑ/ECw、ESP、SAR、dS/m、温度和深度"},
+    "secondVisualPass": {"status": "verified", "method": "从Robbins未完引文反向复核至章标题，确认1∶1～1∶5比例、Wenner/EM/TDR层级、EM38垂直/水平深度及章首页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "第15章", "text": "电导率和可溶性离子"},
+    {"type": "author", "text": "Jim J. Miller"},
+    {"type": "affiliation", "text": "Agriculture and Agri-Food Canada\nLethbridge, Alberta, Canada"},
+    {"type": "author", "text": "Denis Curtin"},
+    {"type": "affiliation", "text": "New Zealand Institute for Crop and Food Research\nChristchurch, New Zealand"},
+    {"type": "section-heading", "level": 3, "number": "15.1", "title": "引言"},
+    {"type": "paragraph", "text": "盐渍化土壤被定义为因含有过多的可溶性盐而对大多数作物生长有不利影响的土壤（Soil Science Society of America，2001）。土壤盐渍化在世界范围内对旱地和灌溉土壤的农业生产有不利影响。土壤盐渍化会通过降低土壤溶液的渗透势来限制植物吸收水分而导致作物生长量降低（Corwin和Lesch，2003）。盐渍化也会导致特定离子产生毒性或养分失衡，如果在土壤阳离子交换过程中累积过量的Na，土壤的渗透性和可耕作性就会大幅降低。"},
+    {"type": "paragraph", "text": "土壤盐度常用土壤提取液的电导率（EC）来表示。若25 ℃下，饱和提取液的电导率超过4 dS/m，则该土壤即被视为盐渍化土壤（Soil Science Society of America，2001）。主要的可溶性盐离子包括阳离子Na⁺、Ca²⁺、Mg²⁺和阴离子SO₄²⁻、Cl⁻，以及少量的K⁺、HCO₃⁻、CO₃²⁻和NO₃⁻。土壤碱度表征为可交换Na的累积量，通过测定土壤中可交换钠的百分比（ESP）来确定，或通过更为通用的方法土壤—水提取液的钠吸附比（SAR）测定。如果饱和提取液的SAR超过13，土壤即被认为是碱化土壤（Soil Science Society of America，2001）。Sumner等（1998）提出了一个基于土壤物理性质（黏土的可分散性）、钠和盐度水平的更详细的判别碱化土壤的分类方案。"},
+    {"type": "paragraph", "text": "土壤盐度或EC值可在原位土壤（ECₐ）、饱和泥浆提取物（ECₑ）、土水比1∶1～1∶5的提取液（EC₁:₁、EC₁:₂和EC₁:₅）或从田间直接提取的土壤孔隙水（ECw）中测定（Corwin和Lesch，2003）。ECₐ或表观EC已经成为表征田间土壤盐分空间分布最可靠和最常用的方法之一。用来测量田间ECₐ的方法包括Wenner排列或四电极法、电磁（EM）感应法和时域反射计法（TDR）（Rhoades和Oster，1986；Rhoades，1990、1992）。EM感应法是三种方法中最常用的，因为其可对大面积土壤进行快速测定；并通过测定大量土壤减少局部范围的不确定性；再者土壤与EM感应器之间不需要接触，因此测定可在相对干燥或多石粒的土壤中进行（Hendrickx等，1992）。EM38测量器或在较小范围使用的EM31测量器（Geonics Ltd.，Mississauga，Ontario）最常用于土壤调查。EM38测量ECₐ在垂直模式下可达到1.2 m，在水平模式下可达到0.6 m。结合全球定位系统（GPS）开发的移动系统，可以快速绘制大面积的田间土壤盐度图（Rhoades，1992；Cannon等，1994）。用EM38测得的ECₐ值很容易转换为不同温度、质地和水分条件下的ECₑ值（Rhoades和Corwin，1981；Corwin和Rhoades，1982；McKenzie等，1989）。"},
+    {"type": "paragraph", "continued": true, "text": "习惯上，土壤水提取液的电导率被定义为饱和土壤泥浆提取物的电导率（ECₑ）（U.S. Salinity Laboratory Staff，1954）。电导率和溶质浓度受土水比的影响（Reitemeier，1946），这就要求将其标准化，这样就可以在不同的土壤类型下得到一致的解释，但对沙土、有机土和石灰性土壤例外（Robbins和"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "52b76d01441d1ba196fa350f8c48933234eb4d30039030e5bcc2b30a2e93c235"
+}

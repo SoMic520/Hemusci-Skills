@@ -1,0 +1,71 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 182,
+  "sourceImageSha256": "0ae9fa150da02d0d69b83161270647657f90824fc87b0bdb2e65387c5392ca04",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率计算页，并与Apple Vision、PaddleOCR交叉比对，人工恢复18.3.3全部计算及18.4标题和五段方法说明"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Volᵣₑₛ、Caᵣₑₛ、NO₃ᵣₑₛ、Caₛₒₗ、NO₃ₛₒₗ、Caₜ、NO₃ₜ、CaKCl、NO₃KCl、mol/mmol/mM、DF、CEC/AEC、NH₄⁺、Ca²⁺、K⁺及式（18.4）～（18.8）"},
+    "secondVisualPass": {"status": "verified", "method": "从页末18.4末段反向复核至土壤溶液体积，确认原书式（18.4）和（18.5）印作mol、NO₃ₜ式未单列编号、式（18.8）括号样式及页码151均按印刷保留"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第18章｜离子交换与交换性阳离子｜"},
+    {"type": "calculation-subitem", "parent": "18.3.3（1）", "number": "①", "title": "土壤溶液的体积", "text": "从步骤9中测得的重量中减去土壤（步骤2）和空离心管重量，以便计算残余0.005 mol L⁻¹的硝酸钙溶液（Volᵣₑₛ）的重量。假设1 g等于1 mL。"},
+    {"type": "calculation-subitem", "parent": "18.3.3（1）", "number": "②", "title": "残余溶液中的钙离子和硝酸根离子（Caᵣₑₛ和NO₃ᵣₑₛ）", "formulaRefs": ["18.4", "18.5"]},
+    {"type": "formula-explanation", "formulaRefs": ["18.4", "18.5"], "text": "式中，Caₛₒₗ和NO₃ₛₒₗ是指测得的步骤9中0.005 M硝酸钙淋洗液中的钙离子和硝酸根离子的浓度，单位为mM，DF是稀释倍数（如果有稀释）。"},
+    {"type": "calculation-item", "number": "（2）", "title": "氯化钾提取液（包括残留液）中钙离子和硝酸根离子的总量（Caₜ和NO₃ₜ）", "formulaRefs": ["18.6", "18.6b"]},
+    {"type": "formula-explanation", "formulaRefs": ["18.6", "18.6b"], "text": "式中，CaKCl和NO₃KCl是来自步骤11的氯化钾提取液中的钙和硝酸根离子浓度（mM），DF是稀释倍数（如果有稀释）。"},
+    {"type": "calculation-item", "number": "（3）", "title": "CEC和AEC的计算", "formulaRefs": ["18.7", "18.8"]},
+    {"type": "formula-explanation", "formulaRefs": ["18.7", "18.8"], "text": "式中，wt.为风干土样重，单位为g。"},
+    {"type": "calculation-item", "number": "（4）", "text": "绘制CEC和AEC与最终平衡液pH测量值（第18.3.2的步骤9）的散点图，进行分析。"},
+    {"type": "section-heading", "level": 2, "number": "18.4", "title": "在pH值7.0条件下用乙酸铵方法测定可交换阳离子和总交换量"},
+    {"type": "method-source", "text": "（Lavkulich，1981）"},
+    {"type": "paragraph", "text": "本节所介绍的方法由Lavkulich（1981）提出，可以用于多种类型土壤的测定。它涉及的测定步骤要少于其他类似的方法，例如，McKeague（1978）法。关于这种交换性阳离子和CEC测量方法的缺陷已经在有关文献中广泛讨论（Chapman，1965；Bache，1976；Rhoades，1982；Thomas，1982），我们认可Thomas（1982）的看法，即“目前，没有一种方法的测定结果比NH₄⁺交换法更为客观”。"},
+    {"type": "paragraph", "text": "在饱和步骤的平衡过程中，由于碳酸钙和石膏的溶解会导致过量的Ca²⁺被NH₄⁺交换和提取，且由于Ca²⁺和NH₄⁺之间对土壤胶体表面离子的竞争性交换，所以会使NH₄⁺被土壤胶体的吸附减少。在含有这些矿物质的土壤中，交换性Ca的测量值将过高，而总CEC将过低。前一个问题不容易纠正（Thomas，1982），然而，采用Rhoades（1982）法可以更准确地测得这种类型土壤的CEC。"},
+    {"type": "paragraph", "text": "另外，当使用NH₄⁺作为萃取剂时，K⁺和NH₄⁺在层状硅酸盐中的固定也会导致可交换K⁺的值被过高或过低估计，这取决于NH₄⁺是否会进入层间置换K⁺，或者NH₄⁺是否会导致矿物边缘塌陷从而防止K⁺进一步交换。"},
+    {"type": "paragraph", "text": "与本章中介绍的其他方法相比，此方法使用的样本量较大，有助于减少样品之间的变异性。该方法的另一个优点是没有倾析步骤可能导致的样品损失，更适于有机质含量高的土壤。"},
+    {"type": "paragraph", "text": "以下介绍的方法可以用于同时测量交换性阳离子和CEC或只测量交换性阳离子。如果只测定交换性阳离子，那么交换性阳离子（包括铝）的总和也可以用作CEC的估计值。由于提取液pH值高，因此所测铝的含量通常低于用氯化钡或氯化钾溶液所置换的量。"},
+    {"type": "printed-page-number", "text": "151"}
+  ],
+  "formulas": [
+    {
+      "number": "18.4",
+      "context": "残余溶液中的钙离子",
+      "display": "Caᵣₑₛ (mol) = Volᵣₑₛ(mL) × Caₛₒₗ(mM) × 0.001(L·mL⁻¹) × DF",
+      "latex": "Ca_{res}\\,(\\mathrm{mol})=Vol_{res}(\\mathrm{mL})\\times Ca_{sol}(\\mathrm{mM})\\times0.001(\\mathrm{L}\\cdot\\mathrm{mL}^{-1})\\times DF"
+    },
+    {
+      "number": "18.5",
+      "context": "残余溶液中的硝酸根离子",
+      "display": "NO₃ᵣₑₛ (mol) = Volᵣₑₛ(mL) × NO₃ₛₒₗ(mM) × 0.001(L·mL⁻¹) × DF",
+      "latex": "NO_{3\\,res}\\,(\\mathrm{mol})=Vol_{res}(\\mathrm{mL})\\times NO_{3\\,sol}(\\mathrm{mM})\\times0.001(\\mathrm{L}\\cdot\\mathrm{mL}^{-1})\\times DF"
+    },
+    {
+      "number": "18.6",
+      "context": "氯化钾提取液中钙离子总量",
+      "display": "Caₜ (mmol) = CaKCl(mM) × 25(mL) × 0.001(L mL⁻¹) × DF",
+      "latex": "Ca_t\\,(\\mathrm{mmol})=Ca_{KCl}(\\mathrm{mM})\\times25(\\mathrm{mL})\\times0.001(\\mathrm{L}\\,\\mathrm{mL}^{-1})\\times DF"
+    },
+    {
+      "number": "18.6b",
+      "printedNumber": null,
+      "context": "氯化钾提取液中硝酸根离子总量",
+      "display": "NO₃ₜ (mmol) = NO₃KCl(mM) × 25(mL) × 0.001(L mL⁻¹) × DF",
+      "latex": "NO_{3t}\\,(\\mathrm{mmol})=NO_{3\\,KCl}(\\mathrm{mM})\\times25(\\mathrm{mL})\\times0.001(\\mathrm{L}\\,\\mathrm{mL}^{-1})\\times DF"
+    },
+    {
+      "number": "18.7",
+      "context": "CEC",
+      "display": "CEC cmol(+) kg⁻¹ = (Caₜ−Caᵣₑₛ) (mmol) × 0.2(cmol(+) mmol⁻¹) × 1 000(g kg⁻¹)/wt.(g)",
+      "latex": "CEC\\,\\mathrm{cmol}(+)\\,\\mathrm{kg}^{-1}=(Ca_t-Ca_{res})(\\mathrm{mmol})\\times0.2(\\mathrm{cmol}(+)\\,\\mathrm{mmol}^{-1})\\times1\\,000(\\mathrm{g}\\,\\mathrm{kg}^{-1})/wt.(\\mathrm{g})"
+    },
+    {
+      "number": "18.8",
+      "context": "AEC",
+      "display": "AEC cmol(−) kg⁻¹ = (NO₃ₜ−NO₃ᵣₑₛ) (mmol) × 0.1(cmol(−) (mmol⁻¹) × 1 000(g kg⁻¹)/wt.(g)",
+      "latex": "AEC\\,\\mathrm{cmol}(-)\\,\\mathrm{kg}^{-1}=(NO_{3t}-NO_{3\\,res})(\\mathrm{mmol})\\times0.1(\\mathrm{cmol}(-)\\,(\\mathrm{mmol}^{-1})\\times1\\,000(\\mathrm{g}\\,\\mathrm{kg}^{-1})/wt.(\\mathrm{g})"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "f388c82a7b77c2df94b198235e2887e3ef6d5a14cbf9ceebfa37263892a73032"
+}

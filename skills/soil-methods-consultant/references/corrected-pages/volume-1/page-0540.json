@@ -1,0 +1,72 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 540,
+  "sourceImageSha256": "fa8fd4d30fda667118ce095bc30316f0f6c302545c873c7b42298dab71a4ad0a",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，完成第54章题、作者机构及54.1全文"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验质子/中子定义、³²P/¹⁴C/¹⁵N、²H/¹³C/¹⁵N/¹⁸O/³⁴S上标、1945年、IRMS及引文年份"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由四项章范围反向复核至章题，检查所有核素质量数、稳定/放射性区分、分馏术语和作者拼写"
+    }
+  },
+  "blocks": [
+    {
+      "type": "chapter-heading",
+      "level": 1,
+      "number": "第54章",
+      "title": "稳定性同位素在土壤和环境科学研究中的应用"
+    },
+    {
+      "type": "author",
+      "name": "B.H. Ellert",
+      "affiliation": "Agriculture and Agri-Food Canada, Lethbridge, Alberta, Canada"
+    },
+    {
+      "type": "author",
+      "name": "L. Rock",
+      "affiliation": "Agriculture and Agri-Food Canada, Lethbridge, Alberta, Canada"
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "number": "54.1",
+      "title": "引言"
+    },
+    {
+      "type": "paragraph",
+      "text": "同位素是质子数相同、中子数不同的同一元素原子。电子结构相同使其化学性质总体相似，但质量差异会造成反应速率和相平衡的细微差异，形成同位素分馏；自然丰度变化可用于研究元素迁移转化，但形态变化与多重分馏会增加解释复杂度。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "54.1术语",
+      "text": "原书使用‘同位素分离效应’，本章后续定量语境应规范为‘同位素分馏（isotope fractionation）’，避免与实验物理分离操作混淆。"
+    },
+    {
+      "type": "paragraph",
+      "text": "同位素可稳定或具放射性。放射性核素衰变会辐射并转变为其他核素；示踪剂可含人工加入的放射性或稳定性稀有同位素，用特定同位素组成追踪难以直接测定的迁移与转化。"
+    },
+    {
+      "type": "paragraph",
+      "text": "1945年后，³²P、¹⁴C等放射性示踪和¹⁵N稳定性示踪广泛用于土壤-植物元素迁移。¹⁵N是农业生态系统最早且最广用的稳定性同位素示踪之一，用于肥料N去向和利用效率；因没有半衰期足够长、适合常规土壤示踪的放射性N，早期研究采用稳定¹⁵N。"
+    },
+    {
+      "type": "paragraph",
+      "text": "本章同时讨论自然丰度和人工富集水平，重点为²H、¹³C、¹⁵N、¹⁸O、³⁴S等稳定性同位素在农业生产与环境影响、生物地球化学循环中的应用。稳定富集示踪避免放射性核素特有的辐射安全和核监管约束；同位素比质谱（IRMS）的发展提高了分析精度与可用性。"
+    },
+    {
+      "type": "safety-note",
+      "text": "‘稳定同位素不受放射性监管’不等于样品或试剂无危险；化学品、生物样品、压缩气体和仪器高温/真空风险仍须按相应规程管理。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a85009fbfd134c6f01799222f3f53665924ac8644caf1e2dc09aa606e747e5e4"
+}

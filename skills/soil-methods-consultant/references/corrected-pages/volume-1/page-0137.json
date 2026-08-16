@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 137,
+  "sourceImageSha256": "8ec7dce0f407bf2414b0162d444582d56c48b86ca5dbcdbfea1cc0ca3c1d397f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照第14章首页原图，并与Apple Vision、PaddleOCR交叉比对，人工恢复环境土壤磷指数引言四段及跨页续句"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验三位作者机构、Mehlich-3、Bray-1、Olsen、Pote 1999a,b、政府机构名、年份组和“强度因子/容量因子”术语"},
+    "secondVisualPass": {"status": "verified", "method": "从Schoumans 1987未完引文反向复核至章标题，确认水提取土壤磷法与磷吸附饱和法层级、所有引文分隔符及章首页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "第14章", "text": "环境土壤磷指数"},
+    {"type": "author", "text": "Andrew N. Sharpley"},
+    {"type": "affiliation", "text": "University of Arkansas\nFayetteville, Arkansas, United States"},
+    {"type": "author", "text": "Peter J.A. Kleinman"},
+    {"type": "affiliation", "text": "U.S. Department of Agriculture\nUniversity Park, Pennsylvania, United States"},
+    {"type": "author", "text": "Jennifer L. Weld"},
+    {"type": "affiliation", "text": "The Pennsylvania State University\nUniversity Park, Pennsylvania, United States"},
+    {"type": "section-heading", "level": 3, "number": "14.1", "title": "引言"},
+    {"type": "paragraph", "text": "众所周知，农业生产过程中的磷通过径流进入水体，从而加速水体的富营养化（Carpenter等，1998；U.S. Geological Survey，1999；Sharpley，2000）。富营养化影响地表水在景观上、饮用和渔业方面的应用，为降低其影响，一些减少农业活动中磷流失的措施已经开始实施（Gibson等，2000；U.S. Environmental Protection Agency，2004）。"},
+    {"type": "paragraph", "text": "减少农业活动中磷流失的关键措施，一方面是判定因磷的持续施用导致高于最佳作物生长需求量的土壤磷水平（Sims等，1998；Simard等，2000；Daverede等，2003），另一方面是识别因径流和侵蚀产生的磷流失高风险区域（Sharpley等，2001、2003；Coale等，2002）。用于作物磷有效性估算的传统土壤磷测定方法，已被用来估算土壤磷对径流磷的富集量（Sharpley等，1996）。由于土壤磷的测定方法针对特定的土壤类型建立（如Mehlich-3和Bray-1法用于酸性土壤，Olsen法用于石灰、碱性土壤），而且不能模拟土壤磷向径流的释放，因此针对环境土壤磷测定方法的建立开展了大量的研究（Sibbesen和Sharpley，1997；Torbert等，2002）。这些测定方法中比较突出的是水提取土壤磷法和磷吸附饱和法。"},
+    {"type": "paragraph", "text": "许多实地研究的数据表明，水提取土壤磷是一种不受土壤类型限制的提取方法，可用于评估土壤富集径流中可溶性磷的潜力（Pote等，1996；McDowell和Sharpley，2001）。与酸性或碱性土壤磷提取剂相比，用水来提取土壤磷能够更确切地反映土壤表层与降雨的相互作用，以及随后磷向径流的释放。Andraski和Bundy（2003）、Andraski等（2003）、Daverede等（2003）、Hooda等（2000）、Pote等（1999a,b）和Torbert等（2002）都曾报道过水提取土壤磷与草地和农田径流中可溶性磷的含量相关性很强，比Bray-1和Mehlich-3法所得的相关性更好或相当（Vadas等，2005）。越来越多的研究人员在实验室研究中使用水提取磷代替径流数据，旨在比较环境和农业活动的影响（Stout等，1998）。"},
+    {"type": "paragraph", "continued": true, "text": "土壤磷吸附饱和的估算基于土壤磷吸附位点的饱和决定了土壤磷的释放（强度因子）和土壤磷的水平（容量因子）（Breeuwsma和Silva，1992；Kleinman和Sharpley，2002）。例如，由于磷与黏土结合较与沙土更为紧密，因而有相似磷含量的不同类型土壤向径流中释放磷的能力不同（Sharpley和Tunney，2000）。磷吸附饱和度还能反映土壤吸收多余磷，从而增加磷向径流中释放的能力（Schoumans等，1987；"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2cdb5e4ab90b703a17d7f955ad522c7ed5ac2bf247198a81e04eef5ce7bc7416"
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 116,
+  "sourceImageSha256": "2d1d656d97b02867af088596f3d25754a90b1ce899345fc9a43c3b91d1bf173b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步逐参数对照原分辨率图和两套OCR，完成65.2.1步骤(2)跨页结尾及(3)～(6)、图65.1全部色谱流路"},
+    "precisionPass": {"status": "verified", "method": "核验Mg(ClO₄)₂、2～3 mg、20～24 mL、约200 kPa、0.13%·d⁻¹、全部进样环/载气/柱长外径/温度/保留时间"},
+    "secondVisualPass": {"status": "verified", "method": "由图65.1题注反向复核至跨页年份，检查化学式上下标、绝对压力、mL·min⁻¹、Hayesep/Porapak及三个检测器流路；印刷页码625"}
+  },
+  "blocks": [
+    {"type": "procedure-steps-continuation", "items": [
+      "(3) 通量通常按干基气体计算。可在抽空前向小瓶加入2～3 mg无水高氯酸镁[Mg(ClO₄)₂]吸收水汽；它是强氧化剂，须按化学品SDS在适用的防护、隔离和废物处置条件下操作，避免皮肤接触、酸和有机物，明确标识，并始终使瓶口朝上，防止干燥剂接触橡胶/硅胶隔膜。若实验室不具备相应安全条件，应改用经验证的外置干燥/水汽校正方案。",
+      "(4) 用带26 gauge、3/8 in针的聚丙烯注射器采样。先清除采样口/针的约1 mL死体积气体，再抽取20～24 mL气室气体并立即转入已抽空的12 mL小瓶；缓慢轴向穿刺，避免侧向压力使隔膜变形。20 mL样气进入12 mL瓶可形成约200 kPa绝对压力，书中报告此状态下周围空气污染速率约0.13%·d⁻¹。注射器不久置样气；高浓度样与低浓度样使用不同或经充分验证清洗的注射器，防止记忆污染。",
+      "(5) 用仅经历惰性气体N₂或He冲洗/处理、但不采现场样的瓶作过程空白；测O₂或CO₂等以评价制瓶、操作和保存污染。样瓶避免低温导致水汽凝结，也避免低压保存；保存温度不低于采样时可能出现凝结的温度，并置二次密闭容器内统一保存。",
+      "(6) 按气体选择分析：CO₂可用IRGA；酸吸收液中的NH₃可比色；CO₂、N₂O、CH₄和O₂常用GC。N₂O用ECD；CH₄用FID；CO₂若用FID必须先经甲烷化催化柱转为CH₄，O₂/CO₂也可用TCD。图65.1示例中CO₂约5 min、N₂O/CH₄约2 min，实际时间依柱、温度、流量和进样量。每批用可溯源标准建立校准并设过程空白/质控样，自动进样分析。"
+    ]},
+    {"type": "figure", "number": "65.1", "title": "测定空气中CO₂、O₂、N₂O和CH₄的气相色谱配置", "configurations": [
+      {"detector": "TCD", "sampleInjection": "5 mL注射器；10通阀，0.5 mL与2.0 mL定量环", "carrier": "He，45 mL·min⁻¹", "columns": ["Hayesep A 80/100，长3.6 m、外径3.175 mm", "分子筛5A 60/80，长1.5 m、外径3.175 mm，6通阀旁路"], "oven": "60 °C", "detectorTemperature": "120 °C", "retention": ["O₂：1.7 min", "CO₂：4.3 min"]},
+      {"detector": "FID", "sampleInjection": "与10通阀2.0 mL定量环相连", "carrier": "He，35 mL·min⁻¹", "columns": ["Hayesep A 80/100，长3.6 m、外径3.175 mm", "10%硝酸镍甲烷化催化柱，400 °C，4通阀旁路"], "oven": "60 °C", "detectorTemperature": "300 °C", "retention": ["CH₄：1.8 min", "甲烷化后的CO₂：4.3 min"]},
+      {"detector": "ECD", "sampleInjection": "4通阀，0.5 mL定量环", "carrier": "Ar/CH₄=95/5，14 mL·min⁻¹", "columns": ["Porapak Q 80/100，长1.75 m、外径3.175 mm"], "oven": "60 °C", "detectorTemperature": "390 °C", "retention": ["N₂O：1.5 min"]}
+    ]},
+    {"type": "source-fidelity-note", "text": "原书步骤(4)印成“抽满注射器（大约1 mL）…然后再注入20～24 mL空气”，与20 mL注射器、12 mL瓶和约200 kPa均矛盾。结合死体积清除逻辑及原作者体系的20 mL样气做法，校正为先弃约1 mL死体积气，再把20～24 mL气室样气注入抽空瓶；这里不是向样瓶另加环境空气。图中文字“Haupsep A”按实际GC填料名校正为Hayesep A。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1e192842dfc551fde7c68486cdbd8f51499bdd9616a137c71796ed6f42f17a27"
+}

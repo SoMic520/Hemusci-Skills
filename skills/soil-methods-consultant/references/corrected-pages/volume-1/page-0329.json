@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 329,
+  "sourceImageSha256": "448139a558d30b32955c40b0795d310f44062699e1787691bc61cda9d1103b7d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复采样注释（1）～（7）、图32.2及32.3.1高梯度动态提取开头"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验2.5～5 cm、5 cm、10 cm、3～5 kg、1 mm、5～10 ℃、6 ℃、4 ℃及3～4 cm"},
+    "secondVisualPass": {"status": "verified", "method": "从页末跨页句反向复核至注释标题，逐项核验图32.2五个标签、（a）（b）分图说明及正负相关表述；页码298"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "subsection-heading", "method": "32.2", "title": "注释"},
+    {"type": "note", "number": "（1）", "text": "土壤采样器的前沿应当保持尖锐，以防在切入土壤时将样品压实。"},
+    {"type": "note", "number": "（2）", "text": "避免样品压实，采样器的直径至少需要5 cm。"},
+    {"type": "note", "number": "（3）", "text": "土壤采样器的高度对动物群的逃出（土壤）能力有很大的影响。对大多数结构良好的土壤，2.5～5 cm的高度就能符合要求。对于大孔隙度较低的土壤样品，采样器高度最好为2.5 cm。"},
+    {"type": "figure", "number": "32.2", "title": "锤力驱动土壤去心采样器的横切面", "labels": ["（a）通风口", "（a）10 cm", "（a）样品环", "（b）手柄绳", "（b）3～5 kg的滑动锤"], "caption": "（a）含有采样支持环的采样钻头的扩展视图。刀刃的直径应当比内环的直径小1 mm以减少内环的摩擦。当土壤进入采样器时，空心轴手柄可排出气体。（b）整个采样表示为金属锤落在采样钻头上进而促使钻头切入土壤中的过程。从汽车轮胎侧边切下的橡胶圆盘会减弱锤的冲击。"},
+    {"type": "note", "number": "（4）", "text": "即使使用图32.2所示的采样工具，土壤也可能被压实。而为了避免压实，采样器的高度应该与它的直径相近。当采样深度超过10 cm时，土壤需要分层采样。"},
+    {"type": "note", "number": "（5）", "text": "如果使用图32.2所示的采样工具，可以尝试用细针将土柱分离。如果土壤中含有根系，可能需要用小刀将样品切成几段，但是小刀可能会弄脏样品，阻隔空隙。"},
+    {"type": "note", "number": "（6）", "text": "将土壤样品放置在塑料袋中，在袋上贴上标签标明样品的顶层。转移到箱子中，最好冷却到5～10 ℃。在运输过程，避免样品摇摆振动。"},
+    {"type": "note", "number": "（7）", "text": "实地采样之后最好尽快提取样品。Lakly和Crossley（2000）研究表明当保存在6 ℃时，提取出的动物群数量与时间呈现线性负相关关系。由于存在捕食、繁殖、蜕皮和死亡过程，保存条件可能会改变小型节肢动物的群落结构。"},
+    {"type": "section-heading", "level": 2, "number": "32.3", "title": "提取方法"},
+    {"type": "section-heading", "level": 3, "number": "32.3.1", "title": "高梯度动态提取"},
+    {"type": "paragraph", "id": "high-gradient-intro", "continuation": "page-0330", "text": "Berlese和Tullgren分别在1905年和1918年开创出通过干燥土壤驱赶小型节肢动物的方法（Murphy，1962a）。Macfadyen（1955）开发了第一个高梯度提取器，进而大幅度改良了这个方法。本章中的提取器（图32.3）适用于完整的土柱或者疏松的植物残体样品。类似的还有Crossley和Blair（1991）的提取器，它被选用在于其简单的结构和结合了之前Macfadyen（1955）设计的大部分优点（Merchant和Crossley，1970；Norton，1985b）。这个提取器最好在通风的房间操作，空气循环好，温度冷却到4 ℃。在此描述了一个单提取器模块。灯泡热源从上方干燥土壤或植物残体，促使动物群掉入下方的收集杯中。一些模块是按序操作，相互分离至少3～4 cm。这里的模块化设计只是作为一个示范，你可以用当地可用的材"},
+    {"type": "printed-page-number", "text": "298"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "332cf0337780fbe51324fa7682a11482bce6d44506a03e05d6c8498c49fb79c6"
+}

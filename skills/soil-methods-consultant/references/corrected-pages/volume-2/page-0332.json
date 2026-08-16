@@ -1,0 +1,93 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 332,
+  "sourceImageSha256": "26d19a9c7384cb9ad961120ea3f85c7add6e99a74c0871969694c9fd3a8b7115",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐项核对互协方差、互相关、交叉半方差、共离散系数及85.5开篇"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "逐式核对N(h)、求和上下限、y/z头尾均值与方差、平方根和变量对称关系"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "式(85.6a)～(85.9)括号、下标、负滞后及乘积结构二次反查；印刷页码841"
+    }
+  },
+  "blocks": [
+    {
+      "type": "cross-variation-definitions",
+      "items": [
+        "y(x_i)为变量y在数据对首端x_i的值，z(x_i+h)为变量z在末端x_i+h的值；N(h)为滞后h的数据对数。",
+        "互协方差通常不对称：C_yz(h)≠C_zy(h)；更一般地有C_yz(h)=C_zy(−h)。",
+        "互相关η_yz(h)以y首端方差与z末端方差几何均值对互协方差标准化。",
+        "交叉半方差衡量相同滞后h下变量y增量与变量z增量的共同变化，例如土壤渗透性与土壤含砂量。",
+        "交叉半方差在交换变量和反转滞后时对称：γ_yz(h)=γ_zy(h)，γ_yz(−h)=γ_yz(h)。",
+        "随滞后距增大，两个参数通常相关性减弱。交叉半方差经各自半方差的几何均值标准化可得共离散系数ξ_yz(h)。",
+        "Goovaerts和Chiang（1993）以共离散系数检验土壤矿化氮与其他土壤性质之间的尺度效应。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书式(85.8)第一项的右方括号缺失，使排印式看似只有z增量被乘。交叉半方差的定义应为两个变量增量之积，现已补成[y(x_k)−y(x_k+h)][z(x_k)−z(x_k+h)]。式(85.6)～(85.7)原排版的my、mz、σy、σz统一规范为m_{y,−h}、m_{z,+h}、σ²_{y,−h}、σ²_{z,+h}。"
+    },
+    {
+      "type": "heading",
+      "number": "85.5",
+      "title": "指示半方差函数",
+      "level": 2
+    },
+    {
+      "type": "overview",
+      "text": "分类变量可先按一个或多个阈值及比较规则（=、<、>、≤、≥等）转换为指示代码，再用代码而非原始数据计算指示半方差函数；编码形式由阈值数量和分配规则决定。单一“<”规则的定义续见下一页。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "85.6a",
+      "plain": "C_yz(h)=[1/N(h)]Σᵢ₌₁ᴺ⁽ʰ⁾{[y(x_i)−m_y,−h][z(x_i+h)−m_z,+h]}",
+      "latex": "C_{yz}(h)=\\frac{1}{N(h)}\\sum_{i=1}^{N(h)}\\left\\{\\left[y(x_i)-m_{y,-h}\\right]\\left[z(x_i+h)-m_{z,+h}\\right]\\right\\}"
+    },
+    {
+      "label": "85.6b",
+      "plain": "m_y,−h=[1/N(h)]Σᵢ₌₁ᴺ⁽ʰ⁾y(x_i)",
+      "latex": "m_{y,-h}=\\frac{1}{N(h)}\\sum_{i=1}^{N(h)}y(x_i)"
+    },
+    {
+      "label": "85.6c",
+      "plain": "m_z,+h=[1/N(h)]Σᵢ₌₁ᴺ⁽ʰ⁾z(x_i+h)",
+      "latex": "m_{z,+h}=\\frac{1}{N(h)}\\sum_{i=1}^{N(h)}z(x_i+h)"
+    },
+    {
+      "label": "85.7a",
+      "plain": "η_yz(h)=C_yz(h)/√(σ²_y,−h σ²_z,+h)",
+      "latex": "\\eta_{yz}(h)=\\frac{C_{yz}(h)}{\\sqrt{\\sigma_{y,-h}^{2}\\sigma_{z,+h}^{2}}}"
+    },
+    {
+      "label": "85.7b",
+      "plain": "σ²_y,−h=[1/N(h)]Σᵢ₌₁ᴺ⁽ʰ⁾[y(x_i)−m_y,−h]²",
+      "latex": "\\sigma_{y,-h}^{2}=\\frac{1}{N(h)}\\sum_{i=1}^{N(h)}\\left[y(x_i)-m_{y,-h}\\right]^2"
+    },
+    {
+      "label": "85.7c",
+      "plain": "σ²_z,+h=[1/N(h)]Σᵢ₌₁ᴺ⁽ʰ⁾[z(x_i+h)−m_z,+h]²",
+      "latex": "\\sigma_{z,+h}^{2}=\\frac{1}{N(h)}\\sum_{i=1}^{N(h)}\\left[z(x_i+h)-m_{z,+h}\\right]^2"
+    },
+    {
+      "label": "85.8",
+      "plain": "γ_yz(h)=[1/(2N(h))]Σₖ₌₁ᴺ⁽ʰ⁾[y(x_k)−y(x_k+h)][z(x_k)−z(x_k+h)]",
+      "latex": "\\gamma_{yz}(h)=\\frac{1}{2N(h)}\\sum_{k=1}^{N(h)}\\left[y(x_k)-y(x_k+h)\\right]\\left[z(x_k)-z(x_k+h)\\right]",
+      "corrected": true
+    },
+    {
+      "label": "85.9",
+      "plain": "ξ_yz(h)=γ_yz(h)/√[γ_y(h)γ_z(h)]",
+      "latex": "\\xi_{yz}(h)=\\frac{\\gamma_{yz}(h)}{\\sqrt{\\gamma_y(h)\\gamma_z(h)}}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "cb7749ec207871739bbcf1c556cc990e47e6bca85b33a311e386616b6589a3ae"
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 278,
+  "sourceImageSha256": "13a87e4f95e516c31e8b79afd6ab8db4b0566b8250846fda928c01079cd3a3f3",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第28章第247页，人工恢复28.4、28.4.1干/湿灰化与微波消解原理、28.4.2材料及28.4.3步骤（1）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核骎400℃、550～660℃、240℃、mol·L⁻¹、HCl、HNO₃、HF、HBF₄、H₂O₂、CO₂、HG-AFS、mg/mL、百分浓度及目数"},
+    "secondVisualPass": {"status": "verified", "method": "从页底步骤（1）反向复核至28.4标题，确认28.4→28.4.1→28.4.2→28.4.3层级、消解阶段顺序及印刷页码247"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第28章｜有机质土的化学特性｜"},
+    {"type": "heading", "level": 1, "number": "28.4", "title": "全量元素分析（除氮、碳、氧、氢外）"},
+    {"type": "heading", "level": 2, "number": "28.4.1", "title": "介绍"},
+    {"type": "principle", "text": "大多数测定有机质土壤全元素的方法都包括两个步骤，即采用不同的消化或氧化方法彻底破坏土壤基质中的有机和无机组分，使所有元素释放到溶液中；采用不同的技术测定可溶性元素。用于破坏有机物料（泥炭、植物体、沉积物和土壤）的化学方法基本上可以分为两类，即干灰化法和湿灰化（消解）法。"},
+    {"type": "dry-ashing-method", "text": "在干灰化过程中，将有机物料置于电控温的马弗炉中以低温（400℃）或中温（550～660℃）灼烧来氧化有机物质，并用1.5 mol·L⁻¹ HCl溶液（Ali等，1988）、6 mol·L⁻¹ HCl溶液（Kreshtapova等，2003）或2 mol/L HNO₃溶液（Day等，1979）进行酸处理以便提取灰分中的离子。干灰化后的样品也可以在加热板上加热，同时添加稀盐酸以便分解残留物，之后用浓氢氟酸破坏所有的硅酸盐（Papp和Harms，1985）。"},
+    {"type": "wet-digestion-method", "text": "湿灰化法是将土壤样品加入开放或封闭容器中，添加浓酸后进行加热，使有机物质完全分解，从而将待测组分转化为溶解态，随后对溶液中的离子进行测定。分解时可以用电热板、电热消解系统、压力消化系统。开放容器通常只用于电热消化法，而开放或密闭容器均可用于微波系统中。开放容器消化系统的弊端是挥发性元素会有较大的损失风险。微波消化是许多实验室常用的方法，该方法中重要的参数是微波能量功率设置（功率、时间和压力）、所用酸的体积和组合类型及酸与样品的比例。"},
+    {"type": "method-example", "text": "近来，人们研制出了一种用氢化物生成—原子荧光光谱法（HG-AFS）测定生物质、煤和富含有机沉积物样品中砷含量的新型湿消解方法（Chen等，2005）。该方法是在200 mg样品中加3 mL HNO₃（65%）+0.1 mL HBF₄（约50%），于微波灭菌锅中进行消解至温度升到240℃。消解后，在生成砷化氢之前，需要对消化物进行无HNO₃挥发的脱酸处理。"},
+    {"type": "method-summary", "text": "下述微波酸化消解法是对Papp和Harms（1985）、Weiss等（1999）和Morrell等（2003）所提出方法的修订与综合。该方法对样品采用微波加热，首先用HNO₃+H₂O₂混合液氧化有机质，再用HNO₃+HF混合液对所有残留的有机物质进行分解，以便彻底破坏泥炭和有机质土壤中的有机组分。在消解过程的第一个平缓阶段，有机组分和富碳基质的组分可以缓慢地转变为CO₂，以便避免发泡（Krachler等，2002）。"},
+    {"type": "heading", "level": 2, "number": "28.4.2", "title": "材料"},
+    {"type": "material-item", "number": "（1）", "text": "具有密闭容器的微波辅助样品消解系统。"},
+    {"type": "reagent-item", "number": "（2）", "text": "65%浓硝酸（痕量金属纯级）。"},
+    {"type": "reagent-item", "number": "（3）", "text": "30%过氧化氢溶液。"},
+    {"type": "reagent-item", "number": "（4）", "text": "根据仪器要求，选择40%或48%氢氟酸溶液。"},
+    {"type": "material-item", "number": "（5）", "text": "聚氟乙烯特氟龙容器。"},
+    {"type": "source-fidelity-note", "text": "原书印为‘聚氟乙烯特氟龙容器’。特氟龙在此通常指聚四氟乙烯（PTFE）；‘聚氟乙烯’不是该材料的规范化学名。原文与规范名同时索引。"},
+    {"type": "material-item", "number": "（6）", "text": "50 mL聚丙烯容量瓶。"},
+    {"type": "material-item", "number": "（7）", "text": "60 mL带螺旋盖的聚丙烯瓶。"},
+    {"type": "heading", "level": 2, "number": "28.4.3", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取250 mg风干、磨细过筛（100目筛）且已知含水量的土壤样品于60 mL带盖特氟龙消化管中。"},
+    {"type": "printed-page-number", "text": "247"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2cb756162e464b0164b8497457b7fd2ac5d452cfa9811d7117fc2a7221a55671"
+}

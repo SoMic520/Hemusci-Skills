@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 59,
+  "sourceImageSha256": "0aaaa11a2a4f7b47ce2186acf7045e6a857b9024cab6ca9d6f77112cfb7552c4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率计算续文、注释和参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部正文与英文著录"},
+    "precisionPass": {"status": "verified", "method": "放大核对SOC_FM、M_ex、D_cs、固定质量土层厚度公式、39.1/37.2/40.0 cm、n与n+1、0～20 cm、20～25 cm及全部文献卷页"},
+    "secondVisualPass": {"status": "verified", "method": "按样本计算续文、3.4.4三段注释、参考文献标题、逐条作者题名刊名卷页和印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "continuation": true, "text": "类似地，土芯2、3的SOC_FM分别为80.1和74.1 Mg C/ha。", "inlineNotation": ["SOC_FM", "80.1", "74.1 Mg C/ha"]},
+    {"type": "paragraph", "text": "那么，土芯1、2和3固定质量的土层厚度分别为40−M_ex/(D_cs×100)=39.1、37.2和40.0 cm。", "inlineNotation": ["40-M_ex/(D_cs×100)=39.1、37.2和40.0 cm"]},
+    {"type": "section-heading", "level": 4, "number": "3.4.4", "title": "注释"},
+    {"type": "paragraph", "text": "上述估算SOC存储量的方法适用于由生物过程（主要是土壤中碳元素输入和输出之间的平衡）而非地貌过程（土壤的侵蚀和沉积）引起的土壤SOC随时间变化的样点。基本假设是在采样时间内土壤质量基本保持不变。若不符合这种假设，在估算SOC随时间变化之前，就需要用其他方法来先估算出土壤横向的再分配或土壤的净输入或输出量。比如，在某些土壤质量发生相当大的增加或减少的区域（如废物的掺入或者土壤的流失），一些能够使取样达到固定土层深度的勘测技术可能适用（Chang等，2007）。", "inlineNotation": ["SOC"]},
+    {"type": "paragraph", "text": "用“固定质量”的方法计算SOC存储量时会产生许多变化。例如，在校正中（公式3.7）用n和n+1层的加权平均含量代替n层的SOC含量可能更为合适。或者，一些研究人员不是在校正中减去SOC，而是选择另一个参考质量，然后根据下面一层SOC的含量再“加上”合适的SOC量。无论何种情况下，这种方法都需要假定所采用的SOC含量值能够代表被添加或去除的土层。鉴于此，一些研究人员采用略深于目标深度的土芯段。比如，如果要估算0～20 cm土层的碳储量，那么，就需要一个20～25 cm深度的土芯段用于“固定深度”的计算。", "inlineNotation": ["SOC", "公式3.7", "n", "n+1", "0～20 cm", "20～25 cm"]},
+    {"type": "paragraph", "text": "无论比较是基于固定的土壤深度还是质量，对于土壤再分配、积累或输出的情况都是无关紧要的。在这几种情况下，要区分地貌过程（土壤再分配）与生物过程（植物碳元素输入和SOC减少）的影响作用几乎是不可能的。只有在极少数情况下（例如，具有持久而均匀的标志层土壤，如脆磐层），才能从常规土壤取样推断出土壤沉积或侵蚀。", "inlineNotation": ["SOC"]},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "bibliography-entry", "text": "Arnold, S.L. and Schepers, J.S. 2004. A simple roller-mill grinding procedure for plant and soil samples. Commun. Soil Sci. Plant Anal. 35: 537-545."},
+    {"type": "bibliography-entry", "text": "Boone, R.D., Grigal, D.F., Sollins, P., Ahrens, R.J., and Armstrong, D.E. 1999. Soil sampling, preparation, archiving, and quality control. In: G.P. Robertson, D.C. Coleman, C.S. Bledsoe, and P. Sollins, eds. Standard Soil Methods for Long- Term Ecological Research. Oxford University Press, New York, 3-28."},
+    {"type": "bibliography-entry", "text": "Bricklemyer, R.S., Miller, P.R., Paustian, K., Keck, T., Nielsen, G.A., and Antle, J.M. 2005. Soil organic carbon variability and sampling optimization in Montana dryland wheat fields. J. Soil Water Conserv. 60: 42-51."},
+    {"type": "bibliography-entry", "text": "Chang, C., Ellert, B., Hao, X., and Clayton, G. 2007. Elevation-based soil sampling to assess temporal changes in soil constituents. Soil Sci. Soc. Am. J. 71: 424-429."},
+    {"type": "bibliography-entry", "text": "Conant, R.T. and Paustian, K. 2002. Spatial variability of soil organic carbon in grasslands: implications for detecting change at different scales. Environ. Pollut. 116: S127-S135."},
+    {"type": "bibliography-entry", "text": "Conant, R.T., Smith, G.R., and Paustian, K. 2003. Spatial variability of soil carbon in forested and cultivated sites: implications for change detection. J. Environ. Qual. 32: 278-286."},
+    {"type": "bibliography-entry", "text": "Ellert, B.H. and Bettany, J.R. 1995. Calculation of organic matter and nutrients stored in soils under contrasting management regimes. Can. J. Soil Sci. 75: 529-538."},
+    {"type": "bibliography-entry", "text": "Ellert, B.H., Janzen, H.H., and Entz, T. 2002. Assessment of a method to measure temporal change in soil carbon storage. Soil Sci. Soc. Am. J. 66: 1687-1695."},
+    {"type": "bibliography-entry", "text": "Ellert, B.H., Janzen, H.H., and McConkey, B.G. 2001. Measuring and comparing soil carbon storage. In: R. Lal, J.M. Kimble, R.F. Follett, and B.A. Stewart, eds. Assessment Methods for Soil Carbon. Lewis Publishers, Boca Raton, FL, 131-146."},
+    {"type": "printed-page-number", "text": "28"}
+  ],
+  "formulas": [
+    {"context": "固定质量土层厚度", "displayAsPrinted": "40−M_ex/(D_cs×100)", "latexAsPrinted": "40-\\frac{M_{ex}}{D_{cs}\\times100}", "exampleResults": ["39.1 cm", "37.2 cm", "40.0 cm"]}
+  ],
+  "tables": [],
+  "contentSha256": "63692bd07f020f8f101186a5859ecf76a5cb4768789e7997e0f5cdfb52f55644"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 222,
+  "sourceImageSha256": "1d8e19cc241fd8adc215b22d28b1fb3f1595d01ae12cc944a8e4a9f8930364c2",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段对照原分辨率页图和两套OCR，完成第75章章题、75.1及75.2导言"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验K_s、[L·T⁻¹]、土芯直径/长度4—20 cm及两法量程10⁻⁵—10⁰和10⁻⁷—10⁻⁴ cm·s⁻¹"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "再次复核章节交叉引用、方法边界及所有指数和单位；印刷页码731"
+    }
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "number": "75",
+      "title": "饱和水力学特性：室内测定法",
+      "level": 1,
+      "author": "W.D. Reynolds",
+      "affiliation": "Agriculture and Agri-Food Canada, Harrow, Ontario, Canada"
+    },
+    {
+      "type": "heading",
+      "number": "75.1",
+      "title": "引言",
+      "level": 2
+    },
+    {
+      "type": "method-overview",
+      "text": "饱和导水率K_s [L·T⁻¹]是实验室测定中最重要的饱和水力学参数。室内法在田间取得的原状或扰动多孔介质样品上测定；田间/原位法则直接在田间测定。室内法可严格控制水流边界、流场、温度、压力及水化学，并可由达西定律直接计算K_s，也便于快速、经济地处理大量样品及在同一样品上测定土壤水分特征曲线。主要局限是小样品代表性不足、水力连接丧失、施加的一维流场可能不符合原位各向异性，以及取样振动、结构崩塌和摩擦压实造成扰动。"
+    },
+    {
+      "type": "method-map",
+      "items": [
+        "75.2：定水头土芯法。",
+        "75.3：降水头土芯法。",
+        "75.4：结构体法和整块土壤法。",
+        "第76—79章：原位/田间测定法。",
+        "第84章：由其他多孔介质特性估算K_s。",
+        "第69章：相关原理和参数。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "75.2",
+      "title": "定水头土芯法",
+      "level": 2
+    },
+    {
+      "type": "method-principle",
+      "text": "将土芯湿润至饱和，使水在恒定水头梯度下以稳定速率穿过土芯。截面可为任意形状，但直径4—20 cm、长4—20 cm的圆柱土芯最实用；推荐矩形导水率水槽以提高批量处理效率。定水头法与75.3降水头法共用部分装置和步骤。"
+    },
+    {
+      "type": "measurement-range",
+      "items": [
+        "定水头土芯法：K_s约10⁻⁵—10⁰ cm·s⁻¹。",
+        "降水头土芯法：K_s约10⁻⁷—10⁻⁴ cm·s⁻¹。"
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "937f08075050c80319473694076c06174d439805044c812556377fe048f4d0b7"
+}

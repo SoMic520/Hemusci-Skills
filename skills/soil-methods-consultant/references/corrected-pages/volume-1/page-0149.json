@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 149,
+  "sourceImageSha256": "c87577e36d6cfe83f17c083c38b709ef6626738df90ef2c3e3f623661c47a22e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐行对照原分辨率参考文献终页，并与Apple Vision、PaddleOCR交叉比对，人工合并Sharpley至van der Zee全部条目及译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验SERA—IEG、CFR/EPA编号、完整CAFO网址、USGS原书http: ==写法、21st、卷页、机构名和S.E.A.T.M.缩写"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至Sharpley 2000，确认phosphorusin连写、Sediment- nutrient空格、EPA等号编号和页码118"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-entry", "text": "Sharpley, A.N. and Tunney, H. 2000. Phosphorus research strategies to meet agricultural and environmental challenges of the 21st century. J. Environ. Qual. 29: 176-181."},
+    {"type": "reference-entry", "text": "Sharpley, A.N., Weld, J.L., Beegle, D.B., Kleinman, P.J.A., Gburek, W.J., Moore, P.A., and Mullins, G. 2003. Development of phosphorus indices for nutrient management planning strategies in the U.S. J. Soil Water Conserv. 58: 137-152."},
+    {"type": "reference-entry", "text": "Sibbesen, E. and Sharpley, A.N. 1997. Setting and justifying upper critical limits for phosphorusin soils. In: H. Tunney et al., eds. Phosphorus Loss from Soil to Water. CAB International, Wallingford, England, 151-176."},
+    {"type": "reference-entry", "text": "Simard, R.R., Beauchemin, S., and Haygarth, P.M. 2000. Potential for preferential pathways of phosphorus transport. J. Environ. Qual. 29: 97-105."},
+    {"type": "reference-entry", "text": "Simard, R.R., Cluis, D., Gangbazo, G., and Pesant, A. 1994. Phosphorus sorption and desorption indices for soils. Commun. Soil Sci. Plant Anal. 25: 1483-1494."},
+    {"type": "reference-entry", "text": "Sims, J.T. 2000. A phosphorus sorption index. In: G.M. Pierzynski, ed. Methods of Phosphorus Analysis for Soil, Sediments, Residuals, and Waters. Southern Regional Extension and Research Activity—Information Exchange Group (SERA—IEG) 17. North Carolina State University Press, Raleigh, NC, 22-23."},
+    {"type": "reference-entry", "text": "Sims, J.T., Joern, B.C., and Simard, R.R. 1998. Phosphorus losses in agricultural drainage: historical perspective and current research. J. Environ. Qual. 27: 277-293."},
+    {"type": "reference-entry", "text": "Smith, S.J., Sharpley, A.N., Williams, J.R., Berg, W.A., and Coleman, G.A. 1991. Sediment- nutrient transport during severe storms. In: S.S. Fan and Y.H. Kuo, eds. Fifth Interagency Sedimentation Conference, March 1991, Las Vegas, NV. Federal Energy Regulatory Commission, Washington, DC, 48-55."},
+    {"type": "reference-entry", "text": "Stout, W.L., Sharpley, A.N., and Pionke, H.B. 1998. Reducing soil phosphorus solubility with coal combustion by-products. J. Environ. Qual. 27: 111-118."},
+    {"type": "reference-entry", "text": "Syers, J.K., Harris, R.F., and Armstrong, D.E. 1973. Phosphate chemistry in lake sediments. J. Environ. Qual. 2: 1-14."},
+    {"type": "reference-entry", "text": "Torbert, H.A., Daniel, T.C., Lemunyon, J.L., and Jones, R.M. 2002. Relationship of soil test phosphorus and sampling depth to runoff phosphorus in calcareous and noncalcareous soils. J. Environ. Qual. 31: 1380-1387."},
+    {"type": "reference-entry", "text": "U.S. Environmental Protection Agency. 1993. The Standards for the Use or Disposal of Sewage Sludge. Final Rules. 40 CFR Parts 257, 402, and 503. EPA 822=Z-93=001. Fed. Regist. 58: 9248-9404."},
+    {"type": "reference-entry", "text": "U.S. Environmental Protection Agency. 2004. Managing Manure Nutrients at Concentrated Animal Feeding Operations. EPA-821-B-04-006. U.S. Environmental Protection Agency, Office of Water (4303T), Washington, DC. Available online at: http://www.epa.gov/guide/cafo/ (last verified November 10, 2004)."},
+    {"type": "reference-entry", "text": "U.S. Geological Survey. 1999. The Quality of Our Nation's Waters: Nutrients and Pesticides. U.S. Geological Survey Circular 1225, 82. USGS Information Services, Denver, CO. Available at: http: ==www.usgs.gov."},
+    {"type": "reference-entry", "text": "Vadas, P.A., Kleinman, P.J.A., and Sharpley, A.N. 2005. Relating soil phosphorus to dissolved phosphorus in runoff: a single extraction coefficient for water quality modeling. J. Environ. Qual. 34: 572-580."},
+    {"type": "reference-entry", "text": "van der Zee, S.E.A.T.M. and van Riemsdijk, W.H. 1988. Model for long-term phosphate reactions in soil. J. Environ. Qual. 17: 35-41."},
+    {"type": "translator-credit", "text": "（马杰 译，李永涛 翁莉萍 校）"},
+    {"type": "printed-page-number", "text": "118"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "301ecc1562fea46e7d48d084fea176897aa7675f221557d58a481fdbfafd16ea"
+}

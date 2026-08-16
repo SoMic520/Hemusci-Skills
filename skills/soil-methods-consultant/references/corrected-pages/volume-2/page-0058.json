@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 58,
+  "sourceImageSha256": "7db0f6e63d68083e4230f12af0a37e88b4d9e2e80e8b02425c2d02f6606af8d7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成第59章题名、作者单位、59.1全文及跨页结尾"},
+    "precisionPass": {"status": "verified", "method": "核验SL/VCL、σ_p/C_c/C_s、应力与形变术语、容重/孔隙度关系及作者Défossez拼写"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页句反向复核至章题，逐项检查符号上下标、压缩/压实/再压缩概念和层级；印刷页码567"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "59", "title": "压实和压缩性"},
+    {"type": "authors", "items": ["Pauline Défossez；French National Institute for Agricultural Research，Laon, France", "Thomas Keller；Swedish University of Agricultural Sciences，Uppsala, Sweden", "Guy Richard；French National Institute for Agricultural Research，Olivet, France"]},
+    {"type": "heading", "number": "59.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "农业和林业机械碾压是农林土壤压实的主要原因。机械作业负载超过土壤可承受的最大应力（机械强度）即会压实。压实（亦称压缩）是给定质量土壤体积减小；空气和水部分排出使孔隙体积、孔隙度减小，容重增大。压实还改变孔隙形态和连通性，因而改变土壤结构及水、气运输性质；压实过程也显著受剪切影响。"},
+    {"type": "paragraph", "text": "压实程度取决于：①土表作用力、轮胎或履带接触面积及土壤状况；接触面积受负载、轮胎类型与尺寸、充气压力及履带特性影响。②土壤机械强度，即抵抗体积减小的能力；受质地、有机质、结构、容重和水分状况影响。给定质地时主要受含水量和容重控制，通常含水量降低或容重增加都会提高强度。"},
+    {"type": "paragraph", "text": "压缩性可由室内或田间压缩试验测得，常以施加压力的对数与应变、孔隙比、体积或容重等压实状态参数之间的关系表示，称压缩曲线。典型曲线有两个区段：低应力下的膨胀线SL（亦称再压缩线）和高应力下的原始压缩线VCL；两线由预压应力σ_p（亦称固结压力或预负荷）分开。"},
+    {"type": "paragraph", "text": "再压缩区主要发生弹性变形，原始压缩区主要发生塑性变形。σ_p常用于评价承载能力，即农机通过而不引起进一步压实的近似最大压力。SL斜率为膨胀/再压缩指数C_s，VCL斜率为压缩指数C_c。因此压缩性由σ_p、C_c和C_s三个参数表征，土壤压实模型也常以它们为输入（Défossez and Richard，2002）。室内与田间试验可测应力—形变关系以求这些参数。"},
+    {"type": "paragraph-continuation", "text": "本章为表征土壤压缩性，将介绍……"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "52df7ea7419027a679de52b4cfbab859083b076b8b00a41d1898b003f73f6b43"
+}

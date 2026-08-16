@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 182,
+  "sourceImageSha256": "214d31551561e8bfd44d67c3f8b5a869fdd28c41dcdbb6e16d5daa85ad48ff8f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步骤逐式对照原分辨率页图和两套OCR，完成70.4.2空中、FO、WARR/CMP及反射波方法起句"},
+    "precisionPass": {"status": "verified", "method": "核验1 m、≥10 MHz、t_ab/t_gw/t₀、7个0.5—2.0 m、1.5—2 m和5%阈值"},
+    "secondVisualPass": {"status": "verified", "method": "由反射界面跨页句反向复核四类方法的步骤和式(70.4)下标；印刷页码691"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "70.4.2", "title": "步骤", "level": 3},
+    {"type": "procedure", "name": "空中发射地表反射率GPR", "steps": ["在离地1 m处放置发射器和接收器；系统频率至少10 MHz，以减小地面电导率对电器电流的影响。", "在天线下放置大于测定面积的金属板，测全反射最大振幅A_m。", "测土壤A_r，用式(70.3)求ε_r，再用式(70.2)或土壤专属校准求θ_v。"]},
+    {"type": "procedure", "name": "地表GPR：直接地面波、固定偏移FO", "steps": ["先用WARR标定时间零点t₀并选择使地面波与反射波清晰分离的最佳偏移。绝对到达时间t_ab=t_gw−t₀；建议7个偏移量，0.5—2.0 m。", "固定最佳偏移，推荐1.5—2 m，进行FO勘测；可与GPS结合。", "以地面波前沿（如5%阈值）截取到达时间。", "用固定偏移/传播时间求波速，再按纠正后的式(70.1)求ε_r，最后用式(70.2)或专属校准求含水量。"]},
+    {"type": "procedure", "name": "地表GPR：直接地面波、多偏移WARR或CMP", "steps": ["完成WARR或CMP测量。", "选取每个偏移量下地面波峰值振幅的传播时间。", "用峰值到达时间—偏移距离关系斜率求地面波速度。", "按FO步骤4换算ε_r与θ_v。"], "note": "该法不依赖t₀的精确值或波前沿选取。"},
+    {"type": "paragraph", "text": "反射地面波方法可用单偏移或多偏移。单偏移需已知地下反射面深度；多偏移只需存在可识别反射层，如地下水位、岩性边界或埋藏物，续见下页。"},
+    {"type": "source-fidelity-note", "text": "书中步骤4引用式(70.1)时必须使用本语料已纠正的完整传播公式，不能沿用原书缺2L版本。t_ab、t_gw和t₀为时间量，下标均按页图恢复。"}
+  ],
+  "formulas": [
+    {"label": "70.4", "plain": "t_ab = t_gw - t₀", "latex": "t_{ab}=t_{gw}-t_0", "resultUnit": "s"}
+  ],
+  "tables": [],
+  "contentSha256": "08e733ad6ab62e0d11c2924cc5535df0107b593767a948d68870331e510bc0d3"
+}

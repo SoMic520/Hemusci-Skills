@@ -1,0 +1,73 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 321,
+  "sourceImageSha256": "e9e62d89a288eb5442817eca025d65605c43f2a239112f75aadfdecc082f839f",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对84.5两条注释及本页14条参考文献"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对K—θ—ψ符号、作者缩写、年份、题名、卷号和页码"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "消除原版断词并逐行二次反查参考文献；印刷页码830"
+    }
+  },
+  "blocks": [
+    {
+      "type": "continuation",
+      "section": "84.4 计算",
+      "text": "本例中不同估算方法所得参数接近（见表84.7），但在其他情况下可能有实质差异。"
+    },
+    {
+      "type": "heading",
+      "number": "84.5",
+      "title": "注释",
+      "level": 2
+    },
+    {
+      "type": "numbered-notes",
+      "items": [
+        {
+          "number": 1,
+          "text": "用RETC非线性最小二乘拟合van Genuchten K—θ—ψ模型，通常可最精确地拟合数据（见图84.3），因而广泛采用；但该系统并非始终适用，不能用时其他模型和拟合方法也可能得到很好或可接受的结果。"
+        },
+        {
+          "number": 2,
+          "text": "用替代数据法估计K—θ—ψ关系始终有风险，应仅在数据不足时选用。本章方法主要基于北美和澳大利亚土壤，所得关系只能作参考（图84.4）。其重要价值是在没有其他选择时为水—溶质运移模型提供水力学参数。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "参考文献",
+      "level": 2
+    },
+    {
+      "type": "references",
+      "entries": [
+        "Addiscott, T.M. 1993. Simulation modelling and soil behaviour. Geoderma 60: 15–40.",
+        "British Standards Institution. 1984. Methods for determination of particle size distribution, Part 2—Recommendations for gravitational liquid sedimentation methods for powders and suspensions. BSI, London.",
+        "Brooks, R.H. and Corey, A.T. 1964. Hydraulic properties of porous media. Hydrology Paper 3, Civil Engineering Department, Colorado State University, Fort Collins, CO.",
+        "Brooks, R.H. and Corey, A.T. 1966. Properties of porous media affecting fluid flow. J. Irrig. Drainage Div. 92: 61–88.",
+        "Bruce, R.R. 1972. Hydraulic conductivity evaluation of the soil profile from soil water retention relations. Soil Sci. Soc. Am. J. 36: 555–561.",
+        "Campbell, G.S. 1974. A simple method for determining unsaturated hydraulic conductivity from moisture retention data. Soil Sci. 117: 311–314.",
+        "Cook, F.J., Dobos, S.K., Carlin, G.D., and Millar, G.E. 2004. Oxidation rate of pyrite in acid sulfate soils: In situ measurements and modelling. Aust. J. Soil Res. 42: 499–507.",
+        "Cresswell, H.P. and Paydar, Z. 1996. Water retention in Australian soils. I. Description and prediction using parametric functions. Aust. J. Soil Res. 34: 195–212.",
+        "Griffiths, E., Webb, T.H., Watt, J.P.C., and Singleton, P.L. 1999. Development of soil morphological descriptors to improve field estimation of hydraulic conductivity. Aust. J. Soil Res. 37: 971–982.",
+        "Hutson, J.L. and Cass, A. 1987. A retentivity function for use in soil water simulation models. J. Soil Sci. 38: 105–113.",
+        "Isbell, R.F. 1996. The Australian Soil Classification. CSIRO Publishing, Collingwood, Victoria, Australia.",
+        "Leij, F.J., Alves, W.J., van Genuchten, M.Th., and Williams, J.R. 1999. The UNSODA unsaturated soil hydraulic conductivity database. Users Manual Version 1. USEPA, EPA/600/R-96/095.",
+        "McKeague, J.A., Eilers, R.G., Thomasson, A.J., Reeve, M.J., Bouma, J., Grossman, R.B., Favrot, J.C., Renger, M., and Strebel, O. 1984. Tentative assessment of soil survey approaches to the characterisation and interpretation of air-water properties of soils. Geoderma 34: 69–100.",
+        "McKenzie, N.J. and Cresswell, H.P. 2002. Estimating soil physical properties using readily available data. In: N.J. McKenzie, K.I. Coughlan, and H.P. Cresswell, eds., Soil Physical Measurement and Interpretation for Land Evaluation. CSIRO Publishing, Melbourne, Victoria, Australia, 292–316."
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "7988094f1a8870912f2bfccf55cf9d58af0bbe3adc78ce3646283dc935dfd37d"
+}

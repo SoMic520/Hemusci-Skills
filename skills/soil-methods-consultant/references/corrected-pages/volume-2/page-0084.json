@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 84,
+  "sourceImageSha256": "d93feadb04a6a2d220b191a643c77957f0bbb9068356bff4192faaa49e45b914",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Moldrup跨页条目、其余5条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验题名、作者附加符号、年份、卷页和译校署名；规范Schjønning与Water Resources Research"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至跨页predictive model；印刷页码593"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Moldrup, P., Yoshikawa, S., Olesen, T., Komatsu, T., and Rolston, D.E. 2003. Air permeability in undisturbed volcanic ash soils: predictive model test and soil structure fingerprint. Soil Sci. Soc. Am. J. 67:32–40.",
+      "Poulsen, T.G., Iversen, B.V., Yamaguchi, T., Moldrup, P., and Schjønning, P. 2001. Spatial and temporal dynamics of air permeability in a constructed field. Soil Sci. 166:153–162.",
+      "Reeve, R.C. 1953. A method for determining the stability of soil structure based upon air and water permeability measurements. Soil Sci. Soc. Am. Proc. 17:324–329.",
+      "Tanner, C.B. and Wengel, R.W. 1957. An air permeameter for field and laboratory use. Soil Sci. Soc. Am. Proc. 21:663–664.",
+      "Tartakovsky, D.M., Moulton, J.D., and Zlotnik, V.A. 2000. Kinematic structure of mini-permeameter flow. Water Resour. Res. 36:2433–2442.",
+      "van Groenewoud, H. 1968. Methods and apparatus for measuring air permeability of the soil. Soil Sci. 106:275–279."
+    ]},
+    {"type": "credits", "text": "苏志慧、王雅婧译，任图生校。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e1b23a1dbf09fcd03ca070eca5c543f28edfac3c48ad049e445d7fe0d1ad2c63"
+}

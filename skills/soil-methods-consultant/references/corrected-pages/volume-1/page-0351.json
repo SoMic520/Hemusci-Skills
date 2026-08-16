@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 351,
+  "sourceImageSha256": "4ebde4c4ab290e9137b7f2e80acf2c2f655b1effd8f51a632477691f7971b5a7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版34.4.1材料（4）～（11）和步骤1～2交叉比对"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验0.6 m×0.6 m、0.25 m²、10 cm、90 cm、≥10 L、≥7 L、150～200 L、20 L、15 cm、53 g、50/150 mL、3 h、500 mL、125～150 mL和200～250 mL"},
+    "secondVisualPass": {"status": "verified", "method": "从页末采样框渗漏控制反向复核至材料（4）续文，重点复算70%乙醇配制式并矫正线标志/气动切边机/3-异硫氰基丙烯等误译；页码320"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第34章｜蚓蚓｜"},
+    {"type": "material-continuation", "continuationOf": "page-0350#material-4", "text": "还需纸巾、箱子或塑料容器，用于使广口瓶保持直立并防止破碎；另需带冰袋的大型保冷箱。"},
+    {"type": "material", "number": "（5）", "text": "0.6 m×0.6 m采样框：用约10 cm高的木板或金属板制成，转角处铰接，不用时可放平。可按研究需要使用其他采样面积（如0.25 m²）。采样框底边可制成斜面或削尖，便于插入土壤。大型采样且有多名野外人员时，建议准备10～15个采样框，便于多人同时工作。"},
+    {"type": "material", "number": "（6）", "text": "铁铲；野外标志旗（90 cm金属线旗杆）；用于清除松散地表凋落物或作物残体的草坪落叶耙；用于把草地采样点（草皮）修剪至近土表、使驱避液易于下渗的绿篱修剪机、大剪或燃油动力切边机。"},
+    {"type": "source-fidelity-note", "scope": "34.4.1材料（6）", "text": "中文本的“90 cm线标志”和“气动切边机”分别对应英文wire flags和gas-powered edge trimmer；已矫正为金属线旗杆和燃油动力切边机。"},
+    {"type": "material", "number": "（7）", "text": "容量不小于10 L、以升标示体积刻度的家用塑料桶或提桶。"},
+    {"type": "material", "number": "（8）", "text": "容量不小于7 L、带喷洒头的塑料园艺喷壶，以及与喷壶口匹配的大型塑料漏斗。大型野外监测项目建议准备5～10个喷壶，以便采样时同时混合多份悬液。喷头孔径应足以让磨碎的芥末籽残渣通过而不堵塞。"},
+    {"type": "material", "number": "（9）", "text": "150～200 L塑料水箱，或若干20 L塑料水容器。"},
+    {"type": "material", "number": "（10）", "text": "15 cm长的土壤温度计，或电子温度探头。"},
+    {"type": "material", "number": "（11）", "text": "70%（V/V）乙醇。如以95%（V/V）乙醇配制100.0 mL，量取73.68 mL 95%乙醇，用蒸馏水定容至100.0 mL；不要直接把30 mL水加到70 mL 95%乙醇中当作70%乙醇。"},
+    {"type": "source-fidelity-note", "scope": "34.4.1材料（11）", "text": "原书及英文原版均写“向70 mL 95%乙醇中加30 mL水”，但其含纯乙醇66.5 mL，按名义总体积100 mL仅为66.5%（V/V），且乙醇-水混合有体积收缩。本Skill按C₁V₁=C₂V₂改为73.68 mL并定容至100.0 mL。"},
+    {"type": "subsection-heading", "method": "34.4.1", "number": "2", "title": "步骤"},
+    {"type": "procedure-stage", "number": "1）", "title": "野外采样前准备"},
+    {"type": "procedure-step", "stage": "1）", "number": "（1）", "text": "称取53 g辛辣芥末粉装入有防漏盖的塑料容器。佩戴防护手套、实验服和防尘面罩。芥末辛辣成分与异硫氰酸烯丙酯类化合物有关，可刺激呼吸道并引起流泪；在通风橱或通风操作台处理。"},
+    {"type": "source-fidelity-note", "scope": "34.4.1步骤1（1）", "text": "中文本将allyl-isothiocyanate compounds译作“3-异硫氰基丙烯”；本Skill恢复为异硫氰酸烯丙酯类化合物，与后文明确的异硫氰酸烯丙酯（AITC）一致。"},
+    {"type": "procedure-step", "stage": "1）", "number": "（2）", "text": "在出发采样前1 d（至少3 h），于通风橱或通风操作台打开装53 g干辛辣芥末粉的容器。边持续搅拌边每次缓慢加50 mL水，累计加水150 mL；用勺、药匙或搅拌器混成光滑稠糊且可倾倒的糊状物。盖回容器，静置至少3 h以形成“辛辣性”。"},
+    {"type": "procedure-step", "stage": "1）", "number": "（3）", "text": "根据是否把蚓蚓从野外运回实验室，选用相应的玻璃瓶或塑料容器。用铅笔手写或计算机打印现场信息标签；激光打印标签溶剂泼洒后仍可读，喷墨标签可能不可读。"},
+    {"type": "procedure-step", "stage": "1）", "number": "（4）", "text": "如需带回实验室保存以便鉴定，使用500 mL玻璃瓶，加125～150 mL 70%乙醇；预计蚓蚓数量很多时，加200～250 mL 70%乙醇，使蚓蚓完全浸没，以维持标本完整。将瓶置于箱子或塑料桶中运输。"},
+    {"type": "procedure-step", "stage": "1）", "number": "（5）", "text": "如准备把蚓蚓活体送回野外，不使用玻璃瓶或乙醇。在广口塑料容器底部放水浸湿的纸巾，加带小孔的盖，使蚓蚓排出的氨气散出而蚓蚓不能逃逸；用保冷箱运输。"},
+    {"type": "procedure-stage", "number": "2）", "title": "野外采样点准备"},
+    {"type": "procedure-step", "stage": "2）", "number": "（1）", "text": "按试验设计或研究需要选择采样区，用编号标志旗确认采样位置。"},
+    {"type": "procedure-step", "stage": "2）", "number": "（2）", "text": "用耙子轻轻拨去采样区地表残体。在厚草皮上采样时，用绿篱修剪机或燃油动力切边机把草剪至近土表，以利观察蚓蚓出土。"},
+    {"type": "procedure-step", "stage": "2）", "number": "（3）", "text": "在每个已准备采样区的土表展开木制或金属采样框；可行时用铁铲把土壤压实在框底周围，防止芥末悬液从框下泄漏。每个采样点旁放一个收集蚓蚓的容器。若为维持土壤不受扰动或因草皮条件而不能培土封框，可每次少量施加芥末液，待其渗入土中后再加下一份，以控制框下泄漏。"},
+    {"type": "printed-page-number", "text": "320"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "7e331860dd5537c7bfad6fc38e7499f32b3d620b142acc3a4b3df329650954f5"
+}

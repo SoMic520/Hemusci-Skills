@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 525,
+  "sourceImageSha256": "9a899ff35465b02a23fcb4d2667a7e1effb6b725679a7e18c9beae67e938fe12",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成52.2、52.3、52.3.1及52.3.2步骤（1）～（6）"},
+    "precisionPass": {"status": "verified", "method": "核验0～5/5～15 cm、2 mm、0.1/0.5 mol·L⁻¹ NaOH、0.1 mol·L⁻¹ Na₄P₂O₇、40 mL HCl/1 L、20.0 g NaOH/1 L、pH 13.5、15 g、150 mL、1/18 h、9 000×g、15 min和60 rpm"},
+    "secondVisualPass": {"status": "verified", "method": "由步骤（6）反向复核至52.2，检查‘非腐殖物质’漏字、O₂-free N₂顶空、离心单位和印刷页码494"}
+  },
+  "blocks": [
+    {"type": "section-heading", "level": 2, "number": "52.2", "title": "样品的采集与制备"},
+    {"type": "paragraph", "text": "采样首先控制腐殖物质与非腐殖物质的操作性分离。钻取前清除土表明显植物残体；宜用已知体积取样器以便计算容重。因土壤变异和提取复杂，通常把多个土芯充分混合作为复合样；可按0～5 cm、5～15 cm等层次评价管理差异，也应按土壤学发生层分层，或按明确的耕层深度采集。"},
+    {"type": "source-fidelity-note", "scope": "52.2首句", "text": "OCR易把‘腐殖物质与非腐殖物质’漏识成两个相同词；原页第二项明确有‘非’，已恢复。"},
+    {"type": "paragraph", "text": "样品在无尘空间风干，轻轻研碎并过2 mm筛；此处应去除可见根和其他植物残体。另取代表性子样细磨，测有机C或N。提取通常需要较大量的<2 mm样品。"},
+    {"type": "section-heading", "level": 2, "number": "52.3", "title": "碱提取法"},
+    {"type": "paragraph", "text": "常用提取剂包括0.1 mol·L⁻¹ NaOH、0.5 mol·L⁻¹ NaOH和0.1 mol·L⁻¹ NaOH-0.1 mol·L⁻¹ Na₄P₂O₇；本法采用0.5 mol·L⁻¹ NaOH。"},
+    {"type": "section-heading", "level": 3, "number": "52.3.1", "title": "试剂"},
+    {"type": "materials-list", "items": [
+      {"number": "（1）", "text": "0.5 mol·L⁻¹ HCl：在通风橱将40 mL浓HCl缓慢加入去离子水并持续搅拌；冷却至室温后定容至1 000 mL。用于NaOH提取前预处理，去除漂浮植物碎屑及无机态C、N、P、S。"},
+      {"number": "（2）", "text": "0.5 mol·L⁻¹ NaOH：20.0 g NaOH溶于去离子水并定容至1 000 mL，pH约13.5；现配现用，密闭防吸收CO₂。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "52.3.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称15 g风干土（<2 mm），置可承受9 000×g的250 mL塑料离心管。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加150 mL 0.5 mol·L⁻¹ HCl，静置1 h并间歇搅拌；9 000×g离心15 min，弃上清。"},
+    {"type": "procedure-step", "number": "（3）", "text": "加150 mL去离子水洗去残留HCl，混匀后9 000×g离心15 min，弃上清。"},
+    {"type": "procedure-step", "number": "（4）～（5）", "text": "加150 mL新配0.5 mol·L⁻¹ NaOH，以无O₂ N₂充满管顶空间，立即拧紧；往复式振荡18 h（60 rpm）。"},
+    {"type": "procedure-step", "number": "（6）", "text": "9 000×g离心15 min，分开NaOH提取液与土壤残渣。小心把上清倒入洁净离心管，用于分离HA和FA；残渣为胡敏素操作性组分，可弃去或留作52.4分析。"},
+    {"type": "safety-note", "text": "浓HCl配制须酸入水；NaOH提取液强碱且必须密闭隔绝CO₂。离心前确认250 mL管及转子额定相对离心力≥9 000×g并配平。"}
+  ],
+  "formulas": [
+    {"id": "52.3.1-naoh", "display": "c(NaOH) = (20.0 g/40.00 g·mol⁻¹)/1.000 L = 0.500 mol·L⁻¹", "meaning": "碱提取液配方复核"},
+    {"id": "52.3.2-soil-solution", "display": "soil:extractant = 15 g:150 mL = 1:10 (g:mL)", "meaning": "HCl预处理与NaOH提取均采用1:10土液比"}
+  ],
+  "tables": [],
+  "contentSha256": "166deea3b12d860a6b5f1f46b46d654642bce715e9e26bacd991b55fea41bcce"
+}

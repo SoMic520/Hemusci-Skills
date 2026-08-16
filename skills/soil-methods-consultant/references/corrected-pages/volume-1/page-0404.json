@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 404,
+  "sourceImageSha256": "cf981353c8ca1fae5de082887de84586e1b7a1eb268ee1a8bdfa7773214cd059",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR、英文原版38.6.3（5）～（7）及本页参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验5%、−33 kPa、100 g、15～30 μm、28 d、¹⁵N、作者、年份、卷页及Nitrospira-like；纠正Specific inhibition"},
+    "secondVisualPass": {"status": "verified", "method": "从deCatanzaro条反向复核至注释（5）承上句，逐条检查参考文献拼写和换行断词；印刷页码373"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第38章｜土壤硝化测定技术"},
+    {"type": "note-item-continuation", "number": "（5）", "text": "（承第403页）此类条件下金属筒造成的影响更大。"},
+    {"type": "note-item", "number": "（6）", "text": "穿孔土芯可使水分波动更接近周围环境。Adams等（1989）发现，穿孔土芯含水量与周围土壤相差不超过5%；但土芯任何失水或得水也会改变其中NO₃⁻浓度，给净硝化速率带来误差。"},
+    {"type": "note-item", "number": "（7）", "text": "研究浅表土、石块很多或土壤缺乏结构时，宜采用把扰动混合土装入聚乙烯袋埋藏的原始方法，而非完整土芯（Eno，1960；Adams等，1989；Pajuste和Frey，2003）。若采样时土壤很干或很湿，可比较不同水分培养，或把混合土调至田间持水量（基质势−33 kPa）等标准值。称100 g田间湿土，封入厚15～30 μm聚乙烯袋（Gordon等，1987），埋回原孔，28 d后取出并按前法处理。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference", "text": "Adams, M.A. and Attiwill, M.P. 1986. Nutrient cycling and nitrogen mineralization in eucalypt forests of south-eastern Australia. Plant Soil 92: 341–362."},
+    {"type": "reference", "text": "Adams, M.A., Polglase, P.J., Attiwill, M.P., and Weston, C.J. 1989. In situ studies on nitrogen mineralization and uptake in forest soils: Some comments on methodology. Soil Biol. Biochem. 21: 423–429."},
+    {"type": "reference", "text": "Bartosch, S., Hartwig, C., Spieck, E., and Bock, E. 2002. Immunological detection of Nitrospira-like bacteria in various soils. Microb. Ecol. 43: 26–33."},
+    {"type": "reference", "text": "Belser, L.W. and Mays, E.L. 1980. Specific inhibition of nitrite oxidation by chlorate and its use in assessing nitrification in soils and sediments. Appl. Environ. Microbiol. 39: 505–510."},
+    {"type": "source-fidelity-note", "scope": "Belser和Mays参考文献", "text": "中译本随英文原书误印题名Specific incubation；该论文正式题名为Specific inhibition of nitrite oxidation by chlorate and its use in assessing nitrification in soils and sediments，正文已据正式书目纠正。"},
+    {"type": "reference", "text": "Bergstrom, D.W., Tenuta, M., and Beauchamp, E.G. 1994. Increase in nitrous oxide production in soil induced by ammonium and organic carbon. Biol. Fertil. Soils 18: 1–6."},
+    {"type": "reference", "text": "Binkley, D. and Hart, S.C. 1989. The components of nitrogen availability assessments in forest soils. Adv. Soil Sci. 10: 57–112."},
+    {"type": "reference", "text": "Booth, M.S., Stark, J.M., and Hart, S.C. 2006. Soil-mixing effects on inorganic nitrogen production and consumption in forest and shrubland soils. Plant Soil 289: 5–15."},
+    {"type": "reference", "text": "Bundy, L.G. and Bremner, J.M. 1973. Inhibition of nitrification in soils. Soil Sci. Soc. Am. Proc. 37: 396–398."},
+    {"type": "reference", "text": "Burns, D.A. and Murdoch, P.S. 2005. Effects of clearcut on the net rates of nitrification and N mineralization in a northern hardwood forest, Catskill Mountains, New York, USA. Biogeochemistry 72: 123–146."},
+    {"type": "reference", "text": "Cabrera, M.L. and Kissel, D.E. 1988. Potentially mineralizable nitrogen in disturbed and undisturbed soil samples. Soil Sci. Soc. Am. J. 52: 1010–1015."},
+    {"type": "reference", "text": "Chen, J. and Stark, J.M. 2000. Plant species effects and carbon and nitrogen cycling in a sagebrush–crested wheatgrass soil. Soil Biol. Biochem. 32: 47–57."},
+    {"type": "reference", "text": "Compton, J.E. and Boone, R.D. 2002. Soil nitrogen transformations and the role of light fraction organic matter in forest soils. Soil Biol. Biochem. 34: 933–943."},
+    {"type": "reference", "text": "Davidson, E.A., Hart, S.C., Shanks, C.A., and Firestone, M.K. 1991. Measuring gross N mineralization, immobilization, and nitrification by ¹⁵N isotopic pool dilution in intact soil cores. J. Soil Sci. 42: 335–349."},
+    {"type": "reference", "text": "Davidson, E.A., Stark, J.M., and Firestone, M.K. 1990. Microbial production and consumption of nitrate in an annual grassland. Ecology 71: 1968–1975."},
+    {"type": "reference", "text": "deCatanzaro, J.B., Beauchamp, E.G., and Drury, C.F. 1987. Denitrification vs. dissimilatory nitrate reduction in soil with alfalfa, straw, glucose and sulfide treatments. Soil Biol. Biochem. 19: 583–587."},
+    {"type": "printed-page-number", "text": "373"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e4479c8c3b210613271f323db4e50525123e0e9d53246e93055d1bacbaaebc98"
+}

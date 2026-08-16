@@ -1,0 +1,31 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 475,
+  "sourceImageSha256": "afe6ae1fc216d3c169b97814c360d8fae6a44b74d01714b206b2aca881dd6d8e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页和两套OCR，恢复第47章题、作者机构及47.1全部五段，纠正无脊椎动物外骨骼、植物岩、木炭等漏字"},
+    "precisionPass": {"status": "verified", "method": "核验LF/POM定义、比重1.6～2.0与<1.9、53～250/50～2000 μm、22/18/8/5%、C∶N 17～22与10～17"},
+    "secondVisualPass": {"status": "verified", "method": "由Magid和Kjærgaard末句反向复核至章题，检查每个范围端点、百分数、微米单位、丹麦字母和方法层级；本页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "47", "title": "物理性非复合有机质", "originalTitle": "Physically Uncomplexed Organic Matter"},
+    {"type": "author", "name": "E.G. Gregorich", "affiliation": "Agriculture and Agri-Food Canada, Ottawa, Ontario, Canada"},
+    {"type": "author", "name": "M.H. Beare", "affiliation": "New Zealand Institute for Crop and Food Research, Christchurch, New Zealand"},
+    {"type": "section-heading", "level": 2, "number": "47.1", "title": "引言"},
+    {"type": "paragraph", "text": "物理性非复合有机质由未被土壤矿质颗粒固定的有机颗粒组成，可用密度法（重液）或粒度法（筛分）从土壤中分离。有机质与土壤矿物结合会改变其在土壤中的功能、转化和动态，因此要把非复合有机质分离出来，研究土壤有机组分的形态与功能，并评价土地利用、管理和植被类型对碳氮转化与储存的影响（Gregorich和Janzen，1996；Gregorich等，2006），包括养分有效性（Campbell等，2001）、植物残体分解（Magid和Kjærgaard，2001）、土壤有机质物理保护（Beare等，1994）及团聚过程（Golchin等，1994）。"},
+    {"type": "paragraph", "text": "物理性非复合有机质是不同分解阶段的植物、动物和微生物残体混合物，包括花粉、孢子、种子、无脊椎动物外骨骼、植物岩和木炭（Spycher等，1983；Baisden等，2002）。轻组有机质（LF）和颗粒有机质（POM）的量及化学特性不同，但都是常用分离形态。"},
+    {"type": "definition", "term": "轻组有机质（LF）", "text": "将土壤悬浮于已知比重、且比重大于水的重液后分离所得有机质；重液比重通常为1.6～2.0（Sollins等，1999）。"},
+    {"type": "definition", "term": "颗粒有机质（POM）", "text": "分散土壤通过已知筛孔后获得的有机质；筛孔直径通常53～250 μm。可单用粒径分离（如>53 μm），也可结合粒径和密度分离（Cambardella和Elliott，1992）。"},
+    {"type": "paragraph", "text": "Gregorich等（2006）综述65篇以上论文后指出，农业矿质土壤中POM形式的碳氮明显多于LF。POM（直径50～2000 μm）平均占土壤有机碳22%、土壤全氮18%；LF（比重<1.9）仅占土壤有机碳8%、土壤全氮5%。LF中磷、硫研究较少；少于5%的土壤有机磷位于LF（Curtin等，2003；Salas等，2003）。"},
+    {"type": "paragraph", "text": "物理性非复合有机质的C∶N高于全土、低于植物残体。LF的C∶N随比重增加而降低：比重1.0～1.8时为17～22，比重1.8～2.2时为10～17（Gregorich等，2006）。低比重（<1.8）LF的较高C∶N反映植物成分如木质素的影响；高比重提取物包含更多吸附有机质的矿质颗粒。POM平均粒径与C∶N呈正对数线性关系；大粒径组分C∶N的变化大于小粒径组分（Gregorich等，2006；Magid和Kjærgaard，2001）。"},
+    {"type": "notation-note", "scope": "重液‘比重’", "text": "原书使用比重（specific gravity），为相对密度、无量纲；不得在没有溶液密度和温度信息时擅自写成g·cm⁻³。"}
+  ],
+  "formulas": [
+    {"id": "47.1-pom-share", "display": "POM: 22% SOC; 18% total N", "meaning": "Gregorich等（2006）综述给出的农业矿质土平均比例"},
+    {"id": "47.1-lf-share", "display": "LF (specific gravity <1.9): 8% SOC; 5% total N", "meaning": "同一综述给出的轻组平均比例"},
+    {"id": "47.1-lf-cn", "display": "SG 1.0～1.8 → C∶N 17～22; SG 1.8～2.2 → C∶N 10～17", "meaning": "轻组有机质C∶N随比重增加而降低"}
+  ],
+  "tables": [],
+  "contentSha256": "81493b81ca20f80f2246dcfc96c54b4661496e4173adffd8a6ab494dd64122ae"
+}

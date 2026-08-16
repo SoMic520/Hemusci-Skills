@@ -1,0 +1,55 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 85,
+  "sourceImageSha256": "e63355c25fba790cde24525a86d85f59fdebcdf18eef863a689e5dc68bcc5ea0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复材料清单、含水量/提取步骤、四条注释及6.3层级"},
+    "precisionPass": {"status": "verified", "method": "放大核对NO₃、NH₄、NH₃、NO₃-N、KCl、125/60/50/10 mL、149/5.00/5.0/1.0 g、105 ℃、2.0 mol/L、1∶10、160转/min、30 min和24 h"},
+    "secondVisualPass": {"status": "verified", "method": "按6.2.2八项、6.2.3两组步骤、6.2.4四项注释、6.3标题与6.3.1未完句反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "6.2.2", "title": "材料和试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "往复式振荡器。"},
+      {"number": "（2）", "text": "试剂瓶。"},
+      {"number": "（3）", "text": "125 mL的锥形瓶。"},
+      {"number": "（4）", "text": "60 mL的Nalgene瓶。"},
+      {"number": "（5）", "text": "过滤漏斗。"},
+      {"number": "（6）", "text": "Whatman 42号滤纸。"},
+      {"number": "（7）", "text": "铝盘。"},
+      {"number": "（8）", "text": "2.0 mol/L的KCl溶液：将149 g KCl溶解于约800 mL不含NH₃的去离子水中，定容至1L。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "6.2.3", "title": "步骤"},
+    {"type": "section-heading", "level": 4, "number": "1", "title": "含水量测定"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "称取5.00 g鲜土置于已知重量的铝盘中。"},
+      {"number": "（2）", "text": "在105℃的烘箱中烘干过夜。"},
+      {"number": "（3）", "text": "在干燥器中冷却并称重。"}
+    ]},
+    {"type": "section-heading", "level": 4, "number": "2", "title": "提取步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "称取5.0 g鲜土（或矿化实验中培养的湿润土壤）置于125 mL锥形瓶内。在某些情况下，也可以使用风干土壤（见6.2.4节中注释1）。"},
+      {"number": "（2）", "text": "加入50 mL 2.0 mol/L的KCl溶液（如果样品量有限，可以根据1∶10的比例将土壤和KCl溶液的使用量分别降到1.0 g和10 mL）。"},
+      {"number": "（3）", "text": "整个实验过程设置试剂空白试验。"},
+      {"number": "（4）", "text": "将锥形瓶塞紧，然后以每分钟160转振荡30 min。"},
+      {"number": "（5）", "text": "使用Whatman 42号滤纸过滤到60 mL的Nalgene瓶中。"},
+      {"number": "（6）", "text": "在24 h内分析测定NO₃和NH₄（见6.2.4节中的注释3）。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "6.2.4", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "对于室温下长期存储的风干样品，NO₃和NH₄含量会发生很大变化。西部环境农业实验室协会（Western Enviro-Agricultural Laboratory Association）的一项研究表明，风干样品在室温下存储3年后，土壤中NO₃含量明显下降（未发表结果）。Bremner（1965）和Selmer-Olsen（1971）也发现NH₄含量会增加。"},
+      {"number": "（2）", "text": "滤纸含有大量的NO₃和NH₄，这可能会对提取物造成污染（Muneta，1980；Heffernan，1985；Sparrow和Masiak，1987）。"},
+      {"number": "（3）", "text": "KCl提取液中的NO₃和NH₄需要在提取完成后的24 h内测定（Keeney和Nelson，1982）。如果不能及时分析提取液，那么应该对其冷冻保存。冷冻条件下，KCl提取液可以无限期保存。"},
+      {"number": "（4）", "text": "上述方法得到的结果具有高度的可重复性。"}
+    ]},
+    {"type": "section-heading", "level": 2, "number": "6.3", "title": "间隔流动分析法测定2.0 mol/L KCl提取液中的NO₃-N含量（镉还原方法）"},
+    {"type": "section-heading", "level": 3, "number": "6.3.1", "title": "原理"},
+    {"type": "paragraph", "continuation": true, "text": "硝酸盐含量使用自动分光光度法测定。首先通过铜镉还原线圈（CRC）将硝酸盐还原成亚硝酸盐，", "inlineNotation": ["CRC"]},
+    {"type": "printed-page-number", "text": "54"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "aecc2da27c5c92598a27355775d7b8f23e2e724fd2d9a0447d3a97ec00ae3fd8"
+}

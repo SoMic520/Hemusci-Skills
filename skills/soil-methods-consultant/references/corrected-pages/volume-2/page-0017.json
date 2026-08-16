@@ -1,0 +1,57 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 17,
+  "sourceImageSha256": "58bbd199d1092fe0959bcfa68e627dc2cb9a1cab075200b0f77e6049785d8cc6",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率目录和两套OCR，完成附录入口、第85章及附录A/B"},
+    "precisionPass": {"status": "verified", "method": "核验地统计术语、半方差函数层级、块金值/变程/范围/基台值及831～866页码"},
+    "secondVisualPass": {"status": "verified", "method": "由附录B参考文献反向复核至附录入口，检查非均匀一维/二维采样、样点描述、安全规范及罗马页码XVI"}
+  },
+  "blocks": [
+    {
+      "type": "toc-tree-continuation",
+      "entries": [
+        {"number": "附录", "title": "附录", "page": 831, "level": 0},
+        {"number": "第85章", "title": "土壤特性变异分析法", "page": 836, "level": 1},
+        {"number": "85.1", "title": "引言", "page": 836, "level": 2},
+        {"number": "85.2", "title": "地统计分析", "page": 836, "level": 2},
+        {"number": "85.3", "title": "测量时间或空间结构", "page": 837, "level": 2},
+        {"number": "85.3.1", "title": "自协方差和自相关结构分析", "page": 837, "level": 3},
+        {"number": "85.3.2", "title": "半方差函数结构分析", "page": 838, "level": 3},
+        {"number": "85.3.3", "title": "平稳性要求", "page": 840, "level": 3},
+        {"number": "85.4", "title": "联合变异的表征", "page": 840, "level": 2},
+        {"number": "85.5", "title": "指示半方差函数", "page": 841, "level": 2},
+        {"number": "85.6", "title": "空间或时间结构的计算", "page": 842, "level": 2},
+        {"number": "85.6.1", "title": "均匀间隔一维数据", "page": 842, "level": 3},
+        {"number": "85.6.2", "title": "非均匀一维样本采集或二维样本采集", "page": 843, "level": 3},
+        {"number": "85.6.3", "title": "半方差函数计算实用准则", "page": 843, "level": 3},
+        {"number": "85.7", "title": "半方差数据拟合模型", "page": 844, "level": 2},
+        {"number": "85.7.1", "title": "拟合标准和程序", "page": 845, "level": 3},
+        {"number": "85.7.2", "title": "最优半方差函数模型选择", "page": 845, "level": 3},
+        {"number": "85.7.3", "title": "套合半方差函数模型拟合", "page": 846, "level": 3},
+        {"number": "85.8", "title": "块金值、变程、范围和基台值的解释", "page": 846, "level": 2},
+        {"number": "85.9", "title": "计算实例", "page": 846, "level": 2},
+        {"number": "85.9.1", "title": "土壤导水率和砂粒含量空间变异性分析", "page": 846, "level": 3},
+        {"number": "85.9.2", "title": "高程、土壤质地、有机碳含量、土壤含水量及导水率", "page": 850, "level": 3},
+        {"number": "85.10", "title": "注释", "page": 855, "level": 2},
+        {"number": "第85章参考文献", "title": "参考文献", "page": 856, "level": 2},
+        {"number": "附录A", "title": "样点描述", "page": 859, "level": 1},
+        {"number": "A.1", "title": "引言", "page": 859, "level": 2},
+        {"number": "A.2", "title": "样点属性", "page": 859, "level": 2},
+        {"number": "附录A参考文献", "title": "参考文献", "page": 861, "level": 2},
+        {"number": "附录B", "title": "实验室一般安全操作规范", "page": 862, "level": 1},
+        {"number": "B.1", "title": "一般安全规范", "page": 862, "level": 2},
+        {"number": "B.2", "title": "碱类", "page": 862, "level": 2},
+        {"number": "B.3", "title": "酸类", "page": 863, "level": 2},
+        {"number": "B.4", "title": "易燃物和可燃物", "page": 864, "level": 2},
+        {"number": "B.5", "title": "压缩气体钢瓶", "page": 864, "level": 2},
+        {"number": "B.6", "title": "病原与媒介", "page": 865, "level": 2},
+        {"number": "附录B参考文献", "title": "参考文献", "page": 866, "level": 2}
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "b8fd83d1e5324779d7ae4951cb93f3b31d7ab6c597ab1e1b64f5c22bae1ced33"
+}

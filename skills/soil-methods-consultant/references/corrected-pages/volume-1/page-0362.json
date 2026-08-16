@@ -1,0 +1,61 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 362,
+  "sourceImageSha256": "d2cce2c1ba03d983e77d57d93924038dbb292d7e4941826570cb961570e97b21",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版35.2.1～35.3"},
+    "precisionPass": {"status": "verified", "method": "核验40～400×、0～3 cm/3～6 cm、<10 °C、1 mm与0.88 mg、250 mL、30%、10 cm、1 cm、30 min及Ludox型号"},
+    "secondVisualPass": {"status": "verified", "method": "从35.3引言反向复核至步骤（11），改正胶体二氧化硅、testate amoebae、专著与检索表等误译；印刷页码331"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第35章｜线蚓科动物｜"},
+    {"type": "ordered-list", "start": 11, "parent": "35.2.1 湿法提取—步骤", "items": [
+      "在解剖显微镜下观察培养皿中的线蚓科动物并计数。",
+      "用倒置显微镜（或复合显微镜）在40～400×下观察并鉴定物种。"
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "3. 注释", "parent": "35.2.1 湿法提取"},
+    {"type": "ordered-list", "items": [
+      "优先使用可拆分式土芯取样器，以取得完整、未受损的土芯。",
+      "若需采集深度超过3 cm的土样，最好连续取得并分别标记0～3 cm、3～6 cm等土芯，再分别提取。",
+      "采得的土样可在低于10 °C的冷藏室（或冰箱）中短期保存；最好在1～2 d内开始提取。",
+      "有人不用白炽灯而延长提取时间；也有人在低温室内使用白炽灯提取。",
+      "原书给出的长度—生物量简化换算为：1 mm体长对应0.88 mg鲜重。"
+    ]},
+    {"type": "precision-note", "scope": "长度—生物量换算", "text": "“1 mm = 0.88 mg鲜重”按中英文原书原值保存，但它不是具有普适性的线性单位恒等式；个体鲜质量通常随体长非线性变化，并受属种和体径影响。用于定量时应标明它是本章给出的经验简化值，优先采用目标类群的质量—体长异速方程或实测鲜质量。"},
+    {"type": "section-heading", "level": 3, "number": "35.2.2", "title": "胶体二氧化硅提取法（原书题名：硅胶提取法）"},
+    {"type": "paragraph", "text": "本法比湿法提取更高效（Phillips等，1999）。土壤矿质颗粒密度较大，在悬浮液中下沉，而生物和部分有机质浮在胶体中。温和搅拌后，线蚓科动物浮至胶体二氧化硅上层。该法还会提取缓步动物、线虫和小型节肢动物等其他无脊椎动物；有壳变形虫（testate amoebae）也会与土壤分离并浮在胶体中。"},
+    {"type": "subsection-heading", "level": 4, "title": "1. 材料和试剂", "parent": "35.2.2"},
+    {"type": "ordered-list", "items": [
+      "新鲜土样。",
+      "250 mL玻璃烧杯。",
+      "用于搅拌的玻璃棒或刮勺。",
+      "Ludox CL 30%胶体二氧化硅悬浮液（Sigma-Aldrich）。",
+      "直径10 cm的培养皿。"
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "2. 步骤", "parent": "35.2.2"},
+    {"type": "ordered-list", "items": [
+      "把土样置于烧杯中，尽量少扰动，不要过度打散土壤。",
+      "向烧杯中倒入胶体二氧化硅悬浮液，使液面高出土壤表面1 cm以上。",
+      "用玻璃棒或刮勺轻柔混合悬浮液和土壤，静置30 min。",
+      "将表层厚1 cm的胶体二氧化硅悬浮液倾入培养皿，供显微镜观察。",
+      "补加胶体二氧化硅悬浮液，使液面再次高出土壤表面1 cm；再次搅拌并静置30 min，然后倾入培养皿作第二次观察。"
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "3. 注释", "parent": "35.2.2"},
+    {"type": "ordered-list", "items": [
+      "Phillips等（1999）使用Ludox AM30。本章作者发现Ludox CL可得到完整且被固定不动的样本，便于拍照和描述；样本接触胶体悬浮液后很快死亡。",
+      "Ludox洒出后会干燥成有害的结晶状残留物，应避免吸入以及与皮肤接触；土壤和悬浮液须按当地及国家/地区规定安全处置。",
+      "有机物也会浮在悬浮液中，必须从碎屑中分拣样本。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "35.2.2介质名称", "text": "Ludox CL/AM为胶体二氧化硅悬浮液（colloidal silica），中文本多处译成“硅胶/胶质”；本页已使用准确化学名称，同时保留原书方法题名供检索。"},
+    {"type": "section-heading", "level": 2, "number": "35.3", "title": "固定和染色"},
+    {"type": "paragraph", "text": "物种描述和鉴定必须用活体样本完成，条件允许时辅以绘图和照片。分类专著和检索表会详列鉴定所需观察项目。固定前，最好把线蚓科动物放在培养皿的水中，于凉爽处培养数小时，使其排空肠道。固定样本只作为参考标本。本流程以Anneke Beylich（Institut für Angewandte Bodenbiologie, Hamburg）的方法为基础，另见上文35.2.2节。"},
+    {"type": "source-fidelity-note", "scope": "35.3鉴定依据", "text": "中文本“论文中要详述鉴定中的重要观察过程”不对应英文原文；原文为Monographs and keys detail the necessary observations for identification，即“分类专著和检索表详列鉴定所需观察项目”。"},
+    {"type": "printed-page-number", "text": "331"}
+  ],
+  "formulas": [
+    {"id": "35.2.1-length-biomass-source", "display": "1 mm body length ≈ 0.88 mg fresh weight", "status": "source-supplied empirical simplification; not a universal dimensional identity"}
+  ],
+  "tables": [],
+  "contentSha256": "129259e4fef34a33367582d7e4a9fd0d18482a50a352b41aae8f1d95638c5d33"
+}

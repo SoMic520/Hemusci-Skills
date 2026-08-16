@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 322,
+  "sourceImageSha256": "617208a61115be3bcb2d38ec8f26b4f4f5a876d27341e8502633365e3436437b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复31.6引言续文、31.6.1作物干产量、31.6.2根瘤指数及31.6.3开头"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验N₂下标、70 ℃、48 h、Medicago sativa、A×B×C≤18公式、三张赋值表及12～18/≤6范围"},
+    "secondVisualPass": {"status": "verified", "method": "从31.6.3跨页句反向复核至页首，确认根瘤数量表C仅为1～3而正文另称0～5；页码291"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第31章｜根瘤菌与共生固氮作用｜"},
+    {"type": "paragraph", "method": "31.6", "text": "尽管根瘤菌具有很多促进植物生长的作用，但是共生固氮作用才是对豆科植物最重要的机理。Azam和Farooq（2003）评估了衡量豆科植物固氮作用的不同方法。"},
+    {"type": "section-heading", "level": 3, "number": "31.6.1", "title": "作物干产量"},
+    {"type": "paragraph", "text": "由于豆科植物氮素的主要来源为生物N₂固氮作用，这一生物行为直接与一些豆科植物的干产量相关。这个简单而经济的方法是基于田间试验的理想方法，因为在田间试验中，乙炔减少量法等其他方法都会有很大变数。收割新鲜的植株（枝条、根或者豆荚），将其在70 ℃下烘干直至恒重（大约48 h）。对于草料类的豆科植物比如苜蓿（Medicago sativa），需对枝条进行二次修剪，因为它对正确估算Sinorhizobium meliloti的共生固氮效率非常重要（Bordeleau等，1977）。"},
+    {"type": "source-fidelity-note", "scope": "31.6.1乙炔方法名称", "text": "原书印作“乙炔减少量法”，本章31.6.4的规范术语为“乙炔还原实验/乙炔还原法（ARA）”。"},
+    {"type": "section-heading", "level": 3, "number": "31.6.2", "title": "根瘤指数"},
+    {"type": "paragraph", "text": "由于固氮作用主要发生在根瘤处，因此根瘤指数经常被用来评估根瘤菌的共生固氮效率：", "formulaRef": "root-nodule-index"},
+    {"type": "paragraph", "text": "根瘤指数根据根瘤的数量，指数从0（没有根瘤）到5（可以观察到的根瘤的最大数量）变化。然而，由于固氮效率低的菌株同样也可以形成很多根瘤，因此需要加入其他参数如根瘤大小和颜色，使得结果更为准确（Ben Rebah等，2002）。"},
+    {"type": "source-fidelity-note", "scope": "31.6.2根瘤数量赋值", "text": "原书公式及表中C仅取1、2、3，而紧接正文又称根瘤数量指数从0到5，内部不一致。最终综合指数所述范围12～18与A、B、C各最高3、2、3的乘积一致；执行时应按表中C=1～3（无根瘤时综合指数0）或核对Ben Rebah等（2002），不得混用0～5尺度。"},
+    {"type": "paragraph", "text": "含有高效根瘤菌的根瘤通常是较大的，这些根瘤菌含有豆血红蛋白，因此颜色从粉红到红色。而由低效根瘤菌组成的根瘤通常较小且呈白色。当接种了非常高效的根瘤菌时，豆科植物的根瘤指数为12～18，而接种了低效根瘤菌的则为6个或者更低。这个根瘤指数在Leonard广口瓶中筛选根瘤菌的试验中非常有效。"},
+    {"type": "section-heading", "level": 3, "number": "31.6.3", "title": "总氮的差异"},
+    {"type": "paragraph", "id": "total-n-difference", "continuation": "page-0323", "text": "当只能获得总氮的数据时通常采用一个相对简单的方法。在相同的土壤条件下，通过比较豆科植物和一种没有固氮作用的植物间氮产量的差异，可以估算出豆科植物的固氮量。最合适的对照植物是经试验确认不能形成根瘤的豆科植物（Bremer等，1990），并且进行试验的土壤中不含有可以在豆科植物上形成有效根瘤的根瘤菌，这样才能确定为对照植物。利用不长根瘤的豆科植物作为一种参考植物可以提供可靠的结果，然而非豆科的植物同样得到了较好的结果（Bell和Nutman，1971；Rennie，1984）。这"},
+    {"type": "printed-page-number", "text": "291"}
+  ],
+  "formulas": [
+    {"number": "root-nodule-index", "context": "31.6.2根瘤指数", "display": "根瘤指数＝A×B×C≤18", "latex": "I_{nodule}=A\\times B\\times C\\le 18"}
+  ],
+  "tables": [
+    {"number": "31.6.2-A", "title": "根瘤大小赋值", "columns": ["根瘤大小", "值A"], "rows": [["小", "1"], ["中", "2"], ["大", "3"]]},
+    {"number": "31.6.2-B", "title": "根瘤颜色赋值", "columns": ["根瘤颜色", "值B"], "rows": [["白", "1"], ["粉色", "2"]]},
+    {"number": "31.6.2-C", "title": "根瘤数量赋值", "columns": ["根瘤数量", "值C"], "rows": [["很少", "1"], ["一些", "2"], ["很多", "3"]]}
+  ],
+  "contentSha256": "468bc60f0034c10477d67df416303e55ac1c809a45ba72762b40b3836206d12c"
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 369,
+  "sourceImageSha256": "20fe370d2c78e56f61926ea7db66f7c464479e2399cd374a5d88a2494070c857",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐格对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版36.3.2～36.3.6"},
+    "precisionPass": {"status": "verified", "method": "逐项复算表36.2质量—摩尔浓度，核验1.5%、300 g/1.0 L、1 h/30 min/20～30 min、4 °C、100×、0.1%（w/v）和pH±0.3"},
+    "secondVisualPass": {"status": "verified", "method": "从页末小麦草培养基反向复核至缓冲盐终浓度，纠正原版36.3.7交叉引用为36.3.6；印刷页码338"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "continuation", "text": "（承上页36.3.2）最终浓度：10 mmol·L⁻¹ Na₂HPO₄、约2 mmol·L⁻¹ KH₂PO₄、0.5 mmol·L⁻¹ MgCl₂和1 mmol·L⁻¹ CaCl₂。细胞悬浮液可在该缓冲液中保存数小时；更长时间应使用下述标准土壤提取液（SSE）或标准土壤溶液（SSS）。"},
+    {"type": "section-heading", "level": 3, "number": "36.3.3", "title": "琼脂（1.5%）"},
+    {"type": "paragraph", "text": "在锥形瓶中把1.5 g琼脂加入100 mL蒸馏水或去离子水，高压蒸汽灭菌20 min。也可用SSE（36.3.4）、SSS（36.3.5）或小麦草培养基（36.3.6）替代配制琼脂所用的水。"},
+    {"type": "source-fidelity-note", "scope": "36.3.3交叉引用", "text": "英文原版把wheat grass medium误指为36.3.7；本章实际标题为36.3.6，中文本已改正，本Skill沿用正确层级。"},
+    {"type": "section-heading", "level": 3, "number": "36.3.4", "title": "标准土壤提取液"},
+    {"type": "paragraph", "text": "标准土壤提取液（SSE）含土样中的可溶性养分，不能单独作为生长培养基，但常用作培养基补充物。其准确组成随土壤和每次制备而变，可提供与供试土壤溶液相似的离子。用300 g A层土壤和1.0 L蒸馏水或去离子水配制。"},
+    {"type": "ordered-list", "items": ["将土壤加入大烧杯中的水，搅拌1 h。", "静置30 min，经数层粗棉布过滤至锥形瓶。", "分装入螺旋盖瓶，高压蒸汽灭菌30 min。"]},
+    {"type": "section-heading", "level": 3, "number": "36.3.5", "title": "标准土壤溶液"},
+    {"type": "paragraph", "text": "标准土壤溶液（SSS）含已知种类、数量和浓度的离子，适用于溶液组成需要标准化的情况，也可在要求精确组成时代替水。按表36.2配制：依次称取各盐，在大烧瓶中持续搅拌并逐一溶解；用磷酸盐缓冲液调到所需pH（见36.3.1）。必须加入磷酸盐缓冲液和KH₂PO₄，因为它们是培养基磷酸盐的主要来源。最终pH应在供试土壤或细胞来源环境pH的±0.3范围内。定容至1.0 L并分装螺旋盖瓶，高压蒸汽灭菌20 min，4 °C保存。也可配制100×储备液冷藏。"},
+    {"type": "section-heading", "level": 3, "number": "36.3.6", "title": "小麦草培养基0.1%（w/v）"},
+    {"type": "paragraph", "text": "这是可培养多种原生动物的通用培养基。将1.0 g小麦草粉与1.0 L蒸馏水或去离子水置于2 L锥形瓶中混合；加热至沸腾并保持轻微滚沸2 min，静置冷却1 h。经数层粗棉布过滤至新锥形瓶，弃去草渣。用磷酸盐缓冲液（36.3.1）把pH调至供试土壤pH的±0.3范围；分装螺旋盖瓶，高压蒸汽灭菌20 min。"},
+    {"type": "printed-page-number", "text": "338"}
+  ],
+  "formulas": [
+    {"id": "36.3.3-agar", "display": "1.5 g agar / 100 mL = 1.5% (w/v)"},
+    {"id": "36.3.6-wheat-grass", "display": "1.0 g wheat-grass powder / 1.0 L = 0.1% (w/v)"},
+    {"id": "36.3.5-ph-target", "display": "|pH_medium − pH_soil| ≤ 0.3"}
+  ],
+  "tables": [
+    {"number": "表36.2", "title": "标准土壤溶液（SSS）各组分质量浓度及最终摩尔浓度", "columns": ["称取量/质量浓度", "化学式", "最终摩尔浓度 / mol·L⁻¹"], "rows": [["6.8×10⁻⁴ g·L⁻¹","KH₂PO₄","5.00×10⁻⁶"],["1.116 g·L⁻¹","FeCl₃","6.88×10⁻³"],["0.241 g·L⁻¹","MgSO₄","2.00×10⁻³"],["0.544 g·L⁻¹","CaSO₄","4.00×10⁻³"],["0.133 g·L⁻¹","NH₄Cl","2.48×10⁻³"],["0.253 g·L⁻¹","KNO₃","2.50×10⁻³"],["0.140 g·L⁻¹","NaCl","2.40×10⁻³"],["900 mL","蒸馏水","—"]], "precision": "各盐按无水化学式复算均与表列摩尔浓度一致；配制后定容至1.0 L。"}
+  ],
+  "contentSha256": "2dc90a63ac71a6789c82f626a3e6ba05a00fc4b39f929b00cf92e40e73e6eff7"
+}

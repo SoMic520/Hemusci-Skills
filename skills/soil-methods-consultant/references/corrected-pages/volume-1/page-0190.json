@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 190,
+  "sourceImageSha256": "0b72422f6052ca826e532411d5cf5bcfac13add0ef47f08733414d400cfd639a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率参考文献末页，并与Apple Vision、PaddleOCR交叉比对，人工恢复Silva-Bremner续文、其余5条参考文献和译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验英文作者、年份、书刊名、卷页、NH₄-N、Sulphur—Global Cycles、Z. Pflanenernähr. Bodenk.中的变音符号及人名"},
+    "secondVisualPass": {"status": "verified", "method": "从页末页码159反向复核至ammonium续文，确认文献完整衔接、译者李斐/党海燕、校者王朝辉"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第19章｜非交换态铵的测定｜"},
+    {"type": "reference-entry-continuation", "parent": "Silva, J.A. and Bremner, J.M. 1966", "text": "ammonium. Soil Sci. Soc. Am. Proc. 30: 586-594."},
+    {"type": "reference-entry", "text": "Soderland, R. and Svensson, B.H. 1976. The global nitrogen cycle. In: B.H. Svensson and R. Soderland, eds., Nitrogen, Phosphorus, and Sulphur—Global Cycles. SCOPE Report 7."},
+    {"type": "reference-entry", "text": "Soon, Y.K. 1998. Nitrogen cycling involving non-exchangeable ammonium in a gray luvisol. Biol. Fert. Soils. 27: 425-429."},
+    {"type": "reference-entry", "text": "Willis, R.B., Schwab, G.J., and Gentry, C.E. 1993. Elimination of interferences in the colorimetric analysis of ammonium in water and soil extracts. Commun. Soil Sci. Plant Anal. 24: 1009-1019."},
+    {"type": "reference-entry", "text": "Young, J.L. and Aldag, R.W. 1982. Inorganic forms of nitrogen in soil. In: F.J. Stevenson, ed., Nitrogen in Agricultural Soils. American Society of Agronomy, Madison, WI, 43-66."},
+    {"type": "reference-entry", "text": "Zhang, Y. and Scherer, H.W. 1998. Simplification of the standard method for the determination of nonexchangeable NH₄-N in soil. Z. Pflanenernähr. Bodenk. 161: 101-103."},
+    {"type": "translator-credit", "text": "（李斐　党海燕　译，王朝辉　校）"},
+    {"type": "printed-page-number", "text": "159"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "29c5f280e3f8b8665ab68f986ae6739a2179a8b7287da548815fadb5fe03f9da"
+}

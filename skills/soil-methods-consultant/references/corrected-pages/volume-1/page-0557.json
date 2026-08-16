@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 557,
+  "sourceImageSha256": "9852c27a3651f179d2e4ad2df8a75bceae36a1976adf9dd5b9700eceb422e07e",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐项对照原分辨率封底和两套OCR，记录出版社、ISBN、定价、册次及责任编辑/封面设计署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验ISBN 978-7-121-41908-9、条码9787121419089、480.00元、CRC Press/Taylor & Francis Group和中文人名"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由右下角条码反向复核至出版社标识，检查连字符、金额小数位和上下册标记"
+    }
+  },
+  "blocks": [
+    {
+      "type": "cover-metadata",
+      "text": "CRC Press, Taylor & Francis Group；ISBN 978-7-121-41908-9；条码9787121419089；定价480.00元（上、下册）。责任编辑：缪晓红；封面设计：知行兆远。"
+    },
+    {
+      "type": "cover-art-description",
+      "text": "深绿色封底，线描农田、作物与树木景观。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "b60726378e9897c7619fcf7311de6ce0e814bed79a9bed299238660fb0a17f4d"
+}

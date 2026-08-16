@@ -1,0 +1,50 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 115,
+  "sourceImageSha256": "a514bf622ace1ea5522a782ce87ccf921fd7fa4ca215b2e2360997e628506053",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐项对照原分辨率方法页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复10.2.1六项、10.2.2两级步骤、10.2.3公式和10.2.4首条"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对CaCl₂-CaSO₄、CaCl₂·2H₂O、HNO₃、HDPE、80 μmol/L、μS/cm、μm、℃、mL/h、h、mg/kg、mg/L、K_d及全部质量体积时间百分比"},
+    "secondVisualPass": {"status": "verified", "method": "按材料试剂、预处理、处理过程、计算和注释反向复核，确认式（10.1）的分子分母、L/kg量纲、两级方法层级和印刷页码84"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "10.2.1", "title": "材料与试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "用80 mL 80 μmol/L CaCl₂-CaSO₄溶液对每个土柱淋洗4天。该溶液通过用2 L超纯水溶解0.0118 g CaCl₂·2H₂O和0.0109 g CaSO₄制备获得。"},
+      {"number": "（2）", "text": "聚乙烯注射器（60 mL）（经硝酸洗涤）和与注射器紧密贴合的高密度聚乙烯（HDPE）筛板。"},
+      {"number": "（3）", "text": "流速为30 mL/h和2～3 mL/h的真空提取器。"},
+      {"number": "（4）", "text": "10%的微量金属级硝酸（HNO₃）：将10 mL浓硝酸稀释到100 mL。"},
+      {"number": "（5）", "text": "超纯水，电导率小于18 μS/cm。"},
+      {"number": "（6）", "text": "0.45 μm的滤膜（尼龙或聚碳酸酯）。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "10.2.2", "title": "步骤"},
+    {"type": "section-heading", "level": 4, "number": "1.", "title": "预处理"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "应在4～6℃的恒温箱中进行提取。每个土样装置包括三个垂直相连的60 mL注射器，但仅上面两个使用注射器筒。上部的注射器用来存储溶液，它与中部装土样的注射器用一个紧密贴合的转接头连接。上部注射器中的溶液通过与底部注射器连接的真空提取设备被缓慢抽出，流经土样后进入底部注射器。确保该系统没有渗漏，否则流速将受到影响。"},
+      {"number": "（2）", "text": "将土壤风干、混匀后过2 mm筛。称量15 g矿质土（其中5 g是林地地表土）至60 mL的注射器中。将土壤包在两层HDPE筛板之间，并将存储溶液的上部注射器插入土柱。"},
+      {"number": "（3）", "text": "加入30 mL超纯水，抽取速率调至30 mL/h。当所有水都通过土柱后，等待2 h再开始下一次抽提。再重复两次使总溶液量为90 mL。"},
+      {"number": "（4）", "text": "在步骤（3）结束后，等待2 h再开始CaCl₂-CaSO₄处理。"}
+    ]},
+    {"type": "section-heading", "level": 4, "number": "2.", "title": "处理过程"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "在4天内，每24 h用20 mL 80 μmol/L CaCl₂-CaSO₄淋洗土柱，速率为2～3 mL/h。在每个淋滤周期结束时确保有空气进入土柱以防柱内形成厌氧环境。将收集的出水溶液装入经酸洗涤的样品瓶中。"},
+      {"number": "（2）", "text": "测量出水溶液的pH值和电导率。收集后3天的出水溶液混合成一个约50 mL的样本。将溶液在真空下通过0.45 μm的滤膜过滤后收集在聚乙烯瓶中。可按照每10 mL溶液加入0.2 mL 10% HNO₃的方法保存过滤后的溶液或该溶液的子样本（若需保留一部分该溶液用作其他分析），但应尽快进行分析。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "10.2.3", "title": "计算"},
+    {"type": "paragraph", "text": "上述提取方法并不作为定量分析，如水溶性组分的定量分析；但却适用于估算固—液中微量元素的分配或从某一点位土壤中淋洗下来的微量元素含量。"},
+    {"type": "paragraph", "text": "分配系数（K_d，L/kg）是土壤中金属元素总量（通过热酸消解提取测定，见10.5节，mg/kg）与土壤溶液中金属元素含量（mg/L）的比值：", "inlineNotation": ["K_d", "L/kg", "10.5节", "mg/kg", "mg/L"]},
+    {"type": "formula-reference", "labels": ["10.1"]},
+    {"type": "section-heading", "level": 3, "number": "10.2.4", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "必须确认所有与最终溶液接触的塑料制品已在15% HNO₃中浸泡24 h并且用高纯水彻底冲洗。整个提取过程必须设置空白，以确保溶液不受外源污染。"}
+    ]},
+    {"type": "printed-page-number", "text": "84"}
+  ],
+  "formulas": [
+    {"label": "10.1", "plain": "K_d=金属元素总量/溶液中的金属元素含量", "latex": "K_d=\\frac{\\text{金属元素总量}}{\\text{溶液中的金属元素含量}}", "context": "分配系数，单位L/kg；分子为mg/kg，分母为mg/L"}
+  ],
+  "tables": [],
+  "contentSha256": "c18a44bcd600d1b94d35255925aa487e00ce57503976edf4bd02fcdb71c848ad"
+}

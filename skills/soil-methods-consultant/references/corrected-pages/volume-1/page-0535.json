@@ -1,0 +1,83 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 535,
+  "sourceImageSha256": "e28c5a8b35138d66b6f68b52cf68cd671b8fafc19ccb8e43b592c935a3856f53",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，接续53.4并完成图53.2、相位/基线校正及积分区间至跨页句"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验25/30/50/100 Hz、30～34 ppm、75/300 MHz、13 kHz及0～45/45～110/110～160/160～220 ppm四积分区间"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由跨页末句反向复核至53.4续段，检查zero filling与截断混淆、图53.2条件、相位/基线顺序、积分边界和印刷页码504"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph-continuation",
+      "scope": "53.4",
+      "text": "[承第534页] 即使研究者不亲自采集，也应参与数据处理，以便理解和解释结果。傅里叶变换把时域FID转换为频域谱。"
+    },
+    {
+      "type": "procedure-step",
+      "scope": "53.4",
+      "text": "傅里叶变换前可用指数加窗实现谱线展宽，以提高FID早期高S/N部分的权重。书中建议展宽值（Hz）至少与数字分辨率相当，例如30 Hz；逐步增加，至分辨率下降或谱形失真前停止，并比较多种展宽结果。"
+    },
+    {
+      "type": "procedure-step",
+      "scope": "53.4",
+      "text": "需要提高显示点密度时，在FID末尾追加零点（zero filling，常加倍数据点数），不能把已有FID后半段简单清零冒充零填充。为抑制初始尖峰可谨慎丢弃/左移前2或4点，但须评估相位、基线和定量偏差；其他加窗（apodization）函数按专业软件说明使用。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "53.4零填充",
+      "text": "原书表述为‘把自由感应衰减光谱的后半部分设置为零，这样数据点增加一倍’，混淆了截断与zero filling。已校正为在原FID末尾追加零点；清零已有有效数据会丢失信号并造成伪影。"
+    },
+    {
+      "type": "figure",
+      "number": "图53.2",
+      "title": "谱线展宽对CP/MAS ¹³C NMR谱的影响",
+      "details": "HF/HCl处理的泥炭胡敏酸；谱线展宽25、50、100 Hz。30～34 ppm亚甲基C区出现随展宽变化的明显失真。RAMP-CP，¹³C共振频率75 MHz（300 MHz仪器），MAS 13 kHz。"
+    },
+    {
+      "type": "procedure-step",
+      "scope": "53.4",
+      "text": "傅里叶变换后迭代校正相位以获得吸收型谱；宽或不稳定基线会增加相位校正难度。积分前再做有依据的自动或手动基线校正，保存原始FID及各处理参数以便复现。"
+    },
+    {
+      "type": "procedure-step",
+      "scope": "53.4",
+      "text": "常用积分区：alkyl C 0～45 ppm；O-alkyl C 45～110 ppm；芳香C与取代芳香C 110～160 ppm；羧基C与羰基C 160～220 ppm。以各区积分占总积分的百分数表示相对分布；化学位移还可辅助指认特定官能团（见表53.1）。"
+    },
+    {
+      "type": "paragraph-continuation",
+      "text": "部分固态¹³C NMR方法不能完全定量，结果通常视为半定量；但在一致条件下比较土壤样品及研究有机质降解与转化仍有价值。[续见第536页]"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "53.4-region-percent",
+      "display": "C_region(%) = I_region/ΣI_all regions × 100%",
+      "meaning": "四个化学位移区间的相对积分百分数"
+    }
+  ],
+  "tables": [
+    {
+      "id": "53.4-integration-regions",
+      "title": "土壤有机质固态¹³C NMR常用积分区间",
+      "columns": ["区间（ppm）", "归属"],
+      "rows": [
+        ["0～45", "烷基C"],
+        ["45～110", "烷氧基C"],
+        ["110～160", "芳香C与取代芳香C"],
+        ["160～220", "羧基C与羰基C"]
+      ]
+    }
+  ],
+  "contentSha256": "cc4235ca4c4544a913235fa0438b771f2858b49e9403b19aaa4cf6a7e023b8dd"
+}

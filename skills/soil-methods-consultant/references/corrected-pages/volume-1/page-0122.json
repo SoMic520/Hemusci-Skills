@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 122,
+  "sourceImageSha256": "a209545b8bb24db5419ac452c3db7dd86979a58c64081e023431fc35c0887dd8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复11.1.1续文、11.1.2三段和11.2首段"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对KCl、CaCl₂、SrCl₂、Al³⁺、Hordeum vulgare L.、2.5～40/10/20 mmol/L、所有mg/kg与mmol/L、百分比、pH值及幂函数y=4.700^(0.240x)"},
+    "secondVisualPass": {"status": "verified", "method": "按农田铝锰阈值、森林毒性、Joslin-Wolfe关系和农田提取方法反向复核，确认幂函数指数为上标0.240x、离子下标、方法层级和印刷页码91"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第11章｜酸性土壤中的易溶性铝和锰｜"},
+    {"type": "paragraph", "continuation": true, "text": "1978）。Kamprath（1970）建议施用的石灰量也可以通过没有缓冲能力的中性盐溶液（如1 mol/L KCl）从酸性土壤中提取的可溶性铝来确定，上述方法至少对于老成土和氧化土可行。Hoyt和Nyborg（1971a、b，1972，1987）的研究表明，加拿大的酸性土壤中，0.01 mol/L和0.02 mol/L的CaCl₂可溶性铝和锰与作物响应密切相关。除苜蓿外，测试作物的产量与稀CaCl₂可提取铝的相关性比与土壤pH值或可交换态铝（1 mol/L KCl可交换提取量）的相关性更强（Webber等，1982；Hoyt和Nyborg，1987）。当稀CaCl₂可提取铝接近1 mg/kg时，铝敏感作物大麦（Hordeum vulgare L.）对施用的石灰没有反应（Hoyt等，1974）。Webber等（1977）发现将0.02 mol/L CaCl₂可提取铝降低到1 mg/kg所需的石灰施用量少于用Shoemaker-McLean-Pratt（SMP）方法使pH值达到6时所需的石灰施用量（Shoemaker等，1961）。澳大利亚、新西兰和美国的调查研究也显示，稀CaCl₂提取铝和锰的方法是酸性土壤中铝和锰毒性的合适评判标准（Wright等，1988，1989；Close和Powell，1989；Conyers等，1991）。", "inlineNotation": ["1 mol/L KCl", "0.01 mol/L", "0.02 mol/L", "CaCl₂", "pH", "1 mg/kg", "Hordeum vulgare L.", "SMP", "pH值达到6"]},
+    {"type": "section-heading", "level": 3, "number": "11.1.2", "title": "森林土壤中铝和锰的毒性"},
+    {"type": "paragraph", "text": "近20年来，严重的环境压力（如大气污染和水污染）造成了中欧和北美东部森林覆盖率的下降（Hinrichsen，1986）。与农作物一样，土壤溶液中铝活性的增强会对树木的功能和生长造成不良影响（Cronan和Grigal，1995）。森林土壤通常呈酸性（pH值<5），因此其中有毒铝和锰的溶解度一般较高。"},
+    {"type": "paragraph", "text": "针对锰对树木毒害作用的研究不多。然而，相比于铝，作物叶片中的锰能更好地指示土壤溶液中的锰含量，但其毒性由于高有效性铝的伴生而难以表现出来（Hoyle，1972；Kazda和Zvacek，1989）。在水培实验中，Hoyle（1972）发现黄桦叶片中锰的含量为441 mg/kg（溶液中的锰为0.091 mmol/L）时最适宜生长，但超过1328 mg/kg（溶液中锰为0.45 mmol/L）则不利于生长。在受到大气污染的欧洲森林中，土壤溶液中锰的浓度范围为0.018～0.36 mmol/L，这取决于土壤的酸度和母质类型（Kazda和Zvacek，1989）。", "inlineNotation": ["441 mg/kg", "0.091 mmol/L", "1328 mg/kg", "0.45 mmol/L", "0.018～0.36 mmol/L"]},
+    {"type": "paragraph", "text": "Joslin和Wolfe（1988）发现溶解的无机单体铝、总铝、Al³⁺活度和SrCl₂可提取铝可以分别用于解释作物根部79%、74%、61%和61%的生物量变异性。当SrCl₂可提取铝和无机单体铝浓度分别为10 mg/kg和0.1 mmol/L时，首次观察到根部分支及其细根的生物量显著减少（Joslin和Wolfe，1988，1989）。我们采用Joslin和Wolfe（1988）的数据来分析SrCl₂可提取铝和无机单体铝含量之间的关系。除去Becket地区的一个异常值，71.2%的无机单体铝的浓度（y）可以通过幂函数y=4.700^(0.240x)来预测SrCl₂可提取铝的浓度（x）。土壤中10 mg/kg的SrCl₂可提取铝对应溶液中无机单体铝的水平约为0.05 mmol/L，这接近于Bélanger（2000）通过荟萃分析计算得出的0.07 mmol/L的毒性阈值。最后，Joslin和Wolfe（1989）讨论了Becket地区树木的特殊响应（即尽管树木叶片中铝浓度和SrCl₂可提取铝含量相对较高，但其根系仍大量生长），并提出树木吸收的大部分铝以有机络合形式存在。众所周知，金属阳离子与有机物络合会增强植物的吸收（Arp和Ouimet，1986），但却对树木无害（Rost-Siebert，1984）。因此，如果土壤中的铝主要为有机结合态，SrCl₂提取法可能并不是该类土壤中铝潜在毒性的可靠指标。", "inlineNotation": ["Al³⁺", "SrCl₂", "79%", "74%", "61%", "10 mg/kg", "0.1 mmol/L", "71.2%", "y=4.700^(0.240x)", "0.05 mmol/L", "0.07 mmol/L"]},
+    {"type": "section-heading", "level": 2, "number": "11.2", "title": "针对农田土壤的提取方法"},
+    {"type": "paragraph", "text": "Hoyt和Nyborg（1972）的研究表明用2.5～40 mmol/L的CaCl₂溶液提取酸性土壤中的铝和锰时，20 mmol/L CaCl₂提取液与三种作物的产量之间有较好的相关性。随后的研究表明，实验时采用5 min的振荡时间完全足够，这只比振荡1 h所得到的铝浓度略低，并且20 mmol/L CaCl₂提取的铝浓度是10 mmol/L CaCl₂提取的铝浓度的两倍（Hoyt和Webber，1974）。根据Webber等（1977）的研究，当加拿大酸性土壤中可提取铝为1 mg/kg或更低时，可能并不需要施用石灰。Close和Powell（1989）对新西兰的土壤也采用了这种提取方法。", "inlineNotation": ["2.5～40 mmol/L", "CaCl₂", "20 mmol/L", "5 min", "1 h", "10 mmol/L", "1 mg/kg"]},
+    {"type": "printed-page-number", "text": "91"}
+  ],
+  "formulas": [
+    {"label": null, "plain": "y=4.700^(0.240x)", "latex": "y=4.700^{0.240x}", "context": "用SrCl₂可提取铝浓度x预测无机单体铝浓度y的幂函数"}
+  ],
+  "tables": [],
+  "contentSha256": "94be6056c92022f8a4798de63d20f784c850b9d9f97142657e9f872d11dbd616"
+}

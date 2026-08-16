@@ -1,0 +1,22 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 74,
+  "sourceImageSha256": "bf2bb75ee2b190025fd970d857be89ba11dd93ab15e1b3cbe89cd60584b1bb61",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐步对照原分辨率图和两套OCR，完成改型跨页余文、图60.4及60.3.3步骤(1)～(5)"},
+    "precisionPass": {"status": "verified", "method": "核验50×50 mm、TDR插入层级、3～5级法向应力及0/20/35/70和60/100/150/200/250 kPa"},
+    "secondVisualPass": {"status": "verified", "method": "由步骤(5)反向复核至跨页首句，检查图60.4传感器功能、法向/剪切应力区分和压力级；印刷页码583"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "弹簧旋转‘卡紧’时，无约束杆会使操作者难以保持法向应力并捕捉峰后快速下降的剪应力。"},
+    {"type": "figure", "number": "60.4", "caption": "增加法向力和剪切力负载元件后的剪切数据采集仪/剪应力记录仪。", "labels": ["手柄", "图形记录鼓", "铅笔架", "螺旋弹簧", "测剪切力的微型圆梁", "连接采集器电缆", "测法向力的S形传感器", "履齿叶片"]},
+    {"type": "heading", "number": "60.3.3", "title": "步骤", "level": 3},
+    {"type": "paragraph", "text": "图形记录仪与数字采集仪均据Cohron（1963）定制，程序相似。小型剪切头的作业平面原书写50 mm×50 mm，大头用于更大区域。清除植被并整平表面；深层测量从一侧开挖露出水平面。"},
+    {"type": "procedure-steps", "items": ["(1) 先测水分：将TDR圆叶插入水平土面，至环氧/塑料顶端刚接触土面。", "(2) 用TDR记录体积含水量，原理见第70章。", "(3) 经水分探头顶端开口插入剪切头履齿，直到两者顶面接触；用小刀/铲轻除探头外侧土。", "(4) 启动负载传感器数据记录。图形记录仪则装好图纸，并在零载荷下对齐定位。", "(5) 选择3～5个法向应力级，垂直下压手柄施加。Ayers（1987）装填土用0、20、35、70 kPa；本章田间示例用60、100、150、200、250 kPa。"]},
+    {"type": "source-fidelity-note", "text": "本页‘50 mm×50 mm小型剪切头平面’与前页明确的40 mm圆盘直径并非同一几何量，不能据此重算圆盘剪切面积；计算仍使用实际剪切头标定面积1257或5027 mm²。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "bf6c3a8b67dd90e154e3ac9b8300fb5f6d0b1d8a5d1b74056452491194f6b21f"
+}

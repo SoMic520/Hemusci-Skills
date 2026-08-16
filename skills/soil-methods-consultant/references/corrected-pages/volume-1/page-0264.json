@@ -1,0 +1,22 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 264,
+  "sourceImageSha256": "9d7b9855cb1a3b943bd90f8074771dfcc7c591645e74456a6a6d80b6359f9b1e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第26章第233页，并与Apple Vision、PaddleOCR交叉比对，人工恢复Soil Survey Staff、Wada、Wang三条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验4th ed.、SMSS Technical Monograph No. 6、allophane/imogolite、Al/Fe/Si、Spodosols、卷页地点及丛日环/鲁剑巍/党海燕/王朝辉姓名"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至Soil Survey Staff（1990），确认三条文献边界、书名、章节页码、机构地点和印刷页码233"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第26章｜土壤中有效态铝、铁、锰、硅的元素分析｜"},
+    {"type": "reference", "text": "Soil Survey Staff. 1990. Keys to Soil Taxonomy, 4th ed. SMSS Technical Monograph No. 6. Blacksburg, VA."},
+    {"type": "reference", "text": "Wada, K. 1989. Allophane and imogolite. In: J.B. Dixon and S.B. Weed, eds. Minerals in Soil Environments. Soil Science Society of America, Madison, WI, 1051-1087."},
+    {"type": "reference", "text": "Wang, C., Schuppli, P.A., and Ross, G.J. 1987. A comparison of hydroxylamine and ammonium oxalate solutions as extractants for Al, Fe, and Si from Spodosols and Spodosol-like soils in Canada. Geoderma 40: 345-355."},
+    {"type": "translator-credit", "text": "（丛日环　鲁剑巍　党海燕　译，王朝辉　校）"},
+    {"type": "printed-page-number", "text": "233"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a09b812c5b629cbf189d522a1d3f5180663dd9e47e747aed9443714cbe7bae9e"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 534,
+  "sourceImageSha256": "0dc33e16764ea4661d8ebb3e4ce323af06b738cf60bd0910c4930e13808d045b",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，完成图53.1、53.3.7、53.3.8及53.4首句"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验75/300 MHz、5 074/7 500/12 500 Hz、130/110～115 ppm、10 s、¹³C、PSRE、T_CH、T₁ρH、RESTORE和二维NMR"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由53.4跨页句反向复核至图53.1，检查图轴、旋转边带标注、空转子背景扣除条件、RESTORE全称依据和印刷页码503"
+    }
+  },
+  "blocks": [
+    {
+      "type": "figure",
+      "number": "图53.1",
+      "title": "不同MAS转速下生物炭CP/MAS ¹³C NMR谱",
+      "details": "¹³C共振频率75 MHz（300 MHz仪器）；MAS转速5 074、7 500、12 500 Hz。芳香族C主峰约130 ppm；低转速有明显旋转边带，12 500 Hz时边带移出光谱窗口。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "53.3.7",
+      "title": "背景信号"
+    },
+    {
+      "type": "paragraph",
+      "text": "转子与探头背景会影响BD谱和低C样品CP谱，常表现为约110～115 ppm的宽峰，可能被误判为芳香C；其大小依探头/转子而异。低C或高顺磁样品还易出现FID初始尖峰。"
+    },
+    {
+      "type": "procedure-step",
+      "scope": "53.3.7",
+      "text": "用空转子采集背景并从样品FID/谱中扣除。不同实验类型须重新取得背景。书中报道10 s延迟可得到与更长延迟相同的BD背景，但必须在具体谱仪-探头组合上验证。若比较CP与BD等绝对强度，背景与样品必须采用一致扫描次数和可比处理；保留不同扫描次数的背景原始数据。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "53.3.8",
+      "title": "其他实验"
+    },
+    {
+      "type": "paragraph",
+      "text": "进阶方法包括¹³C自旋计数、顺磁性影响研究、质子自旋弛豫编辑（PSRE）、RESTORE、定量固态NMR、分子运动性和二维NMR。RESTORE全称为REstoration of Spectra via T_CH and T₁ρH Editing，用接触时间T_CH与¹H旋转坐标系弛豫T₁ρH编辑，识别CP低估组分。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "53.3.8 RESTORE",
+      "text": "原书把T₁ρH印/OCR为T₁pH；已按所引Smernik方法恢复ρ下标。书中此处引作Smernik et al. (2004)，RESTORE方法原始论文为Smernik and Oades (2003)，最终参考文献页仍将按书载条目逐条校核。"
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "number": "53.4",
+      "title": "数据处理"
+    },
+    {
+      "type": "paragraph-continuation",
+      "text": "数据处理含多个会显著影响最终谱图的阶段。数据通常从独立工作站获得，[续见第535页]"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ddf6e34e6872818be474caee034f2593ef1d53d0535ebcfe23db1a449102f1a3"
+}

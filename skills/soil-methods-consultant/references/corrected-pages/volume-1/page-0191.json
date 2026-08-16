@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 191,
+  "sourceImageSha256": "79950d25f72e2141d9ae12a45c01a8a5a8cf04dea3123052a78ff773d95341c6",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第20章首页，并与Apple Vision、PaddleOCR交叉比对，人工恢复章名、作者机构、20.1引言、20.2方法原理、式（20.1）和材料（1）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验CaCO₃、CaMg(CO₃)₂、Ca₁₋ₓMgₓCO₃、FeCO₃、CO₂、pH、K、n、lg、T、270目及作者年份"},
+    "secondVisualPass": {"status": "verified", "method": "从页末材料（1）反向复核至章标题，确认方解石/白云石/文石/菱铁矿、St. Arnaud和式（20.1）括号层级；本扫描页未见印刷页码，不补造"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第20章", "title": "碳酸盐"},
+    {"type": "author", "name": "Tee Boon Goh", "affiliation": ["University of Manitoba", "Winnipeg, Manitoba, Canada"]},
+    {"type": "author", "name": "A.R. Mermut", "affiliation": ["University of Saskatchewan", "Saskatoon, Saskatchewan, Canada"]},
+    {"type": "section-heading", "level": 2, "number": "20.1", "title": "引言"},
+    {"type": "paragraph", "text": "土壤中的无机碳通常以碳酸盐方解石（CaCO₃）、白云石（CaMg(CO₃)₂）及含镁方解石（Ca₁₋ₓMgₓCO₃）的形式存在，少量以文石（CaCO₃）和菱铁矿（FeCO₃）的形式存在。土壤中的碳酸盐来自原生矿物和次生矿物。次生矿物中的碳酸盐常以粉粒和黏粒大小的方解石晶体形成的团聚体形式存在，而体积较大的方解石和白云石晶体主要是原生矿物（Doner和Lynn，1989）。变质岩学家曾提出，对碳酸盐，尤其是碳酸钙和碳酸镁的定性及定量研究，有助于对土壤起源、土壤分类、土壤微量元素及土壤磷吸收的研究。同时，土壤中的碳酸盐会影响根系生长、水分移动、土壤pH值（Nelson，1982）及土壤中复杂的物质转化过程（St. Arnaud和Herbillon，1973）。因为下层土壤中方解石与白云石侵入引起的表层土壤碳酸盐含量变异，已被用于解释侵蚀地貌区作物产量的差异（Papiernik等，2005）。"},
+    {"type": "paragraph", "text": "有许多方法可以用于测定土壤中含有方解石、白云石和含镁方解石。可以采用pH值与已知碳酸盐的含量，或土壤加酸处理后产生的CO₂量与已知碳酸盐含量的经验标准曲线来确定碳酸盐的含量及土壤碳酸盐中的无机碳含量。多数方法都将土壤碳酸盐含量以碳酸钙的含量表示，但进一步分析钙、镁含量亦可估算土壤中某种无机碳酸盐的含量。测定方法中最主要的误差来源是要区分这些阳离子有多少来源于碳酸盐矿物，有多少来源于土壤胶体吸附的交换性阳离子。"},
+    {"type": "paragraph", "text": "例如，当土壤中的碳酸盐主要来源于原生矿物时，它们主要由较大的晶体组成，可以首先通过密度分离技术将它们分离出来（Jackson，1985；Laird和Dowdy，1994），然后再去进一步区分方解石和白云石。"},
+    {"type": "section-heading", "level": 2, "number": "20.2", "title": "经验标准曲线法测定碳酸盐含量（Loeppert等，1984）"},
+    {"type": "paragraph", "text": "这种分析方法适合于常规快速的大量样品分析，用一定量的醋酸与碳酸盐反应，记录每个样品中碳酸钙完全溶解后的pH值。碳酸钙含量可以经验性地通过pH值与碳酸钙质量的标准曲线方程确定，具体公式为："},
+    {"type": "formula-explanation", "formulaRef": "20.1", "text": "式中，K和n是常数，而T是指能被已知定量醋酸完全中和时所消耗的CaCO₃总量。"},
+    {"type": "section-heading", "level": 3, "number": "20.2.1", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "name": "标准方解石", "text": "高纯度方解石，例如，研磨至小于270目的冰洲石。"}
+  ],
+  "formulas": [
+    {
+      "number": "20.1",
+      "context": "经验标准曲线",
+      "display": "pH值 = K + n lg[CaCO₃/(T−CaCO₃)]",
+      "latex": "\\mathrm{pH}=K+n\\lg\\left[\\frac{CaCO_3}{T-CaCO_3}\\right]"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "c193f4463bf8878a00c2974f6446b292380bd710be034c16e0078158d0ba1ff0"
+}

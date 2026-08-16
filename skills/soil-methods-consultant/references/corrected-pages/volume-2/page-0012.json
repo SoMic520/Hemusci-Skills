@@ -1,0 +1,60 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 12,
+  "sourceImageSha256": "21793773cb4dcc84979c52242f524473efd69f45dd83e6f4f615b056ac9ffe01",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率目录和两套OCR，完成68.5.1至70章参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验饱和/非饱和导水率、气体扩散率、时域反射仪法、探地雷达法及653～696页码"},
+    "secondVisualPass": {"status": "verified", "method": "由70章参考文献反向复核至68.5.1，检查第七篇层级、电容电阻法各子项及罗马页码XI"}
+  },
+  "blocks": [
+    {
+      "type": "toc-tree-continuation",
+      "entries": [
+        {"number": "68.5.1", "title": "泥炭土饱和导水率", "page": 653, "level": 3},
+        {"number": "68.5.2", "title": "栽培基质的饱和导水率", "page": 654, "level": 3},
+        {"number": "68.5.3", "title": "栽培基质的非饱和导水率", "page": 655, "level": 3},
+        {"number": "68.5.4", "title": "非饱和导水率原位测定", "page": 656, "level": 3},
+        {"number": "68.5.5", "title": "气体扩散率", "page": 658, "level": 3},
+        {"number": "68.6", "title": "栽培基质质量的解释表", "page": 659, "level": 2},
+        {"number": "第68章参考文献", "title": "参考文献", "page": 659, "level": 2},
+        {"number": "第七篇", "title": "土壤水分析", "page": null, "level": 0},
+        {"number": "第69章", "title": "土壤水分析：原理和参数", "page": 665, "level": 1},
+        {"number": "69.1", "title": "引言", "page": 665, "level": 2},
+        {"number": "69.2", "title": "土壤含水量", "page": 665, "level": 2},
+        {"number": "69.3", "title": "土壤水势", "page": 666, "level": 2},
+        {"number": "69.4", "title": "土壤脱水曲线和吸水曲线", "page": 667, "level": 2},
+        {"number": "69.4.1", "title": "脱水曲线和吸水曲线的应用", "page": 668, "level": 3},
+        {"number": "69.4.2", "title": "水和空气存储参数", "page": 669, "level": 3},
+        {"number": "69.4.3", "title": "脱水曲线与吸水曲线的测定", "page": 670, "level": 3},
+        {"number": "69.5", "title": "饱和水力学特性", "page": 671, "level": 2},
+        {"number": "69.6", "title": "非饱和水力学特性", "page": 673, "level": 2},
+        {"number": "第69章参考文献", "title": "参考文献", "page": 680, "level": 2},
+        {"number": "第70章", "title": "土壤含水量", "page": 684, "level": 1},
+        {"number": "70.1", "title": "引言", "page": 684, "level": 2},
+        {"number": "70.2", "title": "烘干法", "page": 684, "level": 2},
+        {"number": "70.3", "title": "时域反射仪法", "page": 685, "level": 2},
+        {"number": "70.3.1", "title": "材料和设备", "page": 685, "level": 3},
+        {"number": "70.3.2", "title": "步骤", "page": 687, "level": 3},
+        {"number": "70.3.3", "title": "计算过程", "page": 688, "level": 3},
+        {"number": "70.3.4", "title": "注释", "page": 688, "level": 3},
+        {"number": "70.4", "title": "探地雷达法", "page": 689, "level": 2},
+        {"number": "70.4.1", "title": "材料和设备", "page": 690, "level": 3},
+        {"number": "70.4.2", "title": "步骤", "page": 691, "level": 3},
+        {"number": "70.4.3", "title": "注释", "page": 692, "level": 3},
+        {"number": "70.5", "title": "电容电阻法", "page": 692, "level": 2},
+        {"number": "70.5.1", "title": "材料和设备", "page": 693, "level": 3},
+        {"number": "70.5.2", "title": "步骤", "page": 694, "level": 3},
+        {"number": "70.5.3", "title": "校准", "page": 694, "level": 3},
+        {"number": "70.5.4", "title": "测量", "page": 695, "level": 3},
+        {"number": "70.5.5", "title": "计算", "page": 695, "level": 3},
+        {"number": "70.5.6", "title": "注释", "page": 696, "level": 3},
+        {"number": "第70章参考文献", "title": "参考文献", "page": 696, "level": 2}
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "5b473466b79bf68044c383c37993fc16765f7b805b71edf61357a62c981124f7"
+}

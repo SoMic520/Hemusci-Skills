@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 319,
+  "sourceImageSha256": "518c94a84b1960059ca0c099ac65e1112c5a8e5452b436c15965f747445046ec",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复菌落杂交续文、31.4.1及31.4.2首部分"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验³²P上标、μg/mL、mmol/L、10⁻³上标、全部培养基配方、探针名pRWRm61/pSW95、菌株号与温压时间"},
+    "secondVisualPass": {"status": "verified", "method": "从页末跨页句反向复核至菌落杂交续文，确认原书标题大写Meliloti/Leguminosarum、消化纤维素及TY/YT不一致；页码288"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph-continuation", "continuationOf": "page-0318#colony-hybridization", "text": "的菌落可以通过放射自显影技术（检测放射性探针）或者与分子的免疫球蛋白结合（检测非放射性探针）进行检测。"},
+    {"type": "section-heading", "level": 3, "number": "31.4.1", "title": "S. Meliloti菌的分离及计数"},
+    {"type": "source-fidelity-note", "scope": "31.4.1标题", "text": "原书标题将种加词印作大写Meliloti；规范二名法应写作S. meliloti。正文检索同时索引两种写法。"},
+    {"type": "subsection-heading", "number": "1", "title": "AS培养基（贫营养琼脂培养基）（Bromfield等，1994）"},
+    {"type": "reagent-item", "name": "AS培养基", "text": "配方：酵母提取物，0.1 g/L；胰蛋白胨，0.4 g/L；CaCl₂，0.1 g/L；NaCl，5.0 g/L；环己酰亚胺，0.15 g/L；刚果红，0.025 g/L；琼脂，10.0 g/L。刚果红预先配制溶液，高压121 ℃，灭菌15 min后添加至培养基。环己酰亚胺溶液过滤膜后加入高压蒸汽灭菌后熔化了的培养基中。"},
+    {"type": "critical-safety-note", "scope": "31.4.1 AS培养基", "text": "AS培养基含环己酰亚胺；配制、过滤和废弃必须执行机构风险评估、SDS和危害废物要求。原书“过滤膜后加入”指过滤除菌，不得将环己酰亚胺随培养基高压灭菌。"},
+    {"type": "procedure", "name": "用于接种的土壤稀释液", "text": "将土壤用无菌水稀释10倍，手腕式振荡器混匀15 min。然后根据预期的土壤细菌和根瘤菌浓度稀释至适当浓度（1∶1000和1∶100），取0.1 mL接种至AS培养基上。每块平板上100～300 cfu（colony-forming units，菌落形成单位）为宜。通过杂交技术可以检测到每块板上7～100个根瘤菌菌落。如果采用1∶100和低浓度的土壤稀释液，可向AS培养基中加入0.05%脱氧胆酸钠和12.5 mmol/L的Tris-HCl，pH值调至8.0（Barran等，1997）以减少土壤菌落总数。"},
+    {"type": "subsection-heading", "number": "2", "title": "S. meliloti菌落印迹杂交"},
+    {"type": "procedure", "text": "按压滤膜（Whatman滤纸或者消化纤维素滤膜）将琼脂板上的菌落原位转移，用碱破碎细胞，然后将滤膜与（³²P）标记的探针杂交。那些与探针结合的菌落通过放射自显影技术鉴定。目前有两种探针可以被成功用于S. meliloti的检测。pRWRm61探针来自插入序列ISRm5，它可以与大多数S. meliloti菌株的DNA基因组强力杂交，除了澳大利亚或地中海东部的个别菌株（Wheatcroft等，1993；Barran等，1997）。pSW95探针源于S. meliloti菌株RCR2011（SU47）（Debelle和Sharma，1986）的nodH基因，该探针具有极高的物种特异性，已经被用来检测加拿大S. meliloti菌株（Bromfield等，1994）。"},
+    {"type": "source-fidelity-note", "scope": "31.4.1菌落印迹杂交", "text": "原书清晰印作“消化纤维素滤膜”，结合前文及菌落印迹语境应为“硝化纤维素滤膜”。原文保留，执行材料按nitrocellulose membrane核对。放射性³²P操作还必须满足辐射许可与机构规程。"},
+    {"type": "section-heading", "level": 3, "number": "31.4.2", "title": "R. Leguminosarum菌的分离"},
+    {"type": "source-fidelity-note", "scope": "31.4.2标题", "text": "原书标题将种加词印作大写Leguminosarum；规范写法为R. leguminosarum。"},
+    {"type": "subsection-heading", "number": "1", "title": "MNBP培养基（Louvier等，1995）和LB培养基（Miller等，1972）"},
+    {"type": "paragraph", "text": "MNBP培养基可以减少88%～95%的土壤细菌。LB培养基（R. leguminosarum无法在上面生长）用来作为计数的对照。通过菌落印迹杂交技术可以鉴定只生长在MNBP培养基上的菌落。这个技术时间较久，适合用来分离R. leguminosarum，但是不能用以计数。相对于非选择性的培养基，这一过程有利于减少“假定”根瘤菌的数量。"},
+    {"type": "reagent-item", "name": "MNBP培养基", "text": "MNBP配方：Na₂HPO₄·12H₂O，0.045 g/L；MgSO₄·7H₂O，0.10 g/L；FeCl₃，0.02 g/L；CaCl₂，0.04 g/L；甘露醇，1.00 g/L；NH₄NO₃，0.005 g/L；生物素，0.0005 g/L；硫胺素，0.0005 g/L；泛酸钙，0.0005 g/L；杆菌肽，0.025 g/L；青霉素G，0.003 g/L；环己酰亚胺，0.10 g/L；苯来特，0.005 g/L；五氯硝基苯，0.0035 g/L；琼脂，15.0 g/L。调节pH值到6.8并在121 ℃高压灭菌15 min。将维他命和抗菌剂用去离子水溶解配成溶液并过滤膜灭菌。将其添加到灭菌的熔化的琼脂中。"},
+    {"type": "reagent-item", "name": "LB培养基", "text": "LB配方：胰蛋白胨，10.0 g/L；酵母提取物，5.0 g/L；NaCl，10.0 g/L；琼脂，15.0 g/L。调节pH值到7.2并在121 ℃高压灭菌15 min。"},
+    {"type": "reagent-item", "name": "TY培养基", "text": "TY配方：胰蛋白胨，5.0 g/L；酵母提取物，3.0 g/L；CaCl₂·H₂O，0.87 g/L；琼脂，12.0 g/L。用1 mol/L NaOH调节pH值到6.8～7.2。在121 ℃高压灭菌15 min后会出现沉淀。"},
+    {"type": "procedure", "id": "mnbp-inoculation", "continuation": "page-0320", "name": "土壤稀释液接种", "text": "0.1 mL土壤稀释液（10⁻³）涂布到MNBP培养基上（25个平板）。生长2～3天后，需要切除分泌黏液的菌落（约占琼脂平板表面30%）以防过度生长。每个平板中剩余的菌落通过绒毛复制转移到LB和MNBP平板上。只在MNBP平板上生长的菌落（每个平板约300个）被转移到YT琼脂斜面培养基上，通过杂交来进一步鉴定。随着测定方法的不断改进，在土壤的测试中，每个平"},
+    {"type": "source-fidelity-note", "scope": "31.4.2培养基缩写", "text": "原书先给出TY配方，接种步骤却印作“YT琼脂斜面培养基”，属于内部缩写倒置；后页又写TY琼脂。执行时应按TY核对，不得把YT当作另一个已定义培养基。"},
+    {"type": "printed-page-number", "text": "288"}
+  ],
+  "formulas": [],
+  "tables": [
+    {"number": "31.4.1-AS", "title": "AS培养基配方", "columns": ["组分", "用量（g/L）"], "rows": [["酵母提取物", "0.1"], ["胰蛋白胨", "0.4"], ["CaCl₂", "0.1"], ["NaCl", "5.0"], ["环己酰亚胺", "0.15"], ["刚果红", "0.025"], ["琼脂", "10.0"]]},
+    {"number": "31.4.2-MNBP", "title": "MNBP培养基配方", "columns": ["组分", "用量（g/L）"], "rows": [["Na₂HPO₄·12H₂O", "0.045"], ["MgSO₄·7H₂O", "0.10"], ["FeCl₃", "0.02"], ["CaCl₂", "0.04"], ["甘露醇", "1.00"], ["NH₄NO₃", "0.005"], ["生物素", "0.0005"], ["硫胺素", "0.0005"], ["泛酸钙", "0.0005"], ["杆菌肽", "0.025"], ["青霉素G", "0.003"], ["环己酰亚胺", "0.10"], ["苯来特", "0.005"], ["五氯硝基苯", "0.0035"], ["琼脂", "15.0"]]},
+    {"number": "31.4.2-LB", "title": "LB培养基配方", "columns": ["组分", "用量（g/L）"], "rows": [["胰蛋白胨", "10.0"], ["酵母提取物", "5.0"], ["NaCl", "10.0"], ["琼脂", "15.0"]]},
+    {"number": "31.4.2-TY", "title": "TY培养基配方", "columns": ["组分", "用量（g/L）"], "rows": [["胰蛋白胨", "5.0"], ["酵母提取物", "3.0"], ["CaCl₂·H₂O", "0.87"], ["琼脂", "12.0"]]}
+  ],
+  "contentSha256": "9a5cbe141675b7843c36d077f9412e5af2c7a361bb453e439680c7f8fcc8a529"
+}

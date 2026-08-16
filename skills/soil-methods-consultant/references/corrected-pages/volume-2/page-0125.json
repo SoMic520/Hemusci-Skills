@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 125,
+  "sourceImageSha256": "d1fa861e8ff9d319707bfbd14e27e20bbc50a6fd567af2222b7db26e4ae1bb29",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Huntington跨页结尾及Maynard至Prévost共7条参考文献和译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验Spodosol、MASS、PNW-RP-532、作者缩写、专著号、期刊卷页和变音符"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至Huntington跨页题名，检查页码、标点、机构名及题名拼写；印刷页码634"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Huntington, T.G., Johnson, C.E., Johnson, A.H., Siccama, T.G., and Ryan, D.F. 1989. Carbon, organic matter, and bulk density relationships in a forested Spodosol. Soil Sci. 148:380–386.",
+      "Maynard, D.G. and Senyk, J.P. 2004. Soil disturbance and five-year tree growth in a montane alternative silvicultural systems (MASS) trial. For. Chron. 80:573–582.",
+      "Miller, R.E., Hazard, J., and Howes, S. 2001. Precision, accuracy, and efficiency of four tools for measuring soil bulk density or strength. Research Paper PNW-RP-532. U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station, Portland, OR.",
+      "Muller, R.N. and Hamilton, M.E. 1992. A simple, effective method for determining the bulk density of stony soils. Commun. Soil Sci. Plant Anal. 23:313–319.",
+      "Page-Dumroese, D.S., Jurgensen, M.F., Brown, R.E., and Mroz, G.D. 1999. Comparison of methods for determining bulk densities of rocky forest soils. Soil Sci. Soc. Am. J. 63:379–383.",
+      "Powers, R.F., Tiarks, A.E., and Boyle, J.R. 1998. Assessing soil quality: Practicable standards for sustainable forest productivity in the United States. In: J.M. Bigham et al., eds. The Contribution of Soil Science to the Development of and Implementation of Criteria and Indicators of Sustainable Forest Management. SSSA Special Publication No. 53. Soil Science Society of America, Madison, WI, 53–80.",
+      "Prévost, M. 2004. Predicting soil properties from organic matter content following mechanical site preparation of forest soils. Soil Sci. Soc. Am. J. 68:943–949."
+    ]},
+    {"type": "credits", "text": "张猛译，任图生校。"},
+    {"type": "source-fidelity-note", "text": "原书Huntington题名印作Spodsol，已校正为土纲规范拼写Spodosol；G.D. Mroz的作者缩写、D.G. Maynard的标点及Prévost的重音符已恢复。Maynard期刊原缩写Forest. Chron.规范为For. Chron.，不改变文献指向。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e6170bf4f213ea273e566f475d5c53a8ed08d3ae8cefdd5d16182178da029e2f"
+}

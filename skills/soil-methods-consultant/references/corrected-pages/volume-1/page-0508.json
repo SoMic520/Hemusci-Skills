@@ -1,0 +1,47 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 508,
+  "sourceImageSha256": "6cd9cc150c2a2468ee2a509a1154c731780b5713da9a78e58b9a14a993142c36",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成50.2跨页段、50.2.1及50.2.2热水/弱酸/强酸方法至步骤（2）"},
+    "precisionPass": {"status": "verified", "method": "复算667/139/28 mL浓H₂SO₄对应12/2.5/0.5 mol·L⁻¹；核验2 g、0.15 mm、30 mL、85 °C、24 h、16 000×g、10 min、35:1、15 mL和−20 °C"},
+    "secondVisualPass": {"status": "verified", "method": "由强酸步骤（2）反向复核至50.2跨页句，检查所有温度、时间、体积、浓度和负号；印刷页码477"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "scope": "50.2", "text": "[承第507页] 依多糖耐酸性采用一系列酸强度递增的水解处理，可实现多糖分组（Chantigny等，2000）。"},
+    {"type": "section-heading", "level": 3, "number": "50.2.1", "title": "材料与试剂"},
+    {"type": "materials-list", "items": [
+      {"number": "（1）", "text": "12 mol·L⁻¹ H₂SO₄：将667 mL浓H₂SO₄（96%，w/w，分析纯）缓慢加入300 mL去离子水并不断搅拌；冷却至室温后，用去离子水定容至1 L。"},
+      {"number": "（2）", "text": "2.5 mol·L⁻¹ H₂SO₄：将139 mL浓H₂SO₄缓慢加入850 mL去离子水并不断搅拌；冷却至室温后定容至1 L。"},
+      {"number": "（3）", "text": "0.5 mol·L⁻¹ H₂SO₄：将28 mL浓H₂SO₄缓慢加入950 mL去离子水并不断搅拌；冷却至室温后定容至1 L。"},
+      {"number": "（4）～（8）", "text": "去离子水；烘箱、涡旋混合器、离心机、玻璃棒；带盖50 mL聚丙烯离心管；带盖250 mL聚丙烯离心瓶；适当体积的塑料样品瓶。"}
+    ]},
+    {"type": "safety-note", "text": "配酸时必须把浓硫酸缓慢加入水中并持续搅拌，冷却后再定容；不得把水加入浓硫酸。"},
+    {"type": "section-heading", "level": 3, "number": "50.2.2", "title": "步骤"},
+    {"type": "method-heading", "level": 4, "number": "1", "title": "热水提取态碳水化合物"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取2 g风干土（磨细并过0.15 mm筛），置聚丙烯离心管；酸水解前风干、研磨有利于提取碳水化合物。"},
+    {"type": "procedure-step", "number": "（2）", "text": "缓慢加入30 mL去离子水，涡旋混匀。"},
+    {"type": "procedure-step", "number": "（3）", "text": "盖紧离心管，在85 °C烘箱中培养24 h。"},
+    {"type": "procedure-step", "number": "（4）～（5）", "text": "涡旋充分混匀，冷却至室温；随后以16 000×g离心10 min。"},
+    {"type": "procedure-step", "number": "（6）", "text": "另取离心管，按水解液:浓H₂SO₄（96%，w/w，分析纯）=35:1（v/v）加入水解液和浓酸。"},
+    {"type": "procedure-step", "number": "（7）～（8）", "text": "涡旋混匀，在85 °C再培养24 h，使二糖、三糖及低聚糖完全水解；再重复涡旋混匀、冷却和16 000×g离心10 min。"},
+    {"type": "procedure-step", "number": "（9）", "text": "转移15 mL水解液至塑料瓶，−20 °C保存待测。"},
+    {"type": "method-heading", "level": 4, "number": "2", "title": "弱酸提取态碳水化合物"},
+    {"type": "paragraph", "text": "稀酸可水解碳水化合物并溶解微生物体物质、半纤维素等不稳定多糖；常用0.5 mol·L⁻¹或2.5 mol·L⁻¹ H₂SO₄。"},
+    {"type": "procedure-step", "number": "（1）", "text": "按热水提取法处理土样，但步骤（2）改加30 mL 0.5 mol·L⁻¹或2.5 mol·L⁻¹ H₂SO₄。"},
+    {"type": "procedure-step", "number": "（2）", "text": "省略热水法步骤（6）～（8），因为水解体系已经呈酸性。"},
+    {"type": "method-heading", "level": 4, "number": "3", "title": "强酸提取态碳水化合物（据Cheshire和Mundie，1966；Oades等，1970修订）"},
+    {"type": "paragraph", "text": "该法先浸泡以‘软化’结晶态多糖，如纤维素和木质纤维素。"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取2 g风干土（磨细并过0.15 mm筛），置50 mL离心管。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加入8 mL 12 mol·L⁻¹ H₂SO₄，用玻璃棒轻轻混合，确保全部土壤被酸浸润。[续见第509页]"}
+  ],
+  "formulas": [
+    {"id": "50.2.1-h2so4-12M", "display": "667 mL × 1.84 g·mL⁻¹ × 0.96/(98.079 g·mol⁻¹) ÷ 1 L ≈ 12.0 mol·L⁻¹", "meaning": "12 mol·L⁻¹ H₂SO₄配方复核；密度按约1.84 g·mL⁻¹"},
+    {"id": "50.2.1-h2so4-2.5M", "display": "139 mL concentrated H₂SO₄ diluted to 1 L ≈ 2.5 mol·L⁻¹", "meaning": "2.5 mol·L⁻¹ H₂SO₄配方"},
+    {"id": "50.2.1-h2so4-0.5M", "display": "28 mL concentrated H₂SO₄ diluted to 1 L ≈ 0.5 mol·L⁻¹", "meaning": "0.5 mol·L⁻¹ H₂SO₄配方"},
+    {"id": "50.2.2-hot-water-acidification", "display": "V_hydrolysate:V_conc-H₂SO₄ = 35:1", "meaning": "热水提取液后续酸化比例（v/v）"}
+  ],
+  "tables": [],
+  "contentSha256": "c4524a4622235cf729492fef98e8acce165050855e7d66bd4f805cc3d2a3e7fe"
+}

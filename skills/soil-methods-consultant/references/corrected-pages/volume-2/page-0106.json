@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 106,
+  "sourceImageSha256": "bd02230549d1428809fc73d066296364f5c2d61b04a21b8a9f709ccb97356d81",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐式对照原分辨率图和两套OCR，完成IRMS跨页结尾、64.4、64.4.1.1、图64.2及式（64.3）"},
+    "precisionPass": {"status": "verified", "method": "核验Pt/Ag–AgCl/KCl、ODR、O₂/CO₂、−0.2 V、i_lc/n/F/A/f_t,a全部下标及式（64.3）乘积关系"},
+    "secondVisualPass": {"status": "verified", "method": "由式（64.3）反向复核至IRMS跨页首句，检查负电位、阴阳极、图示电路和公式下标；印刷页码615"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "自然系统中轻同位素通常更丰富。IRMS可测稳定同位素相对丰度，从而提供仅凭浓度不能得到的示踪气体来源信息；详见Barrie和Prosser（1996）、Platzner（1997）、Scrimgeour和Robinson（2004）、Flanagan等（2005）。"},
+    {"type": "heading", "number": "64.4", "title": "气体–液体界面分析", "level": 2},
+    {"type": "paragraph", "text": "土壤–大气和土壤–水界面的通气状况影响植物生长与微生物过程。土壤水可调节土壤气体组成、影响生物过程、控制土壤–大气交换，并暂存可溶性气体，因此还需评价液相气体。电化学传感器可原位监测气相和液相中气体分压/浓度及其动态，已用于O₂扩散率（ODR）、O₂浓度剖面和土壤通气研究，以及土壤和沉积物CO₂的连续原位测量。"},
+    {"type": "paragraph", "text": "本节重点为铂（Pt）微电极测定土壤气相/液相ODR和O₂浓度。其原理、适用性和方法见Birkle等（1964）、McIntyre（1971）及Phene（1986）。"},
+    {"type": "heading", "number": "64.4.1", "title": "ODR测定", "level": 3},
+    {"type": "heading", "number": "64.4.1.1", "title": "原理和方法", "level": 4},
+    {"type": "paragraph", "text": "O₂从大气到活跃根系或微生物群落需经历土壤气相扩散、跨越气–水界面并穿过水膜到达根际。Pt阴极构成近似根表的还原界面；测定O₂由土壤向该界面的供给通量，可作为氧供应能力/ODR指标。"},
+    {"type": "materials-list", "items": [
+      "Pt电极（阴极）。",
+      "非极化参比电极（阳极），通常为Ag/AgCl电极，通过饱和KCl琼脂盐桥与土壤接触。",
+      "电源及电路，在阴极与阳极间施加极化电位。",
+      "电流计，测量输出电流；可接入含土壤电阻修正的数据采集系统，实现多电极连续快速测定。"
+    ]},
+    {"type": "figure", "number": "64.2", "title": "氧气扩散率测定系统基本组成", "labels": ["电源", "电流计", "阴极", "阳极"]},
+    {"type": "paragraph", "text": "Pt电极插入土壤后，相对参比电极逐步负向极化；约−0.2 V开始明显还原O₂。继续负向增加电位，直至达到扩散控制的极限电流区，此时O₂还原速率由其到达阴极表面的速率控制，极限电流i_lc与电极表面O₂通量成正比，见式（64.3）。"},
+    {"type": "source-fidelity-note", "text": "原书所称ODR是向裸Pt阴极的氧供给/还原通量指标，受土壤气相和水膜路径共同控制；不能把它解释成只由单一土壤扩散系数决定的本征参数。"}
+  ],
+  "formulas": [
+    {"label": "(64.3)", "plain": "i_lc = nFAfₜ,ₐ", "latex": "i_{lc}=nFAf_{t,a}", "variables": [
+      {"symbol": "i_lc", "meaning": "扩散控制区的极限电流（A）"},
+      {"symbol": "n", "meaning": "每个O₂分子完全还原转移的电子数，n=4"},
+      {"symbol": "F", "meaning": "法拉第常数，96485 C·mol⁻¹"},
+      {"symbol": "A", "meaning": "暴露Pt电极表面积（m²）"},
+      {"symbol": "fₜ,ₐ", "meaning": "极化时间t时流向半径a电极表面的O₂摩尔通量（mol·m⁻²·s⁻¹）"}
+    ], "conditions": ["电流须已达到扩散控制的稳定极限区", "A只计实际暴露且参与还原的Pt表面积", "t、a是测量状态与电极几何的下标，不与乘法项混淆"]}
+  ],
+  "tables": [],
+  "contentSha256": "f371f9c2a57b06ca542fa56416fa9edf7f9d1ffcc4b7d7cb33b3d3ef41a69364"
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 448,
+  "sourceImageSha256": "e6d4c62c91ccaaa0dc46eec627cd3a355c46fe9cc653640782211dae9d055e2f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率中文页、两套OCR、英文原版参考文献及可核验的期刊元数据；恢复连字符、重音符号、作者缩写和卷页"},
+    "precisionPass": {"status": "verified", "method": "逐条核验11条文献的年份、卷、页；重点把Nour等的错误卷号36校正为69，并修复Grüning、Philippot、Sørheim、Goksøyr等姓名"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向逐条复核至Heuer跨页页码；印刷页码417"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第43章｜细菌群落信息的变性梯度凝胶电泳（DGGE）分析｜"},
+    {"type": "reference-entry-continuation", "fromPage": 447, "text": "1325–1335."},
+    {"type": "reference-entry", "text": "Kropf, S., Heuer, H., Grüning, M., and Smalla, K. 2004. Significance test for comparing complex microbial community fingerprints using pairwise similarity measures. Journal of Microbiological Methods 57: 187–195."},
+    {"type": "reference-entry", "text": "Martin-Laurent, F., Philippot, L., Hallet, S., Chaussod, R., Germon, J.-C., Soulas, G., and Catroux, G. 2001. DNA extraction from soils: Old bias for new microbial diversity analysis methods. Applied and Environmental Microbiology 67: 2354–2359."},
+    {"type": "reference-entry", "text": "McGinnis, S. and Madden, T.L. 2004. BLAST: At the core of a powerful and diverse set of sequence analysis tools. Nucleic Acids Research 32: W20–W25."},
+    {"type": "reference-entry", "text": "Muyzer, G. 1999. DGGE/TGGE: A method for identifying genes from natural ecosystems. Current Opinion in Microbiology 2: 317–322."},
+    {"type": "reference-entry", "text": "Muyzer, G. and Smalla, K. 1998. Application of denaturing gradient gel electrophoresis (DGGE) and temperature gradient gel electrophoresis (TGGE) in microbial ecology. Antonie van Leeuwenhoek 73: 127–141."},
+    {"type": "reference-entry", "text": "Nour, S.M., Lawrence, J.R., Zhu, H., Swerhone, G.D.W., Welsh, M., Welacky, T.W., and Topp, E. 2003. Bacteria associated with cysts of the soybean cyst nematode (Heterodera glycines). Applied and Environmental Microbiology 69: 607–615. DOI: 10.1128/AEM.69.1.607-615.2003."},
+    {"type": "source-fidelity-note", "scope": "Nour等（2003）卷号", "text": "中文页及其英文排版底稿把卷号误印为36；期刊官网、DOI和卷期页码均证实应为69(1): 607–615。"},
+    {"type": "reference-entry", "text": "Patra, A.K., Abbadie, L., Clays-Josserand, A., Degrange, V., Grayston, S.J., Guillaumaud, N., Loiseau, P., Louault, F., Mahmood, S., Nazaret, S., Philippot, L., Poly, F., Prosser, J.I., and Le Roux, X. 2006. Effects of management regime and plant species on the enzyme activity and genetic structure of N-fixing, denitrifying, and nitrifying bacterial communities in grassland soils. Environmental Microbiology 8: 1005–1016."},
+    {"type": "reference-entry", "text": "Santegoeds, C.M., Ferdelman, T.G., Muyzer, G., and de Beer, D. 1998. Structural and functional dynamics of sulfate-reducing populations in bacterial biofilms. Applied and Environmental Microbiology 64: 3731–3739."},
+    {"type": "reference-entry", "text": "Torsvik, V., Sørheim, R., and Goksøyr, J. 1996. Total bacterial diversity in soil and sediment communities—a review. Journal of Industrial Microbiology & Biotechnology 17: 170–178."},
+    {"type": "reference-entry", "text": "Weber, S., Stubner, S., and Conrad, R. 2001. Bacterial populations colonizing and degrading rice straw in anoxic paddy soil. Applied and Environmental Microbiology 67: 1318–1327."},
+    {"type": "reference-entry", "text": "Whitman, W.B., Coleman, D.C., and Wiebe, W.J. 1998. Prokaryotes: The unseen majority. Proceedings of the National Academy of Sciences of the United States of America 95: 6578–6583."},
+    {"type": "translator-credit", "text": "邢佳佳 译，徐建明 校"},
+    {"type": "printed-page-number", "text": "417"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f170af8118ffae9aa8222da3eb3cf2b1d137b11c400d6a7091a7274ee2973f62"
+}

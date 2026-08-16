@@ -1,0 +1,70 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 10,
+  "sourceImageSha256": "6a1bf88e5ecfa9a4a1df383f2d042438552afe4346084745a2fabcb7a1f891bd",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条对照原分辨率目录和两套OCR，完成62.4.4至66.1"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验62.4.4～62.6、63.1～63.3、64.1～64.4.3、65.1～65.3、66.1编号、O₂/ODR和597～630页码"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由66.1反向复核至62.4.4，纠正OCR‘独度/部设/色潽/Oz’，检查‘浊度/布设/色谱/O₂’及罗马页码IX"
+    }
+  },
+  "blocks": [
+    {
+      "type": "toc-tree-continuation",
+      "entries": [
+        {"number": "62.4.4", "title": "注释", "page": 597, "level": 3},
+        {"number": "62.5", "title": "测定湿团聚体稳定性和浊度的综合方法", "page": 597, "level": 2},
+        {"number": "62.5.1", "title": "步骤", "page": 597, "level": 3},
+        {"number": "62.5.2", "title": "注释", "page": 598, "level": 3},
+        {"number": "62.6", "title": "一般性说明", "page": 598, "level": 2},
+        {"number": "第62章致谢", "title": "致谢", "page": 598, "level": 2},
+        {"number": "第62章参考文献", "title": "参考文献", "page": 598, "level": 2},
+        {"number": "第63章", "title": "干团聚体的粒级分布", "page": 601, "level": 1},
+        {"number": "63.1", "title": "引言", "page": 601, "level": 2},
+        {"number": "63.2", "title": "干筛法", "page": 602, "level": 2},
+        {"number": "63.2.1", "title": "设备", "page": 603, "level": 3},
+        {"number": "63.2.2", "title": "步骤", "page": 603, "level": 3},
+        {"number": "63.2.3", "title": "计算", "page": 603, "level": 3},
+        {"number": "63.2.4", "title": "几何平均直径和几何标准偏差", "page": 603, "level": 3},
+        {"number": "63.2.5", "title": "平均重量直径", "page": 605, "level": 3},
+        {"number": "63.3", "title": "注释", "page": 605, "level": 2},
+        {"number": "第63章参考文献", "title": "参考文献", "page": 607, "level": 2},
+        {"number": "第64章", "title": "土壤气体", "page": 610, "level": 1},
+        {"number": "64.1", "title": "引言", "page": 610, "level": 2},
+        {"number": "64.2", "title": "气相的采集", "page": 610, "level": 2},
+        {"number": "64.3", "title": "气相的分析", "page": 612, "level": 2},
+        {"number": "64.3.1", "title": "利用气相色谱法进行实验室分析", "page": 612, "level": 3},
+        {"number": "64.3.2", "title": "气相色谱的替代系统", "page": 614, "level": 3},
+        {"number": "64.4", "title": "气体—液体界面分析", "page": 615, "level": 2},
+        {"number": "64.4.1", "title": "ODR测定", "page": 615, "level": 3},
+        {"number": "64.4.2", "title": "O₂浓度测量", "page": 617, "level": 3},
+        {"number": "64.4.3", "title": "其他气体传感器", "page": 618, "level": 3},
+        {"number": "第64章参考文献", "title": "参考文献", "page": 619, "level": 2},
+        {"number": "第65章", "title": "地表气体排放", "page": 623, "level": 1},
+        {"number": "65.1", "title": "引言", "page": 623, "level": 2},
+        {"number": "65.2", "title": "非稳态气室", "page": 623, "level": 2},
+        {"number": "65.2.1", "title": "气体样品收集", "page": 624, "level": 3},
+        {"number": "65.2.2", "title": "集气室设计", "page": 626, "level": 3},
+        {"number": "65.2.3", "title": "集气室布设", "page": 627, "level": 3},
+        {"number": "65.2.4", "title": "通量计算", "page": 627, "level": 3},
+        {"number": "65.2.5", "title": "注释", "page": 628, "level": 3},
+        {"number": "65.3", "title": "稳态集气室", "page": 628, "level": 2},
+        {"number": "第65章参考文献", "title": "参考文献", "page": 628, "level": 2},
+        {"number": "第66章", "title": "森林土壤容重测定", "page": 630, "level": 1},
+        {"number": "66.1", "title": "引言", "page": 630, "level": 2}
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "6990b790d63f78a160227ce5007b629a6e60e95f39a9866aa2e318f376b887c1"
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 113,
+  "sourceImageSha256": "e9f7367e12fe1be177d64d9ee106338e393c4bfdd4b1a0a543ff12ab5eca5c54",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章首页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复章题、作者单位、10.1三段和提取方法前三项"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对Cd/Cu/Ni/Pb/Zn、As/Co/Cr/Mo/Sb/Se/Tl、80 μmol/L CaCl₂/CaSO₄、0.01 mol/L CaCl₂、0.05 mol/L NH₄-乙二胺四乙酸[EDTA]和NH₄⁺"},
+    "secondVisualPass": {"status": "verified", "method": "按章题署名、连续/单一提取讨论、微量元素范围和方法序列反向复核，确认方法层级、电荷上下标、作者地名及本章首页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "10", "title": "微量元素测定"},
+    {"type": "author", "name": "W.H. Hendershot, H. Lalande, and D. Reyes", "affiliation": ["McGill University", "Sainte Anne de Bellevue, Quebec, Canada"]},
+    {"type": "author", "name": "J.D. MacDonald", "affiliation": ["Agriculture and Agri-Food Canada", "Quebec, Quebec, Canada"]},
+    {"type": "section-heading", "level": 2, "number": "10.1", "title": "引言"},
+    {"type": "paragraph", "text": "现有文献涉及大量用于提取土壤中不同结合形态金属和类金属元素提取剂（Tessier等，1979；Ross，1994；Ure，1996；Mihaljevic等，2003）。这些方法可分为两类：单一或连续提取法。尽管连续提取法现在相当流行，但还是存在一些缺点（Beckett，1989；Lo和Yang，1998；Shiowatana等，2001）。从分析的角度来说，连续提取法可能会因目标金属元素从一个提取剂到另一个提取剂的过程中发生再沉淀而造成分析结果与实际结果不一致；此外，不同形态含量的总和可能与金属总量不一致。连续提取法最大的问题是它们不能准确代表元素某一特定的结合形态，大量文献也表明提取剂不能提取元素特定的、可识别的化学形态（Beckett，1989；Mihaljevic等，2003）。"},
+    {"type": "paragraph", "text": "本章选取介绍了一系列提取能力从弱到强的单一提取剂，其中每一种提取剂都能选择性地溶解土壤中一部分元素，但并未尝试将上述提取的元素与土壤的特定表面或土壤组分联系起来。我们认为，这些微量元素从哪些土壤组分提取出来并不重要，重要的是能够为预测或解释元素与生物间的关系或其在土壤系统中的移动能力提供分析手段。在某些情况下，有大量的文献可以帮助将分析结果与这些元素对特定生物的有效性联系起来。"},
+    {"type": "paragraph", "text": "在过去10年里，Cd、Cu、Ni、Pb和Zn等金属元素已经受到了相当多的关注。对于这些金属元素而言，目前已有大量文献将不同化学物质所提取的金属元素含量与其生物效应（毒害或吸收）联系起来。然而，其他一些因人为活动而使其成为严重污染物的金属与类金属元素（As、Co、Cr、Mo、Sb、Se、Tl等）则不太受关注。在这些情况下，将选择性化学提取结果与生物效应联系起来的文献非常少，但最近几年有逐渐增加的趋势（De Gregori等，2004）。尽管下文提及的测定方法并没有针对大量的金属及类金属元素进行测试，但我们通过提供一系列的标准测试方法，希望有更多的研究能够开展起来，最终建立一个响应数据库。由于某些元素（如As、Cr、Mo、Se）形成的含氧阴离子在土壤中的行为完全不同于金属阳离子，故部分研究者倾向于使用适用于磷酸盐的提取流程（Van Herreweghe等，2003）。然而，尽管很多用于类金属的提取方法（如As的提取）最初是为金属阳离子建立的，但也取得了较好的结果（Hall等，1996；Mihaljevic等，2003）。", "inlineNotation": ["Cd", "Cu", "Ni", "Pb", "Zn", "As", "Co", "Cr", "Mo", "Sb", "Se", "Tl"]},
+    {"type": "paragraph", "text": "以下按照提取能力从小到大的顺序列出了四种提取方法："},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "使用水和80 μmol/L CaCl₂/CaSO₄的土柱淋洗法；"},
+      {"number": "（2）", "text": "使用0.01 mol/L CaCl₂的弱盐溶液提取法；"},
+      {"number": "（3）", "text": "强螯合剂法（0.05 mol/L NH₄-乙二胺四乙酸[EDTA]，部分与NH₄⁺中和）；"}
+    ]}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "15d6b4bc9f3cdab966544189c5184702704daec5c6f06fe952a20853c47cbe95"
+}

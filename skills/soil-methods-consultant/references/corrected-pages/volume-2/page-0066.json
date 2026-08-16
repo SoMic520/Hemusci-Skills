@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 66,
+  "sourceImageSha256": "2cfd14a8b212f975937dbb6201afe14ad755276b41b217a140ead970d4ee046e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成第60章题名、作者单位、60.1、60.2及60.2.1本页全文"},
+    "precisionPass": {"status": "verified", "method": "核验CI、Pa/kPa/MPa、1 Pa=1 N m⁻²、30°、700 mm²、抗压/剪切/拉伸术语和上下标"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页末句反向复核至章题，排除反透文字并检查单位负指数、圆锥面积和方法层级；印刷页码575"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "60", "title": "田间土壤强度"},
+    {"type": "authors", "items": ["G. Clarke Topp", "David R. Lapen", "Agriculture and Agri-Food Canada，Ottawa, Ontario, Canada"]},
+    {"type": "heading", "number": "60.1", "title": "原理和参数定义", "level": 2},
+    {"type": "paragraph", "text": "土壤强度可表现为抗压、抗剪和抗拉强度。耕作中多向受力使土壤产生抵抗变形直至破碎的强度。抗压强度抵抗工具插入；剪切强度抵抗侧向破坏；抗拉强度抵抗土体拉裂，包括耕作犁边缘使土体分离的作用。支撑机具或建筑与压缩性、抗压强度有关；根系或耕具的穿透阻力可用贯入仪测量。标准剪切仪则可用于评价抵抗滑坡或某些侵蚀的强度。"},
+    {"type": "paragraph", "text": "本章介绍圆锥穿透阻力和抗剪强度，聚焦农业与环境科学的手动原位测法；抗拉强度见Dexter和Watts（2001）。"},
+    {"type": "heading", "number": "60.2", "title": "穿透阻力", "level": 2},
+    {"type": "heading", "number": "60.2.1", "title": "贯入仪的操作原理", "level": 3},
+    {"type": "paragraph", "text": "贯入仪测设备插入或打入土壤所需的力。现代仪器把垂直杆/轴插入土中，同时测达到设定深度所需的力；接触端常为圆锥或平头，力传感器可接数据记录器。穿透阻力按力/面积表示。圆锥头结果称圆锥指数CI，单位Pa、kPa或MPa；1 Pa=1 N m⁻²。常用标准圆锥角30°，底面积<700 mm²。"},
+    {"type": "source-fidelity-note", "text": "原书末单位排印易误读为700 mm⁻²；圆锥底面积单位应为mm²。"},
+    {"type": "paragraph", "text": "贯入仪综述见Bengough等（2001）及Lowery和Morrison（2002）。仪器选择受多种物理因素和现场/后勤条件制约，包括目标深度、作物破坏、运输、测量目标与成本；数据采集器和小型电动驱动器有助于方法比较（Motavalli等，2003）。"}
+  ],
+  "formulas": [
+    {"label": "圆锥指数定义", "plain": "CI = F/A；1 Pa = 1 N m⁻²", "latex": "CI=\\frac{F}{A};\\qquad1\\,\\mathrm{Pa}=1\\,\\mathrm{N\\,m^{-2}}", "variables": [{"symbol": "F", "meaning": "轴向贯入力"}, {"symbol": "A", "meaning": "圆锥底面积/规定投影面积"}]}
+  ],
+  "tables": [],
+  "contentSha256": "8fa2bfc066b9e830a07d7ee067914ce36884112bc16d110acf3511a753c03b96"
+}

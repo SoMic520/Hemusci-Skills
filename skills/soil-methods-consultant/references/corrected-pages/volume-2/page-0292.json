@@ -1,0 +1,67 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 292,
+  "sourceImageSha256": "87a7d63acfa5eb716a81efedbc7b4d69d94d8455546971b038a6af441181371a",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对式(82.17)全部变量、稳态与瞬态接触层影响及图82.3"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "复核πa²、Kcs、Tcs、1.0/0.8/−1.6/−0.7 cm、约20%、150 s和数量级条件"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由达西定律反推括号符号并与英文原章、后页图82.5交叉核对；印刷页码801"
+    }
+  },
+  "blocks": [
+    {
+      "type": "variable-definition",
+      "text": "式(82.17)中Q(ψ₀) [L³·T⁻¹]为ψ=ψ₀时入渗仪出水流量，K_cs [L·T⁻¹]为接触层饱和导水率，T_cs [L]为接触层平均厚度，a [L]为固定环内半径；ψ_s由ψ₀、Q、K_cs、T_cs、a共同决定。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "中文变量说明把a误称为“固定环的内径”，但式(82.17)使用面积πa²，且本章前文和英文原章均定义a为内半径；已校正为内半径。"
+    },
+    {
+      "type": "steady-layer-correction",
+      "text": "数值模拟和可控室内试验表明，当K_cs=K_fs时，稳态ψ_s位于约ψ₀与ψ₀+T_cs之间。未扰动粗糙土面田间试验通常至少需要T_cs=1.0 cm，因此ψ_s与ψ₀可差1.0 cm或更多；采用接触层时，稳态张力入渗分析必须使用式(82.17)求ψ_s，不能直接用ψ₀。"
+    },
+    {
+      "type": "transient-layer-detection",
+      "text": "接触层对瞬态入渗干扰很大，I—t或Q—t曲线往往难以直接识别。按式(82.14)作ΔI/Δt¹ᐟ²对*t¹ᐟ²图，可清楚区分早期负斜率的接触层润湿阶段与随后正斜率的介质入渗阶段；只有正斜率线性阶段可用于求K(ψ₀)和S(ψ₀)，否则即使砂层仅几毫米厚也会产生很大误差或负值。"
+    },
+    {
+      "type": "transient-layer-head",
+      "text": "瞬态分析还须考虑ψ_s≠ψ₀。因Q随时间变，式(82.17)所给ψ_s也可能随时间变。图82.5示例只用接触层完全湿润后的数据（≥150 s）：若K_cs比介质K(ψ)高1个数量级，ψ_s近似常数，但需相对ψ₀补偿+0.8 cm；若K_cs与介质K(ψ)相当，ψ_s需相对ψ₀补偿−1.6至−0.7 cm，并随时间变化约20%，违背瞬态分析固定水头假设。成功应用需同时校正ψ_s−ψ₀并确保K_cs足够大，使ψ_s近似常数。"
+    },
+    {
+      "type": "figure",
+      "number": "82.3",
+      "title": "进入风干接触砂层的累积入渗量I与时间t示例",
+      "axes": [
+        "横轴：时间t，s，0—1000。",
+        "纵轴：累积入渗量I，cm，0—4。"
+      ],
+      "conditions": [
+        "接触层铺在非饱和壤质砂土上。",
+        "入渗膜设定ψ₀=−3 cm。",
+        "T_cs=1 cm，K_cs=1.0×10⁻² cm·s⁻¹。",
+        "数据见表82.2。"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "label": "82.17",
+      "plain": "ψ_s=ψ₀+[1−Q(ψ₀)/(πa²K_cs)]T_cs",
+      "latex": "\\psi_s=\\psi_0+\\left[1-\\frac{Q(\\psi_0)}{\\pi a^2K_{cs}}\\right]T_{cs}",
+      "resultUnit": "L"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "94ae9e9f451120d86e5f0f459238a27ad2b14e967b8c0a23db248bc04bb366d4"
+}

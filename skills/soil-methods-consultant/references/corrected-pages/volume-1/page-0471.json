@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 471,
+  "sourceImageSha256": "0c91fb5c8b58fd946f8f7a7c5dd5920cd44966c4f2e84a029777a8091e68c733",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页和两套OCR，补齐46.3承上文、短期好气培养6步、46.4原理与厌气培养3步4条注释"},
+    "precisionPass": {"status": "verified", "method": "核验<4/5 mm、5 g干土、125/50 mL、−10 kPa、30 μm、20～30/40 °C、28/56/7 d、2/2.5 mol·L⁻¹ KCl及1900×g"},
+    "secondVisualPass": {"status": "verified", "method": "由46.4.2注释（4）反向复核至Paul等（2002）承上句，检查每一体积、浓度、筛孔、离心力和差值计算；印刷页码440"}
+  },
+  "blocks": [
+    {"type": "paragraph", "continuationOf": "page-0470:46.3:last-paragraph", "text": "上述按温度和湿度调整培养基本值、估算田间土壤矿化率的方法见Paul等（2002）。以下步骤以Scott等（1998）和Parfitt等（2005）为基础。"},
+    {"type": "section-heading", "level": 3, "number": "46.3.1", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "将通过4 mm或5 mm筛的新鲜土壤样品（相当于5 g干土）称入125 mL聚丙烯容器。推荐用田间鲜土，避免风干土复湿的矿化速增；半干旱区土壤可能更适合用风干样。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加水使土壤达到基质势−10 kPa时的含水量。该含水量通常另取土样，用张力台测定。"},
+    {"type": "procedure-step", "number": "（3）", "text": "以厚30 μm聚乙烯膜覆盖容器并用橡皮筋固定；容器放入盛水塑料托盘，再用大聚乙烯袋覆盖，维持高湿。"},
+    {"type": "procedure-step", "number": "（4）", "text": "在适宜温度20～30 °C下培养规定时间，例如28 d或56 d。"},
+    {"type": "procedure-step", "number": "（5）", "text": "培养结束后用2 mol·L⁻¹ KCl浸提，测定矿质氮（NO₃⁻-N和NH₄⁺-N）。另用KCl浸提一份未培养样品，测定培养前矿质氮。"},
+    {"type": "procedure-step", "number": "（6）", "text": "净矿化氮=培养后矿质氮−培养前矿质氮；两者必须按相同干土质量基准和相同提取/测定流程表示。"},
+    {"type": "section-heading", "level": 2, "number": "46.4", "title": "厌气培养法"},
+    {"type": "paragraph", "text": "厌气培养法比好气法更易操作，适合常规分析。培养仅7 d；各土样加入相同体积的水，无需按持水能力单独调水。在厌氧条件下不产生硝态氮，因此只测铵态氮。"},
+    {"type": "section-heading", "level": 3, "number": "46.4.1", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取5 g通过4 mm或5 mm筛的土样至50 mL带螺旋盖塑料离心管；加10 mL去离子水浸没土样，旋紧管盖，在40 °C恒温箱培养7 d。"},
+    {"type": "procedure-step", "number": "（2）", "text": "培养后加入40 mL、2.5 mol·L⁻¹ KCl；计入原10 mL水后，KCl终浓度为2 mol·L⁻¹。充分混匀，以1900×g离心，上清液用预洗Whatman 42号滤纸过滤。"},
+    {"type": "procedure-step", "number": "（3）", "text": "测定滤液NH₄⁺-N。另以KCl浸提未培养平行样并测其初始NH₄⁺-N。厌氧可矿化氮=培养后NH₄⁺-N−培养前NH₄⁺-N。"},
+    {"type": "section-heading", "level": 3, "number": "46.4.2", "title": "注释"},
+    {"type": "note", "number": "（1）", "text": "多数耕地土壤初始NH₄⁺-N较低，可能可省略，但必须先做预实验确认其可忽略（Keeney，1982）。"},
+    {"type": "note", "number": "（2）", "text": "样品预处理无统一标准，风干土和鲜土都曾用于厌氧可矿化氮测定。Larsen（1999）认为风干、冷冻会显著影响结果，建议使用鲜土。"},
+    {"type": "note", "number": "（3）", "text": "厌氧可矿化氮与好氧氮矿化虽相关，但通常相关性不强（Curtin和McCallum，2004）。"},
+    {"type": "note", "number": "（4）", "text": "若用于氮肥推荐，必须在当地田间条件下用作物生长或吸氮响应进行校准（Christensen等，1999）。"}
+  ],
+  "formulas": [
+    {"id": "46.3-net-mineralized-n", "display": "Nₘᵢₙ,net = Nmineral,post − Nmineral,initial", "meaning": "短期好气培养净矿化氮；矿质氮为NO₃⁻-N与NH₄⁺-N之和"},
+    {"id": "46.4-kcl-final", "display": "c(KCl)final = (40 mL × 2.5 mol·L⁻¹)/(10 mL + 40 mL) = 2.0 mol·L⁻¹", "meaning": "厌气培养步骤加KCl后的终浓度"},
+    {"id": "46.4-anaerobic-mineralizable-n", "display": "Nanaerobic = NH₄⁺-Npost − NH₄⁺-Ninitial", "meaning": "7 d厌氧培养可矿化氮计算"}
+  ],
+  "tables": [],
+  "contentSha256": "b0db87b3fa356655504a721b0288af599d9738571aeb2de01a6661657cd9d92e"
+}

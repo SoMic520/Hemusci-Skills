@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 136,
+  "sourceImageSha256": "3511153aa179d983d83c9aebe3ed38c92a575e4e20c87f2a6cbabdd23e061479",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐项对照原分辨率图和两套OCR，完成68.2续文、Young式(68.1)、68.2.1、表68.1及68.2.2步骤(1)—(2)"},
+    "precisionPass": {"status": "verified", "method": "核验γ下标、接触角ε、2 mL、10—15滴、10 μL、5/60/600 s/1 h、75 MPa及1—5 g"},
+    "secondVisualPass": {"status": "verified", "method": "由液滴步骤(2)反向复核至跨页句，检查WDPT边界、Young方程符号和接触角物理含义；印刷页码645"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "斥水性会造成一系列不良物理性质并延长复湿时间（Valat等，1991；Michel，1998）。湿润性是液体在物体表面铺展的能力（Letey等，1962）；液滴在固体表面的平衡形态由固—液—气界面作用决定，Young方程见式(68.1)。"},
+    {"type": "variables", "items": ["γ_S：固体表面自由能/表面张力", "γ_SL：固—液界面张力", "γ_L：液体表面张力", "ε：液滴通过液相一侧测得的固—液—气三相接触角"]},
+    {"type": "paragraph", "text": "接触角可估计湿润性；ε趋近0°时完全润湿。WDPT（水滴穿透时间）法（Letey，1969；McGhie和Posner，1980；Dekker和Ritsema，2000）和MED（乙醇液滴摩尔浓度）法（King，1981；de Jonge等，1999）快速简便，但主要作定性或分级评价；直接测固—液接触角可提供更定量的湿润性信息。"},
+    {"type": "heading", "number": "68.2.1", "title": "水滴穿透时间法", "level": 3},
+    {"type": "heading", "title": "材料与试剂", "level": 4},
+    {"type": "list", "items": ["2 mL注射器和蒸馏水", "表面干燥、状态一致的土壤或栽培基质"]},
+    {"type": "heading", "title": "步骤", "level": 4},
+    {"type": "steps", "items": ["在材料表面不同代表位置加10—15滴蒸馏水，每滴约10 μL。", "从液滴接触表面开始计时，记录每滴完全渗入材料所需时间；不得只报平均值，应同时报告重复数、分布或中位数。", "按表68.1分级，并报告表面制备、含水状态和环境温度。"]},
+    {"type": "paragraph", "text": "材料粗糙度、结构和组成异质性会造成很大变异，故样点必须覆盖表面异质性。"},
+    {"type": "heading", "number": "68.2.2", "title": "直接接触角测定：液滴法", "level": 3},
+    {"type": "heading", "title": "材料与步骤（本页部分）", "level": 4},
+    {"type": "list", "items": ["接触角测量仪", "用于压制土壤或基质的液压机", "1—5 g土壤或栽培基质，具体取决于密度"]},
+    {"type": "steps", "items": ["制备光滑、平坦、均匀的表面（Busscher等，1984）：可用75 MPa压力压制样品（Valat等，1991），或把样品悬液铺在薄斜面板上晾干。", "用注射器在表面滴加约10 μL水滴；测角和数据分析见下页。"]},
+    {"type": "source-fidelity-note", "text": "原书“见第888页的数据分析”显然是页码损坏，正确指向下一页68.2.2“数据分析”。表68.1原印相邻区间端点重叠，结构化时采用左闭右开并把恰好1 h归“严重斥水”，避免同一结果落入两类。Young式中的γ_S、γ_SL、γ_L下标及ε均已按原图恢复。"}
+  ],
+  "formulas": [
+    {"label": "68.1", "plain": "γ_L cos ε = γ_S − γ_SL", "latex": "\\gamma_L\\cos\\varepsilon=\\gamma_S-\\gamma_{SL}"}
+  ],
+  "tables": [
+    {
+      "number": "68.1",
+      "title": "按WDPT确定土壤或基质斥水性",
+      "columns": ["WDPT", "表面状态"],
+      "rows": [["t<5 s", "亲水"], ["5 s≤t<60 s", "弱斥水"], ["60 s≤t<600 s", "强斥水"], ["600 s≤t≤1 h", "严重斥水"], ["t>1 h", "极度斥水"]],
+      "source": "Dekker, Ritsema, and Oostindie, Proceedings of the 11th International Peat Congress, Vol. 2, 2000, 566–574"
+    }
+  ],
+  "contentSha256": "8477cc99ea38ed125e2dfbb7034b407ded26feeda2f6f6554be455c965e12cc7"
+}

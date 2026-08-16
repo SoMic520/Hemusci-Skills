@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 467,
+  "sourceImageSha256": "14dd9cdb4e6e116792cbc82e214b45e54c01a05882102d1d2c181fbd0c41483d",
+  "review": {
+    "textPass": {"status": "verified", "method": "对照原分辨率页面逐条转录第45章参考文献续页和译校署名，恢复变音符、连字符、作者初始字母及跨页题名"},
+    "precisionPass": {"status": "verified", "method": "逐条核对13条完整引文的作者、年份、期刊、卷页以及CO₂、N₂O下标；核实Bezdicek拼写"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至Hopkins 1988承上题名，确认本页无遗漏正文、图表或公式；印刷页码436"}
+  },
+  "blocks": [
+    {"type": "reference-list", "continuationOf": "page-0466:chapter45-references", "entries": [
+      "Hopkins, D.W., Shiel, R.S., and O'Donnell, A.G. 1988. The influence of sward species composition on the rate of organic matter decomposition in grassland soil. Journal of Soil Science 39:385–392.",
+      "Hopkins, D.W., Sparrow, A.D., Elberling, B., Gregorich, E.G., Novis, P., Greenfield, L.G., and Tilston, E.L. 2006. Carbon, nitrogen and temperature controls on microbial activity in soils from an Antarctic dry valley. Soil Biology and Biochemistry 38:3130–3140.",
+      "King, J.A., and Harrison, R. 2002. Measuring soil respiration in the field: An automated closed chamber system compared with portable IRGA and alkali adsorption methods. Communications in Soil Science and Plant Analysis 33:403–423.",
+      "Martens, R. 1987. Estimation of microbial biomass in soil by the respiration methods: Importance of soil pH and flushing methods for respired CO₂. Soil Biology and Biochemistry 19:77–81.",
+      "Nordgren, A. 1988. Apparatus for the continuous, long-term monitoring of soil respiration rate in large numbers of samples. Soil Biology and Biochemistry 20:955–957.",
+      "Powlson, D.S. 1980. The effects of grinding on microbial and non-microbial organic matter in soil. Journal of Soil Science 31:77–85.",
+      "Rey, A., Petsikos, C., Jarvis, P.G., and Grace, J. 2005. Effect of temperature and moisture on rates of carbon mineralization in a Mediterranean oak forest soil under controlled and field conditions. European Journal of Soil Science 56:589–599.",
+      "Rochette, P., Ellert, B., Gregorich, E.G., Desjardins, R.L., Pattey, E.L., Lessard, R., and Johnson, B.G. 1997. Description of a dynamic closed chamber for measuring soil respiration and its comparison with other techniques. Canadian Journal of Soil Science 77:195–203.",
+      "Schinner, F., Öhlinger, R., Kandeler, E., and Margesin, R. 1996. Methods in Soil Biology. Springer-Verlag, Berlin, Germany.",
+      "Šimek, M., Elhottová, D., Klimeš, F., and Hopkins, D.W. 2004. Emissions of N₂O and CO₂, denitrification measurements and soil properties in red clover and ryegrass stands. Soil Biology and Biochemistry 36:9–21.",
+      "Underwood, A.L. 1961. Carbonic anhydrase in the titration of carbon dioxide solutions. Analytical Chemistry 33:955–956.",
+      "Wu, J., and Brookes, P.C. 2005. The proportional mineralization of microbial biomass and organic matter caused by air-drying and rewetting of a grassland soil. Soil Biology and Biochemistry 37:507–515.",
+      "Zibilske, L.M. 1994. Carbon mineralization. In R.W. Weaver, S. Angle, P. Bottomly, D. Bezdicek, S. Smith, A. Tabatabai, and A. Wollum (eds.), Methods of Soil Analysis, Part 2—Microbiological and Biochemical Processes, SSSA Book Series No. 5, pp. 835–863. Soil Science Society of America, Madison, WI."
+    ]},
+    {"type": "translator-credit", "translators": ["李富翠", "谢钧宇", "张树兰", "党海燕"], "reviewer": "王朝辉"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "b1872436293e2ff2f7753a8f88c46610851f8be689647b362b32b9842888993a"
+}

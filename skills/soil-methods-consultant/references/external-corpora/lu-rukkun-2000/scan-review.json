@@ -1,0 +1,9 @@
+{
+  "status": "verified",
+  "bookId": "lu-rukkun-2000",
+  "sourcePdfSha256": "af4d96488633e34e3f103aa3669b83257e13081c7aa56944aacf8eba118f9266",
+  "pageCount": 665,
+  "textPass": "verified",
+  "precisionPass": "verified",
+  "secondVisualPass": "verified"
+}

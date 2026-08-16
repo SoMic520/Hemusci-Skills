@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 60,
+  "sourceImageSha256": "29e5c7d63637bb232b4f3a815b3e518b5d41021395590e9c46065d5f33ed886c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐步对照原分辨率图和两套OCR，完成59.2.1余项、59.2.2、式（59.1）～（59.2）和59.2.3"},
+    "precisionPass": {"status": "verified", "method": "核验15 mm量程/0.002 mm精度、2 mm/24 h、w_airdry/w_desired/m_airdry、ρ_desired/V_cylinder、30 min/24 h、15～600 kPa、105 °C/24 h"},
+    "secondVisualPass": {"status": "verified", "method": "由匀速位移段反向复核至装置(3)，逐式检查质量含水量分母、湿质量/干质量和密度量纲；印刷页码569"}
+  },
+  "blocks": [
+    {"type": "equipment-list-continuation", "items": ["(3) 测量施加力或压力的仪表；压力=力/土样横截面积。", "(4) 合适量程的位移传感器，例如量程15 mm、精度0.002 mm。", "(5) 可选：记录位移和压力的电子采集系统。"]},
+    {"type": "heading", "number": "59.2.2", "title": "土壤样品的制备", "level": 3},
+    {"type": "paragraph", "text": "可用原状土或装填土。装填土通常风干后过2 mm筛，测风干土质量含水量w_airdry。称取风干土湿质量m_airdry置塑料盒，按式（59.1）加水至目标质量含水量w_desired，喷匀、密闭平衡24 h。"},
+    {"type": "paragraph", "text": "根据目标密度ρ_desired和环刀体积V_cylinder计算装填量。若ρ_desired指干容重，式（59.2）给出的是烘干土质量m_s；实际称取已调湿土的质量应为m_s(1+w_desired)。若ρ_desired指湿密度，式（59.2）才直接给湿土总质量。必须在记录中明确密度口径。"},
+    {"type": "source-fidelity-note", "text": "原书式（59.2）把m_soil笼统称作‘土样质量’，未说明ρ_desired是干容重还是湿密度，容易造成装填质量系统误差；已给出两种量纲一致的执行口径。"},
+    {"type": "heading", "number": "59.2.3", "title": "压缩实验", "level": 3},
+    {"type": "paragraph", "text": "加载可采用分级恒压或恒定位移速率；原书把分级恒压称为‘连续加压’，但其实际操作是逐级加载。"},
+    {"type": "subheading", "title": "1. 分级恒压加载（原书称连续加压）"},
+    {"type": "paragraph", "text": "压力逐级提高，每级保持规定时间。农业土壤研究常为30 min，岩土工程常为24 h，也可按目的调整。典型压力序列为15、30、50、100、200、300、600 kPa。"},
+    {"type": "subheading", "title": "2. 步骤"},
+    {"type": "procedure-steps", "items": ["(1) 试验前称土样。", "(2) 环刀置压缩仪。", "(3) 施加第一级压力并保持规定时间。", "(4) 保持结束后测位移。", "(5) 调至下一级压力。", "(6) 重复(4)～(5)至完成全部压力级；在级间可按方案卸载测定。", "(7) 取下环刀，称样。", "(8) 105 °C烘干24 h。"]},
+    {"type": "note", "text": "压力和位移可用电子系统高分辨率连续记录。"},
+    {"type": "subheading", "title": "3. 恒定位移速率加载"},
+    {"type": "paragraph", "text": "使活塞匀速下移，同时测对应压力；需电子系统同步记录位移和压力。总体步骤相同，以恒定位移速率及连续数据记录替代上述步骤(3)～(6)。"}
+  ],
+  "formulas": [
+    {"label": "(59.1)", "plain": "m_w,added = m_airdry (w_desired − w_airdry)/(1 + w_airdry)", "latex": "m_{w,\\mathrm{added}}=m_{\\mathrm{airdry}}\\frac{w_{\\mathrm{desired}}-w_{\\mathrm{airdry}}}{1+w_{\\mathrm{airdry}}}", "variables": [{"symbol": "m_airdry", "meaning": "当前风干土湿质量"}, {"symbol": "w_airdry", "meaning": "风干土质量含水量，按kg kg⁻¹小数输入"}, {"symbol": "w_desired", "meaning": "目标质量含水量，按kg kg⁻¹小数输入"}, {"symbol": "m_w,added", "meaning": "需加入的水质量；仅当w_desired≥w_airdry时适用"}]},
+    {"label": "(59.2，口径明确式)", "plain": "m_s = ρ_d,desired V_cylinder；m_wet = m_s(1+w_desired)", "latex": "m_s=\\rho_{d,\\mathrm{desired}}V_{\\mathrm{cylinder}};\\qquad m_{\\mathrm{wet}}=m_s(1+w_{\\mathrm{desired}})", "variables": [{"symbol": "m_s", "meaning": "目标环刀内烘干土质量"}, {"symbol": "ρ_d,desired", "meaning": "目标干容重"}, {"symbol": "V_cylinder", "meaning": "环刀内体积"}, {"symbol": "m_wet", "meaning": "调至目标含水量后实际称取的湿土质量"}]}
+  ],
+  "tables": [],
+  "contentSha256": "ecc24d70fd79626d25b679b965b0bf1d61d5ffd900fd65d5636fb4d9969bfd68"
+}

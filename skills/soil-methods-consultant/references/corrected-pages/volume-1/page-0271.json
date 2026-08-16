@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 271,
+  "sourceImageSha256": "59c6acb422c63a516fefdad854e88c40c6112254412a5d1e335ccc94ec6e1ad5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第27章第240页，人工恢复27.4续文、式（27.5）～（27.6）、全部定义、方法限制和7条参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验R、Eₚₘ、Eᵢ*、Cₚₘ、Cᵢ、ρ、Z、t、μg·m⁻²·year⁻¹、μg·g⁻¹、g·m⁻³、μm、ICP/AAS、作者及页码"},
+    "secondVisualPass": {"status": "verified", "method": "从Binkley和Hart（1989）反向复核至Bailey等（2004）续文，确认27.4正文→两条公式→限制与仪器选择→参考文献层级及印刷页码240"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "body-continuation", "continuesFromPage": 270, "text": "Bailey等（2004）进一步研究表明，用于计算土壤母质C层矿物风化中钙、镁释放量的模型或许也能够预测林分的营养和生产力。过去已经提出很多土壤矿物风化指数（Birkeland，1999），其首选方法是将不同土层的元素浓度与C层中可以假设为不变的母质元素浓度比较（Kirkwood和Nesbitt，1991；Bain等，1994；Hodson，2002）。有机质增加和元素淋失会影响到所研究元素的浓度，所以，虽然这两者并非研究的关注点，但是仍然需要针对上述情况做出调整。因此，可以借助一个利用某个抗风化元素（最常用的是锆和钛）的方程将可移动元素的相关数据进行标准化。假设土壤年龄是已知的，则可以用下列方程计算特定土层中可移动元素的释放率（Hodson，2002）："},
+    {"type": "formula-reference", "number": "（27.5）", "text": "R = （Eₚₘ−Eᵢ*）×ρ×Z/t"},
+    {"type": "connector", "text": "和"},
+    {"type": "formula-reference", "number": "（27.6）", "text": "Eᵢ* = Eᵢ×Cₚₘ/Cᵢ"},
+    {"type": "formula-definition", "text": "式中，R表示元素释放率（μg·m⁻²·year⁻¹）；Eₚₘ表示元素E在母质中的浓度（μg·g⁻¹）；Eᵢ*表示元素E在i层的调整浓度（μg·g⁻¹）；Eᵢ表示元素E在i层的浓度；ρ表示该土层的容重（g·m⁻³）；Z表示土层厚度（m）；t表示土壤年龄（年）；Cₚₘ表示不可移动元素C在母质中的浓度（μg·g⁻¹）；Cᵢ表示该不可移动元素C在i层中的浓度（μg·g⁻¹）。"},
+    {"type": "limitation", "text": "在森林土壤中，不可移动元素的浓度随深度的增加而降低。不可移动元素从底部到顶部的富集效应是因为在上部土层中存在可移动元素的损失和有机物质的累积（Melkerud等，2000；Courchesne等，2002；Hodson，2002）。有研究表明某些抗风化的元素仍然会发生淋溶，因此我们建议任何使用该技术的人需要对上述提及的相关作者的试验结果进行更深入的研究。"},
+    {"type": "sample-preparation-option", "text": "粒径>50 μm的组分的风化率有时可以假设忽略不计，因为该粒级的组分表面积较小，且易风化矿物含量低（Kolka等，1996）。因此，这个方法有时只被应用于经过湿筛法去除砂砾且通过多次离心去除黏粒后剩余的粉粒部分（2～50 μm）。在此情况下，（Eₚₘ−Eᵢ*）需要乘以土层中的粉粒质量，而粉粒质量可以通过测定土壤容重、粒径分布和土层厚度来计算。"},
+    {"type": "instrument-selection", "text": "通常首选熔融进样波长分散X射线荧光光谱法进行土壤样品中元素构成的测定（van Breemen等，1997；Melkerud等，2000），但是也可以用氢氟酸将样品进行消化后，用电感耦合等离子体发射光谱仪（ICP）或者原子吸收光谱仪（AAS）进行测定。"},
+    {"type": "heading", "level": 1, "title": "参考文献"},
+    {"type": "reference", "text": "Attiwill, P. and Adams, M. A. 1993. Nutrient cycling in forests. New Phytol. 124: 561-582."},
+    {"type": "reference", "text": "Bailey, S. W., Horsley, S. B., Long, R. P., and Hallett, R. A. 2004. Influence of edaphic factors on sugar maple nutrition and health on the Allegheny Plateau. Soil Sci. Soc. Am. J. 68: 243-252."},
+    {"type": "reference", "text": "Bain, D. C., Mellor, A., Wilson, M. J., and Duthie, D. M. L. 1994. Chemical and mineralogical weathering rates and processes in an upland granitic till catchment in Scotland. Water Air Soil Poll. 73: 11-27."},
+    {"type": "reference", "text": "Bélanger, N., MacDonald, J. D., Paré, D., Thiffault, E., Claveau, Y., and Hendershot, W. H. 2006. The assessment of exchangeable hydrogen ions in Boreal Shield soils of Quebec. Can. J. Soil Sci. 86: 513-521."},
+    {"type": "reference", "text": "Bélanger, N., Paré, D., and Yamasaki, S. H., 2003. The soil acid-base status of boreal black spruce stands after whole-tree and stem-only harvesting. Can. J. Forest Res. 33: 1874-1879."},
+    {"type": "reference", "text": "Bernier, B. and Brazeau, M. 1988. Magnesium deficiency symptoms associated with sugar maple dieback in a Lower Laurentians site in southeastern Quebec. Can. J. Forest Res. 18: 1265-1269."},
+    {"type": "reference", "text": "Binkley, D. and Hart, S. C. 1989. The components of nitrogen availability assessments in forest soils. Adv. Soil Sci. 10: 57-112."},
+    {"type": "printed-page-number", "text": "240"}
+  ],
+  "formulas": [
+    {"number": "27.5", "context": "计算特定土层中可移动元素E的释放率", "display": "R = （Eₚₘ−Eᵢ*）×ρ×Z/t", "latex": "R=(E_{PM}-E_i^*)\\times\\rho\\times Z/t"},
+    {"number": "27.6", "context": "用不可移动元素C对i层中元素E浓度进行调整", "display": "Eᵢ* = Eᵢ×Cₚₘ/Cᵢ", "latex": "E_i^*=E_i\\times C_{PM}/C_i"}
+  ],
+  "tables": [],
+  "contentSha256": "496e25960c1cdd2822fe3d3c800e2ef4a73229a633fd835d2039de4dc6953e4f"
+}

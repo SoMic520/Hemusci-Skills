@@ -1,0 +1,46 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 193,
+  "sourceImageSha256": "e004e26f0d080e0419c9e2e15530bd32d95b13784ac8ccc045c1d54d2c6a66b2",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复20.3试剂/步骤/计算/注释及20.4原理、装置和试剂"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验HCl-FeCl₂·4H₂O、4/6 mol L⁻¹、CO₂、MnO₂、Mg(ClO₄)₂、100～300 mg、1～10 g、30 min、2～3 mg、2 h、227.3和烧碱石棉Ⅱᴿ"},
+    "secondVisualPass": {"status": "verified", "method": "从页末试剂（4）反向复核至20.3.1，确认式（20.3）分子分母、冰盐酸、USDA机构名、图20.1/旋塞D引用及页码162"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "20.3.1", "title": "试剂"},
+    {"type": "reagent-item", "number": "（1）", "name": "4 mol L⁻¹的盐酸溶液", "text": "4 mol L⁻¹的盐酸溶液。"},
+    {"type": "reagent-item", "number": "（2）", "name": "HCl-FeCl₂·4H₂O溶液", "text": "使用前将3 g FeCl₂·4H₂O溶于100 mL的4 mol L⁻¹盐酸溶液中。"},
+    {"type": "section-heading", "level": 3, "number": "20.3.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称量装有10 mL HCl-FeCl₂·4H₂O溶液的50 mL锥形瓶及其塞子的总重量。"},
+    {"type": "procedure-step", "number": "（2）", "text": "将碳酸盐含量为100～300 mg的土样（1～10 g）慢慢加入锥形瓶中，以便避免产生过多的气泡。"},
+    {"type": "procedure-step", "number": "（3）", "text": "当反应气泡减少后，将塞子旋松，使混合物中的碳酸盐充分反应约30 min，在反应过程中不时振荡锥形瓶以便排出累积的CO₂。最后旋紧瓶塞，称量此时锥形瓶及其内含物的总重。"},
+    {"type": "procedure-step", "number": "（4）", "text": "重复步骤3直至锥形瓶及其内含物总重量的变化不超过2～3 mg，完全反应时间通常在2 h以内。"},
+    {"type": "section-heading", "level": 3, "number": "20.3.3", "title": "计算"},
+    {"type": "paragraph", "text": "碳酸盐产生的CO₂重量等于反应前后锥形瓶及其内含物总重量之差。"},
+    {"type": "section-heading", "level": 3, "number": "20.3.4", "title": "注释"},
+    {"type": "paragraph", "text": "当土样中含有白云石时，其与冰盐酸的反应活性会很弱。因此，如果在30 min后观察到重量明显减少，那么说明土样中含有白云石。酸中的FeCl₂作为抗氧化剂可以消除土样中MnO₂的氧化作用造成的误差。这种方法的精度主要取决于称量精度，以及反应过程中水蒸气的损失对溶液中残留CO₂的弥补程度。"},
+    {"type": "section-heading", "level": 2, "number": "20.4", "title": "定量分析方法（USDA Soil Conservation Service，1967）"},
+    {"type": "paragraph", "text": "当土壤中的碳酸盐与酸反应后，可以精确测定土样重量的减少量。在这种方法中，通过加入无水高氯酸镁水分吸收剂，可以减少水蒸气随CO₂损失的干扰。另外也可以向装置中加入CO₂吸收剂，通过测定物质重量的增加而非减少量来确定土壤碳酸盐含量，同时这也可以用来检测玻璃装置各个连接处的气密性。这个方法通常只需要几个步骤就可以准确快速地得出实验结果。"},
+    {"type": "section-heading", "level": 3, "number": "20.4.1", "title": "装置"},
+    {"type": "paragraph", "text": "所用仪器可以按如图20.1所示的重量亏损法组装。而对于重量增加法，可以将装有烧碱石棉Ⅱᴿ的聚乙烯干燥管连接在气体吸收装置的旋塞D后面来吸收CO₂。"},
+    {"type": "section-heading", "level": 3, "number": "20.4.2", "title": "试剂"},
+    {"type": "reagent-item", "number": "（1）", "name": "6 mol L⁻¹的盐酸溶液", "text": "6 mol L⁻¹的盐酸溶液。"},
+    {"type": "reagent-item", "number": "（2）", "name": "HCl-FeCl₂·4H₂O溶液", "text": "使用前将3 g FeCl₂·4H₂O溶于100 mL的6 mol L⁻¹ HCl溶液中。"},
+    {"type": "reagent-item", "number": "（3）", "name": "无水高氯酸镁（Mg(ClO₄)₂）", "text": "干燥剂。"},
+    {"type": "reagent-item", "number": "（4）", "name": "烧碱石棉Ⅱᴿ", "text": "20～30目，选择性使用。"},
+    {"type": "printed-page-number", "text": "162"}
+  ],
+  "formulas": [
+    {
+      "number": "20.3",
+      "context": "重量估计法碳酸钙含量",
+      "display": "CaCO₃% = [CO₂减少量(g)/土样质量(g)] × 227.3",
+      "latex": "CaCO_3\\%=\\frac{CO_2\\text{减少量}(\\mathrm{g})}{\\text{土样质量}(\\mathrm{g})}\\times227.3"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "5d56206fc2c3506dc125f54dc70e7733bdd4c58b5396dfb1af0a044a38fe61e3"
+}

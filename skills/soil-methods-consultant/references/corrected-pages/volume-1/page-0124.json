@@ -1,0 +1,45 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 124,
+  "sourceImageSha256": "ccbfb2d4b672e50e50facfa49f18e64ab3540cc79a8da10c6acf4c869cf49f1b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐项对照原分辨率方法页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复11.3.2五步、11.3.3、11.4原理、11.4.1五项和11.4.2四步"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对SrCl₂、CaCl₂、PCV、OP、HH、HCl、ICP-AES、w/v、g Al/L、mg Al/L、μg Al、mg/kg、mol/L、g、mL、mm、μm、nm、cm、r/min和离心力"},
+    "secondVisualPass": {"status": "verified", "method": "按森林提取步骤、铝测定原理、五项试剂和显色四步反向复核，确认标准系列、显色顺序、吸光度—μg Al图、层级和印刷页码93"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第11章｜酸性土壤中的易溶性铝和锰｜"},
+    {"type": "section-heading", "level": 3, "number": "11.3.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "称取10 g土样（风干并过2 mm筛）至离心管中。"},
+      {"number": "（2）", "text": "于离心管中加入20 mL 0.01 mol/L SrCl₂。"},
+      {"number": "（3）", "text": "15 r/min振荡60 min。"},
+      {"number": "（4）", "text": "取出并以7000 g的速度离心30 min。"},
+      {"number": "（5）", "text": "吸取上清液保存到容器中用于分析。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "11.3.3", "title": "注释"},
+    {"type": "paragraph", "text": "利用旋转振荡器能够在采用较低的土壤和提取剂比例时有效地润湿和混合含有大量枯枝落叶或高有机质含量的森林土壤。较低的土壤和提取剂比例会形成黏稠的悬浮液，因此需要使用高速离心机进行分离。"},
+    {"type": "section-heading", "level": 2, "number": "11.4", "title": "铝的测定"},
+    {"type": "paragraph", "text": "提取物中的铝可用原子吸收法（Webber，1974）、电感耦合等离子体原子发射光谱仪（ICP-AES）（Carr等，1991）或比色法（Hoyt和Webber，1974；Carr等，1991）进行测定。原子吸收或ICP-AES测定的是溶解的总铝含量，而比色法则是铝与显色剂“反应”后的结果。参与“反应”的铝的具体组分取决于显色需要的平衡时间。较短的反应时间主要测定不稳定单体铝，而较长的反应时间会测出聚合铝和络合铝。Grigg和Morrison（1982）指出邻苯二酚紫（PCV）方法在精度上优于铝试剂（金精三羧酸三铵盐），且自动化流程使其精度进一步提高。Conyers等（1991）也推荐采用PCV法。以下方法改编自Wilson和Sergeant（1963），提取流程简单可靠。", "inlineNotation": ["ICP-AES", "PCV"]},
+    {"type": "section-heading", "level": 3, "number": "11.4.1", "title": "试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "0.1%（w/v）的PCV。保存在棕色玻璃瓶中。"},
+      {"number": "（2）", "text": "0.1%（w/v）的邻菲罗啉（OP）。保存在聚乙烯瓶中。"},
+      {"number": "（3）", "text": "10%（w/v）的盐酸羟胺（HH）。保存在聚乙烯瓶中。"},
+      {"number": "（4）", "text": "10%（w/v）的醋酸铵（用醋酸把pH值调至6.2）。保存在聚乙烯瓶中。"},
+      {"number": "（5）", "text": "铝标准溶液：由标准储备液（浓度1 g Al/L）配制，在与土壤提取液同浓度的CaCl₂溶液中配制浓度为100 mg Al/L的标准溶液。通过进一步稀释，在相同摩尔浓度的CaCl₂溶液中配制5个0.1～2.5 mg Al/L的标准溶液。对于森林土壤，标准溶液应用0.01 mol/L SrCl₂配制。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "11.4.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "吸取2 mL的提取液或标准溶液到16 mm×125 mm的培养管中。培养管必须用0.1 mol/L HCl预先洗涤。样品溶液中的铝含量不应高于5 μg。"},
+      {"number": "（2）", "text": "按顺序添加0.5 mL的PCV、OP和HH，每次加入后轻轻摇晃管中液体。对于每批样品，在加入每种试剂前应保证前一种试剂已加到所有管中。"},
+      {"number": "（3）", "text": "加入6 mL的缓冲溶液，塞上塞子并倒转试管三次后静置1 h。"},
+      {"number": "（4）", "text": "用分光光度计在580 nm波长下用1 cm的比色皿测量吸光度。绘制吸光度值—μg Al图。图中的μg Al值指土壤中的铝含量（mg/kg）。如果提取物经过稀释，则乘上稀释倍数。"}
+    ]},
+    {"type": "printed-page-number", "text": "93"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "12ad6215a503830a12a878b81a0fe4af605bb27d99304957853096a62c4b0bf3"
+}

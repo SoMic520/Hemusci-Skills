@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 90,
+  "sourceImageSha256": "f3b78ae28769377a0f46b001e1b9ea5e469678f510de8bd65872f31f46d1bb9a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Angers跨页条目及本页其余17条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者、年份、题名、期刊、卷页、专著版次和会议页码，校正Short-term、aggregate-size、stabilité structurale、Arrouays和Québec"},
+    "secondVisualPass": {"status": "verified", "method": "由Marquez等（2004）反向复核至Angers跨页结尾，拆分原书误连的Kemper和Koch（1966）与Kemper和Rosenau（1984）条目；印刷页码599"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Angers, D.A., Pesant, A., and Vigneux, J. 1992. Early cropping-induced changes in soil aggregation, organic matter, and microbial biomass. Soil Sci. Soc. Am. J. 56:115–119.",
+      "Baldock, J.A. and Kay, B.D. 1987. Influence of cropping history and chemical treatments on the water-stable aggregation of a silt loam soil. Can. J. Soil Sci. 67:501–511.",
+      "Bourget, S.J. and Kemp, J.G. 1957. Wet sieving apparatus for stability analysis of soil aggregates. Can. J. Soil Sci. 37:60.",
+      "Bullock, M.S., Kemper, W.D., and Nelson, S.D. 1988. Soil cohesion as affected by freezing, water content, time and tillage. Soil Sci. Soc. Am. J. 52:770–776.",
+      "Caron, J., Kay, B.D., and Perfect, E. 1992a. Short-term decrease in soil structural stability following bromegrass establishment on a clay loam soil. Plant Soil 145:121–130.",
+      "Caron, J., Kay, B.D., Stone, J.A., and Kachanoski, R.G. 1992b. Modeling temporal changes in structural stability of a clay loam soil. Soil Sci. Soc. Am. J. 56:1597–1604.",
+      "Dobrzanski, B., Witkowska, B., and Walczak, R. 1975. Soil-aggregation and water-stability index. Polish J. Soil Sci. 8:3–8.",
+      "Doran, J.W. and Parkin, T.B. 1994. Defining and assessing soil quality. In: J.W. Doran, D.C. Coleman, D.F. Bezdicek, and B.A. Stewart, eds. Defining Soil Quality for a Sustainable Environment. SSSA Special Publication No. 35. American Society of Agronomy, Madison, WI, 3–21.",
+      "Elliott, E.T. 1986. Aggregate structure and carbon, nitrogen, and phosphorus in native and cultivated soils. Soil Sci. Soc. Am. J. 50:627–633.",
+      "Gardner, W.R. 1956. Representation of soil aggregate-size distribution by a logarithmic-normal distribution. Soil Sci. Soc. Am. Proc. 20:151–153.",
+      "Hénin, S., Monnier, G., and Combeau, A. 1958. Méthode pour l'étude de la stabilité structurale des sols. Ann. Agron. 9:73–92.",
+      "Kemper, W.D. and Koch, E.J. 1966. Aggregate stability of soils from western portions of the United States and Canada. USDA Tech. Bull. 1355. U.S. Government Printing Office, Washington, DC.",
+      "Kemper, W.D. and Rosenau, R.C. 1984. Soil cohesion as affected by time and water content. Soil Sci. Soc. Am. J. 48:1001–1006.",
+      "Kemper, W.D. and Rosenau, R.C. 1986. Aggregate stability and size distribution. In: A. Klute, ed. Methods of Soil Analysis, Part 1, 2nd ed. American Society of Agronomy, Madison, WI, 425–442.",
+      "Kemper, W.D., Rosenau, R.C., and Dexter, A.R. 1987. Cohesion development in disrupted soils as affected by clay and organic matter content and temperature. Soil Sci. Soc. Am. J. 51:860–867.",
+      "Larney, F.J., Janzen, H.H., Olson, B.M., Bullock, M.S., and Selinger, L.J. 1996. Aggregate stability: A soil quality indicator for southern Alberta soils. In: Proc. 33rd Annual Alberta Soil Science Workshop, February 20–22, 1996, Edmonton, AB, Canada, 262–267.",
+      "Le Bissonnais, Y. 1996. Aggregate stability and assessment of soil crustability and erodibility: I. Theory and methodology. J. Soil Sci. 47:425–437.",
+      "Le Bissonnais, Y. and Arrouays, D. 1996. Aggregate stability and assessment of soil crustability and erodibility: II. Application to humic loamy soils with various organic carbon contents. J. Soil Sci. 48:39–48.",
+      "Lehrsch, G.A. 1998. Freeze-thaw cycles increase near-surface aggregate stability. Soil Sci. 163:63–70.",
+      "MacRae, R.J. and Mehuys, G.R. 1987. Effects of green manuring in rotation with corn on physical properties of two Québec soils. Biol. Agric. Hortic. 4:257–270.",
+      "Marquez, C.O., Garcia, V.P., Cambardella, C.A., Schultz, R.C., and Isenhart, T.M. 2004. Aggregate-size stability distribution and soil stability. Soil Sci. Soc. Am. J. 68:725–735."
+    ]},
+    {"type": "source-fidelity-note", "text": "原书把Kemper和Koch（1966）条目的出版者与Kemper和Rosenau（1984）连在同一行，已拆分。同时校正可核实的题名/作者拼写错误：Shortterm→Short-term，aggregate- size→aggregate-size，structural→structurale，Arrourays→Arrouays，Que'bec→Québec。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "82358de0488d08b909e563259ecb5c54ebd9a3cf765b4b1e580ddcd3918ea83c"
+}

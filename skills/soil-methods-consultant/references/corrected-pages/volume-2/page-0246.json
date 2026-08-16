@@ -1,0 +1,47 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 246,
+  "sourceImageSha256": "5d054a1a80dd8e9ae867d7839eb7e5e2c61ab2af1da219c3b46a4f1d2313d01a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐式逐格对照原分辨率页图、两套OCR和英文原章，完成77.2.1(3)末—(4)、77.2.2单水头及表77.1前页"},
+    "precisionPass": {"status": "verified", "method": "核验10—60 min、30—60 cm、q_s=Q_s/(πa²)、式(77.1)—(77.2)、C₁=0.316π、C₂=0.184π及d≥3/H≥5 cm"},
+    "secondVisualPass": {"status": "verified", "method": "按H/T、1/(α*T)和重力项1三项分母复核量纲，并预算表77.1修正值；印刷页码755"}
+  },
+  "blocks": [
+    {"type": "procedure", "steps": ["降水头法在几秒内把环内水位快速加至H₀（t=0），随后记录H_t随时间下降。"]},
+    {
+      "type": "equilibration-guidance",
+      "items": [
+        "恒水头流率先短暂下降后趋于准稳态。细质、结构差、H增大、插入深d增大、环半径a增大都会延长平衡时间。",
+        "直径5—10 cm且粗质/结构良好时，首个水头通常10—60 min；直径30—60 cm或更大且细质/结构差时可需数小时至数天。多水头的后续水头通常比首水头快；降水头法无稳态等待，因为流率随H改变。"
+      ]
+    },
+    {"type": "heading", "number": "77.2.2", "title": "分析和计算", "level": 3},
+    {"type": "heading", "number": "77.2.2.1", "title": "单固定水头", "level": 4},
+    {
+      "type": "calculation-guidance",
+      "text": "由修正式(77.1)求K_fs。q_s=Q_s/(πa²)；T=C₁d+C₂a。α*按第76章表76.1估计或独立测定。C₁=0.316π、C₂=0.184π，在d≥3 cm、H≥5 cm范围适用。得到K_fs后按式(69.16)—(69.21)求φ_m、S、PD、NP、ψ_f。传统式K_fs=q_s忽略压力、几何和毛管项，通常系统高估。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "77.1",
+      "plain": "K_fs = q_s/[H/(C₁d+C₂a) + 1/(α*(C₁d+C₂a)) + 1]",
+      "latex": "K_{fs}=\\frac{q_s}{H/(C_1d+C_2a)+1/[\\alpha^*(C_1d+C_2a)]+1}",
+      "resultUnit": "L·T⁻¹",
+      "variables": ["q_s=Q_s/(πa²)：准稳态入渗通量，[L·T⁻¹]", "Q_s：准稳态体积流率，[L³·T⁻¹]", "a：圆环内半径，[L]", "H：稳定积水头，[L]", "d：插入深度，[L]", "α*：吸渗数，[L⁻¹]", "C₁=0.316π；C₂=0.184π"]
+    },
+    {"label": "77.2", "plain": "K_fs = q_s", "latex": "K_{fs}=q_s", "resultUnit": "L·T⁻¹", "warning": "传统近似；通常高估K_fs。"}
+  ],
+  "tables": [
+    {
+      "number": "77.1",
+      "title": "单圆环单定水头案例（前页）",
+      "columns": ["项目", "数值"],
+      "rows": [["圆环半径a","15 cm"],["插入深度d","5 cm"],["水头H","10 cm"],["介质","无结构黏壤土；估α*=0.04 cm⁻¹"],["C₁","0.316π=0.9927"],["C₂","0.184π=0.5781"]],
+      "notes": ["测量流率和结果续下页。"]
+    }
+  ],
+  "contentSha256": "dedadf475d4988037da79835cbb2372ef6d0f2436692c30923346fc0af157bb8"
+}

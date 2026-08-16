@@ -1,0 +1,45 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 486,
+  "sourceImageSha256": "102c7eb342ce05d48020802c6be39017c26524988bc2d54a285ca1ef78f9d162",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页、PaddleOCR和Apple OCR，补齐48.3.1跨页句、48.3.2全部材料与氧化步骤、注释及48.3.3引言"},
+    "precisionPass": {"status": "verified", "method": "核验K₂S₂O₈、3.75 mol·L⁻¹ NaOH、15+15 mL、121 °C、135 kPa、30 min、<3%失水和DON差量计算；将电阻率量纲校为MΩ·cm"},
+    "secondVisualPass": {"status": "verified", "method": "从48.3.3页末反向复核至48.3.1承上句，检查全部化学式、上下标、温压条件、章节层级和文献引用；印刷页码455"}
+  },
+  "blocks": [
+    {"type": "paragraph", "scope": "48.3.1", "text": "早期通过紫外光催化湿式氧化产生CO₂，再测定CO₂以确定碳含量；目前首选700～800 °C干式燃烧法，因为对溶液中无机和有机溶解态碳的测定更简便、更准确。"},
+    {"type": "section-heading", "level": 3, "number": "48.3.2", "title": "氮含量（Cabrera和Beare，1993）"},
+    {"type": "paragraph", "text": "土壤溶液或水提取液中的有机氮可用过硫酸盐氧化法测定：高温下用过硫酸钾把有机氮氧化为NO₃⁻-N，再用标准比色法测定，例如先用镉柱将NO₃⁻还原为NO₂⁻。"},
+    {"type": "subsection-heading", "level": 4, "title": "1. 材料与试剂"},
+    {"type": "materials-list", "scope": "48.3.2", "items": [
+      {"number": "（1）", "text": "经认证的低氮过硫酸钾（K₂S₂O₈；EM Science，EM Industries, Inc.，Gibbstown，NJ，USA）。"},
+      {"number": "（2）", "text": "硼酸。"},
+      {"number": "（3）", "text": "纯净水，电阻率≥17.8 MΩ·cm。"},
+      {"number": "（4）", "text": "3.75 mol·L⁻¹ NaOH：将150 g NaOH溶于900 mL纯净水，冷却至室温后用纯净水定容至1 L。"},
+      {"number": "（5）", "text": "氧化液：将100 g K₂S₂O₈和60 g硼酸溶于200 mL、3.75 mol·L⁻¹ NaOH，再用纯净水定容至2 L。"},
+      {"number": "（6）", "text": "带聚四氟乙烯内衬螺旋盖的50 mL玻璃试管。"}
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "2. 氧化过程"},
+    {"type": "procedure-step", "number": "（1）", "text": "按第6章标准方法分别测定未氧化样品的NO₂⁻-N、NO₃⁻-N和NH₄⁺-N，求得初始无机氮浓度。"},
+    {"type": "procedure-step", "number": "（2）", "text": "取15 mL可溶性有机质样品于50 mL玻璃管，加15 mL氧化液后立即拧紧盖子，涡旋混合数秒，称量各管。"},
+    {"type": "procedure-step", "number": "（3）", "text": "松开管盖，在高压蒸汽灭菌器中于121 °C、135 kPa氧化30 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "取出后在室温冷却，重新拧紧并称量。高压氧化的水分损失应小于初始质量的3%；用质量损失校正氧化液中NO₃⁻-N浓度。"},
+    {"type": "procedure-step", "number": "（5）", "text": "按第6章标准方法测定氧化后溶液的NO₃⁻-N浓度。"},
+    {"type": "procedure-step", "number": "（6）", "text": "氧化后NO₃⁻-N浓度与未氧化样品初始无机氮浓度之差，为可溶性有机氮（DON）浓度。"},
+    {"type": "subsection-heading", "level": 4, "title": "3. 注释"},
+    {"type": "note", "number": "（1）", "text": "氧化与未氧化样品的无机氮均可用自动流动注射分析（FIA）测定。某些FIA可以紫外光在线催化过硫酸盐氧化，同时测定矿质氮和总溶解氮；其氧化效果与本手工法相当。"},
+    {"type": "note", "number": "（2）", "text": "本法可能氧化空气中的部分氮，因此应尽量减少试管顶空体积（Hagedorn和Schleppi，2000）。"},
+    {"type": "source-fidelity-note", "scope": "48.3.2（3）纯水电阻率", "text": "中译本把纯水电阻率印为≥17.8 MΩ·cm⁻¹，负一次方使其变成电导率形式且与MΩ不相容；已按超纯水电阻率规范校为≥17.8 MΩ·cm。"},
+    {"type": "section-heading", "level": 3, "number": "48.3.3", "title": "特定紫外吸光值"},
+    {"type": "paragraph", "text": "可溶性有机质中芳香族化合物可用特定紫外吸光值估计（Traina等，1990；Novak等，1992；Chin等，1994；Korshin等，1997）。该值与芳香性聚合物（XAD-8）吸附的DOC（Dilling和Kaiser，2002；Kalbitz等，2003）及下节所测酪含量正相关；与森林土壤腐殖质层、A层（淋溶层）和泥炭DOM的生物可降解性负相关，表明芳香族化合物是DOM中较难降解的部分（Kalbitz等，2003）。"}
+  ],
+  "formulas": [
+    {"id": "48.3.2-din", "display": "DIN = [NO₂⁻-N]₀ + [NO₃⁻-N]₀ + [NH₄⁺-N]₀", "meaning": "过硫酸盐氧化前样品的初始溶解无机氮"},
+    {"id": "48.3.2-don", "display": "DON = [NO₃⁻-N]after oxidation,corr − DIN", "meaning": "氧化后硝酸态氮经失水校正后，减去初始溶解无机氮；各项必须使用相同的N质量浓度单位"},
+    {"id": "48.3.2-water-loss", "display": "water loss (%) = (m₀ − m₁)/m₀ × 100% < 3%", "meaning": "高压氧化失水质量分数；据此校正浓缩效应"}
+  ],
+  "tables": [],
+  "contentSha256": "ec9b2531112e3626620bc5ca59dc20e9ba264e5f1a5da616a37ca49a78fa3fc9"
+}

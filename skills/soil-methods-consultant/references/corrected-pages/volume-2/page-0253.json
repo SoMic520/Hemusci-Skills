@@ -1,0 +1,70 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 253,
+  "sourceImageSha256": "c975a73ff3f4cd1afdaf56643051ebb32ba24807a505e04fe51b552396e6e9f2",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对第78章题名、作者、78.1引言、式(78.1)及四步概述"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验K_s [L·T⁻¹]、C_AH、Δy(cm)、Δt(s)、r_c、H、F及钻孔直径/水下深度阈值"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "公式区放大并与英文原章复核C_AH为无量纲形态因子；印刷页码762"
+    }
+  },
+  "blocks": [
+    {
+      "type": "chapter",
+      "number": "78",
+      "title": "饱和水力学特性：钻孔法",
+      "author": "G. Clarke Topp",
+      "affiliation": "Agriculture and Agri-Food Canada, Ottawa, Ontario, Canada"
+    },
+    {
+      "type": "heading",
+      "number": "78.1",
+      "title": "引言",
+      "level": 2
+    },
+    {
+      "type": "principle",
+      "text": "钻孔法用于田间原位测定地下水位以下饱和区多孔介质的饱和导水率K_s [L·T⁻¹]，尤其适用于暗管排水设计。方法基于达西定律：先使孔内水位与静水位（通常即地下水位）平衡，再快速升高或降低孔内水位，记录孔内外水流使水位恢复平衡的早期过程。"
+    },
+    {
+      "type": "calculation-guidance",
+      "text": "C_AH取决于钻孔半径r_c、钻孔底至静水位的高度差H，以及孔底至下伏隔水层或高渗透层的距离F；可由表78.1、图解或经验式确定。复杂流态和孔形使实际取样体积难以精确界定，但孔壁与孔底邻近介质贡献最大；孔径越大通常越具代表性，常用孔径≥10 cm。分析通常假定孔底平整、孔为直圆柱，孔底宜至少低于静水位30 cm。"
+    },
+    {
+      "type": "procedure-overview",
+      "steps": [
+        "用土钻打孔，使孔底至少低于地下水位30 cm。",
+        "等待孔内水位与静水位持平。",
+        "快速加入或抽出水，使介质与孔内发生水流。",
+        "记录孔内水位重新平衡过程中水位随时间的变化。"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "label": "78.1",
+      "plain": "K_s = C_AH(Δy/Δt)",
+      "latex": "K_s=C_{AH}\\frac{\\Delta y}{\\Delta t}",
+      "resultUnit": "L·T⁻¹",
+      "variables": [
+        "Δy：时间间隔内相对初始静水位的孔内水位变化，[L]（本章示例用cm）",
+        "Δt：时间间隔，[T]（本章示例用s）",
+        "C_AH：无量纲形态因子",
+        "r_c：钻孔半径，[L]",
+        "H：钻孔底至静水位的距离，[L]",
+        "F：钻孔底至下伏隔水层或高渗透层的距离，[L]"
+      ]
+    }
+  ],
+  "tables": [],
+  "contentSha256": "9f08f1e5e1a2ff67205dc2c1961265c816b995de2e550b93ed33d6893c71a59b"
+}

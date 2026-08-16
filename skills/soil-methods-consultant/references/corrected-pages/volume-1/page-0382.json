@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 382,
+  "sourceImageSha256": "521e5d02bf888dacb956e3d14e4a322733f8d5fc22a425a93bea65107fdda40d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版37.5.2和式(37.2)～(37.4)"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验全部变量、括号和下标，并核验20 °C、24 h、1/2/4/6 h、9 mL、0.25 mL、5.0 m、70/350 °C、30 mL·min⁻¹、2.65 g·cm⁻³与α=0.632"},
+    "secondVisualPass": {"status": "verified", "method": "从式(37.4)变量说明反向复核至式(37.2)，重算24.05、7.55、6.00和240.45 mL；印刷页码351"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第37章｜土壤反硝化测定技术｜"},
+    {"type": "continuation", "text": "（承第381页37.5.2步骤3）取出气样后应立即注入足量乙炔，使瓶内压力恢复到初始值。密闭体系中注入的乙炔体积Vₐ按式(37.2)计算。若C=10%、V_F=240.5 mL，则Vₐ=24.05 mL。"},
+    {"type": "ordered-list", "start": 4, "items": [
+      "在20 °C培养土壤24 h。于培养1 h、2 h、4 h和6 h后从各瓶抽取9 mL气样，储存在5.9 mL进样瓶中。",
+      "用配电子捕获检测器的气相色谱仪分析气样和标准气。自动进样器把样品和标准气注入与十通阀相连、带排气口的0.25 mL定量环，使进入气相色谱仪的气体压力为101 kPa。气样先进入预柱，N₂O随后进入主柱；再反冲预柱并排空，以除去可能存在的水蒸气。主柱为5.0 m Porapak Q柱，柱温70 °C，载气为95% Ar+5% CH₄，流量30 mL·min⁻¹；电子捕获检测器温度350 °C，用于测定N₂O浓度。",
+      "计算培养瓶顶空体积。V_h=V_total−(V_soil+V_water)。V_total可由“装满蒸馏水且嵌入Suba Seal后的总质量−空锥形瓶和Suba Seal质量”求得；嵌塞时插针可排出滞留空气。标准250 mL锥形瓶嵌入Suba Seal后的总容积约254 mL，包含250 mL刻度线以上的顶空。矿质农田土平均颗粒密度取2.65 g·cm⁻³；若25 g田间湿土含20 g烘干土，则V_soil=7.55 mL。若培养含水量为30%（质量含水量），按水密度1 g·mL⁻¹，V_water=0.3×20 g=6.00 mL，因此V_h=254−(7.55+6.00)=240.45 mL。",
+      "按式(37.4)计算24 h培养期间释放的N₂O体积。用本生吸收系数校正溶于土壤溶液的N₂O；水温20 °C时α=0.632 mL N₂O·mL⁻¹水（Tiedje，1982）。连续抽取气样还需用式(37.5)和式(37.6)的校正因子。时间t时土壤产生的N₂O浓度变化，再按理想气体定律PV=nRT及1 mol N₂O中氮的质量28.0134 g N₂O-N·mol⁻¹计算。"
+    ]},
+    {"type": "equation-explanation", "equation": "37.4", "text": "V_N₂O,t为时间t时土壤产生的N₂O体积（μL）；C_t为时间t气相中的N₂O浓度（μL·L⁻¹）；V_h为顶空体积（mL）；V_water为培养期土壤中水的体积（mL）；α为本生吸收系数；CF_n为连续取样的无量纲校正因子。除以CF_n，是因为取走的顶空气体不能再吸收后续N₂O，若不校正，实测C_t会偏大。"},
+    {"type": "source-fidelity-note", "scope": "37.5.2步骤4培养时长", "text": "中文本把培养时间误印成20 h；英文原版步骤4和下一步计算说明均为24 h。正文已纠正为24 h。列出的气样时间为1、2、4、6 h。"},
+    {"type": "printed-page-number", "text": "351"}
+  ],
+  "formulas": [
+    {"id": "37.2", "display": "Vₐ = (C/100)V_F"},
+    {"id": "37.2-example", "display": "Vₐ = (10/100) × 240.5 mL = 24.05 mL"},
+    {"id": "37.3", "display": "V_h = V_total − (V_soil + V_water)"},
+    {"id": "37.3-example-soil", "display": "V_soil = 20 g ÷ 2.65 g·cm⁻³ = 7.55 cm³ = 7.55 mL"},
+    {"id": "37.3-example-water", "display": "V_water = 0.30 × 20 g ÷ 1 g·mL⁻¹ = 6.00 mL"},
+    {"id": "37.3-example-headspace", "display": "V_h = 254 mL − (7.55 mL + 6.00 mL) = 240.45 mL"},
+    {"id": "37.4", "display": "V_N₂O,t = {C_t[V_h + (V_water α)]/CF_n} × (1 L/1000 mL)"},
+    {"id": "37.4-alpha", "display": "α₂₀°C = 0.632 mL N₂O·mL⁻¹ water"}
+  ],
+  "tables": [],
+  "contentSha256": "8272248a63ce20efbce00bfaa36fabc2a10213fa7ed20e779f79aba0b2d5c234"
+}

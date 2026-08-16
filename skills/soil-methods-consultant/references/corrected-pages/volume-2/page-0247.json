@@ -1,0 +1,47 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 247,
+  "sourceImageSha256": "b0e68d10fcb9b8e386304daf41c3c22bb7c9c3371a30bdc5abf89ecf98f5f60f",
+  "review": {
+    "textPass": {"status": "verified", "method": "对公式区放大复核并对照英文原章，完成表77.1、77.2.2.2、式(77.3a)—(77.4c)及表77.2前页"},
+    "precisionPass": {"status": "verified", "method": "核验q₁/q₂、H₁/H₂、T、斜率/截距、所有括号和α*分母，并核验表77.1的10⁻⁵指数"},
+    "secondVisualPass": {"status": "verified", "method": "用H₁=5、H₃=20及q₁/q₃预反算K_fs=3.3×10⁻⁴、α*=0.12；印刷页码756"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "77.2.2.2", "title": "多固定水头", "level": 4},
+    {
+      "type": "calculation-guidance",
+      "text": "两个或更多水头可同时求K_fs和α*，无需分类估α*。两水头用式(77.3)；多水头把q_i对H_i作线性最小二乘，斜率乘T得K_fs，再由截距求α*。两个点时联立式与直线回归严格等价。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "式(77.4a)中文和英文排版均把索引起点印成i=2，但本式及表77.2明显使用(H₁,q₁)并对q₁、q₂、q₃回归；规范索引校为i=1,2,…,n。"
+    }
+  ],
+  "formulas": [
+    {"label": "77.3a", "plain": "K_fs = T(q₂−q₁)/(H₂−H₁)", "latex": "K_{fs}=\\frac{T(q_2-q_1)}{H_2-H_1}", "resultUnit": "L·T⁻¹"},
+    {"label": "77.3b", "plain": "α* = (q₂−q₁)/[q₁(H₂+T)−q₂(H₁+T)]", "latex": "\\alpha^*=\\frac{q_2-q_1}{q_1(H_2+T)-q_2(H_1+T)}", "resultUnit": "L⁻¹"},
+    {"label": "77.3c", "plain": "T = C₁d + C₂a", "latex": "T=C_1d+C_2a", "resultUnit": "L"},
+    {"label": "77.4a", "plain": "q_i = (K_fs/T)H_i + K_fs[1/(α*T)+1], i=1,2,…,n; n≥2", "latex": "q_i=\\frac{K_{fs}}{T}H_i+K_{fs}\\left(\\frac{1}{\\alpha^*T}+1\\right),\\quad i=1,2,\\ldots,n;\\ n\\ge2", "resultUnit": "L·T⁻¹"},
+    {"label": "77.4b", "plain": "K_fs = T × slope", "latex": "K_{fs}=T\\times\\mathrm{slope}", "resultUnit": "L·T⁻¹"},
+    {"label": "77.4c", "plain": "α* = K_fs/[T(intercept−K_fs)]", "latex": "\\alpha^*=\\frac{K_{fs}}{T(\\mathrm{intercept}-K_{fs})}", "resultUnit": "L⁻¹"}
+  ],
+  "tables": [
+    {
+      "number": "77.1",
+      "title": "单圆环单定水头案例（续表）",
+      "columns": ["项目", "数值"],
+      "rows": [["q_s=Q_s/(πa²)","8.56×10⁻⁵ cm·s⁻¹"],["修正式(77.1)","K_fs=2.40×10⁻⁵ cm·s⁻¹"],["传统式(77.2)","K_fs=8.56×10⁻⁵ cm·s⁻¹"]],
+      "notes": ["传统值为修正值3.6倍；偏大由α*、H、d、a系统决定。"]
+    },
+    {
+      "number": "77.2",
+      "title": "多固定水头单环案例（前页）",
+      "columns": ["项目", "数值"],
+      "rows": [["a","15 cm"],["d","5 cm"],["H","H₁=5 cm，H₂=10 cm，H₃=20 cm"],["介质","有结构壤土"],["C₁","0.316π=0.9927"],["C₂","0.184π=0.5781"],["T","13.635 cm"],["含水量","θ_fs=0.65，θ_i=0.40"]],
+      "notes": ["流率和计算结果续下页。"]
+    }
+  ],
+  "contentSha256": "4909319c9b62b33e0d0fcdd76e23f6174601fcf2097d6a885fc23fe615eced75"
+}

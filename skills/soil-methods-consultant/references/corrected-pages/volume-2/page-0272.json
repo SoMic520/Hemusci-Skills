@@ -1,0 +1,83 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 272,
+  "sourceImageSha256": "9c228d72167af50c947e53e10e5069a1ca08591204f016fec7d76ce86f2d9497",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对第81章题名、作者单位、81.1全文及81.2材料第1—5项前半"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验K(ψ)、K(θ)、θ(ψ)、S(ψ)、α*(ψ)、PD(ψ)、NP(ψ)上下标量纲语义及−700～−10 cm范围"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "整页高倍复核2T/5T、0.6 cm、6～7 cm、−800 cm和作者机构；印刷页码781"
+    }
+  },
+  "blocks": [
+    {
+      "type": "chapter",
+      "number": "81",
+      "title": "非饱和水力学特性：室内蒸发法",
+      "authors": [
+        "O.O.B. Wendroth",
+        "N. Wypler"
+      ],
+      "affiliations": [
+        "University of Kentucky, Lexington, Kentucky, United States",
+        "Leibniz-Centre for Agricultural Landscape Research, Müncheberg, Germany"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "81.1",
+      "title": "引言",
+      "level": 2
+    },
+    {
+      "type": "scope",
+      "text": "室内蒸发法或Wind法（Wind，1968）主要用于在原状土芯或土柱上确定非饱和导水率关系K(ψ)或K(θ)以及孔隙水脱水曲线θ(ψ)。也可估算吸渗率S(ψ)、吸渗数α*(ψ)、流量权重平均孔径PD(ψ)和单位面积流量权重平均孔数NP(ψ)等毛管关系。相关原理与参数见第69章；其他室内、田间和代理属性估算方法分别见第80、82、83和84章。"
+    },
+    {
+      "type": "principle",
+      "text": "在土样或土柱的规定高度安装探针，同时测定土壤基质水头ψ和体积含水量θ。水分从样品表面随时间蒸发，土体由饱和逐渐变干，据ψ和θ的变化计算水力关系。受圆柱壁约束，所得K(ψ)、K(θ)、θ(ψ)及毛管关系对应一维排水/蒸发。适用基质水头范围为−700 cm≤ψ≤−10 cm。"
+    },
+    {
+      "type": "analysis-design",
+      "text": "简单分析采用理论上的最少配置——两个张力计——确定ψ随时间的变化，简称“2T设置”；全面分析采用3个及以上张力计，本章以“5T设置”表示。"
+    },
+    {
+      "type": "heading",
+      "number": "81.2",
+      "title": "材料",
+      "level": 2
+    },
+    {
+      "type": "materials",
+      "items": [
+        "带2个张力计出入孔（2T设置）或多个出入孔（5T设置）的圆柱形金属或塑料取样环/土柱；筒壁出入孔须大于张力计陶土杯，以免穿过筒壁时损坏陶土杯。",
+        "刚性、轻质、不透水的金属或塑料底盘。",
+        "张力计电缆支架，见图81.1。",
+        "用于把土样/土柱与底盘密封连接的堵漏封泥。",
+        "每个出入孔配置一个快速平衡张力计；陶土杯应能代表较大横截面并有较宽工作范围。推荐陶土杯直径0.6 cm、长度6～7 cm、导水性高、进气基质水头约−800 cm。可用手动或电子系统；电子压力传感器须先以悬挂水柱校准并定期复校。试验在20℃±1℃下进行，以减小温度对压力传感器、脱水与水流的影响。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "书中“加权平均孔隙直径数”规范为单位面积流量权重平均孔数NP(ψ)，量纲语义见第69章；适用水头上下限均为负值，不能写成+10或+700 cm。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "81.1适用范围",
+      "plain": "−700 cm≤ψ≤−10 cm",
+      "latex": "-700\\ \\mathrm{cm}\\leq\\psi\\leq-10\\ \\mathrm{cm}",
+      "resultUnit": "cm"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "2fa8b7c792e98d12ca12660a7b62b61c46a14e175fcc75b1170650ae5c421607"
+}

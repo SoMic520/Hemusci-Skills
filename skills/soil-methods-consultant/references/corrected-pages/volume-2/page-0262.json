@@ -1,0 +1,79 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 262,
+  "sourceImageSha256": "dbb95ba2ef7f44e585dc452d2dbab1dc20510ed82c75631096402fdfe8d343fa",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对79.3.3步骤3—5、79.4四步计算和79.5三条注释"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验Δt=t_{i+1}−t_i、>1 cm、10—20 s、≥5组、y_i/y_{i+1}、C_P/r_c及4r_c≤h_c≤8r_c"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "与英文原章复核水力方向解释、加大孔与封隔器安装、直接加水偏低机制；印刷页码771"
+    }
+  },
+  "blocks": [
+    {
+      "type": "procedure-continuation",
+      "steps": [
+        "确定采集间隔：在采集(y_i,t_i)前试测；Δt=t_{i+1}−t_i须足够长使每段水位变化>1 cm，又须足够短以在恢复静水位前得到多点，常用10—20 s。",
+        "快速改变水位：调理并重新平衡后，用提水筒/泵、已知体积slug或加水快速降/升水位。抽出水须远离测点或收集，避免扰动静水位。",
+        "记录：迅速安装记录器并立即监测；快速响应压力传感器可预先置入。记录t_i和y_i′，恢复平衡前尽量多取点，至少5组；可重复快速变水位和记录。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "79.4",
+      "title": "计算",
+      "level": 2
+    },
+    {
+      "type": "calculation-steps",
+      "steps": [
+        "按图79.1计算y_i及y_i/y_{i+1}。初始抽水后，y_i应随时间单调减小。若比值恒定或一致减小，后续可用等间隔或变间隔；若比值呈稳定规律，宜扩大总时间跨度以减小测量误差。",
+        "选Δt=t_b−t_a并取对应y_a、y_b。",
+        "由表79.1估C_P/r_c，并按C_P=(C_P/r_c)r_c计算C_P。",
+        "将C_P、t_b−t_a和y_a/y_b代入式(79.1)计算K_s；以cm和s输入时结果为cm·s⁻¹。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "79.5",
+      "title": "注释",
+      "level": 2
+    },
+    {
+      "type": "method-notes",
+      "items": [
+        "测压腔长度h_c控制方向代表性：4r_c≤h_c≤8r_c时K_s主要代表腔壁邻近介质的水平导水率；h_c接近r_c时为水平与垂直综合；h_c=0时代表管端下方介质的垂直导水率。Topp和Sattlecker（1983）的封隔器可在单孔测浅含水层水平、垂直K_s。",
+        "石质或砾质土难以推进测压管或建立密封，不宜使用。深层安装时可只把静水位以上钻成加大孔，再继续下部安装；无封隔器时，管—加大孔间隙须用挖出物和/或膨润土回填以稳定并密封。",
+        "初始水位改变优先快速抽水或使用slug，不宜直接快速加水；加水可悬浮粉粒、黏粒，随后使测压腔逐渐淤积/局部堵塞，导致K_s偏低。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "中文把deep piezometers误作“深层压力计”，规范为深层测压管；“加入一个固体”明确为已知体积slug。计算步骤中的C_P须乘r_c，沿用图79.1原印除法会造成量纲和数值错误。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "79.4-时间间隔",
+      "plain": "Δt=t_{i+1}−t_i; selected Δt=t_b−t_a",
+      "latex": "\\Delta t=t_{i+1}-t_i,\\quad \\Delta t=t_b-t_a",
+      "resultUnit": "T"
+    },
+    {
+      "label": "79.4-形态因子",
+      "plain": "C_P=(C_P/r_c)r_c",
+      "latex": "C_P=\\left(\\frac{C_P}{r_c}\\right)r_c",
+      "resultUnit": "L"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "c91fc3ec915e13a0f6c5907abdd07554254b5eed1e9c27ee88e9d19120120225"
+}

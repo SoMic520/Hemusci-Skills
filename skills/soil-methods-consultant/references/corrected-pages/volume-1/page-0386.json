@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 386,
+  "sourceImageSha256": "903906fa4e901b900c1219704579a85b6a36ef6bca9f5da27d2537b867a950e2",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版37.7.2～37.8"},
+    "precisionPass": {"status": "verified", "method": "核验约1 cm、4 °C、10%顶空、20 °C、6 h、1/2/4/6 h、9 mL、300 mL·min⁻¹、¹⁵NO₃⁻与N₂"},
+    "secondVisualPass": {"status": "verified", "method": "从37.8承下句反向复核至37.7.2步骤1，统一顶空比例定义并保持步骤层级；印刷页码355"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第37章｜土壤反硝化测定技术｜"},
+    {"type": "continuation", "text": "（承第385页37.7.2步骤1）把土芯筒斜面切削刃朝下敲入土中，必须避免明显压实；另随机采集抓取样测定质量含水量。土表粗糙时，可把土芯筒插到略低于土表约1 cm处。手工取芯可把第二个土芯筒置于已插入土中的筒顶，轻敲第二筒顶部，使压力主要施加在筒壁而不是土表。"},
+    {"type": "ordered-list", "start": 2, "items": [
+      "在土芯两端加盖防止土壤掉落，装入塑料袋以减少失水并带回实验室。应尽快培养；不能立即开始时在4 °C保存以降低微生物活性。称量装土铝筒，置于广口密封罐并盖严。以置换顶空10%为目标按式(37.1)抽气，再按式(37.2)加入不含丙酮的乙炔，使罐内乙炔达到顶空体积的10%；顶空计算见37.5.2节。",
+      "在20 °C培养6 h。培养期间至少采集4个顶空气样，每个9 mL，例如在1、2、4、6 h取样。这样既给乙炔足够时间扩散入土芯，又降低NO₃⁻成为限制因素的风险。按37.5.2节公式计算各时点N₂O-N_t，并对N₂O浓度与采样时间作线性回归，求N₂O产生速率。"
+    ]},
+    {"type": "section-heading", "level": 3, "number": "37.7.3", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      "必须确定培养罐顶空体积，以计算应移除的空气量、使乙炔达到顶空10%所需加入的酸洗乙炔量，以及土壤N₂O通量。可用式(37.3)，但还须计入铝筒体积。土芯采集前，称量装有空铝筒、盖和Suba Seal的罐；再把罐装满水、装回盖和Suba Seal后称量。质量差为水质量，V_total=水质量/水密度。",
+      "把完整土芯移出圆筒或使用穿孔圆筒可改善乙炔扩散，但也会使顶空C₂H₂和O₂更易进入土芯内部。此时宜先用氦等惰性气体冲洗罐体，再加C₂H₂，以免O₂抑制反硝化。加入乙炔后，用大注射器抽吸并回推含乙炔顶空气体，也可增加乙炔进入土壤孔隙的量或加快其进入。",
+      "田间反硝化速率具有高度时空变异，须谨慎设计取样策略；样本量影响见Parkin等（1987）。反硝化速率常呈对数正态分布，统计方法必须相应调整。",
+      "也可用气流法测定原状土芯反硝化速率（Parkin等，1984）：向循环气流加入乙炔，以300 mL·min⁻¹流经土芯。优点是测量快、分析变异小；缺点是通气状态下的微位点可能不同于静态培养土芯。"
+    ]},
+    {"type": "section-heading", "level": 2, "number": "37.8", "title": "¹⁵N示踪技术", "citation": "Hauck等，1958；Mulvaney和Vanden Heuvel，1988；Arah，1992"},
+    {"type": "paragraph", "text": "通过测定以¹⁵NO₃⁻标记土壤所产生N₂的同位素组成来测定反硝化，其理论约在50年前提出（Hauck等，1958），但近25年后才得到应用，主要因为需要同位素比质谱技术进步；本段续见第387页。"},
+    {"type": "printed-page-number", "text": "355"}
+  ],
+  "formulas": [
+    {"id": "37.7-core-acetylene", "display": "C₂H₂ = 10% (v/v) of jar headspace"},
+    {"id": "37.7-core-sampling", "display": "t = 1, 2, 4, 6 h; n ≥ 4; V_sample = 9 mL"},
+    {"id": "37.7-total-volume", "display": "V_total = m_water/ρ_water"}
+  ],
+  "tables": [],
+  "contentSha256": "15951d17da63a0bd6caf4d2905fc2c0d21068c79df581dea4850ceb71bcce8da"
+}

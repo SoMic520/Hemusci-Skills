@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 506,
+  "sourceImageSha256": "5a1e44d56d227eb1739aa5eb5f7e88c5a234337c9d4a53276dea335ec42bc66f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页面和两套OCR，完成Powlson至Wu共19条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验Cd、¹⁴C、k_EC、k_C、k_N、C/N、卷页、作者顺序和期刊名"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至Powlson条，检查所有下标、同位素上标、连字符及印刷页码475"}
+  },
+  "blocks": [
+    {"type": "reference", "text": "Powlson, D.S., Brookes, P.C., and Christensen, B.T. 1987. Measurement of soil microbial biomass provides an early indication of changes in total soil organic matter due to straw incorporation. Soil Biology and Biochemistry 19: 159–164."},
+    {"type": "reference", "text": "Renella, G., Mench, M., van der Lelie, D., Pietramellara, G., Ascher, J., Ceccherini, M.T., Landi, L., and Nannipieri, P. 2004. Hydrolase activity, microbial biomass and community structure in long-term Cd-contaminated soils. Soil Biology and Biochemistry 36: 443–451."},
+    {"type": "reference", "text": "Ross, D.J. 1990. Estimation of soil microbial C by a fumigation-extraction method: influence of seasons, soils and calibration with the fumigation-incubation procedure. Soil Biology and Biochemistry 22: 295–300."},
+    {"type": "reference", "text": "Ross, D.J. 1991. Microbial biomass in a stored soil: a comparison of different estimation procedures. Soil Biology and Biochemistry 23: 1005–1007."},
+    {"type": "reference", "text": "Saggar, S., Bettany, J.R., and Stewart, J.W.B. 1981. Measurement of microbial sulphur in soil. Soil Biology and Biochemistry 13: 493–498."},
+    {"type": "reference", "text": "Smith, J.L. and Paul, E.A. 1990. The significance of soil microbial biomass estimations. In: J.-M. Bollag and G. Stotzky, eds. Soil Biochemistry, Vol. 6. Marcel Dekker, New York, NY, pp. 357–396."},
+    {"type": "reference", "text": "Sparling, G.P., Feltham, C.W., Reynolds, J., West, A.W., and Singleton, P. 1990. Estimation of soil microbial C by a fumigation-extraction method: use on soils of high organic matter content, and reassessment of the k_EC-factor. Soil Biology and Biochemistry 22: 301–307."},
+    {"type": "reference", "text": "Sparling, G.P. and West, A.W. 1988a. Modifications to the fumigation-extraction technique to permit simultaneous extraction and estimation of soil microbial biomass C and N. Communications in Soil Science and Plant Analysis 19: 327–344."},
+    {"type": "reference", "text": "Sparling, G.P. and West, A.W. 1988b. A direct extraction method to estimate soil microbial C: calibration in situ using microbial respiration and ¹⁴C-labelled cells. Soil Biology and Biochemistry 20: 337–343."},
+    {"type": "reference", "text": "Spedding, T.A., Hamel, C., Mehuys, G.R., and Madramootoo, C.A. 2004. Soil microbial dynamics in maize-growing soil under different tillage and residue management systems. Soil Biology and Biochemistry 36: 499–512."},
+    {"type": "reference", "text": "Tabatabai, M.A. and Bremner, J.M. 1970. An alkaline method for determining total sulfur in soils. Proceedings of the Soil Science Society of America 34: 62–65."},
+    {"type": "reference", "text": "Vance, E.D., Brookes, P.C., and Jenkinson, D.S. 1987. An extraction method for measuring soil microbial biomass C. Soil Biology and Biochemistry 19: 703–707."},
+    {"type": "reference", "text": "van Veen, J.A. and Paul, E.A. 1979. Conversion of biovolume measurements of soil organisms grown under various moisture tensions to biomass and their nutrient content. Applied and Environmental Microbiology 37: 686–692."},
+    {"type": "reference", "text": "Voroney, R.P. and Paul, E.A. 1984. Determination of k_C and k_N in situ for calibration of the chloroform fumigation-incubation method. Soil Biology and Biochemistry 16: 9–14."},
+    {"type": "reference", "text": "Winter, J.P., Zhang, Z., Tenuta, M., and Voroney, R.P. 1994. Measurement of microbial biomass by fumigation-extraction in soil stored frozen. Soil Science Society of America Journal 58: 1645–1651."},
+    {"type": "reference", "text": "Wu, J. and Brookes, P.C. 2005. The proportional mineralization of microbial biomass and organic matter caused by air-drying and rewetting of a grassland soil. Soil Biology and Biochemistry 37: 507–515."},
+    {"type": "reference", "text": "Wu, J., He, Z.L., Wei, W.X., O'Donnell, A.G., and Syers, J.K. 2000. Quantifying microbial biomass phosphorus in acid soils. Biology and Fertility of Soils 32: 500–507."},
+    {"type": "reference", "text": "Wu, J., Joergensen, R.G., Pommerening, B., Chaussod, R., and Brookes, P.C. 1990. Measurement of soil microbial biomass C by fumigation-extraction—an automated procedure. Soil Biology and Biochemistry 22: 1167–1169."},
+    {"type": "reference", "text": "Wu, J., O'Donnell, A.G., He, Z.L., and Syers, J.K. 1994. Fumigation-extraction method for the measurement of soil microbial biomass-S. Soil Biology and Biochemistry 26: 117–125."},
+    {"type": "source-fidelity-note", "scope": "第506页参考文献勘误", "text": "原书把Feltham误印为Felthan，并在若干位置漏逗号；已按正式作者名与作者顺序恢复。Voroney和Paul（1984）的两个校正因子按原题恢复为k_C和k_N。"},
+    {"type": "translator-credit", "text": "王西娜、党海燕译，王朝辉校。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a99625726699ca2cf995037193d166c89db7252a621168ff0a22c9558c2b128d"
+}

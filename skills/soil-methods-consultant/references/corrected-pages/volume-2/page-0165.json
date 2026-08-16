@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 165,
+  "sourceImageSha256": "1662f207e97ab56305e5feb315dfac315cb95ae22961e804ec1036315bd34cce",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐图对照原分辨率页图和两套OCR，完成图69.5、吸渗率式(69.12)、通量势式(69.13)及变量跨页句"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验ψ₀/ψᵢ积分上下限、r、1/2次方、θ_s、−∞<ψᵢ≤ψ₀≤0及L²·T⁻¹"},
+    "secondVisualPass": {"status": "verified", "method": "由页末变量句反向复核两式和图轴单位cm·s⁻¹、cm与cm³·cm⁻³；印刷页码674"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "有结构介质近饱和时，θ或ψ的很小变化可使导水率变化数个数量级；结构细质材料的导水率可高于也可低于粗质材料，取决于θ或ψ。图69.5示意砂土K_sat比无结构壤土高约两个数量级（质地效应），但比有结构壤土低约两个数量级（结构效应）。"},
+    {"type": "figure", "number": "69.5", "title": "代表性砂质土及有结构、无结构壤质土的导水率关系", "panels": [{"label": "a", "x": "孔隙水压力水头ψ（cm）", "y": "导水率K(ψ)（cm·s⁻¹）"}, {"label": "b", "x": "体积含水量θ（cm³·cm⁻³）", "y": "导水率K(θ)（cm·s⁻¹）"}], "series": ["砂土（实线）", "壤土/无结构壤土（点线）", "有结构壤土（虚线）"]},
+    {"type": "paragraph", "text": "吸渗率S(ψ₀)[L·T⁻¹ᐟ²]与K(ψ)、基质通量势φ(ψ)的关系见式(69.12)。入渗表面孔隙水基质水头为ψ₀，背景或先前水头为ψᵢ；相应体积含水量为θ(ψ₀)和θ(ψᵢ)。式中r的定义续见下页。"},
+    {"type": "paragraph", "text": "基质通量势φ(ψ₀)[L²·T⁻¹]定义为K(ψ)从背景水头ψᵢ到入渗表面水头ψ₀的定积分，适用−∞<ψᵢ≤ψ₀≤0。"},
+    {"type": "source-fidelity-note", "text": "式(69.12)与(69.13)的积分变量均为ψ，积分下限ψᵢ、上限ψ₀；OCR易把下标i/0、指数1/2和负无穷漏失。图69.5正文称“壤质土”，图例简称“壤土”，本页分别按原位置保留。"}
+  ],
+  "formulas": [
+    {"label": "69.12", "plain": "S(ψ₀) = {r[θ(ψ₀)-θ(ψᵢ)]∫_{ψᵢ}^{ψ₀}K(ψ)dψ}^{1/2} = {r[θ(ψ₀)-θ(ψᵢ)]φ(ψ₀)}^{1/2}; θ(ψᵢ) ≤ θ(ψ₀) ≤ θ_s, ψᵢ ≤ ψ₀ ≤ 0", "latex": "S(\\psi_0)=\\left\\{r[\\theta(\\psi_0)-\\theta(\\psi_i)]\\int_{\\psi_i}^{\\psi_0}K(\\psi)\\,d\\psi\\right\\}^{1/2}=\\left\\{r[\\theta(\\psi_0)-\\theta(\\psi_i)]\\phi(\\psi_0)\\right\\}^{1/2};\\quad \\theta(\\psi_i)\\leq\\theta(\\psi_0)\\leq\\theta_s,\\ \\psi_i\\leq\\psi_0\\leq0", "resultUnit": "L·T⁻¹ᐟ²"},
+    {"label": "69.13", "plain": "φ(ψ₀) = ∫_{ψᵢ}^{ψ₀}K(ψ)dψ; -∞ < ψᵢ ≤ ψ₀ ≤ 0", "latex": "\\phi(\\psi_0)=\\int_{\\psi_i}^{\\psi_0}K(\\psi)\\,d\\psi;\\quad -\\infty<\\psi_i\\leq\\psi_0\\leq0", "resultUnit": "L²·T⁻¹"}
+  ],
+  "tables": [],
+  "contentSha256": "d24151794d3639b36da0ac8f5b4e37b557250a08eef65175a097a5420ee977bd"
+}

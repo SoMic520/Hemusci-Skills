@@ -1,0 +1,31 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 57,
+  "sourceImageSha256": "9b7ca5ba74b6750cfe420aa6959e508babd81c2269adc000b713313ef38734d8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率续文、图示与方法页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复正文、图注、材料和步骤"},
+    "precisionPass": {"status": "verified", "method": "放大核对图3.3的4 m×7 m、2 m/5 m箭头与三种点位符号，60目/250 μm、100目/150 μm、CO₂、2 mm、0.1 g、150 μm、60～70°C、18 h及碳含量单位换算"},
+    "secondVisualPass": {"status": "verified", "method": "按3.3.4续文、图形网格与图例、图注来源、3.4/3.4.1/3.4.2层级、材料1～2项、步骤1～4项、单位和印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "continuation": true, "text": "地条件的取样情况（Conant等，2003；VandenBygaart，2006）。为了最有效地评估土壤碳含量随时间的变化，可以根据取样点及田块的具体情况，调整每个微型取样点和田块内的取样点数量（Bricklemyer等，2005）。"},
+    {"type": "figure", "number": "3.3", "caption": "4 m×7 m的小型地块中，用以测定随时间变化的有机碳储量的土壤采样方案示意图。", "sourceNote": "（优化自Ellert, B.H., Janzen, H.H., McConkey, B.G. In: R. Lal, J.M. Kimble, R.F. Follettand B.A. Stewart, (Eds.), Assessment Methods for Soil Carbon, Lewis Publishers, Boca Raton, Florida, 2001.）", "layout": {"plotDimensionsInCaption": "4 m×7 m", "gridArrowWidth": "2 m", "gridArrowHeight": "5 m", "grid": "两列、六行取样位置"}, "legend": [{"marker": "实心圆", "label": "原始土芯取样点"}, {"marker": "圆内白色星形", "label": "电磁标记样点"}, {"marker": "空心圆", "label": "第六年的取样点"}], "inlineNotation": ["4 m×7 m", "2 m", "5 m"]},
+    {"type": "section-heading", "level": 3, "number": "3.4", "title": "土壤有机碳存储量估算"},
+    {"type": "section-heading", "level": 4, "number": "3.4.1", "title": "材料"},
+    {"type": "numbered-item", "number": "1", "text": "土壤精磨仪和小型土筛（包括60目/250 μm和100目/150 μm两种规格）。", "inlineNotation": ["60目/250 μm", "100目/150 μm"]},
+    {"type": "numbered-item", "number": "2", "text": "碳分析仪：通过利用干烧法分析测定CO₂（总碳及有机碳分析参照第21章）。", "inlineNotation": ["CO_2", "第21章"]},
+    {"type": "section-heading", "level": 4, "number": "3.4.2", "title": "步骤"},
+    {"type": "numbered-item", "number": "1", "text": "从先前保存的风干土壤样品中获得一个具有代表性的子样本，理想状况是利用“滴入式”样品分割器或者离心式分离器进行分选。由更简单、更方便的方法（例如，将粒径小于2 mm的自然风干的土壤在托盘中充分混合，然后分别从其6个不同的区域取出少量样本）引入的变异性很容易通过从少量样本中收集多个子样本来定量。不推荐从样品袋或样品瓶的顶部取样，因为在用样品袋或样品瓶装样和样本处理时，土壤组分往往会不均匀。", "inlineNotation": ["2 mm", "6"]},
+    {"type": "numbered-item", "number": "2", "text": "对于大多数微量分析方法来说，粗磨的土壤样本（粒径小于2 mm）必须再用辊式或罐式研磨机、胶囊式研磨机、粉碎机、“环-球”式研磨机或者研钵等器具对其进行精细粉碎（如Kelley，1994；Rondon和Thomas，1994；McGee等，1999；Arnold和Schepers，2004）。理想的粒径根据待分析的样本量而定。如果燃烧消耗的质量小于0.1 g，样本应粉碎通过150 μm的筛。整个子样本都应该粉碎到能通过指定的筛网（可以通过检测一个具有代表性的子样本而非每个样本来确定整个子样本的粒径是否合格）。最后，研磨好的样本可以存储在玻璃小瓶中。", "inlineNotation": ["2 mm", "0.1 g", "150 μm"]},
+    {"type": "numbered-item", "number": "3", "text": "将样品和标准品置于60～70°C干燥处理18 h，然后测定有机碳的含量（g C/kg土壤）（参照第21章）。关键的一步是，在分析之前应加酸完全除去无机碳，或者单独分析无机碳，用总碳量减去无机碳含量估算得到有机碳的浓度（参照第21章）。理想情况下，应使用经过认证的标准土壤来验证分析的准确性，但具有经认证的总碳和有机碳值的标准土壤仍然很少（Boone等，1999）。至少，应使用内部配制或从供应商处获得的标准土壤校准分析和监测分析精度。", "inlineNotation": ["60～70°C", "18 h", "g C/kg土壤", "第21章"]},
+    {"type": "numbered-item", "number": "4", "text": "有机碳含量以每克干燥土壤中的有机碳毫克数（mg C/g）表示（=kg C/Mg=%×10）。", "inlineNotation": ["mg C/g", "kg C/Mg", "%×10"]},
+    {"type": "printed-page-number", "text": "26"}
+  ],
+  "formulas": [
+    {"context": "有机碳含量单位换算", "displayAsPrinted": "mg C/g=kg C/Mg=%×10", "terms": ["mg C/g", "kg C/Mg", "%", "10"]}
+  ],
+  "tables": [],
+  "contentSha256": "db62943f225396a5765ec22adf6931dc1122de2a194436bfa5f1bba67745f8f8"
+}

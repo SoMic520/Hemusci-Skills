@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 151,
+  "sourceImageSha256": "6c8d9247b6608a789ec66194e64cfcc2574eeccbf46df08aa14a42ba253a8a1e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成第68章参考文献Allaire-Leung至Fonteno共21条"},
+    "precisionPass": {"status": "verified", "method": "核验法文变音符、Côté、Päïvänen、12th、Prunus × cistena、作者缩写、卷页和会议页码"},
+    "secondVisualPass": {"status": "verified", "method": "由Fonteno反向复核至Allaire-Leung，检查题名断词、出版社/会议及页码；印刷页码660"}
+  },
+  "blocks": [
+    {"type": "references", "items": [
+      "Allaire-Leung, S.E., Caron, J., and Parent, L.E. 1999. Changes in physical properties of peat substrates during plant growth. Can. J. Soil Sci. 79:137–139.",
+      "Anisko, T., NeSmith, D.S., and Lindstrom, O.M. 1994. Time-domain reflectometry for measuring water content of organic growing media in containers. HortScience 29:1511–1513.",
+      "Banton, O., Côté, D., and Trudelle, M. 1991. Détermination au champ de la conductivité hydraulique saturée à l’aide d’un infiltromètre à charge constante de Côté: théorie et approximations mathématiques. Can. J. Soil Sci. 71:119–126.",
+      "Blake, G.R. and Hartge, K.H. 1986. Particle density. In: A. Klute, ed. Methods of Soil Analysis, Part 1. 2nd ed. American Society of Agronomy, Madison, WI, 377–381.",
+      "Busscher, H.J., van Pelt, A.W.J., de Boer, P., de Jong, H.P., and Arends, J. 1984. The effect of surface roughening of polymers on measured contact angles of liquids. Colloids Surf. 9:319–331.",
+      "Buttler, A.J., Dinel, H., Lévesque, M., and Mathur, S.P. 1991. The relationship between movement of subsurface water and gaseous methane in a basin bog with a novel instrument. Can. J. Soil Sci. 71:427–438.",
+      "Caron, J. 2004. Defining new aeration and capillary rise criteria to assess the quality of growing media. In: J. Päivänen, ed. Proceedings of the 12th International Peat Congress, June 5–12, Tampere, Finland, 221–228.",
+      "Caron, J. and Elrick, D.E. 2005. Measuring the unsaturated hydraulic conductivity of growing media in pots with a tension disc. Soil Sci. Soc. Am. J. 69:794–806.",
+      "Caron, J., Elrick, D.E., Beeson, R., and Boudreau, J. 2005. Defining critical capillary rise properties for growing media in nurseries. Soil Sci. Soc. Am. J. 69:783–793.",
+      "Caron, J., Morel, D., and Rivière, L.M. 2001. Aeration in growing media containing large particle sizes. Acta Hortic. 458:229–234.",
+      "Caron, J. and Nkongolo, N.V.K. 2004. Assessing gas diffusion coefficients in growing media from in situ water flow and storage measurements. Vadose Zone J. 3:300–311.",
+      "Caron, J. and Rivière, L.M. 2003. Quality of peat substrates. In: L.E. Parent and P. Ilnicki, eds. Organic Soils and Peat Materials for Sustainable Agriculture. CRC Press, Boca Raton, FL, 67–93.",
+      "Caron, J., Rivière, L.M., Carpentier, S., Renault, P., and Michel, J.C. 2002. Using TDR to estimate hydraulic conductivity and air entry in growing media and sand. Soil Sci. Soc. Am. J. 66:373–383.",
+      "Caron, J., Xu, H.L., Bernier, P.Y., Duchesne, I., and Tardif, P. 1998. Water availability in three artificial substrates during Prunus × cistena growth: Variable threshold values. J. Am. Soc. Hortic. Sci. 123:931–936.",
+      "Chassin, P. 1979. Détermination de l’angle de contact acides humiques–solutions aqueuses de diols. Conséquences sur l’importance relative des mécanismes de destruction des agrégats. Ann. Agron. 30:481–491.",
+      "Da Sylva, F.F., Wallach, R., Polak, A., and Chen, Y. 1998. Measuring water content of soil substitutes with time domain reflectometry. J. Am. Soc. Hortic. Sci. 123:734–737.",
+      "de Boodt, M. and Verdonck, O. 1972. The physical properties of the substrate in horticulture. Acta Hortic. 26:37–44.",
+      "de Jonge, L.W., Jacobsen, O.H., and Moldrup, P. 1999. Soil water repellency: Effects of water content, temperature, and particle size. Soil Sci. Soc. Am. J. 63:437–442.",
+      "Dekker, L.W. and Ritsema, C.J. 2000. Wetting patterns and moisture variability in water repellent Dutch soils. J. Hydrol. 231:148–164.",
+      "Dekker, L.W., Ritsema, C.J., and Oostindie, K. 2000. Wettability and wetting rate of Sphagnum peat and turf on dune sand affected by surfactant treatments. In: L. Rochefort and J.-Y. Daigle, eds. Proceedings of the 11th International Peat Congress, Vol. 2. Edmonton, AB, Canada, 566–574.",
+      "Fonteno, W.C. 1989. An approach to modeling air and water status of horticultural substrates. Acta Hortic. 238:67–74."
+    ]},
+    {"type": "source-fidelity-note", "text": "原书法文条目存在a/à、I’/l’和mathé matiques断字错误，已恢复；Tempere校正为Tampere，Côté和Päivänen变音符已恢复，Prunus xcistena规范为Prunus × cistena。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d90f625a01b592b670306f75b4ae5dd5f3353ebe225d1d8a5f82ecf53541cbec"
+}

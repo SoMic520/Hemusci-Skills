@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 184,
+  "sourceImageSha256": "2bd724657bc4feea649e818f5109dda0e063d64d80ffb879ef324d685dbcb170",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章节末页，并与Apple Vision、PaddleOCR交叉比对，人工恢复CEC式（18.10）、12条英文参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验mg·L⁻¹ N、cmol(+) kg⁻¹、140 mg、0.25 L、wt. g、1 000 g·kg⁻¹、英文作者姓名、年份、卷页、书刊名、URL与2ⁿᵈ ed."},
+    "secondVisualPass": {"status": "verified", "method": "从页末译校署名反向复核至式（18.10），确认Expert Panel条目的“Part IIIa.”、manual3a. pdf印刷空格、全部标点和页码153"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第18章｜离子交换与交换性阳离子｜"},
+    {"type": "calculation-group", "number": "2.", "title": "CEC"},
+    {"type": "references-heading", "text": "参考文献"},
+    {"type": "reference-entry", "text": "Bache, B.W. 1976. The measurement of cation exchange capacity of soils. J. Sci. Food Agric. 27: 273-280."},
+    {"type": "reference-entry", "text": "Chapman, H.D. 1965. Cation exchange capacity. In: C.A. Black et al., eds., Methods of Soil Analysis. Agronomy 9, American Society of Agronomy, Madison, WI, 891-901."},
+    {"type": "reference-entry", "text": "Expert Panel on Soil. 2003. Manual on Methods and Criteria for Harmonized Sampling, Assessment, Monitoring and Analysis of the Effects of Air Pollution on Forests. Part IIIa. Sampling and Analysis of Soil. International co-operative programme on assessment and monitoring of air pollution effects on forests. (www.icp-forests.org/pdf/manual3a. pdf, verified February 9, 2005)"},
+    {"type": "reference-entry", "text": "Fey, M.V. and LeRoux, J. 1976. Electric charges on sesquioxidic soil clays. Soil Sci. Soc. Am. J. 40: 359-364."},
+    {"type": "reference-entry", "text": "Hendershot, W.H. and Duquette, M. 1986. A simple barium chloride method for determining cation exchange capacity and exchangeable cations. Soil Sci. Soc. Am. J. 50: 605-608."},
+    {"type": "reference-entry", "text": "Hendershot, W.H., Lalande, H., and Duquette, M. 1993. Ion exchange and exchangeable cations. In: M.R. Carter, ed., Soil Sampling and Methods of Analysis. Lewis Publishers, Boca Raton, FL, 167-175."},
+    {"type": "reference-entry", "text": "Jonsson, U., Rosengren, U., Nihlgard, B., and Thelin, G. 2002. A comparative study of two methods for determination of pH, exchangeable base cations and aluminium. Commun. Soil Sci. Plant Anal. 33: 3809-3824."},
+    {"type": "reference-entry", "text": "Lavkulich, L.M. 1981. Methods Manual, Pedology Laboratory. Department of Soil Science, University of British Columbia, Vancouver, British Columbia, Canada."},
+    {"type": "reference-entry", "text": "McKeague, J.A. 1978. Manual on Soil Sampling and Methods of Analysis, 2ⁿᵈ ed. Canadian Society of Soil Science, AAFC, Ottawa, Ontario, Canada."},
+    {"type": "reference-entry", "text": "Ngewoh, Z.S., Taylor, R.W., and Shuford, J.W. 1989. Exchangeable cations and CEC determinations of some highly weathered soils. Commun. Soil Sci. Plant Anal. 20: 1833-1855."},
+    {"type": "reference-entry", "text": "Rhoades, J.D. 1982. Cation exchange capacity. In: A.L. Page et al., eds., Methods of Soil Analysis. Agronomy 9, 2nd ed. American Society of Agronomy, Madison, WI, 149-157."},
+    {"type": "reference-entry", "text": "Thomas, G.W. 1982. Exchangeable cations. In: A.L. Page et al., eds., Methods of Soil Analysis. Agronomy 9, 2nd ed. American Society of Agronomy, Madison, WI, 159-165."},
+    {"type": "translator-credit", "text": "（高雅洁　党海燕　译，王朝辉　校）"},
+    {"type": "printed-page-number", "text": "153"}
+  ],
+  "formulas": [
+    {
+      "number": "18.10",
+      "context": "CEC",
+      "display": "CEC cmol(+) kg⁻¹ = [mg·L⁻¹ N × (1 cmol(+)/140 mg)] × (0.25 L/wt. g) × 1 000 g·kg⁻¹",
+      "latex": "CEC\\,\\mathrm{cmol}(+)\\,\\mathrm{kg}^{-1}=\\left[\\mathrm{mg}\\cdot\\mathrm{L}^{-1}\\,N\\times\\left(\\frac{1\\,\\mathrm{cmol}(+)}{140\\,\\mathrm{mg}}\\right)\\right]\\times\\left(\\frac{0.25\\,\\mathrm{L}}{wt.\\,\\mathrm{g}}\\right)\\times1\\,000\\,\\mathrm{g}\\cdot\\mathrm{kg}^{-1}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "455249f66801f27e1119b8a767d7ee13a149c4b9122256940e0652178e830c22"
+}

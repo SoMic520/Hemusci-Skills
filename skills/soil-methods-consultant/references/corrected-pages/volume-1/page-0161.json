@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 161,
+  "sourceImageSha256": "e24709839b14c25b336aa7fd02cf28fe4f6d2c9e8ebbe2971df56050e17b6eec",
+  "review": {
+    "textPass": {"status": "verified", "method": "原分辨率全页对照，并与Apple Vision、PaddleOCR一致结果交叉比对"},
+    "precisionPass": {"status": "verified", "method": "核验中心偏下文字“主译：王朝辉”及全角冒号，确认无其他内容"},
+    "secondVisualPass": {"status": "verified", "method": "第二次从页底向页顶扫视，确认第三篇主译署名页"}
+  },
+  "blocks": [
+    {"type": "credit", "role": "主译", "name": "王朝辉", "text": "主译：王朝辉"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "8e6296af90c3435c9fda6c1fac7a713737c965bde656a5d17aa3d1497c1f5f30"
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 102,
+  "sourceImageSha256": "75dbfc7826f26bdc446b1c3276347a399b1309a640b54d97d3315d8639bb6bc7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章首页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复章题、作者单位、9.1五段、9.2标题及两段正文"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对B(OH)₄⁻、H₃BO₃、+3价、pH、0.05 mol/L HCl、0.01 mol/L CaCl₂、0.5 mol/L及作者名、地名和引文年份"},
+    "secondVisualPass": {"status": "verified", "method": "按章题署名、引言各段、9.2硼形态段和页末跨页句反向复核，确认离子电荷与上下标、原文措辞及本章首页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "9", "title": "硼、钼和硒"},
+    {"type": "author", "name": "Ganga M. Hettiarachchi", "affiliation": ["University of Adelaide", "Glen Osmond, South Australia, Australia"]},
+    {"type": "author", "name": "Umesh C. Gupta", "affiliation": ["Agriculture and Agri-Food Canada", "Charlottetown, Prince Edward Island, Canada"]},
+    {"type": "section-heading", "level": 2, "number": "9.1", "title": "引言"},
+    {"type": "paragraph", "text": "硼、钼和硒都是营养元素，它们在土壤溶液中主要以阴离子或中性的化学形态存在，且移动性相对较强。硼和钼是植物和动物体内的必需元素，而硒对于人体和动物非常重要。硼和钼是维持植物正常生长必不可少的微量元素，而植物因其种类不同，其正常生长时所需元素的含量也有所不同。对于植物来说，土壤溶液中硼和钼的量是缺乏还是会产生毒性只在一个很窄的范围内变化。"},
+    {"type": "paragraph", "text": "硼缺乏经常出现在湿润地区或砂质土壤中。硼易通过淋溶作用而损失，特别是在砂质土壤中，因此，砂质土壤中通常缺硼，这与Gupta（1993）总结的结果一致。在许多国家的多种农作物中都发现了缺硼的现象（Ericksson，1979；Touchton等，1980；Sherrell，1983）。相反，硼的毒害作用一般发生在干旱和半干旱地区，因为在这些地区土壤和灌溉水中的硼含量都很高（Keren，1996）。"},
+    {"type": "paragraph", "text": "钼缺乏常出现在生长于施用石灰的土壤上的豆科植物之中。土壤中钼的含量高，便会在植物体内积累，其影响要超出土壤中钼的缺乏。反刍动物吃掉钼含量高的植物后可导致钼中毒，这是一种钼导致的铜缺乏症（Jarrell等，1980）。"},
+    {"type": "paragraph", "text": "至今没有发现硒对作物产量的影响。然而，对于牲畜来说，它是植物向动物提供的必需营养元素之一。在一些地区，当地植物中富集的硒会对动物有害，而在另外一些地方，植物中可能缺少硒，动物食用低硒饲料也会导致健康问题（Mikkelsen等，1989）。在湿润地区，土壤中硒的浓度通常较低，这些地区生长的植物中含有的硒往往不能满足牲畜的需求。酸性土壤中形成的三价铁亚硒酸盐复合物，很难被植物利用（NAS-NRC，1971）。只有在成土母质是白垩纪页岩的半干旱和干旱地区土壤中，才经常出现硒过量的问题，且通常以硒酸盐的形式存在（Welch等，1991）。在美国西部的半干旱地区，硒的毒性问题通常出现在碱性土壤中，其中的硒也以硒酸盐的形式存在（Jump和Sabey，1989）。"},
+    {"type": "section-heading", "level": 2, "number": "9.2", "title": "硼"},
+    {"type": "paragraph", "text": "土壤中的硼主要以+3价氧化态的硼酸盐阴离子形式存在：B(OH)₄⁻。硼在溶液中最常见的两种形式是中性的硼酸（H₃BO₃）和硼酸盐阴离子（B(OH)₄⁻）。土壤中的硼既可以存在于土壤溶液中，也会吸附到土壤矿物质表面，比如黏土矿物。pH值小于7时，H₃BO₃在土壤溶液中占主要地位，此时只有少量的硼会吸附在土壤矿物质表面。当pH值升高到9左右时，B(OH)₄⁻的量迅速增加，硼的吸附量也随之增加（Vaughan和Suarez，2003）。只有土壤溶液中的硼才能被植物有效利用。", "inlineNotation": ["+3价", "B(OH)₄⁻", "H₃BO₃", "pH", "7", "9"]},
+    {"type": "paragraph", "text": "大量的提取剂比如0.05 mol/L HCl（Ponnamperuma等，1981）、0.01 mol/L CaCl₂和0.5 mol/L甘露醇", "inlineNotation": ["0.05 mol/L HCl", "0.01 mol/L CaCl₂", "0.5 mol/L"]}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1280c847815951d7f7b643a0b058e8619d02cd32e0cc91d096473948e789427e"
+}

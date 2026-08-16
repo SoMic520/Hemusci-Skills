@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 172,
+  "sourceImageSha256": "36269cc9e530e80e390f452f9e06560db219f2b7c9af4266bfdf8e591c98f260",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页图和两套OCR，完成Bouma跨页续文及Bouwer至Philip 1957共21条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者首字母、2nd ed.、Part 1/4、连字符、期刊卷页及地名"},
+    "secondVisualPass": {"status": "verified", "method": "由Philip 1957反向复核至Bouma续文，并检查Passioura卷号与Topp关联文献；印刷页码681"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Bouma, J. 1985. Soil variability and soil survey. In: J. Bouma and D.R. Nielsen, eds. Proceedings of Soil Spatial Variability Workshop. PUDOC, Wageningen, The Netherlands, 130–149.（承上页）",
+      "Bouwer, H. 1966. Rapid field measurement of air-entry value and hydraulic conductivity of soil as significant parameters in flow system analysis. Water Resour. Res. 2:729–738.",
+      "Bouwer, H. 1978. Groundwater Hydrology. McGraw-Hill, Toronto, ON, Canada.",
+      "Bruce, R.R. and Luxmoore, R.J. 1986. Water retention: Field methods. In: A. Klute, ed. Methods of Soil Analysis, Part 1—Physical and Mineralogical Methods. 2nd ed. American Society of Agronomy, Madison, WI, 663–683.",
+      "Campbell, G.S. 1987. Soil water potential measurement. In: R.J. Hanks and R.W. Brown, eds. Proceedings of International Conference on Measurement of Soil and Plant Water Status, Vol. 1. Logan, UT, July 1987, 115–119.",
+      "Cassel, D.K. and Nielsen, D.R. 1986. Field capacity and available water capacity. In: A. Klute, ed. Methods of Soil Analysis, Part 1—Physical and Mineralogical Methods. 2nd ed. American Society of Agronomy, Madison, WI, 901–926.",
+      "Cockroft, B. and Olsson, K.A. 1997. Case study of soil quality in south-eastern Australia: management of structure for roots in duplex soils. In: E.G. Gregorich and M.R. Carter, eds. Soil Quality for Crop Production and Ecosystem Health. Developments in Soil Science, Vol. 25. Elsevier, New York, 339–350.",
+      "Constantz, J., Herkelrath, W.N., and Murphy, F. 1988. Air encapsulation during infiltration. Soil Sci. Soc. Am. J. 52:10–16.",
+      "Gardner, W.R. 1958. Some steady-state solutions of the unsaturated moisture flow equation with application to evaporation from a water table. Soil Sci. 85:228–232.",
+      "Grable, A.R. and Siemer, E.G. 1968. Effects of bulk density, aggregate size, and soil water suction on oxygen diffusion, redox potentials, and elongation of corn roots. Soil Sci. Soc. Am. Proc. 32:180–186.",
+      "Gupta, S.C. and Hanks, R.J. 1972. Influence of water content of electrical conductivity of the soil. Soil Sci. Soc. Am. Proc. 36:855–857.",
+      "Hillel, D. 1980. Applications of Soil Physics. Academic Press, Toronto, ON, Canada.",
+      "Hopmans, J.W., Šimůnek, J., Romano, N., and Durner, W. 2002. Simultaneous determination of water transmission and retention properties: inverse methods. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 963–1004.",
+      "Jarvis, N.J., Zavattaro, L., Rajkai, K., Reynolds, W.D., Olsen, P.-A., McGechan, M., Mecke, M., Mohanty, B., Leeds-Harrison, P.B., and Jacques, D. 2002. Indirect estimation of near-saturated hydraulic conductivity from readily available soil information. Geoderma 108:1–17.",
+      "Koorevaar, P., Menelik, G., and Dirksen, C. 1983. Elements of Soil Physics. Elsevier, New York, 228.",
+      "McIntyre, D.S. 1974. Soil sampling techniques for physical measurements. In: J. Loveday, ed. Methods for Analysis of Irrigated Soils. Tech. Commun. No. 54, Commonwealth Agricultural Bureau, Australia, 12–20.",
+      "Mein, R.G. and Farrell, D.A. 1974. Determination of wetting front suction in the Green-Ampt equation. Proc. Soil Sci. Soc. Am. 38:872–876.",
+      "Nieber, J.L., Bauters, T.W.J., Steenhuis, T.S., and Parlange, J.-Y. 2000. Numerical simulation of experimental gravity-driven unstable flow in water repellent sand. J. Hydrol. 231–232:295–307.",
+      "Olness, A., Clapp, C.E., Liu, R., and Palazzo, A.J. 1998. Biosolids and their effects on soil properties. In: A. Wallace and R.E. Terry, eds. Handbook of Soil Conditioners. Marcel Dekker, New York, 141–165.",
+      "Or, D. and Wraith, J.M. 2002. Soil water content and water potential relationships. In: A.W. Warrick, ed. Soil Physics Companion. CRC Press, Boca Raton, FL, 49–84.",
+      "Passioura, J.B. 1980. The transport of water from soil to shoot in wheat seedlings. J. Exp. Bot. 31:1161–1169.",
+      "Philip, J.R. 1957. The theory of infiltration. 4: Sorptivity and algebraic infiltration equations. Soil Sci. 84:257–264."
+    ]},
+    {"type": "source-fidelity-note", "text": "Passioura条目页图印作“J. Exp. Bot. 3:1161–1169”，但1980年该页段对应卷31，已更正为31并留痕。OCR把G.S. Campbell、Šimůnek、Gregorich等字符识别错误，已逐条恢复。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "50477401f19bbc13e10561e7aa8dc22513728ba3ff141921f7de1d4d8ad2749c"
+}

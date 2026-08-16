@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 242,
+  "sourceImageSha256": "11db72f493dd084e5862a251105da8002936e32ea784e264be95dee347614953",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页图、两套OCR和英文原章，完成第76章参考文献余16条及译校者"},
+    "precisionPass": {"status": "verified", "method": "核验作者、年份、题名、卷页、会议/专著、出版地及全部连字符和压力水头术语"},
+    "secondVisualPass": {"status": "verified", "method": "再次逐字符复核参考文献并确认第76章结束；印刷页码751"}
+  },
+  "blocks": [
+    {
+      "type": "references",
+      "entries": [
+        "Jenssen, P.D. 1989. The constant head percolation test—improved equipment and possibilities of assessing the saturated hydraulic conductivity. In: H.J. Morel-Seytoux, ed. Unsaturated Flow in Hydrologic Modeling: Theory and Practice. NATO ASI Series C: Mathematical and Physical Sciences, Vol. 275. Kluwer Academic Publishers, The Netherlands, 481–488.",
+        "Koppi, A.J. and Geering, H.R. 1986. The preparation of unsmeared soil surfaces and an improved apparatus for infiltration measurements. J. Soil Sci. 37: 177–181.",
+        "Munoz-Carpena, R., Regalado, C.M., Alvarez-Benedi, J., and Bartoli, F. 2002. Field evaluation of the new Philip-Dunne Permeameter for measuring saturated hydraulic conductivity. Soil Sci. 167: 9–24.",
+        "Philip, J.R. 1985. Approximate analysis of the borehole permeameter in unsaturated soil. Water Resour. Res. 21: 1025–1033.",
+        "Philip, J.R. 1993. Approximate analysis of falling-head lined borehole permeameter. Water Resour. Res. 29: 3763–3768.",
+        "Reynolds, W.D. 1993. Saturated hydraulic conductivity: field measurement. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. Canadian Society of Soil Science, Lewis Publishers, Boca Raton, FL, 599–613.",
+        "Reynolds, W.D. and Elrick, D.E. 1986. A method for simultaneous in situ measurement in the vadose zone of field-saturated hydraulic conductivity, sorptivity and the conductivity–pressure head relationship. Ground Water Monit. Rev. 6: 84–95.",
+        "Reynolds, W.D. and Elrick, D.E. 1987. A laboratory and numerical assessment of the Guelph permeameter method. Soil Sci. 144: 282–299.",
+        "Reynolds, W.D. and Elrick, D.E. 2002. Constant head well permeameters (vadose zone). In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 844–858.",
+        "Reynolds, W.D. and Elrick, D.E. 2005. Measurement and characterization of soil hydraulic properties. In: J. Alvarez-Benedi and R. Munoz-Carpena, eds. Soil–Water–Solute Process Characterization: An Integrated Approach. CRC Press, Boca Raton, FL, 197–252.",
+        "Reynolds, W.D., Elrick, D.E., and Clothier, B.E. 1985. The constant head well permeameter: effect of unsaturated flow. Soil Sci. 139: 172–180.",
+        "Reynolds, W.D., Vieira, S.R., and Topp, G.C. 1992. An assessment of the single-head analysis for the constant head well permeameter. Can. J. Soil Sci. 72: 489–501.",
+        "Stephens, D.B., Lambert, K., and Watson, D. 1987. Regression models for hydraulic conductivity and field test of the borehole permeameter. Water Resour. Res. 23: 2207–2214.",
+        "Xiang, J. 1994. Improvements in evaluating constant-head permeameter test data. J. Hydrol. 162: 77–97.",
+        "Zangar, C.N. 1953. Theory and problems of water percolation. U.S. Department of the Interior, Bureau of Reclamation, Engineering Monograph No. 8, Denver, CO.",
+        "Zhang, Z.F., Groenevelt, P.H., and Parkin, G.W. 1998. The well shape-factor for the measurement of soil hydraulic properties using the Guelph permeameter. Soil Tillage Res. 49: 219–221."
+      ]
+    },
+    {"type": "credits", "text": "刘海涛 译，李保国 校"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c8d446cfc0426714ed8d5d88241c29afc34b43fa2835aee2bf503996cb8437f9"
+}

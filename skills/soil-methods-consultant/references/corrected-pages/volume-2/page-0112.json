@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 112,
+  "sourceImageSha256": "ca0f5184b4d9e0bf1181d24356b6ee394d39f504d5df76eae9de5abe14d1b60a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Letey跨页结尾及Li至Sakata跨页起始共21条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者变音符、报告编号、期刊、卷页、书名和二版信息；校正Letey页码545–554、Swakoń及多处连字"},
+    "secondVisualPass": {"status": "verified", "method": "由Sakata跨页题名反向复核至Hilgardia跨页页码，检查CR-39、IRGA、pCO₂、in situ和所有页码；印刷页码621"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Letey, J. and Stolzy, L.H. 1964. Measurement of oxygen diffusion rates with the platinum micro-electrode. I. Theory and equipment. Hilgardia 35:545–554.",
+      "Li, D.X. and Lundegard, P.D. 1996. Evaluation of subsurface oxygen sensors for remediation monitoring. Ground Water Monit. Remediat. 16:106–111.",
+      "Loftfield, N., Flessa, H., Augustin, J., and Beese, F. 1997. Automated gas chromatographic system for rapid analysis of the atmospheric trace gases methane, carbon dioxide, and nitrous oxide. J. Environ. Qual. 26:560–564.",
+      "Mayer, C.L. 1989. Interim guidance document for soil-gas surveying. Contract No. 68-03-3245, U.S. EPA Environmental Monitoring Systems Laboratory, Office of Research and Development, Cincinnati, OH.",
+      "Mazur, D., Janik, M., Łoskiewicz, J., Olko, P., and Swakoń, J. 1999. Measurements of radon concentration in soil gas by CR-39 detectors. Radiat. Meas. 31:295–300.",
+      "McCarty, G.W. and Blicher-Mathiesen, G. 1996. Automated chromatographic analysis of atmospheric gases in environmental samples. Soil Sci. Soc. Am. J. 60:1439–1442.",
+      "McIntyre, D.S. 1971. The platinum microelectrode method for soil aeration measurement. Adv. Agron. 22:235–283.",
+      "Mitchell, M.J. 1973. An improved method for microrespirometry using gas chromatography. Soil Biol. Biochem. 5:271–274.",
+      "Monnin, M.M. and Seidel, J.L. 1992. Radon in soil air and in groundwater related to major geophysical events: A survey. Nucl. Instrum. Methods Phys. Res. A 314:316–330.",
+      "Nobuhiro, T., Tamai, K., Kominami, Y., Miyama, T., Goto, Y., and Kanazawa, Y. 2003. Development of the IRGA enclosed-chamber system for soil CO₂ efflux measurement and its application to a spatial variation measurement. J. For. Res. 8:297–301.",
+      "Patrick, W.H., Jr. 1976. Oxygen content of soil air by a field method. Soil Sci. Soc. Am. J. 41:651–652.",
+      "Pham, Q.A. and Glass, R.S. 1997. Characteristics of the amperometric oxygen sensor. J. Electrochem. Soc. 144:3929–3934.",
+      "Phene, C.J. 1986. Oxygen electrode measurement. In: A.L. Page et al., eds. Methods of Soil Analysis, Part 1—Physical and Mineralogical Methods. 2nd ed. American Society of Agronomy, Madison, WI, 1137–1159.",
+      "Phene, C.J., Campbell, R.B., and Doty, C.W. 1976. Characterization of soil aeration in situ with automated oxygen diffusion measurements. Soil Sci. 122:271–281.",
+      "Platzner, I.T. 1997. Modern Isotope Ratio Mass Spectrometry. John Wiley & Sons, Chichester, UK.",
+      "Ramamoorthy, R., Dutta, P.K., and Akbar, S.A. 2003. Oxygen sensors: Materials, methods, designs and applications. J. Mater. Sci. 38:4271–4282.",
+      "Reimer, G.M. 1991. Simple techniques for soil gas and water sampling for radon analysis. In: L.S. Gunderson and R.B. Wanty, eds. Field Studies of Radon in Rocks, Soils and Water. Part 1, Section 1. U.S. Geological Survey Bulletin 1971, Reston, VA, 19–22.",
+      "Revsbech, N.P. 1989. An oxygen microelectrode with a guard cathode. Limnol. Oceanogr. 34:474–478.",
+      "Revsbech, N.P., Christensen, P.B., Nielsen, L.P., and Sørensen, J. 1988. A combined oxygen and nitrous oxide microsensor for denitrification studies. Appl. Environ. Microbiol. 54:2245–2249.",
+      "Rochette, P. and Bertrand, N. 2003. Soil air sample storage and handling using polypropylene syringes and glass vials. Can. J. Soil Sci. 83:631–637.",
+      "Rolston, D.E. 1978. Application of gaseous diffusion theory to measurement of denitrification. In: D.R. Nielsen and J.G. MacDonald, eds. Nitrogen in the Environment, Vol. 1. Academic Press, New York, NY, 309–335.",
+      "Rolston, D.E. 1986. Gas diffusivity. In: A.L. Page et al., eds. Methods of Soil Analysis, Part 1—Physical and Mineralogical Methods. Agronomy 9, 2nd ed. American Society of Agronomy, Madison, WI, 1089–1102.",
+      "Sakata, T., Ishizuka, S., and Takahashi, M. 2004. A method for measuring fluxes of greenhouse gases from forest soils. …"
+    ]},
+    {"type": "source-fidelity-note", "text": "Letey和Stolzy（1964）I篇原书误印555–566，与II篇页码重复；已据Hilgardia原始记录校正为35:545–554。Mazur作者Swakoń及Łoskiewicz按期刊原页恢复变音符；多处soilgas/gaseousdiffusion/insoil-air连字已拆分。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "0267d6fabd7f441e3112f3d3fc7886d6ac28e286c53453b68c72db6254dc15d4"
+}

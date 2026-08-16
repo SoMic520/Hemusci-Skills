@@ -1,0 +1,99 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 546,
+  "sourceImageSha256": "f37ba256e98745ce13606c7eb6c73b274d6b5f79eb3a97094a224309a40bf33b",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，接续54.4.2并完成54.4.3首段"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验5～50/5～10/25～75 mg、m/z 28/29/30/44/45/46、200 kPa、O₂约15/10 mL、C:N>20/<20、CO₂/CO、NH₄⁺/NO₃⁻/NO₂⁻、NH₃和(NH₄)₂SO₄"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由54.4.3跨页段反向复核至54.4.2跨页句，检查峰跳、氦稀释、氧化还原条件、质量数、样品质量和印刷页码515"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph-continuation",
+      "scope": "54.4.2",
+      "text": "[承第545页] 将5～50 mg研磨土样装入锡杯，以元素分析仪燃烧并联用IRMS测定全δ¹³C或全δ¹⁵N。称样量须按C、N含量及仪器线性范围调整。"
+    },
+    {
+      "type": "paragraph",
+      "text": "某些EA-IRMS可在一次进样中先测N₂的m/z 28、29、30，再峰跳至CO₂的m/z 44、45、46；CO₂信号过强时可自动以He稀释。实际工作通常分别优化C、N同位素比测定，但EA热导检测器可在同一次元素分析中得到总C和总N。"
+    },
+    {
+      "type": "method-note",
+      "text": "酸化去除碳酸盐会降低总N测定的准确度和精密度。需要总N和δ¹⁵N时应另取未酸化样；需要有机C及其δ¹³C时用酸化样。推荐成对报告：未酸化样测总C/总N，酸化样测有机C/δ¹³C，并明确两者不是同一制样基准。"
+    },
+    {
+      "type": "procedure-step",
+      "scope": "闪燃条件（Baccanti等，1993）",
+      "number": "（1）供氧与还原",
+      "text": "供给足量O₂使样品完全氧化，但不得过量到快速消耗还原管中的Cu。Cu用于把氮氧化物还原为N₂；若还原不完全，N₂O等会与CO₂测量发生质量干扰。"
+    },
+    {
+      "type": "procedure-step",
+      "scope": "闪燃条件（Baccanti等，1993）",
+      "number": "（2）进样与漏气控制",
+      "text": "自动进样器必须气密，避免空气N₂进入载气流并改变δ¹⁵N。"
+    },
+    {
+      "type": "procedure-step",
+      "scope": "闪燃条件（Baccanti等，1993）",
+      "number": "（3）燃烧区维护",
+      "text": "定期清除燃烧残渣，使样品始终落入反应管高温区并保持完全燃烧。"
+    },
+    {
+      "type": "procedure-step",
+      "scope": "闪燃条件（Baccanti等，1993）",
+      "number": "（4）流量与水阱",
+      "text": "保持稳定载气流量，特别要监控高氯酸镁水阱造成的阻力和堵塞。"
+    },
+    {
+      "type": "instrument-setting",
+      "text": "书载示例条件：植物样5～10 mg，系统压力200 kPa，O₂约15 mL；土样25～75 mg，系统压力200 kPa，O₂约10 mL。上述数值来自特定历史仪器，只能作为原方法记录；执行时须按当前EA型号、反应管装填、氧脉冲定义和样品C/N负荷重新验证。"
+    },
+    {
+      "type": "method-note",
+      "text": "含碳酸盐土样须确保燃烧温度和供氧足以完成转化。深层、低N且C:N>20的土样测δ¹⁵N时，可按经验证的装置方案用碱石灰去除CO₂；大量CO₂在离子源中碎裂生成CO⁺，会干扰N₂的m/z 28、29、30。C:N<20且N₂与CO₂色谱峰充分分离时，书中认为该干扰通常可忽略，但仍须用空白和标准物验证。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "54.4.3",
+      "title": "土壤溶液中δ¹⁵N和δ¹⁸O值的测定"
+    },
+    {
+      "type": "paragraph",
+      "text": "测土壤溶液NH₄⁺和NO₃⁻的δ¹⁵N时，须先分离NO₃⁻/NO₂⁻并将其定量还原为NH₄⁺，再按NH₄⁺路线分析。可用蒸汽蒸馏、扩散或阳离子交换树脂等分离富集方法。"
+    },
+    {
+      "type": "procedure-step",
+      "scope": "氨扩散法",
+      "text": "提高样品pH使NH₄⁺转为NH₃，令NH₃扩散至酸性捕集介质；例如用H₂SO₄捕集形成(NH₄)₂SO₄，干燥后装入锡杯，以EA-CF-IRMS测δ¹⁵N。Sebilo等（2004）的扩散法可分别测NH₄⁺和经转化的NO₃⁻之δ¹⁵N，但不能由该路线得到NO₃⁻的δ¹⁸O。"
+    },
+    {
+      "type": "method-limitation",
+      "text": "仅凭NO₃⁻的δ¹⁵N通常不能唯一判定来源，因为不同源端元可重叠，且硝化、反硝化、同化等过程会产生分馏。[续见第547页]"
+    }
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "id": "54.4.2-flash-combustion-example",
+      "title": "书载闪燃示例条件（仪器依赖）",
+      "columns": ["样品", "称样量", "系统压力", "O₂体积"],
+      "rows": [
+        ["植物", "5～10 mg", "200 kPa", "约15 mL"],
+        ["土壤", "25～75 mg", "200 kPa", "约10 mL"]
+      ]
+    }
+  ],
+  "contentSha256": "c33ba8357e7c4b36cc2d735063ff8281e7776dc46068789e9ee7cfa9cb4ef5d7"
+}

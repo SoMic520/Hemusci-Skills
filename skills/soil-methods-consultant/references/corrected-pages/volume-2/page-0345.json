@@ -1,0 +1,75 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 345,
+  "sourceImageSha256": "8b8b735f52470bbbe5f6c261bdaf8fefd403a804e6fae863413213aa6fce27f4",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对插值曲面对比、负相关、图85.8和案例第五步应用"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对P<0.0001、35～50 cm、70～80 m、50 m及四组X/Y范围"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "lnK_fs单位cm·s⁻¹、Theta vol%、X/Y轴和V_N/V_S上下标二次反查；印刷页码854"
+    }
+  },
+  "blocks": [
+    {
+      "type": "kriging-interpretation",
+      "items": [
+        "lnOC和Cly曲面的小尺度特征较少且较弱，部分原因是其块金比例较大。",
+        "lnK_fs与θ_a的插值曲面呈相反空间关系；lnOC与Cly也呈相反关系。高lnK_fs或高lnOC往往对应低θ_a或低Cly。",
+        "K_fs与θ_a、lnOC与Cly均表现强负相关，P<0.0001。相关关系应与半方差结构相似性分开解释。"
+      ]
+    },
+    {
+      "type": "figure",
+      "number": "85.8",
+      "title": "基于图85.7(a)半方差模型的克里金插值曲面",
+      "panels": [
+        {
+          "panel": "a",
+          "variable": "lnK_fs",
+          "z": "ln K_fs (cm/s)，约−12～−6",
+          "x": "X (m)，0～100",
+          "y": "Y (m)，0～220"
+        },
+        {
+          "panel": "b",
+          "variable": "前期体积含水量θ_a",
+          "z": "Theta (vol%)，约30～50",
+          "x": "X (m)，0～100",
+          "y": "Y (m)，0～220"
+        }
+      ]
+    },
+    {
+      "type": "case-step",
+      "step": 5,
+      "title": "半方差函数和克里金曲面的应用",
+      "items": [
+        "35～50 cm深度的K_fs和θ_a块金/总基台比16.7%，空间依赖强；OC和Cly为83.3%，空间依赖弱。",
+        "若使用要求样本近似独立的Fisher型经典统计，K_fs和θ_a采样间距应大于约70～80 m，OC和Cly应大于约50 m。",
+        "lnK_fs曲面有两个明显高值区及两条明显低值槽，可用于理解田间排水特征、设计排水管网和选择K_fs较一致的试验小区。",
+        "θ_a曲面在X=0～100 m、Y=0～35 m区域普遍较低，在X=0～70 m、Y=70～100 m区域较高。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书写成K_fs和θ_a“至少在70～80 m距离内”才能用Fisher型统计、OC和Cly“需要在50 m内”，方向与空间独立条件相反；若按变程判定近似独立，间距应分别大于70～80 m和50 m。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "显著性",
+      "plain": "P<0.0001",
+      "latex": "P<0.0001"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "62e2db9b3435f789b7ac242871987164c02a3f1174639b4bc83f325bc2f25355"
+}

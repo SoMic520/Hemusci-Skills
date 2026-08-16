@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 187,
+  "sourceImageSha256": "fb995b2abb7ba4fc65c7a278d26e9edcd7c4d605f4636ea1c86c27c7e1a78c34",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步骤逐条对照原分辨率页图和两套OCR，完成70.5.5标准化/土壤校准、70.5.6及7条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验V_Z/V_F、1/V、√ε_ra、径向10 cm、轴向±5 cm、0.03 S·m⁻¹及卷页"},
+    "secondVisualPass": {"status": "verified", "method": "由Ferré 1998反向复核到计算首句，检查电压下标、阈值和书目连字符；印刷页码696"}
+  },
+  "blocks": [
+    {"type": "procedure", "name": "标准化", "steps": ["电阻输出记V_Z，电容输出记V_F；用空气和水（或其他标准液）条件下1/V_Z或1/V_F对√ε_ra做线性回归。", "若截距非零则去截距，使标准化式与式(70.5)/(70.8)同型，并以空气作为最低读数。", "把回归式代入式(70.2)或等价√ε_ra—含水量关系得到最终校准。"]},
+    {"type": "procedure", "name": "基于土壤的校准", "steps": ["回归1/V_Z或1/V_F与θ_v；低电导时可为线性，电导增加时可能为曲线。", "用所得校准式把测量值转换为体积含水量。"]},
+    {"type": "heading", "number": "70.5.6", "title": "注释", "level": 3},
+    {"type": "paragraph", "text": "杆式传感器影响区类似TDR；圆柱环状传感器电场沿轴向和径向迅速衰减。供应商称径向约10 cm、轴向±5 cm，但少有定量验证。通路管附近必须紧密安装并尽量不扰动。电导率是主要干扰；修正需电路/探针信息和原位EC估计，且EC随含水量变化，高水分时未知EC误差更大；EC<0.03 S·m⁻¹时可能不明显。"},
+    {"type": "references", "items": [
+      "Annan, A.P. 1977. Time domain reflectometry—air gap problem for parallel wire transmission lines. Report of Activities, Part B. Geological Survey of Canada. Paper 77-1B:59–62.",
+      "Dalton, F.N. 1992. Development of time-domain reflectometry for measuring soil water content and bulk soil electrical conductivity. In: G.C. Topp et al., eds. Advances in Measurement of Soil Physical Properties: Bringing Theory into Practice. Soil Science Society of America, Madison, WI, 143–167.",
+      "Davis, J.L. and Annan, A.P. 2002. Ground penetrating radar to measure soil water content. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 446–463.",
+      "Davis, J.L. and Chudobiak, W.J. 1975. In situ meter for measuring relative permittivity of soils. Geol. Surv. Can. Pap. 75-1A:75–79.",
+      "Dean, T.J., Bell, J.P., and Bary, A.J.B. 1987. Soil moisture measurement by an improved capacitance technique. Part 1. Sensor design and performance. J. Hydrol. 93:67–78.",
+      "Ferré, P.A., Rudolph, D.L., and Kachanoski, R.G. 1996. Spatial averaging of water content by time domain reflectometry: Implications for twin rod probes with and without dielectric coatings. Water Resour. Res. 32:271–279.",
+      "Ferré, P.A., Rudolph, D.L., and Kachanoski, R.G. 1998. The water content response of a profiling time domain reflectometry probe. Soil Sci. Soc. Am. J. 62:865–873."
+    ]},
+    {"type": "source-fidelity-note", "text": "V_Z与V_F为仪器输出电压，不是阻抗Z或频率F本身。OCR把0.03 S·m⁻¹负指数丢失，已按页图恢复。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "4acef81a1603822995758f789005d004382ebfd315f640f4cfdadbd396c5be65"
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 104,
+  "sourceImageSha256": "70b77d36655a8be8eb70b1de516a1b420674804828870f2584c5f3a2e3347695",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复9.2.3续项与步骤、9.2.4、9.2.5五条注释及9.3开头"},
+    "precisionPass": {"status": "verified", "method": "放大核对H₃BO₄原书排印、EDTA、Brij-35、ICP-AES、MoO₄²⁻/HMoO₄⁻/H₂MoO₄⁰/MoO₂(OH)⁺/MoO₂²⁺及全部g/L、mol/L、mg、mL、L、h、nm、μg/L、μg/kg和pH值"},
+    "secondVisualPass": {"status": "verified", "method": "按试剂、步骤、仪器法、注释和9.3钼逐层反向复核；确认5.715 g H₃BO₄虽与常见化学式不一致但为原页所印，原样保留，并核验印刷页码73"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第9章｜硼、钼和硒｜"},
+    {"type": "paragraph", "continuation": true, "text": "待溶解后，添加1.0 g/L抗坏血酸并混合均匀直到溶解。最后用重蒸水定容至100 mL。如果溶液浑浊，再加热直到完全溶解。每次使用的溶液需要当天配制以确保新鲜。", "inlineNotation": ["1.0 g/L", "100 mL"]},
+    {"type": "ordered-list", "parent": "9.2.3｜1.试剂", "items": [
+      {"number": "（2）", "text": "乙二胺四乙酸（EDTA）溶液（0.025 mol/L）：将9.3 g EDTA溶解于重蒸水中，定容至1 L，然后加入1 mL Brij-35并混合均匀。"},
+      {"number": "（3）", "text": "缓冲溶液：将250 g醋酸铵溶解于500 mL重蒸水中。缓慢添加约100 mL浓醋酸，不断搅拌，调pH值至5.5左右，然后加入0.5 mL的Brij-35并混合均匀。"},
+      {"number": "（4）", "text": "标准溶液：将1000 mg硼（5.715 g H₃BO₄）溶于1 L去离子水中配制成储备液A，取50 mL储备液A用0.4 mol/L HCl定容至1 L配制成储备液B。分别取2.5～30 mL储备液B，用去离子水稀释到1 L，得到一系列0.5～6 mg/L的硼标准溶液。"}
+    ]},
+    {"type": "section-heading", "level": 4, "number": "2.", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "取5 mL透明的过滤液置于试管中，加入2 mL缓冲溶液、2 mL EDTA溶液和2 mL甲亚胺-H溶液，每种溶液加入后要完全混合均匀。"},
+      {"number": "（2）", "text": "溶液静置1 h，使用分光光度计测定430 nm处的吸光度。"},
+      {"number": "（3）", "text": "显色过程持续3～4 h。"},
+      {"number": "（4）", "text": "显色的提取液pH值应为5.0左右。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "9.2.4", "title": "电感耦合等离子体原子发射光谱法测定硼"},
+    {"type": "paragraph", "text": "Gupta（1993）提出的操作步骤（见9.2.2节）对于测定植物消解液和土壤提取液中的硼快速可靠。ICP-AES在波长249.77 nm下检出限约为5 μg/L（APHA，1992），据此预测土壤中硼的方法检出限为100 μg/kg左右是合理的。务必小心过滤样品以确保上机的提取液中不含胶体物质，以免堵塞雾化器。", "inlineNotation": ["9.2.2节", "ICP-AES", "249.77 nm", "5 μg/L", "100 μg/kg"]},
+    {"type": "section-heading", "level": 3, "number": "9.2.5", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "植物或土壤硼分析中使用的所有玻璃器皿在使用之前必须用1∶1的沸腾盐酸和去离子水混合溶液冲洗。过滤后的提取液在分析硼之前必须存储在塑料样品杯中。"},
+      {"number": "（2）", "text": "含高有机质的土壤可能需要添加较多的木炭以获得无色的提取液，但是过量的木炭会降低提取液中硼的含量。"},
+      {"number": "（3）", "text": "如果滤液不是无色的，需要加入更多的木炭重复提取。"},
+      {"number": "（4）", "text": "相比于胭脂红（Hatcher和Wilcox，1950）、醌茜素和姜黄素（Johnson和Ulrich，1959），采用甲亚胺-H更具优势，因为甲亚胺-H提取过程不需要使用浓酸，且其得到的结果与胭脂红方法具有可比性（Gupta，1993）。"},
+      {"number": "（5）", "text": "由于自动分析器的灵敏度较低，对于大多数土壤的热水提取液中较低浓度的硼，使用自动分析器检测较为困难。"}
+    ]},
+    {"type": "section-heading", "level": 2, "number": "9.3", "title": "钼"},
+    {"type": "paragraph", "text": "土壤中的钼主要以+6价的MoO₄²⁻形式存在。水溶态钼的含量基本按照MoO₄²⁻、HMoO₄⁻、H₂MoO₄⁰、MoO₂(OH)⁺和MoO₂²⁺的顺序依次降低，且后两种水溶态钼的含量在大部分土壤中可被忽略（Lindsay，1979）。钼酸盐可被氧化物、非结晶态铝硅酸盐吸附，少量被层状硅酸盐吸附，且吸附量随pH值的降低而增加。因此，钼难溶于酸性土壤，特别是含铁氧化物的酸性土壤。", "inlineNotation": ["+6价", "MoO₄²⁻", "HMoO₄⁻", "H₂MoO₄⁰", "MoO₂(OH)⁺", "MoO₂²⁺", "pH"]},
+    {"type": "paragraph", "text": "关于从土壤中提取有效态钼的研究还十分有限。进一步说，还难以准确测量土壤中含量极低的有效态钼。钼在植物中的累积主要与土壤中的有效态钼有关，而与土壤中钼的总量无关。尽管还没有钼的常"},
+    {"type": "printed-page-number", "text": "73"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c676b6b5c362cb9d1fbcd743751f60507a4e6f6ed7ce1ae9c109de53d5abfd21"
+}

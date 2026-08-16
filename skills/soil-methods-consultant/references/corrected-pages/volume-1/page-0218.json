@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 218,
+  "sourceImageSha256": "6d8c21850f4216046cdadcae367206139850f2097845feabadc65139df71527c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第23章首页，并与Apple Vision、PaddleOCR交叉比对，人工恢复章题、作者单位、23.1引言及23.1.1全硫正文"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验“第十五个”、总有机硫=全硫−总无机硫、方法两步层级、X射线荧光法、1970a/1970b、作者专名和跨页末句"},
+    "secondVisualPass": {"status": "verified", "method": "从页末“使用酸消解法时必须”反向复核至章题，确认方法分类、括号示例、引文顺序、段落层级及印刷页码187"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "第23章", "title": "土壤硫的化学特征"},
+    {"type": "author", "text": "C.G. Kowalenko"},
+    {"type": "affiliation", "text": "Agriculture and Agri-Food Canada"},
+    {"type": "affiliation-location", "text": "Agassiz, British Columbia, Canada"},
+    {"type": "author", "text": "M. Grimmett"},
+    {"type": "affiliation", "text": "Agriculture and Agri-Food Canada"},
+    {"type": "affiliation-location", "text": "Charlottetown, Prince Edward Island, Canada"},
+    {"type": "section-heading", "number": "23.1", "title": "引言"},
+    {"type": "paragraph", "text": "硫在陆地环境中的含量相当丰富，为第十五个含量丰富的元素（Arnhold和Stoeppler，2004）。它在土壤中以有机态、无机态及各种价态存在（Blanchar，1986），每种形态都有其不同的化学、生物和环境意义。已经针对不同的目的（例如，土壤发生、植物有效性或环境评估）提出了不同的化学分析方法来测定土壤中各种形态的硫。目前可以测定不同形态的硫，但能否准确测定取决于是否有有效的化学定量方法。土壤硫形态测定中最常见的是全硫、有机硫、无机硫及可提取的植物有效性硫。"},
+    {"type": "subsection-heading", "number": "23.1.1", "title": "全硫"},
+    {"type": "paragraph", "text": "全硫是硫测定中的一个重要指标，而且常用于计算量化一些特定形态的硫（例如，总有机硫=全硫−总无机硫）。全硫的测定方法很多，但没有被普遍接受的方法（Tabatabai，1982；Blanchar，1986）。几乎所有的全硫测定方法都需要两步："},
+    {"type": "procedure-step", "number": "（1）", "text": "将所有的硫转化为一种形态。"},
+    {"type": "procedure-step", "number": "（2）", "text": "定量测定这种形态的硫。"},
+    {"type": "paragraph", "text": "用于转化的方法有灰化或干烧法和湿消化法（Tabatabai，1982；Blanchar，1986）。干灰化法的加热方式包括热炉、加热器、开放式火焰（如熔化）、封闭式火焰（如氧瓶法），以及用感应炉或电阻炉高温燃烧。湿消化法可以用酸或碱处理。有许多硫的定量测定方法可以用于测定气体和液体中氧化或还原态的硫。气态硫的定量测定方法有红外法、化学发光法、库仑法、火焰光度法及其他方法。通常用光谱测定法，如比色法、火焰发射法、原子吸收法等，或选择性离子电极法、滴定法、重量法、色谱分析法测定液体（气体吸收液或溶解液、消煮液或固体溶解液）中硫化物和硫酸盐的含量。这些方法中硫的转换和定量步骤均可实现自动化。X射线荧光法（Jenkins，1984）可以一步完成硫的测定。"},
+    {"type": "paragraph", "text": "有人将土壤全硫的测定方法进行了比较（Gerzabek和Schaffer，1986），但由于受限于分析的土壤样品范围和分析方法的类型，所以这种比较有一定的局限性（Tabatabai和Bremner，1970b；Matrai，1989；Kowalenko，2001）。而且，各测定方法的结果不尽相同，没有一种方法可以确定地说是对土壤全硫的真实测定（Hogan和Maynard，1984；Kowalenko，2000），即使最高值也不能肯定是真实值。"},
+    {"type": "paragraph", "continued": true, "text": "有研究发现，对于某些土壤样品来说，高温燃烧不能获得令人满意的结果，但越来越多的现代化仪器可以得到较好的结果（Kowalenko，2001）。多数燃烧装置对煤等含硫量高的材料有较高的分析检出限。X射线荧光法需要调整样品中的有机质含量（Brown和Kanaris-Sotiriou，1969）。低温灰化法有多种成功的类型（Tabatabai和Bremner，1970a；Killham和Wainwright，1981）。使用酸消解法时必须"},
+    {"type": "printed-page-number", "text": "187"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "154163a06ba4f04398f0afbda5fc2d8fbb80d84cb1148961045542480a2f9bda"
+}

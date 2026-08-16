@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 397,
+  "sourceImageSha256": "2c6b7c7ce1d7cdefa9f207ec399635184977dce32c4e4b07c27f7d69c43201b5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版38.3.2～38.4"},
+    "precisionPass": {"status": "verified", "method": "核验7×20 g、100 mL、2 mol·L⁻¹ KCl、75 mg N·kg⁻¹、−33 kPa、1/3/7/14/21/28 d、1%（v/v）C₂H₂、745 mg·kg⁻¹及NO₃⁻"},
+    "secondVisualPass": {"status": "verified", "method": "从38.4页末承下句反向复核至步骤（3），逐项核对步骤、注释和方法层级；印刷页码366"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure-step", "number": "（3）", "text": "每个处理和重复称取7个子样，每个含20 g湿土，分别装入250 mL锥形瓶。"},
+    {"type": "procedure-step", "number": "（4）", "text": "每个处理取第1个子样，加入100 mL 2 mol·L⁻¹ KCl，测定初始NH₄⁺和NO₃⁻浓度；在旋转摇床振荡1 h，以预冲洗Whatman 40号滤纸过滤，或用冷冻离心机离心。用Berthelot反应测NH₄⁺，用镉还原法测NO₃⁻（Tel和Heseltine，1990）。"},
+    {"type": "procedure-step", "number": "（5）", "text": "施肥土壤：向余下6个子样加入(NH₄)₂SO₄溶液，使每个子样添加75 mg N·kg⁻¹，并调节加入体积，使改良土壤最终达到田间持水量（基质势−33 kPa）。未施肥土壤（如许多森林土）：宜不加NH₄⁺，但仍须调至田间持水量。"},
+    {"type": "procedure-step", "number": "（6）", "text": "将6个子样在20 °C或田间相关温度（尤其春季施氮时的温度）培养，分别在1、3、7、14、21和28 d各取1个样品，按步骤（4）浸提。"},
+    {"type": "procedure-step", "number": "（7）", "text": "以NO₃⁻浓度随时间的增加作线性回归，斜率即净硝化速率。"},
+    {"type": "section-heading", "level": 3, "number": "38.3.3", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "未施氮土壤的净硝化速率取决于28 d内土壤原有NH₄⁺的净硝化量，或异养硝化菌所硝化的有机氮净量。高氮状态土壤（如固氮树种赤杨下土壤；Hart等，1997）的NH₄⁺或有机氮背景量可高到不会严重限制自养硝化；许多未施肥森林土的初始NH₄⁺却会在28 d结束前几乎全部硝化，此时测得速率很大程度受氮矿化供底物速率控制。可补加NH₄⁺以避免限制，或仅采用培养线性阶段数据。"},
+    {"type": "note-item", "number": "（2）", "text": "高硝化速率土壤在培养末期的NH₄⁺可能很低，应使用线性阶段数据计算，或提高NH₄⁺添加量后重做。"},
+    {"type": "note-item", "number": "（3）", "text": "培养温度可与田间测量温度一致；农田可用施肥后28 d内0～15 cm土层的平均温度。日内温差小时可用田间日平均温度；昼夜波动大时，应考虑硝化对土温的非线性响应（Sierra，2002）。"},
+    {"type": "note-item", "number": "（4）", "text": "培养瓶顶空中1%（v/v）的乙炔可选择性抑制自养硝化。Pennington和Ellis（1993）比较乙炔（1%）与氯酸盐（745 mg·kg⁻¹），乙炔抑制更有效。区分自养与异养硝化时做两套培养；烧瓶须装橡胶隔垫。一套瓶移除目标为顶空1%的气体并加入相应C₂H₂，具体移除量和加入量按式（37.1）、（37.2）计算。加乙炔结果代表异养硝化；不加乙炔结果减去加乙炔结果代表自养硝化。"},
+    {"type": "note-item", "number": "（5）", "text": "分析方法应适配特定土壤浸提液的NO₃⁻浓度范围，并校正不同浸提基质对比色反应的影响。"},
+    {"type": "section-heading", "level": 2, "number": "38.4", "title": "潜在硝化速率", "citation": "Belser和Mays，1980；Hart等，1994b"},
+    {"type": "paragraph", "text": "潜在硝化速率是在NH₄⁺充足、土壤通气良好且NH₄⁺扩散不受限制的理想条件下发生的硝化速率（Belser和Mays，1980），主要受硝化微生物群体大小和培养温度（20 °C）控制。实验室技术包括振荡土壤悬液、烧杯好氧培养、微型蒸渗仪周期淋洗和灌流柱培养；其中振荡土壤悬液法通常重复性最好、最易解释（Verchot等，2001）。土壤悬液振荡24 h，并在不同时间取样分析NO₃⁻；材料和步骤续见第398页。"},
+    {"type": "printed-page-number", "text": "366"}
+  ],
+  "formulas": [
+    {"id": "38.3-net-nitrification", "display": "NNR = slope of [NO₃⁻] versus incubation time during the linear phase"},
+    {"id": "38.3-autotrophic-difference", "display": "autotrophic nitrification = nitrification_without C₂H₂ − nitrification_with C₂H₂"}
+  ],
+  "tables": [],
+  "contentSha256": "3db78853362ab30b64be472b300c2a1c059545dad980c881e896cf795b27d5af"
+}

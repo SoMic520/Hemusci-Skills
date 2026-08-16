@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-47361-2026",
+  "label": "GB/T 47361-2026《土壤有机质的测定》",
+  "standardNo": "GB/T 47361-2026",
+  "title": "土壤有机质的测定",
+  "published": "2026-03-31",
+  "implemented": "2026-10-01",
+  "domain": "soil",
+  "sourceType": "official-online-reader",
+  "sourceFingerprint": "3965eb5f4e5344248ab92981deba326adb7f04e737506c4eb3331d73b1cb34b6",
+  "includedPageCount": 11,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=0663D51261D1CA9524ADD86163136257"
+}

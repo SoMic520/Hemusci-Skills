@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 261,
+  "sourceImageSha256": "9bcfef3c4b0f8fbfcfb2debb2d1d6c97302809363f3639d411368499fed43a86",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第26章第230页，并与Apple Vision、PaddleOCR交叉比对，人工恢复26.3.2（3）～（5）、式（26.3）～（26.4）及26.4全套原理/试剂/步骤/式（26.5）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验4/16 h、510 g（力）、0.100/0.250 g、10/25 mL、12/6 μg Fe·mL⁻¹、NH₂OH·HCl、0.25 mol·L⁻¹、17.37 g、21.5 mL、×10 000及公式结果0.24"},
+    "secondVisualPass": {"status": "verified", "method": "从26.4.3示例承接句反向复核至26.3.2（3），确认步骤→计算→26.4原理→试剂→步骤→计算层级、三式变量一致性和印刷页码230"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure-step", "number": "（3）", "text": "将离心管放入旋转振荡器中，在黑暗条件下振荡4 h。也可以使用水平振荡机，但会增加粒子之间的磨损。", "section": "26.3.2 步骤"},
+    {"type": "procedure-step", "number": "（4）", "text": "以510 g（力）离心20 min（如果土壤样品黏粒含量较高那么应该提高转速），取上清液及时进行分析。上清液需要避光保存，以便避免草酸盐光解及溶解的金属产生沉淀。"},
+    {"type": "procedure-step", "number": "（5）", "text": "利用原子吸收光谱法（AAS）测定铝、铁、锰和硅。方法同26.2.2。"},
+    {"type": "heading", "level": 2, "number": "26.3.3", "title": "计算"},
+    {"type": "calculation-note", "text": "例如，0.250 g样品，10 mL提取剂，稀释倍数为5，待测液测定值12 μg Fe·mL⁻¹："},
+    {"type": "heading", "level": 1, "number": "26.4", "title": "盐酸羟胺法（Ross等，1985；Wang等，1987）"},
+    {"type": "principle", "text": "盐酸羟胺法主要用于地球化学研究，由溶解性最低的结晶态铁氧化物，例如，磁铁矿表面去除非结晶态的成分，特别是水合锰的氧化物（Chao和Zhou，1983）。Ross（1985）和Wang（1987）等对该方法进行改进，并采集不同的土壤样品进行测试。结果发现，对于铝和铁而言，因为羟胺不溶解磁铁矿，所以盐酸羟胺法与草酸盐提取法的结果相近，但两种方法提取硅的结果不尽相同。此外，羟胺是否适合作为土壤中锰的提取剂并未得到充分验证。羟胺溶液比草酸盐溶液更容易通过原子吸收光谱法（AAS）进行分析，原因在于草酸盐溶液易阻塞燃烧器。"},
+    {"type": "heading", "level": 2, "number": "26.4.1", "title": "试剂"},
+    {"type": "reagent-item", "number": "（1）", "name": "盐酸羟胺-盐酸溶液（0.25 mol·L⁻¹ NH₂OH·HCl，0.25 mol·L⁻¹ HCl）", "text": "将21.5 mL的浓盐酸和17.37 g的NH₂OH·HCl加入1 L容量瓶中，用去离子水定容。"},
+    {"type": "reagent-item", "number": "（2）", "text": "原子吸收误差标准：±1%。"},
+    {"type": "heading", "level": 2, "number": "26.4.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称量0.100 g的风干土（<2 mm），研磨过0.15 mm（100目）筛，装入带螺旋盖的50 mL离心管。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加入25 mL羟胺溶液至上述离心管，并拧紧盖子。"},
+    {"type": "procedure-step", "number": "（3）", "text": "将离心管放入旋转振荡器中振荡过夜（16 h）。也可以使用水平方向的往复式振荡机，但会增加粒子之间的磨损。"},
+    {"type": "procedure-step", "number": "（4）", "text": "以510 g（力）离心20 min（如果土壤样品黏粒含量较高就应该提高转速），取上清液及时进行分析。"},
+    {"type": "procedure-step", "number": "（5）", "text": "利用原子吸收光谱（AAS）测定铝、铁、锰和硅。方法同26.2.2。"},
+    {"type": "heading", "level": 2, "number": "26.4.3", "title": "计算"},
+    {"type": "calculation-note", "text": "例如，0.100 g样品，25 mL提取剂，稀释倍数为5，待测液测定值6 μg Fe·mL⁻¹：", "continued": true},
+    {"type": "printed-page-number", "text": "230"}
+  ],
+  "formulas": [
+    {"number": "26.3", "context": "酸性草酸铵法计算提取态Fe、Al、Mn、Si质量分数", "display": "Fe、Al、Mn、Si（%）= [溶液浓度（μg/mL）×提取剂体积（mL）×稀释倍数] / [称样量（g）×10 000]", "latex": "\\mathrm{Fe,Al,Mn,Si}(\\%)=\\frac{C(\\mu\\mathrm{g}/\\mathrm{mL})\\times V(\\mathrm{mL})\\times D}{m(\\mathrm{g})\\times 10000}"},
+    {"number": "26.4", "context": "0.250 g样品、10 mL提取剂、稀释5倍、12 μg Fe·mL⁻¹的示例", "display": "Fe（%）= (12×10×5)/(0.250×10 000) = 0.24", "latex": "\\mathrm{Fe}(\\%)=\\frac{12\\times10\\times5}{0.250\\times10000}=0.24"},
+    {"number": "26.5", "context": "盐酸羟胺法计算提取态Fe、Al、Mn、Si质量分数", "display": "Fe、Al、Mn、Si（%）= [溶液浓度（μg/mL）×提取剂体积（mL）×稀释倍数] / [称样量（g）×10 000]", "latex": "\\mathrm{Fe,Al,Mn,Si}(\\%)=\\frac{C(\\mu\\mathrm{g}/\\mathrm{mL})\\times V(\\mathrm{mL})\\times D}{m(\\mathrm{g})\\times 10000}"}
+  ],
+  "tables": [],
+  "contentSha256": "63dcbd522c47ba2c018d86453b94456ce2acb76381412ddb7e37e6e04c9beea8"
+}

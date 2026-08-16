@@ -1,0 +1,86 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 314,
+  "sourceImageSha256": "a2bd39fac3e1cb483b791f4095fae98cff515775b05bd0985d3926f1908a7f9f",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对84.3、84.3.1、式(84.6)/(84.7)、全部常数及84.3.2开头"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对K与θ量纲、2b+3指数、指数函数分子各项和k=2.778×10⁻⁶ m·s⁻¹"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "希腊系数β/γ/δ/ε/φ/λ、Cl²、质量百分数和K_sat敏感性二次反查；印刷页码823"
+    }
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "number": "84.3",
+      "title": "非饱和导水率",
+      "level": 2
+    },
+    {
+      "type": "definition",
+      "text": "非饱和导水率描述土壤导水率K[L·T⁻¹]随体积含水量θ[L³·L⁻³]或基质水头ψ[L]的变化。K(θ)、K(ψ)通常用经验或拟经验模型描述，因为直接测量困难、耗时，对很小θ和ψ尤其不精确甚至不可行。"
+    },
+    {
+      "type": "heading",
+      "number": "84.3.1",
+      "title": "Brooks–Corey（1966）K(θ)模型",
+      "level": 3
+    },
+    {
+      "type": "model-note",
+      "paragraphs": [
+        "式(84.6)为Brooks and Corey (1966) K(θ)函数经Campbell (1974)改进的形式。K_sat为饱和或田间饱和导水率，θ_sat为相应含水量，b为式(84.1a,b)的无量纲常数。",
+        "直接应用时插入K_sat、θ_sat和b实测或计算值，b由对应Brooks–Corey θ(ψ)式(84.1)确定。但K_sat对大孔隙、质地和结构极敏感且高度变异，会给K(θ)带来较大不确定性。Bruce (1972)建议使用稍低于基质水头0时的K值代替K_sat。",
+        "Rawls et al. (1982)发现式(84.6)对普通质地土壤导水率拟合不佳；Saxton et al. (1986)推荐式(84.7)质地方程。Sa和Cl分别为砂粒与黏粒质量百分数。",
+        "也可由土壤结构、大孔隙数量与大小等形态估计K_sat范围（McKeague et al., 1984; McKenzie et al., 1991; Griffiths et al., 1999），适合情景测试和判读模型输出；但获取形态数据的工作量通常大于测K_sat。算例见84.4。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "84.3.2",
+      "title": "Mualem–van Genuchten K(θ)和K(ψ)模型",
+      "level": 3
+    },
+    {
+      "type": "model-note",
+      "text": "Mualem (1976)通过整合土壤脱水—吸水函数预测非饱和导水率；与van Genuchten (1980) θ(ψ)模型结合所得方程见下一页。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "84.6",
+      "plain": "K(θ)=K_sat(θ/θ_sat)^(2b+3)",
+      "latex": "K(\\theta)=K_{sat}\\left(\\frac{\\theta}{\\theta_{sat}}\\right)^{2b+3}"
+    },
+    {
+      "label": "84.7",
+      "plain": "K(θ)=k·exp{β+γSa+[δ+εSa+φCl+λCl²]/θ}",
+      "latex": "K(\\theta)=k\\exp\\!\\left\\{\\beta+\\gamma(Sa)+\\frac{\\delta+\\varepsilon(Sa)+\\varphi(Cl)+\\lambda(Cl^2)}{\\theta}\\right\\}"
+    }
+  ],
+  "tables": [
+    {
+      "number": "84.7参数",
+      "title": "Saxton等（1986）质地导水率方程常数",
+      "columns": ["参数", "值"],
+      "rows": [
+        ["k", "2.778×10⁻⁶ m·s⁻¹"],
+        ["β", "12.012"],
+        ["γ", "−0.0755"],
+        ["δ", "−3.895"],
+        ["ε", "0.03671"],
+        ["φ", "−0.1103"],
+        ["λ", "8.8546×10⁻⁴"]
+      ]
+    }
+  ],
+  "contentSha256": "a613d1c266a0cf8cac8ec46253ad44b3d7a06a8dca96f5a111c477405a320f6c"
+}

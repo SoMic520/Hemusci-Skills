@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 476,
+  "sourceImageSha256": "4cb84af956dca708c9cfd70553bd5334b031dba3cfc506350611addc03b1ef7c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页和两套OCR，完成47.1承接、47.2定义、47.2.1材料及47.2.2七步，校正砂粒有机质/大有机质术语"},
+    "precisionPass": {"status": "verified", "method": "核验比重1.6～2.0/1.7、2 mm、53/250/2000 μm、5 g·L⁻¹ (NaPO₃)₆、25 g、100 mL、16 h、40/60/105 °C"},
+    "secondVisualPass": {"status": "verified", "method": "由步骤（7）反向复核至页首承接句，检查每个筛孔、容器容量、干燥温度时间和步骤层级；印刷页码445"}
+  },
+  "blocks": [
+    {"type": "paragraph", "continuationOf": "page-0475:47.1", "text": "轻组有机质通常用固定比重1.6～2.0的液体分离（Sollins等，1999）；POM可单用粒径法或粒径—密度结合法分离（Cambardella和Elliott，1992）。本章介绍两法：①将六偏磷酸钠分散的土壤湿筛，分离砂粒级（>53 μm）POM；②把分散土壤悬浮于比重1.7的NaI重液，分离LF。推荐>53 μm，是因为53 μm为粒径分析的砂粒界限且已广泛用于POM研究；推荐比重1.7，是因早期研究表明它能较好地把腐解植物残体来源的有机颗粒与矿质颗粒分开（Ladd等，1977；Scheffer，1977；Ladd和Amato，1980；Spycher等，1983）。"},
+    {"type": "section-heading", "level": 2, "number": "47.2", "title": "颗粒有机质"},
+    {"type": "paragraph", "text": "按粒径分离的非复合有机质通常称颗粒有机质（POM；Cambardella和Elliott，1992），也称砂粒有机质或大有机质（Gregorich和Ellert，1993；Wander，2004）。先把土壤分散，再以筛分收集砂粒粒级。土壤先过2 mm筛，再用53 μm筛回收53～2000 μm组分，使POM成为可量化的土壤有机质组分。"},
+    {"type": "section-heading", "level": 3, "number": "47.2.1", "title": "材料与试剂"},
+    {"type": "materials-list", "items": [
+      {"number": "（1）", "text": "2 mm筛。"},
+      {"number": "（2）", "text": "往复式或旋转式振荡机；200～250 mL瓶或带防漏盖烧瓶。"},
+      {"number": "（3）", "text": "5 g·L⁻¹六偏磷酸钠[(NaPO₃)₆]溶液。"},
+      {"number": "（4）", "text": "孔径53 μm、直径10 cm或更大的筛，置于由环钳支撑、直径更大的聚丙烯漏斗上。"},
+      {"number": "（5）", "text": "1 L高脚烧杯，用于收集非颗粒态有机质以及过筛后的粉粒—黏粒悬浮液。"},
+      {"number": "（6）", "text": "蒸馏水洗瓶和小铲或橡胶刮板，使全部黏粒、粉粒通过筛。"},
+      {"number": "（7）", "text": "干燥箱。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "47.2.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "田间湿土过2 mm筛，弃去筛上残留物，将土样风干。"},
+    {"type": "procedure-step", "number": "（2）", "text": "另取5 g土样于105 °C烘干，测定含水量。"},
+    {"type": "procedure-step", "number": "（3）", "text": "每瓶称25 g风干土，加100 mL六偏磷酸钠溶液，密封并振荡过夜，例如16 h。"},
+    {"type": "procedure-step", "number": "（4）", "text": "把悬液倒到53 μm筛上，以少量水洗出瓶内全部颗粒。"},
+    {"type": "procedure-step", "number": "（5）", "text": "用洗瓶细水流冲洗，使含矿质和细有机质的粉粒、黏粒通过筛；用橡胶刮板轻压破碎团聚体。筛上保留砂粒和大颗粒有机质，即操作性POM组分。"},
+    {"type": "procedure-step", "number": "（6）", "text": "筛上组分可先在40 °C干燥1 h，再定量转移到烧杯等容器，于60 °C过夜干燥。筛下放盘接住可能漏落的颗粒；用小铲或画笔转移全部筛上物，记录干质量。"},
+    {"type": "procedure-step", "number": "（7）", "text": "用研钵、研杵把干燥组分研匀并全部通过250 μm筛，测定C、N及其他目标元素。"}
+  ],
+  "formulas": [
+    {"id": "47.2-dispersant", "display": "5 g·L⁻¹ (NaPO₃)₆", "meaning": "湿筛法土壤分散剂浓度"},
+    {"id": "47.2-operational-pom", "display": "53 μm < particle size ≤ 2000 μm", "meaning": "本方法操作性POM粒径范围；上限来自预先过2 mm筛"}
+  ],
+  "tables": [],
+  "contentSha256": "71c4f6aca85e91f3af034f5f2a621662f4c893ebc43a93062de3d56870628e25"
+}

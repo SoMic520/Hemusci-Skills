@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 68,
+  "sourceImageSha256": "849d7b3917e3d276cdd65f9e5057d549608e9d7b40461f998f54a56a0dc8cc8a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成同步含水量测量、图60.1、60.2.2及便携手推仪首段"},
+    "precisionPass": {"status": "verified", "method": "核验TDR/TDT、6/30 cm、±0.02 m³ m⁻³、1.2/0.8 m、30°、9.5/12.8/15.9/20.0 mm及图件标签"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页尺寸(ii)反向复核至4标题，逐项检查体积含水量单位上下标和图60.1设备部件；印刷页码577"}
+  },
+  "blocks": [
+    {"type": "subheading", "title": "4. 同时测量含水量和穿透阻力"},
+    {"type": "paragraph", "text": "CI强烈随水分状况变化（Busscher等，1997；Lapen等，2004），比较时含水量是关键解释变量。同步仪器包括近红外反射式（Hummel等，2004）、TDR/TDT电磁式（Morrison等，2000；Young等，2000；Topp等，2003）、电容/电阻式（Sun等，2004），尚无公认最佳方案。"},
+    {"type": "paragraph", "text": "Young等（2000）和Topp等（2003）把传输线装在连接轴周围，以TDT测含水量。Topp的轴向螺旋线把测量区域沿轴缩至6 cm，同时保持传输线长30 cm；体积含水量精度±0.02 m³ m⁻³，与TDR相当。Morrison等把短TDR线装在锥面，传感器见Starr等（2000）。组合仪仍较新，传感器原理见第70章。"},
+    {"type": "figure", "number": "60.1", "caption": "同时测圆锥阻力和含水量的便携式机动贯入仪。", "labels": ["马达", "数据采集器", "手柄和控制开关", "电池", "含水量传感器（轴上螺旋传输线）", "力传感器（锥头附近）"], "source": "Topp, G.C., Lapen, D.R., Edwards, M.J. and Young, G.D., Vadose Zone J. 2:633, 2003。"},
+    {"type": "heading", "number": "60.2.2", "title": "仪器介绍", "level": 3},
+    {"type": "subheading", "title": "1. 便携式手推锥形贯入仪"},
+    {"type": "paragraph", "text": "手推式约1.2 m高，常测至约0.8 m（改型可更深）。精加工不锈钢圆锥角30°。常见两套锥杆：①杆径9.5 mm、锥径12.8 mm；②杆径15.9 mm、锥径20.0 mm，后者用于较松软土壤。"},
+    {"type": "source-fidelity-note", "text": "OCR把体积含水量精度单位识为m³ m²3；原图明确为±0.02 m³ m⁻³。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "70db639b3b4c027befc215a1e568fa303513875ba543135f987a9304f3152089"
+}

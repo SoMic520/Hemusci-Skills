@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 458,
+  "sourceImageSha256": "b80744e2357fd2b913fb4f91c52fe898f5a5ce1bc903fbf09b3f12782f33c001",
+  "review": {
+    "textPass": {"status": "verified", "method": "对照原分辨率页面确认仅含篇章分隔标题，无页码、正文、公式、表格或图示"},
+    "precisionPass": {"status": "verified", "method": "核验篇次为第五篇，标题为土壤有机质分析"},
+    "secondVisualPass": {"status": "verified", "method": "全页二次目视扫描空白区域，确认无遗漏淡印内容"}
+  },
+  "blocks": [
+    {"type": "part-heading", "number": "第五篇", "title": "土壤有机质分析", "originalTitle": "Soil Organic Matter Analyses"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ab4d6a36bfd4539eb00e0748556ff8dcf41b2f9d1a12d147cf25a4f718a073f3"
+}

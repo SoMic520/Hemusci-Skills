@@ -1,0 +1,44 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 436,
+  "sourceImageSha256": "e9bba55c598bdec79773e72db5ef6a5c424386ab178ea8efb1cb1af99d596053",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、两套OCR及英文原版42.1末段～42.2.1（16）"},
+    "precisionPass": {"status": "verified", "method": "核验a15:0、18:3ω6,9,12c、FAME/PLFA、1:1(v/v)、4/6.0 mol·L⁻¹、100/80±1/170/260 °C、2 °C·min⁻¹和99.999%；对三组试剂标称浓度作配方计量复算"},
+    "secondVisualPass": {"status": "verified", "method": "由H₂（99.999%）反向复核至Feng承上句，逐项检查化学式、体积、温度、希腊字母和印刷页码405"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第42章｜基于脂质的群落分析"},
+    {"type": "paragraph", "text": "PLFA来源于活微生物生物量，因此特异性生物标志物脂肪酸可指示特定细菌类群，并提供土壤微生物群落的分类学信息（Pankhurst等，2001）。羟基脂肪酸主要来自革兰氏阴性菌，尤其是Pseudomonas spp.；环丙烷脂肪酸可指示Chromatium、Legionella、Rhodospirillum、Campylobacter等其他革兰氏阴性菌（Harwood和Russell，1984；Wollenweber和Rietschel，1990；Cavigelli等，1995）。支链脂肪酸如a15:0通常被视为Clostridium、Bacillus等革兰氏阳性菌的标志物；18:3ω6,9,12c主要见于低等真菌。脂肪酸分类标志物详见Zelles（1999）的综述。"},
+    {"type": "source-fidelity-note", "scope": "42.1脂肪酸命名", "text": "中文版印作“18:3 w6、9、12c”；按脂肪酸标准记法校为18:3ω6,9,12c。支链前缀a与15:0连写为a15:0，表示anteiso支链，不能误作不定冠词。"},
+    {"type": "paragraph", "text": "本章分别给出MIDI-FAME（42.2）和PLFA（42.3）方案。PLFA代表功能上定义更明确的土壤脂质组分，专门分析微生物群落组成，样品重复间脂肪酸谱也更一致；MIDI-FAME耗时较短，获得可靠群落指纹所需样品量较小。方法选择应重点考虑：是否需要用生物标志物作分类学分析，以及时间和样品量是否受限。"},
+    {"type": "section-heading", "level": 2, "number": "42.2", "title": "脂肪酸甲酯法（Sasser，1990；Cavigelli等，1995改用于土壤）"},
+    {"type": "section-heading", "level": 3, "number": "42.2.1", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "text": "带聚四氟乙烯衬盖的25 mL试管。"},
+    {"type": "reagent-item", "number": "（2）", "name": "试剂1（皂化试剂）", "text": "将45 g NaOH溶于150 mL甲醇和150 mL蒸馏水的混合液。原书标称“50%甲醇中的4 mol·L⁻¹ NaOH”；实际操作以该称量–体积配方为准。"},
+    {"type": "material-item", "number": "（3）", "text": "涡旋仪。"},
+    {"type": "material-item", "number": "（4）", "text": "100 °C水浴。"},
+    {"type": "reagent-item", "number": "（5）", "name": "试剂2（甲基化试剂）", "text": "混合325 mL经标定的6.0 mol·L⁻¹ HCl与275 mL甲醇；操作以该配方为准。"},
+    {"type": "material-item", "number": "（6）", "text": "80±1 °C水浴。"},
+    {"type": "material-item", "number": "（7）", "text": "冷水浴。"},
+    {"type": "reagent-item", "number": "（8）", "name": "试剂3（萃取试剂）", "text": "正己烷∶甲基叔丁基醚（MTBE）=1∶1（v/v）；混合200 mL正己烷与200 mL MTBE。"},
+    {"type": "material-item", "number": "（9）", "text": "旋转振荡器。"},
+    {"type": "material-item", "number": "（10）", "text": "离心机。"},
+    {"type": "material-item", "number": "（11）", "text": "巴斯德吸量管；管尖以火焰灼烧去除污染物。"},
+    {"type": "material-item", "number": "（12）", "text": "带聚四氟乙烯衬盖的15 mL试管。"},
+    {"type": "reagent-item", "number": "（13）", "name": "试剂4（洗脱试剂）", "text": "将10.8 g NaOH溶于900 mL蒸馏水；原书标称0.3 mol·L⁻¹ NaOH，操作以该配方为准。"},
+    {"type": "material-item", "number": "（14）", "text": "气相色谱（GC）进样瓶。"},
+    {"type": "material-item", "number": "（15）", "text": "气相色谱仪：装25 m（5%苯基）-甲基聚硅氧烷柱，可由170 °C以2 °C·min⁻¹程序升温至260 °C，配火焰离子化检测器和积分器。"},
+    {"type": "material-item", "number": "（16）", "text": "氢气，纯度99.999%。"},
+    {"type": "source-fidelity-note", "scope": "42.2.1试剂1、2、4", "text": "原书的标称浓度与列示配方不完全闭合：试剂1按体积简单相加约为3.75 mol·L⁻¹ NaOH；试剂2混合后HCl名义浓度约3.25 mol·L⁻¹、甲醇约45.8%（v/v），不是最终6.0 mol·L⁻¹ HCl/50%甲醇；试剂4若把900 mL视为终体积约为0.333 mol·L⁻¹。Skill保留原配方并禁止把标称值反向改写成另一套称量。若需严格配制目标摩尔浓度，应另行定容并记录方法偏离。"},
+    {"type": "printed-page-number", "text": "405"}
+  ],
+  "formulas": [
+    {"id": "42.2.1-reagent1-check", "plain": "c(NaOH)≈(45 g/40.00 g·mol⁻¹)/(0.150+0.150 L)=3.75 mol·L⁻¹", "context": "忽略混合体积收缩的名义复算"},
+    {"id": "42.2.1-reagent2-check", "plain": "c(HCl)≈6.0 mol·L⁻¹×325 mL/(325+275 mL)=3.25 mol·L⁻¹", "context": "按列示混合体积名义复算"},
+    {"id": "42.2.1-reagent4-check", "plain": "c(NaOH)≈(10.8 g/40.00 g·mol⁻¹)/0.900 L=0.300 mol/0.900 L=0.333 mol·L⁻¹", "context": "把900 mL视为终体积时的名义复算；若定容1 L则为0.300 mol·L⁻¹"}
+  ],
+  "tables": [],
+  "contentSha256": "a3ed45a2a48cecab4722a405100dbaf63fab4d4b092fc16348c53c83a912f3b8"
+}

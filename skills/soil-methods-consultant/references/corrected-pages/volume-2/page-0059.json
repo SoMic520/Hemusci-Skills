@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 59,
+  "sourceImageSha256": "8e3076148faad506760604e0a839881cb91760c066ded4c2c9fe2bbf3bb5d123",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成59.1跨页结尾、图59.1、59.2、图59.2及59.2.1(1)～(2)"},
+    "precisionPass": {"status": "verified", "method": "核验0.15 g g⁻¹/e₀=1.34/C_s=0.09/C_c=0.51/σ_p=36 kPa、纵轴e、对数压力轴及75×15～20 mm/径高比>3"},
+    "secondVisualPass": {"status": "verified", "method": "由装置(2)反向复核至跨页首句，检查图中箭头、曲线分区、上下标、图件标签和尺寸；印刷页码568"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "两种常用且易用的方法：①压缩仪实验室法；②平板载荷田间法；随后介绍预压应力的确定。"},
+    {"type": "figure", "number": "59.1", "caption": "初始质量含水量0.15 g g⁻¹、初始孔隙比e₀=1.34条件下土样的应力—应变曲线。按Casagrande法得到C_s=0.09、C_c=0.51、σ_p=36 kPa。", "axes": {"x": "垂直压力（kPa，对数坐标1～1000）", "y": "孔隙比e（约0.6～1.6）"}, "labels": ["膨胀曲线的斜率", "原始压缩曲线的斜率（Virgin compression line）", "σ_p"], "description": "多级加载—卸载路径以箭头表示；低应力再压缩线与高应力原始压缩线的交界用于估计σ_p。"},
+    {"type": "source-fidelity-note", "text": "图注原书称该土样为‘饱和始成土’，语义不清且w=0.15 g g⁻¹、e₀=1.34在通常矿质土颗粒密度下并不对应饱和；为避免错误推断，方法卡只保留可确认的初始w、e₀和曲线参数。"},
+    {"type": "heading", "number": "59.2", "title": "实验室一维测量：压缩仪", "level": 2},
+    {"type": "paragraph", "text": "压缩仪试验是单轴、有侧限压缩试验，用于模拟车辆轮胎施加的竖向荷载。土样置环刀内，施加竖向压力；环刀限制横向变形，同时测轴向应力与位移。"},
+    {"type": "figure", "number": "59.2", "caption": "气动加载的压缩试验设备。", "components": ["位移计", "活塞", "压缩室", "土壤样品", "上下多孔石块", "转换阀", "压力计", "压力调节器", "压缩泵"]},
+    {"type": "heading", "number": "59.2.1", "title": "装置", "level": 3},
+    {"type": "paragraph", "text": "压缩仪包括加载装置、压缩室（原书作‘压缩层’）以及记录压力和位移的装置。"},
+    {"type": "equipment-list", "items": ["(1) 加载装置：静载、气压或步进电机，向土样施加单轴竖向压力。", "(2) 压缩室：圆形金属环直径75 mm、高15～20 mm，土样夹在上下多孔板之间；为减小环壁摩擦，环直径/高度应>3。"]}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "4e528d3eadfad6293aaca183d082edf642813dda9d03c32cb99adfb8219ef4de"
+}

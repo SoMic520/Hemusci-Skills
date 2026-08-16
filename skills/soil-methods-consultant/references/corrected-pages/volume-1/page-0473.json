@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 473,
+  "sourceImageSha256": "4374005a1a423684549ffeab67d3ebaf67618ce3bf340d16ab25a07c5ac6ebdc",
+  "review": {
+    "textPass": {"status": "verified", "method": "对照原分辨率页面逐条转录第46章参考文献中段，恢复斜杠、连字符、作者标点、机构名与题名断词"},
+    "precisionPass": {"status": "verified", "method": "逐条核对21条书目的作者、年份、刊名、卷页；纠正Saskatchewan拼写和Paul等文献Smethurst首字母"},
+    "secondVisualPass": {"status": "verified", "method": "由Stenger 2002反向复核至Curtin 1998，确认所有条目完整且无正文、公式、图表遗漏；印刷页码442"}
+  },
+  "blocks": [
+    {"type": "reference-list", "continuationOf": "page-0472:chapter46-references", "entries": [
+      "Curtin, D., Campbell, C.A., and Jalil, A. 1998. Effects of acidity on mineralization: pH-dependence of organic matter mineralization in weakly acidic soils. Soil Biology and Biochemistry 30:57–64.",
+      "Curtin, D., and McCallum, F.M. 2004. Biological and chemical assays to estimate nitrogen supplying power of soils with contrasting management histories. Australian Journal of Soil Research 42:737–746.",
+      "Deans, J.R., Molina, J.A.E., and Clapp, C.E. 1986. Models for predicting potentially mineralizable nitrogen and decomposition rate constants. Soil Science Society of America Journal 50:323–326.",
+      "Ellert, B.H. 1990. Kinetics of nitrogen and sulfur cycling in Gray Luvisol soils. Ph.D. thesis, University of Saskatchewan, Saskatoon, SK, Canada, 397 pp.",
+      "Ellert, B.H., and Bettany, J.R. 1988. Comparison of kinetic models for describing net sulfur and nitrogen mineralization. Soil Science Society of America Journal 52:1692–1702.",
+      "Gianello, C., and Bremner, J.M. 1986. Comparison of chemical methods of assessing potentially available organic nitrogen in soil. Communications in Soil Science and Plant Analysis 17:215–236.",
+      "Goh, K.M. 1983. Predicting nitrogen requirements for arable farming: A critical review and appraisal. Proceedings of the Agronomy Society of New Zealand 13:1–14.",
+      "Jalil, A., Campbell, C.A., Schoenau, J., Henry, J.L., Jame, Y.W., and Lafond, G.P. 1996. Assessment of two chemical extraction methods as indices of available nitrogen. Soil Science Society of America Journal 60:1954–1960.",
+      "Keeney, D.R. 1982. Nitrogen-availability indices. In A.L. Page et al. (eds.), Methods of Soil Analysis, Part 2, 2nd ed., Chemical and Microbiological Properties, Agronomy 9, pp. 711–733. SSSA and ASA, Madison, WI.",
+      "Keeney, D.R., and Bremner, J.M. 1966. Comparison and evaluation of laboratory methods of obtaining an index of soil nitrogen availability. Agronomy Journal 58:498–503.",
+      "Larsen, J.J.R. 1999. How to estimate potentially plant available soil nitrogen in sandy soils using anaerobic incubation. M.S. thesis, Department of Agricultural Sciences, The Royal Veterinary and Agricultural University, Copenhagen, Denmark.",
+      "MacKay, D.C., and Carefoot, J.M. 1981. Control of water content in laboratory determination of mineralizable nitrogen in soils. Soil Science Society of America Journal 45:444–446.",
+      "Mulvaney, R.L., Khan, S.A., Hoeft, R.G., and Brown, H.M. 2001. A soil organic nitrogen fraction that reduces the need for nitrogen fertilization. Soil Science Society of America Journal 65:1164–1172.",
+      "Parfitt, R.L., Yeates, G.W., Ross, D.J., Mackay, A.D., and Budding, P.J. 2005. Relationships between soil biota, nitrogen and phosphorus availability, and pasture growth under organic and conventional management. Applied Soil Ecology 28:1–13.",
+      "Paul, K.I., Polglase, P.J., O'Connell, A.M., Carlyle, J.C., Smethurst, P.J., and Khanna, P.K. 2002. Soil nitrogen availability predictor (SNAP): A simple model for predicting mineralisation of nitrogen in forest soils. Australian Journal of Soil Research 40:1011–1026.",
+      "Paustian, K., and Bonde, T.A. 1987. Interpreting incubation data on nitrogen mineralization from soil organic matter. In J.H. Cooley (ed.), Soil Organic Matter Dynamics and Soil Productivity, Proceedings of INTECOL Workshop, INTECOL Bulletin 15, pp. 101–112. International Association for Ecology, Athens, GA.",
+      "Picone, L.I., Cabrera, M.L., and Franzluebbers, A.J. 2002. A rapid method to estimate potentially mineralizable nitrogen in soil. Soil Science Society of America Journal 66:1843–1847.",
+      "Scott, N.A., Parfitt, R.L., Ross, D.J., and Salt, G.J. 1998. Carbon and nitrogen transformations in New Zealand plantation forest soils from sites with different N status. Canadian Journal of Forest Research 28:967–976.",
+      "Stanford, G., and Smith, S.J. 1972. Nitrogen mineralization potentials of soils. Soil Science Society of America Proceedings 36:465–472.",
+      "Stenger, R., Barkle, G.F., and Burgess, C.P. 2002. Mineralisation of organic matter in intact versus sieved/refilled soil cores. Australian Journal of Soil Research 40:149–160."
+    ]},
+    {"type": "source-fidelity-note", "scope": "第46章参考文献勘误（本页）", "text": "原书Ellert（1990）把University of Saskatchewan误拼为Saskavtchewan；Paul等（2002）把P.J. Smethurst误列为J.C. Smethurst。规范引文已按正式论文信息纠正。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "96a5036ea1d493c9b28a93c61da950be0c6fa264cc72d86e06dd7549937fe36b"
+}

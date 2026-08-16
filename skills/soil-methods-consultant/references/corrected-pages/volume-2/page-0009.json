@@ -1,0 +1,70 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 9,
+  "sourceImageSha256": "9936442aed40b95aa7826872a41629236fe55bec46f56997025576156fae045a",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条对照原分辨率目录和两套OCR，完成59.5.2至62.4.3"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验59.5.2～59.5.3、60.1～60.3.5、61.1～61.3.3、62.1～62.4.3编号与573～597页码"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由62.4.3反向复核至59.5.2，检查‘抗剪切强度’、‘恒定通量法’和罗马页码VIII"
+    }
+  },
+  "blocks": [
+    {
+      "type": "toc-tree-continuation",
+      "entries": [
+        {"number": "59.5.2", "title": "另一种实验室方法：三轴应力装置", "page": 573, "level": 3},
+        {"number": "59.5.3", "title": "土壤压缩性参数的变化范围", "page": 573, "level": 3},
+        {"number": "第59章参考文献", "title": "参考文献", "page": 573, "level": 2},
+        {"number": "第60章", "title": "田间土壤强度", "page": 575, "level": 1},
+        {"number": "60.1", "title": "原理和参数定义", "page": 575, "level": 2},
+        {"number": "60.2", "title": "穿透阻力", "page": 575, "level": 2},
+        {"number": "60.2.1", "title": "贯入仪的操作原理", "page": 575, "level": 3},
+        {"number": "60.2.2", "title": "仪器介绍", "page": 577, "level": 3},
+        {"number": "60.2.3", "title": "步骤", "page": 578, "level": 3},
+        {"number": "60.2.4", "title": "计算和数据处理", "page": 579, "level": 3},
+        {"number": "60.2.5", "title": "注释", "page": 579, "level": 3},
+        {"number": "60.3", "title": "土壤抗剪切强度", "page": 580, "level": 2},
+        {"number": "60.3.1", "title": "测量原理", "page": 581, "level": 3},
+        {"number": "60.3.2", "title": "设备和条件", "page": 581, "level": 3},
+        {"number": "60.3.3", "title": "步骤", "page": 583, "level": 3},
+        {"number": "60.3.4", "title": "计算和数据处理", "page": 584, "level": 3},
+        {"number": "60.3.5", "title": "注释", "page": 585, "level": 3},
+        {"number": "第60章参考文献", "title": "参考文献", "page": 586, "level": 2},
+        {"number": "第61章", "title": "透气性", "page": 588, "level": 1},
+        {"number": "61.1", "title": "引言", "page": 588, "level": 2},
+        {"number": "61.2", "title": "恒压梯度法", "page": 588, "level": 2},
+        {"number": "61.2.1", "title": "材料", "page": 589, "level": 3},
+        {"number": "61.2.2", "title": "步骤", "page": 589, "level": 3},
+        {"number": "61.2.3", "title": "注释", "page": 590, "level": 3},
+        {"number": "61.3", "title": "恒定通量法", "page": 590, "level": 2},
+        {"number": "61.3.1", "title": "材料", "page": 590, "level": 3},
+        {"number": "61.3.2", "title": "步骤", "page": 591, "level": 3},
+        {"number": "61.3.3", "title": "注释", "page": 591, "level": 3},
+        {"number": "第61章参考文献", "title": "参考文献", "page": 591, "level": 2},
+        {"number": "第62章", "title": "团聚体的水稳性", "page": 594, "level": 1},
+        {"number": "62.1", "title": "引言", "page": 594, "level": 2},
+        {"number": "62.2", "title": "田间采样、储存和预处理的注意事项", "page": 594, "level": 2},
+        {"number": "62.3", "title": "湿团聚体的稳定性", "page": 595, "level": 2},
+        {"number": "62.3.1", "title": "设备", "page": 595, "level": 3},
+        {"number": "62.3.2", "title": "步骤", "page": 595, "level": 3},
+        {"number": "62.3.3", "title": "注释", "page": 596, "level": 3},
+        {"number": "62.4", "title": "水稳性团聚体的粒级分布", "page": 596, "level": 2},
+        {"number": "62.4.1", "title": "材料、设备及试剂", "page": 596, "level": 3},
+        {"number": "62.4.2", "title": "步骤", "page": 596, "level": 3},
+        {"number": "62.4.3", "title": "计算", "page": 597, "level": 3}
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1b0a45aa13342e282ab224fdf76829ae4ddff6efd19d8ea5ab46c75ff01a3c80"
+}

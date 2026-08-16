@@ -1,0 +1,124 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 335,
+  "sourceImageSha256": "424ef164036dc57fcb92c9aefa31a273886bda6d556b69336e955b2134228c82",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对人为因素控制、降噪措施、85.7拟合目的及表85.1全部模型"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "逐项核对c₀、c、m、a、h、p、分段边界、指数和三次幂"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "纯块金/线性平稳/球状/指数/高斯/线性/幂函数公式及脚注二次反查；印刷页码844"
+    }
+  },
+  "blocks": [
+    {
+      "type": "continuation",
+      "items": [
+        "非均匀采样可能造成数据聚集和概率分布偏斜，并需要适合聚集数据的半方差分析程序。",
+        "降低人为影响的措施包括预先规定测量精度、在可行范围内增加样本数量和样本体积、核查并处理异常值，以及采用具有尽可能小有效间隔的均匀采样网格。"
+      ],
+      "references": [
+        "Goovaerts，1997",
+        "Deutsch和Journel，1998",
+        "Hawkins，1980"
+      ]
+    },
+    {
+      "type": "noise-reduction",
+      "text": "噪声大或形态不稳定的半方差函数会模糊空间/时间结构，并导致错误或不相符的模型拟合。",
+      "steps": [
+        "作适当的数据转换（如对数转换）以减弱极端值影响。",
+        "核查并剔除明显错误或不符合实际的异常值。",
+        "增大滞后公差以增加每个半方差估计的数据对数，同时仍尽量保持较小的滞后距。",
+        "使用重叠滞后箱体，效果类似移动平均平滑。"
+      ],
+      "reference": "Pannatier，1996"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书降噪第(2)项印为删除异常值“即增大半方差离散的数据”，语义与上下文相反；按方法目的校正为删除导致半方差离散增大的异常数据。"
+    },
+    {
+      "type": "heading",
+      "number": "85.7",
+      "title": "半方差数据拟合模型",
+      "level": 2
+    },
+    {
+      "type": "model-purpose",
+      "items": [
+        "从半方差中区分随机噪声（或静态）与基本结构模式。",
+        "为克里金等插值或制图提供可计算的模型。",
+        "模型选择须结合数据本身与空间/时间过程；用于克里金的半方差模型必须是条件负定的等价可容许模型，以保证相应协方差结构有效。"
+      ],
+      "references": [
+        "Cressie，1985、1993",
+        "Isaaks和Srivastava，1989",
+        "Pannatier，1996",
+        "Goovaerts，1997",
+        "Deutsch和Journel，1998"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书称半方差模型必须“正定”以保证协方差为正。严格地说，协方差函数须正定，而半方差函数须为条件负定（可容许）；此处按地统计学标准术语校正。"
+    }
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "number": "85.1",
+      "title": "地理科学中符合条件的半方差函数模型γ(h)",
+      "columns": [
+        "名称",
+        "方程式"
+      ],
+      "rows": [
+        {
+          "名称": "纯块金效应模型",
+          "方程式": "γ(h)=0（h=0）；γ(h)=c₀（h>0）",
+          "latex": "\\gamma(h)=\\begin{cases}0,&h=0\\\\c_0,&h>0\\end{cases}"
+        },
+        {
+          "名称": "线性平稳模型",
+          "方程式": "γ(h)=c₀+c(h/a)（0≤h<a）；γ(h)=c₀+c（h≥a）",
+          "latex": "\\gamma(h)=c_0+\\begin{cases}c\\left(\\frac{h}{a}\\right),&0\\le h<a\\\\c,&h\\ge a\\end{cases}"
+        },
+        {
+          "名称": "球状模型",
+          "方程式": "γ(h)=c₀+c[1.5(h/a)−0.5(h/a)³]（0≤h<a）；γ(h)=c₀+c（h≥a）",
+          "latex": "\\gamma(h)=c_0+\\begin{cases}c\\left[1.5\\frac{h}{a}-0.5\\left(\\frac{h}{a}\\right)^3\\right],&0\\le h<a\\\\c,&h\\ge a\\end{cases}"
+        },
+        {
+          "名称": "指数模型",
+          "方程式": "γ(h)=c₀+c[1−exp(−h/a)]，h≥0",
+          "latex": "\\gamma(h)=c_0+c\\left[1-\\exp\\left(-\\frac{h}{a}\\right)\\right],\\quad h\\ge0"
+        },
+        {
+          "名称": "高斯模型",
+          "方程式": "γ(h)=c₀+c{1−exp[−(h/a)²]}，h≥0",
+          "latex": "\\gamma(h)=c_0+c\\left\\{1-\\exp\\left[-\\left(\\frac{h}{a}\\right)^2\\right]\\right\\},\\quad h\\ge0"
+        },
+        {
+          "名称": "线性模型",
+          "方程式": "γ(h)=c₀+mh，h≥0",
+          "latex": "\\gamma(h)=c_0+mh,\\quad h\\ge0"
+        },
+        {
+          "名称": "幂函数模型",
+          "方程式": "γ(h)=c₀+mhᵖ，h≥0；0<p<2",
+          "latex": "\\gamma(h)=c_0+mh^p,\\quad h\\ge0;\\ 0<p<2"
+        }
+      ],
+      "footnote": "其他可用模型包括二次方（Alfaro，1980）、二次有理（Cressie，1991）、空穴效应（Cressie，1991）、对数（Kitanidis，1997）、非球状（Olea，1999）和三次方（Olea，1999）模型。"
+    }
+  ],
+  "contentSha256": "c77ff2faf444ade6d0f18ef9148c3c2b724126ec2bc2d21555ff1480f7679ee2"
+}

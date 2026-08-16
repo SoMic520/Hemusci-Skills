@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 145,
+  "sourceImageSha256": "b361a55e95e2e40c7f2911a8327148a37033b7b15e80a378165abdbb1e28826d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文页，并与Apple Vision、PaddleOCR交叉比对，人工恢复低风险判定、注意事项、准备工作、迁移计算和记录四项"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验200 ppm、150英尺/50 m、RUSLE 1.06c、USDA-NRCS、0～1、100%、除数22、默认系数1.0及P₂O₅/亩"},
+    "secondVisualPass": {"status": "verified", "method": "从记录（4）反向复核至低风险判定，确认地下排水定义、连通性三分支层级、迁移总量项目和页码114"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "text": "如果某场地磷浓度低于200 ppm，且场地底部边缘与受纳水体距离超过150英尺（50 m），则可认为该区域没有潜在的磷流失高风险，可遵循氮肥施用管理建议。"},
+    {"type": "section-heading", "level": 4, "number": "14.6.2", "title": "注意事项"},
+    {"type": "paragraph", "text": "磷指数会随相关评估因子、场地条件和管理方案的相关参数、计算方法而变化。此外，磷指数可能会发生变化和修改，以反映当前的研究和政策。为了确保磷指数的合理应用，地方提出的版本必须在地方上有示范并得到磷指数应用专家认可。以下信息基于磷指数在宾夕法尼亚州的应用。"},
+    {"type": "section-heading", "level": 4, "number": "14.6.3", "title": "准备工作"},
+    {"type": "procedure-step", "number": "（1）", "text": "土壤侵蚀：土壤侵蚀速率可用RUSLE 1.06c计算（Renard等，1997）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "径流潜力：根据区域内主要的土壤类型（占区域50%或更大）和USDA-NRCS工作人员提供的县志，确定每个评估区域地表径流类别指数。下面会详细介绍用于确定地表径流类别指数的USDA-NRCS方法。"},
+    {"type": "procedure-step", "number": "（3）", "text": "地下排水：根据农田信息，确定该区域是否有人工排水系统，或该区域是否靠近河流并具有快速渗透性土壤。“随机”排水是指在一个区域内的单个或几个管排水，而“管网”排水是指大部分或整个区域都通过排水系统排水。快速渗透性土壤必须是在距河流150英尺（50 m）内，且为USDA-NRCS所认定的快速渗透性土壤。"},
+    {"type": "procedure-step", "number": "（4）", "text": "有效距离：确定每个被测区域到受纳水体的有效距离。距离从区域靠近受纳水体的下边缘测量，可使用农田图集或通过现场测量确定。"},
+    {"type": "procedure-step", "number": "（5）", "text": "连通性修正：列出是否存在缓冲区、草地水道、沟渠和管道出口，及其所在位置。"},
+    {"type": "procedure-substep", "parent": "（5）", "text": "如果该区域与水体距离在150 ft.（50 m）以内且存在河岸缓冲带，应选择合适的修正连通性因子（即降低迁移值）。所有缓冲区域的设计及维护必须满足USDA-NRCS标准。"},
+    {"type": "procedure-substep", "parent": "（5）", "text": "如果该区域与水距离超过150 ft.（50 m），但与受纳水体之间存在直接连通，例如，存在管道或沟渠，也应选择合适的修正连通性因子（即增加迁移值）。"},
+    {"type": "procedure-substep", "parent": "（5）", "text": "如果该区域有草地水道或没有具体的管理实践，则使用默认系数1.0（即迁移值不变）。"},
+    {"type": "section-heading", "level": 4, "number": "14.6.4", "title": "计算迁移总量和迁移因子"},
+    {"type": "calculation-item", "number": "（1）", "text": "迁移总量：将实际土壤流失率（吨/英亩/年）与径流潜力、地下排水和有效距离系数相加，总和输入每个区域的运移风险值列表中。"},
+    {"type": "calculation-item", "number": "（2）", "text": "迁移因子：用修正后的连通因子乘以迁移总量，结果除以22。22是迁移总和最大值，除以该值使得迁移因子值在0～1之间变化。1代表该区域的迁移能力达到100%，其他值则代表该区域的迁移能力达到相对应的比例。只有当侵蚀损失异常高时迁移因子才会超过1。计算后，将每个区域的计算结果输入迁移因子风险值列表中。"},
+    {"type": "section-heading", "level": 4, "number": "14.6.5", "title": "记录"},
+    {"type": "record-item", "number": "（1）", "text": "土壤磷检测：近期的土壤测试报告。"},
+    {"type": "record-item", "number": "（2）", "text": "化肥和粪肥使用量：耕作记录或养分管理计划中规定的磷量，每个区域施用量以P₂O₅/亩计。"},
+    {"type": "record-item", "number": "（3）", "text": "化肥和粪肥施用的流失等级：耕作记录或养分管理计划给出每个区域施用磷的方法和时间。"},
+    {"type": "record-item", "number": "（4）", "text": "粪肥中磷的可利用性：耕作记录或养分管理计划给出每个区域所用的粪肥类型、粪肥组成或其他有机磷源（见表14.3）。"},
+    {"type": "printed-page-number", "text": "114"}
+  ],
+  "formulas": [
+    {"label": null, "plain": "迁移因子=修正后的连通因子×迁移总量/22", "latex": "TF=\\frac{CF\\times T}{22}", "context": "14.6.4迁移因子计算"}
+  ],
+  "tables": [],
+  "contentSha256": "3eb2d3b7b1ea4dd59e13cf1a889b124f09f72f46cd15703254565fac709a875b"
+}

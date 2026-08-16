@@ -1,0 +1,68 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 286,
+  "sourceImageSha256": "85b19d02e20e94d56e29d4ba743bddbcdc89c5c1ef88577d348b090029c37c8c",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对第82章题名、作者、82.1全文及82.2步骤(1)"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "复核K/S/α*/PD/NP量纲、ψ范围、圆盘尺寸、设定水头和0.4 cm场地阈值"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "中文版与英文原章逐段核对，确认层级、范围不等号和装置名称；章首页无印刷页码"
+    }
+  },
+  "blocks": [
+    {
+      "type": "chapter-heading",
+      "number": "82",
+      "title": "非饱和水力学特性：田间张力入渗法",
+      "level": 1
+    },
+    {
+      "type": "author",
+      "text": "W.D. Reynolds；Agriculture and Agri-Food Canada，Harrow, Ontario, Canada。"
+    },
+    {
+      "type": "heading",
+      "number": "82.1",
+      "title": "引言",
+      "level": 2
+    },
+    {
+      "type": "scope",
+      "text": "张力（圆盘）入渗仪主要用于田间原位测定近饱和导水率K(ψ) [L·T⁻¹]和吸渗率S(ψ) [L·T⁻¹ᐟ²]，也可求近饱和吸渗数α*(ψ) [L⁻¹]、流量权重平均孔隙直径PD(ψ) [L]及单位入渗面积的流量权重平均孔隙数NP(ψ) [L⁻²]。近饱和通常指−20 cm≤ψ≤+2 cm；部分仪器可降至ψ=−40 cm。"
+    },
+    {
+      "type": "cross-reference",
+      "text": "湿端−200 cm≤ψ≤0的田间K(ψ)方法见第83章；室内K(ψ)或K(θ)方法见第80、81章；相关多孔介质性质估算K(ψ)见第84章；K(ψ)及毛管参数S(ψ)、α*(ψ)、PD(ψ)、NP(ψ)原理见第69章。田间张力入渗为三维水流，所得参数大多相对于三维流动。"
+    },
+    {
+      "type": "apparatus-principle",
+      "text": "入渗仪含直径10—20 cm的入渗板：亲水多孔圆盘（陶瓷、多孔塑料或多孔金属）或尼龙网/滤网等薄膜，并与储水管和调压管连接。储水管向圆盘/薄膜供水，调压管设定圆盘/薄膜处基质水头ψ₀（−20 cm≤ψ₀≤+2 cm）。置于非饱和多孔介质上后，毛管作用把水从仪器吸入介质；通常铺接触砂保证水力连接。实验耗时数分钟至数小时，取决于分析类型及设定水头数。"
+    },
+    {
+      "type": "analysis-options",
+      "text": "可采用一个、两个或多个入渗仪及一个或多个基质水头做稳态或瞬态分析。本章重点为单一稳态流和单一瞬态流的物理分析，适用于一个圆盘及一个或多个水头；重点介绍储水管置顶的CSIRO/Guelph式仪器。其他成熟设计见82.4.6。"
+    },
+    {
+      "type": "heading",
+      "number": "82.2",
+      "title": "装置和步骤",
+      "level": 2
+    },
+    {
+      "type": "procedure-step",
+      "step": 1,
+      "text": "地表测量应选至少与接触材料固定环同样大的水平位置；连续坡面可切出水平平台。把植被修剪至与地表齐平，清除松散且较大的碎屑（如高度>0.4 cm的植物残体、石块等）。避免有大量附着碎屑的地点，如部分出露根系、局部埋藏且高度>0.4 cm的植物残体、石块及大土块；移除这些材料或拔根会扰动介质并改变入渗面水力学特性。测地下平面或坡面平台时，挖掘务必减少涂抹和压实。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "61b7df3372b7f421e192c4a7f245daed96413d7f53efd5376ec73c24744f35e0"
+}

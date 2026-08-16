@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 483,
+  "sourceImageSha256": "d3fb3437a8fb7681901edaa6c2a63eecde85b5dfb0b8e60136f7b0fd58c05bef",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页和两套OCR，完成48.1承接、48.2.1全部正文、48.2.2材料九项和步骤（1）承下句"},
+    "precisionPass": {"status": "verified", "method": "核验SSOM/WEOM/SEOM、无压/有压渗漏与离心的孔隙差异、0.45/0.4 μm、5 mmol·L⁻¹ CaCl₂、50/250/125 mL及5 g干土"},
+    "secondVisualPass": {"status": "verified", "method": "由步骤（1）页末承下句反向复核至Chantigny等1999，检查层级、所有缩写、滤膜材质和容器规格；印刷页码452"}
+  },
+  "blocks": [
+    {"type": "paragraph", "continuationOf": "page-0482:48.1:last-paragraph", "text": "高离子强度提取态有机质还影响氮矿化（Appel和Mengel，1993；Murphy等，2000）。DOM概念源于水科学，移用于土壤科学后常泛指任何土壤溶液或提取液中的有机质，造成定义混乱。故本章把获取方法分成土壤溶液态有机质（SSOM）、水提取态有机质（WEOM）和盐提取态有机质（SEOM），并分别介绍其C、N、光谱/化学性质和生物可降解性。"},
+    {"type": "section-heading", "level": 2, "number": "48.2", "title": "土壤可溶性有机质的采集"},
+    {"type": "section-heading", "level": 3, "number": "48.2.1", "title": "土壤溶液态有机质"},
+    {"type": "paragraph", "text": "SSOM采集法须针对研究问题选择。常见方法为渗漏仪或抽滤管原位收集（Heinrichs等，1996；Titus和Mahendrappa，1996；Ludwig等，1999）及田间湿土直接离心（Zsolnay，1996）。方法不同可收集不同溶液组分：无压渗漏仪收集自由排水，有压渗漏仪/抽滤管和离心可取得小孔隙水（Raber等，1998；Zsolnay，2003）。设备表面对溶解有机氮的影响见相关文献；采集方法详见第17章。任何土壤溶液样品分析前必须通过0.45 μm过滤装置。"},
+    {"type": "section-heading", "level": 3, "number": "48.2.2", "title": "水提取态有机质", "citations": "Zsolnay，1996；Kalbitz等，2003"},
+    {"type": "paragraph", "text": "WEOM可作为原位SSOM替代；改进方法可减少土壤结构破坏和交换位点解吸造成的额外有机质释放（Herbert和Bertsch，1995；Zsolnay，1996，2003）。"},
+    {"type": "subsection-heading", "level": 4, "title": "1. 材料与试剂"},
+    {"type": "materials-list", "items": [
+      {"number": "（1）", "text": "50 mL聚丙烯离心管或250 mL离心瓶。"},
+      {"number": "（2）", "text": "玻璃棒。"},
+      {"number": "（3）", "text": "去离子水或5 mmol·L⁻¹ CaCl₂。"},
+      {"number": "（4）", "text": "离心机（选用）。"},
+      {"number": "（5）", "text": "玻璃真空过滤装置或不锈钢压力过滤装置。"},
+      {"number": "（6）", "text": "适配的0.4 μm聚碳酸酯滤膜。"},
+      {"number": "（7）", "text": "125 mL锥形瓶；真空过滤时用带侧管锥形瓶。"},
+      {"number": "（8）", "text": "真空泵或其他真空/压力系统。"},
+      {"number": "（9）", "text": "适当容积储存瓶：首选玻璃；需冷冻时用塑料瓶。"}
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "2. 步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "把相当于5 g干土的矿质土装入50 mL离心管，或相当于5 g干重的有机土装入250 mL离心瓶。矿质土应预先充分混匀或过6 mm筛；用田间湿土并尽快提取[续见第484页]。"}
+  ],
+  "formulas": [
+    {"id": "48.2.2-cacl2", "display": "c(CaCl₂) = 5 mmol·L⁻¹", "meaning": "矿质土WEOM低离子强度提取液"},
+    {"id": "48.2.2-filter", "display": "polycarbonate membrane pore size = 0.4 μm", "meaning": "本节具体过滤SOP；区别于48.2.1一般0.45 μm定义"}
+  ],
+  "tables": [],
+  "contentSha256": "34e50fcfba2cf14edc874053e56bbc4c9d8b7ba817a7d374714708339b7d3023"
+}

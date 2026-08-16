@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 368,
+  "sourceImageSha256": "50674844e107bda4f5df6fb7f70b9fc9005d3844a71ae25b4d503487b6679455",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐格对照原分辨率表36.1，并逐行对照36.3.2中文页、双OCR及英文原版"},
+    "precisionPass": {"status": "verified", "method": "复算表36.1每行体积和为100.0 mL；核验全部化学式上下标、质量、1 mol·L⁻¹ HCl和最终盐浓度起始行"},
+    "secondVisualPass": {"status": "verified", "method": "从页末137 mmol·L⁻¹ NaCl反向复核至续表标题，识别CaCl₂水合态缺失并保留可执行修正；印刷页码337"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第36章｜原生动物｜"},
+    {"type": "section-heading", "level": 3, "number": "36.3.2", "title": "土壤磷酸盐缓冲盐溶液"},
+    {"type": "paragraph", "text": "下列溶液用于使细胞保持悬浮或洗涤细胞，对细胞的损伤小于蒸馏水或去离子水。Na₂HPO₄和KH₂PO₄可用表36.1所列已知pH的磷酸盐缓冲液替代。"},
+    {"type": "subsection-heading", "level": 4, "title": "试剂（终体积1.0 L）"},
+    {"type": "ordered-list", "items": [
+      "8.00 g NaCl。",
+      "0.200 g KCl。",
+      "1.44 g无水Na₂HPO₄。",
+      "0.240 g KH₂PO₄。",
+      "0.0476 g无水MgCl₂。",
+      "0.147 g CaCl₂·2H₂O。",
+      "800 mL蒸馏水（起始体积）。",
+      "1 mol·L⁻¹ HCl（调pH）。"
+    ]},
+    {"type": "paragraph", "text": "按顺序称取各盐，在烧杯或烧瓶中加入水并持续搅拌。用1 mol·L⁻¹ HCl把pH调至研究土壤的pH（或取得细胞时的pH），再用蒸馏水定容至1.0 L。最终浓度应为137 mmol·L⁻¹ NaCl、2.7 mmol·L⁻¹ KCl、10 mmol·L⁻¹ Na₂HPO₄、约2 mmol·L⁻¹ KH₂PO₄、0.5 mmol·L⁻¹ MgCl₂和1 mmol·L⁻¹ CaCl₂。"},
+    {"type": "source-fidelity-note", "scope": "CaCl₂水合态", "text": "原书列0.147 g CaCl₂，却同时声称定容1 L后为1 mmol·L⁻¹。0.147 g无水CaCl₂约为1.32 mmol，不符；0.147 g CaCl₂·2H₂O才正好约1.00 mmol。因此可执行配方已把试剂校正为CaCl₂·2H₂O。"},
+    {"type": "precision-note", "scope": "KH₂PO₄浓度", "text": "0.240 g KH₂PO₄定容1.0 L按摩尔质量136.09 g·mol⁻¹计算为1.76 mmol·L⁻¹，原书将其四舍五入写成2 mmol·L⁻¹；本Skill同时保存配制质量和准确计算值，避免把标称值当作精确值。"},
+    {"type": "printed-page-number", "text": "337"}
+  ],
+  "formulas": [
+    {"id": "36.3.2-cacl2-check", "display": "0.147 g / 147.02 g·mol⁻¹ = 1.00 mmol", "meaning": "CaCl₂·2H₂O在1.0 L中的物质的量浓度核算"},
+    {"id": "36.3.2-kh2po4-check", "display": "0.240 g / 136.09 g·mol⁻¹ = 1.76 mmol", "meaning": "KH₂PO₄在1.0 L中的准确浓度；原书标称约2 mmol·L⁻¹"}
+  ],
+  "tables": [
+    {"number": "表36.1（a，续）", "title": "25 °C配制10×0.1 mol·L⁻¹钾磷酸盐缓冲液", "columns": ["pH", "1 mol·L⁻¹ K₂HPO₄ / mL", "1 mol·L⁻¹ KH₂PO₄ / mL"], "rows": [["6.4","27.8","72.2"],["6.6","38.1","61.9"],["6.8","49.7","50.3"],["7.0","61.5","38.5"],["7.2","71.7","28.3"],["7.4","80.2","19.8"],["7.6","86.6","13.4"],["7.8","90.8","9.2"],["8.0","94.0","6.0"]]},
+    {"number": "表36.1（b）", "title": "25 °C配制10×0.1 mol·L⁻¹钠磷酸盐缓冲液", "columns": ["pH", "1 mol·L⁻¹ Na₂HPO₄ / mL", "1 mol·L⁻¹ NaH₂PO₄ / mL"], "rows": [["5.8","7.9","92.1"],["6.0","12.0","88.0"],["6.2","17.8","82.2"],["6.4","25.5","74.5"],["6.6","35.2","64.8"],["6.8","46.3","53.7"],["7.0","57.7","42.3"],["7.2","68.4","31.6"],["7.4","77.4","22.6"],["7.6","84.5","15.5"],["7.8","89.6","10.4"],["8.0","93.2","6.8"]], "note": "稀释10倍得到0.1 mol·L⁻¹缓冲液。"}
+  ],
+  "contentSha256": "2b28af3ea5dd0af5dcf6cd33b96737925ee0e5852d2e9f7f62e997cf10b08967"
+}

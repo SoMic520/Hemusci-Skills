@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 175,
+  "sourceImageSha256": "e2ff9625fcca723979e32d9bcf8c5f55bbdfad5d2c11a8e8167eed3c666f5fee",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率页图和两套OCR，完成第70章题名作者、70.1全文及70.2跨页起句"},
+    "precisionPass": {"status": "verified", "method": "核验105℃、水/空气/土壤固体相对介电常数80/1/3—5及TDR/GPR/EM缩写"},
+    "secondVisualPass": {"status": "verified", "method": "由70.2末句反向复核至作者机构，检查章节交叉引用69.2和方法层级；印刷页码684"}
+  },
+  "blocks": [
+    {"type": "chapter", "number": "70", "title": "土壤含水量", "authors": ["G. Clarke Topp（Agriculture and Agri-Food Canada, Ottawa, Ontario, Canada）", "G.W. Parkin（University of Guelph, Guelph, Ontario, Canada）", "Ty P.A. Ferré（University of Arizona, Tucson, Arizona, United States）"]},
+    {"type": "heading", "number": "70.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "土壤水是水分循环的关键环节，控制土壤—大气及土壤—地下水交换；既是土粒间润滑剂又是黏合剂，影响土壤和地质结构稳定性与强度。水的高热容量调节地表昼夜与季节温度；土壤水还运载溶解无机化学品和悬浮生物体，参与土壤发育/退化并制约林业、作物等生物生产。因此含水量测定直接服务于水平衡、作物水分状况及土壤物理、化学、生物过程表征。"},
+    {"type": "paragraph", "text": "20世纪80年代早期，田间含水量主要用重量法和中子仪法；随后发展出时域反射仪（TDR）、电容/电阻法、探地雷达（GPR）、机载/卫星主动雷达遥感及被动微波法。这五类新方法均基于电磁（EM）测量。"},
+    {"type": "paragraph", "text": "EM法利用各相相对介电常数的巨大差异：水约80，空气约1，土壤固体约3—5；测土壤容积介电常数可反演体积含水量。其优势包括适应不同样品几何和空间覆盖、采样点扰动小、实时/准实时数字化采集并直接测体积含水量。水分基本参数、体积/质量含水量、饱和度及介电关系见69.2节。"},
+    {"type": "heading", "number": "70.2", "title": "烘干法", "level": 2},
+    {"type": "paragraph", "text": "基本操作为称量湿土，在105℃烘干后再称重；质量含水量等于质量损失（初始土壤水质量）除以烘干土质量。该法看似给出绝对值，实际并非如此，因为水在土壤组分中以很宽的能级范围被保持；105℃条件下的限制续见下页。"},
+    {"type": "source-fidelity-note", "text": "本页只给出烘干法概念与跨页问题引入，尚未给出恒重时间、容器或具体称量步骤，不得据此擅自补成完整SOP。作者名Ferré的重音符及105℃温度均按页图核准。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ba87a84d65f041103d1f763dc68013958a2231add85398f0a339b1c62e631916"
+}

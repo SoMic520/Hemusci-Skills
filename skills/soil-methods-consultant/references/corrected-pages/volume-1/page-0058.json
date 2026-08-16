@@ -1,0 +1,57 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 58,
+  "sourceImageSha256": "7b9b5e476855f5624a3d15174a769fc4b410b2a2ab9e168c508493450296562f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐格对照原分辨率计算、公式与表格页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复正文、公式、变量说明和示例数值"},
+    "precisionPass": {"status": "verified", "method": "放大核对kg/m²、Mg/m³、四条公式的Σ上下限与FD/FM/cs/sn/soil/ref/ex下标、全部换算系数、表格24个数值及示例计算结果"},
+    "secondVisualPass": {"status": "verified", "method": "按3.4.3层级、固定深度与固定质量计算顺序、式（3.4）～（3.7）、逐项变量单位、示例表头行列、四行数据和页末四句演算反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第3章｜土壤有机碳储量的测定｜"},
+    {"type": "section-heading", "level": 4, "number": "3.4.3", "title": "计算"},
+    {"type": "paragraph", "text": "土壤有机碳（SOC）含量是指单位面积土地的指定土层中所含的有机碳量。通常用“兆克/每公顷（Mg/ha）”来表示特定土壤深度的SOC含量。其他单位还有kg/m²（即Mg/ha×0.100）。获得土壤SOC最简单的方法，是对特定深度和特定体积土壤样品中有机碳含量和土芯密度进行计算（公式如下）。但是，如果土芯密度不一致（即使有轻微的差异），那么在比较不同位置及不同时间点的SOC含量时，这种方法就容易产生偏差（Ellert和Bettany，1995）。例如，比较两个不同处理组的SOC含量时，如果A组特定深度的平均土芯密度为1.10 Mg/m³，而B组为1.00 Mg/m³，那么A组的SOC量就会偏大，因为，在所比较的土层中，A组比B组多了10%的土壤。因此，SOC含量的测定应该在“等效质量”或“固定质量”基础上进行（参照以下的计算部分），除非土芯密度一致。", "inlineNotation": ["SOC", "Mg/ha", "kg/m^2", "Mg/ha×0.100", "1.10 Mg/m^3", "1.00 Mg/m^3", "A", "B", "10%"]},
+    {"type": "section-heading", "level": 5, "number": "1", "title": "固定深度土壤中有机碳存储量"},
+    {"type": "formula-reference", "number": "3.4", "text": "SOC_FD=Σ₁ⁿD_csC_csL_cs×0.1", "inlineNotation": ["SOC_FD=sum_1^n D_cs C_cs L_cs × 0.1"]},
+    {"type": "paragraph", "text": "式中，SOC_FD表示土壤某一深度的有机碳量（Mg C/ha）；D_cs是土芯段的密度（g/cm³）；C_cs是土芯段中有机碳的含量（mg C/g干土）；L_cs是土芯段的长度（cm）。", "inlineNotation": ["SOC_FD", "Mg C/ha", "D_cs", "g/cm^3", "C_cs", "mg C/g干土", "L_cs", "cm"]},
+    {"type": "section-heading", "level": 5, "number": "2", "title": "固定质量土壤中有机碳存储量"},
+    {"type": "circled-item", "number": "1", "text": "对于所有的样品，均可用以下公式计算指定深度的土壤质量："},
+    {"type": "formula-reference", "number": "3.5", "text": "M_soil=Σ₁ⁿD_csL_cs×100", "inlineNotation": ["M_soil=sum_1^n D_cs L_cs × 100"]},
+    {"type": "paragraph", "text": "式中，M_soil是指固定深度的土壤质量（Mg/ha）。", "inlineNotation": ["M_soil", "Mg/ha"]},
+    {"type": "circled-item", "number": "2", "text": "选取所有取样点中指定深度的最小土壤质量作为参照（M_ref）。", "inlineNotation": ["M_ref"]},
+    {"type": "circled-item", "number": "3", "text": "计算从最深处土芯段减去的土壤质量，使所有采样点的土壤质量相等："},
+    {"type": "formula-reference", "number": "3.6", "text": "M_ex=M_soil−M_ref", "inlineNotation": ["M_ex=M_soil-M_ref"]},
+    {"type": "paragraph", "text": "式中，M_ex是需要从最深的土芯段中减掉的那部分土壤质量。", "inlineNotation": ["M_ex"]},
+    {"type": "circled-item", "number": "4", "text": "对于每个采样点，固定质量土壤中有机碳存储量的计算公式如下："},
+    {"type": "formula-reference", "number": "3.7", "text": "SOC_FM=SOC_FD−M_ex×C_sn/1000", "inlineNotation": ["SOC_FM=SOC_FD-M_ex×C_sn/1000"]},
+    {"type": "paragraph", "text": "式中，SOC_FM是指固定质量的M_ref中SOC含量；C_sn是指最深的土芯段中SOC含量（mg C/g干土）（n指土芯的分段数）。", "inlineNotation": ["SOC_FM", "M_ref", "SOC", "C_sn", "mg C/g干土", "n"]},
+    {"type": "section-heading", "level": 5, "number": "3", "title": "样本计算"},
+    {"type": "paragraph", "text": "假设有以下三个土芯："},
+    {"type": "table-reference", "title": "三个土芯的SOC含量与密度示例"},
+    {"type": "paragraph", "text": "若土芯长40 cm，那么土芯1、2、3的SOC_FD分别为78.3、85.9和74.1 Mg C/ha。", "inlineNotation": ["40 cm", "SOC_FD", "78.3", "85.9", "74.1 Mg C/ha"]},
+    {"type": "paragraph", "text": "对于SOC_FM，当土芯段长40 cm时，土芯1、2、3的M_soil分别为4810、5070和4690 Mg/ha。", "inlineNotation": ["SOC_FM", "40 cm", "M_soil", "4810", "5070", "4690 Mg/ha"]},
+    {"type": "paragraph", "text": "所以，M_ref=4690 Mg/ha（土芯3的土壤质量），土芯1、2、3的M_ex分别为120、380和0 Mg/ha。", "inlineNotation": ["M_ref=4690 Mg/ha", "M_ex", "120", "380", "0 Mg/ha"]},
+    {"type": "paragraph", "text": "这样，土芯1的SOC_FM=78.3−120×14.3/1000=76.6 Mg C/ha。", "inlineNotation": ["SOC_FM=78.3-120×14.3/1000=76.6 Mg C/ha"]},
+    {"type": "printed-page-number", "text": "27"}
+  ],
+  "formulas": [
+    {"number": "3.4", "displayAsPrinted": "SOC_FD = Σ₁ⁿ D_cs C_cs L_cs × 0.1", "latexAsPrinted": "SOC_{FD}=\\sum_{1}^{n}D_{cs}C_{cs}L_{cs}\\times0.1", "sourceIntegrityNote": "原式求和号上方印n、下方仅印1，未印索引变量，按原貌保留。", "resultUnit": "Mg C/ha"},
+    {"number": "3.5", "displayAsPrinted": "M_soil = Σ₁ⁿ D_cs L_cs × 100", "latexAsPrinted": "M_{soil}=\\sum_{1}^{n}D_{cs}L_{cs}\\times100", "sourceIntegrityNote": "原式求和号上方印n、下方仅印1，未印索引变量，按原貌保留。", "resultUnit": "Mg/ha"},
+    {"number": "3.6", "display": "M_ex = M_soil−M_ref", "latex": "M_{ex}=M_{soil}-M_{ref}"},
+    {"number": "3.7", "display": "SOC_FM = SOC_FD−M_ex×C_sn/1000", "latex": "SOC_{FM}=SOC_{FD}-M_{ex}\\times C_{sn}/1000", "resultUnit": "Mg C/ha"}
+  ],
+  "tables": [
+    {
+      "title": "三个土芯的SOC含量与密度示例",
+      "columns": ["深度/cm", "SOC含量/（g C/kg土壤）｜土芯1", "SOC含量/（g C/kg土壤）｜土芯2", "SOC含量/（g C/kg土壤）｜土芯3", "密度/（g/cm³）｜土芯1", "密度/（g/cm³）｜土芯2", "密度/（g/cm³）｜土芯3"],
+      "rows": [
+        ["0～10", "20.0", "22.0", "19.0", "1.04", "1.10", "0.99"],
+        ["10～20", "17.4", "16.3", "17.1", "1.17", "1.27", "1.20"],
+        ["20～40", "14.3", "15.2", "13.9", "1.30", "1.35", "1.25"],
+        ["40～60", "12.2", "11.9", "12.1", "1.40", "1.45", "1.42"]
+      ]
+    }
+  ],
+  "contentSha256": "145750e52855aa5a0d8f8c2343735db811e84f990829b781472c4e49714a80f8"
+}

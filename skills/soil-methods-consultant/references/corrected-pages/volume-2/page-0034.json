@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 34,
+  "sourceImageSha256": "09db2dc0756466d767948265e44b1bc1632fe8b3b480485c3dc2a461d020f72b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成线性收缩续句、图56.2及56.3.2至式（56.3）引出"},
+    "precisionPass": {"status": "verified", "method": "核验COLE、V_sample、4.6%、Saran树脂、各引文年份以及图56.2(a)～(e)文字和2.5 cm"},
+    "secondVisualPass": {"status": "verified", "method": "由页末公式引出反向复核至跨页续句，识别并纠正阿基米德原理把质量与体积直接相等的错误；印刷页码543"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "趋势相关联，可用于说明土壤自闭现象（Grant和Coughlan，2002）。"},
+    {"type": "figure", "number": "图56.2", "title": "用于测定重塑土壤线性收缩的土槽", "panels": [{"panel": "a", "label": "空槽（空白），槽内径2.5 cm"}, {"panel": "b", "label": "充满处于液限状态土壤的槽"}, {"panel": "c", "label": "自然风干过程中土壤线性收缩（早期）"}, {"panel": "d", "label": "自然风干过程中土壤线性收缩（后期）"}, {"panel": "e", "label": "将完整样品分为两段后烘干土样；用标尺测组合长度"}]},
+    {"type": "heading", "number": "56.3.2", "title": "三维收缩", "level": 3},
+    {"type": "paragraph", "text": "三维收缩通过观测膨胀性土样由湿到干过程中的总质量和体积变化，提供更详尽的缩胀信息。Grossman等（1968）的线性收缩系数法（COLE）最常用，但本章不详述，因为它并非测定从饱和状态开始的收缩；参见Dasog等（1988）、Warkentin（1993）、Soil Survey Staff（1999）和McGarry（2002）。本节说明从饱和到烘干的三维收缩步骤，准备工作可能需数周。"},
+    {"type": "paragraph", "text": "质量测定本身简单，但高含水土样容易变形，只有稳定时才能操作。用Teflon环装填土样可减少操作变形和收缩时黏边。"},
+    {"type": "paragraph", "text": "最大挑战是准确测总体积变化。立方体、柱体等规则形状可用游标卡尺、可移动显微镜或高差计测线性尺寸并计算体积（Schafer和Singer，1976）。不规则土样的体积误差会随线性尺寸误差以立方关系放大；重塑土样初期规则，干燥后往往变形，小样误差尤其大。"},
+    {"type": "paragraph", "text": "按阿基米德原理，固体完全浸入不可压缩流体时，排开流体的体积等于浸入部分体积；空气中质量与水中表观质量之差等于排开水的质量。以该质量差除以水密度可求土样体积。常用薄层Saran树脂包裹土样以防吸水并允许水汽在收缩过程中扩散（Warkentin，1993）；树脂层足够薄时，包膜体积校正约为4.6%（McGarry，2002）。土样体积V_sample按式（56.3）计算。"},
+    {"type": "source-fidelity-note", "text": "原书说‘物体所排开的流体质量等于该物体体积’，把质量与体积直接等同，量纲错误。已校正为排水体积等于浸入体积，并以质量差除以ρ_water求体积。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c3bdb31de712a9a7f2b3106971272d01c704febd247e6fcf33bd0202f14336df"
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 234,
+  "sourceImageSha256": "2450c952adde414f0c3ba66cbbdc75f9268b0e142da2c55a7623f416521bc0bf",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐格对照原分辨率页图、两套OCR和英文原章，完成式(76.5a)—(76.5b)及表76.2全部数据"},
+    "precisionPass": {"status": "verified", "method": "核验H_i²、i=1,2,3,…,n、n≥2、P₁/P₂、13行时序、A=12.57 cm²、R_s/Q_s及两种K_fs指数"},
+    "secondVisualPass": {"status": "verified", "method": "反算R_s=1.1667×10⁻² cm·s⁻¹、Q_s=1.4665×10⁻¹ cm³·s⁻¹、C_G=0.8256、C_w=0.9446及两K_fs；印刷页码743"}
+  },
+  "blocks": [
+    {
+      "type": "analysis-notes",
+      "items": [
+        "两水头和多水头法可同时求K_fs和α*，无需预估α*。把C_wiQ_si作为y、H_i作为x，按式(76.5a)作二次最小二乘拟合。",
+        "两水头n=2；多水头n≥3。K_fs和α*可用专用程序、二次回归或两水头联立方程求解；确定后再按修正单水头法求φ_m、S、PD、NP和ψ_f。修正单、双、多水头法均避免Glover法系统高估K_fs。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "中文式(76.5a)把索引序列误排成i=1,2,4,…,n，英文原章与正文数据均为i=1,2,3,…,n；规范公式已补3。表76.2原中文称“结构较差的黏壤土”，英文原表为structureless clay loam，按表76.1分类规范为“无结构黏壤土”。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "76.5a",
+      "plain": "C_wi Q_si = P₁H_i² + P₂H_i + P₃, i=1,2,3,…,n; n≥2",
+      "latex": "C_{wi}Q_{si}=P_1H_i^2+P_2H_i+P_3,\\quad i=1,2,3,\\ldots,n;\\ n\\ge2",
+      "resultUnit": "L³·T⁻¹"
+    },
+    {
+      "label": "76.5b",
+      "plain": "P₁=2πK_fs; P₂=2πK_fs/α*; P₃=y轴截距",
+      "latex": "P_1=2\\pi K_{fs};\\quad P_2=2\\pi\\frac{K_{fs}}{\\alpha^*};\\quad P_3=\\text{y轴截距}"
+    }
+  ],
+  "tables": [
+    {
+      "number": "76.2",
+      "title": "单定水头井渗法K_fs计算案例（式76.1—76.4）",
+      "columns": ["累积时间t (min)", "储水管水位读数L (cm)", "水位下降量ΔL/Δt (cm/2 min)"],
+      "rows": [["0","5.8","—"],["2","8.6","2.8"],["4","10.6","2.0"],["6","12.4","1.8"],["8","14.1","1.7"],["10","15.7","1.6"],["12","17.2","1.5"],["14","18.7","1.5"],["16","20.1","1.4"],["18","21.5","1.4"],["20","22.9","1.4"],["22","24.3","1.4"],["24","25.7","1.4"]],
+      "notes": [
+        "a=5 cm；井深d=50 cm；H=10 cm；A=12.57 cm²。无结构黏壤土，α*=0.04 cm⁻¹；θ_fs=0.65，θ_i=0.40，γ=1.818。",
+        "R_s=ΔL/Δt=1.4 cm/2 min=0.7 cm/min=1.1667×10⁻² cm·s⁻¹。",
+        "Q_s=A R_s=(12.57 cm²)(1.1667×10⁻² cm·s⁻¹)=1.4665×10⁻¹ cm³·s⁻¹。",
+        "Glover：C_G=0.8256；K_fs=1.93×10⁻⁴ cm·s⁻¹。修正分析：C_w=0.9446；K_fs=6.09×10⁻⁵ cm·s⁻¹。Glover值为修正值的约3.2倍。",
+        "计时间隔可任选且不必一致。"
+      ]
+    }
+  ],
+  "contentSha256": "3d925632608942c0a1583bb6313447671f2bcc517bb9a0582cd5cb043209c11d"
+}

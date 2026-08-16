@@ -1,0 +1,58 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 70,
+  "sourceImageSha256": "368ef5a9890c20f7a5e3695ebca262d0f9aa854269365b32a37842c04feb5845",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐格对照原分辨率双表格与正文页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部单元格、来源和小节正文"},
+    "precisionPass": {"status": "verified", "method": "放大核对表5.1田间/实验室分组、表5.2九组误差与校正措施、QC、田间添加回收、空白对照、作者年份和页码"},
+    "secondVisualPass": {"status": "verified", "method": "按表5.1逐行分组、表5.2逐行映射、来源注、5.2.1～5.2.3层级、正文逻辑和印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第5章｜土壤化学分析中的质量控制｜"},
+    {"type": "table-reference", "number": "5.1", "title": "田间和实验室化学分析数据不确定性的来源与评估"},
+    {"type": "table-reference", "number": "5.2", "title": "实验室来源误差的校正"},
+    {"type": "source-note", "text": "来源：Hoskins, B. and Wolf, A.M., in Recommended Chemical Soil Test Procedures for the North Central Region, Missouri Agricultural Experiment Station, Columbia, 1998, 65-69. 已授权。"},
+    {"type": "section-heading", "level": 4, "number": "5.2.1", "title": "样品采集与处理"},
+    {"type": "paragraph", "text": "取样过程导致的偏差通常难以测量，并且测量成本高昂。田间添加回收（向不含目标分析物的介质样本如干净的土壤或砂土中加入已知含量的目标分析物）有时被用来评估取样偏差。取样误差通常比分析误差要大（Jenkins等，1997；Ramsey，1998；IAEA，2004）。"},
+    {"type": "section-heading", "level": 4, "number": "5.2.2", "title": "污染"},
+    {"type": "paragraph", "text": "在土壤测定中，污染是一个常见的误差来源（Lewis，1988；USEPA，1989）。设置田间空白对照（不含目标分析物的介质）是用于评估和控制污染最有效的措施。另外，设置试验设备的洗涤液空白也是必要的。田间空白不能有效识别基质干扰，或发现非污染造成的误差来源（如由挥发或分解造成的分析物丢失）。然而，田间添加却能用于非污染造成的误差分析。"},
+    {"type": "section-heading", "level": 4, "number": "5.2.3", "title": "土壤样本的储藏/保存"},
+    {"type": "paragraph", "text": "在样品采集后、分析之前的这段时间里，土壤样品可能经历物理和化学变化。物理变化包括挥发、吸附、扩散和沉淀；而化学变化包括光化学降解和微生物降解（Maskarinic和Moody，1988）。"},
+    {"type": "paragraph", "continuation": true, "text": "下列QC措施有助于储藏和保存土壤样品：", "inlineNotation": ["QC"]},
+    {"type": "printed-page-number", "text": "39"}
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "number": "5.1",
+      "title": "田间和实验室化学分析数据不确定性的来源与评估",
+      "columns": ["阶段", "误差类型", "误差来源", "如何评估误差"],
+      "rows": [
+        ["田间", "分布（空间）的不均匀性", "样品组分非随机空间分布", "增加样品数量以获得有代表性的样本。在不同的试验点设置重复，采集更大数量的样品。使用较便宜、精度一般的分析方法"],
+        ["田间", "组成的不均匀性", "源于土壤的复杂性（黏土、壤土、砂土）。用部分代表整体存在固有误差", "增大样品采集的数量（样品质量）以增加样本代表性"],
+        ["田间", "样品处理", "由样品采集、样品处理和保存造成的误差", "使用混合样品并设置重复，同时采集大量的样品"],
+        ["实验室", "测定", "分析测定造成的误差，包括样品制备过程产生的误差", "样品制备前将样本拆分成重复样本。拆分的重复样本可送到其他实验室用于分析验证"],
+        ["实验室", "数据处理", "数据处理错误或抄录错误", "数据自动转入，数据核实"]
+      ]
+    },
+    {
+      "number": "5.2",
+      "title": "实验室来源误差的校正",
+      "columns": ["误差来源", "校正措施"],
+      "rows": [
+        ["存储土壤的分离和分层", "再取样分析前混合均匀"],
+        ["实验室环境造成的样品和仪器污染", "分别存储样品、试剂和仪器"],
+        ["样品在提取容器或设备中的存留", "分析提取不同样品前，用干净溶液冲洗"],
+        ["不按规程称重、处理、分析样品", "相同的间隔中加一个已知的参考样品"],
+        ["校正溶液的浓度不准确", "使用前用新的标准溶液校准"],
+        ["样品和校正溶液不匹配", "在土壤样本的提取溶液中添加标准品"],
+        ["仪器状态不稳定", "使用常用的校准或QC检查"],
+        ["低的仪器灵敏度或高的检测限", "优化所有的操作参数"],
+        ["数据处理错误和人为抄录错误", "校对输入，自动数据转入"]
+      ],
+      "source": "Hoskins, B. and Wolf, A.M., in Recommended Chemical Soil Test Procedures for the North Central Region, Missouri Agricultural Experiment Station, Columbia, 1998, 65-69. 已授权。"
+    }
+  ],
+  "contentSha256": "45df98814a3360eb6a2a0ac88fcff07942875d574d83513e97eab8c64e5c0e9e"
+}

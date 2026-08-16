@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 91,
+  "sourceImageSha256": "1ddd18fa4c0a48429cd4ab2a55f7175f91dcae12488aafb523b203cc5c379414",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成第62章末9条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验作者、年份、题名、期刊、卷页、专著编者/部分/页码和译校姓名"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至Molope等（1985），检查跨行题名和参考文献层级；印刷页码600"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Molope, M.B., Page, E.R., and Grieve, I.C. 1985. A comparison of soil aggregate stability tests using soils with contrasting cultivation histories. Commun. Soil Sci. Plant Anal. 16:315–322.",
+      "Nimmo, J.R. and Perkins, K.S. 2002. Aggregate stability and size distribution. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 317–328.",
+      "Perfect, E. and Kay, B.D. 1991. Fractal theory applied to soil aggregation. Soil Sci. Soc. Am. J. 55:1552–1558.",
+      "Pojasok, T. and Kay, B.D. 1990. Assessment of a combination of wet sieving and turbidimetry to characterize the structural stability of moist aggregates. Can. J. Soil Sci. 70:33–42.",
+      "Six, J., Bossuyt, H., Degryze, S., and Denef, K. 2004. A history of research on the link between (micro)aggregates, soil biota, and soil organic matter dynamics. Soil Tillage Res. 79:7–31.",
+      "Sun, H., Larney, F.J., and Bullock, M.S. 1995. Soil amendments and water-stable aggregation of a desurfaced Dark Brown Chernozem. Can. J. Soil Sci. 75:319–325.",
+      "van Steenbergen, M., Cambardella, C.A., Elliott, E.T., and Merckx, R. 1991. Two simple indexes for distributions of soil components among size classes. Agric. Ecosyst. Environ. 34:335–340.",
+      "Williams, B.G., Greenland, D.J., Lindstrom, G.R., and Quirk, J.P. 1966. Techniques for the determination of the stability of soil aggregates. Soil Sci. 101:157–163.",
+      "Yoder, R.A. 1936. A direct method of aggregate analysis of soils and a study of the physical nature of erosion losses. J. Am. Soc. Agron. 28:337–351."
+    ]},
+    {"type": "credits", "text": "赵龙华、王雅婧译，任图生校。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d70520c6563ff2366a7c9db6a10f303d633a164d8ef3c42c6e6d89cf9a38bda0"
+}

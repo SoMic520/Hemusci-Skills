@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 414,
+  "sourceImageSha256": "198d0ace542171196efd681d353efa0739f57c16f433eb184c5364d06cb4292a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率中文页面、Apple Vision、PaddleOCR、英文原版参考文献及可查书目信息"},
+    "precisionPass": {"status": "verified", "method": "核验所有卷页号、作者标点、qCO₂、¹⁴C(U)、¹⁵N、(NH₄)₂SO₄及译校信息"},
+    "secondVisualPass": {"status": "verified", "method": "自West和Sparling反向复核至Bailey 2003，检查上下标、斜杠、变音符和连字符；印刷页码383"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第39章｜底物诱导呼吸作用和选择性抑制测定土壤中的微生物生物量"},
+    {"type": "bibliography", "text": "Bailey, V.L., Smith, J.L., and Bolton, H., Jr. 2003. Novel antibiotics as inhibitors for the selective respiratory inhibition method of measuring fungal:bacterial ratios in soil. Biol. Fert. Soils. 38: 154–160."},
+    {"type": "bibliography", "text": "Beare, M.H., Neely, C.L., Coleman, D.C., and Hargrove, W.L. 1990. A substrate-induced respiration (SIR) method for measurement of fungal and bacterial biomass on plant residues. Soil Biol. Biochem. 22: 585–594."},
+    {"type": "bibliography", "text": "Beare, M.H., Parmelee, R.W., Hendrix, P.F., Cheng, W., Coleman, D.C., and Crossley, D.A., Jr. 1992. Microbial and faunal interactions and effects on litter nitrogen and decomposition in agroecosystems. Ecol. Monogr. 62: 569–591."},
+    {"type": "bibliography", "text": "Blagodatskaya, E.V. and Anderson, T.-H. 1998. Interactive effects of pH and substrate quality on the fungal-to-bacterial ratio and qCO₂ of microbial communities in forest soils. Soil Biol. Biochem. 30: 1269–1274."},
+    {"type": "bibliography", "text": "Brookes, P.C. and McGrath, S.P. 1984. Effects of metal toxicity on the size of the soil microbial biomass. J. Soil Sci. 35: 341–346."},
+    {"type": "bibliography", "text": "Heilmann, B., Lebuhn, M., and Beese, F. 1995. Methods for the investigation of metabolic activities and shifts in the microbial community in a soil treated with a fungicide. Biol. Fert. Soils. 19: 186–192."},
+    {"type": "bibliography", "text": "Imberger, K.T. and Chiu, C.-Y. 2001. Spatial changes of soil fungal and bacterial biomass from a sub-alpine coniferous forest to grassland in a humid, sub-tropical region. Biol. Fert. Soils. 33: 105–110."},
+    {"type": "bibliography", "text": "Kaiser, E.-A., Mueller, T., Joergensen, R.G., Insam, H., and Heinemeyer, O. 1992. Evaluation of methods to estimate the soil microbial biomass and the relationship with soil texture and organic matter. Soil Biol. Biochem. 24: 675–683."},
+    {"type": "bibliography", "text": "Lin, Q. and Brookes, P.C. 1999. An evaluation of the substrate-induced respiration method. Soil Biol. Biochem. 31: 1969–1983."},
+    {"type": "bibliography", "text": "Lynch, J.M. and Panting, L.M. 1980. Cultivation and the soil biomass. Soil Biol. Biochem. 12: 29–33."},
+    {"type": "bibliography", "text": "Martens, R. 1987. Estimation of microbial biomass in soil by the respiration method: importance of soil pH and flushing methods for the measurement of respired CO₂. Soil Biol. Biochem. 19: 77–81."},
+    {"type": "bibliography", "text": "Nakamoto, T. and Wakahara, S. 2004. Development of substrate induced respiration (SIR) method combined with selective inhibition for estimating fungal and bacterial biomass in humic andosols. Plant Prod. Sci. 7: 70–76."},
+    {"type": "bibliography", "text": "Paul, E.A. and Voroney, R.P. 1980. Nutrient and energy flows through soil microbial biomass. In: D.C. Ellwood, J.N. Hedger, M.J. Latham, J.M. Lynch, and J.H. Slater, eds. Contemporary Microbial Ecology. Academic Press, London and New York, NY, pp. 215–237."},
+    {"type": "bibliography", "text": "Ross, D.J. 1980. Evaluation of a physiological method for measuring microbial biomass in soils from grasslands and maize fields. N.Z. J. Sci. 23: 229–236."},
+    {"type": "bibliography", "text": "Smith, J.L., McNeal, B.L., and Cheng, H.H. 1985. Estimation of soil microbial biomass: an analysis of the respiratory response of soils. Soil Biol. Biochem. 17: 11–16."},
+    {"type": "bibliography", "text": "Smith, J.L. and Paul, E.A. 1990. The significance of soil biomass estimations. In: J.M. Bollag and G. Stotzky, eds. Soil Biochemistry. Marcel Dekker, New York, NY, pp. 357–396."},
+    {"type": "bibliography", "text": "van Veen, J.A., Ladd, J.N., and Amato, M. 1985. Turnover of carbon and nitrogen through the microbial biomass in a sandy loam and a clay soil incubated with (¹⁴C(U))glucose and ¹⁵N(NH₄)₂SO₄ under different moisture regimes. Soil Biol. Biochem. 17: 747–756."},
+    {"type": "bibliography", "text": "Velvis, H. 1997. Evaluation of the selective respiratory inhibition method for measuring the ratio of fungal:bacterial activity in acid agricultural soils. Biol. Fert. Soils. 25: 354–360."},
+    {"type": "bibliography", "text": "Wardle, D.A. and Parkinson, D. 1990. Response of the soil microbial biomass to glucose, and selective inhibitors, across a soil moisture gradient. Soil Biol. Biochem. 22: 825–834."},
+    {"type": "bibliography", "text": "West, A.W. and Sparling, G.P. 1986. Modifications to the substrate-induced respiration method to permit measurement of microbial biomass in soils of differing water contents. J. Microbiol. Meth. 5: 177–189."},
+    {"type": "translator-note", "text": "虞璐译，徐建明校。"},
+    {"type": "source-fidelity-note", "scope": "参考文献", "text": "校正中译本/原版可判定的书目错误：Adams作者缩写为T. McM.；Mueller不加错误变音；¹⁴C、¹⁵N及(NH₄)₂SO₄恢复上下标；统一缺失空格与标点。"},
+    {"type": "printed-page-number", "text": "383"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "fc7a7412e97245b449e749efb67f0bce4d05f5c9d588f09b118f77086592c80c"
+}

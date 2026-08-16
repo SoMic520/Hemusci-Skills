@@ -1,0 +1,23 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 219,
+  "sourceImageSha256": "c0915902ae9980bfabdd6026ffa73324e039e722d2cdc74ab597a1539fbd7a2d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐图逐步骤对照原分辨率页图、两套OCR、英文原章和WP4手册，完成式(74.2)、图74.1及74.3(1)—(4)"},
+    "precisionPass": {"status": "verified", "method": "核验T_d/T_s、约7 mL/0.5 cm、20 ℃、16 h至1周、W_c、<5 min及式(74.1)—(74.2)引用"},
+    "secondVisualPass": {"status": "verified", "method": "沿光源—镜面—探测器—温度计信号链反向点验，并以历史WP4手册核对读数时间；印刷页码728"}
+  },
+  "blocks": [
+    {"type": "principle", "text": "密室包含带热电偶的热电制冷镜、光源、光电探测器、红外温度计和促进镜面—样品热/汽平衡的风扇。先用红外温度计记录样品/密室平衡温度T_s；再冷却镜面，凝结初现时反射率变化触发热电偶记录镜温T_d，即土壤空气露点。式(74.2)由T_d和T_s求e/e_s，其中b、c为Buck方程常数；再用式(74.1)求ψ_m。"},
+    {"type": "figure", "number": "74.1", "title": "测定脱水和吸水曲线干端的露点干湿计", "annotations": ["光束源和光电探测器", "热电制冷镜和热电偶", "红外温度计", "风扇", "样品台", "密封传感室及上部空间", "土样约7 mL、厚约0.5 cm"]},
+    {"type": "heading", "number": "74.3", "title": "装置与步骤", "level": 2},
+    {"type": "procedure", "steps": ["使用室内露点干湿计，如WP4类露点水势仪；方法不依赖具体品牌。", "吸水曲线：从风干/烘干土起，逐次充分混入定量水，在恒温（通常20 ℃）气密容器平衡；最低时间约16 h（粗质土）至1周（细质土）。脱水曲线从湿土逐步干燥。加/减水量由质地和目标θ—ψ_m范围决定，宜预试。田间样采后立即密封。", "每样装入独立、预称量样品杯W_c；用橡皮塞或金属棒轻压平至约0.5 cm厚，随即单独气密封存，防水分得失。", "取出样品杯后立即插入仪器，每次一杯。典型单次读数少于5 min，显示ψ_m和样温；仪器用式(74.1)、(74.2)内部计算。"]},
+    {"type": "source-fidelity-note", "text": "原书及英文原章写WP4“约0.5 min”，与同书第71章5 min及历史WP4手册“少于5 min”不符，已按仪器手册规范为典型<5 min，并保留型号/温差会影响时长的含义。式(74.2)中的T_d、T_s下标逐一按页图恢复。"}
+  ],
+  "formulas": [
+    {"label": "74.2", "plain": "e/e_s = exp{bc(T_d-T_s)/[(T_d+c)(T_s+c)]}", "latex": "\\frac{e}{e_s}=\\exp\\left[\\frac{bc(T_d-T_s)}{(T_d+c)(T_s+c)}\\right]", "resultUnit": "dimensionless"}
+  ],
+  "tables": [],
+  "contentSha256": "2792eb8cb621bbfcdb434a6e420f951eadfc93239a28e66507ba8e4241bc5fa8"
+}

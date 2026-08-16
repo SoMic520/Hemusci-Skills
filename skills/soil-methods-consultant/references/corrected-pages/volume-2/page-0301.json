@@ -1,0 +1,55 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 301,
+  "sourceImageSha256": "9f8821ae0b34a1be15b4ed941a7dc0348462b95f7d6e4b7dfc56413b22f5f912",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条核对本页21条参考文献、前页跨页续文及译校署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对作者缩写、年份、文题、书刊名、卷号、页码及a/b后缀"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "消除原版行末断词后逐行二次反查；印刷页码810"
+    }
+  },
+  "blocks": [
+    {
+      "type": "references",
+      "entries": [
+        "Messing, I. and Jarvis, N.J. 1993. Temporal variation in the hydraulic conductivity of a tilled clay soil, as measured by tension infiltrometers. J. Soil Sci. 44: 11–24.",
+        "Perroux, K.M. and White, I. 1988. Designs for disc permeameters. Soil Sci. Soc. Am. J. 52: 1205–1215.",
+        "Philip, J.R. 1957. The theory of infiltration. 4. Sorptivity and algebraic infiltration equations. Soil Sci. 84: 257–264.",
+        "Reynolds, W.D. 1993. Saturated hydraulic conductivity: Field measurement. In: M.R. Carter, ed., Soil Sampling and Methods of Analysis. Canadian Society of Soil Science. Lewis Publishers, Boca Raton, FL, 599–613.",
+        "Reynolds, W.D., Bowman, B.T., Brunke, R.R., Drury, C.F., and Tan, C.S. 2000. Comparison of tension infiltrometer, pressure infiltrometer, and soil core estimates of saturated hydraulic conductivity. Soil Sci. Soc. Am. J. 64: 478–484.",
+        "Reynolds, W.D. and Elrick, D.E. 1991. Determination of hydraulic conductivity using a tension infiltrometer. Soil Sci. Soc. Am. J. 55: 633–639.",
+        "Reynolds, W.D., Gregorich, E.G., and Curnoe, W.E. 1995. Characterization of water transmission properties in tilled and untilled soils using tension infiltrometers. Soil Till. Res. 33: 117–131.",
+        "Reynolds, W.D. and Zebchuk, W.D. 1996. Use of contact material in tension infiltrometer measurements. Soil Tech. 9: 141–159.",
+        "Sauer, T.J., Clothier, B.E., and Daniel, T.C. 1990. Surface measurements of the hydraulic properties of a tilled and untilled soil. Soil Till. Res. 15: 359–369.",
+        "Smettem, K.R.J. and Clothier, B.E. 1989. Measuring unsaturated sorptivity and hydraulic conductivity using multiple disc permeameters. J. Soil Sci. 40: 563–568.",
+        "Smettem, K.R.J., Parlange, J.-Y., Ross, P.J., and Haverkamp, R. 1994. Three-dimensional analysis of infiltration from the disc infiltrometer: 1. A capillary-based theory. Water Resour. Res. 30: 2925–2929.",
+        "Smettem, K.R.J. and Smith, R.E. 2002. Field measurement of infiltration parameters. In: R.E. Smith, ed., Infiltration Theory for Hydrologic Applications. Water Resources Monograph 15, American Geophysical Union, Washington, DC, 135–157.",
+        "Thony, J.-L., Vachaud, G., Clothier, B.E., and Angulo-Jaramillo, R. 1991. Field measurement of the hydraulic properties of soil. Soil Tech. 4: 111–123.",
+        "Vandervaere, J.-P. 2002. Early-time observations. In: J.H. Dane and G.C. Topp, eds., Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 889–894.",
+        "Vandervaere, J.-P., Peugeot, C., Vauclin, M., Angulo-Jaramillo, R., and Lebel, T. 1997. Estimating hydraulic conductivity of crusted soils using disc infiltrometers and minitensiometers. J. Hydrol. 188: 203–223.",
+        "Vandervaere, J.-P., Vauclin, M., and Elrick, D.E. 2000a. Transient flow from tension infiltrometers: I. The two-parameter equation. Soil Sci. Soc. Am. J. 64: 1263–1272.",
+        "Vandervaere, J.-P., Vauclin, M., and Elrick, D.E. 2000b. Transient flow from tension infiltrometers: II. Four methods to determine sorptivity and conductivity. Soil Sci. Soc. Am. J. 64: 1272–1284.",
+        "Vogeler, I., Clothier, B.E., Green, S.R., Scotter, D.R., and Tillman, R.W. 1996. Characterizing water and solute movement by time domain reflectometry and disk permeametry. Soil Sci. Soc. Am. J. 60: 5–12.",
+        "Wang, D., Yates, S.R., and Ernst, F.F. 1998. Determining soil hydraulic properties using tension infiltrometers, time domain reflectometry, and tensiometers. Soil Sci. Soc. Am. J. 62: 318–325.",
+        "White, I., Sully, M.J., and Perroux, K.M. 1992. Measurement of surface-soil hydraulic properties: disk permeameters, tension infiltrometers, and other techniques. In: G.C. Topp, W.D. Reynolds, and R.E. Green, eds., Advances in Measurement of Soil Physical Properties: Bringing Theory into Practice. SSSA Special Publication No. 30, Soil Science Society of America, Madison, WI, 69–103.",
+        "Wooding, R. 1968. Steady infiltration from a shallow circular pond. Water Resour. Res. 4: 1259–1273."
+      ]
+    },
+    {
+      "type": "translation-credit",
+      "text": "焦会青 译，李保国 校"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "aba41df961a107e35772d48d8fba6591a75aac2418e660354a0b82e10ea80717"
+}

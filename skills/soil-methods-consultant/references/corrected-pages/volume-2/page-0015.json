@@ -1,0 +1,63 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 15,
+  "sourceImageSha256": "15950e29568aaeb725ab5ece9f4b4a114487b8bf4245dd02efcbbcf5aaf921f7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率目录和两套OCR，完成78.2至81.4.3"},
+    "precisionPass": {"status": "verified", "method": "核验测压管法、室内张力入渗仪法、θ(ψ₀)、S(ψ₀)、K(ψ₀)、2T/5T及764～789页码"},
+    "secondVisualPass": {"status": "verified", "method": "由81.4.3反向复核至78.2，纠正OCR对θ、ψ₀、S、K的误识别，检查有/无密封套层级及罗马页码XIV"}
+  },
+  "blocks": [
+    {
+      "type": "toc-tree-continuation",
+      "entries": [
+        {"number": "78.2", "title": "装置和物品", "page": 764, "level": 2},
+        {"number": "78.3", "title": "步骤", "page": 765, "level": 2},
+        {"number": "78.4", "title": "计算", "page": 765, "level": 2},
+        {"number": "78.5", "title": "注释", "page": 766, "level": 2},
+        {"number": "第78章参考文献", "title": "参考文献", "page": 766, "level": 2},
+        {"number": "第79章", "title": "饱和水力学特性：测压管法", "page": 767, "level": 1},
+        {"number": "79.1", "title": "引言", "page": 767, "level": 2},
+        {"number": "79.2", "title": "装置和物品", "page": 768, "level": 2},
+        {"number": "79.3", "title": "步骤", "page": 770, "level": 2},
+        {"number": "79.3.1", "title": "具有密封套的测压管", "page": 770, "level": 3},
+        {"number": "79.3.2", "title": "无密封套的测压管", "page": 770, "level": 3},
+        {"number": "79.3.3", "title": "有或无密封套的测压管", "page": 770, "level": 3},
+        {"number": "79.4", "title": "计算", "page": 771, "level": 2},
+        {"number": "79.5", "title": "注释", "page": 771, "level": 2},
+        {"number": "第79章参考文献", "title": "参考文献", "page": 772, "level": 2},
+        {"number": "第80章", "title": "非饱和导水率：室内张力入渗仪法", "page": 773, "level": 1},
+        {"number": "80.1", "title": "引言", "page": 773, "level": 2},
+        {"number": "80.2", "title": "近饱和吸渗率的计算", "page": 774, "level": 2},
+        {"number": "80.3", "title": "近饱和导水率的计算", "page": 775, "level": 2},
+        {"number": "80.4", "title": "土芯的采集", "page": 776, "level": 2},
+        {"number": "80.5", "title": "近饱和吸渗率的测定", "page": 776, "level": 2},
+        {"number": "80.5.1", "title": "材料", "page": 776, "level": 3},
+        {"number": "80.5.2", "title": "步骤", "page": 777, "level": 3},
+        {"number": "80.6", "title": "近饱和导水率的测定", "page": 777, "level": 2},
+        {"number": "80.6.1", "title": "材料", "page": 777, "level": 3},
+        {"number": "80.6.2", "title": "步骤", "page": 778, "level": 3},
+        {"number": "80.7", "title": "计算θ(ψ₀)或者测定其他的S(ψ₀)和K(ψ₀)", "page": 779, "level": 2},
+        {"number": "80.8", "title": "与毛管作用相关的参数的计算", "page": 779, "level": 2},
+        {"number": "80.9", "title": "注释", "page": 779, "level": 2},
+        {"number": "第80章参考文献", "title": "参考文献", "page": 780, "level": 2},
+        {"number": "第81章", "title": "非饱和水力学特性：室内蒸发法", "page": 781, "level": 1},
+        {"number": "81.1", "title": "引言", "page": 781, "level": 2},
+        {"number": "81.2", "title": "材料", "page": 781, "level": 2},
+        {"number": "81.3", "title": "步骤", "page": 782, "level": 2},
+        {"number": "81.3.1", "title": "样品制备", "page": 782, "level": 3},
+        {"number": "81.3.2", "title": "数据收集", "page": 784, "level": 3},
+        {"number": "81.4", "title": "计算", "page": 784, "level": 2},
+        {"number": "81.4.1", "title": "脱水曲线计算（2T设置）", "page": 784, "level": 3},
+        {"number": "81.4.2", "title": "土壤导水率计算（2T设置）", "page": 788, "level": 3},
+        {"number": "81.4.3", "title": "脱水曲线计算（5T设置）", "page": 789, "level": 3}
+      ]
+    }
+  ],
+  "formulas": [
+    {"id": "toc-80.7", "display": "θ(ψ₀)，S(ψ₀)，K(ψ₀)", "variables": {"θ": "体积含水量（以正文定义为准）", "ψ₀": "指定压力水头（以正文定义为准）", "S": "吸渗率（以正文定义为准）", "K": "导水率（以正文定义为准）"}, "source": "目录80.7标题；保留希腊字母及下标0"}
+  ],
+  "tables": [],
+  "contentSha256": "346c91393b872bd3a5f8f9fc701c443f3ad5aa6d7d67a0ced0c23d7843ef2817"
+}

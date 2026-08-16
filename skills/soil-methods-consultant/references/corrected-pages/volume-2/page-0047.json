@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 47,
+  "sourceImageSha256": "f999ecdb4bb102ff4ca2e94529c8c83a90ca9be339f7f01ce47a47851d483207",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成式（57.14）～（57.16）、57.4.4和57.4.5第1～3项首段"},
+    "precisionPass": {"status": "verified", "method": "核验WFPS拼写、θ_w/D_b/D_w/W_w/W_s/V_t、0～100%/65%～70%、500/50/0.5/0.2 μm、1 mm、γ单位及Kelvin式符号"},
+    "secondVisualPass": {"status": "verified", "method": "由式（57.16）反向复核至式（57.14），逐项检查公式嵌套、百分数与体积分数口径；印刷页码556"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "式（57.14）中θ_w为土壤质量含水量。Ball和Hunter（1988）讨论了充气孔隙度测定的限制因素和误差。"},
+    {"type": "heading", "number": "57.4.4", "title": "充水孔隙度或相对饱和度", "level": 3},
+    {"type": "paragraph", "text": "充水孔隙度（water-filled pore space，WFPS），又称相对饱和度，是土壤水体积占总孔隙体积的比例，范围为0（干土）～100%（饱和土）。相对饱和度达到65%～70%时，通常表示通气变差（Linn和Doran，1984）；它是研究湿土孔隙的常用参数（Carter，1988）。可由水质量W_w、干土质量W_s、土样总体积V_t、颗粒密度D_p和水密度D_w计算，也可由充气孔隙度F_a和总孔隙度S_t计算。"},
+    {"type": "source-fidelity-note", "text": "原书在式（57.15）及紧随文字中把标准缩写WFPS误排为WFSP，已统一为WFPS。印刷公式的分式层级含混，已按定义和量纲恢复为水体积除以孔隙体积。"},
+    {"type": "heading", "number": "57.4.5", "title": "土壤孔隙分布", "level": 3},
+    {"type": "subheading", "title": "1. 土壤孔隙分类"},
+    {"type": "paragraph", "text": "孔隙可按当量孔径及功能分类：裂隙>500 μm，传导孔隙500～50 μm，储水孔隙50～0.5 μm，残余孔隙<0.5 μm。>50 μm的大孔隙与饱和导水率有关（Germann和Beven，1981）。研究的孔径范围取决于目的（Ball和Hunter，1988）：土壤调查常从田间持水量约对应的50 μm，到植物可利用水下限约对应的3～1.5 μm；Thomasson（1978）以>60 μm孔隙体积（空气容量）及60～0.2 μm孔隙体积（有效孔隙）作结构分类依据；结构和耕作研究常关注>50 μm大孔隙；入渗与优先流研究既需>1 mm孔隙信息，也需较小尺度孔隙信息（Luxmoore等，1990）。"},
+    {"type": "subheading", "title": "2. 土壤孔径分布"},
+    {"type": "paragraph", "text": "土壤孔隙系统复杂，无法精确确定全部孔隙的大小、构型和分布；在一定假设下可近似求其分布。先使土样饱和，再逐级排水并测相邻两级排水体积；该体积对应所排孔径范围的孔隙体积。理论上大孔隙先排水、小孔隙后排水，但互连系统常受连接相邻孔隙的‘瓶颈’直径控制。"},
+    {"type": "subheading", "title": "3. ≤1 mm当量孔径的分布"},
+    {"type": "paragraph", "text": "脱湿法基于土壤水分特征曲线，即含水量与水基质势的关系，适用于含较小结构单元（直径<2 cm）的原状或装填土柱。按毛管理论，改变基质势使水排出，排水体积视为大于某一当量孔径的孔隙体积；可用Kelvin公式把基质势水头h换算为当量孔径d。"},
+    {"type": "paragraph", "text": "式中γ为水的表面张力，20 °C时为72.75 mJ m⁻²；α为水与孔壁的接触角；ρ为水密度；g为重力加速度。吸力水头按负值表示时，式中的负号使d为正值。"},
+    {"type": "source-fidelity-note", "text": "原书式（57.15）变量说明处把W_w和W_s都印成W，已按上下文区分；表面张力单位应为mJ m⁻²，非OCR结果mJ m³。"}
+  ],
+  "formulas": [
+    {"label": "(57.14)", "plain": "F_a = S_t − θ_w D_b/D_w", "latex": "F_a=S_t-\\frac{\\theta_wD_b}{D_w}", "variables": [{"symbol": "F_a", "meaning": "充气孔隙度（体积分数）"}, {"symbol": "S_t", "meaning": "总孔隙度（体积分数）"}, {"symbol": "θ_w", "meaning": "质量含水量"}, {"symbol": "D_b", "meaning": "干容重"}, {"symbol": "D_w", "meaning": "水密度；与D_b同单位"}]},
+    {"label": "(57.15，层级校正式)", "plain": "WFPS = (W_w/D_w)/(V_t − W_s/D_p) = (S_t − F_a)/S_t", "latex": "\\mathrm{WFPS}=\\frac{W_w/D_w}{V_t-W_s/D_p}=\\frac{S_t-F_a}{S_t}", "variables": [{"symbol": "W_w", "meaning": "水质量"}, {"symbol": "W_s", "meaning": "干土质量"}, {"symbol": "V_t", "meaning": "土样总体积"}, {"symbol": "D_p", "meaning": "颗粒密度"}, {"symbol": "D_w", "meaning": "水密度"}, {"symbol": "S_t,F_a", "meaning": "须采用相同的体积分数或百分数口径；结果乘100写成%"}]},
+    {"label": "(57.16)", "plain": "d = −4γ cos α/(ρ g h)", "latex": "d=-\\frac{4\\gamma\\cos\\alpha}{\\rho gh}", "variables": [{"symbol": "d", "meaning": "基质势水头h下保持充水的最大当量孔径（m）"}, {"symbol": "γ", "meaning": "水的表面张力；20 °C为72.75 mJ m⁻²"}, {"symbol": "α", "meaning": "接触角"}, {"symbol": "ρ", "meaning": "水密度"}, {"symbol": "h", "meaning": "基质势水头（负值）"}]}
+  ],
+  "tables": [],
+  "contentSha256": "a94726ac749099371fd25f8cf47e462ddf00622814945bda3585f98b9faa0970"
+}

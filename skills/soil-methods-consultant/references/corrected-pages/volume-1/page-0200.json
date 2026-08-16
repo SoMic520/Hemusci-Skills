@@ -1,0 +1,49 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 200,
+  "sourceImageSha256": "1832ab6ce712cf72ebc22f959829f16264595e0553bd717095db066e43d4dd40",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复21.2.1注释、21.2.2小容器法及21.2.3试剂/步骤/计算前半"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验CaCO₃、H₂SO₃、SO₂、SO₃²⁻、CO₃²⁻、6%(w/v)、14 mL、20 mg、0.02 mm、10 μL、1.0/2.0/10 g、70/105 ℃、24 h和ODF式（21.1）"},
+    "secondVisualPass": {"status": "verified", "method": "从页末式（21.1）反向复核至注释，确认Carlo Erba/Verardo、银杯/小铝块、原书步骤（3）仍写“镍衬里”及页码169"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第21章｜土壤总碳与有机碳｜"},
+    {"type": "procedure-group", "number": "3.", "title": "注释", "parent": "21.2.1"},
+    {"type": "paragraph", "text": "中和1.0 g碳酸钙（CaCO₃）需要14 mL 6%的H₂SO₃溶液。由于SO₂损失，H₂SO₃溶液将随着时间变化而缓慢失效，因此随H₂SO₃溶液存放时间延长，可能需要加入更多的酸。"},
+    {"type": "section-heading", "level": 3, "number": "21.2.2", "title": "碳酸盐的去除——小燃烧容器法"},
+    {"type": "paragraph", "text": "本方法针对Carlo Erba生产的，将少量样品放置在金属燃烧杯的仪器。对于碳酸盐的预处理，建议使用银杯来替代常用的锡杯或者铝杯，因为银对6%的亚硫酸溶液具有更强的耐蚀性。如Verardo等（1990）所述，反应在一个钻有小孔以便盛放大小适宜样品杯的小铝块中进行。"},
+    {"type": "procedure-group", "number": "1.", "title": "试剂", "parent": "21.2.2"},
+    {"type": "reagent-item", "group": "1", "name": "6%（w/v）的亚硫酸溶液", "text": "6%（w/v）的亚硫酸溶液。"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤", "parent": "21.2.2"},
+    {"type": "procedure-step", "group": "2", "number": "（1）", "text": "将银杯放置在小铝块中。称取不超过20 mg过0.02 mm筛的土壤样品放入杯中，将铝块放置在加热板上。"},
+    {"type": "procedure-step", "group": "2", "number": "（2）", "text": "向每个样品中加入10 μL蒸馏水或去离子水，以便减小加入6%的亚硫酸溶液后初始反应的剧烈程度，并使因为强烈冒泡而造成的样品损失最小。向每个样品中加入10 μL 6%的H₂SO₃溶液并静置。同时，打开加热板将温度设置至70 ℃。"},
+    {"type": "procedure-step", "group": "2", "number": "（3）", "text": "当样品停止反应时，再加入10 μL 6%的H₂SO₃溶液。这一步很重要，以便确保预处理完成前样品不变干，否则可能会导致镍衬里的退化而发生渗漏。当然，一些蒸发是不可避免的，因此需要添加足够的酸来完全去除碳酸盐。"},
+    {"type": "source-fidelity-note", "scope": "21.2.2步骤（3）", "text": "本方法前文使用银杯，但原书本步骤仍清晰印作“镍衬里的退化”，按原文保留。"},
+    {"type": "procedure-step", "group": "2", "number": "（4）", "text": "当加酸后不再发生反应时，让样品自然变干，并根据仪器制造商的说明使用有机碳检测器进行样品分析，并确定在计算过程中使用的是未处理土壤的初始重量。"},
+    {"type": "section-heading", "level": 3, "number": "21.2.3", "title": "样品分取前碳酸盐的去除"},
+    {"type": "procedure-group", "number": "1.", "title": "试剂", "parent": "21.2.3"},
+    {"type": "reagent-item", "group": "1", "name": "6%（w/v）的亚硫酸溶液", "text": "6%（w/v）的亚硫酸溶液。"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤", "parent": "21.2.3"},
+    {"type": "procedure-step", "group": "2", "number": "（1）", "text": "称取1.0～2.0 g样品放置在预称重的试管或烧杯中，放置在消化器或加热板上。"},
+    {"type": "procedure-step", "group": "2", "number": "（2）", "text": "加1.0 mL 6%的H₂SO₃溶液，让反应缓慢进行。同时，打开消化器或加热板，将温度设置到70 ℃。"},
+    {"type": "procedure-step", "group": "2", "number": "（3）", "text": "以每次1.0 mL的添加量向样品中加入6%的H₂SO₃溶液，直到再添加时不再产生反应为止，待样品变干。"},
+    {"type": "procedure-step", "group": "2", "number": "（4）", "text": "样品变干后，将样品从消化器或者加热板上移出，放置在干燥器或带有硅胶的密闭箱中，使其冷却。称量试管或烧杯的重量，定量处理过的样品。维持样品在105 ℃烘干状态下，以便用于有机碳分析。"},
+    {"type": "procedure-step", "group": "2", "number": "（5）", "text": "取10 g土壤放置在预称重的烧杯或硅胶盘中，在105 ℃的烘箱中干燥24 h。然后在干燥器中冷却，再次称重。"},
+    {"type": "procedure-group", "number": "3.", "title": "计算", "parent": "21.2.3"},
+    {"type": "paragraph", "text": "该预处理以两种方式影响了样品。首先，因为被加热，样品中的水分发生改变。其次，由于SO₃²⁻比CO₃²⁻分子量更大，所以样品的质量将会增加。这些变化在计算样品中的有机碳时需要考虑。"},
+    {"type": "calculation-item", "number": "（1）", "title": "烘干因子（ODF）计算公式", "formulaRef": "21.1"},
+    {"type": "printed-page-number", "text": "169"}
+  ],
+  "formulas": [
+    {
+      "number": "21.1",
+      "context": "烘干因子（ODF）",
+      "display": "ODF =（未处理风干土重量）/（未处理烘干土重量）",
+      "latex": "ODF=\\frac{\\text{未处理风干土重量}}{\\text{未处理烘干土重量}}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "cdce943311082a5fc4e10dcba2843301929533c8bc98d08b3f31d3a3710120cc"
+}

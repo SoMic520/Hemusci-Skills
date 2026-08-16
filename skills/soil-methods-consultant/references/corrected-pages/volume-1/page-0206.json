@@ -1,0 +1,53 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 206,
+  "sourceImageSha256": "3f38c9d0ef25a90fe17c328b775744429424251607e3f8e073d52ad9d069ee7b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章节末页，并与Apple Vision、PaddleOCR交叉比对，人工恢复自动滴定说明、式（21.10）～（21.11）及本页19条参考文献内容"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验M_HCl、T₁/T₂、0.23114、pH 8.3/3.8、¹²C/¹⁴C、Gélinas、卷页、书名、2ⁿᵈ edn.及专名拼写"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Rayment未完条目反向复核至自动滴定句，确认microprocessorcontrolled原印连写、全部文献标点和页码175"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第21章｜土壤总碳与有机碳｜"},
+    {"type": "paragraph", "text": "如果使用自动滴定管，那么应该根据滴定管与酸的强度对滴定的速度和终点进行优化，以便确保滴定终点的pH值准确控制在8.3和3.8。"},
+    {"type": "procedure-group", "number": "4.", "title": "计算"},
+    {"type": "references-heading", "text": "参考文献"},
+    {"type": "reference-entry", "text": "Allison, L.E., Bollen, W.B., and Moodie, C.D. 1965. Total carbon. In: C.A. Black et al. eds., Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties. American Society of Agronomy, Madison, WI, 1346-1366."},
+    {"type": "reference-entry", "text": "Amato, M. 1983. Determination of carbon ¹²C and ¹⁴C in plant and soil. Soil Biol. Biochem. 15: 611-612."},
+    {"type": "reference-entry", "text": "Baldock, J.A., Masiello, C.A., Gélinas, Y., and Hedges, J.I. 2004. Cycling and composition of organic matter in terrestrial and marine ecosystems. Mar. Chem. 92: 39-64."},
+    {"type": "reference-entry", "text": "Baldock, J.A. and Nelson, P.N. 1998. Soil organic matter. In: M. Sumner, ed., Handbook of Soil Science. CRC Press, Boca Raton, FL, B25-B84."},
+    {"type": "reference-entry", "text": "Ball, D.F. 1964. Loss-on-ignition as an estimate of organic matter and organic carbon in noncalcareous soils. J. Soil Sci. 15: 84-92."},
+    {"type": "reference-entry", "text": "Dalal, R.C. 1979. Simple procedure for the determination of total carbon and its radioactivity in soils and plant materials. Analyst 104: 151-154."},
+    {"type": "reference-entry", "text": "Giovannini, G., Poggio, G., and Sequi, P. 1975. Use of an automatic CHN analyser to determine organic and inorganic carbon in soils. Commun. Soil Sci. Plant Anal. 6: 39-49."},
+    {"type": "reference-entry", "text": "Heanes, D.L. 1984. Determination of total organic-C in soils by an improved chromic acid digestion and spectrophotometric procedure. Commun. Soil Sci. Plant Anal. 15: 1191-1213."},
+    {"type": "reference-entry", "text": "Jackson, M.L. 1958. Soil Chemical Analysis. Prentice Hall, Englewood Cliffs, NJ."},
+    {"type": "reference-entry", "text": "Jackson, M.L. 1962. Soil Chemical Analysis. Constable & Co. Ltd., London."},
+    {"type": "reference-entry", "text": "Kalembasa, S.J. and Jenkinson, D.S. 1973. A comparative study of titrimetric and gravimetric methods for the determination of organic carbon in soil. J. Sci. Food Agric. 24: 1085-1090."},
+    {"type": "reference-entry", "text": "Lowther, J.R., Smethurst, P.J., Carlyle, J.C., and Nambiar, E.K.S. 1980. Methods for determining organic carbon in podsolic sands. Commun. Soil Sci. Plant Anal. 21: 457-470."},
+    {"type": "reference-entry", "text": "MacCarthy, P., Malcolm, R.L., Clapp, C.E., and Bloom, P.R. 1990. An introduction to soil humic substances. In: P. McCarthy et al. eds., Humic Substances in Crop and Soil Science: Selected Readings. Soil Science Society America, Madison, WI, 1-12."},
+    {"type": "reference-entry", "text": "Merry, R.H. and Spouncer, L.R. 1988. The measurement of carbon in soils using a microprocessorcontrolled resistance furnace. Commun. Soil Sci. Plant Anal. 19: 707-720."},
+    {"type": "reference-entry", "text": "Morris, G.F. and Schnitzer, M. 1967. Rapid determination of carbon in organic matter by dry-combustion. Can. J. Soil Sci. 47: 143-144."},
+    {"type": "reference-entry", "text": "Nelson, D.W. and Sommers, L.E. 1982. Total carbon, organic carbon, and organic matter. In: A.L. Page et al. eds., Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties, 2ⁿᵈ edn. American Society of Agronomy, Soil Science Society America, Madison, WI, 539-579."},
+    {"type": "reference-entry", "text": "Oades, J.M. 1988. The retention of organic matter in soils. Biogeochemistry 5: 35-70."},
+    {"type": "reference-entry", "text": "Piper, C.S. 1944. Soil and Plant Analysis. The University of Adelaide, Adelaide, SA, Australia."},
+    {"type": "reference-entry", "continued": true, "text": "Rayment, G.E. and Higginson, F.R. 1992. Australian Laboratory Handbook of Soil and Water Chemical Methods. Inkata Press,"},
+    {"type": "printed-page-number", "text": "175"}
+  ],
+  "formulas": [
+    {
+      "number": "21.10",
+      "context": "HCl摩尔浓度",
+      "display": "HCl的摩尔浓度（M_HCl）= 0.23114 × 20/平均HCl滴定量",
+      "latex": "M_{HCl}=0.23114\\times20/\\text{平均HCl滴定量}"
+    },
+    {
+      "number": "21.11",
+      "context": "双终点滴定有机碳含量",
+      "display": "样品中的有机碳含量（g·kg⁻¹）= (T₁−T₂) × M_HCl × 6/样品重量",
+      "latex": "\\text{样品中的有机碳含量}(\\mathrm{g}\\cdot\\mathrm{kg}^{-1})=(T_1-T_2)\\times M_{HCl}\\times6/\\text{样品重量}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "215dfad4ee4d256b4652058de7f8cd267612caf0d7b18e71aba4dc0f9ab2d26c"
+}

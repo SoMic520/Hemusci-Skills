@@ -1,0 +1,91 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 276,
+  "sourceImageSha256": "1c6ff92fd2fb22d5f45c1f49e29af2a402ff0b6e37529e4307ac7f1b20f11805",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对式(81.2)—(81.6)、全部变量、数值示例、van Genuchten迭代三步和收敛判据"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "复算130.77 g、360.19 g、S(t)、S_c(t)，核验θ_s−θ_r、指数1−1/n、10⁻⁴及各量纲"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "整页公式高倍复核并对照英文原章确认式(81.5)分子和M(t₀)符号；印刷页码785"
+    }
+  },
+  "blocks": [
+    {
+      "type": "calculation-guidance",
+      "text": "W_w−W_d为蒸发试验结束时土样中的水质量，W(t₀)−W(t_end)为整个试验蒸发掉的水质量。由式(81.1)得M(t₀)，再用式(81.2)求任意测量时刻的水质量M(t)，用式(81.3)换算总体积含水量θ(t)，用式(81.4)换算以水深表示的总储水量S(t)。"
+    },
+    {
+      "type": "variable-definition",
+      "text": "ρ_w为水密度（g·cm⁻³）；V_t为有效土样总体积（cm³），等于圆柱总体积减去为陶土杯钻孔所占体积；A为土样横截面积（cm²）；L为土样长度，2T为6 cm、5T为10 cm。"
+    },
+    {
+      "type": "calculation-example",
+      "text": "表81.2试验从t=0 min持续至3960 min，每2 h记录两个深度的ψ和系统总质量。W(t₀)=882.98 g，W(t_end)=852.89 g；拆除张力计、堵漏封泥和底盘后，湿样质量W_w=681.49 g；105℃±5℃烘干后W_d=580.81 g。金属取样筒皮重220.62 g，故干土质量W_s=580.81−220.62=360.19 g。初始水质量M(t₀)=130.77 g。"
+    },
+    {
+      "type": "iteration-method",
+      "text": "以任意初始θ_s、θ_r、α、n代入校正后的van Genuchten式(81.5)，由两个张力计深度的ψ计算θ₁.₅和θ₄.₅，再以式(81.6)求计算储水量S_c(t)。迭代：①用S(t)/S_c(t)乘各深度、各时刻的θ得到更新值θ_up；②用更新后的θ—ψ数据对式(81.5)作非线性拟合，更新θ_s、θ_r、α、n；③重新计算θ和S_c(t)；重复①—③。"
+    },
+    {
+      "type": "convergence",
+      "text": "本例以相邻迭代的最大体积含水量差Δθ<10⁻⁴ cm³·cm⁻³为终止条件，也可另行规定收敛准则。每轮非线性拟合可用RETC（van Genuchten等，1991；第84章）或下山单纯形法（Press等，1990）；本例以两轮含水量之间的最小平方偏差为目标，采用下山单纯形法。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "中文版式(81.5)把分子误印为θ_s+θ_r；英文原章和van Genuchten模型均为θ_s−θ_r，且表81.2数值也只与减号相符，故已校正。数值段把初始水质量误标成W(t₀)=130.77 g；W(t₀)实际为882.98 g，正确符号是M(t₀)=130.77 g。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "81.2",
+      "plain": "M(t)=M(t₀)−ΔM=M(t₀)−[W(t₀)−W(t)]",
+      "latex": "M(t)=M(t_0)-\\Delta M=M(t_0)-[W(t_0)-W(t)]",
+      "resultUnit": "g"
+    },
+    {
+      "label": "81.3",
+      "plain": "θ(t)=M(t)/(ρ_wV_t)",
+      "latex": "\\theta(t)=\\frac{M(t)}{\\rho_wV_t}",
+      "resultUnit": "cm³·cm⁻³"
+    },
+    {
+      "label": "81.4",
+      "plain": "S(t)=θ(t)L=M(t)/(ρ_wA)",
+      "latex": "S(t)=\\theta(t)L=\\frac{M(t)}{\\rho_wA}",
+      "resultUnit": "cm"
+    },
+    {
+      "label": "81.5（校正）",
+      "plain": "θ=θ_r+(θ_s−θ_r)/[1+|αψ|ⁿ]^(1−1/n)",
+      "latex": "\\theta=\\theta_r+\\frac{\\theta_s-\\theta_r}{[1+|\\alpha\\psi|^n]^{1-1/n}}",
+      "resultUnit": "cm³·cm⁻³",
+      "variables": [
+        "θ_s：饱和体积含水量，[L³·L⁻³]",
+        "θ_r：残余体积含水量，[L³·L⁻³]",
+        "α：曲线形状参数，[L⁻¹]",
+        "n：曲线形状参数，无量纲",
+        "ψ：土壤水基质水头，[L]"
+      ]
+    },
+    {
+      "label": "81.6",
+      "plain": "S_c(t)=[θ₁.₅(t)+θ₄.₅(t)]Δz",
+      "latex": "S_c(t)=[\\theta_{1.5}(t)+\\theta_{4.5}(t)]\\Delta z",
+      "resultUnit": "cm",
+      "variables": [
+        "S_c(t)：由拟合曲线在两测量深度计算的储水量，[L]",
+        "Δz：两个张力计之间的高度差，本例3 cm，[L]"
+      ]
+    }
+  ],
+  "tables": [],
+  "contentSha256": "a864f5cd6d509be6b8557f756cedf03f06571d4a0f46ff779b519dac6f75775d"
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 390,
+  "sourceImageSha256": "d0a39e6fedad12ff49d12992873c87ebd38a6beb027a5edb394e52a2a2da6410",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版式(37.8)～(37.9)、37.9.3和参考文献起始页"},
+    "precisionPass": {"status": "verified", "method": "核验q_NO/q_N₂O、浓度方括号、Q、M_s、积分定义，以及作者缩写、年份、卷页和¹⁵N/N₂O上下标"},
+    "secondVisualPass": {"status": "verified", "method": "从Drury等2004承下条反向复核至式(37.8)，校正参考文献排序、题名和页码；印刷页码359"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第37章｜土壤反硝化测定技术｜"},
+    {"type": "equation-explanation", "equation": "37.8–37.9", "text": "q_NO和q_N₂O分别为NO和N₂O通量；[NO]和[N₂O]为流出气体中NO和N₂O浓度；Q为流经土柱的流出气体总流量实测值；M_s为干土质量。分别对通量曲线下面积积分，可得培养期间单位干土质量产生的NO或N₂O总质量。"},
+    {"type": "section-heading", "level": 3, "number": "37.9.3", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      "为防止腐蚀，NO标准气必须储存在使用不锈钢调压器的气瓶中。",
+      "Paul等（1993）的NO产生研究在静态实验室条件下进行；NO反应性极强，测量结果可能受到影响。原书此处引作1994，已按该论文正式出版年纠正。",
+      "也可把土壤置于可控温室内培养以调节培养温度。"
+    ]},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference", "text": "Arah, J.R.M. 1992. New formulae for mass spectrometric analysis of nitrous oxide and dinitrogen emissions. Soil Sci. Soc. Am. J. 56: 795–800."},
+    {"type": "reference", "text": "Arah, J.R.M. 1997. Apportioning nitrous oxide fluxes between nitrification and denitrification using gas-phase mass spectrometry. Soil Biol. Biochem. 29: 1295–1299."},
+    {"type": "reference", "text": "Beauchamp, E.G. and Bergstrom, D.W. 1993. Denitrification. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. Lewis Publishers, Boca Raton, FL, pp. 351–357."},
+    {"type": "reference", "text": "Bergsma, T.T., Bergsma, Q.C., Ostrom, N.E., and Robertson, G.P. 1999. A heuristic model for calculation of dinitrogen and nitrous oxide flux from nitrogen-15-labeled soil. Soil Sci. Soc. Am. J. 63: 1709–1716."},
+    {"type": "reference", "text": "Bergsma, T.T., Ostrom, N.E., Emmons, M., and Robertson, G.P. 2001. Measuring simultaneous fluxes from soil of N₂O and N₂ in the field using the ¹⁵N-gas “nonequilibrium” technique. Environ. Sci. Technol. 35: 4307–4312."},
+    {"type": "reference", "text": "Bollmann, A. and Conrad, R. 1997. Acetylene blockage technique leads to underestimation of denitrification rates in oxic soils due to scavenging of intermediate nitric oxide. Soil Biol. Biochem. 29: 1067–1077."},
+    {"type": "reference", "text": "Burton, D.L. and Beauchamp, E.G. 1994. Profile nitrous oxide and carbon dioxide concentrations in a soil subject to freezing. Soil Sci. Soc. Am. J. 58: 115–122."},
+    {"type": "reference", "text": "Burton, D.L., Bergstrom, D.W., Covert, J.A., Wagner-Riddle, C., and Beauchamp, E.G. 1997. Three methods to estimate N₂O fluxes as impacted by agricultural management. Can. J. Soil Sci. 77: 125–134."},
+    {"type": "reference", "text": "Conrad, R. 1995. Soil microbial processes involved in production and consumption of atmospheric trace gases. Adv. Microb. Ecol. 14: 207–250."},
+    {"type": "reference", "text": "Craswell, E.T., Byrnes, B.H., Holt, L.S., Austin, E.R., Fillery, I.R.P., and Strong, W.M. 1985. Nitrogen-15 determination of nonrandomly distributed dinitrogen in air. Soil Sci. Soc. Am. J. 49: 664–668."},
+    {"type": "reference", "text": "deCatanzaro, J.B., Beauchamp, E.G., and Drury, C.F. 1987. Denitrification vs. dissimilatory nitrate reduction in soil with alfalfa, straw, glucose and sulfide treatments. Soil Biol. Biochem. 19: 583–587."},
+    {"type": "reference", "text": "Drury, C.F., McKenney, D.J., and Findlay, W.I. 1991. Relationships between denitrification, microbial biomass and indigenous soil properties. Soil Biol. Biochem. 23: 751–755."},
+    {"type": "reference-continuation", "text": "Drury, C.F., Yang, X.M., Reynolds, W.D., and Tan, C.S. 2004. Influence of crop rotation and aggregate size on carbon dioxide and（续见第391页）"},
+    {"type": "printed-page-number", "text": "359"}
+  ],
+  "formulas": [
+    {"id": "37.8", "display": "q_NO = [NO]Q/M_s"},
+    {"id": "37.9", "display": "q_N₂O = [N₂O]Q/M_s"},
+    {"id": "37.9-total-evolved", "display": "total evolved gas per unit dry soil = ∫q(t)dt"}
+  ],
+  "tables": [],
+  "contentSha256": "522f55731b0e09d239a97d1301933b1ce63eb806c455637222f5be3b20cc555a"
+}

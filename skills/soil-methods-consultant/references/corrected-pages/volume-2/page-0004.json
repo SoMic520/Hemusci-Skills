@@ -1,0 +1,44 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 4,
+  "sourceImageSha256": "551979aec64717edd7bf79386e7dba3cc2308494230529ab78f5a044152542d3",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，完成M.R. Carter与E.G. Gregorich编者介绍"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验1983/1977/1993/1994/1996/1997/2001、AAFC、CRC/Elsevier、机构地点和期刊书名"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由Gregorich末句反向复核至标题，检查Prince Edward Island/Charlottetown中文地名、碳氮循环和全部职务"
+    }
+  },
+  "blocks": [
+    {
+      "type": "section-heading",
+      "level": 1,
+      "title": "编者介绍"
+    },
+    {
+      "type": "biography",
+      "name": "M.R. Carter",
+      "text": "拥有阿尔伯塔大学农业与土壤学学位，1983年在萨斯喀彻温大学获土壤学博士学位；自1977年起在加拿大农业与农业食品部（AAFC）从事农业研究，书成时为爱德华王子岛夏洛特敦AAFC研究中心高级研究员。曾任加拿大土壤学学会研究员和主席、《加拿大土壤学杂志》编辑，并参与/合作校订《土壤采样和分析方法》第一版（1993）、《温带农业生态系统保护性耕作》（1994）、《农业土壤有机质结构和存储》（1996）、《作物生产的土壤质量与生态系统健康》（1997）和《土壤与环境科学词典》（2001）；书载当时任《农业生态系统与环境》总编。"
+    },
+    {
+      "type": "biography",
+      "name": "E.G. Gregorich",
+      "text": "书载为加拿大农业与农业食品部渥太华中央试验农场高级研究员，研究重点为土壤生物化学，尤其土壤C、N循环。曾任加拿大土壤学学会研究员和主席、美国土壤学学会土壤生物学和生物化学部门主席、政府间气候变化专门委员会成员；组织苏格兰、新西兰和南极洲野外调查，并指导加拿大在越南的国际开发项目。曾任《环境质量杂志》《农业生态系统与环境》《欧洲土壤学杂志》《加拿大土壤学杂志》副主编；本书为其与Carter合作主编的第三本书。"
+    },
+    {
+      "type": "temporal-note",
+      "text": "本页职务均为原版成书时期的历史陈述，不应解释为当前任职信息。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e31fcd901b4c58f3c0fa12319b7edeb13eae4212848a28aa95249d31832f19ec"
+}

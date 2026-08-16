@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 19,
+  "sourceImageSha256": "2566d287d3bf2e9c122c0994b49d5392746727194fcceb7d759e97e526fca667",
+  "review": {
+    "textPass": {"status": "verified", "method": "原分辨率逐字核验分篇译者页"},
+    "precisionPass": {"status": "verified", "method": "核验角色为‘主译’、姓名为‘任图生’"},
+    "secondVisualPass": {"status": "verified", "method": "复核页面中央署名，无其他有效正文"}
+  },
+  "blocks": [
+    {"type": "translator-credit", "role": "主译", "name": "任图生"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "fabc5d212772fcacc61d2311480fd1ec898271d3fffe27cb78a168ceccc99f12"
+}

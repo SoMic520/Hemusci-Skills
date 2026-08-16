@@ -1,0 +1,66 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 293,
+  "sourceImageSha256": "351b28d9654cf70eb219f5b327e04371a57484d907dbefe7627b6a24ab8a84e2",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对图82.4、图82.5及ψ_s接近/超过0时的处理说明"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "复核前6/后8数据点、S/K值、ψ₀、Kcs两级、Tcs及ψs≤0适用域"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "逐图核对坐标、系列符号、回归段和全部图注条件；印刷页码802"
+    }
+  },
+  "blocks": [
+    {
+      "type": "figure",
+      "number": "82.4",
+      "title": "入渗率ΔI/Δt¹ᐟ²与时间平方根几何平均值*t¹ᐟ²",
+      "axes": [
+        "横轴：*t¹ᐟ²，s¹ᐟ²，0—30。",
+        "纵轴：ΔI/Δt¹ᐟ²，cm·s⁻¹ᐟ²，0—0.40。"
+      ],
+      "interpretation": [
+        "前6个数据点为负斜率，代表接触砂层润湿和饱和。",
+        "后8个数据点呈正线性斜率，代表水分进入下伏非饱和壤质砂土；实线为这8点最小二乘回归。",
+        "ψ₀=−3 cm；由截距得S(ψ₀)=4.03×10⁻² cm·s⁻¹ᐟ²，由式(82.13)得K(ψ₀)=1.08×10⁻³ cm·s⁻¹。",
+        "数据见表82.2。"
+      ]
+    },
+    {
+      "type": "figure",
+      "number": "82.5",
+      "title": "固定水头瞬态入渗中接触砂层对入渗面基质水头ψ_s的影响",
+      "axes": [
+        "横轴：时间t，s，约100—900。",
+        "纵轴：基质水头，cm，−5.0至−2.0。"
+      ],
+      "series": [
+        "黑实线：入渗膜设定ψ₀=−3 cm。",
+        "圆圈：K_cs=1.0×10⁻² cm·s⁻¹时按式(82.17)求ψ_s。",
+        "三角形：K_cs=1.0×10⁻³ cm·s⁻¹时按式(82.17)求ψ_s。"
+      ],
+      "conditions": [
+        "壤质砂土K(ψ₀)=1.08×10⁻³ cm·s⁻¹。",
+        "T_cs=1 cm；ψ_s由表82.2入渗率数据计算。"
+      ]
+    },
+    {
+      "type": "positive-head-warning",
+      "text": "当ψ₀接近0时，接触层可使ψ_s成为小正值，而本章相关张力入渗公式仅适用于ψ_s≤0。应通过校准调压管时计入接触层厚度、把最大ψ₀设为<0，或改用可处理ψ_s>0的替代公式。Reynolds和Zebchuk（1996）给出近似稳态公式，可由张力入渗数据估算ψ_s>0时的K(ψ_s)。"
+    },
+    {
+      "type": "cross-reference",
+      "text": "稳态与瞬态方法的数据样表和计算过程分别见表82.1、表82.2。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "30aa00c9c1aa50c8b62d15e7bf6afe791d4a0361fffeef5def340d7de1db6d16"
+}

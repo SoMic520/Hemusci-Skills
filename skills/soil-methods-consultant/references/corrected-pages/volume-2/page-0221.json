@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 221,
+  "sourceImageSha256": "f1cfa0bd15ad9719a455783c683eafa05cc2076aa28dedfa298f49119184db3d",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页图和两套OCR，完成第74章参考文献末页、译校者及章末边界"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验作者拼写、年份、期刊卷页、书名、编者、出版地及页码643—670"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "再次逐字符复核英文参考文献及跨页续接关系；印刷页码730"
+    }
+  },
+  "blocks": [
+    {
+      "type": "references",
+      "entries": [
+        "Flint, L.E., Hudson, D.B., and Flint, A.L. 1999. Unsaturated hydraulic parameters determined from direct and indirect methods. In: M.Th. van Genuchten et al., eds. Characterization and Measurement of the Hydraulic Properties of Unsaturated Porous Media: Part 1. University of California, Riverside, CA.",
+        "Gee, G.W., Campbell, M.D., Campbell, G.S., and Campbell, J.H. 1992. Rapid measurement of low soil water potentials using a water activity meter. Soil Sci. Soc. Am. J. 56: 1068–1070.",
+        "Scanlon, B.R., Andraski, B.J., and Bilskie, J. 2002. Miscellaneous methods for measuring matric or water potential. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Inc., Madison, WI, 643–670."
+      ]
+    },
+    {
+      "type": "credits",
+      "text": "谷丰 译，李保国 校"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "06c28d5dad4fcc9d4b31b78e4891319549ad5301d025c9b75987114e0af63f93"
+}

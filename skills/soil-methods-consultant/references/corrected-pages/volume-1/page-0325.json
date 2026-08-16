@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 325,
+  "sourceImageSha256": "663d4eea297b7ce98f7c4d88fca25aa4fc97179023319cfb1cdd32997df50bfd",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复Jansson续文及Kingsley至Sullivan参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验¹⁵N/N₂上标下标、2nd/3rd上标、作者缩写、网址、卷页、连字符及Martínez-Romero重音"},
+    "secondVisualPass": {"status": "verified", "method": "从Sullivan等（1996）反向复核至页首续文，合并印刷粘连词并确认原书网址htpp、systemics及Method单数；页码294"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-continuation", "continuationOf": "page-0324#jansson-2004", "text": "Publishers, Dordrecht, the Netherlands, 445-463."},
+    {"type": "reference", "text": "Kingsley, M.T. and Bohlool, B.B. 1981. Release of Rhizobium spp. from tropical soils and recovery for immunofluorescence enumeration. Appl. Environ. Microbiol. 42: 241-248."},
+    {"type": "reference", "text": "Knowles, R. and Barraquio, W.L. 1994. Free-living dinitrogen-fixing bacteria. In: Weaver, R.W., Angle, S., and Bottomley, P., eds. Method of Soil Analysis, Part 2—Microbiological and Biochemical Properties. Soil Science Society of America, Madison, WI, 179-197."},
+    {"type": "reference", "text": "Kowalchuk, G.A., de Bruijn, F.J., Head, I.M., Akkermans, A.D.L., and van Elsas, J.D. 2004. Molecular Microbial Ecology Manual, 2nd ed., Vol. 1. Kluwer Academic Publishers, Dordrecht, the Netherlands. 849."},
+    {"type": "reference", "text": "Laguerre, G., Bardin, M., and Amarger, N. 1993. Isolation from soil of symbiotic and nonsymbiotic Rhizobium leguminosarum by DNA hybridization. Can. J. Microbiol. 39: 1142-1149."},
+    {"type": "reference", "text": "Laguerre, G., Mavingui, P., Allard, M.-H., Charnay, M.-P., Louvrier, P., Mazurier, S.-I., Rigottier-Gopis, L., and Amarger, N. 1996. Typing of rhizobia by PCR DNA fingerprinting and PCR-restriction fragment length polymorphism analysis of chromosomal and symbiotic gene regions: Application to Rhizobium leguminosarum and its different biovars. Appl. Environ. Microbiol. 62: 2029-2036."},
+    {"type": "reference", "text": "Louvier, P., Laguerre, G., and Amarger, N. 1995. Semiselective medium for isolation of Rhizobium leguminosarum from soils. Soil Biol. Biochem. 27: 919-924."},
+    {"type": "reference", "text": "Martin-Laurent, F., Philippot, L., Hallet, S., Chaussod, R., Germon, J.C., Soulas, G., and Catroux, G. 2001. DNA extraction from soils: Old bias for new microbial diversity analysis methods. Appl. Environ. Microbiol. 67: 2354-2359."},
+    {"type": "reference", "text": "Miller, J.H. 1972. Experiments in Molecular Genetics. Cold Spring Harbor Laboratory, Cold Spring Harbor, NY, 466."},
+    {"type": "reference", "text": "Minchin, F.R., Witty, J.F., and Mytton, L.R. 1994. Reply to ‘Measurement of nitrogenase activity in legume root nodules: In defense of the acetylene reduction assay’ by J.K. Vessey. Plant Soil 158: 163-167."},
+    {"type": "reference", "text": "Rennie, R.J. 1984. Comparison of N balance and ¹⁵N isotope dilution to quantify N₂ fixation in field grown legumes. Agron. J. 76: 785-790."},
+    {"type": "reference", "text": "Rhizobia_Taxonomy 2006. [Online] Available htpp://www.rhizobia.co.nz/RhizobiaTaxonomy.html [March 2006]."},
+    {"type": "source-fidelity-note", "scope": "Rhizobia_Taxonomy（2006）参考文献", "text": "原书网址协议误印为htpp，且网页路径与表31.1来源所列路径不同；该2006年在线分类资料仅作历史来源，不作为当前分类或可用网址。"},
+    {"type": "reference", "text": "Rice, W.A. and Olsen, P.E. 1993. Root nodule bacteria and nitrogen fixation. In: Carter, M.R., ed. Soil Sampling and Methods of Analysis. Canadian Society of Soil Science, Lewis Publishers, Boca Raton, FL, 303-317."},
+    {"type": "reference", "text": "Sahgal, M. and Johri, N. 2003. The changing face of rhizobial systemics. Curr. Sci. 84: 43-48."},
+    {"type": "source-fidelity-note", "scope": "Sahgal和Johri（2003）题名", "text": "原书清晰印作“rhizobial systemics”；常见题名用词应为“rhizobial systematics”。原文保留，检索同时索引systematics。"},
+    {"type": "reference", "text": "Sambrook, J., Fritsch, E.F., and Maniatis, T. 1989. Molecular Cloning: A Laboratory Manual. Cold Spring Harbor Laboratory Press, Woodbury, NY."},
+    {"type": "reference", "text": "Sambrook, J. and Russell, T.W. 2001. Molecular Cloning: A Laboratory Manual, 3rd ed., Cold Spring Harbor Laboratory Press. Woodbury, NY. Paperback edition or online. Available http://www.MolecularCloning.com [March 2006]."},
+    {"type": "reference", "text": "Sessitsch, A., Howieson, J.G., Perret, X., Antoun, H., and Martínez-Romero, E. 2002. Advances in Rhizobium research. Crit. Rev. Plant Sci. 21: 323-378."},
+    {"type": "reference", "text": "Singh, G. and Wright, D. 2003. Faults in determining nitrogenase activity. J. Agron. Crop Sci. 189: 162-168."},
+    {"type": "reference", "text": "Smith, D.L. and Hume, D.J. 1987. Comparison of assay methods for nitrogen fixation utilizing white bean and soybean. Can. J. Plant Sci. 67: 11-20."},
+    {"type": "reference", "text": "Somasegaran, P. and Hoben, H.J. 1994. Handbook of Rhizobia Methods in Legume-Rhizobium Technology. Springer-Verlag, New York, NY, 450."},
+    {"type": "reference", "text": "Sullivan, J.T., Eardly, B.D., van Berkum, P., and Ronson, C.W. 1996. Four unnamed species of nonsymbiotic rhizobia isolated from the rhizosphere of Lotus corniculatus. Appl. Environ. Microbiol. 62: 2818-2825."},
+    {"type": "printed-page-number", "text": "294"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c6984247bce48982c3bd95af496c83e374c00590fe1da148de482722d6b02f28"
+}

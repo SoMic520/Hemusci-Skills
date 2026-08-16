@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 42,
+  "sourceImageSha256": "592d01c6d3045ed9ffeccf87e2dcb66e9aaf68dc56fff6862f86d25a26b44ee6",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文与参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部漏字与错字"},
+    "precisionPass": {"status": "verified", "method": "放大核对克里格/协同克里格、半方差函数、相干谱、小波方差、2次幂、64/128/256及4条英文参考文献"},
+    "secondVisualPass": {"status": "verified", "method": "按续接段落、编号层级、术语、数值、引文、参考文献作者题名卷页和页码顺序反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第1章｜土壤采样设计｜"},
+    {"type": "paragraph", "continuation": true, "text": "的范围。克里格法使用已知区域的土壤属性值来估算未知区域的土壤属性值。通过使用交叉半方差函数和协同克里格法，可以探究两个不同土壤性质之间的空间相关性。"},
+    {"type": "paragraph", "text": "常用的采样设计中，确定最佳采样间隔和定义土壤边界的是线性横断面。如果样本点之间是等距的，那么这种情况的计算最简单；然而如果间隔不相等，应进行复杂的数学计算。如果研究区域中有可识别的地形特征，则横断面应垂直于这些特征的走向。"},
+    {"type": "paragraph", "text": "克里格法要求用网格法在研究区域中进行采样。样点位置是通过在一组预先确定的网格节点进行随机选择的。在这种情况下，样点位置之间的距离不相等。有效的网格设计和克里格法可以基于在同一区域内沿横断面的原始采样点建立的半方差函数。"},
+    {"type": "paragraph", "text": "地统计学要求平稳性假设，即在同一区域中所有土壤属性值均匀分布。这一假设并非总是正确的，超过一定的范围后土壤性质可能会发生变化。对于尺度分析和非平稳性分布，必须使用更先进的统计技术。"},
+    {"type": "procedure-heading", "level": 5, "number": "2．", "title": "频谱分析采样"},
+    {"type": "paragraph", "text": "在地貌重复的景观中，如丘陵或起伏的地形，土壤性质的不断变化可能导致一系列的数据具有重复的高低循环。我们可运用频谱分析技术在一定频域内考察其周期性（详见 McBratney 等2002年关于这些技术的阐述）。数据序列的总方差用频率来划分。如果方差主要与该周期所显示的频率有关，则认为土壤性质在某一特定周期内是循环变化的。周期与尺度或距离相似，特别像半方差函数中的变程。但与半方差函数不同的是，我们可以从中识别多个尺度。交叉谱可以识别共同循环的土壤特性，相干谱可以识别同一区域内两种性质可能正相关或负相关的尺度。"},
+    {"type": "paragraph", "text": "线性横断面是获得频谱分析所需数据序列最常用的采样设计。它要求样本间距必须是一致的。对于地统计学方法，样本数量、样本间距和横断面方向的选择应该最能代表区域的景观特征。"},
+    {"type": "procedure-heading", "level": 5, "number": "3．", "title": "小波分析采样"},
+    {"type": "paragraph", "text": "地统计学和频谱分析均要求平稳性假设。然而非平稳性也会出现，比如土地用途或地貌发生变化时出现的多个参数值。小波分析不需要平稳性假设（详见 McBratney 等，2002；Si，2003中关于这种方法的阐述）。小波是一个数学函数，它为数据序列中的每个点生成局部小波方差。与频谱分析一样，小波根据频率（尺度）对数据序列的总方差进行分配，但与频谱分析不同的是，总方差也根据空间（位置）进行分配。小波方法使我们能够分辨出该区域中发生的多个进程、进程运行的尺度，以及这些进程在数据序列中的位点或分布。"},
+    {"type": "paragraph", "text": "与频谱分析一样，小波分析要求收集来自沿线性横断面等距位点的数据序列。小波分析按照2次幂对数据重新标度，因此横断面包含2次幂数据点（64，128，256，…）时计算速度最快（Si，2003）。所以，大尺度横断面通常采用小波分析。如果横断面位置的数量不是2的次幂时，可以用零到最近的2的幂次补充数据序列。对详细的尺度分析来说，128个位点的横断面已经足够，这也易于大部分研究实际操作。"},
+    {"type": "section-heading", "level": 3, "title": "参考文献"},
+    {"type": "reference", "text": "Blaylock, A.D., Bjornest, L.R., and Lauer, J.G. 1995. Soil probe lubrication and effects on soil chemical-composition. Commun. Soil Sci. Plant Anal. 26: 1687-1695."},
+    {"type": "reference", "text": "Brus, D.J. and de Gruijter, J.J. 1997. Random sampling or geostatistical modelling? Choosing between design-based and model-based sampling strategies for soil(with discussion). Geoderma 80: 1-44."},
+    {"type": "reference", "text": "Cline, M.G. 1944. Principles of soil sampling. Soil Sci. 58: 275-288."},
+    {"type": "reference", "text": "de Gruijter, J.J. 2002. Sampling. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Inc., Madison, WI, 45-79."},
+    {"type": "printed-page-number", "text": "11"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d2d4a8ef2f0b4429fe0ae42db249298dd3a0356a3822d76015fba1e50c9e1247"
+}

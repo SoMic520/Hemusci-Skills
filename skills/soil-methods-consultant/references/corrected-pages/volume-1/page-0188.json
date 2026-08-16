@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 188,
+  "sourceImageSha256": "0e3dc7381dc87215907bf867ace76a6ecd988a4464dbc2d0b9e9927074d98e2f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率干烧法页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复19.3原理、材料试剂、步骤及19.3.3测定说明"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验6.4%/2.0%、KOH、KCl、mol L⁻¹、0.5 g、60目、1 000 g、105 ℃、Y、50～100 mg、1 030 ℃、N₂、NOₓ和Z%"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Z%反向复核至19.3标题，确认步骤（3）原书重复“取下离心管”、步骤（6）“两次以上”、非交换态/非交换性术语及页码157"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第19章｜非交换态铵的测定｜"},
+    {"type": "section-heading", "level": 2, "number": "19.3", "title": "次溴酸钾—氯化钾浸提土壤干烧法"},
+    {"type": "paragraph", "text": "Nieder等（1996）最早提出了对Silva-Bremner法的修订，但在Liang等（1999）对此法进行广泛测试和验证后才受到了重视。此法前处理与Silva-Bremner法一样，通过氧化去除有机质分解产生的铵及交换性铵，此时可以假设剩余的铵就是非交换态铵。随后用杜马仕干烧法干烧样品、自动定氮仪测定样品中的这部分非交换态铵。Liang等（1999）的研究结果表明干烧法对非交换性铵的回收率为100%，而且得到了与Silva-Bremner法相似的结果，用Silva-Bremner法和修订法分别对17个土壤的测定表明，其变异系数分别为6.4%和2.0%。"},
+    {"type": "section-heading", "level": 3, "number": "19.3.1", "title": "材料与试剂"},
+    {"type": "material-item", "number": "（1）", "text": "带内螺丝盖的50 mL聚丙烯或聚乙烯离心管。"},
+    {"type": "reagent-item", "number": "（2）", "name": "2 mol L⁻¹的KOH溶液", "text": "把112.2 g KOH溶于约600 mL蒸馏水中，冷却后稀释至1 L。"},
+    {"type": "reagent-item", "number": "（3）", "name": "次溴酸钾溶液（随用随配）", "text": "把6 mL液溴缓慢加入200 mL 2 mol L⁻¹的KOH溶液中（每分钟约0.5 mL），并不停地进行搅拌。在加液过程中，KOH溶液就置于冰浴中进行冷却。"},
+    {"type": "reagent-item", "number": "（4）", "name": "0.5 mol L⁻¹的氯化钾溶液", "text": "把149 g氯化钾溶于600 mL蒸馏水中并定容至4 L。"},
+    {"type": "material-item", "number": "（5）", "text": "沸水浴。"},
+    {"type": "material-item", "number": "（6）", "text": "往复式振荡器。"},
+    {"type": "section-heading", "level": 3, "number": "19.3.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "准确称取0.5 g过60目筛的土样，加入50 mL离心管中，记录离心管和土壤的总重，加10 mL次溴酸钾溶液后拧紧盖子。颠倒离心管几次使其内容物充分混合，拧松盖子静置2 h，同时水浴加热。"},
+    {"type": "procedure-step", "number": "（2）", "text": "把放有离心管的试管架浸于沸水浴中，并使沸水浴液面高于离心管中的次溴酸钾液面。待离心管中的液体沸腾后，再加热10 min。"},
+    {"type": "procedure-step", "number": "（3）", "text": "取下离心管，使离心管内容物冷却和沉淀后取下离心管。如果有必要，那么可以在1 000 g力下离心5 min。"},
+    {"type": "source-fidelity-note", "scope": "19.3.2（3）", "text": "原书同一句两次印有“取下离心管”，按原文保留。"},
+    {"type": "procedure-step", "number": "（4）", "text": "轻轻倒掉上清液。"},
+    {"type": "procedure-step", "number": "（5）", "text": "在离心管中加入30 mL 0.5 mol L⁻¹的KCl溶液，振荡5 min使土壤充分分散，在1 000 g力下离心5 min，倒掉上清液。"},
+    {"type": "procedure-step", "number": "（6）", "text": "重复步骤5两次以上。"},
+    {"type": "procedure-step", "number": "（7）", "text": "将残余物在105 ℃烘箱中烘一整夜或进行冷冻干燥。"},
+    {"type": "procedure-step", "number": "（8）", "text": "称残留物的重量（重量表示为Y，单位为g）。"},
+    {"type": "section-heading", "level": 3, "number": "19.3.3", "title": "残余物中非交换性铵的测定"},
+    {"type": "paragraph", "text": "依据氮素自动分析仪的分析步骤，用锡箔纸称取50～100 mg土样放入自动取样器中，在1 030 ℃的有氧条件下灼烧。除其他燃烧产物外，将土样中的非交换态铵全部转换成N₂和NOₓ气体。将这些气体导入含有铜的高温还原炉内除掉多余的氧，同时使NOₓ转换成N₂，利用气相色谱法分离并用热导检测器测定N₂的浓度。更多关于氮素的干烧法测定细节见第22章。自动分析仪需要用标准物进行校正。"},
+    {"type": "paragraph", "text": "由于样品测定是在去除有机物后进行的，因此需要把测定结果转换成以称取的原始土壤干重为基础的结果。需要注意以下几点。"},
+    {"type": "list-item", "number": "（1）", "text": "仪器测得的非交换态铵的含量是以去除有机质的残余物为基础的百分含量（Z%）。"},
+    {"type": "printed-page-number", "text": "157"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c76242aa7a00eb971f2bb5a3dcc76eaacb5a8c9d73417d8302281ef262bb534e"
+}

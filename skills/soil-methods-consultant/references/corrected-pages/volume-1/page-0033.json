@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 33,
+  "sourceImageSha256": "89502687343a91096ef2659c8392e2266c2632b8b8dcbdf9567a42421fd38e8f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐字对照原分辨率署名页，并与Apple Vision、PaddleOCR两份机器稿交叉比对"},
+    "precisionPass": {"status": "verified", "method": "核对角色标识及三位姓名用字"},
+    "secondVisualPass": {"status": "verified", "method": "从姓名末字向前反向逐字复核原页"}
+  },
+  "blocks": [
+    {"type": "credit", "role": "主译", "names": ["李晓晶", "孙扬", "赵丽霞"], "text": "主译：李晓晶　孙扬　赵丽霞"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "197fd2daabca5ed8aff8c2b4856712084398e2942cdfc3d3e7eb8f7537f04fd8"
+}

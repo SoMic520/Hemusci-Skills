@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 477,
+  "sourceImageSha256": "7ba0171598b335e23293ca06e8d9462fdfd580cec9d55aa61a9a027171aeb68d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页和两套OCR，完成47.2.3四条注释、47.3原理及47.3.1五项材料；恢复NaI配液和抽滤装置元件"},
+    "precisionPass": {"status": "verified", "method": "核验1000/250/53 μm、2 mm、48 h、比重1.7、1 L水+1200 g NaI、84 g/90 mL、25 g土/90 mL、0.45 μm及0.01 mol·L⁻¹ CaCl₂"},
+    "secondVisualPass": {"status": "verified", "method": "由材料（5）反向复核至47.2.3注释（1），检查每个质量、体积、筛孔、滤膜和容器规格；印刷页码446"}
+  },
+  "blocks": [
+    {"type": "section-heading", "level": 3, "number": "47.2.3", "title": "注释"},
+    {"type": "note", "number": "（1）", "text": "分散前通常风干土样，避免含水量变化的影响。预处理或分散时摩擦过强会打碎大块有机质，降低POM回收。湿筛前也可用超声或玻璃珠振荡分散，但必须控制分散强度，不得改变POM总回收量（Oorts等，2005）。"},
+    {"type": "note", "number": "（2）", "text": "可用洗瓶把砂粒级物质冲入预称重干燥锡盒，蒸发过夜后于60 °C干燥。避免POM长时间处于高温水相，以免C或养分溶解改变组成。"},
+    {"type": "note", "number": "（3）", "text": "砂粒结合的少量有机质通常被假定不会显著影响C和养分浓度；若需无砂POM干质量或后续分析，可把砂粒有机质在重液中再悬浮，进一步密度分离（Cambardella和Elliott，1992），且后续分析前必须洗尽重液。"},
+    {"type": "note", "number": "（4）", "text": "研究残体分解时可细分POM：在53 μm筛上叠放如1000 μm和250 μm筛，分离不同粒级（Magid和Kjærgaard，2001；Oorts等，2005）。"},
+    {"type": "section-heading", "level": 2, "number": "47.3", "title": "轻组有机质"},
+    {"type": "paragraph", "text": "土壤悬浮于重液后，较重组分沉降、轻组分聚集在上部，可从矿质土中分离LF。密度分组假定轻质颗粒主要是新近加入、部分分解、尚未腐殖化的有机质，较不稳定、较活跃；重质颗粒吸附更多腐殖态有机质。本法把土壤在比重1.7的NaI中振荡，矿质颗粒沉降48 h后回收悬浮LF。"},
+    {"type": "section-heading", "level": 3, "number": "47.3.1", "title": "材料与试剂"},
+    {"type": "materials-list", "items": [
+      {"number": "（1）", "text": "2 mm筛。"},
+      {"number": "（2）", "text": "往复式或旋转式振荡机；带盖塑料瓶或玻璃瓶；带橡胶塞、至少250 mL高脚烧杯。记录振荡方式、速度（r·min⁻¹）、瓶方向和形状，因为会影响分散程度。"},
+      {"number": "（3）", "text": "比重1.7的NaI溶液：在磁力搅拌、加热条件下，向盛1 L水的大烧杯缓慢加1200 g NaI；溶解后冷却至室温，以比重计调至1.7。每90 mL约含84 g NaI；每25 g土需90 mL溶液。"},
+      {"number": "（4）", "text": "抽吸装置：45°管尖一次性吸管连接真空管；多孔玻璃过滤器；可拆漏斗与固定夹；两个1 L吸滤瓶，分别收集可回用重液和废洗液；尼龙或定量滤纸制滤膜，例如0.45 μm微孔膜，以回收LF并避免滤纸C污染。"},
+      {"number": "（5）", "text": "三个洗瓶，分别装比重1.7 NaI、0.01 mol·L⁻¹ CaCl₂和蒸馏水。"}
+    ]}
+  ],
+  "formulas": [
+    {"id": "47.3.1-nai-recipe", "display": "1 L H₂O + 1200 g NaI → adjust specific gravity to 1.7 at room temperature", "meaning": "NaI重液配制；冷却后再调比重"},
+    {"id": "47.3.1-nai-use", "display": "90 mL NaI solution per 25 g soil", "meaning": "每次分离的重液用量"}
+  ],
+  "tables": [],
+  "contentSha256": "feed84feb2e22a73a05bfa3a199f4fef339c9285cf863dc958d71f9b856ef8ee"
+}

@@ -1,0 +1,88 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 307,
+  "sourceImageSha256": "9798cff9d7508eb30b08a2f38b5d9e879492fa06110cdf12f7793cf000a53b4f",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐项核对图83.3及83.4注释(1)～(4)跨页处"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对式(83.13)、式(83.14a～c)的求和上下限、权重、深度符号及20～30 cm"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "以不等距探头控制体积法复核T_i、T₁、T_n，并验证n=1特例；印刷页码816"
+    }
+  },
+  "blocks": [
+    {
+      "type": "figure",
+      "number": "83.3",
+      "title": "瞬时剖面法：深度z处导水率K(θ)与体积含水量θ_z算例（式83.12）",
+      "axes": {
+        "x": "体积含水量θ_z (cm³·cm⁻³)，范围0.30～0.50",
+        "y": "导水率K(θ) (cm·s⁻¹)，对数坐标10⁻⁶～10⁻¹"
+      },
+      "dataSource": "表83.1(c)"
+    },
+    {
+      "type": "heading",
+      "number": "83.4",
+      "title": "注释",
+      "level": 2
+    },
+    {
+      "type": "numbered-notes",
+      "items": [
+        {
+          "number": 1,
+          "text": "关键条件是水流完全垂直且仅为重力排水，应避免横向水流（如地表下有阻水层或水位较浅）和向上水流（如地表蒸发/蒸腾）。"
+        },
+        {
+          "number": 2,
+          "text": "单管、多深度基质水头探头（如多层张力计）和含水量探头（如经管道把TDR或中子探测器置于不同深度）更适合本法，可把测量导管减至两条，从而减小剖面扰动和“短路”水流通向传感器的潜在路径。"
+        },
+        {
+          "number": 3,
+          "text": "含水量探头垂直间距差异较大时，用加权算术平均计算θ̄(t)_z。z为所考虑深度，n为地表至z的探头数，θ(t)_i为第i个探头测得的含水量，T_i为由探头深度决定的权重。d_i为地表至第i个探头的深度，d₁为最浅探头深度，d_n与所考虑的深度相关。若所考虑探头为最浅探头i=1，或仅有一个探头n=1，则T₁=d₁=z且θ̄(t)_z=θ(t)_z。"
+        },
+        {
+          "number": 4,
+          "text": "完全分析法（式83.7、83.8）在距介质表面20～30 cm内很难测得可靠的K—θ—ψ关系，因为近地表水力梯度很小，地表q(z,t)=0使其接近0（见式83.2）。简化分析法（式83.12）可用于全部深度；其地表取样应用续见下一页。"
+        }
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "label": "83.13",
+      "plain": "θ̄(t)_z=(1/z)Σᵢ₌₁ⁿθ(t)_iT_i；i=1,2,3,…,n；n>1",
+      "latex": "\\bar{\\theta}(t)_z=\\frac{1}{z}\\sum_{i=1}^{n}\\theta(t)_iT_i,\\qquad i=1,2,3,\\ldots,n,\\quad n>1"
+    },
+    {
+      "label": "83.14a",
+      "plain": "T_i=(d_{i+1}−d_{i−1})/2；i=2,3,4,…,n−1",
+      "latex": "T_i=\\frac{d_{i+1}-d_{i-1}}{2},\\qquad i=2,3,4,\\ldots,n-1"
+    },
+    {
+      "label": "83.14b",
+      "plain": "T₁=(d₁+d₂)/2；i=1",
+      "latex": "T_1=\\frac{d_1+d_2}{2},\\qquad i=1"
+    },
+    {
+      "label": "83.14c",
+      "plain": "T_n=(d_n−d_{n−1})/2；i=n",
+      "latex": "T_n=\\frac{d_n-d_{n-1}}{2},\\qquad i=n"
+    },
+    {
+      "label": "单探头特例",
+      "plain": "T₁=d₁=z；θ̄(t)_z=θ(t)_z",
+      "latex": "T_1=d_1=z,\\qquad \\bar{\\theta}(t)_z=\\theta(t)_z"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "9f29ef3d8d1c18b16c98834f3f87ef753db5e0f1698961982530913652d77c1a"
+}

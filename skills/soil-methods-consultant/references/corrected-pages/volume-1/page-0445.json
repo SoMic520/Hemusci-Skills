@@ -1,0 +1,51 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 445,
+  "sourceImageSha256": "dd380b781c532c82d0c1ec6af4e7fbc913890ebd08011366af326088288c9b52",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、两套OCR及英文原版43.3.2～43.4.1跨页处"},
+    "precisionPass": {"status": "verified", "method": "核验1～1,000/25/100/0.5/10/96/4 μL、Taq 5 U·μL⁻¹与3 U、10×、0.5 μmol·L⁻¹引物、0.2 mmol·L⁻¹ dNTP、25 mmol·L⁻¹ MgCl₂、40 ng、94/65→55/72 °C、3×7+14=35循环、−20 °C及GC夹子"},
+    "secondVisualPass": {"status": "verified", "method": "由43.4.1末行反向复核至43.3.2标题，把触地PCR全部循环转为表格后复算循环总数和100 μL终体积；印刷页码414"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "43.3.2", "title": "材料与试剂"},
+    {"type": "material-item", "number": "（1）", "text": "冰桶、冰。"},
+    {"type": "material-item", "number": "（2）", "text": "PCR专用微量移液器（1～1,000 μL）及无菌气溶胶屏障吸头。"},
+    {"type": "material-item", "number": "（3）", "text": "适合25 μL或100 μL反应的塑料PCR管。"},
+    {"type": "material-item", "number": "（4）", "text": "热循环仪，最好带热盖。"},
+    {"type": "material-item", "number": "（5）", "text": "带紫外灯的PCR配制工作台，用于灭活环境DNA污染物（推荐）。"},
+    {"type": "reagent-item", "number": "（6）", "text": "PCR主混合液试剂：Taq DNA聚合酶（5 U·μL⁻¹）、10×反应缓冲液、dNTPs、25 mmol·L⁻¹ MgCl₂。"},
+    {"type": "reagent-item", "number": "（7）", "text": "寡核苷酸引物：细菌16S rDNA通用引物，其中一个按Santegoeds等（1998）加GC夹子。"},
+    {"type": "reagent-item", "number": "（8）", "text": "用于PCR的纯化土壤DNA模板。"},
+    {"type": "section-heading", "level": 3, "number": "43.3.3", "title": "操作步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "标记灭菌0.5 mL PCR管并置冰上。配制不含土壤DNA模板的PCR主混合液，按反应数分装并记录总体积。每个反应最终体积100 μL：10 μL 10×PCR缓冲液；各引物终浓度0.5 μmol·L⁻¹；各dNTP终浓度0.2 mmol·L⁻¹；Taq聚合酶3 U；以灭菌Milli-Q水补至96 μL。"},
+    {"type": "procedure-step", "number": "（2）", "text": "冰上加入4 μL DNA模板（通常为土壤DNA的1∶10稀释液，约含40 ng DNA），反复吹吸混匀，置热循环仪作触地PCR；循环条件见表43.3-PCR。完成后−20 °C保存。"},
+    {"type": "source-fidelity-note", "scope": "43.3.3体积与浓度", "text": "英文电子文本把μL/μmol·L⁻¹识别成mL/mM；中文页面亦有“4 mL”误排。按100 μL终体积闭合：主混合液96 μL+模板4 μL=100 μL；引物0.5 μmol·L⁻¹，各dNTP 0.2 mmol·L⁻¹。"},
+    {"type": "procedure-step", "number": "（3）", "text": "用1%琼脂糖凝胶电泳检查PCR产物片段大小和产量，操作见43.2.3。"},
+    {"type": "section-heading", "level": 2, "number": "43.4", "title": "DGGE技术解析群落组成（Muyzer和Smalla，1998）"},
+    {"type": "section-heading", "level": 3, "number": "43.4.1", "title": "注意事项及原则"},
+    {"type": "paragraph", "text": "混合土壤DNA模板扩增所得PCR片段大小近似相同，反映两个保守引物结合位点间DNA长度大体一致，故普通琼脂糖凝胶不能按片段大小将其分开。DGGE在含尿素和甲酰胺垂直浓度梯度的凝胶中，按序列组成决定的熔解行为分离DNA。两个引物中的一个带富GC、难变性的GC夹子；双链PCR产物迁移至最低熔解温度结构域开始解链的位置，部分变性分子仍由双链GC夹子连接并停止迁移。不同熔解行为的片段形成位于不同位置的一系列条带，构成随细菌种类和数量变化的群落指纹。DGGE可分析16S rDNA或编码目标酶的功能基因[续见第446页]。"},
+    {"type": "printed-page-number", "text": "414"}
+  ],
+  "formulas": [
+    {"id": "43.3.3-volume-check", "plain": "96 μL master mix+4 μL DNA template=100 μL reaction", "context": "PCR终体积闭合"},
+    {"id": "43.3.3-cycle-check", "plain": "7 annealing-temperature blocks×3 cycles+14 cycles at 55 °C=35 cycles", "context": "触地PCR循环总数"}
+  ],
+  "tables": [
+    {"id": "table-43.3-PCR", "title": "触地PCR热循环程序", "columns": ["阶段", "变性", "退火", "延伸", "循环数"], "rows": [
+      ["预变性", "94 °C, 5 min", "—", "—", 1],
+      ["触地1", "94 °C, 1 min", "65 °C, 1 min", "72 °C, 2 min", 3],
+      ["触地2", "94 °C, 1 min", "63 °C, 1 min", "72 °C, 2 min", 3],
+      ["触地3", "94 °C, 1 min", "61 °C, 1 min", "72 °C, 2 min", 3],
+      ["触地4", "94 °C, 1 min", "59 °C, 1 min", "72 °C, 2 min", 3],
+      ["触地5", "94 °C, 1 min", "58 °C, 1 min", "72 °C, 2 min", 3],
+      ["触地6", "94 °C, 1 min", "57 °C, 1 min", "72 °C, 2 min", 3],
+      ["触地7", "94 °C, 1 min", "56 °C, 1 min", "72 °C, 2 min", 3],
+      ["主循环", "94 °C, 1 min", "55 °C, 1 min", "72 °C, 2 min", 14],
+      ["终延伸", "—", "—", "72 °C, 5 min", 1]
+    ], "note": "扩增循环共35次，不含预变性和终延伸。"}
+  ],
+  "contentSha256": "a5cb119e393072eb1e9132732f76e01d120030578635be1d5d981e16a043c5c1"
+}

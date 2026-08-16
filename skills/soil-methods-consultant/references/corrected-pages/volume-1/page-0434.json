@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 434,
+  "sourceImageSha256": "969d7e152f15fdb667a1d3cfab1cb8b23ca2d28e76a6fda3f557e49125ab5e9f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率中文页面、两套OCR及英文原版第41章参考文献末页"},
+    "precisionPass": {"status": "verified", "method": "核验ED₅₀下标、作者大小写与缩写、卷页号、连字符和译校信息；恢复Renella承上条目"},
+    "secondVisualPass": {"status": "verified", "method": "由译校行反向复核Wen末条至Renella承上句，逐字符检查标点、卷页号和印刷页码403"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第41章｜土壤ATP"},
+    {"type": "bibliography", "text": "Renella, G., Reyes Ortigoza, A.L., Landi, L., and Nannipieri, P. 2003. Additive effects of copper and zinc on cadmium toxicity to phosphatase activities and ATP content of soil as estimated by the ecological dose (ED₅₀). Soil Biol. Biochem. 35: 1203–1210."},
+    {"type": "bibliography", "text": "Shannon, D., Sen, A.M., and Johnson, D.B. 2002. A comparative study of the microbiology of soils managed under organic and conventional regimes. Soil Use Manage. 18: 274–283."},
+    {"type": "bibliography", "text": "Tate, K.R. and Jenkinson, D.S. 1982. Adenosine triphosphate (ATP) and microbial biomass in soil: effects of storage at different temperature and different moisture levels. Commun. Soil Sci. Plant Anal. 13: 899–908."},
+    {"type": "bibliography", "text": "Vaden, V.R., Webster, J.J., Hampton, G.J., Hall, M.S., and Leach, F.R. 1987. Comparison of methods for extraction of ATP from soil. J. Microbiol. Methods 7: 211–217."},
+    {"type": "bibliography", "text": "Verstraete, W., Van de Werf, H., Kucnerowicz, F., Ilaiwi, M., Verstraeten, L.M.J., and Vlassak, K. 1983. Specific measurement of soil microbial ATP. Soil Biol. Biochem. 15: 391–396."},
+    {"type": "bibliography", "text": "Webster, J.J., Hampton, G.J., and Leach, F.R. 1984. ATP in soil: a new extractant and extraction procedure. Soil Biol. Biochem. 16: 335–342."},
+    {"type": "bibliography", "text": "Wen, G., Voroney, R.P., Curtin, D., Schoenau, J.J., Qian, P.Y., and Inanaga, S. 2005. Modification and application of a soil ATP determination method. Soil Biol. Biochem. 37: 1999–2006."},
+    {"type": "bibliography", "text": "Wen, G., Voroney, R.P., Schoenau, J.J., Yamamoto, T., and Chikushi, J. 2001. Assessment of ionic quenching on soil ATP bioluminescence reaction. Soil Biol. Biochem. 33: 1–7."},
+    {"type": "translator-note", "text": "虞梦婕译，徐建明校。"},
+    {"type": "printed-page-number", "text": "403"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "3917349c9ff9b7fe54ecf27f36d0293283992a6bbcec9d60f32cc6a12532f121"
+}

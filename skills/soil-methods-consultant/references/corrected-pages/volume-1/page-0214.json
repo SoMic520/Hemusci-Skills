@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 214,
+  "sourceImageSha256": "8aa386b68b28fab868b95834e6655019ccb14453155fe1c0635067999659436c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第22章第183页，并与Apple Vision、PaddleOCR交叉比对，人工恢复22.3.3步骤（3）～（12）、22.3.4～22.3.6及22.4杜马斯法正文"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验KMnO₄、NO₂⁻、NO₃⁻、NH₄⁺、NOₓ、N₂、O₂、¹⁵N、45°、30 s、0.5 g、100 ℃、1 h及式（22.1）交叉引用"},
+    "secondVisualPass": {"status": "verified", "method": "从页末未完“在”反向复核至步骤（3），确认12步流程续接、方法层级、化学上下标、电荷、专名及页码183"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第22章｜全氮｜"},
+    {"type": "procedure-step", "number": "（3）", "text": "向消煮管中加入1 mL KMnO₄溶液并且振荡30 s。"},
+    {"type": "procedure-step", "number": "（4）", "text": "使消煮管倾斜成45°，用移液管缓慢加入2 mL稀硫酸。"},
+    {"type": "procedure-step", "number": "（5）", "text": "静置5 min。"},
+    {"type": "procedure-step", "number": "（6）", "text": "加入一滴正辛醇，控制泡沫产生。"},
+    {"type": "procedure-step", "number": "（7）", "text": "用小勺通过干燥的长颈漏斗或长颈漏斗管向消煮管中加入0.5 g还原铁粉。"},
+    {"type": "procedure-step", "number": "（8）", "text": "立即用25 mL烧杯或50 mL锥形瓶倒置盖住消煮管，防止水分散失。"},
+    {"type": "procedure-step", "number": "（9）", "text": "振荡消煮管使铁粉与酸充分接触。"},
+    {"type": "procedure-step", "number": "（10）", "text": "持续约15 min直至强烈起泡现象停止。"},
+    {"type": "procedure-step", "number": "（11）", "text": "将消煮管放入消煮炉中，使温度升高到100 ℃并保持1 h。"},
+    {"type": "procedure-step", "number": "（12）", "text": "在继续进行消煮前，先让消煮管冷却。"},
+    {"type": "method-subheading", "number": "22.3.4", "title": "步骤：消煮、蒸馏、滴定"},
+    {"type": "cross-reference", "text": "与22.2.3第3～20步相同。"},
+    {"type": "method-subheading", "number": "22.3.5", "title": "计算"},
+    {"type": "cross-reference", "text": "见22.2.4中的式（22.1）。"},
+    {"type": "method-subheading", "number": "22.3.6", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "用KMnO₄将NO₂⁻氧化为NO₃⁻，用还原性铁粉将NO₃⁻还原为NH₄⁺。"},
+    {"type": "note-item", "number": "（2）", "text": "加正辛醇的目的是控制起泡产生。"},
+    {"type": "note-item", "number": "（3）", "text": "Goh（1972）提出，在进行含NO₃⁻的全氮测定时，若以还原性铁粉作为还原剂，则无须用高锰酸盐做预处理。"},
+    {"type": "note-item", "number": "（4）", "text": "其余重要注释见22.2.5。"},
+    {"type": "method-heading", "number": "22.4", "title": "杜马斯法"},
+    {"type": "paragraph", "text": "目前有一些自动化测定的杜马斯设备（Kirsten和Jansson，1986；Tabatabai和Bremner，1991；Bremner，1996）。许多设备使样品在纯氧气流中高温燃烧产生NOₓ和N₂。一定数量的气体与纯氦气一起被输送到还原区，在还原区内铜把NOₓ还原成N₂，随后用热导检测器测定N₂的含量。还有一些装置可以在纯氦气环境中使样品在温度极高的石墨坩埚中熔化，然后用气相色谱法测定N₂（Bremner，1996）。也有许多可以测定其他元素（例如，C、H、S、O）的装置设备。杜马斯法的实验步骤多变且设备依赖性高，所以在这里不便提出通用的方法。"},
+    {"type": "paragraph", "continued": true, "text": "与凯氏法相比，杜马斯法有以下优点：需要更少的实验空间，可以快速分析，需要更少的化学试剂，不会产生有害气体或危险性化学废弃物，可以测定所有形式的氮而不需要复杂的预处理过程（Bellomonte等，1987；Vittori Antisari和Sequi，1988）。当氮素连续流动分析仪与同位素质谱仪连接时，此方法适用于¹⁵N的示踪研究（Fielder和Proksch，1975；Minagawa等，1984；Marshall和Whiteway，1985）。在"},
+    {"type": "printed-page-number", "text": "183"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "43c20a3db6fa299997056c08013ec614cd0184db7dc5db79f2241b8ab2151c11"
+}

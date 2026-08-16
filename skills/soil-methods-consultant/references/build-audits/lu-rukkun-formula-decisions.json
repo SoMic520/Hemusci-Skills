@@ -1,0 +1,2024 @@
+{
+  "decisions": {
+    "P6-F1": {
+      "latex": "\\omega(\\mathrm{K_2O})=50\\%",
+      "plain": "ω(K₂O)=50%",
+      "label": "氧化钾质量分数"
+    },
+    "P6-F4": {
+      "reject": true,
+      "reason": "目录行只截取到ω(P)=，不是完整公式"
+    },
+    "P30-F3": {
+      "latex": "n=\\frac{t^2S^2}{D^2}",
+      "plain": "n=t²S²/D²",
+      "label": "样本容量计算公式"
+    },
+    "P40-F3": {
+      "reject": true,
+      "reason": "氯化钙浓度标签被截断，后续有完整配方"
+    },
+    "P40-F4": {
+      "latex": "\\left[c(\\mathrm{CaCl_2\\cdot2H_2O})=0.01\\,\\mathrm{mol\\cdot L^{-1}}\\right]",
+      "plain": "c(CaCl₂·2H₂O)=0.01 mol·L⁻¹",
+      "label": "氯化钙二水合物溶液浓度"
+    },
+    "P41-F2": {
+      "reject": true,
+      "reason": "氯化钾浓度标签缺少L⁻¹，后续有完整配方"
+    },
+    "P41-F3": {
+      "reject": true,
+      "reason": "盐酸浓度标签缺少L⁻¹，非完整公式"
+    },
+    "P42-F1": {
+      "reject": true,
+      "reason": "硫酸体积分数标签缺少数值"
+    },
+    "P42-F3": {
+      "reject": true,
+      "reason": "氢氧化钠浓度标签缺少单位，后续有完整配方"
+    },
+    "P43-F2": {
+      "reject": true,
+      "reason": "氯化钾浓度标签缺少L⁻¹，后续有完整配方"
+    },
+    "P44-F1": {
+      "latex": "\\mathrm{cmol\\cdot kg^{-1}}(\\tfrac13\\mathrm{Al^{3+}})=\\frac{[(V_1-V_0)-(V_2-V_0')]c\\,ts\\times10^{-1}}{m}\\times1000",
+      "plain": "cmol·kg⁻¹(1/3Al³⁺)=[(V₁−V₀)−(V₂−V₀′)]c·ts×10⁻¹/m×1000",
+      "label": "交换性铝计算公式"
+    },
+    "P44-F2": {
+      "latex": "\\mathrm{cmol\\cdot kg^{-1}}(\\mathrm{H^+})=\\frac{(V_2-V_0')c\\,ts\\times10^{-1}}{m}\\times1000",
+      "plain": "cmol·kg⁻¹(H⁺)=(V₂−V₀′)c·ts×10⁻¹/m×1000",
+      "label": "交换性氢计算公式"
+    },
+    "P45-F1": {
+      "latex": "c(\\mathrm{KCl})=1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(KCl)=1 mol·L⁻¹",
+      "label": "氯化钾溶液浓度"
+    },
+    "P46-F3": {
+      "reject": true,
+      "reason": "氯化钙浓度标签被截断，与同页完整式重复"
+    },
+    "P52-F1": {
+      "accept": true
+    },
+    "P53-F17": {
+      "latex": "c(\\mathrm{BaCl_2})=0.002\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(BaCl₂)=0.002 mol·L⁻¹",
+      "label": "氯化钡溶液浓度"
+    },
+    "P54-F1": {
+      "latex": "\\mathrm{CEC},\\,\\mathrm{cmol\\cdot kg^{-1}}(+)=\\frac{100(0.1-c_1V_2)}{m}",
+      "plain": "CEC，cmol·kg⁻¹(+)=100(0.1−c₁V₂)/m",
+      "label": "水调电导率时的阳离子交换量计算公式"
+    },
+    "P54-F2": {
+      "latex": "\\mathrm{CEC},\\,\\mathrm{cmol\\cdot kg^{-1}}(+)=\\frac{100(0.01V_1-c_1V_2)}{m}",
+      "plain": "CEC，cmol·kg⁻¹(+)=100(0.01V₁−c₁V₂)/m",
+      "label": "硫酸镁调电导率时的阳离子交换量计算公式"
+    },
+    "P55-F2": {
+      "latex": "c(\\mathrm{NH_4Cl})=1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NH₄Cl)=1 mol·L⁻¹",
+      "label": "氯化铵溶液浓度"
+    },
+    "P55-F5": {
+      "latex": "\\varphi(\\mathrm{CH_3CH_2OH})=95\\%",
+      "plain": "φ(CH₃CH₂OH)=95%",
+      "label": "乙醇溶液体积分数"
+    },
+    "P56-F1": {
+      "latex": "\\mathrm{CEC},\\,\\mathrm{cmol\\cdot kg^{-1}}(+)=\\frac{\\rho V}{m\\times23.0\\times10^3}\\times100",
+      "plain": "CEC，cmol·kg⁻¹(+)=ρV/(m×23.0×10³)×100",
+      "label": "乙酸钠—火焰光度法阳离子交换量计算公式"
+    },
+    "P47-F2": {
+      "latex": "\\rho(\\mathrm{NaOH})=150\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NaOH)=150 g·L⁻¹",
+      "label": "氢氧化钠溶液质量浓度"
+    },
+    "P57-F4": {
+      "latex": "c(\\mathrm{HCl})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=0.1 mol·L⁻¹",
+      "label": "盐酸溶液浓度"
+    },
+    "P58-F1": {
+      "latex": "\\mathrm{cmol\\cdot kg^{-1}}(\\tfrac12\\mathrm{Mg^{2+}})=\\frac{[(V_1-V_0)-(V_2-V_0')]c\\times2\\times ts}{m}\\times100",
+      "plain": "cmol·kg⁻¹(1/2Mg²⁺)=[(V₁−V₀)−(V₂−V₀′)]c×2×ts/m×100",
+      "label": "交换性镁计算公式"
+    },
+    "P58-F4": {
+      "latex": "\\mathrm{cmol\\cdot kg^{-1}}(\\tfrac12\\mathrm{Ca^{2+}})=\\frac{(V_2-V_0')c\\times2\\times ts}{m}\\times100",
+      "plain": "cmol·kg⁻¹(1/2Ca²⁺)=(V₂−V₀′)c×2×ts/m×100",
+      "label": "交换性钙计算公式"
+    },
+    "P59-F1": {
+      "latex": "\\mathrm{cmol\\cdot kg^{-1}}(\\tfrac12\\mathrm{Ca^{2+}})=\\frac{\\rho V\\,ts}{m\\times20.04\\times10^3}\\times100",
+      "plain": "cmol·kg⁻¹(1/2Ca²⁺)=ρV·ts/(m×20.04×10³)×100",
+      "label": "原子吸收法交换性钙计算公式"
+    },
+    "P59-F7": {
+      "latex": "\\rho(\\mathrm{Ca})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Ca)=1000 mg·L⁻¹",
+      "label": "钙标准储备溶液质量浓度"
+    },
+    "P59-F11": {
+      "latex": "\\rho(\\mathrm{Mg})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Mg)=1000 mg·L⁻¹",
+      "label": "镁标准储备溶液质量浓度"
+    },
+    "P60-F1": {
+      "latex": "\\mathrm{cmol\\cdot kg^{-1}}(\\tfrac12\\mathrm{Mg^{2+}})=\\frac{\\rho V\\,ts}{m\\times12.153\\times10^3}\\times100",
+      "plain": "cmol·kg⁻¹(1/2Mg²⁺)=ρV·ts/(m×12.153×10³)×100",
+      "label": "原子吸收法交换性镁计算公式"
+    },
+    "P60-F7": {
+      "latex": "\\rho(\\mathrm{Na})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Na)=1000 mg·L⁻¹",
+      "label": "钠标准储备溶液质量浓度"
+    },
+    "P60-F12": {
+      "latex": "ts=\\frac{\\text{浸出液体积（mL）}}{\\text{吸取浸出液体积（mL）}}=\\frac{250}{20}",
+      "plain": "ts=浸出液体积（mL）/吸取浸出液体积（mL）=250/20",
+      "label": "分取倍数"
+    },
+    "P60-F14": {
+      "latex": "\\rho(\\mathrm{K})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(K)=1000 mg·L⁻¹",
+      "label": "钾标准储备溶液质量浓度"
+    },
+    "P61-F6": {
+      "latex": "\\mathrm{cmol\\cdot kg^{-1}}(\\mathrm{Na^+})=\\frac{\\rho V}{m\\times23.0\\times10^3}\\times100",
+      "plain": "cmol·kg⁻¹(Na⁺)=ρV/(m×23.0×10³)×100",
+      "label": "交换性钠计算公式"
+    },
+    "P61-F8": {
+      "latex": "\\mathrm{cmol\\cdot kg^{-1}}(\\mathrm{K^+})=\\frac{\\rho V}{m\\times39.1\\times10^3}\\times100",
+      "plain": "cmol·kg⁻¹(K⁺)=ρV/(m×39.1×10³)×100",
+      "label": "交换性钾计算公式"
+    },
+    "P66-F6": {
+      "latex": "\\varphi(\\mathrm{CH_3H_5(OH)_3})=2\\%",
+      "plain": "φ(CH₃H₅(OH)₃)=2%",
+      "label": "丙三醇溶液体积分数（依原书分子式）"
+    },
+    "P66-F9": {
+      "reject": true,
+      "reason": "仅为上一步计算的数值片段，不是独立公式"
+    },
+    "P72-F2": {
+      "latex": "\\mathrm{LiBO_2}\\,(\\text{或}\\,\\mathrm{Li_2CO_3}):\\mathrm{H_3BO_3}=1:1\\,\\text{或}\\,1:2",
+      "plain": "LiBO₂（或Li₂CO₃）∶H₃BO₃=1∶1或1∶2",
+      "label": "熔剂与硼酸混合比例"
+    },
+    "P72-F3": {
+      "latex": "\\omega(\\mathrm{HNO_3})=70\\%",
+      "plain": "ω(HNO₃)=70%",
+      "label": "硝酸质量分数"
+    },
+    "P75-F4": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot mL^{-1}}",
+      "plain": "ρ(HCl)=1.19 g·mL⁻¹",
+      "label": "浓盐酸密度"
+    },
+    "P77-F4": {
+      "latex": "\\rho(\\mathrm{Fe})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Fe)=100 mg·L⁻¹",
+      "label": "铁标准溶液质量浓度"
+    },
+    "P77-F12": {
+      "reject": true,
+      "reason": "氯化钠质量浓度式缺少数值"
+    },
+    "P78-F1": {
+      "latex": "\\rho(\\mathrm{Al_2O_3})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Al₂O₃)=1000 mg·L⁻¹",
+      "label": "氧化铝标准储备溶液质量浓度"
+    },
+    "P80-F4": {
+      "latex": "\\rho(\\mathrm{TiO_2})=50\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(TiO₂)=50 mg·L⁻¹",
+      "label": "二氧化钛标准溶液质量浓度"
+    },
+    "P81-F7": {
+      "reject": true,
+      "reason": "盐酸浓度式缺少单位，同页有完整配方"
+    },
+    "P82-F1": {
+      "latex": "\\begin{aligned}\\omega(\\mathrm{CaO})&=\\frac{\\rho V\\,ts\\times1.399\\times10^{-6}}{m}\\times100\\\\\\omega(\\mathrm{MgO})&=\\frac{\\rho V\\,ts\\times1.659\\times10^{-6}}{m}\\times100\\end{aligned}",
+      "plain": "ω(CaO)=ρV·ts×1.399×10⁻⁶/m×100；ω(MgO)=ρV·ts×1.659×10⁻⁶/m×100",
+      "label": "氧化钙和氧化镁含量计算公式"
+    },
+    "P82-F9": {
+      "reject": true,
+      "reason": "两个相邻试剂配方被误合并，完整配方另有记录"
+    },
+    "P82-F11": {
+      "reject": true,
+      "reason": "钙质量浓度式缺少数值"
+    },
+    "P82-F16": {
+      "reject": true,
+      "reason": "锶质量浓度单位被截断，完整配方另有记录"
+    },
+    "P83-F3": {
+      "latex": "c(\\tfrac12\\mathrm{H_2SO_4})=0.55\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(1/2H₂SO₄)=0.55 mol·L⁻¹",
+      "label": "硫酸溶液浓度"
+    },
+    "P83-F12": {
+      "latex": "\\rho(\\mathrm{P_2O_5})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(P₂O₅)=1000 mg·L⁻¹",
+      "label": "五氧化二磷标准储备溶液质量浓度"
+    },
+    "P84-F9": {
+      "latex": "c(\\tfrac12\\mathrm{H_2SO_4})=1.1\\,\\mathrm{mol\\cdot L^{-1}}\\sim1.3\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(1/2H₂SO₄)=1.1 mol·L⁻¹～1.3 mol·L⁻¹",
+      "label": "硫酸溶液浓度范围"
+    },
+    "P85-F6": {
+      "latex": "\\omega(\\mathrm{HClO_4})=60\\%",
+      "plain": "ω(HClO₄)=60%",
+      "label": "高氯酸质量分数"
+    },
+    "P88-F10": {
+      "reject": true,
+      "reason": "仅识别到数值和单位，缺少物质名称"
+    },
+    "P88-F14": {
+      "latex": "c(\\mathrm{CH_3C_6H_5O_7})=0.05\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(CH₃C₆H₅O₇)=0.05 mol·L⁻¹",
+      "label": "柠檬酸溶液浓度（依原书化学式）"
+    },
+    "P90-F3": {
+      "latex": "\\rho(\\mathrm{NaOH})=100\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NaOH)=100 g·L⁻¹",
+      "label": "氢氧化钠溶液质量浓度"
+    },
+    "P91-F4": {
+      "latex": "\\rho(\\mathrm{Al})=10\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Al)=10 mg·L⁻¹",
+      "label": "铝标准溶液质量浓度"
+    },
+    "P91-F6": {
+      "latex": "\\rho(\\mathrm{Fe})=10\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Fe)=10 mg·L⁻¹",
+      "label": "铁标准溶液质量浓度"
+    },
+    "P92-F16": {
+      "latex": "\\varphi(\\mathrm{HCl})=2\\%",
+      "plain": "φ(HCl)=2%",
+      "label": "盐酸溶液体积分数"
+    },
+    "P94-F4": {
+      "latex": "c(\\mathrm{NaOH})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.5 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P94-F7": {
+      "latex": "\\rho(\\mathrm{Na_2CO_3})=20\\,\\mathrm{g\\cdot L^{-1}};\\quad c(\\mathrm{NaOH})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "ρ(Na₂CO₃)=20 g·L⁻¹；c(NaOH)=0.5 mol·L⁻¹",
+      "label": "碳酸钠—氢氧化钠混合液组成"
+    },
+    "P96-F2": {
+      "latex": "\\rho(\\mathrm{Na_2CO_3})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(Na₂CO₃)=20 g·L⁻¹",
+      "label": "碳酸钠溶液质量浓度"
+    },
+    "P96-F4": {
+      "latex": "c(\\mathrm{NaOH})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.5 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P96-F6": {
+      "latex": "c(\\mathrm{NaOH})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.5 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P97-F13": {
+      "reject": true,
+      "reason": "盐酸浓度配方被截断，缺少L⁻¹"
+    },
+    "P99-F2": {
+      "reject": true,
+      "reason": "硫酸钠浓度式被截断，同页下一候选为完整配方"
+    },
+    "P99-F3": {
+      "latex": "c(\\tfrac12\\mathrm{Na_2SO_4})=1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(1/2Na₂SO₄)=1 mol·L⁻¹",
+      "label": "硫酸钠溶液浓度"
+    },
+    "P99-F5": {
+      "latex": "\\rho(\\mathrm{NaOH})=100\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NaOH)=100 g·L⁻¹",
+      "label": "氢氧化钠溶液质量浓度"
+    },
+    "P100-F1": {
+      "latex": "\\rho(\\mathrm{KMnO_4})=50\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(KMnO₄)=50 g·L⁻¹",
+      "label": "高锰酸钾溶液质量浓度"
+    },
+    "P100-F2": {
+      "latex": "\\rho(\\mathrm{NH_2OH\\cdot HCl})=100\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NH₂OH·HCl)=100 g·L⁻¹",
+      "label": "盐酸羟胺溶液质量浓度"
+    },
+    "P103-F2": {
+      "latex": "c(\\mathrm{HCl})=0.2\\,\\mathrm{mol\\cdot L^{-1}};\\quad c(\\mathrm{NaCl})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=0.2 mol·L⁻¹；c(NaCl)=0.1 mol·L⁻¹",
+      "label": "脱膜溶液组成"
+    },
+    "P103-F4": {
+      "latex": "E_t=244+0.65(25-t)",
+      "plain": "Eₜ=244+0.65(25−t)",
+      "label": "饱和甘汞电极电位的温度校正式（t以℃计）"
+    },
+    "P107-F1": {
+      "latex": "c(\\tfrac16\\mathrm{K_2Cr_2O_7})=0.0200\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(1/6K₂Cr₂O₇)=0.0200 mol·L⁻¹",
+      "label": "重铬酸钾标准溶液浓度（原书ml误作mol校正）"
+    },
+    "P107-F3": {
+      "latex": "\\rho(\\mathrm{H_2SO_4})=1.84\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(H₂SO₄)=1.84 g·cm⁻³",
+      "label": "浓硫酸密度（原书cm³误作cm⁻³校正）"
+    },
+    "P107-F4": {
+      "reject": true,
+      "reason": "结果说明中的变量释义被截成不完整等式"
+    },
+    "P109-F6": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P111-F1": {
+      "latex": "\\omega(\\mathrm{Mn^{2+}})=\\frac{\\rho V\\,ts}{m}",
+      "plain": "ω(Mn²⁺)=ρV·ts/m",
+      "label": "二价锰质量分数计算公式（原书Mn²⁻误作Mn²⁺校正）"
+    },
+    "P114-F1": {
+      "latex": "\\gamma_{25\\,^{\\circ}\\mathrm{C}}=\\frac{1}{R[1+\\alpha(t-25\\,^{\\circ}\\mathrm{C})]}",
+      "plain": "γ₂₅℃=1/{R[1+α(t−25℃)]}",
+      "label": "25℃电导率温度校正公式"
+    },
+    "P114-F3": {
+      "latex": "S=\\frac{1}{R}=\\gamma\\frac{A}{L}",
+      "plain": "S=1/R=γA/L",
+      "label": "电导、电阻和电导率关系式"
+    },
+    "P115-F1": {
+      "latex": "\\gamma=S\\times f_t\\times K",
+      "plain": "γ=S×fₜ×K",
+      "label": "土壤浸出液电导率计算公式"
+    },
+    "P115-F3": {
+      "latex": "K=\\frac{\\gamma}{S}",
+      "plain": "K=γ/S",
+      "label": "电导池常数计算公式"
+    },
+    "P115-F4": {
+      "reject": true,
+      "reason": "氯化钾浓度仅识别到零值，缺少完整配方语境"
+    },
+    "P115-F7": {
+      "reject": true,
+      "reason": "氯化钾浓度缺少单位，同页有完整浓度记录"
+    },
+    "P116-F2": {
+      "latex": "c(\\mathrm{KCl})=0.02\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(KCl)=0.02 mol·L⁻¹",
+      "label": "氯化钾溶液浓度"
+    },
+    "P117-F11": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P118-F10": {
+      "latex": "\\begin{aligned}S(\\tfrac12\\mathrm{CO_3^{2-}})&=\\frac{2V_1c}{m\\times10}\\times1000\\\\\\omega(\\mathrm{CO_3^{2-}})&=S(\\tfrac12\\mathrm{CO_3^{2-}})\\times0.030\\\\S(\\mathrm{HCO_3^-})&=\\frac{(V_2-2V_1)c}{m\\times10}\\times1000\\\\\\omega(\\mathrm{HCO_3^-})&=S(\\mathrm{HCO_3^-})\\times0.061\\end{aligned}",
+      "plain": "S(1/2CO₃²⁻)=2V₁c/(m×10)×1000；ω(CO₃²⁻)=S(1/2CO₃²⁻)×0.030；S(HCO₃⁻)=(V₂−2V₁)c/(m×10)×1000；ω(HCO₃⁻)=S(HCO₃⁻)×0.061",
+      "label": "碳酸根和碳酸氢根含量计算公式"
+    },
+    "P119-F25": {
+      "latex": "\\begin{aligned}S(\\mathrm{Cl^-})&=\\frac{Vc}{m\\times10}\\times1000\\\\\\omega(\\mathrm{Cl^-})&=S(\\mathrm{Cl^-})\\times0.0355\\end{aligned}",
+      "plain": "S(Cl⁻)=Vc/(m×10)×1000；ω(Cl⁻)=S(Cl⁻)×0.0355",
+      "label": "氯离子含量计算公式"
+    },
+    "P121-F2": {
+      "latex": "\\begin{aligned}S(\\tfrac12\\mathrm{SO_4^{2-}})&=\\frac{[V_0-(V_1-V_2)]c\\times2}{m\\times10}\\times1000\\\\\\omega(\\mathrm{SO_4^{2-}})&=S(\\tfrac12\\mathrm{SO_4^{2-}})\\times0.048\\end{aligned}",
+      "plain": "S(1/2SO₄²⁻)=[V₀−(V₁−V₂)]c×2/(m×10)×1000；ω(SO₄²⁻)=S(1/2SO₄²⁻)×0.048",
+      "label": "硫酸根含量计算公式"
+    },
+    "P121-F7": {
+      "latex": "c(\\mathrm{Ba^{2+}})=0.015\\,\\mathrm{mol\\cdot L^{-1}};\\quad c(\\mathrm{Mg^{2+}})=0.005\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(Ba²⁺)=0.015 mol·L⁻¹；c(Mg²⁺)=0.005 mol·L⁻¹",
+      "label": "钡镁混合滴定液浓度"
+    },
+    "P122-F1": {
+      "latex": "c(\\mathrm{C_{10}H_{14}O_8N_2Na_2\\cdot2H_2O})=0.01\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(C₁₀H₁₄O₈N₂Na₂·2H₂O)=0.01 mol·L⁻¹",
+      "label": "乙二胺四乙酸二钠标准溶液浓度"
+    },
+    "P122-F2": {
+      "latex": "\\begin{aligned}S(\\tfrac12\\mathrm{Ca^{2+}})&=\\frac{V_2c}{m\\times10}\\times1000\\\\\\omega(\\mathrm{Ca^{2+}})&=S(\\tfrac12\\mathrm{Ca^{2+}})\\times0.02004\\end{aligned}",
+      "plain": "S(1/2Ca²⁺)=V₂c/(m×10)×1000；ω(Ca²⁺)=S(1/2Ca²⁺)×0.02004",
+      "label": "钙离子含量计算公式"
+    },
+    "P124-F1": {
+      "latex": "\\begin{aligned}d_{ion}&=(A^-+\\tfrac12A^{2-})-(C^++\\tfrac12C^{2+})\\\\d_{salt}&=W_0-W_1\\end{aligned}",
+      "plain": "d_ion=(A⁻+1/2A²⁻)−(C⁺+1/2C²⁺)；d_salt=W₀−W₁",
+      "label": "离子差与盐分差计算式"
+    },
+    "P124-F8": {
+      "latex": "\\begin{aligned}\\omega(\\mathrm{Na})\\;\\text{或}\\;\\omega(\\mathrm{K})&=\\frac{\\rho V\\times10^{-6}}{m}\\times100\\\\S(\\mathrm{Na^+})&=\\omega(\\mathrm{Na^+})\\times\\frac{1}{0.0230}\\\\S(\\mathrm{K^+})&=\\omega(\\mathrm{K^+})\\times\\frac{1}{0.0391}\\end{aligned}",
+      "plain": "ω(Na)或ω(K)=ρV×10⁻⁶/m×100；S(Na⁺)=ω(Na⁺)/0.0230；S(K⁺)=ω(K⁺)/0.0391",
+      "label": "钠钾质量分数及离子量换算公式"
+    },
+    "P124-F10": {
+      "latex": "c[\\mathrm{Al_2(SO_4)_3}]=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c[Al₂(SO₄)₃]=0.1 mol·L⁻¹",
+      "label": "硫酸铝溶液浓度"
+    },
+    "P127-F8": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P128-F4": {
+      "latex": "c(\\mathrm{NaOH})=0.25\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.25 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P129-F1": {
+      "latex": "\\varphi(\\mathrm{CH_3CH_2OH})=95\\%",
+      "plain": "φ(CH₃CH₂OH)=95%",
+      "label": "乙醇溶液体积分数"
+    },
+    "P129-F3": {
+      "latex": "\\rho(\\mathrm{BaCl_2\\cdot2H_2O})=100\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(BaCl₂·2H₂O)=100 g·L⁻¹",
+      "label": "氯化钡溶液质量浓度"
+    },
+    "P129-F8": {
+      "latex": "\\varphi(\\mathrm{CH_3CH_2OH})=70\\%",
+      "plain": "φ(CH₃CH₂OH)=70%",
+      "label": "乙醇溶液体积分数"
+    },
+    "P130-F1": {
+      "latex": "\\omega(\\mathrm{CaSO_4\\cdot2H_2O})=\\frac{(m_2-m_1)\\times0.738\\times ts}{m}\\times100",
+      "plain": "ω(CaSO₄·2H₂O)=(m₂−m₁)×0.738×ts/m×100",
+      "label": "石膏含量计算公式（原书Ca₂SO₄化学式校正）"
+    },
+    "P130-F6": {
+      "reject": true,
+      "reason": "仅为分取倍数的数值运算片段"
+    },
+    "P134-F6": {
+      "latex": "c(\\mathrm{FeSO_4})=0.2\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(FeSO₄)=0.2 mol·L⁻¹",
+      "label": "硫酸亚铁标准溶液浓度"
+    },
+    "P135-F13": {
+      "reject": true,
+      "reason": "硫酸密度仅识别到1，完整密度记录见相邻页"
+    },
+    "P136-F7": {
+      "reject": true,
+      "reason": "硫酸密度仅识别到1，完整密度记录见相邻页"
+    },
+    "P144-F1": {
+      "latex": "\\begin{aligned}1.8V&=d_1V_1+d_2V_2\\\\V&=V_1+V_2\\end{aligned}",
+      "plain": "1.8V=d₁V₁+d₂V₂；V=V₁+V₂",
+      "label": "密度1.8 g·cm⁻³酸液的混配方程"
+    },
+    "P145-F2": {
+      "latex": "\\begin{aligned}H(\\%)&=\\frac{Hm}{Sm}\\times100\\\\HC(\\%)&=\\frac{HC_m}{Hm}\\times100\\\\QC(\\%)&=HC\\times\\frac{Hm}{Sm}\\\\DC(\\%)&=\\frac{HC\\cdot Hm/Sm}{SC}\\times100\\\\QAC(\\%)&=MQ-SQ\\\\DAC(\\%)&=\\frac{MQ-SQ}{MC-SC}\\times100\\\\CC&=\\frac{MQ-SQ}{QC}\\end{aligned}",
+      "plain": "H(%)=Hm/Sm×100；HC(%)=HCₘ/Hm×100；QC(%)=HC×Hm/Sm；DC(%)=(HC·Hm/Sm)/SC×100；QAC(%)=MQ−SQ；DAC(%)=(MQ−SQ)/(MC−SC)×100；CC=(MQ−SQ)/QC",
+      "label": "腐殖质组成与复合度计算公式组"
+    },
+    "P146-F2": {
+      "latex": "\\rho[(\\mathrm{NH_4})_2\\mathrm{C_2O_4}]=40\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ[(NH₄)₂C₂O₄]=40 g·L⁻¹",
+      "label": "草酸铵溶液质量浓度"
+    },
+    "P146-F8": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P304-F4": {
+      "latex": "F_r=6\\pi\\eta rv",
+      "plain": "Fᵣ=6πηrv",
+      "label": "颗粒沉降阻力公式"
+    },
+    "P306-F1": {
+      "latex": "\\left[c(\\tfrac12\\mathrm{Na_2C_2O_4})=0.5\\,\\mathrm{mol\\cdot L^{-1}}\\right]",
+      "plain": "c(1/2Na₂C₂O₄)=0.5 mol·L⁻¹",
+      "label": "草酸钠溶液浓度"
+    },
+    "P307-F1": {
+      "latex": "\\left[\\rho((\\mathrm{NH_4})_2\\mathrm{C_2O_4})=40\\,\\mathrm{g\\cdot L^{-1}}\\right]",
+      "plain": "ρ((NH₄)₂C₂O₄)=40 g·L⁻¹",
+      "label": "草酸铵溶液质量浓度"
+    },
+    "P307-F6": {
+      "latex": "\\left[\\varphi(\\mathrm{CH_3COOH})=10\\%\\right]",
+      "plain": "φ(CH₃COOH)=10%",
+      "label": "乙酸溶液体积分数"
+    },
+    "P307-F11": {
+      "latex": "\\left[\\varphi(\\mathrm{HNO_3})=10\\%\\right]",
+      "plain": "φ(HNO₃)=10%",
+      "label": "硝酸溶液体积分数"
+    },
+    "P307-F13": {
+      "latex": "\\rho(\\mathrm{HNO_3})=1.42\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HNO₃)=1.42 g·cm⁻³",
+      "label": "浓硝酸密度"
+    },
+    "P308-F3": {
+      "latex": "c(\\mathrm{NaOH})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.5 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P308-F10": {
+      "reject": true,
+      "reason": "盐酸浓度标签缺少单位，与同页完整式重复"
+    },
+    "P310-F3": {
+      "latex": "c(\\mathrm{NaOH})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.5 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P312-F1": {
+      "accept": true
+    },
+    "P319-F1": {
+      "latex": "\\Psi_m=-13.6h_{Hg}+(h-h_1)",
+      "plain": "Ψₘ=−13.6h_Hg+(h−h₁)",
+      "label": "张力计土壤基质势换算公式"
+    },
+    "P326-F1": {
+      "latex": "\\psi(\\mathrm{HCl})=0.2\\%",
+      "plain": "ψ(HCl)=0.2%",
+      "label": "盐酸洗涤液浓度（依原书符号ψ）"
+    },
+    "P334-F3": {
+      "latex": "\\rho[(\\mathrm{CH_3COO})_2\\mathrm{Mg}]=15\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ[(CH₃COO)₂Mg]=15 g·L⁻¹",
+      "label": "乙酸镁乙醇溶液质量浓度"
+    },
+    "P338-F1": {
+      "latex": "\\rho(\\mathrm{N})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(N)=100 mg·L⁻¹",
+      "label": "铵态氮回收率试验标准液质量浓度"
+    },
+    "P339-F2": {
+      "latex": "\\rho(\\mathrm{N})=5.00\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(N)=5.00 mg·L⁻¹",
+      "label": "铵态氮标准溶液质量浓度"
+    },
+    "P339-F3": {
+      "latex": "\\rho(\\mathrm{NaCl})=52.5\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NaCl)=52.5 g·L⁻¹",
+      "label": "次氯酸钠溶液质量浓度"
+    },
+    "P342-F4": {
+      "latex": "c(\\mathrm{HCl})=1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=1 mol·L⁻¹",
+      "label": "盐酸溶液浓度"
+    },
+    "P346-F1": {
+      "latex": "\\rho(\\mathrm{Ca})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Ca)=1000 mg·L⁻¹",
+      "label": "钙标准溶液质量浓度"
+    },
+    "P347-F17": {
+      "latex": "c(\\mathrm{HCl})=1.2\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=1.2 mol·L⁻¹",
+      "label": "稀盐酸浓度"
+    },
+    "P336-F1": {
+      "latex": "c(\\mathrm{NaOH})=10\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=10 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P349-F4": {
+      "latex": "c(\\mathrm{HCl})=0.24\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=0.24 mol·L⁻¹",
+      "label": "盐酸溶液浓度"
+    },
+    "P351-F8": {
+      "latex": "\\varphi(\\mathrm{HCl})=20\\%",
+      "plain": "φ(HCl)=20%",
+      "label": "盐酸溶液体积分数"
+    },
+    "P354-F7": {
+      "latex": "\\omega(\\mathrm{C_2H_5OH})=95\\%",
+      "plain": "ω(C₂H₅OH)=95%",
+      "label": "乙醇质量分数（依原书符号）"
+    },
+    "P357-F6": {
+      "latex": "\\rho(\\mathrm{Mo})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Mo)=100 mg·L⁻¹",
+      "label": "钼标准溶液质量浓度"
+    },
+    "P357-F13": {
+      "latex": "c(\\mathrm{NaOH})=1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=1 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P359-F6": {
+      "latex": "\\rho(\\mathrm{Mn})=10.00\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Mn)=10.00 mg·L⁻¹",
+      "label": "锰标准溶液质量浓度"
+    },
+    "P360-F1": {
+      "latex": "\\rho(\\mathrm{Fe})=10.00\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Fe)=10.00 mg·L⁻¹",
+      "label": "铁标准溶液质量浓度"
+    },
+    "P360-F2": {
+      "latex": "c(\\mathrm{HCl})=1.0\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=1.0 mol·L⁻¹",
+      "label": "盐酸溶液浓度"
+    },
+    "P361-F1": {
+      "latex": "\\rho(\\mathrm{Cu})=10\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Cu)=10 mg·L⁻¹",
+      "label": "铜标准溶液质量浓度"
+    },
+    "P363-F2": {
+      "latex": "\\rho(\\mathrm{Zn})=10.00\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Zn)=10.00 mg·L⁻¹",
+      "label": "锌标准溶液质量浓度"
+    },
+    "P364-F3": {
+      "latex": "\\rho(\\mathrm{C_6H_3O_6})=0.4\\,\\mathrm{g\\cdot L^{-1}};\\quad c(\\mathrm{HCl})=2\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "ρ(C₆H₃O₆)=0.4 g·L⁻¹；c(HCl)=2 mol·L⁻¹",
+      "label": "Vc—盐酸溶液组成"
+    },
+    "P374-F2": {
+      "latex": "\\varphi(\\mathrm{HCl})=1\\%",
+      "plain": "φ(HCl)=1%",
+      "label": "盐酸溶液体积分数"
+    },
+    "P376-F2": {
+      "latex": "\\rho(\\mathrm{H_2O})=1\\,\\mathrm{mg\\cdot mL^{-1}}",
+      "plain": "ρ(H₂O)=1 mg·mL⁻¹",
+      "label": "水—甲醇标准溶液中水的质量浓度"
+    },
+    "P380-F12": {
+      "latex": "\\rho(\\mathrm{H_2SO_4})=1.84",
+      "plain": "ρ(H₂SO₄)=1.84",
+      "label": "硫酸密度（原书此处未列单位）"
+    },
+    "P380-F13": {
+      "latex": "\\rho(\\mathrm{H_2SO_4})=1.84",
+      "plain": "ρ(H₂SO₄)=1.84",
+      "label": "硫酸密度（原书此处未列单位）"
+    },
+    "P384-F5": {
+      "latex": "\\rho(\\mathrm{C_2H_5O_2N_3})=2.00\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₂H₅O₂N₃)=2.00 g·L⁻¹",
+      "label": "氨基胍乙酸溶液质量浓度"
+    },
+    "P386-F3": {
+      "latex": "c(\\mathrm{NaOH})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.5 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度（原书HaOH排印误作NaOH校正）"
+    },
+    "P386-F4": {
+      "latex": "c(\\mathrm{NaOH})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.5 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P386-F7": {
+      "latex": "c(\\mathrm{NaOH})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.1 mol·L⁻¹",
+      "label": "氢氧化钠标准溶液浓度"
+    },
+    "P389-F1": {
+      "latex": "c(\\mathrm{C_6H_8O_7\\cdot H_2O})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "c(C₆H₈O₇·H₂O)=20 g·L⁻¹",
+      "label": "柠檬酸溶液浓度（依原书符号与单位）"
+    },
+    "P390-F5": {
+      "latex": "\\omega(\\mathrm{CH_3CH_2OH})=95\\%",
+      "plain": "ω(CH₃CH₂OH)=95%",
+      "label": "乙醇质量分数（原书括号排印校正）"
+    },
+    "P393-F2": {
+      "reject": true,
+      "reason": "氢氧化钠浓度式缺少单位，同页有完整配方"
+    },
+    "P393-F8": {
+      "latex": "\\varphi(\\mathrm{C_2H_5OH})=50\\%",
+      "plain": "φ(C₂H₅OH)=50%",
+      "label": "乙醇溶液体积分数"
+    },
+    "P393-F12": {
+      "latex": "\\varphi(\\mathrm{CH_3CH_2OH})=60\\%",
+      "plain": "φ(CH₃CH₂OH)=60%",
+      "label": "乙醇溶液体积分数"
+    },
+    "P394-F1": {
+      "latex": "\\omega(\\mathrm{P_2O_5})=\\frac{[c_1(V_1-V_1')-c_2(V_2-V_2')]ts\\times2.73\\times10^{-3}}{m}\\times100",
+      "plain": "ω(P₂O₅)=[c₁(V₁−V₁′)−c₂(V₂−V₂′)]ts×2.73×10⁻³/m×100",
+      "label": "柠檬酸浸提—滴定法有效磷计算公式"
+    },
+    "P394-F2": {
+      "latex": "\\rho(\\mathrm{C_6H_8O_7\\cdot H_2O})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₆H₈O₇·H₂O)=20 g·L⁻¹",
+      "label": "柠檬酸溶液质量浓度"
+    },
+    "P394-F3": {
+      "latex": "\\rho(\\mathrm{C_6H_8O_7\\cdot H_2O})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₆H₈O₇·H₂O)=20 g·L⁻¹",
+      "label": "柠檬酸溶液质量浓度"
+    },
+    "P394-F4": {
+      "latex": "\\rho(\\mathrm{P_2O_5})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(P₂O₅)=100 mg·L⁻¹",
+      "label": "五氧化二磷标准溶液质量浓度"
+    },
+    "P396-F4": {
+      "reject": true,
+      "reason": "氢氧化钠浓度式缺少单位，同页有完整配方"
+    },
+    "P396-F5": {
+      "latex": "\\varphi(\\mathrm{CH_3CH_2OH})=95\\%",
+      "plain": "φ(CH₃CH₂OH)=95%",
+      "label": "乙醇溶液体积分数"
+    },
+    "P397-F1": {
+      "reject": true,
+      "reason": "柠檬酸化学式左侧被截断，同页有完整配方"
+    },
+    "P397-F2": {
+      "latex": "\\rho(\\mathrm{C_6H_8O_7\\cdot H_2O})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₆H₈O₇·H₂O)=20 g·L⁻¹",
+      "label": "柠檬酸溶液质量浓度"
+    },
+    "P397-F3": {
+      "latex": "\\rho(\\mathrm{C_6H_8O_7\\cdot H_2O})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₆H₈O₇·H₂O)=20 g·L⁻¹",
+      "label": "柠檬酸溶液质量浓度"
+    },
+    "P398-F1": {
+      "latex": "\\omega(\\mathrm{P_2O_5})=\\frac{(m_1-m_2)\\times0.03207\\times ts}{m}\\times100",
+      "plain": "ω(P₂O₅)=(m₁−m₂)×0.03207×ts/m×100",
+      "label": "磷钼酸喹啉重量法五氧化二磷计算公式"
+    },
+    "P399-F16": {
+      "latex": "\\varphi(\\mathrm{HCl})=10\\%",
+      "plain": "φ(HCl)=10%",
+      "label": "盐酸溶液体积分数"
+    },
+    "P400-F3": {
+      "latex": "\\rho(\\mathrm{P_2O_5})=100\\,\\mathrm{mg\\cdot mL^{-1}}",
+      "plain": "ρ(P₂O₅)=100 mg·mL⁻¹",
+      "label": "五氧化二磷标准溶液质量浓度（依原书单位）"
+    },
+    "P401-F1": {
+      "latex": "\\rho(\\mathrm{C_6H_8O_7\\cdot H_2O})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₆H₈O₇·H₂O)=20 g·L⁻¹",
+      "label": "柠檬酸溶液质量浓度"
+    },
+    "P401-F2": {
+      "latex": "\\rho(\\mathrm{C_6H_8O_7\\cdot H_2O})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₆H₈O₇·H₂O)=20 g·L⁻¹",
+      "label": "柠檬酸溶液质量浓度"
+    },
+    "P402-F1": {
+      "reject": true,
+      "reason": "柠檬酸配方被截断，缺少L⁻¹，同章有完整配方"
+    },
+    "P403-F1": {
+      "latex": "\\rho(\\mathrm{C_6H_8O_7\\cdot H_2O})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₆H₈O₇·H₂O)=20 g·L⁻¹",
+      "label": "柠檬酸溶液质量浓度"
+    },
+    "P403-F2": {
+      "latex": "\\rho(\\mathrm{C_6H_8O_7\\cdot H_2O})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₆H₈O₇·H₂O)=20 g·L⁻¹",
+      "label": "柠檬酸溶液质量浓度"
+    },
+    "P404-F3": {
+      "latex": "\\rho(\\mathrm{C_{10}H_{14}O_8N_2Na_2\\cdot2H_2O})=40\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₁₀H₁₄O₈N₂Na₂·2H₂O)=40 g·L⁻¹",
+      "label": "乙二胺四乙酸二钠溶液质量浓度"
+    },
+    "P404-F4": {
+      "latex": "\\rho(\\mathrm{NaOH})=200\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NaOH)=200 g·L⁻¹",
+      "label": "氢氧化钠溶液质量浓度"
+    },
+    "P404-F7": {
+      "latex": "\\omega(\\mathrm{CH_3CH_2OH})=95\\%",
+      "plain": "ω(CH₃CH₂OH)=95%",
+      "label": "乙醇质量分数"
+    },
+    "P406-F3": {
+      "latex": "\\rho(\\mathrm{K})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(K)=1000 mg·L⁻¹",
+      "label": "钾标准溶液质量浓度"
+    },
+    "P407-F3": {
+      "latex": "R=\\frac{\\mathrm{NaTPB\\;mL\\;数}}{\\mathrm{CTAB\\;mL\\;数}}",
+      "plain": "R=NaTPB mL数/CTAB mL数",
+      "label": "NaTPB与CTAB体积比"
+    },
+    "P407-F4": {
+      "latex": "\\rho(\\mathrm{NaOH})=200\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NaOH)=200 g·L⁻¹",
+      "label": "氢氧化钠溶液质量浓度"
+    },
+    "P407-F5": {
+      "latex": "\\rho(\\mathrm{NaOH})=200\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NaOH)=200 g·L⁻¹",
+      "label": "氢氧化钠溶液质量浓度"
+    },
+    "P407-F6": {
+      "latex": "\\varphi(\\mathrm{C_2H_5OH})=95\\%",
+      "plain": "φ(C₂H₅OH)=95%",
+      "label": "乙醇溶液体积分数"
+    },
+    "P407-F7": {
+      "latex": "\\rho(\\mathrm{NaOH})=200\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NaOH)=200 g·L⁻¹",
+      "label": "氢氧化钠溶液质量浓度"
+    },
+    "P409-F2": {
+      "latex": "\\rho(\\mathrm{C_{10}H_{14}O_8N_2Na_2\\cdot2H_2O})=50\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₁₀H₁₄O₈N₂Na₂·2H₂O)=50 g·L⁻¹",
+      "label": "乙二胺四乙酸二钠溶液质量浓度"
+    },
+    "P409-F3": {
+      "latex": "\\rho(\\mathrm{K_2O})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(K₂O)=1000 mg·L⁻¹",
+      "label": "氧化钾标准溶液质量浓度"
+    },
+    "P410-F2": {
+      "latex": "\\omega(\\mathrm{C_2H_5OH})=95\\%",
+      "plain": "ω(C₂H₅OH)=95%",
+      "label": "乙醇质量分数"
+    },
+    "P410-F3": {
+      "latex": "c(\\mathrm{HNO_3})=1.0\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HNO₃)=1.0 mol·L⁻¹",
+      "label": "硝酸溶液浓度"
+    },
+    "P410-F5": {
+      "latex": "\\varphi(\\mathrm{C_2H_5OH})=95\\%",
+      "plain": "φ(C₂H₅OH)=95%",
+      "label": "乙醇溶液体积分数"
+    },
+    "P411-F3": {
+      "latex": "c[\\tfrac12\\mathrm{Hg(NO_3)_2\\cdot H_2O}]=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c[1/2Hg(NO₃)₂·H₂O]=0.1 mol·L⁻¹",
+      "label": "硝酸汞标准溶液浓度"
+    },
+    "P412-F3": {
+      "latex": "c(\\mathrm{NH_4CNS})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NH₄CNS)=0.1 mol·L⁻¹",
+      "label": "硫氰酸铵标准溶液浓度"
+    },
+    "P412-F5": {
+      "latex": "\\rho(\\mathrm{Cl})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Cl)=1000 mg·L⁻¹",
+      "label": "氯标准溶液质量浓度"
+    },
+    "P414-F1": {
+      "latex": "\\rho(\\mathrm{MnSO_4\\cdot4H_2O})=100\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(MnSO₄·4H₂O)=100 g·L⁻¹",
+      "label": "硫酸锰溶液质量浓度"
+    },
+    "P414-F3": {
+      "latex": "\\rho(\\mathrm{HNO_3})=1.42\\,\\mathrm{g\\cdot mL^{-1}}",
+      "plain": "ρ(HNO₃)=1.42 g·mL⁻¹",
+      "label": "浓硝酸密度"
+    },
+    "P414-F6": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot mL^{-1}}",
+      "plain": "ρ(HCl)=1.19 g·mL⁻¹",
+      "label": "浓盐酸密度"
+    },
+    "P414-F8": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot mL^{-1}}",
+      "plain": "ρ(HCl)=1.19 g·mL⁻¹",
+      "label": "浓盐酸密度"
+    },
+    "P416-F2": {
+      "latex": "\\rho(\\mathrm{C_7H_6O_6S\\cdot2H_2O})=100\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₇H₆O₆S·2H₂O)=100 g·L⁻¹",
+      "label": "磺基水杨酸溶液质量浓度"
+    },
+    "P416-F3": {
+      "latex": "\\rho(\\mathrm{Fe})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Fe)=100 mg·L⁻¹",
+      "label": "铁标准溶液质量浓度"
+    },
+    "P416-F9": {
+      "latex": "\\rho(\\mathrm{NH_4OH})=0.88\\,\\mathrm{g\\cdot mL^{-1}}",
+      "plain": "ρ(NH₄OH)=0.88 g·mL⁻¹",
+      "label": "氨水密度"
+    },
+    "P416-F13": {
+      "latex": "\\rho(\\mathrm{H_2SO_4})=1.84\\,\\mathrm{g\\cdot mL^{-1}}",
+      "plain": "ρ(H₂SO₄)=1.84 g·mL⁻¹",
+      "label": "浓硫酸密度"
+    },
+    "P417-F4": {
+      "reject": true,
+      "reason": "锰标准液质量浓度缺少L⁻¹，同页有完整配方"
+    },
+    "P418-F1": {
+      "latex": "\\omega(\\mathrm{CuSO_4\\cdot5H_2O})=\\frac{cV\\times10^{-3}\\times ts\\times249.7}{m}\\times100",
+      "plain": "ω(CuSO₄·5H₂O)=cV×10⁻³×ts×249.7/m×100",
+      "label": "五水硫酸铜含量计算公式"
+    },
+    "P419-F2": {
+      "latex": "\\rho(\\mathrm{C_6H_{12}N_4})=200\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₆H₁₂N₄)=200 g·L⁻¹",
+      "label": "六次甲基四胺溶液质量浓度"
+    },
+    "P419-F5": {
+      "latex": "c(\\mathrm{C_{10}H_{14}O_8N_2Na_2})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(C₁₀H₁₄O₈N₂Na₂)=0.1 mol·L⁻¹",
+      "label": "乙二胺四乙酸二钠标准溶液浓度（依原书化学式）"
+    },
+    "P154-F7": {
+      "latex": "c(\\mathrm{HCl})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=0.1 mol·L⁻¹",
+      "label": "盐酸溶液浓度"
+    },
+    "P156-F4": {
+      "latex": "A=A_{220}-A_{275}",
+      "plain": "A=A₂₂₀−A₂₇₅",
+      "label": "吸光度校正公式"
+    },
+    "P156-F8": {
+      "latex": "\\rho(\\mathrm{N})=0.01\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(N)=0.01 mg·L⁻¹",
+      "label": "氮标准溶液质量浓度"
+    },
+    "P159-F2": {
+      "reject": true,
+      "reason": "只截取到硫酸与密度符号的残片，不是完整公式"
+    },
+    "P163-F5": {
+      "latex": "\\rho(\\mathrm{P})=1\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(P)=1 mg·L⁻¹",
+      "label": "磷标准溶液质量浓度"
+    },
+    "P164-F1": {
+      "latex": "\\rho(\\mathrm{K})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(K)=1000 mg·L⁻¹",
+      "label": "钾标准溶液质量浓度"
+    },
+    "P164-F2": {
+      "latex": "\\rho(\\mathrm{Na})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Na)=1000 mg·L⁻¹",
+      "label": "钠标准溶液质量浓度"
+    },
+    "P165-F10": {
+      "latex": "c(\\mathrm{C_{10}H_{14}O_8N_2Na_2\\cdot2H_2O})=0.01\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(C₁₀H₁₄O₈N₂Na₂·2H₂O)=0.01 mol·L⁻¹",
+      "label": "EDTA 二钠标准溶液浓度"
+    },
+    "P167-F9": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P168-F3": {
+      "latex": "\\rho(\\mathrm{SO_4^{2-}})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(SO₄²⁻)=1000 mg·L⁻¹",
+      "label": "硫酸根标准溶液质量浓度（原书误印为1000 mol·L⁻¹，按同页1.8141 g K₂SO₄定容1 L校正）"
+    },
+    "P168-F11": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P170-F2": {
+      "latex": "\\rho(\\mathrm{NaHCO_3})=60\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NaHCO₃)=60 g·L⁻¹",
+      "label": "碳酸氢钠溶液质量浓度"
+    },
+    "P420-F17": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot mL^{-1}}",
+      "plain": "ρ(HCl)=1.19 g·mL⁻¹",
+      "label": "浓盐酸密度"
+    },
+    "P421-F5": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot mL^{-1}}",
+      "plain": "ρ(HCl)=1.19 g·mL⁻¹",
+      "label": "浓盐酸密度"
+    },
+    "P421-F7": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot mL^{-1}}",
+      "plain": "ρ(HCl)=1.19 g·mL⁻¹",
+      "label": "浓盐酸密度"
+    },
+    "P423-F3": {
+      "latex": "c(\\mathrm{HCl})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=0.1 mol·L⁻¹",
+      "label": "盐酸标准溶液浓度"
+    },
+    "P424-F11": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot mL^{-1}}",
+      "plain": "ρ(HCl)=1.19 g·mL⁻¹",
+      "label": "浓盐酸密度"
+    },
+    "P430-F1": {
+      "latex": "\\rho(\\mathrm{H_3C_6H_5O_7\\cdot H_2O})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(H₃C₆H₅O₇·H₂O)=20 g·L⁻¹",
+      "label": "一水柠檬酸溶液质量浓度"
+    },
+    "P430-F4": {
+      "latex": "\\rho(\\mathrm{HNO_3})=1.42\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HNO₃)=1.42 g·cm⁻³",
+      "label": "浓硝酸密度"
+    },
+    "P430-F9": {
+      "latex": "\\mathrm{pH}=7.0",
+      "plain": "pH=7.0",
+      "label": "溶液pH（原文后续20 ℃为温度条件，不并入公式）"
+    },
+    "P434-F5": {
+      "latex": "\\rho(\\mathrm{C_{10}H_{14}O_8N_2Na_2\\cdot2H_2O})=40\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₁₀H₁₄O₈N₂Na₂·2H₂O)=40 g·L⁻¹",
+      "label": "EDTA 二钠溶液质量浓度"
+    },
+    "P436-F4": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P436-F6": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P436-F8": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P436-F10": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P436-F11": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P436-F13": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P438-F1": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P438-F3": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P438-F5": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P438-F6": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P440-F1": {
+      "latex": "\\rho(\\mathrm{Mn})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Mn)=100 mg·L⁻¹",
+      "label": "锰标准溶液质量浓度"
+    },
+    "P442-F2": {
+      "latex": "\\rho(\\mathrm{B})=20\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(B)=20 mg·L⁻¹",
+      "label": "硼标准溶液质量浓度"
+    },
+    "P443-F5": {
+      "latex": "\\rho(\\mathrm{HNO_3})=1.42\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HNO₃)=1.42 g·cm⁻³",
+      "label": "浓硝酸密度"
+    },
+    "P443-F6": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P443-F8": {
+      "latex": "\\rho(\\mathrm{HClO_4})=1.60\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HClO₄)=1.60 g·cm⁻³",
+      "label": "高氯酸密度"
+    },
+    "P454-F5": {
+      "latex": "\\rho(\\mathrm{(NH_4)_6Mo_7O_{24}\\cdot4H_2O})=50\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ((NH₄)₆Mo₇O₂₄·4H₂O)=50 g·L⁻¹",
+      "label": "钼酸铵溶液质量浓度（校正识别下标）"
+    },
+    "P454-F6": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P171-F16": {
+      "latex": "\\rho(\\mathrm{Si})=10\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Si)=10 mg·L⁻¹",
+      "label": "硅标准溶液质量浓度（标准系列体积留在正文）"
+    },
+    "P174-F26": {
+      "latex": "\\rho(\\mathrm{H_2SO_4})=1.84\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(H₂SO₄)=1.84 g·cm⁻³",
+      "label": "浓硫酸密度（依原页完整试剂行校正裁剪残缺）"
+    },
+    "P175-F3": {
+      "latex": "c(\\mathrm{NaOH})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.1 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P175-F5": {
+      "latex": "c(\\tfrac12\\mathrm{H_2SO_4})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(1/2H₂SO₄)=0.1 mol·L⁻¹",
+      "label": "硫酸标准溶液浓度"
+    },
+    "P175-F8": {
+      "latex": "\\varphi(\\mathrm{CH_3CH_2OH})=95\\%",
+      "plain": "φ(CH₃CH₂OH)=95%",
+      "label": "乙醇体积分数"
+    },
+    "P176-F3": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P179-F7": {
+      "latex": "c(\\mathrm{NaOH})=1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=1 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P180-F9": {
+      "latex": "\\rho(\\mathrm{H_2SO_4})=1.84\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(H₂SO₄)=1.84 g·cm⁻³",
+      "label": "浓硫酸密度（去除识别附着的行序号1）"
+    },
+    "P180-F19": {
+      "latex": "c(\\mathrm{NaOH})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.5 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P183-F2": {
+      "latex": "\\rho(\\mathrm{KCl})=100\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(KCl)=100 g·L⁻¹",
+      "label": "氯化钾溶液质量浓度"
+    },
+    "P183-F3": {
+      "latex": "c(\\mathrm{KCl})=2\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(KCl)=2 mol·L⁻¹",
+      "label": "氯化钾溶液浓度"
+    },
+    "P184-F1": {
+      "latex": "c(\\mathrm{KCl})=2\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(KCl)=2 mol·L⁻¹",
+      "label": "氯化钾溶液浓度"
+    },
+    "P184-F4": {
+      "latex": "c(\\mathrm{KCl})=2\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(KCl)=2 mol·L⁻¹",
+      "label": "氯化钾溶液浓度"
+    },
+    "P186-F1": {
+      "latex": "\\rho(\\mathrm{NH_2SO_3H})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NH₂SO₃H)=20 g·L⁻¹",
+      "label": "氨基磺酸溶液质量浓度"
+    },
+    "P186-F3": {
+      "latex": "\\rho(\\mathrm{NH_4^+-N})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(NH₄⁺-N)=100 mg·L⁻¹",
+      "label": "铵态氮标准溶液质量浓度"
+    },
+    "P186-F4": {
+      "latex": "\\rho(\\mathrm{N})=5\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(N)=5 mg·L⁻¹",
+      "label": "氮标准工作液质量浓度"
+    },
+    "P186-F5": {
+      "latex": "\\rho(\\mathrm{C_{10}H_{14}O_8N_2Na_2})=100\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₁₀H₁₄O₈N₂Na₂)=100 g·L⁻¹",
+      "label": "EDTA 二钠溶液质量浓度（依原书化学式）"
+    },
+    "P186-F19": {
+      "latex": "\\omega(\\mathrm{NaOCl})=5.25\\%",
+      "plain": "ω(NaOCl)=5.25%",
+      "label": "次氯酸钠有效氯质量分数（校正NaCl识别错误）"
+    },
+    "P456-F1": {
+      "latex": "\\text{总碱度}(\\mathrm{cmol\\cdot kg^{-1}})=\\frac{V_1c_1-V_2c_2}{m}\\times100",
+      "plain": "总碱度(cmol·kg⁻¹)=(V₁c₁−V₂c₂)/m×100",
+      "label": "灰肥总碱度计算公式"
+    },
+    "P456-F4": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P459-F2": {
+      "latex": "\\rho(\\mathrm{C_2HCl_3O_2})=100\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(C₂HCl₃O₂)=100 g·L⁻¹",
+      "label": "三氯乙酸溶液质量浓度"
+    },
+    "P459-F3": {
+      "latex": "\\rho(\\mathrm{NaOH})=12.5\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NaOH)=12.5 g·L⁻¹",
+      "label": "氢氧化钠溶液质量浓度（25 mL为后续用量）"
+    },
+    "P459-F4": {
+      "latex": "\\rho(\\mathrm{CuSO_4})=60\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(CuSO₄)=60 g·L⁻¹",
+      "label": "硫酸铜溶液质量浓度"
+    },
+    "P460-F3": {
+      "latex": "\\rho(\\mathrm{NH_4^+-N})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(NH₄⁺-N)=100 mg·L⁻¹",
+      "label": "铵态氮标准溶液质量浓度"
+    },
+    "P462-F2": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P463-F1": {
+      "latex": "c(\\mathrm{HCl})=6\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=6 mol·L⁻¹",
+      "label": "盐酸溶液浓度"
+    },
+    "P464-F2": {
+      "latex": "\\varphi(\\mathrm{CH_3CH_2OH})=75\\%",
+      "plain": "φ(CH₃CH₂OH)=75%",
+      "label": "乙醇体积分数"
+    },
+    "P464-F4": {
+      "latex": "\\mathrm{pH}=2",
+      "plain": "pH=2",
+      "label": "溶液pH（去除识别附着的行序号1）"
+    },
+    "P465-F5": {
+      "latex": "\\rho(\\mathrm{H_3PO_4})=1.69\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(H₃PO₄)=1.69 g·cm⁻³",
+      "label": "磷酸密度（依原页完整试剂行校正裁剪残缺）"
+    },
+    "P468-F1": {
+      "latex": "\\text{色氨酸含量}(\\mathrm{g\\cdot kg^{-1}})=\\frac{\\rho V}{m}",
+      "plain": "色氨酸含量(g·kg⁻¹)=ρV/m",
+      "label": "色氨酸含量计算公式"
+    },
+    "P469-F2": {
+      "reject": true,
+      "reason": "只截取到计算式开头[100−(，公式不完整"
+    },
+    "P470-F3": {
+      "reject": true,
+      "reason": "结构式反应被识别为无法可靠还原的残缺LaTeX，原图与反应说明保留在页文本"
+    },
+    "P471-F3": {
+      "latex": "\\varphi(\\mathrm{C_2H_5OH})=85\\%\\text{或}80\\%",
+      "plain": "φ(C₂H₅OH)=85%或80%",
+      "label": "乙醇体积分数两种配置"
+    },
+    "P473-F1": {
+      "latex": "\\text{还原糖}(\\%)=\\frac{\\rho V_0V\\times10^{-3}}{mV_1}\\times100",
+      "plain": "还原糖(%)=ρV₀V×10⁻³/(mV₁)×100",
+      "label": "还原糖含量计算公式"
+    },
+    "P187-F13": {
+      "latex": "\\rho(\\mathrm{N})=5\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(N)=5 mg·L⁻¹",
+      "label": "氮标准液质量浓度（标准系列体积留在正文）"
+    },
+    "P188-F2": {
+      "latex": "\\rho(\\mathrm{N})=2.00\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(N)=2.00 mg·L⁻¹",
+      "label": "氮标准液质量浓度（去除重复mg）"
+    },
+    "P188-F11": {
+      "latex": "c(\\mathrm{HCl})=2.4\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=2.4 mol·L⁻¹",
+      "label": "盐酸溶液浓度"
+    },
+    "P189-F4": {
+      "latex": "c(\\mathrm{KCl})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(KCl)=0.5 mol·L⁻¹",
+      "label": "氯化钾溶液浓度"
+    },
+    "P189-F8": {
+      "latex": "c(\\mathrm{KOH})=2\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(KOH)=2 mol·L⁻¹",
+      "label": "KOH-KOBr溶液中氢氧化钾浓度（依原页完整试剂行补全）"
+    },
+    "P472-F1": {
+      "latex": "\\rho(\\mathrm{C_6H_{12}O_6})=2000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(C₆H₁₂O₆)=2000 mg·L⁻¹",
+      "label": "葡萄糖标准溶液质量浓度"
+    },
+    "P474-F3": {
+      "latex": "\\rho(\\mathrm{CuSO_4\\cdot5H_2O})=100\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(CuSO₄·5H₂O)=100 g·L⁻¹",
+      "label": "五水硫酸铜溶液质量浓度（75 mL为后续用量）"
+    },
+    "P474-F4": {
+      "latex": "c(\\mathrm{KIO_3})=0.0167\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(KIO₃)=0.0167 mol·L⁻¹",
+      "label": "碘酸钾标准溶液浓度（250 mL为配制体积）"
+    },
+    "P474-F17": {
+      "latex": "c(\\mathrm{HCl})=1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=1 mol·L⁻¹",
+      "label": "盐酸溶液浓度"
+    },
+    "P477-F5": {
+      "latex": "\\alpha=[\\alpha]_D^{20}l\\frac{g}{100}=66.5\\times2\\times\\frac{26}{100}=34.620^{\\circ}=100^{\\circ}\\mathrm{S}",
+      "plain": "α=[α]ᴰ²⁰×l×g/100=66.5×2×26/100=34.620°=100°S",
+      "label": "蔗糖旋光度与国际糖度换算"
+    },
+    "P477-F9": {
+      "latex": "100^{\\circ}\\mathrm{S}=34.620^{\\circ}\\pm0.002^{\\circ}\\;(D=589.3\\,\\mathrm{nm})",
+      "plain": "100°S=34.620°±0.002° (D=589.3 nm)",
+      "label": "标准石英片旋光值"
+    },
+    "P479-F4": {
+      "latex": "1^{\\circ}=2.8918^{\\circ}\\mathrm{S},\\quad1^{\\circ}\\mathrm{S}=0.3458^{\\circ}",
+      "plain": "1°=2.8918°S；1°S=0.3458°",
+      "label": "旋光度与国际糖度换算"
+    },
+    "P483-F1": {
+      "latex": "c(\\mathrm{H_2SO_4})=0.50\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(H₂SO₄)=0.50 mol·L⁻¹",
+      "label": "硫酸溶液浓度"
+    },
+    "P483-F2": {
+      "latex": "\\rho[\\mathrm{CH_3(CH_2)_{15}(CH_3)_3N\\cdot Br}]=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ[CH₃(CH₂)₁₅(CH₃)₃N·Br]=20 g·L⁻¹",
+      "label": "十六烷基三甲基溴化铵溶液质量浓度"
+    },
+    "P492-F1": {
+      "latex": "\\text{挥发酸（以乙酸计）}(\\%)=\\frac{c(V-V_0)\\times10^{-3}\\times60}{m}\\times100",
+      "plain": "挥发酸（以乙酸计）(%)=c(V−V₀)×10⁻³×60/m×100",
+      "label": "挥发酸含量计算公式"
+    },
+    "P493-F2": {
+      "latex": "\\rho(\\mathrm{(NH_4)_2HPO_4})=5\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ((NH₄)₂HPO₄)=5 g·L⁻¹",
+      "label": "磷酸氢二铵溶液质量浓度"
+    },
+    "P494-F1": {
+      "latex": "c(\\mathrm{NaOH})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.1 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P494-F3": {
+      "latex": "c(\\mathrm{NaOH})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.1 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P494-F5": {
+      "latex": "\\varphi(\\mathrm{CH_3CH_2OH})=80\\%",
+      "plain": "φ(CH₃CH₂OH)=80%",
+      "label": "乙醇体积分数（800 mL为配制用量）"
+    },
+    "P499-F5": {
+      "latex": "\\rho(\\mathrm{H_2C_2O_4\\cdot2H_2O})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(H₂C₂O₄·2H₂O)=20 g·L⁻¹",
+      "label": "草酸溶液质量浓度"
+    },
+    "P500-F1": {
+      "latex": "\\text{砷含量}(\\mathrm{mg\\cdot kg^{-1}})=\\frac{\\rho\\times10^{-3}}{m}\\times1000",
+      "plain": "砷含量(mg·kg⁻¹)=ρ×10⁻³/m×1000",
+      "label": "砷含量计算公式"
+    },
+    "P501-F2": {
+      "latex": "\\rho(\\mathrm{As})=1000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(As)=1000 mg·L⁻¹",
+      "label": "砷标准溶液质量浓度"
+    },
+    "P502-F9": {
+      "latex": "\\rho(\\mathrm{HCl})=1.19\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(HCl)=1.19 g·cm⁻³",
+      "label": "浓盐酸密度"
+    },
+    "P503-F4": {
+      "latex": "c(\\mathrm{H_2SO_4})=1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(H₂SO₄)=1 mol·L⁻¹",
+      "label": "硫酸溶液浓度"
+    },
+    "P505-F3": {
+      "latex": "c(\\mathrm{HCl})=1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=1 mol·L⁻¹",
+      "label": "盐酸溶液浓度"
+    },
+    "P506-F2": {
+      "latex": "c(\\mathrm{HCl})=1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=1 mol·L⁻¹",
+      "label": "盐酸溶液浓度"
+    },
+    "P506-F7": {
+      "latex": "c(\\mathrm{HCl})=0.2\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HCl)=0.2 mol·L⁻¹",
+      "label": "盐酸溶液浓度"
+    },
+    "P508-F2": {
+      "latex": "\\rho(\\mathrm{Cr})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Cr)=100 mg·L⁻¹",
+      "label": "铬标准贮备液质量浓度"
+    },
+    "P509-F1": {
+      "latex": "\\rho(\\mathrm{NaNO_2})=20\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NaNO₂)=20 g·L⁻¹",
+      "label": "亚硝酸钠溶液质量浓度"
+    },
+    "P511-F1": {
+      "latex": "\\rho(\\mathrm{NH_2OH\\cdot HCl})=200\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NH₂OH·HCl)=200 g·L⁻¹",
+      "label": "盐酸羟胺溶液质量浓度"
+    },
+    "P511-F6": {
+      "latex": "\\rho(\\mathrm{SnCl_2\\cdot2H_2O})=200\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(SnCl₂·2H₂O)=200 g·L⁻¹",
+      "label": "氯化亚锡溶液质量浓度（依原页第8项补全）"
+    },
+    "P511-F10": {
+      "latex": "\\rho(\\mathrm{Hg})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Hg)=100 mg·L⁻¹",
+      "label": "汞标准贮备液质量浓度（依原页第4项补全）"
+    },
+    "P512-F1": {
+      "latex": "\\omega(\\mathrm{Hg})=\\frac{m_1ts\\times10^{-3}}{m}\\times1000",
+      "plain": "ω(Hg)=m₁ts×10⁻³/m×1000",
+      "label": "土壤汞含量计算公式"
+    },
+    "P512-F3": {
+      "latex": "\\varphi(\\mathrm{HNO_3})=10\\%",
+      "plain": "φ(HNO₃)=10%",
+      "label": "硝酸浸泡液体积分数"
+    },
+    "P518-F4": {
+      "latex": "c(\\mathrm{NaOH})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.1 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P531-F7": {
+      "latex": "\\rho(\\mathrm{H_2SO_4})=1.84\\,\\mathrm{g\\cdot cm^{-3}}",
+      "plain": "ρ(H₂SO₄)=1.84 g·cm⁻³",
+      "label": "浓硫酸密度"
+    },
+    "P532-F2": {
+      "reject": true,
+      "reason": "十水硫酸钠质量浓度裁剪到40 g即中断，第534页有完整式"
+    },
+    "P532-F3": {
+      "reject": true,
+      "reason": "十水硫酸钠质量浓度裁剪到40 g即中断，第534页有完整式"
+    },
+    "P534-F4": {
+      "latex": "c(\\mathrm{NaOH})=1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=1 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度"
+    },
+    "P535-F1": {
+      "latex": "\\text{多环芳烃}(\\mathrm{mg\\cdot kg^{-1}})=\\frac{\\rho H_{i,\\text{样}}V\\times10^{-3}}{H_{i,\\text{标}}mR_i}\\times1000",
+      "plain": "多环芳烃(mg·kg⁻¹)=ρHᵢ样V×10⁻³/(Hᵢ标mRᵢ)×1000",
+      "label": "土壤多环芳烃含量计算公式"
+    },
+    "P535-F7": {
+      "latex": "c(\\mathrm{KOH})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(KOH)=0.5 mol·L⁻¹",
+      "label": "氢氧化钾溶液浓度"
+    },
+    "P550-F2": {
+      "latex": "\\rho(\\mathrm{HNO_3})=40\\%",
+      "plain": "ρ(HNO₃)=40%",
+      "label": "硝酸溶液浓度（依原书ρ记号）"
+    },
+    "P560-F3": {
+      "latex": "\\rho(\\mathrm{Mg})=2000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Mg)=2000 mg·L⁻¹",
+      "label": "镁标准贮存液质量浓度"
+    },
+    "P560-F4": {
+      "latex": "\\rho(\\mathrm{Ca})=1500\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(Ca)=1500 mg·L⁻¹",
+      "label": "钙标准贮存液质量浓度"
+    },
+    "P560-F5": {
+      "latex": "\\rho(\\mathrm{CaO})=150\\,\\mathrm{mg\\cdot L^{-1}},\\quad\\rho(\\mathrm{MgO})=25\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(CaO)=150 mg·L⁻¹；ρ(MgO)=25 mg·L⁻¹",
+      "label": "钙镁混合工作标准液质量浓度"
+    },
+    "P560-F6": {
+      "latex": "\\varphi(\\mathrm{HNO_3})=5\\%",
+      "plain": "φ(HNO₃)=5%",
+      "label": "硝酸溶液体积分数"
+    },
+    "P560-F8": {
+      "latex": "\\varphi(\\mathrm{HNO_3})=5\\%",
+      "plain": "φ(HNO₃)=5%",
+      "label": "硝酸溶液体积分数"
+    },
+    "P562-F2": {
+      "latex": "E_{\\text{电池}}=E^0+E_M+E_j,\\quad E^0=E_{\\text{参}1}-E_{\\text{参}2}+E_{\\text{不对称}}",
+      "plain": "E电池=E⁰+E_M+E_j；E⁰=E参1−E参2+E不对称",
+      "label": "离子选择电极电池电势组成"
+    },
+    "P565-F6": {
+      "latex": "\\Delta E=E_2-E_1",
+      "plain": "ΔE=E₂−E₁",
+      "label": "标准加入前后电位差（去除后续不完整CΔ残片）"
+    },
+    "P565-F8": {
+      "reject": true,
+      "reason": "仅识别到CΔ=，不是完整公式"
+    },
+    "P567-F4": {
+      "latex": "c(\\mathrm{NaOH})=10\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=10 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度（0.2 mL为后续用量）"
+    },
+    "P567-F5": {
+      "latex": "\\rho(\\mathrm{N})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(N)=100 mg·L⁻¹",
+      "label": "氮标准溶液质量浓度"
+    },
+    "P567-F6": {
+      "latex": "c(\\mathrm{KCl})=2\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(KCl)=2 mol·L⁻¹",
+      "label": "氯化钾溶液浓度"
+    },
+    "P567-F7": {
+      "reject": true,
+      "reason": "只识别到c(NO₃⁻)=，定义不完整"
+    },
+    "P568-F5": {
+      "latex": "c(\\mathrm{KCl})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(KCl)=0.1 mol·L⁻¹",
+      "label": "氯化钾标准溶液浓度"
+    },
+    "P569-F6": {
+      "latex": "c(\\tfrac12\\mathrm{BaCl_2})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(1/2BaCl₂)=0.5 mol·L⁻¹",
+      "label": "氯化钡提取液浓度（依原页完整行补全）"
+    },
+    "P569-F17": {
+      "latex": "C_x=\\frac{39.1}{\\operatorname{antilog}(\\Delta E/S)-1},\\quad\\omega(\\mathrm{K})=\\frac{C_xV\\times10^{-3}}{m}\\times1000",
+      "plain": "C_x=39.1/[antilog(ΔE/S)−1]；ω(K)=C_xV×10⁻³/m×1000",
+      "label": "标准加入法速效钾浓度与含量计算"
+    },
+    "P541-F4": {
+      "latex": "\\rho(\\mathrm{P})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(P)=100 mg·L⁻¹",
+      "label": "磷标准溶液质量浓度"
+    },
+    "P570-F1": {
+      "latex": "\\mathrm{F^-}(\\mathrm{mg\\cdot g^{-1}})=\\frac{G(V_1/V_2)}{m}",
+      "plain": "F⁻(mg·g⁻¹)=G(V₁/V₂)/m",
+      "label": "氟含量计算公式"
+    },
+    "P570-F2": {
+      "latex": "c(\\mathrm{Na_3C_6H_5O_7})=2\\,\\mathrm{mol\\cdot L^{-1}};\\quad c(\\mathrm{C_7H_6O_6S\\cdot2H_2O})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(Na₃C₆H₅O₇)=2 mol·L⁻¹；c(C₇H₆O₆S·2H₂O)=0.5 mol·L⁻¹",
+      "label": "柠檬酸钠—磺基水杨酸混合液浓度"
+    },
+    "P570-F4": {
+      "latex": "\\rho(\\mathrm{NaOH})=2\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(NaOH)=2 g·L⁻¹",
+      "label": "氢氧化钠吸收液质量浓度"
+    },
+    "P570-F9": {
+      "latex": "c(\\mathrm{F^-})=0.1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(F⁻)=0.1 mol·L⁻¹",
+      "label": "氟标准溶液浓度（依同页完整试剂行补全）"
+    },
+    "P570-F10": {
+      "latex": "G=C(\\mathrm{mg\\cdot L^{-1}})\\times10^{-3}\\times10",
+      "plain": "G=C(mg·L⁻¹)×10⁻³×10",
+      "label": "10 mL待测液中氟量换算"
+    },
+    "P571-F1": {
+      "reject": true,
+      "reason": "乙酸镁化学式左侧被裁断，同页P571-F2有完整式"
+    },
+    "P571-F2": {
+      "latex": "c[\\mathrm{Mg(CH_3COO)_2}]=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c[Mg(CH₃COO)₂]=0.5 mol·L⁻¹",
+      "label": "乙酸镁外盐桥溶液浓度"
+    },
+    "P571-F3": {
+      "reject": true,
+      "reason": "乙酸镁浓度式在等号后被裁断，同页P571-F4有完整式"
+    },
+    "P571-F4": {
+      "latex": "c[\\mathrm{Mg(CH_3COO)_2}]=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c[Mg(CH₃COO)₂]=0.5 mol·L⁻¹",
+      "label": "乙酸镁溶液浓度"
+    },
+    "P571-F5": {
+      "latex": "c(\\mathrm{NH_4NO_3})=1\\,\\mathrm{mol\\cdot L^{-1}};\\quad c(\\mathrm{HNO_3})=0.06\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NH₄NO₃)=1 mol·L⁻¹；c(HNO₃)=0.06 mol·L⁻¹",
+      "label": "硝酸铵—硝酸混合液浓度（原页破折号为配方分隔）"
+    },
+    "P571-F6": {
+      "reject": true,
+      "reason": "硝酸铵浓度单位被裁断，P571-F5已保留完整混合液配方"
+    },
+    "P571-F7": {
+      "latex": "c(\\mathrm{HNO_3})=0.06\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(HNO₃)=0.06 mol·L⁻¹",
+      "label": "混合液中硝酸浓度"
+    },
+    "P571-F10": {
+      "reject": true,
+      "reason": "混合液配方在第二组分前被裁断，P571-F5已保留完整式"
+    },
+    "P571-F19": {
+      "latex": "c(\\mathrm{KCl})=1\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(KCl)=1 mol·L⁻¹",
+      "label": "氯化钾标准母液浓度"
+    },
+    "P577-F1": {
+      "latex": "\\frac{m}{e}=\\frac{R^2H^2}{2V}",
+      "plain": "m/e=R²H²/(2V)",
+      "label": "磁式质谱计基本方程（原页式48-3）"
+    },
+    "P580-F2": {
+      "latex": "\\text{丰度灵敏度}=\\frac{I_m}{I_{m\\pm\\Delta m}}",
+      "plain": "丰度灵敏度=I_m/I_{m±Δm}",
+      "label": "质谱丰度灵敏度"
+    },
+    "P582-F1": {
+      "latex": "{}^{13}\\mathrm{C}\\text{丰度（原子\\%{}^{13}C）}=\\frac{[{}^{13}C]}{[{}^{12}C]+[{}^{13}C]}\\times100\\%",
+      "plain": "¹³C丰度（原子%¹³C）=[¹³C]/([¹²C]+[¹³C])×100%",
+      "label": "碳13同位素原子丰度"
+    },
+    "P583-F2": {
+      "latex": "K_{\\text{校}}=\\frac{R_{\\text{计}}}{R_{\\text{测}}}",
+      "plain": "K校=R计/R测",
+      "label": "同位素比值校正因子"
+    },
+    "P587-F2": {
+      "latex": "c(\\tfrac12\\mathrm{H_2SO_4})=0.005\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(1/2H₂SO₄)=0.005 mol·L⁻¹",
+      "label": "硫酸标准溶液浓度"
+    },
+    "P589-F1": {
+      "latex": "\\rho(\\mathrm{KI})=2\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(KI)=2 g·L⁻¹",
+      "label": "碘化钾溶液质量浓度"
+    },
+    "P590-F3": {
+      "latex": "{}^{15}\\mathrm{N}\\text{原子\\%}=\\frac{1}{2R+1}\\times100",
+      "plain": "¹⁵N原子%=1/(2R+1)×100",
+      "label": "双原子氮质谱法氮15原子百分数"
+    },
+    "P590-F7": {
+      "latex": "{}^{15}\\mathrm{N}\\text{原子\\%}=\\frac{{}^{15}\\mathrm{N}\\text{原子数}}{{}^{14}\\mathrm{N}\\text{原子数}+{}^{15}\\mathrm{N}\\text{原子数}}\\times100",
+      "plain": "¹⁵N原子%=¹⁵N原子数/(¹⁴N原子数+¹⁵N原子数)×100",
+      "label": "氮15原子百分数定义"
+    },
+    "P591-F1": {
+      "latex": "{}^{15}\\mathrm{N}\\text{原子\\%}=\\frac{(29)+2(30)}{2[(28)+(29)+(30)]}\\times100",
+      "plain": "¹⁵N原子%=[(29)+2(30)]/{2[(28)+(29)+(30)]}×100",
+      "label": "质荷比28、29、30的氮15原子百分数"
+    },
+    "P602-F2": {
+      "latex": "\\rho(\\mathrm{P})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(P)=100 mg·L⁻¹",
+      "label": "磷标准贮存液质量浓度"
+    },
+    "P603-F1": {
+      "latex": "\\text{磷浓度}(\\mathrm{mg/dm^3})=\\frac{\\text{读数}(\\mathrm{mg\\cdot L^{-1}},P)}{\\text{吸取浸提液毫升数}}\\times500",
+      "plain": "磷浓度(mg/dm³)=读数(mg·L⁻¹，P)/吸取浸提液毫升数×500",
+      "label": "Mehlich 3浸提液磷浓度换算"
+    },
+    "P603-F7": {
+      "latex": "\\begin{aligned}\\text{石灰性土：Mehlich 3-P}&=-0.431+2.72(\\text{Olsen-P})\\\\\\text{非石灰性土：Mehlich 3-P}&=0.591+1.42(\\text{Olsen-P})\\end{aligned}",
+      "plain": "石灰性土：Mehlich 3-P=−0.431+2.72(Olsen-P)；非石灰性土：Mehlich 3-P=0.591+1.42(Olsen-P)",
+      "label": "Olsen-P与Mehlich 3-P转换方程（补全同页第二式）"
+    },
+    "P605-F1": {
+      "latex": "c(\\mathrm{CH_3COONH_4})=1\\,\\mathrm{mol\\cdot L^{-1}},\\quad\\mathrm{pH}=7.0",
+      "plain": "c(CH₃COONH₄)=1 mol·L⁻¹，pH=7.0",
+      "label": "pH 7.0乙酸铵浸提液"
+    },
+    "P612-F15": {
+      "latex": "\\rho(\\mathrm{N})=500\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(N)=500 mg·L⁻¹",
+      "label": "氮标准溶液质量浓度（补全被裁断的L⁻¹）"
+    },
+    "P613-F1": {
+      "latex": "\\rho(\\mathrm{N})=500\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(N)=500 mg·L⁻¹",
+      "label": "氮标准溶液质量浓度（2 mL为后续吸取体积）"
+    },
+    "P613-F4": {
+      "latex": "\\rho(\\mathrm{N})=500\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(N)=500 mg·L⁻¹",
+      "label": "氮标准溶液质量浓度（补全被裁断的L⁻¹）"
+    },
+    "P614-F1": {
+      "latex": "\\mathrm{NO_3^--N}(\\mathrm{mg\\cdot L^{-1}})=\\rho\\frac{V_1}{V_2}",
+      "plain": "NO₃⁻-N(mg·L⁻¹)=ρV₁/V₂",
+      "label": "植株组织液硝态氮浓度计算"
+    },
+    "P616-F1": {
+      "latex": "\\text{汁液氨基态氮和酰胺态氮含量}(\\mathrm{mg\\cdot L^{-1}})=\\rho\\frac{V_1}{V_2}",
+      "plain": "汁液氨基态氮和酰胺态氮含量(mg·L⁻¹)=ρV₁/V₂",
+      "label": "植株汁液氨基态氮和酰胺态氮含量计算"
+    },
+    "P618-F3": {
+      "latex": "\\text{植株汁液含磷量}(\\mathrm{mg\\cdot L^{-1}})=\\rho\\frac{V_1}{V_2}",
+      "plain": "植株汁液含磷量(mg·L⁻¹)=ρV₁/V₂",
+      "label": "植株汁液磷含量计算"
+    },
+    "P620-F3": {
+      "latex": "\\rho(\\mathrm{K})=4000\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(K)=4000 mg·L⁻¹",
+      "label": "钾标准溶液质量浓度（依原页跨行补全L⁻¹）"
+    },
+    "P621-F3": {
+      "latex": "\\text{植株汁液含钾量}(\\mathrm{mg\\cdot L^{-1}})=\\rho\\frac{V_1}{V_2}",
+      "plain": "植株汁液含钾量(mg·L⁻¹)=ρV₁/V₂",
+      "label": "植株汁液钾含量计算"
+    },
+    "P622-F1": {
+      "latex": "\\rho(\\mathrm{KNaC_4H_4O_6\\cdot4H_2O})=400\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(KNaC₄H₄O₆·4H₂O)=400 g·L⁻¹",
+      "label": "酒石酸钾钠溶液质量浓度（更正识别式中多出的Cl）"
+    },
+    "P623-F1": {
+      "latex": "c=\\frac{m}{(204.2/1000)(V-V_0)}",
+      "plain": "c=m/[(204.2/1000)(V−V₀)]",
+      "label": "氢氧化钠标准溶液浓度标定公式"
+    },
+    "P623-F3": {
+      "latex": "\\rho(\\mathrm{N})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(N)=100 mg·L⁻¹",
+      "label": "铵态氮标准溶液质量浓度"
+    },
+    "P623-F4": {
+      "latex": "\\rho(\\mathrm{NH_4^+-N})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+      "plain": "ρ(NH₄⁺-N)=100 mg·L⁻¹",
+      "label": "铵态氮标准溶液质浓度"
+    },
+    "P623-F7": {
+      "latex": "c(\\mathrm{NaOH})=0.5\\,\\mathrm{mol\\cdot L^{-1}}",
+      "plain": "c(NaOH)=0.5 mol·L⁻¹",
+      "label": "氢氧化钠溶液浓度（20 g为1 L配制用量）"
+    },
+      "P624-F1": {
+        "latex": "\\omega(\\mathrm{N})=\\frac{cV\\,ts\\times14\\times10^{-3}}{m}\\times100",
+        "plain": "ω(N)=cV·ts×14×10⁻³/m×100",
+        "label": "甲醛滴定法铵态氮质量分数计算"
+      },
+      "P625-F1": {
+        "latex": "\\omega(\\mathrm{N})=\\frac{\\rho V\\,ts\\times10^{-6}}{m}\\times100",
+        "plain": "ω(N)=ρV·ts×10⁻⁶/m×100",
+        "label": "化肥硝态氮质量分数计算（更正识别式中将6误作s）"
+      },
+      "P625-F2": {
+        "latex": "\\rho(\\mathrm{NO_3^--N})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+        "plain": "ρ(NO₃⁻-N)=100 mg·L⁻¹",
+        "label": "硝态氮标准工作液质量浓度"
+      },
+      "P625-F3": {
+        "latex": "\\rho(\\mathrm{N})=100\\,\\mathrm{mg\\cdot L^{-1}}",
+        "plain": "ρ(N)=100 mg·L⁻¹",
+        "label": "硝态氮标准贮备液（以N计）"
+      },
+      "P626-F1": {
+        "latex": "\\omega(\\mathrm{P_2O_5})=\\frac{\\rho V\\,ts\\times10^{-6}}{m}\\times100",
+        "plain": "ω(P₂O₅)=ρV·ts×10⁻⁶/m×100",
+        "label": "化肥有效磷质量分数计算（更正识别式中将6误作8）"
+      },
+      "P626-F10": {
+        "latex": "c(\\mathrm{H_2SO_4})=6\\,\\mathrm{mol\\cdot L^{-1}}",
+        "plain": "c(H₂SO₄)=6 mol·L⁻¹",
+        "label": "测磷用硫酸溶液浓度（47 mL为后续配制体积）"
+      },
+      "P626-F11": {
+        "latex": "\\rho(\\mathrm{Mo})=25\\,\\mathrm{g\\cdot L^{-1}}",
+        "plain": "ρ(Mo)=25 g·L⁻¹",
+        "label": "钼酸铵溶液质量浓度（以Mo计）"
+      },
+      "P627-F2": {
+        "reject": true,
+        "reason": "钾质量浓度式只识别到数值，完整式见同页P627-F3"
+      },
+      "P627-F7": {
+        "latex": "\\rho[\\mathrm{NaB(C_6H_5)_4}]=30\\,\\mathrm{g\\cdot L^{-1}}",
+        "plain": "ρ[NaB(C₆H₅)₄]=30 g·L⁻¹",
+        "label": "四苯硼酸钠溶液质量浓度（去除识别式尾随的配制用量）"
+      },
+      "P627-F11": {
+        "latex": "c(\\mathrm{NaOH})=2\\,\\mathrm{mol\\cdot L^{-1}}",
+        "plain": "c(NaOH)=2 mol·L⁻¹",
+        "label": "氢氧化钠溶液浓度（8 g为100 mL配制用量）"
+      },
+      "P630-F9": {
+        "latex": "\\begin{aligned}R&=A+B-C\\\\\\Delta R&=\\Delta A+\\Delta B+\\Delta C\\end{aligned}",
+        "plain": "R=A+B−C；ΔR=ΔA+ΔB+ΔC",
+        "label": "加减运算的绝对误差传播"
+      },
+      "P631-F5": {
+        "latex": "\\frac{\\Delta c}{c}+\\frac{\\Delta V}{V}+\\frac{\\Delta m}{m}=0.68\\%",
+        "plain": "Δc/c+ΔV/V+Δm/m=0.68%",
+        "label": "全氮测定各步骤相对误差总和（更正识别式中多出的c）"
+      },
+      "P631-F6": {
+        "latex": "\\begin{aligned}\\frac{0.0001}{0.7290}&=0.014\\%\\\\\\frac{0.001}{0.729}&=0.14\\%\\end{aligned}",
+        "plain": "0.0001/0.7290=0.014%；0.001/0.729=0.14%",
+        "label": "不同结果保留位数对应的相对误差"
+      },
+      "P631-F8": {
+        "latex": "c=0.0212\\,\\mathrm{mol\\cdot L^{-1}}\\pm0.0001,\\quad\\frac{\\Delta c}{c}=\\frac{0.0001}{0.0212}=0.47\\%",
+        "plain": "c=0.0212 mol·L⁻¹±0.0001；Δc/c=0.0001/0.0212=0.47%",
+        "label": "标准酸浓度及其相对误差（更正识别式中将±误作+）"
+      },
+      "P632-F2": {
+        "latex": "S=\\sqrt{\\frac{\\sum x^2-\\frac{(\\sum x)^2}{N}}{N-1}}",
+        "plain": "S=√{[Σx²−(Σx)²/N]/(N−1)}",
+        "label": "样本标准差的简化计算公式（去除识别式中多出的撇号）"
+      },
+      "P632-F7": {
+        "latex": "\\omega(\\mathrm{N})=0.00729\\pm(0.00729\\times0.68\\%)=(0.729\\pm0.005)\\%",
+        "plain": "ω(N)=0.00729±(0.00729×0.68%)=(0.729±0.005)%",
+        "label": "堆肥全氮结果及最大误差表达"
+      },
+      "P633-F1": {
+        "latex": "S_{\\bar{x}}=\\frac{0.054}{\\sqrt{4}}=0.027\\%",
+        "plain": "S_x̄=0.054/√4=0.027%",
+        "label": "示例数据的平均值标准误（去除识别式中多出的冒号）"
+      },
+      "P633-F3": {
+        "latex": "S=\\sqrt{\\frac{0.48^2+0.37^2+0.47^2+0.40^2-\\frac{(0.48+0.37+0.47+0.40)^2}{4}}{4-1}}=0.054\\%",
+        "plain": "S=√{[0.48²+0.37²+0.47²+0.40²−(0.48+0.37+0.47+0.40)²/4]/(4−1)}=0.054%",
+        "label": "风干玉米苗含磷量的样本标准差（更正根号与分母层级并补全结果）"
+      },
+      "P634-F1": {
+        "latex": "CL=\\bar{x}\\pm t_{\\alpha}S_{\\bar{x}}",
+        "plain": "CL=x̄±t_αS_x̄",
+        "label": "平均值的置信限（更正识别式中的α下标）"
+      },
+      "P634-F2": {
+        "latex": "\\begin{aligned}H_0:&\\,\\bar{x}_1=\\bar{x}_2\\\\H_1:&\\,\\bar{x}_1\\ne\\bar{x}_2\\end{aligned}",
+        "plain": "H₀：x̄₁=x̄₂；H₁：x̄₁≠x̄₂",
+        "label": "两个平均值t检验的原假设与备择假设（更正识别式中的帽号并补全相邻式）"
+      },
+      "P634-F4": {
+        "latex": "\\alpha=0.05",
+        "plain": "α=0.05",
+        "label": "显著水平（去除识别式中多出的左括号）"
+      },
+      "P650-F1": {
+        "latex": "\\text{筛孔直径毫米数}\\approx\\frac{16}{\\text{每吋网眼数（筛号）}}",
+        "plain": "筛孔直径毫米数≈16/每吋网眼数(筛号)",
+      "label": "美制筛号与筛孔直径近似换算"
+    },
+    "P650-F2": {
+      "latex": "25\\times0.63=16",
+      "plain": "25×0.63=16",
+      "label": "25号筛筛孔换算示例（原页取近似整数16）"
+    },
+    "P662-F2": {
+      "latex": "\\mathrm{Ca:Mg}>5:1\\Rightarrow\\text{Mg有效性下降};\\quad\\mathrm{Ca:Mg}=3:1\\sim4:1\\Rightarrow\\text{适宜}",
+      "plain": "Ca:Mg>5:1时Mg有效性下降；Ca:Mg=3:1～4:1时适宜",
+      "label": "交换性钙镁比诊断阈值（依原页跨行补全）"
+    },
+    "P665-F20": {
+      "latex": "\\rho(\\mathrm{HCl})\\approx50\\,\\mathrm{g\\cdot L^{-1}}",
+      "plain": "ρ(HCl)≈50 g·L⁻¹",
+      "label": "5%(W/V)盐酸的法定质量浓度近似表达"
+    },
+    "P635-F1": {
+      "latex": "\\begin{aligned}\\bar{x}_1&=\\frac{\\sum x}{N}\\\\\\bar{x}_1&=\\frac{0.142+0.126+0.140+0.125}{4}=0.1332\\\\\\bar{x}_2&=\\frac{0.091+0.112+0.115+0.101}{4}=0.1048\\end{aligned}",
+      "plain": "x̄₁=Σx/N；x̄₁=(0.142+0.126+0.140+0.125)/4=0.1332；x̄₂=(0.091+0.112+0.115+0.101)/4=0.1048",
+      "label": "两个等样本数平均值（更正识别式中重复的x̄₁下标）"
+    },
+    "P635-F7": {
+      "latex": "S_1^2=\\frac{(0.142^2+0.126^2+0.140^2+0.125^2)-\\frac{(0.142+0.126+0.140+0.125)^2}{4}}{4-1}=0.00008091",
+      "plain": "S₁²=[(0.142²+0.126²+0.140²+0.125²)−(0.142+0.126+0.140+0.125)²/4]/(4−1)=0.00008091",
+      "label": "土壤A呼吸强度样本方差"
+    },
+    "P636-F3": {
+      "latex": "S_{1,2}=\\sqrt{\\frac{S_1^2+S_2^2}{2}}=\\sqrt{\\frac{0.00008091+0.0001202}{2}}=0.010",
+      "plain": "S₁,₂=√[(S₁²+S₂²)/2]=√[(0.00008091+0.0001202)/2]=0.010",
+      "label": "等样本数两组数据合并标准差（补回被漏识的8）"
+    },
+      "P636-F5": {
+        "latex": "t=\\frac{|\\bar{x}_1-\\bar{x}_2|}{S_d}=\\frac{0.1332-0.1048}{0.00707}=4.02",
+        "plain": "t=|x̄₁−x̄₂|/S_d=(0.1332−0.1048)/0.00707=4.02",
+        "label": "等样本数两平均值差的t检验"
+      },
+      "P636-F6": {
+        "latex": "S_2^2=\\frac{(0.091^2+0.112^2+0.115^2+0.101^2)-\\frac{(0.091+0.112+0.115+0.101)^2}{4}}{4-1}=0.0001202",
+        "plain": "S₂²=[(0.091²+0.112²+0.115²+0.101²)−(0.091+0.112+0.115+0.101)²/4]/(4−1)=0.0001202",
+        "label": "土壤B呼吸强度样本方差（补回识别式漏掉的除以4）"
+    },
+    "P636-F13": {
+      "latex": "df_2=N_2-1=3",
+      "plain": "df₂=N₂−1=3",
+      "label": "F检验分母自由度（更正识别式中的N₁）"
+    },
+    "P636-F16": {
+      "latex": "\\bar{x}_1=\\frac{4.33+4.37+4.25}{3}=4.317",
+      "plain": "x̄₁=(4.33+4.37+4.25)/3=4.317",
+      "label": "分析者A测定结果平均值（去除跨页裁断的方差残片）"
+    },
+      "P637-F4": {
+      "latex": "S_{1,2}=\\sqrt{\\frac{\\sum(x_1-\\bar{x}_1)^2+\\sum(x_2-\\bar{x}_2)^2}{(N_1-1)+(N_2-1)}}=\\sqrt{\\frac{0.007467+0.00660}{5}}=0.053",
+      "plain": "S₁,₂=√{[Σ(x₁−x̄₁)²+Σ(x₂−x̄₂)²]/[(N₁−1)+(N₂−1)]}=√[(0.007467+0.00660)/5]=0.053",
+        "label": "不等样本数两组数据合并标准差（原页分子第二项印为0.00669，依同页S₂²计算值校正为0.00660）"
+      },
+      "P637-F5": {
+        "latex": "\\begin{aligned}H_0:&\\,\\bar{x}_1=\\bar{x}_2\\\\H_1:&\\,\\bar{x}_1\\ne\\bar{x}_2\\end{aligned}",
+        "plain": "H₀：x̄₁=x̄₂；H₁：x̄₁≠x̄₂",
+        "label": "两平均值比较的原假设与备择假设"
+    },
+    "P637-F14": {
+      "latex": "\\begin{aligned}S_1^2&=\\frac{0.007467}{3-1}=0.00373\\\\\\bar{x}_2&=\\frac{4.21+4.18+4.29+4.24}{4}=4.23\\\\S_2^2&=\\frac{(4.21^2+4.18^2+4.29^2+4.24^2)-\\frac{(4.21+4.18+4.29+4.24)^2}{4}}{4-1}=\\frac{0.00660}{3}=0.00220\\end{aligned}",
+      "plain": "S₁²=0.007467/(3−1)=0.00373；x̄₂=(4.21+4.18+4.29+4.24)/4=4.23；S₂²=[(4.21²+4.18²+4.29²+4.24²)−(4.21+4.18+4.29+4.24)²/4]/(4−1)=0.00660/3=0.00220",
+      "label": "不等样本数示例的两组方差与第二组平均值"
+    },
+    "P638-F1": {
+      "latex": "\\begin{aligned}S_1^2&=\\frac{(99.2^2+98.9^2+99.0^2+99.2^2+98.2^2)-\\frac{(99.2+98.9+99.0+99.2+98.2)^2}{5}}{5-1}=\\frac{0.68}{4}=0.170\\\\S_2^2&=\\frac{(98.0^2+97.3^2+97.6^2+97.7^2+98.4^2)-\\frac{(98.0+97.3+97.6+97.7+98.4)^2}{5}}{5-1}=\\frac{0.70}{4}=0.175\\\\F&=\\frac{S_2^2}{S_1^2}=\\frac{0.175}{0.170}=1.03\\end{aligned}",
+      "plain": "S₁²=[(99.2²+98.9²+99.0²+99.2²+98.2²)−(99.2+98.9+99.0+99.2+98.2)²/5]/(5−1)=0.68/4=0.170；S₂²=[(98.0²+97.3²+97.6²+97.7²+98.4²)−(98.0+97.3+97.6+97.7+98.4)²/5]/(5−1)=0.70/4=0.175；F=S₂²/S₁²=0.175/0.170=1.03",
+      "label": "配对测定两方法方差与F值（补全原页首个99.2的平方号）"
+    },
+    "P638-F2": {
+      "latex": "S_{\\bar d}=\\sqrt{\\frac{2.20}{5(5-1)}}=0.332",
+      "plain": "S_d̄=√[2.20/(5(5−1))]=0.332",
+      "label": "配对平均值差数标准差（更正识别式中的a下标）"
+    },
+    "P638-F4": {
+      "latex": "t=\\frac{|\\bar{x}_1-\\bar{x}_2|}{S_{\\bar d}}=\\frac{|98.9-97.8|}{0.332}=3.31",
+      "plain": "t=|x̄₁−x̄₂|/S_d̄=|98.9−97.8|/0.332=3.31",
+      "label": "配对样本平均值差的t检验"
+    },
+    "P639-F1": {
+      "latex": "t=\\frac{\\bar{x}_1-\\mu}{S_x}=\\frac{2.38-2.54}{0.0605}=2.65",
+      "plain": "t=(x̄₁−μ)/S_x=(2.38−2.54)/0.0605=2.65",
+      "label": "一个平均值与一个标准值比较的t检验（更正识别式中的S_z）"
+    },
+      "P639-F3": {
+      "latex": "S=\\sqrt{\\frac{(2.52^2+2.44^2+2.26^2+2.30^2)-\\frac{(2.52+2.44+2.26+2.30)^2}{4}}{4-1}}=0.121,\\quad S_x=\\frac{0.121}{\\sqrt4}=0.0605",
+      "plain": "S=√{[(2.52²+2.44²+2.26²+2.30²)−(2.52+2.44+2.26+2.30)²/4]/(4−1)}=0.121；S_x=0.121/√4=0.0605",
+        "label": "新方法测定值的标准差与标准误"
+      },
+      "P639-F16": {
+        "latex": "\\begin{aligned}H_0:&\\,\\bar{x}=\\mu\\quad(\\text{标准值为 }2.54\\%)\\\\H_1:&\\,\\bar{x}\\ne\\mu\\end{aligned}",
+        "plain": "H₀：x̄=μ（标准值为2.54%）；H₁：x̄≠μ",
+        "label": "平均值与标准值比较的原假设与备择假设"
+    },
+      "P641-F2": {
+        "latex": "b=\\frac{L_{xy}}{L_{xx}}",
+        "plain": "b=L_xy/L_xx",
+        "label": "一元线性回归斜率（更正识别式中的δ）"
+      },
+      "P642-F3": {
+        "latex": "\\begin{aligned}y'&=a-t_{0.05}S_{y/x}+bx\\\\y''&=a+t_{0.05}S_{y/x}+bx\\end{aligned}",
+        "plain": "y′=a−t₀.₀₅S_y/x+bx；y″=a+t₀.₀₅S_y/x+bx",
+        "label": "一元线性回归预测值的95%置信限"
+      },
+      "P642-F7": {
+        "latex": "\\begin{aligned}\\bar{y}&=a+b\\bar{x}\\\\a&=\\bar{y}-b\\bar{x}\\end{aligned}",
+        "plain": "ȳ=a+b x̄；a=ȳ−b x̄",
+        "label": "一元线性回归截距"
+      },
+      "P643-F2": {
+        "latex": "S_x=\\frac{S_{y/x}}{b}",
+        "plain": "S_x=S_y/x/b",
+        "label": "由回归方程求待测量时的误差限（更正识别式中的花体S）"
+      },
+      "P643-F3": {
+        "latex": "x\\pm S_x",
+        "plain": "x±S_x",
+        "label": "回归方程计算的待测量及其误差限（更正识别式中的花体S）"
+      }
+  }
+}

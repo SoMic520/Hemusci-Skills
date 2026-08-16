@@ -1,0 +1,53 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 2,
+  "sourceImageSha256": "a77618a72cdf00c016fec9040a4356597ec59f26a1f57e39a2028cbae545f68e",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面图像"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "逐项核对人名、英文、标点和册次"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "第二遍独立读取原页并逐项对照初校记录"
+    }
+  },
+  "blocks": [
+    {
+      "type": "title",
+      "text": "土壤采样与分析方法"
+    },
+    {
+      "type": "subtitle",
+      "text": "（上册）"
+    },
+    {
+      "type": "credit",
+      "text": "［加］M.R. Carter（M.R.卡特）　E.G. Gregorich（E.G.格雷戈里奇）主编"
+    },
+    {
+      "type": "credit",
+      "text": "李保国　李永涛　任图生　王朝辉　徐建明　主译"
+    },
+    {
+      "type": "publisher",
+      "text": "電子工業出版社"
+    },
+    {
+      "type": "publisher",
+      "text": "Publishing House of Electronics Industry"
+    },
+    {
+      "type": "place",
+      "text": "北京·BEIJING"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "0043767ee7cb1bdf945c7ab5faf5c797af8cda1056990317f3357e83e2beb1ef"
+}

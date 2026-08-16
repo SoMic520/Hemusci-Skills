@@ -1,0 +1,50 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 6,
+  "sourceImageSha256": "45ff35c547a7dcb2ec14269316eda43eeac6285b6c2ea4ec5c5af243e20740d7",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率前言和两套OCR，完成全部段落、分篇翻译分工、署名与日期"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验2016/2021-10-29、7篇分工、5名主译、部委名称、学科范围及‘丛书’用字"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由署名日期反向复核至标题，检查每篇标题、姓名、标点和原页省略号"
+    }
+  },
+  "blocks": [
+    {
+      "type": "section-heading",
+      "level": 1,
+      "title": "前言"
+    },
+    {
+      "type": "paragraph",
+      "text": "前言强调健康土壤对粮食安全、气候变化、生物多样性和水资源的重要性，并指出我国土壤研究与管理队伍虽规模庞大，但与国际先进水平相比，在土壤采样和分析方法的理论与技术创新方面仍有差距。"
+    },
+    {
+      "type": "paragraph",
+      "text": "2016年，电子工业出版社邀请李保国组织翻译本书。前言称，国内需要高水平实用专业书，而本书作为加拿大土壤学会编辑的专著，是美国土壤学会土壤分析方法系列的浓缩型工具书，提供常规、相对简单易用且兼顾理论先进性的土壤采样与分析方法。"
+    },
+    {
+      "type": "translation-workflow",
+      "text": "李永涛组织第一篇（土壤样品采集与处理）和第二篇（土壤与环境管理的诊断方法）；王朝辉组织第三篇（土壤化学分析）和第五篇（土壤有机质分析）；徐建明组织第四篇（土壤生物分析）；任图生组织第六篇（土壤物理分析）；李保国负责第七篇（土壤水分析）及附录，并审读全书。封面和扉页主译者按汉语拼音顺序排列，各章末列译者和校者。"
+    },
+    {
+      "type": "intended-audience",
+      "text": "适用于农业、资源环境、生态、土地、水利、地理及相关工程领域的科研和技术人员，也建议作为土壤测试实验室工作人员参考手册。"
+    },
+    {
+      "type": "signature",
+      "text": "李保国，2021年10月29日。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1516a383f1101cd1881f371cf2dfc5ba901a6dd698fa05aca3dae2d3e5be8931"
+}

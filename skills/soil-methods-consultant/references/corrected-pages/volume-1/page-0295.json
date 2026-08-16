@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 295,
+  "sourceImageSha256": "a27fb74361a11a06e2d78817612ac09bf0471ea2e14150e561dfb8aa6f698a44",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第30章第264页，人工恢复30.2跨页段落、材料和试剂、四步采样流程、注释及30.3染色原理引言"},
+    "precisionPass": {"status": "verified", "method": "核对采样位置（行内/行间/中点）、样本数10～12、深度0～15 cm/20 cm/15 cm/7.5 cm，以及5～10 min、1 h、10% KOH、30% H₂O₂、5 mol/L HCl和3% NaOCl的字符、下标与单位"},
+    "secondVisualPass": {"status": "verified", "method": "从页底四种染色剂反向复核至页首跨页续句，确认方法层级、步骤序号、引文年份、危险化学组合的原书语序及印刷页码264"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "continuation", "fromPage": 294, "section": "30.2", "text": "植物群落下AM生物多样性的评价要求采集的样本在所有种类植物的附近。指定区域AM真菌丰度的评价要求更随机的采样计划。例如，在指定时间点，为取得一个代表单一培养试验区块的土壤样本，采用分层随机取样计划将是最有效的策略。具体如下："},
+    {"type": "heading", "level": 2, "number": "30.2.1", "title": "材料和试剂"},
+    {"type": "materials", "items": ["（1）标记的塑料袋。", "（2）带刻度的球形播种机或土钻。", "（3）桶。"]},
+    {"type": "heading", "level": 2, "number": "30.2.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "在如下每个指定区域随机取同等数量的土壤钻孔样本：（a）直接在每行，（b）在行间。对于行间距较宽的作物，可按如下取样：（a）在每行，（b）在行间及（c）在行与行中的中点。各自的取样数量取决于区块大小及均匀性。"},
+    {"type": "procedure-step", "number": "（2）", "text": "将土壤钻孔样本置于桶中，直至完成该区块的取样练习。"},
+    {"type": "procedure-step", "number": "（3）", "text": "将桶内土样倒入恰当标记的塑料袋。将所有土壤钻孔样本混合为每个区块的单一代表性样本，该土样可进一步筛分、混合及再取样用作不同分析。"},
+    {"type": "procedure-step", "number": "（4）", "text": "避免将含土样的塑料袋置于日光下，使土样迅速加热。推荐使用冷却装置。"},
+    {"type": "heading", "level": 2, "number": "30.2.3", "title": "注释"},
+    {"type": "note", "text": "土壤采样通常为0～15 cm，但采样深度的选择可依据具体考虑而定。例如，有研究者比较喜欢取耕作层，即前20 cm、15 cm或7.5 cm，这取决于所采用的耕作系统，或是已知的根际深度。所需的土壤钻孔样本数量取决于样本大小（土样越大所需样本数量越少），以及采样点均匀性。异质性采样点需要更多的取样量。在一个明显同质的田间区块，如使用较大的土样（例如，球形播种机取样），建议采集至少三个土壤样本。若采用土钻，可从一个区块及桶中的混合土样迅速采集10～12个土样。"},
+    {"type": "heading", "level": 1, "number": "30.3", "title": "染色法确定根系定殖"},
+    {"type": "paragraph", "text": "根际清理和染色可以确定AM真菌内生根部分，同时可以评价AM根际定殖程度。清理过程通常在一个热平板或者高压釜中用KOH溶液煮沸根系样品，以去除碱可溶的单宁酸。黄瓜、玉米或者洋葱之类较嫩的根系除酸仅需5～10 min，而一些树根甚至需要在10% KOH溶液中煮沸超过1 h。室温条件下也可进行清理，也可得到高质量的根系材料，但是需要在KOH溶液中浸泡数小时至数天，进一步浸泡于30% H₂O₂（Phillips和Hayman，1970）后用几滴5 mol/L HCl酸化后的3% NaOCl（Bevege，1968）溶液中去除根系中很难清理的残留单宁酸。"},
+    {"type": "safety-note", "scope": "30.3引言中的HCl/NaOCl叙述", "severity": "critical", "text": "原书的中文语序可被理解为用5 mol/L HCl酸化3% NaOCl。强酸与次氯酸盐混合可释放有毒氯气，不得依这一中文句子直接操作。必须先核对Phillips和Hayman（1970）及Bevege（1968）原始步骤，明确H₂O₂、HCl和NaOCl的先后次序、冲洗间隔和工程控制。"},
+    {"type": "paragraph", "text": "染色法的发展过程是毒性逐步降低的过程，从以乳酚（Phillips和Hayman，1970）为基础到以乳酸甘油（Brundrett等，1994）、家庭食醋（Vierheilig等，1998）到稀释的盐酸（HCl）甚至奎宁水（Walker，2005）等较温和的酸为基础。最后，普通永久性墨水如氯唑黑E、台盼蓝、酸性品红等（Vierheilig等，1998）可替代可能致癌的染色剂。由于墨水和食醋染色技术是一种安全廉价的方法（详见下文），通常使用台盼蓝染色法进行研究。染色剂的效果取决于AM根系质量，植物种类。此外，Brundrett等（1984）还对比了氯唑黑E、台盼蓝、酸性品红及苯胺蓝的染色效果。"},
+    {"type": "source-fidelity-note", "scope": "30.3染色法引言", "text": "原书印作‘奎宁水（Walker，2005）’，该译名在墨水—食醋染色语境中可疑；另‘普通永久性墨水如氯唑黑E、台盼蓝、酸性品红’与紧接着的‘通常使用台盼蓝’存在分类/安全性表述混杂。本语料保留原文，方法选择时须核对Walker（2005）与Vierheilig等（1998）原文。"},
+    {"type": "printed-page-number", "text": "264"}
+  ],
+  "formulas": [
+    {"scope": "30.3", "label": "过氧化氢", "display": "H₂O₂", "latex": "\\mathrm{H_2O_2}"},
+    {"scope": "30.3", "label": "盐酸", "display": "HCl", "latex": "\\mathrm{HCl}"},
+    {"scope": "30.3", "label": "次氯酸钠", "display": "NaOCl", "latex": "\\mathrm{NaOCl}"}
+  ],
+  "tables": [],
+  "contentSha256": "02f742e38fbd47c70c9c6d5b5c9c52179eb723c94a7e79b67e3fa8a653843d35"
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 378,
+  "sourceImageSha256": "4cdebff07a3ca727182468e5bbbd487fa36cf62c7602f15fd6f782bee143de12",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版37.1～37.2"},
+    "precisionPass": {"status": "verified", "method": "核验319 ppb、400 μL O₂·L⁻¹、NO₂副产物、至少4个气样、5 h、6 h、¹⁵N和全部上下标"},
+    "secondVisualPass": {"status": "verified", "method": "从37.2容器比较反向复核至上一页承接句，纠正N₂O/NO₂混淆和新酶导致速率非线性；印刷页码347"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第37章｜土壤反硝化测定技术｜"},
+    {"type": "continuation", "text": "（承第377页）Wagner-Riddle等（1996，1997）测定了N₂O释放量，Taylor等（1999）测定了NO释放量。还可根据土壤剖面不同深度的N₂O浓度梯度测定土壤N₂O通量（Burton和Beauchamp，1994；Burton等，1997）。"},
+    {"type": "paragraph", "text": "目前最常用的土壤反硝化损失测定方法是Yoshinari等（1977）首先提出的乙炔抑制法。乙炔能抑制N₂O还原为N₂，使研究者可估计土壤系统释放N₂O的潜在量。该法相对简单；由于大气N₂O浓度较低（2005年为319 ppb），加入乙炔后N₂O浓度的增量容易测定。"},
+    {"type": "paragraph", "text": "乙炔法也有多项限制：残留物含高硫化物（如苜蓿）时（de Catanzaro等，1987），或培养时间过长时（Yeomans和Beauchamp，1978），乙炔抑制可能不完全。当土壤O₂浓度高于400 μL O₂·L⁻¹时，NO、C₂H₂和O₂可相互作用生成NO₂；由于土壤中通常不存在C₂H₂，NO₂是该法的副产物（Bollmann和Conrad，1997；McKenney等，1997）。该反应在很低的O₂浓度下即可发生，除完全厌氧培养外，其他培养条件均可能出现。NO₂不是常规测定指标，因此会低估反硝化的NO₃⁻总量。"},
+    {"type": "source-fidelity-note", "scope": "乙炔法副产物", "text": "中文本前句印成“形成N₂O”，后句又写“既然NO₂不是常规测定指标”，前后矛盾；英文原文明确副产物为NO₂。正文统一纠正为NO₂。英文数字转录中μ常丢失为mL；结合原页和“very low O₂ concentrations”，正确单位为400 μL O₂·L⁻¹。"},
+    {"type": "ordered-list", "intro": "本章介绍三种乙炔抑制技术：", "items": [
+      "基础反硝化速率：土壤在厌氧条件下培养，不添加任何外源物质；",
+      "潜在反硝化速率：厌氧短期培养，同时加入NO₃⁻和可利用碳源；",
+      "土钻/原状土芯法：完整土芯在有氧顶空且不额外添加物质的条件下短期培养，重点反映内在土壤结构和厌氧微位点对反硝化的影响。"
+    ]},
+    {"type": "paragraph", "text": "三种乙炔抑制技术均建议至少采集4个气体样品，并用线性回归确定反硝化速率。产生新酶时速率会呈非线性，例如潜在反硝化法同时提供碳和氮底物时。潜在反硝化试验把培养时间限制为5 h，以尽量减小新酶合成的影响。基础反硝化速率法和土芯法通常不额外添加碳或NO₃⁻，培养时间也仅为6 h，因而不太可能发生显著的新酶合成。"},
+    {"type": "source-fidelity-note", "scope": "新酶与回归线性", "text": "判定规则是：至少4点用于拟合，但若培养期间产生新酶，真实速率会呈非线性。不能把“使用线性回归”误读成“新酶产生时速率仍线性”。"},
+    {"type": "paragraph", "text": "本章还介绍两种不用乙炔的方法。¹⁵N示踪法可区分外加氮和土壤原有氮对反硝化气体排放的贡献；研究土壤过程、机制与反应速率时宜优先选择，但人力和费用更高。连续流动法用于同时定量土壤NO和N₂O释放：使湿润惰性气体流经土柱，测定气流中的NO和N₂O浓度；该法任一时刻只能评价有限数量的样品。"},
+    {"type": "section-heading", "level": 2, "number": "37.2", "title": "收集释放气体用真空容器的准备"},
+    {"type": "paragraph", "text": "各种反硝化方法都要收集并分析NO、N₂O或N₂气样。气相色谱仪和同位素质谱仪连接自动进样器，可减少手工向气相色谱仪注气造成的进样体积误差、用力过度引起的进样口隔膜提前漏气以及进样针频繁破损。机械臂以恒定压力垂直刺入隔膜，使同一隔膜可分析数百个气样；缓慢、均匀的自动进样还可在针头不弯曲或断裂的情况下完成数千次进样。"},
+    {"type": "paragraph", "text": "自动进样前必须储存气样，因此采气容器能否有效抽空很重要。带橡胶隔膜和黑色螺旋盖的容器（如Exetainer，Labco Limited，Buckinghamshire，UK）比包括Vacutainer（Becton Dickinson，Franklin Lakes，NJ）在内的其他储存容器更易有效抽空，保持真空的时间也更长。"},
+    {"type": "printed-page-number", "text": "347"}
+  ],
+  "formulas": [
+    {"id": "37.1-oxygen-threshold", "display": "[O₂] > 400 μL O₂·L⁻¹"},
+    {"id": "37.1-acetylene-artifact", "display": "NO + C₂H₂ + O₂ → NO₂ (artifact; simplified statement from method text)"},
+    {"id": "37.1-time-points", "display": "n_gas samples ≥ 4; t_potential = 5 h; t_basal/core = 6 h"}
+  ],
+  "tables": [],
+  "contentSha256": "860aba13b74c1954da60c0ce5304f3a5f7b6144734df4a42f416928372ce0fb0"
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-47305-2026",
+  "label": "GB/T 47305-2026《土壤有效硼的测定》",
+  "standardNo": "GB/T 47305-2026",
+  "title": "土壤有效硼的测定",
+  "published": "2026-03-31",
+  "implemented": "2026-10-01",
+  "domain": "soil",
+  "sourceType": "official-online-reader",
+  "sourceFingerprint": "31f3677426303771ba4b96bd6e9bf07dd444cbfa72985ceeef7f31919faec25a",
+  "includedPageCount": 19,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=266C5A1B0939CE68A8F97980CCAEAEC4"
+}

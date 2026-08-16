@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 157,
+  "sourceImageSha256": "bcc32d75a2d936d283be3f8049caab7f3cfd201ec9656a2609c114b08558b4c4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐式对照原分辨率图和两套OCR，完成69.2续文、直接/间接法、电磁法及69.3至式(69.2)"},
+    "precisionPass": {"status": "verified", "method": "核验TDR/GPR/EM/RF、ε_ra、θ_v、U_m/U_v/U_wt、J·kg⁻¹/Pa/m、1000 kg·m⁻³、9.81 m·s⁻²"},
+    "secondVisualPass": {"status": "verified", "method": "由式(69.2)反向复核至有效饱和度续句，检查介电术语、直接/间接破坏性和能量单位换算；印刷页码666"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "直接法通过加热汽化、溶剂萃取/置换或化学反应把水与土壤基质分离，再由质量变化、冷凝水、萃取液或反应产物定量；热重法最常用（第70章）。间接法测与θ相关的相对介电常数、电导率、热容量、氢含量或磁化率，扰动小但精度取决于标定关系。"},
+    {"type": "paragraph", "text": "第70章电磁法基于EM波传播或RF电路。TDR、GPR和遥感雷达利用传播性质，电容/电阻法把土壤视作电路元件。水的相对介电常数远大于多数土壤固相和空气，故体积相对介电常数ε_ra主要随θ_v变化。不存在适用于全部土壤的唯一关系，但矿质、有机和盐化土可分别建立准通用或现场标定；许多矿质土中θ_v与√ε_ra近似线性。烘干热重法通常作其他方法评价基准。"},
+    {"type": "heading", "number": "69.3", "title": "土壤水势", "level": 2},
+    {"type": "paragraph", "text": "总土水势ψ_t经典定义为等温可逆条件下，把微量水从规定压力和高度的纯水参照态移入系统所需的功。对亲水多孔介质，实践中也常按移出水所需功讨论，但符号和参照态必须一致。"},
+    {"type": "variables", "items": ["U_m：单位质量能量，J·kg⁻¹", "U_v：单位体积能量，J·m⁻³=Pa", "U_wt：单位重量能量，m（水头）", "ρ_w：水密度，20 ℃约1000 kg·m⁻³", "g：重力加速度，约9.81 m·s⁻²"]},
+    {"type": "source-fidelity-note", "text": "原书把“土壤固相体积与容积土壤电导率”写入介电讨论，按前后文应为体积相对介电常数；结构化时避免把ε_ra误作电导率。式(69.2)中U_wt是水头，单位m，不是能量本身。"}
+  ],
+  "formulas": [
+    {"label": "69.2", "plain": "U_m = U_v/ρ_w = gU_wt", "latex": "U_m=\\frac{U_v}{\\rho_w}=gU_{wt}"}
+  ],
+  "tables": [],
+  "contentSha256": "baa564841bb2d00a2adb8d311b415611ba0f15f4a6652c84b319b148b231b7fc"
+}

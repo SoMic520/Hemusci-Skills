@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 177,
+  "sourceImageSha256": "c013d258ee8c5884635b9d01b6669446afa8ce5478e9ba118fd363b2c819ac17",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐表逐图对照原分辨率页图和两套OCR，完成多型探针、表70.1、图70.1及空间权重设计"},
+    "precisionPass": {"status": "verified", "method": "核验6家供应商型号/扩展器、间距直径比≤10、直径≥代表尺度10倍以及50/6 mm"},
+    "secondVisualPass": {"status": "verified", "method": "由页末探针选择反向复核表格每格和图注供应商编号；印刷页码686"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "多型探针以一根中心杆配外围杆，即使仅两根外杆也可近似同轴传输并提高反射能力，但安装较难、易扰动土体。探针配置决定测量体积形状；沿杆长的响应表现为线性加权平均，分层土壤可能需专门改进。"},
+    {"type": "figure", "number": "70.1", "title": "TDR探针", "note": "编号1、2来自Soilmoisture；3、4、5来自环境传感器有限公司（ESI）；6为作者实验室定制。"},
+    {"type": "paragraph", "text": "横向空间权重更复杂。双线/多线同轴探针的重要几何量为金属丝间距与直径之比，建议≤10；金属丝直径至少为代表性土壤孔径或颗粒直径的10倍以得到合理平均。间距50 mm、直径6 mm的探针在多类耕作/非耕作农业土壤中效果较好；测量范围被认为与介质含水量无关。"},
+    {"type": "source-fidelity-note", "text": "表70.1反映成书时商用设备配置，不代表当前产品规格；运行时应将其作为历史设备信息而非采购建议。表中“有/无”必须按波形和电导率两列分别解释。"}
+  ],
+  "formulas": [],
+  "tables": [
+    {"number": "70.1", "title": "不同型号TDR及其主要功能", "columns": ["供应商", "型号", "数据采集", "扩展技术", "土壤探针", "波形", "电导率"], "rows": [
+      ["美国ESI股份有限公司", "MP917", "内置选项", "有", "MP917兼容型，短路二极管", "无", "无"],
+      ["美国Tektronix公司", "1502B/C", "无", "无", "定制", "有", "有"],
+      ["美国Campbell Scientific股份有限公司", "TDR100", "CR10X或CR23X", "SDMX50", "定制", "有", "有"],
+      ["美国Soilmoisture股份有限公司", "TRASE", "内置选项", "TRASE 6003", "TRASE兼容型", "有", "有"],
+      ["美国Dynamax股份有限公司", "Tek 1502B/C", "控制器", "TR-200", "定制", "有", "无"],
+      ["德国MESA股份有限公司", "TRIME TDR", "控制器", "TRIME-MUX6", "TRIME兼容型", "无", "无"]
+    ]}
+  ],
+  "contentSha256": "2c4111d9f73b120b0e69a17d3bd001efcfa12eb3362de4b2ae753766232633dd"
+}

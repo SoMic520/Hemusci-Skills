@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 79,
+  "sourceImageSha256": "1c073aed5e14c13e33b4d1da3cc5fd5aea9d32415e97c8c0f6502d8883bb9382",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成第61章题名、作者单位、61.1及61.2跨页引言"},
+    "precisionPass": {"status": "verified", "method": "核验k_a/m²、Darcy层流假设、孔径四次方、<0.2 m水柱、恒压梯度/恒定通量方法及稳态条件"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页k_a句反向复核至章题，检查固有透气率符号、流态逻辑、基质势范围和层级；印刷页码588"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "61", "title": "透气性"},
+    {"type": "authors", "items": ["C.D. Grant；University of Adelaide，Glen Osmond, South Australia, Australia", "P.H. Groenevelt；University of Guelph，Guelph, Ontario, Canada"]},
+    {"type": "heading", "number": "61.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "土壤透气性用固有透气率k_a表征，是总压力梯度下控制空气对流的介质系数。Darcy定律规定多孔介质体积通量与压差成正比、与流路长度成反比。大孔隙和宽裂缝贡献最大；理想单圆管的体积流量与半径四次方成正比。k_a单位m²。"},
+    {"type": "source-fidelity-note", "text": "原书同句把推导假设写成‘等温的、紊流的黏性气体流’，随后又明确是Darcy层流，互相矛盾。式（61.1）适用的是等温、稳态、黏性层流及低压差近似，不适用于显著惯性/紊流或强可压缩条件。"},
+    {"type": "paragraph", "text": "透气率长期用于描述孔隙结构与连续性（Green和Ampt，1911；Buehrer，1932；Moldrup等，2001），对管理引起的结构变化敏感，也用于预测饱和导水率等性质。田间测量因表层非均质而变异大、难解释；实验室更易控制尺度和几何，并可在较宽基质势范围描绘孔隙网络。"},
+    {"type": "paragraph", "text": "室内主要有：①恒压梯度法，测空气流量；②恒定通量法，测压力。本章只处理稳态；高度不透样品的瞬变流分析见Groenevelt和Lemoine（1987）。"},
+    {"type": "heading", "number": "61.2", "title": "恒压梯度法", "level": 2},
+    {"type": "paragraph", "text": "把固定几何土柱置于高于大气压的恒压空气源，测单位时间通过土柱的空气体积。较低压差（如<0.2 m水柱）下，可由式（61.1）求k_a。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "53108c9ba4015fa4fb94041ffd6229512cbf5042b7443e8632a7f53f6694c2f4"
+}

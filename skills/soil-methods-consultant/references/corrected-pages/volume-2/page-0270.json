@@ -1,0 +1,95 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 270,
+  "sourceImageSha256": "98ec18ad7d205e706cb1b91338503b2e6b35f142fa5099ed18de54b17d129993",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对式(80.10)、算例、80.6.2步骤5、80.7—80.9第1—3点"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "独立复算r_s=9.5 mm、r_c=49 mm、30—70 min水位差，核对2.66×10⁻⁷ m·s⁻¹及单位修正"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "高倍复核式(80.10)负号、平方、下标、ψ₀范围和I/√t—√t坐标；印刷页码779"
+    }
+  },
+  "blocks": [
+    {
+      "type": "calculation",
+      "text": "用稳态区间两端的储水管读数和时间代入式(80.10)。示例取r_s=9.5 mm、r_c=49 mm、t₁=30 min、h₁=27 mm、t₂=70 min、h₂=10 mm，得K(−20 mm)=1.60×10⁻² mm·min⁻¹=2.66×10⁻⁷ m·s⁻¹。"
+    },
+    {
+      "type": "procedure-continuation",
+      "number": "80.6.2",
+      "steps": [
+        "稳态测定结束后，移走张力入渗仪及接触砂，并称量土芯。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "80.7",
+      "title": "其他基质水头下的测定",
+      "level": 2
+    },
+    {
+      "type": "method-guidance",
+      "text": "按相同程序在其他ψ₀下重复吸渗率和导水率测定。每一次S试验的初始含水状态由上一次平衡或试验后的含水状态决定，解释结果时必须记录这种前期含水状态。为减小滞后影响，ψ₀序列应按单一方向逐步增大或逐步减小，不能往返跳变。全部试验结束后烘干土芯，测定容重，并由各次称量求初始体积含水量θ_i和各ψ₀下的θ(ψ₀)，进而建立近饱和脱水或吸水曲线。"
+    },
+    {
+      "type": "heading",
+      "number": "80.8",
+      "title": "毛管参数的计算",
+      "level": 2
+    },
+    {
+      "type": "calculation-guidance",
+      "text": "由测得的S(ψ₀)、K(ψ₀)及含水状态，按式(69.17)—(69.19)计算吸渗数α*(ψ₀)、流量权重平均孔径PD(ψ₀)和单位面积流量权重平均孔数NP(ψ₀)。"
+    },
+    {
+      "type": "heading",
+      "number": "80.9",
+      "title": "说明",
+      "level": 2
+    },
+    {
+      "type": "comments",
+      "items": [
+        "采用适当的供水膜时，张力入渗仪可施加低至约−400 mm的基质水头；本方法通常用于−100 mm≤ψ≤0的近饱和范围。",
+        "该方法可在同一原状土芯上取得S(ψ)、K(ψ)、θ(ψ)及相关毛管参数，并保持明确的一维边界条件。",
+        "吸渗率估计对土壤真正开始控制入渗的起始时刻t₀很敏感。I/√t对√t图比I对√t图更容易识别该转折；Vandervaere等的方法对式(80.1a)关于√t求导，以进一步处理起始阶段。该说明续见下一页。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书算例把1.60×10⁻²后的单位印为“mm·mm⁻¹”，与式(80.10)和换算结果均不相容；按(h₂−h₁)/(t₂−t₁)的量纲校正为“mm·min⁻¹”，并保留此校注。原文近饱和范围在说明中漏印负号，规范为−100 mm≤ψ≤0。80.7所说的是后一次试验的前期含水状态，并非把含水量误认作吸渗率。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "80.10",
+      "plain": "K(ψ₀)=q=−r_s²(h₂−h₁)/[r_c²(t₂−t₁)]=−(r_s²/r_c²)(dh/dt)",
+      "latex": "K(\\psi_0)=q=-\\frac{r_s^2(h_2-h_1)}{r_c^2(t_2-t_1)}=-\\frac{r_s^2}{r_c^2}\\frac{dh}{dt}",
+      "resultUnit": "L·T⁻¹",
+      "variables": [
+        "K(ψ₀)：基质水头ψ₀下的导水率，[L·T⁻¹]",
+        "q：稳态通量密度，[L·T⁻¹]",
+        "r_s：储水管内半径，[L]",
+        "r_c：土芯内半径，[L]",
+        "h₁、h₂：时刻t₁、t₂的储水管水位，[L]",
+        "t₁、t₂：稳态区间两端时刻，[T]"
+      ]
+    },
+    {
+      "label": "式(80.10)算例",
+      "plain": "K(−20 mm)=−(9.5²/49²)[(10−27)/(70−30)]=1.60×10⁻² mm·min⁻¹=2.66×10⁻⁷ m·s⁻¹",
+      "latex": "K(-20\\ \\mathrm{mm})=-\\frac{9.5^2}{49^2}\\frac{10-27}{70-30}=1.60\\times10^{-2}\\ \\mathrm{mm\\,min^{-1}}=2.66\\times10^{-7}\\ \\mathrm{m\\,s^{-1}}",
+      "resultUnit": "m·s⁻¹"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "46882fefc26541d321143bb44d596bcaf203b3d01a06d0929e8cdd56d237e5d4"
+}

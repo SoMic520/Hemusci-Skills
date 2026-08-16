@@ -1,0 +1,44 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 418,
+  "sourceImageSha256": "49d985346746d0bd551f285cddb46125da0895f63d56583f96c1d02423f4d426",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式对照原分辨率中文页面、两套OCR及英文原版式（40.2）～（40.9）"},
+    "precisionPass": {"status": "verified", "method": "逐一核验R/i/m/L/T下标、m²、百分数/100、求和号和分母n，并用量纲及代数逆变换复核式（40.8）"},
+    "secondVisualPass": {"status": "verified", "method": "由式（40.9）反向复核至（40.2），区分Xapc/Xpc/Xdpc及DMAFR/DMAFRM/DMAFLi；印刷页码387"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第40章｜土壤生物活性的评估"},
+    {"type": "paragraph", "text": "承式（40.1）：Xd为干残体加铝盒质量。"},
+    {"type": "calculation-step", "group": "1", "text": "按式（40.2）求所采残体干物质量DMR。XT为所采残体总鲜重，DM%为干物质百分含量。"},
+    {"type": "calculation-group", "number": "2", "title": "残体灰分含量校正"},
+    {"type": "calculation-step", "group": "2", "text": "按式（40.3）求初始残体灰分百分含量ARi。Xapc为灰分+瓷坩埚质量；Xpc为干瓷坩埚质量；Xdpc为干残体+瓷坩埚质量。"},
+    {"type": "calculation-step", "group": "2", "text": "按式（40.4）把残体干物质量DMR校正为所采残体去灰分干重DMAFR。"},
+    {"type": "calculation-group", "number": "3", "title": "单位面积残体去灰分干重"},
+    {"type": "calculation-step", "group": "3", "text": "按式（40.5）求单位面积去灰分残体质量DMAFRM；Am为采样面积（m²）。"},
+    {"type": "calculation-group", "number": "4", "title": "每个分解网袋的新鲜残体添加量"},
+    {"type": "calculation-step", "group": "4", "text": "按式（40.6）由网袋长L和宽W（均为m）求网袋代表面积AL（m²）。"},
+    {"type": "calculation-step", "group": "4", "text": "按式（40.7）求每袋目标去灰分残体干重DMAFLi。"},
+    {"type": "calculation-step", "group": "4", "text": "按经百分数和逆灰分校正的式（40.8-corrected）求每袋新鲜残体量RFL。A%为残体灰分百分含量，DM%为残体干物质百分含量。"},
+    {"type": "source-fidelity-note", "scope": "式（40.8）", "text": "中译本与英文原版印为{DMAFLi+[DMAFLi×(A%/100)]}×(1/DM%)。按本节定义DM%是百分数，式（40.2）亦明确除以100，因此原式少乘100；同时“1+A%/100”只是“1/(1−A%/100)”的一阶近似。运行时采用量纲和代数均准确的逆校正式：RFL=DMAFLi/[(1−A%/100)×(DM%/100)]。原印式保留在formulas的sourcePrinted字段供溯源。"},
+    {"type": "calculation-group", "number": "5", "title": "运输和处理损失校正"},
+    {"type": "calculation-step", "group": "5", "text": "按式（40.9）以n个旅行者袋中去灰分残体干重DMAFT的均值，估计安放后每袋校正初始去灰分干重DMAFLic。中译本/英文原版此处写作DMRAFLic，而后式（40.12）～（40.13）写DMAFLic；为避免同量异名，结构化语料统一为DMAFLic。"},
+    {"type": "calculation-group", "number": "6", "title": "回收网袋材料的灰分校正"},
+    {"type": "paragraph", "text": "回收网袋灰分百分含量计算续见第419页。"},
+    {"type": "printed-page-number", "text": "387"}
+  ],
+  "formulas": [
+    {"label": "（40.2）", "plain": "DMR=XT×(DM%/100)", "latex": "DM_R=X_T\\left(\\frac{DM_{\\%}}{100}\\right)", "context": "所采残体干物质量"},
+    {"label": "（40.3）", "plain": "ARi=[(Xapc−Xpc)/(Xdpc−Xpc)]×100", "latex": "A_{Ri}=\\frac{X_{apc}-X_{pc}}{X_{dpc}-X_{pc}}\\times100", "context": "初始残体灰分百分含量"},
+    {"label": "（40.4）", "plain": "DMAFR=DMR−DMR×(ARi/100)=DMR×(1−ARi/100)", "latex": "DM_{AFR}=DM_R\\left(1-\\frac{A_{Ri}}{100}\\right)", "context": "所采残体去灰分干重"},
+    {"label": "（40.5）", "plain": "DMAFRM=DMAFR/Am", "latex": "DM_{AFRM}=\\frac{DM_{AFR}}{A_m}", "context": "单位面积去灰分残体干重"},
+    {"label": "（40.6）", "plain": "AL=L×W", "latex": "A_L=L\\times W", "context": "网袋代表面积，m²"},
+    {"label": "（40.7）", "plain": "DMAFLi=DMAFRM×AL", "latex": "DM_{AFLi}=DM_{AFRM}\\times A_L", "context": "每个网袋目标去灰分残体干重"},
+    {"label": "（40.8）原印", "sourcePrinted": "RFL={DMAFLi+[DMAFLi×(A%/100)]}×(1/DM%)", "status": "source-equation-dimensionally-inconsistent", "context": "原书式；DM%按百分数定义时缺少×100，灰分逆校正为近似"},
+    {"label": "（40.8-corrected）", "plain": "RFL=DMAFLi/[(1−A%/100)×(DM%/100)]", "latex": "R_{FL}=\\frac{DM_{AFLi}}{\\left(1-\\frac{A_{\\%}}{100}\\right)\\left(\\frac{DM_{\\%}}{100}\\right)}", "context": "由目标去灰分干重反算应装新鲜残体量；运行时默认"},
+    {"label": "（40.9）", "plain": "DMAFLic=(ΣDMAFT)/n", "latex": "DM_{AFLic}=\\frac{\\sum DM_{AFT}}{n}", "context": "旅行者袋均值校正后的初始去灰分干重；变量名已与式（40.12）～（40.13）统一"}
+  ],
+  "tables": [],
+  "contentSha256": "8ef41df788d954c7e9a209db7a260f09b26074e76f3b7bff746f77a0f63f2b7d"
+}

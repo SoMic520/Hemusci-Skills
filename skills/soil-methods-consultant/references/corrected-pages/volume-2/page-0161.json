@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 161,
+  "sourceImageSha256": "38442270e23f02083471404e130c14abf208084b57dd0c269675d34b40bb96d7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率页图和两套OCR，完成式(69.5)—(69.8)、69.4.3及跨页采样要求"},
+    "precisionPass": {"status": "verified", "method": "核验θ_v/θ_FC、FC/PWP、m³·m⁻³、0.10/0.15/0.20、0.20—0.30及孔隙度比例"},
+    "secondVisualPass": {"status": "verified", "method": "由页末20个结构单元反向复核至式(69.5)，检查负基质头、百分比与体积分数；印刷页码670"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "空气容量AC按书中式(69.5)表示为θ_v与田间持水量θ_FC之差。为满足根区通气性，建议最小AC：壤质土0.10 m³·m⁻³，黏质土0.15 m³·m⁻³，栽培介质约0.20 m³·m⁻³。田间AC可周期性低于这些值而造成根层通气不足。"},
+    {"type": "paragraph", "text": "植物有效水容量PAWC定义为田间持水量FC减永久萎蔫点PWP，表示完全补水后土壤可供根系利用的最大水量。ψ_m>ψ_FC时水迅速排走；ψ_m<ψ_PWP时吸持过强而根系不能吸收。为兼顾生长并降低干旱敏感性，建议最小PAWC为0.20—0.30 m³·m⁻³。"},
+    {"type": "paragraph", "text": "雨养作物条件下，根层田间持水量与空气容量的建议平衡为FC/孔隙度=0.66，等价写成AC/孔隙度=0.34。依据是孔隙66%充水或34%充气时好气微生物有机质矿化及作物有效氮量最大；应用时应在较长时期、尤其早期关键期维持适宜水气比例。"},
+    {"type": "heading", "number": "69.4.3", "title": "脱水曲线与吸水曲线的测定", "level": 3},
+    {"type": "paragraph", "text": "理想测定是在田间非扰动稳定排水（脱水）或稳定湿润（吸水）条件下同步测θ_v和ψ_m，常用瞬时剖面法（第83章）。实际受边界条件、张力计范围与时效、连续排水/湿润控制、安装扰动、饱和用水、数据采集和历时等限制，通常改用较小原状土芯或土柱在实验室测定；也可由土壤传递函数（第84章）、蒸发法（第81章）、瞬时剖面法（第83章）或模型反求获得。"},
+    {"type": "paragraph", "text": "实验室曲线要代表田间，样品必须足够大并在采集、处理和分析中保持结构。Bouma建议土芯/土柱体积至少包含20个土壤结构单元（自然结构体、虫洞、废弃根孔等）；该要求续见下页。"},
+    {"type": "source-fidelity-note", "text": "原书式(69.5)印作AC=θ_v−θ_FC；其正文定义指孔隙度或饱和体积含水量与FC之差，因此检索结果保留印式，同时要求实际计算明确θ_v所代表的饱和状态（θ_s或θ_fs），不可任取测量时含水量。式(69.7)与(69.8)只有在AC与FC采用同一孔隙基准时才互为等价式。"}
+  ],
+  "formulas": [
+    {"label": "69.5", "plain": "AC = θ_v - θ_FC", "latex": "AC=\\theta_v-\\theta_{FC}", "resultUnit": "m³·m⁻³"},
+    {"label": "69.6", "plain": "PAWC = FC - PWP", "latex": "PAWC=FC-PWP", "resultUnit": "m³·m⁻³"},
+    {"label": "69.7", "plain": "FC/孔隙度 = 0.66", "latex": "\\frac{FC}{\\text{孔隙度}}=0.66", "resultUnit": "1"},
+    {"label": "69.8", "plain": "AC/孔隙度 = 0.34", "latex": "\\frac{AC}{\\text{孔隙度}}=0.34", "resultUnit": "1"}
+  ],
+  "tables": [],
+  "contentSha256": "f9bb554ce8c2a1019a2e75486d735900514962463abf9fdf49cd554877a5fb51"
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 38,
+  "sourceImageSha256": "08930589282f538c68730a1ec5b89ecab47f844fd270be53af59d8cb60866f94",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Chang至Kirby未完条目共28条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者重音/连字符、年份、书名/期刊、卷页、CSIRO/SIRO原书写法及2001/2002/2004连续条目"},
+    "secondVisualPass": {"status": "verified", "method": "由Kirby未完条目反向逐条复核至Chang，合并断行但不丢卷页；印刷页码547"}
+  },
+  "blocks": [
+    {"type": "reference-entry", "text": "Chang, R.K. and Warkentin, B.P. 1968. Volume change of compacted clay soil aggregates. Soil Sci. 105: 106–111."},
+    {"type": "reference-entry", "text": "Coles, N. and Trudgill, S. 1985. The movement of nitrate fertiliser from the soil surface to drainage waters by preferential flow in weakly structured soils, Slapton, S. Devon. Agric. Ecosyst. Environ. 13: 241–259."},
+    {"type": "reference-entry", "text": "Coquet, Y. 1998. In situ measurement of the vertical linear shrinkage curve of soils. Soil Till. Res. 46: 289–299."},
+    {"type": "reference-entry", "text": "Cornelis, W.M., Corluy, J., Medina, H., Diaz, J., Hartmann, R., Van Meirvenne, M., and Ruiz, M.E. 2006. Measuring and modelling the soil shrinkage characteristic curve. Geoderma 137: 179–191."},
+    {"type": "reference-entry", "text": "Crescimanno, G. and Provenzano, G. 1999. Soil shrinkage characteristic curve in clay soils: measurement and prediction. Soil Sci. Soc. Am. J. 63: 25–32."},
+    {"type": "reference-entry", "text": "Dasog, G.S., Acton, D.F., Mermut, A.R., and de Jong, E. 1988. Shrink-swell potential and cracking in clay soils of Saskatchewan. Can. J. Soil Sci. 68: 251–260."},
+    {"type": "reference-entry", "text": "De Jong, E., Kozak, L.M., and Stonehouse, H.B. 1992. Comparison of shrink-swell indices of some Saskatchewan soils and their relationships to standard soil characteristics. Can. J. Soil Sci. 72: 429–439."},
+    {"type": "reference-entry", "text": "Fox, W.E. 1964. A study of bulk density and water in a swelling soil. Soil Sci. 98: 307–316."},
+    {"type": "reference-entry", "text": "Franzmeier, D.P. and Ross, S.J. 1968. Soil swelling: laboratory measurement and relation to other soil properties. Soil Sci. Soc. Am. Proc. 32: 573–577."},
+    {"type": "reference-entry", "text": "Gillot, J.E. 1986. Some clay-related problems in engineering geology in North America. Clay Miner. 21: 261–278."},
+    {"type": "reference-entry", "text": "Grant, C.D. and Coughlan, K.J. 2002. Estimation of the self-mulching characteristics of surface soils. In N.J. McKenzie, K.J. Coughlan, and H.P. Cresswell, eds. Soil Physical Measurement and Interpretation for Land Evaluation. CSIRO Australia, Melbourne, 370–372."},
+    {"type": "reference-entry", "text": "Grant, C.D., Groenevelt, P.H., and Bolt, G.H. 2002. On hydrostatics and matristatics of swelling soils. In P.A.C. Raats, D.E. Smiles, and A. Warrick, eds. Environmental Mechanics: Water, Mass, and Energy in the Biosphere. American Geophysical Union, Washington, DC, 95–105."},
+    {"type": "reference-entry", "text": "Greacen, E.L., Correll, R.L., Cunningham, R.B., Johns, G.G., and Nicolls, K.D. 1981. Calibration. In E.L. Greacen, ed. Soil Water Assessment by the Neutron Method. CSIRO Australia, Melbourne, 50–81."},
+    {"type": "reference-entry", "text": "Groenevelt, P.H. and Bolt, G.H. 1972. Water retention in soil. Soil Sci. 113: 238–245."},
+    {"type": "reference-entry", "text": "Groenevelt, P.H. and Grant, C.D. 2001. Reevaluation of the structural properties of some British swelling soils. Eur. J. Soil Sci. 52: 469–477."},
+    {"type": "reference-entry", "text": "Groenevelt, P.H. and Grant, C.D. 2002. Curvature of shrinkage lines in relation to the consistency and structure of a Norwegian clay soil. Geoderma 106: 235–245."},
+    {"type": "reference-entry", "text": "Groenevelt, P.H. and Grant, C.D. 2004. Analysis of soil shrinkage data. Soil Till. Res. 79: 71–77."},
+    {"type": "reference-entry", "text": "Groenevelt, P.H., Grant, C.D., and Murray, R.S. 2004. On water availability in saline soils. Aust. J. Soil Res. 42: 833–840."},
+    {"type": "reference-entry", "text": "Groenevelt, P.H., Grant, C.D., and Semetsa, S. 2001. A new procedure to determine soil water availability. Aust. J. Soil Res. 39: 577–598."},
+    {"type": "reference-entry", "text": "Groenevelt, P.H. and Kay, B.D. 1981. On pressure distribution and effective stress in unsaturated soils. Can. J. Soil Sci. 61: 431–443."},
+    {"type": "reference-entry", "text": "Grossman, R.B., Brasher, B.R., Franzmeier, D.P., and Walker, J.L. 1968. Linear extensibility as calculated from natural-clod bulk density measurements. Soil Sci. Soc. Am. Proc. 32: 570–573."},
+    {"type": "reference-entry", "text": "Haines, W.R. 1923. The volume-changes associated with variations of water content in soil. J. Agr. Sci. (Cambr.) 13: 296–310."},
+    {"type": "reference-entry", "text": "Holmes, J.W. 1955. Water sorption and swelling of clay blocks. J. Soil Sci. 6: 200–208."},
+    {"type": "reference-entry", "text": "Jumikis, A.R. 1984. Soil Mechanics. R.E. Krieger Publishing, Malabar, FL."},
+    {"type": "reference-entry", "text": "Kirby, J.M., Bernardi, A.L., Ringrose-Voase, A.J., Young, R., and Rose, H. 2003. Field swelling, shrinking, and water content …"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "20daff7908bf54b1c361378117322b9ffc013c57d75438b12921e9ee22c1a719"
+}

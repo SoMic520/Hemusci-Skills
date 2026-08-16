@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 326,
+  "sourceImageSha256": "46f25e6a25a88bb9260814631ee804b591bec967e0cb8dbddbcdf6d5edcb5364",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复Tan至Woomer参考文献及译校信息"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Müller/Räsänen/Lindström重音、16S-23S、菌名、卷期页、连字符和作者缩写"},
+    "secondVisualPass": {"status": "verified", "method": "从译校信息反向复核至Tan等（2001），合并印刷粘连词但保留Method of Soil Analysis等原书题名；页码295"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第31章｜根瘤菌与共生固氮作用｜"},
+    {"type": "reference", "text": "Tan, Z., Hurek, T., Vinuesa, P., Müller, P., Ladha, J.K., and Reinhold-Hurek, B. 2001. Specific detection of Bradyrhizobium and Rhizobium strains colonizing rice (Oryza sativa) roots by 16S-23S ribosomal DNA intergenic spacer targeted-PCR. Appl. Environ. Microbiol. 67: 3655-3664."},
+    {"type": "reference", "text": "Tas, E., Leinonen, P., Saano, A.S., Räsänen, L.A., Kaijalainen, S., Piippola, S., Hakola, S., and Lindström, K. 1996. Assessment and competitiveness of rhizobia infecting Galega orientalis on the basis of plant yield, nodulation, and strain identification by antibiotic resistance and PCR. Appl. Environ. Microbiol. 62: 529-535."},
+    {"type": "reference", "text": "Tong, Z. and Sadowsky, M.J. 1994. A selective medium for the isolation and quantification of Bradyrhizobium japonicum and Bradyrhizobium elkanii strains from soils and inoculants. Appl. Environ. Microbiol. 60 (2): 581-586."},
+    {"type": "reference", "text": "Turner, G.L. and Gibson, A.H. 1980. Measurement of nitrogen fixation by indirect means. In: Bergersen, F.J., ed. Methods for Evaluating Biological Nitrogen Fixation. John Wiley & Sons, New York, NY, 111-138."},
+    {"type": "reference", "text": "Vessey, J.K. 1994. Measurement of nitrogenase activity in legume root nodules: In the defense of the acetylene reduction assay. Plant Soil 158: 151-162."},
+    {"type": "reference", "text": "Vincent, J.M. 1970. A Manual for the Practical Study of Root-Nodule Bacteria. Blackwell Scientific, Oxford, UK."},
+    {"type": "reference", "text": "Weaver, R.W. and Danso, S.K.A. 1994. Dinitrogen Fixation. In: Weaver, R.W., Angle, S., and Bottomley, P., eds. Method of Soil Analysis, Part 2—Microbiological and Biochemical Properties. Soil Science Society of America, Inc., Madison, WI, USA, 1019-1045."},
+    {"type": "reference", "text": "Wheatcroft, R., Bromfield, E.S.P., Laberge, S., and Barran, L.R. 1993. Species specific DNA probe and colony hybridization of Rhizobium meliloti. In: Palacios, R., Mora, J., and Newton, W.E., eds. New Horizons in Nitrogen Fixation. Kluwer, Boston, MA, USA, 661."},
+    {"type": "reference", "text": "Woomer, P., Bennett, J., and Yost, R. 1990. Overcoming the inflexibility of most-probable number procedures. Agron. J. 82: 349-353."},
+    {"type": "translator-credit", "text": "（连正华 译，徐建明 校）"},
+    {"type": "printed-page-number", "text": "295"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f5564bbf72c38125066238b5e0cb5083687375f4569637e715f8441e49e35786"
+}

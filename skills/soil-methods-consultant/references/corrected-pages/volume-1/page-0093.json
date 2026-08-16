@@ -1,0 +1,63 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 93,
+  "sourceImageSha256": "ee4da83f60a036b6abb1696ff5b510ab24643e4520802857cf415b8b1331e46b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐项对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复M3提取液续项、三组测定试剂及7.3—7.3.3层级"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对(NH₄)₆Mo₇O₂₄·4H₂O、KH₂PO₄、LaCl₃、CsCl、H₂SO₄、NH₄NO₃、CH₃COOH、pH 2.3±0.2、w/v、μg/mL、mm、℃、nm及全部质量体积浓度序列"},
+    "secondVisualPass": {"status": "verified", "method": "由M3提取液第②项至7.3.3未完句逐条反向复核，特别确认页末原书印作CsCl-LaCl₂、标题未列镁及印刷页码62"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "ordered-list", "parent": "（7）M3提取液", "continuation": true, "items": [
+      {"number": "②", "text": "在一个含有8 L去离子水的10 L塑料酸瓶内，溶解200.1 g的硝酸铵（NH₄NO₃），加入100 mL M3存储液、115 mL浓乙酸（CH₃COOH）、82 mL体积分数为10%的硝酸溶液（10 mL浓硝酸用去离子水稀释至100 mL），用去离子水定容至10 L，混合均匀。"},
+      {"number": "③", "text": "提取液的pH值应该控制在2.3±0.2。"}
+    ]},
+    {"type": "ordered-list", "continuation": true, "items": [
+      {"number": "（8）", "text": "手动测定磷所需试剂："}
+    ]},
+    {"type": "ordered-list", "parent": "（8）手动测定磷所需试剂", "items": [
+      {"number": "①", "text": "溶液A：将12 g钼酸铵（(NH₄)₆Mo₇O₂₄·4H₂O）溶解在250 mL去离子水中。在100 mL的烧瓶内，用80 mL去离子水溶解0.2908 g酒石酸锑钾。将这两种溶液加入盛有1000 mL 2.5 mol/L H₂SO₄溶液（141 mL的浓硫酸用去离子水稀释到1 L）的2 L容量瓶中，再用去离子水定容至2 L，混合均匀，4℃避光保存。"},
+      {"number": "②", "text": "溶液B：将1.056 g抗坏血酸溶解于200 mL的溶液A中。溶液B需要每天现配现用。"},
+      {"number": "③", "text": "磷的标准溶液：使用认证的磷标准溶液，或者将0.4393 g KH₂PO₄溶解于1 L去离子水中配制成100 μg/mL的磷溶液。然后用稀释的M3提取剂分别配制0、0.5、1、2、5、10 μg/mL的磷溶液。"}
+    ]},
+    {"type": "ordered-list", "continuation": true, "items": [
+      {"number": "（9）", "text": "原子吸收法测定K、Ca、Mg、Na所需溶液："}
+    ]},
+    {"type": "ordered-list", "parent": "（9）原子吸收法测定K、Ca、Mg、Na所需溶液", "items": [
+      {"number": "①", "text": "氯化镧（LaCl₃）溶液：10%（w/v）。"},
+      {"number": "②", "text": "氯化铯（CsCl）和氯化镧（LaCl₃）的浓溶液：将3.16 g CsCl溶解于100 mL 10%的LaCl₃溶液中。"},
+      {"number": "③", "text": "K和Na混合标准溶液：使用认证的原子吸收标准溶液，配制K和Na的浓度分别为0.5、1.0、1.5、2.0 μg/mL和0.3、0.6、0.9、1.2 μg/mL的混合溶液。"},
+      {"number": "④", "text": "Ca和Mg混合标准溶液：Ca和Mg的浓度分别为2、4、6、8、10 μg/mL和0.2、0.4、0.6、0.8、1.0 μg/mL。"}
+    ]},
+    {"type": "ordered-list", "continuation": true, "items": [
+      {"number": "（10）", "text": "原子吸收法测定Cu、Zn和Mn所需标准溶液："}
+    ]},
+    {"type": "ordered-list", "parent": "（10）原子吸收法测定Cu、Zn和Mn所需标准溶液", "items": [
+      {"number": "①", "text": "Cu和Zn混合标准溶液：M3提取剂中分别含有0、0.2、0.4、0.8、1.2、2.0 μg/mL的Cu和Zn。"},
+      {"number": "②", "text": "Mn标准溶液：M3提取剂中分别含有0、0.4、0.8、1.2、4 μg/mL的Mn。"}
+    ]},
+    {"type": "section-heading", "level": 2, "number": "7.3", "title": "步骤"},
+    {"type": "section-heading", "level": 3, "number": "7.3.1", "title": "提取"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "称取3 g过2 mm筛的干土置于125 mL锥形瓶。"},
+      {"number": "（2）", "text": "加入30 mL M3提取剂（土壤∶溶液=1∶10）。"},
+      {"number": "（3）", "text": "立即置于往复振荡器上震荡5 min（120次/min）。"},
+      {"number": "（4）", "text": "用M3提取剂润洗过的Whatman 42号滤纸过滤，滤液置于塑料瓶内4℃保存，待测。"},
+      {"number": "（5）", "text": "采用以下自动或手动方法尽早分析滤液中各元素的含量。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "7.3.2", "title": "手动比色法测定磷的含量"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "吸取2 mL的干净滤液或者磷的标准溶液（0～10 μg/mL）至25 mL的容量瓶内。样品中磷的含量不能超过10 μg，否则需要用M3提取剂稀释。"},
+      {"number": "（2）", "text": "加入15 mL蒸馏水和4 mL溶液B，用蒸馏水定容并混匀。"},
+      {"number": "（3）", "text": "经过10 min的显色过程，在波长845 nm下测量吸光度。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "7.3.3", "title": "原子吸收法或火焰发射法测定钾、钙和钠的含量"},
+    {"type": "paragraph", "continuation": true, "text": "CsCl-LaCl₂和M3提取剂混合会产生沉淀。因此，为了避免上述问题，建议按如下步骤稀释提取剂"},
+    {"type": "printed-page-number", "text": "62"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "7a9a908a11a56c71026fd9dae673df56a1303826c7547586fce645e5f812cd48"
+}

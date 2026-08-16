@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 433,
+  "sourceImageSha256": "db6ff5c0cdfa437424e3bc34f548659a4ae692ec949f76d8136ff9e9f20858dc",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率中文页面、两套OCR及英文原版第41章参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者缩写、变音符、5′-triphosphate、AEC、期刊卷页号和书籍页码；纠正De Nobili条目串行错排、Karl卷号及Maire终页"},
+    "secondVisualPass": {"status": "verified", "method": "由Renella承下句反向复核至Brookes首条，逐字符检查连字符、撇号、卷页号及印刷页码402"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "bibliography", "text": "Brookes, P.C., Newcombe, A.D., and Jenkinson, D.S. 1987. Adenylate energy charge measurements in soil. Soil Biol. Biochem. 19: 211–217."},
+    {"type": "bibliography", "text": "Chander, K.C., Dyckmans, J., Joergensen, R.G., Meyer, B., and Raubuch, M. 2001. Different sources of heavy metals and their long-term effects on soil microbial properties. Biol. Fert. Soils 34: 241–247."},
+    {"type": "bibliography", "text": "Ciardi, C. and Nannipieri, P. 1990. A comparison of methods for measuring ATP in soil. Soil Biol. Biochem. 22: 725–727."},
+    {"type": "bibliography", "text": "Contin, M., Jenkinson, D.S., and Brookes, P.C. 2002. Measurement of ATP in soil: correcting for incomplete recovery. Soil Biol. Biochem. 34: 1381–1383."},
+    {"type": "bibliography", "text": "De Nobili, M., Díaz-Raviña, M., Brookes, P.C., and Jenkinson, D.S. 1996. Adenosine 5′-triphosphate measurements in soils containing recently added glucose. Soil Biol. Biochem. 28: 1099–1104."},
+    {"type": "bibliography", "text": "Dilly, O. and Nannipieri, P. 2001. Response of ATP content, respiration rate, and enzyme activities in an arable and a forest soil to nutrient additions. Biol. Fert. Soils 34: 64–72."},
+    {"type": "bibliography", "text": "Dyckmans, J., Chander, K., Joergensen, R.G., Priess, J., Raubuch, M., and Sehy, U. 2003. Adenylates as an estimate of microbial biomass C in different soil groups. Soil Biol. Biochem. 35: 1485–1491."},
+    {"type": "bibliography", "text": "Dyckmans, J. and Raubuch, M. 1997. A modification of a method to determine adenosine nucleotides in forest organic layers and mineral soils by ion-paired reverse-phase high performance liquid chromatography. J. Microbiol. Methods 30: 13–20."},
+    {"type": "bibliography", "text": "Eiland, F. 1983. A simple method for quantitative determination of ATP in soil. Soil Biol. Biochem. 15: 665–670."},
+    {"type": "bibliography", "text": "Jenkinson, D.S. 1988. Determination of microbial biomass carbon and nitrogen in soil. In: J.R. Wilson, ed. Advances in Nitrogen Cycling in Agricultural Ecosystems. CAB International, Wallingford, UK, pp. 368–386."},
+    {"type": "bibliography", "text": "Jenkinson, D.S., Davidson, S.A., and Powlson, D.S. 1979. Adenosine triphosphate and microbial biomass in soil. Soil Biol. Biochem. 11: 521–527."},
+    {"type": "bibliography", "text": "Joergensen, R.G. and Raubuch, M. 2002. Adenylate energy charge of a glucose-treated soil without adding a nitrogen source. Soil Biol. Biochem. 34: 1317–1324."},
+    {"type": "bibliography", "text": "Joergensen, R.G. and Raubuch, M. 2003. Adenylate energy charge and ATP-to-biomass C ratio in soils differing in the intensity of disturbance. Soil Biol. Biochem. 35: 1161–1164."},
+    {"type": "bibliography", "text": "Karl, D.M. and LaRock, P.A. 1975. Adenosine triphosphate measurements in soil and marine sediments. J. Fish. Res. Board Can. 32: 599–607."},
+    {"type": "bibliography", "text": "Maire, N. 1984. Extraction de l’adénosine triphosphate dans les sols: une nouvelle méthode de calcul des pertes en ATP. Soil Biol. Biochem. 16: 361–366."},
+    {"type": "bibliography", "text": "Martens, R. 2001. Estimation of ATP in soil: extraction methods and calculation of extraction efficiency. Soil Biol. Biochem. 33: 973–982."},
+    {"type": "bibliography", "text": "Nannipieri, P., Grego, S., and Ceccanti, B. 1990. Ecological significance of the biological activity in soil. In: J.M. Bollag and G. Stotzky, eds. Soil Biochemistry, Vol. 6. Marcel Dekker, New York, NY, pp. 293–355."},
+    {"type": "bibliography", "text": "Raubuch, M., Campos, A., and Joergensen, R.G. 2006. Impact of cycloheximide addition on adenylates in soil. Soil Biol. Biochem. 38: 222–228."},
+    {"type": "bibliography", "text": "Raubuch, M., Dyckmans, J., Joergensen, R.G., and Kreutzfeldt, M. 2002. Relation between respiration, ATP content, and adenylate energy charge (AEC) after incubation at different temperatures and after drying and rewetting. J. Plant Nutr. Soil Sci. 165: 435–440."},
+    {"type": "bibliography", "text": "Renella, G., Reyes Ortigoza, A.L., Landi, L., and Nannipieri, P. 2003. Additive effects of copper and zinc on cadmium toxicity to [文献续见第434页]"},
+    {"type": "source-fidelity-note", "scope": "参考文献", "text": "中文版De Nobili条目发生作者串行错排并漏掉Brookes；已按英文原版恢复。Karl条目原书卷号5应为32；Maire条目原书终页364应为366。另规范Díaz-Raviña和法文重音。"},
+    {"type": "printed-page-number", "text": "402"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9f99bab2dc8a3efc8dd8136652f7a7b0b0c4f584bbb89069f4e8c3903d4838a6"
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 353,
+  "sourceImageSha256": "4d0b01fcf79c16819e70ac6561d4725800baec2fa38eb121d97445131272de38",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版34.4.2～34.5.2交叉比对"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验0.5%（V/V）、50 mL/8 L、8 L、15～25 min、70%乙醇、4～10 ℃、全部章节层级和引文"},
+    "secondVisualPass": {"status": "verified", "method": "从页末34.5.2起始句反向复核至福尔马林安全续文，复算稀释式并矫正3.4.1节、“电气八隅体”等误印/误译；页码322"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第34章｜蚓蚓｜"},
+    {"type": "material-continuation", "continuationOf": "page-0352#formalin-material-1", "text": "原方法声称工作液为0.5%（V/V），并按喷壶使用的水量在野外配制。但原书后续“50 mL原液+8 L水”的配方与0.5%不符，实施时必须按目标浓度重新计算。"},
+    {"type": "material", "number": "（2）", "text": "分配移液器或量筒、防护手套，以及SDS对蒸气暴露和野外操作规定的个人防护装备。"},
+    {"type": "material", "number": "（3）", "text": "其他野外材料与辛辣芥末法相同（见34.4.1节的“材料和试剂”）。"},
+    {"type": "source-fidelity-note", "scope": "34.4.2材料（3）", "text": "中文原页误印“见3.4.1节”；已按层级及英文原版矫正为34.4.1节。"},
+    {"type": "subsection-heading", "method": "34.4.2", "number": "2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "若目标是用市售福尔马林原液配制8.00 L的0.5%（V/V）工作液，应量取40.0 mL原液并用水稀释至终体积8.00 L。可在野外用定量分配器加入；或出发前把所需原液装入可密封防漏玻璃瓶，在野外加入喷壶并加水至8.00 L后彻底混匀。喷壶容积小于8 L时按比例缩减。运输时遵守危险和有毒物质的机动车运输法规。"},
+    {"type": "source-fidelity-note", "scope": "34.4.2步骤（1）", "text": "原书与英文原版写“加50 mL福尔马林到8 L水中”并称为0.5%（V/V），数学上不一致：若定容至8.00 L，50 mL为0.625%；若加到8.00 L水中，约为0.621%。本Skill可执行正文以0.5%为目标，改为40.0 mL并定容至8.00 L。"},
+    {"type": "critical-safety-note", "scope": "34.4.2配制与运输", "text": "不得在无通风、无泄漏二次容纳、无专业防护或无危险品运输授权时执行。优先使用经验证的低危方法。"},
+    {"type": "procedure-step", "number": "（2）", "text": "将8 L工作液均匀喷洒到采样框内。按辛辣芥末法的收集步骤，用镊子收集蚓蚓至全部活动停止（约15～25 min）。避免吸入甲醛蒸气，按SDS使用个人防护装备。将蚓蚓放入装70%乙醇的玻璃瓶。暴露于福尔马林的蚓蚓极可能无法存活，不得放回野外。"},
+    {"type": "procedure-step", "number": "（3）", "text": "现场清理：离场前用剩余清水冲洗所有喷壶；把所有样品和接触过甲醛的材料装在拖车上或固定于小型货车后部运出；严格按SDS和危废规定处置、清洗。"},
+    {"type": "procedure-step", "number": "（4）", "text": "将广口玻璃瓶放入4～10 ℃冷藏室，直到完成蚓蚓鉴定和生物量称量。"},
+    {"type": "section-heading", "level": 3, "number": "34.4.3", "title": "热提取"},
+    {"type": "paragraph", "text": "热提取比其他方法使用少，但适用于从原状土芯或草皮样品中提取蚓蚓（Satchell，1969；Lee，1985；McLean和Parkinson，1997；Tisdall和McKenzie，1999）。它不适于提取陆正蚓Lumbricus terrestris等深栖型（anecic）物种，除非与化学驱避法结合（见34.4节前言）。"},
+    {"type": "section-heading", "level": 3, "number": "34.4.4", "title": "电流提取"},
+    {"type": "paragraph", "text": "对某些物种，该法适用于定性研究，不适用于定量研究（Lee，1985；Petersen，2000）。土壤不过湿且存在的蚓蚓物种对交流电敏感时，该法尤其有用（Satchell，1955）。农田研究证明电极八点法（electrical octet method）可靠，可代替化学驱避法，但不能代替手拣法（Schmidt，2001b）。"},
+    {"type": "source-fidelity-note", "scope": "34.4.4", "text": "中文本的“电气八隅体方法”是electrical octet method的误译，已改为电极八点法并保留英文名。"},
+    {"type": "section-heading", "level": 3, "number": "34.4.5", "title": "机械振动"},
+    {"type": "paragraph", "text": "振动土壤可诱导蚓蚓到达土表（Reynolds，1973）。美国南部鱼饵采集者广泛使用一种称为grunt'n的振动捕捉法。"},
+    {"type": "section-heading", "level": 2, "number": "34.5", "title": "间接采样估计"},
+    {"type": "section-heading", "level": 3, "number": "34.5.1", "title": "陷阱和诱饵"},
+    {"type": "paragraph", "text": "陷阱可采集活跃于土表的蚓蚓（Boyd，1957；Bouché，1972，1976）。该法假设目标动物不会主动躲避落入陷阱，因而最宜作为定性或半定量法。它已成功用于地表活动蚓蚓的采集，并比较物种地表活动的昼夜变化、季节变化或与天气格局的关系（Bouché，1972）。诱饵薄片（bait-lamina strips）是可选方法，已用于测量一个采样单元内的蚓蚓活动（Gestel等，2003）。"},
+    {"type": "section-heading", "level": 3, "number": "34.5.2", "title": "计数粪冢和粪铸"},
+    {"type": "paragraph", "text": "在规定范围内产生的蚓蚓粪铸数可间接指示某些物种的存在，但并非所有物种都在地表排粪，有些仅在某一季节的特定时段如此，因此结果需谨慎解释。"},
+    {"type": "printed-page-number", "text": "322"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "4c206f31bd7b4d22fabd3c387d54ee7d7003e430a7fbad2821e1f165afd532b7"
+}

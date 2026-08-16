@@ -1,0 +1,47 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 123,
+  "sourceImageSha256": "a67d2304e4b8897520ebd81ce773994e36b778e29d520f4368f3b42156948be9",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐项对照原分辨率方法页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复11.2.1材料、11.2.2五步、11.2.3、11.3原理及11.3.1五项"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对CaCl₂·2H₂O、SrCl₂·6H₂O、BaCl₂、0.01/0.02 mol/L、5.88/5.332 g、250 mL、2 L、10 g、20 mL、5/1 min、120 r/min、1250 g和10%"},
+    "secondVisualPass": {"status": "verified", "method": "按农田法材料步骤注释、森林法原理和SrCl₂材料清单反向复核，确认化学式结晶水下标、方法层级和印刷页码92"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "11.2.1", "title": "材料和试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "0.02 mol/L CaCl₂溶液：溶解5.88 g的试剂级CaCl₂·2H₂O至大约250 mL的去离子水中并稀释到2 L。"},
+      {"number": "（2）", "text": "50 mL的离心管和橡胶塞。"},
+      {"number": "（3）", "text": "Whatman 42号滤纸或其他同规格滤纸。"},
+      {"number": "（4）", "text": "离心机，配有装50 mL离心管的转子。"},
+      {"number": "（5）", "text": "往复式摇床。"},
+      {"number": "（6）", "text": "液体分配器。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "11.2.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "称取10 g土样（<2 mm）到离心管中。"},
+      {"number": "（2）", "text": "加20 mL 0.02 mol/L CaCl₂到离心管中并塞紧塞子。"},
+      {"number": "（3）", "text": "在摇床上振荡5 min（120 r/min）。"},
+      {"number": "（4）", "text": "取出并以1250 g的速度离心1 min以便快速过滤。"},
+      {"number": "（5）", "text": "通过凹槽式滤纸过滤到保存提取物的容器中。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "11.2.3", "title": "注释"},
+    {"type": "paragraph", "text": "0.01 mol/L CaCl₂溶液比0.02 mol/L CaCl₂溶液更接近农田土壤溶液的离子强度，并且也常用此浓度的CaCl₂溶液评估土壤其他的化学性质（如pH值和可溶态P）（Soon，1990）。因此测定土壤性质时，最好采用0.01 mol/L CaCl₂溶液。但是，目前还没有研究指出0.01 mol/L CaCl₂可提取铝的临界水平。上述方法还未用于测试有机质含量远大于10%的土壤。", "inlineNotation": ["0.01 mol/L", "0.02 mol/L", "CaCl₂", "pH", "P", "10%"]},
+    {"type": "section-heading", "level": 2, "number": "11.3", "title": "针对森林土壤的提取方法"},
+    {"type": "paragraph", "text": "由于钙有效性的增加可缓解铝对树木的毒害作用（即铝的毒害主要是间接的——铝对二价阳离子的吸收的拮抗作用使其具有毒性（Cronan和Grigal，1995）），因此相对于农业土壤中常用的CaCl₂法，SrCl₂法的优点是可以量化分析可提取的Ca和其他阳离子及Ca和Mg与Al的比例。Sr在置换铝的能力上比Ca稍强，但在0.01 mol/L的离子强度下只相差5%。然而，目前还没有关于SrCl₂、CaCl₂和BaCl₂三种溶液能够分别提取出的铝和锰的相对含量的研究，但这样的研究将有助于针对不同含量的潜在毒性元素进行提取剂的选取。本文根据Heisey（1995）的建议，对Joslin和Wolfe（1989）的SrCl₂方法进行了一些修改，并在此对其进行了描述。", "inlineNotation": ["CaCl₂", "SrCl₂", "Ca", "Mg", "Al", "0.01 mol/L", "5%", "BaCl₂"]},
+    {"type": "section-heading", "level": 3, "number": "11.3.1", "title": "材料与试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "0.01 mol/L SrCl₂：溶解5.332 g的试剂级SrCl₂·6H₂O至大约250 mL的蒸馏水或去离子水中并定容于2 L的容量瓶中。"},
+      {"number": "（2）", "text": "50 mL的离心管和螺旋盖。"},
+      {"number": "（3）", "text": "匹配50 mL离心管的超速离心机。"},
+      {"number": "（4）", "text": "旋转振荡器。"},
+      {"number": "（5）", "text": "移液管和液体分配器。"}
+    ]},
+    {"type": "printed-page-number", "text": "92"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "97411a52903c31201e2b6cdfe98723d35cbfca7657103520e564047f53224537"
+}

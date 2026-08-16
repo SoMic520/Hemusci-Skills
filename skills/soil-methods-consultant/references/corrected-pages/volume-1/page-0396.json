@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 396,
+  "sourceImageSha256": "f10d131ab2802e38f1bcad6fecef284f09969e9c4eb6d0d9d398989d3aa4c180",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版38.3～38.3.2"},
+    "precisionPass": {"status": "verified", "method": "核验NO₃⁻、NH₄⁺、NO₂⁻、−33 kPa、CO₂、2 mol·L⁻¹ KCl、20 °C、4 mm、105 °C、48 h及式（38.1）全部上下标"},
+    "secondVisualPass": {"status": "verified", "method": "从式（38.1）变量定义反向复核至38.3承上句，逐项核对材料层级、温压单位和分子分母；印刷页码365"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第38章｜土壤硝化测定技术"},
+    {"type": "continuation", "text": "（承第395页38.3）净硝化速率以培养期间NO₃⁻的净增加量测定。施肥土壤（如农用土壤）与不施肥土壤（许多森林土或未开垦草原土）的处理不同。非豆科作物如玉米（Zea mays L.）和其他粮食作物通常施氮肥；湿润地区冬季NO₃⁻经淋溶和反硝化损失普遍（Drury等，1993，1996），氮肥常在春季或初夏侧施。为管理和模拟这些氮肥，必须知道NH₄⁺硝化为NO₂⁻和NO₃⁻的速率。森林土通常不施氮肥：自养硝化速率受环境NH₄⁺浓度控制，异养硝化速率受有机氮和NH₄⁺浓度共同控制。因此，施肥农用土壤的测定加入外源NH₄⁺；评估未施肥森林土或农用土壤时可以不加。"},
+    {"type": "paragraph", "text": "净硝化速率通常低于潜在硝化速率（38.4节）。潜在硝化试验通过高速振荡持续保持良好通气，并混合土壤悬液以尽量减小扩散限制；净硝化试验中，细质土壤的厌氧微点位会像田间一样降低硝化速率。在田间持水量（基质势−33 kPa）下培养可克服部分扩散限制，但程度不及振荡土壤悬液。扩散限制还可能使净硝化试验中发生NO₃⁻的微生物固持（Chen和Stark，2000）。净硝化试验是在恒温恒湿条件下用扰动土壤取得的实验室估计，可代表温湿条件相近的田间速率；也可采用38.6节原位法，但劳动量更大。"},
+    {"type": "paragraph", "text": "自养和异养微生物均参与硝化。乙炔、氯酸盐和三氯甲基吡啶（nitrapyrin）会抑制自养硝化（Bundy和Bremner，1973；Hynes和Knowles，1980；Hart等，1997），但不影响异养硝化。因此，加乙炔等抑制剂的培养可估计异养硝化；不加乙炔与加乙炔培养结果之差可估计自养硝化。"},
+    {"type": "paragraph", "text": "若烧瓶装有可定时采气的橡胶隔膜（Exetainers气体收集及气相色谱分析见第37章），还可测定呼吸释放的CO₂，据此估计微生物呼吸速率和潜在氮固持量。CO₂释放量与净矿化速率之比可用于估计硝化微生物的NH₄⁺有效性（Schimel，1986）。本试验不加入可溶性碳，因为增加碳底物通常会增强NH₄⁺和NO₃⁻固持，降低净硝化速率（Kaye等，2002）。"},
+    {"type": "section-heading", "level": 3, "number": "38.3.1", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "text": "250 mL锥形瓶或离心管。"},
+    {"type": "material-item", "number": "（2）", "text": "覆盖锥形瓶用Parafilm封口膜。"},
+    {"type": "material-item", "number": "（3）", "text": "过滤装置、漏斗和预冲洗的Whatman 40号滤纸。"},
+    {"type": "material-item", "number": "（4）", "text": "设为20 °C或田间相关温度的培养器；农用土壤可采用施肥时观测到的土温。"},
+    {"type": "material-item", "number": "（5）", "text": "可容纳250 mL锥形瓶或离心管的定轨摇床。"},
+    {"type": "material-item", "number": "（6）", "text": "可用比色法测定2 mol·L⁻¹ KCl浸提液中NH₄⁺和NO₃⁻的自动分析仪。"},
+    {"type": "section-heading", "level": 3, "number": "38.3.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "土壤过4 mm筛，去除石块和大块植物残体。"},
+    {"type": "procedure-step", "number": "（2）", "text": "混匀过筛土壤。称取田间湿润土壤子样于已称量铝盒中，在105 °C烘48 h，再称干土与铝盒总质量，按式（38.1）计算重力含水量。"},
+    {"type": "variable-definition", "symbol": "M_swc", "text": "湿润土壤与铝盒的总质量。"},
+    {"type": "variable-definition", "symbol": "M_sc", "text": "干土与铝盒的总质量。"},
+    {"type": "variable-definition", "symbol": "M_c", "text": "空铝盒质量。"},
+    {"type": "printed-page-number", "text": "365"}
+  ],
+  "formulas": [
+    {"label": "（38.1）", "plain": "重力含水量（%）=100×(M_swc−M_sc)/(M_sc−M_c)", "latex": "\\mathrm{GWC}(\\%)=100\\times\\frac{M_{swc}-M_{sc}}{M_{sc}-M_c}", "context": "湿基土样经105 °C烘48 h后的重力含水量"}
+  ],
+  "tables": [],
+  "contentSha256": "81afab8467b0c556857d060555707474e748dc039ae3e9aa3963d75b19cb0854"
+}

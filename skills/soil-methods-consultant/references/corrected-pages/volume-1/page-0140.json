@@ -1,0 +1,44 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 140,
+  "sourceImageSha256": "395ad81a49235cfdcc03beba4da0bc0d9cc190aaa7b0c7da6ef932176f413ad8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率方法页，并与Apple Vision、PaddleOCR交叉比对，人工恢复水提取磷步骤3～8、计算、注释、14.3定义及材料6项"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验3000 g、0.45 μm、880 nm、mg/kg、mg/L、0.02 mg/kg、Pₛₐₜ、α及Mehlich-3中五种试剂的化学式和mol/L浓度"},
+    "secondVisualPass": {"status": "verified", "method": "从14.3.1（6）反向复核至步骤（3），确认Pₛₐₜ分式分子分母、van der Zee/van Riemsdijk、Murphy-Riley用量和页码109"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第14章｜环境土壤磷指数｜"},
+    {"type": "procedure-step", "number": "（3）", "text": "在3000 g下离心10 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用Whatman 42号滤纸将溶液过滤，若滤液不澄清可改用0.45 μm的滤膜。"},
+    {"type": "procedure-step", "number": "（5）", "text": "用ICP-AES或抗坏血酸方法测定磷（见14.2.1节）。"},
+    {"type": "procedure-step", "number": "（6）", "text": "移取20 mL提取液至25 mL容量瓶，并添加5 mL Murphy-Riley显色剂。"},
+    {"type": "procedure-step", "number": "（7）", "text": "如果提取的磷浓度超过了标准溶液的最大浓度，则需要稀释。将少量样品加至容量瓶中，用蒸馏水补至20 mL，并加入Murphy-Riley显色剂。"},
+    {"type": "procedure-step", "number": "（8）", "text": "在880 nm下，测量样品和标液的吸光度，样品浓度由标准曲线确定。"},
+    {"type": "section-heading", "level": 4, "number": "14.2.3", "title": "计算"},
+    {"type": "calculation-item", "number": "（1）", "text": "水提取土壤磷（mg/kg）=（提取液中磷浓度，mg/L）×（提取剂体积，L/土壤质量，kg）。"},
+    {"type": "calculation-item", "number": "（2）", "text": "最低检测限为0.02 mg/kg。"},
+    {"type": "calculation-item", "number": "（3）", "text": "没有检测上限，含有大量磷的土壤提取液可以被稀释。"},
+    {"type": "section-heading", "level": 4, "number": "14.2.4", "title": "注释"},
+    {"type": "paragraph", "text": "风干的土壤可在室温下保存在自封袋或密封的塑料容器中以免污染。水提取液应保存在4 ℃直至测定，建议两天内完成测定。大量与用户区域相同且与被分析区域相似的土壤应进行风干并归档。实验过程中每天需测量归档样品的水提取土壤磷浓度，以确保分析的重现性。任何偏离此标准值的情况应立即处理。"},
+    {"type": "section-heading", "level": 3, "number": "14.3", "title": "磷吸附饱和度"},
+    {"type": "paragraph", "text": "通过磷吸附饱和度，我们可以深入了解土壤释放磷到溶液中的能力，以及土壤吸附外加磷的剩余容量，磷的吸附饱和度定义如下："},
+    {"type": "equation", "label": null, "text": "Pₛₐₜ=吸附的P量/P的吸附容量"},
+    {"type": "paragraph", "text": "在下面描述的方法中，吸附的磷用Mehlich-3可提取的土壤磷的量表征，磷吸附容量用Mehlich-3可提取态Al和Fe的量表示。应注意的是，用Mehlich数据估算磷吸附饱和度时，并不包括Mehlich-3可提取Al和Fe部分对磷吸附的贡献率α。文献中使用的α主要与以酸性草酸铵为提取剂时计算得到的磷吸附饱和度有关（如van der Zee和van Riemsdijk，1988）。鉴于吸附机制中土壤特异性影响磷吸附容量及磷吸附方法的差异性，这个值只能由测定得到，而不能沿用以前的数据（Hooda等，2000）。"},
+    {"type": "section-heading", "level": 4, "number": "14.3.1", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "text": "带螺旋盖的离心管（40 mL）。"},
+    {"type": "material-item", "number": "（2）", "text": "旋转振荡器。"},
+    {"type": "material-item", "number": "（3）", "text": "离心机。"},
+    {"type": "material-item", "number": "（4）", "text": "过滤装置（0.45 μm微孔滤膜或Whatman 42号滤纸）。"},
+    {"type": "material-item", "number": "（5）", "text": "用0.2 mol/L CH₃COOH、0.25 mol/L NH₄NO₃、0.015 mol/L NH₄F、0.013 mol/L HNO₃和0.001 mol/L EDTA制成Mehlich-3溶液（详见第7章），存放于冰箱，待用。"},
+    {"type": "material-item", "number": "（6）", "text": "酸洗的玻璃器具和塑料瓶。"},
+    {"type": "printed-page-number", "text": "109"}
+  ],
+  "formulas": [
+    {"label": null, "plain": "水提取土壤磷（mg/kg）=（提取液中磷浓度，mg/L）×（提取剂体积，L/土壤质量，kg）", "latex": "P_{water}(mg/kg)=C_P(mg/L)\\times\\frac{V(L)}{m_{soil}(kg)}", "context": "水提取土壤磷计算"},
+    {"label": null, "plain": "Pₛₐₜ=吸附的P量/P的吸附容量", "latex": "P_{sat}=\\frac{\\text{吸附的P量}}{\\text{P的吸附容量}}", "context": "磷吸附饱和度定义"}
+  ],
+  "tables": [],
+  "contentSha256": "f8613744900ffed4c74c50f7978004c95d53a3f74336713229caf27f61117332"
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 25,
+  "sourceImageSha256": "4592349cc4d05972ca5a94cfd236fd3b993e021eb20a96b49c5b2a876bb8e2f4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步对照原分辨率图和两套OCR，完成砂粒/黏粒/细黏粒分离、离心式（55.2）及计算式（55.3）～（55.5）"},
+    "precisionPass": {"status": "verified", "method": "核验全部筛孔、目数、μm、mL、cm、°C、h、s、×g、η/R/S/N/D/Δs、10⁸、上下标和公式编号"},
+    "secondVisualPass": {"status": "verified", "method": "由式（55.5）反向复核至跨页续句，纠正表55.1误引、P₂O₃误式、悬浊液错字并复算量纲；印刷页码534"}
+  },
+  "blocks": [
+    {"type": "procedure-steps-continuation", "items": ["(3) 将筛上砂粒转入100 mL烧杯，在105 °C烘干至恒重，得到砂粒总质量；若需细分，继续筛分。", "(4) 用直径6 cm套筛筛分烘干砂粒。自上而下依次为1.0 mm（18目）、0.5 mm（30目）、0.25 mm（60目）、0.105 mm（140目）、0.047 mm（300目）及底盘。加盖后在振筛器上振荡，通常5～10 min；收集各筛上砂粒，称重并记录。"]},
+    {"type": "procedure-subheading", "number": "3", "title": "黏粒的测定（0～2 μm）"},
+    {"type": "procedure-steps", "items": ["(1) 将沉降桶移入无振动、配有Shaw型吸管架的沉降室前，用电动搅拌器搅拌4 min；若混合液放置超过16 h，搅拌8 min。", "(2) 将沉降桶移离搅拌器，用柱状聚苯乙烯泡沫塑料绝缘物封盖；用手持式搅拌器上下搅动悬浊液30 s，记录结束时刻。", "(3) 在预先计算的沉降时间（通常4.5～6.5 h）采集2 μm颗粒，采样深度按温度和时间查表55.2。到时前1 min，将校正过的Shaw型吸管架移位，把顶端封闭、容量25 mL的Lowry吸管缓慢降至预定深度；吸液时间调为12 s。吸取液转入90 mL配衡广口瓶或100 mL烧杯，润洗吸管1次并合并洗液。", "(4) 105 °C蒸干24 h以上；在装有五氧化二磷（P₂O₅）或无水硫酸钙干燥剂的干燥器中冷却，称重并记录。"]},
+    {"type": "source-fidelity-note", "text": "原书步骤3(3)误引表55.1，温度—时间—沉降深度表实际为表55.2；‘悬独液’校正为悬浊液。步骤3(4)把常用干燥剂五氧化二磷误印为‘三氧化二磷（P₂O₃）’，已校正为P₂O₅。"},
+    {"type": "procedure-subheading", "number": "4", "title": "细黏粒的测定（<0.2 μm）（供选择）"},
+    {"type": "procedure-steps", "items": ["(1) 从沉降桶倒出200 mL悬浊液至250 mL离心管。摇匀，在IEC离心机上用适当速度和时间离心，使>0.2 μm颗粒沉降5 cm；示例条件为510 × g、25 °C、54 min。离心时间按式（55.2）计算。", "(2) 在5 cm深度吸取25 mL试样至配衡称重瓶或烧杯，润洗吸管并合并洗液；105 °C烘干，在干燥器中冷却、称重。"]},
+    {"type": "paragraph", "text": "式（55.2）中，η为该温度下液体的动力黏度，单位poise（cgs中1 P = 1 dyn·s·cm⁻²）；R为离心管中沉降物顶部的旋转半径（cm）；S为悬浊液表面的旋转半径（cm）；N为转速（r min⁻¹）；D为粒径（μm）；Δs为土粒与周围液体的比重差（通常Δs=1.65）；t为时间（min）。"},
+    {"type": "heading", "number": "55.2.4", "title": "计算", "level": 3},
+    {"type": "variable-definitions", "items": [{"symbol": "A", "meaning": "吸管吸出组分（2 μm或0.2 μm）的干质量（g）"}, {"symbol": "B", "meaning": "分散剂的校正质量（g）"}, {"symbol": "K", "meaning": "1000 mL沉降桶体积与吸管体积之比"}, {"symbol": "D_f", "sourceSymbol": "D", "meaning": "100除以预处理烘干样品质量（g）的百分数换算因子；为避免与式（55.2）的粒径D混淆，运行时记作D_f"}]},
+    {"type": "note", "text": "分散剂校正：在1000 mL沉降桶中加入10 mL偏磷酸钠溶液并定容至1000 mL，混匀；吸取25 mL，烘干称重，通常约0.012 g。"},
+    {"type": "procedure-subheading", "number": "2", "title": "砂粒部分"}
+  ],
+  "formulas": [
+    {"label": "(55.2)", "plain": "t = [63.0×10⁸ η log(R/S)]/(N²D²Δs)", "latex": "t=\\frac{63.0\\times10^8\\,\\eta\\,\\log(R/S)}{N^2D^2\\Delta s}", "sourceIntegrityNote": "原书用字形n表示黏滞系数；按物理量规范为η。"},
+    {"label": "(55.3)", "plain": "K = 1000/吸管体积(mL)", "latex": "K=\\frac{1000}{V_p}", "variables": [{"symbol": "V_p", "meaning": "吸管体积（mL）"}]},
+    {"label": "(55.4)", "plain": "D_f = 100/预处理烘干样品质量(g)", "latex": "D_f=\\frac{100}{m_d}", "sourceIntegrityNote": "原书符号为D；为避免与式（55.2）粒径D冲突，运行时记作D_f。"},
+    {"label": "(55.5)", "plain": "砂粒百分含量s = 筛上砂粒质量 × D_f", "latex": "s=m_sD_f"}
+  ],
+  "tables": [],
+  "contentSha256": "ce39c8e5ca19181f054f9dfdff454af892f32e2ac384baf6e5750c47ce98148e"
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 98,
+  "sourceImageSha256": "e6a0782ff64290edaed50217c838cb43602bb39fe1633b275a702573dc78e810",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成第63章本页22条参考文献（含跨页Larney题名起始）"},
+    "precisionPass": {"status": "verified", "method": "核验作者附加符号、年份、题名、期刊/专著、卷页、版次，校正G. Richard、Díaz-Zorita、aggregate-size及ASA/SSSA分隔"},
+    "secondVisualPass": {"status": "verified", "method": "由Larney和Bullock跨页题名反向复核至Anderson等（1966），检查专有字符Dürr/Kiêu和跨行连字；印刷页码607"}
+  },
+  "blocks": [
+    {"type": "heading", "title": "参考文献", "level": 2},
+    {"type": "references", "items": [
+      "Anderson, C.H. and Wenhardt, A. 1966. Soil erodibility, fall and spring. Can. J. Soil Sci. 46:255–259.",
+      "Aubertot, J.N., Dürr, C., Kiêu, K., and Richard, G. 1999. Characterization of sugar beet seedbed structure. Soil Sci. Soc. Am. J. 63:1377–1384.",
+      "Ball-Coelho, B.R., Roy, R.C., and Swanton, C.J. 2000. Tillage and cover crop impacts on aggregation of a sandy soil. Can. J. Soil Sci. 80:363–366.",
+      "Beauchamp, E.G. and Seech, A.G. 1990. Denitrification with different sizes of soil aggregates obtained from dry-sieving and from sieving with water. Biol. Fertil. Soils 10:188–193.",
+      "Braunack, M.V. and McPhee, J.E. 1991. The effect of initial soil water content and tillage implement on seedbed formation. Soil Tillage Res. 20:5–17.",
+      "Broersma, K., Robertson, J.A., and Chanasyk, D.S. 1997. The effects of diverse cropping systems on aggregation of a Luvisolic soil in the Peace River region. Can. J. Soil Sci. 77:323–329.",
+      "Bullock, M.S., Larney, F.J., Izaurralde, R.C., and Feng, Y. 2001. Overwinter changes in wind erodibility of clay loam soils in southern Alberta. Soil Sci. Soc. Am. J. 65:423–430.",
+      "Bullock, M.S., Larney, F.J., McGinn, S.M., and Izaurralde, R.C. 1999. Freeze-drying processes and wind erodibility of a clay loam soil in southern Alberta. Can. J. Soil Sci. 79:127–135.",
+      "Chepil, W.S. 1941. Relation of wind erosion to the dry aggregate structure of a soil. Sci. Agric. 21:488–507.",
+      "Chepil, W.S. 1942. Measurement of wind erosiveness of soils by dry sieving procedure. Sci. Agric. 23:154–160.",
+      "Chepil, W.S. 1952. Improved rotary sieve for measuring state and stability of dry soil structure. Soil Sci. Soc. Am. Proc. 16:113–117.",
+      "Chepil, W.S. 1962. A compact rotary sieve and the importance of dry sieving in physical soil analysis. Soil Sci. Soc. Am. Proc. 26:4–6.",
+      "Chepil, W.S. and Bisal, F. 1943. A rotary sieve method for determining the size distribution of soil clods. Soil Sci. 56:95–100.",
+      "Díaz-Zorita, M., Perfect, E., and Grove, J.H. 2002. Disruptive methods for assessing soil structure. Soil Tillage Res. 64:3–22.",
+      "Eynard, A., Schumacher, T.E., Lindstrom, M.J., and Malo, D.D. 2004. Aggregate sizes and stability in cultivated South Dakota prairie Ustolls and Usterts. Soil Sci. Soc. Am. J. 68:1360–1365.",
+      "Gardner, W.R. 1956. Representation of soil aggregate-size distribution by a logarithmic-normal distribution. Soil Sci. Soc. Am. Proc. 20:151–153.",
+      "Hagen, L.J., Skidmore, E.L., and Fryrear, D.W. 1987. Using two sieves to characterize dry soil aggregate size distribution. Trans. ASAE 30:162–165.",
+      "Horn, R. and Baumgartl, T. 2000. Dynamic properties of soils. In: M.E. Sumner, ed. Handbook of Soil Science. CRC Press, Boca Raton, FL, A19–A51.",
+      "Kay, B.D. and Angers, D.A. 2000. Soil structure. In: M.E. Sumner, ed. Handbook of Soil Science. CRC Press, Boca Raton, FL, A229–A276.",
+      "Kemper, W.D. and Chepil, W.S. 1965. Size distribution of aggregates. In: C.A. Black et al., eds. Methods of Soil Analysis, Part 1—Physical and Mineralogical Properties, Including Statistics of Measurement and Sampling. Agronomy No. 9. ASA, Madison, WI, 499–510.",
+      "Kemper, W.D. and Rosenau, R.C. 1986. Aggregate stability and size distribution. In: A. Klute, ed. Methods of Soil Analysis, Part 1—Physical and Mineralogical Methods, 2nd ed. ASA and SSSA, Madison, WI, 425–442.",
+      "Larney, F.J. and Bullock, M.S. 1994. Influence of soil wetness at time of tillage and tillage implement on soil properties affecting …"
+    ]},
+    {"type": "source-fidelity-note", "text": "原书将Aubertot条目最后作者印为“Richard. R.”，已依期刊原页校正为Richard, G.；并校正Díaz-Zorita的重音号、Gardner题名中aggregate-size的连字和“ASA=SSSA”为并列出版机构ASA and SSSA。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "6fc0bf88caeba8aafb232e7b4bca0d58b4de016f0c63b0b6592d000e1e9ef645"
+}

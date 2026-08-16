@@ -1,0 +1,85 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 1,
+  "sourceImageSha256": "d5971ef2f8fa101cc544c807588a93aad3da6b74ff5e3c3158f2d48b86025edf",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率封面图像，并放大核对细字"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "逐项核对中英文书名、人名、册次、出版社字样、网址及图中H₂O下标"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "第二遍独立读取原页及三个局部放大图，逐项对照初校记录"
+    }
+  },
+  "blocks": [
+    {
+      "type": "brand",
+      "text": "CRC Press"
+    },
+    {
+      "type": "brand",
+      "text": "Taylor & Francis Group"
+    },
+    {
+      "type": "title",
+      "text": "土壤采样与分析方法"
+    },
+    {
+      "type": "english-title",
+      "text": "SOIL SAMPLING AND METHODS OF ANALYSIS"
+    },
+    {
+      "type": "credit",
+      "text": "［加］M.R. Carter（M.R.卡特）　E.G. Gregorich（E.G.格雷戈里奇）　主编"
+    },
+    {
+      "type": "credit",
+      "text": "李保国　李永涛　任图生　王朝辉　徐建明　主译"
+    },
+    {
+      "type": "subtitle",
+      "text": "（上册）"
+    },
+    {
+      "type": "figure",
+      "description": "农田照片；矩形框标出土壤剖面，白色引线连接放大镜中的土壤结构示意图。",
+      "visibleLabels": [
+        "Air",
+        "Air",
+        "H₂O",
+        "K",
+        "Ca"
+      ],
+      "labelNote": "K和Ca在示意图中均重复出现；此处按标签种类记录，Air按两个可见位置记录。"
+    },
+    {
+      "type": "publisher-group",
+      "text": "中国工信出版集团"
+    },
+    {
+      "type": "publisher",
+      "text": "電子工業出版社"
+    },
+    {
+      "type": "publisher",
+      "text": "PUBLISHING HOUSE OF ELECTRONICS INDUSTRY"
+    },
+    {
+      "type": "publisher-mark",
+      "text": "PHEI"
+    },
+    {
+      "type": "url",
+      "text": "http://www.phei.com.cn"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "87532f7188dda44a9c9b8c9345c6ae816bb1d38b003158f44ec5ee0c97f8b4a0"
+}

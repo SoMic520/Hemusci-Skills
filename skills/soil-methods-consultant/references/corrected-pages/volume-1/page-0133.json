@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 133,
+  "sourceImageSha256": "b90668fb6e540aad1155157ec95416ec68e7f82dd67f5ac7a39dc031a584b96a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照第13章首页原图，并与Apple Vision、PaddleOCR交叉比对，人工恢复离子交换树脂原理、形态、批处理与扩散敏感系统三段正文"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者机构、年份后缀2002a/2002b与1991a、b、PRS、UNIBEST、Western Ag Innovations、Montana/SK及官能团名称"},
+    "secondVisualPass": {"status": "verified", "method": "从末句理论验证反向复核至章标题，确认Qian and Schoenau原书英文连接词、Jarrel拼写、段落层级和章首页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "第13章", "text": "使用离子交换树脂测定离子供给率"},
+    {"type": "author", "text": "P. Qian and J.J. Schoenau"},
+    {"type": "affiliation", "text": "University of Saskatchewan\nSaskatoon, Saskatchewan, Canada"},
+    {"type": "author", "text": "N. Ziadi"},
+    {"type": "affiliation", "text": "Agriculture and Agri-Food Canada\nQuebec, Quebec, Canada"},
+    {"type": "section-heading", "level": 3, "number": "13.1", "title": "引言"},
+    {"type": "paragraph", "text": "早在1951年（Pratt，1951）和1955年（Amer等，1955）就已经有了使用离子交换树脂测量土壤中有效态养分的报道。从那以后，很多文章报道了离子交换树脂在农业土壤和环境土壤研究中的应用，大部分集中在土壤中有效态养分的测定上。其中，Olsen和Sommers（1982）及Kuo（1996）很早就介绍了阴离子交换树脂提取土壤中有效磷的方法；Havlin等（2005）也对树脂膜提取的原理作了简要的叙述和评论；Qian和Schoenau（2002a）对离子交换树脂在农业和环境领域研究中的应用作了综述。"},
+    {"type": "paragraph", "text": "合成的离子交换树脂是带静电电荷的固态有机高分子材料，其静电由带相反电荷的离子中和，功能类似于带电的土壤胶体。强酸性的阳离子交换（磺酸基官能团）树脂和强碱性的阴离子交换（季胺官能团）树脂可以作为土壤或其他介质中养分离子的吸附体。当离子交换树脂在含混合离子的溶液中达到平衡时，由于树脂对离子的吸附具有优先选择性，被吸附离子的比例与溶液中离子比例是不相同的。一般来说，与树脂亲和力最低的阳离子和阴离子最适合用作反离子。粒状和膜状是市场上最为常见的两种离子交换树脂的形式。树脂粒通常在密封的尼龙袋中保存，树脂膜在使用前需按需求大小裁成条状（Qian等，1992）。这两种树脂最初都是被用在批处理实验中，即将树脂与一定量的土壤和水混合，振荡一定时间（Skogley，1992；Ziadi等，1999；Qian and Schoenau，2002b），形成一个离子交换树脂与土壤长期直接接触的扩散敏感系统（Amer等，1955；Martin和Sparks，1983；Turrion等，1999）。但是，这些离子交换树脂，特别是树脂膜带，很难被原位放置在土壤中形成扩散敏感系统，限制了其使用。为克服这一困难，科学家们开发出了树脂胶囊（将树脂粒密封在多孔壳内，形成一个致密坚硬的球状胶囊）和PRS探针（将膜封装在一个塑料框架制成的探头内），UNIBEST（Bozeman，Montana）和Western Ag Innovations（Saskatoon，SK）分别有售。"},
+    {"type": "paragraph", "text": "在批处理实验中，树脂通常被放置在土壤悬浊液中，通过表面吸附作用将土壤溶液中的养分离子提取出来，使土壤溶液中所含离子浓度保持在一个较低的水平上，以促进土壤中的养分离子持续解吸，直至达到平衡状态（Sparks，1987）。在扩散敏感过程中，树脂被放置在与土壤直接接触的地方，提供了一种同时测定不同土壤表面的离子释放速率和大块土壤中的离子扩散速率的方法。该系统将化学和生物转化及扩散到吸附体的过程集成到养分有效性的测量中，从而解释了养分释放和迁移的动力学（Curtin等，1987；Abrams和Jarrel，1992）。这样的一种提取土壤养分离子的过程与植物根系摄取养分十分相似，因而此方法能够解释植物根系吸收养分的影响因素（Qian和Schoenau，1996）。对此方法的相关理论验证已有报道（Yang等，1991a、b；Yang和Skogley，1992）。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f7edd207ed82f3ff06142874b242c37098131902d9c25702e5b176c309341fe4"
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 34,
+  "sourceImageSha256": "95f83c460f9d4f222181664a6c41e46db15eef506fc2b8838307961f251102ef",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部漏字与错字"},
+    "precisionPass": {"status": "verified", "method": "放大核对100 000、1 m²、1×10⁷ cm²的数值单位和上下标，以及人名、引文、章节层级与标点"},
+    "secondVisualPass": {"status": "verified", "method": "按标题、作者单位、正文段落、数值单位、引文和行尾接续顺序反向复核原页"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "level": 2, "number": "第1章", "title": "土壤采样设计"},
+    {"type": "author", "text": "Dan Pennock and Thomas Yates"},
+    {"type": "affiliation", "text": "University of Saskatchewan"},
+    {"type": "location", "text": "Saskatoon, Saskatchewan, Canada"},
+    {"type": "author", "text": "Jeff Braidek"},
+    {"type": "affiliation", "text": "Saskatchewan Agriculture and Food"},
+    {"type": "location", "text": "Saskatoon, Saskatchewan, Canada"},
+    {"type": "section-heading", "level": 3, "number": "1.1", "title": "引言"},
+    {"type": "paragraph", "text": "采样包括从总体样本中选择样本子集，然后进行测定；该子集（或样本）的测定结果将用于估计样本总体的特性（或参数）。在土壤学中，采样对于所有田间研究项目都是必需的。对于科学研究而言，对样本总体进行测定是无法实现的。比如，在10公顷的试验区域内就包含有100 000个1 m²的土坑或1×10⁷ cm²的土芯。可见，采集全部样本既不合理、也不实际，因此需要科学地、有目标地采样。", "inlineNotation": ["1 m^2", "1×10^7 cm^2"]},
+    {"type": "paragraph", "text": "采样设计包括确定样本选择的最优方法，所选样品要能够代表样本总体的特性。明确样本总体特性是调查研究初始规划的关键（Eberhardt 和 Thomas，1991；Pennock，2004）。采样设计定义了如何从总体中选择特定的要素，而这些采样要素构成了样本总体。"},
+    {"type": "paragraph", "text": "对特定的采样设计及统计方法已有许多非常详细的规程。本章将介绍如何选择一个正确的采样设计方案及应该考虑的相关问题。本章最后一部分介绍了与特定研究规划有关的设计方案。另外，在每节中列出了关于该主题的推荐读物，以便读者深入研究。"},
+    {"type": "section-heading", "level": 3, "number": "1.2", "title": "采样方法"},
+    {"type": "section-heading", "level": 4, "number": "1.2.1", "title": "偶然、判断和概率抽样"},
+    {"type": "paragraph", "text": "确定采样地点的方法有偶然抽样、判断抽样和概率抽样。随意地，图便捷、图省事地采样会让采样者做出的一系列片面的决定，而且没有系统的设计方式来确保所选样本在总体中具有代表性。上述的采样方式与科学的采样设计相悖。判断抽样，也叫立意抽样（de Gruijter，2002）是根据研究者所掌握的知识来选择采样点的。判断抽样虽然能够准确估计部分样本参数（如平均值和样本数），但是不能保证这些估计值的精确度（Gilbert，1987），而且估计值的可靠性依赖于研究者的判断力。概率抽样使用一系列的特殊样点布局随机选择采样点，并可计算出每个设计中采样点的抽样概率。与判断抽样不同，概率抽样可对参数估计值的精确度进行估计，并基于平均值变异性的估计值进行一系列统计分析，是目前土壤学中最常见的采样方法。"},
+    {"type": "section-heading", "level": 4, "number": "1.2.2", "title": "采用判断抽样的研究设计"},
+    {"type": "paragraph", "text": "成土和土壤地貌研究的重点是确定形成土壤性质、地貌特征的过程和控制这些过程发生速率的环境因素。单个土体尺度的研究与土壤分类系统的发展紧密相关，且集中于垂直和内部土体发育过程的研究。土壤地貌研究是第四纪地质学和土壤学的交叉学科，土壤地貌学家主要关注横向迁移过程和历史地貌演化。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c77c3620f5d13d772280d3f1704ed15b42997b77f7fd8bcfc98bcf7d5b6d1e5f"
+}

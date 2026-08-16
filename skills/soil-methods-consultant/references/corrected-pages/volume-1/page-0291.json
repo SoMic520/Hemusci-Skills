@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 291,
+  "sourceImageSha256": "3b2421f96a83d820491b31324ac57d710ab67be9788dde162efdb2c0044a9401",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第29章第260页，人工恢复29.4.4跨页末句、29.5与29.5.1—29.5.2方法层级及全7组培养基配方"},
+    "precisionPass": {"status": "verified", "method": "逐项核对试剂名、菌名、拉丁学名、引文年份、数值与单位，重点确认Na₂FeEDTA下标、0.1 mol/L、0.45 μm、48℃、5.0 μg/mL、10.0 μg/mL与1 mL/L"},
+    "secondVisualPass": {"status": "verified", "method": "从页底配方（4）反向复核至页首‘以’字跨页续句，确认段落分界、配方序号、破折号、括号内学名及印刷页码260"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "continuation", "fromPage": 290, "section": "29.4.4", "text": "以，培养基的选择和培养条件的制定取决于我们对这些特定生物群落的了解。"},
+    {"type": "heading", "level": 1, "number": "29.5", "title": "用于对土壤微生物分离和计数的培养基"},
+    {"type": "heading", "level": 2, "number": "29.5.1", "title": "异养细菌分离培养基"},
+    {"type": "method-item", "number": "（1）", "title": "蛋白胨酵母粉琼脂", "text": "（Goodfellow等，1968）：蛋白胨，5.0 g；酵母粉，1.0 g；磷酸亚铁，0.01 g；琼脂，15.0 g；蒸馏水，1 L；pH值，7.2。"},
+    {"type": "method-item", "number": "（2）", "title": "营养琼脂", "text": "酵母粉，1.0 g；牛肉膏，3.0 g；蛋白胨，5.0 g；氯化钠，5.0 g；琼脂，15.0 g；蒸馏水，1 L；pH值，7.3。"},
+    {"type": "method-item", "number": "（3）", "title": "荧光假单孢菌", "text": "（Sands和Rovira，1970；Simon等，1973）：蛋白胨，20.0 g；琼脂，12.0 g；甘油，10.0 g；硫酸钾，1.5 g；七水合硫酸镁，1.5 g；蒸馏水，940 mL。先使用0.1 mol/L浓度的NaOH将pH值调至7.2，然后高压灭菌。在3 mL浓度为95%乙醇中加入150000单位青霉素G、45 mg新生霉素、75 mg放线菌酮和5 mg氯霉素，将其用灭菌蒸馏水稀释至60 mL；使用经灭菌的0.45 μm密理博（Millipore）滤膜过滤；最后加入冷却的（48℃）培养基中。在使用前，培养皿需经隔夜干燥（必要情况下在使用前需在冰箱中存放数周）。"},
+    {"type": "heading", "level": 2, "number": "29.5.2", "title": "用于分离特定生理组微生物的培养基"},
+    {"type": "heading", "level": 3, "number": "1", "title": "涉及碳转化过程的微生物"},
+    {"type": "method-item", "number": "（1）", "title": "纤维素琼脂", "text": "（Eggins和Pugh，1961）：硝酸钠，0.5 g；磷酸一氢钾，1.0 g；七水合硫酸镁，0.5 g；七水合硫酸亚铁，0.01 g；纤维素（研磨制备），12.0 g；琼脂，15.0 g；蒸馏水，1 L。"},
+    {"type": "method-item", "number": "（2）", "title": "几丁质琼脂", "text": "经研磨的纯几丁质，10.0 g；七水合硫酸镁，1.0 g；磷酸一氢钾，1.0 g；琼脂，15.0 g；蒸馏水，1 L。"},
+    {"type": "method-item", "number": "（3）", "title": "淀粉琼脂", "text": "作为一种替代性碳源或辅助性碳源，可以向任何适合生长的培养基中加入0.2%可溶性淀粉。同时通过向培养基中加入碘溶液并标记未变色的区域，了解淀粉的水解情况。"},
+    {"type": "heading", "level": 3, "number": "2", "title": "涉及氮转化过程的微生物"},
+    {"type": "method-item", "number": "（1）", "title": "联合碳培养基——自生固氮菌", "text": "（Rennie，1981）。溶液1：磷酸一氢钾，0.8 g；磷酸二氢钾，0.2 g；乙二胺四乙酸一铁钠盐（Na₂FeEDTA），28.0 mg；二水合钼酸钠，25.0 mg；氯化钠，0.1 g；酵母粉，0.1 g；甘露醇，5.0 g；蔗糖，5.0 g；乳酸钠（60%，体积比），0.5 mL；蒸馏水，900 mL；琼脂，15.0 g。溶液2：七水合硫酸镁，0.2 g；氯化钙，0.06 g；蒸馏水，100 mL。溶液3：生物素，5.0 μg/mL；对氨基苯甲酸（PABA），10.0 μg/mL。将溶液1与溶液2冷却至48℃并充分混合，然后使用经灭菌的0.45 μm密理博滤膜过滤加入1 mL/L的溶液3。"},
+    {"type": "source-fidelity-note", "scope": "29.5.2.2（1）", "text": "原书印作‘乙二胺四乙酸一铁钠盐（Na₂FeEDTA）’。该中文名称、铁价态与Na₂FeEDTA的化学计量关系存在可疑之处；本语料为保持原文可追溯性不擅自改动，实施前应核对Rennie（1981）原始配方或试剂规格。"},
+    {"type": "method-item", "number": "（2）", "title": "固氮菌（Azotobacter）增菌肉汤", "text": "七水合硫酸镁，0.2 g；磷酸一氢钾，1.0 g；七水合硫酸亚铁，0.02 g；氯化钙，0.02 g；七水合氯化锰，0.002 g；二水合钼酸钠，0.001 g；蒸馏水，1 L；pH值，7.0；95%乙醇，4.0 mL（加入经高压灭菌、冷却处理的培养基）。"},
+    {"type": "source-fidelity-note", "scope": "29.5.2.2（2）", "text": "原书印作‘七水合氯化锰’。常用微生物培养基试剂通常为四水合氯化锰（MnCl₂·4H₂O），原文的结晶水数值疑为排印或翻译误差；本语料保留印刷值并加注，实施前须核对原始方法。"},
+    {"type": "method-item", "number": "（3）", "title": "圆褐固氮菌（A. chroococcum）和敏捷氮单孢菌（A. agilis）（阿须贝氏，Ashby，培养基）", "text": "这两种固氮菌种将甘露醇作为它们的唯一碳源。七水合硫酸镁，0.2 g；磷酸一氢钾，0.2 g；氯化钠，0.2 g；七水合硫酸钙，0.1 g；碳酸钙，3.0 g；二水合钼酸钠，25.0 mg；甘露醇，10.0 g；琼脂，15.0 g；蒸馏水，1 L。可以使用葡萄糖（5.0 g/L）代替甘露醇，来分离印度固氮菌（A. indicus）。"},
+    {"type": "source-fidelity-note", "scope": "29.5.2.2（3）", "text": "原书印作‘七水合硫酸钙’。硫酸钙常见结晶水形式为二水合物（CaSO₄·2H₂O），‘七水合’存在明显化学可疑性；本语料保留印刷值并加注，实施前须核对Ashby培养基标准配方。"},
+    {"type": "method-item", "number": "（4）", "title": "酵母粉甘露醇培养基", "text": "（Allen，1957）：甘露醇，10.0 g；磷酸一氢钾，0.5 g；氯化钠，0.1 g；七水合硫酸镁，0.2 g；碳酸钙，3.0 g；酵母粉，0.4 g；琼脂，15 g；蒸馏水，1 L。"},
+    {"type": "printed-page-number", "text": "260"}
+  ],
+  "formulas": [
+    {"scope": "29.5.2.2（1）", "label": "原书印刷的乙二胺四乙酸一铁钠盐化学式", "display": "Na₂FeEDTA", "latex": "\\mathrm{Na_2FeEDTA}", "sourceFidelity": "保留原书；化学计量疑点见source-fidelity-note"}
+  ],
+  "tables": [],
+  "contentSha256": "de71e4945e43d0f35615e373dc45ccbf8a38787793eade8436265a8742117ca6"
+}

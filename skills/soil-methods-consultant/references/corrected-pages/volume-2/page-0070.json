@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 70,
+  "sourceImageSha256": "d5f098bfdb7e9c4e3420be27f318f3c856a5fd80ba732a8066ed94dc92c3b88f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步逐段对照原分辨率图和两套OCR，完成步骤(5)～(9)、60.2.4、力压转换及60.2.5本页"},
+    "precisionPass": {"status": "verified", "method": "核验≤30 mm s⁻¹、校准三要素、F=mg、g=9.81 m s⁻²、Pa/N/m²、圆锥底面积和1 m空间独立性"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页末句反向复核至步骤(5)，检查力/压力/面积量纲、单位负指数、步骤编号和校准阶段；印刷页码579"}
+  },
+  "blocks": [
+    {"type": "procedure-steps-continuation", "items": ["(5) 以恒定速度≤30 mm s⁻¹插入。手动仪速度由操作者控制，硬层或大孔隙会使速度不稳；机动装置更稳定。", "(6) 拔出并按需擦净。", "(7) 确认数据已记录/保存；纯手动仪常只能记录极值，采集式可连续自动记录。", "(8) 重设仪器，按规划在下一测点从步骤(4)重复。", "(9) 检索、下载并核对数据。"]},
+    {"type": "heading", "number": "60.2.4", "title": "计算和数据处理", "level": 3},
+    {"type": "paragraph", "text": "数据采集与分析无统一规定，但须保证链路正确。建议田间使用前、使用中和使用后检查校准稳定性，重点为：①深度记录/分辨率；②力或压力；③含水量传感器。深度装置通常稳定，仍应定期检查；力传感器实验室校准见Adams等（2000），田间检查压力和水分传感器见Topp等（2003）。"},
+    {"type": "paragraph", "text": "用一系列已知砝码校准时，力F=m g，g取9.81 m s⁻²。若仪器输出力而非压力，按P=F/A换算Pa；A必须取与仪器定义匹配的圆锥底面积、平头或尖端投影面积。商用仪器虽常自动换算，也必须确认锥头尺寸/配置正确。数据统计方法由研究问题决定。"},
+    {"type": "heading", "number": "60.2.5", "title": "注释", "level": 3},
+    {"type": "paragraph", "text": "田间CI变异受石块、植被、结构、质地、轮压和操作者影响；数据在1 m以内也可能空间独立（O'Sullivan等，1987）。Lapen等（2001）发现草地黏壤土沿车辆方向的空间相关尺度较长，垂直车辆方向较短。最低重复数建议（如Bengough等，2001）仅作参考，不能替代针对现场的预调查与功效/置信度设计。"},
+    {"type": "paragraph-continuation", "text": "比较处理时必须控制含水量；最好同步测含水量与CI。若无同步仪器，含水量的测……"}
+  ],
+  "formulas": [
+    {"label": "校准力", "plain": "F(N) = m(kg) × g，g = 9.81 m s⁻²", "latex": "F(\\mathrm{N})=m(\\mathrm{kg})g,\\qquad g=9.81\\,\\mathrm{m\\,s^{-2}}", "variables": [{"symbol": "m", "meaning": "校准砝码质量"}]},
+    {"label": "压力换算", "plain": "P = F/A；圆形底面A = πd²/4", "latex": "P=\\frac{F}{A};\\qquad A=\\frac{\\pi d^2}{4}", "variables": [{"symbol": "d", "meaning": "圆锥底面或圆形探头直径"}, {"symbol": "P", "meaning": "穿透压力/圆锥指数，SI单位Pa"}]}
+  ],
+  "tables": [],
+  "contentSha256": "b3a05eda40218e991c2da0cab33351f9a447f4f66acc118f84b149e223077d6d"
+}

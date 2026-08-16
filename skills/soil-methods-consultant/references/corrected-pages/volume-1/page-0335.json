@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 335,
+  "sourceImageSha256": "0aa09595ac0bea650caec104a6dd5111f0cea2e326bba2c528d216acf9f8c2f9",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR交叉比对；以英文原版复核32.4优劣、32.5.1处理鉴定及32.5.2保存开头"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验30%、全部分类层级、phoretic behavior术语、引文年份、32.4/32.5/32.5.1/32.5.2层级及70%跨页句"},
+    "secondVisualPass": {"status": "verified", "method": "从页末70%保存液跨页句反向复核至32.4标题，逐项核验优势3项、劣势6项及处理鉴定两段；页码304"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 2, "number": "32.4", "title": "高梯度提取法和庚烷提取法比较"},
+    {"type": "paragraph", "text": "高梯度提取法相比庚烷提取法有如下优势和劣势："},
+    {"type": "subsection-heading", "method": "32.4", "number": "1", "title": "优势"},
+    {"type": "list-item", "number": "（1）", "text": "成本较低，工作量较小。"},
+    {"type": "list-item", "number": "（2）", "text": "动物被提取后的状态更适合鉴定；机械方法会损坏许多样本。"},
+    {"type": "list-item", "number": "（3）", "text": "从植物残体中分离小型节肢动物的效果优于机械方法。"},
+    {"type": "subsection-heading", "method": "32.4", "number": "2", "title": "劣势"},
+    {"type": "list-item", "number": "（1）", "text": "不同物种对相同刺激可能有不同反应。例如，光对某些物种是引诱剂，对另一些物种则是排斥刺激。为应对干燥，某些物种会进入休眠，或把自己黏附到较大的动物上，期望被带到更适宜的环境中，这称为携播行为（phoretic behavior，phoresy）。"},
+    {"type": "source-fidelity-note", "scope": "32.4劣势（1）术语", "text": "中文本把phoretic behavior译作“协播行为”；动物生态学中规范含义为携播/附载传播，校正文采用“携播行为”，同时保留英文检索词phoretic behavior与phoresy。"},
+    {"type": "list-item", "number": "（2）", "text": "同一物种在不同生活史阶段对刺激有不同反应（Tamura，1976；Takeda，1979）。蜕皮期、卵期、携播期和休眠期等不活动阶段不能被提取。对甲螨必须慎重考虑这一点，因为其生命周期可能有30%处于蜕皮阶段（Luxton，1982）。体型小的幼体通常比活动性较强的成体更难提取（Søvik和Leinaas，2002）。"},
+    {"type": "list-item", "number": "（3）", "text": "不同类群的可提取性会随一年中的时间、天气事件和气候而变化（Leinaas，1978；Takeda，1979）。高梯度提取器在炎热干旱气候中可能效率较低（Walter等，1987）。"},
+    {"type": "list-item", "number": "（4）", "text": "不同类群的可提取性会随土层深度及土壤类型而变化。土壤有机质、质地等性质会影响土壤孔隙率和孔隙空间的连续性，从而影响提取效率。"},
+    {"type": "list-item", "number": "（5）", "text": "提取过程中卵可能孵化，也可能发生死亡。"},
+    {"type": "list-item", "number": "（6）", "text": "仪器构造和试验操作也会影响提取效率。"},
+    {"type": "paragraph", "text": "为解释不同物种、不同土壤以及试验场地环境变化带来的差异，同时采用动态提取和机械提取时需要谨慎。一种有效技术是从高梯度提取法处理的样品中选取子样本，再用庚烷法提取同一批子样本（Walter等，1987）。Petersen（1978）批判性地评述了其他用于校正高梯度提取器的方法。"},
+    {"type": "section-heading", "level": 2, "number": "32.5", "title": "处理和鉴定"},
+    {"type": "section-heading", "level": 3, "number": "32.5.1", "title": "引言"},
+    {"type": "paragraph", "text": "把土壤小型节肢动物鉴定到较低分类层级并非特别困难，例如鉴定到蜱螨类各亚目或弹尾目各科。初学者可通过阅读基础检索表并与土壤动物专家进行较短时间的交流来掌握基本分类。另一方面，鉴定到属和种需要较高水平的技能，建议学习物种分类课程（Ohio State University，2006）。Dindal（1990）出版了土壤动物的基础检索表；Dindal（1990）和Behan-Pelletier（2003）提供了小型节肢动物生物学和分类学的重要书目。"},
+    {"type": "source-fidelity-note", "scope": "32.5.1分类层级", "text": "中文本印作“蜱螨亚目和弹尾目科”，把类群名称与层级混合。英文原版为acarine suborders or Collembolan families，故校正为“蜱螨类各亚目或弹尾目各科”。Ohio State University（2006）仅为原书当时的历史课程示例，不等于当前课程信息。"},
+    {"type": "paragraph", "text": "关于处理和储存样本的基本信息以及制作光学显微镜观察用固定玻片的方法，可参考Evans等（1961，1985）、Krantz（1978）和Woolley（1982）。Krantz（1978）讨论了连续切片和电子显微镜样本的制备。Evans等（1961）和Krantz（1978）提供了实验室培养小型节肢动物的方法。Marshall等（1994）概述了提取、分类和鉴定小型节肢动物各步骤所需的时间。"},
+    {"type": "section-heading", "level": 3, "number": "32.5.2", "title": "保存方法"},
+    {"type": "paragraph", "id": "storage-solutions-intro", "continuation": "page-0336", "text": "小型节肢动物可在丙二醇溶液中保存数个月，但尚未证明其适于长期保存。通常使用含70%的"},
+    {"type": "printed-page-number", "text": "304"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f9d9bbe66259fb22f2632f42d6ae64edfcd5a1deb40cea01c4c079b6fc077f5e"
+}

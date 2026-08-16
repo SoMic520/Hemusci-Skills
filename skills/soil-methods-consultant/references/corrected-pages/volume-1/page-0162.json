@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 162,
+  "sourceImageSha256": "d9dc25c95201dea7a7c3bba68f70807b5b3e50377265be9dd657accada097aee",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章首页，并与Apple Vision、PaddleOCR交叉比对，人工恢复引言、方法层级、材料试剂和步骤（1）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验pH、0.01 mol L⁻¹ CaCl₂、1 mol L⁻¹ KCl、0.5个单位、<2 mm、10 g、2 g、20/30 mL和重去离子水"},
+    "secondVisualPass": {"status": "verified", "method": "从步骤（1）未完处反向复核至章名和作者机构，确认编号、中英文拼写及章首无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第16章", "title": "土壤反应和交换性酸"},
+    {"type": "author", "text": "W.H. Hendershot and H. Lalande"},
+    {"type": "affiliation", "text": "McGill University"},
+    {"type": "affiliation", "text": "Sainte Anne de Bellevue, Quebec, Canada"},
+    {"type": "author", "text": "M. Duquette"},
+    {"type": "affiliation", "text": "SNC-Lavalin"},
+    {"type": "affiliation", "text": "Montreal, Quebec, Canada"},
+    {"type": "section-heading", "level": 2, "number": "16.1", "title": "引 言"},
+    {"type": "paragraph", "text": "土壤pH值是常规土壤分析中最常见的重要测定指标之一。土壤颗粒表面和土壤溶液之间的pH值平衡影响着土壤一系列化学与生物学反应。"},
+    {"type": "paragraph", "text": "土壤pH值一般采用水或稀盐溶液浸提测定。以水浸提测定的pH值最接近于田间土壤溶液的pH值，对于电导率较低或未施用肥料的土壤也是如此，但其测定结果也受土壤溶液稀释程度或土壤与浸提液比值的影响。与水作浸提液相比，采用0.01 mol L⁻¹ CaCl₂溶液作为浸提液测定土壤pH值效果更佳，但因为加入盐分也会导致测定值偏低约0.5个单位（Schofield和Taylor，1955；Courchesne等，1995）。然而，采用这种方法浸提时测定结果受取样前较近时间内是否施肥的影响较小，因此推荐优先选择CaCl₂溶液作为浸提液测定土壤pH值。此外，还有其他一些测定土壤pH值的方法，例如，以1 mol L⁻¹ KCl溶液作为浸提液（Peech，1965）等，但这些方法在加拿大常规土壤分析中不常用，因此不在本章进行介绍。"},
+    {"type": "section-heading", "level": 2, "number": "16.2", "title": "以水作为浸提液测定土壤的pH值"},
+    {"type": "paragraph", "text": "以水作为浸提液测定土壤的pH值时，需要注意用水量增加会导致pH值升高，因此应该保持恒定且尽可能高的土液比。但需要注意，保证浸提容器中的上清液能够完全且准确地浸没电极，避免电极尖端插入土壤，且使电极的玻璃球浸泡在上清液中。"},
+    {"type": "section-heading", "level": 3, "number": "16.2.1", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "name": "pH计", "text": "选用至少可以进行两点校准的合适仪器。"},
+    {"type": "material-item", "number": "（2）", "name": "复合电极", "text": "由于土壤称样量有限，加之土液比应该保持较高的比例，因此推荐选用复合电极。"},
+    {"type": "material-item", "number": "（3）", "name": "30 mL高脚烧杯（耐热玻璃或一次性塑料）", "text": "选择高脚型烧杯，便于电极完全浸没于上清液中。"},
+    {"type": "material-item", "number": "（4）", "name": "搅拌器", "text": "可以选用一次性塑料搅拌棒或玻璃棒。"},
+    {"type": "section-heading", "level": 3, "number": "16.2.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "对于矿质土壤，称取<2 mm风干土样10 g放入30 mL烧杯，加入20 mL重去离子水。有机质含量高的土壤，称取风干土样2 g，加入20 mL重去离子水。记录所选用的土液比。每批样品测定都应该有用于校准测定质量的参比样品。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f559272351d26186b0234d0ec04c77bbece6c09504cfbc417696bf613c69fbeb"
+}

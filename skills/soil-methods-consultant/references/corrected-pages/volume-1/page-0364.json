@@ -1,0 +1,53 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 364,
+  "sourceImageSha256": "e050838d5946e373041d29cf7ec03c798072556ee9b19b82e56c453da59fe9cb",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版35.3.2～35.4.3"},
+    "precisionPass": {"status": "verified", "method": "核验1～2滴、100%异丙醇、20%乙醇、Ludox CL 30%、125～500 mL、20 L、10 min及章节交叉引用"},
+    "secondVisualPass": {"status": "verified", "method": "从35.4.3首句反向复核至步骤（18），改正表面皿、长工作距离物镜，并纠正高压灭菌适用条件的反向翻译；印刷页码333"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第35章｜线蚓科动物｜"},
+    {"type": "ordered-list", "start": 18, "parent": "35.3.2 步骤", "items": [
+      "滴加1～2滴Permount封固剂覆盖样本。",
+      "盖上盖玻片，静置过夜使其干燥。"
+    ]},
+    {"type": "section-heading", "level": 3, "number": "35.3.3", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      "固定和染色也可在通风橱内用表面皿完成。注意：无论热的或冷的Bouin固定液及其各组分，都须戴手套并在通风橱内小心操作。查阅化学品安全数据表了解危害与防护，并向实验室安全负责人咨询固定液的处理、废弃及洒漏清理规程。",
+      "100%乙醇可用100%异丙醇代替。",
+      "二甲苯可用毒性较低的透明剂替代，如CitriSolv（Fisher Scientific）；向当地供应商咨询。",
+      "使用配有长工作距离物镜的倒置显微镜更便于观察。",
+      "有些物种固定速度不够快，不能保持其舒展（未收缩）形态。此时可在固定前使用麻醉剂，如碳酸水或20%乙醇。在显微镜下监测样本舒展状态，把麻醉剂逐滴加入已提取的活体样本。",
+      "也可用Ludox CL 30%胶体二氧化硅悬浮液（Sigma-Aldrich）固定不动样本，以便在样本不收缩、不变形时描述和拍照（见35.2.2节）。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "35.3.3器材与试剂", "text": "中文本“玻璃皿”按watch glass改为表面皿；“长物镜”按long working distance objectives改为长工作距离物镜；Ludox继续使用准确名称“胶体二氧化硅悬浮液”。"},
+    {"type": "section-heading", "level": 2, "number": "35.4", "title": "培养"},
+    {"type": "paragraph", "text": "目前没有一种适用于所有线蚓科动物、以人工培养基为基础的标准培养程序。某些属（Cognettia、Enchytraeus、Lumbricillus）容易培养，但多数类群在实验室内不能令人满意地繁殖。对环境样品而言，以天然土壤为基质的方法更合适、更有希望。针对不同物种确定最佳条件时，应预期需要反复试验。"},
+    {"type": "section-heading", "level": 3, "number": "35.4.1", "title": "材料和试剂"},
+    {"type": "ordered-list", "items": [
+      "森林土壤有机层（见35.4.3注释）。",
+      "盛放土壤的容器。",
+      "高压蒸汽灭菌器。"
+    ]},
+    {"type": "section-heading", "level": 3, "number": "35.4.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      "筛查土壤，移除蚯蚓和大型无脊椎动物。",
+      "若要维持单一储备物种/单种培养，先将土壤高压蒸汽灭菌10 min，以杀灭原有无脊椎动物。若不是单种培养、而要维持多种当地线蚓科动物，则省略此步骤。",
+      "将土壤置于合适容器中（见35.4.3注释），盖子松配，以允许通气。",
+      "不要过度压实土壤，以维持通气；用手轻压即可。定期加水，使土壤保持湿润。",
+      "选做：向土壤回接包括小型节肢动物和原生生物在内的天然动物接种物，以维持分解食物网。可按第32章和第36章所述方法分别提取这些生物。",
+      "从土壤提取物中挑选线蚓科动物，置入上述土壤。",
+      "选做：长期培养时，每隔数月加入新鲜的、风干后弄碎的叶凋落物，也可补加燕麦片。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "35.4.2步骤（2）", "text": "中文本把高压灭菌的条件写反：它写成“培养单一种类时可省略，培养多种原有线蚓时保留”。英文原意及实验逻辑相反——单种储备培养需要灭菌去除原有无脊椎动物；维持当地多种线蚓群落时应省略灭菌。正文已纠正。"},
+    {"type": "section-heading", "level": 3, "number": "35.4.3", "title": "注释"},
+    {"type": "ordered-list", "start": 1, "items": ["合适容器取决于土量和所需线蚓科动物数量。单种培养可用125～500 mL塑料容器；多物种混合培养可用20 L水族缸。（本条续见下页）"]},
+    {"type": "printed-page-number", "text": "333"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9bf15d55a0085768be38d947f10e1c1da3095aa47bcd763908fda1cdc01b9b05"
+}

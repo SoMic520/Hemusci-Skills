@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 432,
+  "sourceImageSha256": "7546c829881c6f2efe0d9d9a436557694529a699ef56e1d02daa8280f65b1387",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、两套OCR及英文原版41.3.4～41.5"},
+    "precisionPass": {"status": "verified", "method": "对3.4/0.025、(50+SW)/0.2、1/5三级换算逐项作量纲核验；纠正式（41.5）遗漏的÷100与pM/nM单位混用，复核AEC上下标、系数0.5及取值范围"},
+    "secondVisualPass": {"status": "verified", "method": "由HPLC末句反向复核式（41.7）至式（41.4），逐个检查pmol/nmol、mL、g⁻¹、百分号、pH 7.75和印刷页码401"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第41章｜土壤ATP"},
+    {"type": "section-heading", "level": 3, "number": "41.3.4", "title": "土壤ATP含量"},
+    {"type": "paragraph", "text": "由分析体系中的土壤ATP量计算土壤ATP含量。分析体系使用25 μL中和提取液（NE），中和提取液总体积3.4 mL，被中和的土壤提取液（SE）为0.2 mL，土壤提取液总体积为(50+SW) mL，所提取土壤量为5 g ODW。按式（41.4）换算；SW为该5 g ODW土样所带水量。结果通常以nmol ATP·g⁻¹ ODW表示。"},
+    {"type": "source-fidelity-note", "scope": "式（41.4）～（41.6）", "text": "原书把皮摩尔和纳摩尔物质的量分别误写为pM、nM；本Skill规范为pmol、nmol。式（41.5）把质量含水率百分数直接与5 g相乘，漏写÷100，且由水质量换算水体积还需水密度ρw；运行时采用量纲完整的校正式。"},
+    {"type": "section-heading", "level": 2, "number": "41.4", "title": "注意事项"},
+    {"type": "note-item", "number": "（1）", "text": "除特别注明者外，所用试剂均应为分析纯；全部试剂溶液均用Ⅰ型去离子水配制。"},
+    {"type": "note-item", "number": "（2）", "text": "荧光素酶活性和发射光波长受pH影响，因此中和土壤提取液并将反应混合液调至适宜pH，对获得最高分析灵敏度至关重要（Wen等，2005）。"},
+    {"type": "note-item", "number": "（3）", "text": "ATP标准曲线应使用高压灭菌土提取物配制，使ATP标准的化学基质与土壤提取液相似。"},
+    {"type": "note-item", "number": "（4）", "text": "反应混合液组成可将反应pH严格控制在约7.75，同时稀释提取液中可能影响酶活性的成分。"},
+    {"type": "note-item", "number": "（5）", "text": "所有玻璃器皿必须非常洁净，实验人员应戴全新手套，避免外源ATP污染。未稀释试剂的检出能力可低至0.002 pmol ATP·mL⁻¹。"},
+    {"type": "note-item", "number": "（6）", "text": "该法测定土壤ATP的精密度较高；同一土样3次重复，在显著性水平α=0.05时应能检出5%～10%的ATP含量差异。"},
+    {"type": "source-fidelity-note", "scope": "41.4（6）", "text": "原书及英文原版写“0.05% level of probability”，与常用显著性水平表述不一致；按统计学含义校为α=0.05（5%），并保留此误印记录。"},
+    {"type": "section-heading", "level": 2, "number": "41.5", "title": "ATP和微生物生物量"},
+    {"type": "paragraph", "text": "土壤ATP测定是研究微生物生物量及其活性的高灵敏方法。测定速度快，可用于湿润–干燥、冻结–融化等环境快速变化条件，也可测定团聚体表面、团聚体内部空间和根际等特定微生境样品（Nannipieri等，1990）。"},
+    {"type": "paragraph", "text": "微生物生物量的平均生理状态可用腺苷酸能荷（adenylate energy charge，AEC）表征。AEC按式（41.7）由ATP、ADP和AMP求得；三者须用相同的物质的量或浓度单位，所得AEC无量纲。鲜土AEC通常为0.70～0.95，风干土为0.4～0.5。"},
+    {"type": "paragraph", "text": "采用离子对反相高效液相色谱法（ion-paired reverse-phase HPLC）可一次测定ATP、ADP和AMP三种腺苷酸（Dyckmans和Raubuch，1997）。"},
+    {"type": "printed-page-number", "text": "401"}
+  ],
+  "formulas": [
+    {"label": "（41.4）", "plain": "Soil ATP(pmol·g⁻¹ ODW)=Soil ATP_assay(pmol)×(3.4 mL NE/0.025 mL NE_assay)×[(50+SW) mL SE/0.2 mL SE]×(1/5 g ODW)", "latex": "ATP_{\\mathrm{soil}}(\\mathrm{pmol\\,g^{-1}})=ATP_{\\mathrm{assay}}(\\mathrm{pmol})\\times\\frac{3.4\\,\\mathrm{mL\\,NE}}{0.025\\,\\mathrm{mL\\,NE_{assay}}}\\times\\frac{(50+SW)\\,\\mathrm{mL\\,SE}}{0.2\\,\\mathrm{mL\\,SE}}\\times\\frac{1}{5\\,\\mathrm{g\\,ODW}}"},
+    {"label": "（41.5）原印", "sourcePrinted": "SW(mL)=5 g（烘干土）×土壤含水率（%）", "status": "source-equation-missing-percent-conversion-and-density"},
+    {"label": "（41.5-corrected）", "plain": "SW(mL)=[5 g ODW×(gravimetric water content %/100)]/[ρw(g·mL⁻¹)]", "latex": "SW(\\mathrm{mL})=\\frac{5\\,\\mathrm{g\\,ODW}\\times(w_{\\%}/100)}{\\rho_w(\\mathrm{g\\,mL^{-1}})}", "context": "运行时默认；ρw≈1.00 g·mL⁻¹时SW≈0.05×w% mL"},
+    {"label": "（41.6）", "plain": "Soil ATP(nmol·g⁻¹ ODW)=Soil ATP(pmol·g⁻¹ ODW)/1000", "latex": "ATP_{\\mathrm{soil}}(\\mathrm{nmol\\,g^{-1}})=\\frac{ATP_{\\mathrm{soil}}(\\mathrm{pmol\\,g^{-1}})}{1000}"},
+    {"label": "（41.7）", "plain": "AEC=([ATP]+0.5[ADP])/([ATP]+[ADP]+[AMP])", "latex": "AEC=\\frac{[ATP]+0.5[ADP]}{[ATP]+[ADP]+[AMP]}", "context": "ATP、ADP、AMP用相同单位；AEC无量纲"}
+  ],
+  "tables": [],
+  "contentSha256": "7dd07adb70d15a063d40d1f8bd6ff2c1b849e1527f04883c74d64ce8c1caf597"
+}

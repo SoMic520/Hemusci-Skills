@@ -1,0 +1,47 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 296,
+  "sourceImageSha256": "80197bb48eb1faabd6c2d4843a1a3878ac38d42b42fcdb825b3e4c78808f8d46",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第30章第265页，人工恢复30.3.1全7项材料试剂、30.3.2全9步操作、30.3.3注释与30.4跨页引言"},
+    "precisionPass": {"status": "verified", "method": "核对w/v、浓度、体积、温度、时间、网孔与根段长度，重点确认10% KOH、0.5 g、500/450/50 mL、1% HCl、50 μm、10～30 min、15～60 min与4℃"},
+    "secondVisualPass": {"status": "verified", "method": "放大复核材料（2）和（4）的原书英文字样，从页底30.4断句反向检查到页首，确认Shaeffer/Ft·madbon/Lowa/Fisher Scientifi/Ontairo均是印刷字样而非OCR自行改动"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第30章｜丛枝菌根｜"},
+    {"type": "heading", "level": 2, "number": "30.3.1", "title": "材料和试剂"},
+    {"type": "materials", "items": [
+      "（1）10%（w/v）KOH水溶液。",
+      "（2）黑色Shaeffer墨水溶液：5%黑色Shaeffer墨水（Ft·madbon，Lowa）加入家用食醋（5%醋酸）或者台盼蓝溶液中。台盼蓝溶液：取0.5 g台盼蓝，溶于500 mL甘油、450 mL H₂O，以及含脱色溶液的50 mL 1% HCl的混合溶液中。",
+      "（3）酸化水：取纯净水，用食醋或1% HCl酸化处理。",
+      "（4）样品染色盒（组织处理盒，Fisher Scientifi，Nepean，Ontairo）：此外，小盒、小瓶、烧杯或者锥形瓶也可以代替，玻璃瓶或烧杯作为根系容器。",
+      "（5）铅笔。",
+      "（6）1 L烧杯。",
+      "（7）热平板。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "30.3.1（2）、（4）", "text": "原书英文印作‘Shaeffer’、‘Ft·madbon, Lowa’、‘Fisher Scientifi’和‘Ontairo’，其中后三处显然含排印/译录异常，通常应核对为Fort Madison, Iowa、Fisher Scientific和Ontario；墨水品牌拼写也应与原始方法复核。正文保留原书印刷值，规范词形仅用于检索和风险提示。"},
+    {"type": "source-fidelity-note", "scope": "30.3.1（2）台盼蓝溶液", "text": "原书将‘5%黑色墨水加入家用食醋或者台盼蓝溶液中’写在同一句中，且台盼蓝配方出现‘含脱色溶液的50 mL 1% HCl’的语法异常。30.3.2（7）—（9）明确把墨水—食醋与台盼蓝作为两条备选流程，不应将两种染液相互混合；实施前应核对原始文献。"},
+    {"type": "heading", "level": 2, "number": "30.3.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "切1 cm根系片段，取足够小并具代表性样品轻置于样品染色盒内，使得根内液体环流正常进行。在样品染色盒内将根片混入一定体积水保证无土壤附着。为了使根际定殖程度评价更具代表性，要求至少50个根系切片，最好100个。"},
+    {"type": "procedure-step", "number": "（2）", "text": "将根系样品放入用铅笔标记（墨水接触KOH后会褪色）的样品染色盒。如果没有样品染色盒，整个步骤可用小瓶、烧杯，或者锥形瓶替代。将根系切片装入容器，浸入指定溶液，然后过50 μm网孔尼龙滤片后手动回收。"},
+    {"type": "procedure-step", "number": "（3）", "text": "将样品染色盒放入一个1 L烧杯内。烧杯中的水不应超过其体积一半。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用KOH溶液覆盖。"},
+    {"type": "procedure-step", "number": "（5）", "text": "将含样品的烧杯放在热平板上同时煮沸至可清晰看见根系样品。这一过程通常需要10～30 min，但也可能需要几小时，这取决于植物种类及根系材料的质量。"},
+    {"type": "procedure-step", "number": "（6）", "text": "弃掉KOH溶液并用水龙头冲洗染色盒几次。"},
+    {"type": "procedure-step", "number": "（7）", "text": "如果使用Shaeffer墨水进行染色，建议采用酸化处理水冲洗；如果使用台盼蓝染色，则建议采用1% HCl冲洗。"},
+    {"type": "procedure-step", "number": "（8）", "text": "使用墨水—食醋染色液轻轻煮沸3 min，或者用台盼蓝溶液煮沸15～60 min。"},
+    {"type": "procedure-step", "number": "（9）", "text": "弃掉墨水—食醋溶液，用食醋酸化后的自来水冲洗染色盒。台盼蓝染色后的根系放置在脱色溶液（500 mL甘油、450 mL H₂O和50 mL 1% HCl）中过夜。台盼蓝染色溶液小心过滤去除根系残渣后可用做后续根系染色。染色后的根系盒或锥形瓶保存于4℃酸化自来水或者脱色溶液中。"},
+    {"type": "heading", "level": 2, "number": "30.3.3", "title": "注释"},
+    {"type": "note", "text": "在放入样品染色盒之前，特别小的根系切片可用两片尼龙筛或者过滤纸保护以防止样品损失。此外，在清理染色溶液时须冲洗适当。Toth等（1991）提出了一种根据定殖根长度和根半径计算AM真菌生物量的方法。"},
+    {"type": "heading", "level": 1, "number": "30.4", "title": "网格线交叉法确定根系定殖"},
+    {"type": "paragraph", "continuesOnPage": 297, "text": "染色根系定殖评价最常采用网格线交叉法（Giovannetti和Mosse，1980）。McGonigle等（1990）将"},
+    {"type": "printed-page-number", "text": "265"}
+  ],
+  "formulas": [
+    {"scope": "30.3.1（2）/30.3.2（9）", "label": "水", "display": "H₂O", "latex": "\\mathrm{H_2O}"},
+    {"scope": "30.3.1（2）—（3）/30.3.2（7）、（9）", "label": "盐酸", "display": "HCl", "latex": "\\mathrm{HCl}"}
+  ],
+  "tables": [],
+  "contentSha256": "cd8c543c544afc661d5f243efd38b38fcb81a2a4946f38e546a86d21a994234a"
+}

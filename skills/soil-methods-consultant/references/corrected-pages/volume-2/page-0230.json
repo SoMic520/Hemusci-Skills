@@ -1,0 +1,51 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 230,
+  "sourceImageSha256": "c536cd67161b8959356022f0f6cdfe7c5419b5b79e7ec92a9b8dc10198838717",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率页图和两套OCR，完成第76章章题、76.1和76.2未完"},
+    "precisionPass": {"status": "verified", "method": "核验K_fs、φ_m、α*、ψ_f、S、PD、NP全部上下标与量纲，以及井径4—10 cm、深10—100 cm、水头5—50 cm"},
+    "secondVisualPass": {"status": "verified", "method": "按第69章参数定义复核[L·T⁻¹]、[L²·T⁻¹]、[L⁻¹]、[L]、[L·T⁻¹ᐟ²]、[L]、[L⁻²]；印刷页码739"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "76", "title": "饱和水力学特性：井渗法", "level": 1, "author": "W.D. Reynolds", "affiliation": "Agriculture and Agri-Food Canada, Harrow, Ontario, Canada"},
+    {"type": "heading", "number": "76.1", "title": "引言", "level": 2},
+    {
+      "type": "method-overview",
+      "text": "井渗法通过测井/钻孔在原位非饱和多孔介质中测田间饱和导水率K_fs，并可估计毛管参数φ_m、α*、ψ_f、S、PD和NP。常用井径4—10 cm、深10—100 cm，更大井也可；定水头和降水头分别见76.2和76.3。相关原位法为第77章圆环入渗法、第78章钻孔法和第79章测压管法；实验室K_s见第75章，估算见第84章，原理及参数关系见第69章。"
+    },
+    {
+      "type": "parameters",
+      "items": [
+        "K_fs：田间饱和导水率，[L·T⁻¹]。",
+        "φ_m：基质通量势，[L²·T⁻¹]。",
+        "α*：吸渗数，[L⁻¹]。",
+        "ψ_f：有效Green–Ampt湿润锋压力水头，[L]。",
+        "S：吸渗率，[L·T⁻¹ᐟ²]。",
+        "PD：FWM孔隙直径，[L]。",
+        "NP：FWM孔隙数面密度，[L⁻²]。"
+      ]
+    },
+    {
+      "type": "advantages",
+      "items": ["仪器轻便简单，不需电子设备或特殊材料。", "几分钟至几小时可完成，用水通常仅数升。", "井易挖且深度可选，便于时空重复。", "适用于多种质地，轻微含石土也可。", "长期使用使其在科学和工程领域获得广泛认可。"]
+    },
+    {
+      "type": "limitations",
+      "items": ["成井会涂抹、压实井壁/井底并破坏原状结构，参数可能偏低。", "垂直优先流受根孔和蚯蚓孔随机分布支配，有限井数未必有代表性。", "积水入渗中压力势和重力势占主导、毛管作用相对弱，因此φ_m、S、α*、ψ_f、PD、NP精度较低。"]
+    },
+    {"type": "heading", "number": "76.2", "title": "定水头井渗法", "level": 2},
+    {
+      "type": "method-principle",
+      "text": "在具有完全自然土壤边界的井内保持一个或多个恒定水头，测量渗漏进非饱和介质的水量。流率通常先迅速下降后趋稳；井径4—10 cm、水头5—50 cm时常在几分钟至几小时稳定，用水约数升。三维渗漏所得K_fs、φ_m、S、α*、ψ_f、PD、NP综合表达水平—垂直流；积水深度增大时参数的水平方向权重增加。单、双或多水头均可，本章采用内置通气管的马利奥特瓶系统；内容续下页。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原页OCR把S量纲误成T⁻¹ᐟ³，页图清楚为[L·T⁻¹ᐟ²]；原文交叉引用把第79章写成“压力计法”，目录及第79章规范题名为“测压管法”，均已校正。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1249ed15be4ee2d9050af3e645075ca61d2f1900885a4bfedf1adc79d0b74a85"
+}

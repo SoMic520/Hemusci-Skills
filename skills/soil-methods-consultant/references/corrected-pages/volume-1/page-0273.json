@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 273,
+  "sourceImageSha256": "35fbdb4e5549004e25097c913faa3cadcdf88407fda0507c5c40ccb332704351",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第27章第242页，人工恢复Nadelhoffer跨页续文、Näsholm至Thomas的21条参考文献及末条跨页边界"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者姓名、变音符号、in situ、植物拉丁名、3rd/2nd版次、参考书名、期刊卷号及页码"},
+    "secondVisualPass": {"status": "verified", "method": "从页底Thomas（1982）未完条目反向复核至页首Nadelhoffer续行，确认引文顺序、跨页连接及印刷页码242"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-continuation", "continuesFromPage": 272, "text": "incubations. Soil Sci. Soc. Am. J. 54: 411-415."},
+    {"type": "reference", "text": "Näsholm, T., Ekblad, A., Nordin, A., Giesler, R., Högberg, M., and Högberg, P. 1998. Boreal forest plants take up organic nitrogen. Nature 392: 914-916."},
+    {"type": "reference", "text": "Nohrstedt, H.-Ö. 2001. Effects of liming and fertilization (N, P, K) on chemistry and N turnover in acidic forest soils in SW Sweden. Water Air Soil Pollut. 139: 343-354."},
+    {"type": "reference", "text": "Paquin, R., Margolis, H. A., and Doucet, R. 1998. Nutrient status and growth of black spruce layers and planted seedlings in response to nutrient addition in the boreal forest of Quebec. Can. J. Forest Res. 28: 729-736."},
+    {"type": "reference", "text": "Paré, D. and Bernier, B. 1989. Origin of the phosphorus deficiency observed in declining sugar maple stands in the Quebec Appalachians. Can. J. Forest Res. 19: 24-34."},
+    {"type": "reference", "text": "Paré, D., Boutin, R., Larocque, G., and Raulier, F. 2006. Effect of temperature on soil organic matter decomposition in three forest biomes of eastern Canada. Can. J. Soil Sci. 86: 247-256."},
+    {"type": "reference", "text": "Post, B. W. and Curtis, R. O. 1970. Estimation of northern hardwood site index from soils and topography in the Green Mountains of Vermont. Vermont Agr. Exp. Station Bull. 664: 1-17."},
+    {"type": "reference", "text": "Qualls, R. G., Haines, B. L., Swank, W. T., and Tyler, S. W. 2000. Soluble organic and inorganic nutrient fluxes in clearcut and mature deciduous forests. Soil Sci. Soc. Am. J. 64: 1068-1077."},
+    {"type": "reference", "text": "Raison, R. J., Connell, M. J., and Khanna, P. K. 1987. Methodology for studying fluxes of soil mineral-N in situ. Soil Biol. Biochem. 19: 521-530."},
+    {"type": "reference", "text": "Read, D., Leake, J. R., and Perez-Moreno, J. 2004. Mycorrhizal fungi as drivers of ecosystem processes in heathland and boreal forest biomes. Can. J. Bot. 82: 1243-1263."},
+    {"type": "reference", "text": "Reich, P. B., Grigal, D. F., Aber, J. A., and Gower, S. T. 1997. Nitrogen mineralization and productivity in 50 hardwood and conifer stands on diverse soils. Ecology 78: 335-347."},
+    {"type": "reference", "text": "Ross, D. S., David, M. B., Lawrence, G. B., and Bartlett, R. J. 1996. Exchangeable hydrogen explains the pH of spodosol Oa horizons. Soil Sci. Soc. Am. J. 60: 1926-1932."},
+    {"type": "reference", "text": "Ross, D. S. and Hales, H. C. 2003. Sampling induced increases in net nitrification in the Brush Brook (Vermont) watershed. Soil Sci. Soc. Am. J. 67: 318-326."},
+    {"type": "reference", "text": "Schimel, J. P. and Bennett, J. 2004. Nitrogen mineralization: challenges of a changing paradigm. Ecology 85: 591-602."},
+    {"type": "reference", "text": "Sikström, U. 2002. Effects of liming and fertilization (N, PK) on stem growth, crown transparency and needle element concentrations of Picea abies stands in southwestern Sweden. Can. J. Forest Res. 32: 1717-1727."},
+    {"type": "reference", "text": "Smith, C. K., Munson, A. D., and Coyea, M. R. 1998. Nitrogen and phosphorus release from humus and mineral soil under black spruce forests in central Quebec. Soil Biol. Biochem. 30: 1491-1550."},
+    {"type": "reference", "text": "Stanford, G. and Smith, S. J. 1972. Nitrogen mineralization potentials of soils. Soil Sci. Soc. Am. Proc. 36: 465-472."},
+    {"type": "reference", "text": "Steele, S. J., Gower, S. T., Vogel, J. G., and Norman, J. M. 1997. Root mass, net primary production and turnover in aspen, jack pine and black spruce forests in Saskatchewan and Manitoba, Canada. Tree Physiol. 17: 577-587."},
+    {"type": "reference", "text": "Sumner, M. E. and Miller, W. P. 1996. Cation exchange capacity and exchange coefficients. In: D. L. Sparks et al., eds. Methods of Soil Analysis, Part 3—Chemical Methods, 3rd ed. Soil Science Society of America and American Society of Agronomy, Madison, WI, 1201-1229."},
+    {"type": "reference", "text": "Thiffault, E., Paré, D., Bélanger, N., Munson, A. D., and Marquis, F. 2006. Harvesting intensity in the boreal forest: impacts on soil nutrient availability and tree nutrition. Soil Sci. Soc. Am. J. 70: 691-701."},
+    {"type": "reference", "continuesOnPage": 274, "text": "Thomas, G. W. 1982. Exchangeable cations. In: A. L. Page, A. H. Miller, and D. R. Keeney, eds. Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties, 2nd ed. American Society of Agronomy and Soil Science Society of America,"},
+    {"type": "printed-page-number", "text": "242"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a771b8924f002088fffd7e58dc25b1fcff1971a6ec3379b47e0217f7beaf77fc"
+}

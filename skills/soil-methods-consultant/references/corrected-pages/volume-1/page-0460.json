@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 460,
+  "sourceImageSha256": "cdff06e9b0fa838d5525ab04ebc351a5a07f64698ec1db48ad9c45b13012be7c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页、两套OCR及英文原版第45章、45.1和45.2开头；恢复CO₂、CO₂-C、<2 mm、易矿化/总矿化概念和跨页句"},
+    "precisionPass": {"status": "verified", "method": "核验CO₂上下标、几天至几周时间尺度、<2 mm田间湿筛及呼吸速增的物理保护机制；区分矿化速率、累计CO₂-C和易矿化C库"},
+    "secondVisualPass": {"status": "verified", "method": "由45.2跨页末句反向复核至章题、作者、单位和45.1全部段落；检查所有C/CO₂术语的量纲含义"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "45", "title": "碳矿化", "originalTitle": "Carbon Mineralization"},
+    {"type": "author", "name": "D.W. Hopkins", "affiliation": "Scottish Crop Research Institute, Dundee, Scotland, United Kingdom"},
+    {"type": "section-heading", "level": 2, "number": "45.1", "title": "引言"},
+    {"type": "paragraph", "text": "土壤有机质是由植物、动物和微生物的死亡与腐解残体，以及它们处于不同分解阶段的遗体和代谢废物形成的有机化合物复杂混合物。有机碳矿化是分解者进行分解反应，使碳由有机形态转化为无机化合物的过程；绝大多数分解者为细菌和真菌等微生物（Gregorich等，2001）。异养土壤生物利用土壤有机质时，经呼吸释放CO₂；有机质分解所产生并作为代谢副产物释放的CO₂，称为碳矿化。"},
+    {"type": "paragraph", "text": "由于土壤有机质由生物来源不同、腐解阶段不同的有机化合物组成，碳矿化是多类生物进行一组复杂生物化学过程的结果。碳矿化测定虽是对真实过程的简化，却广泛用于土壤研究，数据应用于农业、林业、生态和环境科学。原因之一是CO₂在实验室中较易测定。野外和景观尺度有多种CO₂生产量测定方法，本章主要讨论受控实验室条件下的碳矿化测定，只以少量野外方法说明基本原理。"},
+    {"type": "paragraph", "text": "土壤碳矿化数据常有两种用途。几天至几周内测得的矿化速率可作为总体生物活性指标，因为它综合了规定条件下土壤内全部活跃生物的呼吸速率。若不补充新鲜有机质，易利用有机质逐渐耗尽，碳矿化速率会随时间下降；当CO₂产生速率降至较低水平时，累计释放的CO₂-C可作为土壤有机碳易矿化组分的指标。若时间足够长，全部或几乎全部土壤有机质均会矿化，此时总可矿化C接近土壤总有机C。"},
+    {"type": "paragraph", "text": "必须区分最终能够矿化的C总量与初期快速分解阶段矿化的易利用、易接触C组分。本章关注土壤有机质的易矿化组分：它虽由测定操作定义，却具有生物学意义；但生物学上有意义的组分很难严格定义（Hopkins和Gregorich，2005），因此必须明确其测定条件。易矿化C库大小与短期碳矿化速率之间不存在必然联系：两种土壤可含有等量易矿化C，但分解条件较有利者的初始矿化速率可能远高于另一种土壤。"},
+    {"type": "section-heading", "level": 2, "number": "45.2", "title": "土壤预处理与培养条件"},
+    {"type": "paragraph", "text": "矿化测定前难免要制备样品，但应在获得有代表性且适用样品的前提下把处理降至最低。通常将田间湿土过<2 mm筛，以便代表性取样并除去石块和大块植物材料。应避免干燥和研磨，因为两者会使矿化显著增加，形成通常所称的呼吸“速增”或“冲高”。这种速增源于原受物理保护、后被释放的非生物量有机C，以及因干燥和快速复水而死亡的生物体C的矿化[续见第461页]。"}
+  ],
+  "formulas": [
+    {"id": "45.1-carbon-dioxide", "plain": "CO₂", "context": "碳矿化过程中异养呼吸释放的二氧化碳；2为右下标"},
+    {"id": "45.1-cumulative-carbon", "plain": "cumulative CO₂-C", "context": "累计二氧化碳中的碳量，不等同于CO₂总质量"}
+  ],
+  "tables": [],
+  "contentSha256": "d1de33724c983b08b96d6c7b05ec19dedfb0a159b2e60c0943f25f8b28237054"
+}

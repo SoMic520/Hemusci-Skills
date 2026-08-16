@@ -1,0 +1,78 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 318,
+  "sourceImageSha256": "254dbffabfc73f2b1e7104d0f664ce2cbc8ccdf78934a8512ddd761c0a3f329e",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对图84.2、84.4.2 RETC拟合说明、表84.5及K_sat调整论述"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对两组RETC参数、R²、5.86比例、ψ_FC=−1 m和全部K值"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "调和正文与表84.5的R²冲突，复核m=1−1/n约束及图轴单位；印刷页码827"
+    }
+  },
+  "blocks": [
+    {
+      "type": "source-fidelity-note",
+      "text": "正文把5参数拟合R²排成0.997，并称约束拟合R²=0.9996“更好”；表84.5给出的完整结果为5参数R²=0.9998、约束4参数R²=0.9996，且前者按自由度也不应更差。已以表中精确值为准。"
+    },
+    {
+      "type": "figure",
+      "number": "84.2",
+      "title": "Brooks–Corey模型模拟的导水率与含水量关系曲线（见式84.6）",
+      "axes": {
+        "x": "含水量 (m³·m⁻³)，0.1～0.6",
+        "y": "导水率 (m·s⁻¹)，对数坐标10⁻¹⁹～10⁻⁴"
+      },
+      "series": ["回归法", "两点法"]
+    },
+    {
+      "type": "heading",
+      "number": "84.4.2",
+      "title": "van Genuchten θ(ψ)、K(θ)和K(ψ)函数",
+      "level": 3
+    },
+    {
+      "type": "subheading",
+      "title": "1. RETC最小二乘拟合"
+    },
+    {
+      "type": "analysis-note",
+      "paragraphs": [
+        "RETC 6.0为USDA免费软件。用表84.3数据拟合式(84.5a)，先独立拟合θ_r、θ_sat、n、m、a_v五参数，再限定m=1−1/n拟合四参数。两组曲线在图84.3中几乎无法区分。",
+        "为确保找到目标函数全局最小值，应采用不同初值多次运行。RETC估计K_sat=2.9×10⁻⁶ m·s⁻¹，低于实测1.7×10⁻⁵ m·s⁻¹；可按比例1.7×10⁻⁵/2.9×10⁻⁶=5.86调整附录中的K预测。",
+        "比例调整后，ψ_FC=−1 m对应K(ψ_FC)=2.1×10⁻⁸ m·s⁻¹，接近K_FC=1×10⁻⁸ m·s⁻¹，故l=0.5对该土壤适用。若直接用估计K_sat，则K(ψ_FC)=3.5×10⁻⁹ m·s⁻¹，约低于K_FC三倍；下一页用式(84.10)、式(84.11)求校正l。"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "label": "K_sat调整比例",
+      "plain": "1.7×10⁻⁵/2.9×10⁻⁶=5.86",
+      "latex": "\\frac{1.7\\times10^{-5}}{2.9\\times10^{-6}}=5.86"
+    }
+  ],
+  "tables": [
+    {
+      "number": "84.5",
+      "title": "由RETC得到的van Genuchten θ—ψ—K函数参数和R²",
+      "columns": ["参数", "5参数拟合值", "设m=1−1/n的4参数拟合值"],
+      "rows": [
+        ["θ_r (m³·m⁻³)", "0.211", "0.194"],
+        ["θ_sat (m³·m⁻³)", "0.515", "0.511"],
+        ["n", "1.034", "1.331"],
+        ["m", "0.428", "由m=1−1/n确定（约0.249）"],
+        ["a_v (m⁻¹)", "2.255", "3.71"],
+        ["K_sat (m·s⁻¹)", "2.9×10⁻⁶", "2.9×10⁻⁶"],
+        ["R²", "0.9998", "0.9996"]
+      ]
+    }
+  ],
+  "contentSha256": "d0ffbf27dcf7e604733806e12716aaf0cbc4c7144f41fda9ceaf9dcd44303165"
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 308,
+  "sourceImageSha256": "09d2a385499034bc83451e454ccdca0c74208b6bbaeb24da6a455861653b768e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复参考文献Hepper至Meier跨页条目"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验RT-PCR、PCR-DGGE、作者姓名缩写、O’Halloran撇号、物种名、期刊卷页及原书标点"},
+    "secondVisualPass": {"status": "verified", "method": "从Meier和Charvat跨页条目反向复核至Hepper（1977），纠正机器误读DGE为DGGE、McCready中间缩写及多处姓名标点；页码277"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第30章｜丛枝菌根｜"},
+    {"type": "reference", "text": "Hepper, C.M. 1977. A colorimetric method for estimating vesicular-arbuscular mycorrhizal infection in roots. Soil Biol. Biochem. 9: 15-18."},
+    {"type": "reference", "text": "Isayenkov, S., Fester, T., and Hause, B. 2004. Rapid determination of fungal colonization and arbuscule formation in roots of Medicago truncatula using real-time (RT) PCR. J. Plant Physiol. 161: 1379-1383."},
+    {"type": "reference", "text": "Jabaji-Hare, S., Sridhara, S.I., and Kendrick, B. 1984. A technique for the isolation of intramatrical vesicles from vesicular-arbuscular mycorrhizae. Can. J. Bot. 62: 1466-1468."},
+    {"type": "reference", "text": "Jacquot, E., van Tuinen, D., Gianinazzi, S., and Gianinazzi-Pearson, V. 2000. Monitoring species of arbuscular mycorrhizal fungi in planta and in soil by nested PCR: application to the study of the impact of sewage sludge. Plant Soil 226: 179-188."},
+    {"type": "reference", "text": "Jakobsen, I., Abbott, L.K., and Robson, A.D. 1992. External hyphae of vesicular-arbuscular mycorrhizal fungi associated with Trifolium subterraneum L. New Phytol. 120: 371-379."},
+    {"type": "reference", "text": "Jakobsen, I. and Nielsen, N.E. 1983. Vesicular-arbuscular mycorrhiza in field-grown crops. I. Mycorrhizal infection in cereals and peas at various times and soil depths. New Phytol. 93: 401-413."},
+    {"type": "reference", "text": "Jansa, J., Mozafar, A., Kuhn, G., Anken, T., Ruh, R., Sanders, R., and Frossard, E. 2003. Soil tillage affects the community structure of mycorrhizal fungi in maize roots. Ecol. Appl. 13: 1164-1176."},
+    {"type": "reference", "text": "Jarstfer, A.G. and Sylvia, D. 1997. Isolation, culture, and detection of arbuscular mycorrhizal fungi. In: C.J. Hurst, G.R. Knudsen, M.J. McInerney, L.D. Stetzenbach, and M.V. Walter, eds. Manual of Environmental- Microbiology. American Society for Microbiology, Washington, DC, 406-412."},
+    {"type": "reference", "text": "Johnson, N.C., O’Dell, T.E., and Bledsoe, C.S. 1999. Methods for ecological studies of mycorrhizae. In: G.P. Robertson, D.C. Coleman, C.S. Bledsoe, and P. Sollins, eds. Standard Soil Methods for Long Term Ecological Research. Oxford University Press, Oxford, UK, 378-412."},
+    {"type": "reference", "text": "Jones, P.C.T., Mollison, J.E., and Quenouille, M.H. 1948. A technique for the quantitative estimation of soil micro-organisms. J. Gen. Microbiol. 2: 54-69."},
+    {"type": "reference", "text": "Kabir, Z., O’Halloran, I.P., Fyles, J.W., and Hamel, C. 1998a. Dynamics of the mycorrhizal symbiosis of corn (Zea mays L.): effects of host physiology, tillage practice and fertilization on spatial distribution of extra-radical mycorrhizal hyphae in the field. Agric. Ecosyst. Environ. 68: 151-163."},
+    {"type": "reference", "text": "Kabir, Z., O’Halloran, I.P., Widden, P., and Hamel, C. 1998b. Vertical distribution of arbuscular mycorrhizal fungi under corn (Zea mays L.) in no-till and conventional tillage systems. Mycorrhiza 8: 53-55."},
+    {"type": "reference", "text": "Khan, Q.Z. 1999. Evaluation of techniques for isolation of vesicular-arbuscular mycorrhizal fungi. Ann. Plant Prot. Sci. 7: 239-241."},
+    {"type": "reference", "text": "Kowalchuk, G.A., de Souza, F.A., and van Veen J.A. 2002. Community analysis of arbuscular mycorrhizal fungi associated with Ammophila arenaria in Dutch coastal sand dunes. Mol. Ecol. 11: 571-581"},
+    {"type": "reference", "text": "Kucey, R.M.N. and McCready, R.G.L. 1982. Isolation of vesicular-arbuscular mycorrhizal spores: a rapid method for the removal of organic detritus from wet-sieved soil samples. Can. J. Microbiol. 28: 363-365."},
+    {"type": "reference", "text": "Ma, W.K., Siciliano, S.D., and Germida, J.J. 2005. A PCR-DGGE method for detecting arbuscular mycorrhizal fungi in cultivated soils. Soil Biol. Biochem. 37: 1589-1597."},
+    {"type": "reference", "text": "McGonigle, T.P. 2001. On the use of non-linear regression with the logistic equation for changes with time of percentage root length colonized by arbuscular mycorrhizal fungi. Mycorrhiza 10: 249-254."},
+    {"type": "reference", "text": "McGonigle, T.P., Miller, M.H., Evans, D.G., Fairchild, G.L., and Swan, J.A. 1990. A new method which gives an objective measure of colonization of roots by vesicular-arbuscular mycorrhizal fungi. New Phytol. 115: 495-501."},
+    {"type": "reference", "id": "meier-1993", "continuation": "page-0309", "text": "Meier, R. and Charvat, I. 1993. Reassessment of tetrazolium bromide as a viability stain for spores of vesicular-arbuscular"},
+    {"type": "printed-page-number", "text": "277"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f41474527c7b64b1585811209c70dbf7cba93637a8e1371f72523c9d4945bee3"
+}

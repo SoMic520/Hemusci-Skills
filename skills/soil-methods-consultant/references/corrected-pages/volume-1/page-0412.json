@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 412,
+  "sourceImageSha256": "1f884a3a4f3489bd7d5fc40354484e6b054cfadb137a8ee37b8090044ef6cf03",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版39.3.2～39.3.4（1）"},
+    "precisionPass": {"status": "verified", "method": "核验250～8000 μg·g⁻¹、0.02 g·g⁻¹、1 g ODW、1/6 h、−0.033 MPa及式（39.5）～（39.6）的分子分母"},
+    "secondVisualPass": {"status": "verified", "method": "逐字检查μ、CO₂、负指数、A/B/C/D对应关系和公式交叉引用；印刷页码381"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第39章｜底物诱导呼吸作用和选择性抑制测定土壤中的微生物生物量"},
+    {"type": "section-heading", "level": 3, "number": "39.3.2", "title": "步骤"},
+    {"type": "procedure-group", "number": "1", "title": "抗生素抑制曲线"},
+    {"type": "paragraph", "text": "每一种土壤—抗生素组合均须执行以下步骤；建议每处理3个重复。"},
+    {"type": "procedure-step", "group": "1", "number": "（1）", "text": "预称一种抗生素的一系列用量，范围可为250～8000 μg·g⁻¹土。另加滑石，使材料总量达到0.02 g·g⁻¹土；以0.02 g滑石·g⁻¹土作为零抗生素处理。"},
+    {"type": "procedure-step", "group": "1", "number": "（2）", "text": "称1 g ODW湿土于称量舟，撒上抗生素—滑石混合物。用不锈钢铲充分混合不溶性材料和土壤，打散团聚体，使混合物均匀分布。转入管中，以泡沫塞或其他透气封口防止污染。"},
+    {"type": "procedure-step", "group": "1", "number": "（3）", "text": "1 h后加入葡萄糖，立即用可取样密封盖封管，在黑暗中准确培养6 h。"},
+    {"type": "procedure-step", "group": "1", "number": "（4）", "text": "培养6 h后测每管顶空CO₂含量，可采用SIR所述GC法。"},
+    {"type": "procedure-step", "group": "1", "number": "（5）", "text": "绘制CO₂生成量—抗生素浓度曲线。为尽量降低非目标微生物受抑风险，最佳抗生素浓度通常略低于产生最大抑制的浓度。"},
+    {"type": "procedure-group", "number": "2", "title": "选择性抑制"},
+    {"type": "procedure-step", "group": "2", "number": "（1）", "text": "按优化曲线预称最佳抗生素量和滑石量；每处理至少3个重复。处理包括：①不加抗生素，仅0.02 g滑石·g⁻¹土；②真菌抑制剂，预定最佳用量与滑石合计0.02 g·g⁻¹土；③细菌抑制剂，预定最佳用量与滑石合计0.02 g·g⁻¹土；④真菌抑制剂+细菌抑制剂，两者均按预定最佳用量加入，并使抗生素—滑石材料总量为0.02 g·g⁻¹土。"},
+    {"type": "procedure-step", "group": "2", "number": "（2）", "text": "称1 g ODW湿土于称量舟，撒上抗生素—滑石混合物；将滑石或抗生素—滑石与土充分混合后转入管中，以泡沫塞封口。"},
+    {"type": "procedure-step", "group": "2", "number": "（3）", "text": "加滑石或抗生素—滑石1 h后加入葡萄糖，以Mininert阀或Suba-Seal密封，在黑暗中培养6 h。"},
+    {"type": "procedure-step", "group": "2", "number": "（4）", "text": "测管内顶空CO₂浓度并换算总CO₂释放量。"},
+    {"type": "section-heading", "level": 3, "number": "39.3.3", "title": "计算"},
+    {"type": "calculation-step", "number": "（1）", "text": "真菌与细菌活性比按式（39.5）计算。A为无抑制剂时的呼吸速率，B为有真菌抑制剂时的呼吸速率，C为有细菌抑制剂时的呼吸速率；呼吸速率单位为μg CO₂·h⁻¹·g⁻¹干土。"},
+    {"type": "calculation-step", "number": "（2）", "text": "抑制剂加和比按式（39.6）计算。A、B、C定义同式（39.5）；D为真菌抑制剂与细菌抑制剂合加时的呼吸速率。"},
+    {"type": "source-fidelity-note", "scope": "式（39.6）变量说明", "text": "中译本印成“A、B、C同式（39.6）”，形成自指；英文原版仅另定义D，故校正为“A、B、C定义同式（39.5）”。"},
+    {"type": "section-heading", "level": 3, "number": "39.3.4", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "该系列培养需反复优化，较耗时。建议加抗生素和葡萄糖前，把土壤调至与基质势−0.033 MPa相应的含水量，在室温、黑暗条件下预培养数日，使葡萄糖、真菌抑制剂、细菌抑制剂及IAR优化等培养尽量处于一致的代谢状态；本条续见第413页。"},
+    {"type": "printed-page-number", "text": "381"}
+  ],
+  "formulas": [
+    {"label": "（39.5）", "plain": "F:B=(A−B)/(A−C)", "latex": "F:B=\\frac{A-B}{A-C}", "context": "真菌与细菌活性比；分子为真菌抑制剂造成的呼吸下降，分母为细菌抑制剂造成的呼吸下降"},
+    {"label": "（39.6）", "plain": "IAR=[(A−B)+(A−C)]/(A−D)", "latex": "IAR=\\frac{(A-B)+(A-C)}{A-D}", "context": "抑制剂加和比；D为两类抑制剂合加时的呼吸速率"}
+  ],
+  "tables": [],
+  "contentSha256": "52fc1c8cd530feb8f7233dedddab71bfe5f1a342d6c10b6a6499416ae0a2b2ea"
+}

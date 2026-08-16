@@ -1,0 +1,23 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 199,
+  "sourceImageSha256": "61fc03d9ea885bc47b21df5909cf6286740f3aafbe47bf6d19328c36f2df50aa",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率页图、两套OCR和英文原章，完成WP4原理、步骤、注释、71.6及参考文献起始"},
+    "precisionPass": {"status": "verified", "method": "核验7 mL、0.5 cm、5 min、−40至−0.1 MPa、±0.005 ℃、±0.5 ℃、±0.1 MPa、20±1 ℃及−0.4 MPa"},
+    "secondVisualPass": {"status": "verified", "method": "由WP4适用干端反向复核全部负号、温差容差、样品密封与三类测势范围；印刷页码708"}
+  },
+  "blocks": [
+    {"type": "principle", "text": "WP4以密封舱使样品液相水与上方气相水平衡。珀尔帖冷却样品上方镜面至露点，凝结使镜面反射率突然下降，据此检出露点；分别记录露点温度和样品温度，求顶部空间水汽压e和饱和水汽压e_s，再用式(71.4)计算水势。"},
+    {"type": "procedure", "name": "WP4装样与测定", "steps": ["取样品约7 mL装入独立样品盒，用橡胶塞或方头金属杆轻压，使表面平整、厚约0.5 cm；随即把样品盒密封在不漏气容器中，防止分析前水分得失。", "每次仅将一个样品盒插入仪器并启动测量；单样约需5 min，内部计算后显示土壤基质势和样品温度。"]},
+    {"type": "limits", "items": ["WP4操作范围：−40 MPa≤ψ_t≤−0.1 MPa。", "若样品温度与露点温度之差的测定不确定度在±0.005 ℃内，且样品温度与舱室温度相差不超过±0.5 ℃，精度可达±0.1 MPa；样品和仪器应置于同一恒温室，例如20 ℃±1 ℃。", "受±0.1 MPa精度限制，WP4最适用于ψ_t≤−0.4 MPa的很干土壤。扰动田间样品在采集、运输、保存中极小的含水量变化即可造成很大水势变化，须严防蒸发或冷凝。"]},
+    {"type": "heading", "number": "71.6", "title": "结语", "level": 2},
+    {"type": "paragraph", "text": "设备选择取决于预期水势范围（正值、微小负值或较大负值）、数据用途及仪器量程/精度等限制；所有设备均须谨慎安装维护。张力计也可作压力计记录饱和多孔介质正势，但多孔杯流动阻抗使响应可能过慢。压力计最适于ψ_p>0的饱和介质；张力计适于−0.08 MPa≤ψ_t≤0的湿润非饱和介质；ψ_m≤−0.1 MPa的干介质宜用热电偶干湿计、热电偶湿度计或露点湿度计。热电偶设备校准错误、维护不良或强温度梯度均会造成大误差；电阻块即使正确安装维护也只宜粗略估计水势。"},
+    {"type": "references", "entries": ["Andraski, B.J. and Scanlon, B.R. 2002. Thermocouple psychrometry. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods, Soil Science Society of America, Madison, WI, 609–642.", "ASTM (American Society for Testing and Materials). 1995. Standard practice for design and installation of ground water monitoring wells in aquifers—Method D5092-90 (1995)e1. ASTM, West Conshohocken, PA.", "Brown, R.W. and van Haveren, B.P. 1972. Psychrometry in water relations research. Proceedings of the Symposium on Thermocouple Psychrometers. Utah Agricultural Experimental Station, Utah State University, Logan, UT, 1–27（续下页）。"]},
+    {"type": "source-fidelity-note", "text": "原书把样品温度与室温差写作“在0.5 ℃”，按英文原章和温差约束补为“不超过±0.5 ℃”；所有ψ_t、ψ_m和ψ_p下标及−40、−0.1、−0.4 MPa负号均按原理和页图核定。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9a8a104bb9028e773f2bd030a9951617af2370e1b4d7173c7e2e394cd4e196e4"
+}

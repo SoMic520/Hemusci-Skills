@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 35,
+  "sourceImageSha256": "1e156af7b3d296d9dcc23554440541c9c9b87b61a943e37c0b636ffd49b5ce4e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐字对照原分辨率图和两套OCR，完成式（56.3）、变量说明、橡胶膜替代法、图56.3(a)～(c)及材料(1)跨页开头"},
+    "precisionPass": {"status": "verified", "method": "核验V_sample/V_water、M_sample(air)/M_sample(water)/M_water、ρ_water、O形环及图中63.6222 g显示值"},
+    "secondVisualPass": {"status": "verified", "method": "由页末未完材料项反向复核至式（56.3），按三幅图逐一核验部件标签和公式等号链；印刷页码544"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "式中，V_water为土样排开水的体积，M_water为排开水的质量，M_sample(air)为空气中土样质量，M_sample(water)为水中土样表观质量，ρ_water为水的密度。"},
+    {"type": "paragraph", "text": "可用橡胶膜（气球）代替Saran树脂包裹土样（Tariq和Durnford，1993）。图56.3(a)～(c)所示装置可在不直接接触土样或橡胶膜的条件下使空气穿过样品进行干燥，并便于移取土样进行烘干。"},
+    {"type": "figure", "number": "图56.3(a)", "title": "安装在带有橡胶膜土壤样品上的吸力圆环", "labels": ["放在弹性球里面的土壤样品", "O形橡胶环", "气球", "顶部开口的坚固圆柱", "吸气口"]},
+    {"type": "figure", "number": "图56.3(b)", "title": "用于支撑样品并使空气穿过样品使其干燥的装置", "labels": ["挂样钩", "出气管", "进气管", "支架", "进气阀", "深度标记", "橡胶塞", "橡胶气球", "土样"]},
+    {"type": "figure", "number": "图56.3(c)", "title": "测定土壤收缩过程中由于土壤位移产生的体积变化的装置", "labels": ["铁支架", "水", "可调节实验支架", "电子天平", "示意读数63.6222 g"]},
+    {"type": "procedure-subheading", "number": "1", "title": "材料"},
+    {"type": "materials-list-continuation", "items": ["(1) 刚性黄铜开口圆柱体（‘吸入缸’，工程中与三轴试验机配合使用），顶部为O形……"]}
+  ],
+  "formulas": [
+    {"label": "(56.3)", "plain": "V_sample = V_water = [M_sample(air) − M_sample(water)]/ρ_water = M_water/ρ_water", "latex": "V_{sample}=V_{water}=\\frac{M_{sample(air)}-M_{sample(water)}}{\\rho_{water}}=\\frac{M_{water}}{\\rho_{water}}", "variables": [{"symbol": "V_sample", "meaning": "土样体积"}, {"symbol": "V_water", "meaning": "土样排开水的体积"}, {"symbol": "M_sample(air)", "meaning": "空气中土样质量"}, {"symbol": "M_sample(water)", "meaning": "水中土样表观质量"}, {"symbol": "M_water", "meaning": "排开水的质量"}, {"symbol": "ρ_water", "meaning": "水密度"}]}
+  ],
+  "tables": [],
+  "contentSha256": "fd0f974c9bbf8d0d8ce20355da36c653c07a3564c7b33c933dd7d1a0e2616260"
+}

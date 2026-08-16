@@ -1,0 +1,64 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 300,
+  "sourceImageSha256": "3790ca4a86942d54cb7dbceb8fd2bb3e5fd05a10384550f424dfc83a19176dad",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第30章第269页，人工恢复30.6跨页脂肪酸指示物段落与30.6.1提取、脂类分离、转甲基酯化三组材料试剂"},
+    "precisionPass": {"status": "verified", "method": "核对WCFA/PLFA/NLFA、16:1ω5、DMC/DCM原书异文、MeOH、NaCl、N₂、H₂SO₄下标，以及35/7/4 mL、10个夹子、2 cm、37℃和Reacti-Vap/Therm III型号"},
+    "secondVisualPass": {"status": "verified", "method": "从页底浓H₂SO₄与水浴槽反向复核至页首WCFA跨页续句，确认三组层级、每组序号、个人通信来源及印刷页码269"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第30章｜丛枝菌根｜"},
+    {"type": "continuation", "fromPage": 299, "section": "30.6", "text": "16:1ω5更具专一性，它与菌丝长度有关且这一关系呈周期性变化（Gryndler等，2006）。不含菌根的控制对照处理可用来校正脂肪酸16:1ω5的背景水平，同时得到关于细菌生物量的PLFA数据，用来解释脂肪酸16:1ω5丰度的变化。应同时监测中性脂肪酸（neutral lipid fatty acid，NLFA）16:1ω5，因为其在很大程度上决定了所有被试AM真菌的保守性脂肪酸，而且细菌产生了很少量的中性脂质。NLFA 16:1ω5的测量可用来支持来自PLFA组分脂肪酸16:1ω5在观察上的变异。"},
+    {"type": "paragraph", "text": "土壤脂质提取法及PLFA和NLFA 16:1ω5的测量（J. M. Clapperton，personal communication，Agriculture & Agri-Food Canada，Lethbridge, Alberta）描述如下："},
+    {"type": "heading", "level": 2, "number": "30.6.1", "title": "材料和试剂"},
+    {"type": "heading", "level": 3, "number": "1", "title": "提取"},
+    {"type": "materials", "section": "30.6.1.1", "items": [
+      "（1）称量纸。",
+      "（2）35 mL玻璃离心管。",
+      "（3）二氯甲烷（dichloromethane，DMC）。",
+      "（4）甲醇（methanol，MeOH）。",
+      "（5）柠檬酸盐缓冲液。",
+      "（6）饱和NaCl溶液。",
+      "（7）7 mL玻璃小瓶。",
+      "（8）移液管。",
+      "（9）摇床。",
+      "（10）离心机。",
+      "（11）N₂气流干燥歧管（Reacti-Vap III）。",
+      "（12）37℃热平板（Reacti-Therm III）。"
+    ]},
+    {"type": "heading", "level": 3, "number": "2", "title": "脂类分离"},
+    {"type": "materials", "section": "30.6.1.2", "items": [
+      "（1）持夹器（含10个夹子）。",
+      "（2）巴斯德吸管：硅胶填充至顶部2 cm处。",
+      "（3）装有洗耳球的巴斯德吸管。",
+      "（4）4 mL玻璃小瓶。",
+      "（5）DCM。",
+      "（6）丙酮。",
+      "（7）MeOH。",
+      "（8）N₂气流干燥歧管（Reacti-Vap III）。",
+      "（9）37℃热平板（Reacti-Therm III）。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "30.6.1二氯甲烷缩写", "severity": "major", "text": "原书在‘1.提取’中将dichloromethane缩写为DMC，在‘2.脂类分离’中又写为DCM。二氯甲烷的常用缩写是DCM；DMC通常可指碳酸二甲酯，两者不可混淆。本语料保留两处印刷字样，执行时应把本节的DMC解析为二氯甲烷/DCM，并按试剂全名核发。"},
+    {"type": "heading", "level": 3, "number": "3", "title": "转甲基酯化"},
+    {"type": "materials", "section": "30.6.1.3", "items": [
+      "（1）N₂气流干燥歧管（Reacti-Vap III）。",
+      "（2）37℃热平板（Reacti-Therm III）。",
+      "（3）装有洗耳球的巴斯德吸管。",
+      "（4）微量吸液管（含尖头）。",
+      "（5）MeOH。",
+      "（6）H₂SO₄（浓）。",
+      "（7）水浴槽。"
+    ]},
+    {"type": "safety-note", "scope": "30.6.1", "severity": "high", "text": "本节涉及易挥发有毒溶剂二氯甲烷、易燃有毒甲醇和丙酮、浓硫酸，以及可造成缺氧的N₂气流。原书本页未列工程控制与个人防护条件；方法调用时必须补充通风橱、防护与废液分流要求。"},
+    {"type": "printed-page-number", "text": "269"}
+  ],
+  "formulas": [
+    {"scope": "30.6.1", "label": "氮气", "display": "N₂", "latex": "\\mathrm{N_2}"},
+    {"scope": "30.6.1.1", "label": "氯化钠", "display": "NaCl", "latex": "\\mathrm{NaCl}"},
+    {"scope": "30.6.1.3", "label": "硫酸", "display": "H₂SO₄", "latex": "\\mathrm{H_2SO_4}"}
+  ],
+  "tables": [],
+  "contentSha256": "8505ad81d9f719b0ce3f6f7419872aa17273af2b2934782b5ac11434913828cb"
+}

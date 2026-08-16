@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 324,
+  "sourceImageSha256": "77c02894dde683f8f1259606811e3aced6f18c37dd9f6d99282e617c3b97f914",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复Antoun续文及Azam至Jansson跨页参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Prévost/Anollés/Béna重音、β、¹⁵N上标、菌名、卷页、作者缩写及书名"},
+    "secondVisualPass": {"status": "verified", "method": "从Jansson等跨页条目反向复核至Biofertilization续文，合并印刷粘连词但保留原有拼写Over-views/specifity/Bio-logical及bde Bruijn；页码293"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第31章｜根瘤菌与共生固氮作用｜"},
+    {"type": "reference-continuation", "continuationOf": "page-0323#antoun-2005", "text": "Biofertilization. Springer, New York, NY, 1-38."},
+    {"type": "reference", "text": "Azam, F. and Farooq, S. 2003. An appraisal of methods for measuring symbiotic nitrogen fixation in legumes. Pak. J. Biol. Sci. 18: 1631-1640."},
+    {"type": "reference", "text": "Barran, L.R., Bromfield, E.S.P., and Whitwill, S.T. 1997. Improved medium for isolation of Rhizobium meliloti from soil. Soil Biol. Biochem. 29: 1591-1593."},
+    {"type": "reference", "text": "Bell, F. and Nutman, P.S. 1971. Experiments on nitrogen fixation by nodulated Lucerne. Plant Soil Special Vol.: 231-234."},
+    {"type": "reference", "text": "Ben Rebah, F., Prévost, D., and Tyagi, R.D. 2002. Growth of alfalfa in sludge-amended soils and inoculated with rhizobia produced in sludge. J. Environ. Qual. 31: 1339-1348."},
+    {"type": "reference", "text": "Bontemps, C., Golfier, G., Gris-Liebe, C., Carrere, S., Talini, L., and Boivin-Masson, C. 2005. Microarray-based detection and typing of the rhizobium nodulation gene nodC: Potential of DNA arrays to diagnose biological functions of interest. Appl. Environ. Microbiol. 71: 8042-8048."},
+    {"type": "reference", "text": "Bordeleau, L.M., Antoun, H., and Lachance, R.A. 1977. Effets des souches de Rhizobium meliloti et des coupes successives de la luzerne (Medicago sativa) sur la fixation symbiotique d’azote. Can. J. Plant Sci. 57: 433-439."},
+    {"type": "reference", "text": "Bremer, E., van Kessel, C., Nelson, L., Rennie, R.J., and Rennie, D.A. 1990. Selection of Rhizobium leguminosarum strains for lentil (Lens culinaris) under growth room and field conditions. Plant Soil 121: 47-56."},
+    {"type": "reference", "text": "Bromfield, E.S.P., Wheatcroft, R., and Barran, L.R. 1994. Medium for direct isolation of Rhizobium meliloti from soils. Soil Biol. Biochem. 26: 423-428."},
+    {"type": "reference", "text": "Caetano-Anollés, G. and Gresshoff, P.M. 1997. DNA Markers: Protocols, Applications, and Over-views. Wiley-Liss Inc., New York, NY, 364."},
+    {"type": "reference", "text": "Chen, W-M., Moulin, L., Bontemps, C., Vandamme, P., Béna, G., and Boivin-Masson, C. 2003. Legume symbiotic nitrogen fixation by β-proteobacteria is widespread in nature. J. Bacteriol. 185: 7266-7272."},
+    {"type": "reference", "text": "Cole, M.A. and Elkan, G.H. 1973. Transmissible resistance to penicillin G, neomycin, and chloramphenicol in Rhizobium japonicum. Antimicrob. Agents Chemother. 4: 248-253."},
+    {"type": "reference", "text": "Date, R.A. and Halliday, J. 1987. Collection, isolation, cultivation and maintenance of rhizobia. In: Elkan, G.H., ed. Symbiotic Nitrogen Fixation Technology. Marcel Dekker, New York, NY, 1-27."},
+    {"type": "reference", "text": "Debelle, F. and Sharma, S.B. 1986. Nucleotide sequence of Rhizobium meliloti RCR2011 genes involved in host specifity of nodulation. Nucl. Acid Res. 14: 7453-7472."},
+    {"type": "reference", "text": "Gault, R.R. and Schwinghamer, E.A. 1993. Direct isolation of Bradyrhizobium japonicum from soil. Soil Biol. Biochem. 25: 1161-1166."},
+    {"type": "reference", "text": "Gibson, A.H. 1980. Methods for legumes in glasshouse and controlled environment cabinets. In: Bergersen, F.J., ed. Methods for Evaluating Bio-logical Nitrogen Fixation. John Wiley & Sons, New York, NY, 139-184."},
+    {"type": "reference", "text": "Hardarson, G. 1994. International FAO/IAEA programmes on biological nitrogen fixation. In: Graham, P.H., Sadowsky, M.J., and Vance, C.P., eds. Symbiotic Nitrogen Fixation. Kluwer Academic Publishers, Dordrecht, the Netherlands, 189-202."},
+    {"type": "reference", "text": "Hardarson, G. 2001. Use of ¹⁵N to quantify biological nitrogen fixation in legumes. In: IAEA-TCS-14. Use of Isotope and Radiation Methods in Soil and Water Management and Crop Nutrition. International Atomic Energy Agency, Vienna, Austria, 58-70."},
+    {"type": "reference", "text": "Hartmann, A., Gatroux, G., and Amarger, N. 1992. Bradyrhizobium japonicum strain identification by RFLP analysis using the repeated sequence RSα. Lett. Appl. Microbiol. 15: 15-19."},
+    {"type": "reference", "id": "jansson-2004", "continuation": "page-0325", "text": "Jansson, J.K. and Leser, T. 2004. Quantitative PCR of environmental samples. In: Kowalchuk, G.A., bde Bruijn, F.J., Head, I.M., Akkermans, A.D.L., and van Elsas, J.D., eds. Molecular Microbial Ecology Manual, 2nd Ed., Vol. 1. Kluwer Academic"},
+    {"type": "source-fidelity-note", "scope": "Jansson和Leser（2004）参考文献", "text": "原书清晰印作“bde Bruijn”，应为“de Bruijn”；参考文献正文保留原印以追溯，作者检索采用规范名。"},
+    {"type": "printed-page-number", "text": "293"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "83769d04cb567177c23ffdeeeb09d9473d9c64dc7d5d299b786bc227a0a9fcc2"
+}

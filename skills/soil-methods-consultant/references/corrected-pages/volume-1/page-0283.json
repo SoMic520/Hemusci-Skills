@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 283,
+  "sourceImageSha256": "e01f6b2c204fcf781dc4212026c0dce8fd846d8bc9ebfd7af03f0c9697558cce",
+  "review": {
+    "textPass": {"status": "verified", "method": "对照原分辨率分篇署名页，确认页面仅含‘主译：徐建明’"},
+    "precisionPass": {"status": "verified", "method": "逐字核验‘主译’、全角冒号及姓名‘徐建明’，确认无其他文字、公式、表格或页码"},
+    "secondVisualPass": {"status": "verified", "method": "全页自下而上复核留白与居中署名，确认页面边界"}
+  },
+  "blocks": [
+    {"type": "part-translator-credit", "role": "主译", "name": "徐建明", "text": "主译：徐建明"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "46e1f4070bcff1a6a9419fbf2f65b2eda656114fdf9ad0e0dcf12124ea2764eb"
+}

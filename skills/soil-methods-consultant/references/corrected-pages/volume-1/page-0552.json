@@ -1,0 +1,52 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 552,
+  "sourceImageSha256": "f2e220cfad873bcfb0ca15d082444ae48f2c05b93edb30b33a2c97ff312e94b9",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条对照原分辨率页面和两套OCR，完成参考文献Accoe续条至Di等条目"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验作者拼写、变音符号、¹³C/¹⁵N/¹⁴N/¹⁸O/¹⁶O、卷期页码、报告编号01-4222和书名层级"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由Di条目反向复核至Accoe跨页续行，检查Böhlke/Révész/De Bièvre/Röckmann等姓名及印刷页码521"
+    }
+  },
+  "blocks": [
+    {
+      "type": "reference-entry-continuation",
+      "text": "[承第551页] Commun. Mass Spectrom. 16: 2184–2189."
+    },
+    {
+      "type": "reference-list",
+      "entries": [
+        "Amberger, A. and Schmidt, H.L. 1987. Natürliche Isotopen Gehalte von Nitrat als Indikatoren für dessen Herkunft. Geochim. Cosmochim. Acta 51: 2699–2705.",
+        "Amundson, R. and Baisden, W.T. 2000. Stable isotope tracers and mathematical models in soil organic matter studies. In: O.E. Sala, R.B. Jackson, H.A. Mooney, and R.W. Howarth, eds. Methods in Ecosystem Science. Springer, New York, NY, 117–137.",
+        "Aravena, R., Evans, M.L., and Cherry, J.A. 1993. Stable isotopes of oxygen and nitrogen in source identification of nitrate from septic systems. Ground Water 31: 180–186.",
+        "Baccanti, M., Magni, P., Oakes, W., Lake, J., and Szakas, T. 1993. Application of an organic elemental analyzer for the analysis of nitrogen, carbon, and sulfur in soils. Am. Environ. Lab. 5: 16–17.",
+        "Balesdent, J. and Mariotti, A. 1996. Measurement of soil organic matter turnover using ¹³C natural abundance. In: T.W. Boutton and S. Yamasaki, eds. Mass Spectrometry of Soils. Marcel Dekker, New York, NY, 83–111.",
+        "Bedard-Haughn, A., van Groenigen, J.W., and van Kessel, C. 2003. Tracing ¹⁵N through landscapes: potential uses and precautions. J. Hydrol. 272: 175–190.",
+        "Boutton, T.W. 1991. Stable carbon isotope ratios of natural materials. I. Sample preparation and mass spectrometric analysis. In: D.C. Coleman and B. Fry, eds. Carbon Isotope Techniques. Academic Press, New York, NY, 155–171.",
+        "Brand, W. 1995. PreCon: a fully automated interface for the pre-GC concentration of trace gases in air for isotopic analysis. Isotopes Environ. Health Stud. 31: 277–284.",
+        "Brand, W.A., Tegtmeyer, A.R., and Hilkert, A. 1994. Compound-specific isotope analysis: extending toward ¹⁵N/¹⁴N and ¹⁸O/¹⁶O. Org. Geochem. 21: 585–594.",
+        "Brenna, J.T., Corso, T.N., Tobias, H.J., and Caimi, R.J. 1997. High-precision continuous-flow isotope ratio mass spectrometry. Mass Spectrom. Rev. 16: 227–258.",
+        "Brenninkmeijer, C.A.M. and Röckmann, T. 1999. Mass spectrometry of the intramolecular nitrogen isotope distribution of environmental nitrous oxide using fragment-ion analysis. Rapid Commun. Mass Spectrom. 13: 2028–2033.",
+        "Casciotti, K.L., Sigman, D.M., Galanter Hastings, M., Böhlke, J.K., and Hilkert, A. 2002. Measurement of the oxygen isotopic composition of nitrate in seawater and freshwater using the denitrifier method. Anal. Chem. 74: 4905–4912.",
+        "Chang, C.C.Y., Kendall, C., Silva, S.R., Battaglin, W.A., and Campbell, D.H. 2002. Nitrate stable isotopes: tools for determining nitrate sources among different land uses in the Mississippi River Basin. Can. J. Fish. Aquat. Sci. 59: 1874–1885.",
+        "Coleman, D.C. and Fry, B. 1991. Carbon Isotope Techniques. Academic Press, San Diego, CA, 274.",
+        "Coplen, T.B., Hopple, J.A., Böhlke, J.K., Peiser, H.S., Rieder, S.E., Krouse, H.R., Rosman, K.J.R., Ding, T., Vocke, R.D. Jr., Révész, K.M., Lamberty, A., Taylor, P.D.P., and De Bièvre, P. 2002. Compilation of minimum and maximum isotope ratios of selected elements in naturally occurring terrestrial materials and reagents. Water Resources Investigations Report 01-4222, US Department of the Interior, US Geological Survey, Reston, VA, 98.",
+        "Craig, H. 1957. Isotopic standards for carbon and oxygen and correction factors for mass spectrometric analysis of carbon dioxide. Geochim. Cosmochim. Acta 12: 133–149.",
+        "de Groot, P.A. 2004. Handbook of Stable Isotope Analytical Techniques, Vol. 1. Elsevier, Amsterdam, the Netherlands, 1234.",
+        "Di, H.J., Cameron, K.C., and MacLaren, R.G. 2000. Isotopic dilution methods to determine the gross transformation rates of nitrogen, phosphorus, and sulfur in soil: a review of the theory, methodologies, and limitations. Aust. J. Soil Res. 38: 213–230."
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "cba1d385c40a36c661cd4dc349c0e709828804b6e2896e946ed0141895b994fa"
+}

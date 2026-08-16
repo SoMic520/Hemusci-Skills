@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 202,
+  "sourceImageSha256": "4c99d5a1f146b54b31279af1e56f2405b086de4dc35c45b504e261426752fa91",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复21.3续文、氯干扰说明及21.3.1试剂、步骤和计算起句"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验4Cl≡2O≡1C、11.83 g、Ag₂SO₄、H₂SO₄、CrⅥ/CrⅢ、Na₂Cr₂O₇、98%、1.376 g、250 mL、2.0 mg、135 ℃、2 000 rpm、600 nm和10 mm"},
+    "secondVisualPass": {"status": "verified", "method": "从页末未完计算句反向复核至续字“法”，确认外加热—指示剂滴定法/CrⅢ比色法、氯化汞保存、厚壁玻璃毛细管及页码171"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第21章｜土壤总碳与有机碳｜"},
+    {"type": "paragraph-continuation", "text": "法（干烧法）有机碳测定值的换算因子。这个因子会随着土壤类型与其存在深度的变化而变化，所以必须慎用。"},
+    {"type": "paragraph", "text": "任何可以被重铬酸盐氧化的物质都将作为有机碳而被测定。氯化物能被铬酸定量地氧化成游离氯。因此，当利用重铬酸盐的消耗量来确定有机碳含量时，氯离子的存在将导致有机碳含量的测定值偏高。当样品中氯离子的含量已知时，这个方法产生的误差可以被校正。四个氯离子具有与一个碳原子相同的还原能力（4Cl≡2O≡1C），因此11.83 g氯相当于1 g碳。一些研究工作者建议添加硫酸银抑制氯离子的干扰（Walkley，1947）。但是，Heanes（1984）研究表明Ag₂SO₄无论是以固体形式还是以H₂SO₄溶液的形式加入，都是无效的。因此，对于盐碱土而言，建议进行氯离子测量校正，而不是添加Ag₂SO₄。"},
+    {"type": "paragraph", "text": "在本节中，详细介绍两种方法：一种是基于Schollenberger（1945）的外加热—指示剂滴定法，另一种是外加热—CrⅢ比色法（Heanes，1984）。铁与锰的还原形态也会干扰这些方法，但这些干扰较少发生，且可以根据Jackson（1958）描述的步骤消除干扰。由于铁在有机碳测定的反应条件下易被氧化，而钢或铁制的研磨机可以成为铁金属的来源，因此应该避免使用。"},
+    {"type": "section-heading", "level": 3, "number": "21.3.1", "title": "重铬酸盐氧化还原比色法（Heanes，1984）"},
+    {"type": "paragraph", "text": "重铬酸盐氧化还原比色法是利用橙色重铬酸盐（CrⅥ）被还原后产生绿色的CrⅢ来进行测定。重铬酸盐消耗总量是基于一个标准系列，在可见光范围内利用分光光度计进行比色测定所得的。在这个方法中碳酸盐无干扰作用，但是氯离子会对结果产生干扰。由于在这个方法中重铬酸盐溶液不是最佳基准溶液，所以在此采用溶解性更好的重铬酸钠（Na₂Cr₂O₇），而不是钾盐。"},
+    {"type": "procedure-group", "number": "1.", "title": "试剂"},
+    {"type": "reagent-item", "group": "1", "number": "（1）", "name": "重铬酸钠溶液", "text": "溶解50 g Na₂Cr₂O₇于蒸馏水或者去离子水中，定容至1 L。"},
+    {"type": "reagent-item", "group": "1", "number": "（2）", "name": "硫酸", "text": "98%的浓硫酸。"},
+    {"type": "reagent-item", "group": "1", "number": "（3）", "name": "标准溶液", "text": "溶解1.376 g一水葡萄糖于蒸馏水或者去离子水中，定容到250 mL。可以加入一小块氯化汞晶体以便保证葡萄糖不被微生物降解。1.0 mL标准溶液相当于2.0 mg有机碳。"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤"},
+    {"type": "procedure-step", "group": "2", "number": "（1）", "text": "向外径为25 mm、100 mL硼硅试管中添加不同体积的葡萄糖标准溶液制备葡萄糖标准曲线。合适的分取范围是1～12 mL，相当于2～24 mg有机碳。将含有葡萄糖溶液的试管与一个空白对照试管放置在烘箱中干燥，温度不超过60 ℃。"},
+    {"type": "procedure-step", "group": "2", "number": "（2）", "text": "称取过0.15 mm筛的0.1～2.0 g风干土于消解管中，土样的有机碳含量应该小于20 mg。"},
+    {"type": "procedure-step", "group": "2", "number": "（3）", "text": "加入10 mL Na₂Cr₂O₇溶液，边搅拌边小心地加入20.0 mL 98%的浓硫酸，使反应仅在管底部发生。搅拌30 s后放入（135 ℃）预热好的消煮炉中。在加热过程中应该不时地搅拌消解管以便确保土壤样品与铬酸混合液充分接触。"},
+    {"type": "procedure-step", "group": "2", "number": "（4）", "text": "加热45 min后，从消煮炉中取出试管并冷却。加入50 mL蒸馏水或去离子水，用一根厚壁玻璃毛细管进行搅拌，毛细管可以通入空气，以便样品充分混匀。当试管从消煮炉移出后，样品中仍然含有相当高浓度的硫酸，当水加入后会导致发热。如果试管在加水后倒置摇匀，那么会产生大量的热导致铬酸的损失，而用厚壁玻璃毛细管搅拌，同时通入空气会防止损失的发生。当冷却后，向试管中继续加入蒸馏水或者去离子水至100 mL，塞上橡胶塞上下翻转混匀。"},
+    {"type": "procedure-step", "group": "2", "number": "（5）", "text": "将稀释后的铬酸混合液转移到15 mL离心管中，2 000 rpm离心15 min。用光径10 mm的比色杯在600 nm波长测定上清液的吸光值。"},
+    {"type": "procedure-group", "number": "3.", "title": "计算"},
+    {"type": "paragraph", "continued": true, "text": "基于葡萄糖标准溶液在600 nm波长下的吸光值与其含碳量构建一条标准曲线。使用这条标准曲线"},
+    {"type": "printed-page-number", "text": "171"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "21d72be7fcaed7c4107c7bee1a2d0253e47611d898fb9cc3ff244ef7a4570fb3"
+}

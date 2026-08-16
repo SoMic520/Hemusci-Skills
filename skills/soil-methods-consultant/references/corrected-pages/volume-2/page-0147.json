@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 147,
+  "sourceImageSha256": "fd54c5d76960cc894f9ae2d73f811e8e54cc59b4d78146ca73d90bca179425c4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段对照原分辨率图和两套OCR，完成图68.3、式(68.17)—(68.18)、注释、68.5.4引言及材料(1)"},
+    "precisionPass": {"status": "verified", "method": "核验h₁/h₂、Δt=t₂−t₁、dz=h₁−h₂、dψ、重力项−1、传感器体积<1%、−5 kPa/−50 cm"},
+    "secondVisualPass": {"status": "verified", "method": "由张力盘材料反向复核至图68.3，检查通量符号、储量与体积含水量量纲和K(ψ)分母；印刷页码656"}
+  },
+  "blocks": [
+    {"type": "figure", "number": "68.3", "title": "土柱瞬时剖面法测非饱和导水率装置", "labels": ["风扇", "基质柱", "h₁处微型TDR/张力计", "h₂处微型TDR/张力计", "Mariotte瓶", "底部水头差ΔH"], "source": "Naasz, Michel, and Charpentier, Soil Sci. Soc. Am. J. 69:13, 2005"},
+    {"type": "heading", "title": "计算", "level": 4},
+    {"type": "paragraph", "text": "由两个深度之间的水分储量变化求水流通量q。式(68.17)的Δθ_h必须理解为该控制体的等效水层厚度变化（或把体积含水量沿z积分后的储量），若仅用无量纲点含水量，必须再乘相应控制层厚度。随后由同一时空区间的总水头梯度求K(ψ)。"},
+    {"type": "variables", "items": ["Δt=t₂−t₁", "q：垂直水流通量（L·T⁻¹）", "dz=h₁−h₂", "dψ：两测点基质势头差（与z同长度单位）", "z正方向和q正方向必须在数据处理中声明"]},
+    {"type": "paragraph", "text": "微型TDR和张力计会轻微扰动结构；本装置所有传感器总体积占样柱<1%，但这不是可忽略扰动的充分保证，应做重复柱或位置检验。"},
+    {"type": "heading", "number": "68.5.4", "title": "非饱和导水率原位测定", "level": 3},
+    {"type": "paragraph", "text": "地下灌溉系统性能取决于K(ψ)曲线（Caron等，2005）。曲线应在再湿润、近饱和的盆内原位测定；高大孔隙有机基质不宜套用上一节瞬时剖面法。Caron和Elrick（2005）的Laval张力盘法装置简单，并可同时测K_s。"},
+    {"type": "heading", "title": "材料（本页部分）", "level": 4},
+    {"type": "list", "items": ["覆尼龙等膜的张力盘，进气值约−5 kPa（约−50 cm水头）"]},
+    {"type": "source-fidelity-note", "text": "原式(68.17)用θ符号却称“水分储量”，若把θ当无量纲点含水量会少一个长度因子；本语料明确为积分储量ΔS，并保留原式符号来源。式(68.18)的“−1”为重力势梯度项，符号取决于z轴约定，不能机械删去。"}
+  ],
+  "formulas": [
+    {"label": "68.17（按储量解释）", "plain": "q = −(ΔS_h₁ − ΔS_h₂)/Δt", "latex": "q=-\\frac{\\Delta S_{h_1}-\\Delta S_{h_2}}{\\Delta t}", "resultUnit": "长度·时间⁻¹"},
+    {"label": "68.18", "plain": "K(ψ) = −q / [(dψ/dz) − 1]", "latex": "K(\\psi)=\\frac{-q}{\\left(\\dfrac{d\\psi}{dz}-1\\right)}", "resultUnit": "长度·时间⁻¹"}
+  ],
+  "tables": [],
+  "contentSha256": "63ac4eb7bb0a190a33048df3d0af7e99edc075b52ef771663f2ef88ce2b1b6ec"
+}

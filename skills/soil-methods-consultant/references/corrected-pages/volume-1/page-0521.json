@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 521,
+  "sourceImageSha256": "347aafd8ab4268d02af5664af5ca1316c3a17be1ab62c465ef94eeb54c0816da",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行、逐条对照原分辨率页面和两套OCR，完成51.3跨页段及Abe至Knicker跨页条共14条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验136 °C、30～90 min、121 °C、¹⁵N上标、CP/MAS、N-XANES、卷页及重音作者名"},
+    "secondVisualPass": {"status": "verified", "method": "由Knicker跨页条反向复核至51.3段，检查温度、时间、同位素上标、题名和印刷页码490"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "scope": "51.3", "text": "[承第520页] 阴离子交换-脉冲安培法已用于标准氨基化合物、蛋白质和土壤氨基化合物。为最大提取量，每种土壤须根据黏土矿物类型与含量、土地利用、耕作和有机肥施用等确定最佳高压水解时间。文献在136 °C用30～90 min完成处理，但很多高压灭菌器上限仅121 °C。处理时必须排除O₂，否则氨基糖可能部分降解。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference", "text": "Abe, T., Maie, N., and Watanabe, A. 2005. Investigation of humic acid N with X-ray photoelectron spectroscopy: effect of acid hydrolysis and comparison with ¹⁵N cross-polarization/magic-angle-spinning nuclear magnetic resonance spectroscopy. Organic Geochemistry 36: 1490–1497."},
+    {"type": "reference", "text": "Abe, T. and Watanabe, A. 2004. X-ray photoelectron spectroscopy of nitrogen functional groups in soil humic acids. Soil Science 169: 35–43."},
+    {"type": "reference", "text": "Amelung, W. 2001. Methods using amino sugars as markers for microbial residues in soil. In: R. Lal, J.M. Kimble, R.F. Follett, and B.A. Stewart, eds. Assessment Methods for Soil Carbon. Lewis Publishers, Boca Raton, FL, pp. 233–272."},
+    {"type": "reference", "text": "Amelung, W. and Zhang, X. 2001. Determination of amino acid enantiomers in soils. Soil Biology and Biochemistry 33: 553–562."},
+    {"type": "reference", "text": "Bracewell, J.M., Robertson, G.W., and Williams, B.L. 1980. Pyrolysis-mass spectrometry studies of humification in a peat and a peaty podzol. Journal of Analytical and Applied Pyrolysis 2: 53–62."},
+    {"type": "reference", "text": "Bremner, J.M. 1965. Organic forms of nitrogen. In: C.A. Black et al., eds. Methods of Soil Analysis. American Society of Agronomy, Madison, WI, pp. 1148–1178."},
+    {"type": "reference", "text": "Clarke, A.P., Jandik, P., Rocklin, R.D., Liu, Y., and Avdalovic, N. 1999. An integrated amperometry waveform for the direct, sensitive detection of amino acids and amino sugars following anion-exchange chromatography. Analytical Chemistry 71: 2774–2781."},
+    {"type": "reference", "text": "Cooper, C., Packer, N., and Williams, K., eds. 2001. Amino Acid Analysis Protocols. Methods in Molecular Biology, Vol. 159. Humana Press, Totowa, NJ."},
+    {"type": "reference", "text": "Flaig, W., Beutelspacher, H., and Rietz, E. 1975. Chemical composition and physical properties of humic substances. In: J.E. Gieseking, ed. Soil Components, Vol. 1: Organic Components. Springer-Verlag, New York, NY, pp. 1–211."},
+    {"type": "reference", "text": "Jandik, P., Pohl, C., Barreto, V., and Avdalovic, N. 2001. Anion-exchange chromatography and integrated amperometric detection of amino acids. In: C. Cooper, N. Packer, and K. Williams, eds. Amino Acid Analysis Protocols. Methods in Molecular Biology, Vol. 159. Humana Press, Totowa, NJ, pp. 63–85."},
+    {"type": "reference", "text": "Jokic, A., Cutler, J.N., Anderson, D.W., and Walley, F.L. 2004. Detection of heterocyclic N compounds in whole soils using N-XANES spectroscopy. Canadian Journal of Soil Science 84: 291–293."},
+    {"type": "reference", "text": "Jones, D.L., Shannon, D., Junvee-Fortune, T., and Farrar, J.F. 2005. Plant capture of free amino acids is maximized under high soil amino acid concentrations. Soil Biology and Biochemistry 37: 179–181."},
+    {"type": "reference", "text": "Knicker, H., Fründ, R., and Lüdemann, H.-D. 1997. Characterization of nitrogen in plant composts and native humic material by natural-abundance ¹⁵N CPMAS and solution NMR spectra. In: M.A. Nanny, R.A. Minear, and J.A. Leenheer, eds. Nuclear Magnetic Resonance Spectroscopy in Environmental Chemistry. Oxford University Press, New York, NY, pp. 272–294."},
+    {"type": "reference-continuation", "text": "Knicker, H. and Hatcher, P.G. 1997. Survival of protein in an organic-rich sediment: possible protection by encapsulation in [续见第522页]"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "13d67c92cac4fac4033f84890721eae4fc8409d970f2c68f761a7e28b93a5645"
+}

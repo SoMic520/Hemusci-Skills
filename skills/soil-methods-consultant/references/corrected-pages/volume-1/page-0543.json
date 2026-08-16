@@ -1,0 +1,65 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 543,
+  "sourceImageSha256": "972342f6c6a158484c7cfe195ce002a240c4a623eea7b0723e94ba3d693d24af",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行逐格对照原分辨率页面和两套OCR，完成表54.2续表、CF-IRMS/双入口说明及图54.1"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验N₂/N₂O/CO₂/CO/SO₂全部m/z与同量异位干扰、5个绝对R、CF-IRMS缩写、He载气和¹³C上标"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由图54.1图注反向复核至续表首行，逐格检查核素上标、标准名称、流程箭头和印刷页码512"
+    }
+  },
+  "blocks": [
+    {
+      "type": "table-continuation",
+      "number": "表54.2（续）",
+      "title": "轻元素IRMS分析气体、m/z、干扰与国际标准"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "表54.2标准名称",
+      "text": "按原书保留V-SMOW、V-PDB、V-CDT写法；现代文献更常写VSMOW、VPDB、VCDT。V-SMOW为Vienna Standard Mean Ocean Water，V-PDB为Vienna Pee Dee Belemnite，V-CDT为Vienna Canyon Diablo Troilite。"
+    },
+    {
+      "type": "paragraph",
+      "text": "研磨植物组织或土壤空气等可用连续流IRMS（CF-IRMS）或双入口IRMS。双入口系统通常把离线制气与测量分开；CF-IRMS用前端装置分离、净化、转化样品，再由连续He载气送入IRMS。其他可用技术包括光谱法和四极杆质谱，但本章聚焦CF-IRMS。"
+    },
+    {
+      "type": "figure",
+      "number": "图54.1",
+      "title": "环境样品CF-IRMS前端与双入口配置",
+      "details": "元素分析仪、裂解炉、TOC分析仪、专用GC、带检测器GC、液N₂预浓缩气体、燃烧炉及各类自动进样器经连续流接口进入IRMS；气体样品与参考气体也可经双入口进入。基础GC可分离CO₂等无机气体；GC分离有机组分后氧化为CO₂，可做化合物特异¹³C分析。"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "54.2-standard-ratios",
+      "display": "²R=²H/¹H；¹³R=¹³C/¹²C；¹⁵R=¹⁵N/¹⁴N；¹⁸R=¹⁸O/¹⁶O；³⁴R=³⁴S/³²S",
+      "meaning": "表54.2脚注所用稀有/最高丰度同位素比"
+    }
+  ],
+  "tables": [
+    {
+      "id": "table-54.2-part2",
+      "title": "IRMS轻元素分析条件（续）",
+      "columns": ["元素", "分析气体", "目标m/z及离子", "干扰m/z及离子", "国际标准与绝对R"],
+      "rows": [
+        ["氮", "N₂", "29: ¹⁵N¹⁴N⁺；30: ¹⁵N¹⁵N⁺", "—", "大气N₂；¹⁵R=0.003 676 5"],
+        ["氮", "N₂O", "44: ¹⁴N¹⁴N¹⁶O⁺；45: ¹⁵N¹⁴N¹⁶O⁺", "45: ¹⁴N¹⁴N¹⁷O⁺", "大气N₂"],
+        ["氧", "CO₂", "44: ¹²C¹⁶O¹⁶O⁺；46: ¹²C¹⁸O¹⁶O⁺", "46: ¹³C¹⁷O¹⁶O⁺；46: ¹²C¹⁷O¹⁷O⁺", "V-SMOW；¹⁸R=0.002 005 20"],
+        ["氧", "CO", "28: ¹²C¹⁶O⁺；30: ¹²C¹⁸O⁺", "30: ¹³C¹⁷O⁺", "V-SMOW或V-PDB；V-PDB ¹⁸R=0.002 067 1"],
+        ["氧", "N₂O", "44: ¹⁴N¹⁴N¹⁶O⁺；46: ¹⁴N¹⁴N¹⁸O⁺", "46: ¹⁵N¹⁵N¹⁶O⁺；46: ¹⁵N¹⁴N¹⁷O⁺", "V-SMOW或V-PDB"],
+        ["硫", "SO₂", "64: ³²S¹⁶O¹⁶O⁺；66: ³⁴S¹⁶O¹⁶O⁺", "66: ³²S¹⁸O¹⁶O⁺；66: ³³S¹⁷O¹⁶O⁺；66: ³²S¹⁷O¹⁷O⁺", "V-CDT；³⁴R=0.045 004 5"]
+      ]
+    }
+  ],
+  "contentSha256": "747a684fc49dfb049ebb4b15c470a4490db986880c05f61faa4f64214ad6d17e"
+}

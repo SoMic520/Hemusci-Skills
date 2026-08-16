@@ -1,0 +1,45 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 238,
+  "sourceImageSha256": "6324f7f545146e008993daf0bcd25972406806656d01049177090e50ff79237b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第207页，并与Apple Vision、PaddleOCR交叉比对，人工恢复灼烧法试剂、七步操作、计算、注释以及24.4和24.4.1开篇"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验0.5 mol·L⁻¹/mol/L、28/50 mL、1.0 g、15 000 g、2/1/16 h、15 min、400/550 ℃、CO₂、³¹P、Pₒ/Pᵢ及式（24.3）"},
+    "secondVisualPass": {"status": "verified", "method": "从页末³¹P图谱说明反向复核至试剂（5），确认24.3.4→24.4→24.4.1层级、图24.1承接、引文和印刷页码207；另核出24.4.1末句的书内方法号错误"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第24章｜总磷和有机磷｜"},
+    {"type": "reagent-item", "number": "（5）", "name": "0.5 mol·L⁻¹硫酸", "text": "将28 mL浓硫酸缓缓加入含有600 mL蒸馏水或去离子水的1 L容量瓶中，并不断地搅拌，冷却后用蒸馏水或去离子水定容。", "method": "24.3.4 灼烧法"},
+    {"type": "reagent-item", "number": "（6）", "text": "显色液（见24.5.1）。", "method": "24.3.4 灼烧法"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤", "method": "24.3.4 灼烧法"},
+    {"type": "procedure-step", "number": "（1）", "text": "称量1.0 g磨细的土壤样品于瓷坩埚中，将瓷坩埚放在未加热的马弗炉中。"},
+    {"type": "procedure-step", "number": "（2）", "text": "在2 h内慢慢将马弗炉温度升温至550 ℃，并在550 ℃持续加热1 h，然后取出样品并冷却。"},
+    {"type": "procedure-step", "number": "（3）", "text": "将灼烧后的样品转移至聚丙烯离心管中进行浸提。"},
+    {"type": "procedure-step", "number": "（4）", "text": "在另一个100 mL聚丙烯离心管中，称取1.0 g未灼烧土壤样品用于无机磷的浸提。"},
+    {"type": "procedure-step", "number": "（5）", "text": "在上述两个样品中同时加入50 mL 0.5 mol·L⁻¹硫酸，充分混匀后略微松开盖子几分钟，以便释放土壤中可能存在的由碳酸盐产生的CO₂压力。拧紧盖子，将离心管在振荡机中振荡16 h，同时应该包括仅含有0.5 mol/L硫酸的空白样品。"},
+    {"type": "procedure-step", "number": "（6）", "text": "将样品在15 000 g力下离心15 min，若浸提液不清亮，则要用耐酸滤纸进行过滤。"},
+    {"type": "procedure-step", "number": "（7）", "text": "取适量的上清液或滤液按照24.5所示的方法进行磷浓度的测定。"},
+    {"type": "procedure-group", "number": "3.", "title": "计算"},
+    {"type": "calculation-note", "text": "在测定浸提液的磷浓度后，按照下式进行结果计算，并以土壤质量为基础进行换算（例如，mg P/kg土）："},
+    {"type": "procedure-group", "number": "4.", "title": "注释"},
+    {"type": "note-item", "text": "当测定矿质土壤时，为了防止样品中磷的挥发，必须注意马弗炉的温度不能超过550 ℃（Sommers等，1970；Williams等，1970）。"},
+    {"type": "heading", "level": 1, "number": "24.4", "title": "有机磷（Pₒ）的表征"},
+    {"type": "body", "text": "目前没有直接区分土壤Pₒ的方法。尽管很多的研究试图用固态³¹P核磁共振光谱直接表征土壤Pₒ，但是由于磷与顺磁性物质如铁紧密结合会造成谱线增宽，所以其测定结果通常很差（Cade-Menun，2005）。因此，在分类表征土壤有机磷之前必须要先浸提。大多数有机磷能与土壤矿质化合物稳定结合，使其很难被提取，而用强酸或强碱提取又会引起有机磷水解的风险。因此，土壤有机磷化学表征的理想浸提剂应该回收率最高且对其化学结构改变最小。浸提结束后，理想的形态分级技术应该能定量测定一系列含磷化合物的相对大小，满足这些要求的两个技术分别是液态³¹P核磁共振光谱法和酶解法。"},
+    {"type": "heading", "level": 2, "number": "24.4.1", "title": "NaOH-EDTA浸提—液态³¹P核磁共振光谱法"},
+    {"type": "body", "text": "自从液态³¹P核磁共振光谱法第一次被Newman和Tate（1980）用于土壤研究以来，这种方法极大地推进了我们对土壤和其他环境样品中有机磷化合物的认识，其中用到多种浸提剂，例如，单独使用0.5 mol·L⁻¹ NaOH溶液，将其与EDTA的配合使用，或使用阳离子交换树脂Chelex（Bio-Rad Laboratories）（这里提到这个商品名是为了方便读者，而不意味着受CSSS支持）。浸提剂的选择会影响土壤有机磷的回收率和浸提液中化合物的组成（Cade-Menun和Preston，1996；Cade-Menun等，2002）。目前最常用的浸提剂是Bowman和Moir（1993）提出的测定总有机磷含量的提取步骤中使用的NaOH-EDTA混合液，见24.3.2。"},
+    {"type": "source-fidelity-note", "appliesTo": "24.4.1末句", "text": "原书印作“NaOH-EDTA混合液，见24.3.2”，但本章前文明确把Bowman和Moir（1993）的碱性EDTA浸提法列为24.3.3；24.3.2是注释，故此处“24.3.2”为书内交叉引用错误，应为“24.3.3”。原文保留，校正值另行明示。"},
+    {"type": "body", "text": "³¹P核磁共振光谱法能表征同一浸提液中Pₒ和Pᵢ形态的相对丰度。图24.1给出了美国国家标准技术研究所（NIST）提供的标准参比样品的³¹P核磁共振图谱，上面的样品是苹果叶标准样，下面的是圣华金地区的土壤标准样品。注意有机磷和无机磷化合物的相对丰度。"},
+    {"type": "printed-page-number", "text": "207"}
+  ],
+  "formulas": [
+    {
+      "number": "24.3",
+      "context": "灼烧法计算土壤有机磷",
+      "display": "Pₒ = Pᵢ（灼烧样品）− Pᵢ（未灼烧样品）",
+      "latex": "P_o=P_i\\,(\\text{灼烧样品})-P_i\\,(\\text{未灼烧样品})"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "e4f32bc6f71def2d78da3dce1b92d968cc1f9d6f13269cfea7390fcb4699e8b4"
+}

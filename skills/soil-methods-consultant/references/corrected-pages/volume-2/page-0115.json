@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 115,
+  "sourceImageSha256": "927fb5b173e05c61fb4ae8e5a560661f7afcde42c96126a4d1622c175a5a3b02",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐格对照原分辨率图和两套OCR，完成65.2跨页结尾、65.2.1步骤(1)～(2)本页及表65.1全部项目"},
+    "precisionPass": {"status": "verified", "method": "核验6.35 mm、25 cm×1.5 cm、60 L、20/12 mL、26 gauge×3/8 in、13 mm、3～4 min、7周期、6个月、20周和98%"},
+    "secondVisualPass": {"status": "verified", "method": "由B.H. Ellert跨页句反向复核至页首，逐格检查表头、尺寸单位、产品地名、针规/英寸及真空测试逻辑；印刷页码624"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "测量质量的关键包括气体采集、存储与分析；气室设计、现场部署及dG/dt确定同样至关重要。"},
+    {"type": "heading", "number": "65.2.1", "title": "气体样品收集", "level": 3},
+    {"type": "procedure-steps", "items": [
+      "(1) 采气容器须洁净、气密且材料不与目标气体反应。常用12 mL Exetainer（Labco, High Wycombe, UK）等隔膜密封玻璃小瓶。针拔出后橡胶隔膜针孔需数秒闭合，瓶内欠压或过压时会加剧交换；在原隔膜上叠加硅胶/PTFE–硅胶隔片可降低泄漏。",
+      "(2) 同批新瓶真空度可能不同，使用前接真空系统处理。抽气3～4 min后排气速率明显下降；过久穿针会延长针孔闭合并增加漏入风险。尽量使用细针（26 gauge、3/8 in）并检查隔膜。为清除CO₂/N₂O等残余，采用惰性气体（如He）冲洗与抽空的交替循环，最后保持规定真空；若最终留有惰性气体或残余压力，必须定量并作稀释修正。",
+      "(3) 抽空前做管路泄漏/真空测试。可称量空瓶，借双头针吸入水后再称量，由吸入水体积与瓶容积估算残余气体/真空度；不能把原书“比较进气值和出气值”当作未定义的读数。泄漏时逐一检查管路和接头。",
+      "(4) 双层隔膜书中报告至少可重复7个周期；同批样品尽量用同批小瓶。硅胶隔膜不用时密封保存；不计穿刺次数时约6个月更换。书中条件下，双层隔膜完全抽空瓶20周后仍保持>98%真空。",
+      "(5) 操作针头时防刺伤，不刺瓶塞边缘；弯钝或带毛刺的针会割裂隔膜，须定期检查并及时更换。"
+    ]},
+    {"type": "source-fidelity-note", "text": "表中“26计量注射针”是gauge误译，已校正为26 gauge（26 G）、长度3/8 in。原书真空测试段“比较进气值和出气值”含义不成立；按Rochette–Bertrand方法及后续方法指南校正为抽水前后称量/体积法。惰性气体用于冲洗循环，最终采样瓶状态和任何残余气体必须记录并修正。"}
+  ],
+  "formulas": [],
+  "tables": [
+    {"number": "65.1", "title": "非稳态集气室组成和气体采集材料", "columns": ["类别", "部件", "描述"], "rows": [
+      ["集气室", "集气室及框架", "洁净丙烯酸塑料，厚6.35 mm"],
+      ["集气室", "气体采集端口", "6.35 mm塑料管，装注射隔膜/采样隔膜（原书列Vygon, Ecouen, France）"],
+      ["集气室", "覆盖层", "绝缘、反光、隔热的门板材料"],
+      ["集气室", "排气管", "60 L气室用长25 cm、内径1.5 cm管"],
+      ["集气室", "密封垫", "6.35 mm闭孔泡沫塑料（Lundell Manufacturing Corp., Minneapolis, Minnesota）"],
+      ["集气室", "安装固定", "弹簧扣件和锚板（如连接锁）"],
+      ["气体采集", "注射器", "聚丙烯注射器，如20 mL（Becton Dickinson, Rutherford, New Jersey）"],
+      ["气体采集", "针", "26 gauge、3/8 in注射针（Becton Dickinson, Rutherford, New Jersey）"],
+      ["气体采集", "小瓶", "带螺旋帽的玻璃小瓶，如12 mL Exetainer（Labco Ltd., High Wycombe, UK）"],
+      ["气体采集", "隔片", "13 mm PTFE/硅胶隔片（如Supelco, Bellefonte, Pennsylvania；Rochette和Bertrand，2003）"]
+    ], "notes": ["表列25 cm×1.5 cm排气管仅对应书中60 L气室，不能不经压力响应校核直接按比例移用到其他体积。"]}
+  ],
+  "contentSha256": "fc45b15736d1ac3e171f15a0e6738021014c507554e7b49e64c94348aa339449"
+}

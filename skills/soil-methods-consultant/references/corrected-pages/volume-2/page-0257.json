@@ -1,0 +1,73 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 257,
+  "sourceImageSha256": "dfcedbe0f03516365cd3dda8e9932262383c7d5aa799e819abe727b31033fc68",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对78.4计算续、78.5四条注释、8条参考文献及译校署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验C_AH、H/r_c、y/H、K_s、20%和隔水层K_s<测定区K_s的20%"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "与英文原章复核线性/非线性插值结论及全部书目信息；印刷页码766"
+    }
+  },
+  "blocks": [
+    {
+      "type": "calculation-steps-continuation",
+      "steps": [
+        "由表78.1估计C_AH；为获得最高精度，宜采用图解插值。",
+        "按式(78.1)用C_AH和Δy/Δt计算K_s，示例见图78.1。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "78.5",
+      "title": "注释",
+      "level": 2
+    },
+    {
+      "type": "method-notes",
+      "items": [
+        "钻孔法可较可靠、快速地测定饱和区较大体积介质的K_s。H/r_c很大时，结果趋近于水平方向K_s；层状土壤的具体应用见Amoozegar（2002）。",
+        "图78.1以相邻表值作线性插值，但C_AH与H/r_c、y/H并非线性关系。基于模拟结果和准经验回归的非线性图解插值通常更精确；该示例的非线性结果比线性结果低20%。追求最高K_s精度时推荐非线性图解插值。",
+        "理论上记录水位上升或下降都可。通常不推荐直接快速加水造成下降过程，因为孔壁侵蚀会使粉粒和黏粒悬浮，随后淤积并局部堵塞孔壁/孔底，使K_s产生不具代表性的低值。",
+        "“高渗透层”和“隔水层”是相对于测定区K_s的显著差异，不是绝对范围；Amoozegar（2002）把隔水层定义为K_s<测定区K_s的20%。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "中文注释(2)末句误写成推荐“线性插值”，与本段前文和英文原章相反；规范为“非线性图解插值”。中文还把quasiempirical regression误作“多元回归”，规范为准经验回归。"
+    },
+    {
+      "type": "heading",
+      "title": "参考文献",
+      "level": 2
+    },
+    {
+      "type": "references",
+      "items": [
+        "Amoozegar, A. 2002. Auger-hole method (saturated zone). In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 859–869.",
+        "Amoozegar, A. and Warrick, A.W. 1986. Hydraulic conductivity of saturated soils: field methods. In: A. Klute, ed. Methods of Soil Analysis, Part 1: Physical and Mineralogical Methods, 2nd ed. Soil Science Society of America, Madison, WI, 735–770.",
+        "Boast, C.W. and Kirkham, D. 1971. Auger hole seepage theory. Soil Sci. Soc. Am. Proc. 35:365–373.",
+        "Bouwer, H. and Jackson, R.D. 1974. Determining soil properties. In: J. van Schilfgaarde, ed. Drainage for Agriculture. American Society of Agronomy, Madison, WI, 611–672.",
+        "Ernst, L.F. 1950. Een nieuwe formule voor de berekening van de doorlaatfactor met deboorgatenmethode. Groningen, The Netherlands. Rap. Landbouwproefsta. en Bodemkundig Inst. T.N.O.",
+        "van Beers, W.F.J. 1970. The auger-hole method: a field measurement of the hydraulic conductivity of soil below the water table. International Institute for Land Reclamation and Improvement (ILRI), Bull. No. 1. H. Veenman and Zonen, Wageningen, The Netherlands.",
+        "Young, M.H. 2002. Water Potential. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 547–573.",
+        "Youngs, E.G. 2001. Hydraulic conductivity of saturated soils. In: K.A. Smith and C.E. Mullins, eds. Soil and Environmental Analysis: Physical Methods, 2nd ed. Marcel Dekker, New York, NY, 157–160."
+      ]
+    },
+    {
+      "type": "credits",
+      "text": "刘海涛译，李保国校。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "cb0e2c111f38cd7f9e4e34c9173f3a72e327bdf6dfd9e1f9a945b7fc3c0a8761"
+}

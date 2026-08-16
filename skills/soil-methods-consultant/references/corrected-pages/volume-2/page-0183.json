@@ -1,0 +1,23 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 183,
+  "sourceImageSha256": "dc9761a89afd0ba713b628380486c0d9845de6602e51bcdaafcad5c3e73c6f21",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步骤逐段对照原分辨率页图和两套OCR，完成反射地面波、70.4.3六项限制、SAR尺度及70.5开篇"},
+    "precisionPass": {"status": "verified", "method": "核验EC<20 mS·m⁻¹、1.4/6 GHz、0.2 m³·m⁻³、<20 mm、100—1000/≤0.0025 m²"},
+    "secondVisualPass": {"status": "verified", "method": "由70.5跨页句反向复核至反射法三步骤，检查大写GHz、面积和深度；印刷页码692"}
+  },
+  "blocks": [
+    {"type": "procedure", "name": "地表GPR：反射地面波、单偏移或多偏移", "steps": ["进行单偏移或多偏移GPR勘测。", "用已知反射面深度（单偏移）或测得深度（多偏移）把传播时间换为速度；多偏移还可估算地表—反射面平均含水量和反射面深度。", "用纠正后的式(70.1)求ε_r，再用式(70.2)或专属校准求含水量。"]},
+    {"type": "heading", "number": "70.4.3", "title": "注释", "level": 3},
+    {"type": "limitations", "items": ["先联系当地监管机构确认电磁发射限制。", "地表GPR适于信号损失小、低电导率土；直接地面波在EC<20 mS·m⁻¹时效果最佳。", "穿透深度由频率、偏移、土壤电导率、含水量和非均质性共同决定。", "表面粗糙度/水分非均质对反射系数及空中法穿透深度的影响仍不充分。", "依赖地下界面的法受界面材质和传导损耗限制。", "相对TDR测量体积更大，可能是优点也可能是缺点；数据处理不规则使自动化困难。"]},
+    {"type": "paragraph", "text": "SAR与空中GPR同原理，书列频率1.4 GHz和6 GHz。反向散射除ε_r/水分外强受地表几何与植被影响，质地和容重影响较小，常以回归关系估算。C波段在θ>0.2 m³·m⁻³时穿透<20 mm；雷达足迹100—1000 m²而实地样方面积≤0.0025 m²，尺度不匹配使校准困难。"},
+    {"type": "heading", "number": "70.5", "title": "电容电阻法", "level": 2},
+    {"type": "paragraph", "text": "电阻与电容装置均为EM仪器，频率介于TDR和GPR之间，探针及邻近土壤构成电路，水分改变电阻/电容。阻抗Z的关系式续见下页。"},
+    {"type": "source-fidelity-note", "text": "OCR把mS·m⁻¹、m³·m⁻³、mm和m²指数多处损坏，已按页图恢复。“6 GHZ”规范为6 GHz。这里的频率和尺度为原书所述SAR示例，不是通用卫星参数表。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "00a66173d2e0cd95991c04bea6e431a2652c73255add600d2d345c81c724cafb"
+}

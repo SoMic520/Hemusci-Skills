@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 275,
+  "sourceImageSha256": "c3188b6bd92d3ac4238192db615d340cdfd6e2c15387646531aeb5e0b85a0922",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第28章首页，人工恢复章名、作者机构、28.1、28.2、28.2.1、六个定量分析步骤和样品干燥影响续文"},
+    "precisionPass": {"status": "verified", "method": "逐字符核骎ASTM、土壤固相率定义、mol·L⁻¹、CaCl₂、KCl、pH、土壤类型名称、作者年份及全部阶层编号"},
+    "secondVisualPass": {"status": "verified", "method": "从页底‘根据体’反向复核至章首A. Karam，确认章→节→小节→六项列表→跨页正文层级，并确认本页未印页码"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "第28章", "title": "有机质土的化学特性"},
+    {"type": "chapter-author", "text": "A. Karam"},
+    {"type": "chapter-affiliation", "text": "Laval University；Quebec, Quebec, Canada"},
+    {"type": "heading", "level": 1, "number": "28.1", "title": "引言"},
+    {"type": "body", "text": "有机质土富含不同分解阶段的新鲜植物体或有机物质，如纤维、半纤维和完全腐解的物质（Soil Survey Staff，2003）。这些土壤通常在水饱和的环境中形成，主要包括淤泥土、泥炭土或有机土（加拿大和美国）、冻土、爱尔兰泥炭沼泽、沼泽泥炭（澳大利亚）、潴育/水成有机土（法国）、英国的泥炭土（Okruszko和Ilnicki，2003）。有机质土壤的母质通常为苔藓（如泥炭藓）、腐殖泥、泥灰土、火山灰，以及香蒲、芦苇、莎草、水池草、禾本科植物、各种喜水性落叶及松柏科的灌木和乔木的残体或混合物。有机质土壤中含有痕量至大量的硅酸盐矿物。有机质土的特征主要取决于沉积在水中的植被的性质和它们分解的程度（Mokma，2005）。"},
+    {"type": "body", "text": "尽管有机质土的化学特性不同于矿质土壤，但是矿质土壤的化学测定方法同样适用于有机质土，因此对这些分析过程不再进行赘述，分析人员可以在其他章节找到合适的分析方法。"},
+    {"type": "heading", "level": 1, "number": "28.2", "title": "样品制备（ASTM，1988）"},
+    {"type": "heading", "level": 2, "number": "28.2.1", "title": "介绍"},
+    {"type": "body", "text": "与矿质土壤相比，有机质土壤固相率（即土壤容重和颗粒密度的比值）和容积含水率变化范围较大，干燥过程对有机质土壤的化学性质影响更大而使土壤分析变得十分复杂（Parent和Khiari，2003）。Watson和Isaac（1990）将土壤定量分析分为以下6个步骤。"},
+    {"type": "analysis-stage", "number": "（1）", "text": "样品处理和制备。"},
+    {"type": "analysis-stage", "number": "（2）", "text": "样品称量。"},
+    {"type": "analysis-stage", "number": "（3）", "text": "样品消解或元素提取。"},
+    {"type": "analysis-stage", "number": "（4）", "text": "干扰因素的预处理或消除。"},
+    {"type": "analysis-stage", "number": "（5）", "text": "样品性质测定。"},
+    {"type": "analysis-stage", "number": "（6）", "text": "计算并得到被测物的浓度。"},
+    {"type": "body", "continuesOnPage": 276, "text": "在土壤样品分析前，有机质土壤的处理和制备非常重要。用于化学分析的样品既可以是鲜样（田间含水量），也可以是风干样。但要注意有机质土壤干燥后其干容重和固相体积会增加（Ilnicki和Zeitz，2003），而且有机磷的矿化会提高（Daughtrey等，1973），用水、0.01 mol·L⁻¹ CaCl₂溶液和1 mol·L⁻¹ KCl溶液测定的土壤pH值会低于田间湿润条件下的测定值（van Lierop和Mackenzie，1977），还有可能使某些养分，例如，有效磷和有效钾的测定值偏高（Daughtrey等，1973；Anderson和Beverly，1985），后者还认为过筛后的有机质土壤干燥后更易紧实，而复水后更易膨胀。Parent和Khiari（2003）指出原始泥炭风干后的有效磷含量比新鲜泥炭更高。Anderson和Beverly（1985）则建议将有机质土壤根据体"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "961e94ed7fa5cfb17e81c50d80aa6c7e5d079e22fbe31c913fd8a54a02d7f15c"
+}

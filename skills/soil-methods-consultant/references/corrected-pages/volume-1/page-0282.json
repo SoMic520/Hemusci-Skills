@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 282,
+  "sourceImageSha256": "5bbf40b2404b6ffc07b02afc2b12417ffb96094fd8d096051ae95a7c08ab827b",
+  "review": {
+    "textPass": {"status": "verified", "method": "对照原分辨率分篇扉页，确认页面仅含‘第四篇’和‘土壤生物分析’两行文字"},
+    "precisionPass": {"status": "verified", "method": "逐字核验‘第四篇’与‘土壤生物分析’，确认无公式、单位、表格、图示或页码"},
+    "secondVisualPass": {"status": "verified", "method": "全页自下而上复核留白与居中文字，确认分篇层级和空白页面边界"}
+  },
+  "blocks": [
+    {"type": "part-title", "number": "第四篇", "title": "土壤生物分析"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9406f24284502bd6d3a1f9fcc1ac243ebffdbc4ddcd0689e4c7181a1ef60a8c4"
+}

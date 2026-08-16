@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 158,
+  "sourceImageSha256": "318e9882886b62404628476188b2aa262c2197d85b0d1d3e0cc1fb644ec9c8e2",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段对照原分辨率图和两套OCR，完成式(69.3)、四分势、图69.1及69.4至跨页进气/进水头"},
+    "precisionPass": {"status": "verified", "method": "核验ψ_m/ψ_π/ψ_p/ψ_g符号、≤0/≥0、压力计/张力计测点、ψ_a/ψ_w及章节71—74"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页句反向复核至式(69.3)，检查总势求和、半透膜条件、水头参照和脱水/吸水路径；印刷页码667"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "土壤总水势由基质势ψ_m、渗透势ψ_π、压力势ψ_p和重力势ψ_g相加。基质势在非饱和土中≤0；渗透势因溶质/胶体降低水活度而≤0；饱和静水压力势通常≥0；重力势相对选定基准可正可负。"},
+    {"type": "paragraph", "text": "基质势传感器见Campbell（1987）。渗透势可由孔隙水电导率估计，可靠测量需提取孔隙水后用热电偶湿度计，或压力室—湿度计系统。以单位重量能量表示时，基质、压力和重力势称为水头。只有存在阻水不阻所选溶质的半透膜时，渗透势梯度才可单独维持。"},
+    {"type": "figure", "number": "69.1", "title": "压力计和张力计工作原理", "panels": [{"a": "压力计测饱和区压力势ψ_p，井管滤网/进水口与自由水面高差给压力头"}, {"b": "张力计透水不透气多孔杯测非饱和基质势ψ_m"}], "reference": "重力头ψ_g相对z=0基准面定义；各测量点高度必须计入总头。"},
+    {"type": "heading", "number": "69.4", "title": "土壤脱水曲线和吸水曲线", "level": 2},
+    {"type": "paragraph", "text": "脱水/主排水曲线描述ψ_m从0减小（更负）时θ_v由饱和下降；吸水/主湿润曲线描述ψ_m从很负增大时θ_v由干燥上升。滞后使两条主曲线不同，反向过程形成位于其间的扫描曲线。均一窄孔径材料可出现明确进气头ψ_a和进水头ψ_w。"},
+    {"type": "source-fidelity-note", "text": "原书把“渗透势”个别OCR成溶质势，统一保留ψ_π。压力计测ψ_p、张力计测ψ_m，不能互换。ψ_a与ψ_w都为负，比较时必须区分数值大小和绝对值。"}
+  ],
+  "formulas": [
+    {"label": "69.3", "plain": "ψ_t = ψ_m + ψ_π + ψ_p + ψ_g", "latex": "\\psi_t=\\psi_m+\\psi_\\pi+\\psi_p+\\psi_g"}
+  ],
+  "tables": [],
+  "contentSha256": "d8853013f2cc9d5bedfc679850efd2e939f9d087b9352dde91b7267e6925de67"
+}

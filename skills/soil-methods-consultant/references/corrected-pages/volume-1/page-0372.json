@@ -1,0 +1,48 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 372,
+  "sourceImageSha256": "308499134e69428556d947f2e3eac0e646937ec08e4804952d770a4acef05fb4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版36.5.2～36.6.2"},
+    "precisionPass": {"status": "verified", "method": "核验18～24点、10点、200×、10⁴～10⁶ g⁻¹、1 mg、10～1000 cells、20 μL、1 g/5 mL、30 s、15 μL、5～50 cells及3～5次"},
+    "secondVisualPass": {"status": "verified", "method": "从36.6.2步骤（6）反向复核至36.5.2步骤（6），恢复干土点称量和过夜培养偏倚；印刷页码341"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第36章｜原生动物｜"},
+    {"type": "ordered-list", "start": 6, "parent": "36.5.2 步骤", "items": [
+      "把枪头中剩余的土壤悬浮液放回土—水悬浮液，再吸取一个新的子样。",
+      "重复取样和点样，得到18～24个泥点，按行列排列。",
+      "用Parafilm密封平板，使琼脂面朝上，贴标签；在黑暗中、接近土壤采样时温度的条件下培养过夜。",
+      "用同一枪头把土壤悬浮液按同样方式点在一小条已知质量的铝箔上，共点10点并风干；再次称量铝箔。用质量差计算每个土点的平均干重。",
+      "用倒置相差显微镜在200×下观察。变形虫出现在泥点边缘，并随时间开始迁移到琼脂表面；逐点计数边缘细胞。细胞过多时，用目镜方格网计数泥点边缘的代表性区域。"
+    ]},
+    {"type": "section-heading", "level": 3, "number": "36.5.3", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      "沙质土或易松碎样品难以点成整齐行列，可把土—水悬浮液在整个平板上铺成不妨碍观察的薄层；此时必须准确知道所铺干土质量。",
+      "干土中活跃变形虫通常为10⁴～10⁶ cells·g⁻¹，因此1 mg干土点可含10～1000个细胞。变形虫丰富的样品需加大稀释倍数、使用更稀薄悬浮液。",
+      "为避免干燥和细胞裂解，必须使用湿润土样并迅速处理。",
+      "过夜后次日观察到的类群可能包括因加水而脱囊、并在夜间培养中已繁殖的个体，因此不全代表采样时的活跃丰度。"
+    ]},
+    {"type": "section-heading", "level": 2, "number": "36.6", "title": "活跃鞭毛虫的丰度"},
+    {"type": "paragraph", "text": "本法效率高，可得到统计上可靠且重复性好的结果。原书所称鞭毛虫分布于Mastigamoebidae、Eumycetozoa传播阶段、Chytridiomycetes、Euglenida、Kinetoplastea、Heterolobosea、Cercozoa和Peronosporomycetes等类群。生物量换算见表36.3。"},
+    {"type": "section-heading", "level": 3, "number": "36.6.1", "title": "材料"},
+    {"type": "ordered-list", "items": ["新鲜土样。", "精密天平和小刮勺。", "蒸馏水或去离子水。", "20 μL移液器和宽口枪头（用剪刀或刀片剪宽尖端）。", "直径5 cm培养皿。", "适用于相差观察的血细胞计数板。", "倒置显微镜。"]},
+    {"type": "section-heading", "level": 3, "number": "36.6.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      "在培养皿中加入1 g新鲜土样和5 mL水。",
+      "轻柔分散土壤并混匀悬浮液，使较重颗粒沉降30 s。",
+      "吸取15 μL悬浮液加入血细胞计数板计数室，盖上专用盖玻片。",
+      "在200×和400×相差条件下扫描计数室，选择可计得5～50个细胞的合适网格；用所选网格的已知体积计算原生动物丰度。",
+      "重复3～5次，直至平均丰度值稳定。",
+      "最终丰度计算须计入培养皿悬浮液的初始稀释倍数，例如1 g土加入5 mL水。"
+    ]},
+    {"type": "printed-page-number", "text": "341"}
+  ],
+  "formulas": [
+    {"id": "36.5.2-spot-dry-mass", "display": "m̄_spot,dry = (m_foil+10spots,dry − m_foil) / 10"},
+    {"id": "36.6.2-hemocytometer", "display": "N (cells·g⁻¹) = n_count / V_counted × V_suspension / m_fresh-soil × dry-mass correction × additional dilution factor", "note": "计数体积须使用所选血细胞计数板网格的实际标定值。"}
+  ],
+  "tables": [],
+  "contentSha256": "219b55871c446176c28c6b22d1837a356bcd0dca77bc992574c9ee950bf746ce"
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 512,
+  "sourceImageSha256": "3135a192e455c3f15930b4cd55b59d13e8bf23ee590a9926c9841dd343586387",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐格对照原分辨率页面与两套OCR，完成表50.1、图50.1、50.4.6及50.5、50.5.1跨页句"},
+    "precisionPass": {"status": "verified", "method": "核验0.0/13.1/22.0/23.1/43.1 min、1.0/0.8 mL·min⁻¹、A/B比例、7个峰名与5.0～14.5 min保留时间、5～10次进样"},
+    "secondVisualPass": {"status": "verified", "method": "由50.5.1跨页句反向复核表和色谱图，逐峰检查岩藻糖/鼠李糖/阿拉伯糖及坐标单位；印刷页码481"}
+  },
+  "blocks": [
+    {"type": "figure", "number": "图50.1", "title": "用HPAEC-PAD检测土壤浸提液所得的中性糖典型色谱图", "xAxis": "Time (min)", "yAxis": "response (nC)", "peaks": [
+      {"peak": 1, "analyte": "岩藻糖（fucose）", "retentionTime_min": 5.0},
+      {"peak": 2, "analyte": "鼠李糖（rhamnose）", "retentionTime_min": 8.1},
+      {"peak": 3, "analyte": "阿拉伯糖（arabinose）", "retentionTime_min": 9.4},
+      {"peak": 4, "analyte": "半乳糖（galactose）", "retentionTime_min": 12.1},
+      {"peak": 5, "analyte": "葡萄糖（glucose）", "retentionTime_min": 12.7},
+      {"peak": 6, "analyte": "甘露糖（mannose）", "retentionTime_min": 13.9},
+      {"peak": 7, "analyte": "木糖（xylose）", "retentionTime_min": 14.5}
+    ]},
+    {"type": "source-fidelity-note", "scope": "图50.1峰名", "text": "原书峰1误标‘海藻糖’，但该七种土壤中性糖的标准组分及5.0 min首峰为fucose，正确中文名是‘岩藻糖’，不是trehalose（海藻糖）。峰3旧译‘树胶醛醣’统一为‘阿拉伯糖’。"},
+    {"type": "section-heading", "level": 3, "number": "50.4.6", "title": "注释"},
+    {"type": "note", "number": "（1）", "text": "HPLC可定量土壤水解产物中的中性糖，但HPAEC-PAD对部分中性糖具有更高灵敏度和专一性。"},
+    {"type": "note", "number": "（2）", "text": "CarboPac PA10对碳酸盐及其他土壤污染物很敏感，污染会缩短糖的保留时间，尤以后洗脱峰为甚。建议每进样5～10个水解液插入1个标准；或延长表50.1第一个调节阶段以清洁色谱柱。洗脱液每周更换，避免碳酸盐在容器中积累。"},
+    {"type": "section-heading", "level": 2, "number": "50.5", "title": "分析步骤——氨基糖（据Zelles，1988修订）"},
+    {"type": "section-heading", "level": 3, "number": "50.5.1", "title": "材料和试剂"},
+    {"type": "materials-list-continuation", "items": [
+      {"number": "（1）", "text": "HPLC：配梯度泵、色谱柱加热装置、荧光检测器和手动进样口。[设备实例续见第513页]"}
+    ]}
+  ],
+  "formulas": [],
+  "tables": [
+    {"number": "表50.1", "title": "HPAEC-PAD测定土壤浸提液中性糖的系统时间表", "headers": ["运行时间/min", "步骤描述", "总流量/(mL·min⁻¹)", "洗脱液A/%", "洗脱液B/%"], "rows": [
+      ["0.0", "调节", "1.0", "0", "100"],
+      ["13.1", "平衡", "1.0", "100", "0"],
+      ["22.0", "打开自动进样器", "0.8", "100", "0"],
+      ["23.1", "进样", "0.8", "100", "0"],
+      ["43.1", "运行结束", "0.8", "100", "0"]
+    ], "notes": ["洗脱液A：21 mmol·L⁻¹ NaOH；洗脱液B：500 mmol·L⁻¹ NaOH。", "洗脱液容器顶部须充He，防止形成碳酸盐。"]}
+  ],
+  "contentSha256": "77fc569ea111cdfe736b9b0537ea6e1afce857ffa4e411792818710426a7bade"
+}

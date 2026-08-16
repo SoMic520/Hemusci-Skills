@@ -1,0 +1,73 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 233,
+  "sourceImageSha256": "07ff6df4702cc31ef528394482e961ec23143e062455c9cd4064cf621be0bfdb",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐格对照原分辨率页图、两套OCR和英文原章，完成式(76.2)—(76.4c)、表76.1及派生参数说明"},
+    "precisionPass": {"status": "verified", "method": "核验C_G缺失项+a/H、式(76.3)三项分母、76.4的0.754/0.683/0.672指数及α*=0.01/0.04/0.09/0.12/0.36 cm⁻¹"},
+    "secondVisualPass": {"status": "verified", "method": "以H/a=2反算C_G=0.8256和C_w=0.9446，确认原中文式(76.2)、(76.4b)各有一处排印错误；印刷页码742"}
+  },
+  "blocks": [
+    {
+      "type": "analysis-notes",
+      "items": [
+        "马利奥特瓶中Q_s=A R_s，其中R_s为储水管水位准稳态下降速率[L·T⁻¹]，A为储水管截面积[L²]。",
+        "Glover法简单但只计压力势，忽略重力势和饱和区外毛管吸力；不能求α*、φ_m、ψ_f、S、PD、NP，且在干燥细质土中K_fs可高估一个数量级以上。提高H/a可改善：建议H/a≥5，Zangar原工作要求H/a≥10。",
+        "修正单水头法同时考虑压力、重力和毛管分量。先按质地—结构类别估α*，由式(76.4)取C_w，再以式(76.3)求K_fs；随后按式(69.16)—(69.21)求φ_m、S、PD、NP和ψ_f。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "中文式(76.2)漏排末项+a/H；若照误式，在H/a=2时C_G=0.3256，无法复现本章表76.2的0.8256。英文原章和数值反算均确认正确式含+a/H。中文式(76.4b)指数误排0.693，英文原章为0.683，且0.683才能复现C_w=0.9446；规范公式均已校正。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "76.2",
+      "plain": "C_G = sinh⁻¹(H/a) - [(a/H)² + 1]¹ᐟ² + a/H",
+      "latex": "C_G=\\sinh^{-1}\\left(\\frac{H}{a}\\right)-\\left[\\left(\\frac{a}{H}\\right)^2+1\\right]^{1/2}+\\frac{a}{H}",
+      "resultUnit": "1",
+      "variables": ["a：测量井半径，[L]", "H：井中稳定积水深度，[L]"]
+    },
+    {
+      "label": "76.3",
+      "plain": "K_fs = C_w Q_s/[2πH² + C_w πa² + 2πH/α*]",
+      "latex": "K_{fs}=\\frac{C_wQ_s}{2\\pi H^2+C_w\\pi a^2+2\\pi H/\\alpha^*}",
+      "resultUnit": "L·T⁻¹"
+    },
+    {
+      "label": "76.4a",
+      "plain": "C_w = [(H/a)/(2.074 + 0.093(H/a))]^0.754, α* ≥ 0.09 cm⁻¹",
+      "latex": "C_w=\\left[\\frac{H/a}{2.074+0.093(H/a)}\\right]^{0.754},\\quad\\alpha^*\\ge 0.09\\;\\mathrm{cm}^{-1}",
+      "resultUnit": "1"
+    },
+    {
+      "label": "76.4b",
+      "plain": "C_w = [(H/a)/(1.992 + 0.091(H/a))]^0.683, α* = 0.04 cm⁻¹",
+      "latex": "C_w=\\left[\\frac{H/a}{1.992+0.091(H/a)}\\right]^{0.683},\\quad\\alpha^*=0.04\\;\\mathrm{cm}^{-1}",
+      "resultUnit": "1"
+    },
+    {
+      "label": "76.4c",
+      "plain": "C_w = [(H/a)/(2.081 + 0.121(H/a))]^0.672, α* = 0.01 cm⁻¹",
+      "latex": "C_w=\\left[\\frac{H/a}{2.081+0.121(H/a)}\\right]^{0.672},\\quad\\alpha^*=0.01\\;\\mathrm{cm}^{-1}",
+      "resultUnit": "1"
+    }
+  ],
+  "tables": [
+    {
+      "number": "76.1",
+      "title": "不同质地—结构分类下的α*估计",
+      "columns": ["质地—结构分类", "α* (cm⁻¹)"],
+      "rows": [
+        ["压实、无结构的黏土和淤泥状土，如垃圾填埋场封盖/衬层、湖相或海相沉积物", "0.01"],
+        ["细质多孔介质：无结构黏土和粉土，或完全无结构砂性物质", "0.04"],
+        ["大多数结构良好、中等质地介质：结构良好黏土/壤土或结构破坏的砂；最接近农业土壤", "0.12"],
+        ["粗砂，或高度结构化、含大量裂隙/生物孔隙的土壤", "0.36"]
+      ],
+      "notes": ["数据源：Elrick, D.E., Reynolds, W.D., and Tan, K.A., Ground Water Monit. Rev., 9, 184, 1989."]
+    }
+  ],
+  "contentSha256": "8a22e1a7ef2df8f0429505f8e3c05bd70dfbead813135383715a1c53a3ef7b18"
+}

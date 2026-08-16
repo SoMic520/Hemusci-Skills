@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 122,
+  "sourceImageSha256": "6b742774d23dd14c6ae0451491d1ef1d0f2fe69632d6515a12596bbb3bc577b5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐项对照原分辨率图和两套OCR，完成66.2续文、66.3、66.3.1—66.3.4及式(66.1)—(66.2)"},
+    "precisionPass": {"status": "verified", "method": "核验20 cm×20 cm、400 cm²、105 ℃、24 h、LFH/Ah、平均厚度、干质量及容重单位"},
+    "secondVisualPass": {"status": "verified", "method": "从66.3.4反向复核至66.2，检查步骤层级、8个厚度读数、公式量纲和样品预留条件；印刷页码631"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "挖掘法得到的样品可继续用于物理和化学分析（Page-Dumroese等，1999；Maynard和Senyk，2004）。该法相对简单、标准误较小，并能较准确估计粗碎屑含量（Page-Dumroese等，1999）；可分别确定全土及细土（<2 mm）容重。研究高粗碎屑土壤的养分和碳平衡、并把含量换算为单位面积质量时，细土容重尤其关键，因为C或N通常只分析细土部分。与取芯法和核子仪法相比，主要缺点是劳动量大；偏远样点使用砂测体积还有运输问题，可改用玻璃珠或聚氨酯泡沫（见66.4.4）。"},
+    {"type": "heading", "number": "66.3", "title": "近地表有机层（LFH）", "level": 2},
+    {"type": "heading", "number": "66.3.1", "title": "材料和设备", "level": 3},
+    {"type": "list", "items": ["方框，20 cm×20 cm（已知内面积）", "小刀、弯刀和切刀", "卷尺", "塑料袋", "105 ℃烘箱"]},
+    {"type": "heading", "number": "66.3.2", "title": "步骤", "level": 3},
+    {"type": "steps", "items": [
+      "多数森林土壤不分别计算L、F、H各层容重，而将其作为合并的LFH层测定；如需分层报告，须分别记录每层面积、厚度和干质量。",
+      "把20 cm×20 cm方框水平放在有机层表面，并记录框内实际面积。",
+      "去除地上绿色活体植物，例如草本、禾本科植物和活苔藓。",
+      "沿框内缘切下并收集全部LFH至已标记塑料袋，避免混入矿质土壤；少量矿物质也会因密度差造成显著质量误差。",
+      "在框内均匀分布的位置测定8个LFH厚度读数（覆盖角部、边部和中心），计算平均厚度。",
+      "实验室中于105 ℃烘24 h，冷却后称干质量。若需用鲜样或风干样作化学分析，应先留取代表性子样测水分，用水分结果把所分析样品换算为烘干基。"
+    ]},
+    {"type": "heading", "number": "66.3.3", "title": "计算", "level": 3},
+    {"type": "variables", "items": ["V_LFH：框内LFH体积（cm³）", "A：方框内面积；20 cm×20 cm方框为400 cm²", "Dep̄_LFH：8个LFH厚度读数的算术平均值（cm）", "D_b(LFH)：LFH容重（g·cm⁻³或Mg·m⁻³）", "W_t(LFH)：LFH的105 ℃烘干质量（g）"]},
+    {"type": "heading", "number": "66.3.4", "title": "注释", "level": 3},
+    {"type": "paragraph", "text": "LFH之下为Ah层时，有机层与矿质层的边界可能很难辨认；野外可把鲜样置于拇指与食指间检查，若能感到矿物颗粒，样品很可能混入矿质物质。方框大小应随LFH厚度调整；例如有机层厚度大于20 cm时，可用较小方框限制样品体积，但必须记录实际内面积，不能仍使用400 cm²。"},
+    {"type": "source-fidelity-note", "text": "原书步骤(5)“在每边的角落和中心各测定8次”语义和数量矛盾；据测量目的校正为框内分布的8个读数并取平均。式(66.1)原印Dep_LFH未标平均值；若厚度不均，直接使用单点厚度会系统偏差，故写为Dep̄_LFH。原书将V_LFH解释成“挖坑体积”，已校正为框内LFH体积。"}
+  ],
+  "formulas": [
+    {"label": "66.1", "plain": "V_LFH = A × Dep̄_LFH = 400 cm² × Dep̄_LFH（cm）", "latex": "V_{LFH}=A\\,\\overline{Dep}_{LFH}=400\\,\\mathrm{cm^2}\\times\\overline{Dep}_{LFH}\\,(\\mathrm{cm})", "resultUnit": "cm³"},
+    {"label": "66.2", "plain": "D_b(LFH) = W_t(LFH) / V_LFH", "latex": "D_{b(LFH)}=\\frac{W_{t(LFH)}}{V_{LFH}}", "resultUnit": "g·cm⁻³（数值等于Mg·m⁻³）"}
+  ],
+  "tables": [],
+  "contentSha256": "149b03b3640822679af4ba5f342abd160e2cb1ded62d6428f4a364644e8230da"
+}

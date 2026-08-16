@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 482,
+  "sourceImageSha256": "bd115e217a5b9d3d7e5bd2c6b442d121be0aab4fd9eb7686419b616d497878b0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页和两套OCR，恢复第48章题、四位作者机构和48.1跨页两段；校正DOM/WEOM术语及渗漏仪类型"},
+    "precisionPass": {"status": "verified", "method": "核验DOM占0.04%～0.2%、0.45 μm操作定义、低/高离子强度提取差异及SSOM/WEOM/SEOM边界"},
+    "secondVisualPass": {"status": "verified", "method": "由Gregorich 1998承下句反向复核至章题，检查人名、机构地名、滤膜单位、百分数和全部文献年份；本页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "48", "title": "可溶性有机质的提取和测定", "originalTitle": "Extraction and Analysis of Soluble Organic Matter"},
+    {"type": "author", "name": "Martin H. Chantigny", "affiliation": "Agriculture and Agri-Food Canada, Quebec, Quebec, Canada"},
+    {"type": "author", "name": "Denis A. Angers", "affiliation": "Agriculture and Agri-Food Canada, Quebec, Quebec, Canada"},
+    {"type": "author", "name": "Klaus Kaiser", "affiliation": "Martin Luther University Halle-Wittenberg, Halle, Germany"},
+    {"type": "author", "name": "Karsten Kalbitz", "affiliation": "University of Bayreuth, Bayreuth, Germany"},
+    {"type": "section-heading", "level": 2, "number": "48.1", "title": "引言"},
+    {"type": "paragraph", "text": "土壤可溶性有机质（DOM）只占总有机质很小部分，约0.04%～0.2%（Zsolnay，1996），但因可移动且不稳定，常被视为土壤有机质最活跃组分。它参与养分转运（Murphy等，2000；Michalzik等，2001）、剖面中有机污染物和金属迁移转化（Herbert和Bertsch，1995；Zsolnay，1996）、深层土壤C补给（Michalzik等，2001；Guggenberger和Kaiser，2003），并作为微生物底物（Burford和Bremner，1975；McGill等，1986；Chantigny等，1999；Marschner和Kalbitz，2003）。"},
+    {"type": "paragraph", "text": "操作上，DOM通常定义为通过0.45 μm滤膜后滤液中的有机质（Thurman，1985），特定研究也可用其他孔径，但必须报告。土壤溶液采集方法不同，DOM数量和组成也不同（Zsolnay，1996，2003；Hagedorn等，2002，2004）。温带森林多用无压渗漏仪原位收集，也用有压渗漏仪、抽滤管或离心法；草地和农田更常直接用溶液提取，因耕作会干扰渗漏设备。"},
+    {"type": "paragraph", "text": "低离子强度水溶液提取的有机质称水提取态有机质（WEOM），可在一定条件下作为原位SSOM替代（Herbert和Bertsch，1995；Zsolnay，2003）。高离子强度溶液除DOM外还解吸其他有机质，不能替代原位采集；这些额外组分往往更易生物降解（Guggenberger等，1989；Novak和Bertsch，1991；Hagedorn等，2004），会影响微生物生物量和反硝化、土壤呼吸/碳矿化等过程[续见第483页]。"},
+    {"type": "definition", "term": "DOM操作定义", "text": "本章通用定义为通过规定滤膜的溶液有机质；默认孔径0.45 μm，但具体提取SOP使用0.4 μm聚碳酸酯膜，二者不得互换而不报告。"}
+  ],
+  "formulas": [
+    {"id": "48.1-dom-share", "display": "DOM ≈ 0.04%～0.2% of total soil organic matter", "meaning": "Zsolnay（1996）给出的量级"},
+    {"id": "48.1-operational-filter", "display": "filter pore size = 0.45 μm", "meaning": "DOM的一般操作定义；具体SOP另有0.4 μm膜"}
+  ],
+  "tables": [],
+  "contentSha256": "b3c0b74e398c05bf9eef6708db4328b08a8148210db3ba126a5bbc68a3b91594"
+}

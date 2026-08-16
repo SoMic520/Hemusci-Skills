@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 515,
+  "sourceImageSha256": "4e9172dfd4cecf188b842cc02b6f9682216b31a4fa58b738b89a1aa2bcf25689",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页面与两套OCR，完成Amelung至Puget跨页条目共20条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者重音符号、¹⁴C上标、卷页和书名；确认Angers等（1988）正式卷号454及Brink作者格式"},
+    "secondVisualPass": {"status": "verified", "method": "由Puget跨页条目反向复核至Amelung条，检查题名、连字符、期刊缩写扩展和印刷页码484"}
+  },
+  "blocks": [
+    {"type": "reference", "text": "Amelung, W. 2001. Methods using amino sugars as markers for microbial residues in soil. In: R. Lal, J.M. Kimble, R.F. Follett, and B.A. Stewart, eds. Assessment Methods for Soil Carbon. Lewis Publishers, Boca Raton, FL, pp. 233–272."},
+    {"type": "reference", "text": "Angers, D.A., Nadeau, P., and Mehuys, G.R. 1988. Determination of carbohydrate composition of soil hydrolysates by high-performance liquid chromatography. Journal of Chromatography 454: 444–449."},
+    {"type": "reference", "text": "Appuhn, A., Joergensen, R.G., Raubuch, M., Scheller, E., and Wilke, B. 2004. The automated determination of glucosamine, galactosamine, muramic acid, and mannosamine in soil and root hydrolysates by HPLC. Journal of Plant Nutrition and Soil Science 167: 17–21."},
+    {"type": "reference", "text": "Benzing-Purdie, L. 1981. Glucosamine and galactosamine distribution in a soil as determined by gas-liquid chromatography in soil hydrolysates: Effect of acid strength and cations. Soil Science Society of America Journal 45: 66–70."},
+    {"type": "reference", "text": "Brink, R.H., Jr., Dubach, P., and Lynch, D.L. 1960. Measurement of carbohydrates in soil hydrolysates with anthrone. Soil Science 89: 157–166."},
+    {"type": "reference", "text": "Chantigny, M.H., Angers, D.A., and Beauchamp, C.J. 2000. Decomposition of de-inking paper sludge in agricultural soils as characterized by carbohydrate analysis. Soil Biology and Biochemistry 32: 1561–1570."},
+    {"type": "reference", "text": "Chantigny, M.H., Angers, D.A., Prévost, D., Vézina, L.-P., and Chalifour, F.-P. 1997. Soil aggregation and fungal and bacterial biomass under annual and perennial cropping systems. Soil Science Society of America Journal 61: 262–267."},
+    {"type": "reference", "text": "Cheshire, M.V. 1979. Nature and Origin of Carbohydrates in Soils. Academic Press, London, 216 pp."},
+    {"type": "reference", "text": "Cheshire, M.V. and Mundie, C.M. 1966. The hydrolytic extraction of carbohydrates from soil by sulphuric acid. Journal of Soil Science 17: 372–381."},
+    {"type": "reference", "text": "Feller, C., François, C., Villemin, G., Portal, J.M., Toutain, F., and Morel, J.L. 1991. Nature des matières organiques associées aux fractions argileuses d'un sol ferralitique. Comptes Rendus de l'Académie des Sciences, Paris, Série II 312: 1491–1497."},
+    {"type": "reference", "text": "Greenfield, L.G. 2001. The origin and nature of organic nitrogen in soil as assessed by acidic and alkaline hydrolysis. European Journal of Soil Science 52: 575–583."},
+    {"type": "reference", "text": "Guggenberger, G., Frey, S.D., Six, J., Paustian, K., and Elliott, E.T. 1999. Bacterial and fungal cell-wall residues in conventional and no-tillage agroecosystems. Soil Science Society of America Journal 63: 1188–1198."},
+    {"type": "reference", "text": "Haynes, R.J. and Francis, G.S. 1993. Changes in microbial biomass C, soil carbohydrate composition and aggregate stability induced by growth of selected crop and forage species under field conditions. Journal of Soil Science 44: 665–675."},
+    {"type": "reference", "text": "Ivarson, K.C. and Sowden, F.J. 1962. Methods for the analysis of carbohydrate material in soil: I. Colorimetric determination of uronic acids, hexoses, and pentoses. Soil Science 94: 245–250."},
+    {"type": "reference", "text": "Lowe, L.E. 1993. Total and labile polysaccharide analysis of soils. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. Canadian Society of Soil Science; Lewis Publishers/CRC Press, Boca Raton, FL, pp. 373–376."},
+    {"type": "reference", "text": "Martens, D.A. and Frankenberger, W.T., Jr. 1991. Determination of saccharides in biological materials by high-performance anion-exchange chromatography with pulsed amperometric detection. Journal of Chromatography 546: 297–309."},
+    {"type": "reference", "text": "Martens, D.A. and Loeffelmann, K.L. 2002. Improved accounting of carbohydrate carbon from plants and soils. Soil Biology and Biochemistry 34: 1393–1399."},
+    {"type": "reference", "text": "Oades, J.M., Kirkman, M.A., and Wagner, G.H. 1970. The use of gas-liquid chromatography for the determination of sugars extracted from soils by sulfuric acid. Proceedings of the Soil Science Society of America 34: 230–235."},
+    {"type": "reference", "text": "Oades, J.M. and Wagner, G.H. 1971. Biosynthesis of sugars in soils incubated with ¹⁴C glucose and ¹⁴C dextran. Proceedings of the Soil Science Society of America 35: 914–917."},
+    {"type": "reference", "text": "Parsons, J.W. 1981. Chemistry and distribution of amino sugars in soils and soil organisms. In: E.A. Paul and J.N. Ladd, eds. Soil Biochemistry, Vol. 5. Marcel Dekker, New York, NY, pp. 197–227."},
+    {"type": "reference-continuation", "text": "Puget, P., Angers, D.A., and Chenu, C. 1999. Nature of carbohydrates associated with water-stable aggregates of two cultivated [续见第516页]"},
+    {"type": "source-fidelity-note", "scope": "第515页参考文献勘误", "text": "原书把Angers等（1988）的Journal of Chromatography卷号误印为45；该论文位于卷454、页444–449，已校正。另将Follet校正为Follett，并规范Brink, R.H., Jr.和François等作者格式。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "12e90fdc60e9613cd5634824af1eb1fafb4cf26ae87896303ed7bc95334de038"
+}

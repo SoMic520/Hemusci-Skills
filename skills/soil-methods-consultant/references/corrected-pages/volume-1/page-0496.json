@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 496,
+  "sourceImageSha256": "60afe95ff094d77f70a5ad452e0155e40c6cefd6517289efdda283031cb39b66",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页和两套OCR，完成第49章题、三位作者机构、49.1全文至跨页句"},
+    "precisionPass": {"status": "verified", "method": "核验1%～5%、CO₂、10 d、ATP、qCO₂与Cmic/Corg含义，恢复Brookes、Anderson、Barajas-Aceves等姓名"},
+    "secondVisualPass": {"status": "verified", "method": "由页末‘释放到土…’反向复核至章题和作者，检查所有引文、缩写、下标和方法层级；印刷页码465"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "level": 1, "number": "第49章", "title": "微生物量碳、氮、磷和硫"},
+    {"type": "author", "name": "R.P. Voroney", "affiliation": "University of Guelph, Guelph, Ontario, Canada"},
+    {"type": "author", "name": "P.C. Brookes", "affiliation": "Rothamsted Research, Harpenden, Hertfordshire, United Kingdom"},
+    {"type": "author", "name": "R.P. Beyaert", "affiliation": "Agriculture and Agri-Food Canada, London, Ontario, Canada"},
+    {"type": "section-heading", "level": 2, "number": "49.1", "title": "引言"},
+    {"type": "paragraph", "text": "土壤微生物量测定可用于研究各种陆地生态系统中土壤有机质的动态和养分循环。它表示生活在土壤中的微生物体生物量；耕地土壤中，微生物量约占土壤总有机质的1%～5%（Jenkinson，1988；Smith和Paul，1990）。微生物量C、N、P和S是研究土壤有机质转化的基础指标（Brookes等，1990）。"},
+    {"type": "paragraph", "text": "这些数据可评价土壤管理（Powlson等，1987）和耕作（Spedding等，2004）引起的土壤有机质变化，评估管理对土壤强度与孔隙度、土壤结构和团聚体稳定性的影响（Hernández-Hernández和López-Hernández，2002），并衡量土壤N肥力（Elliott等，1996）。"},
+    {"type": "paragraph", "text": "土壤微生物量对环境条件变化非常敏感，可作为土壤生态系统遭受外来压力的早期预警指标；在生态系统出现可见变化前，其他指标相对稳定（Barajas-Aceves等，1999）。它可衡量重金属（Renella等，2004；Barajas-Aceves，2005）、杀虫剂（Harden等，1993）、抗生素（Castro等，2002）等污染物的生态影响，也可监测石油污染土壤的生物修复。"},
+    {"type": "paragraph", "text": "将单位微生物量的CO₂产生速率（代谢商qCO₂）与以土壤有机碳百分比表示的微生物量（微生物商Cmic/Corg）结合，是有用且可靠的土壤受压指标（Barajas-Aceves等，1999）。"},
+    {"type": "paragraph", "text": "Jenkinson（1988）、Smith和Paul（1990）及Carter等（1999）论述了土壤微生物量测定的重要性；Horwath和Paul（1994）、Joergensen和Brookes（2005）综述了测定方法。"},
+    {"type": "paragraph", "text": "土壤微生物量可通过多种直接或间接技术测定：土壤有机体直接显微计数并由体积、密度、固体含量和C含量换算（van Veen和Paul，1979）；根据土壤ATP（Contin等，2001；Dyckmans等，2003）、精氨酸矿化（Lin和Brookes，1999）、蒽酮反应C（Badalucco等，1992）、茚三酮反应N（Amato和Ladd，1988；Mondini等，2002）或底物诱导呼吸（Anderson和Domsch，1978；Graham和Haynes，2005）估算。"},
+    {"type": "paragraph", "text": "最初的微生物量测定以土壤氯仿熏蒸10 d后的CO₂产量为依据（Jenkinson，1966）。氯仿蒸气溶解细胞膜磷脂，杀死土壤有机体并把细胞内容物释放到土壤中。[续见第497页]"},
+    {"type": "source-fidelity-note", "scope": "49.1姓名与年份勘误", "text": "页面把Brookes印为Brooks、Anderson印为Aderson、Elliott印为Elliot、Harden印为Harde、Contin印为Conton，并把Mondini等的出版年误作2003；已分别校正为Brookes、Anderson、Elliott、Harden、Contin和Mondini等（2002）。‘水合茋三酮’按ninhydrin的规范名称校正为‘茚三酮’。"}
+  ],
+  "formulas": [
+    {"id": "49.1-microbial-quotient", "display": "microbial quotient = Cmic/Corg × 100%", "meaning": "微生物量C占土壤有机C的百分比"},
+    {"id": "49.1-metabolic-quotient", "display": "qCO₂ = CO₂-C production rate/Cmic", "meaning": "单位微生物量C的即时呼吸速率；报告时必须同时给出时间单位"}
+  ],
+  "tables": [],
+  "contentSha256": "1c45d41dcce9f78a7ef5caacfcd56cd8b7667a9d42334c1d051af7cbfff4690d"
+}

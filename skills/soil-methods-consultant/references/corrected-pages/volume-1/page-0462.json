@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 462,
+  "sourceImageSha256": "1d5b53a657c857f1cceabbdfe88a8724b229de87401c7379bbcf94fe9224f846",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页、两套OCR和英文原章，恢复红外气体分析、吸附/吸收、电导、气相色谱、色谱柱及图45.1文字"},
+    "precisionPass": {"status": "verified", "method": "核验IRGA、CO₂、20～50 mL、1 mol·L⁻¹ NaOH、0.5 mol·L⁻¹ HCl的大小写、上下标和负指数；确认Mason/Kilner型及材料层级"},
+    "secondVisualPass": {"status": "verified", "method": "由材料（5）反向复核至45.3.2，二次检查四个节标题、图45.1三个标签和全部文献年份；印刷页码431"}
+  },
+  "blocks": [
+    {"type": "section-heading", "level": 3, "number": "45.3.2", "title": "红外气体分析法"},
+    {"type": "paragraph", "text": "CO₂吸收红外区域的辐射，因此红外气体分析仪（IRGA）通过检测吸光度，测定密闭或开放培养系统中的CO₂含量（Bekku等，1995；Schinner等，1996；Rochette等，1997；King和Harrison，2002）。市售的多种土壤CO₂生成量测定仪器由光合作用测定系统改装而来。"},
+    {"type": "section-heading", "level": 3, "number": "45.3.3", "title": "电导法"},
+    {"type": "paragraph", "text": "碱性溶液的电阻率随CO₂吸收量增加而降低，可据此用电导法定量测定碱液所吸收的CO₂。虽可组装独立电导系统（Chapman，1971；Anderson和Ineson，1982），但该CO₂检测装置通常是多通道呼吸计的一部分（Nordgren，1988）。这种系统价格昂贵，但可对样品进行多次、连续测定。"},
+    {"type": "section-heading", "level": 3, "number": "45.3.4", "title": "气相色谱法"},
+    {"type": "paragraph", "text": "气相色谱法可进行高精度分析，但只适用于累积CO₂的培养法。多种气相色谱仪均可测定CO₂；最常用的方法用分离色谱柱，并用热导（如热线）检测器检测CO₂（Hopkins和Shiel，1996；Schinner等，1996）。其优点是仪器具有多种功能，可重新配置进样器、色谱柱和检测器，测定CO₂以外的多种气体。"},
+    {"type": "section-heading", "level": 2, "number": "45.4", "title": "用碱液吸收CO₂的密闭容器培养法"},
+    {"type": "section-heading", "level": 3, "number": "45.4.1", "title": "材料与试剂"},
+    {"type": "materials-list", "items": [
+      {"number": "（1）", "text": "带有气密盖的培养瓶（Mason或Kilner型；见图45.1）。"},
+      {"number": "（2）", "text": "装碱液和水的玻璃小瓶，容量20～50 mL。"},
+      {"number": "（3）", "text": "1 mol·L⁻¹氢氧化钠溶液。"},
+      {"number": "（4）", "text": "0.5 mol·L⁻¹盐酸溶液。"},
+      {"number": "（5）", "text": "酚酞指示剂。"}
+    ]},
+    {"type": "figure", "number": "图45.1", "title": "利用碱液吸收CO₂的密闭容器培养装置", "labels": ["水", "碱液", "土壤样品"], "description": "气密培养瓶底部装土壤样品，土样上放置相互独立的水小瓶与碱液小瓶。"}
+  ],
+  "formulas": [
+    {"id": "45.4.1-naoh", "display": "c(NaOH) = 1 mol·L⁻¹", "meaning": "CO₂碱性吸收液浓度"},
+    {"id": "45.4.1-hcl", "display": "c(HCl) = 0.5 mol·L⁻¹", "meaning": "反滴定盐酸浓度"}
+  ],
+  "tables": [],
+  "contentSha256": "59f962552fb7a40f1636a9e30fdd321a056e49401caebd482941edd32ed1a548"
+}

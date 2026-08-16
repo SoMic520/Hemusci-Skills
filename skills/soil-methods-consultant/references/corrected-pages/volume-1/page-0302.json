@@ -1,0 +1,48 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 302,
+  "sourceImageSha256": "9c67bfcc39f73523fa5e137b9fb759ac99c5a843de0801c0657f36b9d55e198c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第30章第271页，人工恢复30.6.2转甲基酯化续页、GC程序、峰鉴定、式（30.2）、30.6.3注释及30.7跨页引言"},
+    "precisionPass": {"status": "verified", "method": "核对80/37/250/300/140/210/250℃、10/30/5/12 min、1/10/50/100 μL、5:1分流、2 μL进样、2/5℃·min⁻¹程序，以及公式A₁₆:₁ω₅、Aᵢₛᵣᵣᵈ、Cᵢₛᵗᵈ和D的下标"},
+    "secondVisualPass": {"status": "verified", "method": "放大复核式（30.2）及变量说明，从页底‘菌根生’跨页断句反向检查至页首步骤（3），确认‘国内标准’、‘完全弃掉液体部分’与Aᵢₛᵣᵣᵈ均为原书字样"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第30章｜丛枝菌根｜"},
+    {"type": "procedure-step", "number": "（3）", "section": "30.6.2.3", "continuesFromPage": 301, "text": "将小瓶放在80℃水浴槽中加热10 min。"},
+    {"type": "procedure-step", "number": "（4）", "section": "30.6.2.3", "text": "冷却至室温。"},
+    {"type": "procedure-step", "number": "（5）", "section": "30.6.2.3", "text": "加入1巴斯德吸液管的己烷，小瓶涡旋30 s，沉降5 min。"},
+    {"type": "procedure-step", "number": "（6）", "section": "30.6.2.3", "text": "弃掉下层组分。"},
+    {"type": "procedure-step", "number": "（7）", "section": "30.6.2.3", "text": "加1 mL超纯水，涡旋30 s，静置5 min。"},
+    {"type": "procedure-step", "number": "（8）", "section": "30.6.2.3", "text": "完全弃掉液体部分。"},
+    {"type": "source-fidelity-note", "scope": "30.6.2.3（8）", "severity": "critical", "text": "原书印作‘完全弃掉液体部分’，但后续需从己烷相中回收脂肪酸甲酯；若将全部液体弃去将丢失分析物。该句很可能遗漏了‘下层水相’等相别限定，实施前必须核对原方法的分层方向和取舍，不得按字面丢弃全部液体。"},
+    {"type": "procedure-step", "number": "（9）", "section": "30.6.2.3", "text": "按国内标准，加入10 μL十九烷酸甲酯。"},
+    {"type": "source-fidelity-note", "scope": "30.6.2.3（9）", "severity": "major", "text": "原书的‘按国内标准’是将as internal standard误译为国内/国家标准；此处的10 μL十九烷酸甲酯（19:0 FAME）用作内标，与国家或国内标准方法无关。"},
+    {"type": "procedure-step", "number": "（10）", "section": "30.6.2.3", "text": "在37℃通风橱中的N₂气流下干燥样品。"},
+    {"type": "procedure-step", "number": "（11）", "section": "30.6.2.3", "text": "用玻璃注射器注入50 μL己烷洗涤小瓶。"},
+    {"type": "procedure-step", "number": "（12）", "section": "30.6.2.3", "text": "将样品转移至100 μL尖底玻璃内衬管，并置于GC小瓶内。"},
+    {"type": "heading", "level": 3, "number": "4", "title": "脂肪酸气相色谱测定"},
+    {"type": "procedure-step", "number": "（1）", "section": "30.6.2.4", "text": "以5:1分流模式进样（2 μL）。"},
+    {"type": "procedure-step", "number": "（2）", "section": "30.6.2.4", "text": "例如，在我们的程序中进样器要保持在250℃，FID检测器保持在300℃。初始炉温为140℃，保持5 min，以2℃/min速度升至210℃，然后以5℃/min速度从210℃升至250℃，最后保持12 min。"},
+    {"type": "heading", "level": 3, "number": "5", "title": "峰鉴定"},
+    {"type": "paragraph", "text": "峰的鉴定是依据保留时间与已知的16:1ω5标准进行对比。根据特定峰下的相对面积，同时与已知的19:0的峰值对应后的相对面积进行对比，该峰值是由溶于己烷中一系列浓度的19:0 FAME标准物质的标准曲线校正得到，可得出特定峰对应后的浓度。单个PLFA结果的丰度由每克干土PLFA的微克数表示。"},
+    {"type": "paragraph", "text": "脂肪酸含量由下列公式计算得到："},
+    {"type": "equation-reference", "number": "30.2", "text": "16:1ω5 = (A₁₆:₁ω₅/Aᵢₛᵣᵣᵈ)CᵢₛᵗᵈD"},
+    {"type": "equation-variables", "text": "式中，16:1ω5是AM真菌指示物质的计算浓度（每单位体积的摩尔数或重量）；A₁₆:₁ω₅是AM真菌指示物质的GC面积；Aᵢₛᵣᵣᵈ是由GC数据系统（无单位）确定的国内进样标准GC面积；Cᵢₛᵗᵈ是给定的国内进样标准浓度；D是适当的稀释因子。"},
+    {"type": "source-fidelity-note", "scope": "式（30.2）", "severity": "major", "text": "原书将internal standard连续误译为‘国内进样标准’，应理解为‘内标’。此外公式和变量说明印作Aᵢₛᵣᵣᵈ，而浓度写作Cᵢₛᵗᵈ，下标多出的r前后不一致。若两者均指19:0 FAME内标，规范记号应统一为Aᵢₛᵗᵈ和Cᵢₛᵗᵈ；原书记号已保留，执行时必须核对数据处理表的变量映射。"},
+    {"type": "validated-correction", "scope": "式（30.2）记号规范化", "text": "16:1ω5 = (A₁₆:₁ω₅/Aᵢₛᵗᵈ)·Cᵢₛᵗᵈ·D，其中Aᵢₛᵗᵈ为19:0 FAME内标峰面积，Cᵢₛᵗᵈ为内标浓度。该规范式仅纠正下标与译名，不改变原书的面积比×内标浓度×稀释因子计算结构。"},
+    {"type": "heading", "level": 2, "number": "30.6.3", "title": "注释"},
+    {"type": "note", "text": "所有步骤所用溶剂均为HPLC级，离心管和小瓶均为玻璃制品，且旋盖为聚四氟乙烯材质。有机溶剂均有毒且必须在通风橱下操作。禁止使用封口膜。必须非常小心避免外源性脂质污染。例如，推荐使用手套操作。细菌和腐生真菌脂肪酸混合指示物质（色谱科细菌酸甲酯#47080-U）可结合AM真菌指示物质16:1ω5同时获得整个土壤微生物群落信息。"},
+    {"type": "source-fidelity-note", "scope": "30.6.3产品名", "text": "原书印作‘色谱科细菌酸甲酯#47080-U’，应指Supelco的Bacterial Acid Methyl Esters Mix（货号/CRM 47080-U）。订购或替代时应以产品编号、组分证书和分析目标为准，不得仅按‘色谱科’中文字面检索。"},
+    {"type": "heading", "level": 1, "number": "30.7", "title": "AM真菌根外菌丝的测定"},
+    {"type": "paragraph", "continuesOnPage": 303, "text": "研究AM真菌根外菌丝的方法有很多。AM真菌在转导根系培养基中的成功培养让人们对AM真菌生理学有了大量的认识。这部分的工作可见Fortin的（2002）综述。人们建立了一个人造系统，将与AM共生的植物组成减少至只剩常由发根农杆菌Ri质粒转导的根系。Giovannetti与她的研究小组成功利用一种三层膜方法获得了许多关于AM真菌根外菌丝体的信息（Giovannetti等，1993，2001）。尽管所产生的共生环境是人造的而且是二维的，但该方法仍与使用整个植物的真实情况很接近。在该方法中，将干净的孢子放在两个置于直径14 cm皮氏培养皿上的潮湿无菌石英砂粒上的7号微孔滤膜（0.45 μm孔径）中发芽。干净的植物幼苗置于三层膜装置中。三层膜装置以固定时间间隔收获植物以监测菌根生"},
+    {"type": "printed-page-number", "text": "271"}
+  ],
+  "formulas": [
+    {"scope": "式（30.2）原书印刷式", "label": "30.2", "display": "16:1ω5 = (A₁₆:₁ω₅/Aᵢₛᵣᵣᵈ)CᵢₛᵗᵈD", "latex": "16{:}1\\omega5=\\left(\\frac{A_{16{:}1\\omega5}}{A_{istrd}}\\right)C_{istd}D", "status": "source-notation-inconsistent"},
+    {"scope": "式（30.2）规范记号", "label": "30.2-normalized", "display": "16:1ω5 = (A₁₆:₁ω₅/Aᵢₛᵗᵈ)·Cᵢₛᵗᵈ·D", "latex": "16{:}1\\omega5=\\left(\\frac{A_{16{:}1\\omega5}}{A_{istd}}\\right)C_{istd}D", "status": "normalized-internal-standard-notation"}
+  ],
+  "tables": [],
+  "contentSha256": "3e479990b6f5e21e1f00e6a0e09519a2949dd1702d8b149185d5bc26553703ca"
+}

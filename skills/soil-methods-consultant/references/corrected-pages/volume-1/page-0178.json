@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 178,
+  "sourceImageSha256": "1b85cd3c900f06e6b7931393f2b26a7adcef512342b0eed2cee76161c71cf2bc",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第18章章首页，并与Apple Vision、PaddleOCR交叉比对，人工恢复离子交换原理、求和/置换法、CEC/AEC定义及三项误差来源"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验cmol(+) kg⁻¹、cmol(−) kg⁻¹、CaSO₄·H₂O、K⁺、NH₄⁺、Al³⁺、Fe³⁺、pH 7.0/8.2、CEC/AEC/PZC及18.2/18.3交叉引用"},
+    "secondVisualPass": {"status": "verified", "method": "从末段PZC反向复核至章名与作者机构，确认原书石膏式仅印CaSO₄·H₂O（不改作二水合物）、全部层级及章首无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第18章", "title": "离子交换与交换性阳离子"},
+    {"type": "author", "text": "W.H. Hendershot and H. Lalande"},
+    {"type": "affiliation", "text": "McGill University"},
+    {"type": "affiliation", "text": "Sainte Anne de Bellevue, Quebec, Canada"},
+    {"type": "author", "text": "M. Duquette"},
+    {"type": "affiliation", "text": "SNC-Lavalin Montreal, Quebec, Canada"},
+    {"type": "section-heading", "level": 2, "number": "18.1", "title": "引 言"},
+    {"type": "paragraph", "text": "土壤矿物晶格内部离子的同晶置换（永久电荷）或在晶格矿物的边面及氧化物、氢氧化物、含水氧化物和有机质表面进行的水解反应（可变电荷）使土壤带有电荷。这些电荷又可以通过吸引带相反电荷的离子（可交换离子）而形成复杂的离子交换复合体。离子交换测定方法的原理就是用已知离子去饱和土壤离子交换复合体，将其带电表面的可交换离子交换到溶液中，这个过程符合质量作用定律。通过计算代换下来的阳离子总量可以确定土壤的离子交换量，此法称为求和法。用于饱和土壤离子交换体的离子总量，即离子指数，可以被另一种不同的盐离子替换进入溶液进行测定，从测定得到的被代换离子总量可以计算离子指数，作为离子交换量，此法称为置换法。"},
+    {"type": "paragraph", "text": "土壤阳离子交换量（CEC）是指带负电荷的土壤胶体表面所能吸附的可交换性离子总量（Bache，1976）。结果通常用每千克土壤的正电荷厘摩尔数表示（cmol(+) kg⁻¹）。阴离子交换量（AEC）则以负电荷厘摩尔数表示（cmol(−) kg⁻¹）。在加拿大，大部分土壤的阳离子交换量远大于阴离子交换量，因此在一般的土壤分析过程中只测定阳离子交换量和可交换阳离子。"},
+    {"type": "paragraph", "text": "阳离子交换量的测定应该考虑以下三方面的问题。"},
+    {"type": "consideration-item", "number": "（1）", "text": "因为可溶性盐、碳酸钙和石膏（CaSO₄·H₂O）的溶解带来的误差。"},
+    {"type": "consideration-item", "number": "（2）", "text": "K⁺和NH₄⁺在蛭石和云母矿物，包括伊利石和含水云母矿物的晶层内专性吸附。"},
+    {"type": "consideration-item", "number": "（3）", "text": "土壤颗粒表面三价阳离子，例如，Al³⁺和Fe³⁺的专性吸附。"},
+    {"type": "paragraph", "text": "在通常情况下，采用与待测土壤浸提液具有相似浓度和pH值的试剂来测定CEC可以减小误差。对于干旱地区的土壤，采用pH缓冲值为7.0或8.2的高浓度饱和浸提液，可以降低由于碳酸钙和石膏溶解产生的误差（Thomas，1982）。对于酸性土壤，pH值为7.0或8.2的缓冲溶液不能有效地交换土壤胶体表面的三价阳离子，采用非缓冲溶液浸提的方法可以更好地测定其CEC和交换性阳离子。"},
+    {"type": "paragraph", "text": "对于农田土壤，pH缓冲溶液法因为不受施肥和施用石灰的影响而被广泛使用。对于森林土壤和其他低pH值的土壤，采用与土壤pH值一致的浸提液，可以更准确地反映田间条件下土壤的交换性阳离子和CEC（见18.2）。"},
+    {"type": "paragraph", "text": "含有一定量无定形矿物母质的土壤，例如，灰化土、一些火烧土和含有火山灰的土壤，会因为土壤酸化和施用石灰而引起CEC和AEC在数量级上的变化。如果要研究因为土壤pH值变化而引起的土壤电荷性质改变，那么参见18.3中基于pH值的CEC和AEC测定方法。这种方法可以提供比电位滴定法更多的有用信息，比如这两种测定方法都可以给出零电荷点（PZC），但基于pH值的CEC和AEC测定方法还可以确定任意pH值条件下的绝对交换量。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e97faa92a08b44455be8ef94403d4766d2fbef39344da9a864517565e7e0bd4a"
+}

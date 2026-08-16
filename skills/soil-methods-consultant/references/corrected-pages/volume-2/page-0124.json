@@ -1,0 +1,56 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 124,
+  "sourceImageSha256": "7a116379e1db9531c23cd99a1c0a7a3cac099ad532d2149dae093754aa667e17",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段对照原分辨率图和两套OCR，完成式(66.3)—(66.9)、变量定义、66.4.4及参考文献Alexander至Huntington跨页起始"},
+    "precisionPass": {"status": "verified", "method": "以质量与体积量纲复算全部7式，核验2.65 g·cm⁻³、10 cm、2 h、细土/全土定义和参考文献卷页"},
+    "secondVisualPass": {"status": "verified", "method": "由Huntington跨页题名反向复核至式(66.3)，检查SW_B/SW_A相减方向、锥体校正、排除体积和原印式(66.7)单位错误；印刷页码633"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "大根系的体积和质量可能很重要，可用与粗碎屑相同的质量—密度方法求体积；若根系密度不同于岩石，必须单独使用其实际密度。"},
+    {"type": "variables", "items": [
+      "WSH：实际进入所挖孔穴的砂质量（g）",
+      "SW_B：填孔前装置与砂的总质量（g）",
+      "SW_A：填满孔穴后装置与余砂的总质量（g）",
+      "W_SC：按同样操作预先标定的、仅填充锥体及底板孔所需砂质量（g）",
+      "V_H：孔穴总体积（cm³）",
+      "D_b(sand)：标定砂的体积密度（g·cm⁻³）",
+      "V_R：>2 mm粗碎屑体积（cm³）",
+      "W_R：>2 mm粗碎屑干质量（g）",
+      "D_p(rock)：粗碎屑颗粒密度（g·cm⁻³）；2.65 g·cm⁻³只是常用矿物近似值",
+      "V_F：<2 mm细土所占体积（cm³）",
+      "DWF：<2 mm细土烘干质量（g）",
+      "BD_F：细土容重（g·cm⁻³或Mg·m⁻³）",
+      "DWC：>2 mm粗碎屑及报告定义中其他计入全土的组分干质量（g）",
+      "TW：孔穴所移出并计入全土定义的全部物质干质量（g）",
+      "BD_T：全土容重（g·cm⁻³或Mg·m⁻³）"
+    ]},
+    {"type": "paragraph", "text": "若除去粗碎屑外还单独移出了不可忽略的大根、木块或其他不属于细土的组分，细土体积必须再扣除各组分体积：V_F=V_H−V_R−V_root−…。只有这些组分体积已并入V_R或确可忽略时，才可直接使用原式(66.6)。"},
+    {"type": "heading", "number": "66.4.4", "title": "注释", "level": 3},
+    {"type": "paragraph", "text": "孔穴体积也可用玻璃珠或聚氨酯泡沫测定。玻璃珠法先用塑料袋贴合孔壁，再装珠至基准平面，随后把珠倒入量筒测体积。泡沫法将聚氨酯泡沫置入孔中，用硬板覆盖至与基准面一致，并在泡沫固化时保持固定；快速固化泡沫通常约需2 h。回实验室后用排水法测泡沫复制体体积（Muller和Hamilton，1992），不得把吸水量误当体积。"},
+    {"type": "paragraph", "text": "需在多个深度或水平位置测容重时，先挖比目标深度更深的沟或坑，把底板置于沟边。表层测完后，在底板面积范围内继续移除土体至下一层，并整平新取样面。底板孔常为直径10 cm；较大孔可降低样品变异，但样品量和运输负担增加。若单块石头占孔穴体积一半以上，应另选样点重新取样。"},
+    {"type": "references", "items": [
+      "Alexander, E.B. 1989. Bulk density equations for southern Alaska soils. Can. J. Soil Sci. 69:177–180.",
+      "Blake, G.R. and Hartge, K.H. 1986. Bulk density. In: A. Klute, ed. Methods of Soil Analysis, Part 1. Agronomy No. 9. American Society of Agronomy, Madison, WI, 464–475.",
+      "Busscher, W.J., Bauer, P.J., Camp, C.R., and Sojka, R.E. 1997. Correction of cone index for soil water content differences in a coastal plain soil. Soil Tillage Res. 43:205–217.",
+      "De Vos, B., van Meirvenne, M., Quataert, P., Deckers, J., and Muys, B. 2005. Predictive quality of pedotransfer functions for estimating bulk density of forest soils. Soil Sci. Soc. Am. J. 69:500–510.",
+      "Grigal, D.F., Brovold, S.L., Nord, W.S., and Ohmann, L.F. 1989. Bulk density of surface soils and peat in the north central United States. Can. J. Soil Sci. 69:895–900.",
+      "Huntington, T.G., Johnson, C.E., Johnson, A.H., Siccama, T.G., and Ryan, D.F. 1989. Carbon, organic matter, and bulk density …"
+    ]},
+    {"type": "source-fidelity-note", "text": "原书式(66.7)左端单位印为cm³，量纲错误，已校正为g·cm⁻³（或Mg·m⁻³）。原式(66.6)只扣岩石体积，但相邻正文明确大根体积也可能重要，故补出适用于分离大根等组分的通式，并保留原式成立条件。原书称D_p(rock)为“比重”且固定取2.65 g·cm⁻³；带单位的量实际是颗粒密度，2.65仅为矿物粗碎屑近似值。Huntington题名跨页原印Spodsol，规范拼写应为Spodosol，见下页完整条目。"}
+  ],
+  "formulas": [
+    {"label": "66.3", "plain": "WSH = (SW_B − SW_A) − W_SC", "latex": "WSH=(SW_B-SW_A)-W_{SC}", "resultUnit": "g"},
+    {"label": "66.4", "plain": "V_H = WSH / D_b(sand)", "latex": "V_H=\\frac{WSH}{D_{b(\\mathrm{sand})}}", "resultUnit": "cm³"},
+    {"label": "66.5", "plain": "V_R = W_R / D_p(rock)", "latex": "V_R=\\frac{W_R}{D_{p(\\mathrm{rock})}}", "resultUnit": "cm³"},
+    {"label": "66.6", "plain": "V_F = V_H − V_R（无其他排除组分时）", "latex": "V_F=V_H-V_R", "resultUnit": "cm³"},
+    {"label": "66.7", "plain": "BD_F = DWF / V_F", "latex": "BD_F=\\frac{DWF}{V_F}", "resultUnit": "g·cm⁻³（数值等于Mg·m⁻³）"},
+    {"label": "66.8", "plain": "TW = DWF + DWC", "latex": "TW=DWF+DWC", "resultUnit": "g"},
+    {"label": "66.9", "plain": "BD_T = TW / V_H", "latex": "BD_T=\\frac{TW}{V_H}", "resultUnit": "g·cm⁻³（数值等于Mg·m⁻³）"},
+    {"label": "66.6校正通式", "plain": "V_F = V_H − V_R − V_root − …", "latex": "V_F=V_H-V_R-V_{\\mathrm{root}}-\\cdots", "resultUnit": "cm³"}
+  ],
+  "tables": [],
+  "contentSha256": "2b4104f6cfed23521b508734be4900600ead1bfae35c8cea2ba48c3dd4b8859d"
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 269,
+  "sourceImageSha256": "9fb4b0d125934c0887710f53b064addbc707afcdf37407d540cea205f0d04f8e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第27章第238页，人工恢复27.3.1续文、27.3.2原理、材料和试剂及步骤（1）～（3）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验ECEC/CEC、mol·L⁻¹、mg·L⁻¹、g·L⁻¹、NH₄Cl、LaCl₃·7H₂O、CsCl、AAS、rpm、离心力g、化学式上下标及全部浓度体积"},
+    "secondVisualPass": {"status": "verified", "method": "从步骤（3）反向复核至页首‘氯化钙浸提法’，确认pH续文→27.3.2→材料和试剂→步骤层级及印刷页码238"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "body-continuation", "continuesFromPage": 268, "text": "氯化钙浸提法。通过在已知浓度的电解质中测定土壤pH值，可以在很大的程度上消除土壤溶液中不同离子强度的影响。另外，除非受水分含量变化的影响，否则一年内森林土壤的离子强度几乎不变。因此，很多研究者选择使用水浸提法测得的pH值。由于待测液的离子强度较低，故测得的pH值将会更接近植物生长期内在田间监测的pH值。研究者应该注意由于土壤采集和烘干造成的干扰对pH值测定的影响（Courchesne等，1995）。在第16章中，已经对如何选择pH值测定方法进行了讨论，并对相关的方法进行了详细描述。"},
+    {"type": "heading", "level": 2, "number": "27.3.2", "title": "有效阳离子交换量和交换性阳离子"},
+    {"type": "principle", "text": "目前，通常用无缓冲性的氯化钡溶液测定有效阳离子交换量（ECEC）。推荐使用氯化钡强迫交换法（Gillman和Sumpter，1986）测定各种类型的土壤（不包括含盐、碳酸盐或沸石的土壤）的阳离子交换量（CEC）（Sumner和Miller，1996）。同样，第18章提出了一种简化的氯化钡浸提法，与氯化铵或氯化钾浸提法相比，氯化钡浸提法能置换离子强度较低且未被优先吸附的三价阳离子。虽然当浸提液的离子强度为0.3 mol·L⁻¹（0.1 mol·L⁻¹氯化钡）时会比砂质灰化土的土壤溶液高3个数量级，从而使原土壤溶液的pH值在浸提过程中发生改变，但是与高浓度的浸提液相比（如离子强度为1 mol·L⁻¹的1 mol·L⁻¹ KCl或NH₄Cl），它对pH值的影响较小。在这个方法中，可以通过计算交换性阳离子（Ca、Mg、K、Na、Al、Fe和Mn）的总量得到有效阳离子交换量。"},
+    {"type": "method-selection", "text": "对于酸性森林土壤，例如，灰化土和暗黑色不饱和棕壤（或联合国粮农组织提出的不饱和雏形土）（1974），强烈建议使用第18章提出的方法。对于北方平原的森林，其土壤具有较高的pH值（5.5～6.0）及较低的交换性铝和锰含量（例如，黑色饱和棕壤（或饱和雏形土）、灰色淋溶土（或漂白淋溶土）和黑钙土），则通常可以用无缓冲性的氯化铵溶液浸提（Kalra和Maynard，1991）。虽然大多数农学家为了管理或控制土壤pH值（通常通过施用石灰来实现）而需要知道交换位点的数量，但是同时森林土壤学家也想要了解交换面上阳离子的种类（碱基与酸基）。因此，这里提出的方法是用无缓冲性的氯化铵溶液进行一步浸提，从而可以测定有效阳离子交换量及Ca、Mg、K和Na各自对有效阳离子交换量的贡献量（若有需要，则包括Al、Fe和Mn）。"},
+    {"type": "procedure-group", "number": "1.", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "text": "有螺旋盖的离心管（50 mL）。"},
+    {"type": "material-item", "number": "（2）", "text": "能使用50 mL离心管的超速离心机。"},
+    {"type": "material-item", "number": "（3）", "text": "往复式振荡器。"},
+    {"type": "reagent-item", "number": "（4）", "text": "1 mol·L⁻¹氯化铵溶液：用重去离子水将53.5 g NH₄Cl溶解，并定容至1 000 mL容量瓶中。"},
+    {"type": "reagent-item", "number": "（5）", "text": "利用原子吸收试剂级1 000 mg·L⁻¹的标准物质来制备Ca、Mg、K、Na、Al、Fe和Mn的标准样品，这些标准样品中基质的浓度必须与待测样品中NH₄Cl的浓度相当（稀释或未稀释的基质）。"},
+    {"type": "reagent-item", "number": "（6）", "text": "100 mg·L⁻¹镧溶液：将53.5 g LaCl₃·7H₂O溶解，并定容至200 mL容量瓶中（用于原子吸收光谱仪（AAS）分析）。"},
+    {"type": "source-fidelity-note", "text": "原书试剂（6）标题印为‘100 mg·L⁻¹镧溶液’，但指定的53.5 g LaCl₃·7H₂O定容至200 mL对应约100 g·L⁻¹ La，而非100 mg·L⁻¹，两者相差1 000倍。配制时应按‘100 g·L⁻¹镧溶液’理解；原文与经化学计量验证的勘误同时保留。"},
+    {"type": "reagent-item", "number": "（7）", "text": "100 g·L⁻¹铯溶液：将25.2 g CsCl溶解，并定容至200 mL容量瓶中（用于AAS分析）。"},
+    {"type": "material-item", "number": "（8）", "text": "Whatman 41号滤纸。"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取约2.5 g干的有机土壤（腐殖质层样品）或细质矿质土壤，以及约12.5 g干的粗质（<2 mm）矿质土壤于50 mL离心管中，记录土壤的准确重量（精度0.001 g），并设置空白、重复和质量控制样品。"},
+    {"type": "procedure-step", "number": "（2）", "text": "向每个离心管中加25.0 mL 1 mol·L⁻¹ NH₄Cl溶液，并在往复式振荡器上缓慢振荡（15 rpm）2 h。"},
+    {"type": "procedure-step", "number": "（3）", "text": "将振荡后的样品在7 000 g力下离心15 min，之后用Whatman 41号滤纸过滤上清液。"},
+    {"type": "printed-page-number", "text": "238"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "6d7f3e011aed8c39497f9205cc3ea6d650efed8e921f90666bb3a3851e9bab5d"
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 472,
+  "sourceImageSha256": "72533ab4a3f875a14a610997b4ccfd7d6d167e99f8b87e9942c6f2c1fa02d223",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面完成46.5三段及参考文献前8条，校正生物/化学分析、总矿化/固定/净矿化关系和断词"},
+    "precisionPass": {"status": "verified", "method": "核验热2 mol·L⁻¹ KCl水解有机氮为NH₄⁺-N的含义，以及每条参考文献作者、年份、卷页"},
+    "secondVisualPass": {"status": "verified", "method": "从Christensen 1999反向复核至46.5标题，确认无公式、图表遗漏并检查KCl负指数；印刷页码441"}
+  },
+  "blocks": [
+    {"type": "section-heading", "level": 2, "number": "46.5", "title": "氮矿化能力的化学指标"},
+    {"type": "paragraph", "text": "生物培养法耗时，因此有人尝试以化学分析替代。化学法较快且分析精密度较高，但没有浸提剂能模拟培养土壤中微生物介导的矿质氮释放。多数化学法只选择性提取一种或数种氮形态。氮矿化是由矿质氮产生（总矿化）和消耗（固定）共同决定的复杂生物过程，培养测得的净矿化氮是总矿化与总固定的差额。化学测定活性氮可能估计总矿化（Wang等，2001），但不包含固定过程，因此用来预测净矿化更不确定。"},
+    {"type": "paragraph", "text": "Keeney（1982）列出多种氮有效性化学指标，但均未成为通用或常规土壤肥力评价。较受关注的是热2 mol·L⁻¹ KCl浸提：它使一部分有机氮水解为铵态氮（Gianello和Bremner，1986）。已有一些积极结果（Gianello和Bremner，1986；Jalil等，1996；Beauchamp等，2004），但方法表现仍无广泛共识（Wang等，2001；Curtin和McCallum，2004）。"},
+    {"type": "paragraph", "text": "化学法研究仍在继续（Mulvaney等，2001；Picone等，2002），但尚不能确定哪种土壤有效氮测定最适合作为土壤供氮能力预测方法。在形成科学共识前，不应把任何一种化学分析推荐为通用方法。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference-list", "entries": [
+      "Beauchamp, E.G., Kay, B.D., and Pararajasingham, R. 2004. Soil tests for predicting the N requirement of corn. Canadian Journal of Soil Science 84:103–113.",
+      "Benedetti, A., and Sebastiani, G. 1996. Determination of potentially mineralizable nitrogen in agricultural soil. Biology and Fertility of Soils 21:114–120.",
+      "Cabrera, M.L. 1993. Modeling the flush of nitrogen mineralization caused by drying and rewetting soils. Soil Science Society of America Journal 57:63–66.",
+      "Cabrera, M.L., Kissel, D.E., and Vigil, M.F. 1994. Potential nitrogen mineralization: Laboratory and field evaluation. In J.L. Havlin and J.S. Jacobsen (eds.), Soil Testing: Prospects for Improving Nutrient Recommendations, SSSA Special Publication 40, pp. 15–30. SSSA and ASA, Madison, WI.",
+      "Campbell, C.A., Ellert, B.H., and Jame, Y.W. 1993. Nitrogen mineralization potential in soils. In M.R. Carter (ed.), Soil Sampling and Methods of Analysis, pp. 341–349. Lewis Publishers, Boca Raton, FL.",
+      "Campbell, C.A., Jame, Y.W., Akinremi, O.O., and Beckie, H.J. 1994. Evaluating potential nitrogen mineralization for predicting fertilizer nitrogen requirements of long-term field experiments. In J.L. Havlin and J.S. Jacobsen (eds.), Soil Testing: Prospects for Improving Nutrient Recommendations, SSSA Special Publication 40, pp. 81–100. SSSA and ASA, Madison, WI.",
+      "Campbell, C.A., Jame, Y.W., and de Jong, R. 1988. Predicting net nitrogen mineralization over a growing season: Model verification. Canadian Journal of Soil Science 68:537–552.",
+      "Christensen, N.W., Qureshi, M.H., Baloch, D.M., and Karow, R.S. 1999. Assessing nitrogen mineralization in a moist xeric environment. Proceedings, Western Nutrient Management Conference, Vol. 3, March 4–5, 1999, Salt Lake City, UT, pp. 83–90. Potash & Phosphate Institute, Norcross, GA."
+    ]}
+  ],
+  "formulas": [
+    {"id": "46.5-net-n-mineralization", "display": "net N mineralization = gross N mineralization − gross N immobilization", "meaning": "培养法测得净矿化氮的过程平衡；化学浸提不测微生物固定"},
+    {"id": "46.5-hot-kcl", "display": "hot 2 mol·L⁻¹ KCl", "meaning": "本页讨论的化学供氮指标浸提条件；并非通用推荐方法"}
+  ],
+  "tables": [],
+  "contentSha256": "24bc3bc6b4023e57ce2b2128decdac17e1207145facfa8eb00eb0b824d99cd6c"
+}

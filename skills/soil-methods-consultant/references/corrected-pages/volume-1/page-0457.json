@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 457,
+  "sourceImageSha256": "67485bc8ae26baa2718d9a479a91fd3a4812524ae7b7223cd47f37a23727a3b8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率中文页、两套OCR及英文原版参考文献；恢复连字符、重音符号、期刊全名和译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验8条文献的年份、卷、页及作者；纠正Applied Soil Ecology缩写、Schütz和Häggblom重音符号"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向逐条复核至Lin条目；印刷页码426"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-entry", "text": "Lin, Q. and Brookes, P.C. 1999. Comparison of substrate-induced respiration, selective inhibition and biovolume measurements of microbial biomass and its community structure in unamended, ryegrass-amended, fumigated and pesticide-treated soils. Soil Biology and Biochemistry 31: 1999–2014."},
+    {"type": "reference-entry", "text": "Lundgren, B. 1984. Size classification of soil bacteria: Effects on microscopically estimated biovolumes. Soil Biology and Biochemistry 16: 283–284."},
+    {"type": "reference-entry", "text": "Montgomery, H.J., Monreal, C.M., Young, J.C., and Seifert, K.A. 2000. Determination of soil fungal biomass from soil ergosterol analyses. Soil Biology and Biochemistry 32: 1207–1217."},
+    {"type": "reference-entry", "text": "Newman, E.I. 1966. A method for estimating the total length of root in a sample. Journal of Applied Ecology 3: 139–145."},
+    {"type": "reference-entry", "text": "Parfitt, R.L., Yeates, G.W., Ross, D.J., Mackay, A.D., and Budding, P.J. 2005. Relationships between soil biota, nitrogen and phosphorus availability, and pasture growth under organic and conventional management. Applied Soil Ecology 28: 1–13."},
+    {"type": "reference-entry", "text": "Parisi, V., Menta, C., Gardi, C., Jacomini, C., and Mozzanica, E. 2005. Microarthropod communities as a tool to assess soil quality and biodiversity: A new approach in Italy. Agriculture, Ecosystems & Environment 105: 323–333."},
+    {"type": "reference-entry", "text": "Ruess, L., Schütz, K., Haubert, D., Häggblom, M.M., Kandeler, E., and Scheu, S. 2005. Application of lipid analysis to understand trophic interactions in soil. Ecology 86: 2075–2082."},
+    {"type": "reference-entry", "text": "van Veen, J.A. and Paul, E.A. 1979. Conversion of biovolume measurements of soil organisms, grown under various moisture tensions, to biomass and their nutrient content. Applied and Environmental Microbiology 37: 686–692."},
+    {"type": "reference-entry", "text": "Wardle, D.A. 2002. Communities and Ecosystems: Linking the Aboveground and Belowground Components. Princeton University Press, Princeton, NJ, USA."},
+    {"type": "translator-credit", "text": "楼骏 译，徐建明 校"},
+    {"type": "printed-page-number", "text": "426"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9cf28aef37b9ae4b9b704828f6f6c7ff81fb9c08b5daf20b18f3815cd93b08c4"
+}

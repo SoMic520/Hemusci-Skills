@@ -1,0 +1,22 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 523,
+  "sourceImageSha256": "b4c4fb15b26dd28fb55ce1633839d8bb97bf2e636add5be734254fb09f7c7b73",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率页面和两套OCR，接续Stevenson（1996）并完成Thorn至Zumwalt共4条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验nitrogen-15、K-edge XANES、HPLC、卷页、出版地和作者拼写"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至Stevenson续条，检查连字符、页码和印刷页码492"}
+  },
+  "blocks": [
+    {"type": "reference-continuation", "text": "[承第522页] Science Society of America, Madison, WI, pp. 1185–1200."},
+    {"type": "reference", "text": "Thorn, K.A. and Mikita, M.A. 2000. Nitrite fixation by humic substances: nitrogen-15 nuclear magnetic resonance evidence for potential intermediates in chemodenitrification. Soil Science Society of America Journal 64: 568–582."},
+    {"type": "reference", "text": "Vairavamurthy, A. and Wang, S. 2002. Organic nitrogen in geomacromolecules: insights on speciation and transformation with K-edge XANES spectroscopy. Environmental Science & Technology 36: 3050–3056."},
+    {"type": "reference", "text": "Warman, P.R. and Bishop, C. 1985. The use of reverse-phase HPLC for soil amino-N analysis. Journal of Liquid Chromatography 8: 2595–2606."},
+    {"type": "reference", "text": "Zumwalt, R.W. and Gehrke, C.W. 1988. Amino acid analysis: a survey of current techniques. In: J.P. Cherry and R.A. Barford, eds. Methods for Protein Analysis. American Oil Chemists' Society, Champaign, IL, pp. 13–35."},
+    {"type": "translator-credit", "text": "黄玉芳、王祎、姜桂英、叶优良、党海燕译，王朝辉校。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "be3728262df4d848dce1390ae952d9bd8a6f13422508fbb19f594faec135b893"
+}

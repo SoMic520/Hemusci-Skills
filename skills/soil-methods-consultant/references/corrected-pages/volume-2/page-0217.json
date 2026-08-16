@@ -1,0 +1,20 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 217,
+  "sourceImageSha256": "ae03575b25d8effcd789476886bad981b4d6a1c6de8d50c8f55787739b78e50c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐条对照原分辨率页图、两套OCR和英文原章，完成73.5(4)—(5)、3条参考文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验章节号、年份、卷页690—692/69—81/645—651及TCE缩写"},
+    "secondVisualPass": {"status": "verified", "method": "按正文引用反向对应三条书目，并核验瞬时流—控气压改良法能力边界；印刷页码726"}
+  },
+  "blocks": [
+    {"type": "limits", "items": ["Topp（1969）以瞬时水流和受控气压改良长柱法，可高分辨率、高精度测脱水、吸水、扫描曲线并同时测非饱和导水率；代价是装置复杂、实验条件须高度受控。", "长柱法可行ψ_m范围见图69.4。"]},
+    {"type": "references", "entries": ["Dane, J.H. and Hopmans, J.W. 2002. Water retention and storage, long column. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 690–692.", "Dane, J.H., Oostrom, M., and Missildine, B.C. 1992. An improved method for the determination of capillary pressure-saturation curves involving TCE, water, and air. J. Contam. Hydrol. 11: 69–81.", "Topp, G.C. 1969. Soil-water hysteresis measured in a sandy loam and compared with the hysteretic domain model. Proc. Soil Sci. Soc. Am. 33: 645–651."]},
+    {"type": "credits", "text": "谷丰译，李保国校。"},
+    {"type": "source-fidelity-note", "text": "Topp作者缩写原页为G.C.，OCR漏点；Methods of Soil Analysis的Part 4和全部页码按原页恢复。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f2efdf9347a33935e99cf1c3aa4d2c97c7703b47334e82bec6ad3d589b8f2d55"
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 281,
+  "sourceImageSha256": "56f0d000a0e2164a3412f51de2135ff117173b2a17a597e2740480fd1eb4754d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第28章第250页，人工恢复Daughtrey至Williams的20条参考文献及章末翻译校订署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者缩写、变音符号、HNO₃/H₂O₂、ICP-OES/ICP-MS、ACZA、标准版次、书名、期刊卷号及页码"},
+    "secondVisualPass": {"status": "verified", "method": "从印刷页码250反向复核至Daughtrey等（1973），确认参考文献顺序、章末署名与页面结束边界"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference", "text": "Daughtrey, Z. W., Gilliam, J. W., and Kamprath, E. J. 1973. Soil test parameters for assessing plant available P of acid organic soils. Soil Sci. 115: 438-446."},
+    {"type": "reference", "text": "Day, J. H., Rennie, P. J., Stanek, W., and Raymond, G. P. 1979. Peat testing manual. Associate committee on geotechnical research. National Research Council of Canada. Technical Memorandum No. 125, Ottawa, Canada."},
+    {"type": "reference", "text": "Goldin, A. 1987. Reassessing the use of loss-on-ignition for estimating organic matter content in noncalcareous soils. Commun. Soil Sci. Plant Anal. 18: 1111-1116."},
+    {"type": "reference", "text": "Harrison, A. F. 1979. Variation of four phosphorus properties in woodland soils. Soil Biol. Biochem. 11: 393-403."},
+    {"type": "reference", "text": "Ilnicki, P. and Zeitz, J. 2003. Irreversible loss of organic soil functions after reclamation. In: L.-E. Parent and P. Ilnicki, eds. Organic Soils and Peat Materials for Sustainable Agriculture. CRC Press, Boca Raton, FL, 15-32."},
+    {"type": "reference", "text": "Krachler, M., Mohl, C., Emons, H., and Shotyk, W. 2002. Analytical procedures for the determination of selected trace elements in peat and plant samples by inductively coupled plasma mass spectrometry. Spectrochim. Acta, Part B, 57: 1277-1289."},
+    {"type": "reference", "text": "Kreshtapova, V. N., Krupnov, R. A., and Uspenskaya, O. N. 2003. Quality of organic soils for agricultural use of cutover peatlands in Russia. In: L.-E. Parent and P. Ilnicki, eds. Organic Soils and Peat Materials for Sustainable Agriculture. CRC Press, Boca Raton, FL, 175-186."},
+    {"type": "reference", "text": "Melaku, S., Dams, R., and Moens, L. 2005. Determination of trace elements in agricultural soil samples by inductively coupled plasma-mass spectrometry: microwave acid digestion versus aqua regia extraction. Anal. Chim. Acta 543: 117-123."},
+    {"type": "reference", "text": "Mokma, D. L. 2005. Organic soils. In: D. Hillel, J. L. Hatfield, D. S. Powlson, C. Rosenzweig, K. M. Scow, M. J. Singer, and D. L. Sparks, eds. Encyclopedia of Soils in the Environment, Vol. 3. Elsevier Academic Press, Amsterdam, 118-129."},
+    {"type": "reference", "text": "Morrell, J. J., Keefe, D., and Baileys, R. T. 2003. Copper, zinc, and arsenic in soil surrounding Douglas-Fir poles treated with ammoniacal copper zinc arsenate (ACZA). J. Environ. Qual. 32: 2095-2099."},
+    {"type": "reference", "text": "Okruszko, H. and Ilnicki, P. 2003. The moorsh horizons as quality indicators of reclaimed organic soils. In: L.-E. Parent and P. Ilnicki, eds. Organic Soils and Peat Materials for Sustainable Agriculture. CRC Press, Boca Raton, FL, 1-14."},
+    {"type": "reference", "text": "Papp, C. S. E. and Harms, T. F. 1985. Comparison of digestion methods for total elemental analysis of peat and separation of its organic and inorganic components. Analyst 110: 237-242."},
+    {"type": "reference", "text": "Parent, L. E. and Khiari, L. 2003. Nitrogen and phosphorus balance indicators in organic soils. In: L.-E. Parent and P. Ilnicki, eds. Organic Soils and Peat Materials for Sustainable Agriculture. CRC Press, Boca Raton, FL, 105-136."},
+    {"type": "reference", "text": "Soil Survey Staf. 2003. Keys to Soil Taxonomy, 9th edn. USDA. Natural Resources Conservation Service, Washington, DC."},
+    {"type": "source-fidelity-note", "text": "原书上一条作者印为‘Soil Survey Staf.’，规范机构名为‘Soil Survey Staff’；检索索引同时保留两种形式。"},
+    {"type": "reference", "text": "Swami, K., Judd, C. D., Orsini, J., Yang, K. X., and Husain, L. 2001. Microwave assisted digestion of atmospheric aerosol samples followed by inductively coupled plasma mass spectrometry determination of trace elements. Fresen. J. Anal. Chem. 369: 63-70."},
+    {"type": "reference", "text": "van Lierop, W. and Mackenzie, A. F. 1977. Soil pH and its application to organic soils. Can. J. Soil Sci. 57: 55-64."},
+    {"type": "reference", "text": "Wang, J., Nakazato, T., Sakanishi, K., Yamada, O., Tao, H., and Saito, I. 2004. Microwave digestion with HNO₃/H₂O₂ mixture at high temperatures for determination of trace elements in coal by ICP-OES and ICP-MS. Anal. Chim. Acta 514: 115-124."},
+    {"type": "reference", "text": "Watson, M. E. and Isaac, R. A. 1990. Analytical instruments for soil and plant analysis. In Westerman, R. L. Soil Testing and Plant Analysis, 3rd edn. Soil Science Society of America, Madison, WI, 691-740."},
+    {"type": "reference", "text": "Weiss, D., Shotyk, W., Schäfer, H., Loyall, U., Grollimund, E., and Gloor, M. 1999. Microwave digestion of ancient peat and determination of Pb by voltammetry. Fresen. J. Anal. Chem. 363: 300-305."},
+    {"type": "reference", "text": "Williams, D. E. and Vlamis, J. 1961. Boron contamination in furnace dry ashing of plant material. Anal. Chem. 33: 967-968."},
+    {"type": "translator-credit", "text": "（黄彩变　党海燕　译，王朝辉　校）"},
+    {"type": "printed-page-number", "text": "250"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f71aa8c0b6b6bf786e2ea1b5addbc678013f9c70aabc86119aa771a9bebe82b0"
+}

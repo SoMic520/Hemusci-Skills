@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 211,
+  "sourceImageSha256": "651b65ed7df82bf05e90f496dbddebefa7b28b2906e3b3110d7a4bf9e83778ae",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第22章第180页，并与Apple Vision、PaddleOCR交叉比对，人工恢复图22.1全部标注及22.2.3步骤（1）～（13）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验图中4 cm φ、5 cm φ、$19/38、#18/9、容量尺寸，以及0.25～2.0 g、1 mg、220/360 ℃、1.5/3.5 h和K₂SO₄-CuSO₄"},
+    "secondVisualPass": {"status": "verified", "method": "从步骤（13）反向复核至图首50 mL分液器，确认图示连接关系、13项步骤顺序、单位、上下标及页码180"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "figure", "number": "图22.1", "title": "蒸汽蒸馏装置", "labels": ["50 mL分液器", "4 cm φ", "5 cm φ", "$19/38", "曲颈管连接器", "500 mL圆底烧瓶", "实验室用支架", "Keck夹钳", "曲颈管", "蒸汽", "Keck夹钳", "Quickfit 18#夹钳", "Quickfit玻璃球和#18/9插孔", "冷凝管", "100 mL高型烧杯", "2.5 cm厚泡沫/海绵", "0.6 cm厚复合板"]},
+    {"type": "method-subheading", "number": "22.2.3", "title": "步骤：消煮、蒸馏、滴定"},
+    {"type": "procedure-step", "number": "（1）", "text": "称量0.25～2.0 g的土壤样品于干燥的消煮管中，保证样品中含有约1 mg氮。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加入2 mL去离子水（若土样为2 g，则加3 mL去离子水）并摇动使土壤样品全部润湿。"},
+    {"type": "procedure-step", "number": "（3）", "text": "每个消煮管中加入3.5 g K₂SO₄-CuSO₄的混合物。"},
+    {"type": "procedure-step", "number": "（4）", "text": "加入含硒和不含硒Hengar沸石各一粒。"},
+    {"type": "procedure-step", "number": "（5）", "text": "加入10 mL浓硫酸。"},
+    {"type": "procedure-step", "number": "（6）", "text": "将消煮管置于消煮炉中。"},
+    {"type": "procedure-step", "number": "（7）", "text": "打开消煮炉使温度升至220 ℃并保持此温度1.5 h。此时消煮开始，水分不断地蒸发。"},
+    {"type": "procedure-step", "number": "（8）", "text": "在220 ℃消煮1.5 h后，把空气冷凝器盖于消煮管上。"},
+    {"type": "procedure-step", "number": "（9）", "text": "将消煮炉温度升至360 ℃，并保持此温度3.5 h。"},
+    {"type": "procedure-step", "number": "（10）", "text": "消煮完成后将样品放置在消煮炉或玻璃纤维垫上冷却过夜。"},
+    {"type": "procedure-step", "number": "（11）", "text": "移除空气冷凝器，用清水冲洗。"},
+    {"type": "procedure-step", "number": "（12）", "text": "轻轻摇动，于每个冷却的消煮管中加入25 mL去离子水，并使冷却的过程中凝结的盐分溶解。若盐分不能完全溶解，则缓慢加热直到全部溶解。将样品定量转移到500 mL圆底蒸馏烧瓶，用去离子水清洗消煮管3次。"},
+    {"type": "procedure-step", "number": "（13）", "text": "将装有冷凝器的圆底蒸馏烧瓶连接于蒸汽蒸馏装置上，并用夹钳固定好。"},
+    {"type": "printed-page-number", "text": "180"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "cf1e94192671a83200617d51b8ffe47b3ae388527eb32a52fc213e2e0e3e69d6"
+}

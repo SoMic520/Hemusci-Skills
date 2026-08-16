@@ -1,0 +1,46 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 154,
+  "sourceImageSha256": "07a76047a2b407066cd273c429a9a6eb083fb02e644a262f0b81ddb59513abcc",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复阴离子分析续文、计算解释与表15.2"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验SO₄²⁻、H₂S、Cl⁻、CO₃²⁻、HCO₃⁻、ECₑ、dS/m、mmol_c/L、mg Ca/kg、Kₛₚ、SI<0/SI=0/SI>0及表中范围"},
+    "secondVisualPass": {"status": "verified", "method": "从页末引文反向复核至页首续句，确认表15.2五档响应、资料来源、方法层级、公式符号和页码123"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第15章｜电导率和可溶性离子｜"},
+    {"type": "paragraph", "continuation": true, "text": "（American Public Health Association，1998），MB比色法则不同，需要将SO₄²⁻还原成H₂S。然而，与Cl⁻相似，一些实验室越来越多地使用IC和ICP-AES法测定SO₄²⁻而避免百里酚的使用和废液处理。碳酸根和碳酸氢根离子通常采用滴定法测定，用酚酞做指示剂滴定终点pH值为8.4（CO₃²⁻），用甲基橙做指示剂滴定终点pH值为4.7（HCO₃⁻）（U.S. Salinity Laboratory Staff，1954）。或者，也可以使用pH计（电测量法）来确定滴定终点。"},
+    {"type": "section-heading", "level": 3, "number": "15.4", "title": "计算和解释"},
+    {"type": "section-heading", "level": 4, "number": "15.4.1", "title": "电导率"},
+    {"type": "paragraph", "text": "作物的耐盐数据已被用来研究作物产量与ECₑ的关系。美国和印度（Maas，1990）的试验汇总了在含大量氯盐的土壤中生长的69种草本作物的数据。Ayers和Westott（1985）也整合了相关耐盐性数据。生长在石灰性土壤（如加拿大的北美大草原）中的作物，能够忍受2 dS/m的盐度，高于Maas统计列出的ECₑ值。Holm（1983）和McKenzie（1988）报道了在加拿大某地进行田间试验的耐盐性数据。对加拿大耐盐性数据测试装置的研究（Steppuhn和Wall，1999）报道了春播小麦的耐盐性数据（Steppuhn和Wall，1997），油菜、豌豆、干豆和硬粒小麦的耐盐性数据也有报道（Steppuhn等，2001）。一般盐度的影响见表15.2。"},
+    {"type": "table", "label": "表15.2", "title": "以饱和提取物电导率评估的作物对盐度的响应"},
+    {"type": "source-note", "text": "资料来源：改编自Bernstein, L., Ann. Rev. Phytopathol., 13, 295, 1975."},
+    {"type": "section-heading", "level": 4, "number": "15.4.2", "title": "可溶性离子分析结果的表述"},
+    {"type": "paragraph", "text": "可溶性盐数据常用如meq/L（mmol_c/L）、mg/L或mmol/L等单位来表示。如果结果基于质量表述（如mg Ca/kg土壤），则需要知道风干土壤的质量、所添加水的质量及土壤中原有水的质量。"},
+    {"type": "section-heading", "level": 4, "number": "15.4.3", "title": "离子活度和饱和指数"},
+    {"type": "paragraph", "text": "土壤溶液数据通常被报道为离子浓度，然而，有时研究者希望用离子活度或热力学有效浓度来描述。某个元素的活性而不是其浓度，可能与植物响应（Adams，1966）和一般化学反应（Adams，1966）更密切相关。离子活度是离子浓度和活度系数的乘积，活度系数和土壤溶液中的离子强度存在负相关关系。随着水溶液盐度和离子强度的增加，活度系数降低，导致可参与化学反应的离子活度降低。通过离子强度的作用，盐度的增加也会导致矿物的溶解度增加。离子活度可通过多种地球化学模型估计，一些离子活度（如Cl⁻和K⁺）可通过离子选择电极在提取液中直接测量。矿物饱和指数（SI）的值也可以用地球化学模型估计，用溶液中矿物种类的离子活度积除以相关矿物的溶度积常数（Kₛₚ）。SI<0表示不饱和或矿物质溶解，SI=0表示饱和或溶液固相间处于平衡，SI>0表示过饱和或矿物质沉淀。然而，对于盐渍土壤中的可挥发矿物，SI值不能很好地预测土壤溶液蒸发过程中的矿物形成（Kohut和Dudas，1994）。"},
+    {"type": "printed-page-number", "text": "123"}
+  ],
+  "formulas": [
+    {"plain": "离子活度=离子浓度×活度系数", "latex": "a_i=c_i\\gamma_i", "context": "离子活度定义（原文文字表述）"},
+    {"plain": "SI=离子活度积/Kₛₚ", "latex": "SI=\\frac{IAP}{K_{sp}}", "context": "矿物饱和指数（原文文字表述）"},
+    {"plain": "SI<0：不饱和或矿物质溶解；SI=0：饱和或溶液固相间平衡；SI>0：过饱和或矿物质沉淀", "latex": "SI<0,\\quad SI=0,\\quad SI>0", "context": "饱和指数解释"}
+  ],
+  "tables": [
+    {
+      "label": "表15.2",
+      "title": "以饱和提取物电导率评估的作物对盐度的响应",
+      "columns": ["EC（dS/m，25 ℃）", "作物响应"],
+      "rows": [
+        ["0～2", "几乎可以忽略不计"],
+        ["2～4", "极敏感作物的产量受到限制"],
+        ["4～8", "多数作物产量受到限制"],
+        ["8～16", "仅耐盐作物产量令人满意"],
+        [">16", "仅极耐盐作物产量令人满意"]
+      ],
+      "source": "改编自Bernstein, L., Ann. Rev. Phytopathol., 13, 295, 1975."
+    }
+  ],
+  "contentSha256": "e355450bbc8c24e5c2111c2e101560e31276d5d7d6af8858e21620b2838d5b93"
+}

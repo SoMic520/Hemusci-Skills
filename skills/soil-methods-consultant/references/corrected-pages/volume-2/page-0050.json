@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 50,
+  "sourceImageSha256": "9ae4c8a4196c1b5daa1f919ada0795080ab0d91ea7933950c9b1e8310135efe0",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Ball 1981b跨页条目及本页全部21条参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者拼写、年份、卷号、页码、书名、版次、出版社和标点；保留书页可见原始书目信息"},
+    "secondVisualPass": {"status": "verified", "method": "由Flint and Flint反向逐条复核至Ball 1981b跨页首行；印刷页码559"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": ["Ball, B.C. 1981b. Pore characteristics of soils from two cultivation experiments as shown by gas diffusivities and permeabilities and air-filled porosities. J. Soil Sci. 32:483–498."]},
+    {"type": "references", "items": [
+      "Ball, B.C., Campbell, D.J., and Hunter, E.A. 2000. Soil compactibility in relation to physical and organic properties at 156 sites in UK. Soil Till. Res. 57:83–91.",
+      "Ball, B.C. and Hunter, R. 1988. The determination of water release characteristics of soil cores at low suctions. Geoderma 43:195–212.",
+      "Ball, B.C., O'Sullivan, M.F., and Hunter, R. 1988. Gas diffusion, fluid flow and derived pore continuity indices in relation to vehicle traffic and tillage. J. Soil Sci. 39:327–339.",
+      "Ball, B.C. and Smith, K.A. 1991. Gas movement. In: K.A. Smith and C.M. Mullins, eds. Soil and Environmental Analysis: Physical Methods, 2nd ed. Dekker, New York, NY, 499–538.",
+      "Beaudet-Vidal, L., Fradin, V., and Rossignol, J.P. 1998. Study of the macroporosity of reconstituted anthropic soils by image analysis. Soil Till. Res. 47:173–179.",
+      "Blackwell, P.S., Ringrose-Voase, A.J., Jayawardane, N.S., Olsson, K.A., McKenzie, D.C., and Mason, W.K. 1990. The use of air-filled porosity and intrinsic permeability to characterize structure of macropore space and saturated hydraulic conductivity of clay soils. J. Soil Sci. 41:215–228.",
+      "Blake, G.R. and Hartge, K.H. 1986a. Bulk density. In: A. Klute, ed. Methods of Soil Analysis. Agronomy No. 9, 2nd ed. American Society of Agronomy, Madison, WI, 363–375.",
+      "Blake, G.R. and Hartge, K.H. 1986b. Particle density. In: A. Klute, ed. Methods of Soil Analysis. Agronomy No. 9, 2nd ed. American Society of Agronomy, Madison, WI, 377–382.",
+      "Bouma, J. 1991. Influence of soil macroporosity on environmental quality. Adv. Agron. 46:1–37.",
+      "Cameira, M.R., Fernando, R.M., and Pereira, L.S. 2003. Soil macropore dynamics affected by tillage and irrigation for a silty loam alluvial soil in southern Portugal. Soil Till. Res. 70:131–140.",
+      "Campbell, D.J. and Henshall, J.K. 2001. Bulk density. In: K.A. Smith and C.M. Mullins, eds. Soil and Environmental Analysis: Physical Methods, 2nd ed. Dekker, New York, NY, 315–348.",
+      "Carter, M.R. 1988. Temporal variability of soil macroporosity in a fine sandy loam under mouldboard ploughing and direct drilling. Soil Till. Res. 12:37–51.",
+      "Carter, M.R. and Ball, B. 1993. Soil porosity. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. Canadian Society of Soil Science, Lewis Publishers, CRC Press, Boca Raton, FL, 581–588.",
+      "Cary, J.W. and Hayden, C.W. 1973. An index for soil pore size distribution. Geoderma 9:249–256.",
+      "Crestana, S. and Vaz, C.M.P. 1998. Non-invasive instrumentation opportunities for characterizing soil porous systems. Soil Till. Res. 47:19–26.",
+      "Culley, J.L.B. 1993. Density and compressibility. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. Canadian Society of Soil Science, Lewis Publishers, CRC Press, Boca Raton, FL, 529–539.",
+      "Danielson, R.E. and Sutherland, P.L. 1986. Soil porosity. In: A. Klute, ed. Methods of Soil Analysis. Agronomy No. 9, 2nd ed. American Society of Agronomy, Madison, WI, 443–461.",
+      "Deeks, L.K., Bengough, A.G., Low, D., Billett, M.F., Zhang, X., Crawford, J.W., Chessell, J.M., and Young, I.M. 2004. Spatial variation of effective porosity and its implications for discharge in an upland headwater catchment in Scotland. J. Hydrol. 290:217–228.",
+      "Douglas, J.T. 1986. Macroporosity and permeability of some cores from England and France. Geoderma 37:221–231.",
+      "Flint, L.E. and Flint, A.L. 2002. Porosity. In: J.H. Dane and G.C. Topp, eds. Methods of Soil Analysis, Part 4: Physical Methods. Soil Science Society of America, Madison, WI, 241–254."
+    ]},
+    {"type": "source-fidelity-note", "text": "原书把Deeks等（2004）题名中的单数catchment误作catchments，已校正。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "7eac5ee94df87430aea9092d022094673d9f946671a83f6f095acd18ba8ad680"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 459,
+  "sourceImageSha256": "fae05c61117015b88a9c02a01d0b4ce7a33da6f4ac4514572b9d784f036f44ce",
+  "review": {
+    "textPass": {"status": "verified", "method": "对照原分辨率页面确认仅含第五篇主译署名，无其他正文、页码、公式、表格或图示"},
+    "precisionPass": {"status": "verified", "method": "逐字核验姓名为王朝辉"},
+    "secondVisualPass": {"status": "verified", "method": "全页二次目视扫描空白区域，确认无遗漏淡印内容"}
+  },
+  "blocks": [
+    {"type": "part-translator-credit", "part": "第五篇", "role": "主译", "name": "王朝辉"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d392f755078aab0f81d74e6bbc6a3a8287882370f40533a2119bab6a332cbabe"
+}

@@ -1,0 +1,88 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 550,
+  "sourceImageSha256": "3875783cfceda9f7625f9ec176165bc9f6f35526d9ecb8d868c0ada80d5f058d",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行逐式对照原分辨率页面和两套OCR，接续54.5.2并完成54.5.3两来源模型"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验APE_sample/APE_enriched、N质量与施用量、回收率×100、¹⁵N同位素稀释、δ¹⁵N_leaf、1/N_leaf以及式（54.7）和两来源比例公式"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由页末两来源变量说明反向复核至跨页句，量纲复核肥料回收率和百分数因子，纠正原书把δ值误称贡献值的问题；印刷页码519"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph-continuation",
+      "scope": "54.5.2",
+      "text": "[承第549页] 样品中肥料来源N比例等于样品APE与所施富集肥料APE之比。以组织或土壤总N量乘该比例得到肥料来源N量，再除以单位面积施N量计算回收率。"
+    },
+    {
+      "type": "calculation-note",
+      "text": "若p_fertilizer以0～1分数表示，肥料N回收率(%)必须再乘100。总N量和施肥量须使用同一面积基准与同一质量单位，并说明是否合计植株、土层和采样时段。"
+    },
+    {
+      "type": "paragraph",
+      "text": "¹⁵N研究可包括直接示踪、同位素稀释和同位素数值模型。肥料N进入微生物固定—矿化循环后会发生库间替换，故单次终点回收不等同于全部过程通量。田间微区可限制标记肥横向扩散，但边界效应、根系跨界和垂向迁移仍须控制。"
+    },
+    {
+      "type": "method-summary",
+      "title": "¹⁵N同位素稀释",
+      "text": "向待测N库加入已知量和丰度的¹⁵N示踪物，使其与可交换/可利用库平衡；测定平衡后库量和¹⁵N丰度，由稀释程度估算示踪物实际接触到的库大小。方法可追溯至Kirkham和Bartholomew；关键假设是标记均匀、目标期内无未计入的损失/输入，且取样代表可接触库。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "54.5.3",
+      "title": "测定未知氮源的δ¹⁵N值"
+    },
+    {
+      "type": "paragraph",
+      "text": "天然丰度δ¹⁵N可用于两来源混合，但必须检验吸收、转化或损失过程的分馏。若叶片N来自一个已知端元和一个未知端元，简单混合下可将叶片δ¹⁵N对叶片N浓度的倒数作图；式（54.7）的截距用于估计未知高浓度端元的δ¹⁵N。若浓度升高伴随分馏，关系可能呈曲线，不能强制线性。"
+    },
+    {
+      "type": "paragraph",
+      "text": "在已知两端元δ值时，可由Shearer和Kohl二端元式计算未知来源所占分数。式中δ_known、δ_unknown和δ_measured分别是已知来源、未知来源和混合样的同位素值，不是‘贡献值’。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "54.5.3两来源公式",
+      "text": "原书左端写‘%N_unknown’，但右端仅给比例而未乘100；原书变量释义还把δ_known和δ_measured误称为‘贡献’。本Skill拆分为0～1分数p_unknown和乘100后的百分数，并把变量统一定义为δ¹⁵N值。"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "54.5.2-fertilizer-fraction",
+      "display": "p_fertilizer = APE_sample/APE_fertilizer",
+      "meaning": "样品总N中肥料来源N的分数"
+    },
+    {
+      "id": "54.5.2-fertilizer-n",
+      "display": "N_fertilizer-derived = N_sample,total × p_fertilizer",
+      "meaning": "样品或单位面积库中来自标记肥料的N量"
+    },
+    {
+      "id": "54.5.2-recovery",
+      "display": "fertilizer N recovery (%) = 100 × N_fertilizer-derived/N_applied",
+      "meaning": "标记肥料N回收率"
+    },
+    {
+      "id": "54.7",
+      "display": "δ¹⁵N_leaf = slope × (1/N_leaf) + intercept",
+      "meaning": "两来源简单混合的倒数浓度线性形式；截距可估未知端元δ¹⁵N"
+    },
+    {
+      "id": "54.5.3-unknown-source-fraction",
+      "display": "p_unknown = (δ_known−δ_measured)/(δ_known−δ_unknown)；%N_unknown=100p_unknown",
+      "meaning": "二端元线性混合下未知N来源的分数与百分数"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "107c639f2c777ee0762ee2ee5caaf8e0dc31c37077135c549a95fc9b0fb2ee75"
+}

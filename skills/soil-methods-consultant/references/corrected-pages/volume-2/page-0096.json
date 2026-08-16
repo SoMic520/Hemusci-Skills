@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 96,
+  "sourceImageSha256": "6405647033cb9f1d0a90c080b9f43b8d0d31c431195ccc066c5f3b91a881377f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐行对照原分辨率图和两套OCR，完成63.2.4补充、63.2.5、式（63.4）～（63.5）、表63.3及63.3首段"},
+    "precisionPass": {"status": "verified", "method": "核验p=0.1587→NED=−1、MWD质量分数/百分数口径、16.207 mm、y=0.876x−0.079、14.12 mm、表63.3全28个数值及上下限估计"},
+    "secondVisualPass": {"status": "verified", "method": "由63.3末句反向复核至页首，检查式（63.4）求和上下标、表中小数、脚注a/b和量纲；印刷页码605"}
+  },
+  "blocks": [
+    {"type": "method-note", "text": "用筛上累积比例或筛下累积通过比例均可得同一GMD与分布宽度；两者的NED符号相反，回归斜率符号也相反，但截距与斜率绝对值不变。若以筛下通过累积分数拟合，15.87%是p=0.1587，对应NED x=−1，不是x=0.1587。"},
+    {"type": "heading", "number": "63.2.5", "title": "平均重量直径", "level": 3},
+    {"type": "paragraph", "text": "van Bavel（1949）的平均重量直径（MWD）是各粒级代表直径与该粒级质量分数乘积之和。Youker和McGuinness（1957）以式（63.4）简化计算，并对本示例的加权和16.207 mm用经验回归式（63.5）校正，得MWD=14.12 mm；同一样品GMD=4.95 mm。式（63.5）是文献特定经验换算，不是MWD的通用定义。"},
+    {"type": "heading", "number": "63.3", "title": "注释", "level": 2},
+    {"type": "notes", "items": [
+      "干燥田间条件更容易获得离散团聚体；湿样采后迅速风干可使团聚体紧实度高于田间实况。",
+      "不建议烘干，因其会改变团聚体紧实度。",
+      "土壤结皮在采样时破碎会人为制造大而稳定的“伪团聚体”，导致GMD偏高；必须单独记录结皮及处理方式。"
+    ]},
+    {"type": "source-fidelity-note", "text": "原书式（63.4）写Σx̄ᵢwᵢ，但紧接着把wᵢ说成“百分数”，而表63.3实际用(A×B)/100。已校正为：wᵢ若为0～1质量分数则直接求和；Bᵢ若为0～100%则必须除100。页首“将0.1587赋予x”同样混淆了概率p和NED x，正确为p=0.1587→x=−1。"}
+  ],
+  "formulas": [
+    {"label": "(63.4)", "plain": "MWD = Σᵢ₌₁ⁿ x̄ᵢwᵢ = Σᵢ₌₁ⁿ x̄ᵢBᵢ/100", "latex": "\\mathrm{MWD}=\\sum_{i=1}^{n}\\bar{x}_iw_i=\\sum_{i=1}^{n}\\bar{x}_i\\frac{B_i}{100}", "variables": [{"symbol": "x̄ᵢ", "meaning": "第i粒级代表/中值直径，mm"}, {"symbol": "wᵢ", "meaning": "第i粒级质量分数，0～1"}, {"symbol": "Bᵢ", "meaning": "第i粒级质量百分数，0～100"}], "conditions": ["Σwᵢ=1或ΣBᵢ=100", "MWD单位与x̄ᵢ一致"]},
+    {"label": "(63.5)", "plain": "y = 0.876x − 0.079; x=16.207 mm → y=14.12 mm", "latex": "y=0.876x-0.079", "variables": [{"symbol": "x", "meaning": "表63.3直接加权和，mm"}, {"symbol": "y", "meaning": "Youker–McGuinness经验校正后MWD，mm"}], "conditions": ["仅作文献经验换算，不得当作通用定义"]}
+  ],
+  "tables": [
+    {"number": "63.3", "title": "Lethbridge黏壤土MWD直接加权和", "columns": ["粒级范围 (mm)", "代表直径A (mm)", "质量B (%)", "A×B/100 (mm)"], "rows": [
+      [">38", 51.5, 17.2, 8.858],
+      ["12.6～38", 25.3, 21.3, 5.389],
+      ["7.1～12.6", 9.85, 10.2, 1.005],
+      ["1.9～7.1", 4.5, 16.1, 0.725],
+      ["1.2～1.9", 1.55, 6.2, 0.096],
+      ["0.47～1.2", 0.84, 10.7, 0.09],
+      ["<0.47", 0.24, 18.3, 0.044]
+    ], "notes": ["ΣB=100%，Σ(A×B/100)=16.207 mm", ">38 mm组：已知最大实测团聚体65 mm，A=(38+65)/2=51.5 mm；若未知，书中以2×38=76 mm估上限，则A=57 mm", "<0.47 mm组：书中以0为下限，A=(0+0.47)/2=0.235≈0.24 mm；这两个开放区间假设是MWD的主要不确定性来源"]}
+  ],
+  "contentSha256": "b2d04f1530afcfc234d5dcfa3e858fd1e9db2dfb20fb7e522d480b472cd41351"
+}

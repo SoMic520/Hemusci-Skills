@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 72,
+  "sourceImageSha256": "bdeff95c2af24f8a4a43ffc4ee765b5838f631da5920a16e7e0a135cf648f6f1",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐式对照原分辨率图和两套OCR，完成60.3跨页结尾、60.3.1、式（60.5）及60.3.2本页"},
+    "precisionPass": {"status": "verified", "method": "核验τ/c/σ_n/tanφ、kPa、40/80 mm、6片/10×1×10 mm、1257/5027 mm²、35/3/150 mm、300 kPa/375 N、TDR环半径"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页TDR句反向复核至首句，检查Mohr–Coulomb符号、面积计算、载荷量纲和设备尺寸；印刷页码581"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "剪应力记录仪还能在剪切过程中测量所施加法向应力/载荷。"},
+    {"type": "heading", "number": "60.3.1", "title": "测量原理", "level": 3},
+    {"type": "paragraph", "text": "剪切强度来自内聚和内摩擦。内聚源于颗粒间黏结、吸引及水膜作用；内摩擦是颗粒剪切时接触摩擦的阻力。按Mohr–Coulomb线性屈服模型，τ与σ_n满足式（60.5）。在多级σ_n下测峰值τ并线性回归，截距为c，斜率为tanφ，φ=arctan(斜率)。"},
+    {"type": "paragraph", "text": "Cohron剪应力图形记录仪是原位扭转剪切装置，不能精确控制剪切面应力分布和几何，但现场实用（Kirby和Ayers，1993）。传统装置机械画图，后需数字化，含水量另用重量法；改型用TDR同步测水分并直接采集法向/剪切应力。Ayers（1987）研究c、φ、含水量和容重关系，Kirby和Ayers（1993）按临界土壤力学解释。"},
+    {"type": "heading", "number": "60.3.2", "title": "设备和条件", "level": 3},
+    {"type": "paragraph", "text": "Cohron仪可定制。40 mm直径剪切圆盘带6个等间距径向履齿叶，每叶深10 mm、厚1 mm，向下伸入土10 mm；松软土用80 mm头。两者圆盘投影面积分别约1257和5027 mm²。"},
+    {"type": "paragraph", "text": "螺旋弹簧同时记录法向力和扭矩：内径35 mm，约10圈、线径3 mm（8 gauge），线长150 mm；40 mm头最大法向应力约300 kPa，对应力约375 N。弹簧铅笔架在记录鼓方格纸上描迹，也可用压敏纸；手柄施加向下力。Instron等加载机用于轴向和扭转校准，把压缩量、角位移换成应力。"},
+    {"type": "paragraph", "text": "改型一：剪切头加入一对与履齿深度相近的同心圆叶作TDR传输线，半径10、20 mm，装在3 mm环氧层上。"}
+  ],
+  "formulas": [
+    {"label": "(60.5)", "plain": "τ = c + σ_n tanφ", "latex": "\\tau=c+\\sigma_n\\tan\\varphi", "variables": [{"symbol": "τ", "meaning": "剪切强度/峰值剪应力（kPa）"}, {"symbol": "c", "meaning": "内聚力（kPa）"}, {"symbol": "σ_n", "meaning": "剪切面法向应力（kPa）"}, {"symbol": "φ", "meaning": "内摩擦角；tanφ为回归斜率"}]}
+  ],
+  "tables": [],
+  "contentSha256": "4acd1e760ef8eaecf70f4bfec751068e5f0568332da8fa7b5f95cd9bc46d3b5f"
+}

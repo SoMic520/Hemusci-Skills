@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 449,
+  "sourceImageSha256": "c8402209c2ec68f7c6544b2ea1987d44c1b72d88b0acc631fbecd7f9eda305db",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页、两套OCR及英文原版第44章标题和44.1；恢复物种营养类群、作者姓名、章节交叉引用和跨页句"},
+    "precisionPass": {"status": "verified", "method": "核验有机C、N、P及¹³C的上下标表示，核对第32/33/36/49章交叉引用、Hunt等（1987）模型和各营养类群层级"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页末句反向复核至章标题、作者与单位；检查“食物链/food web”术语差异和¹³C上标"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "44", "title": "土壤食物链特性指示物", "originalTitle": "Indicators of Soil Food Web Properties"},
+    {"type": "source-fidelity-note", "scope": "章名术语", "text": "英文原题使用soil food web（食物网）；中文版章名和正文主要译作“食物链”。Skill同时建立“土壤食物网/土壤食物链”同义检索，但保留中文版标题。"},
+    {"type": "author", "name": "T.A. Forge", "affiliation": "Agriculture and Agri-Food Canada, Agassiz, British Columbia, Canada"},
+    {"type": "author", "name": "M. Tenuta", "affiliation": "University of Manitoba, Winnipeg, Manitoba, Canada"},
+    {"type": "section-heading", "level": 2, "number": "44.1", "title": "引言"},
+    {"type": "paragraph", "text": "土壤食物网是土壤生物圈的简化概念，把微生物和微动物按主要能量（有机碳）及养分（主要为氮和磷）的流动归入一般营养类群。分析其结构可了解土壤管理措施如何影响微生物固定、能量和养分转化（Wardle，2002）。根、植物残体、农药和动物粪便是耕作土壤的主要能量和养分输入；细菌和部分真菌是这些有机输入物的初级分解者，细菌通道和真菌通道因储存效率和转化速率不同而形成食物网的两个部分（Edwards，2000；Wardle，2002）。因此，区分细菌和真菌生物量是分析土壤食物网的基础。"},
+    {"type": "paragraph", "text": "土壤原生动物、线虫和微小节肢动物是微生物生物量的主要消费者（图44.1）；它们摄食微生物，也调控微生物群落结构并促进养分矿化。原生动物主要吞噬细菌。土壤线虫群落主要包括食细菌线虫、食真菌线虫、杂食性线虫、食肉性线虫（主要摄食其他微动物）和食根线虫，此外还有第33章所述植物寄生线虫（Edwards，2000；Wardle，2002）。土壤微小节肢动物群落主要由弹尾目和蜱螨目（螨类）组成，包括食真菌、食细菌、杂食和食肉营养类群。微小节肢动物、线虫、原生动物和总微生物量的测定方法分别见第32、33、36和49章。"},
+    {"type": "paragraph", "text": "土壤动物的营养分类通常不是直接观测所得，而是依据食性相近类群的形态相似性推断；因此，把土壤动物分为图44.1所示广义营养类群，是对真实土壤食物网复杂相互作用的总体简化。微小节肢动物食性判断以肠道酶为基础，并辅以口器形态（Behan-Pelletier，1999）。稳定同位素和脂肪酸分析等新技术可确定不同土壤动物类群的食物来源及食物网碳的实际通量（Fitter等，2005；Ruess等，2005），可作为显微镜鉴定之外评估不同输入途径相对贡献的工具。"},
+    {"type": "paragraph", "text": "Hunt等（1987；见图44.1）最初提出的一种描述土壤食物网的方法，是取得主要营养类群的生物量数据，据此构建食物网模型并估计通过各类群的碳、氮和磷通量。模型以实测土壤碳、氮矿化（de Ruiter等，1993；Hassink等，1994；Berg等，2001）以及食物网组分中的¹³C标记通量（Leake等，2006）进行检验。只用细菌、真菌、原生动物和线虫数据的简化模型，可估计营养相互作用对氮矿化的直接贡献（Hassink等，1994；Forge等，2005）。本章介绍这四类群的生物量或丰度信息；完整食物网模型超出本章范围，详见Irvine等（2006）、de Ruiter等（1993）和Hunt等（1987）。"},
+    {"type": "paragraph", "text": "另一种描述土壤食物网的方法，是聚焦一个或数个生物类群，利用这些类群中的指示性变化来描述[续见第450页]。"}
+  ],
+  "formulas": [
+    {"id": "44.1-isotope-label", "plain": "¹³C", "context": "食物网组分中的碳同位素示踪；13必须为左上标"}
+  ],
+  "tables": [],
+  "contentSha256": "7910114f2b5c84be84c8d65062d58e9a5af7eadc6c016636b39cbd5b60713d27"
+}

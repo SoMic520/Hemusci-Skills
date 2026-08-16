@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 213,
+  "sourceImageSha256": "ffcd3d5f97947f83c302b97ef88bd9f6fa4bae959abd3157b6eabb9a2ebb6229",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第22章第182页，并与Apple Vision、PaddleOCR交叉比对，人工恢复22.2.5注释续文、22.3适用范围、材料试剂及步骤（1）～（2）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验5 L/600瓦/2 mL、1 g碳/10 mL H₂SO₄、NH₄⁺、HF-HCl、NO₂⁻/NO₃⁻/¹⁵N、9 mol·L⁻¹、＜100目及样品质量体积"},
+    "secondVisualPass": {"status": "verified", "method": "从步骤（2）反向复核至页首注释（4）续句，确认方法层级、试剂编号、上下标、电荷、原印“非¹⁵N示踪”及页码182"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "note-item-continuation", "number": "（4）", "continuedFromPreviousPage": true, "text": "可以直接使用消煮管进行蒸馏，用两个由5 L、600瓦电炉加热圆底烧瓶提供蒸汽的蒸馏头。每个烧瓶内放十几粒Hengar沸石并加入约2 mL浓磷酸来吸收氨气。"},
+    {"type": "note-item", "number": "（5）", "text": "可以使用能容纳20个而不是40个250 mL消煮管的消煮炉，并可以省去从消煮管向蒸馏瓶转移样品的过程。蒸馏头也可以进行改进：加上一个带有小孔的橡胶塞，使蒸馏头的标准锥形接头穿过小孔与橡胶塞连接。蒸馏时将250 mL消煮管通过橡胶塞与蒸馏装置连接，并用夹钳夹紧，使蒸馏过程直接在消煮管中进行。Bremner和Breitenbeck（1983）描述的蒸馏装置使用的消煮管适用于可以容纳40个消煮管的消煮炉。"},
+    {"type": "note-item", "number": "（6）", "text": "加入NaOH溶液时必须小心缓慢以便避免剧烈地产生气泡而使液体进入冷凝器或污染蒸馏头。NaOH溶液的使用量取决于消煮过程中硫酸的消耗量，而硫酸的消耗量取决于土壤样品中有机质和还原性矿物质的含量。1 g碳需要消耗10 mL H₂SO₄（Bremner，1996）。"},
+    {"type": "note-item", "number": "（7）", "text": "对于消煮后的样品，可以用自动分析仪代替蒸馏。将消煮后的样品稀释到100 mL后用自动比色分析仪测定NH₄⁺的含量（Smith和Scott，1991）。"},
+    {"type": "note-item", "number": "（8）", "text": "使用自动滴定仪可以提高测定值的一致性和稳定性，且不需要在硼酸溶液中加入指示剂。"},
+    {"type": "note-item", "number": "（9）", "text": "上述凯氏消化法不能准确测定出多数土壤中的固定态铵。对固定态铵含量较高的土壤进行全氮分析时，若需要释放出土壤的固定态铵，则应该使用Bremner（1996）提出的HF-HCl修订法。"},
+    {"type": "method-heading", "number": "22.3", "title": "微量凯氏消煮—蒸汽蒸馏法：包含NO₂⁻和NO₃⁻"},
+    {"type": "scope", "text": "此法用于含有大量NO₂⁻和NO₃⁻的表层土壤样品的全氮分析。由于高浓度¹⁵N标记的NO₂⁻或NO₃⁻显著影响¹⁵N的分析测定，故此方法推荐用于非¹⁵N示踪的土壤样品全氮分析。除了要进行预处理将NO₂⁻氧化成NO₃⁻、将NO₃⁻还原为NH₄⁺，此法其余步骤与22.2相同。"},
+    {"type": "source-fidelity-note", "scope": "22.3适用范围", "text": "原书本页清晰印作“故此方法推荐用于非¹⁵N示踪的土壤样品全氮分析”，与第179页“¹⁵N示踪土壤样品的总氮量测定详见22.3”存在内在不一致；正文按原印保留，检索时必须显示该冲突，不得擅自删去“非”字。"},
+    {"type": "method-subheading", "number": "22.3.1", "title": "材料和试剂：前处理和消化"},
+    {"type": "reagent-item", "number": "（1）", "text": "除了与22.2.1相同的材料和试剂，还需要准备以下试剂。"},
+    {"type": "reagent-item", "number": "（2）", "name": "高锰酸钾溶液", "text": "将50 g高锰酸钾溶于1 L去离子水，并存于琥珀色试剂瓶中。"},
+    {"type": "reagent-item", "number": "（3）", "name": "9 mol·L⁻¹的硫酸溶液", "text": "用去离子水将浓硫酸稀释一倍。"},
+    {"type": "reagent-item", "number": "（4）", "name": "铁粉", "text": "＜100目。"},
+    {"type": "reagent-item", "number": "（5）", "text": "正辛醇。"},
+    {"type": "method-subheading", "number": "22.3.2", "title": "材料和试剂：蒸馏和滴定"},
+    {"type": "cross-reference", "text": "与22.2.2相同。"},
+    {"type": "method-subheading", "number": "22.3.3", "title": "步骤"},
+    {"type": "procedure-phase", "text": "将NO₂⁻和NO₃⁻还原为NH₄⁺的预处理。"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取0.25～2.0 g土壤样品加入干燥的消煮管中，土壤样品约含1 mg氮。"},
+    {"type": "procedure-step", "number": "（2）", "text": "向消煮管中加入2 mL水（若土壤样品为2 g，则加3 mL水），并且摇动消煮管使土壤样品浸湿。"},
+    {"type": "printed-page-number", "text": "182"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e0446d0374e02fbbb8f8d19438216620d64fcff0acd5b559c1e95fe64e92e9fd"
+}

@@ -1,0 +1,72 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 264,
+  "sourceImageSha256": "a3afcb4d3d32a0675fa6830b009fe7baf4f7a29f94dc9482c37fbef1b4aadce3",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对第80章题名、作者、80.1全文及图80.1部件和图注"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验S、K、θ、α*、PD、NP的上下标与量纲，以及−100 mm≤ψ≤0、ψ₀=z₂−z₁"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "整页和图80.1高倍复核储水管、气泡塔、供水膜、h₀/h_t与z₁/z₂；印刷页码773"
+    }
+  },
+  "blocks": [
+    {
+      "type": "chapter",
+      "number": "80",
+      "title": "非饱和导水率：室内张力入渗仪法",
+      "author": "F.J. Cook",
+      "affiliation": "Commonwealth Scientific and Industrial Research Organization, Indooroopilly, Queensland, Australia"
+    },
+    {
+      "type": "heading",
+      "number": "80.1",
+      "title": "引言",
+      "level": 2
+    },
+    {
+      "type": "scope",
+      "text": "室内张力/圆盘入渗仪法主要在田间取得的原状土芯上测近饱和吸渗率S(ψ) [L·T⁻¹ᐟ²]和导水率K(ψ) [L·T⁻¹]；也可测近饱和脱水/吸水曲线θ(ψ) [L³·L⁻³]、吸渗数α*(ψ) [L⁻¹]、流量权重平均孔径PD(ψ) [L]及单位面积流量权重平均孔数NP(ψ) [L⁻²]。本章“近饱和”为−100 mm≤ψ≤0。"
+    },
+    {
+      "type": "principle",
+      "text": "取非饱和多孔介质原状土芯，置于穿孔支台或恒水头装置（如布氏漏斗）上，再把CSIRO张力入渗仪置于芯顶；在固定基质水头ψ₀下测早期瞬态入渗以求S，或测稳态入渗以求K。分析采用Clothier和White（1981）方法的修正版。"
+    },
+    {
+      "type": "figure",
+      "number": "80.1",
+      "title": "张力入渗仪",
+      "components": [
+        "内半径r_s、带刻度储水管、进气口、气泡塔/调压管",
+        "垫片、不锈钢网、多孔支撑材料、尼龙网、O形密封圈",
+        "供水膜固定环、硅酮密封、供水膜、排气口"
+      ],
+      "notes": [
+        "设定基质水头ψ₀=z₂−z₁。",
+        "z₂为供水膜至气泡塔排气口的垂直距离。",
+        "式(80.8)只使用h₀−h_t，故h₀与h_t的基准面可任意选取。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "OCR把S(ψ)指数、K(ψ)、α*(ψ)、NP(ψ)的L⁻²和负号大量破坏；规范文本按版面与英文原章恢复。英文intact core of unsaturated porous material明确为“非饱和原状土芯”，不是饱和土芯。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "图80.1",
+      "plain": "ψ₀=z₂−z₁",
+      "latex": "\\psi_0=z_2-z_1",
+      "resultUnit": "L"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "07d4624564cfbb730a3e7be350336751becf1ce9e22c6c800ca40e23cefd8a59"
+}

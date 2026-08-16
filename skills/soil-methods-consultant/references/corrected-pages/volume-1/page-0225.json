@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 225,
+  "sourceImageSha256": "5b21a69ca645b0c4ec87d0731d25da82dd185e32f13965bd6ac0ad386a4b770d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第23章参考文献第194页，并与Apple Vision、PaddleOCR交叉比对，人工恢复本页19条完整文献及1条跨页未完文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验2ⁿᵈ ed.、XRF、ICP-AES、重音/复姓、作者缩写、书名、期刊卷页和Johnson跨页位置"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Johnson未完条目反向复核至Arnhold条目，确认20个文献单元、标点、卷页、专名及页码194"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "references-heading", "text": "参考文献"},
+    {"type": "reference-entry", "text": "Arnhold, W. and Stoeppler, M. 2004. Sulfur. In: E. Marian, M. Anke, M. Ihnat, and M. Stoeppler, eds. Elements and Their Compounds in the Environment. Occurrence, Analysis, and Biological Relevance, 2ⁿᵈ ed. Wiley-VCH Verlag GmbH &Co., Weinheim, Germany, 1297-1319."},
+    {"type": "reference-entry", "text": "Aspiras, R.B., Keeney, D.R., and Chesters, G. 1972. Determination of reduced inorganic sulfur forms as sulfide by zinc-hydrochloric acid distillation. Anal. Lett. 5: 425-432."},
+    {"type": "reference-entry", "text": "Barrow, N.J. 1970. Note on incomplete extraction of elemental sulfur from wet soil by chloroform. J. Sci. Food Agric. 21: 439-440."},
+    {"type": "reference-entry", "text": "Beaton, J.D., Burns, GR., and Platou, J. 1968. Determination of sulfur in soils and plant material. Technical Bulletin No. 14. The Sulfur Institute, Washington, DC, 56."},
+    {"type": "reference-entry", "text": "Begheijn, L. Th., van Breeman, N., and Velthorst, E.J. 1978. Analysis of sulfur compounds in acid sulfate soils and other recent marine soils. Commun. Soil Sci. Plant Anal. 9: 873-882."},
+    {"type": "reference-entry", "text": "Blanchar, R.W. 1986. Measurement of sulfur in soils and plants. In: M.A. Tabatabai, ed. Sulfur in Agriculture. American Society of Agronomy, Madison, WI, 465-490."},
+    {"type": "reference-entry", "text": "Brown, G. and Kanaris-Sotiriou, R. 1969. Determination of sulfur in soils by x-ray fluorescence analysis. Analyst. 94: 782-786."},
+    {"type": "reference-entry", "text": "Chae, Y.M. and Lowe, L.E. 1981. Fractionation by column chromatography of lipids and lipid sulfur extracted from soils. Soil Biol. Biochem.13: 257-260."},
+    {"type": "reference-entry", "text": "Chae, Y.M. and Tabatabai, M.A. 1981. Sulfolipid and phospholipid in soils and sewage sludges in Iowa. Soil Sci. Soc. Am. J. 45: 20-25."},
+    {"type": "reference-entry", "text": "Chapman, S.J. 1987. Microbial sulfur in some Scottish soils. Soil Biol. Biochem. 19: 301-305."},
+    {"type": "reference-entry", "text": "Clark, P.D. and Lesage, K.L. 1989. Quantitative determination of elemental sulfur in hydrocarbons, soils, and other materials. J. Chromatogr. Sci. 27: 259-261."},
+    {"type": "reference-entry", "text": "David, M.B., Schindler, S.C., Mitchell, M.J., and Strick, J.E. 1983. Importance of organic and inorganic sulfur to mineralization processes in a forest soil. Soil Biol. Biochem. 15: 671-677."},
+    {"type": "reference-entry", "text": "Freney, J.R., Melville, G.E., and Williams, C.H. 1970. The determination of carbon bonded sulfur in soil. Soil Sci. 109: 310-318."},
+    {"type": "reference-entry", "text": "Gerzabek, Von M.H. and Schaffer, K. 1986. Determination of total sulfur in soil—a comparison of methods. Die Bodenkultur 37: 1-6."},
+    {"type": "reference-entry", "text": "Gibson, A.R. and Giltrap, D.J. 1979. Measurement of extractable soil sulfur in the presence of phosphate using ion-exchange resin paper discs and XRF spectrometry. N.Z. J. Agric. Res. 22: 439-443."},
+    {"type": "reference-entry", "text": "Guthrie, T.F. and Lowe, L.E. 1984. A comparison of methods for total sulfur analysis of tree foliage. Can. J. Forest Res. 14: 470-473."},
+    {"type": "reference-entry", "text": "Hogan, G.D. and Maynard, D.G. 1984. Sulfur analysis of environmental materials by vacuum inductively coupled plasma emission spectrometry (ICP-AES). In: Proceedings of Sulfur-84. Sulfur Development Institute of Canada (SUDIC), Calgary, AB, Canada, 676-683."},
+    {"type": "reference-entry", "text": "Hordijk, C.A., van Engelen, J.J.M., Jonker, F.A., and Cappenberg, T.E. 1989. Determination of total sulfur in freshwater sediments by ion chromatography. Water Res. 23: 853-859."},
+    {"type": "reference-entry", "text": "Jenkins, R. 1984. X-ray fluorescence analysis. Anal. Chem. 56: 1099A-1106A."},
+    {"type": "reference-entry", "continued": true, "text": "Johnson, C.M. and Nishita, H. 1952. Microestimation of sulfur in plant materials, soils, and irrigation waters. Anal. Chem. 24:"},
+    {"type": "printed-page-number", "text": "194"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ade31658f487405679a25f4afe255e84c432d193fd2a070783685295a29ea442"
+}

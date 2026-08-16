@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 348,
+  "sourceImageSha256": "01bdb7ef9982781b3a617e32ae3f447aa7b74269c452617fca1e8d631fe17616",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面，并与Apple Vision、PaddleOCR及英文原版34.1末～34.3.1材料（1）交叉比对，恢复采样设计、手拣设计范围与器具"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验每公顷40个1 m²、25×25～45×45 cm、10～125 cm、10×45/30×30 cm、20 cm以下、5/10 cm及PVC 20×30 cm"},
+    "secondVisualPass": {"status": "verified", "method": "从页末塑料项圈跨页句反向复核至页首空间采样段，确认分层随机、无偏估计、茧深度及全部器具尺寸；页码317"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第34章｜蚯蚓｜"},
+    {"type": "paragraph", "text": "蚯蚓种群的空间分布及物种多样性随时间的变化尚不清楚，因此适当的采样策略对获得种群数量和多样性的最佳估计至关重要。采样设计可采用固定间隔网格、随机坐标上的一系列样带，或从点向外辐射的样带。全年定期采样可估计蚯蚓种群数量或多样性在何时最高。"},
+    {"type": "paragraph", "text": "保持标本完整性对分类学和分子遗传学研究至关重要。有时必须解剖蚯蚓；标本腐败会使这种精细操作及后续分子遗传学比较无法进行。维护良好的参考收藏或综合收藏，对追踪物种组成随时间的变化非常宝贵。"},
+    {"type": "source-fidelity-note", "scope": "34.1标本完整性", "text": "中文本把decaying specimens误译成“利用分子遗传学手段分解标本”。英文原义是标本腐败会妨碍解剖并使未来的分子遗传比较无法进行；校正文据此恢复。"},
+    {"type": "paragraph", "text": "本章介绍最常用且推荐的蚯蚓野外采样方法。方法中的注释和提示来自野外与实验室经验，可帮助优化野外工作的效果和效率。采样、处理和运输方法适用于包括生态毒理学在内的广泛土壤研究。"},
+    {"type": "section-heading", "level": 2, "number": "34.2", "title": "采样设计"},
+    {"type": "paragraph", "text": "对所有方法，样品都应在采样小区内按分层随机坐标采集，样本数量和大小应足以获得准确估计（Southwood，1978）。受控试验数据可为研究不同管理措施与蚯蚓种群密度、生物量和物种组成之间的因果关系提供良好基础（Blair等，1996）。但所需样本数量与大小因研究而异，为充分测定不同物种丰度，可能需要不同数量的样品。"},
+    {"type": "paragraph", "text": "蚯蚓种群多呈斑块分布，与植被及土壤物理、化学和生物性质有关，使采样单元的数量、大小和分布难以确定。研究表明，缩小野外采样面积会增加数据总变异（Rossi和Nuutinen，2004）。Whelan（2004）确定，在森林或农业景观尺度上，每公顷至少需要40个1 m²采样单元，才能无偏估计蚯蚓数量和生物量。"},
+    {"type": "section-heading", "level": 2, "number": "34.3", "title": "物理方法"},
+    {"type": "section-heading", "level": 3, "number": "34.3.1", "title": "手拣"},
+    {"type": "paragraph", "text": "手拣是蚯蚓采样最常用的程序。该法对土壤扰动大、劳动强度高，但可用于所有土壤类型。用铁锹、土钻或项圈移取规定尺寸的一定体积土壤，再手工分拣其中的蚯蚓。采样效率随样本大小和采样单元形状而异。许多研究采用25 cm×25 cm至45 cm×45 cm的方形采样单元，采样深度10～125 cm；具体深度应按蚯蚓活动深度调整。"},
+    {"type": "paragraph", "text": "在农田中，Dickey和Kladivko（1989）确定，对蚯蚓最有效的采样单元尺寸/形状为沿作物行10 cm、横跨作物行45 cm，即10 cm×45 cm；对蚯蚓茧最有效的是30 cm×30 cm方形。可按土层分层采样以确定适宜深度。新项目开始时，应先开展初步试验来确定样本大小、形状和物种多样性。Clapperton（1999）在一项研究中发现，蚯蚓茧大多沉积在20 cm深度以下。"},
+    {"type": "source-fidelity-note", "scope": "34.3.1蚯蚓茧深度", "text": "中文本印作“集中在20 cm深度”，英文原版为mostly deposited below the 20 cm depth，校正为“多数沉积在20 cm以下”。"},
+    {"type": "subsection-heading", "method": "34.3.1", "number": "1", "title": "材料和试剂"},
+    {"type": "material-group", "number": "（1）", "title": "移取规定体积土壤的设备"},
+    {"type": "material", "number": "①", "text": "木制或金属模板，用于保持采样单元尺寸和形状一致。不同尺寸/形状模板的构造方法见Wormwatch（2002）网站。"},
+    {"type": "material", "number": "②", "text": "园艺锹或铁锹；方头铁锹最利于维持采样单元尺寸。必须在锹刃上以喷漆按5 cm或10 cm间隔标出深度刻度。"},
+    {"type": "material", "number": "③", "text": "金属土钻，可用手或夯实机打入土壤。注意：土钻在干燥、团聚松散或砂质土壤中工作不佳。"},
+    {"type": "material", "number": "④", "id": "plastic-collar", "continuation": "page-0349", "text": "塑料项圈，例如长20 cm、内径30 cm的PVC管，可压入土壤并留置一段时间，使项圈内土壤沉"},
+    {"type": "printed-page-number", "text": "317"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1a9acf0bfa61fe7d87ca3a5021a2a2ca2edd18e0868487e22e031ef518e04938"
+}

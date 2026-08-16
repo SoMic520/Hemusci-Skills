@@ -1,0 +1,81 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 304,
+  "sourceImageSha256": "e6d26cc922ee12ee57fc186fac0f9885ace8b17107eb6dc6e03ec19939f310d9",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对完全分析、均质剖面简化分析、式(83.7)～式(83.12)及表83.1开头"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "由式(83.5)/(83.6)求导复核式(83.7)/(83.8)，并独立推导τ、μ指数形式的式(83.12)"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "偏导、平均符号、定深度下标、指数1/μ与(μ−1)/μ逐符号反查；印刷页码813"
+    }
+  },
+  "blocks": [
+    {
+      "type": "analysis-note",
+      "paragraphs": [
+        "式(83.5)和式(83.6)通常能很好拟合较宽范围的多孔介质数据，a、b、c、d为拟合常数。对时间求导并代入式(83.4)，分别得到式(83.7)和式(83.8)。",
+        "若整个剖面均质，排水引起的∂H(z,t)/∂z≈−1，确定K(θ)时可不使用张力计测ψ(z,t)。此时∂W(z,t)/∂t可写成式(83.9)。",
+        "θ̄(t)_z为表面至深度z的平均含水量，可由式(83.10)经验关系求得；θ(t)_z为深度z处实测含水量，m、n为拟合常数，m通常接近1。",
+        "对均质剖面每一深度z的θ—t数据回归得到τ、μ，代入式(83.9)～式(83.11)及式(83.4)，并令∂H/∂z≈−1，可得式(83.12)。该式直接给出任意深度z处K(θ)_z—θ_z关系，避免直接估算W、H对时间和空间的导数。",
+        "简化法虽原则上仅适用于均质剖面，但在适度异质剖面也可能得到可用结果。它还避免张力计读数不准和水力梯度误估造成的严重误差传播，因此即使张力计数据可用也推荐采用。完全分析法与简化法的对比见Vachaud and Dane (2002)；表83.1及图83.1～83.3给出简化法算例。"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "label": "83.7",
+      "plain": "K(θ)|_z=(a/t)|_z÷[∂H(z,t)/∂z|_z]",
+      "latex": "K(\\theta)\\big|_z=\\left.\\frac{a}{t}\\right|_z\\bigg/\\left.\\frac{\\partial H(z,t)}{\\partial z}\\right|_z"
+    },
+    {
+      "label": "83.8",
+      "plain": "K(θ)|_z=[cdt^(d−1)]|_z÷[∂H(z,t)/∂z|_z]",
+      "latex": "K(\\theta)\\big|_z=\\left.cd\\,t^{d-1}\\right|_z\\bigg/\\left.\\frac{\\partial H(z,t)}{\\partial z}\\right|_z"
+    },
+    {
+      "label": "均质剖面水力梯度",
+      "plain": "∂H(z,t)/∂z≈−1",
+      "latex": "\\frac{\\partial H(z,t)}{\\partial z}\\approx-1"
+    },
+    {
+      "label": "83.9",
+      "plain": "∂W(z,t)/∂t|_z=z·∂θ̄(t)_z/∂t|_z=zm·∂θ(t)_z/∂t|_z",
+      "latex": "\\left.\\frac{\\partial W(z,t)}{\\partial t}\\right|_z=z\\left.\\frac{\\partial\\bar{\\theta}(t)_z}{\\partial t}\\right|_z=zm\\left.\\frac{\\partial\\theta(t)_z}{\\partial t}\\right|_z"
+    },
+    {
+      "label": "83.10",
+      "plain": "θ̄(t)_z=mθ(t)_z+n",
+      "latex": "\\bar{\\theta}(t)_z=m\\theta(t)_z+n"
+    },
+    {
+      "label": "83.11",
+      "plain": "θ(t)_z=τt^μ",
+      "latex": "\\theta(t)_z=\\tau t^\\mu"
+    },
+    {
+      "label": "83.12",
+      "plain": "K(θ)_z=−zmτ^(1/μ)μθ_z^[(μ−1)/μ]",
+      "latex": "K(\\theta)_z=-zm\\tau^{1/\\mu}\\mu\\theta_z^{(\\mu-1)/\\mu}"
+    }
+  ],
+  "tables": [
+    {
+      "number": "83.1(a)",
+      "title": "瞬时剖面法（简化分析法，式83.12）数据样表及K(θ)计算方法：基于深度50 cm处探头所测体积含水量数据；深度50 cm处θ—t（见图83.1，续见下一页）",
+      "columns": ["时间t (min)", "ln(t)", "θ (cm³·cm⁻³)", "ln(θ)"],
+      "rows": [
+        ["1", "0", "0.50", "−0.6932"],
+        ["3", "1.0986", "0.47", "−0.7550"]
+      ]
+    }
+  ],
+  "contentSha256": "fba3dc62b066c1b7f4d72d86a8709d918537447600c51815ab852e6fcbd59bf3"
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 245,
+  "sourceImageSha256": "89f91ea1f7f3466ad1241d58f82773aea31d92a230a6493da56f142907ebf259",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第214页，并与Apple Vision、PaddleOCR交叉比对，人工恢复本页Dixon至Rodriguez共20条英文参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者缩写、年份、题名、³¹P、期刊名、卷号页码、书名页码、机构地点及O’Halloran 1993、Parkinson拼写"},
+    "secondVisualPass": {"status": "verified", "method": "从Rodriguez等（1994）反向复核至Dixon和Webb（1966），确认20条文献顺序、每条边界、标点、卷页与印刷页码214；同时为前文两处印刷错误提供书内文献依据"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference", "text": "Dixon, M. and Webb, E.C. 1966. Enzymes. Longman Scientific. London, UK."},
+    {"type": "reference", "text": "Dormaar, J.F. and Webster, G.R. 1964. Losses inherent in ignition procedures for determining total organic phosphorus. Can. J. Soil Sci. 44: 1-6."},
+    {"type": "reference", "text": "Drummond, L. and Maher, W. 1995. Determination of phosphorus in aqueous solution via formation of the phosphoantimonylmolybdenum blue complex: Re-examination of the optimum conditions for the analysis of phosphate. Anal. Chim. Acta 302: 69-74."},
+    {"type": "reference", "text": "Gasparatos, D. and Haidouti, C. 2001. A comparison of wet oxidation methods for determination of total phosphorus in soils. J. Plant Nutr. Soil Sci. 164: 435-439."},
+    {"type": "reference", "text": "Going, J.E. and Eisenreich, S.J. 1974. Spectrophotometric studies of reduced molybdoantimonylphosphoric acid. Anal. Chim. Acta 70: 96-106."},
+    {"type": "reference", "text": "Harwood, J.E., van Steenderen, R.A., and Kühn, A.L. 1969. A rapid method for orthophosphate analysis at high concentrations in water. Water Res. 3: 417-423."},
+    {"type": "reference", "text": "Hayes, J.E., Richardson, A.E., and Simpson, R.J. 2000. Components of organic phosphorus in soil that are hydrolysed by phytase and acid phosphatase. Biol. Fert. Soils 32: 279-286."},
+    {"type": "reference", "text": "He, Z., Griffin, T.S., and Honeycutt, C.W. 2004. Enzymatic hydrolysis of organic phosphorus in swine manure and soil. J. Environ. Qual. 33: 367-372."},
+    {"type": "reference", "text": "He, Z. and Honeycutt, C.W. 2001. Enzymatic characterization of organic phosphorus in animal manures. J. Environ. Qual. 30: 1685-1692."},
+    {"type": "reference", "text": "Hedley, M.J., Stewart, J.W.B., and Chauhan, B.S. 1982. Changes in inorganic and organic soil phosphorus fraction induced by cultivation practices and by laboratory incubations. Soil Sci. Soc. Am. J. 46: 970-976."},
+    {"type": "reference", "text": "Kara, D., Özsavasçi, C., and Alkan, M. 1997. Investigation of suitable digestion methods for the determination of total phosphorus in soils. Talanta 44: 2027-2032."},
+    {"type": "reference", "text": "Legg, J.O. and Black, C.A. 1955. Determination of organic phosphorus in soils. II. Ignition method. Soil Sci. Soc. Am. Proc. 19: 139-143."},
+    {"type": "reference", "text": "Mehta, N.C., Legg, J.O., Goring, C.A.I., and Black, C.A. 1954. Determination of organic phosphorus in soils. I. Extraction method. Soil Sci. Soc. Am. Proc. 18: 443-449."},
+    {"type": "reference", "text": "Murphy, J. and Riley, J.P. 1962. A modified single solution method for the determination of phosphate in natural waters. Anal. Chim. Acta. 27: 31-36."},
+    {"type": "reference", "text": "Newman, R.H. and Tate, K.R. 1980. Soil phosphorus characterization by ³¹P nuclear magnetic resonance. Commun. Soil Sci. Plant Anal. 11: 835-842."},
+    {"type": "reference", "text": "Nnadi, L.A., Tabatabai, M.A., and Hanaway, J.J. 1975. Determination of phosphate extracted from soils by EDTA and NTA. Soil Sci. 119: 203-209."},
+    {"type": "reference", "text": "O’Halloran, I.P. 1993. Total and organic phosphorus. Pages 213-229 In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. Canadian Society of Soil Science. Lewis Publishers, Boca Raton, FL, USA."},
+    {"type": "reference", "text": "Olsen, S.R. and Sommers, L.E. 1982. Phosphorus. Pages 403-430 In: A.L. Page, R.H. Miller, and D.R. Keeney, eds. Methods of Soil Analysis. Part 2. 2nd edn. Agronomy No.9. American Society of Agronomy, Madison, WI, USA."},
+    {"type": "reference", "text": "Parkinson, J.A. and Allen, S.E. 1975. A wet oxidation procedure suitable for the determination of nitrogen and mineral nutrients in biological material. Commun. Soil Sci. Plant Anal. 6: 1-11."},
+    {"type": "reference", "text": "Rodriguez, J.B., Self, J.R., and Soltanpour, P.N. 1994. Optimal conditions for phosphorus analysis by the ascorbic acid-molybdenum blue method. Soil Sci. Soc. Am. J. 58: 866-870."},
+    {"type": "printed-page-number", "text": "214"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "88207f928f2da8d056e4f44370dedb792ca22195216d62e706e3f9c0129624c9"
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 394,
+  "sourceImageSha256": "96af82d7c20f1d8f021b96ab1a38646ece5fbbfc11a626c8d9cd51de4d1e087f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版38.1"},
+    "precisionPass": {"status": "verified", "method": "核验NH₄⁺、NO₂⁻、NO₃⁻、¹⁵NO₃⁻、菌属名称、三类实验室方法和田间法层级"},
+    "secondVisualPass": {"status": "verified", "method": "从净硝化低估机制承下句反向复核至章名和作者单位，纠正Nitrosospira-like为Nitrospira-like；印刷页码363"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "38", "title": "土壤硝化测定技术"},
+    {"type": "author", "name": "C.F. Drury", "affiliation": "Agriculture and Agri-Food Canada, Harrow, Ontario, Canada"},
+    {"type": "author", "name": "S.C. Hart", "affiliation": "Northern Arizona University, Flagstaff, Arizona, United States"},
+    {"type": "author", "name": "X.M. Yang", "affiliation": "Agriculture and Agri-Food Canada, Harrow, Ontario, Canada"},
+    {"type": "section-heading", "level": 2, "number": "38.1", "title": "引言"},
+    {"type": "paragraph", "text": "硝化作用是硝化微生物在好氧条件下把铵根（NH₄⁺）转化为亚硝酸根（NO₂⁻）和硝酸根（NO₃⁻）的过程。第一步由Nitrosomonas、Nitrosospira、Nitrosococcus和Nitrosovibrio等化能自养细菌把NH₄⁺氧化为NO₂⁻；第二步由Nitrobacter和Nitrospira样细菌把NO₂⁻氧化为NO₃⁻。氨氧化菌和亚硝酸盐氧化菌通常共存，因此NO₂⁻很少在土壤中积累。"},
+    {"type": "scientific-correction-note", "scope": "第二步硝化菌属", "text": "中译本和英文原文均写Nitrosospira-like bacteria，但其所引Bartosch等（2002）的论文题名和研究对象为Nitrospira-like nitrite-oxidizing bacteria；Nitrosospira为氨氧化菌属。正文纠正为Nitrospira样细菌。"},
+    {"type": "paragraph", "text": "了解土壤硝化速率很重要。NH₄⁺转为NO₃⁻会提高氮在带负电土壤胶体环境中的迁移性，可能提高植物有效性，也可能增加淋失；NO₃⁻形成还会提高经反硝化产生气态氮损失的可能。硝化对土壤有净酸化效应，pH下降可改变其他植物养分的有效性。评价硝化抑制剂或聚合物包膜氮肥、超级颗粒等肥料配方时，也需要标准测定方法。"},
+    {"type": "paragraph", "text": "影响土壤硝化的关键因素包括温度、湿度、pH、NH₄⁺和O₂。本章介绍3种实验室方法和1种田间方法，并讨论优缺点、关键控制因素，以及土壤采集、预处理、储存和后续浸提。"},
+    {"type": "ordered-list", "intro": "三种实验室培养方法为：", "items": [
+      "净硝化速率：向土壤加入NH₄⁺，在恒温恒湿条件培养，测定NO₃⁻库大小的净变化；",
+      "潜在硝化速率：向土壤加入NH₄⁺和磷酸盐，以土壤悬液在摇床振荡，减弱扩散限制并优化通气；",
+      "总硝化速率：用¹⁵NO₃⁻库稀释法测定NO₃⁻真实产生速率。"
+    ]},
+    {"type": "paragraph", "text": "预期微生物固持或反硝化很强，或需要比“潜在”更接近真实的测量时，应首选总硝化速率。只测NO₃⁻库净变化的试验可能低估真实硝化速率，因为培养期间部分新生成NO₃⁻会被微生物固持，或被反硝化、异化硝酸盐还原为铵等过程消耗；本段续见第395页。"},
+    {"type": "printed-page-number", "text": "363"}
+  ],
+  "formulas": [
+    {"id": "38.1-nitrification", "display": "NH₄⁺ → NO₂⁻ → NO₃⁻  (aerobic nitrification)"}
+  ],
+  "tables": [],
+  "contentSha256": "35b7502f58fd3c940db5e772af72bf3e4480df355e7025396d8c4f0aeedcef30"
+}

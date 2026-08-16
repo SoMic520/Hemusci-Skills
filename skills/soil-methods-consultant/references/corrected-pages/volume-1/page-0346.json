@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 346,
+  "sourceImageSha256": "d14061e6a18f97e05ba88130bc1df9762046ab0e1600bd8dba6156536d24a7d6",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率参考文献页面，并与Apple Vision、PaddleOCR及英文原版交叉比对，恢复跨页续文、其后6条文献与译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Oostenbrink、cotton-wool、de Goede、Pratylenchus penetrans、全部作者首字母、卷页及译校姓名"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向逐条复核至Thistlethwayte和Riedel（1969）续文，确认标题连字符和物种名；页码315"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第33章｜线虫｜"},
+    {"type": "reference-continuation", "continuationOf": "page-0345#thistlethwayte-riedel-1969", "text": "Nematol. 1: 387–388."},
+    {"type": "reference", "text": "Townshend, J.L. 1963. A modification and evaluation of the apparatus for the Oostenbrink direct cotton wool filter extraction method. Nematologica 9: 106–110."},
+    {"type": "reference", "text": "Verschoor, B.C. and de Goede, R.G.M. 2000. The nematode extraction efficiency of the Oostenbrink elutriator-cottonwool filter method with special reference to nematode body size and life strategy. Nematology 2: 325–342."},
+    {"type": "reference", "text": "Viglierchio, D.R. and Schmitt, R.V. 1983. On the methodology of nematode extraction from field samples: Comparison of methods for soil extraction. J. Nematol. 15: 450–454."},
+    {"type": "reference", "text": "Viglierchio, D.R. and Yamashita, T.T. 1983. On the methodology of nematode extraction from field samples: Density flotation techniques. J. Nematol. 15: 444–449."},
+    {"type": "reference", "text": "Vrain, T.C., Forge, T.A., and De Young, R. 1997. Population dynamics of Pratylenchus penetrans parasitizing raspberry. Fundam. Appl. Nematol. 20: 29–36."},
+    {"type": "reference", "text": "Whitehead, A.G. and Hemming, J.R. 1965. A comparison of some quantitative methods of extracting small vermiform nematodes from soil. Ann. Appl. Biol. 55: 25–38."},
+    {"type": "translation-credit", "translator": "翟伟伟", "reviewer": "徐建明", "text": "（翟伟伟 译，徐建明 校）"},
+    {"type": "printed-page-number", "text": "315"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "01b0f8652f3ddfe6afa7883f6fd0ddc6d675d26852c695056e17c95e605f898e"
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 156,
+  "sourceImageSha256": "c415f071d5c9ffee6bc00a9941d2a2bce91f640fe653ca5f6adf84bcce1edd41",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐式对照原分辨率图和两套OCR，完成第69章章名、作者机构、69.1及69.2至有效饱和度跨页句"},
+    "precisionPass": {"status": "verified", "method": "核验θ_m/θ_v、ρ_b/ρ_w、kg·kg⁻¹、m³·m⁻³、Mg·m⁻³、相对/有效饱和度及章70—85层级"},
+    "secondVisualPass": {"status": "verified", "method": "由脚注反向复核至章名，检查式(69.1)分子分母、干土体积定义和储量/水力参数分类；本页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter", "number": "69", "title": "土壤水分析：原理和参数"},
+    {"type": "authors", "items": ["W.D. Reynolds，Agriculture and Agri-Food Canada，Harrow, Ontario, Canada", "G. Clarke Topp，Agriculture and Agri-Food Canada，Ottawa, Ontario, Canada"]},
+    {"type": "heading", "number": "69.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "本章概述现代土壤水分析的主要原理和参数，为第70—85章方法提供背景。分析分为储量性质和水力性质：前者描述吸附、保持水分的能力，包括含水量、水势、吸水和脱水特征；后者描述水分输运，包括饱和/非饱和导水率、吸渗率、通量势、吸渗数和流量加权平均（FWM）孔隙直径等。"},
+    {"type": "heading", "number": "69.2", "title": "土壤含水量", "level": 2},
+    {"type": "paragraph", "text": "质量含水量θ_m为水质量与烘干土质量之比；体积含水量θ_v为水体积与取样前未扰动土壤总体积之比。二者不能不加定义地混用，数值必须同时给基准和单位。干土总体积在这里指原状样品测水前的体积，不是烘干后可能收缩的体积。"},
+    {"type": "variables", "items": ["θ_m：质量含水量，kg水·kg⁻¹干土", "θ_v：体积含水量，m³水·m⁻³土", "ρ_b：干容重，Mg·m⁻³", "ρ_w：孔隙水密度，Mg·m⁻³"]},
+    {"type": "paragraph", "text": "相对饱和度S=θ_v/θ_s，表示孔隙被水充填的比例，0—1；完全饱和且无滞留气体时θ_s=n。有效饱和度S_e=(θ_v−θ_r)/(θ_s−θ_r)，其中θ_r为模型定义的残余含水量；S_e在θ_v=θ_r时为0，在θ_v=θ_s时为1。"},
+    {"type": "footnote", "text": "原译者注认为质量含水量“不是真正含水量、只有体积含水量才是”，这一判断不符合土壤物理通用定义；两者都是合法含水量指标，只是基准不同，必须明确质量基或体积基。"},
+    {"type": "source-fidelity-note", "text": "式(69.1)OCR上下颠倒，已按量纲恢复θ_v=(ρ_b/ρ_w)θ_m。ρ_b和ρ_w的负三次方单位均已恢复。原书把饱和导水率重复印成两次，按上下文校正为饱和与非饱和导水率。"}
+  ],
+  "formulas": [
+    {"label": "69.1", "plain": "θ_v = (ρ_b/ρ_w) θ_m", "latex": "\\theta_v=\\frac{\\rho_b}{\\rho_w}\\theta_m"},
+    {"label": "相对饱和度", "plain": "S = θ_v/θ_s", "latex": "S=\\frac{\\theta_v}{\\theta_s}"},
+    {"label": "有效饱和度", "plain": "S_e = (θ_v − θ_r)/(θ_s − θ_r)", "latex": "S_e=\\frac{\\theta_v-\\theta_r}{\\theta_s-\\theta_r}"}
+  ],
+  "tables": [],
+  "contentSha256": "5d8d6be819d255cfcc03654ab084cc1ab5173365dbcf46abb4b54b8807d1da6c"
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 52,
+  "sourceImageSha256": "bbaba5a63ed9802d2c4e7bdac0f810d22805ae18141b9ce78a981116d6dea0f7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文与图示页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部正文、标题、步骤和图注"},
+    "precisionPass": {"status": "verified", "method": "放大核对图3.1坐标轴、A/B曲线、0/x时间点、Mg C/ha、绝对变化与净变化括号、SOC、5年、10%及3.2各级标题"},
+    "secondVisualPass": {"status": "verified", "method": "按续接正文、图形要素、图注、3.2/3.2.1/3.2.2/3.2.3层级、编号步骤、单位和印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第3章｜土壤有机碳储量的测定｜"},
+    {"type": "paragraph", "continuation": true, "text": "本章选用的测定碳储量变化的方法中，无论是对绝对变化还是净变化，通常以5年或更长为时间间隔。为了评估的有效性，调查方法需要兼顾以下方面：测定有机碳（而不是总碳），预测碳存储的变化（对于特定深度和质量的土壤来说，用单位面积的碳质量表示），代表调查的土地面积或管理措施，提供测定结果的置信指标。这些方法稍加改进，就可适用于一定范围的区域和实验设置，包括基准点和重复试验研究。", "inlineNotation": ["5年"]},
+    {"type": "figure", "number": "3.1", "caption": "在A和B两种处理中土壤有机碳假设变化的说明。对于处理A，绝对变化是SOC在时间“x”与时间“0”的差值。净变化是假设两个处理在时间“0”SOC相同的情况下，在时间“x”处理A与处理B SOC的差值。后一种方法常被用来与标准的“对照”方法（如传统耕作法）比较，以确定建议的处理方法（如免耕）对SOC的影响。", "axes": {"x": {"label": "时间（年）", "ticks": ["0", "x"]}, "y": {"label": "土壤有机碳（Mg C/ha）"}}, "series": [{"label": "A", "start": "时间0共同起点", "end": "时间x较高空心点"}, {"label": "B", "start": "时间0共同起点", "end": "时间x较低实心点"}], "annotations": ["处理A的净变化", "处理A的绝对变化"], "visualRelations": ["水平虚线通过时间0共同起点", "处理A的净变化标示时间x处A与B之差", "处理A的绝对变化标示时间x处A与时间0共同起点之差"], "inlineNotation": ["SOC", "Mg C/ha", "A", "B", "0", "x"]},
+    {"type": "section-heading", "level": 3, "number": "3.2", "title": "采样地点和模式的选择"},
+    {"type": "paragraph", "text": "确定采样点的最佳个数和空间分布来预测SOC储量是一门科学，也是一门艺术。然而，对采样点的仔细研究和设定明确的目标，可以提高预估的成本效益和精确度（VandenBygaart，2006）。", "inlineNotation": ["SOC"]},
+    {"type": "section-heading", "level": 4, "number": "3.2.1", "title": "材料"},
+    {"type": "paragraph", "text": "研究场地土壤特性、景观特征和农艺历史，可参考：土壤区划图和报告、航拍照片、科学出版物、种植记录及产量分布图。"},
+    {"type": "section-heading", "level": 4, "number": "3.2.2", "title": "步骤"},
+    {"type": "paragraph", "text": "在对研究区域（如田块、试验田、流域）进行采样时，常用的两种方法如下："},
+    {"type": "numbered-item", "number": "1", "text": "非分层采样，即将整个研究区域视为一个单元，以系统或随机的方式采集样品。"},
+    {"type": "numbered-item", "number": "2", "text": "分层采样，首先根据地形（如坡位）等因素将研究区域细分为相对同质的单元，并在每个单元分别采样。"},
+    {"type": "section-heading", "level": 4, "number": "3.2.3", "title": "非分层采样"},
+    {"type": "numbered-item", "number": "1", "text": "根据事先获取的信息，估算研究现场SOC可能的样本方差和所需的准确度。", "inlineNotation": ["SOC"]},
+    {"type": "numbered-item", "number": "2", "text": "使用尽可能多的信息，运用公式3.1计算所需样本的数量。该数量将随着变异性和所需准确度的增长而增加（图3.2）（Garten和Wullschleger，1999；Wilding等，2001）。所需的准确度用相同单位的样本平均值表示，而且往往小于该值的10%，因为即使平均值有很小的变化，也意味着在大片土地上有可观的土壤-大气C交换。", "inlineNotation": ["公式3.1", "图3.2", "10%", "C"]},
+    {"type": "numbered-item", "number": "3", "text": "选择适当的网格或者线性取样模式，以适用于试验场地和采样设备。"},
+    {"type": "printed-page-number", "text": "21"}
+  ],
+  "formulas": [
+    {"context": "图3.1处理A的绝对变化", "displayAsPrinted": "SOC在时间“x”与时间“0”的差值", "tokens": ["SOC", "x", "0"]},
+    {"context": "图3.1处理A的净变化", "displayAsPrinted": "在时间“x”处理A与处理B SOC的差值", "conditionAsPrinted": "两个处理在时间“0”SOC相同", "tokens": ["x", "A", "B", "SOC", "0"]}
+  ],
+  "tables": [],
+  "contentSha256": "1eba0dcb1ac19bfad2b6d21f7bd4ff8e0b3a3d0cc7a3383d6afc0124dacb1a18"
+}

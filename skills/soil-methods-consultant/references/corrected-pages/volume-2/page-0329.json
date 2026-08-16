@@ -1,0 +1,80 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 329,
+  "sourceImageSha256": "2f01e20c70de21e51a860032d0940fcf982c64c37ca2038020071f263095bdeb",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对式(85.1c)、自相关标准化、滞后格式及85.3.2半方差结构"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对N(h)求和、头尾均值/方差、h=0端点、1/[2N(h)]及平方"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "C(h)、η(h)、σ²下标、γ(h)及块金/基台/变程定义二次反查；印刷页码838"
+    }
+  },
+  "blocks": [
+    {
+      "type": "definitions",
+      "items": [
+        "m_+h为去掉z(x_i)尾部样本后，+h头部数据z(x_i+h)的均值。",
+        "σ²_−h为尾部数据方差（延迟方差），σ²_+h为头部数据方差（超前方差）；η(h)是C(h)除以二者几何均值后的标准化形式。",
+        "理想情况下C(0)=σ²、随h增大趋于0；η(0)=1、随h增大趋于0。实际端点可因非完整平稳性等偏离。",
+        "规则网格/断面/等时间隔采样常以最小样本间距为基本h，更大距离用h倍数表示；滞后1为h，滞后2为2h，原点外推为滞后0。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "85.3.2",
+      "title": "半方差函数结构分析",
+      "level": 3
+    },
+    {
+      "type": "variogram-definitions",
+      "items": [
+        "自协方差、自相关衡量成对点相似性；半方差函数衡量间距h的成对点平均不相似性。",
+        "γ(h)由所有间距h的数据对之差的平方取平均的一半得到。",
+        "拟合良好的半方差通常自最小滞后距起增长至稳定。滞后0处最小值称块金值；达到最大并保持稳定的距离称变程；变程内稳定值称基台值。",
+        "套合结构可随尺度出现两个或更多变程与基台；不同尺度对应不同过程。拟合差时，变程和基台可能部分或全部不确定。"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "label": "85.1c",
+      "plain": "m_+h=[1/N(h)]Σᵢ₌₁ᴺ⁽ʰ⁾z(x_i+h)",
+      "latex": "m_{+h}=\\frac{1}{N(h)}\\sum_{i=1}^{N(h)}z(x_i+h)"
+    },
+    {
+      "label": "85.2a",
+      "plain": "η(h)=C(h)/√(σ²_−hσ²_+h)",
+      "latex": "\\eta(h)=\\frac{C(h)}{\\sqrt{\\sigma_{-h}^2\\sigma_{+h}^2}}"
+    },
+    {
+      "label": "85.2b",
+      "plain": "σ²_−h=[1/N(h)]Σᵢ₌₁ᴺ⁽ʰ⁾[z(x_i)−m_−h]²",
+      "latex": "\\sigma_{-h}^2=\\frac{1}{N(h)}\\sum_{i=1}^{N(h)}\\left[z(x_i)-m_{-h}\\right]^2"
+    },
+    {
+      "label": "85.2c",
+      "plain": "σ²_+h=[1/N(h)]Σᵢ₌₁ᴺ⁽ʰ⁾[z(x_i+h)−m_+h]²",
+      "latex": "\\sigma_{+h}^2=\\frac{1}{N(h)}\\sum_{i=1}^{N(h)}\\left[z(x_i+h)-m_{+h}\\right]^2"
+    },
+    {
+      "label": "理想端点",
+      "plain": "C(0)=σ²，C(h)→0；η(0)=1，η(h)→0（h增大）",
+      "latex": "C(0)=\\sigma^2,\\ C(h)\\to0;\\qquad \\eta(0)=1,\\ \\eta(h)\\to0\\quad(h\\to\\infty)"
+    },
+    {
+      "label": "85.3",
+      "plain": "γ(h)=[1/(2N(h))]Σₖ₌₁ᴺ⁽ʰ⁾[z(x_k)−z(x_k+h)]²",
+      "latex": "\\gamma(h)=\\frac{1}{2N(h)}\\sum_{k=1}^{N(h)}\\left[z(x_k)-z(x_k+h)\\right]^2"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "5ba02f2743ce42324d05cae36c1d6f555cdbf91c7878a3a4dc4dbe2a7d41f4fd"
+}

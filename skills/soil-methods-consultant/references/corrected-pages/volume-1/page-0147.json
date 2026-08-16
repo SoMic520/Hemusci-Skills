@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 147,
+  "sourceImageSha256": "d639604a0c81f97e4c0ba723870a2389b04e8e7c0cfd5b2c2c421dfaa065bcce",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐行对照原分辨率参考文献页，并与Apple Vision、PaddleOCR交叉比对，人工合并Andraski至Mozaffari未完条目"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者缩写、EPA编号、完整URL及handbook1.pdf、期刊卷页、Mehlich-3、法定机构名和原书oftillage连写"},
+    "secondVisualPass": {"status": "verified", "method": "从Mozaffari未完行反向复核至Andraski首条，确认Aitken,M.N.原书紧连、Gburek作者标点、Bastian核验日期和页码116"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "title": "参考文献"},
+    {"type": "reference-entry", "text": "Andraski, T.W. and Bundy, L.G. 2003. Relationship between phosphorus levels in soil and in runoff from corn production systems. J. Environ. Qual. 32: 310-316."},
+    {"type": "reference-entry", "text": "Andraski, T.W., Bundy, L.G., and Kilian, K.C. 2003. Manure history and long-term tillage effects on soil properties and phosphorus losses in runoff. J. Environ. Qual. 32: 1782-1789."},
+    {"type": "reference-entry", "text": "Bache, B.W. and Williams, E.G. 1971. A phosphate sorption index for soils. J. Soil Sci. 22: 289-301."},
+    {"type": "reference-entry", "text": "Bastian, R.K. 1995. Biosolids Management Handbook. EPA 833-R-95-001. USEPA, Office of Water Management, Washington, DC. Available at: http://www.epa.gov/Region8/water/wastewater/biohome/biosolidsdown/handbook/handbook1.pdf (last verified March 1, 2005)."},
+    {"type": "reference-entry", "text": "Beauchemin, S. and Simard, R.R. 1999. Soil phosphorus saturation degree: review of some indices and their suitability for P management in Quebec, Canada. Can. J. Soil Sci. 79: 615-625."},
+    {"type": "reference-entry", "text": "Berkheiser, V.E., Street, J.J., Rao, P.S.C., and Yuan, T.L. 1980. Partitioning of inorganic orthophosphate in soil-water systems. CRC Crit. Rev. Environ. Contr. October 1980, 179-224."},
+    {"type": "reference-entry", "text": "Breeuwsma, A. and Silva, S. 1992. Phosphorus fertilisation and environmental effects in the Netherlands and the Po region (Italy). Report 57, DLO The Winand Staring Centre for Integrated Land, Soil, and Water Research, Wageningen, the Netherlands."},
+    {"type": "reference-entry", "text": "Carpenter, S.R., Caraco, N.F., Correll, D.L., Howarth, R.W., Sharpley, A.N., and Smith, V.H. 1998. Nonpoint pollution of surface waters with phosphorus and nitrogen. Ecol. Appl. 8: 559-568."},
+    {"type": "reference-entry", "text": "Coale, F.J., Sims, J.T., and Leytem, A.B. 2002. Accelerated deployment of an agricultural nutrient management tool: the Maryland phosphorus site index. J. Environ. Qual. 31: 1471-1476."},
+    {"type": "reference-entry", "text": "Daverede, I.C., Kravchenko, A.N., Hoeft, R.G., Nafziger, E.D., Bullock, D.G., Warren, J.J., and Gonzini, L.C. 2003. Phosphorus runoff: effect oftillage and soil phosphorus levels. J. Environ. Qual. 32: 1436-1444."},
+    {"type": "reference-entry", "text": "Gburek, W.J., Sharpley, A.N., Heathwaite, A.L. and Folmar, G.J. 2000. Phosphorus management at the watershed scale: a modification of the phosphorus index. J. Environ. Qual. 29: 130-144."},
+    {"type": "reference-entry", "text": "Gibson, G.R., Carlson, R., Simpson, J., Smeltzer, E., Gerritson, J., Chapra, S., Heiskary, S., Jones, J., and Kennedy, R. 2000. Nutrient criteria technical guidance manual: lakes and reservoirs (EPA-822-B00-001). U.S. Environmental Protection Agency, Washington, DC."},
+    {"type": "reference-entry", "text": "Hooda, P.S., Rendell, A.R., Edwards, A.C., Withers, P.J.A., Aitken,M.N., and Truesdale, V.W. 2000. Relating soil phosphorus indices to potential phosphorus release to water. J. Environ. Qual. 29: 1166-1171."},
+    {"type": "reference-entry", "text": "Kleinman, P.J.A. and Sharpley, A.N. 2002. Estimating soil phosphorus sorption saturation from Mehlich-3 data. Commun. Soil Sci. Plant Anal. 33: 1825-1839."},
+    {"type": "reference-entry", "text": "Leinweber, P., Lunsmann, F., and Eckhardt, K.U. 1997. Phosphorus sorption capacities and saturation of soils in two regions with different livestock densities in northwest Germany. Soil Use Manage. 13: 82-89."},
+    {"type": "reference-entry", "text": "Lemunyon, J.L. and Gilbert, R.G. 1993. The concept and need for a phosphorus assessment tool. J. Prod. Agric. 6: 483-496."},
+    {"type": "reference-entry", "text": "Lookman, R., Jansen, K., Merckx, R., and Vlassak, K. 1996. Relationship between soil properties and phosphate saturation parameters: a transect study in northern Belgium. Geoderma 69: 265-274."},
+    {"type": "reference-entry", "text": "McDowell, R.W. and Sharpley, A.N. 2001. Approximating phosphorus release from soils to surface runoff and subsurface drainage. J. Environ. Qual. 30: 508-520."},
+    {"type": "reference-entry", "continuation": true, "text": "Mozaffari, P.M. and Sims, J.T. 1994. Phosphorus availability and sorption in an Atlantic Coastal Plain watershed dominated by"},
+    {"type": "printed-page-number", "text": "116"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "b398e4f1c39935ccd5a2cc606732dc0e81e120229aeee46c39032c94db3e5f51"
+}

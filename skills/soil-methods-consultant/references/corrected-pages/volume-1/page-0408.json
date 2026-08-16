@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 408,
+  "sourceImageSha256": "44c12fc1d8193a93eb3423613abcee30545e3767facc171f37dc633695b15ead",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版39.2承上段、39.2.1和39.2.2基础步骤及饱和曲线（1）～（2）"},
+    "precisionPass": {"status": "verified", "method": "核验FW 180.16、40/50 mL、10 g ODW、Carboxen-1000 60/80目、4.5 m×0.3175 cm、1 mL、150/300/210 °C、2/4.5/3.9 min、0～800 μg·g⁻¹及−0.033 MPa"},
+    "secondVisualPass": {"status": "verified", "method": "从葡萄糖饱和曲线步骤（2）反向复核至承上段，重点辨认μg、负号、Series II和所有温度时间；印刷页码377"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第39章｜底物诱导呼吸作用和选择性抑制测定土壤中的微生物生物量"},
+    {"type": "continuation", "text": "（承第407页39.2）SIR以利用葡萄糖碳源的微生物响应代表整个微生物谱和生物量，因此存在争议。长期培养会改变土壤营养状态，Smith等（1985）建议测呼吸时使用葡萄糖+营养肉汤等平衡营养底物；其他改进包括优化含水量和底物添加量（West和Sparling，1986）、考虑质地和有机质影响（Kaiser等，1992；Lin和Brookes，1999），以及适配植物残体生物量测定（Beare等，1990）。不宜不加验证地普遍套用Anderson和Domsch（1978）由CO₂换算微生物量碳的原式。长期研究相似土壤时，宜建立该土壤CFIM与SIR的特定关系，并分别建立葡萄糖饱和曲线和微生物生长曲线以确定最佳底物浓度和生长起始时间。"},
+    {"type": "section-heading", "level": 3, "number": "39.2.1", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "text": "合适的培养容器。以气相色谱（GC）测呼吸CO₂时，容器须装气密橡胶隔膜；用碱液捕集—滴定时需更大容器（见39.2.4）。典型GC法使用40 mL带螺旋盖隔垫的平底玻璃瓶，或50 mL配套筒式橡胶塞的锥形瓶。"},
+    {"type": "reagent-item", "number": "（2）", "name": "试剂级葡萄糖", "text": "式量（FW）180.16。"},
+    {"type": "material-item", "number": "（3）", "text": "分液移液器。"},
+    {"type": "material-item", "number": "（4）", "text": "小药匙。"},
+    {"type": "material-item", "number": "（5）", "text": "带热导检测器（TCD）的气相色谱仪（GC）。"},
+    {"type": "material-item", "number": "（6）", "text": "CO₂标准气体。"},
+    {"type": "section-heading", "level": 3, "number": "39.2.2", "title": "步骤"},
+    {"type": "procedure-group", "number": "1", "title": "SIR基础步骤"},
+    {"type": "procedure-step", "group": "1", "number": "（1）", "text": "称取10 g烘干重（ODW）土壤重复样，置40 mL培养瓶。土壤须足够干，加入可测体积溶液后不致水涝。"},
+    {"type": "procedure-step", "group": "1", "number": "（2）", "text": "按葡萄糖饱和曲线加入适量葡萄糖溶液。快速混匀，以湿润空气冲洗瓶内气体并用隔垫封盖；记录时间，再处理下一瓶。"},
+    {"type": "procedure-step", "group": "1", "number": "（3）", "text": "1 h后用注射器取顶空气，按各瓶相应时间注入GC。示例条件：Hewlett Packard 5890 Series II，Carboxen-1000柱（60/80目，4.5 m×0.3175 cm，Supelco），测1 mL顶空气中的CO₂；进样口150 °C，检测器300 °C；柱温初始150 °C，前2 min升至210 °C；总运行4.5 min，CO₂保留时间3.9 min。"},
+    {"type": "procedure-step", "group": "1", "number": "（4）", "text": "以CO₂标准曲线比较或按39.2.3步骤（1）求顶空CO₂体积分数；再按式（39.2）～（39.4）算CO₂呼吸速率及微生物生物量碳。"},
+    {"type": "procedure-group", "number": "2", "title": "葡萄糖饱和曲线"},
+    {"type": "procedure-step", "group": "2", "number": "（1）", "text": "称10 g ODW土壤重复样于40 mL培养瓶，设置4～6个葡萄糖浓度。建议0、200、400、600和800 μg葡萄糖·g⁻¹土，分别相当于0、80、160、240和320 μg C·g⁻¹土。调节葡萄糖溶液浓度，使加入体积把土壤调至接近田间持水量（基质势−0.033 MPa）。"},
+    {"type": "notation-note", "scope": "39.2.2葡萄糖浓度", "text": "原图清晰印为μg葡萄糖/g土壤和μg C/g土壤；部分OCR及英文网页文本丢失μ符号，若误作mg会放大1000倍。"},
+    {"type": "procedure-step", "group": "2", "number": "（2）", "text": "逐瓶处理：加入相应葡萄糖溶液；对照瓶加等体积水。快速混匀，以湿润空气冲洗并封盖；记录时间后处理下一瓶。"},
+    {"type": "printed-page-number", "text": "377"}
+  ],
+  "formulas": [
+    {"id": "39.2-glucose-to-carbon", "display": "glucose-C = glucose mass × 72.064/180.16 ≈ glucose mass × 0.400"}
+  ],
+  "tables": [],
+  "contentSha256": "c0922c0bf99d22af4e75d14c469a2a407b8c28e2da6d78941cac1f810bebba6d"
+}

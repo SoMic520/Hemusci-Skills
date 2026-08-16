@@ -1,0 +1,99 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 281,
+  "sourceImageSha256": "0a81bbd1d8262827c57e85fa782649bffc9cc49c50ed63ce8121fc06f7fc1f41",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对81.4.2续、式(81.9)—(81.12)、5T脱水曲线段、81.4.4及式(81.13)"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "复核平均梯度、K负号、负基质水头的几何平均、10⁻⁴、Δz=2 cm及各深度下标"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "逐式与版面及英文原章比对，恢复错置的81.4.3层级并校正式(81.11)符号；印刷页码790"
+    }
+  },
+  "blocks": [
+    {
+      "type": "continuation",
+      "section": "81.4.2 土壤导水率计算（2T设置）",
+      "text": "在时间间隔Δt=tᵢ₊₁−tᵢ内，水流通量对应的水力梯度取两次测量瞬时梯度的算术平均；K由通量q除以该平均梯度并取负号。K(ψ)和张力入渗计在ψ=−1、−5、−10 cm时的测量结果相关性较好（图81.4）。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "式(81.11a)原书印作ψ̄=10^γ，式(81.11b)又直接对负基质水头取对数；这与对数定义及表81.3中ψ̄均为负值矛盾。按方法含义校正为先对|ψ|取常用对数、再令ψ̄=−10^γ。负号和绝对值均不可省略。"
+    },
+    {
+      "type": "heading",
+      "number": "81.4.3",
+      "title": "脱水曲线计算（5T设置）",
+      "level": 3
+    },
+    {
+      "type": "method",
+      "text": "对10 cm高土柱，在5个不同深度安装张力计。水分脱水曲线采用与2T设置相同的迭代拟合：分别计算5个深度的储水量S_c(t)，与总储水量S(t)比较；当所有深度与时刻的曲线拟合参数达到Δθ<10⁻⁴ cm³·cm⁻³时停止。图81.2(b)给出示例，表81.4列出实验最初2 d的数据；该示例同样仅需3次迭代达到收敛。"
+    },
+    {
+      "type": "hierarchy-correction",
+      "text": "“81.4.3 脱水曲线计算（5T设置）”标题在原书前页被提前插入2T算例之前；本页从5T脱水曲线说明起才属于81.4.3，随后“81.4.4 土壤导水率计算（5T设置）”为下一同级小节。"
+    },
+    {
+      "type": "heading",
+      "number": "81.4.4",
+      "title": "土壤导水率计算（5T设置）",
+      "level": 3
+    },
+    {
+      "type": "principle",
+      "text": "5T设置的深度区间较多，计算通量和导水率时不可假定土样上、下方通量随深度线性增加。把土柱分为5个等高区间，张力计位于各区间中点；各次ψ和θ代表相应区间平均值，底边界通量q_B=0。对L=10 cm土柱，Δz=L/5=2 cm。"
+    },
+    {
+      "type": "flux-workflow",
+      "text": "q₁为−7 cm与−9 cm张力计之间的通量，由ψ₇、ψ₉求水力梯度；q₂为−5 cm与−7 cm之间的通量，等于深度大于6 cm各区间储水变化之和除以Δt，并由ψ₅、ψ₇求梯度。q₃、q₄类推。顶层储水变化ΔS₅加到q₄得到总通量q_T，且q_T=E。ψ̄和θ̄的时间平均方法与2T设置一致。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "81.9",
+      "plain": "grad̄=[grad(tᵢ)+grad(tᵢ₊₁)]/2",
+      "latex": "\\overline{\\operatorname{grad}}=\\frac{\\operatorname{grad}(t_i)+\\operatorname{grad}(t_{i+1})}{2}",
+      "resultUnit": "L·L⁻¹"
+    },
+    {
+      "label": "81.10",
+      "plain": "K=−q/grad̄",
+      "latex": "K=-\\frac{q}{\\overline{\\operatorname{grad}}}",
+      "resultUnit": "L·T⁻¹"
+    },
+    {
+      "label": "81.11a（校正）",
+      "plain": "ψ̄=−10^γ",
+      "latex": "\\overline{\\psi}=-10^{\\gamma}",
+      "resultUnit": "与ψ相同"
+    },
+    {
+      "label": "81.11b（校正）",
+      "plain": "γ={lg|ψ₁.₅(tᵢ)|+lg|ψ₁.₅(tᵢ₊₁)|+lg|ψ₄.₅(tᵢ)|+lg|ψ₄.₅(tᵢ₊₁)|}/4",
+      "latex": "\\gamma=\\frac{\\lg|\\psi_{1.5}(t_i)|+\\lg|\\psi_{1.5}(t_{i+1})|+\\lg|\\psi_{4.5}(t_i)|+\\lg|\\psi_{4.5}(t_{i+1})|}{4}",
+      "resultUnit": "无量纲"
+    },
+    {
+      "label": "81.12",
+      "plain": "θ̄={θ₁.₅(tᵢ)+θ₁.₅(tᵢ₊₁)+θ₄.₅(tᵢ)+θ₄.₅(tᵢ₊₁)}/4",
+      "latex": "\\overline{\\theta}=\\frac{\\theta_{1.5}(t_i)+\\theta_{1.5}(t_{i+1})+\\theta_{4.5}(t_i)+\\theta_{4.5}(t_{i+1})}{4}",
+      "resultUnit": "cm³·cm⁻³"
+    },
+    {
+      "label": "81.13",
+      "plain": "q₁=ΔS₁/Δt={[θ₉(tᵢ)−θ₉(tᵢ₊₁)]Δz}/Δt，Δz=2 cm",
+      "latex": "q_1=\\frac{\\Delta S_1}{\\Delta t}=\\frac{[\\theta_9(t_i)-\\theta_9(t_{i+1})]\\Delta z}{\\Delta t},\\qquad \\Delta z=2\\ \\mathrm{cm}",
+      "resultUnit": "L·T⁻¹"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "58aad59e708d8f7505ebf81127d975b4782fc3958a68f0e8a7e47d33451b4ab6"
+}

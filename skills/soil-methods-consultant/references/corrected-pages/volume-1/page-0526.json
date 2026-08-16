@@ -1,0 +1,123 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 526,
+  "sourceImageSha256": "58d6f5d0d80edd37c7b8291135d92c2397f9084171ceeae2b2065fff137e7142",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，完成52.3.3、52.4、52.4.1及52.4.2步骤（1）～（8）"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验0.5/6/0.1 mol·L⁻¹、50/100/150 mL、pH 1.5、9 000×g、15 min、125 W、10 min、48 h及HA-A/FA-A/HA-B/FA-B层级"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由步骤（8）反向复核至52.3.3，重点检查步骤（5）与（6）的上清液内在矛盾、酸入水方向和印刷页码495"
+    }
+  },
+  "blocks": [
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "52.3.3",
+      "title": "注释"
+    },
+    {
+      "type": "note-list",
+      "items": [
+        {
+          "number": "（1）",
+          "text": "预处理会除去少量有机质和可溶性有机碳（DOC）。采用国际腐殖质协会（IHSS）预处理法（Swift, 1996）时，可溶性有机碳计入富里酸组分；有明显矿物干扰时应采用该预处理。"
+        },
+        {
+          "number": "（2）",
+          "text": "含碳酸钙土壤与0.5 mol·L⁻¹ HCl会发生剧烈反应，须控制加液与放气。"
+        },
+        {
+          "number": "（3）",
+          "text": "提取时用N₂充满离心管顶空，可减轻氧化并防止NaOH吸收CO₂；离心管和盖必须密封良好。无往复式振荡机时可用摇动式振荡机。"
+        }
+      ]
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "number": "52.4",
+      "title": "分离腐殖质组分"
+    },
+    {
+      "type": "paragraph",
+      "text": "酸化NaOH提取物，分离传统操作性胡敏酸（HA）与富里酸（FA）。碱提残留物称胡敏素，是有机质与矿物组分紧密结合的操作性残渣；可弃去、继续分析，或经超声分离为黏粒结合态HA-B和FA-B（Anderson et al., 1974; Bettany et al., 1979）。"
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "52.4.1",
+      "title": "试剂"
+    },
+    {
+      "type": "materials-list",
+      "items": [
+        {
+          "number": "（1）",
+          "text": "约6 mol·L⁻¹ HCl：在通风橱中把50 mL浓HCl缓慢加入50 mL去离子水，持续搅拌并冷却至室温。"
+        },
+        {
+          "number": "（2）",
+          "text": "0.1 mol·L⁻¹ NaOH：4.0 g NaOH溶于1 000 mL去离子水，持续搅拌并冷却至室温；用于酸化分离后重溶HA。"
+        }
+      ]
+    },
+    {
+      "type": "section-heading",
+      "level": 3,
+      "number": "52.4.2",
+      "title": "步骤"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（1）",
+      "text": "向NaOH提取物滴加6 mol·L⁻¹ HCl，持续搅拌并监测pH，至pH 1.5。深褐至黑色沉淀为HA-A；微黄色溶液中的组分为FA-A。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（2）～（3）",
+      "text": "9 000×g离心15 min。把FA-A上清转入小瓶保存；向HA-A沉淀加50 mL 0.1 mol·L⁻¹ NaOH重溶，另瓶保存。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（4）",
+      "text": "如需分离HA-B与FA-B，向碱提胡敏素残渣加150 mL去离子水并混匀，以125 W超声分散10 min，悬浮液冷藏静置48 h。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（5）～（6）",
+      "text": "9 000×g离心15 min；倾出并保留上清液，随后按步骤（1）酸化该上清液至pH 1.5。不得弃去该上清液。"
+    },
+    {
+      "type": "procedure-step",
+      "number": "（7）～（8）",
+      "text": "离心分离HA-B沉淀，保存FA-B上清；用100 mL 0.1 mol·L⁻¹ NaOH溶解HA-B沉淀，保存溶液供分析。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "52.4.2步骤（5）～（6）",
+      "text": "原书步骤（5）印作‘弃去上清液’，但步骤（6）紧接着要求酸化该上清液，且HA-B/FA-B均来自超声分散后的上清。为使流程闭合，校正为‘倾出并保留上清液’；原印文冲突已保留在此注中，运行时不得照‘弃去’执行。"
+    },
+    {
+      "type": "safety-note",
+      "text": "浓HCl必须缓慢酸入水并在通风橱操作；酸化会放热。离心须使用额定相对离心力不低于9 000×g的管和转子并严格配平。"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "52.4-e4e6-fraction-flow",
+      "display": "NaOH extract → acidify to pH 1.5 → HA precipitate + FA supernatant",
+      "meaning": "HA/FA按酸化溶解性定义的操作性分离关系"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "3457fd0cc08f475ede8cbaeac17f5dfe055da08fec62ba2764678e052c5cd5a5"
+}

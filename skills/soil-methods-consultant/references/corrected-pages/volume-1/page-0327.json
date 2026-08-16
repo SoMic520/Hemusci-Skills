@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 327,
+  "sourceImageSha256": "b13d595701ad46055490080853184fd4f7d98c81518bec3407d8244b88b013e3",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复第32章题名作者机构、32.1引言及动态提取法原理"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验90%、C/N、300000/50000个体·m⁻²、−1500 kPa负号、30 ℃及分类阶元名称"},
+    "secondVisualPass": {"status": "verified", "method": "从动态提取末句反向复核至章题，确认原书印作Evansd、真菌噬菌体及C/N越高分解越快；扫描页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "32", "title": "小型节肢动物"},
+    {"type": "author", "text": "J.P. Winter"},
+    {"type": "affiliation", "text": "Nova Scotia Agricultural College；Truro, Nova Scotia, Canada"},
+    {"type": "author", "text": "V.M. Behan-Pelletier"},
+    {"type": "affiliation", "text": "Agriculture and Agri-Food Canada；Ottawa, Ontario, Canada"},
+    {"type": "section-heading", "level": 2, "number": "32.1", "title": "引言"},
+    {"type": "paragraph", "text": "在大多数土壤中，90%的小型节肢动物都是弹尾目（跳虫类）和蜱螨亚纲（螨类），剩下的还包括原尾目、双尾目、少足纲和综合纲（Wallwork，1976）。虽然目前我们对小型节肢动物生态学的认识还停留在初期，但我们已经知道，通过与微生物群落间的相互作用，它们可以加速植物残体的分解（Seastedt，1984；Moore和Walter，1988；Coleman等，2004）。小型节肢动物是土壤中的“植物残体转换器”，它们可以破碎和分解植物残体并且提高其对微生物的有效性（Wardle，2002）。对于摄食颗粒物的小型节肢动物，弹尾目和蜱螨亚纲的甲螨亚目（也叫隐气门目），它们的粪球比原始的枯枝落叶有更大的比表面积，所以分解的速率更快（Coleman等，2004）。小型节肢动物摄食微生物群落或许会加速土壤中的能量和营养物质流动，进而提高微生物生物量的周转速率。小型节肢动物对植物残体的分解能力与植物残体的特性有关，C/N比越高（质量越低）分解速率越快（Coleman等，2004）。弹尾目和甲螨亚目（包括无气门目（Norton，1998））主要是腐生物和真菌噬菌体，但是某些甲螨亚目表现出对线虫和其他微生物的随机性捕食，同时以小型节肢动物的尸体为食。蜱螨亚纲中的前气门目和中气门目以肉食性为主，但还有一些前气门目和中气门目（尾足螨亚目）食真菌体（Wallwork，1976；Norton，1985a）。"},
+    {"type": "source-fidelity-note", "scope": "32.1取食生态与C/N", "text": "原书印作“真菌噬菌体”，语义应为食真菌者/真菌食性；又称C/N比越高分解越快，与通常的低C/N残体较易分解关系相反。正文按原文保留，这两句不得直接作为普遍规律执行或引用。"},
+    {"type": "paragraph", "text": "在一个气候区域内，土壤小型节肢动物丰度的主要影响因素包括：①待分解有机残余物的类型和数量，以及它们对微生物群落的影响；②土壤结构的稳定性，特别是孔隙度；③土壤的水分状况（Wallwork，1976）。小型节肢动物在北方森林地表的丰度特别高（如300000个体/m²），而在耕作土壤中的数量很低（50000个体/m²）（Petersen和Luxton，1982）。"},
+    {"type": "paragraph", "text": "Evansd等（1961）、Macfadyen（1962）、Murphy（1962a，b）、Edwards和Fletcher（1971）、Edwards（1991）和Coleman等（2004）已经总结过从枯枝落叶和土壤中提取小型节肢动物的方法。基本上，方法可以分为两大类。"},
+    {"type": "source-fidelity-note", "scope": "32.1文献作者", "text": "原书清晰印作“Evansd等（1961）”，疑为作者名多排字母d；未核对原始文献前保留。"},
+    {"type": "method-category", "number": "（1）", "name": "动态（或者说主动）提取法", "text": "动态（或者说主动）提取法要求动物在样品介质中移动，远离不利刺激而趋向有利刺激。图32.1展示了一个基本的动态提取器。通常，土壤或枯枝落叶样品放置在筛上，然后样品顶部加温干燥，而底部继续保持凉爽和潮湿。当样品从上往下干燥时，动物群会远离干燥带而向下移动，最后从下表面掉落到收集器中被收集起来。在提取的整个过程中都有动物群从样品底部掉下，但样品下表面干燥到−1500 kPa，并且温度高于30 ℃时掉落量最大（Petersen，1978；Takeda，1979）。动物群掉落到一个装有保存溶液的收集器中。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "8e4c9984a3a662d9edf041f9bbeb45310f8616685d1b4e1022767df14e10ad32"
+}

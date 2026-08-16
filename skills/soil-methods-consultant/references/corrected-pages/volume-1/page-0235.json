@@ -1,0 +1,45 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 235,
+  "sourceImageSha256": "ad59319c755eb2d86f33dbb6a0c16866a7718ab40f6642464afa5485dbc98a00",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第204页，并与Apple Vision、PaddleOCR交叉比对，人工恢复材料（14）～（16）、五步连续浸提、无机磷/全磷测定及式（24.1）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验(NH₄)₂S₂O₈、0.3/0.5/0.9 mol·L⁻¹、12 500/25 000 g、0/82 ℃、16/8 h、60/90 min、≤5/≤2 mL、Pₒ/Pₜ/Pᵢ及公式括号"},
+    "secondVisualPass": {"status": "verified", "method": "从式（24.1）反向复核至材料（14），确认四级操作层级、五步浸提顺序、各容量瓶归并关系、式中四个分量和页码204"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reagent-item", "number": "（14）", "name": "0.5 mol·L⁻¹氢氧化钠溶液", "text": "将20 g NaOH溶解于约含700 mL蒸馏水或去离子水的1 L容量瓶，用蒸馏水或去离子水定容。"},
+    {"type": "reagent-item", "number": "（15）", "text": "过硫酸铵：(NH₄)₂S₂O₈。"},
+    {"type": "reagent-item", "number": "（16）", "text": "显色液（见24.5.1）。"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称量0.5 g磨细的土壤样品于50 mL聚丙烯离心管中。"},
+    {"type": "procedure-step", "number": "（2）", "name": "0.3 mol·L⁻¹氢氧化钠浸提液", "text": "加入30 mL 0.3 mol·L⁻¹ NaOH溶液，盖上离心管的盖子，在往复振荡机上于室温下振荡16 h。振荡后，将土壤悬浮液在12 500 g力下离心10 min，然后小心地将上清液倒入100 mL容量瓶中，确保土壤残渣留在离心管中。"},
+    {"type": "procedure-step", "number": "（3）", "name": "浓盐酸浸提", "text": "向上一步盛有土壤残渣的离心管中加入10 mL浓盐酸，充分摇匀，将离心管置于82 ℃水浴中加热10 min。从水浴中取出离心管，向其中加入5 mL浓盐酸，在室温下静置1 h，其间定期（约每隔15 min）涡旋振荡。随后在12 500 g力下离心10 min，小心地将上清液倒入50 mL容量瓶中，用蒸馏水或去离子水定容。"},
+    {"type": "procedure-step", "number": "（4）", "name": "0.5 mol·L⁻¹氢氧化钠室温浸提", "text": "在上一步盛有土壤残渣的离心管中加入20 mL 0.5 mol·L⁻¹ NaOH溶液，混匀，在室温下静置1 h，其间定期（约每隔15 min）涡旋振荡，随后在12 500 g力下离心10 min，小心地将上清液倒入步骤2中含0.3 mol·L⁻¹ NaOH浸提液的100 mL容量瓶中。"},
+    {"type": "procedure-step", "number": "（5）", "name": "0.5 mol·L⁻¹热氢氧化钠溶液浸提", "text": "向上一步盛有土壤残渣的离心管中加入30 mL 0.5 mol·L⁻¹ NaOH溶液，振荡离心管使土壤以悬浮态存在于溶液中。轻轻地将倒置的50 mL烧杯或漏斗盖在离心管上，并将其放在82 ℃的烘箱中保温8 h。从烘箱中拿出离心管，冷却后在12 500 g力下离心10 min。将上清液倒入步骤4已经含有两次NaOH浸提液的100 mL容量瓶中，用蒸馏水或去离子水定容至100 mL。"},
+    {"type": "procedure-group", "number": "3.", "title": "无机磷的测定"},
+    {"type": "procedure-step", "number": "（1）", "name": "NaOH浸提液中无机磷的测定", "text": "用移液管吸取适量的样液（通常≤5 mL）于50 mL离心管中，加入2.0 mL 0.9 mol·L⁻¹硫酸并放置于冰箱30 min，以便酸化沉淀其中的有机物质。在0 ℃ 25 000 g力下离心10 min，小心地将上清液倒入50 mL容量瓶中，用少量酸性水小心润洗离心管，避免带出已经沉淀的有机质，并将洗涤液转移至容量瓶中（重复2～3次）。按照24.5.2的方法调节pH值（步骤3）后显色。"},
+    {"type": "procedure-step", "number": "（2）", "name": "HCl浸提液中无机磷的测定", "text": "用移液管吸取适量的样液（通常≤5 mL）于50 mL容量瓶中。按照24.5.2描述的方法调节pH值（步骤3）后显色。"},
+    {"type": "procedure-group", "number": "4.", "title": "全磷的测定"},
+    {"type": "procedure-step", "number": "（1）", "text": "用移液管吸取适量溶液（通常≤2 mL）于50 mL容量瓶中，用比色法测定浸提液中全磷的含量。"},
+    {"type": "procedure-step", "number": "（2）", "text": "向NaOH浸提液中加入约0.5 g过硫酸铵和10 mL 0.9 mol·L⁻¹硫酸。"},
+    {"type": "procedure-step", "number": "（3）", "text": "向HCl浸提液中加入约0.4 g过硫酸铵和10 mL蒸馏水或去离子水。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用铝箔盖上瓶口（HCl浸提液需要盖双层）并在高压锅内加热消解（HCl浸提液60 min，NaOH浸提液90 min）。"},
+    {"type": "procedure-step", "number": "（5）", "text": "冷却，加入约10 mL蒸馏水或去离子水。按照24.5.2的方法调节pH值（步骤3）后显色。"},
+    {"type": "procedure-group", "number": "5.", "title": "计算"},
+    {"type": "calculation-note", "text": "土壤样品中总有机磷含量是HCl和NaOH浸提液中全磷的总和减去HCl和NaOH浸提液中无机磷的总和。在测定完消解液和浸提液中无机磷的浓度后，将结果以土壤质量为基础进行换算（例如，mg P/kg土），有机磷的计算公式为"},
+    {"type": "printed-page-number", "text": "204"}
+  ],
+  "formulas": [
+    {
+      "number": "24.1",
+      "context": "高氯酸/氢氧化钠浸提法计算土壤总有机磷",
+      "display": "Pₒ = (HCl-Pₜ + NaOH-Pₜ) − (HCl-Pᵢ + NaOH-Pᵢ)",
+      "latex": "P_o=(\\mathrm{HCl}{-}P_t+\\mathrm{NaOH}{-}P_t)-(\\mathrm{HCl}{-}P_i+\\mathrm{NaOH}{-}P_i)"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "d361670bf784db39b9e8934d5ca53c92844352c0bf2427a163169a40eb39c22c"
+}

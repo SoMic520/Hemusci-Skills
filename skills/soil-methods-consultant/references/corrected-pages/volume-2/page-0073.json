@@ -1,0 +1,21 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 73,
+  "sourceImageSha256": "a1434e8f4554aa313d04f0c65f74d033efd2446ce8fb1ed5bee9ea8d9429f42d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成TDR剪切头余文、图60.2～60.3及自动应力记录改型"},
+    "precisionPass": {"status": "verified", "method": "核验2 mm/5 pF/4 cm、TRASE/CR510、0～100/50 lbf及45.4/22.7 kgf对应力值、S形/微型圆梁传感器"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页弹簧句反向复核至2 mm缝隙，检查电容单位pF、图件标签、载荷传感器量程和力/质量区分；印刷页码582"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "每个环形叶设置2 mm竖缝为TDR线终端，缝两侧叶片间接5 pF电容，使回波中出现明确终点。可用TRASE或其他TDR仪。"},
+    {"type": "figure", "number": "60.2", "caption": "Cohron剪应力图形记录仪。", "components": ["手柄", "轴承", "记录鼓", "记录笔", "螺旋弹簧", "剪切头"], "source": "Kirby and Ayers, Soil Till. Res., 1993。"},
+    {"type": "figure", "number": "60.3", "caption": "(a) 与Cohron记录仪/数据采集仪连接的TDR含水量探头；(b) 装有水分探头和履齿叶片的剪切头。", "labels": ["4 cm外径", "TDR外导体", "履齿叶片孔", "终止TDR线的缝隙", "同轴电缆", "履齿叶片"]},
+    {"type": "paragraph", "text": "改型二：在剪切头与弹簧之间加两个应变式负载传感器，分别测法向力和剪切力矩/等效剪切力，电压由CR510记录。法向传感器为S形，额定0～100 lbf（约445 N）；剪切传感器为微型圆梁，额定50 lbf（约222 N）。弹簧仍保留供操作者估算应力。取消画笔手柄，改用两根平行塑料约束杆传递扭矩，避免弹簧在峰值后迅速回转而丢失剪应力下降段。"},
+    {"type": "source-fidelity-note", "text": "原书把100磅、50磅分别换成45.4 kg、22.7 kg并称‘载荷’，混用了质量与力。传感器额定量程应按lbf或N表达：100 lbf≈445 N，50 lbf≈222 N；45.4/22.7 kg仅是相应地球重力下的kgf数值。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ba32c632bdba21aff683c42674a4e0676f16af0a208300f1d8415f9e5e12e018"
+}

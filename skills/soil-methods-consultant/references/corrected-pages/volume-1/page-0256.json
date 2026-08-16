@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 256,
+  "sourceImageSha256": "20a056b2d1ca2d6570188189f883834ea1d34db97ac77aa6a7961a89bdb5391d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第25章第225页，并与Apple Vision、PaddleOCR交叉比对，人工恢复Fox至Sibbesen共22条英文/德文参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Hedley 1982a/1982b及III、L-value、EDTA、NaHCO₃、德文Phosphorsäure/präzisierten/verfügbarem/Ackerböden、作者缩写和卷页"},
+    "secondVisualPass": {"status": "verified", "method": "从Sibbesen（1977）反向复核至Fox和Kamprath（1970），确认22条文献边界、字母序、题名编号、期刊卷页及印刷页码225"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第25章｜用连续浸提法确定土壤有效磷的特征｜"},
+    {"type": "reference", "text": "Fox, R.L. and Kamprath, E.J. 1970. Phosphate sorption isotherms for evaluating the phosphate requirements of soils. Soil Sci. Soc. Am. Proc. 34: 902-907."},
+    {"type": "reference", "text": "Hedley, M.J., Stewart, J.W.B., and Chauhan, B.S. 1982a. Changes in inorganic and organic soil phosphorus fractions induced by cultivation practices and by laboratory incubations. Soil Sci. Soc. Am. J. 46: 970-976."},
+    {"type": "reference", "text": "Hedley, M.J., White, R.E., and Nye, P.H. 1982b. Plant-induced changes in the rhizosphere of rape seedlings. III. Changes in L-value, soil phosphate fractions and phosphatase activity. New Phytol. 91: 45-56."},
+    {"type": "reference", "text": "Kelly, J., Lambert, M.J., and Turner, J. 1983. Available phosphorus forms in forest soils and their possible ecological significance. Commun. Soil Sci. Plant Anal. 14: 1217-1234."},
+    {"type": "reference", "text": "Kurmies, B. 1972. Zur Fraktionierung der Bodenphosphate. Die Phosphorsäure 29: 118-151."},
+    {"type": "reference", "text": "Marks, G. 1977. Beitrag zur präzisierten Charakterisierung von pflanzen-verfügbarem Phosphat in Ackerböden. Arch. Acker Pflanzenbau Bodenkd. 21: 447-456."},
+    {"type": "reference", "text": "Mattingly, G.E.G. 1975. Labile phosphate in soils. Soil Sci. 119: 369-375."},
+    {"type": "reference", "text": "Mehta, N.C., Legg, J.O., Goring, C.A.I., and Black, C.A. 1954. Determination of organic phosphorus in soils: I. Extraction method. Soil Sci. Soc. Am. Proc. 18: 443-449."},
+    {"type": "reference", "text": "Miller, A.J., Schuur, E.A.G., and Chadwick, O.A. 2001. Redox control of phosphorus pools in Hawaiian montane forest soils. Geoderma 102: 219-237."},
+    {"type": "reference", "text": "Murphy, J. and Riley, J.P. 1962. A modified single solution method for the determination of phosphate in natural waters. Anal. Chim. Acta 27: 31-36."},
+    {"type": "reference", "text": "Olsen, S.R., Cole, C.V., Watanabe, F.S., and Dean, L.A. 1954. Estimation of available phosphorus in soils by extraction with sodium bicarbonate. U.S. Department of Agriculture Circular 939, USDA, Washington, DC."},
+    {"type": "reference", "text": "Onken, A.B., Matheson, R., and Williams, E.J. 1980. Evaluation of EDTA-extractable P as a soil test procedure. Soil Sci. Soc. Am. J. 44: 783-786."},
+    {"type": "reference", "text": "Parfitt, R.L., Hume, L.J., and Sparling, G.P. 1989. Loss of availability of phosphate in New Zealand soils. J. Soil Sci. 40: 371-382."},
+    {"type": "reference", "text": "Qian, P. and Schoenau, J.J. 1997. Recent developments in use of ion exchange membranes in agricultural and environmental research. Recent Res. Devel. Soil Sci. 1: 43-54."},
+    {"type": "reference", "text": "Roberts, T.L., Stewart, J.W.B., and Bettany, J.R. 1985. The influence of topography on the distribution of organic and inorganic soil phosphorus across a narrow environmental gradient. Can. J. Soil Sci. 65: 651-665."},
+    {"type": "reference", "text": "Saggar, S., Hedley, M.J., and White, R.E. 1990. A simplified resin membrane technique for extracting phosphorus from soils. Fert. Res. 24: 173-180."},
+    {"type": "reference", "text": "Samadi, A. and Gilkes, R.J. 1998. Forms of phosphorus in virgin and fertilized calcareous soils of Western Australia. Aust. J. Soil Res. 36: 585-601."},
+    {"type": "reference", "text": "Saunders, W.M.H. and Williams, E.G. 1955. Observations on the determination of total organic phosphorus in soils. J. Soil Sci. 6: 254-267."},
+    {"type": "reference", "text": "Sawhney, B.L. 1973. Electron microprobe analysis of phosphates in soils and sediments. Soil Sci. Soc. Am. Proc. 37: 658-660."},
+    {"type": "reference", "text": "Schlesinger, W.H., Bruijnzeel, L.A., Bush, M.B., Klein, E.M., Mace, K.A., Raikes, J.A., and Whittaker, R.J. 1998. The biogeochemistry of phosphorus after the first century of soil development on Rakata Island, Krakatau, Indonesia. Biogeochemistry 40: 37-55."},
+    {"type": "reference", "text": "Schoenau, J.J. and Huang, W.Z. 1991. Anion exchange membrane, water, and sodium bicarbonate extractions as soil tests for phosphorus. Commun. Soil Sci. Plant Anal. 22: 465-492."},
+    {"type": "reference", "text": "Sibbesen, E. 1977. An investigation of the anion exchange resin method for soil phosphate extraction. Plant Soil 46: 665-669."},
+    {"type": "printed-page-number", "text": "225"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "497fd0c3aaa9882e1e6919d40e2b3c49ab116e8a10c9f3b02cfec73532c0d250"
+}

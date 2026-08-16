@@ -1,0 +1,47 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 244,
+  "sourceImageSha256": "c452a8f6051bd7942d384fec6c9c6cd8eb59a0c268ffbb5c2b12d887b19a611b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐图注逐标注对照原分辨率页图、两套OCR和英文原章，完成图77.1—77.3及77.2.1(1)未完"},
+    "precisionPass": {"status": "verified", "method": "核验H/d/a、H₁/H₂/H_i、i=1…n且n≥2、H₀/H_t、2r_s/2r_r、θ_fs/θ_i、K_fs/K_i及环尺寸"},
+    "secondVisualPass": {"status": "verified", "method": "按单环/双环、多恒水头、带储水管降水头三种流动边界逐图复核；印刷页码753"}
+  },
+  "blocks": [
+    {
+      "type": "figure",
+      "number": "77.1",
+      "title": "定水头单环入渗仪和定水头双环入渗仪",
+      "panels": [
+        "(a) 单环：测量环、马利奥特瓶、水分扩散器，环半径a、入土深d、积水头H及湿润锋。",
+        "(b) 双环：测量内环和缓冲外环，内外维持同一H，入土深d，湿润锋覆盖两环。"
+      ]
+    },
+    {
+      "type": "method-map",
+      "items": ["多定水头：依次施加H₁、H₂、…、H_i，测各准稳态流率。", "降水头：记录H_t由H₀随t下降。"]
+    },
+    {
+      "type": "figure",
+      "number": "77.2",
+      "title": "多个定水头单环入渗仪",
+      "components": ["圆环内水头H₁、H₂、…、H_i", "i=1,2,3,…,n；n≥2", "田间饱和区θ_fs、K_fs", "湿润锋和饱和球状区域"]
+    },
+    {
+      "type": "figure",
+      "number": "77.3",
+      "title": "单环降水头入渗仪（配备储水管）",
+      "components": ["储水管半径r_s", "圆环半径r_r", "初始水头H₀和t时刻水头H_t", "湿润锋上方θ_fs、K_fs与下方θ_i、K_i"]
+    },
+    {"type": "heading", "number": "77.2.1", "title": "装置和步骤", "level": 3},
+    {
+      "type": "procedure",
+      "name": "圆环选择和安装（起始）",
+      "steps": ["常用环高10—20 cm、直径10—50 cm，偶用直径100 cm；以坚固金属/高密度塑料制成，壁厚宜1—5 mm，一端有刃。", "用锤、液压装置或落锤把环压入/打入地表下3—10 cm；后续要求续下页。"]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "6ce3b4f7250f678064da9aa090206ad9a97d0522995de462b3300dad10c893f8"
+}

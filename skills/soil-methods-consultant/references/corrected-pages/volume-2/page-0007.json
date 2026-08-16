@@ -1,0 +1,68 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 7,
+  "sourceImageSha256": "c981756f6f5f2d628cdc6a6a3f9b8729ef9d8493c13dca92edb4fcc2f8de8167",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条对照原分辨率目录和两套OCR，完成第六篇、55章、56章及57章至57.2.2"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验55.1～55.5、56.1～56.3.2、57.1～57.2.2的编号、标题和529～552页码"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由57.2.2反向复核至篇标题，检查目录缩进、章/节层级和罗马页码VI"
+    }
+  },
+  "blocks": [
+    {
+      "type": "toc-part",
+      "number": "第六篇",
+      "title": "土壤物理分析"
+    },
+    {
+      "type": "toc-tree",
+      "entries": [
+        {"number": "第55章", "title": "颗粒大小分布", "page": 529, "level": 1},
+        {"number": "55.1", "title": "引言", "page": 529, "level": 2},
+        {"number": "55.2", "title": "吸管法", "page": 531, "level": 2},
+        {"number": "55.2.1", "title": "材料与试剂", "page": 532, "level": 3},
+        {"number": "55.2.2", "title": "样品预处理步骤", "page": 532, "level": 3},
+        {"number": "55.2.3", "title": "土壤粒径分离步骤", "page": 533, "level": 3},
+        {"number": "55.2.4", "title": "计算", "page": 534, "level": 3},
+        {"number": "55.3", "title": "比重计法", "page": 535, "level": 2},
+        {"number": "55.3.1", "title": "材料与试剂", "page": 535, "level": 3},
+        {"number": "55.3.2", "title": "比重计标定", "page": 535, "level": 3},
+        {"number": "55.3.3", "title": "比重计法步骤", "page": 535, "level": 3},
+        {"number": "55.3.4", "title": "计算", "page": 536, "level": 3},
+        {"number": "55.3.5", "title": "注释", "page": 536, "level": 3},
+        {"number": "55.4", "title": "筛分法（机械方法）", "page": 536, "level": 2},
+        {"number": "55.4.1", "title": "材料与试剂", "page": 536, "level": 3},
+        {"number": "55.4.2", "title": "步骤", "page": 536, "level": 3},
+        {"number": "55.5", "title": "新技术", "page": 537, "level": 2},
+        {"number": "第55章参考文献", "title": "参考文献", "page": 537, "level": 2},
+        {"number": "第56章", "title": "土壤收缩", "page": 539, "level": 1},
+        {"number": "56.1", "title": "引言", "page": 539, "level": 2},
+        {"number": "56.2", "title": "田间土壤收缩测定方法", "page": 540, "level": 2},
+        {"number": "56.2.1", "title": "材料", "page": 540, "level": 3},
+        {"number": "56.2.2", "title": "步骤", "page": 540, "level": 3},
+        {"number": "56.2.3", "title": "注释", "page": 540, "level": 3},
+        {"number": "56.3", "title": "室内土壤收缩测定方法", "page": 541, "level": 2},
+        {"number": "56.3.1", "title": "线性收缩", "page": 541, "level": 3},
+        {"number": "56.3.2", "title": "三维收缩", "page": 543, "level": 3},
+        {"number": "第56章参考文献", "title": "参考文献", "page": 546, "level": 2},
+        {"number": "第57章", "title": "土壤容重和孔隙", "page": 549, "level": 1},
+        {"number": "57.1", "title": "引言", "page": 549, "level": 2},
+        {"number": "57.2", "title": "土壤容重", "page": 550, "level": 2},
+        {"number": "57.2.1", "title": "环刀取样法", "page": 550, "level": 3},
+        {"number": "57.2.2", "title": "蜡封法", "page": 552, "level": 3}
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "6398fae09c364607b2dcfdb643b603b83a37e50062fe2e2823d6b0624a8c5dd8"
+}

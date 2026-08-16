@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 478,
+  "sourceImageSha256": "cb885604b0a33dcaa445289a142a07cf79825324bd5d0b9a36c8164c1d926a0a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页和两套OCR，完成图47.1、47.3.2十步和47.3.3注释（1）承下句；恢复各次液体更换与回用关系"},
+    "precisionPass": {"status": "verified", "method": "核验25/5 g、50/25/75/150/200 mL、60 min、48 h、60/105 °C、0.01 mol·L⁻¹ CaCl₂、比重1.7、1.9 g·cm⁻³及250 μm"},
+    "secondVisualPass": {"status": "verified", "method": "由47.3.3页末承下句反向复核至图47.1，检查真空管路、滤液去向、两次分离和所有冲洗体积；印刷页码447"}
+  },
+  "blocks": [
+    {"type": "figure", "number": "图47.1", "title": "用于分离轻组有机质的带吸滤瓶真空过滤装置", "description": "烧杯表层轻质组分由吸管和聚乙烯管抽至玻璃纤维过滤器；过滤器装在吸滤瓶上，并有两处真空连接，用于抽取轻组和抽滤。", "labels": ["聚乙烯管", "连接真空泵", "玻璃纤维过滤器", "吸滤瓶", "轻质组分"]},
+    {"type": "section-heading", "level": 3, "number": "47.3.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "田间湿土过2 mm筛，弃筛上残渣，风干。"},
+    {"type": "procedure-step", "number": "（2）", "text": "另取5 g土样于105 °C干燥，测含水量。"},
+    {"type": "procedure-step", "number": "（3）", "text": "每瓶放25 g土，加50 mL NaI重液，盖紧，在往复式振荡机振荡60 min；振荡较弱时延长时间。"},
+    {"type": "procedure-step", "number": "（4）", "text": "把各瓶液体倒入200 mL烧杯，用NaI洗瓶把盖和瓶内全部土样冲入烧杯。"},
+    {"type": "procedure-step", "number": "（5）", "text": "室温静置48 h。"},
+    {"type": "procedure-step", "number": "（6）", "text": "从各烧杯表层抽取约25 mL含LF的液体至抽滤装置，抽滤；回收比重1.7滤液以回用。用少量NaI重液冲洗真空管内LF。"},
+    {"type": "procedure-step", "number": "（7）", "text": "不移动夹和滤膜，把收集回用重液的吸滤瓶换成废洗液瓶。用CaCl₂洗瓶把真空管、漏斗壁LF全部冲到滤膜；依次用约75 mL CaCl₂液和75 mL蒸馏水（合计至少150 mL）洗尽LF表面NaI。CaCl₂防止滤孔堵塞。废弃洗液，保留第一个瓶中的NaI重液。"},
+    {"type": "procedure-step", "number": "（8）", "text": "取出滤膜，把LF冲入预称重干燥锡盒，于60 °C烘干，称LF干质量。"},
+    {"type": "procedure-step", "number": "（9）", "text": "植物残体多的土壤（如森林土）需重复分离：用步骤（6）保留的NaI，并补加新鲜或过滤NaI至50 mL，使重组分再悬浮，重复步骤（4）～（8）。"},
+    {"type": "procedure-step", "number": "（10）", "text": "合并两次干燥LF，研钵研杵碾碎并通过250 μm筛，用标准方法测C、N或其他目标元素。"},
+    {"type": "section-heading", "level": 3, "number": "47.3.3", "title": "注释"},
+    {"type": "note", "number": "（1）", "text": "可用多种化合物配制重液（Gregorich和Ellert，1993）。推荐NaI，因相对价格低、毒性低、应用广，25 °C可配至约1.9 g·cm⁻³。密度分组也可用有机溶剂，但其毒性高、有C污染并凝聚悬浮颗粒，故不推荐[续见第479页]。"}
+  ],
+  "formulas": [
+    {"id": "47.3.2-first-extraction", "display": "25 g soil + 50 mL NaI; shake 60 min; settle 48 h", "meaning": "第一次LF密度分离的核心条件"},
+    {"id": "47.3.2-wash", "display": "≈75 mL 0.01 mol·L⁻¹ CaCl₂ + ≈75 mL H₂O ≥150 mL total wash", "meaning": "洗去LF表面NaI的次序和最低总洗液量"}
+  ],
+  "tables": [],
+  "contentSha256": "fb260b9c95b9c0fbde7b691f5657bf8f15fcb41bc13d5fc497f9909b89977990"
+}

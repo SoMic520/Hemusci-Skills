@@ -1,0 +1,23 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 194,
+  "sourceImageSha256": "2ef0ad00e442350fe9f82fbc52198cd77e31a651eb8acabd1730ae8d375b1170",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐图对照原分辨率页图和两套OCR，完成张力计量程、图71.2、71.3.1和71.3.2填充跨页句"},
+    "precisionPass": {"status": "verified", "method": "核验−0.08 MPa≤ψ_m≤0、陶瓷/多孔金属、去气温度均衡水及U形管汞限制"},
+    "secondVisualPass": {"status": "verified", "method": "由填充跨页句反向复核图中六类装置及材料设备；印刷页码703"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "张力计有效量程为−0.08 MPa≤ψ_m≤0；接近干端时气泡问题加重。"},
+    {"type": "figure", "number": "71.2", "title": "一些常用的张力计", "annotations": ["盖子+气体压力计读出", "可接压力表/传感器的定制张力计", "双螺钉盖手动读数型", "可替代手动仪表的压力传感器", "柔性细管+微型多孔杯", "中型杯缩小型；图示多孔杯均为陶瓷"]},
+    {"type": "heading", "number": "71.3.1", "title": "材料和设备", "level": 3},
+    {"type": "equipment", "items": ["张力计杯、管和盖：可整机购买或按应用组装。", "压力指示/记录：针头+电池压力传感器、机械表或电子传感器；含汞U形管因健康环境问题避免。", "读数：机械表手读；电池传感器可数显或接数据记录器。", "工具：手动真空泵、扳手、铲、钻机等。"]},
+    {"type": "heading", "number": "71.3.2", "title": "步骤", "level": 3},
+    {"type": "procedure", "steps": ["用去气且温度均衡的水饱和多孔杯，可对管施轻微真空加速；杯饱和后开盖/隔膜并加同样的水，续见下页。"]},
+    {"type": "source-fidelity-note", "text": "−0.08 MPa负号和ψ_m下标为关键；OCR易把张力计写成压力计或漏负号。图示商用形态仅说明构成，不等于统一操作规格。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1af95b9f7366c628e3f2fecfa44ebd37db0e48fba4d061a122b1ed34841d7c8b"
+}

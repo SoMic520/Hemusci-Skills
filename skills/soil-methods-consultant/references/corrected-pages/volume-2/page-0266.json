@@ -1,0 +1,99 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 266,
+  "sourceImageSha256": "3328f86ff0fd79910bce5f933e82315bbf37da3fb66da3bd57aea12192c88471",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对80.2续、80.3全文、式(80.4)—(80.5)及图80.3—80.4图注"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "复算两种边界条件下的水力梯度，核验q与K量纲、ψ₀/2、ψ_a和负水头符号"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "整页及装置图高倍复核，并对照英文原章确认式(80.4)适用条件和式(80.5)单位梯度；印刷页码775"
+    }
+  },
+  "blocks": [
+    {
+      "type": "method-note-continuation",
+      "text": "接触砂层对最早期入渗数据的影响以及接触层阻抗或水头损失会造成误差；第82章82.3.3给出相应补偿方法。"
+    },
+    {
+      "type": "heading",
+      "number": "80.3",
+      "title": "近饱和导水率的计算",
+      "level": 2
+    },
+    {
+      "type": "method-principle",
+      "text": "Clothier和White（1981）的原装置在土芯顶部施加ψ₀、底部保持ψ=0；稳态通量密度为q [L·T⁻¹]时，用式(80.4)估算平均基质水头ψ₀/2处的K。该式把土芯内的基质水头梯度视为线性；实际梯度非线性，因此会高估真实的K(ψ₀/2)。Cook等（1991）提出的算法更准确，但还需已知饱和导水率。"
+    },
+    {
+      "type": "method-principle",
+      "text": "更直接的装置使土芯上下两端都保持同一基质水头ψ₀，土芯内只剩单位重力梯度，因而稳态通量密度即K(ψ₀)，见式(80.5)。"
+    },
+    {
+      "type": "figure",
+      "number": "80.3",
+      "title": "Clothier和White（1981）原装置的水头边界",
+      "components": [
+        "土芯顶部由张力入渗仪维持ψ=ψ₀",
+        "土芯底部置于穿孔板上并维持ψ=0"
+      ]
+    },
+    {
+      "type": "figure",
+      "number": "80.4",
+      "title": "土芯上下端均维持ψ₀的单位水力梯度装置",
+      "components": [
+        "张力入渗仪在土芯顶部施加ψ₀",
+        "布氏漏斗在底部施加ψ₀，且−h=ψ₀",
+        "一维稳态流动时总水头梯度为1"
+      ]
+    },
+    {
+      "type": "apparatus-requirement",
+      "text": "底部多孔介质的进气水头ψ_a必须比试验采用的最小（最负）ψ₀更负；多孔底板或滤层以及接触砂层的导水能力必须足够高，以免其自身阻抗显著降低通量。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "式(80.5)中的q与K同为通量密度，量纲必须是[L·T⁻¹]；机器识别曾把q标成[T]，据公式定义和英文原章改正。ψ_a和ψ₀均为负基质水头，比较时应保留符号。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "80.4",
+      "plain": "K(ψ₀/2)=qL/(ψ₀+L)",
+      "latex": "K(\\psi_0/2)=\\frac{qL}{\\psi_0+L}",
+      "resultUnit": "L·T⁻¹",
+      "variables": [
+        "K(ψ₀/2)：平均基质水头ψ₀/2处的导水率，[L·T⁻¹]",
+        "q：稳态通量密度，[L·T⁻¹]",
+        "L：土芯长度，[L]",
+        "ψ₀：土芯顶部施加的基质水头，[L]；底部ψ=0"
+      ]
+    },
+    {
+      "label": "80.5",
+      "plain": "K(ψ₀)=q",
+      "latex": "K(\\psi_0)=q",
+      "resultUnit": "L·T⁻¹",
+      "variables": [
+        "K(ψ₀)：基质水头ψ₀处的导水率，[L·T⁻¹]",
+        "q：上下端均为ψ₀且水力梯度为1时的稳态通量密度，[L·T⁻¹]"
+      ]
+    },
+    {
+      "label": "图80.4",
+      "plain": "ψ₀=−h",
+      "latex": "\\psi_0=-h",
+      "resultUnit": "L"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "9fa762258f7d0f2ab992a5145215500ebf287eb614a09ed2264d92a8b872908e"
+}

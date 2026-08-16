@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 166,
+  "sourceImageSha256": "1a6efa14c468731560c5916e22a7494504684afc1bee961e7e277e27327cb58a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章首页，并与Apple Vision、PaddleOCR交叉比对，人工恢复作者机构、引言和页末未完句"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Bélanger/Sauvé重音符、无压/张力蒸渗仪、混相驱法、注压法、0.01 mol L⁻¹ CaCl₂及全部年份引文"},
+    "secondVisualPass": {"status": "verified", "method": "从页末“这种方法”反向复核至章名，确认六段引言、方法类型层级、中英文姓名和章首无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第17章", "title": "土壤溶液的采集与测定"},
+    {"type": "author", "text": "J.D. MacDonald"},
+    {"type": "affiliation", "text": "Agriculture and Agri-Food Canada"},
+    {"type": "affiliation", "text": "Quebec, Quebec, Canada"},
+    {"type": "author", "text": "N. Bélanger"},
+    {"type": "affiliation", "text": "University of Saskatchewan"},
+    {"type": "affiliation", "text": "Saskatoon, Saskatchewan, Canada"},
+    {"type": "author", "text": "S. Sauvé and F. Courchesne"},
+    {"type": "affiliation", "text": "University of Montreal"},
+    {"type": "affiliation", "text": "Montreal, Quebec, Canada"},
+    {"type": "author", "text": "W.H. Hendershot"},
+    {"type": "affiliation", "text": "McGill University"},
+    {"type": "affiliation", "text": "Sainte Anne de Bellevue, Quebec, Canada"},
+    {"type": "section-heading", "level": 2, "number": "17.1", "title": "引 言"},
+    {"type": "paragraph", "text": "土壤溶液不仅在植物养分吸收过程中起重要作用，而且对土壤中生活的其他生物也会产生直接影响，还是土壤中溶解和悬浮物质的迁移载体。这里把土壤溶液定义为田间土壤中的液体，它不同于在实验室通过向土壤样品中添加盐溶液或水得到的模拟土壤溶液，这些模拟溶液定义为土壤提取液。"},
+    {"type": "paragraph", "text": "研究大气向土壤和流域的沉降经常要进行土壤溶液的化学监测。在大多数情况下，蒸渗仪可以用来定期收集土壤溶液，监测评估土壤吸收大气沉降物及其向地表和地下水释放养分与污染物的能力。同时，还可以用蒸渗仪测定土壤中的速效养分以便研究森林土壤大量元素的有效性（Haines等，1982；Beier等，1992；Foster等，1992；Hendershot等，1992；MacDonald等，2003；Bélanger等，2004）。"},
+    {"type": "paragraph", "text": "采集田间土壤溶液主要有两种方法，即采用无压蒸渗仪和张力蒸渗仪。两种方法都包含一个插入土体的装置，用来收集土壤中的可移动水或毛管水。目前，张力蒸渗仪更加完善，其中微型蒸渗仪可以用于土壤微环境研究，微型蒸渗仪的出现为尚不明确的土壤溶液微观化学非均质性研究提供了可能。"},
+    {"type": "paragraph", "text": "经过多年研究，在室内从鲜土中或直接从田间土壤获得土壤溶液的方法不断地得到改善（Heinrichs等，1995；Lawrence和David，1996）。通过这些方法收集到的土壤溶液通常比用田间蒸渗仪收集到的土壤溶液含有更多、浓度更高的离子，包括可溶性有机质（Ludwig等，1999），而且还可以观测到因为土壤水分含量不同而导致的结果变化（Jones和Edwards，1993）。尽管如此，在室内用新鲜土壤获得土壤溶液的方法，例如，离心法、混相驱法和注压法等都可以用于植物营养研究，值得关注（Smethurst，2000）。"},
+    {"type": "paragraph", "text": "在这一章中，将介绍离心法，考虑到用于提取土壤溶液的提取压力会对结果产生影响，本章还介绍了Ross和Bartlett（1990）提出的一种简单方法，即在田间将潮湿的土壤装入注射器并通过向土壤施加压力来提取溶液。与离心法类似，注射器压缩法快速、简单，还是克服离心法高估溶液中某些元素浓度的一种替代方法。"},
+    {"type": "paragraph", "continued": true, "text": "总是通过进行田间试验开展研究不太现实。为了使大量土壤样品在室内浸提的土壤溶液化学性质与田间接近，建议用低浓度（0.01 mol L⁻¹）的CaCl₂溶液振荡离心提取（Quevauviller，1998），这种方法"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1c2b48aaee95262c35b57dd36f930f74f6c42b83e879df9c83d95c91cfbe9439"
+}

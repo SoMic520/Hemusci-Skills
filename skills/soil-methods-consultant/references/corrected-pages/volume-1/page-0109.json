@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 109,
+  "sourceImageSha256": "4be10a20073a1fed22fc1b93d1bd29d307dc5273c1c3251e524d8d131f35db3f",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文和参考文献，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复9.4.1续文、9.4.2、9.4.3及十条文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验mg Se/L、0.1 mg Se/L、0～30/0～90 cm、AB-DTPA、HGAAS、GFAAS、ICP-AES、QA/QC及文献作者、卷页、专名和原书连写"},
+    "secondVisualPass": {"status": "verified", "method": "由Jump和Sabey续句至Davis 1972b反向复核，确认仪器法层级、两条注释、原书参考文献异常题名和印刷页码78"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "continuation": true, "text": "（Jump和Sabey，1989）。用饱和泥浆法对硒富集植物硒吸收量的预测结果最佳，其中提取液中的硒含量用mg Se/L表达。此外，分析结果表明饱和泥浆提取物中土壤或矿山废弃物中的硒含量超过0.1 mg Se/L时，则可能造成植物硒中毒。", "inlineNotation": ["mg Se/L", "0.1 mg Se/L"]},
+    {"type": "paragraph", "text": "此外，相对0～30 cm的土层，0～90 cm土层中的硒与AB-DTPA法所提取出的小麦籽粒中的硒具有更好的相关性（Soltanpour等1982），这有利于筛查土壤及其表层覆盖物中硒的潜在毒性。", "inlineNotation": ["0～30 cm", "0～90 cm", "AB-DTPA"]},
+    {"type": "section-heading", "level": 3, "number": "9.4.2", "title": "硒的测定"},
+    {"type": "paragraph", "text": "提取液中的硒可通过氢化物发生—原子吸收光谱法（HGAAS）、电热法或GFAAS、ICP-AES结合比色法及荧光计法等化学方法进行准确测定（APHA 1992）。其中最常用的方法是连续HGAAS。但在测定高浓度硒时，氢化物发生系统与ICP-AES联用可能更好，尤其是在需要同时测定其他元素时，如砷（Workman和Soltanpour，1980）。利用基质匹配（如用与土壤提取物相同的基质配制标准品）和扩展的QA/QC流程来确保测定的质量。关于测定硒所用的HGAAS仪器及试剂的详细信息可参考APHA（1992）及Huang和Fujii（1996）。", "inlineNotation": ["HGAAS", "GFAAS", "ICP-AES", "QA/QC"]},
+    {"type": "section-heading", "level": 3, "number": "9.4.3", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "已建立的提取法仅适用于预测硒中毒地区的有效态硒。由于缺硒地区只存在相当少量的有效态硒，因此没有建立适用于此类土壤的可靠的提取法。因此，植物中的硒和土壤中的总硒将继续作为测量缺硒土壤中硒的最佳方法。"},
+      {"number": "（2）", "text": "缺硒这一术语只针对牲畜和人类营养，而对植物营养没有意义，因为还未发现硒对栽培作物产量有影响。"}
+    ]},
+    {"type": "section-heading", "level": 2, "number": null, "title": "参考文献"},
+    {"type": "reference-entry", "text": "American Public Health Association (APHA), American Water Works Association, and Water Pollution Control Federation. 1992. Standard Methods for the Examination of Water and Association, American Water Works Association, and Water Pollution Control Federation, Washington, DC."},
+    {"type": "reference-entry", "text": "Berger, K.C. and Truog, E. 1939. Boron determination in soils and plants using the quinalizarin reaction. Ind. Eng. Chem. 11: 540-545."},
+    {"type": "reference-entry", "text": "Bisbjerg, B. and Gissel-Nielsen, G. 1969. The uptake of applied selenium by agricultural plants. I. The influence of soil type and plant species. Plant Soil 31: 287-298."},
+    {"type": "reference-entry", "text": "Black, C.A., Evans, D.D., White, J.L., Ensmiger, L.E., and Clark, F.E., eds. 1965. Methods of Soil Analysis. Part 2. Agronomy 9, ASA, Madison, WI, 1122."},
+    {"type": "reference-entry", "text": "Cartwright, B., Tiller, K.G., Zarcinas, B.A., and Spouncer, L.R. 1983. The chemical assessment of the boron status of soils. Aust. J. Soil Res. 21: 321-330."},
+    {"type": "reference-entry", "text": "Chao, T.T. and Sanzolone, R.F. 1989. Fractionation of soil selenium by sequential partial dissolution. Soil Sci. Soc. Am. J. 53: 385-392."},
+    {"type": "reference-entry", "text": "Chaudhary, D.R. and Shukla, L.M. 2004. Evaluation of extractants for predicting availability of boron to mustard in arid soils of India. Commun.Soil Sci. Plant Anal. 35: 267-283."},
+    {"type": "reference-entry", "text": "Davies, B.E. 1980. Applied Soil Trace Elements. Wiley-Interscience, Chichester, New York, NY."},
+    {"type": "reference-entry", "text": "Davis, A.M. 1972a. Selenium accumulation in Astragalus species. Agron. J. 64: 751-754."},
+    {"type": "reference-entry", "text": "Davis, A.M. 1972b. Selenium accumulation in a collection of Atriplex species. Agron. J. 64: 823-824."},
+    {"type": "printed-page-number", "text": "78"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1c4c99c463b09c54f159ce3e0e6a224c6ce3f77433b3c2ebe3f58a6357bf3a59"
+}

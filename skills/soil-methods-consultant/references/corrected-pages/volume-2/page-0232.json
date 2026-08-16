@@ -1,0 +1,43 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 232,
+  "sourceImageSha256": "67a27ce4bbc8a6deb058417c1548357f9bb827a56ca40af4454194cc1846b9a1",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐图注逐步骤逐式对照原分辨率页图、两套OCR和英文原章，完成图76.2、76.2.1(2)续—(6)及式(76.1)"},
+    "precisionPass": {"status": "verified", "method": "核验>20 cm、H₁<H₂<H₃、连续4—5个R_s、Q_s=A R_s及K_fs=C_GQ_s/(2πH²)全部上下标和量纲"},
+    "secondVisualPass": {"status": "verified", "method": "复核配水—缓升通气管—规则起泡—水位下降—稳态判定—多水头递增的完整链；印刷页码741"}
+  },
+  "blocks": [
+    {"type": "paragraph", "text": "高渗粗颗粒填料可使马利奥特瓶气泡更快、更均匀，低导水率土尤有帮助。"},
+    {
+      "type": "figure",
+      "number": "76.2",
+      "title": "定水头井渗法中滚轮式去除井壁涂抹和压实表层的装置",
+      "components": ["带刺滚轮及细部", "井内上下滚动方向", "井底与地下水位/毛管上升带上缘距离>20 cm"]
+    },
+    {
+      "type": "procedure",
+      "name": "装水、设定水头和稳态流率",
+      "steps": [
+        "关闭出水端并把通气管推至出水端位置，装满马利奥特瓶。水温先与井周环境平衡；不用会分散颗粒的蒸馏水/去离子水。优先用离子组成足以絮凝黏粒和粉粒的当地自来水；高黏粒土宜用当地孔隙水或加絮凝剂。瓶应完全注满以减少启动时过量、过快注水。",
+        "打开出水端，缓慢抬高通气管，避免涌水导致井壁坍塌、淤积或饱和区夹入过多气泡。用通气管底端位置和标尺设所需恒定水头H；气泡有规律地由出流管升入储水管表明马利奥特瓶正常工作。",
+        "由储水管水位下降速率R求流量Q=A R；用标尺和秒表记录，亦可用自动压力记录仪。R随时间降至稳定R_s，相应Q趋于准稳态Q_s；连续4—5个R值实质相同即可判稳。",
+        "单水头转76.2.2计算；两水头再提高通气管取得H₂的Q_s；多水头依次取得H₂、H₃等。必须H₁<H₂<H₃<…，切换到更高水头时不可让井内水位下降。"
+      ]
+    },
+    {"type": "heading", "number": "76.2.2", "title": "分析和计算", "level": 3},
+    {"type": "calculation-guidance", "text": "原始定水头井渗法采用近似Glover关系式(76.1)；Q_s为准稳态流量，H为井中稳定积水深度，C_G为无量纲形状系数。C_G定义续下页。"}
+  ],
+  "formulas": [
+    {
+      "label": "76.1",
+      "plain": "K_fs = C_G Q_s/(2πH²)",
+      "latex": "K_{fs}=\\frac{C_GQ_s}{2\\pi H^2}",
+      "resultUnit": "L·T⁻¹",
+      "variables": ["Q_s：渗透仪流入多孔介质的准稳态体积流率，[L³·T⁻¹]", "H：井中稳定积水深度，[L]", "C_G：Glover无量纲形状系数"]
+    }
+  ],
+  "tables": [],
+  "contentSha256": "c38feac6e48ed34c27515657e00c40b48e8bcd87de7246cce053837a88f2b012"
+}

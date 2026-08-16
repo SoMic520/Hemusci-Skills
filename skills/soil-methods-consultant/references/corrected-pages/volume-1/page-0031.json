@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 31,
+  "sourceImageSha256": "ed6adc70d8a0b8b2e531a2a0fce2a6a00c3635105fd16e84b15a56dfc97804dd",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率目录页，并与Apple Vision、PaddleOCR两份机器稿交叉比对"},
+    "precisionPass": {"status": "verified", "method": "放大核对CP/MAS、Bloch、N₂O下标及δ¹³C、δ¹⁵N、δ¹⁸O同位素上下标、层级和页码"},
+    "secondVisualPass": {"status": "verified", "method": "按拉丁字母、化学式、同位素符号、方法名称和页码列反向逐项复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "toc-entry", "level": 4, "number": "53.3.3", "title": "CP/MAS 的参数采集", "targetPage": 500},
+    {"type": "toc-entry", "level": 4, "number": "53.3.4", "title": "直接极化或 Bloch 衰变参数", "targetPage": 502},
+    {"type": "toc-entry", "level": 4, "number": "53.3.5", "title": "偶极相移技术", "targetPage": 502},
+    {"type": "toc-entry", "level": 4, "number": "53.3.6", "title": "边带全抑制技术", "targetPage": 502},
+    {"type": "toc-entry", "level": 4, "number": "53.3.7", "title": "背景信号", "targetPage": 503},
+    {"type": "toc-entry", "level": 4, "number": "53.3.8", "title": "其他实验", "targetPage": 503},
+    {"type": "toc-entry", "level": 3, "number": "53.4", "title": "数据处理", "targetPage": 503},
+    {"type": "toc-entry", "level": 3, "number": "53.5", "title": "注释", "targetPage": 506},
+    {"type": "toc-entry", "level": 3, "title": "参考文献", "targetPage": 506},
+    {"type": "toc-entry", "level": 2, "number": "第54章", "title": "稳定性同位素在土壤和环境科学研究中的应用", "targetPage": 509},
+    {"type": "toc-entry", "level": 3, "number": "54.1", "title": "引言", "targetPage": 509},
+    {"type": "toc-entry", "level": 3, "number": "54.2", "title": "稳定同位素的命名、符号、标准和转换", "targetPage": 510},
+    {"type": "toc-entry", "level": 3, "number": "54.3", "title": "同位素比质谱仪的使用", "targetPage": 511},
+    {"type": "toc-entry", "level": 3, "number": "54.4", "title": "样品制备及分析", "targetPage": 513},
+    {"type": "toc-entry", "level": 4, "number": "54.4.1", "title": "土壤有机质中δ¹³C值的测定", "inlineNotation": ["delta^{13}C"], "targetPage": 514},
+    {"type": "toc-entry", "level": 4, "number": "54.4.2", "title": "测定土壤全δ¹³C值和全δ¹⁵N值", "inlineNotation": ["delta^{13}C", "delta^{15}N"], "targetPage": 514},
+    {"type": "toc-entry", "level": 4, "number": "54.4.3", "title": "铵盐中δ¹⁵N值和硝酸盐中δ¹⁵N值、δ¹⁸O值的测定", "inlineNotation": ["delta^{15}N", "delta^{18}O"], "targetPage": 515},
+    {"type": "toc-entry", "level": 4, "number": "54.4.4", "title": "N₂O中δ¹⁸O值和δ¹⁵N值的测定", "inlineNotation": ["N_2O", "delta^{18}O", "delta^{15}N"], "targetPage": 516},
+    {"type": "toc-entry", "level": 3, "number": "54.5", "title": "轻同位素的应用与计算", "targetPage": 516},
+    {"type": "toc-entry", "level": 4, "number": "54.5.1", "title": "由植被引起的土壤有机物δ¹³C值的转变", "inlineNotation": ["delta^{13}C"], "targetPage": 517},
+    {"type": "toc-entry", "level": 4, "number": "54.5.2", "title": "富¹⁵N肥的足迹", "inlineNotation": ["^{15}N"], "targetPage": 518},
+    {"type": "toc-entry", "level": 4, "number": "54.5.3", "title": "未知源中δ¹⁵N值的确定", "inlineNotation": ["delta^{15}N"], "targetPage": 519},
+    {"type": "toc-entry", "level": 3, "number": "54.6", "title": "关于稳定性同位素在环境研究中应用的说明", "targetPage": 520},
+    {"type": "toc-entry", "level": 3, "title": "参考文献", "targetPage": 520},
+    {"type": "printed-page-number", "text": "XXX"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "bc57155c17327991ef39616b8ed13a8d97a44f0e39b0df71e1c5f5f73504dc70"
+}

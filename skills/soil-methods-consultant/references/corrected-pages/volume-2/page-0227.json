@@ -1,0 +1,48 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 227,
+  "sourceImageSha256": "b2a248474f4b0cbd97f2214bf1de8f640bc27c10dbb60de16c8a2161c57067c4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐图注逐式逐段对照原分辨率页图和两套OCR，完成图75.2、75.3.2和75.3.3(1)—(3)未完"},
+    "precisionPass": {"status": "verified", "method": "核验d_s/d_c平方、L/Δt、ln(H_i/H_i+1)、四个独立区间、H_i/H_i+1≤1.1及10⁻⁷—10⁻⁴ cm·s⁻¹"},
+    "secondVisualPass": {"status": "verified", "method": "以表75.1的H₁—H₅和480 s逐段反算K₁,₂—K₄,₅，确认公式与数值一致；印刷页码736"}
+  },
+  "blocks": [
+    {
+      "type": "figure",
+      "number": "75.2",
+      "title": "降水头土芯（水槽）法",
+      "components": ["内径d_s的刻度储水管及旋塞", "水位H₁、H₂与水槽水面基准", "流入管", "丙烯酸塑料水槽、粗制格栅及排水管/排水塞", "后盖、钻孔挡板、多节点耦合", "土芯、尼龙织物及橡皮带"]
+    },
+    {"type": "heading", "number": "75.3.2", "title": "分析和计算", "level": 3},
+    {
+      "type": "calculation-guidance",
+      "text": "连续测5个水位H₁—H₅可由相邻水位计算4个独立K_s值K₁,₂、K₂,₃、K₃,₄、K₄,₅，再取平均；储水管可重新充水获得重复值。式(75.3)对H_i和H_i+1十分敏感，必须准确读数。公式虽无温度项，水温仍显著影响K_s，应记录并控制T。"
+    },
+    {"type": "heading", "number": "75.3.3", "title": "注释", "level": 3},
+    {
+      "type": "method-notes",
+      "items": [
+        "降水头法实际水流向下，定水头法实际水流向上；欲保持对应原位方向的向下流，降水头法后盖置原位土芯顶端、定水头法置原位底端。多数样品的K_s对流向不敏感，切换两法时通常无需移动后盖。",
+        "储水管水位降低时，后盖夹气会随静水压力下降而膨胀，显著改变有效储水量或H_i/H_i+1并造成K_s误差。后盖和管路夹气应最小（最好为0），每个区间H_i/H_i+1≤1.1；可调初始水位获得合适下降速率。",
+        "降水头法一般覆盖K_s=10⁻⁷—10⁻⁴ cm·s⁻¹；增大储水管内径可测更大K_s，减小内径可测更小K_s，但过小内径会产生明显毛细上升和水流阻力；内容续下页。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "式(75.3)原书行末印有i=1,2,3,4,5，但5个水位只能形成4个相邻区间，且正文明确列K₁,₂至K₄,₅；故规范公式索引校为i=1,2,3,4，原印错误保留在本校注。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "75.3",
+      "plain": "K_i,i+1 = (d_s/d_c)² [L/Δt_i,i+1] ln(H_i/H_i+1), i=1,2,3,4",
+      "latex": "K_{i,i+1}=\\left(\\frac{d_s}{d_c}\\right)^2\\frac{L}{\\Delta t_{i,i+1}}\\ln\\left(\\frac{H_i}{H_{i+1}}\\right),\\quad i=1,2,3,4",
+      "resultUnit": "L·T⁻¹",
+      "variables": ["d_s：储水管内径，[L]", "d_c：圆柱土芯/取样器内径，[L]", "L：土芯长度，[L]", "H_i、H_i+1：储水管水面相对水槽基准的高度，[L]", "Δt_i,i+1：水位由H_i降至H_i+1的时间，[T]"]
+    }
+  ],
+  "tables": [],
+  "contentSha256": "c91d1a686ed5f16e79122543d326efc0634c2c57599dd0a010b481cf9922112a"
+}

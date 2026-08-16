@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 111,
+  "sourceImageSha256": "17098da69048637188643cdb20630e526bd2d83ba26d548e59e0cbff21781bfc",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐行对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工合并Liu续句至Soltanpour未完条目"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验NH₄HCO₃-DTPA、Mehlich 3、Fe-oxide、NAS-NRC、azomethine-H、Ceará/Ciência、作者缩写、年份、期刊卷页和原书连写/缺词"},
+    "secondVisualPass": {"status": "verified", "method": "由availablemolybdenum续句至Inductively coupled plasma emission反向复核，确认Society America、Commun. Soil Sci. Anal.等原书排印特征和印刷页码80"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-entry", "continuation": true, "text": "of plant availablemolybdenum in soil. Commun. Soil Sci. Plant Anal. 27: 2511-2541."},
+    {"type": "reference-entry", "text": "Matsi, T., Antoniadis, V., and Barbayiannis, N. 2000. Evaluation of the NH₄HCO₃-DTPA soil test for assessing boron availability to wheat. Commun. Soil Sci. Plant Anal. 31: 669-678."},
+    {"type": "reference-entry", "text": "McBride, M.B. and Hale, B. 2004. Molybdenum extractability in soils and uptake by alfalfa 20 years after sewage sludge application. Soil Sci. 169: 505-514."},
+    {"type": "reference-entry", "text": "McBride, M.B., Nibarger, E.A., Richards, B.K., and Steenhuis, T. 2003. Trace metal accumulation by red clover grown on sewage sludge-amended soils and correlation to Mehlich 3 and calcium chloride-extractable metals. Soil Sci. 168: 29-38."},
+    {"type": "reference-entry", "text": "McNeal, J.M. and Balistrieri, L.S. 1989. Geochemistry and occurrence of selenium: an overview. In: L.W. Jacobs, ed. Selenium in Agriculture and the Environment. SSSA Special Publication 23, American Society of Agronomy, Inc. Soil Science Society America, Inc, Madison, WI, 1-13."},
+    {"type": "reference-entry", "text": "Mikkelsen, R.L., Bingham, F.T., and Page, A.L. 1989. Factors affecting selenium accumulation by agricultural crops. In: L.W. Jacobs, ed. Selenium in Agriculture and the Environment. SSSA Special Publication 23: ASA and SSSA, Madison, WI, 65-94."},
+    {"type": "reference-entry", "text": "Mortvedt, J.J. and Anderson, O.E. 1982. Forage legumes: diagnosis and correction of molybdenum and manganese problems. Southern Cooperative Series Bulletin 278. Georgia Agricultural Experiment Station, Athens, GA."},
+    {"type": "reference-entry", "text": "National Academy of Sciences, National Research Council (NAS-NRC). 1971. Selenium in Nutrition. NAS-NRC, Washington, DC."},
+    {"type": "reference-entry", "text": "Neal, R.H., Sposito, G., Holtclaw, K.W., and Traina, S.J. 1987. Selenite adsorption on alluvial soils: I. Soil composition and pH effects. Soil Sci. Soc. Am. J. 51: 1161-1165."},
+    {"type": "reference-entry", "text": "Odom, J.W. 1980. Kinetics of the hot-water soluble boron soil test. Commun. Soil Sci. Plant Anal. 11: 759-765."},
+    {"type": "reference-entry", "text": "Offiah, O. and Axley, J.H. 1988. Improvement of boron soil test. Commun. Soil Sci. Plant Anal. 19: 1527-1542."},
+    {"type": "reference-entry", "text": "Oyinlola, E.Y. and Chude, V.O. 2002. Test methods for available soil boron in some selected soils of northern Nigeria. Nigerian J. Soil Res. 3: 78-84."},
+    {"type": "reference-entry", "text": "Parker, D.R. and Gardner, E.H. 1981. The determination of hot-water-soluble boron in some acid Oregon soils using a modified azomethine-H procedure. Commun. Soil Sci. Plant Anal. 12: 1311-1322."},
+    {"type": "reference-entry", "text": "Pierzynski, G.M. and Jacobs, L.W. 1986. Molybdenum accumulation by corn and soybeans from a molybdenum rich sewage sludge. J. Environ. Qual. 15: 394-398."},
+    {"type": "reference-entry", "text": "Ponnamperuma, F.N., Cayton, M.T., and Lantin, R.S. 1981. Dilute hydrochloric acid as an extractant for available zinc, copper, and boron in rice soils. Plant Soil 61: 297-310."},
+    {"type": "reference-entry", "text": "Raza, M., Mermut, A.R., Schoenau, J.J., and Malhi, S.S. 2002. Boron fractionation in some Saskatchewan soils. Can. J. Soil Sci. 82: 173-179."},
+    {"type": "reference-entry", "text": "Ritchie, G.S.P. 1988. A preliminary evaluation of resin extractable molybdenum as a soil test. Commun. Soil Sci. Plant Anal. 19: 507-516."},
+    {"type": "reference-entry", "text": "Sarkar, D. and O’Connor, G.A. 2001. Estimating available molybdenum in biosolids-amended soil using Fe-oxide impregnated filter paper. Commun. Soil Sci. Anal. 32: 2033-2048."},
+    {"type": "reference-entry", "text": "Sharma, P.C. and Chatterjee, C. 1997. Molybdenum mobility in alkaline soils. In: U.C. Gupta, ed. Molybdenum in Agriculture. Cambridge University Press, New York, NY, 131-149."},
+    {"type": "reference-entry", "text": "Sherrell, C.G. 1983. Boron deficiency and response in white and red clovers and lucerne. N. Z. J. Agric. Res. 26: 197-203."},
+    {"type": "reference-entry", "text": "Silva, F.R. and Ferreyra H.F.F. 1998. Evaluation of boron extractors in soils of Ceará State [Brazil]. Revista Brasileira De Ciência Do Solo 22: 471-478."},
+    {"type": "reference-entry", "text": "Soltanpour, P.N., Johnson, G.W., Workman, S.M., Jones, J.B. Jr., and Miller, R.O. 1996. Inductively coupled plasma emission"},
+    {"type": "printed-page-number", "text": "80"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2f8e1a53f06fed15d626079dbe92cdf91c7bc31300cdcfb006affb19e6f12222"
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 292,
+  "sourceImageSha256": "e0d804b5dce8583306c07fa8804c7755c8cc446f698918e9efb3d589d5841895",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第29章第261页，人工恢复29.5.2氮转化培养基续页、硫转化培养基两法及本页全15条参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐项核对培养基组分、晶水数、数值、mg/g/L、pH值、微生物拉丁名及英文文献的作者、年份、卷期与页码"},
+    "secondVisualPass": {"status": "verified", "method": "从Koedam文献反向复核至页首配方（5），确认29.5.2下第3级层级、Durham fermentation tubes、URL断行合并及印刷页码261"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第29章｜土壤和根相关微生物培养方法｜"},
+    {"type": "method-item", "number": "（5）", "section": "29.5.2.2", "title": "固氮细菌", "text": "（Lewis和Pramer，1958）：磷酸一氢钠，13.5 g；磷酸二氢钾，0.7 g；七水合硫酸镁，0.1 g；碳酸氢钠，0.5 g；硫酸铵，2.5 g；六水合氯化铁，14.4 mg；七水合氯化钙，18.4 mg；蒸馏水，1 L；pH值，8.0。"},
+    {"type": "source-fidelity-note", "scope": "29.5.2.2（5）", "text": "原书印作‘七水合氯化钙’。氯化钙常用试剂一般为无水物、二水合物或六水合物，原文的结晶水数值可疑；本语料保留印刷值，实施前应核对Lewis和Pramer（1958）原始配方。"},
+    {"type": "heading", "level": 3, "number": "3", "title": "涉及硫转化过程的微生物"},
+    {"type": "method-item", "number": "（1）", "title": "氧化硫硫杆菌（Thiobacillus thiooxidans）或排硫硫杆菌（T. thioparus）", "text": "（Postgate，1966）：硫酸铵，2.5 g；磷酸二氢钾，4.0 g；七水合硫酸镁，0.5 g；氯化钙，0.25 g；硫酸铁，0.01 g；粉末状硫，10.0 g，或硫代硫酸钠，5.0 g；蒸馏水，1 L；pH值，7.0。此种培养基可以用于筛选氧化硫硫杆菌等利用单质硫作为硫来源的细菌，并能同时将初始pH值调制小于3.5。"},
+    {"type": "source-fidelity-note", "scope": "29.5.2.3（1）", "text": "原书印作‘将初始pH值调制小于3.5’，语义上应为‘调至小于3.5’；另一试剂仅写‘硫酸铁’，未标明铁价态与结晶水。本语料保留原文，实施时不得在未核对Postgate（1966）配方的情况下自行选用‘硫酸铁’试剂。"},
+    {"type": "method-item", "number": "（2）", "title": "脱氮硫杆菌（T. denitrificans）", "text": "（Postgate，1966）：硝酸钾，1.0 g；磷酸一氢钠，0.1 g；硫代硫酸钠，2.0 g；碳酸氢钠，0.1 g，氯化镁，0.1 g；蒸馏水，1 L；pH值，7.0。此种培养基主要用于琼脂平板；或装入试管，与杜氏发酵管（Durham fermentation tubes）联用，用于收集气体。细菌需在厌氧条件下培养。"},
+    {"type": "heading", "level": 1, "title": "参考文献"},
+    {"type": "reference", "text": "Allen, O. N. 1957. Experiments in Soil Bacteriology, 3rd ed. Burgess Publishing Company, Minneapolis, MN."},
+    {"type": "reference", "text": "American Type Culture Collection 2005. Microbial media formulations, web page address: http://www.atcc.org/common/catalog/media/mediaIndex.cfm (last verified April 2006), Rockville, MD."},
+    {"type": "reference", "text": "Angle, J. S., McGrath, S. P., and Chaney, R. L. 1991. New culture medium containing ionic concentrations of nutrients similar to concentrations found in soil solutions. Appl. Environ. Microbiol. 57: 3674–3676."},
+    {"type": "reference", "text": "Atlas, R. M. 1995. Handbook of Media for Environmental Microbiology. CRC Press, Boca Raton, FL, 544."},
+    {"type": "reference", "text": "Cochran, W. G. 1950. Estimation of bacterial densities by means of the “most probable number”. Biometrics 5: 105–116."},
+    {"type": "reference", "text": "Eggins, H. O. W. and Pugh, G. J. F. 1961. Isolation of cellulose-decomposing fungi from soil. Nature (London) 193: 94–95."},
+    {"type": "reference", "text": "Foster, R. C. and Rovira, A. D. 1976. Ultrastructure of wheat rhizosphere. New Phytol. 76: 343–352."},
+    {"type": "reference", "text": "Germida, J. J. 1985. Modified sulfur containing media for studying sulfur oxidizing microorganisms. In: D. E. Caldwell, J. A. Brierley, and C. L. Brierly, eds. Planetary Ecology. Van Nostrand Reinhold, New York, NY, 333–344."},
+    {"type": "reference", "text": "Germida, J. J. 1993. Cultural methods for soil microorganisms. In: M. R. Carter, ed. Soil Sampling and Methods of Analysis. A Special Publication of the Canadian Society of Soil Science. Lewis Publishers, Boca Raton, FL, 263–275."},
+    {"type": "reference", "text": "Germida, J. J., Siciliano, S., de Freitas, J. R., and Seib, A. M. 1998. Diversity of root-associated bacteria associated with field-grown canola (Brassica napus L.) and wheat (Triticum aestivum L.). FEMS Microbiol. Ecol. 26: 43–50."},
+    {"type": "reference", "text": "Goodfellow, M., Hill, I. R., and Gay, T. R. G. 1968. Bacteria in a pine forest soil. In: T. R. G. Gray and D. Parkinson, eds. The Ecology of Soil Bacteria. University of Toronto Press, Toronto, ON, Canada, 500–515."},
+    {"type": "reference", "text": "Gray, T. R. G. and Parkinson, D. 1968. The Ecology of Soil Bacteria. An International Symposium. University of Toronto Press, Toronto, ON, Canada."},
+    {"type": "reference", "text": "Hsu, S. C. and Lockwood, J. L. 1975. Powdered chitin as a selective medium for enumeration of actinomycetes in water and soil. Appl. Microbiol. 29: 422–426."},
+    {"type": "reference", "text": "James, N. 1958. Soil extract in soil microbiology. Can. J. Microbiol. 4: 363–370."},
+    {"type": "reference", "text": "Knowles, R. and Barraquio, W. L. 1994. Freeliving dinitrogen-fixing bacteria. In: R. W. Weaver et al., eds. Methods of Soil Analysis, Part 2—Microbiological and Biochemical Properties. Soil Science Society of America, Madison, WI, 180–197."},
+    {"type": "reference", "text": "Koedam, N., Wittouck, E., Gaballa, A., Gillis, A., Höfte, M., and Cornelis, P. 1994. Detection and differentiation of microbial siderophores by isoelectric focusing and chrome azurol S overlay. Biometals 7: 287–291."},
+    {"type": "printed-page-number", "text": "261"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "010189b596b2c45b362e405ef840ab87a865d252b9f288d3b1da5fe8daed0e95"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 154,
+  "sourceImageSha256": "49e0036845ad0ee12dbf7fcbaac5dfe282d7a212bcf24802b4e0c64421f0a7b6",
+  "review": {
+    "textPass": {"status": "verified", "method": "对照原分辨率图确认仅有篇章分隔标题，无正文、公式、表格或隐含页码"},
+    "precisionPass": {"status": "verified", "method": "核验篇次为第七篇，题名为土壤水分析"},
+    "secondVisualPass": {"status": "verified", "method": "全页四角及中心复核，除装饰性留白与篇名外无其他有效内容"}
+  },
+  "blocks": [
+    {"type": "part", "number": "七", "title": "土壤水分析"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "762d11061c99546b136b116440eabf6a3f057e08497cf03fc16165604f0faa1c"
+}

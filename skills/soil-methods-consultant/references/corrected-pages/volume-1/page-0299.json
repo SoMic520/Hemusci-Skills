@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 299,
+  "sourceImageSha256": "0a42ce7cb9cbb8ecf09463fb839948a4ae2cf8d0743840fec90afbe721a75c66",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第30章第268页，人工恢复30.5.2续页步骤（3）—（10）、30.5.3注释及30.6根外菌丝评估全页正文"},
+    "precisionPass": {"status": "verified", "method": "核对2～4周、<1 μm、18 μm、30%～60%，并逐字确认PLFA/WCFA全称、16:1ω5、18:1ω7、20:4、20:5的冒号与ω位置"},
+    "secondVisualPass": {"status": "verified", "method": "从页底WCFA跨页断句反向复核至页首步骤（3），确认根系排阻箱、无隔膜、嵌入膜技术、球囊霉素及全部引文年份"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure-step", "number": "（3）", "section": "30.5.2", "continuesFromPage": 298, "text": "量程的橡胶环固定尼龙网。在收集过程中避免将土块暴露在过热条件下。"},
+    {"type": "procedure-step", "number": "（4）", "section": "30.5.2", "text": "小心将土块带到干净的温室工作台上。"},
+    {"type": "procedure-step", "number": "（5）", "section": "30.5.2", "text": "将发芽的种子或幼苗插入土块中间。种子可成对放置，几天后每对可变薄成一个。"},
+    {"type": "source-fidelity-note", "scope": "30.5.2（5）", "text": "原书印作‘几天后每对可变薄成一个’，这是将英文园艺术语thin to one直译为‘变薄’；实际操作含义为每对出苗后间苗，仅保留1株。"},
+    {"type": "procedure-step", "number": "（6）", "section": "30.5.2", "text": "用聚酯绒毛覆盖在土壤表面以保护土壤结构。"},
+    {"type": "procedure-step", "number": "（7）", "section": "30.5.2", "text": "在指定预设条件下，将其放在生长室褶皱托盘上。"},
+    {"type": "procedure-step", "number": "（8）", "section": "30.5.2", "text": "如有必要可轻轻加水至田间持水量，以避免土壤结构退化。"},
+    {"type": "procedure-step", "number": "（9）", "section": "30.5.2", "text": "种植宿主植物2～4周（见30.5.3节）。"},
+    {"type": "procedure-step", "number": "（10）", "section": "30.5.2", "text": "按30.3节所给的方法清理，染色并测量根系，采用网格线交叉法（见30.4节）计算菌根定殖百分比，同时确定总根长。"},
+    {"type": "heading", "level": 2, "number": "30.5.3", "title": "注释"},
+    {"type": "note", "text": "在收获前须要有多余的土块空间来定期评价根际定殖状态，确保侵入宿主植物的菌根有足够生长空间。"},
+    {"type": "heading", "level": 1, "number": "30.6", "title": "AM真菌根外菌丝的评估"},
+    {"type": "paragraph", "text": "有几种方法用来量化AM真菌根外菌丝体。测量土壤几丁质用来估算土壤AM真菌生物量（Bethlenfalvay和Ames，1987）。几丁质测量法并不能估算活性AM根外菌丝生物量，并且几丁质同时也大量存在于无脊椎动物、甲壳和接合真菌中。"},
+    {"type": "paragraph", "text": "采用根系排阻箱研究土壤AM真菌根外菌丝的伸展。在分隔开的生长容器中连续取样可以对比不同种类AM真菌从根系障碍物到菌丝隔间的伸展情况（Schuepp等，1987；Jakobsen等，1992）。有学者提出旋转线系统以促进从低黏含量矿物土壤样品中提取根外菌丝（Vilarino等，1993；Boddington等，1999）。即使在直接测量土壤提取菌丝方面存在一些局限，根系排阻箱方法仍是评价土壤中根外AM菌丝大小最普遍的方式。AM真菌菌丝一般是无隔膜的，一些研究者发现了典型的AM菌丝形貌特征，如菌丝大小（Ames等，1983）、分枝角度及壁的特征。但考虑到AM属中发现的不同形貌，AM根外菌丝可能大小范围（从细寄生菌的<1 μm到球囊霉属菌的18 μm（Dodd等，2000））及另一方面土壤真菌多样性，可知从一个土壤样品中提取的多核菌丝特性也是不确定的，尤其是不含分枝的菌丝片段。另外，土壤中提取的许多AM菌丝既不能存活也不具有功能，如果要探究活性菌丝数量必须应用关键染色技术。"},
+    {"type": "source-fidelity-note", "scope": "30.6菌丝活性鉴别", "text": "原书印作‘必须应用关键染色技术’，在判别菌丝是否存活的语境中应核对是否为vital staining（活体/活性染色）的误译；不得将‘关键’当作具体染色法名。"},
+    {"type": "paragraph", "text": "Wright和Upadhyaya（1999）及Balaz和Vosatka（2001）提出了嵌入膜技术，该技术是将一种抗降解的膜材料嵌入土壤来诱捕将要经过的菌丝。这些方法简单而且快速。他们给出了菌丝横切面平板总数的测量。这一方法可用于AM真菌特异性蛋白球囊霉素的免疫检测（Wright和Upadhyaya，1999；Wright，2000），以评价AM与腐生真菌的比例。当对有关菌丝密度数无要求时，应考虑嵌入膜技术。"},
+    {"type": "paragraph", "continuesOnPage": 300, "text": "脂肪酸通常对不同种类基团具有专一性。磷脂的磷酸基团是构成细胞膜的脂质，可在土壤中快速裂解，PLFA的测量可反映活体或最近死亡的生命体的发生。因此AM真菌PLFA指示物质的测量可提供生命体功能的信息。PLFA 16:1ω5是AM真菌生物量的最佳指示物质（Balser等，2005）。脂肪酸16:1ω5、18:1ω7、20:4，以及20:5被认为是AM真菌指示物质（Olsson等，1995；Olsson，1999）。AM真菌并没有完全专一的脂肪酸；20:4和20:5同样也存在于藻类和原生动物中，但在非AM真菌和细菌体内却很少见，16:1ω5和18:1ω7出现在一些细菌属中，但在其他真菌中却不常发现。土壤细菌中PLFA 16:1ω5的含量在30%～60%，尽管在几种球囊霉属和大多数巨孢囊霉属（Graham等，1995）中并不存在，脂肪酸16:1ω5在很多真菌物种中仍占主导。全细胞脂肪酸（whole-cell fatty acid，WCFA）16:1ω5比PLFA"},
+    {"type": "method-limitation", "scope": "30.6 PLFA指示物", "text": "本页同时明确16:1ω5和18:1ω7可出现在细菌中，20:4和20:5可出现在藻类与原生动物中，且部分AM真菌属可缺少16:1ω5。因此这些指示物均不具完全专一性，不能仅凭单一PLFA峰对AM生物量作无条件的定性或绝对定量。"},
+    {"type": "printed-page-number", "text": "268"}
+  ],
+  "formulas": [
+    {"scope": "30.6 PLFA/WCFA指示物", "label": "脂肪酸缩写", "display": "16:1ω5; 18:1ω7; 20:4; 20:5", "latex": "16{:}1\\omega5;\\ 18{:}1\\omega7;\\ 20{:}4;\\ 20{:}5"}
+  ],
+  "tables": [],
+  "contentSha256": "f910413dc37658d1f76f1758148e0ec42b6730bfd7b6e765cf43ac8d2d2b21d1"
+}

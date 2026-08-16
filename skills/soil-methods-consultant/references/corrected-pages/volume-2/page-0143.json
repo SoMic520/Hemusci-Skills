@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 143,
+  "sourceImageSha256": "304a2961b2350ec31c278acab0d42ac198a7917d74e4bf935eca6a76bd094b25",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐项对照原分辨率图和两套OCR，完成68.4.5步骤(10)—(13)、图68.1、注释及68.4.6跨页引言"},
+    "precisionPass": {"status": "verified", "method": "核验10/20 cm、−1/−2/−5/−10 kPa、≥24 h、105 ℃、探针高度/水势校正和air-entry value用途"},
+    "secondVisualPass": {"status": "verified", "method": "由68.4.6跨页句反向复核至盆底包布，检查图中张力计/TDR/出流管关系和吸湿—脱湿分测要求；印刷页码652"}
+  },
+  "blocks": [
+    {"type": "steps-continuation", "items": [
+      "盆底打孔后包尼龙纱布，确保样品不漏且与张力台连续接触。",
+      "以探针测量中心高度为基准，逐级降低张力台出流管，例如每次10或20 cm，建立−1、−2、−5、−10 kPa。每级至少平衡24 h，并以θ_v或质量稳定为终点；同时记录水势、探针高度和θ_v。",
+      "因滞后效应，吸湿和脱湿路径会给出不同水分、空气含量及有效水分，必须分别测定，不得把一条曲线反向使用。",
+      "绘制脱湿曲线并计算AFP、EAW、AW、BC。无TDR时，最后按适用温度烘至恒量，由质量法求θ_v，TP由BD和PD计算；原书指定105 ℃，热敏泥炭须按前述校正温度。"
+    ]},
+    {"type": "figure", "number": "68.1", "title": "盆栽基质或土柱脱湿曲线测定装置", "labels": ["部分插入、可横向或纵向布置的TDR/电容探头", "张力计", "张力台", "出流管及其高度差"], "note": "测定前去除地上部植物；所有水势需按测量点与出流管的垂直高差校正。"},
+    {"type": "heading", "title": "注释", "level": 4},
+    {"type": "paragraph", "text": "张力台法主要问题是滞留气体和水力连续性中断；底部接触层、纱布及出流系统均不得进气。更多细节见Paquet等（1993）。"},
+    {"type": "heading", "number": "68.4.6", "title": "进气值", "level": 3},
+    {"type": "paragraph", "text": "进气值是间接估计气体扩散率以及生长系统模型的重要参数，可用于估算容器底部饱和带高度和识别缺氧带。Caron等（2002）和Nemati等（2002）比较过多种方法；本节用脱湿曲线求盆栽容器底部进气值（Nemati等，2002），后者还提出压力传感器自动法。"},
+    {"type": "source-fidelity-note", "text": "原书步骤(13)说无TDR时用式(68.15)计算AFP，但仍须先由质量法得到θ_c或各水势θ，并由BD、PD求TP；不能只凭烘干质量直接得到AFP。图68.1的竖直高度差是压力头校正量，不是装饰性尺寸。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "25c0c31e07ef32d891b3b73af5a2044402c9c7f5449b39637cb70f686dffdce5"
+}

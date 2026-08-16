@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 320,
+  "sourceImageSha256": "94537979f86f501ee49e2afa660f9f6516b763b92250733d9638909c852f6471",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复31.4.2续文、菌落印迹杂交及31.4.3两种Bradyrhizobium培养基方法"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验μL、OD₆₅₀下标、Zn²⁺/Co²⁺上标、nod探针名、培养基化学式、浓度范围、10⁻¹上标和所有小数点"},
+    "secondVisualPass": {"status": "verified", "method": "从SG配方末行反向复核至页首跨页句，确认原书BJMS中ZnCl₂ 0.83 g/L、CoCl₂ 0.88 g/L及标题S. meliloti与探针对象冲突；页码289"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第31章｜根瘤菌与共生固氮作用｜"},
+    {"type": "procedure-continuation", "continuationOf": "page-0319#mnbp-inoculation", "text": "板有20个菌落表现出强烈的同源关系。相对于非选择性的培养基，利用这个方法可以减少需要测试的菌落数量。"},
+    {"type": "subsection-heading", "number": "2", "title": "S. meliloti菌落印迹杂交"},
+    {"type": "procedure", "text": "通过MNBP平板获得并保存在TY琼脂上的菌落在含有200 μL的TY液态培养基的微孔板上生长48 h。从微孔板的每个小孔中吸取25 μL的培养物（OD₆₅₀：0.2～0.3）点在尼龙滤纸上。等到细胞溶解之后，该尼龙滤纸与以下三种nod基因探针进行杂交：pIJ1246，特异性检测R. leguminosarum bv. viciae；pIJ1098，特异性检测R. leguminosarum bv. phaseoli；pRt587，特异性检测R. leguminosarum bv. trifolii（Laguerre等，1993）。探针标记有洋地黄毒苷-dUT，杂交和检测需要根据试剂盒的说明进行。"},
+    {"type": "source-fidelity-note", "scope": "31.4.2菌落印迹杂交", "text": "原书小标题仍印作“S. meliloti菌落印迹杂交”，但正文三种探针全部用于R. leguminosarum不同生物型，故标题对象明显错误，应理解为R. leguminosarum菌落印迹杂交。原书标记物印作“洋地黄毒苷-dUT”，常见标记核苷酸名称为digoxigenin-dUTP；实际试剂必须按试剂盒核对。"},
+    {"type": "section-heading", "level": 3, "number": "31.4.3", "title": "分离和定量Bradyrhizobium菌种"},
+    {"type": "subsection-heading", "number": "1", "title": "BJMS培养基（Tong和Sadowsky，1994）"},
+    {"type": "paragraph", "text": "B. japonicum和B. elkanii可以在超过40 μg/mL的Zn²⁺和Co²⁺环境下生长，因此可以用该培养基从土壤中分离出这两种菌株。这个培养基适合Bradyrhizobium的生长，而Rhizobium sp.无法在上面生长，因此没有必要用杂交的方法来鉴定菌落。"},
+    {"type": "reagent-item", "name": "BJMS培养基", "text": "配方：HM含盐培养基（Na₂HPO₄，0.125 g/L；Na₂SO₄，0.25 g/L；NH₄Cl，0.32 g/L；MgSO₄·7H₂O，0.18 g/L；FeCl₃，0.004 g/L；CaCl₂·2H₂O，0.013 g/L；N-2-羟乙基哌嗪-N′-2-乙烷磺酸，1.3 g/L；2-吗啉乙磺酸，1.10 g/L）；用5 mol/L NaOH调节pH值到6.6（Cole和Elkan，1973）。这个溶液再加入：酵母提取物，10.0 g/L；L-树胶醛糖，10.0 g/L；Na-葡萄酸盐，10.0 g/L；BG（亮绿），0.001 g/L；五氯硝基苯（PNCB），0.5 g/L；ZnCl₂，0.83 g/L；CoCl₂，0.88 g/L。BG和重金属以溶液形式，并通过过滤来灭菌。PNCB用丙酮配制成10%的溶液，然后加入高压灭菌过的0.05% Triton X-100中以促进悬浮。将这些物质加入无菌的熔化的培养基中。"},
+    {"type": "source-fidelity-note", "scope": "31.4.3 BJMS中ZnCl₂和CoCl₂", "text": "原书清晰印作ZnCl₂ 0.83 g/L、CoCl₂ 0.88 g/L，但这分别提供约398 μg/mL Zn²⁺和399 μg/mL Co²⁺，与前文“超过40 μg/mL”相差约10倍。若按目标金属离子浓度约40 μg/mL反算，盐浓度应约为ZnCl₂ 0.083 g/L、CoCl₂ 0.088 g/L。实际配制必须核对Tong和Sadowsky（1994）原始配方，不得直接采用原书小数点。"},
+    {"type": "critical-safety-note", "scope": "31.4.3选择培养基", "text": "BJMS/SG方法涉及五氯硝基苯、亮绿、重金属、丙酮、Triton X-100、多种抗生素和环己酰亚胺；须按机构SDS、通风、防护和危害废物要求操作。"},
+    {"type": "procedure", "name": "土壤稀释液接种", "text": "在对土壤进行一系列稀释之前，按以下方法将根瘤菌从土壤中提取出来：10 g土壤加入95 mL明胶-磷酸铵溶液（1%明胶水溶液，调节pH值到10.3，通过高压灭菌10 min进行水解；Kingsley和Bohlool，1981），溶液里有0.5 mL的Tween 80和0.1 mL的硅胶止泡剂AF72（General Electric Co.，Waterford，New Jersey）。悬浮液在腕式振荡器上震荡30 min，再静置30 min。转移上层的液体到无菌的试管中连续进行10倍稀释，再接种到琼脂平板上。"},
+    {"type": "note", "text": "杂菌很少（在10⁻¹的土壤稀释液中，每个平板存在2～5个杂质菌落）。Bradyrhizobium可以形成小的发白的菌落。然而，serocluster 123中的一些Bradyrhizobium（如菌株USDA123）是不能在这些浓度上生存的；如果希望筛选出这类菌落，可以降低培养基中BG（0.0005 g/L）和PCNB（0.25 g/L）的浓度或者用环己酰亚胺（0.1～0.2 g/L）来替代PCNB。"},
+    {"type": "subsection-heading", "number": "2", "title": "B. japonicum及其他慢生根瘤菌的分离（Gault和Schwinghamer，1993）"},
+    {"type": "paragraph", "text": "含有多种抗生素和重金属化合物的选择性培养基对多数的土壤细菌（包括Rhizobium菌种）有毒；抗生素与重金属化合物复合毒性的有效性与土壤类型有关。用于B. japonicum生长的基础培养基SG中需要补充加入抗生素和抗菌剂。"},
+    {"type": "reagent-item", "name": "SG琼脂培养基", "text": "SG琼脂培养基配方：KH₂PO₄，0.35 g/L；K₂HPO₄，0.25 g/L；MgSO₄·7H₂O，0.15 g/L；NaCl，0.10 g/L；CaCl₂·2H₂O，0.08 g/L；生物素，0.05 g/L；硫胺素，0.0003 g/L；Na-葡萄酸盐，3.0 g/L；Difco酵母提取物，1.70 g/L；（NH₄）₂SO₄，1.0 g/L。加入有效的抑制剂组合：四环素，10～15 mg/L；利福平，4～10 mg/L；氯霉素，10～25 mg/L；环己酰亚胺，50～60 mg/L；那他霉素，40 mg/L。在一些土壤中选择性地添加ZnSO₄·7H₂O，80～130 mg/L或者NiSO₄·6H₂O，40～80 mg/L。用水将各种抗生素和化学药品配成溶液并通过滤膜进行灭菌。"},
+    {"type": "source-fidelity-note", "scope": "31.4.3 SG培养基生物素", "text": "原书清晰印作生物素0.05 g/L，而同配方硫胺素为0.0003 g/L，量级异常；未获得原始配方核验前不得自动把该值当作可靠执行浓度。"},
+    {"type": "printed-page-number", "text": "289"}
+  ],
+  "formulas": [],
+  "tables": [
+    {"number": "31.4.3-BJMS-HM", "title": "BJMS培养基的HM含盐基础", "columns": ["组分", "用量（g/L）"], "rows": [["Na₂HPO₄", "0.125"], ["Na₂SO₄", "0.25"], ["NH₄Cl", "0.32"], ["MgSO₄·7H₂O", "0.18"], ["FeCl₃", "0.004"], ["CaCl₂·2H₂O", "0.013"], ["N-2-羟乙基哌嗪-N′-2-乙烷磺酸", "1.3"], ["2-吗啉乙磺酸", "1.10"]], "conditions": "用5 mol/L NaOH调至pH 6.6。"},
+    {"number": "31.4.3-BJMS-additions", "title": "BJMS培养基添加物（原书值）", "columns": ["组分", "用量（g/L）"], "rows": [["酵母提取物", "10.0"], ["L-树胶醛糖", "10.0"], ["Na-葡萄酸盐", "10.0"], ["BG（亮绿）", "0.001"], ["五氯硝基苯（PNCB）", "0.5"], ["ZnCl₂", "0.83"], ["CoCl₂", "0.88"]]},
+    {"number": "31.4.3-SG", "title": "SG琼脂基础培养基及抑制剂", "columns": ["组分", "用量"], "rows": [["KH₂PO₄", "0.35 g/L"], ["K₂HPO₄", "0.25 g/L"], ["MgSO₄·7H₂O", "0.15 g/L"], ["NaCl", "0.10 g/L"], ["CaCl₂·2H₂O", "0.08 g/L"], ["生物素", "0.05 g/L"], ["硫胺素", "0.0003 g/L"], ["Na-葡萄酸盐", "3.0 g/L"], ["Difco酵母提取物", "1.70 g/L"], ["（NH₄）₂SO₄", "1.0 g/L"], ["四环素", "10～15 mg/L"], ["利福平", "4～10 mg/L"], ["氯霉素", "10～25 mg/L"], ["环己酰亚胺", "50～60 mg/L"], ["那他霉素", "40 mg/L"], ["ZnSO₄·7H₂O（选择性）", "80～130 mg/L"], ["NiSO₄·6H₂O（选择性）", "40～80 mg/L"]]}
+  ],
+  "contentSha256": "3fe6a27d96a5a79db9ce9cff77a85f8dc57a72210c40a320eda2e7ec48684616"
+}

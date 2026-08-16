@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 389,
+  "sourceImageSha256": "b8c8dcacb4abdb226fff70d4ebd61f81b44ec692e4a0c18bfbe59f14518eb165",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版37.9.1～37.9.2与图37.2"},
+    "precisionPass": {"status": "verified", "method": "核验370 mL·min⁻¹、2.5 cm×25/35 cm、100 g干土、−33 kPa、NO/O₃化学发光、<0.05 torr、5.9/2.5 mL及0.25～48 h采样序列"},
+    "secondVisualPass": {"status": "verified", "method": "从步骤6承下句反向复核至37.9.1标题，逐项核对图37.2管路、P/C/Z标签和温控夹套；印刷页码358"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "37.9.1", "title": "分析仪器和材料"},
+    {"type": "ordered-list", "items": [
+      "化学发光NO分析仪；配电子捕获检测器的气相色谱仪。",
+      "可控温水浴锅。",
+      "真空集流管，其针型阀连接湿润蒸馏水柱（见图37.2）和装有样品的土柱（包括研究中加入的任何改良剂）。",
+      "测定各样品柱气体流速的质量流量控制器。"
+    ]},
+    {"type": "figure", "number": "37.2", "title": "测量土壤NO和N₂O通量的连续气流系统示意图", "description": "每个土柱（点状区域）前设置水柱控制湿度；加湿柱和土柱外夹套充水并连接恒温水循环浴。惰性气体由钢瓶经各针型阀进入水柱，再流经土柱。土柱后的气体子样经流量控制器进入图中Z瓶，并取子样分析NO；流量控制器与Z瓶之间的端口P用于人工采气分析N₂O。图中C表示流量控制部件，Z在英文图注称zero-volume flask，而步骤文字称“zero gas (N₂) constant-pressure flask”，两处名称不一致。"},
+    {"type": "section-heading", "level": 3, "number": "37.9.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      "将惰性气体钢瓶连接到集流管，每个样品柱使用单独针型阀（见图37.2）。",
+      "用质量流量控制器把惰性气体流量调至370 mL·min⁻¹。气体先通过装有蒸馏去离子水的加湿柱（耐热玻璃管，内径2.5 cm、长25 cm），再进入装有100 g干基土样并已加所需水量的第二根耐热玻璃土柱（内径2.5 cm、长35 cm）。部分研究把土壤保持在田间持水量（水势−33 kPa）。两柱均有水夹套，由恒温水浴循环控制，使培养期间土壤和吹脱气体保持恒温。",
+      "用NO/NO₂/NOₓ分析仪，基于NO与O₃的化学发光反应测定土壤释放的NO。土柱气流经过“零气”（N₂）恒压瓶后直接进入仪器。",
+      "用预抽空至<0.05 torr的5.9 mL Exetainer，在48 h内多个时点收集N₂O气样，例如0.25、1、2、4、8、24、32、48 h。以相同方式把校准参比气瓶的标准气收集到进样瓶，并把样品和标准气各2.5 mL注入带自动进样系统的气相色谱仪。",
+      "用连接自动进样器的气相色谱仪分析样品和标准气；操作参数见37.5.2节。",
+      "NO和N₂O净产生速率按式(37.8)和式(37.9)计算；公式续见第390页。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "图37.2的Z瓶", "text": "英文图注写zero volume flask (Z)，操作步骤写“zero gas (N₂) constant pressure flask”；中文本分别译为“零体积烧瓶”和“零气体恒压烧瓶”。结构化语料保留该原始不一致，搭建系统时不得仅凭名称推断容器功能。"},
+    {"type": "printed-page-number", "text": "358"}
+  ],
+  "formulas": [
+    {"id": "37.9-flow", "display": "Q = 370 mL·min⁻¹"},
+    {"id": "37.9-sampling-times", "display": "t = 0.25, 1, 2, 4, 8, 24, 32, 48 h"}
+  ],
+  "tables": [],
+  "contentSha256": "d21da442eecb0730729816ed023405a8d6344eb51d16bc445fec416e024519aa"
+}

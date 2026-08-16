@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 69,
+  "sourceImageSha256": "5a1624cf32f4276d7ae1de63ebdb1c33cba96eca1a15cc89bc5ad40dbfaed4fe",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率章首页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复章题、作者单位、正文、定义和编号步骤"},
+    "precisionPass": {"status": "verified", "method": "放大核对DQOs、QC、QA、USEPA、CAEAL、ISO 17025、CCME、IUPAC、20%、四个步骤及表5.1/5.2引用"},
+    "secondVisualPass": {"status": "verified", "method": "按章题、两组作者单位、5.1六段正文、质量定义引文、5.2标题、步骤1～4和结尾表引用反向复核原页"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "level": 2, "number": "第5章", "title": "土壤化学分析中的质量控制"},
+    {"type": "author", "text": "C. Swyngedouw"},
+    {"type": "affiliation", "text": "Bodycote Testing Group"},
+    {"type": "location", "text": "Calgary, Alberta, Canada"},
+    {"type": "author", "text": "R. Lessard"},
+    {"type": "affiliation", "text": "Bodycote Testing Group"},
+    {"type": "location", "text": "Edmonton, Alberta, Canada"},
+    {"type": "section-heading", "level": 3, "number": "5.1", "title": "引言"},
+    {"type": "paragraph", "text": "在分析工作中，“质量”可以定义为“在约定的时间、条件和费用下获得可靠的信息，并提供必要的服务（FAO，1998）”。约定的条件包括对数据质量目标（DQOs）的详细说明，如精确度、准确度、代表性、完整性和可比性。这些目标与数据的“适用性”直接相关，并且决定了数据中允许的总变异程度（不确定性或误差）。最终，DQOs确定了必要的质量控制（QC）。", "inlineNotation": ["DQOs", "QC"]},
+    {"type": "paragraph", "text": "已开发的质量管理系统（USEPA，2004）已经应用于实验室分析中，并且这些系统的使用案例在文献（CAEAL，1999）中都有报道，更多的信息可以从国际标准化组织（ISO，17025）获得。", "inlineNotation": ["USEPA", "CAEAL", "ISO", "17025"]},
+    {"type": "paragraph", "text": "实行质量管理策略，意味着更高级水平的质量保证（QA），它被定义为：“为确保分析结果能够满足给定的质量目标或要求且具有足够可信度所采取的必要计划和系统措施的组合（FAO，1998）”。使用QA以确保交付的产品符合使用的预期，并保证数据具有科学的可信性。因此，可以在此基础上做出统计解释和管理决策（AENV，2004）。", "inlineNotation": ["QA", "AENV"]},
+    {"type": "paragraph", "text": "所有取样和实验室处理过程只有一个目标：让获得的数据质量可靠、稳定、误差最小。因此，为了确保QA系统的完整性，需要建立一套检验系统，以确保质量管理体系在规定的范围内，提供应对“失控”情况的保护措施，并确保结果达到可接受的质量。为达成此目的，需要一个合适的QC程序。QC包括“用于满足质量要求或DQOs的操作技术和活动”（FAO，1998）。获得高质量的数据需要持续的努力。分析消耗总成本的大约20%都用在了QA和QC上。", "inlineNotation": ["QA", "QC", "DQOs", "20%"]},
+    {"type": "paragraph", "text": "本章的重点是土壤化学分析的QC，不涉及QA，但是关于QA的信息可以在CCME（1993）、FAO（1998）、Taylor（1990）、IUPAC（1997）和ISO 17025（2005）等文献资料中查阅。", "inlineNotation": ["QC", "QA", "CCME", "FAO", "IUPAC", "ISO 17025"]},
+    {"type": "section-heading", "level": 3, "number": "5.2", "title": "土壤化学分析与潜在误差"},
+    {"type": "paragraph", "text": "测定土壤样本中某种分析对象的性质或浓度，一般要遵循以下4个步骤："},
+    {"type": "numbered-item", "number": "1", "text": "样本收集与处理。"},
+    {"type": "numbered-item", "number": "2", "text": "样本包装与运输。"},
+    {"type": "numbered-item", "number": "3", "text": "样本制备与分析。"},
+    {"type": "numbered-item", "number": "4", "text": "结果数据的输入、处理和报告。"},
+    {"type": "paragraph", "text": "以上每个步骤都可能给所测定的性质或浓度的最终结果带来误差。每个步骤都应严格经过验证和确定，辅之仔细的样本跟踪，以将误差降到最低，但是完全消除误差是不可能的。表5.1列举了田间和实验室误差的来源，而表5.2是为消除实验室来源的特定误差而采取的校正措施。", "inlineNotation": ["表5.1", "表5.2"]}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c7e6d32b0de64857e9be7d1ef93b2406678edb59895138c3e27dcacba19d793b"
+}

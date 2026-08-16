@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 502,
+  "sourceImageSha256": "3bcbea01e4354e9b1f955ea80b45502cd9f059819afcb65cc0e51b93a0fe633a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面与两套OCR，完成49.5.2～49.5.6及49.6注释（1）跨页段"},
+    "precisionPass": {"status": "verified", "method": "核验15～50 g、100 mL、24 h、0.01 mol·L⁻¹ CaCl₂、1:2～1:5、1 h、0.45 μm、4 °C、3 d及k_ES=0.35"},
+    "secondVisualPass": {"status": "verified", "method": "由页末18 mol·L⁻¹ H₂SO₄反向复核至49.5.2，逐项检查式（49.12）和（49.13）的S、F/UF下标、μg·mL⁻¹、μg S·g⁻¹土；印刷页码471"}
+  },
+  "blocks": [
+    {"type": "section-heading", "level": 3, "number": "49.5.2", "title": "土壤样品的制备"},
+    {"type": "procedure-step", "number": "（1）", "text": "按49.3.2筛分并混合土样。"},
+    {"type": "procedure-step", "number": "（2）", "text": "按49.3.2称量和烘干土样，测定土壤水分含量。"},
+    {"type": "procedure-step", "number": "（3）", "text": "称取鲜土6份，每份15～50 g，分别置100 mL玻璃瓶。3份用氯仿蒸气熏蒸24 h后浸提；另3份不熏蒸，立即浸提。"},
+    {"type": "section-heading", "level": 3, "number": "49.5.3", "title": "熏蒸处理"},
+    {"type": "cross-reference", "text": "熏蒸过程见49.3.3。"},
+    {"type": "section-heading", "level": 3, "number": "49.5.4", "title": "微生物量硫的提取"},
+    {"type": "procedure-step", "number": "（1）", "text": "向未熏蒸对照和熏蒸样品瓶中加入0.01 mol·L⁻¹ CaCl₂溶液，使烘干土质量（g）:提取剂体积（mL）=1:2～1:5（Wu等，1994）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加塞后在往复式或圆周式振荡器中振荡1 h，用0.45 μm微孔滤膜过滤土壤悬液。加盖滤液可在4 °C保存不超过3 d；超过3 d须冷冻保存。"},
+    {"type": "section-heading", "level": 3, "number": "49.5.5", "title": "提取态硫的测定"},
+    {"type": "paragraph", "text": "用氯仿熏蒸引起的总可提取硫增量估算微生物量硫。测定分两步：先把土壤浸提液中的各种含硫化合物转化为同一形态，再测定硫含量。推荐用碱性消化把有机硫转化为硫酸盐，再用氢碘酸还原为硫化物（Tabatabai和Bremner，1970），最后用比色法测定硫化物；具体步骤见第23章。"},
+    {"type": "section-heading", "level": 3, "number": "49.5.6", "title": "微生物量硫的计算"},
+    {"type": "calculation-step", "number": "（1）～（3）", "text": "分别用式（49.1）、（49.2）和（49.3）计算土壤水分含量WS、干土质量MS和浸提液总体积VS。"},
+    {"type": "calculation-step", "number": "（4）", "text": "熏蒸（F）和未熏蒸（UF）土样的可提取总硫分别记为S_F和S_UF，按式（49.12）换算为每克干土的S。"},
+    {"type": "calculation-step", "number": "（5）", "text": "土壤微生物量硫MB-S按式（49.13）计算。k_ES=0.35，文献范围为0.30～0.35（Wu等，1994）。"},
+    {"type": "section-heading", "level": 2, "number": "49.6", "title": "注释"},
+    {"type": "note-continuation", "number": "（1）", "text": "试剂级氯仿通常用约1%（v/v）乙醇稳定。测定微生物量C必须用无乙醇氯仿，因为熏蒸后土壤中的乙醇不能完全去除；若只测微生物量N，可用乙醇稳定氯仿（DeLuca和Keeney，1993）。纯化时在55 °C蒸馏两次，用18 mol·L⁻¹ H₂SO₄洗涤3次，再用去离子水洗涤5次。[续见第503页]"}
+  ],
+  "formulas": [
+    {"id": "49.12", "display": "S_F or S_UF (μg S·g⁻¹ soil) = c_total-S (μg S·mL⁻¹) × VS (mL)/MS (g)", "meaning": "熏蒸或未熏蒸土壤的可提取总硫"},
+    {"id": "49.13", "display": "MB-S (μg S·g⁻¹ soil) = (S_F − S_UF)/k_ES", "meaning": "土壤微生物量S；推荐k_ES=0.35，范围0.30～0.35"}
+  ],
+  "tables": [],
+  "contentSha256": "94be13ef7739dda73211addb5466c78b57a6d9660341b7cd487a27f93a8505e0"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 263,
+  "sourceImageSha256": "1f79c45c579bb2d65fcd6f0e4445cb15845120f9c217cc29f5866b8adf3fe480",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第26章第232页，并与Apple Vision、PaddleOCR交叉比对，人工恢复Chao文献续行及FAO至Soil Conservation Service共20条参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验x-ray、0.1 M、pyrophosphate-dithionite、oxalate-extractable、ultra centrifugation、allophane、Fe/Al/Mn/Si、德文题名及卷页机构地点"},
+    "secondVisualPass": {"status": "verified", "method": "从Soil Conservation Service（1972）反向复核至Chao和Zhou（1983）续行，确认20条文献边界、字母序、书籍/报告/期刊信息和印刷页码232"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-continuation", "continuesFromPage": 262, "text": "Soil Sci. Soc. Am. J. 47: 225-232."},
+    {"type": "reference", "text": "FAO (Food and Agriculture Organization of the United Nations). 1990. Soil Map of the World: Revised Legend. Rome."},
+    {"type": "reference", "text": "Guest, C.A., Schulze, D.G., Thompson, I.A., and Huber, D.M. 2002. Correlating manganese x-ray absorption near-edge structure spectra with extractable soil manganese. Soil Sci. Soc. Am. J. 66: 1172-1181."},
+    {"type": "reference", "text": "Kaiser, K. and Zech, W. 1996. Defects in estimation of aluminum in humus complexes of podzolic soils by pyrophosphate extraction. Soil Sci. 161: 452-458."},
+    {"type": "reference", "text": "Kendrick, K.J. and Graham, R.C. 2004. Pedogenic silica accumulation in chronosequence soils, Southern California. Soil Sci. Soc. Am. J. 68: 1295-1303."},
+    {"type": "reference", "text": "Kodama, H. and Ross, G.J. 1991. Tiron dissolution method used to remove and characterize inorganic compounds in soils. Soil Sci. Soc. Am. J. 55: 1180-1187."},
+    {"type": "reference", "text": "Loveland, P.J. and Digby, P. 1984. The extraction of Fe and Al by 0.1 M pyrophosphate solutions: a comparison of some techniques. J. Soil Sci. 35: 243-250."},
+    {"type": "reference", "text": "McKeague, J.A. 1967. An evaluation of 0.1 M pyrophosphate and pyrophosphate-dithionite in comparison with oxalate as extractants of the accumulation products in Podzols and some other soils. Can. J. Soil Sci. 47: 95-99."},
+    {"type": "reference", "text": "McKeague, J.A., Brydon, J.E., and Miles, N.M. 1971. Differentiation of forms of extractable iron and aluminum in soils. Soil Sci. Soc. Am. Proc. 35: 33-38."},
+    {"type": "reference", "text": "McKeague, J.A. and Day, J.H. 1966. Dithionite and oxalate-extractable Fe and Al as aids in differentiating various classes of soils. Can. J. Soil Sci. 46: 13-22."},
+    {"type": "reference", "text": "McKeague, J.A. and Schuppli, P.A. 1982. Changes in concentration of Fe and Al in pyrophosphate extracts of soil, and composition of sediment resulting from ultra centrifugation in relation to spodic horizons. Soil Sci. 134: 265-270."},
+    {"type": "reference", "text": "Mehra, O.P. and Jackson, M.L. 1960. Iron oxide removal from soils and clays by a dithionite-citrate system buffered with sodium bicarbonate. Clays Clay Miner. 7: 317-327."},
+    {"type": "reference", "text": "Neary, A.J. and Barnes, S.R. 1993. The effect of sample grinding on extractable iron and aluminum in soils. Can. J. Soil Sci. 73: 73-80."},
+    {"type": "reference", "text": "Parfitt, R.L. and Henmi, T. 1982. Comparison of an oxalate-extraction method and an infrared spectroscopic method for determining allophane in soil clays. Soil Sci. Plant Nutr. 28: 183-190."},
+    {"type": "reference", "text": "Ross, G.J. and Wang, C. 1993. Extractable Al, Fe, Mn, and Si. In: M.R. Carter, ed. Soil Sampling and Methods of Analysis. Lewis Publishers, Boca Raton, FL, 239-246."},
+    {"type": "reference", "text": "Ross, G.J., Wang, C., and Schuppli, P.A. 1985. Hydroxylamine and ammonium oxalate solutions as extractants for Fe and Al from soil. Soil Sci. Soc. Am. J. 49: 783-785."},
+    {"type": "reference", "text": "Schuppli, P.A., Ross, G.J., and McKeague, J.A. 1983. The effective removal of suspended materials from pyrophosphate extracts of soils from tropical and temperate regions. Soil Sci. Soc. Am. J. 47: 1026-1032."},
+    {"type": "reference", "text": "Schwertmann, U. 1959. Die frectionierte Extraction der freien Eisenoxide in Böden, ihre mineralogischen Formen und ihre Entstehungsweisen. Z. Pflanzenernaehr. Dueng. Bodenkund 84: 194-204."},
+    {"type": "reference", "text": "Sheldrick, B.H. and McKeague, J.A. 1975. A comparison of extractable Fe and Al data using methods followed in the USA and Canada. Can. J. Soil Sci. 55: 77-78."},
+    {"type": "reference", "text": "Soil Classification Working Group. 1998. The Canadian System of Soil Classification. Agriculture and Agri-food Canada, Ottawa, Canada."},
+    {"type": "reference", "text": "Soil Conservation Service, U.S. Department of Agriculture. 1972. Soil survey laboratory methods and procedures for collecting soil samples. Soil Survey Investigations Report No. 1 (revised), U.S. Government Printing Office, Washington, DC."},
+    {"type": "printed-page-number", "text": "232"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "5687c31f082b5798f0b6c8a87c68748395b55652d9a10fe9f77bd020dacf5803"
+}

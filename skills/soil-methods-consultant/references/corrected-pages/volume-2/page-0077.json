@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 77,
+  "sourceImageSha256": "c8fef365196cb04a15856584adbe1fd791442cb92ec07b8af43abfe99677ff8e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐条对照原分辨率图和两套OCR，完成60.3.5跨页余文、图60.6及参考文献前12条"},
+    "precisionPass": {"status": "verified", "method": "核验图轴0～160/0～50 kPa、120 kPa、三重复、参考文献作者/标准号/卷页和MI地名"},
+    "secondVisualPass": {"status": "verified", "method": "由Freitag条目反向复核至跨页首句，检查图注、实线峰值/极限过程和逐条书目；印刷页码586"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "未改型方案田间至少耗时两倍，室内数字化还需额外时间。传统与数字采集仪精度相当，数据质量和操作细节仍在评估。"},
+    {"type": "figure", "number": "60.6", "caption": "较低含水量黏壤土的法向—剪切应力路径，3次重复。", "axes": {"x": "法向应力0～160 kPa", "y": "剪切应力0～50 kPa"}, "note": "目标最大法向应力120 kPa；实线路径出现峰值及极限剪切过程。120 kPa后不稳定路径显示τ增加时难以保持σ_n恒定。"},
+    {"type": "heading", "title": "参考文献", "level": 2},
+    {"type": "references", "items": [
+      "Adams, B.A., St-Amour, G., and Topp, G.C. 2000. Evaluation of a piezoelectric load cell for use on cone penetrometers. J. Agric. Eng. Res. 76:205–210.",
+      "American Society of Agricultural Engineers (ASAE) Standards. 1999. Soil cone penetrometer. In Agricultural Engineering Yearbook. ASAE Standard S313.3 February 1999. American Society of Agricultural Engineers, St. Joseph, MI, 832–833.",
+      "Ayers, P.D. 1987. Utilizing the torsional shear test to determine soil strength-properties relationships. Soil Till. Res. 10:373–380.",
+      "Barley, K.P., Farrell, D.A., and Greacen, E.L. 1965. The influence of soil strength on the penetration of a loam by plant roots. Aust. J. Soil Res. 3:69–79.",
+      "Bengough, A.G., Campbell, D.J., and O'Sullivan, M.F. 2001. Penetrometer techniques in relation to soil compaction and root growth. In: Smith, K.A. and Mullins, C.E., eds. Soil and Environmental Analysis: Physical Methods, 2nd ed. Marcel Dekker, New York, NY, 377–403.",
+      "Busscher, W.J., Bauer, P.J., Camp, C.R., and Sojka, R.E. 1997. Correction of cone index for soil water content differences in a coastal plain soil. Soil Till. Res. 43:205–217.",
+      "Cockcroft, B., Barley, K.P., and Greacen, E.L. 1969. The penetration of clays by fine probes and root tips. Aust. J. Soil Res. 7:333–348.",
+      "Cohron, G.T. 1963. Soil sheargraph. Agric. Eng. 44:554–556.",
+      "Dexter, A.R. and Watts, C.W. 2001. Tensile strength and friability. In: Smith, K.A. and Mullins, C.E., eds. Soil and Environmental Analysis: Physical Methods, 2nd ed. Marcel Dekker, New York, NY, 405–433.",
+      "Farrell, D.A. and Greacen, E.L. 1966. Resistance to penetration of fine probes in compressible soil. Aust. J. Soil Res. 4:1–17.",
+      "Fredlund, D.G. and Vanapalli, S.K. 2002. 2.7 Shear strength of unsaturated soils. In: Dane, J.H. and Topp, G.C., eds. Methods of Soil Analysis, Part 4—Physical Methods. Soil Science Society of America, Madison, WI, 329–361.",
+      "Freitag, D.R. 1968. Penetration tests for soil measurements. Trans. Am. Soc. Agric. Eng. 11:750–753."
+    ]}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "8c517438b9fa3fa34eb2956a4c3377b5a485f116e2c9dcf6594661218cde1cd6"
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 247,
+  "sourceImageSha256": "25adab05cd7aa59b1120a711cfd33edd2a755a43c1823212ed85887fb365ec49",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第25章章首页，并与Apple Vision、PaddleOCR交叉比对，人工恢复章名、作者机构、25.1全文及25.2四项目的与方法概述"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验H. Tiessen、J.O. Moir、机构地点、pH、Olsen/Bray/Kurtz/Egnér、1954/1945/1960/1982、50种和50多篇等数量"},
+    "secondVisualPass": {"status": "verified", "method": "从页末乳酸盐浸提承接句反向复核至章名，确认第25章→25.1→25.2层级、四项目标编号、段落边界、引文和本章首页未印页码"}
+  },
+  "blocks": [
+    {"type": "chapter-title", "number": "第25章", "title": "用连续浸提法确定土壤有效磷的特征"},
+    {"type": "author", "name": "H. Tiessen", "affiliation": "Inter-American Institute for Global Change Research", "location": "Sao Jose dos Campos, Sao Paulo, Brazil"},
+    {"type": "author", "name": "J.O. Moir", "affiliation": "University of Saskatchewan", "location": "Saskatoon, Saskatchewan, Canada"},
+    {"type": "heading", "level": 1, "number": "25.1", "title": "引言"},
+    {"type": "body", "text": "磷的有效性是受化学平衡控制的磷溶解性和速率调控的磷供应共同作用的结果。大多数有效磷的测定方法都尝试使用不同的浸提剂来量化磷的溶解性，但是只有少数方法能将磷的溶解性和与植物吸收相关的磷供应速率联系起来。"},
+    {"type": "body", "text": "磷的测定方法并不是测定作物可以利用的磷含量，而是提取与植物可以利用磷相关性好的那部分土壤磷。这种相关关系建立在多年的农业试验的基础上并通过回归方程检验肥料效应。这些回归方程将植物生长状况和测试的土壤磷水平关联起来，给出达到作物最大产量时的需肥量。这种方法得出的结果在不同的植物和土壤类型上并不总能通用，因此土壤测试机构针对不同的作物和土壤类型建立了许多不同的方程。因为可测定的磷库较小，而且磷的循环对磷的有效性起决定性作用，所以这种方法不适用于多年生植物和自然生态系统。由于所有“速效磷”都能通过“缓效磷”的溶解和解吸，以及有机磷的矿化得到不断的补充，所以“植物有效磷”是随时间变化的。"},
+    {"type": "heading", "level": 1, "number": "25.2", "title": "土壤有效磷的测定方法"},
+    {"type": "body", "text": "农业上有效磷的测定基于以下目的："},
+    {"type": "objective-item", "number": "（1）", "text": "简单实用。"},
+    {"type": "objective-item", "number": "（2）", "text": "可以提取到足量的磷以便测定。"},
+    {"type": "objective-item", "number": "（3）", "text": "提取的磷可以代表大部分潜在的植物可吸收利用磷，反映了土壤对植物的磷供应能力，而与土壤磷库中磷的周转和补充无关。"},
+    {"type": "objective-item", "number": "（4）", "text": "不提取大量在植物生长周期内无效的磷。"},
+    {"type": "body", "text": "要达到这些目标，可以使用适当强度的酸或碱溶液在不显著增加磷酸盐矿物溶解的前提下，将吸附在土壤矿物表面的磷释放到溶液中，也可以根据土壤pH值的不同，通过添加特定的阴离子，使其与磷竞争吸附位点，或者降低土壤中与磷结合的阳离子的溶解度，从而将磷置换到溶液中。基于这些理论，人们提出了许多浸提方法，这些方法各有利弊，并应用于世界不同的地区，它们的价值基于依据长期研究建立的土壤可提取态磷和作物响应的相关关系。西班牙一个研究小组（Anon，1982）发表了一篇详尽的综述，列举了50种不同的方法并且有50多篇比较不同浸提方法的文章。"},
+    {"type": "body", "text": "最常见的方法应该是碱性碳酸氢盐法（Olsen等，1954）和多次改进后的酸性氟化铵浸提法（Bray和Kurtz，1945）。在欧洲普遍将乳酸盐作为浸提剂（Egnér等，1960）。用碳酸氢盐和乳酸盐浸提有效", "continued": true}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e3b6ad702a6e23b63c6f60e0cdc36c1314c4a6678dd24889d6869cec16d199bd"
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 252,
+  "sourceImageSha256": "0907f9d95f3368671fcf5fe7e7f12b92ef42145adee8020d542846ffee052413",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第25章第221页，并与Apple Vision、PaddleOCR交叉比对，人工恢复第五天消煮续文、25.4.4两条注释和25.4.5试剂及测定步骤"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验2 mm/60目/20目、0.5 g、0.9/0.25/2.5/4 mol·L⁻¹、(NH₄)₂S₂O₈、10%（w/v）、1 mg·L⁻¹、712 nm、pH 1.5及全部质量体积时间"},
+    "secondVisualPass": {"status": "verified", "method": "从页末无机磷测定步骤（2）反向复核至H₂O₂续文，确认25.4.4→25.4.5→试剂/树脂与盐酸测定/NaHCO₃-NaOH测定层级、试剂引用和印刷页码221"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第25章｜用连续浸提法确定土壤有效磷的特征｜"},
+    {"type": "procedure-continuation", "number": "第五天（3）", "continuesFromPage": 251, "text": "留的H₂O₂会干扰磷的测定。冷却定容，摇匀后转移到小瓶中（用过滤器或静置过夜使残留物沉淀）。测定溶液中的磷（见25.4.5）。这种消解方法基于1967年Thomas等提出的方法。"},
+    {"type": "heading", "level": 2, "number": "25.4.4", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "土壤研磨的程度极大地影响了可以提取磷的量，特别是树脂提取法，因为此法是提取接触到土壤颗粒表面的磷。多个实验室的测定结果表明，过2 mm和60目筛的土壤样品测定结果会差一个数量级。样品研磨的细度取决于是保证土壤样品的均一性（在样品重量只有0.5 g时尤为重要），还是保持土壤中磷的树脂可提取的“自然”特性。我们一般选择粉碎过20目筛、细度适中的样品。"},
+    {"type": "note-item", "number": "（2）", "text": "连续浸提是一个漫长的过程，一批样品需要一个星期（包括周末）来完成。因此，根据研究目标调整所要得到的组分非常重要。如果地质变化是目标，可能就不需要树脂和碳酸氢盐提取的步骤。如果有效磷库是目标，那么更难分离的组分可能并不重要，而包括微生物磷或有机物磷的组分更实用。对于许多风化程度较高的土壤，冷酸可溶态磷含量很小，以至于它可能是前面提取过程中引入的“污染物”。"},
+    {"type": "heading", "level": 2, "number": "25.4.5", "title": "浸提液中磷的分析"},
+    {"type": "procedure-group", "number": "1.", "title": "磷测定试剂"},
+    {"type": "reagent-item", "number": "（1）", "name": "钼酸铵溶液", "text": "将40.0 g钼酸铵溶解在去离子水中，定容至1 L。"},
+    {"type": "reagent-item", "number": "（2）", "name": "抗坏血酸溶液", "text": "将26.4 g L-抗坏血酸溶解在去离子水中，定容至500 mL。"},
+    {"type": "reagent-item", "number": "（3）", "name": "酒石酸锑钾溶液", "text": "将1.454 g酒石酸锑钾溶解在去离子水中，定容至500 mL。"},
+    {"type": "reagent-item", "number": "（4）", "name": "2.5 mol·L⁻¹硫酸溶液", "text": "将278 mL浓硫酸缓慢加入1 L去离子水中，并不断地搅拌，冷却后定容至2 L。"},
+    {"type": "reagent-item", "number": "（5）", "name": "显色剂", "text": "向250 mL 2.5 mol·L⁻¹ H₂SO₄溶液中加入75 mL钼酸铵溶液，然后加入50 mL抗坏血酸盐溶液和25 mL酒石酸锑钾溶液。每次加入不同的试剂后将溶液涡旋振荡混匀。最后用去离子水将溶液稀释至500 mL并混匀。"},
+    {"type": "source-fidelity-note", "appliesTo": "磷测定试剂（5）", "text": "原书本条印作“50 mL抗坏血酸盐溶液”，但本页试剂（2）仅定义“抗坏血酸溶液”，未另列抗坏血酸盐溶液。结合配方层级，本条显然引用试剂（2）；原印名称保留，运行时应提示该名称不一致。"},
+    {"type": "reagent-item", "number": "（6）", "name": "用以下溶液沉淀有机物和调节pH值"},
+    {"type": "reagent-subitem", "name": "0.9 mol·L⁻¹硫酸溶液", "text": "用蒸馏水将100 mL浓硫酸稀释至2 L。"},
+    {"type": "reagent-subitem", "name": "0.25 mol·L⁻¹硫酸溶液", "text": "用蒸馏水将100 mL 2.5 mol·L⁻¹ H₂SO₄溶液稀释至1 L。"},
+    {"type": "reagent-subitem", "name": "4 mol·L⁻¹氢氧化钠溶液", "text": "用蒸馏水将160 g NaOH溶解并稀释至1 L。"},
+    {"type": "reagent-item", "number": "（7）", "text": "10%（w/v）的对硝基酚水溶液。"},
+    {"type": "reagent-item", "number": "（8）", "text": "过硫酸铵：(NH₄)₂S₂O₈。"},
+    {"type": "procedure-group", "number": "2.", "title": "交换树脂洗脱的磷和盐酸浸提的无机磷的测定"},
+    {"type": "principle", "text": "该方法（Murphy和Riley，1962）可以直接测定交换树脂洗脱的磷和两种盐酸浸提的无机磷。"},
+    {"type": "procedure-step", "number": "（1）", "text": "吸取适量的液体放入50 mL容量瓶中。标准曲线呈线性分布，其最高含磷量为1 mg·L⁻¹。加入2滴对硝基酚作为指示剂。如果浸提液呈酸性，那么先用4 mol·L⁻¹ NaOH溶液调节pH值至溶液显黄色，然后用约0.25 mol·L⁻¹ H₂SO₄溶液滴定溶液至澄清。对于碱性浸提液，将溶液酸化至澄清为止。注意：分析过程中的大多数问题都与溶液调节得过酸有关。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加入8 mL显色剂，定容，摇匀，静置10 min后用分光光度计在712 nm波长处读数（颜色可以稳定几个小时）。"},
+    {"type": "procedure-group", "number": "3.", "title": "0.5 mol·L⁻¹ NaHCO₃和0.1 mol·L⁻¹ NaOH浸提液中无机磷的测定"},
+    {"type": "procedure-step", "number": "（1）", "text": "用移液管吸取10 mL浸提液于50 mL的离心管中。"},
+    {"type": "procedure-step", "number": "（2）", "text": "调节pH值至1.5，在冰箱中放置30 min。"},
+    {"type": "printed-page-number", "text": "221"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a554e661f1dc5b1a8263491ab3c7b3f4947f490ab15bc8a4a09284c35b2c3fa6"
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 195,
+  "sourceImageSha256": "d1ab1742e9cb1c1cbe2b52d9c2a3fc023d7797c79073a11f8a4dfa2fd3bf64fc",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复式（20.5）、20.4.4注释及20.5原理、试剂、步骤和计算前半"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验CaCO₃、CaMg(CO₃)₂、CO₃²⁻、C₆H₈O₇、NaCl、30%(v/v)、pH 5.85、80 ℃、1 mg mL⁻¹、X/Y/Z、mmol、100 mg和式（20.6）"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Z mmol未完句反向复核至式（20.5），确认重量增加法正负顺序、Raad/Hesse/Peterson引用、白云石计算逻辑及页码164"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "20.4.4", "title": "注释"},
+    {"type": "paragraph", "text": "这两种方法获得的结果偏差应该在称量误差范围之内，若超过称量误差则说明装置连接处可能存在气体泄漏。"},
+    {"type": "section-heading", "level": 2, "number": "20.5", "title": "方解石与白云石的定量分析（Peterson等，1966）"},
+    {"type": "paragraph", "text": "以下介绍由Raad（1978）提出的柠檬酸缓冲法。方解石和白云石选择性溶解于柠檬酸缓冲液中，通过定量测定溶液中钙、镁的含量，可以计算出土样中方解石的含量。白云石中钙镁的摩尔比率约为1∶1，而且溶液中的钙和镁仅来自白云石和方解石（不包括含镁方解石），交换性钙、镁应该被事先去除或通过其他方式计算（Hesse，1971）。溶于柠檬酸缓冲液的白云石含量可以通过溶液中镁的含量进行计算，因为白云石还含有等量的钙，所以用剩余的钙可以推算出土样中方解石的含量。土样中白云石的含量可以通过另外取样所测出的总碳酸盐含量与土样中方解石所含碳酸盐量之差计算得出。为了校正结果的准确性，土样中的白云石含量也可以由溶液中的镁含量计算得出。如果土样含黏粒大小的白云石，那么此法测定十分有效。"},
+    {"type": "section-heading", "level": 3, "number": "20.5.1", "title": "试剂"},
+    {"type": "reagent-item", "number": "（1）", "name": "柠檬酸缓冲液", "text": "将64 g柠檬酸（C₆H₈O₇）溶于1 L去离子水中，并用浓氨水调节溶液pH值至5.85。"},
+    {"type": "reagent-item", "number": "（2）", "name": "氯化钠-乙醇溶液", "text": "将58.5 g NaCl溶于30%（v/v）乙醇中，并加去离子水定容至1 L。"},
+    {"type": "reagent-item", "number": "（3）", "name": "连二亚硫酸钠", "text": "连二亚硫酸钠。"},
+    {"type": "section-heading", "level": 3, "number": "20.5.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取过100目筛的烘干土50～500 mg于50 mL离心管。"},
+    {"type": "procedure-step", "number": "（2）", "text": "用氯化钠-乙醇溶液冲洗离心管中的土样两次，然后倒出洗液。"},
+    {"type": "procedure-step", "number": "（3）", "text": "向离心管中加入25 mL柠檬酸缓冲液，在80 ℃的水浴中加热。加入约0.5 g的连二亚硫酸钠后继续加热15 min，并不断地搅拌。"},
+    {"type": "procedure-step", "number": "（4）", "text": "离心并收集上清液于250 mL的容量瓶中，用25 mL柠檬酸缓冲液冲洗残渣，再次离心并收集上清液，用去离子水定容。"},
+    {"type": "procedure-step", "number": "（5）", "text": "用等浓度的柠檬酸缓冲液和连二亚硫酸盐配制标准溶液，通过原子吸收光谱仪测定样液中钙、镁的含量。标准溶液和样液中都应该加入1 mg mL⁻¹镧溶液，以便消除其他离子的干扰作用。"},
+    {"type": "procedure-step", "number": "（6）", "text": "总碳酸盐含量可以通过再次取样用其他定量方法测定（见20.2）。"},
+    {"type": "section-heading", "level": 3, "number": "20.5.3", "title": "计算"},
+    {"type": "paragraph", "text": "方解石的分子式是CaCO₃，白云石的分子式是CaMg(CO₃)₂。假设总柠檬酸溶性钙=X mmol、总柠檬酸溶性镁=Y mmol，则柠檬酸缓冲液中来自白云石的柠檬酸溶性钙=Y mmol，所以来自方解石的柠檬酸溶性钙=（X−Y）mmol。因为1 mmol方解石中含1 mmol钙，1 mmol方解石重量为100 mg，所以"},
+    {"type": "paragraph", "continued": true, "text": "土样中的白云石含量可以通过以下方式进行计算，假设土样中总碳酸盐（CO₃²⁻）的含量=Z mmol，"},
+    {"type": "printed-page-number", "text": "164"}
+  ],
+  "formulas": [
+    {
+      "number": "20.5",
+      "context": "重量增加法",
+      "display": "CaCO₃% = [(反应后总重量(g)−初始总重量(g))/土样质量(g)] × 227.3",
+      "latex": "CaCO_3\\%=\\frac{\\text{反应后总重量}(\\mathrm{g})-\\text{初始总重量}(\\mathrm{g})}{\\text{土样质量}(\\mathrm{g})}\\times227.3"
+    },
+    {
+      "number": "20.6",
+      "context": "土样中方解石含量",
+      "display": "土样中方解石的含量% = [(X(mmol)−Y(mmol))/土样质量(mg)] × [100(mg)/1(mmol)] × 100",
+      "latex": "\\text{土样中方解石的含量}\\%=\\frac{X(\\mathrm{mmol})-Y(\\mathrm{mmol})}{\\text{土样质量}(\\mathrm{mg})}\\times\\frac{100(\\mathrm{mg})}{1(\\mathrm{mmol})}\\times100"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "375c065a81e5c0a558ae82aa6c3c1a8e0f86bfbf5ae3f4580788c81ffffb39a3"
+}

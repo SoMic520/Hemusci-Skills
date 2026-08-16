@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 427,
+  "sourceImageSha256": "12f57917e2d7cb039961a195ef9d86c7910f329f2c4413a16b02ee1ea36215b3",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率中文页面、两套OCR及英文原版第40章末参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验作者缩写、卷页号、rice–wheat连字符、cropping systems空格及译校信息"},
+    "secondVisualPass": {"status": "verified", "method": "由译校行反向复核Vreeken-Buijs承上至Yadvinder-Singh，印刷页码396"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "bibliography", "text": "Vreeken-Buijs, M.J. and Brussaard, L. 1996. Soil mesofauna dynamics, wheat residue decomposition and nitrogen mineralization in buried litterbags. Biol. Fert. Soils 23: 374–381."},
+    {"type": "bibliography", "text": "Wardle, D.A., Nicholson, K.S., and Rahman, A. 1994. Influence of herbicide applications on the decomposition, microbial biomass, and microbial activity of pasture shoot and root litter. N.Z. J. Agric. Res. 37: 29–39."},
+    {"type": "bibliography", "text": "Wardle, D.A., Yeates, G.W., Watson, R.N., and Nicholson, K.S. 1993. Response of soil microbial biomass and plant litter decomposition to weed management strategies in maize and asparagus cropping systems. Soil Biol. Biochem. 25: 857–868."},
+    {"type": "bibliography", "text": "Wieder, R.K. and Lang, G.E. 1982. A critique of the analytical methods used in examining decomposition data obtained from litterbags. Ecology 63: 1636–1642."},
+    {"type": "bibliography", "text": "Yadvinder-Singh, Bijay-Singh, Ladha, J.K., Khind, C.S., Khera, T.S., and Bueno, C.S. 2004. Effects of residue decomposition on productivity and soil fertility in rice–wheat rotation. Soil Sci. Soc. Am. J. 68: 854–864."},
+    {"type": "translator-note", "text": "张倩译，徐建明校。"},
+    {"type": "printed-page-number", "text": "396"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "16e380b7e689b35b40f6f7646c3b5d467a6535daf9dce5452ed53f72472fc2aa"
+}

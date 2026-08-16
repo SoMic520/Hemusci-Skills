@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 30,
+  "sourceImageSha256": "43f618cfa12ecec14b68856f33f1fe17d7e81d37f3bc074228356a84ccbbaad7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成第56章标题、作者单位及56.1本页全部引言"},
+    "precisionPass": {"status": "verified", "method": "核验C.D. Grant、University of Adelaide、全部引文年份、正常/残余/结构性/基础（成比例）收缩阶段及一维/三维术语"},
+    "secondVisualPass": {"status": "verified", "method": "从页末‘而室内’跨页词反向复核至章标题，纠正OCR‘士壤’，检查段落层级和标点"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第56章", "title": "土壤收缩"},
+    {"type": "author-affiliation", "authors": ["C.D. Grant"], "affiliation": "University of Adelaide, Glen Osmond, South Australia, Australia"},
+    {"type": "heading", "number": "56.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "土壤收缩是土壤由湿变干时总体积减小的现象。所有土壤均可能发生不同程度的收缩，含大量膨胀性黏粒、特别是含钠黏粒的土壤最为普遍（Parker等，1977；Boivin等，2004）。收缩后常发生膨胀，但因黏粒体积变化存在滞后，收缩并非真正可逆（Haines，1923；Holmes，1955；Chang和Warkentin，1968）。尽管收缩与膨胀过程差异较大，收缩仍常用于表征缩胀能力（Franzmeier和Ross，1968；Ross，1978；de Jong等，1992）、耕性及其对作物性状的潜在影响（Auchinleck，1912）。土壤缩胀还影响工程结构完整性（Jumikis，1984；Gillot，1986）、通过裂缝污染地下水的可能性（Coles和Trudgill，1985）、受扰土壤结构的演变（Pillai-McGarry和McGarry，1999），以及适度覆盖层下土壤水分的有效性（Groenevelt和Grant，2001；Groenevelt等，2001）。"},
+    {"type": "paragraph", "text": "土壤收缩可分为若干阶段，主要取决于饱和状态下土壤结构是否良好。结构不良土壤从饱和状态开始失水即发生收缩；若收缩过程中始终完全饱和，初始阶段称为‘正常’收缩，体积减少量等于水分损失量。当粒间接触阻碍正常收缩、裂隙形成且空气进入基质，含水量低于‘进气’值后的阶段称为‘残余’收缩，体积减少量逐渐小于水分损失量。超过‘收缩限值’后（该限值并非总是单一、清晰定义的含水量；Groenevelt和Grant，2004），多数土壤收缩逐渐受限并停止。"},
+    {"type": "paragraph", "text": "对含稳定大孔隙、结构良好的土壤，在一定含水量范围内排水仅导致很少或无体积损失，称为‘结构性’收缩。当结构孔隙排空而空气尚未进入土壤基质时，土壤仍按比例收缩，即体积损失量等于或近似等于水分损失量，称为‘基础’或‘成比例’收缩（Groenevelt和Grant，2001）。超过该阶段后，结构良好土壤也转入残余收缩。"},
+    {"type": "source-fidelity-note", "text": "原书把基础收缩阶段写成‘空气已无法进入土壤基质’，语义与随后仍近饱和、体积随水分等比例减少的机制矛盾；此处校正为‘空气尚未进入土壤基质’，空气进入基质后才转入残余收缩。"},
+    {"type": "paragraph", "text": "收缩测定方法取决于数据用途。实验室土样与田间原位数据可能显著不同，因为两者开裂尺度不同（Crescimanno和Provenzano，1999）；田间土体承受侧向和上覆土压力，室内土样则不承受（Richards，1986）。多数田间方法需建立本构关系，把土壤一维位移与三维位移联系起来，从高度变化推算土体体积变化（Aitchison和Holmes，1953）。多数情况下，假设土壤收缩等维基本合理（Yaalon和Kalmar，1972；Yule和Ritchie，1980a，1980b），但这种关系还取决于测高时的含水量范围（Fox，1964）以及样品尺寸与代表性田间基本单元的关系。例如，田间只测高度变化而忽略水平裂缝可能低估收缩；而室内……"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "5ff5dc0439e4783186a8486ceb9e009dcbab374fec702d2b2899b169689bb44d"
+}

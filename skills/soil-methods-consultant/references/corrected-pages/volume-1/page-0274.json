@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 274,
+  "sourceImageSha256": "19697fc2a4bb116c9278feadf459d529a60b233140b50c248746c2fc46cdf7dc",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第27章第243页，人工恢复Thomas（1982）跨页末句、Thomas和Hargrove至Wells的5条文献及翻译校订署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验作者姓名、Lundström、Picea mariana、版次、期刊卷页、地名及‘慈恩 党海燕 译，王朝辉 校’"},
+    "secondVisualPass": {"status": "verified", "method": "从印刷页码243反向复核至页首Madison续行，确认文献跨页连接、章末署名和页面结束边界"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第27章｜森林土壤养分有效性的测定｜"},
+    {"type": "reference-continuation", "continuesFromPage": 273, "text": "Madison, WI, 159-165."},
+    {"type": "reference", "text": "Thomas, G. W. and Hargrove, W. L. 1984. The chemistry of soil acidity. In: F. Adams, ed. Soil Acidity and Liming, 2nd ed. American Society of Agronomy, Madison, WI, 3-56."},
+    {"type": "reference", "text": "van Breemen, N., Finzi, A. C., and Canham, C. D. 1997. Canopy tree-soil interactions within temperate forests: effects of soil elemental composition and texture on species distributions. Can. J. Forest Res. 27: 1110-1116."},
+    {"type": "reference", "text": "van Breemen, N., Lundström, U. S., and Jongmans, A. G. 2000. Do plants drive podzolization via rock-eating mycorrhizal fungi. Geoderma 94: 163-171."},
+    {"type": "reference", "text": "van Miegroet, H. 1995. Inorganic nitrogen determined by laboratory and field extractions of two forest soils. Soil Sci. Soc. Am. J. 59: 549-553."},
+    {"type": "reference", "text": "Weetman, G. F., Dallaire, L. C., and Fournier, R. 1995. Long term effects of repeated N fertilization and straw application in a Jack pine forest. 1. Twenty-two-year growth response. Can. J. Forest Res. 25: 1978-1983."},
+    {"type": "reference", "text": "Wells, E. D. 1994. Effects of planting, spacing and refertilization on growth and nutrition of black spruce (Picea mariana) planted on a minerotrophic peatland in Newfoundland, Canada. Can. J. Forest Res. 24: 1302-1311."},
+    {"type": "translator-credit", "text": "（慈恩　党海燕　译，王朝辉　校）"},
+    {"type": "printed-page-number", "text": "243"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "668a90973a4823877cedbb782151ac9efb6d8b065a61874712b6e0a8213fb963"
+}

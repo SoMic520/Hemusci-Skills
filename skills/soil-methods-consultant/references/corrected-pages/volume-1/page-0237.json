@@ -1,0 +1,51 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 237,
+  "sourceImageSha256": "f60995538cbe7b1eda6fd0f1aa799e02815421540d5a736f8ddf14de11640ca9",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第206页，并与Apple Vision、PaddleOCR交叉比对，人工恢复碱性EDTA浸提法步骤、测定、计算、注释及24.3.4灼烧法开篇"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验≤5/4 mL、0.5/0.9 mol·L⁻¹、H₂SO₄/H₂O₂、0/85/400/550 ℃、25 000 g、10/30/90 min、1 h 50 min、Pₒ/Pₜ/Pᵢ及式（24.2）"},
+    "secondVisualPass": {"status": "verified", "method": "从24.3.4材料（4）反向复核至步骤（1），确认五级方法层级、六步操作、引文、公式变量、全部上下标和印刷页码206；并据24.3.4标题确认上一页交叉引用应为24.3.4"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤", "method": "24.3.3 碱性EDTA浸提法"},
+    {"type": "procedure-step", "number": "（1）", "text": "称量0.5 g磨细的土壤样品于50 mL耐热离心管中。"},
+    {"type": "procedure-step", "number": "（2）", "text": "向离心管中加入25 mL NaOH-EDTA混合液，盖紧盖子，摇匀。"},
+    {"type": "procedure-step", "number": "（3）", "text": "拧松盖子，放在预热到85 ℃的培养箱或烘箱中加热10 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "拧紧盖子，培养1 h 50 min（共培养2 h）。"},
+    {"type": "procedure-step", "number": "（5）", "text": "在25 000 g力下离心10 min。"},
+    {"type": "procedure-step", "number": "（6）", "text": "过滤上清液并保留滤液用于测定。"},
+    {"type": "procedure-group", "number": "3.", "title": "浸提液中无机磷和全磷的测定"},
+    {"type": "procedure-step", "number": "（1）", "name": "无机磷的测定", "text": "用移液管吸取≤5 mL浸提液于50 mL离心管中，加入0.5 mL 0.9 mol·L⁻¹ H₂SO₄溶液进行酸化，在冰箱中冷却30 min，在0 ℃ 25 000 g力下离心10 min。将上清液倒入50 mL容量瓶中，并用少量酸性水小心润洗离心管，以便避免带出已经沉淀的有机质，将润洗液转移至容量瓶中（重复2～3次），按照24.5.2的方法调节pH值（步骤3）后显色。"},
+    {"type": "procedure-step", "number": "（2）", "name": "全磷的测定", "text": "用移液管吸取≤5 mL浸提液于25 mL容量瓶中，加入约0.5 g过硫酸铵和10 mL 0.9 mol·L⁻¹硫酸，用铝箔盖上瓶口并在高压锅内加热消解90 min。冷却后加入约10 mL蒸馏水或去离子水，按照24.5.2的方法调节pH值（步骤3）并显色。"},
+    {"type": "procedure-group", "number": "4.", "title": "计算"},
+    {"type": "calculation-note", "text": "在测定了消解液和浸提液中的磷浓度之后，将其以土壤质量为基础进行换算（例如，mg P/kg土），Pₒ计算方法为"},
+    {"type": "procedure-group", "number": "5.", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "在培养过程中开始的10 min松开离心管盖是为了使离心管中聚集的气体量最小。"},
+    {"type": "note-item", "number": "（2）", "text": "NaOH-EDTA混合液能够同时去除土壤有机质和可溶性有机质形成的阳离子桥（Bowman和Moir，1993），这样可以省去酸的预处理过程。"},
+    {"type": "note-item", "number": "（3）", "text": "在室温下浸提16 h与85 ℃浸提2 h得到的有机磷浓度相近。"},
+    {"type": "note-item", "number": "（4）", "text": "正如24.3.1注释中所提到的，在腐殖质和金属含量高的土壤中，用沉淀法去除有机质可能会导致测得的有机磷浓度不准确。"},
+    {"type": "note-item", "number": "（5）", "text": "NaOH-EDTA浸提液中的无机磷含量可以按照24.3.1注释3的步骤处理后直接测定。如果要选择用这个步骤，那么取液量不能超过4 mL，因为过量的EDTA会导致显色滞后。"},
+    {"type": "note-item", "number": "（6）", "text": "提取液中的全磷含量可以用ICP或者用其他的方法测定，例如，Thomas等（1967）H₂SO₄/H₂O₂消解法，或用过硫酸钾在电炉上消解后测定（Bowman，1989）。"},
+    {"type": "heading", "level": 2, "number": "24.3.4", "title": "灼烧法"},
+    {"type": "principle", "text": "在这个方法中，有机磷是将550 ℃灼烧和未灼烧土壤样品分别用0.5 mol/L H₂SO₄溶液浸提后测得的可提取态磷的差值计算而来的。这个方法适用于大批样品中土壤有机磷的测定。Dormaar和Webster（1964）指出当温度高于400 ℃时，特别是对于泥炭土，会引起显著的磷挥发损失。"},
+    {"type": "procedure-group", "number": "1.", "title": "材料和试剂", "method": "24.3.4 灼烧法"},
+    {"type": "material-item", "number": "（1）", "text": "可在550 ℃下灼烧土壤样品的马弗炉和瓷坩埚。"},
+    {"type": "material-item", "number": "（2）", "text": "带盖或塞的聚丙烯离心管（100 mL）。"},
+    {"type": "material-item", "number": "（3）", "text": "能容纳上述离心管的振荡机。"},
+    {"type": "material-item", "number": "（4）", "text": "离心机。"},
+    {"type": "printed-page-number", "text": "206"}
+  ],
+  "formulas": [
+    {
+      "number": "24.2",
+      "context": "碱性EDTA浸提法计算土壤有机磷",
+      "display": "Pₒ = Pₜ（消解或ICP测定）− Pᵢ（提取液）",
+      "latex": "P_o=P_t\\,(\\text{消解或ICP测定})-P_i\\,(\\text{提取液})"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "6642f484085bed6f3c715d22ee7e36c6ec0ae7082fc987bef95ff788b7e2c085"
+}

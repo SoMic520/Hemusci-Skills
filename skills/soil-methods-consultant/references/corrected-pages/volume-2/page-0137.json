@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 137,
+  "sourceImageSha256": "f26a56e2bd6310926785c017568a8f1a43c9cac6031365ad8b53fdb6f4228725",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐项对照原分辨率图和两套OCR，完成液滴法步骤(3)、分析、注释及68.2.3式(68.2)—(68.4)、材料和步骤(1)—(3)"},
+    "precisionPass": {"status": "verified", "method": "核验90°、l²/t、m²/t、η/ρ²γ_Lc、π²(τr)⁵n²/2、cm⁵、mPa·s、mJ·m⁻²、0.01 g及正己烷"},
+    "secondVisualPass": {"status": "verified", "method": "由步骤(3)反向复核至跨页液滴步骤，检查Washburn各指数、括号、变量单位和天平分度值；印刷页码646"}
+  },
+  "blocks": [
+    {"type": "steps-continuation", "items": ["用光学接触角仪直接拟合小液滴轮廓求接触角；也可测液滴体积、高度和基底长度，并用几何模型求角度（Letey等，1962；Chassin，1979；Good，1979）。"]},
+    {"type": "heading", "title": "数据分析与注释", "level": 4},
+    {"type": "paragraph", "text": "通常ε<90°为亲水，ε>90°为斥水；ε=90°是边界状态。接触角越小，湿润性越强。测定要求表面光滑、平坦；若表面粗糙度会随含水量变化，压片/干膜结果不能代表原状材料。该液滴法按本章条件只用于干材料，压制压力和表面制备必须报告。"},
+    {"type": "heading", "number": "68.2.3", "title": "间接接触角测定：毛细管上升法", "level": 3},
+    {"type": "paragraph", "text": "毛细管上升法可测土壤润湿时间（Letey等，1962；Watson和Letey，1970），也用于非压实材料及不同含水状态的湿润性（Michel等，2001）。改进Washburn方程把材料视作毛细管束，按式(68.2)描述润湿锋；以吸液质量代替润湿锋高度得到式(68.3)，结构常数c按原书式(68.4)定义。"},
+    {"type": "variables", "items": [
+      "l：润湿锋高度（cm）", "t：时间（s）", "η：液体动力黏度（mPa·s）", "γ_L：液体表面张力（mJ·m⁻²，数值等于mN·m⁻¹）",
+      "r：平均毛细管半径（cm）", "τ：原书定义的弯曲度常数（无量纲）", "ε：接触角（°）", "m：吸入液体质量（g）",
+      "ρ：液体密度（g·cm⁻³）", "n：等效毛细管数", "c：由孔隙几何和装填状态决定的经验常数（cm⁵）"
+    ]},
+    {"type": "heading", "title": "材料与试剂", "level": 4},
+    {"type": "list", "items": [
+      "带多孔玻璃底板的样品管，内径约1 cm、高4 cm",
+      "天平，原书分度值0.01 g",
+      "液体表面张力测量仪；此处张力仪测表面能/表面张力，不是测土壤水势的张力计",
+      "色谱纯或特纯正己烷、蒸馏水",
+      "1—5 g在不同含水量下平衡的土壤或栽培基质，质量依密度和含水量确定"
+    ]},
+    {"type": "heading", "title": "步骤（本页部分）", "level": 4},
+    {"type": "steps", "items": ["按规定质量与装填程序把样品装入带多孔玻璃底板的管中。", "把样品管固定在天平上，消除外部接触和浮力变化。", "升高盛液容器，使低表面张力且可完全润湿样品的正己烷接触多孔底板；对正己烷标定步骤取ε=0°。"]},
+    {"type": "source-fidelity-note", "text": "原书称分度值0.01 g的仪器为“微量天平”，名称与性能不符，现按数值写作天平；若质量—时间斜率很小，应使用更高分辨率设备。式(68.4)原图明确为c=(1/2)π²(τr)⁵n²，已逐字符恢复；不同文献对τ放在分子或分母的定义可能相反，不能把外部Washburn式的τ直接代入本书公式。OCR把正己烷识作“已烷”，已校正。"}
+  ],
+  "formulas": [
+    {"label": "68.2", "plain": "l²/t = γ_L(τr)cosε / (2η)", "latex": "\\frac{l^2}{t}=\\frac{\\gamma_L(\\tau r)\\cos\\varepsilon}{2\\eta}"},
+    {"label": "68.3", "plain": "cosε = (m²/t)[η/(ρ²γ_Lc)]", "latex": "\\cos\\varepsilon=\\left(\\frac{m^2}{t}\\right)\\left(\\frac{\\eta}{\\rho^2\\gamma_Lc}\\right)"},
+    {"label": "68.4", "plain": "c = (1/2)π²(τr)⁵n²", "latex": "c=\\frac{1}{2}\\pi^2(\\tau r)^5n^2", "resultUnit": "cm⁵"}
+  ],
+  "tables": [],
+  "contentSha256": "8675c930e4270ae9dec4fefe93aa5ebde02e454d560df5a521796d09416d4efa"
+}

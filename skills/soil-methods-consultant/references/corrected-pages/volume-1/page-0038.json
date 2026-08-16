@@ -1,0 +1,46 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 38,
+  "sourceImageSha256": "d633b91ef86ecdc25aafae9ecd149299889314946ded35c44a9e6fa92d6aa7e3",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文与图示页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部漏字与错字"},
+    "precisionPass": {"status": "verified", "method": "放大核对系统采样术语、平面（斜坡）曲率、Z字形、收敛-发散、两幅图题及海拔/北距/东距单位"},
+    "secondVisualPass": {"status": "verified", "method": "按页眉、章节层级、正文段落、图号、图题、图注、坐标轴和页码顺序反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第1章｜土壤采样设计｜"},
+    {"type": "section-heading", "level": 4, "number": "1.4.2", "title": "系统采样"},
+    {"type": "paragraph", "text": "在许多实地研究中，采样设计使用最多的是运用横断面或者网格设计进行系统采样。系统采样设计经常受到统计学家的批评，但是它使用时的简易性和信息收集的高效性使其在地球科学领域广泛应用。在理想情况下，横断面或网格的初始点及采样方向应该是随机选择的。采用等间距系统采样时，主要的注意事项是，采样点不能按照横断面或网格间距对应设置。"},
+    {"type": "paragraph", "text": "横断面或者网格的选择受诸多因素影响。特定类型的研究设计需要特定类型的系统设计——下面将进行讨论。小波分析需要较长的横断面，而地统计学设计通常使用网格设计。因为网格分析较容易得到空间分布图，所以经常被用于空间分布研究。此外，试验点地貌的复杂性也是需要考虑的问题。"},
+    {"type": "paragraph", "text": "对于水平或近似水平的景观，既可以用横断面设计也可以用网格设计采样（图1.1）。斜坡地形中横断面设计的适用性取决于平面（斜坡）曲率。当没有明显的斜坡曲率存在时，单个横断面完全可以表征坡度的变化（图1.2）。然而，如果存在明显的平面曲率，那么单个横断面将略显不足。在这种情况下，可以运用Z字形设计或者多个随机定向横断面，但是网格设计更为常用（图1.3）。在网格设计中，关键是确保所有的曲面均被考虑到。根据经验，网格应该沿着斜坡的长轴从坡顶向坡脚延伸，至少沿着斜坡上一个完整的收敛-发散序列设计。"},
+    {
+      "type": "figure",
+      "number": "1.1",
+      "caption": "近似水平面上由四个平行的横断面组成的网格采样布局示意",
+      "note": "（在菱形标记点上采样）",
+      "axes": [
+        {"label": "海拔", "unit": "m"},
+        {"label": "北距", "unit": "m", "shownRange": "50～600"},
+        {"label": "东距", "unit": "m", "shownRange": "50～300"}
+      ],
+      "encoding": "网格面上的菱形表示采样点；采样点沿四个平行横断面布置"
+    },
+    {
+      "type": "figure",
+      "number": "1.2",
+      "caption": "无明显横坡（平面）曲率的坡面布局横断面采样示意",
+      "note": "（在菱形标记点上采样）",
+      "axes": [
+        {"label": "海拔", "unit": "m", "shownRange": "0～25"},
+        {"label": "北距", "unit": "m", "shownRange": "50～600"},
+        {"label": "东距", "unit": "m", "shownRange": "50～300"}
+      ],
+      "encoding": "坡面网格上的菱形表示采样点；采样点沿单个横断面布置"
+    },
+    {"type": "printed-page-number", "text": "7"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "afc7e899a22b202c06469b357775d252fbc42d38aa9f49cae44008c03acb0737"
+}

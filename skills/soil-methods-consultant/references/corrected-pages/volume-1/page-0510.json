@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 510,
+  "sourceImageSha256": "6664a6dea4cd077a186a24f109f790b4beeccb04afad81846de42b1851c4378d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成50.3.2步骤（2）～（6）、50.3.3、50.4、50.4.1及50.4.2全文"},
+    "precisionPass": {"status": "verified", "method": "核验20 mL 6 mol·L⁻¹ HCl、N₂/O₂、105 °C、6 h、10～15 mL、−20 °C、3 mL SAX/SCX、0.5 mol·L⁻¹ NaOH、2 g/100 mL、pH 6.5～7.0、5/4 mL"},
+    "secondVisualPass": {"status": "verified", "method": "由50.4.2（5）反向复核至氨基糖步骤（2），检查SAX/SCX次序、离子去除逻辑、滤膜型号、温度负号和印刷页码479"}
+  },
+  "blocks": [
+    {"type": "procedure-step-continuation", "scope": "50.3.2", "number": "（2）", "text": "加入20 mL 6 mol·L⁻¹ HCl，涡旋完全混匀。"},
+    {"type": "procedure-step", "number": "（3）", "text": "经鼓泡系统向玻璃管鼓入N₂以除去溶液中的O₂；谨慎调节气流，控制发泡并避免溶液损失。"},
+    {"type": "procedure-step", "number": "（4）～（5）", "text": "旋盖密封玻璃管，在105 °C烘箱中培养6 h；结束后置冰浴冷却至室温。"},
+    {"type": "procedure-step", "number": "（6）", "text": "小心倒取10～15 mL水解液至塑料瓶。若有悬浮物，先用玻璃纤维滤膜（如Whatman GF/A）过滤；密封后−20 °C保存待测。"},
+    {"type": "section-heading", "level": 3, "number": "50.3.3", "title": "注释"},
+    {"type": "paragraph", "text": "氨基糖通常用6 mol·L⁻¹ HCl提取。水解条件须兼顾最大提取和最小分解；密封试管105 °C、6 h法简单高效，适合批量样品。加热前鼓入N₂不可省略，必须除O₂以避免氨基糖在水解中氧化。"},
+    {"type": "section-heading", "level": 2, "number": "50.4", "title": "中性糖的测定（据Martens和Frankenberger，1991修订）"},
+    {"type": "section-heading", "level": 3, "number": "50.4.1", "title": "材料与试剂——提取物的纯化"},
+    {"type": "materials-list", "items": [
+      {"number": "（1）", "text": "强阴离子固相交换（SAX）柱：3 mL Supelclean LC-SAX（Supelco，Bellefonte，PA）。"},
+      {"number": "（2）", "text": "强阳离子固相交换（SCX）柱：3 mL Supelclean LC-SCX（Supelco，Bellefonte，PA）。"},
+      {"number": "（3）", "text": "0.5 mol·L⁻¹ NaOH：将2 g NaOH溶于约90 mL去离子水，冷却至室温后在100 mL容量瓶中定容。"},
+      {"number": "（4）～（7）", "text": "50 mL玻璃烧杯；Whatman 934-AH玻璃纤维滤膜；适当体积的塑料保存瓶；1.5 mL微量离心管。"}
+    ]},
+    {"type": "source-fidelity-note", "scope": "50.4.1滤膜与商品名", "text": "原书材料表写‘Whatman 42号滤纸’，但同页步骤（3）明确指定Whatman 934-AH，正式方法也使用934-AH玻璃纤维滤膜；运行时采用Whatman 934-AH。树脂商品名统一校正为Supelclean。"},
+    {"type": "section-heading", "level": 3, "number": "50.4.2", "title": "纯化过程"},
+    {"type": "procedure-step", "number": "（1）", "text": "取50.2任一方法所得水解液5 mL，转入50 mL玻璃烧杯。"},
+    {"type": "procedure-step", "number": "（2）", "text": "缓慢加入0.5 mol·L⁻¹ NaOH，把pH调至6.5～7.0。记录NaOH加入体积，用于校正水解液稀释倍数和糖含量计算。"},
+    {"type": "procedure-step", "number": "（3）", "text": "用Whatman 934-AH玻璃纤维滤膜过滤，以塑料瓶收集滤液；中性滤液可在−20 °C保存待测。"},
+    {"type": "procedure-step", "number": "（4）", "text": "取足量中性滤液（通常约4 mL）通过SAX柱，收集流出液；SAX去除阴离子。"},
+    {"type": "procedure-step", "number": "（5）", "text": "再将SAX流出液通过SCX柱以去除阳离子，收集最终纯化液至1.5 mL微量离心管，−20 °C保存待测。"},
+    {"type": "source-fidelity-note", "scope": "50.4.2离子交换术语", "text": "原书把SAX流出液称为‘纯阳离子溶液’、再把SCX流出液称为‘纯化液’，易误解为保留了阳离子。实际顺序为SAX去阴离子、SCX去阳离子，最终保留中性糖；已按分离机理明写，但不改变柱顺序。"}
+  ],
+  "formulas": [
+    {"id": "50.4.1-naoh", "display": "c(NaOH) = (2.00 g/40.00 g·mol⁻¹)/0.100 L = 0.500 mol·L⁻¹", "meaning": "中和液配方复核"},
+    {"id": "50.4.2-dilution", "display": "dilution factor = (5.00 mL + V_NaOH)/5.00 mL", "meaning": "中和造成的体积稀释校正；V_NaOH必须记录"}
+  ],
+  "tables": [],
+  "contentSha256": "dee673ca28f1e1940e8ea139272b8b948325d670df33b5d22f5f4767c71c7875"
+}

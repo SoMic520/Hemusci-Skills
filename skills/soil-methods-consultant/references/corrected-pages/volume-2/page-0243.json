@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 243,
+  "sourceImageSha256": "5e8d47fd074497c3165ad8b3467ff43c4d019d2b46ae3e21114742db339f2b5c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率页图、两套OCR和英文原章，完成第77章章题、77.1及77.2导言"},
+    "precisionPass": {"status": "verified", "method": "核验K_fs/φ_m/α*/ψ_f/S/PD/NP全部上下标和量纲，以及环高5—20 cm、直径10—50 cm、入土3—10 cm"},
+    "secondVisualPass": {"status": "verified", "method": "复核单/多定水头和降水头方法层级、优缺点及跨章方法映射；印刷页码752"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "77", "title": "饱和水力学特性：圆环入渗法", "level": 1, "author": "W.D. Reynolds", "affiliation": "Agriculture and Agri-Food Canada, Harrow, Ontario, Canada"},
+    {"type": "heading", "number": "77.1", "title": "引言", "level": 2},
+    {
+      "type": "method-overview",
+      "text": "圆环入渗法原位测K_fs，并可估计φ_m、α*、ψ_f、S、PD、NP。入渗环为薄壁、两端开口的金属/塑料环，底端有刃；常见高5—20 cm、直径10—50 cm，入土3—10 cm，在环内施加一个或多个水头并测入渗流率，可作定水头或降水头分析。其他原位法见第76章井渗法、第78章钻孔法、第79章测压管法；实验室K_s见第75章，估算见第84章。"
+    },
+    {
+      "type": "parameters",
+      "items": ["K_fs：[L·T⁻¹]", "φ_m：[L²·T⁻¹]", "α*：[L⁻¹]", "ψ_f：[L]", "S：[L·T⁻¹ᐟ²]", "PD：[L]", "NP：[L⁻²]"]
+    },
+    {
+      "type": "advantages",
+      "items": ["较准确测垂向K_fs。", "设备和步骤简单。", "便于较快速的时空重复。", "可测表面水分传输/毛管参数。", "长期广泛使用并获科学与工程界认可。"]
+    },
+    {
+      "type": "limitations",
+      "items": ["砾质介质难以插环。", "插环可能破坏结构。", "测地下层次需先移除上层。", "积水时压力势和重力势占比高，φ_m、S、α*、ψ_f、PD、NP精度较低。"]
+    },
+    {"type": "heading", "number": "77.2", "title": "单圆环入渗法", "level": 2},
+    {"type": "method-principle", "text": "把单环插入非饱和介质，在环内施加一个或多个水头，依次测流入介质的速率。分析包括单定水头、多定水头和降水头；单定水头在稳定水头下待流率准稳态后计量。"},
+    {"type": "source-fidelity-note", "text": "原页交叉引用将第79章写作“压力计法”，规范题名是“测压管法”；已按目录和第79章纠正。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "dcecfc3933e5027c5d52a868d047faa1e95f2e54c81eb0f6359bc596aa9f07c2"
+}

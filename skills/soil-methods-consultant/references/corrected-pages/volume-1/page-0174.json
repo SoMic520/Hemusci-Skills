@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 174,
+  "sourceImageSha256": "0f6b869707bb26d99599b58ded708a296184e28fbb7e3f8d7510fb33ce8b529e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率图17.4、离心法材料/方法及注压法材料，并与Apple Vision、PaddleOCR交叉比对，人工恢复图示尺寸、层级和所有步骤"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验60/50 mL、55/45/27 mm、25/10 g、1 500 g、30 min、0.4 μm、5%、0.2% HNO₃ v/v、pH/EC及图注英文"},
+    "secondVisualPass": {"status": "verified", "method": "从注压法材料（5）反向复核至图17.4，确认离心法材料续项2～6、方法7步、图示5类标注和页码143"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第17章｜土壤溶液的采集与测定｜"},
+    {"type": "figure", "label": "图17.4", "title": "采用离心机收集土壤溶液的装置", "labels": ["体积为60 mL的高密度聚乙烯注射器切成", "55 mm", "新鲜土样", "高密度聚乙烯块", "土壤溶液存储器", "45 mm"], "source": "Soon, Y.K.和Warren, C.J., in M.R. Carter (Ed.), Soil Sampling and Methods of Analysis, Lewis Publishers, CRC Press, Boca Raton, Florida, 1993."},
+    {"type": "material-item", "number": "（2）", "continuation": true, "text": "有水平转子、50 mL离心罩或转接适配器，且能制冷的离心机。"},
+    {"type": "material-item", "number": "（3）", "text": "直径为27 mm的高密度聚乙烯块。"},
+    {"type": "material-item", "number": "（4）", "text": "高密度聚乙烯小溶液瓶。"},
+    {"type": "material-item", "number": "（5）", "text": "石蜡。"},
+    {"type": "material-item", "number": "（6）", "text": "0.4 μm聚碳酸酯膜过滤器。"},
+    {"type": "procedure-heading", "level": 4, "number": "2.", "title": "方法"},
+    {"type": "procedure-step", "number": "（1）", "text": "所有与土壤样品及土壤溶液接触的塑料器皿都应该先用5%的盐酸洗净，再用去离子水润洗，直到其电导率恒定且接近或等于去离子水的电导率值。若要测微量元素，则按第10章所述的过程准备。"},
+    {"type": "procedure-step", "number": "（2）", "text": "将高密度聚乙烯块放入裁好的60 mL注射器的底部。"},
+    {"type": "procedure-step", "number": "（3）", "text": "取约25 g潮湿土壤于土壤容器中（若为有机质含量高的土壤，则取10 g），用保鲜膜密封以便避免样品在离心操作过程中水分蒸发损失。每个土样均应该留样，用以测定其水分含量。"},
+    {"type": "procedure-step", "number": "（4）", "text": "将溶液收集杯放在盛有土壤的注射器下方。"},
+    {"type": "procedure-step", "number": "（5）", "text": "保持土柱底部1 500 g的相对离心力离心30 min。"},
+    {"type": "procedure-step", "number": "（6）", "text": "预留部分溶液用于pH值和EC值的分析，剩余溶液转移至干净的存储瓶。溶液存储和分析前，可以在低真空环境下用0.4 μm聚碳酸酯过滤器过滤溶液，除去可能有的杂质。用于金属分析的预留样品应该进行酸化（0.2% HNO₃ v/v），若要分析痕量元素，则应该用痕量金属级硝酸酸化。"},
+    {"type": "procedure-step", "number": "（7）", "text": "所有样品分析，包括空白均需要设置重复。"},
+    {"type": "section-heading", "level": 3, "number": "17.6.2", "title": "注压法（Ross和Bartlett，1990）"},
+    {"type": "procedure-heading", "level": 4, "number": "1.", "title": "材料"},
+    {"type": "material-item", "number": "（1）", "text": "60 mL聚乙烯注射器。"},
+    {"type": "material-item", "number": "（2）", "text": "直径为27 mm的高密度聚乙烯块。"},
+    {"type": "material-item", "number": "（3）", "text": "去离子水。"},
+    {"type": "material-item", "number": "（4）", "text": "压缩装置（见图17.5）。"},
+    {"type": "material-item", "number": "（5）", "text": "0.4 μm的聚碳酸酯膜过滤器。"},
+    {"type": "printed-page-number", "text": "143"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "3ebd983fdf4eca91259593e4b179c1f60e93fa38cb55ea5555947e8745df3874"
+}

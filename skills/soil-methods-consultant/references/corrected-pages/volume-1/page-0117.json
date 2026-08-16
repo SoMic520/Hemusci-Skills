@@ -1,0 +1,51 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 117,
+  "sourceImageSha256": "896f433951330f98da1a4057416617509f160ca0816abcaf95617df6ce23eb13",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行逐项对照原分辨率方法页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复10.3.4续文、10.4.1材料与三级制备流程及10.4.2前两步"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对EDTA、H₄EDTA、NH₄OH、NH₄-EDTA、HNO₃、0.05 mol/L、g、mL、L、μm、r/min、min、℃、1∶1及pH 7.0±0.1"},
+    "secondVisualPass": {"status": "verified", "method": "按10.3.4两条续文、10.4材料、H₄EDTA/NH₄OH/NH₄-EDTA制备和步骤反向复核，确认化学式下标、层级和印刷页码86"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "ordered-list", "parent": "10.3.4｜注释", "items": [
+      {"number": null, "continuation": true, "text": "阅读原始文献。"},
+      {"number": "（3）", "text": "这种提取方法的重现性较差，因此实验过程中的每个步骤都应认真处理。"},
+      {"number": "（4）", "text": "作为质量控制过程的一部分，每批样品应重复分析一个样品以评价整个实验的重现性。计算质控样品的所有测量值时，当质量控制样品的值处于两个标准差范围外时，应重新分析整批样品。"}
+    ]},
+    {"type": "section-heading", "level": 2, "number": "10.4", "title": "0.05 mol/L EDTA提取法"},
+    {"type": "section-heading", "level": 3, "number": "10.4.1", "title": "材料和试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "离心机和50 mL Boston型聚乙烯离心管（除了注释中所述的酸洗过程，实验之前所用器材必须用EDTA润洗后用水冲洗干净）。"},
+      {"number": "（2）", "text": "旋转振荡器（15 r/min）。"},
+      {"number": "（3）", "text": "0.05 mol/L NH₄-EDTA盐溶液：高纯度铵盐形式的EDTA很难获得。下文提供了常用的试剂级化学品的提纯方法。"},
+      {"number": "（4）", "text": "超纯水。"},
+      {"number": "（5）", "text": "0.45 μm的滤膜（尼龙或聚碳酸酯）。"}
+    ]},
+    {"type": "section-heading", "level": 4, "number": "1.", "title": "提纯H₄EDTA"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "称取约100 g H₄EDTA酸于聚四氟乙烯烧杯中。"},
+      {"number": "（2）", "text": "加入大约150 mL 2%的微量金属级HNO₃。"},
+      {"number": "（3）", "text": "用磁力搅拌器搅拌10 min。"},
+      {"number": "（4）", "text": "溶液静置沉淀后倾倒上清液。"},
+      {"number": "（5）", "text": "向沉淀中加入约150 mL HNO₃，搅拌、沉淀、倾倒上清液，至少重复三次。"},
+      {"number": "（6）", "text": "用上述同样的方法使用超纯水（或同规格纯水）冲洗（即加入约150 mL水，搅拌、沉淀、倾倒上清液）至少三次。"},
+      {"number": "（7）", "text": "把制备好的化学试剂放在烘箱中（约40℃）干燥过夜（将H₄EDTA粉碎后保存）。"}
+    ]},
+    {"type": "section-heading", "level": 4, "number": "2.", "title": "制备纯NH₄OH"},
+    {"type": "paragraph", "text": "购买微量金属级氨水或在实验室通过试剂级氨水制备；需要非常洁净的实验器材和高效的通风橱。在通风橱里的洁净干燥器中，放置一个装有约100 mL美国化学学会（ACS）试剂级浓NH₄OH的烧杯和另一个装有100 mL超纯水的聚四氟乙烯烧杯。打开盖子并静置过夜。第二天早上聚四氟乙烯烧杯中即是纯的1∶1的稀氨水（NH₄OH）。", "inlineNotation": ["100 mL", "ACS", "NH₄OH", "1∶1"]},
+    {"type": "section-heading", "level": 4, "number": "3.", "title": "制备纯NH₄-EDTA盐溶液"},
+    {"type": "paragraph", "text": "将29.2 g纯化的H₄EDTA溶解于1.8 L超纯水中，置于通风橱中的磁力搅拌器上，加入大约25 mL按上述方法所制备的纯1∶1氨水，搅拌，继续逐渐加入NH₄OH直到H₄EDTA完全溶解（pH值为6左右）。将pH值调节至7.0±0.1，转移至2 L容量瓶中并用超纯水定容。在盖好的2 L聚乙烯瓶中保存。", "inlineNotation": ["29.2 g", "H₄EDTA", "1.8 L", "25 mL", "1∶1", "NH₄OH", "pH值为6左右", "pH值调节至7.0±0.1", "2 L"]},
+    {"type": "section-heading", "level": 3, "number": "10.4.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "在室温下进行。取样前，务必充分搅拌样品约1 min以确保样品彻底混匀。设置三个平行样品。每个土样取一个子样品以估算其含水量。在每批提取实验中设置两个空白溶液（离心管中不加土壤只加溶液）及两个质量控制样品。称取大约1.000 g的土壤置于50 mL的离心管中并记录重量。"},
+      {"number": "（2）", "text": "在每个离心管中加入25 mL纯化的0.05 mol/L NH₄-EDTA，加盖并在旋转振荡器上以15 r/min"}
+    ]},
+    {"type": "printed-page-number", "text": "86"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d10c048c8ffafe89e5d84b20777580fd6cca923cc29f716b04de0970d0268d92"
+}

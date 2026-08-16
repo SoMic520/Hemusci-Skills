@@ -1,0 +1,49 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 203,
+  "sourceImageSha256": "42c1a5c21966b540247ee3a95b1996ef3580005a7ebf46e79fd2912059a5cd64",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复21.3.1计算/盐碱土校正及21.3.2原理、试剂、步骤和计算标题"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验式（21.5）/（21.6）、FeⅡ、CrⅥ、K₂Cr₂O₇、Fe(NH₄)₂(SO₄)₂·6H₂O、H₃PO₄、FeSO₄·7H₂O、mol L⁻¹/N、90/150 ℃和三组终点颜色"},
+    "secondVisualPass": {"status": "verified", "method": "从页末计算（1）反向复核至首句，确认邻啡罗啉/邻苯氨基苯甲酸/二苯胺、1 L 98%浓硫酸、FeⅢ干扰及页码172"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph-continuation", "text": "计算未知样品中的碳含量。"},
+    {"type": "formula-explanation", "formulaRef": "21.5", "text": "如果土样碳含量小于2 mg或者大于20 mg，那么应该增加或减少称样量重新分析，以便使测定在最适当的标准曲线范围内进行。"},
+    {"type": "procedure-group", "number": "4.", "title": "盐碱土的校正"},
+    {"type": "paragraph", "text": "对于盐碱土，必须进行氯离子含量的单独测定，结果以土样含氯量（g·kg⁻¹）表示。土壤中有机碳含量与氯离子含量的关系为："},
+    {"type": "section-heading", "level": 3, "number": "21.3.2", "title": "重铬酸盐氧化还原滴定法"},
+    {"type": "paragraph", "text": "这个方法的步骤与分光光度计比色法相似，不同的是该方法是利用FeⅡ溶液反滴定有机碳与酸性重铬酸盐反应之后剩余的未反应重铬酸盐（CrⅥ），从所消耗的重铬酸盐量来计算有机碳的含量。这里介绍的是Jackson（1962）在Schollenberger（1945）方法基础上进行改进后以邻啡罗啉为指示剂的方法。邻苯氨基苯甲酸（Nelson和Sommers，1982）或者二苯胺（Piper，1944）可以代替邻啡罗啉做指示剂。碳酸盐不会对测定结果产生干扰，但氯离子会有影响，因此氯离子含量偏高时，必须用校正系数校正。"},
+    {"type": "procedure-group", "number": "1.", "title": "试剂"},
+    {"type": "reagent-item", "group": "1", "number": "（1）", "name": "消解混合液", "text": "在一个大玻璃烧杯中，将39.22 g在90 ℃烘干的重铬酸钾（K₂Cr₂O₇）溶解于800～900 mL蒸馏水或者去离子水中。小心加入1 L 98%的浓硫酸，随着酸的加入，混合溶液会变得非常热并沸腾。等到溶液冷却之后，用蒸馏水或者去离子水定容到2 L。此时溶液中含有0.067 mol L⁻¹（0.4 N）的重铬酸盐和9 mol L⁻¹的硫酸，作为有机碳测定的基准液。"},
+    {"type": "reagent-item", "group": "1", "number": "（2）", "name": "硫酸亚铁铵溶液", "text": "溶解157 g Fe(NH₄)₂(SO₄)₂·6H₂O于1 L含有100 mL 98%的浓硫酸的蒸馏水或去离子水中，定容至2 L，得到约0.2 mol L⁻¹（0.2 N）的溶液。该溶液不能长期保存，每次使用前必须以标准的重铬酸盐溶液标定。"},
+    {"type": "reagent-item", "group": "1", "number": "（3）", "name": "磷酸溶液", "text": "85%的H₃PO₄溶液。"},
+    {"type": "reagent-item", "group": "1", "number": "（4）", "name": "指示剂", "text": "溶解3.00 g邻啡罗啉一水化合物（亚铁）和1.40 g FeSO₄·7H₂O于蒸馏水或去离子水中，定容至200 mL。也可以选择溶解0.1 g邻苯氨基苯甲酸和0.1 g碳酸钠于100 mL蒸馏水或者去离子水中，或者将适量的98%的浓硫酸缓慢加入20 mL蒸馏水或去离子水中，将0.5 g二苯胺溶于其中，最后用98%的浓硫酸小心地定容至100 mL。"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤"},
+    {"type": "procedure-step", "group": "2", "number": "（1）", "text": "称取过0.15 mm筛的土壤样品1.0 g于100 mL消解管中，样品有机碳含量应该为1～10 mg。加入15 mL消解混合液，将消解管置于预热至150 ℃的消煮炉上。"},
+    {"type": "procedure-step", "group": "2", "number": "（2）", "text": "加热45 min后，从消煮炉中取出试管并冷却。用约50 mL蒸馏水或去离子水将溶液和土样全部转移到滴定瓶中。加入5 mL 85%的H₃PO₄溶液和4滴指示剂。其中H₃PO₄用于消除FeⅢ的干扰。"},
+    {"type": "procedure-step", "group": "2", "number": "（3）", "text": "用Fe(NH₄)₂(SO₄)₂溶液滴定，样品溶液的颜色变化为绿色—砖红色（邻啡罗啉指示剂）、暗紫色—绿色—浅绿色（邻苯氨基苯甲酸指示剂）、紫色—蓝色—绿色（二苯胺指示剂）。"},
+    {"type": "procedure-step", "group": "2", "number": "（4）", "text": "两个未加热的空白对照同样用Fe(NH₄)₂(SO₄)₂溶液滴定，用来标定Fe(NH₄)₂(SO₄)₂溶液的摩尔浓度。"},
+    {"type": "procedure-group", "number": "3.", "title": "计算"},
+    {"type": "calculation-item", "number": "（1）", "continued": true, "text": "计算Fe(NH₄)₂(SO₄)₂溶液的摩尔浓度或当量浓度："},
+    {"type": "printed-page-number", "text": "172"}
+  ],
+  "formulas": [
+    {
+      "number": "21.5",
+      "context": "土样含碳量",
+      "display": "土样含碳量（g·kg⁻¹）= 消解液含碳量（mg）/土样重量（g）",
+      "latex": "\\text{土样含碳量}(\\mathrm{g}\\cdot\\mathrm{kg}^{-1})=\\frac{\\text{消解液含碳量}(\\mathrm{mg})}{\\text{土样重量}(\\mathrm{g})}"
+    },
+    {
+      "number": "21.6",
+      "context": "盐碱土氯离子校正",
+      "display": "土样含碳量（g·kg⁻¹）= 未校正的土样含碳量（g·kg⁻¹）−[土样含氯量（g·kg⁻¹）/12]",
+      "latex": "\\text{土样含碳量}(\\mathrm{g}\\cdot\\mathrm{kg}^{-1})=\\text{未校正的土样含碳量}(\\mathrm{g}\\cdot\\mathrm{kg}^{-1})-\\frac{\\text{土样含氯量}(\\mathrm{g}\\cdot\\mathrm{kg}^{-1})}{12}"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "424048775811407a7e547fc6854a35fa9661243a7226f687e7f8bf9832436b2f"
+}

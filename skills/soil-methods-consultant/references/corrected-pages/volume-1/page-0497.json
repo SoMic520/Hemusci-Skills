@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 497,
+  "sourceImageSha256": "056b23302eba6da329cd0a337f70ea3b8b3f247accc1cd96556d0b7dddf2d59d",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成49.1承上、49.2全文、49.3原理及49.3.1全部材料试剂"},
+    "precisionPass": {"status": "verified", "method": "核验10 d、−5～−10 kPa、60 °C、0.5 mol·L⁻¹ K₂SO₄、871.3 g/10 L、2 h及25样品容量"},
+    "secondVisualPass": {"status": "verified", "method": "由材料⑥反向复核至49.1承上句，重点确认原页为60 °C而非OCR的600 °C，检查试剂配方与章节层级；印刷页码466"}
+  },
+  "blocks": [
+    {"type": "paragraph", "scope": "49.1", "text": "移去熏蒸剂后培养熏蒸土壤，重新接种的微生物群落矿化熏蒸所释放的细胞组织成分，产生CO₂“分解峰”；该CO₂量与微生物量C成正比。熏蒸–培养法曾是微生物量C（Jenkinson和Powlson，1976）和N（Voroney和Paul，1990）的标准法，用于校准其他方法（Ross，1990）。现已普遍用熏蒸–浸提法取代，直接提取并测定氯仿熏蒸释放的微生物组织成分，显著缩短测定时间。本章主要介绍用该法测定微生物量C、N、P和S。"},
+    {"type": "section-heading", "level": 2, "number": "49.2", "title": "氯仿熏蒸–浸提法"},
+    {"type": "paragraph", "text": "与熏蒸–培养法相比，熏蒸–浸提法测定土壤微生物量C、N、P和S速度快；可用于pH较低的土壤（Couteaux和Henkinet，1990）和新加有机基质的土壤（Vance等，1987）；不需在受控条件下培养10 d以矿化熏蒸杀死的生物（Vance等，1987；Amato和Ladd，1988；Gallardo和Schlesinger，1990）。"},
+    {"type": "paragraph", "text": "该法适用于初始水分低的土壤，熏蒸时可将土壤水势控制在−5～−10 kPa（Sparling等，1990）；也适用于淹水土壤和水稻土（Inubushi等，1991）。Díaz-Raviña等（1992）还将其用于加热到60 °C的土壤。最主要的优点是可测定含新添加和新鲜分解底物土壤的微生物量（Ocio和Brookes，1990a），与同位素标记底物结合更理想（Wu和Brookes，2005）。"},
+    {"type": "source-fidelity-note", "scope": "49.2加热土壤温度", "text": "原页清晰为60 °C；PaddleOCR误识为600 °C。已按原页恢复，禁止把该处当作600 °C灰化处理。"},
+    {"type": "section-heading", "level": 2, "number": "49.3", "title": "微生物量碳和氮"},
+    {"type": "paragraph", "text": "微生物量C和N由氯仿熏蒸新鲜土壤与未熏蒸对照土壤的0.5 mol·L⁻¹ K₂SO₄浸提液中总C、总N差值计算（Sparling和West，1988a）；将熏蒸释放的C、N增量除以相应提取系数。"},
+    {"type": "section-heading", "level": 3, "number": "49.3.1", "title": "材料和试剂"},
+    {"type": "paragraph", "text": "除特别说明外，试剂均为分析纯，用1号去离子水配制。"},
+    {"type": "materials-list", "scope": "49.3.1", "items": [
+      {"number": "（1）", "text": "无乙醇氯仿；试剂级氯仿纯化见49.6说明1。"},
+      {"number": "（2）", "text": "大型真空干燥器：对氯仿蒸气惰性、无油密封、能承受高真空而不破裂，可同时容纳25个样品；宜用厚壁玻璃真空干燥器。"},
+      {"number": "（3）", "text": "0.5 mol·L⁻¹ K₂SO₄浸提液：向约9.5 L水中缓慢加871.3 g试剂级K₂SO₄，磁力搅拌至完全溶解（约2 h），冷却至室温后定容至10 L。"},
+      {"number": "（4）", "text": "其他：通风橱；沸石；100 mL带塞玻璃容器；土壤水分称量铝盒；Whatman GF 934-AH玻璃纤维滤纸；过滤样品用50 mL分析玻璃瓶。"}
+    ]}
+  ],
+  "formulas": [
+    {"id": "49.3-principle-c", "display": "EC = Cfumigated − Cunfumigated; MBC = EC/kEC", "meaning": "氯仿熏蒸–K₂SO₄浸提法的微生物量C原理"},
+    {"id": "49.3-principle-n", "display": "EN = Nfumigated − Nunfumigated; MBN = EN/kEN", "meaning": "氯仿熏蒸–K₂SO₄浸提法的微生物量N原理"}
+  ],
+  "tables": [],
+  "contentSha256": "18ef14afd29dc1e0c51b6051cb4b65d7191dd30d676c7c29cd8ddb68aef6fb87"
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 413,
+  "sourceImageSha256": "cdfdb85b0e589c55ba02354224606716f1c43829d0431f4ab7502b3d7d1517f4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版39.3.4和参考文献"},
+    "precisionPass": {"status": "verified", "method": "核验6～8 h、CO₂、盐酸氧四环素/二水氧四环素、滑石载体及卷页号；逐条校正文献人名和变音符"},
+    "secondVisualPass": {"status": "verified", "method": "由Bailey 2002反向复核至39.3.4承上句，检查Bååth、Pomaré、für及连字符；印刷页码382"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "note-item", "number": "（1）续", "text": "这种预培养也可用于优化方法；随后可按储存、预培养土样上确定的参数，对同一种土壤的新鲜样品进行培养测定。"},
+    {"type": "note-item", "number": "（2）", "text": "抗生素溶解度不同。水溶性抗生素可配成水溶液加入，但所有处理都须加入等量水，如同滑石对照。使用水溶液时应检查各抗生素的水中溶解度，高浓度可能超过溶解限；不同形式的同种抗生素溶解度也不同，例如盐酸氧四环素远比二水氧四环素易溶。少量抗生素施入土壤时，滑石载体尤其重要，可使抗生素在土样中分布均匀。"},
+    {"type": "note-item", "number": "（3）", "text": "用葡萄糖刺激呼吸可能使微生物群落响应偏向利用葡萄糖的群体，因此F∶B只代表葡萄糖响应群体。但若不刺激生物量，呼吸水平，特别是抑制处理的呼吸，可能低于准确检出限。"},
+    {"type": "note-item", "number": "（4）", "text": "选择性抑制法还可能因抗生素杀死大量敏感微生物而受干扰：死亡微生物可成为幸存生物的底物。Anderson和Domsch（1975）规定短时培养6～8 h，以降低抑制剂降解产生CO₂的可能性；短培养同样降低死亡生物量产生的CO₂显著改变葡萄糖诱导CO₂的可能性。"},
+    {"type": "note-item", "number": "（5）", "text": "本方法给出的浓度范围仅供可能有效范围参考。高有机质土壤可能需更多抗生素才能抑制呼吸，因为部分抗生素会被有机质或其他土壤组分吸附（Alphei等，1995）。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "bibliography", "text": "Adams, T. McM. and Laughlin, R.J. 1981. The effects of agronomy on the carbon and nitrogen contained in the soil biomass. J. Agric. Sci. 97: 319–327."},
+    {"type": "bibliography", "text": "Alphei, J., Bonkowski, M., and Scheu, S. 1995. Application of the selective inhibition method to determine bacterial:fungal ratios in three beechwood soils rich in carbon—optimization of inhibitor concentrations. Biol. Fert. Soils. 19: 173–176."},
+    {"type": "bibliography", "text": "Anderson, J.P.E. 1982. Soil respiration. In: A.L. Page, R.H. Miller, and D.R. Keeney, eds. Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties, 2nd ed. ASA–SSSA, Madison, WI, pp. 831–871."},
+    {"type": "bibliography", "text": "Anderson, J.P.E., Armstrong, R.A., and Smith, S.N. 1981. Methods to evaluate pesticide damage to the biomass of the soil microflora. Soil Biol. Biochem. 13: 149–153."},
+    {"type": "bibliography", "text": "Anderson, J.P.E. and Domsch, K.H. 1973. Quantification of bacterial and fungal contributions to soil respiration. Arch. für Mikrobiol. 93: 113–127."},
+    {"type": "bibliography", "text": "Anderson, J.P.E. and Domsch, K.H. 1975. Measurement of bacterial and fungal contributions to respiration of selected agricultural and forest soils. Can. J. Microbiol. 21: 314–322."},
+    {"type": "bibliography", "text": "Anderson, J.P.E. and Domsch, K.H. 1978. A physiological method for the quantitative measurement of microbial biomass in soils. Soil Biol. Biochem. 10: 215–221."},
+    {"type": "bibliography", "text": "Ayanaba, A.A., Tuckwell, S.B., and Jenkinson, D.S. 1976. The effects of clearing and cropping on the organic reserves and biomass of tropical forest soils. Soil Biol. Biochem. 8: 519–525."},
+    {"type": "bibliography", "text": "Bååth, E. and Anderson, T.H. 2003. Comparison of soil fungal/bacterial ratios in a pH gradient using physiological and PLFA-based techniques. Soil Biol. Biochem. 35: 955–963."},
+    {"type": "bibliography", "text": "Badalucco, L., Pomaré, F., Grego, S., Landi, L., and Nannipieri, P. 1994. Activity and degradation of streptomycin and cycloheximide in soil. Biol. Fert. Soils. 18: 334–340."},
+    {"type": "bibliography", "text": "Bailey, V.L., Smith, J.L., and Bolton, H., Jr. 2002. Fungal-to-bacterial ratios in soils investigated for enhanced carbon sequestration. Soil Biol. Biochem. 34: 1385–1389."},
+    {"type": "printed-page-number", "text": "382"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "ec92d0bdc8c0d9cae562ba5c6090cbd3c53380edcfeae1d8b2830523d83433b2"
+}

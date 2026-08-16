@@ -1,0 +1,94 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 303,
+  "sourceImageSha256": "16811fe28f76e2adda6a1aa0bd438d415fbac8d2a3d2b208e604d1c49a3d218e",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对步骤(3)续文、步骤(4)、83.3正文及式(83.1)～式(83.6)"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对3/6/12/24 h、积分上下限、偏导与定深度竖线、H=ψ−z及全部量纲"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "按z向下为正的符号约定，复核通量、储水量和水力梯度公式；印刷页码812"
+    }
+  },
+  "blocks": [
+    {
+      "type": "continuation",
+      "section": "83.2 装置和步骤",
+      "items": [
+        "达到田间饱和或全部测量深度θ、ψ恒定后，立即覆盖地表，例如把稻草、树皮等覆盖物置于地表并在其上覆塑料膜，以建立地表水流通量为0且恒温的重力排水条件。重力排水使剖面θ和ψ随时间逐渐减小。",
+        "灌溉结束时记t=0，开始测定全部深度θ和ψ随时间的变化，直至二者减小到有效稳定值。过程可因介质差异持续数小时至数月。灌溉停止后约第一小时内应频繁甚至连续采集；随后排水减慢，可按几何级数增加采集间隔，例如3、6、12、24 h，以定义通常随时间呈指数形式降低的θ。条件允许时可进行多次湿润—排水循环，或在一年中不同时间重复试验。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "83.3",
+      "title": "分析和计算",
+      "level": 2
+    },
+    {
+      "type": "definitions",
+      "items": [
+        "t[T]为时刻；W[L]为多孔介质剖面储水量。",
+        "z[L]为多孔介质表面以下深度，地表z=0；L[L]为地表至最深一组θ、ψ探头的深度。",
+        "q[L·T⁻¹]为测定区任一深度和时刻的水流通量；假定多孔介质表面通量为0。",
+        "H(z,t)=ψ(z,t)−z为总水头，z向下为正；K(θ)_z[L·T⁻¹]为深度z处导水率—体积含水量关系。"
+      ]
+    },
+    {
+      "type": "analysis-note",
+      "paragraphs": [
+        "式(83.2)表示，表面至深度z之间储水量的时间变化率与深度z处排水通量相等。任意深度和时间的水流通量用达西定律表示为式(83.3)，把式(83.2)代入式(83.3)得到式(83.4)。",
+        "由于测得不同深度的θ(z,t)和ψ(z,t)，可确定θ(ψ)_z和K(ψ)_z；即以相应ψ替换K(θ)_z中的θ。",
+        "式(83.4)的准确性依赖∂H(z,t)/∂z和∂W(z,t)/∂t。认真校准基质水头探头并减小探头间距可提高前者准确性；用可微经验式拟合W(z,t)—t数据可提高后者准确性，并同时描述早期快速下降与后期缓慢下降。Vachaud and Dane (2002)给出式(83.5)和式(83.6)两种经验式。"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "label": "83.1",
+      "plain": "W(z,t)=∫₀ᶻθ(z,t)dz；0≤z≤L",
+      "latex": "W(z,t)=\\int_0^z\\theta(z,t)\\,dz;\\qquad 0\\leq z\\leq L",
+      "resultUnit": "L"
+    },
+    {
+      "label": "83.2",
+      "plain": "q(z,t)|_z=∂[∫₀ᶻθ(z,t)dz]/∂t=∂W(z,t)/∂t|_z",
+      "latex": "q(z,t)\\big|_z=\\frac{\\partial}{\\partial t}\\int_0^z\\theta(z,t)\\,dz=\\left.\\frac{\\partial W(z,t)}{\\partial t}\\right|_z",
+      "resultUnit": "L·T⁻¹"
+    },
+    {
+      "label": "83.3",
+      "plain": "q(z,t)|_z=K(θ)|_z·∂H(z,t)/∂z|_z",
+      "latex": "q(z,t)\\big|_z=K(\\theta)\\big|_z\\left.\\frac{\\partial H(z,t)}{\\partial z}\\right|_z"
+    },
+    {
+      "label": "总水头",
+      "plain": "H(z,t)=ψ(z,t)−z（z向下为正）",
+      "latex": "H(z,t)=\\psi(z,t)-z"
+    },
+    {
+      "label": "83.4",
+      "plain": "K(θ)|_z=[∂W(z,t)/∂t|_z]/[∂H(z,t)/∂z|_z]",
+      "latex": "K(\\theta)\\big|_z=\\left.\\frac{\\partial W(z,t)}{\\partial t}\\right|_z\\bigg/\\left.\\frac{\\partial H(z,t)}{\\partial z}\\right|_z"
+    },
+    {
+      "label": "83.5",
+      "plain": "W(t)=a ln t+b",
+      "latex": "W(t)=a\\ln t+b"
+    },
+    {
+      "label": "83.6",
+      "plain": "W(t)=ctᵈ",
+      "latex": "W(t)=ct^d"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "2b08161fd669003881b3945cf3f8780f6182660ff10c0218ecc0e9322afb827f"
+}

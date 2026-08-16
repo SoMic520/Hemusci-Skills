@@ -1,0 +1,106 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 37,
+  "sourceImageSha256": "49b9a8ebe5c158bd142eca29f08d542280d498d442515a481b1934f39d8043ed",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文与表格页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部漏字、错字和表格空单元格"},
+    "precisionPass": {"status": "verified", "method": "局部放大核对dᵣ下标、μ、CV百分比区间、式（1.3）、表1.1全部数值、表1.2脚注上标及Ca、Mg、K符号"},
+    "secondVisualPass": {"status": "verified", "method": "按正文、公式、表题、列头、逐行数值、分类条目、脚注和页码顺序反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "text": "正确使用分层采样得到的结果很可能比简单随机采样好，但是在选择之前必须满足以下四个条件（Williams，1984）："},
+    {"type": "list-item", "marker": "①", "text": "在采样前必须对样本总体进行分层；"},
+    {"type": "list-item", "marker": "②", "text": "层级必须全覆盖且不可交叉（即样本总体的所有要素必须分配到单独的层级）；"},
+    {"type": "list-item", "marker": "③", "text": "层级必须在研究的属性或性质上有所不同，否则分层随机采样的精确度并不会优于简单随机采样；"},
+    {"type": "list-item", "marker": "④", "text": "代表每个层级的样本必须是随机选取的。"},
+    {"type": "paragraph", "text": "对于实地研究，研究区随机样点的选择可以借助于全球定位系统（GPS）完成。在野外调查之前，应选定随机采样点，并将其标记到GPS中，这样研究者可以使用GPS精确定位研究区域中的采样点。"},
+    {"type": "paragraph", "text": "确定清单研究中的样本数量。在某个项目的设计阶段，为了使估计平均值达到预先规定的精度，确定采集样本的数量是必须且重要的一步。其中一种方法是依据先验知识中样本属性的变异系数估计样本的数量，从而得到预先设定的相对误差。相对误差（dᵣ）定义如下：", "inlineNotation": ["d_r"]},
+    {"type": "formula-reference", "number": "1.3", "text": "dᵣ=（抽样样本均值-总体样本均值）/总体样本均值", "inlineNotation": ["d_r=(sample mean-population mean)/population mean"]},
+    {"type": "paragraph", "text": "表1.1估计了选定置信限后为达到指定相对误差所需的样本数量。比如，置信限为0.95，相对误差为0.25，如果变异系数（CV）为50%，那么所需样本数为16；如果变异系数（CV）为150%，那么所需样本数为139。不同土壤性质变异系数（CV）的估计值见表1.2。"},
+    {"type": "table-reference", "number": "1.1", "title": "运用预设的相对误差和变异系数估计所需采样量的平均值的真值（μ）", "inlineNotation": ["mu"]},
+    {"type": "table-reference", "number": "1.2", "title": "土壤性质的变异性"},
+    {"type": "printed-page-number", "text": "6"}
+  ],
+  "formulas": [
+    {
+      "number": "1.3",
+      "display": "dᵣ=（抽样样本均值-总体样本均值）/总体样本均值",
+      "latex": "d_r=\\frac{\\text{抽样样本均值}-\\text{总体样本均值}}{\\text{总体样本均值}}",
+      "variables": [
+        {"symbol": "dᵣ", "latex": "d_r", "meaning": "相对误差"}
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "number": "1.1",
+      "title": "运用预设的相对误差和变异系数估计所需采样量的平均值的真值（μ）",
+      "columns": ["置信限", "相对误差 dᵣ", "CV 10%", "CV 20%", "CV 40%", "CV 50%", "CV 100%", "CV 150%"],
+      "rows": [
+        ["0.80", "0.10", "2", "7", "27", "42", "165", "370"],
+        ["0.80", "0.25", "", "", "6", "6", "27", "60"],
+        ["0.80", "0.50", "", "", "", "2", "7", "15"],
+        ["0.80", "1.0", "", "", "", "", "2", "4"],
+        ["0.90", "0.10", "2", "12", "45", "70", "271", "609"],
+        ["0.90", "0.25", "", "", "9", "12", "45", "92"],
+        ["0.90", "0.50", "", "", "", "2", "13", "26"],
+        ["0.90", "1.0", "", "", "", "", "2", "8"],
+        ["0.95", "0.10", "4", "17", "63", "97", "385", "865"],
+        ["0.95", "0.25", "", "", "12", "17", "62", "139"],
+        ["0.95", "0.50", "", "", "", "4", "16", "35"],
+        ["0.95", "1.0", "", "", "", "", "9", "16"]
+      ],
+      "sourceNote": "来源：改编自 Gilbert, R.O., Statistical Methods for Environmental Pollution Monitoring, van Nostrand, Reinhold, New York, 1987, pp 320。"
+    },
+    {
+      "number": "1.2",
+      "title": "土壤性质的变异性",
+      "dimension": "变异系数",
+      "columns": [
+        "低（CV＜15%）",
+        "适中（CV 15%～35%）",
+        "高（CV 35%～75%）",
+        "较高（CV 75%～150%）"
+      ],
+      "columnItems": [
+        [
+          {"text": "土壤色度", "footnote": "a"},
+          {"text": "pH", "footnote": "a"},
+          {"text": "A层厚度", "footnote": "a"},
+          {"text": "粉粒含量", "footnote": "a"},
+          {"text": "孔隙度", "footnote": "b"},
+          {"text": "容重", "footnote": "b"}
+        ],
+        [
+          {"text": "砂粒含量", "footnote": "a"},
+          {"text": "黏粒含量", "footnote": "a"},
+          {"text": "阳离子交换量", "footnote": "a"},
+          {"text": "%BS", "footnote": "a"},
+          {"text": "碳酸钙当量", "footnote": "a"},
+          {"text": "作物产量", "footnote": "b"},
+          {"text": "土壤有机碳", "footnote": "b"}
+        ],
+        [
+          {"text": "土层厚度", "footnote": "a"},
+          {"text": "可交换态Ca、Mg、K", "footnote": "a"},
+          {"text": "土壤硝态氮", "footnote": "b"},
+          {"text": "土壤有效磷", "footnote": "b"},
+          {"text": "土壤有效钾", "footnote": "b"}
+        ],
+        [
+          {"text": "氧化亚氮通量", "footnote": "b"},
+          {"text": "电导率", "footnote": "b"},
+          {"text": "饱和导水率", "footnote": "b"},
+          {"text": "溶质的扩散系数", "footnote": "b"}
+        ]
+      ],
+      "footnotes": {
+        "a": "摘自 Wilding, L.P. and Drees, L.R., In: L.P. Wilding, N.E. Smeck, and G.F. Hall, (Eds.), Pedogenesis and Soil Taxonomy. I. Concepts and Interactions, Elsevier Science Publishing, New York, 1983, 83-116.",
+        "b": "摘自 Mulla, D.J. and McBratney, A.B., In: M.E. Sumner (Ed.), Handbook of Soil Science, CRC Press, Boca Raton, Florida, 2000, A321-A352."
+      }
+    }
+  ],
+  "contentSha256": "8549714d343698b0bd294f1f188a0d10a55dfadea9f6ed5d709ca5f7d66c29dd"
+}

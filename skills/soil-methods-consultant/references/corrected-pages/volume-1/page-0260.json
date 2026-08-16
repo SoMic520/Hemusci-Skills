@@ -1,0 +1,40 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 260,
+  "sourceImageSha256": "3b2e5cff566f3a3d67d1519896b7b236a43a642166d18ad1132ae2eada20d22c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第26章第229页，并与Apple Vision、PaddleOCR交叉比对，人工恢复26.2.2（2）～（8）、式（26.1）～（26.2）及26.3至26.3.2（2）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验510 g（力）、16 h、AAS、空气-乙炔/一氧化二氮-乙炔、μg·mL⁻¹、×10 000、(NH₄)₂C₂O₄·H₂O、H₂C₂O₄·2H₂O、0.2 mol·L⁻¹及公式运算"},
+    "secondVisualPass": {"status": "verified", "method": "从26.3.2（2）反向复核至26.2.2（2），确认步骤→计算→酸性草酸铵原理→试剂→步骤层级、两条公式变量与示例代入、印刷页码229"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第26章｜土壤中有效态铝、铁、锰、硅的元素分析｜"},
+    {"type": "procedure-step", "number": "（2）", "text": "加入25 mL柠檬酸钠溶液。", "section": "26.2.2 步骤"},
+    {"type": "procedure-step", "number": "（3）", "text": "加入约0.4 g连二亚硫酸钠（使用校准过的勺子）。"},
+    {"type": "procedure-step", "number": "（4）", "text": "拧紧离心管，在旋转振荡机振荡过夜（约16 h）。也可以使用水平方向的往复式振荡机，但会增加粒子之间的磨损。"},
+    {"type": "procedure-step", "number": "（5）", "text": "取掉离心管的盖子，以510 g（力）离心20 min（如果土壤样品黏粒含量较高就应该提高离心机的转速），如果上清液有悬浮物则需要过滤。"},
+    {"type": "procedure-step", "number": "（6）", "text": "采用原子吸收光谱法（AAS）测定滤液中的铝、铁、锰和硅含量。应该采用相同浓度的提取液制作这些元素的标准溶液，即用连二亚硫酸盐-柠檬酸钠浸提液。溶液应该适度加热以便溶解连二亚硫酸钠。注意，在标准溶液浓度较高的情况下，连二亚硫酸钠的沉淀易堵塞原子吸收光谱仪的燃烧器，可以适当减少标准溶液中的连二亚硫酸钠的量以便降低其对仪器的影响。"},
+    {"type": "procedure-step", "number": "（7）", "text": "测定铁和锰采用空气-乙炔火焰，测定铝和硅采用一氧化二氮-乙炔火焰。"},
+    {"type": "procedure-step", "number": "（8）", "text": "如果土壤提取液需要稀释，那么应该采用原始提取液进行稀释，同时标准系列也应该用原始提取液进行稀释。"},
+    {"type": "heading", "level": 2, "number": "26.2.3", "title": "计算"},
+    {"type": "calculation-note", "text": "例如，0.500 g样品，25 mL提取剂，稀释倍数为5，待测液测定值为48 μg Fe·mL⁻¹："},
+    {"type": "heading", "level": 1, "number": "26.3", "title": "酸性草酸铵法（避光）（McKeague和Day，1966）"},
+    {"type": "principle", "text": "1922年，Tamm提出酸性草酸铵法去除土壤中风化的倍半氧化物。Schwertmann在1959年对该方法进行了改进，用于估算土壤中非结晶态和无序态的铝及铁。草酸铵法能够提取灰化土B层中积累的非结晶态的铝和铁（McKeague和Day，1966），以此鉴定灰化土B层。草酸盐也能溶解水铝英石和伊毛缟石（Wada，1989）。在土壤分类学中，草酸盐提取的铝、铁量常用来作为暗色土壤分类定性的划分标准（Soil Survey Staff，1990）。需要注意的是，该方法的提取过程必须在黑暗中进行，以防止草酸溶液发生光解。"},
+    {"type": "heading", "level": 2, "number": "26.3.1", "title": "试剂"},
+    {"type": "reagent-item", "number": "（1）", "text": "溶液A：(NH₄)₂C₂O₄·H₂O，0.2 mol·L⁻¹（28.3 g·L⁻¹）。"},
+    {"type": "reagent-item", "number": "（2）", "text": "溶液B：H₂C₂O₄·2H₂O，0.2 mol·L⁻¹（25.2 g·L⁻¹）。"},
+    {"type": "reagent-item", "number": "（3）", "text": "将700 mL的溶液A和535 mL的溶液B混合，并通过添加溶液A或溶液B调节溶液pH值至3.0。"},
+    {"type": "reagent-item", "number": "（4）", "text": "原子吸收误差标准：±1%。"},
+    {"type": "heading", "level": 2, "number": "26.3.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取0.250 g风干土（<2 mm），研磨过0.15 mm（100目）筛，装入15 mL带螺旋盖的离心管（如果可提取铁或铝的含量>2%，那么土壤称样量为0.125 g）。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加入10 mL酸性草酸铵溶液至上述离心管，并拧紧盖子。"},
+    {"type": "printed-page-number", "text": "229"}
+  ],
+  "formulas": [
+    {"number": "26.1", "context": "连二亚硫酸盐—柠檬酸盐法计算提取态Fe、Al、Mn、Si质量分数", "display": "Fe、Al、Mn、Si（%）= [溶液浓度（μg/mL）×提取剂体积（mL）×稀释倍数] / [称样量（g）×10 000]", "latex": "\\mathrm{Fe,Al,Mn,Si}(\\%)=\\frac{C(\\mu\\mathrm{g}/\\mathrm{mL})\\times V(\\mathrm{mL})\\times D}{m(\\mathrm{g})\\times 10000}"},
+    {"number": "26.2", "context": "0.500 g样品、25 mL提取剂、稀释5倍、48 μg Fe·mL⁻¹的示例", "display": "Fe（%）= (48×25×5)/(0.500×10 000) = 1.2", "latex": "\\mathrm{Fe}(\\%)=\\frac{48\\times25\\times5}{0.500\\times10000}=1.2"}
+  ],
+  "tables": [],
+  "contentSha256": "0833822afda45ebfca19b1d7ea90012679a3924e09a7a529145f76c9aa2ec7d8"
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 95,
+  "sourceImageSha256": "41b0761fb021c37c4ba1987759c918eaf4aa1d2091ce929ae98730aea9235701",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐表对照原分辨率图和两套OCR，完成63.2.4步骤(2)～(5)、式（63.1）～（63.3）、图63.1和表63.2"},
+    "precisionPass": {"status": "verified", "method": "核验y=0.695−1.056x、R²=0.983、x₅₀=0、x₈₄.₁₃=0.99982≈1、y值0.695/−0.361、GMD=4.95 mm、s_log=1.056和常规GSD因子11.38"},
+    "secondVisualPass": {"status": "verified", "method": "由表63.2脚注c反向复核至跨页首句，检查公式括号、对数底数、负号、概率与NED层级及反对数；印刷页码604"}
+  },
+  "blocks": [
+    {"type": "procedure-steps-continuation", "items": [
+      "(2) 标准正态分位变换得x=NED。",
+      "(3) 对y=log₁₀(d/mm)与x=NED做最小二乘线性回归。表63.1示例得式（63.1），R²=0.983。",
+      "(4) 求50%质量保留点：p=0.5对应NED x=0，代入回归式y=0.695；GMD=10ʸ mm=4.95 mm。",
+      "(5) 求84.13%质量保留点：p=0.8413对应NED x≈1（表中0.99982），代入得y₈₄.₁₃=−0.361。对数域标准差s_log=|y₈₄.₁₃−y₅₀|=1.056 log₁₀ units；常规几何标准偏差因子GSD=10^s_log≈11.38（无量纲）。"
+    ]},
+    {"type": "figure", "number": "63.1", "caption": "筛孔直径对数y与筛上累积超大部分百分数的标准正态分位值x之回归。", "axes": ["y轴：筛孔直径mm，对数尺度", "x轴上：超大部分累积百分数，概率尺度", "x轴下：NED，−3～3"]},
+    {"type": "source-fidelity-note", "text": "原书步骤(4)误称“将0.5作为x”，步骤(5)又误称“将0.8413代替x”；0.5和0.8413是累积分数p，而回归自变量x是NED=Φ⁻¹(p)，正确值分别为0和约1。原书还把1.056 log units直接称为GSD并称其反对数无意义；为避免指标混淆，本Skill保留书中对数宽度s_log=1.056，并另给常规无量纲GSD因子=10^1.056≈11.38。"}
+  ],
+  "formulas": [
+    {"label": "(63.1)", "plain": "y = 0.695 − 1.056x; R² = 0.983", "latex": "y=0.695-1.056x,\\qquad R^2=0.983", "variables": [{"symbol": "y", "meaning": "log₁₀(d/mm)"}, {"symbol": "x", "meaning": "筛上累积质量分数p的标准正态分位值Φ⁻¹(p)"}], "conditions": ["只适用于表63.1示例数据", "d用mm后无量纲化再取对数"]},
+    {"label": "GMD", "plain": "GMD = 10^(a+b·0) mm = 10^0.695 mm = 4.95 mm", "latex": "\\mathrm{GMD}=10^{a+b\\Phi^{-1}(0.5)}\\,\\mathrm{mm}=10^{0.695}\\,\\mathrm{mm}=4.95\\,\\mathrm{mm}", "variables": [], "conditions": ["x₅₀=Φ⁻¹(0.5)=0"]},
+    {"label": "(63.2)校正表达", "plain": "s_log = |log₁₀d₈₄.₁₃ − log₁₀d₅₀| = |b|", "latex": "s_{\\log}=\\left|\\log_{10}d_{84.13}-\\log_{10}d_{50}\\right|=|b|", "variables": [{"symbol": "s_log", "meaning": "log₁₀直径的标准差，log₁₀ units"}], "conditions": ["本页累积方向是筛上保留，因此d₈₄.₁₃<d₅₀，需取绝对值"]},
+    {"label": "(63.3)常规GSD", "plain": "GSD = 10^s_log = d₅₀/d₈₄.₁₃ = 11.38", "latex": "\\mathrm{GSD}=10^{s_{\\log}}=\\frac{d_{50}}{d_{84.13}}\\approx11.38", "variables": [{"symbol": "GSD", "meaning": "几何标准偏差乘/除因子，无量纲"}], "conditions": ["以常用对数拟合", "不要与s_log的数值1.056混用"]}
+  ],
+  "tables": [
+    {"number": "63.2", "title": "回归式y=0.695−1.056x的GMD和宽度计算", "columns": ["筛上累积质量 (%)", "p", "x=NED", "y=log₁₀(d/mm)", "d (mm)", "对数域结果"], "rows": [
+      [50, 0.5, 0, 0.695, 4.95, "GMD=4.95 mm"],
+      [84.13, 0.8413, 0.99982, -0.361, 0.435, "s_log=1.056"]
+    ], "notes": ["印刷表未列d₈₄.₁₃；本表依10^−0.361=0.435 mm补算", "常规GSD因子=4.95/0.435≈11.38"]}
+  ],
+  "contentSha256": "9a0a8385074abaf1b8849c078c9be247fc862d7a7eb1cb24f042fad149e01fb7"
+}

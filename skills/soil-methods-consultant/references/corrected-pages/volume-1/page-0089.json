@@ -1,0 +1,44 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 89,
+  "sourceImageSha256": "931b0ff7436a33002ae1b1544bcaeb7e12b930e5061de1dd34f7528afb25ca45",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文和参考文献，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复6.4.2续项及6.4.3—6.4.6层级"},
+    "precisionPass": {"status": "verified", "method": "放大核对NaClO、Na₂Fe(CN)₅NO·2H₂O、NH₄-N、HCl、KCl、0.01～10.0 μg/mL、2.0 mol/L、50±1℃、5.25%、质量体积与英文卷页"},
+    "secondVisualPass": {"status": "verified", "method": "由试剂（5）—（6）至Magill和Aber条目逐段反向复核，确认原书注释（5）的“镉还原法”字样、网址、年份及页码"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "ordered-list", "continuation": true, "items": [
+      {"number": "（5）", "text": "次氯酸钠（NaClO）溶液：将200 mL家用漂白剂（5.25% NaClO）用去离子水稀释至1 L。因为溶液中NaClO浓度会随时间逐渐降低，该溶液需要现用现配以获得最佳结果。"},
+      {"number": "（6）", "text": "硝普钠（Na₂Fe(CN)₅NO·2H₂O）溶液：将0.5 g硝普钠溶解于900 mL去离子水中，定容到1 L，置于棕色瓶中冷藏保存。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "6.4.3", "title": "步骤"},
+    {"type": "paragraph", "text": "参考6.3.3节中NO₃-N的测试步骤（Kalra和Maynard，1991；Maynard和Kalra，1993）。", "inlineNotation": ["6.3.3", "NO₃-N"]},
+    {"type": "section-heading", "level": 3, "number": "6.4.4", "title": "计算"},
+    {"type": "paragraph", "text": "与6.3.4节相同。", "inlineNotation": ["6.3.4"]},
+    {"type": "section-heading", "level": 3, "number": "6.4.5", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "配制试剂时使用不含NH₄-N的去离子水。"},
+      {"number": "（2）", "text": "所有的试剂瓶、样品杯、新泵管均需要用1 mol/L的HCl溶液冲洗。"},
+      {"number": "（3）", "text": "测试范围：0.01～10.0 μg NH₄-N/mL的提取液。提取液中NH₄-N浓度大于标准溶液中最高浓度（10.0 μg NH₄-N/mL）时，需要用2.0 mol/L的KCl溶液稀释之后再分析。"},
+      {"number": "（4）", "text": "务必将工作温度控制在50±1℃。"},
+      {"number": "（5）", "text": "本章只列出了使用Technicon自动分析器的操作方法，但是镉还原法还可以应用到其他SFA和FIA系统上。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "6.4.6", "title": "精确度和准确度"},
+    {"type": "paragraph", "text": "准确度的测定没有标准可以参考。对实验室浓度差异较大的若干样品进行长期分析表明，样品的变异系数为21%～24%。", "inlineNotation": ["21%～24%"]},
+    {"type": "section-heading", "level": 2, "number": null, "title": "参考文献"},
+    {"type": "reference-entry", "text": "Bremner, J.M. 1965. Inorganic forms of nitrogen. In: C.A. Black, D.D. Evans, J.L. White, E. Ensminger, and F.E. Clark, eds. Methods of Soils Analysis. Part 2. Agronomy No. 9. American Society of Agronomy, Madison, WI, 1179-1237."},
+    {"type": "reference-entry", "text": "Burt, R. 2004. Soil Survey Laboratory Methods Manual. Soil Survey Investigations Report No. 42, Version 4.0. United States Department of Agriculture, Natural Resources Conservation Service, Lincoln, NE, 700."},
+    {"type": "reference-entry", "text": "Heaney, D.J., McGill, W.B., and Nguyen, C. 1988. Soil test quality assurance program, Unpublished report. Alberta Institute of Pedology, Edmonton, AB, Canada."},
+    {"type": "reference-entry", "text": "Heffernan, B. 1985. A Handbook of Methods of Inorganic Chemical Analysis for Forest Soils, Foliage and Water. Division of Forest Research, CSIRO, Canberra, Australia, 281."},
+    {"type": "reference-entry", "text": "Kalra, Y.P. and Maynard, D.G. 1991. Methods Manual for Forest Soil and Plant Analysis. Information Report NOR-X-319. Northern Forestry Centre, Northwest Region, Forestry Canada. Edmonton, AB, Canada, 116. Access online http://warehouse.pfc.forestry.ca/nofc/11845.pdf (July 2006)."},
+    {"type": "reference-entry", "text": "Keeney, D.R. and Nelson, D.W. 1982. Nitrogen in organic forms. In: A.L. Page, R.H. Miller, and D.R. Keeney, eds. Methods of Soil Analysis. Part 2. Agronomy No. 9, American Society of Agronomy, Madison, WI, 643-698."},
+    {"type": "reference-entry", "text": "Magill, A.H. and Aber, J.D. 2000. Variation in soil net mineralization rates with dissolved organic carbon additions. Soil Biol. Biochem. 32: 597-601."},
+    {"type": "printed-page-number", "text": "58"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "c4b65d4688e6880bd00f06258e708ab4b1d3c633fbe36f86c50e2076eb05eece"
+}

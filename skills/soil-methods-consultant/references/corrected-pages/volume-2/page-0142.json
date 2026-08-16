@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 142,
+  "sourceImageSha256": "4162d8ecdcfeadcbfd07a957992552b30241b63ced87895476653cb772ea773c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐项对照原分辨率图和两套OCR，完成式(68.12)—(68.14)、注释及68.4.5材料、步骤(1)—(10)"},
+    "precisionPass": {"status": "verified", "method": "核验−1/−5/−10 kPa对应EAW/AW/BC、1 cm、1.5—2 h、CO₂、TP、θ_c、TDR方向和式(68.15)"},
+    "secondVisualPass": {"status": "verified", "method": "由步骤(10)跨页句反向复核至式(68.12)，检查所有体积分数公式、滞后路径及饱和/容器持水量区别；印刷页码651"}
+  },
+  "blocks": [
+    {"type": "heading", "title": "68.4.4计算（续）", "level": 4},
+    {"type": "paragraph", "text": "易利用有效水EAW为−1至−5 kPa间释放的体积水分，AW为−1至−10 kPa间释放的体积水分，缓冲容量BC为−5至−10 kPa间释放的体积水分。θ₁、θ₅、θ₁₀均为体积含水量时直接相减，不再除以V_R。"},
+    {"type": "paragraph", "text": "有显著滞后时，应重新饱和后独立测吸湿曲线；地下/潮汐灌溉、集水沟和毛管垫条件尤其需要吸湿路径数据。"},
+    {"type": "heading", "number": "68.4.5", "title": "栽培基质的脱湿曲线", "level": 3},
+    {"type": "paragraph", "text": "独立样制得的曲线可作盆栽基质质量诊断，但扰动、容器大小和形状会改变水气分布（Paquet等，1993；Fonteno，1989）。装盆后又会因自然沉降、压实、分解、颗粒团聚和根系活动改变（Allaire-Leung等，1999），故宜在种植前及生长期直接测容器内基质。"},
+    {"type": "heading", "title": "材料", "level": 4},
+    {"type": "list", "items": ["底部有开孔、已装基质的盆栽容器", "TDR主机和探针，或可承载整盆的天平", "聚乙烯薄膜和尼龙纱布", "张力台（Topp和Zebchuk，1979）"]},
+    {"type": "heading", "title": "步骤（本页部分）", "level": 4},
+    {"type": "steps", "items": [
+      "有植物时先齐基质表面切除地上部，并记录处理；根系留在基质中。",
+      "从底部逐渐润湿，水位升至基质顶面下1 cm；垂直插TDR探针并反复测量至体积含水量稳定。读数波动可提示滞留气体；可用CO₂置换后再以脱气水饱和，或在真空容器中排气。",
+      "把稳定饱和体积含水量作为TP，但必须注明“无残余气体”假设。",
+      "让容器自由排水1.5—2 h，期间定期测θ_v直至稳定，得到容器持水量θ_c。θ_c由容器水柱高度决定，不一定等于−1 kPa的θ₁；无TDR时可由整盆质量差和已知干质量、体积求θ_c。",
+      "计算容器状态充气孔隙度AFP_c=TP−θ_c；用塑料膜覆盖表面防蒸发。",
+      "水平插入TDR探针，再测θ_v；记录探针测量中心相对张力台参考面的高度，以换算局部水势。",
+      "把容器放在张力台上并保证底部水力接触；可用泥浆接触层，或在盆底打孔后包尼龙纱布防漏。后续见下页。"
+    ]},
+    {"type": "source-fidelity-note", "text": "原书式(68.12)—(68.14)均把已经归一化的θ差再次除以V_R，量纲错误；已删除重复除法。若实际记录的是水体积而非θ，才应先各自除V_R。原书步骤(4)写“在白天测定含水量”与稳定判据不符，按连续/定期测量直至稳定处理。CO₂置换只用于排气，之后仍须用脱气水完成饱和。"}
+  ],
+  "formulas": [
+    {"label": "68.12校正式", "plain": "EAW = θ₁ − θ₅", "latex": "EAW=\\theta_1-\\theta_5", "resultUnit": "cm³·cm⁻³"},
+    {"label": "68.13校正式", "plain": "AW = θ₁ − θ₁₀", "latex": "AW=\\theta_1-\\theta_{10}", "resultUnit": "cm³·cm⁻³"},
+    {"label": "68.14校正式", "plain": "BC = θ₅ − θ₁₀", "latex": "BC=\\theta_5-\\theta_{10}", "resultUnit": "cm³·cm⁻³"},
+    {"label": "68.15", "plain": "AFP_c = TP − θ_c", "latex": "AFP_c=TP-\\theta_c", "resultUnit": "cm³·cm⁻³"}
+  ],
+  "tables": [],
+  "contentSha256": "2cf11b5c8c62a3046a1adcc5d8f0d2356cef25a5d475ee40d22e1caa61710e59"
+}

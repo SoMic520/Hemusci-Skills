@@ -1,0 +1,46 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 73,
+  "sourceImageSha256": "e304ec88aa91a86baf8ab2dc560ee3bd58cd179af38dd4f9a1889e7c4e89d56b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文与公式页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复三类误差、四步估算、DQO七步及页末续接"},
+    "precisionPass": {"status": "verified", "method": "放大核对式（5.1）的总/测量/取样下标与平方上标、QC、Y±U、DQOs、MDLs、LOQs、PQLs及pH"},
+    "secondVisualPass": {"status": "verified", "method": "按5.2.7三类误差、公式及四步估算、阈值说明、5.3/5.3.1层级、DQO七步和印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "numbered-item", "number": "1", "text": "影响结果精确度的随机误差。"},
+    {"type": "numbered-item", "number": "2", "text": "影响偏差的系统误差。"},
+    {"type": "numbered-item", "number": "3", "text": "重大错误（导致严重误差或丢失样本的错误——无法预测的且经常产生的未知错误，即这些错误是不能测定的）。"},
+    {"type": "paragraph", "text": "尽管由错误引起的误差大多能通过适当的培训得到控制，但是某些误差依然会发生。数据校验和确认也可以检测并减少这些错误。QC样本（进行过质量控制的样本）可能也会检测到某些类型的错误。", "inlineNotation": ["QC"]},
+    {"type": "paragraph", "text": "取样误差和分析误差的出现相互独立。所以，取样相关的误差不能在实验室中得到校正（AENV，2004）。因此，样本数据的不确定性包括取样和测量的不确定性（Taylor 1988，1997；Bevington和Robinson，2003），用以下方程表示："},
+    {"type": "formula-reference", "number": "5.1", "text": "S_总²=S_测量²+S_取样²", "inlineNotation": ["S_total^2=S_measurement^2+S_sampling^2"]},
+    {"type": "paragraph", "text": "对不确定性的估算可以通过以下四个步骤得出（Eurachem，2000）："},
+    {"type": "numbered-item", "number": "1", "text": "对分析物进行规范性说明。"},
+    {"type": "numbered-item", "number": "2", "text": "识别不确定性的来源。"},
+    {"type": "numbered-item", "number": "3", "text": "对这些不确定性来源进行定量化。"},
+    {"type": "numbered-item", "number": "4", "text": "计算总的不确定性。"},
+    {"type": "paragraph", "text": "综合不确定性来源，只需要考虑重复性方差、长期方差和偏差的不确定性、校准和参照物即可。这些来源可以从现存的实验室数据中获得，因而更容易对其定量（Swyngedouw等，2004）。"},
+    {"type": "paragraph", "text": "同时列出不确定性的实际估计值和浓度测定值（即Y±U）的优点是，最终用户在使用这些数据时，可以考虑到这些不确定性的影响。而传统的测定方法会将测量所得浓度值与某个合适的规定阈值相比较。在这种方法中，任何浓度值小于该阈值的取样点都被划分为未污染组，而那些高于该阈值的取样点则划分为污染组。这种方法不能说明数据的不确定性。", "inlineNotation": ["Y±U"]},
+    {"type": "section-heading", "level": 3, "number": "5.3", "title": "数据质量目标"},
+    {"type": "section-heading", "level": 4, "number": "5.3.1", "title": "概述"},
+    {"type": "paragraph", "text": "数据质量目标（DQOs）说明了对数据分析的要求，明确了研究目的，以及要达到该目的所需要的数据参数。这些目标通过两类术语进行说明：第一，涉及数据预期的最终用途的定性术语；第二，关于精确度、准确度、代表性、可比性和完整性方面的定量术语（USEPA，2000a）。", "inlineNotation": ["DQOs"]},
+    {"type": "paragraph", "text": "DQOs确保针对MDLs、LOQs或PQLs、应用要求、应用范围、分析对象的特异性、分析对象的选择性、可重复性、假阳性及假阴性有适当的方法和步骤（包括方法的改进）。", "inlineNotation": ["DQOs", "MDLs", "LOQs", "PQLs"]},
+    {"type": "paragraph", "text": "以下事项和步骤对改进DQOs很重要：", "inlineNotation": ["DQOs"]},
+    {"type": "numbered-item", "number": "1", "text": "列出待解决的具体问题。"},
+    {"type": "numbered-item", "number": "2", "text": "确定解决该问题需要的所有决策。"},
+    {"type": "numbered-item", "number": "3", "text": "确定做出这些决策所需要的所有投入。"},
+    {"type": "numbered-item", "number": "4", "text": "缩小项目范围。"},
+    {"type": "numbered-item", "number": "5", "text": "制定决策规则。"},
+    {"type": "numbered-item", "number": "6", "text": "建立不确定性约束条件。"},
+    {"type": "numbered-item", "number": "7", "text": "优化获得数据方案。"},
+    {"type": "paragraph", "continuation": true, "text": "这些事项常被称为“DQO规划的七个步骤”。其中的一些步骤可以按照如下所述进一步展开。步骤（1）解决的是“这些分析主要表征土壤性质（如pH值、有机质、土壤结构）还是检测污染物的浓度（如", "inlineNotation": ["DQO", "pH"]},
+    {"type": "printed-page-number", "text": "42"}
+  ],
+  "formulas": [
+    {"number": "5.1", "display": "S_总² = S_测量² + S_取样²", "latex": "S_{\\text{总}}^2=S_{\\text{测量}}^2+S_{\\text{取样}}^2", "variables": [{"symbol": "S_总²", "meaning": "样本数据的总不确定性方差"}, {"symbol": "S_测量²", "meaning": "测量不确定性方差"}, {"symbol": "S_取样²", "meaning": "取样不确定性方差"}]}
+  ],
+  "tables": [],
+  "contentSha256": "301235908d0097271d47bead593409e2be637e5d4badcd99676dec0dc2d03bfd"
+}

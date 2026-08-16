@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 309,
+  "sourceImageSha256": "0bed421cbff08f2ae4d547f9076e5903fc042ab44d89d3a879b87388abb19ec5",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复Meier续文及Newman至van Tuinen参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Bååth、Söderström、E.-A.、25S rDNA、引号、作者大小写、期刊缩写和卷页"},
+    "secondVisualPass": {"status": "verified", "method": "从van Tuinen等（1998）反向复核至页首Meier续文，确认Toth作者标点、van小写及所有页码；页码278"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-continuation", "continuationOf": "page-0308#meier-1993", "text": "mycorrhizal fungi. Am. J. Bot. 80: 1007-1015."},
+    {"type": "reference", "text": "Newman, E.I. 1966. A method for estimating total length of root in a sample. J. Appl. Ecol. 3: 139-145."},
+    {"type": "reference", "text": "Oehl, F., Sieverding, E., Ineichen, K., Ris, E.-A., Boller, T., and Wiemken, A. 2005. Community structure of arbuscular mycorrhizal fungi at different soil depths in extensively and intensively managed agroecosystems. New Phytol. 165: 273-283."},
+    {"type": "reference", "text": "Ohms, R.E. 1957. A flotation method for collecting spores of a Phycomycetous mycorrhizal parasite from soil. Phytopathology 47: 751-752."},
+    {"type": "reference", "text": "Olsson, P.A. 1999. Signature fatty acids provide tools for determination of the distribution and interactions of mycorrhizal fungi in soil. FEMS Microbiol. Ecol. 29: 303-310."},
+    {"type": "reference", "text": "Olsson, P.A., Bååth, E., Jakobsen, I., and Söderström, B. 1995. The use of phospholipid and neutral lipid fatty acids to estimate biomass of arbuscular mycorrhizal fungi in soil. Mycol. Res. 99: 623-629."},
+    {"type": "reference", "text": "Omar, M.B., Bolland, L., and Heather, W.A. 1979. A permanent mounting medium for fungi. Bull. Br. Mycol. Soc. 13: 31-32."},
+    {"type": "reference", "text": "Phillips, J.M. and Hayman, D.S. 1970. Improved procedures for clearing roots and staining parasitic and vesicular-arbuscular mycorrhizal fungi for rapid assessment of infection. T. Brit. Mycol. Soc. 55: 158-161."},
+    {"type": "reference", "text": "Plenchette, C., Perrin, R., and Duvert, P. 1989. The concept of soil infectivity and a method for its determination as applied to endomycorrhizas. Can. J. Bot. 67: 112-115."},
+    {"type": "reference", "text": "Porter, W.M. 1979. The “Most Probable Number” for enumerating infective propagules of vesicular-arbuscular mycorrhizal fungi. Aust. J. Soil Res. 17: 515-519."},
+    {"type": "reference", "text": "Rillig, M.C. and Steinberg, P.D. 2002. Glomalin production by an arbuscular mycorrhizal fungus: a mechanism of habitat modification? Soil Biol. Biochem. 34: 1371-1374."},
+    {"type": "reference", "text": "Sato, K., Suyama, Y., Saito, M., and Sugawara, K. 2005. A new primer for discrimination of arbuscular mycorrhizal fungi with polymerase chain reaction-denature gradient gel electrophoresis. Grassland Sci. 51: 179-181."},
+    {"type": "reference", "text": "Schuepp, H., Miller, D.D., and Bodmer, M. 1987. A new technique for monitoring hyphal growth of vesicular-arbuscular mycorrhizal fungi through soil. T. Brit. Mycol. Soc. 89: 429-436."},
+    {"type": "reference", "text": "Singh, S.S. and Tiwari, S.C. 2001. Modified wet sieving and decanting technique for enhanced recovery of vesicular-arbuscular mycorrhizal fungi from forest soils. Mycorrhiza News 12: 12-13."},
+    {"type": "reference", "text": "Smilauer, P. 2001. Communities of arbuscular mycorrhizal fungi in grassland: seasonal variability and effects on environment and host plants. Folia Geobot. 36: 243-263."},
+    {"type": "reference", "text": "Strullu, D.G. and Plenchette, C. 1991. The entrapment of Glomus sp. in alginate beads and their use as root inoculum. Mycol. Res. 95: 1194-1196."},
+    {"type": "reference", "text": "Tommerup, I.C. 1992. Methods for the study of the population biology of vesicular-arbuscular mycorrhizal fungi. In: J.R. Norris, D.J. Read, and A.K. Varma, eds. Methods in Microbiology. Vol. 24. Techniques for the Study of Mycorrhiza. Academic Press, Amsterdam, the Netherlands, 23-51."},
+    {"type": "reference", "text": "Toth, R., Miller, R.M., Jarstfer, A.G., Alexander, T., and Bennett, E.L. 1991. The calculation of intraradical fungal biomass from percent colonization in vesicular-arbuscular mycorrhizae. Mycologia 83: 553-558."},
+    {"type": "reference", "text": "van Aarle, I.M. and Olsson, P.A. 2003. Fungal lipid accumulation and development of mycelial structures by two arbuscular mycorrhizal fungi. Appl. Environ. Microbiol. 69: 6762-6767."},
+    {"type": "reference", "text": "van Tuinen, D., Jacquot, E., Zhao, B., Gollotte, A., and Gianninazzi-Pearson, V. 1998. Characterization of root colonization profiles by a microcosm community of arbuscular mycorrhizal fungi using 25S rDNA-targeted nested PCR. Mol. Ecol. 7: 879-887."},
+    {"type": "printed-page-number", "text": "278"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d4ddc139676f58fa460da099645b81e972eed36b694a3fe65d1d4f557fc2bb3d"
+}

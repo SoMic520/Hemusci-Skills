@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 66,
+  "sourceImageSha256": "a5d064e16c13b93c21a17df69c386c10544202afa5800a1cbce1840839a68504",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率归档、结论与参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复正文和英文著录"},
+    "precisionPass": {"status": "verified", "method": "放大核对54年、作者姓名、PAHs、INT-reductase、Lowtemperature原页拼写、Craswell题名中的II及全部卷页"},
+    "secondVisualPass": {"status": "verified", "method": "按4.6续文、4.7两段结论、参考文献标题、逐条作者题名刊名卷页和印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第4章｜土壤样本的处理和存储｜"},
+    {"type": "paragraph", "continuation": true, "text": "未来可能会产生改良的分析方法，对归档样本的重新分析就是一种验证这种新方法及对接新老方法的途径。或者，有其他研究项目可能需要一整套具有特定属性的归档土壤样本。"},
+    {"type": "paragraph", "text": "归档的另一个关键作用是为了提供参考标准，以及在生态毒理分析中提供稀释土壤（Sheppard和Evenden，1998）。Ehrlichmann等（1997）发现在他们的参照土壤中，随着保存时间的延长，其中有机污染物的毒性在下降，而金属离子的毒性却在增大。Riepert和Felgentreu（2002）通过对存储的参照土壤进行植物生态毒性的生物鉴定得出如下结论：因为微生物的存在，将风干土样长期保存作为实验室标准土样是不恰当的，尤其是对那些与氮素矿化有关的分析。"},
+    {"type": "paragraph", "text": "有关归档样本保存有效期的研究并不多。样本的生物有效性的确会很快消失，但是一些物理属性如粒度等将会永久保留。相反，Bollen（1977）发现与最初采集时的样本相比，干燥条件下保存54年的样本仍然具有呼吸作用和氧化硫元素的能力，只是这些特性有所增强或减弱。", "inlineNotation": ["54年"]},
+    {"type": "paragraph", "text": "也许，如同其他类型的存档资料一样，归档土壤样品最重要的作用就是资料记载作用。因此归档信息必须包含样本来源、采集细节、预处理方法、保存条件、与研究者的关系，以及研究者对样本进行的初步分析结果。"},
+    {"type": "section-heading", "level": 3, "number": "4.7", "title": "结论"},
+    {"type": "paragraph", "text": "上述文献直观地表明，所有的样本处理和保存过程都会产生人为的影响。没有一种方法适用于所有的研究对象。风干和研磨等简易的处理方法会对土壤的物理、化学及生物学属性产生深远影响。甚至是针对磷的土壤肥力和金属元素的测定可能也会受到样本处理带来的细微差异的干扰。土壤是一种有生命的物质，也许土壤样本的处理同样需要我们像处理动植物组织样本那样小心。"},
+    {"type": "paragraph", "text": "本章最重要的信息是，样本的处理和保存没有公认的方法，但研究者需要考虑和准备为采取的具体方法提供合理科学的解释。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "bibliography-entry", "text": "Allison, V.J. and Miller, R.M. 2005. Soil grinding increases the relative abundance of eukaryotic phospholipid fatty acids. Soil Sci. Soc. Am. J. 69: 423-426."},
+    {"type": "bibliography-entry", "text": "Belkessam, L., Lecomte, P., Milon, V., and Laboudigue, A. 2005. Influence of pre-treatment step on PAHs analyses in contaminated soils. Chemosphere 58: 321-328."},
+    {"type": "bibliography-entry", "text": "Bollen, W.B. 1977. Sulfur oxidation and respiration in 54-year-old soil samples. Soil Biol. Biochem. 9: 405-410."},
+    {"type": "bibliography-entry", "text": "Brohon, B., Delolme, C., and Gourdon, R. 1999. Qualification of soils through microbial activities measurements: influence of the storage period on INT-reductase, phosphatase and respiration. Chemosphere 38: 1973-1984."},
+    {"type": "bibliography-entry", "text": "Chaudhry, I.A. and Cornfield, A.H. 1971. Lowtemperature storage for preventing changes in mineralizable nitrogen and sulphur during storage of air-dry soils. Geoderma 5: 165-168."},
+    {"type": "bibliography-entry", "text": "Comfort, S.D., Dick, R.P., and Baham, J. 1991. Air-drying and pretreatment effects on soil sulfate sorption. Soil Sci. Soc. Am. J. 55: 968-973."},
+    {"type": "bibliography-entry", "text": "Craswell, E.T. and Waring, S.A. 1972. Effect of grinding on the decomposition of soil organic matter. II. Oxygen uptake and nitrogen mineralization in virgin and cultivated cracking clay soils. Soil Biol. Biochem. 4: 435-442."},
+    {"type": "bibliography-entry", "text": "David, M.B., Mitchell, M.J., Aldcorn, D., and Harrison, R.B. 1989. Analysis of sulfur in soil, plant and sediment materials: sample handling and use of an automated analyzer. Soil Biol. Biochem. 21: 119-123."},
+    {"type": "bibliography-entry", "text": "Derome, K., Derome, J., and Lindroos, A. 1998. Techniques for preserving and determining aluminium fractions in soil solution from podzolic forest soils. Chemosphere 36: 1143-1148."},
+    {"type": "printed-page-number", "text": "35"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "52c95d8ac2e96b8df4ed1eba812166175f5bf764c21813e0dd06c9d62e104d98"
+}

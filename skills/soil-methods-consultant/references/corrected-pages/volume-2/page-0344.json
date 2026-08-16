@@ -1,0 +1,72 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 344,
+  "sourceImageSha256": "6d1231c1ac78c8de33efd25ccba2c163a3044ca1c999932d80ccb405fbcb412d",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐段核对空间结构比较、宏观孔隙解释、图85.7及案例第四步"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对72 m、2.59×10⁻⁴ cm·s⁻¹、1～2数量级、四组Y区间和图轴"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "lnK_fs/θ_a/lnSa/Cly/lnOC图例、标准化半方差及单位二次反查；印刷页码853"
+    }
+  },
+  "blocks": [
+    {
+      "type": "spatial-interpretation",
+      "items": [
+        "lnSa的块金/总基台比为64.2%，为中等空间依赖；相关尺度约72 m。",
+        "Cly与lnOC的半方差形状相似，lnK_fs与θ_a的半方差形状相似，但这些相似或差异只能说明空间尺度一致性，不能单独证明因果控制或“不受影响”。",
+        "θ_a在K_fs测量前以TDR测得，当时土壤为非饱和状态。裂缝和生物孔隙较多时，局地θ_a可能偏低，而Guelph入渗测得K_fs偏高。",
+        "K_fs几何平均数为2.59×10⁻⁴ cm·s⁻¹，书中称比一般粉砂质黏土高1～2个数量级，并以宏观孔隙解释。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书由半方差曲线相似性直接推出“质地控制OC”及“lnK_fs和θ_a不受Sa、Cly、OC影响”，证据不足；结构相似不等于因果或统计独立，现改为可检验的空间尺度描述。图85.7(b)横轴误印“平均半方差(m)”，量纲与图意均不符，校正为“平均间隔距离(m)”。"
+    },
+    {
+      "type": "figure",
+      "number": "85.7",
+      "title": "标准化全方向半方差函数与平均间隔距离",
+      "panels": [
+        {
+          "panel": "a",
+          "x": "平均间隔距离(m)，0～90",
+          "y": "标准化半方差，0～1.4",
+          "series": "菱形lnK_fs及实线模型；空心圆Theta(θ_a)及虚线模型",
+          "range": "约70～80 m",
+          "nuggetRatio": "16.7%"
+        },
+        {
+          "panel": "b",
+          "x": "平均间隔距离(m)，0～90",
+          "y": "标准化半方差，0.6～1.2",
+          "series": "菱形lnSa及实线模型；空心圆Clay；三角形lnOC；粗虚线为Clay和OC组合模型",
+          "ranges": "lnSa约72 m；Clay和lnOC约50 m",
+          "nuggetRatios": "lnSa 64.2%；Clay和lnOC 83.3%"
+        }
+      ]
+    },
+    {
+      "type": "case-step",
+      "step": 4,
+      "title": "克里金插值曲面的计算和解释",
+      "items": [
+        "用拟合半方差模型计算lnK_fs、θ_a、lnOC和Cly的克里金插值曲面。",
+        "lnK_fs和θ_a表面包含叠加在大尺度脊线、槽线上的多个小尺度封闭起伏；主要带状结构近垂直于Y轴。",
+        "文中列举的Y带为0～30 m、70～80 m、120～140 m和160～180 m。",
+        "lnOC和Cly表面小尺度特征较少，宏观结构表现为较随机分布的丘陵和山谷。"
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "95d79d797eebae84b71304f66d33d24251ffde84530019264deac5db89c7479c"
+}

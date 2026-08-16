@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 287,
+  "sourceImageSha256": "e68c54260d657d526892d6a205c7261001490686f3986719300ec3196d078084",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第29章第256页，人工恢复29.3.6计算与式（29.1）～（29.2）、29.3.7、29.3.8三类稀释剂及29.3.9培养基配方"},
+    "precisionPass": {"status": "verified", "method": "逐字符核骎CFU·g⁻¹、DW、含水量%、PBS、0.1 mol/L、pH 7.3/7.2、kg·cm⁻²、全部g/L/百分浓度及培养基英文名"},
+    "secondVisualPass": {"status": "verified", "method": "从页底淀粉酪蛋白琼脂未完配方反向复核至29.3.6，确认计算→注释→稀释剂→培养基层级、公式分数结构及印刷页码256"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "heading", "level": 2, "number": "29.3.6", "title": "计算"},
+    {"type": "calculation-intro", "text": "一般稀释液在每个平板上平均接种能产生30～300个菌落。可以用以下公式计算每克干土（DW）菌落形成数（CFU/g）："},
+    {"type": "formula-reference", "number": "（29.1）", "text": "（CFU/g）的数量菌落形成单位 = （平板平均计数×稀释倍数）/（干重土，初始稀释）"},
+    {"type": "formula-reference", "number": "（29.2）", "text": "土壤干重 = （鲜重土壤，初始稀释）×[1−（土样的含水量/%）/100]"},
+    {"type": "source-fidelity-note", "text": "式（29.2）原排版在‘×1−’后紧接分数，未显式印出方括号；按干重换算关系，结构应读为鲜重乘以[1−含水率/100]。显示字段已补足括号，原书排版信息在本注中保留。"},
+    {"type": "heading", "level": 2, "number": "29.3.7", "title": "注释"},
+    {"type": "note", "text": "由于细菌往往以群落和细胞团的形式存在于土壤中，为了使涂布平板从单一的细胞中生长出来，在使用前需要将细胞进行分散。通常分散细胞的方法包括机械震荡或手工摇匀、韦林氏搅拌器（Waring blender）产生剪切力破碎、声波振动（Stevenson，1959）、机械振动（Thornton，1922）和使用反絮凝剂（Deflocculating agents）等。"},
+    {"type": "heading", "level": 2, "number": "29.3.8", "title": "稀释剂的种类"},
+    {"type": "body", "text": "多种稀释剂被用于溶液的配制。通常情况下，自来水和蒸馏水就能够满足试验的需要。其他常规使用的稀释剂如下。"},
+    {"type": "diluent-recipe", "number": "（1）", "title": "生理盐水", "text": "氯化钠，8.5 g；蒸馏水，1 L。"},
+    {"type": "diluent-recipe", "number": "（2）", "title": "磷酸缓冲液（PBS）", "text": "氯化钠，8.0 g；磷酸二氢钾，0.34 g；磷酸一氢钾，1.21 g；蒸馏水，1 L。使用0.1 mol/L的氢氧化钠或盐酸将pH值调至7.3。"},
+    {"type": "diluent-recipe", "number": "（3）", "title": "蛋白胨水", "text": "蛋白胨，1.0 g；蒸馏水，1 L。"},
+    {"type": "heading", "level": 2, "number": "29.3.9", "title": "培养基的种类"},
+    {"type": "body", "text": "培养基选择的主要依据是所筛选的微生物种类。我们可以通过减少和改变培养基成分或者改变培养条件，来使培养基具有选择性。而通常非选择性的培养基则能够用于对土壤总异养菌数量进行计数。下面的例子是总土壤细菌、根相关细菌、放线菌和真菌常用的生长培养基。其他特殊的培养基详见29.5节。"},
+    {"type": "procedure-group", "number": "1.", "title": "总异养细菌培养基"},
+    {"type": "culture-medium-recipe", "number": "（1）", "title": "土壤浸出琼脂（Soil extract agar）", "text": "将1 kg土壤溶于1 L水中高压灭菌20 min（1.05 kg/cm²）。将溶液过滤并定容至1 L。如果溶液依然混浊，可加入少许硫酸钙静置，过滤（可使用Whatman paper No. 5）。将土壤浸出液灭菌，并用琼脂（1.5%）凝固；凝固前可添加其他营养物质，如0.025%磷酸一氢钾或0.1%葡萄糖、0.5%酵母粉和0.02%磷酸一氢钾（James，1958）。"},
+    {"type": "culture-medium-recipe", "number": "（2）", "title": "胰蛋白胨大豆琼脂（Tryptic soy agar）", "text": "向1 L蒸馏水中加入3.0 g胰蛋白大豆汤和15.0 g琼脂，高压灭菌（Martin，1975）。"},
+    {"type": "culture-medium-recipe", "number": "（3）", "title": "R2A", "text": "酵母粉，0.5 g；示蛋白胨（Proteose peptone No. 3），0.5 g；酪蛋白氨基酸，0.5 g；葡萄糖，0.5 g；可溶性淀粉，0.5 g；磷酸一氢钾，0.3 g；七水合硫酸镁，0.05 g；丙酮酸钠，0.3 g；琼脂，15.0 g；蒸馏水，1 L。用结晶的磷酸氢钾或磷酸二氢钾调节pH值至7.2，并高压灭菌（Reasoner和Geldreich，1985）。"},
+    {"type": "procedure-group", "number": "2.", "title": "放线菌培养基"},
+    {"type": "culture-medium-recipe", "title": "淀粉酪蛋白琼脂（Starch-casein agar）", "continuesOnPage": 288, "text": "淀粉，10.0 g；酪蛋白（不含维生素），0.3 g；硝酸钾，2.0 g；氯化钠，2.0 g；磷酸一氢钾，2.0 g；七水合硫酸镁，0.5 g；碳酸钙，0.02 g；（Küster和Williams，1966）"},
+    {"type": "printed-page-number", "text": "256"}
+  ],
+  "formulas": [
+    {"number": "29.1", "context": "由平板平均菌落计数、稀释倍数和初始稀释中的干土重计算CFU/g", "display": "CFU/g = （平板平均计数×稀释倍数）/（初始稀释中的干重土）", "latex": "CFU/g=(\\bar N\\times DF)/m_{dry,initial\\ dilution}"},
+    {"number": "29.2", "context": "由初始稀释的鲜土重和土样含水率求干土重", "display": "土壤干重 = （鲜重土壤，初始稀释）×[1−（土样的含水量/%）/100]", "latex": "m_{dry}=m_{fresh,initial\\ dilution}\\times[1-w(\\%)/100]"}
+  ],
+  "tables": [],
+  "contentSha256": "f96edb2570a581e9d2e925d5dd76a29a57a0c8267af29d75dd8c81c648d32dda"
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 80,
+  "sourceImageSha256": "7e9d72f8da622cd8ef7005a1e146b6877c3e74fba1760c1d674635e5673619ed",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐项对照原分辨率图和两套OCR，完成式（61.1）、变量定义、61.2.1全部材料、图61.1及61.2.2步骤(1)首段"},
+    "precisionPass": {"status": "verified", "method": "核验Q/A/k_a/ρ_w/g/Δh/η/L、m³ s⁻¹/m²/m/kg m⁻³/kg m⁻¹ s⁻¹、20 L/200倍及O形环"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页浸没句反向复核至式（61.1），逐层检查分式、下标i/a、压头定义、图件气路和材料编号；印刷页码589"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "空气固有透气率k_a按式（61.1）计算。Q为高压入口处体积流量（m³ s⁻¹）；A为垂直流向的土柱横截面积（m²）；L为土柱长度（m）；Δh=h_i−h_a为入口/出口空气压力差的水柱高度（m），h_i=P_i/(ρ_wg)、h_a=P_a/(ρ_wg)；ρ_w为水密度（kg m⁻³）；η为空气动力黏度（kg m⁻¹ s⁻¹）。"},
+    {"type": "heading", "number": "61.2.1", "title": "材料", "level": 3},
+    {"type": "figure", "number": "61.1", "caption": "恒压梯度法透气率设备。", "components": ["水压计", "浮筒", "气罐及水封", "导杆", "环形砝码", "空气管路", "土壤样品，长度L"]},
+    {"type": "materials-list", "items": [
+      "(1) 刚性大容积空气罐，至少20 L或样品体积200倍；下部加水，浮筒与水间封存空气。",
+      "(2) 刚性浮筒。",
+      "(3) 导杆：预先标定导杆高度变化与空气体积的关系；引导浮筒均匀入水，并作为读尺求送入土柱的空气体积。",
+      "(4) 环形砝码：穿过导杆置于浮筒上，增加恒压。",
+      "(5) 水压计。",
+      "(6) 原状土柱：硬环取样，在规定基质势平衡后固定于置样器。",
+      "(7) 置样器：简单型为空圆环，一端橡胶塞+气管，另一端以保鲜膜密封连接土柱；耐用型可用特制铜环和紧配橡胶O形环。"
+    ]},
+    {"type": "heading", "number": "61.2.2", "title": "步骤", "level": 3},
+    {"type": "procedure-continuation", "text": "(1) 用裁剪保鲜膜或带O形环特制铜环密封土柱；置样器固定于铁架台并浸水，使土柱—置样器接合处完全浸没……"}
+  ],
+  "formulas": [
+    {"label": "(61.1)", "plain": "Q/A = k_a (ρ_w g/η)(Δh/L)；k_a = (Q/A)(η/(ρ_w g))(L/Δh)", "latex": "\\frac{Q}{A}=k_a\\frac{\\rho_wg}{\\eta}\\frac{\\Delta h}{L};\\qquad k_a=\\frac{Q}{A}\\frac{\\eta}{\\rho_wg}\\frac{L}{\\Delta h}", "variables": [{"symbol": "Q", "meaning": "入口条件下体积流量（m³ s⁻¹）"}, {"symbol": "A", "meaning": "土柱横截面积（m²）"}, {"symbol": "ρ_w", "meaning": "水压计液体为水时的水密度（kg m⁻³）"}, {"symbol": "η", "meaning": "空气动力黏度（Pa s=kg m⁻¹ s⁻¹）"}, {"symbol": "Δh", "meaning": "入口与出口压力头差（m水柱）"}, {"symbol": "L", "meaning": "土柱长度（m）"}], "conditions": ["稳态层流", "低压差、空气可压缩性影响可忽略", "无旁路泄漏"]}
+  ],
+  "tables": [],
+  "contentSha256": "57789ca2263c450c1f0d22429bb9cfa16e665500fd1667cc0810c465cc9869a2"
+}

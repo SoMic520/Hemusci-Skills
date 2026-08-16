@@ -1,0 +1,48 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 94,
+  "sourceImageSha256": "bdebe59f7139d867fa8ae42d88b4326db374c74111d59f44a7915158ff98bff7",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐项逐行对照原分辨率图和两套OCR，完成63.2跨页段、63.2.1、63.2.2、63.2.3、表63.1及63.2.4(1)～(2)起始"},
+    "precisionPass": {"status": "verified", "method": "核验2.5 cm、6 m×40 m、5个样、5 kg、7 d、两套旋转筛全部孔径，表63.1的24个数值及log₁₀/NED含义"},
+    "secondVisualPass": {"status": "verified", "method": "由63.2.4(2)跨页句反向复核至Zobeck和Popham段，检查表头、负号、小数位和GWD印刷误字；印刷页码603"}
+  },
+  "blocks": [
+    {"type": "paragraph-continuation", "text": "Zobeck和Popham（1990）用某筛孔的累积通过质量百分数与log(筛孔直径)直接回归，未作标准正态分位变换；此法x轴是线性百分比尺度，与Larney的NED概率尺度回归不同。"},
+    {"type": "heading", "number": "63.2.1", "title": "设备", "level": 3},
+    {"type": "materials-list", "items": [
+      "(1) 直角平面铁铲，定制高2.5 cm的边以控制采样深度。",
+      "(2) 无盖托盘或纸袋。",
+      "(3) 旋转筛或套筛。Lethbridge装置为6层：上部38、12.6、7.1 mm，下部1.9、1.2、0.47 mm。Chepil（1952）原上半部设计为38.1、12.7、6.4、2.38、1.19、0.84、0.42 mm；两套筛组不同，不得称为同一粒级配置。",
+      "(4) 适合约5 kg样品的天平；原书仅写“精确到两位小数”而未给称量单位，实验报告必须补记量程、分度值和实际称量单位。"
+    ]},
+    {"type": "heading", "number": "63.2.2", "title": "步骤", "level": 3},
+    {"type": "procedure-steps", "items": [
+      "(1) 用采样铲以恒定深度（例2.5 cm）采代表性样。书中示例为6 m×40 m小区取5个样；旋转筛约需5 kg净土样，平筛用量较少。",
+      "(2) 样品置已标记的无盖托盘或纸袋，室温风干。",
+      "(3) 风干约7 d后，将样品放入旋转筛漏斗或套筛。",
+      "(4) 旋转筛称各筛级通过后进入收集盘的质量；平筛称各筛上保留质量。按装置几何结构对应到相同粒级边界后再计算。"
+    ]},
+    {"type": "heading", "number": "63.2.3", "title": "计算", "level": 3},
+    {"type": "paragraph", "text": "表63.1为Lethbridge黏壤土旋转筛示例，给出筛上累积百分数p、y=log₁₀(d/mm)及x=Φ⁻¹(p/100)（NED）。"},
+    {"type": "heading", "number": "63.2.4", "title": "几何平均直径和几何标准偏差", "level": 3},
+    {"type": "procedure-steps", "items": [
+      "(1) 对筛孔直径d（mm）取常用对数y=log₁₀(d/mm)。",
+      "(2) 把筛上累积百分数先转为0～1分数p，再求标准正态分位值x=Φ⁻¹(p)（normal equivalent deviate, NED）。"
+    ]},
+    {"type": "source-fidelity-note", "text": "表63.1题名印成“GWD和GSD”，而本章全文及表内计算对象是GMD（geometric mean diameter），已校正为GMD。表第2列数值17.2等实为百分数，作probit前必须除100。"}
+  ],
+  "formulas": [],
+  "tables": [
+    {"number": "63.1", "title": "Lethbridge黏壤土干团聚体粒级分布的变换数据", "columns": ["筛孔直径d (mm)", "筛上累积质量 (%)", "y=log₁₀(d/mm)", "x=NED"], "rows": [
+      [38, 17.2, 1.58, -0.95],
+      [12.6, 38.5, 1.1, -0.29],
+      [7.1, 48.7, 0.85, -0.03],
+      [1.9, 64.9, 0.28, 0.38],
+      [1.2, 71, 0.08, 0.56],
+      [0.47, 81.8, -0.33, 0.91]
+    ], "notes": ["NED=Φ⁻¹(累积百分数/100)", "表中log值为两位小数的印刷四舍五入值"]}
+  ],
+  "contentSha256": "fac71bf177b87b6c94fe0083f1d2bfc0bda180e345d5f02a9576f1d17fa7426f"
+}

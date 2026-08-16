@@ -1,0 +1,106 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 290,
+  "sourceImageSha256": "dbd92d092b4d627d72d721cc1efe10bfc5bd7147da6c906b35ed18509381d828",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "核对式(82.7)—(82.15)、稳态参数后续和82.3.2瞬态流全文"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "复核端点K、α*反算、I/E₁/E₂量纲、t¹ᐟ²微分、几何平均、β/γ及不等式"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "中文版、英文原章、表82.1参数表与Haverkamp三维入渗式交叉核对，规范Qₛ和ω符号；印刷页码799"
+    }
+  },
+  "blocks": [
+    {
+      "type": "steady-state-continuation",
+      "text": "分段分析的首水头ψ₁只用区间1—2参数，末水头ψₙ只用区间n−1—n参数；中间水头按式(82.6)平均两个相邻区间估计。得到K(ψ₀)后，由式(82.1)反求φ(ψ₀)，再用式(69.16)求α*(ψ₀)。S(ψ₀)、PD(ψ₀)、NP(ψ₀)分别由式(69.17)—(69.19)求。"
+    },
+    {
+      "type": "measurement-requirement",
+      "text": "多水头分析求S(ψ₀)时，每个水头均需独立确定Δθ=θ(ψ₀)−θ(ψᵢ)。宜在入渗板下安装原位含水量装置（如TDR探头），避免中断水流及破坏性取样。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "式(82.9)原书/英文排版写Q(ψ₀)，但该式明确由稳态式(82.1)反解，量值应为Qₛ(ψ₀)，已统一下标。本章把三维边缘流形状参数记为ω=0.75，并另用γ=1.818表示湿润锋经验常数；两者不得混淆。"
+    },
+    {
+      "type": "heading",
+      "number": "82.3.2",
+      "title": "瞬态流",
+      "level": 3
+    },
+    {
+      "type": "transient-method",
+      "text": "固定ψ₀下，早期瞬态流用类似Philip（1957）一维入渗式的两项模型I=E₁t¹ᐟ²+E₂t。对t¹ᐟ²微分后，dI/dt¹ᐟ²对t¹ᐟ²应为直线，截距E₁、斜率2E₂。Haverkamp等（1994）的中短期三维入渗（尚未接近稳态）给出E₁=S(ψ₀)及式(82.13)。β≈0.6，ω=0.75；ω为圆盘边缘侧向流形状参数。"
+    },
+    {
+      "type": "regression-workflow",
+      "text": "按式(82.14)离散化：j=1,2,…,n−1，n为ΔI(ψ₀)/Δt¹ᐟ²对t¹ᐟ²的数据点数；代表时刻*tⱼ¹ᐟ²取tⱼ¹ᐟ²和tⱼ₊₁¹ᐟ²的几何平均。对离散点做简单线性回归，求E₁、E₂及标准误。由E₂按式(82.13)求K(ψ₀)时，必须独立测Δθ。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "82.7",
+      "plain": "K(ψ₁)=K′₁,₂ exp(α′₁,₂ψ₁)",
+      "latex": "K(\\psi_1)=K'_{1,2}\\exp(\\alpha'_{1,2}\\psi_1)",
+      "resultUnit": "L·T⁻¹"
+    },
+    {
+      "label": "82.8",
+      "plain": "K(ψₙ)=K′ₙ₋₁,ₙ exp(α′ₙ₋₁,ₙψₙ)",
+      "latex": "K(\\psi_n)=K'_{n-1,n}\\exp(\\alpha'_{n-1,n}\\psi_n)",
+      "resultUnit": "L·T⁻¹"
+    },
+    {
+      "label": "82.9（下标规范）",
+      "plain": "α*(ψ₀)=aK(ψ₀)/{G[Qₛ(ψ₀)−πa²K(ψ₀)]}",
+      "latex": "\\alpha^*(\\psi_0)=\\frac{aK(\\psi_0)}{G[Q_s(\\psi_0)-\\pi a^2K(\\psi_0)]}",
+      "resultUnit": "L⁻¹"
+    },
+    {
+      "label": "82.10",
+      "plain": "I(ψ₀)=E₁t¹ᐟ²+E₂t",
+      "latex": "I(\\psi_0)=E_1t^{1/2}+E_2t",
+      "resultUnit": "L³·L⁻²=L"
+    },
+    {
+      "label": "82.11",
+      "plain": "dI(ψ₀)/dt¹ᐟ²=E₁+2E₂t¹ᐟ²",
+      "latex": "\\frac{dI(\\psi_0)}{d t^{1/2}}=E_1+2E_2t^{1/2}",
+      "resultUnit": "L·T⁻¹ᐟ²"
+    },
+    {
+      "label": "82.12",
+      "plain": "E₁=S(ψ₀)",
+      "latex": "E_1=S(\\psi_0)",
+      "resultUnit": "L·T⁻¹ᐟ²"
+    },
+    {
+      "label": "82.13",
+      "plain": "E₂=[(2−β)/3]K(ψ₀)+ωS(ψ₀)²/{a[θ(ψ₀)−θ(ψᵢ)]}；β≈0.6，ω=0.75",
+      "latex": "E_2=\\frac{2-\\beta}{3}K(\\psi_0)+\\frac{\\omega S(\\psi_0)^2}{a[\\theta(\\psi_0)-\\theta(\\psi_i)]},\\qquad \\beta\\approx0.6,\\ \\omega=0.75",
+      "resultUnit": "L·T⁻¹"
+    },
+    {
+      "label": "82.14",
+      "plain": "dI(ψ₀)/dt¹ᐟ²≈ΔI(ψ₀)/Δt¹ᐟ²=(Iⱼ₊₁−Iⱼ)/(tⱼ₊₁¹ᐟ²−tⱼ¹ᐟ²)=E₁+2E₂·*tⱼ¹ᐟ²；*tⱼ¹ᐟ²=√(tⱼ₊₁¹ᐟ²tⱼ¹ᐟ²)",
+      "latex": "\\frac{dI(\\psi_0)}{dt^{1/2}}\\approx\\frac{\\Delta I(\\psi_0)}{\\Delta t^{1/2}}=\\frac{I_{j+1}-I_j}{t_{j+1}^{1/2}-t_j^{1/2}}=E_1+2E_2\\,{}^*t_j^{1/2},\\qquad {}^*t_j^{1/2}=\\sqrt{t_{j+1}^{1/2}t_j^{1/2}}",
+      "resultUnit": "L·T⁻¹ᐟ²"
+    },
+    {
+      "label": "82.15",
+      "plain": "ωE₁²/{a[θ(ψ₀)−θ(ψᵢ)]}<E₂/2",
+      "latex": "\\frac{\\omega E_1^2}{a[\\theta(\\psi_0)-\\theta(\\psi_i)]}<\\frac{E_2}{2}",
+      "resultUnit": "L·T⁻¹"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "763b5f06536562d9e561299691566d3e632d229887e3ec5207f9e3bf05156741"
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 323,
+  "sourceImageSha256": "5dc693dc9aa80302192533d04ce92d171ec6ef1e591d0b294cc697b5a26612c8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复31.6.3续文、31.6.4乙炔还原实验、31.6.5 ¹⁵N方法及参考文献开头"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验N₂/¹⁵N₂/¹⁴N上下标上标、10%、μmol、1000倍、%Ndfa/%Ndff_F/%Ndff_NF下标及式（31.1）"},
+    "secondVisualPass": {"status": "verified", "method": "从Antoun和Prévost跨页参考文献反向复核至总氮差异续文，确认式（31.1）原书未印×100；页码292"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph-continuation", "continuationOf": "page-0322#total-n-difference", "text": "个方法的主要假设是豆科植物和对照植物同化了相同量的土壤氮养分。然而，由于根系形态的不同会导致对土壤氮素吸收的差异，从而会对固氮作用造成错误的估算。"},
+    {"type": "paragraph", "method": "31.6.3", "text": "该方法仅仅需要在田间试验设计中加入一个对照植物的处理。在取样的过程中必须非常小心，需要尽可能将植物的所有地上部分都收割下来，并且不能带有土壤。所有植物样品要进行处理，用Kjeldahl法测定总氮的含量。通过植物原料中的总氮含量及干物质的产量来计算总氮产量，获得豆科植物与对照植物间总氮产量的差异，从而可以估算出N₂的固定量。"},
+    {"type": "section-heading", "level": 3, "number": "31.6.4", "title": "乙炔还原实验"},
+    {"type": "paragraph", "text": "在根瘤中，类菌体细胞即产固氮酶的根瘤菌细胞，固氮酶会将氮气还原为氨气。这些酶同样可以还原其他物质，包括将乙炔还原为乙烯。乙炔还原实验（acetylene reduction assay，ARA）包括切离的结瘤外壳、分离的根部系统，或者在一个含有10%乙炔的密闭容器中的完整植株。容器大小根据试验植物材料的大小确定（玻璃管到玻璃罐规格不等）。经特定时间保温培养后，产生的乙烯用容器收集后用带有氢火焰离子检测器的气相色谱测定，气相色谱可以检测非常低浓度的乙烯。固氮酶的活性常常用μmol乙烯/植株/小时或者μmol乙烯/根瘤干重或湿重/小时表示。乙炔还原实验的标准过程和计算方法在以往的文献中已经有介绍（Turner和Gibson，1980；Somasegaran和Hoben，1994；Weaver和Danso，1994）。"},
+    {"type": "paragraph", "text": "这个方法十分灵敏，受植物干扰影响较大（Singh和Wright，2003）。乙炔还原试验并不能测定总的固氮酶的活性度，因为试验条件会导致固氮酶的活性降低，因此乙炔还原试验不能用于准确计算固氮量。然而乙炔还原试验是一个评价根瘤/豆科植物共生体中固氮酶活性相对差异的有效方法（Vessey，1994），该评价方法适用于豆科植物的盆栽试验，对田间试验不适用（Minchin，1994）。乙炔还原试验是一个非破坏性试验，在选用植物做固氮试验中非常有用，因为该方法对植株后续产籽无影响（Hardarson，2001）。乙炔还原试验比¹⁵N₂灵敏1000倍，并且在应用上更加廉价和简单（Knowles和Barraquio，1994）。"},
+    {"type": "section-heading", "level": 3, "number": "31.6.5", "title": "¹⁵N方法"},
+    {"type": "paragraph", "text": "¹⁵N同位素稀释法是将可固氮和不可固氮的对照植物在施用¹⁵N标记的有机或者无机肥料的土壤中进行栽培。比起非固氮植物，可固氮植物会对¹⁵N的富集较少，因为固氮植物将从空气中吸收更多未标记的氮气（Hardarson，1994）。在一个生长周期内氮的累积量可用下面的方法计算。"},
+    {"type": "paragraph", "text": "来自空气的氮的百分数（%Ndfa）可用下面的方程计算得到：", "formulaRef": "31.1"},
+    {"type": "formula-explanation", "formulaRef": "31.1", "text": "式中，%Ndff_F和%Ndff_NF分别表示固氮植物和非固氮植物在施用相同¹⁵N标记肥料或示踪物条件下摄取的氮的百分比（Hardarson，1994）。"},
+    {"type": "source-fidelity-note", "scope": "式（31.1）", "text": "原书把左侧写为百分数%Ndfa，但右侧仅印（1−比值），未乘100。若结果以百分数报告，可执行式应为%Ndfa＝[1−(%Ndff_F/%Ndff_NF)]×100；若右侧结果保留0～1，则不得标作百分数。"},
+    {"type": "paragraph", "text": "¹⁵N自然丰度法与同位素稀释法基于同样的原理，区别在于¹⁵N自然丰度法不向土壤中添加富含¹⁵N的物质（Weaver和Danso，1994）。在土壤氮元素循环过程中，¹⁴N优先流失到空气中，因此导致土壤中¹⁵N/¹⁴N较大气N₂中的略高。因此，固氮植物较非固氮植物的¹⁵N富集量低，这被用于衡量生物固氮作用。"},
+    {"type": "paragraph", "text": "¹⁵N同位素稀释法和¹⁵N自然丰度法在Hardarson（2001）、Weaver和Danso（1994）中有详细介绍。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "reference", "text": "Anonymous 2005. Methods for testing legume inoculant and preinoculated seed products. Fertilizers Act, Section 23, Regulations, Canadian Food Inspection Agency, Canada."},
+    {"type": "reference", "id": "antoun-2005", "continuation": "page-0324", "text": "Antoun, H. and Prévost, D. 2005. Ecology of plant growth promoting rhizobacteria. In: Siddiqui, Z.A., ed. PGPR: Biocontrol and"},
+    {"type": "printed-page-number", "text": "292"}
+  ],
+  "formulas": [
+    {"number": "31.1", "context": "来自空气的氮百分数", "display": "%Ndfa＝(1−%Ndff_F/%Ndff_NF)", "latex": "\\%Ndfa=\\left(1-\\frac{\\%Ndff_F}{\\%Ndff_{NF}}\\right)", "executionDisplay": "%Ndfa＝[1−(%Ndff_F/%Ndff_NF)]×100", "executionLatex": "\\%Ndfa=\\left[1-\\frac{\\%Ndff_F}{\\%Ndff_{NF}}\\right]\\times100"}
+  ],
+  "tables": [],
+  "contentSha256": "79ecd97e22187a520397fe5f255963e28928b700b8571cebd186b0ee7f61423d"
+}

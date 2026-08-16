@@ -1,0 +1,39 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 126,
+  "sourceImageSha256": "7096547369e6c1e7398b4ee109e3e22f3e6db79838025a6965eb8a4f27c6d18b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条逐行对照原分辨率参考文献页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工合并Foy续句及Grigg至Shoemaker各条"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Betula alleghaniensis Butten、Picea abies、Fagus sylvatica、8-hydroxyquinoline、作者缩写、年份后缀、期刊卷页、机构名及原书plantavailable/NortheasternBritish等连写"},
+    "secondVisualPass": {"status": "verified", "method": "由and Liming续句至Shoemaker 1961反向复核，确认Driscoll、soil pH、J. Soil Sci.等两OCR分歧处和印刷页码95"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第11章｜酸性土壤中的易溶性铝和锰｜"},
+    {"type": "reference-entry", "continuation": true, "text": "and Liming, 2nd edn. ASA-CSSA-SSSA, Madison, WI, 57-97."},
+    {"type": "reference-entry", "text": "Grigg, J.L. and Morrison, J.D. 1982. An automatic colorimetric determination of aluminium in soil extracts using catechol violet. Commun. Soil Sci. Plant Anal. 13: 351-361."},
+    {"type": "reference-entry", "text": "Heisey, R.M. 1995. Growth trends and nutritional status of sugar maple stands on the Appalachian plateau of Pennsylvania, USA. Water Air Soil Pollut. 82: 675-693."},
+    {"type": "reference-entry", "text": "Hinrichsen, D. 1986. Multiple pollutants and forest decline. AMBIO 15: 258-265."},
+    {"type": "reference-entry", "text": "Hoyle, M.C. 1972. Manganese toxicity in Yellow birch (Betula alleghaniensis Butten) seedlings. Plant Soil 36: 229-232."},
+    {"type": "reference-entry", "text": "Hoyt, P.B. and Nyborg, M. 1971a. Toxic metals in acid soil. I. Estimation of plant-available aluminum. Soil Sci. Soc. Am. Proc. 35: 236-240."},
+    {"type": "reference-entry", "text": "Hoyt, P.B. and Nyborg, M. 1971b. Toxic metals in acid soil. II. Estimation of plant-available manganese. Soil Sci. Soc. Am. Proc. 35: 241-244."},
+    {"type": "reference-entry", "text": "Hoyt, P.B. and Nyborg, M. 1972. Use of dilute calcium chloride for the extraction of plantavailable aluminum and manganese from acid soil. Can. J. Soil Sci. 52: 163-167."},
+    {"type": "reference-entry", "text": "Hoyt, P.B. and Nyborg, M. 1987. Field calibration of liming responses of four crops using soil pH, Al and Mn. Plant Soil 102: 21-25."},
+    {"type": "reference-entry", "text": "Hoyt, P.B., Nyborg, M., and Penney, D. 1974. Farming Acid Soils in Alberta and NortheasternBritish Columbia, Publication 1521, Agriculture Canada, Ottawa, ON."},
+    {"type": "reference-entry", "text": "Hoyt, P.B. and Webber, M.D. 1974. Rapid measurement of plant-available aluminum and manganese in acid Canadian soils. Can. J. Soil Sci. 54: 53-61."},
+    {"type": "reference-entry", "text": "Hunter, D. and Ross, D.S. 1991. Evidence for a phytotoxic hydroxyl-aluminum polymer in organic soil horizons. Science 251: 1056-1058."},
+    {"type": "reference-entry", "text": "Joslin, J.D. and Wolfe, M.H. 1988. Responses of red spruce seedlings to changes in soil aluminum in six amended forest soil horizons. Can. J. Forest Res. 18: 1614-1623."},
+    {"type": "reference-entry", "text": "Joslin, J.D. and Wolfe, M.H. 1989. Aluminum effects on northern red oak seedling growth in six forest soil horizons. Soil Sci. Soc. Am. J. 53: 274-281."},
+    {"type": "reference-entry", "text": "Kamprath, E.J. 1970. Exchangeable aluminum as a criteria for liming leached mineral soils. Soil Sci. Soc. Am. Proc. 35: 252-254."},
+    {"type": "reference-entry", "text": "Kazda, M. and Zvacek, L. 1989. Aluminum and manganese and their relation to calcium in soil solution and needles in three Norway spruce (Picea abies L. Karst) stands of Upper Austria. Plant Soil 114: 257-267."},
+    {"type": "reference-entry", "text": "Kerven, G.L., Edwards, D.G., Asher, C.J., Hallman, P.S., and Kokot, S. 1989. Aluminium determination in soil solution. II. Short-term colorimetric procedures for the measurement of inorganic monomeric aluminium in the presence of organic acid ligands. Aust. J. Soil Res. 27: 91-102."},
+    {"type": "reference-entry", "text": "McAvoy, D.C., Santore, R.C., Shosa, J.D., and Driscoll, C.T. 1992. Comparison between pyrocatechol violet and 8-hydroxyquinoline procedures for determining aluminum fractions. Soil Sci. Soc. Am. J. 56: 449-455."},
+    {"type": "reference-entry", "text": "McLean, E.O., Eckert, D.J., Reddy, G.Y., and Trieweiler, J.F. 1978. An improved SMP soil lime requirement method for incorporating double buffer and quick-test features. Commun. Soil Sci. Plant Anal. 8: 667-675."},
+    {"type": "reference-entry", "text": "Rost-Siebert, K. 1984. Aluminum toxicity in seedlings of Norway spruce (Picea abies Karst) and beech (Fagus sylvatica L.). In: F. Andersson and J.M. Kelly, eds. Workshop on Aluminum Toxicity to Trees. Sveriges Lantbruks Universitet, Uppsala, Sweden."},
+    {"type": "reference-entry", "text": "Shoemaker, H.E., McLean, E.O., and Pratt, P.F. 1961. Buffer method for determining lime requirement of soils with appreciable amounts of extractable aluminum. Soil Sci. Soc. Am. Proc. 25: 274-277."},
+    {"type": "printed-page-number", "text": "95"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9a3ca952c6a2ca7bda9f76e84f12254552469c964fb501d5dd23a6b5274ba3e1"
+}

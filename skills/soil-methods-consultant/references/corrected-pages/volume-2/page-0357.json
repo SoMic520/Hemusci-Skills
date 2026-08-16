@@ -1,0 +1,56 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 357,
+  "sourceImageSha256": "c14bf1ca87f539c9007604689677245dbc8acae797ba57473e6d07c78e7cd10e",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条核对B.6安全措施、全部6条参考文献和译校署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核对70%乙醇、菌株/抗性基因、机构年份、网址与地址"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "生物安全柜/通风柜边界、灭活时点、明火条款及印刷页码866二次反查"
+    }
+  },
+  "blocks": [
+    {
+      "type": "biosafety-procedure",
+      "steps": [
+        "实验服为特定工作区专用，未经批准的去污、消毒或灭菌不得带出。",
+        "不能笼统认定所有实验室大肠杆菌均减毒、无致病性；须依据具体菌株、载体、表达产物和操作程序做风险评估，并防止皮肤接触、吸入、摄入及环境释放。",
+        "细菌及转基因菌株用良好微生物学操作和相应生物安全等级处理、保存；抗生素抗性基因等附加风险纳入评估。",
+        "在工作结束、废物移出或设备维护前，用对目标生物有效且与材料相容的方法去污。高压蒸汽灭菌、含氯消毒剂或70%乙醇不能互相任意替代，须遵守浓度、接触时间和有机负荷要求。",
+        "工作区与设备在操作后按SOP消毒/灭菌；不确定时咨询实验室主管或生物安全人员。",
+        "尽量采用无火焰无菌技术。若使用酒精灯/煤气灯，先清除乙醚、乙醇等易燃蒸气和可燃物；存在乙醚时严禁明火。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书称“大多数微生物可形成空气颗粒，因此应在通风柜处理”，校正为：产生生物气溶胶的操作使用适当生物安全柜，普通化学通风柜不能替代。原书又写“处理样品前先杀死生物体”，会使活体实验无法进行；校正为对废物、工作面和拟移出物品按风险评估灭活。"
+    },
+    {
+      "type": "references",
+      "entries": [
+        "Canadian Centre for Occupational Health and Safety (CCOHS). 2006. Occupational health and safety resource. Available at: www.ccohs.ca (verified 14 July 2006). 135 Hunter St. East, Hamilton, ON, Canada.",
+        "Health Canada. Environment and Workplace Health—WHMIS guidelines. Available at: www.hc-sc.gc.ca/ewh-semt/occup-travail/whmis-simdut/index_e.html (last updated 12 June 2006; verified 14 July 2006). 1010 Somerset St. West, Ottawa, ON, Canada.",
+        "National Fire Protection Association (NFPA). 2006. Frequently asked questions dealing with NFPA 704—addressing labeling of hazardous materials for health, flammability, reactivity and special hazards. Available at: www.nfpa.org/faq.asp?categoryID=928 (verified 14 July 2006). 1 Batterymarch Park, Quincy, MA.",
+        "Public Health Agency of Canada. 1996. Laboratory Biosafety Guidelines, 2nd ed. Available at: www.phac-aspc.gc.ca/publicat/lbg-ldmbl-96 (last updated 10 June 1996; verified 14 July 2006). 130 Colonnade Rd., Ottawa, ON, Canada.",
+        "Shugar, G.J. and Ballinger, J.T. 1996. Chemical Technicians Ready Reference Handbook. McGraw-Hill, Inc., New York.",
+        "Windholz, M., Budavari, S., Blumetti, R.F., and Otterbein, E.S. 1983. The Merck Index. Merck and Co., Inc., Rahway, NJ."
+      ]
+    },
+    {
+      "type": "credits",
+      "translator": "吕贻忠",
+      "reviewer": "李保国"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "e39c49840707919d55f5fd3785d984ae96fb0493710a1fbd8b8fa21b74c9f086"
+}

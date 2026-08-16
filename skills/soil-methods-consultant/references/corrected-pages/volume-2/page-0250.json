@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 250,
+  "sourceImageSha256": "7676cbf3c4532d0799ec52236191f5dc065b57b83f70b9efb5bc74fada900c99",
+  "review": {
+    "textPass": {"status": "verified", "method": "对公式区放大复核并对照英文原章，完成77.2.3(2)续—(5)未完及式(77.7)"},
+    "precisionPass": {"status": "verified", "method": "核验α*分类误差<50%、式(77.7)的Δθ/(CK_fs)、d、对数项、H₀>Δθd/R及三档最小环径"},
+    "secondVisualPass": {"status": "verified", "method": "按湿润锋到环底的质量守恒约束复核t_d和储水管不排空条件；印刷页码759"}
+  },
+  "blocks": [
+    {
+      "type": "method-notes",
+      "items": [
+        "若分类估α*造成K_fs/毛管参数误差不可接受，应增大其他项以降低其影响，或改用多水头式(77.3/77.4)或完整降水头式(77.5)。α*错一个质地—结构类别通常使毛管参数误差<50%。",
+        "式(77.5)—(77.6)假定Green–Ampt一维垂直、水平稳定、阶跃湿润锋且全程在环内。粗质或高度结构化、裂隙/生物孔丰富介质中，湿润锋过快到环底或发生优先/指流，方法不适用。式(77.7)给出湿润锋到环底的最长有效测时t_d，并要求储水管在此之前不排空。",
+        "商用压力入渗仪以马利奥特双储水器覆盖低/高流量，端盖连接圆环；马利奥特模式用于单/多恒水头，开放储水管模式用于降水头。",
+        "定水头法优点是垂向K_fs较准确、变量q_s/H/d/a/α*简单且样体积大；缺点是时间长，大环或高导水介质耗水多。代表性环径建议：均匀砂≥10 cm，有结构/异质壤土≥30 cm，有结构黏土/黏壤土≥50 cm。降水头法测时更短、装置更简单；内容续下页。"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "label": "77.7",
+      "plain": "t_d = Δθ/(C K_fs){d − (H₀+1/α*)/C ln[1 + C d/(H₀+1/α*)]}, with H₀ > (Δθ/R)d",
+      "latex": "t_d=\\frac{\\Delta\\theta}{CK_{fs}}\\left\\{d-\\frac{H_0+1/\\alpha^*}{C}\\ln\\left[1+\\frac{Cd}{H_0+1/\\alpha^*}\\right]\\right\\},\\quad H_0>\\frac{\\Delta\\theta}{R}d",
+      "resultUnit": "T",
+      "variables": ["t_d：湿润锋由入渗面迁移到环底所需时间", "d：圆环插入深度"]
+    }
+  ],
+  "tables": [],
+  "contentSha256": "36aa8e964fc39d6bf230b208f7d09f0b6da362bc3fa3d7495dd2b977775f94b5"
+}

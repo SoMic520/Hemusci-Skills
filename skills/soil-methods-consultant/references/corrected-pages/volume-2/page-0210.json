@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 210,
+  "sourceImageSha256": "0c58d9f5d9167e9989b9d35555a54e3131ddd980db035d16cfdea4c34a9d6c43",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐图对照原分辨率页图、两套OCR和英文原章，完成式(72.6)—(72.10)、装填土计算及图72.4"},
+    "precisionPass": {"status": "verified", "method": "核验M·M⁻¹、M·L⁻³、L³·L⁻³、ρ_w=0.9982 g·cm⁻³、式72.4引用、−lg(−ψ_m)及首点−0.04 m"},
+    "secondVisualPass": {"status": "verified", "method": "按装填样M_s→M_w/M_ods→θ_g→θ_v→S反向验算式(72.8)—(72.10)并确认式(72.9)印刷错位；印刷页码719"}
+  },
+  "blocks": [
+    {"type": "calculation", "name": "原状土壤续", "items": ["质量含水量θ_g(ψ_m)由水质量M_w除以烘干土质量M_ods。", "干容重ρ_b由M_ods/V_b计算。"]},
+    {"type": "calculation", "name": "装填土壤", "items": ["各ψ_m下水质量由湿样总质量M_s(ψ_m)减总烘干样质量M_d。", "装填样烘干土质量M_ods=M_d−M_rfe；M_rfe为彻底除土后的环+滤纸/滤布+橡皮筋总质量。", "θ_g按式(72.6)；θ_v按式(72.10)。ρ_b为干容重，ρ_w为水密度，20 ℃时0.9982 g·cm⁻³。", "装填样所需V_b最好取同一采样地多个原状土芯体积的平均值。", "水饱和度S(ψ_m)按式(72.4)计算。"]},
+    {"type": "figure", "number": "72.4", "title": "黏土和壤土的脱水曲线", "axes": ["y：体积含水量（m³·m⁻³）", "x：−lg(−ψ_m)，下方标示ψ_m（m）"], "series": ["黏土1", "黏土2", "壤土1", "壤土2"], "note": "本例第一个基质势为ψ_m=−0.04 m，而不是0 m。"},
+    {"type": "source-fidelity-note", "text": "原书式(72.9)在“烘干土壤质量”标题下误印为M_w(ψ_m)=M_s(ψ_m)−M_rfe；英文原章和质量定义均为M_ods=M_d−M_rfe，已校正。原书又把θ_g量纲误印为L³·L⁻³，正确为M·M⁻¹；“S利用式(72.10)”应为式(72.4)。图注首点OCR漏负号，页图为ψ_m=−0.04 m。"}
+  ],
+  "formulas": [
+    {"label": "72.6", "plain": "θ_g(ψ_m) = M_w(ψ_m)/M_ods", "latex": "\\theta_g(\\psi_m)=\\frac{M_w(\\psi_m)}{M_{ods}}", "resultUnit": "M·M⁻¹"},
+    {"label": "72.7", "plain": "ρ_b = M_ods/V_b", "latex": "\\rho_b=\\frac{M_{ods}}{V_b}", "resultUnit": "M·L⁻³"},
+    {"label": "72.8", "plain": "M_w(ψ_m) = M_s(ψ_m) - M_d", "latex": "M_w(\\psi_m)=M_s(\\psi_m)-M_d", "resultUnit": "mass (e.g. g)"},
+    {"label": "72.9", "plain": "M_ods = M_d - M_rfe", "latex": "M_{ods}=M_d-M_{rfe}", "resultUnit": "mass (e.g. g)"},
+    {"label": "72.10", "plain": "θ_v(ψ_m) = θ_g(ψ_m)ρ_b/ρ_w", "latex": "\\theta_v(\\psi_m)=\\frac{\\theta_g(\\psi_m)\\rho_b}{\\rho_w}", "resultUnit": "L³·L⁻³"}
+  ],
+  "tables": [],
+  "contentSha256": "23fc550ad40dbade9e6269c5597107926bf248e7550d756520c5efd32af5fb65"
+}

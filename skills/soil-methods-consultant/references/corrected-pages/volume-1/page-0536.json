@@ -1,0 +1,64 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 536,
+  "sourceImageSha256": "6a3af3f5fb59578619a09b9614114803df2e1147993219ceb28b16f7925c1127",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行并逐图对照原分辨率页面和两套OCR，接续53.4并完成图53.3、图53.4及全部积分数值"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验75/300 MHz、13 kHz、25 Hz、¹³C上标、三类样品及12个积分百分数，并逐行复算各样品合计100%"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由图53.4图注反向复核至跨页句，检查化学位移轴方向、相位校正对照、积分区间顺序和印刷页码505"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph-continuation",
+      "scope": "53.4",
+      "text": "[承第535页] 固态¹³C NMR宜用于同一台仪器、相同采集与处理参数下样品间的相对比较。除常规宽区间外，也可积分表53.1所列特定组分区间，或积分两个相邻峰谷之间的面积；比较时必须固定边界和基线规则。"
+    },
+    {
+      "type": "figure",
+      "number": "图53.3",
+      "title": "相位校正对HF/HCl处理泥炭胡敏酸CP/MAS ¹³C NMR谱的影响",
+      "details": "上图仅部分相位校正；下图完全校正后谱图两侧基线相等。RAMP-CP，¹³C共振频率75 MHz（300 MHz仪器），MAS 13 kHz。"
+    },
+    {
+      "type": "figure",
+      "number": "图53.4",
+      "title": "HF/HCl处理泥炭整体、泥炭胡敏酸和泥炭胡敏素的CP/MAS ¹³C NMR相对积分",
+      "details": "用四区积分及相对信号强度（%）比较结构基团相对丰度。RAMP-CP，¹³C共振频率75 MHz（300 MHz仪器），MAS 13 kHz，谱线展宽25 Hz。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "图53.4",
+      "text": "图中百分数是CP/MAS在给定采集与处理参数下的相对信号积分，不等同于经CP偏差校正后的绝对碳含量。运行时不得把图值表述为完全定量组成。"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "53.4-figure53.4-sum-check",
+      "display": "ΣI_region = 100.00%（每个样品）",
+      "meaning": "图53.4三行积分百分数的独立加和校验"
+    }
+  ],
+  "tables": [
+    {
+      "id": "figure-53.4-integrals",
+      "title": "图53.4四区相对积分（%）",
+      "columns": ["样品", "160～220 ppm", "110～160 ppm", "45～110 ppm", "0～45 ppm"],
+      "rows": [
+        ["泥炭胡敏素", "12.49", "25.02", "33.29", "29.20"],
+        ["泥炭胡敏酸", "17.83", "36.99", "25.34", "19.84"],
+        ["泥炭（整体）", "13.59", "25.50", "34.65", "26.26"]
+      ]
+    }
+  ],
+  "contentSha256": "01fddbdd91ee48aed733ef9443a2381c07ac8f542bd85f731df12ae9032623a7"
+}

@@ -1,0 +1,81 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 306,
+  "sourceImageSha256": "f84a16728b8b2525daa880d0e9c57053b32f78954af2cf792ee6ad0619f1ab94",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐格核对表83.1(c)续表、参数说明及图83.1/83.2标题、坐标、回归式"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "以z=50 cm、m=0.8624、τ=0.4984、μ=−0.0569代入式(83.12)复算续表和两条回归线"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "科学记数法、ln、R²、θ_av/θ̄及cm³·cm⁻³单位二次反查；印刷页码815"
+    }
+  },
+  "blocks": [
+    {
+      "type": "calculation-results",
+      "text": "表83.1(c)的K(θ)_z按式(83.12)计算，所用参数为z=50 cm、m=0.8624、τ=0.4984、μ=−0.0569。每一测定深度/探头均重复同一计算过程。"
+    },
+    {
+      "type": "figure",
+      "number": "83.1",
+      "title": "瞬时剖面法：深度z处体积含水量随时间减小算例",
+      "axes": {
+        "x": "ln(t)，t以min计",
+        "y": "ln(θ)，θ单位cm³·cm⁻³"
+      },
+      "series": "表83.1(a)数据点",
+      "regression": "ln(θ)=−0.0569 ln(t)−0.6964；R²=0.9979",
+      "purpose": "回归直线用于获得式(83.11)的系数。"
+    },
+    {
+      "type": "figure",
+      "number": "83.2",
+      "title": "瞬时剖面法：地表至深度z的平均体积含水量θ_av(t)_z与深度z处实测体积含水量θ(t)_z的关系",
+      "axes": {
+        "x": "θ(t)_z (cm³·cm⁻³)",
+        "y": "θ_av(t)_z (cm³·cm⁻³)"
+      },
+      "series": "表83.1(b)数据点",
+      "regression": "θ_av(t)_z=0.8624θ(t)_z+0.0401；R²=0.9929",
+      "purpose": "回归直线用于获得式(83.10)的系数。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "图83.1回归式",
+      "plain": "ln(θ)=−0.0569ln(t)−0.6964；R²=0.9979",
+      "latex": "\\ln(\\theta)=-0.0569\\ln(t)-0.6964;\\qquad R^2=0.9979"
+    },
+    {
+      "label": "图83.2回归式",
+      "plain": "θ_av(t)_z=0.8624θ(t)_z+0.0401；R²=0.9929",
+      "latex": "\\theta_{av}(t)_z=0.8624\\theta(t)_z+0.0401;\\qquad R^2=0.9929"
+    }
+  ],
+  "tables": [
+    {
+      "number": "83.1(c)",
+      "title": "深度50 cm处K(θ)_z—θ_z（续表；与前页合并后θ范围0.50～0.30 cm³·cm⁻³）",
+      "columns": ["θ_z (cm³·cm⁻³)", "K(θ)_z (cm·min⁻¹)", "K(θ)_z (cm·s⁻¹)"],
+      "rows": [
+        ["0.32", "3.26×10⁻⁴", "5.43×10⁻⁶"],
+        ["0.31", "1.81×10⁻⁴", "3.01×10⁻⁶"],
+        ["0.30", "9.83×10⁻⁵", "1.64×10⁻⁶"]
+      ],
+      "calculationParameters": {
+        "z": "50 cm",
+        "m": "0.8624",
+        "tau": "0.4984",
+        "mu": "−0.0569"
+      }
+    }
+  ],
+  "contentSha256": "4d40bbf25146070155283afe486e80f65bb9d585b02397fbe078991752ecfff0"
+}

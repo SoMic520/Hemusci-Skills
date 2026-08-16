@@ -1,0 +1,38 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 57,
+  "sourceImageSha256": "ba973294bbeb979c4188e2ea1e49e50b7a8ce8ff4ff84490d49cd5e89eb5fa8a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成NP判定、注释、14条参考文献和译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验w_L/w_P/NP条件、标准号T89-90/T90-87/D 4318-98/D 2487-98、卷页和作者拼写"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向逐条复核至NP条件①；印刷页码566"}
+  },
+  "blocks": [
+    {"type": "calculation-exceptions-continuation", "items": ["① w_L和w_P均无法测得时，PI记为NP（无塑性）。", "② 砂粒含量很高时，应先测w_P再测w_L；若w_P无法测得，PI记为NP。", "③ w_P≥w_L时，PI记为NP。"]},
+    {"type": "subheading", "title": "4. 注释"},
+    {"type": "note", "text": "Bobrowski和Griekspoor（1992）的土壤搓揉装置与标准手工法差异较小，可提高再现性并缩短试验时间。"},
+    {"type": "heading", "title": "参考文献", "level": 2},
+    {"type": "references", "items": [
+      "AASHTO. 2000a. Determining the liquid limit of soils (T89-90). In Standard Specifications for Transportation Materials and Methods of Sampling and Testing. Part II. American Association of State Highway and Transportation Officials, Washington, DC.",
+      "AASHTO. 2000b. Determining the plastic limit and plasticity index of soils (T90-87). In Standard Specifications for Transportation Materials and Methods of Sampling and Testing. Part II. American Association of State Highway and Transportation Officials, Washington, DC.",
+      "ASTM. 2000a. Standard test methods for liquid limit, plastic limit, and plasticity index of soils (D 4318-98). In 2000 Annual Book of ASTM Standards, Vol. 04.08, American Society for Testing and Materials, West Conshohocken, PA, 546–558.",
+      "ASTM. 2000b. Standard practice for classification of soils for engineering purposes (Unified Soil Classification System) (D 2487-98). In 2000 Annual Book of ASTM Standards, Vol. 04.08, American Society for Testing and Materials, West Conshohocken, PA, 238–248.",
+      "Bobrowski, L.J. and Griekspoor, D.M. 1992. Determination of the plastic limit of a soil by means of a rolling device. Geotech. Test. J. GTJODF 15:284–287.",
+      "BSI. 2000. Methods of test for soils for civil engineering purposes: classification tests. British Standard 1377: Part 2: 1990. British Standards Institution, London.",
+      "De Jong, E., Acton, D.F., and Stonehouse, H.B. 1990. Estimating the Atterberg limits of southern Saskatchewan soils from texture and carbon contents. Can. J. Soil Sci. 70:543–554.",
+      "Harison, J.A. 1988. Using the BS cone penetrometer for the determination of the plastic limit of soils. Géotechnique 38:433–438.",
+      "Leroueil, S. and Le Bihan, J.-P. 1996. Liquid limits and fall cones. Can. Geotech. J. 33:793–798.",
+      "McBride, R.A. 1989. A re-examination of alternative test procedures for soil consistency limit determination: II. A simulated desorption procedure. Soil Sci. Soc. Am. J. 53:184–191.",
+      "McBride, R.A. and Baumgartner, N. 1992. A simple slurry consolidometer designed for the estimation of the consistency limits of soils. J. Terramechanics 29:223–238.",
+      "McBride, R.A. and Bober, M.L. 1989. A re-examination of alternative test procedures for soil consistency limit determination: I. A compression-based procedure. Soil Sci. Soc. Am. J. 53:178–183.",
+      "Sheldrick, B.H. 1984. Analytical methods manual 1984. L.R.R.I. Contribution No. 84-30. Land Resource Research Institute, Research Branch, Agriculture Canada, Ottawa, ON, Canada.",
+      "Wroth, C.P. and Wood, D.M. 1978. The correlation of index properties with some basic engineering properties of soils. Can. Geotech. J. 15:137–145."
+    ]},
+    {"type": "credits", "text": "王力、高伟达译，任图生校。"},
+    {"type": "source-fidelity-note", "text": "本页参考文献确认Harison为作者原拼写；ASTM 2000a是D 4318试验方法，2000b是D 2487分类标准，供纠正本章前文对调的引文。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "4d685cb3962b299f8613459da61131fb0e6051c7360fe64ea92687b255e86ab1"
+}

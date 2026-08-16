@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 79,
+  "sourceImageSha256": "30d605d7ab111457c845a69d66edac267ae69e056b7a6be4ed98be79349788e4",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率图5.2、正文和参考文献，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复英文专名、卷号、版本和跨页末句"},
+    "precisionPass": {"status": "verified", "method": "放大核对F1、C6-C10、UCL/UWL/LWL/LCL、±2σ/±3σ、坐标轴、图题、QA/QC、标准编号D4515-85(2001)和URL字符"},
+    "secondVisualPass": {"status": "verified", "method": "按图内标签、图注、调查第（6）项、参考文献六条及印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "figure", "number": "5.2", "title": "控制图示例", "chartTitle": "加标土壤中F1（C6-C10）烃类控制图", "xAxis": "加标日期", "yAxis": "回收率", "yTicks": ["80.00", "90.00", "100.00", "110.00", "120.00", "130.00"], "xTickLabels": ["3-Jan-06", "10-Jan-06", "12-Jan-06", "17-Jan-06", "19-Jan-06", "23-Jan-06", "25-Jan-06", "27-Jan-06"], "controlLines": ["UCL，平均值+3σ", "UWL，平均值+2σ", "平均值", "LWL，平均值−2σ", "LCL，平均值−3σ"]},
+    {"type": "figure-caption", "number": "5.2", "text": "控制图示例（UCL，上控制限，平均值+3σ；UWL，上警戒限，平均值+2σ；LWL，下警戒限，平均值−2σ；LCL，下控制限，平均值−3σ）。", "inlineNotation": ["UCL", "+3σ", "UWL", "+2σ", "LWL", "−2σ", "LCL", "−3σ"]},
+    {"type": "ordered-list", "continuation": true, "items": [
+      {"number": "（6）", "text": "确认结果是否有意义：将结果与其他分析结果和历史数据（如果已知的话）进行比较，并/或与数据使用者沟通。计算机数据检查可以是实验室数据库、模型或电子表格的内置功能。自动化的QA/QC可以促进同行审核，或者在某种情况下也可用于手动检查。"}
+    ]},
+    {"type": "section-heading", "level": 2, "number": null, "title": "参考文献"},
+    {"type": "reference-entry", "text": "Alberta Environment (AENV). 2004. Alberta Environment Laboratory Data Quality Assurance Policy Procedures and Guidelines. [Online] Available at: http: //www3.gov.ab.ca/env/protenf/publications/Laboratory_Data_Quality_Assurance_Policy_Procedures_2004. pdf (verified March 2005)."},
+    {"type": "reference-entry", "text": "American Society for Testing and Materials (ASTM). 2004. D4515-85(2001). Standard Practice for Estimation of Holding Time for Water Samples Containing Organic Constituents. ASTM Book of Standards, Vol. 11.02. ASTM International, West Conshohocken, PA."},
+    {"type": "reference-entry", "text": "Association of Official Analytical Chemists (AOAC). 1985. In: G.T. Wernimont, ed. Use of Statistics to Develop and Evaluate Analytical Methods. AOAC, Arlington, VA."},
+    {"type": "reference-entry", "text": "Bevington, P. and Robinson, D.K. 2003. Data Reduction and Error Analysis for the Physical Sciences, 3rd edn. McGraw-Hill, Toronto."},
+    {"type": "reference-entry", "text": "British Columbia Ministry of the Environment (BCME). Environmental Protection Division, Water, Air and Climate Change Branch 2003. Part A: Quality Control and Quality Assurance. In: BC Field Sampling Manual: 2003. [Online] Available at: http: //www.env.gov.bc.Ca/ air/wamr/ labsys/field_man_03.html#pdf (verified February 2006). See also Section A: Laboratory Quality Assurance/Quality Control. In: BC Environmental Laboratory Manual: 2005. [Online] Available at: http: //www.env.gov.bc.ca/air/wamr/labsys/lab_man_05.html (verified February 2005)."},
+    {"type": "reference-entry", "text": "Canadian Association of Environmental Analytical Laboratories (CAEAL). 1999. Template for the Design and Development of a Quality Manual for Environmental Laboratories [Online] and QC for Environmental Laboratories. [Online] Available at: http: //www.caeal.ca/t_caealpubs. html (verified March 2005)."},
+    {"type": "reference-entry", "continuation": true, "text": "Canadian Council of Ministers of the Environment (CCME). 1993. Volume I: Main Report. In: Guidance Manual of Sampling,"},
+    {"type": "printed-page-number", "text": "48"}
+  ],
+  "formulas": [
+    {"label": "图5.2 UCL", "plain": "平均值+3σ", "latex": "\\bar{x}+3\\sigma", "context": "上控制限"},
+    {"label": "图5.2 UWL", "plain": "平均值+2σ", "latex": "\\bar{x}+2\\sigma", "context": "上警戒限"},
+    {"label": "图5.2 LWL", "plain": "平均值−2σ", "latex": "\\bar{x}-2\\sigma", "context": "下警戒限"},
+    {"label": "图5.2 LCL", "plain": "平均值−3σ", "latex": "\\bar{x}-3\\sigma", "context": "下控制限"}
+  ],
+  "tables": [],
+  "contentSha256": "4be474160a8f242b7da2e329231246f2a4748afe837bbc35fb15d8259b80dca7"
+}

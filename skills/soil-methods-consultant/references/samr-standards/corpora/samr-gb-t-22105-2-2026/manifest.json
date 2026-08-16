@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-22105-2-2026",
+  "label": "GB/T 22105.2-2026《土壤质量 总汞、总砷、总铅的测定 原子荧光法 第2部分：土壤中总砷的测定》",
+  "standardNo": "GB/T 22105.2-2026",
+  "title": "土壤质量 总汞、总砷、总铅的测定 原子荧光法 第2部分：土壤中总砷的测定",
+  "published": "2026-05-25",
+  "implemented": "2026-12-01",
+  "domain": "soil",
+  "sourceType": "official-online-reader",
+  "sourceFingerprint": "9530dc97f8ae0aef255488f1bf14fe2bfd8064ad4095a4c6ea2710a463c62bf5",
+  "includedPageCount": 15,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=7C93F9317708EF67FA2B3967251B38EE"
+}

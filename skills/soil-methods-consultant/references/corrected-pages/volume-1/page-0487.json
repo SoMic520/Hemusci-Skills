@@ -1,0 +1,53 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 487,
+  "sourceImageSha256": "b06174ed7a9d9955095962de80a753941dbd5c91f38b3c021aac0abad353fd8b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页与两套OCR，完成SUVA材料、步骤、注释及酪类方法至步骤（7）"},
+    "precisionPass": {"status": "verified", "method": "核验1 cm光径、254～285/280/725 nm、216 g·L⁻¹ Na₂CO₃、0.7 mL、50/100/150 μL、2000×g及L·mg⁻¹ C·cm⁻¹量纲"},
+    "secondVisualPass": {"status": "verified", "method": "由酪类步骤（7）反向复核SUVA公式、波长、干扰离子和Folin–Ciocalteu配方；印刷页码456"}
+  },
+  "blocks": [
+    {"type": "subsection-heading", "level": 4, "title": "1. 材料与试剂", "scope": "48.3.3"},
+    {"type": "materials-list", "scope": "48.3.3", "items": [
+      {"number": "（1）", "text": "光径1 cm的石英玻璃比色皿。"},
+      {"number": "（2）", "text": "分光光度计。"}
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "2. 步骤和计算", "scope": "48.3.3"},
+    {"type": "procedure-step", "number": "（1）", "text": "将足量可溶性有机质提取液加入石英比色皿。"},
+    {"type": "procedure-step", "number": "（2）", "text": "以空白为参比，在254～285 nm范围所选波长读取吸光度。"},
+    {"type": "procedure-step", "number": "（3）", "text": "特定紫外吸光值为样品吸收系数（cm⁻¹）除以DOC浓度（mg C·L⁻¹），单位L·mg⁻¹ C·cm⁻¹。"},
+    {"type": "procedure-step", "number": "（4）", "text": "报告时必须注明实际测定波长。"},
+    {"type": "subsection-heading", "level": 4, "title": "3. 注释", "scope": "48.3.3"},
+    {"type": "note", "number": "（1）", "text": "选用合适pH，避免样品酸化和鼓泡。必须使用石英比色皿，普通玻璃或塑料可吸收部分紫外光。吸光度不得超过仪器线性范围；超出时用纯净水稀释。"},
+    {"type": "note", "number": "（2）", "text": "Fe²⁺、NO₃⁻、NO₂⁻和Br⁻可干扰吸光值。可改在280 nm测定以尽量降低NO₃⁻干扰；NO₂⁻和Br⁻通常浓度很低，干扰可忽略。"},
+    {"type": "section-heading", "level": 3, "number": "48.3.4", "title": "酪类"},
+    {"type": "paragraph", "text": "样品溶液中的单体或低聚酪主要来自植物多酪代谢产物，如单宁和木质素（Guggenberger等，1989）。它们是重要的金属络合剂，能结合蛋白质，干扰磷酸盐等无机阴离子的吸收，并可能对微生物和植物产生化感作用（Herbert和Bertsch，1995；Zsolnay，2003）。"},
+    {"type": "subsection-heading", "level": 4, "title": "1. 材料与试剂", "scope": "48.3.4"},
+    {"type": "materials-list", "scope": "48.3.4", "items": [
+      {"number": "（1）", "text": "1.5 mL微量离心管。"},
+      {"number": "（2）", "text": "分光光度计。"},
+      {"number": "（3）", "text": "光径1 cm的石英或光学玻璃比色皿。"},
+      {"number": "（4）", "text": "适配1.5 mL离心管的微型离心机。"},
+      {"number": "（5）", "text": "Folin–Ciocalteu酪试剂（可购自SIGMA），避光储存。"},
+      {"number": "（6）", "text": "饱和Na₂CO₃溶液：216 g Na₂CO₃溶于1 L去离子水。"},
+      {"number": "（7）", "text": "标准贮备液：用去离子水配制100 mg·L⁻¹分析纯2-羟基苯甲酸。"},
+      {"number": "（8）", "text": "标准工作液：用贮备液配制2.5、5、10、20、30和40 mg·L⁻¹ 2-羟基苯甲酸。"}
+    ]},
+    {"type": "subsection-heading", "level": 4, "title": "2. 步骤和计算", "scope": "48.3.4"},
+    {"type": "procedure-step", "number": "（1）", "text": "向1.5 mL微量离心管分别加0.7 mL样品、标准液或空白。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加50 μL Folin–Ciocalteu试剂。"},
+    {"type": "procedure-step", "number": "（3）", "text": "混匀，室温静置3 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "加100 μL饱和Na₂CO₃溶液。"},
+    {"type": "procedure-step", "number": "（5）", "text": "加150 μL去离子水，混匀后室温静置10～20 min。"},
+    {"type": "procedure-step", "number": "（6）", "text": "有酪时溶液逐渐变蓝，空白无色。如有沉淀，以2000×g离心2～3 min后再测定。"},
+    {"type": "procedure-step", "number": "（7）", "text": "将足量待测液或标准液转入比色皿，以空白为参比，在725 nm读取吸光度。"}
+  ],
+  "formulas": [
+    {"id": "48.3.3-suva", "display": "SUVAλ = (Aλ/l)/DOC", "variables": {"Aλ": "波长λ下吸光度，无量纲", "l": "光程，cm", "DOC": "溶解有机碳浓度，mg C·L⁻¹"}, "unit": "L·mg⁻¹ C·cm⁻¹", "meaning": "特定紫外吸光值；1 cm比色皿时Aλ/l数值等于Aλ"},
+    {"id": "48.3.4-phenol-curve", "display": "phenolics = f⁻¹(A₇₂₅)", "unit": "mg 2-hydroxybenzoic acid equivalents·L⁻¹", "meaning": "根据2-羟基苯甲酸标准曲线计算的酪类当量"}
+  ],
+  "tables": [],
+  "contentSha256": "93b6e65c0c4a31ecf6b7f96267de8b21660ab47986825365ea791bc1bac1c771"
+}

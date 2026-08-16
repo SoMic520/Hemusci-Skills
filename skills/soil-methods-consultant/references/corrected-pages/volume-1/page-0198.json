@@ -1,0 +1,25 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 198,
+  "sourceImageSha256": "8afd7a9ae1eee68f1ca37d256441b8cec4cd294f53a97078c970d59306c8220a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第21章首页，并与Apple Vision、PaddleOCR交叉比对，人工恢复章名、作者机构、21.1引言和21.2干烧法首段"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验CO₂、CO、1 000/1 100/1 400 ℃、总碳/有机碳定义边界、测定方法分类、作者年份和元素氮/氢/硫"},
+    "secondVisualPass": {"status": "verified", "method": "从页末未完句反向复核至章标题，确认MacCarthy/Oades定义、干烧与湿氧化差别、石英管/石墨坩埚及本扫描页未见印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter-heading", "number": "第21章", "title": "土壤总碳与有机碳"},
+    {"type": "author", "name": "J.O. Skjemstad and J.A. Baldock", "affiliation": ["Commonwealth Scientific and Industrial Research Organization", "Glen Osmond, South Australia, Australia"]},
+    {"type": "section-heading", "level": 2, "number": "21.1", "title": "引言"},
+    {"type": "paragraph", "text": "土壤中的碳以有机和无机两种形式存在。多种形态的碳酸盐构成了土壤总碳的无机组分，而一系列的有机成分则构成了土壤的有机碳组分。关于土壤有机碳或有机质，有多种不同的定义。Stevenson（1994）、Baldock和Nelson（1998）将有机碳定义为存在于土壤内部和表面的所有有机物质的总和。Oades（1988）认为有机碳不包括木炭和烧焦的有机物质。MacCarthy等（1990）则认为未腐解的动植物组织及其局部分解的产物、活着的土壤生物质都不属于有机碳的范畴。但在实际操作过程中，用于测定总碳和有机碳的方法并不能区分上述的各土壤碳组分。因此，在本章内容中所提到的有机碳均以Stevenson（1994）、Baldock和Nelson（1998）的定义为准。"},
+    {"type": "paragraph", "text": "土壤总碳和有机碳的测定有许多方法。这些方法多是基于土壤有机碳的化学氧化或热氧化作用。化学氧化法或湿氧化法是测定氧化土壤有机碳后释放的CO₂（Snyder和Trofymow，1984）或定量测定氧化有机碳所消耗的氧化剂（Walkley和Black，1934）。在酸性条件下，任何通过化学氧化或湿氧化法测定有机碳氧化后排放的CO₂均包括土壤中碳酸盐形态的碳，即测定的是土壤总碳。干烧法是将土壤样品在氧气过量的条件下加热到高温（通常超过1 000 ℃），所有存在于有机碳中的碳和碳酸盐中的碳在这种条件下都会被定量地转化为CO₂。释放的CO₂可以通过重量法（Allison等，1965）、体积法（Rayment和Higginson，1992）、滴定法（Snyder和Trofymow，1984）或光谱法（Merry和Spouncer，1988）测定。当热氧化法（干烧法）的温度超过1 100 ℃时，样品中包括碳酸盐在内所有的碳都会被测定出来（Giovannini等，1975）。当用化学氧化法或热氧化法测定CO₂时，可以单独测定碳酸盐的含量或在分析前用酸除去碳酸盐，从而达到校正有机碳测定结果的目的。"},
+    {"type": "paragraph", "text": "Kalembasa和Jenkinson（1973）进行了多种滴定法和重量法的比较，发现干烧法得到的土壤有机碳测定结果更为准确。黏粒含量低的土壤样品在不同温度下的灼烧损失也可以作为衡量不同类型土壤的有机质含量的一个简单指标（Ball，1964；Lowther等，1980），但是如果有可用的替代方法，就不推荐使用这些方法。"},
+    {"type": "section-heading", "level": 2, "number": "21.2", "title": "干烧法"},
+    {"type": "paragraph", "text": "目前，有多种商业化的仪器可以用于总碳的测定。一些仪器可以同时测定碳及下述元素中的一种或多种：氮、氢和硫。一般是用感应炉而不是更常用的电阻炉对样品进行加热。这些方法通过向样品中添加铁屑和催化剂以便使其达到1 400 ℃的高温（Rayment和Higginson，1992）或者从外部加热置于密封石英管中的石墨坩埚内的样品（Allison，1965）。"},
+    {"type": "paragraph", "continued": true, "text": "对于所有仪器而言，通常在高温（＞1 000 ℃）和氧气流中进行燃烧，这是为了确保所有的碳物质可以定量地转化成CO₂。在低温条件下，土壤有机碳可能燃烧不完全，会导致CO的产生或者使碳酸盐物"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "b602d806f17f925eb310eccb3cd983cf525a072ae331ecaf1970376a3b5d910a"
+}

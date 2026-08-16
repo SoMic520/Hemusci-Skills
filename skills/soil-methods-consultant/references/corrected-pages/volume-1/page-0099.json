@@ -1,0 +1,43 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 99,
+  "sourceImageSha256": "e4afd4017bb14e380fa37f5d045c6737c7697b9ee6268041e820cb98517751bd",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复8.3续文、8.3.1八项试剂、8.3.2五步及8.3.3两条注释"},
+    "precisionPass": {"status": "verified", "method": "逐处放大核对(NH₄)₆Mo₇O₂₄·4H₂O、H₂SO₄、NaHCO₃、w/v、μg P/mL、840～880/880/710/712 nm、mol/L、质量体积、~2℃、15 min、0.8 μg/mL和40 μg"},
+    "secondVisualPass": {"status": "verified", "method": "按波长说明、试剂配制顺序、标准液浓度/取液量、显色步骤及注释逐项反向复核，保留原书浓度列表省略0.6但取液量含6 mL的原样差异和页码68"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "continuation": true, "text": "的方法之一。该方法相对简单易行，同时手动方法也适用于自动系统。添加酒石酸锑钾可以不用加热即可呈稳定的蓝色。生成的磷钼蓝复合物有两个最大吸收波长：一个是在880 nm，另一个是在710 nm（Going和Eisenreich，1974）。Watanabe和Olsen（1965）建议在840～880 nm测量吸光度，然后选择其中吸光度较高的波长进行测定。而第25章推荐选用712 nm的吸收波长，目的是降低浅色样品提取液中痕量有机质的干扰。", "inlineNotation": ["880 nm", "710 nm", "840～880 nm", "712 nm", "第25章"]},
+    {"type": "section-heading", "level": 3, "number": "8.3.1", "title": "测定磷所需试剂"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "钼酸铵溶液：40 g钼酸铵（(NH₄)₆Mo₇O₂₄·4H₂O）溶解在1000 mL去离子水中。"},
+      {"number": "（2）", "text": "抗坏血酸溶液：26.4 g抗坏血酸溶解在500 mL去离子水中，在~2℃下冷藏保存。溶液一旦明显变色就需要重新配制。"},
+      {"number": "（3）", "text": "酒石酸锑钾溶液：1.454 g酒石酸锑钾溶解在500 mL去离子水中。"},
+      {"number": "（4）", "text": "2.5 mol/L硫酸（H₂SO₄）：将278 mL浓H₂SO₄缓慢加入1 L去离子水中，混匀，转移至2 L容量瓶中，冷却后加入蒸馏水定容。"},
+      {"number": "（5）", "text": "0.25 mol/L硫酸（H₂SO₄）：将14 mL浓H₂SO₄缓慢加入75 mL去离子水中，混匀，转移至100 mL容量瓶中，冷却后加入蒸馏水定容。"},
+      {"number": "（6）", "text": "0.25%（w/v）对硝基苯酚溶液：将0.25 g对硝基苯酚溶解在100 mL蒸馏水中。"},
+      {"number": "（7）", "text": "磷标准储备液：准备100 mL浓度为5 μg P/mL的基础磷标准溶液。"},
+      {"number": "（8）", "text": "配制Murphy-Riley显色溶液：用以上试剂在500 mL的烧瓶中配制Murphy-Riley显色溶液，方法如下：加入250 mL 2.5 mol/L H₂SO₄，然后加入75 mL钼酸铵溶液、50 mL抗坏血酸和25 mL酒石酸锑钾溶液。加入100 mL去离子水将体积定容至500 mL，用磁力搅拌器混合。试剂要按顺序加入，每种试剂加入之后都要搅拌均匀。Murphy-Riley溶液放置在棕色瓶中避光保存。该溶液需要使用当天配制。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "8.3.2", "title": "步骤"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "移取10 mL或者适量过滤后的NaHCO₃提取液至50 mL容量瓶，并设置包含蒸馏水和NaHCO₃的空白试验（见8.3.3节的注释2）。"},
+      {"number": "（2）", "text": "准备所需浓度范围的标准溶液：0、0.1、0.2、0.3、0.4和0.8 μg P/mL的NaHCO₃溶液。分别取0、1、2、3、4、6和8 mL的磷标准储备液（5 μg P/mL）至50 mL的容量瓶中，然后向每个瓶中加入10 mL 0.5 mol/L的NaHCO₃溶液。"},
+      {"number": "（3）", "text": "向每个瓶中加入1～2滴对硝基苯酚以调整溶液的pH值，使溶液呈黄色，再加入0.25 mol/L H₂SO₄以降低溶液pH值直至变为无色。"},
+      {"number": "（4）", "text": "向每个瓶中加入8 mL Murphy-Riley显色溶液，然后用去离子水定容至50 mL，振荡，显色15 min。"},
+      {"number": "（5）", "text": "校准并预热分光光度计，设置712 nm或880 nm的吸收波长，测定标样和样品的吸光度，根据已知磷浓度和标准溶液的吸光度建立标准曲线。"}
+    ]},
+    {"type": "section-heading", "level": 3, "number": "8.3.3", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      {"number": "（1）", "text": "钼酸铵、抗坏血酸和酒石酸锑钾溶液通常可密封冷藏保存2～3个月。如果怀疑溶液或试剂的质量有问题，丢弃并重新配制，因为分析中最常见的就是因溶液变质和/或被污染引起的误差。"},
+      {"number": "（2）", "text": "尽管上述文献对Murphy和Riley的操作流程做了一些改进，但是当采用最初Murphy和Riley（1962）使用的试剂时，因显色不完全，50 mL容量瓶中磷的最终浓度不会超过0.8 μg/mL（Towns，1986）。因此，显色所需的样品磷含量应小于40 μg。第24章（24.5节）有更多的关于使用Murphy和Riley试"}
+    ]},
+    {"type": "printed-page-number", "text": "68"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "7b474cb3bb1dcd826bdb21786e8e0451208b6c84d22613f6e63e8371a8a70e39"
+}

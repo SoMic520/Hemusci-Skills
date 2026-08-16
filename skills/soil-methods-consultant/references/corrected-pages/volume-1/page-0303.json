@@ -1,0 +1,50 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 303,
+  "sourceImageSha256": "c8318c6859560c706b3eb05b76462daf583546dc69ae71163991f61f4a8ca91e",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第30章第272页，人工恢复30.7跨页原理、30.7.1全8项材料试剂、30.7.2全9步操作、30.7.3注释及30.8引言"},
+    "precisionPass": {"status": "verified", "method": "核对人名、年份、1.5%琼脂、15 mL 5%苯酚、1 mL 1%苯胺蓝W.S.、4 mL冰醋酸、95%乙醇、4/60℃、15～20 min与1 h"},
+    "secondVisualPass": {"status": "verified", "method": "从页底‘密度梯度离心法’跨页断句反向复核至页首‘长情况’，确认步骤时序、染液配方、安全括注、优巴拉尔字样及印刷页码272"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "continuation", "fromPage": 302, "section": "30.7", "text": "长情况。Rillig和Steinberg（2002）使用不同粒径的玻璃珠模拟了不同菌丝生长空间条件，结果表明环境条件对菌丝长度和球囊霉素的产生有很大的影响。Friese和Allen（1991）通过根箱观察描述了游走菌丝、菌丝桥、吸附态菌丝网络、芽管及土壤中孢子和根系片段产生的侵染网络。虽然根箱观察可以研究土壤中丛枝菌根的形貌，但该系统并不能代表田间情况。Jones等（1948）提出了一种膜方法，该方法将一种溶于琼脂中的土壤悬液倒在膜上。琼脂膜会干燥并且染色，有助于在显微镜下计数其中的菌丝体。对该方法进行修正后，可用来记录不同种类植物根系形成的AM菌丝间的联系。这一方法对检测根系、AM菌丝及田间土壤微生物间的相互作用非常有用，方法如下："},
+    {"type": "heading", "level": 2, "number": "30.7.1", "title": "材料和试剂"},
+    {"type": "materials", "items": [
+      "（1）含水量1.5%的温热琼脂。",
+      "（2）显微镜载玻片。",
+      "（3）托盘。",
+      "（4）薄的塑料膜（树脂包裹）。",
+      "（5）塑料彩旗：用于回收载玻片。",
+      "（6）染色液：由15 mL苯酚（5%水溶液）、1 mL苯胺蓝W.S.（1%水溶液）及4 mL冰醋酸混合配置（注意使用通风橱、手套及护眼罩）的染色溶液。",
+      "（7）油派胶封片剂（Bioquip，Gardena，California）。",
+      "（8）95%乙醇。"
+    ]},
+    {"type": "source-fidelity-note", "scope": "30.7.1（1）", "severity": "major", "text": "原书印作‘含水量1.5%的温热琼脂’。若按‘水分占1.5%’理解将无法制得可倾倒的琼脂水溶液；结合下一步‘将琼脂水溶液倒在载玻片上’，应指浓度为1.5%的温热水琼脂（通常按w/v配制）。本语料保留原句，执行时应以1.5%琼脂浓度而非1.5%含水量解析。"},
+    {"type": "terminology-note", "scope": "30.7.1（7）", "text": "原书的‘油派胶封片剂’指Euparal mounting medium（优巴拉尔/欧巴拉尔封片剂）；检索和采购时应同时使用Euparal英文名。"},
+    {"type": "heading", "level": 2, "number": "30.7.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "将显微镜载玻片并排放在托盘上。"},
+    {"type": "procedure-step", "number": "（2）", "text": "将琼脂水溶液倒在载玻片上产生一层薄的琼脂膜覆盖在载玻片上。"},
+    {"type": "procedure-step", "number": "（3）", "text": "当琼脂冷却固化后，取出并用手术刀将琼脂覆盖的载玻片从托盘上移出，再用塑料膜包裹后置于4℃下保存。在田间，将包裹在载玻片上的塑料膜去除，将载玻片垂直埋入距植物根系指定距离处。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用塑料小旗子标记每一个埋藏载玻片的位置。"},
+    {"type": "procedure-step", "number": "（5）", "text": "一段时间后，小心挖出埋藏的载玻片，用解剖刀将载玻片周围土壤及所有生长在琼脂表面的细根削去。琼脂覆盖的载玻片继续埋藏数月。"},
+    {"type": "source-fidelity-note", "scope": "30.7.2（5）", "text": "原书在‘挖出埋藏的载玻片’并削去土和根后紧接写‘载玻片继续埋藏数月’，时序存在歧义。试验设计应明确是同一载玻片检查后重新埋回，还是不同复制载玻片按时间梯度分批收获；未核对原方法前不应擅自设定。"},
+    {"type": "procedure-step", "number": "（6）", "text": "在实验室水浴槽内仔细洗涤去除整个附着的土壤。"},
+    {"type": "procedure-step", "number": "（7）", "text": "在60℃下干燥琼脂膜15～20 min。"},
+    {"type": "procedure-step", "number": "（8）", "text": "在通风橱内，将干燥的琼脂膜在染色液中浸泡1 h。"},
+    {"type": "procedure-step", "number": "（9）", "text": "在95%乙醇中洗涤并脱水，用优巴拉尔封片剂永久封固。"},
+    {"type": "heading", "level": 2, "number": "30.7.3", "title": "注释"},
+    {"type": "safety-note", "scope": "30.7.3", "severity": "high", "text": "使用苯酚和含苯酚溶液时，应注意戴上手套和护眼罩在通风橱中操作。此外，用品红酸性染色也能得到很好的结果。"},
+    {"type": "heading", "level": 1, "number": "30.8", "title": "AM真菌的提取"},
+    {"type": "paragraph", "text": "为了进一步研究AM孢子群落、丰度及多样性，土壤样品采样方法须进一步完善。此外，还应满足提取的孢子呈分离态作为初始接种体，以此来获得混合或纯培养体。"},
+    {"type": "paragraph", "continuesOnPage": 304, "text": "根据所研究的土壤类型，可采取不同方法来帮助孢子从土壤中分离。最常见的有密度梯度离心法，"},
+    {"type": "printed-page-number", "text": "272"}
+  ],
+  "formulas": [
+    {"scope": "30.7.1（6）", "label": "染色液配方", "display": "15 mL 5%苯酚水溶液 + 1 mL 1%苯胺蓝W.S.水溶液 + 4 mL冰醋酸", "latex": "15\\,\\mathrm{mL}\\ (5\\%\\ phenol)+1\\,\\mathrm{mL}\\ (1\\%\\ aniline\\ blue\\ W.S.)+4\\,\\mathrm{mL}\\ glacial\\ acetic\\ acid"}
+  ],
+  "tables": [],
+  "contentSha256": "5734b692510bec1588d2ff1c22fea71bf8c04f0d0effe64988192ce09c4e90aa"
+}

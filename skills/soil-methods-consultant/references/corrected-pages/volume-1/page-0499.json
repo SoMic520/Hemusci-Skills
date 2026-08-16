@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 499,
+  "sourceImageSha256": "2323d33d28ab1111490beef038a83f8b460143212f28449991ca841bc243b68c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面和两套OCR，完成49.3.5承上及N测定、式（49.1）～（49.7）、49.4原理和49.4.1（1）"},
+    "precisionPass": {"status": "verified", "method": "逐式复算WS、MS、VS、CF/CUF、NF/NUF、MB-C/MB-N，核验kEC=0.35、kEN=0.5及范围；将比色还原剂由误印‘铬’校为镉"},
+    "secondVisualPass": {"status": "verified", "method": "由49.4.1（1）反向复核至页首承上句，检查全部上下标、希腊字母、密度单位、提取系数和Bray-I配方；印刷页码468"}
+  },
+  "blocks": [
+    {"type": "paragraph", "scope": "49.3.5（1）", "text": "550 nm指示剂颜色强度的减少与有机C成正比。标准液C范围为0～150 μg C·mL⁻¹，可由含1000 mg C的邻苯二甲酸氢钾（KHP）贮备液稀释获得。"},
+    {"type": "procedure-step", "number": "（2）", "scope": "49.3.5", "text": "提取液有机N按Cabrera和Beare（1993）测定：过硫酸盐将可溶性有机N和NH₄⁺-N氧化成NO₃⁻-N，样品在螺帽管中高压灭菌锅氧化；无毒盐溶液中的NO₃⁻经镉还原为NO₂⁻，用Griess–Ilosvay反应显色比色。氧化见48.3.2，NO₃⁻/NO₂⁻测定见第6章。"},
+    {"type": "source-fidelity-note", "scope": "49.3.5（2）硝酸盐还原", "text": "原书本页印作‘硝态氮用铬还原’，但同书48.3.2明确为镉柱将NO₃⁻还原为NO₂⁻，Griess–Ilosvay常规步骤亦用镉还原。可执行步骤已校为镉（Cd），不得使用铬（Cr）代替。"},
+    {"type": "section-heading", "level": 3, "number": "49.3.6", "title": "微生物量碳和氮的计算"},
+    {"type": "calculation-step", "number": "（1）", "text": "用烘干基表示土壤含水量WS，式（49.1）。"},
+    {"type": "calculation-step", "number": "（2）", "text": "由鲜土重和WS求得样品烘干土重MS，式（49.2）。"},
+    {"type": "calculation-step", "number": "（3）", "text": "将鲜土所含水的体积与外加提取剂体积相加，得总浸提液体积VS，式（49.3）。"},
+    {"type": "calculation-step", "number": "（4）", "text": "计算熏蒸样品CF和未熏蒸样品CUF的可提取C，式（49.4）。"},
+    {"type": "calculation-step", "number": "（5）", "text": "计算熏蒸样品NF和未熏蒸样品NUF的可提取N，式（49.5）。"},
+    {"type": "calculation-step", "number": "（6）", "text": "微生物量C按式（49.6）计算。kEC=0.35，表示微生物量C提取率；可用范围0.25～0.45（Wu等，1990；Joergensen，1996）。"},
+    {"type": "calculation-step", "number": "（7）", "text": "微生物量N按式（49.7）计算。kEN=0.5，表示微生物量N提取率；可用范围0.18～0.54（Joergensen和Mueller，1996）。"},
+    {"type": "section-heading", "level": 2, "number": "49.4", "title": "微生物量磷"},
+    {"type": "paragraph", "text": "微生物量P由氯仿熏蒸鲜土与未熏蒸鲜土提取的无机P之差计算（Brookes等，1982；Hedley和Stewart，1982）；释放P多为正磷酸盐态无机P。标准提取剂为pH 8.5、0.5 mol·L⁻¹ NaHCO₃。酸性土壤可用Bray-I（0.03 mol·L⁻¹ NH₄F–0.025 mol·L⁻¹ HCl；Wu等，2000），酸性和高固P土壤也可用阴离子交换膜（Kouno等，1995）。因熏蒸释放的无机P可被土壤胶体吸附，必须通过加标无机P测定每种土壤的回收率，再对熏蒸释放P增量进行回收率和提取系数校正。"},
+    {"type": "section-heading", "level": 3, "number": "49.4.1", "title": "材料和试剂"},
+    {"type": "materials-list", "scope": "49.4.1", "items": [
+      {"number": "（1）", "text": "无乙醇氯仿；试剂级氯仿纯化见49.6注释1。"}
+    ]}
+  ],
+  "formulas": [
+    {"id": "49.1", "display": "WS (%) = [mₑᵣᵉˢʰ − mᵈʳʸ]/mᵈʳʸ × 100", "variables": {"mₑᵣᵉˢʰ": "土壤鲜重，g", "mᵈʳʸ": "105 °C烘干土重，g"}, "meaning": "烘干基土壤含水量"},
+    {"id": "49.2", "display": "MS (g) = mₑᵣᵉˢʰ × 100/[100 + WS (%)]", "meaning": "微生物量计算所用的样品烘干土重"},
+    {"id": "49.3", "display": "VS (mL) = (mₑᵣᵉˢʰ − mᵈʳʸ)/(1 g·mL⁻¹) + Vextractant (mL)", "meaning": "土壤自带水体积加外加提取剂体积；假定水密度1 g·mL⁻¹"},
+    {"id": "49.4", "display": "CF or CUF (μg C·g⁻¹ soil) = organic C (μg·mL⁻¹) × VS (mL)/MS (g)", "meaning": "熏蒸或未熏蒸土的可提取C"},
+    {"id": "49.5", "display": "NF or NUF (μg N·g⁻¹ soil) = total N (μg·mL⁻¹) × VS (mL)/MS (g)", "meaning": "熏蒸或未熏蒸土的可提取N"},
+    {"id": "49.6", "display": "MB-C (μg C·g⁻¹ soil) = (CF − CUF)/kEC", "parameters": {"kEC": "0.35; reported range 0.25–0.45"}, "meaning": "土壤微生物量C"},
+    {"id": "49.7", "display": "MB-N (μg N·g⁻¹ soil) = (NF − NUF)/kEN", "parameters": {"kEN": "0.5; reported range 0.18–0.54"}, "meaning": "土壤微生物量N"},
+    {"id": "49.4-principle", "display": "MB-P = (PF − PUF)/(P recovery × kEP)", "meaning": "微生物量P原理；具体符号和kEP依后续公式页"}
+  ],
+  "tables": [],
+  "contentSha256": "a530644c5c5ff423250861236c0c3774de6363d9396569e4e2f3e00cc6f68fc7"
+}

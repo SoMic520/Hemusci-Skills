@@ -1,0 +1,42 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 169,
+  "sourceImageSha256": "b8e1e9eefb2906d5926921b40adc8993b85034f0ea638dd852aaf50b52b48454",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文与图17.1，并与Apple Vision、PaddleOCR交叉比对，人工恢复安装步骤（5）、图中标注、张力蒸渗仪原理和准备"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验ABS、3英寸、1 L、23 cm、5%盐酸、PVC、10次、聚乙烯（四氟乙烯）/聚四氟乙烯及全部图示部件名称"},
+    "secondVisualPass": {"status": "verified", "method": "从页码138反向复核至步骤（5），确认图17.1八类标注与尺寸说明、17.3层级、原书材料名称和所有引用"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "procedure-step", "number": "（5）", "continuation": true, "text": "不同深度的几个蒸渗仪可以安装在同一个测坑内，但是必须保证每一个漏斗安装好后，其上面都有一个互不干扰的土锥，因此测坑通常需要比预期的要大。当所有的蒸渗仪安装在土坑侧面后，确保透明管顺着隧道斜向下连接到ABS管。记录收集点的位置，仔细回填土壤。"},
+    {"type": "figure", "label": "图17.1", "title": "无压蒸渗仪的安装", "labels": ["可拆卸盖子", "ABS排水管", "石英砂", "塑料漏斗", "L型连接管", "塑料管", "直型连接管", "ABS排水盖"], "dimensionNote": "3英寸ABS排水管，收集1 L溶液时，直型连接管应该放置在距离底部23 cm的部位"},
+    {"type": "section-heading", "level": 2, "number": "17.3", "title": "张力蒸渗仪"},
+    {"type": "paragraph", "text": "把多孔杯状张力蒸渗仪插入土壤中，使多孔表面与土柱毛细管接触良好。在多孔杯上抽真空，溶液便会从土壤毛细管进入蒸渗仪的存储层。用张力仪可以提取存在于土壤微孔中且不可移动的土壤溶液。用这种方法提取的土壤溶液与用无压蒸渗仪提取出的土壤溶液有显著差异（Haines等，1982；Hendershot和Courchesne，1991）。"},
+    {"type": "paragraph", "text": "不同类型的张力蒸渗仪的差异在于插入土壤的多孔杯类型不同。最常用的是从表层安装的陶瓷杯蒸渗仪。最新研发的多孔聚乙烯（四氟乙烯）或聚四氟乙烯杯可以避免陶瓷杯的交换作用对溶液化学性质产生的影响（Swenson，1997；Russell等，2004）。过去我们认为土壤经过足够的稳定期后，陶瓷杯就能够准确测定土壤溶液中常量元素的含量，但新研发的聚四氟乙烯处理杯表现出更低的活性，使其在张力下提取溶液时更为可靠。"},
+    {"type": "section-heading", "level": 3, "number": "17.3.1", "title": "准备"},
+    {"type": "paragraph", "text": "根据制造商的说明或按以下方法清洗蒸渗仪。把蒸渗仪放在盛有5%盐酸的容器中，并将溶液经过多孔杯吸到蒸渗仪的吸收器中。此过程重复三次，并确保多孔杯上方的聚氯乙烯（PVC）轴也进行了有效清洗，并连续用去离子水润洗（可能需要洗涤10次），直到电导率接近或等于去离子水。清洁后，将蒸渗仪置于干净的塑料袋中，以便带到田间。"},
+    {"type": "printed-page-number", "text": "138"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "figures": [
+    {
+      "label": "图17.1",
+      "title": "无压蒸渗仪的安装",
+      "labels": [
+        "可拆卸盖子",
+        "ABS排水管",
+        "石英砂",
+        "塑料漏斗",
+        "L型连接管",
+        "塑料管",
+        "直型连接管",
+        "ABS排水盖"
+      ],
+      "dimensionNote": "3英寸ABS排水管，收集1 L溶液时，直型连接管应该放置在距离底部23 cm的部位"
+    }
+  ],
+  "contentSha256": "6a5b79559281b91c6379968b860acb05262cb724663ae21d094f80de7ca3f63a"
+}

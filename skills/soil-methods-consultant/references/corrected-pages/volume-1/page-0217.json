@@ -1,0 +1,27 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 217,
+  "sourceImageSha256": "8f188c104475303c1a0ff79335dc9e69f5f5ef93fddab03da775edb56f8be81a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第22章参考文献末页，并与Apple Vision、PaddleOCR交叉比对，人工恢复本页8条文献及译校署名"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验2ⁿᵈ ed.、作者缩写、书名、期刊卷页、New York地址及原印Carbon,Nitrogen/ammoniumin/Carbonand等连写"},
+    "secondVisualPass": {"status": "verified", "method": "从译校署名反向复核至Stevenson条目，确认8条文献顺序、专名、标点、译校人员和页码186"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-entry", "text": "Stevenson, F.J. 1986. Cycles of Soil: Carbon,Nitrogen, Phosphorus, Sulfur, Micronutrients. John Wiley & Sons, New York, NY."},
+    {"type": "reference-entry", "text": "Tabatabai, M.A. and Bremner, J.M. 1991. Automated instruments for determination of total carbon, nitrogen, and sulfur in soils by combustion techniques. In: K.A. Smith, ed. Soil Analysis: Modern Instrumental Techniques, 2ⁿᵈ ed. Marcel Dekker, New York, NY, 261-286."},
+    {"type": "reference-entry", "text": "Vittori Antisari, L. and Sequi, P. 1988. Comparison of total nitrogen by four procedures and sequential determination of exchangeable ammonium, organic nitrogen and fixed ammonium in soil. Soil Sci. Soc. Am. J. 52: 1020-1023."},
+    {"type": "reference-entry", "text": "Wang, D., Snyder, M.C., and Bormann, F.H.1993. Potential errors in measuring nitrogen content of soils low in nitrogen. Soil Sci. Soc. Am.J. 57: 1533-1536."},
+    {"type": "reference-entry", "text": "Wang, L. and Oien, A. 1986. Determination of Kjeldahl nitrogen and exchangeable ammoniumin soil by the indophenol method. Acta Agric.Scand. 36: 60-70."},
+    {"type": "reference-entry", "text": "Watson, M.E. and Galliher, T.L. 2001. Comparison of Dumas and Kjeldahl methods with automatic analyzers on agricultural samples under routine rapid analysis conditions. Commun. SoilSci. Plant Anal. 32: 2007-2019."},
+    {"type": "reference-entry", "text": "Wikoff, L. and Moraghan, J.T. 1985. Recovery of soil nitrate by Kjeldahl analysis. Commun. Soil Sci. Plant Anal. 16: 923-929."},
+    {"type": "reference-entry", "text": "Yeomans, J.C.and Bremner, J.M. 1991. Carbonand nitrogen analysis of soils by automated combustion techniques. Commun. Soil Sci. Plant Anal. 22: 843-850."},
+    {"type": "translator-credit", "text": "（李紫燕　李小涵　译，王朝辉　校）"},
+    {"type": "printed-page-number", "text": "186"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "888843de8bdd87a0a80ec3238f51485b627eddbf6d529a7044b4ada7cdc714bb"
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 437,
+  "sourceImageSha256": "bfe96ad2a4fc0e34763bc4be7c947cb0b6749d9c092beb3de252900c7604256b",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、两套OCR及英文原版42.2.1（17）～42.3.1材料（11）"},
+    "precisionPass": {"status": "verified", "method": "核验5 g ODW、5/10/1.5/3.0 mL、100/80/450 °C、10 s、5/25/10/3 min、121/129×g、2 μL、H₂/N₂、1:2:0.8(v/v/v)、K₂HPO₄/KH₂PO₄和pH 7.0；复算磷酸盐总浓度"},
+    "secondVisualPass": {"status": "verified", "method": "由压缩N₂钢瓶反向复核至N₂（99.999%），检查×g、μL、下标、配比、层级与印刷页码406"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "material-item", "number": "（17）", "text": "氮气，纯度99.999%。"},
+    {"type": "material-item", "number": "（18）", "text": "空气，工业级、干燥。"},
+    {"type": "material-item", "number": "（19）", "text": "装有MIDI-Sherlock峰鉴定软件的计算机（Microbial ID Inc., Newark, DE）。"},
+    {"type": "section-heading", "level": 3, "number": "42.2.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "称取相当于5 g干土的样品，置于带聚四氟乙烯衬盖的25 mL试管。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加5 mL试剂1皂化脂肪酸，涡旋10 s；100 °C培养5 min，涡旋10 s，再于100 °C培养25 min；冷却至室温。"},
+    {"type": "procedure-step", "number": "（3）", "text": "加10 mL试剂2，使溶液pH降至1.5以下并使脂肪酸甲基化；涡旋10 s，80 °C培养10 min，立即在冷水浴中冷却。"},
+    {"type": "procedure-step", "number": "（4）", "text": "加1.5 mL试剂3，将FAME萃入用于GC测定的有机相；旋转振荡10 min，121×g离心5 min，将上层转入15 mL试管。"},
+    {"type": "procedure-step", "number": "（5）", "text": "加3.0 mL试剂4洗涤样品，减少进样口衬管、色谱柱和检测器污染；旋转振荡5 min，129×g离心3 min，将上层转入GC进样瓶。"},
+    {"type": "procedure-step", "number": "（6）", "text": "以GC分离检测FAME；条件由MIDI Sherlock程序控制。进样2 μL，初温170 °C，以2 °C·min⁻¹升至260 °C；H₂作载气，N₂作补充气，空气助燃。用细菌脂肪酸标准物和MIDI Sherlock峰鉴定软件鉴定色谱峰。"},
+    {"type": "source-fidelity-note", "scope": "42.2.2离心与进样单位", "text": "原书正文印作121 g、129 g，语义为相对离心力，运行时规范为121×g、129×g。英文电子文本把2 μL误识别为2 mL；中文页面清晰为2 μL。"},
+    {"type": "section-heading", "level": 3, "number": "42.2.3", "title": "注意事项"},
+    {"type": "note-item", "number": "（1）", "text": "所有试剂必须达到高效液相色谱级。"},
+    {"type": "note-item", "number": "（2）", "text": "步骤2须防止管内液体沸腾溢出，否则脂肪酸可能挥发损失（Schutter和Dick，2000）。"},
+    {"type": "note-item", "number": "（3）", "text": "全部玻璃器皿先清洗，再于马弗炉450 °C灼烧至少4 h，以去除脂质痕量污染。"},
+    {"type": "section-heading", "level": 2, "number": "42.3", "title": "磷脂脂肪酸分析法（Bligh和Dyer，1959；Bossio和Scow，1998修正；Smithwick等，2005）"},
+    {"type": "section-heading", "level": 3, "number": "42.3.1", "title": "脂肪酸萃取"},
+    {"type": "subheading", "level": 4, "number": "1", "title": "材料和试剂"},
+    {"type": "material-item", "number": "（1）", "text": "聚四氟乙烯离心管。"},
+    {"type": "reagent-item", "number": "（2）", "name": "单相混合提取剂", "text": "氯仿∶甲醇∶磷酸盐缓冲液=1∶2∶0.8（v/v/v）。"},
+    {"type": "reagent-item", "number": "（3）", "name": "磷酸盐缓冲液", "text": "混合39 mL 1 mol·L⁻¹ K₂HPO₄与61 mL 1 mol·L⁻¹ KH₂PO₄，用水定容至1 L，调pH至7.0；所得总磷酸盐浓度为0.100 mol·L⁻¹。"},
+    {"type": "source-fidelity-note", "scope": "42.3.1磷酸盐缓冲液", "text": "原书及英文原版标题标为“1 M phosphate buffer”，但39 mL与61 mL两种1 mol·L⁻¹母液合计0.100 mol，定容1 L后总浓度为0.100 mol·L⁻¹；原文还漏写KH₂PO₄母液浓度。运行时按配方校为0.100 mol·L⁻¹、pH 7.0。"},
+    {"type": "material-item", "number": "（4）", "text": "振荡器。"},
+    {"type": "material-item", "number": "（5）", "text": "离心机。"},
+    {"type": "material-item", "number": "（6）", "text": "分液漏斗。"},
+    {"type": "reagent-item", "number": "（7）", "text": "氯仿（CHCl₃）。"},
+    {"type": "material-item", "number": "（8）", "text": "玻璃试管。"},
+    {"type": "material-item", "number": "（9）", "text": "通风橱。"},
+    {"type": "material-item", "number": "（10）", "text": "真空抽滤装置。"},
+    {"type": "material-item", "number": "（11）", "text": "压缩氮气钢瓶。"},
+    {"type": "printed-page-number", "text": "406"}
+  ],
+  "formulas": [
+    {"id": "42.3.1-phosphate-buffer-check", "plain": "c_total=[1 mol·L⁻¹×(39+61)mL]/1000mL=0.100 mol·L⁻¹", "context": "磷酸盐缓冲液总浓度复算"}
+  ],
+  "tables": [],
+  "contentSha256": "f8e355b6b67ac87e7418641da36a5bb2471c0c87358cadec5677c5508736320a"
+}

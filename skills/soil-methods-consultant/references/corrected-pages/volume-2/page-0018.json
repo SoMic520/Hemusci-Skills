@@ -1,0 +1,17 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 18,
+  "sourceImageSha256": "920125dfd65b294ed60836fe902cbb5a40069dd43749a69b0390ba4b67c8efc2",
+  "review": {
+    "textPass": {"status": "verified", "method": "原分辨率逐字核验分篇扉页"},
+    "precisionPass": {"status": "verified", "method": "核验中文数字‘第六篇’及题名‘土壤物理分析’"},
+    "secondVisualPass": {"status": "verified", "method": "复核页面中央上下两级题名，无其他有效正文"}
+  },
+  "blocks": [
+    {"type": "part-heading", "number": "第六篇", "title": "土壤物理分析"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "9b55018ed75b1d720a1352e5326161a843ac86f34f9cd5a6fb33e9df652f0e7e"
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 196,
+  "sourceImageSha256": "5f62e3f0b352da24dad2ddd64c7944fc18fd1ee38f65b9bf0202d1cd6cf6ca93",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率计算与参考文献页，并与Apple Vision、PaddleOCR交叉比对，人工恢复白云石三种计算、20.5.4注释及本页10条参考文献"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验Z−(X−Y)、1/2、X/Y/Z、mmol、184 g/184 mg、CaCO₃%、式（20.7）～（20.9）、St. Arnaud及英文卷页"},
+    "secondVisualPass": {"status": "verified", "method": "从页末Raad条目反向复核至总碳酸盐等式，确认正文确印“1 mmol白云石的重量为184 g”而公式印“184 mg”，两者均原样保留并显式标记；页码165"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第20章｜碳酸盐｜"},
+    {"type": "paragraph", "text": "总碳酸盐含量=方解石碳酸盐含量+白云石中的碳酸盐含量，则白云石碳酸盐含量=Z−(X−Y)，且1 mmol白云石中含2 mmol碳酸盐，所以白云石含量（mmol）=1/2×白云石碳酸盐含量（mmol）=1/2×[Z−(X−Y)]。因为1 mmol白云石的重量为184 g，所以"},
+    {"type": "source-fidelity-note", "scope": "式（20.7）引文", "text": "原书正文清晰印作“1 mmol白云石的重量为184 g”，而随后的式（20.7）和式（20.8）印作184 mg；本页分别按印刷值保留。"},
+    {"type": "paragraph", "text": "白云石的含量也可以通过白云石中镁的含量（Mg mmol=Y）计算："},
+    {"type": "paragraph", "text": "白云石的含量也可以用碳酸钙的含量表示："},
+    {"type": "section-heading", "level": 3, "number": "20.5.4", "title": "注释"},
+    {"type": "paragraph", "text": "通过白云石中碳酸盐的含量计算出的白云石含量应该与由溶液中镁的含量计算出的含量结果一致，否则说明柠檬酸缓冲液中所含的镁不仅仅来源于白云石，或者土样中存在含镁方解石。如果存在含镁方解石，那么测得土样中的方解石含量偏低，所以对于更专业的研究，需要对含镁方解石做定性与定量分析（St. Arnaud等，1993）。"},
+    {"type": "references-heading", "text": "参考文献"},
+    {"type": "reference-entry", "text": "Allison, L.E. and Moodie, C.D. 1965. Carbonate. In: C.A. Black et al., eds., Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties 1ˢᵗ ed. American Society for Agronomy, Madison, WI, 1379-1396."},
+    {"type": "reference-entry", "text": "Doner, H.E. and Lynn, W.C. 1989. Carbonate, halide, sulfate and sulfide minerals. In: J.B. Dixon and S.B. Weed, eds., Minerals in Soil Environments, 2ⁿᵈ ed. Soil Science Society of America, Madison, WI, 279-330."},
+    {"type": "reference-entry", "text": "Hesse, P.R. 1971. A Textbook of Soil Chemical Analysis. Chemical Publishing Co., Inc. New York, NY."},
+    {"type": "reference-entry", "text": "Jackson, M.L. 1985. Soil Chemical Analysis—Advanced Course, 2ⁿᵈ edn. M.L. Jackson, Madison, WI."},
+    {"type": "reference-entry", "text": "Laird, D.A. and Dowdy, R.H. 1994. Preconcentration techniques in soil mineralogical analyses. In: J.E. Amonette and L.W. Zelazny, eds., Quantitative Methods in Soil Mineralogy. Soil Science Society of America, Madison, WI, 236-266."},
+    {"type": "reference-entry", "text": "Loeppert, R.H., Hallmark, C.T., and Koshy, M.M. 1984. Routine procedure for rapid determination of soil carbonates. Soil Sci. Soc. Am. J. 48: 1030-1033."},
+    {"type": "reference-entry", "text": "Nelson, R.E. 1982. Carbonate and gypsum. In: A.L. Page et al., eds., Methods of Soil Analysis, Part 2—Chemical and Microbiological Properties, 2ⁿᵈ edn. American Society of Agronomy, Madison, WI, 81-197."},
+    {"type": "reference-entry", "text": "Papiernik, S.K., Lindstrom, M.J., Schumacher, J.A., Farenhorst, A., Stephens, K.D., Schumacher, T.E., and Lobb, D.A. 2005. Variations in soil properties and crop yield across an eroded prairie landscape. J. Soil Water Conserv. 60: 47-54."},
+    {"type": "reference-entry", "text": "Peterson, G.W., Chesters, G., and Lee, G.B. 1966. Quantitative determination of calcite and dolomite in soils. J. Soil Sci. 17: 328-338."},
+    {"type": "reference-entry", "text": "Raad, A.A. 1978. Carbonates. In: J.A. McKeague, ed., Manual on Soil Sampling and Methods of Analysis, 2ⁿᵈ ed. Canadian Society of Soil Science, AAFC, Ottawa, ON, Canada, 86-98."},
+    {"type": "printed-page-number", "text": "165"}
+  ],
+  "formulas": [
+    {
+      "number": "20.7",
+      "context": "由碳酸盐含量计算白云石含量",
+      "display": "土样中白云石的含量% = {[(1/2)×[Z−(X−Y)](mmol)]/土样质量(mg)} × [184(mg)/1(mmol)] × 100",
+      "latex": "\\text{土样中白云石的含量}\\%=\\frac{\\frac{1}{2}\\times[Z-(X-Y)](\\mathrm{mmol})}{\\text{土样质量}(\\mathrm{mg})}\\times\\frac{184(\\mathrm{mg})}{1(\\mathrm{mmol})}\\times100"
+    },
+    {
+      "number": "20.8",
+      "context": "由镁含量计算白云石含量",
+      "display": "土样中白云石的含量% = [Y(mmol)/土样质量(mg)] × [184(mg)/1(mmol)] × 100",
+      "latex": "\\text{土样中白云石的含量}\\%=\\frac{Y(\\mathrm{mmol})}{\\text{土样质量}(\\mathrm{mg})}\\times\\frac{184(\\mathrm{mg})}{1(\\mathrm{mmol})}\\times100"
+    },
+    {
+      "number": "20.9",
+      "context": "以碳酸钙表示白云石含量",
+      "display": "土样中白云石的含量 = CaCO₃% = {[Z−(X−Y)](mmol)/土样质量(mg)} × [100(mg)/1(mmol)] × 100",
+      "latex": "\\text{土样中白云石的含量}=CaCO_3\\%=\\frac{[Z-(X-Y)](\\mathrm{mmol})}{\\text{土样质量}(\\mathrm{mg})}\\times\\frac{100(\\mathrm{mg})}{1(\\mathrm{mmol})}\\times100"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "528a070c6fba9c4e55964f6dba5211824fdc4c52acf7ba8abd391b6fc774b816"
+}

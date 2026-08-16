@@ -1,0 +1,81 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 261,
+  "sourceImageSha256": "ddfe641ca6b5d2593e76c2d18fca6425fc291ccf7c86bca1196993585bd58c8a",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐层核对79.3、79.3.1—79.3.3及各步骤，术语与变量对照英文原章"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验30 cm+h_c、d、10—20 cm、10—15 cm、r_c、r、E、W′、D、H、F′、F及三个无量纲比"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "复核封隔器检漏逻辑、管内外静水位与测压腔调理要求；印刷页码770"
+    }
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "number": "79.3",
+      "title": "步骤",
+      "level": 2
+    },
+    {
+      "type": "heading",
+      "number": "79.3.1",
+      "title": "带封隔器的测压管",
+      "level": 3
+    },
+    {
+      "type": "procedure",
+      "steps": [
+        "开凿钻孔：用合适土钻尽量少扰动地钻一个加大孔，孔底至少低于静水位30 cm+h_c。孔径须能让未充气封隔器轻松通过管—孔环隙，并能在环隙内放入电动水位带等装置；测压腔应无涂抹和压实，呈圆截面、平底的直圆柱。",
+        "安装测压管：把管端插至静水位以下深度d并给封隔器充气，等待管内外都平衡至静水位。向管内加水升高水位，同时监测管外水位；若管外水位在约2 min或更短时间内升至静水位以上，则封隔器漏水，必须重设或更换。确认密封后，再让管内外水位恢复静水位。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "79.3.2",
+      "title": "无封隔器的测压管",
+      "level": 3
+    },
+    {
+      "type": "procedure",
+      "steps": [
+        "开凿钻孔：先钻10—20 cm深垂直孔，把测压管锐端压入；从管内插入土钻，在管端以下再挖10—15 cm，取出钻具和土屑，再把管压入新挖段。重复至管端达到静水位以下预定深度d。",
+        "开凿测压腔：从已插管端继续向下挖至预定h_c；h_c为管端至测压腔底的距离。"
+      ]
+    },
+    {
+      "type": "heading",
+      "number": "79.3.3",
+      "title": "带或不带封隔器的测压管",
+      "level": 3
+    },
+    {
+      "type": "procedure",
+      "steps": [
+        "初始数据：等待管内水位平衡至静水位。记录测压腔半径r_c和管内半径r（封隔器系统中二者可不同）；设参考基准E，测h_c及静水位读数W′，算W=W′−E；测静水位至管端d，算H=D−W；估算下伏有效隔水/高渗透层的F′，算F=F′−D−E。记录d/r_c、h_c/r_c和F/r_c。",
+        "调理测压腔：反复提水或抽干，直至抽出水不含明显悬浮粉粒、黏粒，以减小钻进涂抹和压实影响。排水须距孔数米，避免地表回流或入渗；调理后等待水位重新平衡。"
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "英文packer统一规范为“封隔器”，避免与普通密封圈/套混淆。中文OCR把r_c、r、W′、F′、h_c及d/r_c、h_c/r_c、F/r_c混写；规范文本按图79.1和英文原章恢复。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "79.3.3-几何换算",
+      "plain": "W=W′−E; H=D−W; F=F′−D−E",
+      "latex": "W=W'-E,\\quad H=D-W,\\quad F=F'-D-E",
+      "resultUnit": "L"
+    }
+  ],
+  "tables": [],
+  "contentSha256": "8bd947352859de9237fc2527b126c96a77ef4d8fbe7aee4094189fd52cf04a98"
+}

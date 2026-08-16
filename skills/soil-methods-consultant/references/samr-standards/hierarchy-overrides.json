@@ -1,0 +1,79 @@
+{
+  "schema": "soil-methods-consultant.samr-hierarchy-corrections.v1",
+  "rule": "Each inserted or replaced heading was transcribed from the reconstructed official SAMR page image; page numbers are PDF/reader page numbers.",
+  "sources": {
+    "samr-gb-t-31270-1-2025": {
+      "dropNumbers": ["7.2", "10.1"]
+    },
+    "samr-gb-t-31270-4-2025": {
+      "dropNumbers": ["7.2", "8.1.3"],
+      "insert": [
+        {"number": "6.2", "title": "供试土壤", "page": 10},
+        {"number": "10.7.3", "title": "串行法计算解吸率", "page": 17},
+        {"number": "10.7.3.2", "title": "时间点 tᵢ 的解吸率", "page": 18},
+        {"number": "10.7.3.3", "title": "时间间隔 Δtᵢ 的解吸率", "page": 18}
+      ],
+      "replace": [
+        {"number": "10.1.1", "title": "时间点 tᵢ 的吸附率", "page": 14},
+        {"number": "10.7.1", "title": "时间点 tᵢ 的解吸率", "page": 16}
+      ]
+    },
+    "samr-gb-t-31270-5-2025": {
+      "dropNumbers": ["7.4", "10.1", "10.3"],
+      "insert": [
+        {"number": "6.2", "title": "供试土壤", "page": 10},
+        {"number": "9", "title": "试验步骤", "page": 12}
+      ]
+    },
+    "samr-gb-t-31270-22-2025": {
+      "dropNumbers": ["7.1"],
+      "insert": [
+        {"number": "6.2", "title": "供试土壤", "page": 10},
+        {"number": "10.2", "title": "试验结果的表示", "page": 12}
+      ]
+    },
+    "samr-gb-t-47215-2026": {
+      "insert": [
+        {"number": "7.3.2", "title": "密闭罩连续采样", "page": 9},
+        {"number": "8.2", "title": "酸碱滴定法", "page": 10},
+        {"number": "9.2", "title": "气流罩间歇采样酸碱滴定法", "page": 11},
+        {"number": "9.3", "title": "密闭罩连续采样分光光度法", "page": 11}
+      ],
+      "replace": [
+        {"number": "10", "title": "质量保证与控制", "page": 12}
+      ]
+    },
+    "samr-gb-t-47305-2026": {
+      "insert": [
+        {"number": "8.3.2", "title": "石英比色管：10 mL", "page": 12},
+        {"number": "8.3.3", "title": "其他仪器设备同 5.3.2～5.3.6", "page": 12}
+      ],
+      "replace": [
+        {"number": "8.3.1", "title": "分光光度计（2 cm 光径比色皿）", "page": 12}
+      ]
+    },
+    "samr-gb-t-47361-2026": {
+      "insert": [
+        {"number": "6.1", "title": "试验用水", "page": 8},
+        {"number": "6.2", "title": "硫酸［ρ（H₂SO₄）＝1.84 g/mL］", "page": 8},
+        {"number": "6.3", "title": "重铬酸钾标准溶液［c（1/6K₂Cr₂O₇）＝0.800 0 mol/L］", "page": 8},
+        {"number": "6.5", "title": "硫酸亚铁溶液［c（FeSO₄·7H₂O）＝0.2 mol/L］", "page": 8},
+        {"number": "7.1", "title": "电热恒温干燥箱", "page": 8},
+        {"number": "7.2", "title": "硬质试管（φ25 mm×200 mm），配有弯颈小漏斗", "page": 8},
+        {"number": "7.3", "title": "油浴锅", "page": 8},
+        {"number": "7.4", "title": "铁丝笼", "page": 8},
+        {"number": "7.5", "title": "滴定管", "page": 8},
+        {"number": "7.7", "title": "分析天平", "page": 8}
+      ],
+      "replace": [
+        {"number": "7.6", "title": "温度计（0 ℃～300 ℃）", "page": 8}
+      ]
+    },
+    "samr-gb-t-47437-2026": {
+      "insert": [
+        {"number": "6.1", "title": "EA-IRMS", "page": 8},
+        {"number": "6.5", "title": "离心管", "page": 9}
+      ]
+    }
+  }
+}

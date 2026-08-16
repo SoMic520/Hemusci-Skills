@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 119,
+  "sourceImageSha256": "2f398eadbdfd3ba612885dfb7e035169af0bb261387f8671b35383b94b000c73",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐式逐段对照原分辨率图和两套OCR，完成图65.3、65.2.5、65.3及参考文献Anthony至Livingston跨页起始"},
+    "precisionPass": {"status": "verified", "method": "核验两回归式、r²=0.984/0.998、0.345/0.482 μmol·mol⁻¹·min⁻¹、28%低估、12/24 h及气室分类"},
+    "secondVisualPass": {"status": "verified", "method": "由Livingston跨页题名反向复核至图中坐标，检查x²、初始导数、N₂O浓度单位、非流通/非稳态及稳态分型；印刷页码628"}
+  },
+  "blocks": [
+    {"type": "figure", "number": "65.3", "title": "非流通、非稳态条件下用线性和非线性模型确定布设时间0时的dG/dt", "axes": {"x": "布设时间（min）", "y": "气室N₂O浓度（μmol·mol⁻¹）"}, "annotations": ["线性：y=0.345x+0.735，r²=0.984，(dG/dt)₀=0.345 μmol·mol⁻¹·min⁻¹", "二次：y=−0.0065x²+0.482x+0.407，r²=0.998，(dG/dt)₀=0.482 μmol·mol⁻¹·min⁻¹", "本例线性初始斜率相对二次初始斜率低估约28%"]},
+    {"type": "heading", "number": "65.2.5", "title": "注释", "level": 3},
+    {"type": "paragraph", "text": "非稳态气室可接便携流通式原位分析仪，高频连续G数据能更清楚显示曲率、缩短封闭时间、及早发现异常，减少样瓶泄漏、气室壁下侧向扩散及温湿度漂移。限制是可测气体受便携仪器能力约束，低短期通量N₂O/CH₄常难覆盖；频繁操作也可能把观测集中在扰动最大时段。流入式非稳态气室及通量算法见Rochette和Hutchinson（2005）。"},
+    {"type": "heading", "number": "65.3", "title": "稳态集气室", "level": 2},
+    {"type": "paragraph", "text": "流通稳态气室可调控头空间G、温度、湿度和流量使其接近环境，便于自动化和近连续监测；但系统复杂，需现场分析仪，通常一次只测一种气体，且对内外压差敏感，故书中未详述。参见Smith和Conen（2004）及Rochette和Hutchinson（2005）。"},
+    {"type": "paragraph", "text": "非流通稳态吸收法在气室内放置已知能定量吸收目标气体的溶液，常封闭12或24 h，随后分析吸收液。书中又称“静态气室/吸收室/碱液吸收室”；该“静态”旧称与现代常把非流通非稳态气室称作static chamber不同，引用时必须同时写出是否流通及是否稳态，避免混淆。"},
+    {"type": "references", "items": [
+      "Anthony, W.H., Hutchinson, G.L., and Livingston, G.P. 1995. Chamber measurement of soil–atmosphere gas exchange: Linear vs. diffusion-based flux models. Soil Sci. Soc. Am. J. 59:1308–1310.",
+      "Hutchinson, G.L. and Mosier, A.R. 1981. Improved soil cover method for field measurement of nitrous oxide fluxes. Soil Sci. Soc. Am. J. 45:311–316.",
+      "Lemke, R., Goddard, T., Hahn, D., Burton, D., Ellert, B., Farrell, R., Monreal, M., and Noot, D. 2002. An inter-laboratory comparison of nitrous oxide analysis in western Canada. Commun. Soil Sci. Plant Anal. 33:2705–2713.",
+      "Livingston, G.P. and Hutchinson, G.L. 1995. Enclosure-based measurement of trace gas exchange: Applications and sources of error. …"
+    ]},
+    {"type": "source-fidelity-note", "text": "图65.3二次式在t=0的导数为0.482，不是曲线某个后续时间点斜率；线性低估=(0.482−0.345)/0.482≈28.4%。原书本页多处把“非稳态/稳态”OCR丢失，已按章层级和图题恢复。"}
+  ],
+  "formulas": [
+    {"label": "图65.3线性模型", "plain": "G = 0.345t + 0.735；(dG/dt)₀ = 0.345", "latex": "G=0.345t+0.735;\\quad\\left(\\frac{dG}{dt}\\right)_0=0.345"},
+    {"label": "图65.3二次模型", "plain": "G = −0.0065t² + 0.482t + 0.407；(dG/dt)₀ = 0.482", "latex": "G=-0.0065t^2+0.482t+0.407;\\quad\\left(\\frac{dG}{dt}\\right)_0=0.482"}
+  ],
+  "tables": [],
+  "contentSha256": "2ec759468ef42bdd3743dce8264e035f744241be01445c13989bdd94a7126999"
+}

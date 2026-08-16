@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 81,
+  "sourceImageSha256": "f20eecc5bf129426f801be982527ac4f37b1386d076fc6040fbadd15eebf8546",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步逐式对照原分辨率图和两套OCR，完成61.2.2、61.2.3、61.3引言、图61.2、式（61.2）及61.3.1(1)首段"},
+    "precisionPass": {"status": "verified", "method": "核验<3 m air m⁻¹ soil、0.05/0.14/2.8 m m⁻¹、Δh>0.2 m水柱、压缩性修正1−Δh/(2h_i)、35～140 cm³"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页泄漏句反向复核至步骤(1)，检查式（61.2）方括号、h_i下标、图61.2气路和所有单位；印刷页码590"}
+  },
+  "blocks": [
+    {"type": "procedure-steps-continuation", "items": ["(1) 接合处浸水检漏，土柱出口通大气。", "(2) 使浮筒自由下降，或加环形砝码产生较高恒压。", "(3) 监测导杆；浮筒下降速率恒定后取两个时点读数，求恒压差下体积流量。", "(4) 按式（61.1）求k_a。"]},
+    {"type": "heading", "number": "61.2.3", "title": "注释", "level": 3},
+    {"type": "paragraph", "text": "恒压法适合高透气样品，但流量难长期恒定，且应避免高气压扰动湿样液相。样内压力头梯度宜<3 m air m⁻¹ soil以保持Darcy层流；常用示例为L=0.05 m、Δh=0.14 m，梯度2.8 m m⁻¹。封闭出口时浮筒若继续下降说明泄漏；也可用已校准流量计直接测Q。"},
+    {"type": "heading", "number": "61.3", "title": "恒定通量法", "level": 2},
+    {"type": "paragraph", "text": "向土柱施加已知恒定气体通量并测压差。可用压缩空气+流量计，或电机匀速推进注射器柱塞；任何可给定且可测的恒定流量源均可。低透气样品可能产生Δh>0.2 m水柱，此时需按理想气体近似用式（61.2）修正入口体积流量的压力效应；当Δh≪h_i（书中经验为≤0.2 m水柱）时修正因子近1，退化为式（61.1）。"},
+    {"type": "figure", "number": "61.2", "caption": "恒定通量法透气率设备。", "components": ["电机驱动注射器/活塞，排气体积V", "水压计Δh", "第二连接孔及差压计", "土柱长度L", "出口接大气P_a"]},
+    {"type": "heading", "number": "61.3.1", "title": "材料", "level": 3},
+    {"type": "materials-continuation", "text": "(1) 注射器35～140 cm³；内壁可薄涂凡士林减少漏气，备多种容量以改变流量。"}
+  ],
+  "formulas": [
+    {"label": "(61.2)", "plain": "Q/A = k_a(ρ_w g/η)(Δh/L)[1 − Δh/(2h_i)]", "latex": "\\frac{Q}{A}=k_a\\frac{\\rho_wg}{\\eta}\\frac{\\Delta h}{L}\\left(1-\\frac{\\Delta h}{2h_i}\\right)", "variables": [{"symbol": "Q", "meaning": "入口压力条件下的体积流量"}, {"symbol": "h_i", "meaning": "入口绝对压力的等效水头P_i/(ρ_wg)"}, {"symbol": "Δh", "meaning": "入口与出口压力头差"}], "conditions": ["理想气体近似", "稳态黏性层流", "Q按入口状态定义"]}
+  ],
+  "tables": [],
+  "contentSha256": "ee6dac59c4a60a11b5bad6d17e3b10d2af9559d03f479b1d9361ef52a3550fdc"
+}

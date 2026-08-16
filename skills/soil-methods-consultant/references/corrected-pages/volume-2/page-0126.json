@@ -1,0 +1,26 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 126,
+  "sourceImageSha256": "c0384319615017e284eea1e61ce0fabccc94ab89b0a11620567017a074f78aad",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段对照原分辨率图和两套OCR，完成第67章章名、作者机构、67.1及67.2全文"},
+    "precisionPass": {"status": "verified", "method": "核验60/100目与0.25/0.15 mm对应关系、方法名称、muck/moorsh术语及全部作者年份"},
+    "secondVisualPass": {"status": "verified", "method": "由本页末句反向复核至章名，检查三类物理性质、分解度适用范围和退化后方法限制；本页无印刷页码"}
+  },
+  "blocks": [
+    {"type": "chapter", "number": "67", "title": "有机土壤和生长基质的物理性质：土壤粒径和分解度"},
+    {"type": "authors", "items": ["L.E. Parent and J. Caron，Laval University，Quebec, Quebec, Canada"]},
+    {"type": "heading", "number": "67.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "在加拿大和北欧，有机土壤对蔬菜、木材生产及泥炭藓收获极为重要。有机土壤常见于湿地，那里野生动物活动频繁，并形成具有独特生物多样性的生态系统。长期以来，人们把有机土壤作为土壤系统的一部分，通过专门管理用于蔬菜和树木栽培；泥炭是当今世界生长基质的主要成分，一些泥炭沼泽也用于采收或培育泥炭藓。由于有机土壤的本质和特性，湿地利用与保护、农业和林木栽培、有机生长基质设计与生产等领域的分析方法近年来有较大发展，以下两章总结若干常用方法。"},
+    {"type": "paragraph", "text": "有机土壤和生长基质物理性质的方法主要分三类：①粒径分布和分解度；②结构性材料的储水、储气性能及含水量；③一定体积材料中水、气运移的动态变化。本章介绍泥炭和生长基质的粒径与分解度。"},
+    {"type": "heading", "number": "67.2", "title": "分解度", "level": 2},
+    {"type": "paragraph", "text": "泥炭物理性质在园艺学和泥炭土水文学中很重要。分解度与许多泥炭材料的物理、化学性质密切相关，也是按用途分类和评价的重要性质（Parent，1980）。泥炭分解度或腐殖化程度可由纤维含量或腐殖质含量评价；二者为互补组分，测定时通常使泥炭通过60目或100目筛，筛孔分别约0.25 mm或0.15 mm。"},
+    {"type": "paragraph", "text": "野外可用von Post按压法（von Post和Granlund，1926；Grosse-Brauckmann，1976）。常见室内法包括纤维体积法（Farnham和Finney，1965；Sneddon等，1971；Lynn等，1974）、机械分散与筛分法（Dinel和Lévesque，1976）、标准离心法（Lishtvan和Kroll，1975；Malterer，1988；Malterer等，1992）和Kaila比色法（Kaila，1956；Schnitzer和Desjardins，1966；Lynn等，1974）。"},
+    {"type": "paragraph", "text": "排水和复垦后，在改良、施肥和种植作用下，有机土壤会发生不可逆失水、变暗、分解和微生物定殖等物理、化学、生物转变，生成更多颗粒状和微细有机物，与原始泥炭显著不同。该过程称为muck-forming（泥炭土熟化/粪肥化）或moorsh-forming（沼泽土熟化）过程（Okruszko和Ilnicki，2003）。最终形成的退化土壤颗粒较细、表面易受风蚀，表层下可形成焦化层。中、低分解度泥炭原呈层状，表层随熟化逐渐颗粒化，深层可出现块状或棱柱状结构（Ilnicki和Zeitz，2003）。von Post按压法和纤维体积法不适用于这种熟化的moorsh土。"},
+    {"type": "source-fidelity-note", "text": "原书把muck-forming译作“粪肥”并把moorsh-forming译作“沼泽化”，易误解为施粪或一般沼泽形成；此处保留英文并补充其指排水后泥炭土熟化的含义。方法名统一为von Post，原书同页存在vonpost/von Post两种写法。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "1a665504c1b7e78a7f8cd501edea87fd4f0802b02749091ddb03444fcf6cd29e"
+}

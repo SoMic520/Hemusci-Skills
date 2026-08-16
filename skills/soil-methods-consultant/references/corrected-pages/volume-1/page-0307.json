@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 307,
+  "sourceImageSha256": "f6bf52391b2b3675789cf98e33d7877131a99ba325b8f48b8eef79b15040ecf8",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复参考文献Clapp续文至Gryndler"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验18S rRNA、AMF、PCR、作者缩写、重音字符、复合连字符、期刊卷页和物种名"},
+    "secondVisualPass": {"status": "verified", "method": "从Gryndler等（2006）反向复核至页首Berlin续文，确认跨页参考文献关系和所有数字；页码276"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "reference-continuation", "continuationOf": "page-0306#clapp-2002", "text": "Berlin, Germany, 201-224."},
+    {"type": "reference", "text": "Daniels, B.A. and Skipper, H.D. 1982. Methods of the recovery and quantitative estimation of propagules from soil. In: N.C. Schenck, ed. Methods and Principles of Mycorrhizal Research. American Phytopathological Society, St. Paul, MN, 29-35."},
+    {"type": "reference", "text": "de Souza, F.A., Kowalchuk, G.A., Leeflang, P., van Veen, J.A., and Smit, E. 2004. PCR denaturing gradient gel electrophoresis profiling of inter-and intraspecies 18S rRNA gene sequence heterogeneity is an accurate and sensitive method to assess species diversity of arbuscular mycorrhizal fungi of the genus Gigaspora. Appl. Environ. Microbiol. 70: 1413-1424."},
+    {"type": "reference", "text": "Dodd, J.C., Boddington, C.L., Rodriguez, A., Gonzalez-Chavez, C., and Mansur, I. 2000. Mycelium of arbuscular mycorrhizal fungi (AMF) from different genera: form, function and detection. Plant Soil 226: 131-151."},
+    {"type": "reference", "text": "Filion, M., St-Arnaud, M., and Jabaji-Hare, S.H. 2003. Direct quantification of fungal DNA from soil substrate using real-time PCR. J. Microbiol. Meth. 53: 67-76."},
+    {"type": "reference", "text": "Fisher, R.A. and Yates, F. 1963. Statistical Tables for Biological, Agricultural and Medical Research, 6th ed. Oliver and Boyd, Edinburgh, Scotland, UK."},
+    {"type": "reference", "text": "Fontaine, J., Grandmougin-Ferjani, A., Glorian, V., and Durand, R. 2004. 24-Methyl/methylene sterols increase in monoxenic roots after colonization by arbuscular mycorrhizal fungi. New Phytol. 163: 159-167."},
+    {"type": "reference", "text": "Fortin, J.A., Bécard, G., Declerck, S., Dalpé, Y., St-Arnaud, M., Coughlan, A.P., and Piché, Y. 2002. Arbuscular mycorrhiza on root-organ cultures. Can. J. Bot. 80: 1-20."},
+    {"type": "reference", "text": "Franson, R.L. and Bethlenfalvay, G.J. 1989. Infection unit method of vesicular-arbuscular mycorrhizal propagule determination. Soil Sci. Soc. Am. J. 53: 754-756."},
+    {"type": "reference", "text": "Friese, C.F. and Allen, M.F. 1991. The spread of VA mycorrhizal fungal hyphae in the soil: inoculum types and external hyphal architecture. Mycologia 83: 409-418."},
+    {"type": "reference", "text": "Furlan, V., Bartschi, H., and Fortin, J.A. 1980. Media for density gradient extraction of endomycorrhizal spores. T. Brit. Mycol. Soc. 75: 336-338."},
+    {"type": "reference", "text": "Garampalli, R.H. and Reddy, C.N. 2002. A simple technique for clearing adherent debris of VAM fungal spores for identification. Mycorrhiza News 14: 14-15."},
+    {"type": "reference", "text": "Gerdemann, J.W. and Nicolson, T.H. 1963. Spores of mycorrhizal Endogone species extracted from soil by wet sieving and decanting. T. Brit. Mycol. Soc. 46: 235-244."},
+    {"type": "reference", "text": "Giovannetti, M., Fortuna, P., Citernesi, A.S., Morini, S., and Nuti, M.P. 2001. The occurrence of anastomosis formation and nuclear exchange in intact arbuscular mycorrhizal networks. New Phytol. 151: 717-724."},
+    {"type": "reference", "text": "Giovannetti, M. and Mosse, B. 1980. An evaluation of techniques for measuring vesicular-arbuscular mycorrhizal infection in roots. New Phytol. 84: 489-500."},
+    {"type": "reference", "text": "Giovannetti, M., Sbrana, C., Avio, L., Citernesi, A.S., and Logi, C. 1993. Differential hyphal morphogenesis in arbuscular mycorrhizal fungi during pre-infection stages. New Phytol. 125: 587-593."},
+    {"type": "reference", "text": "Gollotte, A., van Tuinen, D., and Atkinson, D. 2004. Diversity of arbuscular mycorrhizal fungi colonising roots of the grass species Agrostis capillaris and Lolium perenne in a field experiment. Mycorrhiza 14: 111-117."},
+    {"type": "reference", "text": "Graham, J.H., Hodge, N.C., and Morton, J.B. 1995. Fatty acid methyl ester profiles for characterization of glomalean fungi and their endomycorrhizae. Appl. Environ. Microbiol. 61: 58-64."},
+    {"type": "reference", "text": "Gryndler, M., Larsen, J., Hrselova, H., Rezacova, V., Gryndlerova, H., and Kubat, J. 2006. Organic and mineral fertilization, respectively, increase and decrease the development of external mycelium of arbuscular mycorrhizal fungi in a long-term field experiment. Mycorrhiza 16: 159-166."},
+    {"type": "printed-page-number", "text": "276"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "953395db334033bb857aafffcfcde95d60b643ad2ea9c7de8a0e034cda15c773"
+}

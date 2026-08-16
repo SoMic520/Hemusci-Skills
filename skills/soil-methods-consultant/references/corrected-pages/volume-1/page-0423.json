@@ -1,0 +1,29 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 423,
+  "sourceImageSha256": "afdf6d6f26f885c56df63fba1264066b168a7e07db03b04c63c7b066cf10e126",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行及逐表格单元对照原分辨率中文页面、两套OCR和英文原版40.3.5～40.3.6（1）/图40.1"},
+    "precisionPass": {"status": "verified", "method": "核验10 cm、16片、1～2 h、0.5～8.0 cm共16层及完全消耗/消耗一半判据"},
+    "secondVisualPass": {"status": "verified", "method": "放大核对图40.1为空白记录模板而非示例数据，确认行列、图例、计数位置与署名；印刷页码392"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "40.3.5", "title": "田间回收诱饵条带"},
+    {"type": "procedure-step", "number": "（1）", "text": "移除田间标志旗；在样组附近插入土壤温度计并使其平衡。"},
+    {"type": "procedure-step", "number": "（2）", "text": "逐片缓慢从土中拔出，小心装入有田间标识的塑料袋；离场前清点全部层片，确保无遗漏。湿土中层片若有可见水膜，先稍风干，或以柔软擦拭纸轻拍吸去多余水后再装袋。"},
+    {"type": "procedure-step", "number": "（3）", "text": "取10 cm土芯装入含水量盒，测重力含水量；也可用电子TDR探头。记录土壤温度。"},
+    {"type": "procedure-step", "number": "（4）", "text": "评价前整组层片冷藏。若孔内材料仍湿，把16片平放于浅盘或容器中彻底风干，约1～2 h；材料完全干燥是正确判读孔洞的必要条件。"},
+    {"type": "section-heading", "level": 3, "number": "40.3.6", "title": "记录诱饵层片数据"},
+    {"type": "procedure-step", "number": "（1）", "text": "用记录表逐片判读完全空孔（图40.1）。判定“消耗一半”须检查层片两面：仅当一面诱饵完全消失、另一面仍满时才记半孔。只少量缺失者不记，因可能是填装伪差而非摄食；孔边有明显干缩裂缝者也不记。"},
+    {"type": "figure-caption", "number": "图40.1", "text": "诱饵层片测定生物活性的数据记录表。完全倒空（完全消耗）的孔在圆圈内涂满；消耗一半的孔在圆圈内画斜线。每片完全消耗和消耗一半的孔数在右侧汇总，各土层深度在表底汇总。J. Miller设计，Agriculture and Agri-Food Canada，London，Ontario。"},
+    {"type": "source-fidelity-note", "scope": "图40.1", "text": "原图所有圆圈均为空白填报位，并非示例观测值；两套OCR把圆圈误读为0/O及零散符号。结构化表保留空白模板与评分图例，不生成虚假数据。"},
+    {"type": "printed-page-number", "text": "392"}
+  ],
+  "formulas": [],
+  "tables": [
+    {"id": "figure-40.1-recording-sheet", "title": "诱饵层片生物活性记录表（空白模板）", "metadataFields": ["位置", "地点", "放入日期/时间", "取出日期/时间", "注释"], "depthColumnsCm": [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0], "stripRows": "条带1～条带16；每片对应孔1～孔16和16个空白摄食标记圆圈", "rightTotals": ["完全消耗", "消耗一半"], "bottomTotals": ["各深度完全消耗", "各深度消耗一半"], "legend": {"完全消耗": "圆圈内涂满", "消耗一半": "圆圈内画斜线", "未计/完整": "空圆圈"}}
+  ],
+  "contentSha256": "a889a9cdc93784f226632bfee7f52ccf906b8e6ecee92bc481cdd85fcf4ec98a"
+}

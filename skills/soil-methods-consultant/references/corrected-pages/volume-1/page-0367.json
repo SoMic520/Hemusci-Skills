@@ -1,0 +1,32 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 367,
+  "sourceImageSha256": "8b54b01e7e3b072971bfbc69bce94807dfa6224ba25b0385b38c39c5451a71a3",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版36.1～36.3.1"},
+    "precisionPass": {"status": "verified", "method": "核验1～2 d、MPN、r选择策略、100～400×、1×/10×/≥80×、25 °C、10×0.1 mol·L⁻¹及表36.1前三行"},
+    "secondVisualPass": {"status": "verified", "method": "从表36.1反向复核至直接/间接计数，纠正培养法偏倚方向和显微镜光学参数；印刷页码336"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "paragraph", "text": "测量原生动物丰度的方法分为直接法和间接法，通常分别指不经培养的计数和经培养后的计数。不经培养而直接计数活跃细胞，是可靠估计活跃（即非包囊）原生动物原位丰度的唯一途径。优点是前处理步骤少、不依赖大量未经验证的假设，且不如培养法耗时；缺点是分类分辨率低，并且采样后必须在1～2 d内检查样品。"},
+    {"type": "paragraph", "text": "最可能数（MPN）法通过在培养基中设置有重复的连续稀释系列，并在连续数日计数来估计细胞。这类方法（Rønn等，1995；Anderson，2000；Fredslund等，2001）基本是Singh（1955）圆环法的改良。培养估计对确定物种出现频率和生物多样性有用，但不能确定土壤中活跃物种的丰度。Berthold和Palzenberger（1995）及Foissner（1987）讨论了培养法的误差来源。培养法会偏向生长快的r选择策略物种，从而低估生长较慢及不摄食细菌的物种（Coûteaux和Palka，1988；Adl，2003）。此外，MPN估计值还随MPN方程、保存时长与条件、土壤处理和培养流程而变。因此，与Adl和Coleman（2005）、Berthold和Palzenberger（1995）、Foissner（1987）等一致，本章不推荐用MPN法估计活跃原生动物丰度。"},
+    {"type": "source-fidelity-note", "scope": "培养法偏倚", "text": "中文本写“培养法不适宜生长较慢的偏向r-型选择的物种”，把两个相反类群并成一个。英文原意是培养法偏爱r选择的快速生长物种，并牺牲/低估慢生长物种及非食细菌物种。"},
+    {"type": "paragraph", "text": "本章介绍土壤原生动物的计数方法，不涵盖物种鉴定以及多样性或群落结构评估。物种鉴定和分类可先参考The Illustrated Guide to the Protozoa（Lee等，2000）；该书分类体系较旧，但含有实用检索表、各类群描述和参考文献。原生生物命名与分类另见Adl等（2005）。Acosta-Mercado和Lynn（2003）给出了纤毛虫的有效提取与鉴定方法；有壳变形虫可用载玻片涂片法（Korganova和Geltser，1977）或滤膜法（Lousier和Parkinson，1981）提取鉴定；食真菌变形虫可用真菌孢子作诱饵鉴定（Duczek，1983）。"},
+    {"type": "section-heading", "level": 2, "number": "36.2", "title": "显微镜"},
+    {"type": "paragraph", "text": "倒置显微镜是观察和计数土壤样品中原生动物的主要仪器。多数流程需要长工作距离相差物镜；观察放大倍数为100～400×，物镜质量应达到平场复消色差（plan apochromat）或同等级。"},
+    {"type": "paragraph", "text": "解剖显微镜可用于分拣水浸样品。建议使用高分辨率1×平场复消色差物镜、下照明，并用底座内可倾斜反光镜提供斜射透射光。配10×目镜和变焦后，应至少达到80×；可倾斜反光镜对观察小型物种尤为重要。较大型鞭毛虫、较小型纤毛虫和有壳变形虫可用这类显微镜观察。较低分辨率型号适合多数较大型纤毛虫和有壳变形虫，但会漏掉小型物种；不应使用解剖显微镜计数变形虫。"},
+    {"type": "section-heading", "level": 2, "number": "36.3", "title": "标准溶液"},
+    {"type": "paragraph", "text": "以下溶液用于制备土壤悬浮液和稀释液、常规培养细胞或制作固定玻片。"},
+    {"type": "section-heading", "level": 3, "number": "36.3.1", "title": "磷酸盐缓冲液"},
+    {"type": "paragraph", "text": "磷酸盐缓冲液用于把培养介质调至与土样相同的pH，也是培养基组分。钾盐或钠盐缓冲液由不同体积的碱性溶液与酸性溶液混合配成；具体体积见表36.1。表列的是25 °C下10×浓缩液，稀释10倍后得到0.1 mol·L⁻¹缓冲液。"},
+    {"type": "table-continuation-note", "text": "表36.1钾磷酸盐缓冲液的pH 5.8～6.2三行列于本页，其余行及钠磷酸盐缓冲液见第368页。"},
+    {"type": "printed-page-number", "text": "336"}
+  ],
+  "formulas": [],
+  "tables": [
+    {"number": "表36.1（a，首段）", "title": "25 °C配制10×0.1 mol·L⁻¹钾磷酸盐缓冲液所需1 mol·L⁻¹储备液体积", "columns": ["pH", "1 mol·L⁻¹ K₂HPO₄ / mL", "1 mol·L⁻¹ KH₂PO₄ / mL"], "rows": [["5.8", "8.5", "91.5"], ["6.0", "13.2", "86.8"], ["6.2", "19.2", "80.8"]], "note": "两种储备液体积合计100.0 mL；所得为10×储备液，稀释10倍得到0.1 mol·L⁻¹缓冲液。"}
+  ],
+  "contentSha256": "d7193801bffc60a00c1ae5c4adedc70c3d7c1f4a4023def107494ce3abd837e3"
+}

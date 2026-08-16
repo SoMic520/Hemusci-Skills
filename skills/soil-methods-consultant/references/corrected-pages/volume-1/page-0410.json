@@ -1,0 +1,31 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 410,
+  "sourceImageSha256": "46e3c31ad0735facb90512d4156a338bf25794c5b42695be65ba78a5c2b47814",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版39.2.4和39.3承下句"},
+    "precisionPass": {"status": "verified", "method": "核验NaOH、CO₂、HCO₃⁻、1/2/3 h、600～1000 μg·g⁻¹、1%～6%、0.5 ha/n=220、60 km²/n=161、31/3/53/5%、μg C·g⁻¹及F∶B 0.54～18.2"},
+    "secondVisualPass": {"status": "verified", "method": "从F∶B承下句反向复核至39.2.4，检查μ、上标负号、公式交叉引用和第49章；印刷页码379"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第39章｜底物诱导呼吸作用和选择性抑制测定土壤中的微生物生物量"},
+    {"type": "section-heading", "level": 3, "number": "39.2.4", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "SIR也可用NaOH吸收阱收集CO₂。因滴定法灵敏度低且测量按小时计，土样量通常增至GC法的2～3倍；若生长曲线证明该时段CO₂速率恒定，也可捕集3 h后按式（39.2）计算。高pH土（>7）不宜用静态捕集，因为pH升高会使更多CO₂以HCO₃⁻溶于土壤溶液；准确测释放速率需连续流动系统（Martens，1987）。"},
+    {"type": "note-item", "number": "（2）", "text": "只要取样保持在滞后期内，加底物后的培养时间可改变，例如1 h后测，或先以Parafilm封2 h再测第3小时产生的CO₂；这类调整便于批量处理。"},
+    {"type": "note-item", "number": "（3）", "text": "许多土壤的葡萄糖饱和水平为600～1000 μg葡萄糖·g⁻¹土；饱和水平通常随土壤有机碳增加而升高，质地影响较小。原生凋落物多的森林土可有很高饱和值。"},
+    {"type": "note-item", "number": "（4）", "text": "污染土或极端贫营养土（如底土）可能使呼吸碳/同化碳比严重偏移，使式（39.4）的经验生物量换算不适用。该式基于含不同生理阶段活细胞的“平均”土壤条件（Anderson和Domsch，1978）。不满足假设时宜改用氯仿熏蒸提取等潜在微生物量方法（见第49章）；为使土壤接近经验式条件，过筛或储存后建议预培养1周。"},
+    {"type": "source-fidelity-note", "scope": "39.2.4（4）", "text": "中译本随英文原版把受呼吸碳/同化碳比影响的经验换算指为式（39.3），并误写参见第39章；实际生物量经验式是（39.4），氯仿熏蒸方法在第49章。正文按方法逻辑纠正。"},
+    {"type": "note-item", "number": "（5）", "text": "SIR重复精密度高，文献中重复CV多为1%～6%。作者未发表田间数据：0.5 ha、n=220时空间CV为31%、三子样CV为3%；60 km²、n=161时空间CV为53%、重复CV为5%。方法本身的精密度远高于解释自然微生物量空间变异的能力。"},
+    {"type": "note-item", "number": "（6）", "text": "式（39.1）～（39.4）可按气路调整：若瓶内以无CO₂空气冲洗，式（39.1）无需扣空气峰；许多GC软件可由峰高或峰面积标准曲线直接输出CO₂%。微生物量通常报告为μg生物量C·g⁻¹土，而非mg生物量C·100 g⁻¹土。"},
+    {"type": "section-heading", "level": 2, "number": "39.3", "title": "选择性抑制", "citation": "Anderson和Domsch，1975；Bailey等，2003"},
+    {"type": "paragraph", "text": "Anderson和Domsch（1973）首先提出用抗生素选择性抑制土壤微生物活性：真菌抑制剂抑制真菌，细菌抑制剂抑制细菌，据此计算F∶B。加入少量葡萄糖刺激呼吸，分别单加和合加抗生素后测CO₂。常用真菌抑制剂为环己酰亚胺（cycloheximide；Badalucco等，1994）或克菌丹（captan；Beare等，1990）；传统细菌抑制剂为链霉素或土霉素/氧四环素，近来也用溴硝醇（bronopol）和氯霉素（Bailey等，2003；Nakamoto和Wakahara，2004）。应筛选最适合特定土壤的抑制剂组合，并分别绘制真菌、细菌呼吸抑制曲线确定最佳浓度；葡萄糖用量取饱和曲线最大呼吸响应所对应浓度。"},
+    {"type": "paragraph", "text": "文献中农业土壤F∶B通常为0.54～3.04（Beare等，1992），恢复草原土可达13.5（Bailey等，2002），酸性山毛榉土可达18.2（Blagodatskaya和Anderson，1998）。这些结果常受“抑制剂加和比”（IAR）影响；本段续见第411页。"},
+    {"type": "printed-page-number", "text": "379"}
+  ],
+  "formulas": [
+    {"id": "39.2-reporting-unit", "display": "1 mg biomass C·100 g⁻¹ soil = 10 μg biomass C·g⁻¹ soil"}
+  ],
+  "tables": [],
+  "contentSha256": "0fa885b4b6a5a1d7df11b41b7c26ba03b2862497263169d22baadffcc31e1212"
+}

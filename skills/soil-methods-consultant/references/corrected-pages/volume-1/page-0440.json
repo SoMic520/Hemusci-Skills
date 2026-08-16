@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 440,
+  "sourceImageSha256": "afb5b425883b5ea40c74879f36c1156cb5ff749e6c7735bf80f4927f429ff748",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐条对照原分辨率中文页面、两套OCR及英文原版42.4.3与参考文献A～F"},
+    "precisionPass": {"status": "verified", "method": "核验PCA/PC、>40种脂肪酸、1～3个PC、二维/三维、作者变音符、期刊卷页号、URL和Brassica napus；纠正Robertson、Drenovsky期刊及多处书目拼写"},
+    "secondVisualPass": {"status": "verified", "method": "由Feng承下句反向复核至42.4.3标题，检查大于号、范围线、拉丁学名、卷页号和印刷页码409"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第42章｜基于脂质的群落分析"},
+    {"type": "section-heading", "level": 3, "number": "42.4.3", "title": "数据分析"},
+    {"type": "paragraph", "text": "主成分分析（principal components analysis，PCA）等多变量分析常用于比较土壤微生物群落脂肪酸组成。PCA可概括每个样品测得多个变量的数据，尤其适合单个土样常含超过40种脂肪酸的情况。也可用方差分析比较各处理的平均峰面积或各脂肪酸占总量的百分比，但较耗时且缺少群落整体的生态意义。"},
+    {"type": "paragraph", "text": "PCA把原始变量（脂肪酸）线性转换为数量少得多、彼此不相关且保留大部分原始信息的主成分（PC）。PC按解释的方差大小排序，前几个PC解释大部分变异。可把前2～3个PC得分绘成二维或三维图，直观比较基于FAME或PLFA数据的群落差异。检查各PC的变量载荷可判断每种原始脂肪酸对该PC变异的贡献，并选出贡献最大的脂肪酸作进一步分析。"},
+    {"type": "section-heading", "level": 2, "title": "参考文献"},
+    {"type": "bibliography", "text": "Amann, R., Ludwig, W., and Schleifer, K.H. 1995. Phylogenetic identification and in situ detection of individual microbial cells without cultivation. Microbiol. Rev. 59: 143–169."},
+    {"type": "bibliography", "text": "Bååth, E., Frostegård, Å., and Fritze, H. 1992. Soil bacterial biomass, activity, phospholipid fatty acid pattern, and pH tolerance in an area polluted with alkaline dust deposition. Appl. Environ. Microbiol. 58: 4026–4031."},
+    {"type": "bibliography", "text": "Balser, T. 2005. Phospholipid-fatty acid analysis. Online: http://www.cnr.berkeley.edu/soilmicro/methods/BalserPLFA.pdf (verified March 2006)."},
+    {"type": "bibliography", "text": "Bligh, E.G. and Dyer, W.J. 1959. A rapid method of total lipid extraction and purification. Can. J. Biochem. Physiol. 37: 911–917."},
+    {"type": "bibliography", "text": "Bobbie, R.J. and White, D.C. 1980. Characterization of benthic microbial community structure by high-resolution gas chromatography of fatty acid methyl esters. Appl. Environ. Microbiol. 39: 1212–1222."},
+    {"type": "bibliography", "text": "Bossio, D.A. and Scow, K.M. 1998. Impacts of carbon and flooding on soil microbial communities: phospholipid fatty acid profiles and substrate utilization patterns. Microb. Ecol. 35: 265–278."},
+    {"type": "bibliography", "text": "Buyer, J.S. and Drinkwater, L.E. 1997. Comparison of substrate utilization assay and fatty acid analysis of soil microbial communities. J. Microbiol. Methods 30: 3–11."},
+    {"type": "bibliography", "text": "Cavigelli, M.A., Robertson, G.P., and Klug, M.J. 1995. Fatty acid methyl ester (FAME) profiles as measures of soil microbial community structure. Plant Soil 170: 99–113."},
+    {"type": "bibliography", "text": "Drenovsky, R.E., Elliott, G.N., Graham, K.J., and Scow, K.M. 2004. Comparison of phospholipid fatty acid (PLFA) and total soil fatty acid methyl esters (TSFAME) for characterizing soil microbial communities. Soil Biol. Biochem. 36: 1793–1800."},
+    {"type": "bibliography", "text": "Dunfield, K.E. and Germida, J.J. 2001. Diversity of bacterial communities in the rhizosphere and root-interior of field-grown genetically modified Brassica napus. FEMS Microbiol. Ecol. 38: 1–9."},
+    {"type": "bibliography", "text": "Dunfield, K.E. and Germida, J.J. 2003. Seasonal changes in the rhizosphere of microbial communities associated with field-grown genetically modified canola (Brassica napus). Appl. Environ. Microbiol. 69: 7310–7318."},
+    {"type": "bibliography", "text": "Dunteman, G.H. 1989. Principal Components Analysis. Quantitative Applications in the Social Sciences, No. 69. Sage Publications, Newbury Park."},
+    {"type": "bibliography", "text": "Fang, C., Radosevich, M., and Fuhrmann, J.J. 2001. Characterization of rhizosphere microbial community structure in five similar grass species using FAME and BIOLOG analyses. Soil Biol. Biochem. 33: 679–682."},
+    {"type": "bibliography", "text": "Feng, Y., Motta, A.C., Reeves, D.W., Burmester, C.H., van Santen, E., and Osborne, J.A. 2003. Soil microbial communities under [文献续见第441页]"},
+    {"type": "source-fidelity-note", "scope": "参考文献", "text": "已校正可判定书目误印：phospholipids fatty acid→phospholipid fatty acid；Characterzation→Characterization；Roberson→Robertson；Drenovsky条目的期刊由不可能的Appl. Environ. Microbiol. 36校为Soil Biol. Biochem. 36；van Stanten→van Santen。"},
+    {"type": "printed-page-number", "text": "409"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "8ad49d359d4372086a3855c5e79f589e31084b766f0e46cd16ebfd73a54cadf8"
+}

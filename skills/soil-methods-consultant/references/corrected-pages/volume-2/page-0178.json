@@ -1,0 +1,24 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 178,
+  "sourceImageSha256": "4a828d74b427408d7adb4430105bb4a18920a4ebc9e1b52f746577ba81179f44",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐步骤逐图对照原分辨率页图和两套OCR，完成70.3.2步骤1—2及图70.2"},
+    "precisionPass": {"status": "verified", "method": "核验25 m、t₁/t₂、20 cm、V_f/V₀、θ_v与σ₀的m³·m⁻³/mS·m⁻¹单位"},
+    "secondVisualPass": {"status": "verified", "method": "由图70.2图注反向复核探针安装和时间判读步骤；印刷页码687"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "70.3.2", "title": "步骤", "level": 3},
+    {"type": "procedure", "steps": [
+      "将探针插入土样。金属杆平行、不得接触，避免不平行/非垂直插入造成空气间隙；尽量减少扰动，尤其在可压缩介质。实验室或近地表测量要让与TDR信号有关的电磁场完全包含在样品内；高导电土会限制最大杆长。",
+      "用同轴电缆连接探针和TDR并启动波形发送/接收。为保证信噪比并限制衰减，电缆最好≤25 m；有补偿的仪器可更长。按最高导电条件下的信号质量选长度，扩展器也会削弱信号。",
+      "分析波形传播时间。t₁为信号从探针入口/土壤界面起始位置的时间，t₂为到达探针末端的时间；t₂−t₁为脉冲沿探针长度双向传播时间。以反射信号两端切线交点确定时间；t₁难判时可用水和空气校准探针。"
+    ]},
+    {"type": "figure", "number": "70.2", "title": "粉质黏壤中20 cm探针测得的两条TDR波形", "annotations": ["两次含水量相近；(b)土壤溶液导电性更强、回归反射较小，使V_f偏低", "(a) θ_v=0.304 m³·m⁻³，σ₀=57 mS·m⁻¹，V_f=1.03V₀", "(b) θ_v=0.271 m³·m⁻³，σ₀=95 mS·m⁻¹，V_f=0.78V₀"]},
+    {"type": "source-fidelity-note", "text": "本页步骤编号在印刷版只显式列1、2，但步骤2内部同时包含连接与波形时间判读；为检索清晰拆成三个动作，未改变原先顺序。图中σ₀为电导率，单位mS·m⁻¹，不是标准差。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "7ab93722d02b2c8a3a0e229edb38bc885c082c6c3db050e6a1d5ebaa79d9d629"
+}

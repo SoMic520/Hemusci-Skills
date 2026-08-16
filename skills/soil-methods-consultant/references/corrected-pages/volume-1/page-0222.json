@@ -1,0 +1,33 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 222,
+  "sourceImageSha256": "39ac57544327aa35076cabbf69eb28dc01bee22adbbb6bea110d7100497c0d39",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第23章第191页，并与Apple Vision、PaddleOCR交叉比对，人工恢复23.2.3步骤、23.2.4～23.2.5及23.3原理和23.3.1试剂（1）～（2）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验30 mL/0～200 mg原印值、250～260 ℃、S mg·kg⁻¹、ICP/IC、硫化铋、2% w/v、5～10 g、200 mL·min⁻¹和30 cm"},
+    "secondVisualPass": {"status": "verified", "method": "从试剂（2）反向复核至页首步骤（1）续句，确认原印0～200 mg、方法层级、浓度单位、气体净化条件及页码191"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第23章｜土壤硫的化学特征｜"},
+    {"type": "procedure-step-continuation", "number": "（1）", "continuedFromPreviousPage": true, "text": "30 mL硫化铋消解液，分析测定得到硫含量的范围为0～200 mg。"},
+    {"type": "source-fidelity-note", "scope": "23.2.3（1）", "text": "原书本页清晰印作“0～200 mg”，正文按原印保留；该范围与前述称样量及后续标准曲线的量级关系需在实际采用前由使用者依原方法或标准物质复核。"},
+    {"type": "procedure-step", "number": "（2）", "text": "加3 mL次溴酸钠消解液并振荡使样品完全湿润。静置5 min后，将其放入消解器中，在250～260 ℃下使混合液蒸发变干，继续加热30 min。从消解器中拿出消解管并冷却约5 min。"},
+    {"type": "procedure-step", "number": "（3）", "text": "加入1 mL的水，振荡和稍加热使消化样品再次呈悬浊状态。冷却后，加入1 mL甲酸除去可能出现的多余溴。"},
+    {"type": "procedure-step", "number": "（4）", "text": "用氢碘酸还原法定量测定硫含量（同23.3）。"},
+    {"type": "method-subheading", "number": "23.2.4", "title": "计算"},
+    {"type": "calculation-note", "text": "计算样品硫含量（S mg·kg⁻¹）时应该考虑样品的烘干重量，并使用经过氢碘酸还原法测得的样品硫含量的标准曲线（见23.3.3）。"},
+    {"type": "method-subheading", "number": "23.2.5", "title": "注释"},
+    {"type": "note-item", "number": "（1）", "text": "用此法测定含大量有机质的土壤样品硫含量时，其测定结果可能偏低，因此必须持续消解或延长消解时间（Guthrie和Lowe，1984）。"},
+    {"type": "note-item", "number": "（2）", "text": "这种消解法也可以用于测定溶液中全硫的含量，但在消化前需要定量分取部分溶液进行蒸干（Kowalenko和Lowe，1972）。因为电感耦合等离子体光谱法（ICP）可以通过测定样品溶液来确定全硫含量，所以可用ICP代替消解法来直接进行硫的分析测定。另外，离子色谱法也可以通过测定样品溶液确定某种特定形态的硫，如硫酸盐，但要用这种方法测定全硫则必须用消解样品。"},
+    {"type": "method-heading", "number": "23.3", "title": "氢碘酸还原法测定硫酸盐"},
+    {"type": "method-principle", "text": "目前，由于缺乏准确适宜可直接比色的分析法，所以土壤硫酸盐的定量测定受到一定的限制。正如前面所述，现有的硫酸盐比色法基本上都是基于钡沉淀法，因此这些方法都受到一定的干扰而大多灵敏度较低。另一种广泛用于土壤硫研究的方法是用氢碘酸将硫酸盐还原为硫化氢，通过测定硫化氢的含量来确定硫含量。最近发展的一些用于硫的分析测定的新方法，其中用于土壤研究的主要有电感耦合等离子体光谱法和离子色谱法。这些方法都需要专用且昂贵的仪器设备，并且仪器操作步骤由制造商决定且因仪器而不同，故不在此过多说明。虽然这些方法的仪器设备现已被广泛应用，但是缺乏对其有效性的评估及将其结果与传统的土壤研究方法测定结果的比较。目前被普遍接受的是干扰较小的电感耦合等离子体光谱法，但其测定的是所有形态的硫而不仅仅只是硫酸盐。离子色谱法对硫酸盐有专一性，但受到传统消解液和浸提液中的一系列阴离子和阳离子的干扰，必须依据具体情况明确这些潜在干扰，并根据所用仪器通过多种方法规避干扰。在此对氢碘酸法进行概述，因为它不需要专门的仪器和特定的操作步骤，而且在土壤研究应用中历史悠久。此法将氢碘酸（Johnson和Nishita，1952）通入一种改进装置（Kowalenko，1985）中，使用硫化铋（Kowalenko和Lowe，1972）而不是亚甲基蓝定量测定转化为硫化氢的硫的含量。"},
+    {"type": "method-subheading", "number": "23.3.1", "title": "材料和试剂"},
+    {"type": "reagent-item", "number": "（1）", "text": "特制的还原或蒸馏装置和加热器（Kowalenko，1985）同23.2.2。"},
+    {"type": "reagent-item", "number": "（2）", "name": "氮气", "text": "气体必须相当纯净，特别是不含硫化物。可以将气体鼓入含有5～10 g氯化汞的100 mL 2%（w/v）高锰酸钾溶液中使其纯化。氮气进入还原或蒸馏装置的速度应该控制在200 mL·min⁻¹左右，速度可以由市售流量计控制（例如，Rotometer（Kowalenko，1985）），也可以将气体通过一根适宜长度（如30 cm）的毛细玻璃管来控制速度（Kowalenko和Lowe，1972）。"},
+    {"type": "printed-page-number", "text": "191"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "0dafa97e2a05746dee53d1a67183ff7225d661f76704569d20737ade403813ac"
+}

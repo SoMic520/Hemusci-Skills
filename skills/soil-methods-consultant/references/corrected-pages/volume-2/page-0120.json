@@ -1,0 +1,30 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 120,
+  "sourceImageSha256": "0fbca0dc043562a8af8208cd7fa0159e5997edd2bfb237787397098fedaf1818",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐条对照原分辨率图和两套OCR，完成Livingston跨页结尾及Parkinson至Smith共9条参考文献和译校署名"},
+    "precisionPass": {"status": "verified", "method": "核验作者、变音符、题名、书名、期刊、卷页、版次、专著号和译校署名；校正M.S. Cresser"},
+    "secondVisualPass": {"status": "verified", "method": "由译校署名反向复核至Livingston跨页结尾，检查in situ、CO₂、2nd/3rd ed.、ASA Monograph 47及页码；印刷页码629"}
+  },
+  "blocks": [
+    {"type": "references-continuation", "items": [
+      "Livingston, G.P. and Hutchinson, G.L. 1995. Enclosure-based measurement of trace gas exchange: Applications and sources of error. In: P.A. Matson and R.C. Harriss, eds. Biogenic Trace Gases: Measuring Emissions from Soil and Water. Blackwell Science, Oxford, UK, 14–51.",
+      "Parkinson, D. 1981. An improved method for measuring soil respiration in the field. J. Appl. Ecol. 18:221–228.",
+      "Pattey, E., Edwards, G., Strachan, I.B., Desjardins, R.L., Kaharabata, S., and Wagner-Riddle, C. 2006. Towards standards for measuring greenhouse gas flux from agricultural fields using instrumented towers. Can. J. Soil Sci. 86:373–400.",
+      "Pedersen, A.R. 2000. Estimating the nitrous oxide emission rate from the soil surface by means of a diffusion model. Scand. J. Stat. 27:385–403.",
+      "Rayment, M.B. 2000. Closed chamber systems underestimate soil CO₂ efflux. Eur. J. Soil Sci. 51:107–110.",
+      "Rochette, P. and Bertrand, N. 2003. Soil air sample storage and handling using polypropylene syringes and glass vials. Can. J. Soil Sci. 83:631–637.",
+      "Rochette, P., Chantigny, M.H., Angers, D.A., Bertrand, N., and Côté, D. 2001. Ammonia volatilization and soil nitrogen dynamics following fall application of pig slurry on canola crop residues. Can. J. Soil Sci. 81:515–523.",
+      "Rochette, P. and Hutchinson, G.L. 2005. Measuring soil respiration in situ: Chamber techniques. In: J.L. Hatfield and J.M. Baker, eds. Micrometeorology in Agricultural Systems. ASA Monograph No. 47. American Society of Agronomy, Madison, WI, 247–286.",
+      "Rolston, D.E. 1986. Gas flux. In: A. Klute, ed. Methods of Soil Analysis, Part 1—Physical and Mineralogical Methods. 2nd ed. Soil Science Society of America, Madison, WI, 1103–1119.",
+      "Smith, K.A. and Conen, F. 2004. Measurement of trace gases I: Gas analysis, chamber methods, and related procedures. In: K.A. Smith and M.S. Cresser, eds. Soil and Environmental Analysis: Modern Instrumental Techniques. 3rd ed. Marcel Dekker, New York, 433–476."
+    ]},
+    {"type": "credits", "text": "王力、高伟达译，任图生校。"},
+    {"type": "source-fidelity-note", "text": "Smith和Conen条目原书将共同编辑者印为M.C. Cresser；本书第64章同一来源及原书书目信息均为M.S. Cresser，已校正。Rochette作者Côté的变音符已恢复。"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "730941e04fdb22b3de1c1177589aa7f050aa40dc85d6329c011c74302c60730a"
+}

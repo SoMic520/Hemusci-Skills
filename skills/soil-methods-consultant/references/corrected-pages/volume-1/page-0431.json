@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 431,
+  "sourceImageSha256": "cd1224d66f3e84a6ed942830f49c2bf4dfe22837c1b0a71e306edaf8ed935b9a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple OCR、PaddleOCR及英文原版41.2.4～41.3.3"},
+    "precisionPass": {"status": "verified", "method": "逐项核验325 μL反应总体积、100/25 μL加样顺序、30 min预热、5 s延迟、10 s积分及式（41.1）～（41.3）；按加标与两级稀释链复算0.1469 pmol"},
+    "secondVisualPass": {"status": "verified", "method": "由式（41.3）反向复核至测定步骤，逐个检查μL、pmol、assay⁻¹、RLU、括号与印刷页码400"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 3, "number": "41.2.4", "title": "测定步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "样品最终反应混合液总体积为325 μL，按顺序加入反应池：a. 100 μL水；b. 100 μL纯ATP assay mix dilution buffer；c. 25 μL中性土壤提取液；d. 100 μL荧光素–荧光素酶溶液。加入酶液后立即将反应池置于仪器中计数。"},
+    {"type": "procedure-step", "number": "（2）", "text": "ATP标准曲线最终反应混合液总体积亦为325 μL，按顺序加入反应池：a. 100 μL水；b. 100 μL含ATP标准物质的ATP assay mix dilution buffer；c. 25 μL中性高压灭菌土提取物（优先）或中性提取液；d. 100 μL荧光素–荧光素酶溶液。加入酶液后立即计数。"},
+    {"type": "procedure-step", "number": "（3）", "text": "用市售光度计，或设为非重合模式并采用积分计数的液体闪烁计数器测定ATP。若用Lumac Model 1070测光仪，测定前开机30 min使电子系统稳定；延迟5 s，避开荧光素–荧光素酶与ATP混合产生的瞬时闪光；积分计数时间10 s。每份提取液平行测定2次，并在当日定期测定标准以检查仪器稳定性；电网波动较大时宜配置不间断电源（UPS）电源滤波器。"},
+    {"type": "section-heading", "level": 2, "number": "41.3", "title": "土壤ATP含量计算方法"},
+    {"type": "section-heading", "level": 3, "number": "41.3.1", "title": "分析体系ATP含量"},
+    {"type": "paragraph", "text": "用ATP标准曲线方程求每个分析体系中的ATP含量：以ATP标准量的常用对数为自变量，以荧光素–荧光素酶反应所得相对光单位（RLU）的常用对数为因变量。结果以pmol ATP·assay⁻¹表示。"},
+    {"type": "source-fidelity-note", "scope": "41.3.1标题与单位", "text": "中文版小标题误排为“材料与试剂”，英文原版为ASSAY ATP CONCENTRATION；本Skill依内容校为“分析体系ATP含量”。原书用pM ATP assay⁻¹表示分析体系内的皮摩尔物质的量，pM按SI定义是pmol·L⁻¹，运行时规范为pmol ATP·assay⁻¹。"},
+    {"type": "section-heading", "level": 3, "number": "41.3.2", "title": "土壤ATP回收率"},
+    {"type": "paragraph", "text": "用加标分析体系中回收的ATP计算土壤ATP回收率RE，见式（41.1）和式（41.2）。原书给出的分析体系实际ATP加标量为0.1469 pmol；该常数相当于忽略土样自带水量SW。运行时如已知SW，优先用实际提取液总体积50+SW计算精确加标量。"},
+    {"type": "section-heading", "level": 3, "number": "41.3.3", "title": "分析液中土壤ATP含量"},
+    {"type": "paragraph", "text": "按式（41.3），以回收率RE校正仪器由标准曲线求得的分析体系ATP量。"},
+    {"type": "source-fidelity-note", "scope": "式（41.1）～（41.3）", "text": "原书各式把物质的量单位误写为pM；本Skill统一为pmol。0.1469 pmol由5 nmol加标量、0.2 mL取样、3.4 mL中和总体积和25 μL分析体积推得，但只在SW=0 mL时成立；实际湿土应使用含SW的精确式。"},
+    {"type": "printed-page-number", "text": "400"}
+  ],
+  "formulas": [
+    {"label": "（41.1）", "plain": "RE=ATP_spike,measured/ATP_spike,added", "latex": "RE=\\frac{ATP_{\\mathrm{spike,measured}}}{ATP_{\\mathrm{spike,added}}}", "variables": {"RE": "ATP回收率，无量纲", "ATP_spike,measured": "加标分析体系中测得的净加标ATP量", "ATP_spike,added": "加标分析体系中实际加入的ATP量"}},
+    {"label": "（41.2）", "plain": "ATP_spike,measured=ATP_(soil+spike assay)−ATP_(soil assay)", "latex": "ATP_{\\mathrm{spike,measured}}=ATP_{\\mathrm{soil+spike\\ assay}}-ATP_{\\mathrm{soil\\ assay}}"},
+    {"label": "原书常数", "sourcePrinted": "ATP_spike,added=0.1469 pM ATP", "plain": "ATP_spike,added≈0.1469 pmol ATP (only when SW≈0 mL)", "status": "conditional-source-constant"},
+    {"label": "41.2-spike-exact", "plain": "ATP_spike,added(pmol)=5000 pmol×[0.2 mL/(50+SW) mL]×(0.025 mL/3.4 mL)", "latex": "ATP_{\\mathrm{spike,added}}(\\mathrm{pmol})=5000\\,\\mathrm{pmol}\\times\\frac{0.2\\,\\mathrm{mL}}{(50+SW)\\,\\mathrm{mL}}\\times\\frac{0.025\\,\\mathrm{mL}}{3.4\\,\\mathrm{mL}}", "context": "已知湿土所带水量SW时的运行时精确式"},
+    {"label": "（41.3）", "plain": "Soil ATP_assay(pmol·assay⁻¹)=Measured assay ATP(pmol·assay⁻¹)/RE", "latex": "ATP_{\\mathrm{soil,assay}}=\\frac{ATP_{\\mathrm{measured,assay}}}{RE}"}
+  ],
+  "tables": [],
+  "contentSha256": "4f90ab20465f28f448fbeae51fe08b3a4fbfca17114a62e0a16291e59eefbb13"
+}

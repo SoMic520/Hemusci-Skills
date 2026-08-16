@@ -1,0 +1,54 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 554,
+  "sourceImageSha256": "d784b47646732dd4e641c02a027766d0462f204b5fb68360d93f1fa3a4e37074",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条对照原分辨率页面和两套OCR，完成Keeling 1958续条至Phillips等2005条目"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验δ¹⁸O、N₂O、N¹⁵原书写法的规范化、作者首字母、出版社信息、卷页和1954/1955连续条目"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由Phillips等2005反向复核至Keeling续行，检查Kirkham/Bartholomew、Meier-Augenstein、Nieuwenhuize和印刷页码523"
+    }
+  },
+  "blocks": [
+    {
+      "type": "reference-entry-continuation",
+      "text": "[承第553页] Cosmochim. Acta 13: 322–334."
+    },
+    {
+      "type": "reference-list",
+      "entries": [
+        "Keeling, C.D. 1961. The concentration and isotopic abundances of carbon dioxide in rural and marine air. Geochim. Cosmochim. Acta 24: 277–298.",
+        "Kendall, C. 1998. Tracing nitrogen sources and cycling in catchments. In: C. Kendall and J.J. McDonnell, eds. Isotope Tracers in Catchment Hydrology. Elsevier, Amsterdam, the Netherlands, 519–576.",
+        "Kendall, C. and Caldwell, E.A. 1998. Fundamentals of isotope geochemistry. In: C. Kendall and J.J. McDonnell, eds. Isotope Tracers in Catchment Hydrology. Elsevier, Amsterdam, the Netherlands, 51–86.",
+        "Kirkham, D. and Bartholomew, W.V. 1954. Equations for following nutrient transformations in soil, utilizing tracer data. Soil Sci. Soc. Am. Proc. 18: 33–34.",
+        "Kirkham, D. and Bartholomew, W.V. 1955. Equations for following nutrient transformations in soil, utilizing tracer data: II. Soil Sci. Soc. Am. Proc. 19: 189–192.",
+        "Kohl, D.A., Shearer, G.B., and Commoner, B. 1971. Fertilizer nitrogen: contribution to nitrate in surface water in a Corn Belt watershed. Science 174: 1331–1334.",
+        "Lajtha, K. and Michener, R.H., eds. 1994. Stable Isotopes in Ecology and Environmental Science. Blackwell Scientific Publications, Oxford, UK, 316.",
+        "Mayer, B. and Krouse, H.R. 2004. Procedures for sulfur isotope abundance studies. In: P.A. de Groot, ed. Handbook of Stable Isotope Analytical Techniques, Vol. 1. Elsevier, Amsterdam, the Netherlands, 538–607.",
+        "Meier-Augenstein, W. 1999a. Applied gas chromatography coupled to isotope ratio mass spectrometry. J. Chromatogr. A 842: 351–371.",
+        "Meier-Augenstein, W. 1999b. Use of gas chromatography-combustion-isotope ratio mass spectrometry in nutrition and metabolic research. Curr. Opin. Clin. Nutr. Metab. Care 2: 465–470.",
+        "Mengis, M., Walther, U., Bernasconi, S.M., and Wehrli, B. 2001. Limitations of using delta ¹⁸O for the source identification of nitrate in agricultural soils. Environ. Sci. Technol. 35: 1840–1844.",
+        "Nieuwenhuize, J., Maas, Y.E.M., and Middelburg, J.J. 1994. Rapid analysis of organic carbon and nitrogen in particulate materials. Mar. Chem. 45: 217–224.",
+        "Noggle, G.R. 1951. The use of isotopes in soil research. Scientific Monthly 72: 50–56.",
+        "Norman, A.G. and Werkman, C.H. 1943. The use of the nitrogen isotope ¹⁵N in determining nitrogen recovery from plant materials decomposing in soil. Am. Soc. Agron. J. 35: 1023–1025.",
+        "O’Leary, M.H., Madhavan, S., and Paneth, P. 1992. Physical and chemical basis of carbon isotope fractionation in plants. Plant Cell Environ. 15: 1099–1104.",
+        "Pennock, D.J. 2004. Designing field experiments in soil science. Can. J. Soil Sci. 84: 1–10.",
+        "Perez, T. 2005. Factors that control the isotopic composition of N₂O from soil emissions. In: L.B. Flanagan, J.R. Ehleringer, and D.E. Pataki, eds. Stable Isotopes and Biosphere-Atmosphere Interactions: Processes and Biological Controls. Elsevier Academic Press, San Diego, CA, 69–84.",
+        "Phillips, D.L. and Gregg, J.W. 2001. Uncertainty in source partitioning using stable isotopes. Oecologia 127: 171–179.",
+        "Phillips, D.L. and Gregg, J.W. 2003. Source partitioning using stable isotopes: coping with too many sources. Oecologia 136: 261–269.",
+        "Phillips, D.L., Newsome, S.D., and Gregg, J.W. 2005. Combining sources in stable isotope mixing models: alternative methods. Oecologia 144: 520–527."
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2df439797b5b00cd05d11f0da9df4c2340f4ebba10968a1c6fe6545b1852dda0"
+}

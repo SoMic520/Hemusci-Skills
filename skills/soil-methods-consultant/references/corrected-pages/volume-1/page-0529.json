@@ -1,0 +1,72 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 529,
+  "sourceImageSha256": "d998d390b76400b13c78c18424a211104a46583a9a2d406658481d3e6ba43fde",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐行对照原分辨率页面和两套OCR，完成第53章题、作者机构及53.1至TOSS跨页段"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验¹³C/¹H上标、100～500 mg、CP/MAS、BD、12～24 h、54.7°、100/200/300 MHz、10～13 kHz、RAMP-CP、TOSS、CSA、SSBs和S/N"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由跨页末句反向复核至章题，检查同位素上标、魔角数值、频率单位、缩略词展开、作者重音及印刷页码498"
+    }
+  },
+  "blocks": [
+    {
+      "type": "chapter-heading",
+      "level": 1,
+      "number": "第53章",
+      "title": "固态¹³C核磁共振波谱法测定土壤有机质"
+    },
+    {
+      "type": "author",
+      "name": "Myrna J. Simpson",
+      "affiliation": "University of Toronto, Toronto, Ontario, Canada"
+    },
+    {
+      "type": "author",
+      "name": "Caroline Preston",
+      "affiliation": "Natural Resources Canada, Victoria, British Columbia, Canada"
+    },
+    {
+      "type": "section-heading",
+      "level": 2,
+      "number": "53.1",
+      "title": "引言"
+    },
+    {
+      "type": "paragraph",
+      "text": "固态¹³C NMR可无损表征全土有机质碳骨架的化学性质与相对数量，给出未取代和取代脂肪族C、芳香族C、酚类C、羧基C和羰基C的相对分布。通常需100～500 mg样品，取决于探针类型。"
+    },
+    {
+      "type": "paragraph",
+      "text": "最常用技术为交叉极化/魔角旋转（CP/MAS）。CP把丰核¹H的磁化转移给稀核¹³C，¹³C信号通常增强1～3倍、最多约4倍；重复时间受较短的¹H弛豫控制，因此比¹³C直接极化（如Bloch decay, BD）快，可在12～24 h内获得半定量碳化学信息。"
+    },
+    {
+      "type": "paragraph",
+      "text": "MAS使样品绕与静磁场成54.7°的轴高速旋转，以平均化化学位移各向异性（CSA）并窄化谱线；高功率¹H去耦用于消除¹³C-¹H偶极耦合造成的展宽。"
+    },
+    {
+      "type": "paragraph",
+      "text": "低场100/200 MHz仪器逐渐被300 MHz及更高场仪器替代。场强提高时需更快MAS以移除旋转边带（SSBs），但高速旋转会降低CP效率并减少转子装样量；Bloch decay效率不受该CP限制。RAMP-CP脉冲可补偿高速下的CP效率。"
+    },
+    {
+      "type": "paragraph-continuation",
+      "text": "若不能使用高转速探头（书中示例：300 MHz仪器配10～13 kHz探头），可在CP/MAS中使用旋转边带完全抑制（TOSS）；但TOSS可能扭曲峰区、降低信噪比（S/N），从而延长[续见第530页]"
+    },
+    {
+      "type": "source-fidelity-note",
+      "scope": "53.1仪器频率",
+      "text": "本页的100、200、300 MHz是NMR仪器按¹H共振频率表示的名义场强；不是¹³C本身的共振频率。运行时须保留这一说明，避免把300 MHz误当成¹³C频率。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d28e0d2d6aea1d1e36360fb6e3c70cd6334e4856534062a0d1462463d82baca3"
+}

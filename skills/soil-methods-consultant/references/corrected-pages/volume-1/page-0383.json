@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 383,
+  "sourceImageSha256": "18c2950e71785cba13e56437c36713da6f21b734812703aa766daf59b0c11b91",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率中文页面、Apple Vision、PaddleOCR及英文原版式(37.5)～37.7与37.5.3"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验求和上下限、t下标、CF下标、28.0134、8.31451、101.325 kPa、293.15 K、0.3556/1.4123 μg·g⁻¹、100 mL 2 mol·L⁻¹ KCl和1 h"},
+    "secondVisualPass": {"status": "verified", "method": "从37.5.3注释3反向复核至式(37.5)，复算两个N₂O-N示例并校正单位上下标；印刷页码352"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "equation-explanation", "equation": "37.5", "text": "CF_n为第n个样品的无量纲校正因子；V_h为培养瓶顶空体积（mL）；V_s为每次注射器取样体积（mL）；t_i为自培养开始累计的第i个采样时间（h），其中t₀=0，t₁为样品1对应的累计时间，t_n为样品n对应的累计时间。式(37.5)假定V_h、V_s和气体产生速率恒定。"},
+    {"type": "paragraph", "text": "校正因子不适用于第一个样品（n=1），因为采集样品1时原始顶空体积仍全部存在，故CF₁=1；样品1在t₁采集。"},
+    {"type": "equation-explanation", "equation": "37.7", "text": "N₂O-N_t为时间t时的N₂O-N含量（μg N₂O-N·g⁻¹）；V_N₂O,t为瓶中N₂O体积（μL，见式37.4）；P为压力（kPa）；R=8.31451 L·kPa·mol⁻¹·K⁻¹；T为绝对温度（K）；M_s为烘干土质量（g）；28.0134 g N₂O-N·mol⁻¹为1 mol N₂O所含氮的质量。"},
+    {"type": "calculation-example", "text": "培养体系参数：V_h=240.45 mL，V_s=9.0 mL，V_water=6.0 mL，P=101.325 kPa，T=293.15 K（20 °C），M_s=20.0 g。t₁=1 h（n=1，CF₁=1）时若C_t=25 μL N₂O·L⁻¹，则N₂O-N_(t=1 h)=0.3556 μg N₂O-N·g⁻¹；t₃=4 h（n=3，CF₃=1.04748）时若C_t=104 μL N₂O·L⁻¹，则N₂O-N_(t=4 h)=1.4123 μg N₂O-N·g⁻¹。"},
+    {"type": "ordered-list", "start": 8, "items": [
+      "培养结束后向土壤加入100 mL 2 mol·L⁻¹ KCl，振荡1 h，过滤浸提液，测定土壤中剩余NO₃⁻；NO₃⁻浸提与分析详见第6章。NO₃⁻受限时，产生的N₂O量也会降低。"
+    ]},
+    {"type": "section-heading", "level": 3, "number": "37.5.3", "title": "注释"},
+    {"type": "ordered-list", "items": [
+      "基础反硝化速率在不添加NO₃⁻或碳源时测定。任一底物受限，或碳和NO₃⁻向反硝化位点扩散缓慢，都可能降低速率和N₂O产生量。若要测非限制条件下的速率，可采用37.6节潜在反硝化法。",
+      "本法根据土壤原有化学和生物特性估计速率，但采样、过筛、混匀会使样品均一化并改变结构。惰性气体置换和补水至田间持水量便于比较厌氧条件下不同土壤和处理，却不能据此估计原位反硝化速率。",
+      "高硫化物样品（如含大量苜蓿残体的土壤）应改用其他技术，因为高硫化物会解除乙炔对N₂O还原为N₂的抑制。本条续见第384页。"
+    ]},
+    {"type": "printed-page-number", "text": "352"}
+  ],
+  "formulas": [
+    {"id": "37.5", "display": "CF_n = Σ_{i=1}^{n−1} {[(V_h + V_s)/V_h][(t_{i+1} − t_i)/t_n]} + t₁/t_n,  n = 2, 3, 4, …"},
+    {"id": "37.6", "display": "CF₁ = 1"},
+    {"id": "37.7", "display": "N₂O-N_t = [V_N₂O,t × P × (28.0134 g N₂O-N·mol⁻¹)]/(R × T × M_s)"},
+    {"id": "37.7-gas-constant", "display": "R = 8.31451 L·kPa·mol⁻¹·K⁻¹"}
+  ],
+  "tables": [],
+  "contentSha256": "77a2fb59f8122984f87d6767e2d7615bc0ae5ed62157e29e024323efb7c67359"
+}

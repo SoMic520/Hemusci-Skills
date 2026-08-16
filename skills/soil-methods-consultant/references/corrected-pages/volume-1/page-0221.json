@@ -1,0 +1,28 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 221,
+  "sourceImageSha256": "52116d16a09a3479440ad485b6ad2aedacfaed83d75d2499571e004edcd3e512",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第23章第190页，并与Apple Vision、PaddleOCR交叉比对，人工恢复23.2原理续句、23.2.1材料试剂、23.2.2装置、图23.1及步骤（1）未完内容"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验2 mol·L⁻¹、3 mL溴、250～260/110～115 ℃、$19/22、图中0～10 mL/0～3 cm刻度、＜100目和0.1～0.4 g"},
+    "secondVisualPass": {"status": "verified", "method": "从步骤（1）跨页末句反向复核至页首续文，确认图23.1全部标注、玻璃装置连接关系、材料编号、单位及页码190"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "method-principle-continuation", "continuedFromPreviousPage": true, "text": "的其他硫的定量测定方法不能取代氢碘酸法（如ICP或IC）。"},
+    {"type": "method-subheading", "number": "23.2.1", "title": "材料和试剂"},
+    {"type": "reagent-item", "number": "（1）", "name": "次溴酸钠消解液", "text": "在通风橱中，向100 mL 2 mol·L⁻¹的氢氧化钠溶液中缓慢加入3 mL溴并不断地搅拌。此消解液稳定性有限，应该在使用前配制或最少每天配制。"},
+    {"type": "reagent-item", "number": "（2）", "text": "甲酸（90%）。"},
+    {"type": "reagent-item", "number": "（3）", "name": "控温消解器", "text": "加热器（市售或定制）必须可以使样本容器温度保持在250～260 ℃。"},
+    {"type": "method-subheading", "number": "23.2.2", "title": "装置"},
+    {"type": "apparatus-description", "text": "进行样品消解并用氢碘酸还原法定量测定硫含量的推荐设备（Kowalenko，1985）为特制的玻璃器皿，其包括两个组分：可以在消解炉上加热的样品容器和与其配套的可以添加还原性溶液并进行氮气冲洗的密闭单元（见图23.1）。稳定、可控的氮源与进气口相连，出口处需要有管壁柔软的惰性毛细滴管以便使排出的气体以气泡形式通过氢氧化钠吸收液。氢碘酸还原法操作步骤见23.3。这个设备必须支撑起来以使其能方便地放入或从加热器中取出，使处于氢碘酸还原过程中的样品容器的温度保持在110～115 ℃。"},
+    {"type": "figure", "number": "图23.1", "title": "用于全硫或硫酸盐分析的简化消解—蒸馏装置", "labels": ["还原性酸分液器（0～10 mL刻度）", "0～3 cm比例尺", "聚四氟乙烯活塞", "氮气注入口", "$19/22", "聚乙烯试管连接器", "聚乙烯试管连接器", "改进后的泰勒管消解-蒸馏瓶"], "source": "源自Kowalenko, C.G., Commun. Soil Sci. Plant Anal., 16, 289, 1985"},
+    {"type": "method-subheading", "number": "23.2.3", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "continued": true, "text": "称取磨细（＜100目）的土壤样品直接装入干燥的样品容器中。调整称样量（建议使用烘干土）使硫含量在校正标准范围内。例如，消解0.1～0.4 g的表层矿物土或0.1 g或更少量的有机土最终得到"},
+    {"type": "printed-page-number", "text": "190"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "73f78cbce0f2e0ea7090a47c862b598eddd2dfa947770cefafdc0335b4a60a8d"
+}

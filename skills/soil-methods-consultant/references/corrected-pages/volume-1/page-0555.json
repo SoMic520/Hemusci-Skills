@@ -1,0 +1,50 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 555,
+  "sourceImageSha256": "029685674c743ed1b668c23c1197684cfef5f1b3a6afa91302036dfd0de571f0",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条对照原分辨率页面和两套OCR，完成参考文献Robinson至Toyoda和Yoshida"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "核验δ¹⁵N-NH₄⁺/δ¹⁵N-NO₃⁻、¹³C、denitrifier、N₂O、书名版次、作者拼写和卷页"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "由Toyoda条目反向复核至Robinson，检查Wilkison原书拼写、St-Jean、Schmidt连字符及印刷页码524"
+    }
+  },
+  "blocks": [
+    {
+      "type": "reference-list",
+      "entries": [
+        "Robinson, D. 2001. δ¹⁵N as an integrator of the nitrogen cycle. Trends Ecol. Evol. 16: 153–162.",
+        "Rock, L. and Ellert, B.H. 2007. Nitrogen-15 and Oxygen-18 natural abundance of potassium chloride extractable soil nitrate using the denitrifier method. Soil Sci. Soc. Am. J. 71: 355–361.",
+        "Rock, L. and Mayer, B. 2002. Isotopic assessment of sources and processes affecting sulfate and nitrate in surface water and groundwater of Luxembourg. Isotopes Environ. Health Stud. 38: 191–206.",
+        "Rock, L. and Mayer, B. 2004. Isotopic assessment of sources of surface water nitrate within the Oldman River Basin, Southern Alberta, Canada. Water Air Soil Pollut.: Focus 4: 545–562.",
+        "Ryba, S.A. and Burgess, R.M. 2002. Effects of sample preparation on the measurement of organic carbon, hydrogen, nitrogen, sulfur, and oxygen concentrations in marine sediments. Chemosphere 48: 139–147.",
+        "Sala, O.E., Jackson, R.B., Mooney, H.A., and Howarth, R.W. 2000. Methods in Ecosystem Science. Springer-Verlag, New York, NY, 421.",
+        "Santrock, J., Studley, S.A., and Hayes, J.M. 1985. Isotopic analyses based on the mass spectrum of carbon dioxide. Anal. Chem. 57: 1444–1448.",
+        "Schmidt, H.-L., Werner, R.A., Yoshida, N., and Well, R. 2004. Is the isotopic composition of nitrous oxide an indicator for its origin from nitrification or denitrification? A theoretical approach from referred data and microbiological and enzyme kinetic aspects. Rapid Commun. Mass Spectrom. 18: 2036–2040.",
+        "Scrimgeour, C.M. 1995. Measurement of plant and soil water isotope composition by direct equilibration methods. J. Hydrol. 172: 261–274.",
+        "Scrimgeour, C.M. and Robinson, D. 2004. Stable isotope analysis and applications. In: K.A. Smith and M.S. Cresser, eds. Soil and Environmental Analysis: Modern Instrumental Techniques, 3rd edn. Marcel Dekker, New York, NY, 381–431.",
+        "Sebilo, M., Mayer, B., Grably, M., Billiou, D., and Mariotti, A. 2004. The use of the ‘ammonium diffusion’ method for δ¹⁵N-NH₄⁺ and δ¹⁵N-NO₃⁻ measurements: comparison with other techniques. Environ. Chem. 1: 99–103.",
+        "Shaheen, R. and Hood-Nowotny, R.C. 2005. Effect of drought and salinity on carbon isotope discrimination in wheat cultivars. Plant Sci. 168: 901–909.",
+        "Sharp, Z. 2007. Principles of Stable Isotope Geochemistry. Pearson Prentice Hall, Upper Saddle River, NJ, 344.",
+        "Shearer, G. and Kohl, D.H. 1993. Natural abundance of ¹⁵N: fractional contribution of two sources to a common sink and use of isotope discrimination. In: T.R. Knowles and H. Blackburn, eds. Nitrogen Isotope Techniques. Academic Press, New York, NY, 89–125.",
+        "Silva, S.R., Kendall, C., Wilkison, D.H., Ziegler, A.C., Chang, C.C.Y., and Avanzino, R.J. 2000. A new method for collection of nitrate from fresh water and the analysis of nitrogen and oxygen isotope ratios. J. Hydrol. 228: 22–36.",
+        "Staddon, P.L. 2004. Carbon isotopes in functional soil ecology. Trends Ecol. Evol. 19: 148–154.",
+        "Stark, J.M. 2000. Nutrient transformations. In: O.E. Sala, R.B. Jackson, H.A. Mooney, and R.W. Howarth, eds. Methods in Ecosystem Science. Springer, New York, NY, 215–234.",
+        "St-Jean, G. 2003. Automated quantitative and isotopic (¹³C) analysis of dissolved inorganic carbon and dissolved organic carbon in continuous-flow using a total organic carbon analyzer. Rapid Commun. Mass Spectrom. 17: 419–428.",
+        "Teece, M.A. and Fogel, M.L. 2004. Preparation of ecological and biochemical samples for isotopic analysis. In: P.A. de Groot, ed. Handbook of Stable Isotope Analytical Techniques, Vol. 1. Elsevier, Amsterdam, the Netherlands, 177–202.",
+        "Toyoda, S. and Yoshida, N. 1999. Determination of nitrogen isotopomers of nitrous oxide on a modified isotope ratio mass spectrometer. Anal. Chem. 71: 4711–4718."
+      ]
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "f14993bf0e4d779e6f24c9130dce7445022e41d6afa9767e01c77f1758046dc3"
+}

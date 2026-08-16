@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 53,
+  "sourceImageSha256": "5d187499ee3929c262754b82ec4dba78e73b13def057cf7a4d870dd518fd8f3c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率正文、曲线图与公式页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部标题、步骤、图注和正文"},
+    "precisionPass": {"status": "verified", "method": "放大核对图3.2纵横轴、MDD、Mg C/ha、五组σ²与CV、α、β、40 Mg C/ha、式（3.1）的n_req下标、t²s²上标及分母整体平方"},
+    "secondVisualPass": {"status": "verified", "method": "按3.2.4至3.2.6方法层级、编号项、图示要素、图注、改编来源、公式、变量说明、续接正文和印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 4, "number": "3.2.4", "title": "分层采样"},
+    {"type": "numbered-item", "number": "1", "text": "根据地形或管理历史等因素，将研究区域划分为可能具有相似SOC储量的区域。", "inlineNotation": ["SOC"]},
+    {"type": "numbered-item", "number": "2", "text": "在各子区域内，以公式3.1或图3.2为参考或通过固定的分配，选择采样数量。例如，在后一种情况下，可以为一个大的研究区内的三个斜坡位置分别指定一个或几个采样点。", "inlineNotation": ["公式3.1", "图3.2"]},
+    {"type": "figure", "number": "3.2", "caption": "随着采样数量成倍增长（4，8，16，⋯），不同采样时间有显著差异的样品之间，平均土壤C含量的最小可检测差异（MDD）呈降低趋势。MDD可用α=0.05的显著水平，以及（1−β）=0.90的检验效能计算（即，当原假设不成立并被拒绝的概率）。假定土层平均含碳40 Mg C/ha，变异系数（CV）从5%增长到25%，方差（σ²）变化如图所示。", "sourceNote": "（改编自Garten, C.T. and Wullschleger, S.D.,J. Environ. Qual.,28, 1359,1999. 已经作者允许。）", "axes": {"x": {"label": "土壤样品数量，n", "scale": "logarithmic", "majorTicks": ["1", "10", "100", "1000"]}, "y": {"label": "最小可检测差异（MDD）（Mg C/ha）", "range": "0～30", "majorTickInterval": "5"}}, "series": [{"marker": "实心圆", "label": "σ²=4，CV=5%"}, {"marker": "空心方块", "label": "σ²=17，CV=10%"}, {"marker": "实心三角", "label": "σ²=34，CV=15%"}, {"marker": "空心菱形", "label": "σ²=67，CV=20%"}, {"marker": "实心方块", "label": "σ²=100，CV=25%"}], "inlineNotation": ["4", "8", "16", "MDD", "α=0.05", "(1−β)=0.90", "40 Mg C/ha", "CV", "5%", "25%", "σ^2", "n"]},
+    {"type": "section-heading", "level": 4, "number": "3.2.5", "title": "计算"},
+    {"type": "formula-reference", "number": "3.1", "text": "n_req=t²s²/(d×mean)²", "inlineNotation": ["n_{req}=t^2s^2/(d×mean)^2"]},
+    {"type": "paragraph", "text": "式中，n_req是所需的样品数量；t是在指定的置信水平下的t检验值（通常1−α=0.90或者0.95）；s²是采样方差；d是所需准确度或平均值的最大可接受偏差（如d=0.10）；mean是样本算术平均值。", "inlineNotation": ["n_req", "t", "1−α=0.90", "0.95", "s^2", "d", "d=0.10", "mean"]},
+    {"type": "section-heading", "level": 4, "number": "3.2.6", "title": "注释"},
+    {"type": "paragraph", "text": "综合考虑采样点特征和其他因素尤其是经济因素时，采样模式和强度将会有很大差别。通常情况下，获得满意的灵敏度所需的样品数量代价非常高，因此，采样点数量可以人为适当减少。此外，对于较小的试验田，如果进行长期试验，采样强度可能必须降低，因为在这些小的地块上，过多地移走土壤可能对试验田有所扰动，从而对后续研究造成不良影响。但是，如果过度降低采样强度，可能会检测不到处理组间合理的可靠性差异。采样点不足的研究通常对评价处理组之间的差异缺乏统计效力。研究结果发现，从这些不合理的数据中得到的错误结论所付出的代价可能远远超过因“节约”样品数量而节约的成本。"},
+    {"type": "paragraph", "text": "精确测定SOC的时间动态变化首先取决于空间尺度变化的识别或最小化。空间尺度变化的最小化可以通过配对采样位置来实现（Ellert等，2001、2002；VandenBygaart，2006）。这种方法能以相对较少的采样点有效地测定SOC在时间上的变化，但是这些样品测定的C储量的变化不一定能代表整个试验区。Conant和Paustian（2002）及Conant等（2003）已对类似的采样方案进行了评价。", "inlineNotation": ["SOC", "C"]},
+    {"type": "printed-page-number", "text": "22"}
+  ],
+  "formulas": [
+    {
+      "number": "3.1",
+      "display": "n_req = t²s²/(d×mean)²",
+      "latex": "n_{\\mathrm{req}}=\\frac{t^2s^2}{(d\\times\\mathrm{mean})^2}",
+      "variables": [
+        {"symbol": "n_req", "latex": "n_{\\mathrm{req}}", "meaning": "所需的样品数量"},
+        {"symbol": "t", "meaning": "在指定的置信水平下的t检验值", "usual": "1−α=0.90或者0.95"},
+        {"symbol": "s²", "latex": "s^2", "meaning": "采样方差"},
+        {"symbol": "d", "meaning": "所需准确度或平均值的最大可接受偏差", "example": "d=0.10"},
+        {"symbol": "mean", "meaning": "样本算术平均值"}
+      ]
+    }
+  ],
+  "tables": [],
+  "contentSha256": "4457e37ffccb871caa6b85f3e29f1d7f4964ad8b79b4511aafa32d634b455feb"
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 285,
+  "sourceImageSha256": "9176bfd779609f9bc6b5987d0b11bc7fdea2be465b2e45cef18ca404932f9a47",
+  "review": {
+    "textPass": {
+      "status": "verified",
+      "method": "逐条核对本页9条参考文献及译校署名"
+    },
+    "precisionPass": {
+      "status": "verified",
+      "method": "复核作者拼写、变音符、年份、卷页、报告号、会议题名、机构缩写及DOI"
+    },
+    "secondVisualPass": {
+      "status": "verified",
+      "method": "原页书目与权威出版记录交叉核对，校正van Genuchten卷页和IASAH缩写；印刷页码794"
+    }
+  },
+  "blocks": [
+    {
+      "type": "references",
+      "items": [
+        "Schindler, U. 1980. Ein Schnellverfahren zur Messung der Wasserleitfähigkeit im teilgesättigten Boden an Stechzylinderproben. Arch. Acker-Pflanzenbau Bodenkd. 24: 1–7.",
+        "Tamari, S., Bruckler, L., Halbertsma, J., and Chadoeuf, J. 1993. A simple method for determining soil hydraulic properties in the laboratory. Soil Sci. Soc. Am. J. 57: 642–651.",
+        "van Genuchten, M.Th. 1980. A closed-form equation for predicting the hydraulic conductivity of unsaturated soils. Soil Sci. Soc. Am. J. 44: 892–898. https://doi.org/10.2136/sssaj1980.03615995004400050002x.",
+        "van Genuchten, M.Th., Leij, F.J., and Yates, S.R. 1991. The RETC Code for Quantifying the Hydraulic Functions of Unsaturated Soils, Version 1.0. EPA Report 600/2-91/065. U.S. Salinity Laboratory, USDA-ARS, Riverside, CA.",
+        "Watson, K.K. 1966. An instantaneous profile method for determining the hydraulic conductivity of unsaturated porous materials. Water Resour. Res. 2: 709–715.",
+        "Wendroth, O., Ehlers, W., Hopmans, J.W., Kage, H., Halbertsma, J., and Wösten, J.H.M. 1993. Reevaluation of the evaporation method for determining hydraulic functions in unsaturated soils. Soil Sci. Soc. Am. J. 57: 1436–1443.",
+        "Wendroth, O. and Šimůnek, J. 1999. Soil hydraulic properties determined from evaporation and tension infiltration experiments and their use for modeling field moisture status. In: van Genuchten, M.Th. and Leij, F.J. (eds.), Proceedings of the International Workshop on ‘Characterization and Measurement of the Hydraulic Properties of Unsaturated Porous Media,’ Riverside, CA, pp. 737–748.",
+        "Willis, W.O. 1960. Evaporation from layered soils in the presence of a water table. Soil Sci. Soc. Am. Proc. 24: 239–242.",
+        "Wind, G.P. 1968. Capillary conductivity data estimated by a simple method. In: Rijtema, P.E. and Wassink, H. (eds.), Water in the Unsaturated Zone: Proceedings of the Wageningen Symposium, June 1966, Vol. 1, UNESCO-IASH, Gentbrugge, Belgium, pp. 181–191."
+      ]
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "原书把van Genuchten（1980）误列为Soil Sci. Soc. Am. J. 36: 380–383；权威出版记录为44: 892–898，已按DOI校正。Wind条目的机构缩写原印“UNESCO-IASAH”，规范名称为UNESCO-IASH，已校正；条目按本章所列出版年1968保留，同时明确会议于1966年6月举行。"
+    },
+    {
+      "type": "translation-credit",
+      "text": "魏翠兰译，李保国校。"
+    }
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "2f99a2aaeab3059c6b669ad3b936a4152f2bfd0e5c4b339b63133fe7942f5ab8"
+}

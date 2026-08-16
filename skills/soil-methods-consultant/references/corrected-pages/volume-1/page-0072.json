@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 72,
+  "sourceImageSha256": "a8ea122dc90a6c8e69098456fc731f286bb84461e3a46ff5f83692b99473369a",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率检测限与不确定性正文页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部定义、数字和小节"},
+    "precisionPass": {"status": "verified", "method": "放大核对40 CFR 136、MDL=t×σ、n=7/8、n=8时t=3、3σ、1%/50%/100%、RDL=6σ、LOQ=10σ/3.33MDL、±30%及Y±U"},
+    "secondVisualPass": {"status": "verified", "method": "按5.2.6正文、MDL测定逻辑、置信限、定量限、报告建议、5.2.7续接和印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第5章｜土壤化学分析中的质量控制｜"},
+    {"type": "section-heading", "level": 4, "number": "5.2.6", "title": "检测限"},
+    {"type": "paragraph", "text": "检测限是确认化合物存在的估计浓度。美国环保局（USEPA）在40 CFR 136中（USEPA，1984）定义分析方法的检测限（MDL）为“一种分析对象可以被检测到的最低浓度，而且该浓度大于0的置信度为99%”。方法检测限是统计意义上的确定值，它定义了用特定方法测量分析对象与空白（零值）的区别。", "inlineNotation": ["USEPA", "40 CFR 136", "MDL", ">0", "99%"]},
+    {"type": "paragraph", "text": "在方法验证（和定期复评）中，MDL是广泛应用于衡量实验室方法精密度的基准。作为基准，它要对同一实验室内部及不同实验室之间的众多方法的灵敏度和精密度进行比较，这种比较需要在最佳条件下（假定所有的实验室对MDL的测定方法和过程等都很一致）进行。但是，MDL不能反映方法日常性能的变化。", "inlineNotation": ["MDL"]},
+    {"type": "paragraph", "text": "检测限通常由重复分析低浓度水平的加标样本或空白来确定。检测限是带有实验室特异性的，因为它是由特定实验室的试剂、设备和分析人员确定的。每个样本都有自己的检测限，这是由样本的基质决定的。样本基质干扰越多，该样本的检测限就越高。"},
+    {"type": "paragraph", "text": "一种测定某种分析对象的MDL的方法是，对该分析对象在低浓度下进行7或8次的重复分析（n=7或8）。MDL定义为t×σ，σ是标准偏差，而t表示99%置信水平时的t检验因子（n=8时，t=3）。由此，我们可以推断，在浓度为3σ时，检测到假阳性结果的可能性只有1%（假设为正态分布）。然而，在同样浓度下，如果检测到的数据未达到MDL水平，并且被作为无法检测的情况来处理时，该结果为假阴性的可能性有50%（参见5.3.2节）。", "inlineNotation": ["MDL", "7", "8", "n=7", "n=8", "MDL=t×σ", "σ", "99%", "t=3", "3σ", "1%", "50%", "5.3.2节"]},
+    {"type": "paragraph", "text": "数据审查（未报告的低于指定限值的浓度）、未检出值、变异性和偏差（小于100%的回收率）使对痕量成分（如金属元素、有机物和农药）的数据解释更加复杂。", "inlineNotation": ["<100%"]},
+    {"type": "paragraph", "text": "除MDL外的其他基准，将在以下部分进行讨论。", "inlineNotation": ["MDL"]},
+    {"type": "section-heading", "level": 5, "number": "1", "title": "置信限"},
+    {"type": "paragraph", "text": "置信限（RDL）是样本中能被可靠检测到的最低真实浓度（Keith，1991）。最常见的定义是与MDL基于相同的统计学原则，常定义成6σ（2倍的MDL），这里假设σ不变。如果真实浓度的测量值在MDL上进行了审查，理论上预期的假阴性概率就可以降到1%。而且，RDL在不同基质和不同样品之间都会有所差异。关于这方面不同的观点可以查阅AOAC（1985），那里有对可靠检测限的介绍。", "inlineNotation": ["RDL", "MDL", "6σ", "2倍MDL", "σ", "1%", "AOAC"]},
+    {"type": "section-heading", "level": 5, "number": "2", "title": "定量限"},
+    {"type": "paragraph", "text": "定量限（LOQ）的概念是指该测量处于或高于一个高标准的量化水平，而非仅是一个能检测到的标准。有一系列不同的σ倍数，倍数越高，检测值等于或高于真实浓度的可信度就越大。一般地，人们将LOQ定义为10倍的σ或者3.33倍的MDL。当LOQ为10倍σ时，真实值的浓度范围在检测值的浓度±30%范围内。LOQ与实际定量限（PQL）具有相同意义。", "inlineNotation": ["LOQ", "σ", "10σ", "3.33 MDL", "±30%", "PQL"]},
+    {"type": "paragraph", "text": "在使用这些方法检测限时需要谨慎，因为很多检测限是根据多年前分析化学家的估算值建立的，可能很少或几乎没有经过统计学分析。报道一个MDL和LOQ的同时附加低浓度水平的数据，这样就能提醒数据使用者注意这些数据的不确定性和局限性。最好的方法是对于浓度Y（即没有数据审查），以Y±U的形式进行报道，其中U是指在该浓度时计算出的不确定度。", "inlineNotation": ["MDL", "LOQ", "Y", "Y±U", "U"]},
+    {"type": "section-heading", "level": 4, "number": "5.2.7", "title": "报告结果及不确定性估计"},
+    {"type": "paragraph", "continuation": true, "text": "来自实验室分析的记录值是对取样时样品中真实浓度的估计。因此，这种测量具有与之相关的变异性，称为测量不确定性。土壤样本中分析对象浓度上的不确定性可以归纳为三种类型的误差（Taylor，1988；Swyngedouw等，2004）："},
+    {"type": "printed-page-number", "text": "41"}
+  ],
+  "formulas": [
+    {"context": "方法检测限", "display": "MDL=t×σ", "latex": "MDL=t\\times\\sigma", "variables": [{"symbol": "σ", "meaning": "标准偏差"}, {"symbol": "t", "meaning": "99%置信水平时的t检验因子", "example": "n=8时，t=3"}]},
+    {"context": "置信限", "displayAsPrinted": "RDL=6σ=2×MDL", "condition": "假设σ不变"},
+    {"context": "定量限", "displayAsPrinted": "LOQ=10σ=3.33×MDL", "reportedRange": "检测值的浓度±30%"},
+    {"context": "浓度与不确定度报告", "displayAsPrinted": "Y±U", "variables": [{"symbol": "Y", "meaning": "浓度（没有数据审查）"}, {"symbol": "U", "meaning": "在该浓度时计算出的不确定度"}]}
+  ],
+  "tables": [],
+  "contentSha256": "50aaaa92e462c99211c12adb89a57fbe495e4d6cd8b912418a3fa2dee184cf54"
+}

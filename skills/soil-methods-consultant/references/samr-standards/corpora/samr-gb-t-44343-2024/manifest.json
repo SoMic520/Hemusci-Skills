@@ -1,0 +1,15 @@
+{
+  "schema": "soil-methods-consultant.samr-manifest.v1",
+  "bookId": "samr-gb-t-44343-2024",
+  "label": "GB/T 44343-2024《土壤质量 土壤中22种元素的测定 酸溶-电感耦合等离子体质谱法》",
+  "standardNo": "GB/T 44343-2024",
+  "title": "土壤质量 土壤中22种元素的测定 酸溶-电感耦合等离子体质谱法",
+  "published": "2024-08-23",
+  "implemented": "2024-12-01",
+  "domain": "soil",
+  "sourceType": "official-pdf",
+  "sourceFingerprint": "3558c4d15172e6c312072e14599516b62b8ad286f305297d0cf3534f7f29656a",
+  "includedPageCount": 15,
+  "runtimeReady": true,
+  "officialDetailUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=F857BA0C16E4B21B8B8EE18EEC1CF73B"
+}

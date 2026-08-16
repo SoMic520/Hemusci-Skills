@@ -1,0 +1,47 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 315,
+  "sourceImageSha256": "238f4e105f0bafd562d04eb0362d5fe77d0f7a53719d1b23f32d94be7e39026c",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率页面，并与Apple Vision、PaddleOCR交叉比对，人工恢复31.3.1材料（2）～（6）、31.3.2全部步骤及31.3.3开头"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验化学式上下标、毫克配方、pH 6.8±0.1/7.0±0.1、16000 lux、10⁴/10⁻¹/10⁻²上标、12600 r/min、稀释倍数和正负号"},
+    "secondVisualPass": {"status": "verified", "method": "从31.3.3步骤（1）反向复核至种子灭菌材料，确认NaClO字母l、H₂MoO₄·H₂O、FeC₆H₅O₇·H₂O、Kimpak及全部体积；页码284"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "material-item", "method": "31.3.1", "number": "（2）", "text": "选择适当豆科植物的完好种子：对其表面进行灭菌处理，将其浸入95%乙醇中30 s，随后：①浸入3%～5%的过氧化氢（H₂O₂）中10 min，或②浸入5%的次氯酸钠（NaClO）溶液中10 min，或③浸入浓缩的H₂SO₄中10 min。之后用灭菌的蒸馏水对种子进行冲洗至少5次。"},
+    {"type": "critical-safety-note", "scope": "31.3.1（2）浓硫酸种子处理", "text": "浓H₂SO₄处理具有严重腐蚀、放热和飞溅风险，且适用时间依种类和种皮而异。不得把“10 min”作为所有豆科种子的通用条件；必须核对目标植物规程并执行机构批准的强酸操作、淬灭/清洗和废液SOP。"},
+    {"type": "reagent-item", "method": "31.3.1", "number": "（3）", "name": "不含氮的植物营养液", "text": "CoCl₂·6H₂O，0.004 mg；H₃BO₃，2.86 mg；MnCl₂·4H₂O，1.81 mg；ZnSO₄·7H₂O，0.22 mg；CuSO₄·5H₂O，0.08 mg；H₂MoO₄·H₂O，0.09 mg；MgSO₄·7H₂O，492.96 mg；K₂HPO₄，174.18 mg；KH₂PO₄，136.09 mg；CaCl₂，110.99 mg；FeC₆H₅O₇·H₂O，5.00 mg；蒸馏水，1 L。用1.0 mol/L的HCl或NaOH将pH值调节到6.8±0.1。在100 kPa下高压灭菌20 min。"},
+    {"type": "reagent-item", "method": "31.3.1", "number": "（4）", "name": "灭菌的缓冲稀释液", "text": "蛋白胨，1.0 g；KH₂PO₄，0.34 g；K₂HPO₄，1.21 g；蒸馏水，1 L。pH值＝7.0±0.1。"},
+    {"type": "material-item", "method": "31.3.1", "number": "（5）", "text": "匀质器（一种桨式搅拌器）和匀质袋，或是专用Waring搅拌器。基础款的就可以满足常规细胞分散。这些仪器可以通过很多渠道购买。"},
+    {"type": "material-item", "method": "31.3.1", "number": "（6）", "text": "生长箱或生长室可以提供16000 lux、16 h的光照，期间的温度为22 ℃，黑暗期间的温度为18 ℃，相对湿度为65%～70%。"},
+    {"type": "section-heading", "level": 3, "number": "31.3.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "在每个萌发袋中加入30 mL无菌的植物培养液，将萌发袋放到架子上。"},
+    {"type": "procedure-step", "number": "（2）", "text": "直接在每个萌发袋底部放入20个小的（如苜蓿、三叶草等）或者15个中等的（如红豆草等）表面无菌的种子，在20 ℃的黑暗条件下培养（大概2天），直到胚根长度达到0.5～1.0 cm。当种子比较大时（如豌豆、大豆等），预先将表面无菌的种子在三层的Kimpak萌发纸上或是无菌的潮湿蛭石上，20 ℃条件下进行预萌发（大概2天），直到胚根长度达到0.5～1.0 cm；随后，将5株幼苗小心地放入萌发袋底部，将每个胚根穿过小孔。至此，生长单元已经准备完毕，可以进行培养。为了方便起见，在接种前，它们可以在冰箱中（4 ℃）保存1周的时间。"},
+    {"type": "procedure-step", "number": "（3）", "text": "将土壤样品稀释10倍（w/v），方法如下：10 g土壤加入90 mL无菌缓冲稀释液，在Waring搅拌器中，12600 r/min转速下分散2 min，或在匀质袋中分散1 min。将10 mL土壤悬液转移到含有90 mL稀释液的瓶子中，振荡5 min。豆科植物生长的土壤每克干土中大约含有10⁴个根瘤菌，因此，在进行5倍的稀释之前需要对其进行10倍稀释，让其达到10⁻¹或者10⁻²的水平。"},
+    {"type": "procedure-step", "number": "（4）", "text": "将1.0 mL的10倍稀释液与4.0 mL的无菌磷酸盐蛋白胨缓冲液混匀得到5倍稀释液。连续进行6～7次的5倍稀释，从每个稀释水平取4 mL对4个萌发袋进行接种（每个萌发袋1 mL），最后一次稀释后，对5个萌发袋进行接种。实际操作中，5倍的稀释过程与接种可以通过以下的快捷方法同时进行：取第一次5倍稀释液4 mL（总共5 mL）对4个萌发袋进行接种，每个接种1 mL到幼苗的根部。向剩余的1 mL 5倍稀释液中加入4 mL稀释液，在试管中混匀，取4 mL稀释完后的液体按照上面的方法对其余萌发袋进行接种。重复以上步骤直到最后一次5倍稀释，将全部5 mL的液体对5个萌发袋进行接种。在每4个或5个接种的萌发袋间放一个未接种的萌发袋当做对照。"},
+    {"type": "procedure-step", "number": "（5）", "text": "将放有萌发袋的架子放入生长室内，用无菌的蒸馏水对其进行浇灌。3周后检查是否有根瘤形成；生长缓慢的豆科植物（如大豆）在4周后才能观察到根瘤的形成。对照处理必须没有根瘤的形成，这才能说明这个试验是有意义的。用“＋”表示一个生长单元（萌发袋）有根瘤形成，用“−”表示生长单元没有根瘤。"},
+    {"type": "section-heading", "level": 3, "number": "31.3.3", "title": "根瘤菌MPN的计算"},
+    {"type": "procedure-step", "method": "31.3.3", "number": "（1）", "text": "从最低到最高稀释水平，记录每个稀释水平下有根瘤生长的生长单元（萌发袋）数量。会得到"},
+    {"type": "printed-page-number", "text": "284"}
+  ],
+  "formulas": [],
+  "tables": [
+    {
+      "number": "31.3.1-N-free",
+      "title": "不含氮的植物营养液（1 L）",
+      "columns": ["组分", "用量"],
+      "rows": [["CoCl₂·6H₂O", "0.004 mg"], ["H₃BO₃", "2.86 mg"], ["MnCl₂·4H₂O", "1.81 mg"], ["ZnSO₄·7H₂O", "0.22 mg"], ["CuSO₄·5H₂O", "0.08 mg"], ["H₂MoO₄·H₂O", "0.09 mg"], ["MgSO₄·7H₂O", "492.96 mg"], ["K₂HPO₄", "174.18 mg"], ["KH₂PO₄", "136.09 mg"], ["CaCl₂", "110.99 mg"], ["FeC₆H₅O₇·H₂O", "5.00 mg"], ["蒸馏水", "定容至1 L"]],
+      "conditions": "用1.0 mol/L HCl或NaOH调至pH 6.8±0.1；100 kPa下高压灭菌20 min。"
+    },
+    {
+      "number": "31.3.1-buffer",
+      "title": "灭菌的缓冲稀释液（1 L）",
+      "columns": ["组分", "用量"],
+      "rows": [["蛋白胨", "1.0 g"], ["KH₂PO₄", "0.34 g"], ["K₂HPO₄", "1.21 g"], ["蒸馏水", "定容至1 L"]],
+      "conditions": "pH 7.0±0.1。"
+    }
+  ],
+  "contentSha256": "3379858a3a12153f2d138fe441942d9cf6ed89c4ad404b367a98f384c7d1d53b"
+}

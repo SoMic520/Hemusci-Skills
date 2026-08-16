@@ -1,0 +1,41 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 230,
+  "sourceImageSha256": "c42a7e9ade210f0d4292ebe5f0bde1576ef287ce62283122e9729801123411c9",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率第24章第199页，并与Apple Vision、PaddleOCR交叉比对，人工恢复24.2.1完整方法及24.2.2原理和材料（1）～（2）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验HClO₄、HNO₃、Na₂CO₃、NaOBr-NaOH、0.5 mol/L H₂SO₄、2.0 g、20/30/250 mL、130/200/260～280 ℃及全部回收率"},
+    "secondVisualPass": {"status": "verified", "method": "从24.2.2材料（2）反向复核至24.2.1标题，确认高氯酸安全要求、材料/步骤/注释三级层级、六步顺序、单位及页码199"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第24章｜总磷和有机磷｜"},
+    {"type": "method-heading", "number": "24.2.1", "title": "高氯酸（HClO₄）消解法（Olsen和Sommers，1982）"},
+    {"type": "safety-warning", "text": "作为安全预防措施，样品在用HClO₄消解前，首先要用浓硝酸预消解。必须使用HClO₄专用通风橱，并小心操作以避免爆炸。"},
+    {"type": "method-principle", "text": "虽然必须用HClO₄专用通风橱，但是这个方法适合于大批土壤样品全磷的测定。可以用250 mL锥形瓶在电热板或者在配有75 mL、100 mL或250 mL消解管的铝块消煮炉上消解（见24.2.1注释）。尽管土壤样品用氢氟酸预处理能增加磷的回收率（Kara等，1997），但是HClO₄消解法与Na₂CO₃熔融法的回收率通常均为92%～96%（Sommers和Nelson，1972；Dick和Tabatabai，1977；Bowman，1988）。"},
+    {"type": "procedure-group", "number": "1.", "title": "材料和试剂"},
+    {"type": "reagent-item", "number": "（1）", "text": "高氯酸专用通风橱。"},
+    {"type": "reagent-item", "number": "（2）", "text": "电热板（含250 mL锥形瓶）或者铝块消煮炉（含250 mL消煮管）。"},
+    {"type": "reagent-item", "number": "（3）", "text": "浓硝酸。"},
+    {"type": "reagent-item", "number": "（4）", "text": "60%的高氯酸。"},
+    {"type": "reagent-item", "number": "（5）", "text": "显色液（见24.5.1）。"},
+    {"type": "procedure-group", "number": "2.", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "准确称量约2.0 g磨细的土壤样品于250 mL锥形烧瓶中。"},
+    {"type": "procedure-step", "number": "（2）", "text": "向锥形烧瓶中加入20 mL浓硝酸并充分混匀，在约130 ℃下加热氧化样品中的有机质。当锥形烧瓶中因为有机质的存在而呈现出的黑色消失时，表明有机质的氧化已经完成。"},
+    {"type": "procedure-step", "number": "（3）", "text": "待土壤样品-硝酸混合液稍微冷却后，在高氯酸专用通风橱中向混合液中加入30 mL HClO₄溶液，并将样品在其沸点（约200 ℃）下消解20 min，其间会出现浓白烟，而且在锥形烧瓶或消煮管底部会出现类似白色沙子的不溶性固体物质。如果有必要，就用少量（少于2 mL）HClO₄溶液冲洗黏附在锥形瓶或消煮管壁上的黑色颗粒物，再加热10～15 min。"},
+    {"type": "procedure-step", "number": "（4）", "text": "混合液冷却后，用蒸馏水或去离子水将其转移至250 mL容量瓶中并定容，充分混匀。"},
+    {"type": "procedure-step", "number": "（5）", "text": "在取液分析之前使沉淀物沉降。"},
+    {"type": "procedure-step", "number": "（6）", "text": "按照24.5所给出的方法测定适量的清澈上清液中磷的浓度。"},
+    {"type": "procedure-group", "number": "3.", "title": "注释"},
+    {"type": "note-item", "text": "当用配有75 mL或100 mL消煮管的40孔铝块消煮装置时，可以将样品量、HNO₃用量和HClO₄用量依上述用量减半后按上述步骤操作，并在第4步中，将消解液最终稀释到75 mL或100 mL。"},
+    {"type": "method-heading", "number": "24.2.2", "title": "次溴酸钠/氢氧化钠碱式氧化法（Dick和Tabatabai，1977）"},
+    {"type": "method-principle", "text": "这个方法是在沙浴或由Cihacek和Lizotte（1990）改进的铝块消解装置中将土壤样品和NaOBr-NaOH混合液消解至近干。在NaOBr-NaOH消解完成后，加入甲酸以便破坏样品氧化后剩余的NaOBr，接着用0.5 mol/L H₂SO₄溶液来浸提土壤全磷。与HClO₄消解法相比，虽然这个方法需要更多的操作步骤，但是其适用于大量样品同时消解。Dick和Tabatabai（1977）用美国和巴西的大量土壤样品实验后发现这个方法测得的全磷含量是Na₂CO₃熔融法的96%，且与HClO₄消解法测值可比（约高1%）。Cihacek和Lizotte（1990）用美国大平原地区的土壤测定发现，这个方法测得的磷含量显著高于HClO₄消解法（约为3%）。Kara等（1997）用苏格兰和土耳其土壤实验发现这个方法测定的磷的回收率为Na₂CO₃熔融法的95%～100%，为HClO₄消解法的99%～102%。"},
+    {"type": "procedure-group", "number": "1.", "title": "材料和试剂"},
+    {"type": "reagent-item", "number": "（1）", "text": "沙子的温度可以调节至260～280 ℃的沙浴或者铝块消解器（见24.2.2注释3）。"},
+    {"type": "reagent-item", "number": "（2）", "text": "通风橱。"},
+    {"type": "printed-page-number", "text": "199"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "d0b9126d23f79f467c5fba648c49faf1be4f1fa1735a4853a1413b8e56b7757c"
+}

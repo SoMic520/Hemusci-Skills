@@ -1,0 +1,51 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 248,
+  "sourceImageSha256": "0e10ee3e9d35dcda87cae336194e382f96d0ef603ab1157dc334bd20e6a4b61a",
+  "review": {
+    "textPass": {"status": "verified", "method": "对公式区放大复核并对照英文原章，完成表77.2续表、77.2.2.3及式(77.5)—(77.6)"},
+    "precisionPass": {"status": "verified", "method": "核验q₁—q₃、两法K_fs/α*、φ_m/ψ_f/S/PD/NP及式(77.5)—(77.6)的Δθ、C、R、H₀/H_t/H_a"},
+    "secondVisualPass": {"status": "verified", "method": "由C=1−Δθ/R检查负号，并确认77.6应使用H_a而非页图误印H_t；印刷页码757"}
+  },
+  "blocks": [
+    {"type": "heading", "number": "77.2.2.3", "title": "降水头", "level": 4},
+    {
+      "type": "calculation-guidance",
+      "text": "式(77.5)为Green–Ampt降水头关系。Δθ=θ_fs−θ_i；R=A_s/A_c=πr_s²/(πr_c²)；C=1−Δθ/R。H_t以内隐、非线性形式出现，宜用一系列(H_t,t)点拟合K_fs和α*；Δθ、R、H₀须独立测定，直接在环内蓄水时R=1。只求K_fs可按质地—结构估α*并用式(77.6)由H_a、t_a、Δθ直接求解；H_a=0时只需t_a和Δθ。"
+    },
+    {
+      "type": "source-fidelity-note",
+      "text": "中文式(77.6)仍沿用H_t下标，但公式说明和英文原章定义的是t_a时刻水位H_a；规范式全部改为H_a。表77.2的NP指数按英文原表恢复为1.37×10⁶ pores·m⁻²。"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "77.5",
+      "plain": "t = Δθ/(C K_fs){R(H₀−H_t)/Δθ − (H₀+1/α*)/C ln[1 + C R(H₀−H_t)/(Δθ(H₀+1/α*))]}, C≠0",
+      "latex": "t=\\frac{\\Delta\\theta}{CK_{fs}}\\left\\{\\frac{R(H_0-H_t)}{\\Delta\\theta}-\\frac{H_0+1/\\alpha^*}{C}\\ln\\left[1+\\frac{CR(H_0-H_t)}{\\Delta\\theta(H_0+1/\\alpha^*)}\\right]\\right\\},\\quad C\\ne0",
+      "resultUnit": "T"
+    },
+    {
+      "label": "77.6",
+      "plain": "K_fs = Δθ/(C t_a){R(H₀−H_a)/Δθ − (H₀+1/α*)/C ln[1 + C R(H₀−H_a)/(Δθ(H₀+1/α*))]}, C≠0",
+      "latex": "K_{fs}=\\frac{\\Delta\\theta}{Ct_a}\\left\\{\\frac{R(H_0-H_a)}{\\Delta\\theta}-\\frac{H_0+1/\\alpha^*}{C}\\ln\\left[1+\\frac{CR(H_0-H_a)}{\\Delta\\theta(H_0+1/\\alpha^*)}\\right]\\right\\},\\quad C\\ne0",
+      "resultUnit": "L·T⁻¹"
+    }
+  ],
+  "tables": [
+    {
+      "number": "77.2",
+      "title": "多固定水头单环案例（续表）",
+      "columns": ["项目", "两水头/回归结果"],
+      "rows": [
+        ["准稳态入渗率", "q₁=6.53×10⁻⁴，q₂=7.74×10⁻⁴，q₃=10.16×10⁻⁴ cm·s⁻¹"],
+        ["两水头H₁,H₃", "K_fs=3.3×10⁻⁴ cm·s⁻¹；α*=0.12 cm⁻¹"],
+        ["q₁—q₃回归", "slope=2.42×10⁻⁵ s⁻¹；intercept=5.32×10⁻⁴ cm·s⁻¹；K_fs=3.3×10⁻⁴ cm·s⁻¹；α*=0.12 cm⁻¹"],
+        ["派生参数", "φ_m=2.75×10⁻³ cm²·s⁻¹；ψ_f=−8.3 cm；S=3.54×10⁻² cm·s⁻¹ᐟ²；PD=0.0178 cm；NP=1.37×10⁶ pores·m⁻²"]
+      ],
+      "notes": ["S取γ=1.818。PD/NP取σ=72.75 g·s⁻²，ρ=0.9982 g·cm⁻³（20 ℃），g=980.621 cm·s⁻²，μ=1.002 g·cm⁻¹·s⁻¹（20 ℃）。"]
+    }
+  ],
+  "contentSha256": "538bda1766297b6c08a3a4355b4bf8e9aeae761891a8ff0185f954ba917523e1"
+}

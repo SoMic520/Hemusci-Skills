@@ -1,0 +1,34 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 54,
+  "sourceImageSha256": "97ff00e643a81b9ddd1e34f9163edaa84ccff1f5543125876e9295933c285bdd",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率方法正文页，并与Apple Vision、PaddleOCR两份机器稿交叉比对，人工恢复全部材料名称、操作文字和页末续接"},
+    "precisionPass": {"status": "verified", "method": "放大核对1～4 mm、全部cm尺寸、3000 g、0.01 g、105°C、2 mm、GPS、60 cm、Ap层、五个分段深度及20 cm间距"},
+    "secondVisualPass": {"status": "verified", "method": "按3.3/3.3.1/3.3.2层级、材料1～9项、步骤1～3项、品牌与文献、尺寸单位、采样顺序、冷藏风干流程和印刷页码反向复核原页"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "第3章｜土壤有机碳储量的测定｜"},
+    {"type": "section-heading", "level": 3, "number": "3.3", "title": "土芯的采集与处理"},
+    {"type": "paragraph", "text": "以下步骤用于农田或景观地块的土芯采集，为随后的有机碳分析做准备。这是一项指南，具体的研究可能需要根据具体目标和当地条件加以修改。"},
+    {"type": "section-heading", "level": 4, "number": "3.3.1", "title": "材料"},
+    {"type": "numbered-item", "number": "1", "text": "车载液压土芯取样装置。"},
+    {"type": "numbered-item", "number": "2", "text": "土钻套管的插槽宽1 cm、长30 cm，钻头内径约7 cm。钻头的直径通常比套管的小（1～4 mm）；这种直径差应该足够小以避免土壤混合，但也须大到使两者不至于黏附的程度。在干燥、质地粗糙、固结较弱的土壤中，应减小这种直径差，以便在拔管时有足够的摩擦力来保持土芯。为了计算土芯密度，应该精确测量并记录采样器钻头的直径。", "inlineNotation": ["1 cm", "30 cm", "7 cm", "1～4 mm"]},
+    {"type": "numbered-item", "number": "3", "text": "用柱塞将土样从土钻中推出。可以将橡胶塞固定在木棒的末端制成一个简易的柱塞。"},
+    {"type": "numbered-item", "number": "4", "text": "小刀、钢尺、剪刀和钢丝刷。"},
+    {"type": "numbered-item", "number": "5", "text": "铝箔托盘即铝盒（约24 cm×30 cm×6 cm，保温餐盘）、用于野外运输托盘的冷藏箱及用来包装田间鲜土托盘的聚乙烯袋（约30 cm×50 cm）。", "inlineNotation": ["24 cm×30 cm×6 cm", "30 cm×50 cm"]},
+    {"type": "numbered-item", "number": "6", "text": "分析天平（量程为3000 g、精度为0.01 g），测含水分的铝盒（直径8 cm、高6 cm），干燥箱（105°C）。", "inlineNotation": ["3000 g", "0.01 g", "8 cm", "6 cm", "105°C"]},
+    {"type": "numbered-item", "number": "7", "text": "有塑料里衬和铁丝扎带的棕色纸袋（如Zenith特种袋，底部11 cm×6 cm，高23 cm）。", "inlineNotation": ["11 cm×6 cm", "23 cm"]},
+    {"type": "numbered-item", "number": "8", "text": "“Rukuhia”牌孔眼2 mm的辊式研磨机（Waters和Sweetman，1955）；或者粗质土研磨机和2 mm的土筛。", "inlineNotation": ["2 mm"]},
+    {"type": "numbered-item", "number": "9", "text": "测量采样位置的设备。与用来测量长期定位试验中永久性的标识相比，测量人员手中的卷尺是一种简单的工具，或者用GPS接收器测量。为了连续多年精确配对采样（空间上），可以运用两阶段的测定方法：第一阶段，依照永久性的参照点确定大概的采样位置，或者直接用GPS记录；第二阶段，将一个最初开发用以鉴别地下管线的电磁标记埋在最初的采样位置进行标记（Whitlam，1998）。此外，在许多区域研究中经常使用高精度的GPS。", "inlineNotation": ["GPS"]},
+    {"type": "section-heading", "level": 4, "number": "3.3.2", "title": "步骤"},
+    {"type": "numbered-item", "number": "1", "text": "采样前，将纸袋标上名字、采样日期、位置和土壤深度。最终这些袋子将用于风干土的存储，在整个采样过程中也可作为标签使用。将铝盒称重，每个样品放在一个铝盒中，并记录铝盒的重量。"},
+    {"type": "numbered-item", "number": "2", "text": "在大田中，在每个采样点采样时，先轻轻地去除表层残余物，采集至少60 cm深度的土芯。将土芯从垂直位置移动到水平位置（例如，在一个纵向切开的10～15 cm管径制成的分隔槽中），并测量任何可见不连续点的深度（如Ap层的深度）。舍弃那些不具代表性的样品（如在采样过程中过分压实的样品、无规则的啮齿类动物活动的区域、沿着土钻的方向有石头凿出的区域）。将土芯样品从土钻的上端逐渐向下推出，然后分段垂直切开是最有效的取土方式。将土样切割成段（如0～10 cm、10～20 cm、20～30 cm、30～45 cm、45～60 cm），并且将分段的样品放入铝盒中，同时避免土壤的损失。第二个土芯与第一个土芯的采集位置间距大约20 cm，并按序号与第一个土芯段的样品依次混合。将铝盒和贴有标签的纸袋一起放入聚乙烯袋中并折叠，冷藏。", "inlineNotation": ["60 cm", "10～15 cm", "Ap", "0～10 cm", "10～20 cm", "20～30 cm", "30～45 cm", "45～60 cm", "20 cm"]},
+    {"type": "numbered-item", "number": "3", "continuation": true, "text": "在实验室，将铝盒从聚乙烯袋中拿出，并在室温下风干。除沙土之外，如果是湿土样，在风干之前可用手掰成小块，这样研磨土壤时更省力。在风干时一定要特别注意，以免在处理过程中造成土样"},
+    {"type": "printed-page-number", "text": "23"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "a0629348fb542aeae202865447c0c90a54f744af678152673be1022af1c1d6dc"
+}

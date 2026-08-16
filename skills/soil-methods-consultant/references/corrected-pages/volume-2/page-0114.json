@@ -1,0 +1,37 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-2",
+  "page": 114,
+  "sourceImageSha256": "bcdc5d58bc94bc91d3215a7c3ba555a61b34c0edd53f69d14b15341f9521bcb6",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐段逐式对照原分辨率图和两套OCR，完成第65章题名/作者、65.1、65.2及式（65.1）全部变量"},
+    "precisionPass": {"status": "verified", "method": "核验CO₂/CH₄/N₂O、F_g、dG/dt、V/A、M_m,g/V_m、(1−e_p/P)、g·m⁻²·s⁻¹及全部量纲和t=0条件"},
+    "secondVisualPass": {"status": "verified", "method": "由跨页末句反向复核至章题，独立作式（65.1）量纲验算并检查下标、负指数、干气/水汽修正和方法层级；印刷页码623"}
+  },
+  "blocks": [
+    {"type": "chapter", "number": "65", "title": "地表气体排放", "authors": ["Philippe Rochette", "Normand Bertrand"], "affiliation": "Agriculture and Agri-Food Canada, Quebec, Quebec, Canada"},
+    {"type": "heading", "number": "65.1", "title": "引言", "level": 2},
+    {"type": "paragraph", "text": "地表气体排放测定用于评价农田管理对大气环境（氨、温室气体和农药）的影响，也用于开发和验证排放预测模型。相较由土壤底物浓度变化间接推断，直接监测气体排放更接近土壤生物或化学反应的瞬时净排放速率。"},
+    {"type": "paragraph", "text": "常见技术基于气室、气体扩散或微气象理论。由土壤内浓度梯度和扩散率按Fick第一定律估算时，扩散率误差、垂直梯度难测，以及产生/消耗随深度不均会降低可靠性。微气象法描述大而平坦、来源较均一表面的湍流物质和能量传输，可非扰动地在较大时空尺度综合估计农田生态系统气体交换；详见Rolston（1986）和Pattey等（2006）。"},
+    {"type": "paragraph", "text": "气室法使用广、已有80余年应用史，建造和使用成本相对较低，适应多种田间条件。按气室内气流/浓度状态分为稳态和非稳态（non-steady-state, NSS）；本章重点为农业生态系统常用的非稳态气室。"},
+    {"type": "heading", "number": "65.2", "title": "非稳态气室", "level": 2},
+    {"type": "paragraph", "text": "非稳态气室常测土表相对惰性气体的净通量，如CO₂、CH₄和N₂O。封闭后由气室内干气摩尔分数随时间的变化率dG/dt，按式（65.1）换算质量通量F_g（Rochette和Hutchinson，2005）。"},
+    {"type": "paragraph", "text": "高通量且浓度变化快的气体（如CO₂）可用便携式分析仪原位连续测G；仪器无法现场测定的气体通常定时采样后带回实验室分析。非稳态法质量不仅取决于采集、存储和分析，还取决于气室设计/部署及dG/dt的拟合。"},
+    {"type": "source-fidelity-note", "text": "原书把M_m,g称为“相对分子质量”却给出g·mol⁻¹；有单位的量应为气体g的摩尔质量，已校正。式中G明确为干气摩尔分数，(1−e_p/P)据此用于水汽/干气修正；若输入是湿基摩尔分数，不可重复套用同一修正。"}
+  ],
+  "formulas": [
+    {"label": "(65.1)", "plain": "F_g = (dG/dt)(V/A)(M_m,g/V_m)(1−e_p/P)", "latex": "F_g=\\frac{dG}{dt}\\,\\frac{V}{A}\\,\\frac{M_{m,g}}{V_m}\\left(1-\\frac{e_p}{P}\\right)", "variables": [
+      {"symbol": "F_g", "meaning": "目标气体g的地表质量通量（g·m⁻²·s⁻¹）"},
+      {"symbol": "G", "meaning": "气室中目标气体的干基摩尔分数（mol·mol⁻¹）"},
+      {"symbol": "dG/dt", "meaning": "布设期间干基摩尔分数变化率（mol·mol⁻¹·s⁻¹）"},
+      {"symbol": "V", "meaning": "气室有效体积（m³）"},
+      {"symbol": "A", "meaning": "气室覆盖地表面积（m²）"},
+      {"symbol": "M_m,g", "meaning": "目标气体g的摩尔质量（g·mol⁻¹）"},
+      {"symbol": "V_m", "meaning": "测量开始时气室温度和大气压力下的气体摩尔体积（m³·mol⁻¹）"},
+      {"symbol": "e_p", "meaning": "测量开始时气室水汽分压（kPa）"},
+      {"symbol": "P", "meaning": "大气压力（kPa）"}
+    ], "conditions": ["e_p、P和V_m须取t=0或与所用推导一致的状态", "V为有效头空间体积而非只凭外形名义体积", "G为干基；湿基数据须采用与其定义相容的换算", "dG/dt的时间单位与目标F_g时间单位一致", "正值表示净排放、负值表示净吸收的符号约定须报告"]}
+  ],
+  "tables": [],
+  "contentSha256": "e9b45324af5ebd917ccfaddc4e796bd7a39e214981d64a6776616cb5877d5161"
+}

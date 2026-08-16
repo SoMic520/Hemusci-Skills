@@ -1,0 +1,36 @@
+{
+  "schema": "soil-methods-consultant.corrected-page.v1",
+  "bookId": "volume-1",
+  "page": 179,
+  "sourceImageSha256": "d485aa0112195c59c0be2ca2b1fcd85506e7435f94d275b686af544150775c35",
+  "review": {
+    "textPass": {"status": "verified", "method": "逐行对照原分辨率氯化钡法方法页，并与Apple Vision、PaddleOCR交叉比对，人工恢复原理、材料试剂和步骤（1）～（4）"},
+    "precisionPass": {"status": "verified", "method": "逐字符核验CEC、SO₄²⁻、0.1 mol L⁻¹ BaCl₂、BaCl₂·2H₂O、LaCl₃·7H₂O、CsCl、1000/100 mg L⁻¹、100 g L⁻¹、0.5/1.5 g、<2 mm、30.0 mL、15 rpm、700 g及AAS"},
+    "secondVisualPass": {"status": "verified", "method": "从页末步骤（4）未完句反向复核至18.2标题，确认原书镧/铯浓度与称量按印刷值保留、四段方法说明、材料6项和页码148"}
+  },
+  "blocks": [
+    {"type": "running-header", "text": "土壤采样与分析方法（上册）"},
+    {"type": "section-heading", "level": 2, "number": "18.2", "title": "氯化钡法测定可交换性阳离子和有效阳离子交换量（CEC）"},
+    {"type": "method-source", "text": "（Hendershot和Duquette，1986）"},
+    {"type": "paragraph", "text": "氯化钡法可以快速测定多种不同类型土壤的可交换性阳离子和“有效”阳离子交换量（CEC），其中CEC由可交换阳离子（Ca、Mg、K、Na、Al、Fe和Mn）的总和来计算，这种方法特别适用于研究林业或与田间土壤pH条件下CEC有关的环境问题。但是在具有大量pH值依赖性阳离子交换位点的土壤中，pH值=7时的测定值将显著高于通过该方法测量的值，含有大量SO₄²⁻的盐碱土会因为氯化钡沉淀的产生而使这个问题加重。"},
+    {"type": "paragraph", "text": "通过与其他方法在对应土壤pH值条件下测定的CEC比较，氯化钡法的结果具有很好的可比性（Hendershot和Duquette，1986；Ngewoh等，1989）。钡是一种良好的絮凝剂，能够置换三价阳离子。平衡溶液中较低的离子强度使其比浓度较高的盐溶液产生的pH值变化更小。这种方法较为简单快捷，且常推荐用来测定交换性铁和锰，因为在一些酸性土壤中其含量可能比其他常见的阳离子（例如，钾和钠）更为丰富。"},
+    {"type": "paragraph", "text": "2003年，土壤专家组提出一种连续三次添加0.1 mol L⁻¹ BaCl₂溶液的替代方法。土液比1∶60、连续振荡和滗析步骤会导致交换性阳离子测定值偏高，而且复杂的测定步骤也不适合实验室常规分析。由于本章使用0.1 mol L⁻¹ BaCl₂溶液测定土壤交换性阳离子，因此建议使用相同的盐溶液来测量可交换酸度。Jonsson等（2002）确定了可以用于评估这两种不同浸提步骤差异的回归方程。"},
+    {"type": "paragraph", "text": "该方法的结果会受土液比的影响，用少量土壤浸提得到的交换性阳离子值较高，因此本章对土壤用量进行了合理调整。与之前发表的方法（Hendershot等，1993）相比，本章已经将土壤的最大用量从3.0 g减少到1.5 g。若要将不同时间、不同采样点之间的结果进行比较，则应该采用统一标准的样品量。"},
+    {"type": "section-heading", "level": 3, "number": "18.2.1", "title": "材料与试剂"},
+    {"type": "material-item", "number": "（1）", "text": "带螺旋盖的离心管（50 mL），低速离心机。"},
+    {"type": "material-item", "number": "（2）", "text": "旋转振荡器。"},
+    {"type": "reagent-item", "number": "（3）", "name": "0.1 mol L⁻¹的氯化钡溶液", "text": "将24.43 g BaCl₂·2H₂O溶于重去离子水中，并于1 L容量瓶中定容。"},
+    {"type": "reagent-item", "number": "（4）", "text": "使用1 000 mg L⁻¹的原子吸收试剂级标准液制备Ca、Mg、K、Na、Al、Fe和Mn的标准液，标准液中的基质必须与分析样品的氯化钡浓度相当（稀释或非稀释基质）。"},
+    {"type": "reagent-item", "number": "（5）", "name": "100 mg L⁻¹的镧溶液", "text": "将53.5 g LaCl₃·7H₂O溶解于200 mL容量瓶中并定容（用于原子吸收分光光度法（AAS）测定）。"},
+    {"type": "reagent-item", "number": "（6）", "name": "100 g L⁻¹的铯溶液", "text": "将25.2 g CsCl溶于200 mL容量瓶中并定容（用于AAS测定）。"},
+    {"type": "section-heading", "level": 3, "number": "18.2.2", "title": "步骤"},
+    {"type": "procedure-step", "number": "（1）", "text": "对于有机土壤或结构细密的土壤，称量约0.5 g风干土（<2 mm），粗质结构土壤，称量约1.5 g风干土（<2 mm）放入50 mL离心管中，记录土壤重量，精确到0.001 g。同时设置空白、重复和质量控制样品。"},
+    {"type": "procedure-step", "number": "（2）", "text": "向每个离心管中加入30.0 mL的0.1 mol L⁻¹ BaCl₂溶液，并于旋转振荡器上（15 rpm）缓慢振荡2 h。"},
+    {"type": "procedure-step", "number": "（3）", "text": "离心（15 min，700 g），使用Whatman No.41滤纸过滤上清液。"},
+    {"type": "procedure-step", "number": "（4）", "continued": true, "text": "用AAS或任何其他适合的仪器分析上清液中的以下阳离子：Ca、Mg、K、Na、Al、Fe和Mn。钙、钾和镁通常需要稀释10倍或100倍。用AAS测定钙、镁和钾时，需要向每10 mL稀释液中加入"},
+    {"type": "printed-page-number", "text": "148"}
+  ],
+  "formulas": [],
+  "tables": [],
+  "contentSha256": "17831dd4e7a600f0b281856ea27bb2cb18aee6b1eaad42039eaf346e8f0e4c5e"
+}
