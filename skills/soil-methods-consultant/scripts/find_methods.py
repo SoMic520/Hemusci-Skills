@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""离线检索《土壤采样与分析方法》上下册的最终校正语料。"""
+"""离线检索《土壤采样与分析方法》上下册的已校正资料。"""
 
 from __future__ import annotations
 
@@ -172,11 +172,11 @@ def load_review_status() -> dict[tuple[int, int], str]:
 
 
 def load_method_cards() -> list[dict[str, Any]]:
-    """读取由两册识别文本和完整目录层级生成的方法卡。"""
+    """读取由两册识别文本和完整目录层级生成的方法记录。"""
     payload = load_gzip_json(METHOD_CARDS)
     cards = payload.get("cards") or []
     if not isinstance(cards, list):
-        raise ValueError("内置方法卡格式无效")
+        raise ValueError("内置方法记录格式无效")
     return cards
 
 
@@ -236,7 +236,7 @@ def external_card_text(card: dict[str, Any]) -> str:
 
 def load_corpus_status() -> dict[str, Any]:
     if not CORPUS_STATUS.is_file():
-        raise FileNotFoundError(f"缺少语料状态文件: {CORPUS_STATUS}")
+        raise FileNotFoundError(f"缺少资料状态文件: {CORPUS_STATUS}")
     return json.loads(CORPUS_STATUS.read_text(encoding="utf-8"))
 
 
@@ -246,7 +246,7 @@ def require_verified_corpus() -> None:
         verified = int(status.get("verifiedPages", 0))
         required = int(status.get("requiredPages", 915))
         raise ValueError(
-            f"校正语料尚未完成（{verified}/{required} 页）。"
+            f"资料校正尚未完成（{verified}/{required} 页）。"
             "零容错模式禁止使用机器 OCR 回答，也禁止回查原 PDF。"
         )
 
@@ -590,7 +590,7 @@ def search(args: argparse.Namespace) -> int:
         "resultCount": len(results),
         "results": results,
         "pageNumbering": "PDF 页码",
-        "corpus": "最终逐页校正语料",
+        "corpus": "已完成逐页校正的资料",
     }
     if args.json:
         print(json.dumps(payload, ensure_ascii=False, indent=2))
@@ -605,16 +605,16 @@ def search(args: argparse.Namespace) -> int:
         print(f"\n[{index}] {source_label} PDF 第 {item['page']} 页  score={item['score']}")
         if item["chapter"]:
             print(f"章: {item['chapter']}")
-        print(f"校正版页级标签: {item['reviewPriority']}")
+        print(f"复核标记: {item['reviewPriority']}")
         if item["headingsOnPage"]:
             print("本页标题: " + " | ".join(item["headingsOnPage"]))
         print("摘录: " + item["excerpt"])
-    print("\n注: 页码均为 PDF 页码；内容来自最终逐页校正语料。")
+    print("\n注: 页码均为 PDF 页码；内容来自已完成逐页校正的资料。")
     return 0
 
 
 def consult(args: argparse.Namespace) -> int:
-    """按自然语言问题返回可用于咨询判断的结构化方法候选。"""
+    """按自然语言问题返回可用于咨询判断的方法候选。"""
     concepts = query_concepts(args.query)
     allowed_volumes = set(selected_volumes(args.volume))
     results: list[dict[str, Any]] = []
@@ -683,8 +683,8 @@ def consult(args: argparse.Namespace) -> int:
         "resultCount": len(results),
         "results": results,
         "pageNumbering": "PDF 页码",
-        "usage": "先据候选的适用范围和限制选法，再用 method <id> 展开最终校正内容。",
-        "precisionRule": "数字、公式、上下标、化学式、单位和表格均以最终校正页的结构化值为准。",
+        "usage": "先根据候选方法的适用范围和限制作出选择，再用 method <id> 展开已校正内容。",
+        "precisionRule": "数字、公式、上下标、化学式、单位和表格均以已完成校正的页面数据为准。",
     }
     if args.json:
         print(json.dumps(payload, ensure_ascii=False, indent=2))
@@ -716,17 +716,17 @@ def consult(args: argparse.Namespace) -> int:
         if item["precisionSensitivePages"]:
             pages = ", ".join(str(page) for page in item["precisionSensitivePages"])
             print(f"数值/公式/单位敏感页: {pages}")
-        print(f"校正版页级标签分布: {item['reviewPriorityCounts']}")
+        print(f"复核标记统计: {item['reviewPriorityCounts']}")
         print("内容摘录: " + item["excerpt"])
-    print("\n展开方法: method <方法卡ID>。")
+    print("\n展开方法: method <方法记录ID>。")
     return 0
 
 
 def method(args: argparse.Namespace) -> int:
-    """按方法卡 ID 展开完整层级和最终校正页文。"""
+    """按方法记录 ID 展开完整层级和已校正内容。"""
     card = next((item for item in runtime_method_cards() if item.get("id") == args.card_id), None)
     if card is None:
-        raise ValueError(f"未找到方法卡: {args.card_id}")
+        raise ValueError(f"未找到方法记录: {args.card_id}")
     if "bookId" in card:
         page_map = load_external_page_map(str(card["bookId"]))
         structured_pages = [
@@ -750,7 +750,7 @@ def method(args: argparse.Namespace) -> int:
         **card,
         "structuredPages": structured_pages,
         "pageNumbering": "PDF 页码",
-        "precisionRule": "所有文字、公式、上下标、化学式、单位和表格均取自最终校正页。",
+        "precisionRule": "所有文字、公式、上下标、化学式、单位和表格均取自已完成校正的页面。",
     }
     if args.json:
         print(json.dumps(payload, ensure_ascii=False, indent=2))
@@ -880,7 +880,7 @@ def show(args: argparse.Namespace) -> int:
                     "title": data.title,
                     "pageNumbering": "PDF 页码",
                     "pages": pages,
-                    "corpus": "最终逐页校正语料",
+                    "corpus": "已完成逐页校正的资料",
                 },
                 ensure_ascii=False,
                 indent=2,
@@ -892,7 +892,7 @@ def show(args: argparse.Namespace) -> int:
         if item["headingsOnPage"]:
             print("目录节点: " + " | ".join(item["headingsOnPage"]))
         print(item["text"])
-    print("\n[提示] 以上为最终逐页校正语料；JSON 模式同时返回公式、表格和层级的结构化值。")
+    print("\n[提示] 以上内容已完成逐页校正；JSON 模式同时返回已核对的公式、表格和层级数据。")
     return 0
 
 
@@ -902,7 +902,7 @@ def show_book(args: argparse.Namespace) -> int:
         None,
     )
     if source is None:
-        raise ValueError(f"未找到已启用的外部来源: {args.book_id}")
+        raise ValueError(f"未找到可用来源: {args.book_id}")
     pages = load_external_page_map(args.book_id)
     end = args.end if args.end is not None else args.page
     if end < args.page:
@@ -1069,11 +1069,11 @@ def build_parser() -> argparse.ArgumentParser:
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
-    status_parser = subparsers.add_parser("status", help="显示全书逐页校正和运行时可用状态")
+    status_parser = subparsers.add_parser("status", help="显示全书逐页校正和资料可用状态")
     status_parser.add_argument("--json", action="store_true")
     status_parser.set_defaults(func=corpus_status)
 
-    consult_parser = subparsers.add_parser("consult", help="按问题检索并比较结构化方法候选")
+    consult_parser = subparsers.add_parser("consult", help="按问题检索并比较方法候选")
     consult_parser.add_argument("query", help="咨询问题、待测指标、土壤类型、仪器或方法要求")
     consult_parser.add_argument("--volume", choices=("all", "1", "2"), default="all")
     consult_parser.add_argument("--top", type=int, default=5)
@@ -1081,8 +1081,8 @@ def build_parser() -> argparse.ArgumentParser:
     consult_parser.add_argument("--json", action="store_true")
     consult_parser.set_defaults(func=consult)
 
-    method_parser = subparsers.add_parser("method", help="按方法卡 ID 展开完整识别内容")
-    method_parser.add_argument("card_id", help="consult 输出的方法卡 ID，例如 v2-s0014")
+    method_parser = subparsers.add_parser("method", help="按方法记录 ID 展开完整识别内容")
+    method_parser.add_argument("card_id", help="consult 输出的方法记录 ID，例如 v2-s0014")
     method_parser.add_argument("--json", action="store_true")
     method_parser.set_defaults(func=method)
 
@@ -1101,7 +1101,7 @@ def build_parser() -> argparse.ArgumentParser:
     outline_parser.add_argument("--json", action="store_true")
     outline_parser.set_defaults(func=outline_search)
 
-    show_parser = subparsers.add_parser("show", help="展开一页或连续页最终校正内容")
+    show_parser = subparsers.add_parser("show", help="展开一页或连续页的已校正内容")
     show_parser.add_argument("volume", type=int, choices=(1, 2))
     show_parser.add_argument("page", type=int, help="起始 PDF 页码")
     show_parser.add_argument("--end", type=int, help="结束 PDF 页码（含）")
@@ -1130,7 +1130,7 @@ def build_parser() -> argparse.ArgumentParser:
     chapter_parser.add_argument("--json", action="store_true")
     chapter_parser.set_defaults(func=chapters)
 
-    sources_parser = subparsers.add_parser("sources", help="列出全部独立来源及运行时状态")
+    sources_parser = subparsers.add_parser("sources", help="列出全部独立来源及可用状态")
     sources_parser.add_argument("--json", action="store_true")
     sources_parser.set_defaults(func=sources)
     return parser

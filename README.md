@@ -25,7 +25,7 @@
 |---|---:|---:|---|
 | [soil-third-survey-report](skills/soil-third-survey-report/) | 稳定 | v10 | 第三次全国土壤普查省、市、县级专业报告撰写、重构、逐段审查、DOCX修订与批注交付 |
 | [soil-journal-format-review](skills/soil-journal-format-review/) | 稳定 | v3 | 土壤学及可发表土壤研究的综合期刊投稿排版、格式审查、DOCX修订与批注；不审查文章质量和内容 |
-| [soil-methods-consultant](skills/soil-methods-consultant/) | 稳定 | v1 | 基于已校正本地语料和官方标准进行土壤试验方法咨询、选法、精确检索、计算与HTML/PDF实验方案交付 |
+| [soil-methods-consultant](skills/soil-methods-consultant/) | 稳定 | v1 | 基于本地已校正资料和官方标准，提供土壤试验方法咨询、方法选择、精确检索、计算及HTML/PDF实验方案 |
 
 后续技能统一加入 `skills/<skill-name>/`，发布包置于 `dist/<skill-name>/`。仓库根目录只保留技能索引、版本记录和公共说明。
 
@@ -75,16 +75,16 @@
 
 ## 🧫 soil-methods-consultant
 
-面向土壤试验方法咨询与检索，将六套相互独立的校正语料和近两年已取得官方全文的检测标准组织为可运行知识库。方法文字、层级、公式、单位、上下标和PDF页码均保留来源边界，线上资源只在本地资料不足或需要核实现行性时辅助使用。
+本 skill 用于土壤试验方法咨询和检索。内置资料包括六套已校正的土壤分析参考资料，以及近两年已取得官方全文的检测标准。各来源分别整理，试剂用量、操作条件和公式不交叉混用；线上资料只用于补充缺项或核实标准的现行状态。
 
 主要能力：
 
-- 内置六个核心来源1 936页，以及19份通过门禁的国家标准309页，共2 245个运行时纳入页。
-- 支持方法咨询与选法、精确检索、完整实验方案、方法比较、质量控制和故障排查。
+- 目前收录六套核心参考资料，共1936页；另收录19份已完成校对的国家标准，共309页。可直接检索的资料合计2245页。
+- 支持方法咨询与选择、精确检索、完整实验方案、方法比较、质量控制和故障排查。
 - 区分总量、可提取态、交换态和有效态等不同测量对象，不因名称相近而混用方法。
 - 保留原方法的篇、章、节、子节和编号顺序，精确保留化学式、公式、单位及上下标。
-- 不跨来源拼接试剂、用量、条件、公式或质控限；线上补充优先采用发布机构原文和原始方法论文。
-- 从同一方法卡生成可直接执行的简要HTML与A4 PDF方案，突出试剂仪器、操作步骤、结果计算、质控要点和完整出处。
+- 不混用不同来源的试剂、用量、条件、公式或质控限；线上补充优先采用发布机构原文和原始方法论文。
+- 基于同一条方法记录生成可直接执行的简要HTML与A4 PDF方案，列明试剂仪器、操作步骤、结果计算、质控要点和完整出处。
 
 详细规则见 [技能入口](skills/soil-methods-consultant/SKILL.md)。
 
@@ -219,8 +219,8 @@ DOCX 修订前必须执行安全、结构、脚注尾注、字体和内容基线
 ### soil-methods-consultant 接入指令
 
 ```text
-完整读取 soil-methods-consultant/SKILL.md，并先运行 scripts/find_methods.py status 检查语料门禁。
-以本地最终校正语料为方法主线；只有本地缺项或需要核实现行性时，才使用官方线上资源辅助。
+完整读取 soil-methods-consultant/SKILL.md，并先运行 scripts/find_methods.py status，确认本地资料已经完成校对并可用于检索。
+以本地已校正资料为主要依据；只有本地缺项或需要核实现行性时，才使用官方线上资源辅助。
 按独立来源选择和展开方法，不得跨来源混合试剂、用量、操作条件、公式或质控限。
 精确保留方法层级、文字、公式、化学式、单位、上下标和PDF页码；默认生成简要、可执行的HTML与A4 PDF实验方案。
 ```
@@ -274,7 +274,7 @@ skills/<skill-name>/
 - [soil-journal-format-review v3](dist/soil-journal-format-review/soil-journal-format-review-skill-20260815-v3.zip)
 - SHA-256：`012AEB8A7BE32D96C1BD7EBFEACC3EDF0139DFCF842D8B8DFEEC4E76B4BA9069`
 - [soil-methods-consultant v1](dist/soil-methods-consultant/soil-methods-consultant-skill-20260816-v1.zip)
-- SHA-256：`4595973E326B4720A867C78591476A6D5ECD5F1347E0FA1ACC4CED6A5B9A5F3F`
+- SHA-256：`490DE7D187A93DB1EBBF41A06D3BA6FC7FD40EAF3EF7DC93F02442725F902E8A`
 
 ## 🔐 数据与权限
 

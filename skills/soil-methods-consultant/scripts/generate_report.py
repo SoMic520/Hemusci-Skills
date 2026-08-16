@@ -112,7 +112,7 @@ def resolved_source_label(card: dict[str, Any], pages: list[dict[str, Any]]) -> 
         for block in page.get("blocks") or []:
             if block.get("type") == "running-header" and str(block.get("text") or "").strip():
                 return str(block["text"]).strip()
-    return str(card.get("volumeLabel") or "本地校正语料")
+    return str(card.get("volumeLabel") or "本地已校正资料")
 
 
 def full_source_citation(card: dict[str, Any], pages: list[dict[str, Any]]) -> str:
@@ -164,7 +164,7 @@ def load_card(card_id: str) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     methods.require_verified_corpus()
     card = next((item for item in methods.runtime_method_cards() if item.get("id") == card_id), None)
     if card is None:
-        raise ValueError(f"未找到已启用的方法卡: {card_id}")
+        raise ValueError(f"未找到可用的方法记录: {card_id}")
     if card.get("bookId"):
         page_map = methods.load_external_page_map(str(card["bookId"]))
         pages = [
@@ -178,7 +178,7 @@ def load_card(card_id: str) -> tuple[dict[str, Any], list[dict[str, Any]]]:
             for page in card.get("pages") or []
         ]
     if not pages:
-        raise ValueError("方法卡没有可用的校正页")
+        raise ValueError("方法记录没有可用的校正页")
     return card, pages
 
 
@@ -205,7 +205,7 @@ def find_card_for_query(query: str) -> str:
         if score > 45:
             ranked.append((score, str(card["id"])))
     if not ranked:
-        raise ValueError("未找到可用方法卡；请先用 consult 补充指标或仪器条件")
+        raise ValueError("未找到可用的方法记录；请先用 consult 补充指标或仪器条件")
     ranked.sort(key=lambda value: (-value[0], value[1]))
     return ranked[0][1]
 
@@ -407,7 +407,7 @@ def render_formulas(formulas: list[dict[str, Any]], definitions: list[dict[str, 
                 f'<div class="formula-head"><span>{esc(label)}</span><span>PDF {formula["page"]} 页</span></div>'
                 f'<div class="formula">{esc(formula["plain"])}</div>'
                 '<div class="verified-line">'
-                f'{icon("shield")}<span>公式与上下标取自已复核结构化值</span></div>'
+                f'{icon("shield")}<span>公式及上下标已按来源核对</span></div>'
                 '</article>'
             )
         formula_html = "".join(cards)
@@ -447,7 +447,7 @@ def render_source_pages(card: dict[str, Any], pages: list[dict[str, Any]]) -> st
         '<aside class="section-rail"><span>A</span><b>SOURCE</b></aside><div class="section-content">'
         '<div class="section-kicker">VERIFIED SOURCE</div>'
         f'<h2>{icon("source")}校正原文与页码对照</h2>'
-        '<p class="lead">以下按 PDF 页码保留方法卡范围内的结构化页文。公式、表格和已校正单位均不做文学性改写。</p>'
+        '<p class="lead">以下按 PDF 页码保留所选方法范围内的原文内容。公式、表格和已校正单位均按来源呈现。</p>'
     ]
     label = str(card.get("sourceLabel") or card.get("volumeLabel") or "本地校正来源")
     for page in pages:
@@ -479,7 +479,7 @@ def build_html(card: dict[str, Any], pages: list[dict[str, Any]], query: str, in
     reason = overview or (
         '查询对象与方法名称直接对应，因此优先展开此独立来源。'
         if direct_match
-        else '此方法是本地结构化检索的首位候选；实施前仍应对照适用范围、样品状态和仪器条件。'
+        else '此方法与查询条件最匹配；实施前仍应核对适用范围、样品状态和仪器条件。'
     )
     official_link = (
         f'<a class="source-link" href="{esc(official_url)}">查看官方条目 ↗</a>'
@@ -510,12 +510,12 @@ def build_html(card: dict[str, Any], pages: list[dict[str, Any]], query: str, in
   <nav class="reader-nav"><strong>{icon("flask")} HEMUSCI / METHOD DOSSIER</strong><div><a href="#decision">适用性</a><a href="#workflow">操作规程</a><a href="#calculation">结果计算</a>{appendix_nav}</div></nav>
   <header class="report-header"><div class="report-super"><strong>{icon("shield")} VERIFIED SOIL METHOD</strong><span>{esc(generated)}</span></div><div class="title-lockup"><span class="title-icon">{icon("flask")}</span><div><h1>{esc(title)}</h1></div></div><div class="report-question"><span>CONSULTATION</span><strong>{esc(query)}</strong></div><div class="report-source"><span>完整出处</span><strong>{esc(full_source)}</strong></div>{official_link}</header>
   <section class="section page-break-before" id="decision"><aside class="section-rail"><span>01</span><b>DECISION</b></aside><div class="section-content"><div class="section-kicker">METHOD SELECTION</div><h2>{icon("target")}方法适用性与选择依据</h2>
-    <p class="lead">方法不是从名称出发，而是从测量对象、样品状态、仪器条件和结果口径出发。先完成边界判断，再进入实验操作。</p>
-    <div class="decision-grid"><article class="decision-card primary"><div class="decision-label">{icon("why")}SELECTION LOGIC</div><h3>{esc(title)}</h3><p>{esc(reason)}</p><div class="role-chips">{''.join(f'<span class="chip">{esc(role)}</span>' for role in roles[:10])}</div></article><article class="decision-card"><div class="decision-label">{icon("shield")}SOURCE BOUNDARY</div><h3>一个来源，一套参数</h3><p>试剂、操作条件、公式和质控限均保持在此方法卡内，不与其他书或标准静默拼接。</p></article></div>
+    <p class="lead">方法选择以测量对象、样品状态、仪器条件和结果口径为依据。确认适用条件后，再进入实验操作。</p>
+    <div class="decision-grid"><article class="decision-card primary"><div class="decision-label">{icon("why")}METHOD SELECTION</div><h3>{esc(title)}</h3><p>{esc(reason)}</p><div class="role-chips">{''.join(f'<span class="chip">{esc(role)}</span>' for role in roles[:10])}</div></article><article class="decision-card"><div class="decision-label">{icon("shield")}PARAMETER SOURCE</div><h3>参数来自同一方法</h3><p>本方案的试剂、操作条件、公式和质控限均来自同一方法，不混用其他书籍或标准的参数。</p></article></div>
     <div class="notice">{icon("why")}<div><strong>实施前必查：</strong>样品是鲜样还是风干样；待测组分是总量、有效态还是可提取态；实验室仪器是否与来源条款一致。</div></div></div>
   </section>
   <section class="section page-break-before" id="workflow"><aside class="section-rail"><span>02</span><b>PROTOCOL</b></aside><div class="section-content"><div class="section-kicker">STANDARD OPERATING PROCEDURE</div><h2>{icon("steps")}标准操作规程</h2><div class="steps">{render_components(card, pages)}</div></div></section>
-  <section class="section page-break-before" id="calculation"><aside class="section-rail"><span>03</span><b>CALCULATION</b></aside><div class="section-content"><div class="section-kicker">EQUATIONS &amp; UNITS</div><h2>{icon("calc")}结果计算、单位与判定</h2><p class="lead">公式使用已结构化复核的原始字符；变量、系数和单位只在来源明确说明时列出。</p>{render_formulas(formulas,definitions)}</div></section>
+  <section class="section page-break-before" id="calculation"><aside class="section-rail"><span>03</span><b>CALCULATION</b></aside><div class="section-content"><div class="section-kicker">EQUATIONS &amp; UNITS</div><h2>{icon("calc")}结果计算、单位与判定</h2><p class="lead">公式保留核对后的原始字符；变量、系数和单位只在来源明确说明时列出。</p>{render_formulas(formulas,definitions)}</div></section>
   {tables_html}
   {appendix_html}
 </main></body></html>"""
@@ -705,7 +705,7 @@ def render_pdf_report(card: dict[str, Any], pages: list[dict[str, Any]], query: 
     reason = overview or (
         "查询对象与方法名称直接对应，因此优先展开此独立来源。"
         if direct_match
-        else "此方法是本地结构化检索的首位候选；实施前仍应对照适用范围、样品状态和仪器条件。"
+        else "此方法与查询条件最匹配；实施前仍应核对适用范围、样品状态和仪器条件。"
     )
     digest = source_digest(card, pages)
     doc = SimpleDocTemplate(
@@ -733,7 +733,7 @@ def render_pdf_report(card: dict[str, Any], pages: list[dict[str, Any]], query: 
     story.extend(pdf_section_heading("target", "METHOD SELECTION", "方法适用性与选择依据", styles))
     story.append(Paragraph("先确认测定对象与方法适用范围，再根据样品状态、仪器和结果口径决定是否实施。", styles["lead"]))
     decision = Table(
-        [[Paragraph(f"<b>选法依据</b><br/>{esc(reason)}", styles["body_exact"]), Paragraph("<b>精确性边界</b><br/>试剂、条件、公式和质控限均保持在此方法卡内，不与其他来源静默拼接。", styles["body"])]],
+        [[Paragraph(f"<b>方法选择依据</b><br/>{esc(reason)}", styles["body_exact"]), Paragraph("<b>参数来源</b><br/>本方案的试剂、条件、公式和质控限均来自同一方法，不混用其他来源的参数。", styles["body"])]],
         colWidths=[105 * mm, 69 * mm],
         style=TableStyle([("LINEABOVE", (0, 0), (-1, 0), 1.2, colors.HexColor("#17332c")), ("LINEBELOW", (0, 0), (-1, 0), .5, colors.HexColor("#d8ded8")), ("LINEBEFORE", (1, 0), (1, 0), .5, colors.HexColor("#d8ded8")), ("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (0, 0), 0), ("LEFTPADDING", (1, 0), (1, 0), 10), ("RIGHTPADDING", (0, 0), (-1, -1), 10), ("TOPPADDING", (0, 0), (-1, -1), 10), ("BOTTOMPADDING", (0, 0), (-1, -1), 10)]),
     )
@@ -770,11 +770,11 @@ def render_pdf_report(card: dict[str, Any], pages: list[dict[str, Any]], query: 
     story.append(Spacer(1, 6 * mm))
 
     story.extend(pdf_section_heading("calc", "RESULT CALCULATION", "结果计算、单位与判定", styles))
-    story.append(Paragraph("优先展示已结构化复核的公式，并就近列出已校正的变量、系数与单位。", styles["lead"]))
+    story.append(Paragraph("公式保留核对后的原始字符，并就近列出已校正的变量、系数和单位。", styles["lead"]))
     if formulas:
         for formula in formulas:
             formula_box = Table(
-                [[Paragraph(f"<b>{esc(formula.get('label') or '计算式')}</b> · PDF {formula['page']} 页", styles["small_green"])], [Paragraph(esc(formula["plain"]), styles["formula"])], [Paragraph("公式与上下标取自已复核结构化值", styles["small"])]],
+                [[Paragraph(f"<b>{esc(formula.get('label') or '计算式')}</b> · PDF {formula['page']} 页", styles["small_green"])], [Paragraph(esc(formula["plain"]), styles["formula"])], [Paragraph("公式及上下标已按来源核对", styles["small"])]],
                 colWidths=[174 * mm],
                 style=TableStyle([("LINEABOVE", (0, 0), (-1, 0), 1.0, colors.HexColor("#17332c")), ("LINEBELOW", (0, 2), (-1, 2), .5, colors.HexColor("#d8ded8")), ("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 0), ("TOPPADDING", (0, 0), (-1, -1), 9), ("BOTTOMPADDING", (0, 0), (-1, -1), 9)]),
             )
@@ -802,7 +802,7 @@ def render_pdf_report(card: dict[str, Any], pages: list[dict[str, Any]], query: 
     if include_source:
         story.append(PageBreak())
         story.extend(pdf_section_heading("source", "VERIFIED SOURCE", "校正原文与页码对照", styles))
-        story.append(Paragraph("以下按 PDF 页码保留方法卡范围内的结构化页文。公式、表格和已校正单位均不做文学性改写。", styles["lead"]))
+        story.append(Paragraph("以下按 PDF 页码保留所选方法范围内的原文内容。公式、表格和已校正单位均按来源呈现。", styles["lead"]))
         for index, page in enumerate(pages):
             if index:
                 story.append(PageBreak())
@@ -813,7 +813,7 @@ def render_pdf_report(card: dict[str, Any], pages: list[dict[str, Any]], query: 
             else:
                 story.append(
                     Table(
-                        [[pdf_icon("source", 18), Paragraph("本页在校正语料中无结构化正文；页码仍保留以维持与官方来源的页序对应。", styles["body"])]],
+                        [[pdf_icon("source", 18), Paragraph("本页没有可用正文；仍保留页码，以便与来源文件对应。", styles["body"])]],
                         colWidths=[9 * mm, 165 * mm],
                         style=TableStyle([("BACKGROUND", (0, 0), (-1, -1), colors.HexColor("#eef5f1")), ("BOX", (0, 0), (-1, -1), .5, colors.HexColor("#d8ded8")), ("VALIGN", (0, 0), (-1, -1), "MIDDLE"), ("LEFTPADDING", (0, 0), (-1, -1), 8), ("RIGHTPADDING", (0, 0), (-1, -1), 8), ("TOPPADDING", (0, 0), (-1, -1), 8), ("BOTTOMPADDING", (0, 0), (-1, -1), 8)]),
                     )
@@ -825,13 +825,13 @@ def render_pdf_report(card: dict[str, Any], pages: list[dict[str, Any]], query: 
 def main() -> int:
     parser = argparse.ArgumentParser(description="生成精美的土壤试验方法 HTML/PDF 报告")
     selection = parser.add_mutually_exclusive_group(required=True)
-    selection.add_argument("--card-id", help="consult 返回的方法卡 ID")
-    selection.add_argument("--query", help="自动选择本地检索排名第一的方法卡")
+    selection.add_argument("--card-id", help="consult 返回的方法记录 ID")
+    selection.add_argument("--query", help="自动选择本地检索排名第一的方法记录")
     parser.add_argument("--question", help="封面显示的原始问题；默认与 --query 相同")
     parser.add_argument("--output-root", type=Path, default=DEFAULT_OUTPUT_ROOT)
     parser.add_argument("--name", help="输出文件的稳定名称（不含扩展名）")
     parser.add_argument("--no-pdf", action="store_true", help="只生成 HTML")
-    parser.add_argument("--include-source-pages", action="store_true", help="在报告末尾附校正页文（仅在明确要求时使用）")
+    parser.add_argument("--include-source-pages", action="store_true", help="在报告末尾附校正原文和页码（仅在明确要求时使用）")
     args = parser.parse_args()
 
     card_id = args.card_id or find_card_for_query(str(args.query))
