@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "evaluation_id": "CHINESE-WRITING-BLIND-REVIEW-TEMPLATE",
+  "status": "draft",
+  "language": "zh-CN",
+  "genre": "research_article",
+  "task_prompt_sha256": null,
+  "source_material_sha256": null,
+  "origin_blinded": true,
+  "candidate_origin_names_stored": false,
+  "randomization_record_sha256": null,
+  "dimensions": [
+    "scientific_accuracy",
+    "evidence_calibration",
+    "terminology",
+    "genre_fit",
+    "logic_and_cohesion",
+    "chinese_naturalness"
+  ],
+  "candidates": [],
+  "reviewers": [],
+  "minimum_reviewers": 3,
+  "unblinding_receipt_sha256": null,
+  "notes": "Draft template. A completed review requires at least two hash-locked candidates, three origin-blinded human reviewers including soil-science and Chinese-language roles, complete 1-5 scores, evidence-based comments, and a separate unblinding receipt."
+}

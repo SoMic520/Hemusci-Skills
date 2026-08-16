@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "adapter_id": "CUSTOM-ADAPTER-ID",
+  "documentation_url": "https://replace-with-authoritative-interface-documentation.example",
+  "request_style": "openai_chat",
+  "method": "POST",
+  "relative_path": "/v1/chat/completions",
+  "system_message_supported": true,
+  "structured_output_mode": "json_object",
+  "response_text_json_pointer": "/choices/0/message/content",
+  "data_policy_verified": false,
+  "confidentiality_approved": false,
+  "notes": "This template does not assert OpenAI compatibility. Replace every field from the actual interface specification and test only with synthetic non-sensitive probes first."
+}

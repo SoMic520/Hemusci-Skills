@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "project_id": "EXAMPLE-REPLACE",
+  "artifact_id": "draft-001",
+  "artifact_sha256": null,
+  "policy_state": "unknown",
+  "requested_operation": "substantive_edit",
+  "submission_prose_generated": false,
+  "checks": {
+    "protected_elements": "pending",
+    "terminology": "pending",
+    "expression_provenance": "pending",
+    "evidence_strength": "pending",
+    "genre_rules": "pending",
+    "naturalness_assurance": "pending",
+    "confidentiality": "pending",
+    "file_integrity": "not_applicable"
+  },
+  "unresolved_items": [
+    "Replace template fields and verify current governing policy."
+  ],
+  "human_approvals": [],
+  "release_state": "draft",
+  "updated_at": null
+}

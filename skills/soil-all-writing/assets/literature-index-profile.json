@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-16T08:49:12+00:00",
+  "dataset": "assets/literature-index.csv",
+  "intended_grain": "one module_id/work_id assignment per row",
+  "row_count": 13518,
+  "unique_work_count": 12834,
+  "module_count": 13,
+  "duplicate_grain_rows": 0,
+  "normalized_title_duplicates_within_module": 0,
+  "publication_year": {
+    "min": 2000,
+    "median": 2016.0,
+    "max": 2026
+  },
+  "null_rates": {
+    "doi": 0.034103,
+    "language": 0.961681,
+    "first_author_id": 0.961755,
+    "corresponding_authors": 0.989495,
+    "oa_url": 0.832446
+  },
+  "status_counts": {
+    "metadata_screened": 13000,
+    "pending_module_relevance_audit": 518
+  },
+  "source_tier_counts": {
+    "discipline_high_quality_seed": 13000,
+    "soil_t1_2024_chinese": 518
+  },
+  "fulltext_status_counts": {
+    "not_verified": 13518
+  },
+  "expression_status_counts": {
+    "not_eligible": 13518
+  },
+  "audit": {
+    "rows": 2226,
+    "pending_rows": 2226,
+    "pending_rate": 1.0
+  },
+  "modules": {
+    "D1": {
+      "records": 1011,
+      "quota_records": 1000,
+      "chinese_t1_pending_candidates": 11,
+      "unique_sources": 8,
+      "top_source": "Geoderma",
+      "top_source_share": 0.254204,
+      "year_min": 2000,
+      "year_median": 2016,
+      "year_max": 2026,
+      "open_access_records": 291,
+      "audit_rows": 161,
+      "audit_pending_rows": 161
+    },
+    "D2": {
+      "records": 1079,
+      "quota_records": 1000,
+      "chinese_t1_pending_candidates": 79,
+      "unique_sources": 10,
+      "top_source": "Geoderma",
+      "top_source_share": 0.201112,
+      "year_min": 2000,
+      "year_median": 2013,
+      "year_max": 2025,
+      "open_access_records": 69,
+      "audit_rows": 180,
+      "audit_pending_rows": 180
+    },
+    "D3": {
+      "records": 1020,
+      "quota_records": 1000,
+      "chinese_t1_pending_candidates": 20,
+      "unique_sources": 9,
+      "top_source": "Geoderma",
+      "top_source_share": 0.287255,
+      "year_min": 2000,
+      "year_median": 2013.0,
+      "year_max": 2026,
+      "open_access_records": 114,
+      "audit_rows": 170,
+      "audit_pending_rows": 170
+    },
+    "D4": {
+      "records": 1127,
+      "quota_records": 1000,
+      "chinese_t1_pending_candidates": 127,
+      "unique_sources": 10,
+      "top_source": "Soil Biology and Biochemistry",
+      "top_source_share": 0.215617,
+      "year_min": 2000,
+      "year_median": 2015,
+      "year_max": 2025,
+      "open_access_records": 84,
+      "audit_rows": 180,
+      "audit_pending_rows": 180
+    },
+    "D5": {
+      "records": 1027,
+      "quota_records": 1000,
+      "chinese_t1_pending_candidates": 27,
+      "unique_sources": 10,
+      "top_source": "Soil Biology and Biochemistry",
+      "top_source_share": 0.271665,
+      "year_min": 2000,
+      "year_median": 2013,
+      "year_max": 2025,
+      "open_access_records": 87,
+      "audit_rows": 177,
+      "audit_pending_rows": 177
+    },
+    "D6": {
+      "records": 1027,
+      "quota_records": 1000,
+      "chinese_t1_pending_candidates": 27,
+      "unique_sources": 9,
+      "top_source": "Soil Biology and Biochemistry",
+      "top_source_share": 0.257059,
+      "year_min": 2000,
+      "year_median": 2016,
+      "year_max": 2026,
+      "open_access_records": 193,
+      "audit_rows": 177,
+      "audit_pending_rows": 177
+    },
+    "D7": {
+      "records": 1053,
+      "quota_records": 1000,
+      "chinese_t1_pending_candidates": 53,
+      "unique_sources": 11,
+      "top_source": "Environment International",
+      "top_source_share": 0.204179,
+      "year_min": 2000,
+      "year_median": 2019,
+      "year_max": 2025,
+      "open_access_records": 128,
+      "audit_rows": 180,
+      "audit_pending_rows": 180
+    },
+    "D8": {
+      "records": 1066,
+      "quota_records": 1000,
+      "chinese_t1_pending_candidates": 66,
+      "unique_sources": 9,
+      "top_source": "Geoderma",
+      "top_source_share": 0.217636,
+      "year_min": 2000,
+      "year_median": 2017.0,
+      "year_max": 2025,
+      "open_access_records": 209,
+      "audit_rows": 180,
+      "audit_pending_rows": 180
+    },
+    "D9": {
+      "records": 1067,
+      "quota_records": 1000,
+      "chinese_t1_pending_candidates": 67,
+      "unique_sources": 10,
+      "top_source": "Global Change Biology",
+      "top_source_share": 0.233365,
+      "year_min": 2000,
+      "year_median": 2014,
+      "year_max": 2025,
+      "open_access_records": 85,
+      "audit_rows": 180,
+      "audit_pending_rows": 180
+    },
+    "D10": {
+      "records": 1005,
+      "quota_records": 1000,
+      "chinese_t1_pending_candidates": 5,
+      "unique_sources": 13,
+      "top_source": "Geomorphology",
+      "top_source_share": 0.19602,
+      "year_min": 2000,
+      "year_median": 2013,
+      "year_max": 2025,
+      "open_access_records": 227,
+      "audit_rows": 155,
+      "audit_pending_rows": 155
+    },
+    "D11": {
+      "records": 1029,
+      "quota_records": 1000,
+      "chinese_t1_pending_candidates": 29,
+      "unique_sources": 9,
+      "top_source": "Journal of Cleaner Production",
+      "top_source_share": 0.227405,
+      "year_min": 2000,
+      "year_median": 2018,
+      "year_max": 2025,
+      "open_access_records": 109,
+      "audit_rows": 179,
+      "audit_pending_rows": 179
+    },
+    "D12": {
+      "records": 1005,
+      "quota_records": 1000,
+      "chinese_t1_pending_candidates": 5,
+      "unique_sources": 9,
+      "top_source": "Remote Sensing of Environment",
+      "top_source_share": 0.288557,
+      "year_min": 2000,
+      "year_median": 2021,
+      "year_max": 2026,
+      "open_access_records": 511,
+      "audit_rows": 155,
+      "audit_pending_rows": 155
+    },
+    "D13": {
+      "records": 1002,
+      "quota_records": 1000,
+      "chinese_t1_pending_candidates": 2,
+      "unique_sources": 8,
+      "top_source": "Environment International",
+      "top_source_share": 0.233533,
+      "year_min": 2000,
+      "year_median": 2016.0,
+      "year_max": 2026,
+      "open_access_records": 158,
+      "audit_rows": 152,
+      "audit_pending_rows": 152
+    }
+  },
+  "use_assessment": {
+    "safe_for": [
+      "source discovery",
+      "module quota tracking",
+      "task-local full-text retrieval planning"
+    ],
+    "not_safe_for": [
+      "direct quotation",
+      "expression reuse",
+      "scientific claim verification",
+      "provenance inference"
+    ],
+    "release_state": "metadata_index_only_human_audit_and_fulltext_verification_pending"
+  },
+  "findings": [
+    {
+      "severity": "high",
+      "finding": "No large-index record is full-text verified or expression-qualified.",
+      "impact": "The index cannot serve as a quotation bank or evidence source without task-local verification."
+    },
+    {
+      "severity": "high",
+      "finding": "All deterministic audit-sample rows remain pending human review.",
+      "impact": "Module precision and metadata defect rates have not been empirically estimated by human reviewers."
+    },
+    {
+      "severity": "medium",
+      "finding": "Crossref does not supply language or stable author IDs for most quota records.",
+      "impact": "Language segmentation and expert-identity matching require enrichment from journal pages or another authority."
+    },
+    {
+      "severity": "medium",
+      "finding": "Chinese T1 additions are explicitly pending module-relevance audit.",
+      "impact": "They improve discovery coverage but do not count toward the 1000-record qualified quota."
+    }
+  ]
+}

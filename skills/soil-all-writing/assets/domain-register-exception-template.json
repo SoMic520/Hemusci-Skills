@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "artifact_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "exceptions": [
+    {
+      "exception_id": "DREX-001",
+      "term": "来源锁定原词",
+      "paragraph_number": 1,
+      "occurrence_index": 1,
+      "paragraph_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "char_start": 0,
+      "char_end": 6,
+      "exception_scope": "exact_occurrence_only",
+      "source_kind": "procurement_clause",
+      "source_locator": "受控文件名称、版本、页码或条款号",
+      "source_snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "reason": "说明为何必须逐字保留且不能改写",
+      "approved_by": "责任审校者姓名或可追溯编号",
+      "approval_role": "domain_reviewer",
+      "approved_at": "2026-08-16T12:00:00+08:00"
+    }
+  ]
+}

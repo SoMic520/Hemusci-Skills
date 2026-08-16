@@ -1,0 +1,4 @@
+interface:
+  display_name: "土壤科学全能写作"
+  short_description: "土壤及相关自然科学的专业写作、翻译、图表分析与正式文件交付"
+  default_prompt: "使用 $soil-all-writing，以我当次提出的题材、篇幅、格式和分析深度为最高控制项，处理土壤或自然科学材料，并核对术语、事实、数字、引文与证据强度。"

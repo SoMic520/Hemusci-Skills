@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "document_id": "",
+  "genre": "technical_bid",
+  "subtype": "soil_science_service",
+  "jurisdiction": "CN",
+  "language": "zh-CN",
+  "lifecycle_stage": "draft",
+  "authority": {
+    "source_state": "controlled_source_missing",
+    "primary_source_id": "UNRESOLVED",
+    "title": "",
+    "issuer": "",
+    "version_or_year": "",
+    "url": "",
+    "source_locator": "",
+    "access_date": "",
+    "status": "unknown",
+    "scope": "",
+    "snapshot_path": "",
+    "snapshot_sha256": "",
+    "recheck_trigger": "before_release"
+  },
+  "length_controls": [
+    {
+      "scope": "whole_document",
+      "limit_state": "controlled_source_missing",
+      "limit_type": "unknown",
+      "count_unit": "unknown",
+      "minimum": null,
+      "maximum": null,
+      "exclusions": [],
+      "source_id": "UNRESOLVED",
+      "source_locator": "",
+      "enforcement": "block_release_until_resolved"
+    }
+  ],
+  "required_sections": [],
+  "required_files": [],
+  "format_profile": {
+    "mode": "skill_default_pending_controlled_template",
+    "paper": "A4_portrait",
+    "margins_mm": {"top": 25, "bottom": 25, "left": 28, "right": 22},
+    "body_font_zh": "Noto Serif CJK SC",
+    "heading_font_zh": "Noto Sans CJK SC",
+    "latin_font": "Times New Roman",
+    "body_size_zh": "五号",
+    "heading_sizes_zh": {"level_1": "三号", "level_2": "四号", "level_3": "小四号"},
+    "body_line_spacing": 1.5,
+    "first_line_indent_characters": 2,
+    "paragraph_after_lines": 0.5,
+    "table_body_size_zh": "小五号",
+    "table_row_height": "automatic",
+    "colors": ["000000", "FFFFFF"],
+    "decorative_shading_allowed": false,
+    "decorative_frames_allowed": false
+  },
+  "cover_profile": {
+    "mode": "formal_black_white",
+    "source_id": "SKILL-CPB-1.2",
+    "fields": ["project_name", "document_type", "project_number", "organization", "responsible_person", "date"],
+    "prohibit_colored_bands": true,
+    "prohibit_decorative_frames": true,
+    "prohibit_boxed_metadata_table": true
+  },
+  "template_profile": {
+    "mode": "controlled_template_not_received",
+    "registry_id": "UNRESOLVED",
+    "snapshot_sha256": "",
+    "preserve_structure": true,
+    "preserve_substantive_format_text": true
+  },
+  "release_gate": {
+    "allow_placeholders_in_draft": true,
+    "allow_placeholders_in_release": false,
+    "require_length_recount": true,
+    "require_structure_validation": true,
+    "require_pdf_render": true,
+    "require_every_page_visual_signoff": true,
+    "require_hash_manifest": true,
+    "human_approver": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "packet_id": "FTEX-PACKET-TEMPLATE",
+  "status": "draft_metadata",
+  "source": {
+    "source_id": "SOURCE-ID",
+    "local_path": "REPLACE_WITH_AUTHORIZED_LOCAL_FULLTEXT",
+    "source_title": "",
+    "authors": "",
+    "year": null,
+    "doi": "",
+    "canonical_url": "",
+    "source_type": "official_open_fulltext_article",
+    "license": "",
+    "rights_basis": "",
+    "processing_authorized": false,
+    "access_date": "2026-08-16",
+    "source_sha256": null
+  },
+  "classification": {
+    "module_id": "D1",
+    "discipline": "digital soil mapping",
+    "language": "zh-CN",
+    "genre": "article",
+    "section": "results",
+    "study_design": "",
+    "rhetorical_move": "",
+    "module_fit_reason": ""
+  },
+  "locator": {
+    "kind": "section_and_anchor",
+    "value": "",
+    "anchor_text": "",
+    "anchor_sha256": null,
+    "verified_in_extracted_text": false
+  },
+  "extraction": {
+    "extractor": null,
+    "extracted_text_path": null,
+    "extracted_text_sha256": null,
+    "extracted_character_count": null,
+    "prepared_at": null
+  },
+  "expression": {
+    "entry_type": "abstracted",
+    "exact_fragment": "",
+    "verbatim_word_count": 0,
+    "abstracted_pattern": "",
+    "context_limit": "",
+    "reuse_status": "candidate_not_released",
+    "source_specific_elements_removed": [],
+    "notes": ""
+  },
+  "review": {
+    "review_basis_sha256": null,
+    "title_authors_identifier_checked": false,
+    "fulltext_and_locator_checked": false,
+    "license_and_rights_checked": false,
+    "scientific_context_checked": false,
+    "source_specific_claims_removed": false,
+    "similarity_review_complete": false,
+    "reviewers": [],
+    "adjudication": null
+  },
+  "qualification": {
+    "fulltext_status": "not_prepared",
+    "qualification_status": "candidate",
+    "reviewer_state": "not_reviewed",
+    "release_scope": "not_released"
+  }
+}

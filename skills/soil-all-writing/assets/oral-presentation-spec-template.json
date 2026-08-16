@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "document_id": "ORAL-DRAFT-001",
+  "genre_profile_id": "oral_presentation",
+  "lifecycle_stage": "draft",
+  "controlled_template": {
+    "state": "not_received",
+    "registry_id": "UNRESOLVED",
+    "snapshot_sha256": ""
+  },
+  "title": "补充耕地质量评价口头报告示例",
+  "subtitle": "内部版式测试，不代表研究结果",
+  "authors": "测试作者",
+  "organization": "测试单位",
+  "sections": [
+    {"role": "question", "title": "研究问题", "body": ["评价对象、调查范围和证据边界分别是什么？"]},
+    {"role": "methods", "title": "方法", "body": ["核对采样设计、检测方法和评价规则。", "记录样品流转与质量控制信息。"]},
+    {"role": "key_results", "title": "关键结果", "body": ["【待填：经核验的关键结果】"]},
+    {"role": "limitations", "title": "局限", "body": ["结论不外推至未调查地块或未覆盖时段。"]},
+    {"role": "conclusion", "title": "结论", "body": ["【待填：与证据强度一致的结论】"]}
+  ]
+}

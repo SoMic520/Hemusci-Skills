@@ -1,0 +1,46 @@
+schema_version: 1
+profiles:
+  - provider: openai
+    endpoint_type: responses
+    model_id: REPLACE
+  - provider: anthropic
+    endpoint_type: messages
+    model_id: REPLACE
+  - provider: google-gemini
+    endpoint_type: interactions-or-current-recommended
+    model_id: REPLACE
+  - provider: deepseek
+    endpoint_type: official-or-compatible
+    model_id: REPLACE
+  - provider: qwen
+    endpoint_type: model-studio
+    model_id: REPLACE
+  - provider: mistral
+    endpoint_type: chat-or-conversations
+    model_id: REPLACE
+  - provider: cohere
+    endpoint_type: v2-chat
+    model_id: REPLACE
+  - provider: amazon-bedrock
+    endpoint_type: converse
+    model_id: REPLACE_WITH_FOUNDATION_MODEL_ID
+  - provider: ollama
+    endpoint_type: native-or-compatible-local
+    model_id: REPLACE
+  - provider: custom
+    endpoint_type: documented-adapter
+    model_id: REPLACE
+defaults:
+  instruction_hierarchy_verified: false
+  max_input_tokens: null
+  max_output_tokens: null
+  structured_output: none
+  tool_calling: false
+  web_access: false
+  local_file_access: false
+  stateful: false
+  reasoning_control: none
+  data_policy_verified: false
+  confidentiality_approved: false
+  probes_passed: []
+  probed_at: null

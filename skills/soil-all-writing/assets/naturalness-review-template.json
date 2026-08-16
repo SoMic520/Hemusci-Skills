@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "protocol_id": "NAR-1.0",
+  "artifact_sha256": null,
+  "language": "zh-CN",
+  "genre": "replace-with-controlled-genre",
+  "review_scope": [
+    "replace-with-section-or-full-artifact-scope"
+  ],
+  "author_style_corpus_ids": [],
+  "detector_scores_used": false,
+  "provenance_claim": false,
+  "reviewers": [],
+  "features": [
+    {"feature_id": "N01", "status": "pending", "evidence_locators": [], "notes": ""},
+    {"feature_id": "N02", "status": "pending", "evidence_locators": [], "notes": ""},
+    {"feature_id": "N03", "status": "pending", "evidence_locators": [], "notes": ""},
+    {"feature_id": "N04", "status": "pending", "evidence_locators": [], "notes": ""},
+    {"feature_id": "N05", "status": "pending", "evidence_locators": [], "notes": ""},
+    {"feature_id": "N06", "status": "pending", "evidence_locators": [], "notes": ""},
+    {"feature_id": "N07", "status": "pending", "evidence_locators": [], "notes": ""},
+    {"feature_id": "N08", "status": "pending", "evidence_locators": [], "notes": ""},
+    {"feature_id": "N09", "status": "pending", "evidence_locators": [], "notes": ""},
+    {"feature_id": "N10", "status": "pending", "evidence_locators": [], "notes": ""},
+    {"feature_id": "N11", "status": "pending", "evidence_locators": [], "notes": ""},
+    {"feature_id": "N12", "status": "pending", "evidence_locators": [], "notes": ""}
+  ],
+  "raw_percent_agreement": null,
+  "cohens_kappa": null,
+  "disagreements": [],
+  "adjudication_completed": false,
+  "unresolved_items": [
+    "Template only: freeze the artifact and complete independent human reviews."
+  ],
+  "final_status": "draft",
+  "assertion_scope": null
+}

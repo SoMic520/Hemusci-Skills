@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "baseline_date": "2026-08-16",
+  "release_scope": "protocol_compilation_and_response_normalization_only_no_endpoint_qualification",
+  "providers": {
+    "openai": {
+      "request_style": "openai_responses",
+      "transport": "rest",
+      "relative_path": "/v1/responses",
+      "response_extractor": "openai_responses",
+      "structured_output_mode": "native_json_schema_plus_local_validation",
+      "official_docs": [
+        "https://developers.openai.com/api/reference/resources/responses/methods/create",
+        "https://developers.openai.com/api/docs/guides/structured-outputs"
+      ]
+    },
+    "anthropic": {
+      "request_style": "anthropic_messages",
+      "transport": "rest",
+      "relative_path": "/v1/messages",
+      "response_extractor": "anthropic_messages",
+      "structured_output_mode": "native_json_schema_when_supported_plus_local_validation",
+      "official_docs": [
+        "https://platform.claude.com/docs/en/api/messages/create",
+        "https://platform.claude.com/docs/en/build-with-claude/structured-outputs"
+      ]
+    },
+    "google-gemini": {
+      "request_style": "gemini_generate_content",
+      "transport": "rest",
+      "relative_path": "/v1beta/models/{model}:generateContent",
+      "response_extractor": "gemini_generate_content",
+      "structured_output_mode": "native_json_schema_subset_plus_local_validation",
+      "official_docs": [
+        "https://ai.google.dev/api/generate-content",
+        "https://ai.google.dev/gemini-api/docs/structured-output"
+      ]
+    },
+    "deepseek": {
+      "request_style": "openai_chat_json_object",
+      "transport": "rest",
+      "relative_path": "/chat/completions",
+      "response_extractor": "openai_chat",
+      "structured_output_mode": "json_object_plus_local_validation",
+      "official_docs": [
+        "https://api-docs.deepseek.com/api/create-chat-completion",
+        "https://api-docs.deepseek.com/updates/"
+      ]
+    },
+    "qwen": {
+      "request_style": "openai_responses",
+      "transport": "rest",
+      "relative_path": "/responses",
+      "response_extractor": "openai_responses",
+      "structured_output_mode": "native_json_schema_when_supported_plus_local_validation",
+      "official_docs": [
+        "https://help.aliyun.com/zh/model-studio/qwen-api-via-openai-responses",
+        "https://help.aliyun.com/en/model-studio/qwen-structured-output"
+      ]
+    },
+    "mistral": {
+      "request_style": "mistral_chat_json_schema",
+      "transport": "rest",
+      "relative_path": "/v1/chat/completions",
+      "response_extractor": "openai_chat",
+      "structured_output_mode": "native_json_schema_when_supported_plus_local_validation",
+      "official_docs": [
+        "https://docs.mistral.ai/api/",
+        "https://docs.mistral.ai/capabilities/structured_output/"
+      ]
+    },
+    "cohere": {
+      "request_style": "cohere_v2_chat",
+      "transport": "rest",
+      "relative_path": "/v2/chat",
+      "response_extractor": "cohere_v2_chat",
+      "structured_output_mode": "native_json_schema_when_supported_plus_local_validation",
+      "official_docs": [
+        "https://docs.cohere.com/v2/reference/chat",
+        "https://docs.cohere.com/v2/docs/structured-outputs"
+      ]
+    },
+    "amazon-bedrock": {
+      "request_style": "bedrock_converse",
+      "transport": "aws_sdk",
+      "relative_path": "Converse",
+      "response_extractor": "bedrock_converse",
+      "structured_output_mode": "foundation_model_specific_plus_local_validation",
+      "official_docs": [
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/conversation-inference.html",
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters.html"
+      ]
+    },
+    "ollama": {
+      "request_style": "ollama_chat",
+      "transport": "rest_local",
+      "relative_path": "/api/chat",
+      "response_extractor": "ollama_chat",
+      "structured_output_mode": "native_json_schema_plus_local_validation",
+      "official_docs": [
+        "https://docs.ollama.com/api/chat",
+        "https://docs.ollama.com/capabilities/structured-outputs"
+      ]
+    },
+    "custom": {
+      "request_style": "user_contract_required",
+      "transport": "user_documented",
+      "relative_path": "user_contract_required",
+      "response_extractor": "json_pointer_from_user_contract",
+      "structured_output_mode": "user_documented_plus_local_validation",
+      "official_docs": []
+    }
+  },
+  "auth_policy": "Authentication secrets and credential headers must never be written to compiled request bundles, manifests, raw-response references, or receipts."
+}

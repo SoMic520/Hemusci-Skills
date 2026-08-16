@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "document_id": "VISUAL-DRAFT-001",
+  "genre_profile_id": "academic_poster",
+  "lifecycle_stage": "draft",
+  "controlled_template": {
+    "state": "not_received",
+    "registry_id": "UNRESOLVED",
+    "snapshot_sha256": ""
+  },
+  "title": "补充耕地土壤质量评价示例",
+  "subtitle": "内部版式测试，不代表研究结果",
+  "authors": "测试作者",
+  "organization": "测试单位",
+  "sections": [
+    {"role": "question", "title": "研究问题", "body": ["如何在明确证据边界的前提下表述补充耕地质量评价结果？"]},
+    {"role": "methods", "title": "方法", "body": ["核对调查范围、采样设计、检测方法和评价规则。", "保留样品编号、点位、层位和流转记录。"]},
+    {"role": "primary_result", "title": "主要结果", "body": ["【待填：经核验的主要结果】"]},
+    {"role": "boundary", "title": "适用边界", "body": ["评价结论仅适用于已调查范围和采用的评价依据。"]},
+    {"role": "contact", "title": "联系信息", "body": ["【待填：联系信息】"]}
+  ]
+}

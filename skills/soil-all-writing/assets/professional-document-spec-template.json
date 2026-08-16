@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "document_id": "DRAFT-001",
+  "genre_profile_id": "scientific_report",
+  "lifecycle_stage": "draft",
+  "controlled_template": {
+    "state": "not_required_or_not_received",
+    "registry_id": "UNRESOLVED",
+    "snapshot_sha256": ""
+  },
+  "title": "【待填：文件题名】",
+  "subtitle": "",
+  "metadata": [
+    {"label": "编制单位", "value": "【待填：编制单位】"},
+    {"label": "版本", "value": "内部底稿"},
+    {"label": "日期", "value": "【待填：日期】"}
+  ],
+  "running_header": "",
+  "include_toc": true,
+  "content": [
+    {"type": "notice", "title": "底稿说明", "text": "本文件尚未套用任务特定的受控模板。"},
+    {"type": "heading", "level": 1, "role": "summary", "text": "摘要"},
+    {"type": "paragraph", "role": "summary", "text": "【待填：经核验的摘要内容】"},
+    {"type": "heading", "level": 1, "role": "methods", "text": "方法"},
+    {"type": "paragraph", "role": "methods", "text": "【待填：经核验的方法内容】"},
+    {"type": "heading", "level": 1, "role": "results", "text": "结果"},
+    {"type": "table", "role": "results", "title": "表 1 结果记录", "headers": ["项目", "结果"], "rows": [["【待填：项目】", "【待填：结果】"]], "widths": [1, 2]},
+    {"type": "heading", "level": 1, "role": "conclusions", "text": "结论与边界"},
+    {"type": "paragraph", "role": "conclusions", "text": "【待填：证据范围内的结论与适用边界】"}
+  ]
+}

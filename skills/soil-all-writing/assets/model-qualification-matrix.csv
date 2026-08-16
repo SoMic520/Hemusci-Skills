@@ -1,0 +1,11 @@
+provider,endpoint_type,model_id,model_revision,profile_verified,smoke_suite,full_suite,confidentiality_approved,qualified_scopes,excluded_scopes,evaluator,evaluated_at,evidence_uri,notes
+openai,responses,REPLACE,REPLACE,false,not_run,not_run,false,,,,,,Run against the selected current model and exact host configuration
+anthropic,messages,REPLACE,REPLACE,false,not_run,not_run,false,,,,,,Structured output and tool support vary by model
+google-gemini,interactions-or-current-recommended,REPLACE,REPLACE,false,not_run,not_run,false,,,,,,Preserve required tool-call session metadata
+deepseek,official-or-compatible,REPLACE,REPLACE,false,not_run,not_run,false,,,,,,Do not use deprecated aliases without rechecking
+qwen,model-studio,REPLACE,REPLACE,false,not_run,not_run,false,,,,,,Record region and provider-specific parameters
+mistral,chat-or-conversations,REPLACE,REPLACE,false,not_run,not_run,false,,,,,,Qualify small and large models separately
+cohere,v2-chat,REPLACE,REPLACE,false,not_run,not_run,false,,,,,,Test incompatible tool and response-format combinations
+amazon-bedrock,converse,REPLACE_WITH_FOUNDATION_MODEL_ID,REPLACE,false,not_run,not_run,false,,,,,,Record foundation provider model and region
+ollama,native-or-compatible-local,REPLACE,REPLACE,false,not_run,not_run,false,,,,,,Record quantization Modelfile context and hardware
+custom,documented-adapter,REPLACE,REPLACE,false,not_run,not_run,false,,,,,,Synthetic non-sensitive probes are required before real data

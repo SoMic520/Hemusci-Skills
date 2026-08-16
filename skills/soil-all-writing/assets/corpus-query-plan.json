@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "retrieval_source": "OpenAlex API and Crossref REST API",
+  "retrieval_source_url": "https://api.openalex.org/works; https://api.crossref.org",
+  "minimum_publication_year": 2000,
+  "eligible_work_types": ["article", "review"],
+  "target_records_per_module": 1000,
+  "audit_sample_per_module": 150,
+  "core_query_limit": 350,
+  "chinese_query_limit": 200,
+  "chinese_t1_source_ids": [
+    "S4306500464",
+    "S2764700999",
+    "S4306546216",
+    "S4306552828",
+    "S4306529909"
+  ],
+  "modules": [
+    {
+      "module_id": "D1",
+      "name": "土壤发生分类资源调查与制图",
+      "core_queries": ["soil taxonomy classification pedology", "digital soil mapping pedometrics", "soil genesis morphology horizons", "soil survey land evaluation"],
+      "chinese_query": "土壤 分类 制图 调查 发生",
+      "crossref_query": "soil taxonomy classification pedology digital soil mapping soil survey",
+      "classification_terms": ["taxonomy", "soil classification", "pedology", "pedogenesis", "soil genesis", "soil survey", "digital soil mapping", "pedometrics", "soil morphology", "soil horizon", "land evaluation", "土壤分类", "土壤发生", "成土", "土壤调查", "数字土壤", "土壤制图", "土壤形态", "土壤地理", "土地评价"],
+      "crossref_sources": [["0016-7061", "Geoderma"], ["1351-0754", "European Journal of Soil Science"], ["0361-5995", "Soil Science Society of America Journal"], ["2199-398X", "SOIL"], ["1002-0160", "Pedosphere"]]
+    },
+    {
+      "module_id": "D2",
+      "name": "土壤物理水热气力学与侵蚀",
+      "core_queries": ["soil water retention hydraulic conductivity", "soil aggregation porosity bulk density", "soil infiltration preferential flow", "soil compaction mechanics erosion"],
+      "chinese_query": "土壤 水分 团聚体 容重 入渗 侵蚀",
+      "crossref_query": "soil water retention hydraulic conductivity aggregation porosity bulk density infiltration compaction erosion",
+      "classification_terms": ["water retention", "hydraulic conductivity", "soil water", "soil structure", "aggregate", "porosity", "bulk density", "infiltration", "preferential flow", "compaction", "erosion", "runoff", "sediment yield", "土壤水分", "水力传导", "团聚体", "孔隙", "容重", "入渗", "优先流", "压实", "侵蚀", "径流", "产沙"],
+      "crossref_sources": [["0167-1987", "Soil and Tillage Research"], ["0341-8162", "Catena"], ["0378-3774", "Agricultural Water Management"], ["0016-7061", "Geoderma"], ["0361-5995", "Soil Science Society of America Journal"]]
+    },
+    {
+      "module_id": "D3",
+      "name": "土壤化学矿物学与界面过程",
+      "core_queries": ["soil acidity cation exchange sorption", "soil mineralogy clay minerals iron oxides", "soil redox speciation complexation", "soil salinity sodicity chemistry"],
+      "chinese_query": "土壤 化学 矿物 吸附 交换 盐碱",
+      "crossref_query": "soil chemistry mineralogy sorption cation exchange redox speciation clay minerals salinity sodicity",
+      "classification_terms": ["cation exchange", "sorption", "adsorption", "redox", "speciation", "clay mineral", "iron oxide", "soil acidity", "salinity", "sodicity", "mineralogy", "soil colloid", "阳离子交换", "吸附", "氧化还原", "形态分析", "黏土矿物", "铁氧化物", "酸度", "盐渍", "碱化", "矿物学", "胶体"],
+      "crossref_sources": [["0016-7061", "Geoderma"], ["1351-0754", "European Journal of Soil Science"], ["0361-5995", "Soil Science Society of America Journal"], ["0883-2927", "Applied Geochemistry"], ["0009-2541", "Chemical Geology"]]
+    },
+    {
+      "module_id": "D4",
+      "name": "土壤肥力植物营养与养分管理",
+      "core_queries": ["soil fertility plant nutrition fertilizer", "rhizosphere nutrient use efficiency", "soil phosphorus availability crop", "soil nitrogen management amendment"],
+      "chinese_query": "土壤 肥力 植物营养 肥料 养分",
+      "crossref_query": "soil fertility plant nutrition fertilizer rhizosphere nutrient use efficiency phosphorus nitrogen",
+      "classification_terms": ["soil fertility", "plant nutrition", "fertilizer", "rhizosphere", "nutrient use efficiency", "available phosphorus", "nitrogen management", "nutrient uptake", "土壤肥力", "植物营养", "肥料", "根际", "养分利用率", "有效磷", "氮素管理", "养分吸收"],
+      "crossref_sources": [["0032-079X", "Plant and Soil"], ["0038-0717", "Soil Biology and Biochemistry"], ["0378-4290", "Field Crops Research"], ["1161-0301", "European Journal of Agronomy"], ["0016-7061", "Geoderma"]]
+    },
+    {
+      "module_id": "D5",
+      "name": "土壤生物微生物与生态",
+      "core_queries": ["soil microbial ecology community", "soil fauna fungi enzymes roots", "soil metagenomics microbiome", "soil biodiversity microbial biomass activity"],
+      "chinese_query": "土壤 微生物 生物多样性 酶 根际",
+      "crossref_query": "soil microbial ecology microbiome fungi fauna enzymes roots biodiversity biomass activity",
+      "classification_terms": ["soil microbial", "microbiome", "bacteria", "fungi", "soil fauna", "soil enzyme", "microbial community", "metagenom", "soil biodiversity", "microbial biomass", "土壤微生物", "微生物群落", "细菌", "真菌", "土壤动物", "土壤酶", "宏基因组", "生物多样性", "微生物量"],
+      "crossref_sources": [["0038-0717", "Soil Biology and Biochemistry"], ["0929-1393", "Applied Soil Ecology"], ["2662-2289", "Soil Ecology Letters"], ["1751-7362", "The ISME Journal"], ["0168-6496", "FEMS Microbiology Ecology"]]
+    },
+    {
+      "module_id": "D6",
+      "name": "土壤生物地球化学与全球变化",
+      "core_queries": ["soil carbon nitrogen biogeochemistry", "mineral associated organic matter particulate", "soil greenhouse gas flux climate", "soil priming stabilization persistence isotope"],
+      "chinese_query": "土壤 碳氮循环 有机碳 温室气体 全球变化",
+      "crossref_query": "soil carbon nitrogen biogeochemistry organic matter greenhouse gas priming stabilization isotope climate",
+      "classification_terms": ["soil organic carbon", "carbon cycle", "carbon stock", "greenhouse gas", "nitrous oxide", "methane", "biogeochemistry", "priming", "carbon stabilization", "isotope", "mineral-associated", "particulate organic", "土壤有机碳", "碳循环", "碳储量", "温室气体", "氧化亚氮", "甲烷", "生物地球化学", "激发效应", "碳稳定", "同位素", "矿物结合", "颗粒有机"],
+      "crossref_sources": [["1354-1013", "Global Change Biology"], ["0168-2563", "Biogeochemistry"], ["0038-0717", "Soil Biology and Biochemistry"], ["2199-398X", "SOIL"], ["1752-0894", "Nature Geoscience"]]
+    },
+    {
+      "module_id": "D7",
+      "name": "土壤污染风险与修复",
+      "core_queries": ["soil pollution heavy metals risk", "soil pesticides antibiotics resistance genes", "soil microplastics emerging contaminants", "soil remediation phytoremediation contaminant transport"],
+      "chinese_query": "土壤 污染 风险 重金属 修复",
+      "crossref_query": "soil pollution contamination heavy metals pesticides antibiotics microplastics risk remediation exposure",
+      "classification_terms": ["soil contamination", "soil pollution", "heavy metal", "pesticide", "antibiotic", "resistance gene", "microplastic", "remediation", "phytoremediation", "ecological risk", "health risk", "cadmium", "arsenic", "土壤污染", "重金属", "农药", "抗生素", "抗性基因", "微塑料", "修复", "植物修复", "生态风险", "健康风险", "镉", "砷"],
+      "crossref_sources": [["0269-7491", "Environmental Pollution"], ["0048-9697", "Science of the Total Environment"], ["0013-936X", "Environmental Science and Technology"], ["0304-3894", "Journal of Hazardous Materials"], ["0160-4120", "Environment International"]]
+    },
+    {
+      "module_id": "D8",
+      "name": "土壤退化保护恢复与生态服务",
+      "core_queries": ["soil degradation restoration conservation", "soil erosion conservation restoration", "soil salinization acidification compaction", "land reclamation soil health indicators"],
+      "chinese_query": "土壤 退化 保护 恢复 盐渍化 酸化",
+      "crossref_query": "soil degradation restoration conservation erosion salinization acidification compaction reclamation health",
+      "classification_terms": ["soil degradation", "soil restoration", "soil conservation", "salinization", "acidification", "desertification", "reclamation", "soil health", "anti-scour", "erosion control", "土壤退化", "土壤恢复", "土壤保护", "盐渍化", "酸化", "荒漠化", "复垦", "土壤健康", "抗冲性", "水土保持"],
+      "crossref_sources": [["0341-8162", "Catena"], ["1085-3278", "Land Degradation and Development"], ["0167-1987", "Soil and Tillage Research"], ["0016-7061", "Geoderma"], ["2095-6339", "International Soil and Water Conservation Research"]]
+    },
+    {
+      "module_id": "D9",
+      "name": "生态系统与土地利用情境",
+      "core_queries": ["cropland forest grassland wetland soil", "urban industrial mining soil", "permafrost alpine arid soil", "paddy coastal saline tropical soil"],
+      "chinese_query": "农田 森林 草地 湿地 城市 土壤",
+      "crossref_query": "cropland forest grassland wetland urban mining permafrost alpine arid paddy soil land use",
+      "classification_terms": ["cropland", "farmland", "forest soil", "grassland", "wetland", "urban soil", "mining soil", "permafrost", "alpine soil", "arid soil", "paddy soil", "coastal soil", "land use", "农田", "耕地", "森林土壤", "草地", "湿地", "城市土壤", "矿区土壤", "冻土", "高寒土壤", "干旱区土壤", "水稻土", "滨海土壤", "土地利用"],
+      "crossref_sources": [["0167-8809", "Agriculture Ecosystems and Environment"], ["1354-1013", "Global Change Biology"], ["0022-0477", "Journal of Ecology"], ["0038-0717", "Soil Biology and Biochemistry"], ["0016-7061", "Geoderma"]]
+    },
+    {
+      "module_id": "D10",
+      "name": "地质地貌水文气候与地球系统",
+      "core_queries": ["critical zone soil weathering geochemistry", "soil geomorphology sediment hydrology", "soil groundwater hydrogeology", "atmospheric deposition soil earth system"],
+      "chinese_query": "关键带 土壤 风化 地貌 水文 地球系统",
+      "crossref_query": "critical zone soil weathering geochemistry geomorphology sediment hydrology groundwater atmospheric deposition",
+      "classification_terms": ["critical zone", "weathering", "geomorphology", "sediment transport", "soil hydrology", "groundwater", "hydrogeology", "atmospheric deposition", "earth system", "soil geochemistry", "关键带", "风化", "地貌", "泥沙输移", "土壤水文", "地下水", "水文地质", "大气沉降", "地球系统", "土壤地球化学"],
+      "crossref_sources": [["1607-7938", "Hydrology and Earth System Sciences"], ["0197-9337", "Earth Surface Processes and Landforms"], ["0016-7037", "Geochimica et Cosmochimica Acta"], ["1752-0894", "Nature Geoscience"], ["1866-3516", "Earth System Science Data"], ["0022-1694", "Journal of Hydrology"], ["0043-1397", "Water Resources Research"], ["0009-2541", "Chemical Geology"], ["0012-821X", "Earth and Planetary Science Letters"], ["0169-555X", "Geomorphology"]]
+    },
+    {
+      "module_id": "D11",
+      "name": "农学耕作农业生态与资源管理",
+      "core_queries": ["agroecology tillage conservation agriculture soil", "crop rotation soil management", "irrigation drainage soil agriculture", "agricultural waste recycling life cycle soil"],
+      "chinese_query": "耕作 农业生态 轮作 灌溉 资源循环 土壤",
+      "crossref_query": "soil agroecology tillage conservation agriculture crop rotation irrigation drainage waste recycling life cycle",
+      "classification_terms": ["agroecology", "tillage", "conservation agriculture", "crop rotation", "cropping system", "irrigation", "drainage", "agricultural waste", "life cycle assessment", "agronomy", "农业生态", "耕作", "保护性农业", "轮作", "种植制度", "灌溉", "排水", "农业废弃物", "生命周期评价", "农艺"],
+      "crossref_sources": [["0308-521X", "Agricultural Systems"], ["0378-4290", "Field Crops Research"], ["0167-8809", "Agriculture Ecosystems and Environment"], ["0921-3449", "Resources Conservation and Recycling"], ["0959-6526", "Journal of Cleaner Production"]]
+    },
+    {
+      "module_id": "D12",
+      "name": "采样分析统计遥感模型与复现",
+      "core_queries": ["soil sampling experimental design analysis", "soil spectroscopy chromatography XRD XAS", "digital soil mapping machine learning remote sensing", "soil spatial statistics geostatistics process model"],
+      "chinese_query": "土壤 采样 分析 遥感 机器学习 空间统计",
+      "crossref_query": "soil sampling analysis spectroscopy remote sensing machine learning geostatistics process model reproducibility",
+      "classification_terms": ["soil sampling", "spectroscopy", "remote sensing", "machine learning", "geostatistics", "spatial prediction", "process model", "reactive transport", "reproducibility", "x-ray diffraction", "x-ray absorption", "nuclear magnetic resonance", "土壤采样", "光谱", "遥感", "机器学习", "地统计", "空间预测", "过程模型", "反应运移", "可复现", "X射线衍射", "X射线吸收", "核磁共振"],
+      "crossref_sources": [["2041-210X", "Methods in Ecology and Evolution"], ["0034-4257", "Remote Sensing of Environment"], ["1364-8152", "Environmental Modelling and Software"], ["1991-9603", "Geoscientific Model Development"], ["1866-3516", "Earth System Science Data"]]
+    },
+    {
+      "module_id": "D13",
+      "name": "工程健康食品毒理标准政策与经济",
+      "core_queries": ["geotechnical soil environmental engineering", "soil human health risk food safety", "soil toxicology exposure assessment", "soil standard policy economics conformity"],
+      "chinese_query": "土壤 工程 健康风险 食品安全 标准 政策",
+      "crossref_query": "soil geotechnical environmental engineering human health risk food safety toxicology policy economics standard",
+      "classification_terms": ["geotechnical", "soil engineering", "human health risk", "food safety", "toxicology", "exposure assessment", "soil policy", "environmental economics", "soil standard", "conformity assessment", "岩土", "土壤工程", "健康风险", "食品安全", "毒理", "暴露评估", "土壤政策", "环境经济", "土壤标准", "合格评定"],
+      "crossref_sources": [["0013-7952", "Engineering Geology"], ["0013-936X", "Environmental Science and Technology"], ["0160-4120", "Environment International"], ["0308-8146", "Food Chemistry"], ["0272-4332", "Risk Analysis"]]
+    }
+  ]
+}

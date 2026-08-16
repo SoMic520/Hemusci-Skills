@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "source_sha256": "LOCKED_SOURCE_DOCX_SHA256",
+  "preservation_mode": "word_text_nodes_only",
+  "repairs": [
+    {
+      "unit_id": "word/document.xml::p00001::t001",
+      "original_text_sha256": "LOCKED_ORIGINAL_TEXT_SHA256",
+      "replacement_text": "经授权修订后的文字",
+      "reason": "terminology|grammar|translation|naturalness|other",
+      "allow_empty": false
+    }
+  ]
+}

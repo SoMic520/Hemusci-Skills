@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "profile_id": "FORMAL-BW-1.0",
+  "authority": "skill_default_only_when_controlled_template_is_silent",
+  "applicable_genres": ["technical_bid", "scientific_report", "research_report", "investigation_report", "assessment_report"],
+  "page": {"paper": "A4", "orientation": "portrait", "background": "FFFFFF"},
+  "typography": {
+    "title_zh": "Noto Sans CJK SC",
+    "body_zh": "Noto Serif CJK SC",
+    "latin": "Times New Roman",
+    "color": "000000"
+  },
+  "required_field_roles": ["title", "document_type", "organization", "date"],
+  "optional_field_roles": ["project_number", "commissioning_organization", "responsible_person", "version", "confidentiality"],
+  "layout": "plain_centered_paragraphs_with_generous_vertical_spacing",
+  "prohibited": ["colored_band", "gradient", "decorative_shading", "card", "text_box_frame", "boxed_metadata_table", "unverified_logo", "unverified_seal"]
+}

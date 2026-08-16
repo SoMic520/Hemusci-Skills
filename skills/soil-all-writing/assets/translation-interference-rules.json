@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "rules_version": "2026-08-16.1",
+  "scope": "English-to-Chinese soil-science and adjacent natural-science translation. These rules diagnose source-language interference before the Chinese domain-register release audit.",
+  "literal_exception_policy": "A forbidden Chinese rendering may remain only as an exact source-locked occurrence in an immutable quotation, official title, or procurement clause. A technical-sense label is not an exception.",
+  "rules": [
+    {
+      "id": "TRI001",
+      "issue_class": "translation_interference",
+      "related_register_entry_id": "DR002",
+      "forbidden_target": "闭环",
+      "source_patterns": [
+        "\\bclosed[- ]loop(?:\\s+(?:control|controller|system|operation|feedback))?\\b",
+        "\\b(?:close|closes|closed|closing)\\s+the\\s+loop\\b"
+      ],
+      "resolution_by_sense": [
+        {
+          "sense": "measurement_feedback_control",
+          "diagnostic_question": "Which measured variable changes which actuator or control input?",
+          "preferred_target_realizations": [
+            "根据测量结果调节执行部件",
+            "反馈控制",
+            "测量—判断—调节关系"
+          ]
+        },
+        {
+          "sense": "corrective_action_verification",
+          "diagnostic_question": "What problem is identified, what correction is taken, and how is effectiveness verified?",
+          "preferred_target_realizations": [
+            "发现问题、采取纠正措施并验证措施有效性",
+            "记录偏差处置和复核结果"
+          ]
+        },
+        {
+          "sense": "traceability_or_argument_correspondence",
+          "diagnostic_question": "Does the source mean traceable records or correspondence among research questions, methods, results, and conclusions?",
+          "preferred_target_realizations": [
+            "样品流转可追溯",
+            "目的、方法、结果和结论完整对应"
+          ]
+        }
+      ],
+      "release_rule": "The translator must recover the proposition from the source; the literal target is an error in translator-authored Chinese."
+    },
+    {
+      "id": "TRI002",
+      "issue_class": "translation_interference",
+      "related_register_entry_id": "DR026",
+      "forbidden_target": "全链条",
+      "source_patterns": [
+        "\\b(?:full|whole)[- ]chain\\b",
+        "\\b(?:the\\s+)?entire\\s+(?:[a-z]+(?:[- ][a-z]+){0,3}\\s+)?chain\\b",
+        "\\bacross\\s+(?:the\\s+)?(?:full|whole|entire)\\s+(?:[a-z]+(?:[- ][a-z]+){0,3}\\s+)?chain\\b"
+      ],
+      "resolution_by_sense": [
+        {
+          "sense": "sample_custody_or_analytical_stages",
+          "diagnostic_question": "Which sampling, custody, preparation, analysis, review, and archiving stages are actually included?",
+          "preferred_target_realizations": [
+            "样品流转与交接记录",
+            "从采样、运输、制备、检测到归档的各阶段"
+          ]
+        },
+        {
+          "sense": "material_process_or_causal_sequence",
+          "diagnostic_question": "Which source, input, transport, transformation, exposure, or fate processes are meant?",
+          "preferred_target_realizations": [
+            "列明投入、迁移、转化和归趋",
+            "说明各过程及其衔接关系"
+          ]
+        },
+        {
+          "sense": "production_or_supply_stages",
+          "diagnostic_question": "Which production, storage, transport, processing, use, or recovery stages are within scope?",
+          "preferred_target_realizations": [
+            "分别列明生产、储存、运输、使用和回收阶段",
+            "按实际研究范围写明起止阶段"
+          ]
+        }
+      ],
+      "release_rule": "The translator must enumerate the stages or processes supported by the source; a total-scope label may not replace them."
+    }
+  ]
+}

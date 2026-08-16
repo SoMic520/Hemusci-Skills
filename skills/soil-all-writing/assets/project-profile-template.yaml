@@ -1,0 +1,31 @@
+schema_version: 1
+project_id: EXAMPLE-REPLACE
+title: Replace with the controlled project title
+operation: substantive_edit
+artifact_type: manuscript
+genre: journal_article
+discipline_modules:
+  - D4-soil-biogeochemistry
+source_language: zh-CN
+target_language: en-US
+audience: soil-science peers
+venue: unknown
+lifecycle_stage: draft
+edit_authority: propose_changes
+confidentiality: internal
+external_processing_authorized: false
+policy:
+  state: unknown
+  authority_source_ids: []
+  checked_date: null
+  checked_by: null
+protected_elements_file: protected-elements-template.json
+termbase_file: termbase-template.csv
+source_ledger_file: source-ledger-template.csv
+expression_corpus_file: expression-corpus-starter.csv
+locked_language: []
+human_approvers:
+  discipline: null
+  genre: null
+  language: null
+  final: null

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "contract_id": "FIGTAB-CONTRACT-TEMPLATE",
+  "language": "zh-CN",
+  "artifact_kind": "scientific_figure_or_table",
+  "request_source": "skill_default",
+  "requested_components": ["results"],
+  "exact_user_requirements": [],
+  "locator": {
+    "provided": false,
+    "value": "",
+    "style": "content_first_locator_later",
+    "source": "none"
+  },
+  "length": {
+    "minimum": 500,
+    "maximum": 800,
+    "counting_unit": "han_characters_plus_alnum_tokens",
+    "enforcement": "soft_default",
+    "source": "skill_default",
+    "authority_definition": ""
+  },
+  "analysis": {
+    "requested": false,
+    "depth": "none",
+    "maximum_sentences": 0,
+    "maximum_fraction": 0.0
+  },
+  "result_analysis_separated": true,
+  "connector_policy": {
+    "mode": "functional_context",
+    "explicitly_allowed": [],
+    "explicitly_avoided": []
+  },
+  "blank_cells": {
+    "policy": "omit_unless_material",
+    "material_to_claim": false
+  },
+  "locked_terms": [],
+  "notes": "Replace defaults with the user's current instructions. User-specified components, length, analysis depth, locator style, and terminology take precedence."
+}

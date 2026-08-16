@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": "EXAMPLE-REPLACE",
+  "source_sha256": null,
+  "generated_at": null,
+  "elements": {
+    "numbers": [],
+    "number_unit_pairs": [],
+    "citations": [],
+    "identifiers": [],
+    "urls": [],
+    "cross_references": [],
+    "chemical_or_statistical_tokens": [],
+    "locked_text": []
+  },
+  "limitations": [
+    "Regex extraction produces candidates and does not replace domain review."
+  ]
+}

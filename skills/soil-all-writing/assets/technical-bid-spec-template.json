@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "document_id": "TECH-BID-REPLACE",
+  "status": "draft",
+  "format_profile": "CPB-1.0",
+  "cover": {
+    "project_name": "【待填：项目名称】",
+    "document_type": "投标文件（技术部分）",
+    "project_number": "【待填：项目编号】",
+    "bidder": "【待填：投标人全称】",
+    "representative": "【待填：法定代表人或授权代表】",
+    "date": "【待填：投标日期】"
+  },
+  "running_header": "【待填：项目简称】｜投标文件（技术部分）",
+  "content": [
+    {
+      "type": "notice",
+      "title": "投标前必须完成的配置",
+      "text": "本文件是技术底稿。取得招标文件、属地实施细则和投标人真实资料后，逐项替换占位符并重新校验、渲染。"
+    },
+    {"type": "toc"},
+    {"type": "page_break"},
+    {"type": "heading", "level": 1, "text": "1 项目理解"},
+    {"type": "paragraph", "text": "【待填：依据采购需求形成的项目理解。】"}
+  ]
+}
