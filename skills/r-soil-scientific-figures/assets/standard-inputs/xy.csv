@@ -1,0 +1,13 @@
+sample_id,x,y,group,label,size,x_unit,y_unit
+P01,5.2,8.1,Control,Plot 1,24,pH,g kg^-1
+P02,5.5,8.8,Control,Plot 2,27,pH,g kg^-1
+P03,5.8,9.0,Control,Plot 3,21,pH,g kg^-1
+P04,6.1,9.7,Control,Plot 4,29,pH,g kg^-1
+P05,6.4,10.2,Control,Plot 5,25,pH,g kg^-1
+P06,5.3,9.3,Compost,Plot 6,31,pH,g kg^-1
+P07,5.6,9.9,Compost,Plot 7,35,pH,g kg^-1
+P08,5.9,10.5,Compost,Plot 8,32,pH,g kg^-1
+P09,6.2,11.0,Compost,Plot 9,38,pH,g kg^-1
+P10,6.5,11.6,Compost,Plot 10,36,pH,g kg^-1
+P11,6.8,12.1,Compost,Plot 11,40,pH,g kg^-1
+P12,7.0,12.5,Compost,Plot 12,42,pH,g kg^-1

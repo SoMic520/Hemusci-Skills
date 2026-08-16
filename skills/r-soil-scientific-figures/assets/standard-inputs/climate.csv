@@ -1,0 +1,13 @@
+time,temperature,precipitation,station,year,temperature_unit,precipitation_unit
+1,2.0,42,Station-A,2025,degC,mm
+2,4.1,38,Station-A,2025,degC,mm
+3,8.3,46,Station-A,2025,degC,mm
+4,13.2,55,Station-A,2025,degC,mm
+5,17.8,72,Station-A,2025,degC,mm
+6,21.4,88,Station-A,2025,degC,mm
+7,23.6,96,Station-A,2025,degC,mm
+8,22.9,82,Station-A,2025,degC,mm
+9,18.7,61,Station-A,2025,degC,mm
+10,13.0,49,Station-A,2025,degC,mm
+11,7.2,44,Station-A,2025,degC,mm
+12,3.1,40,Station-A,2025,degC,mm

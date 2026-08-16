@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "figure_id": "figure-1",
+  "created": "YYYY-MM-DD",
+  "source_data": [
+    "data/figure-data.csv"
+  ],
+  "transformations": [
+    "Describe filtering, missing values, units, transformations, aggregation, smoothing and random seeds."
+  ],
+  "design": {
+    "experimental_unit": "Specify the independent experimental unit.",
+    "replication": "Distinguish biological/experimental and technical/subsample replication.",
+    "pairing_blocking_nesting": "Specify IDs, blocks, repeated measures, depths and spatial structure."
+  },
+  "statistics": {
+    "estimand": "Specify the plotted effect or summary.",
+    "uncertainty": "Specify SD, SE, CI, PI, credible interval, posterior or spatial uncertainty.",
+    "model": "Specify the verified model object or descriptive calculation.",
+    "multiplicity": "Specify correction family or state not applicable."
+  },
+  "software": {
+    "R": "Record R version from sessionInfo().",
+    "packages": {}
+  },
+  "dimensions": {
+    "width_mm": 89,
+    "height_mm": 70,
+    "raster_dpi": 600,
+    "background": "white"
+  },
+  "color": {
+    "semantics": "qualitative|sequential|diverging|cyclic|bivariate",
+    "mapping": {},
+    "redundant_encoding": "shape|linetype|label|facet|none with justification"
+  },
+  "outputs": [
+    "outputs/figure-1.pdf",
+    "outputs/figure-1.png"
+  ],
+  "notes": [
+    "Record journal-specific decisions, unresolved checks and manual visual-review date."
+  ]
+}

@@ -1,0 +1,9 @@
+from,to,weight,from_group,to_group,direction
+SOC,Bacteria,0.72,Soil,Microbe,directed
+SOC,Fungi,0.58,Soil,Microbe,directed
+Moisture,Bacteria,0.44,Soil,Microbe,directed
+Moisture,CO2_flux,0.63,Soil,Function,directed
+Bacteria,CO2_flux,0.51,Microbe,Function,directed
+Fungi,Enzyme,0.67,Microbe,Function,directed
+Clay,Moisture,0.39,Soil,Soil,directed
+pH,Bacteria,-0.34,Soil,Microbe,directed

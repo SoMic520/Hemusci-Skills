@@ -1,0 +1,13 @@
+observation_id,feature,feature_value,effect,importance,lower,upper,group
+I01,Clay,12,-0.30,0.42,-0.42,-0.18,Control
+I02,Clay,20,-0.12,0.42,-0.24,0.00,Control
+I03,Clay,28,0.08,0.42,-0.04,0.20,Compost
+I04,Clay,36,0.26,0.42,0.14,0.38,Compost
+I05,pH,5.0,-0.22,0.31,-0.34,-0.10,Control
+I06,pH,5.8,-0.05,0.31,-0.17,0.07,Control
+I07,pH,6.6,0.14,0.31,0.02,0.26,Compost
+I08,pH,7.2,0.20,0.31,0.08,0.32,Compost
+I09,Moisture,14,-0.16,0.24,-0.28,-0.04,Control
+I10,Moisture,22,0.02,0.24,-0.10,0.14,Control
+I11,Moisture,30,0.18,0.24,0.06,0.30,Compost
+I12,Moisture,38,0.25,0.24,0.13,0.37,Compost

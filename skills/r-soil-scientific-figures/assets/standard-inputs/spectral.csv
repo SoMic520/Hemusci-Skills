@@ -1,0 +1,17 @@
+sample_id,wavelength_nm,value,group,unit
+S1,400,0.12,Control,reflectance
+S1,500,0.18,Control,reflectance
+S1,600,0.24,Control,reflectance
+S1,700,0.31,Control,reflectance
+S1,900,0.42,Control,reflectance
+S1,1100,0.48,Control,reflectance
+S1,1400,0.39,Control,reflectance
+S1,1900,0.28,Control,reflectance
+S2,400,0.10,Compost,reflectance
+S2,500,0.16,Compost,reflectance
+S2,600,0.22,Compost,reflectance
+S2,700,0.29,Compost,reflectance
+S2,900,0.38,Compost,reflectance
+S2,1100,0.43,Compost,reflectance
+S2,1400,0.34,Compost,reflectance
+S2,1900,0.24,Compost,reflectance

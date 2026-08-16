@@ -1,0 +1,13 @@
+row_id,column_id,value,row_group,column_group,unit
+SOC,pH,0.62,Carbon,Chemistry,correlation
+SOC,Clay,0.48,Carbon,Texture,correlation
+SOC,Moisture,0.71,Carbon,Physics,correlation
+Total_N,pH,0.44,Nitrogen,Chemistry,correlation
+Total_N,Clay,0.53,Nitrogen,Texture,correlation
+Total_N,Moisture,0.66,Nitrogen,Physics,correlation
+MBC,pH,0.37,Biology,Chemistry,correlation
+MBC,Clay,0.28,Biology,Texture,correlation
+MBC,Moisture,0.74,Biology,Physics,correlation
+CO2_flux,pH,-0.25,Flux,Chemistry,correlation
+CO2_flux,Clay,0.18,Flux,Texture,correlation
+CO2_flux,Moisture,0.58,Flux,Physics,correlation

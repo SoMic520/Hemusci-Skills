@@ -1,0 +1,25 @@
+element_type,row_id,column_id,value,p_value,from,to,link_value,link_p,group
+cell,pH,pH,1.00,0.001,,,,,
+cell,pH,Moisture,-0.42,0.032,,,,,
+cell,pH,Clay,0.36,0.041,,,,,
+cell,pH,SOC,-0.28,0.084,,,,,
+cell,Moisture,pH,-0.42,0.032,,,,,
+cell,Moisture,Moisture,1.00,0.001,,,,,
+cell,Moisture,Clay,0.61,0.006,,,,,
+cell,Moisture,SOC,0.74,0.002,,,,,
+cell,Clay,pH,0.36,0.041,,,,,
+cell,Clay,Moisture,0.61,0.006,,,,,
+cell,Clay,Clay,1.00,0.001,,,,,
+cell,Clay,SOC,0.53,0.012,,,,,
+cell,SOC,pH,-0.28,0.084,,,,,
+cell,SOC,Moisture,0.74,0.002,,,,,
+cell,SOC,Clay,0.53,0.012,,,,,
+cell,SOC,SOC,1.00,0.001,,,,,
+link,,,,,Yield,pH,0.22,0.120,Plant trait
+link,,,,,Yield,Moisture,0.58,0.004,Plant trait
+link,,,,,Yield,Clay,0.31,0.038,Plant trait
+link,,,,,Yield,SOC,0.67,0.002,Plant trait
+link,,,,,Microbial biomass,pH,0.42,0.019,Community
+link,,,,,Microbial biomass,Moisture,0.63,0.003,Community
+link,,,,,Microbial biomass,Clay,0.37,0.027,Community
+link,,,,,Microbial biomass,SOC,0.72,0.001,Community

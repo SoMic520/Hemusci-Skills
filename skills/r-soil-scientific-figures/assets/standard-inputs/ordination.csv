@@ -1,0 +1,10 @@
+element_type,label,axis1,axis2,group,sample_id,axis1_label,axis2_label
+sample,S1,-1.20,0.45,Control,S1,Axis 1 (42%),Axis 2 (21%)
+sample,S2,-0.80,-0.15,Control,S2,Axis 1 (42%),Axis 2 (21%)
+sample,S3,-0.35,0.70,Control,S3,Axis 1 (42%),Axis 2 (21%)
+sample,S4,0.55,0.30,Compost,S4,Axis 1 (42%),Axis 2 (21%)
+sample,S5,0.90,-0.25,Compost,S5,Axis 1 (42%),Axis 2 (21%)
+sample,S6,1.25,0.55,Compost,S6,Axis 1 (42%),Axis 2 (21%)
+arrow,pH,0.75,0.18,Variable,,Axis 1 (42%),Axis 2 (21%)
+arrow,SOC,0.35,0.72,Variable,,Axis 1 (42%),Axis 2 (21%)
+arrow,Clay,-0.62,0.38,Variable,,Axis 1 (42%),Axis 2 (21%)

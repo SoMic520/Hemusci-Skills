@@ -1,0 +1,7 @@
+sample_id,part_a,part_b,part_c,group,label,total
+T1,55,25,20,Control,Sample 1,100
+T2,48,32,20,Control,Sample 2,100
+T3,42,38,20,Control,Sample 3,100
+T4,35,40,25,Compost,Sample 4,100
+T5,30,35,35,Compost,Sample 5,100
+T6,25,30,45,Compost,Sample 6,100

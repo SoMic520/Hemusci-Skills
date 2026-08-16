@@ -1,0 +1,25 @@
+sample_id,group,value,block,treatment,variable,unit,label
+S01,Control,8.8,B1,Control,soil_organic_carbon,g kg^-1,Plot 1
+S02,Compost,10.4,B1,Compost,soil_organic_carbon,g kg^-1,Plot 1
+S03,Control,9.2,B2,Control,soil_organic_carbon,g kg^-1,Plot 2
+S04,Compost,11.1,B2,Compost,soil_organic_carbon,g kg^-1,Plot 2
+S05,Control,8.5,B3,Control,soil_organic_carbon,g kg^-1,Plot 3
+S06,Compost,10.0,B3,Compost,soil_organic_carbon,g kg^-1,Plot 3
+S07,Control,9.6,B4,Control,soil_organic_carbon,g kg^-1,Plot 4
+S08,Compost,11.8,B4,Compost,soil_organic_carbon,g kg^-1,Plot 4
+S09,Control,9.0,B5,Control,soil_organic_carbon,g kg^-1,Plot 5
+S10,Compost,10.7,B5,Compost,soil_organic_carbon,g kg^-1,Plot 5
+S11,Control,8.9,B6,Control,soil_organic_carbon,g kg^-1,Plot 6
+S12,Compost,11.3,B6,Compost,soil_organic_carbon,g kg^-1,Plot 6
+S13,Control,9.4,B7,Control,soil_organic_carbon,g kg^-1,Plot 7
+S14,Compost,10.8,B7,Compost,soil_organic_carbon,g kg^-1,Plot 7
+S15,Control,8.7,B8,Control,soil_organic_carbon,g kg^-1,Plot 8
+S16,Compost,11.5,B8,Compost,soil_organic_carbon,g kg^-1,Plot 8
+S17,Control,9.1,B9,Control,soil_organic_carbon,g kg^-1,Plot 9
+S18,Compost,10.2,B9,Compost,soil_organic_carbon,g kg^-1,Plot 9
+S19,Control,8.6,B10,Control,soil_organic_carbon,g kg^-1,Plot 10
+S20,Compost,11.0,B10,Compost,soil_organic_carbon,g kg^-1,Plot 10
+S21,Control,9.3,B11,Control,soil_organic_carbon,g kg^-1,Plot 11
+S22,Compost,11.7,B11,Compost,soil_organic_carbon,g kg^-1,Plot 11
+S23,Control,8.4,B12,Control,soil_organic_carbon,g kg^-1,Plot 12
+S24,Compost,10.5,B12,Compost,soil_organic_carbon,g kg^-1,Plot 12

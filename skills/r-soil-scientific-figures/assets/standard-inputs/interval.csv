@@ -1,0 +1,7 @@
+label,group,estimate,lower,upper,reference,unit,interval_type
+SOC,Soil,1.20,0.55,1.85,0,g kg^-1,95% CI
+Total N,Soil,0.42,0.10,0.74,0,g kg^-1,95% CI
+pH,Soil,-0.18,-0.43,0.07,0,pH unit,95% CI
+Microbial biomass,Microbiology,0.75,0.22,1.28,0,standardized effect,95% CI
+CO2 flux,Biogeochemistry,0.31,-0.05,0.67,0,standardized effect,95% CI
+Water retention,Physics,0.58,0.18,0.98,0,standardized effect,95% CI

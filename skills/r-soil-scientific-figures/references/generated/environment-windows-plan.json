@@ -1,0 +1,57 @@
+{
+  "host_system": "Darwin",
+  "target_system": "Windows",
+  "machine": "arm64",
+  "profiles": [
+    "core",
+    "publication"
+  ],
+  "rscript": null,
+  "r_install_source": "Windows Package Manager manifest RProject.R",
+  "r_install_command": [
+    "winget",
+    "install",
+    "--id",
+    "RProject.R",
+    "--exact",
+    "--accept-source-agreements",
+    "--accept-package-agreements"
+  ],
+  "official_r_pages": {
+    "macOS": "https://cran.r-project.org/bin/macosx/",
+    "Windows": "https://cran.r-project.org/bin/windows/base/"
+  },
+  "requested_cran_packages": [
+    "ggplot2",
+    "jsonlite",
+    "ragg",
+    "scales",
+    "systemfonts",
+    "sysfonts",
+    "showtext",
+    "svglite",
+    "colorspace",
+    "viridisLite",
+    "patchwork",
+    "dplyr",
+    "tidyr",
+    "broom"
+  ],
+  "requested_bioconductor_packages": [],
+  "actions": [
+    {
+      "dry_run": [
+        "winget",
+        "install",
+        "--id",
+        "RProject.R",
+        "--exact",
+        "--accept-source-agreements",
+        "--accept-package-agreements"
+      ]
+    }
+  ],
+  "status": "PLAN",
+  "runtime_certified": false,
+  "note": "Dry-run validates command and package planning only."
+}

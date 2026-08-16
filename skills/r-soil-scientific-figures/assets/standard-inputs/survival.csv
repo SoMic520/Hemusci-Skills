@@ -1,0 +1,13 @@
+subject_id,time,status,group,event_type
+S01,3,1,Control,Failure
+S02,5,0,Control,Censored
+S03,6,1,Control,Failure
+S04,8,1,Control,Failure
+S05,10,0,Control,Censored
+S06,12,1,Control,Failure
+S07,4,0,Compost,Censored
+S08,7,1,Compost,Failure
+S09,9,0,Compost,Censored
+S10,11,1,Compost,Failure
+S11,13,0,Compost,Censored
+S12,15,1,Compost,Failure

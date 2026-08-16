@@ -1,0 +1,30 @@
+primary_family	schema_id	renderer	coverage_scope
+distribution	categorical	distribution	family baseline plus named distribution variants
+comparison	categorical	comparison	family baseline plus bar, lollipop, dumbbell and paired variants
+effect-uncertainty	interval	interval	estimates and named uncertainty displays
+relationship	xy	relationship	scatter, curve, density and regression variants
+multivariate	ordination	ordination	plot-ready ordination scores; method fitting requires an explicit analysis contract
+temporal	time-series	temporal	ordered and repeated trajectories
+composition	composition	composition	stacked, normalized, pie and composition variants
+matrix	matrix	matrix	long-form matrix and heatmap variants
+flow	flow	flow	path-stage flow baseline
+hierarchy	hierarchy	hierarchy	nested bar/tree baseline
+set	set-membership	set-membership	membership matrix baseline
+network	network	network	node-edge baseline
+spatial	spatial-grid	spatial	coordinate grid baseline
+spatial-prediction	spatial-grid	spatial-prediction	prediction and uncertainty facets
+profile	profile	profile	soil profile and property-depth variants
+spatial-profile	spatial-grid	spatial-profile	space-depth raster baseline
+spatial-composition	spatial-grid	spatial-composition	component-by-space facets
+soil-physics	xy	soil-physics	measured points and fitted curve baseline
+ecology	ordination	ordination	ecological ordination baseline
+omics	omics	omics	volcano/MA/Manhattan result baseline
+hydrology	time-series	hydrology	hydrograph and cumulative variants
+spatial-temporal	spatial-grid	spatial-temporal	faceted time-space grids
+polar	categorical	polar	polar bar/radar baseline
+remote-sensing	spectral	spectral	spectral curve baseline
+image-volume	image	image-volume	slice-faceted intensity grid
+image	image	image	image-derived raster baseline
+model-diagnostic	diagnostic	diagnostic	observed-predicted/residual/calibration baseline
+model-interpretation	interval	interval	feature effect/importance interval baseline
+schematic	network	network	directed workflow/causal graph baseline

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "source_image": {
+    "path": "replace-with-reference-image",
+    "sha256": "filled-by-image_probe.py",
+    "copyright_status": "reference-only; do not redistribute without permission"
+  },
+  "semantic_identification": {
+    "chart_family": "replace-after-visual-review",
+    "named_chart": "replace-after-visual-review",
+    "confidence": "low|medium|high",
+    "evidence": []
+  },
+  "data_status": {
+    "source_data_provided": false,
+    "values": "synthetic|approximate-digitized|provided-exact",
+    "statistical_results_reconstructed": false,
+    "notes": "Never infer hidden observations, tests or model settings from pixels."
+  },
+  "encoding": {
+    "x": null,
+    "y": null,
+    "color": null,
+    "fill": null,
+    "size": null,
+    "shape": null,
+    "facet": null,
+    "statistical_layers": []
+  },
+  "layout": {
+    "target_width_mm": 89,
+    "target_height_mm": 72,
+    "panel_count": 1,
+    "internal_title": false,
+    "legend_position": "auto"
+  },
+  "typography": {
+    "mode": "auto",
+    "chinese": "Songti SC / SimSun",
+    "english": "Times New Roman",
+    "minimum_final_size_pt": 7.5
+  },
+  "qa": {
+    "semantic_review": "pending",
+    "render_audit": "pending",
+    "pixel_comparison": "pending",
+    "final_size_visual_review": "pending"
+  }
+}
