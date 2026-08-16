@@ -45,16 +45,18 @@
 - 页面支持 `prefers-reduced-motion`。
 - 桌面端和移动端浏览器控制台 error / warning 均为 0。
 
-## 上线后复核项
+## 正式环境复核
 
-- 正式域名首页应出现 `soil-all-writing`、`05 skills`、`29`、`13`、`228` 和 `162`。
-- 五个技能与六个智能体的安装命令应能独立切换。
-- `/skills/soil-journal-format-review/` 应继续显示 228 条期刊记录及原有筛选功能。
-- `/api/visits` 应由 Nginx 转发至正式统计服务，页脚显示累计访问和近 7 日趋势。
-- 线上文件校验值应与本次发布文件一致，并在覆盖前保存服务器备份。
+- 正式域名首页已显示 `soil-all-writing`、`05 skills`、`29`、`13`、`228` 和 `162`。
+- 公网浏览器识别到 5 个技能标签和 6 个智能体标签；切换至“土壤试验方法 + Claude Code”后，命令同步更新为 `soil-methods-consultant --agent claude-code`。
+- `/skills/soil-journal-format-review/` 保持 228 张期刊卡；证据 CSV 为 229 行，其中 1 行为表头。
+- `/api/visits` 正常返回累计访问、当日访问、当日访客、运行天数和近 7 日趋势，页脚状态为 `Live / Visitor pulse`。
+- 公网首页 SHA-256 为 `4e59b2b222da482872fd1e8fd653f18248c695a2454f66068d16c1e6500cb4ec`，与本地发布文件及服务器文件一致。
+- Nginx 配置检查通过；覆盖前版本已备份到服务器 `/var/backups/hemusci-skills/20260817-003133/`。
+- 正式域名浏览器控制台 error / warning 为 0。
 
 ## 结论
 
-本地静态检查、桌面端渲染、移动端渲染、安装命令联动和控制台检查均通过，未发现阻止发布的问题。
+本地静态检查、桌面端渲染、移动端渲染、安装命令联动、正式环境部署和公网复核均通过。
 
 final result: passed
