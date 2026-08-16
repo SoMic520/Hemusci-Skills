@@ -13,12 +13,16 @@ Hemusci Skills 静态站点源码，正式入口为 `https://hemusci.com/skills/
 
 - `index.html`：将根路径转向 `/skills/`。
 - `skills/index.html`：多技能中心主页、期刊覆盖摘要和四技能安装命令生成器。
+- `analytics/hemusci_analytics.py`：页脚访问概览的同源统计接口，使用 SQLite 保存每日聚合值和匿名访客摘要。
+- `analytics/backfill_nginx.py`：首次部署时从既有 Nginx 日志汇总历史访问；只写入每日聚合结果，不保存原始 IP。
+- `analytics/hemusci-analytics.service`：腾讯云正式环境中的 systemd 服务定义。
+- `analytics/nginx-location.conf`：将 `/api/visits` 转发到本机统计服务的 Nginx 片段。
 - `skills/soil-journal-format-review/index.html`：土壤学相关期刊数据库；228 本期刊均有研究方向、出版机构、语种、投稿链接和带版本日期的 CSCD / Scopus 收录信息。
 - `skills/soil-journal-format-review/journal-evidence.csv`：网页所用逐刊资料和数据库收录状态快照，便于后续更新。
 - `scripts/build_soil_journal_page.py`：从技能登记表、CSCD 官方接口和 Scopus 官方来源表重新生成独立资料库与证据快照。
 - `404.html`：静态站点错误页。
 - `design-qa.md`：桌面端、移动端和交互验收记录。
 
-站点不依赖构建工具或外部字体，也可迁移到 EdgeOne Makers 或对象存储 COS 静态网站。当前正式环境并非 EdgeOne 项目，而是 Ubuntu Nginx：`/skills/` 映射到服务器 `/var/www/hemusci-skills/skills/`，发布时原子替换 `index.html`。旧版备份保存在服务器 `/var/backups/hemusci-skills/`。
+站点不依赖构建工具或外部字体。当前正式环境为 Ubuntu Nginx：`/skills/` 映射到服务器 `/var/www/hemusci-skills/skills/`，页脚访问概览由仅监听 `127.0.0.1:8787` 的 Python 服务提供，Nginx 通过同源 `/api/visits` 转发。统计数据库不保存姓名、账号或原始 IP；同一匿名访客 30 分钟内重复刷新不会重复增加访问量。旧版备份保存在服务器 `/var/backups/hemusci-skills/`。
 
 部署前应至少复核：首页只显示紧凑期刊摘要、独立资料库期刊数为 228、CSV 与网页刊名集合一致、CSCD / Scopus 标签带版本日期、搜索和证据筛选正常、四个技能安装参数可切换、桌面/中间宽度/移动端无横向溢出、主标题无孤行、控制台无错误。部署时必须同步整个 `skills/` 目录，不能只替换主页。部署后应通过正式域名再次核对页面条目数和安装参数，不能只检查服务器文件。

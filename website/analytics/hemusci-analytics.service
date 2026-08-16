@@ -1,0 +1,27 @@
+[Unit]
+Description=Hemusci privacy-conscious visit analytics
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/hemusci-analytics
+Environment=PYTHONUNBUFFERED=1
+Environment=HEMUSCI_ANALYTICS_HOST=127.0.0.1
+Environment=HEMUSCI_ANALYTICS_PORT=8787
+Environment=HEMUSCI_ANALYTICS_DB=/var/lib/hemusci-analytics/visits.sqlite3
+Environment=HEMUSCI_ANALYTICS_SECRET=/var/lib/hemusci-analytics/secret
+Environment=HEMUSCI_ANALYTICS_START_DATE=2026-08-16
+ExecStart=/usr/bin/python3 /opt/hemusci-analytics/hemusci_analytics.py
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/hemusci-analytics
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+
+[Install]
+WantedBy=multi-user.target
