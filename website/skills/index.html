@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Hemusci专业智能体技能库：土壤三普报告与土壤学期刊排版审查，覆盖228本中外期刊，支持DOCX修订、Word批注、字体与LibreOffice验证。">
+  <meta name="description" content="Hemusci专业智能体技能库：土壤三普报告、土壤学期刊排版审查与土壤试验方法咨询，支持专业检索、可验证处理和可执行成果交付。">
   <meta name="theme-color" content="#0b5d4b">
   <title>Hemusci Skills｜专业智能体技能库</title>
   <style>
@@ -58,10 +58,11 @@
     .skill-list{display:grid;gap:24px}.skill{display:grid;grid-template-columns:.82fr 1.18fr;gap:2px;overflow:hidden;border:1px solid var(--line);border-radius:var(--radius);background:var(--line);box-shadow:var(--shadow);transition:transform .65s var(--ease),box-shadow .65s var(--ease)}
     .skill-main,.skill-side{background:rgba(255,255,255,.87);padding:44px}.skill-main{background:linear-gradient(150deg,#123f35,#0e765d);color:white;position:relative;overflow:hidden}.skill-main:after{content:"";position:absolute;width:280px;height:280px;right:-110px;bottom:-140px;border:52px solid rgba(255,255,255,.07);border-radius:50%}
     .skill.journal .skill-main{background:linear-gradient(150deg,#173e52,#0c755f)}
+    .skill.methods .skill-main{background:linear-gradient(150deg,#4b391d,#9b6a22)}
     .version{display:inline-block;padding:5px 10px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:rgba(255,255,255,.1);font-size:12px}.skill-main h3{font-size:32px;line-height:1.2;margin:30px 0 16px;letter-spacing:-.035em}.skill-main p{color:#d9ece4}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}.tag{padding:7px 10px;border-radius:9px;background:rgba(255,255,255,.1);font-size:12px}.skill-side h4{margin:0 0 18px;font-size:18px}.checks{display:grid;grid-template-columns:1fr 1fr;gap:13px}.check{display:flex;gap:10px;align-items:flex-start;padding:13px;border-radius:14px;background:#f3f8f5;color:#3d5d54;transition:transform .42s var(--ease),background .42s var(--ease)}.check i{font-style:normal;color:var(--green);font-weight:900}
     .skill-links{display:flex;flex-wrap:wrap;gap:16px;margin-top:20px}.catalog-link{display:inline-flex;color:#dff2d3;font-weight:760;text-decoration:none}.catalog-link:hover{text-decoration:underline}
     #journals{padding:30px 0 76px}.coverage-card{display:grid;grid-template-columns:1fr auto;gap:34px;align-items:center;padding:32px 36px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(135deg,rgba(255,255,255,.88),rgba(238,248,242,.82));box-shadow:0 16px 46px rgba(25,67,56,.08)}.coverage-copy h2{margin:6px 0 8px;font-size:30px;line-height:1.2;letter-spacing:-.035em}.coverage-copy p{max-width:720px;margin:0;color:var(--muted)}.coverage-counts{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.coverage-count{padding:6px 10px;border-radius:999px;background:rgba(15,107,86,.08);color:#42635a;font-size:12px;font-weight:720}.coverage-action{text-align:right}.coverage-button{display:inline-flex;align-items:center;gap:9px;padding:12px 16px;border-radius:13px;background:var(--green);color:white;text-decoration:none;font-weight:780;box-shadow:0 10px 25px rgba(15,107,86,.2);transition:transform .35s var(--ease),box-shadow .35s var(--ease)}.coverage-button:hover{transform:translateY(-2px);box-shadow:0 15px 32px rgba(15,107,86,.25)}
-    .install-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:28px}.install-controls{display:grid;gap:18px;align-content:start}.control-label{margin:0 0 8px;color:var(--muted);font-size:12px;font-weight:820;letter-spacing:.12em;text-transform:uppercase}.skill-picker{display:grid;grid-template-columns:1fr 1fr;gap:8px}.skill-option{padding:12px;border:1px solid var(--line);border-radius:13px;background:rgba(255,255,255,.76);color:var(--ink);font:inherit;font-weight:730;cursor:pointer;transition:all .35s var(--ease)}.skill-option:hover{background:white}.skill-option.active{color:white;background:var(--navy);border-color:var(--navy);box-shadow:0 9px 22px rgba(24,60,81,.17)}.agent-list{display:grid;gap:9px}.agent{display:flex;align-items:center;justify-content:space-between;width:100%;padding:15px 16px;border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.75);color:var(--ink);font:inherit;font-weight:740;cursor:pointer;transition:transform .44s var(--ease),background .44s var(--ease),border-color .44s var(--ease),box-shadow .44s var(--ease)}.agent:hover{transform:translateX(4px);background:#fff;border-color:rgba(15,107,86,.18)}.agent.active{color:white;border-color:var(--green);background:var(--green);box-shadow:0 12px 28px rgba(15,107,86,.2);transform:translateX(7px)}.agent small{opacity:.7;font-weight:600}
+    .install-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:28px}.install-controls{display:grid;gap:18px;align-content:start}.control-label{margin:0 0 8px;color:var(--muted);font-size:12px;font-weight:820;letter-spacing:.12em;text-transform:uppercase}.skill-picker{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.skill-option{padding:12px;border:1px solid var(--line);border-radius:13px;background:rgba(255,255,255,.76);color:var(--ink);font:inherit;font-weight:730;cursor:pointer;transition:all .35s var(--ease)}.skill-option:hover{background:white}.skill-option.active{color:white;background:var(--navy);border-color:var(--navy);box-shadow:0 9px 22px rgba(24,60,81,.17)}.agent-list{display:grid;gap:9px}.agent{display:flex;align-items:center;justify-content:space-between;width:100%;padding:15px 16px;border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.75);color:var(--ink);font:inherit;font-weight:740;cursor:pointer;transition:transform .44s var(--ease),background .44s var(--ease),border-color .44s var(--ease),box-shadow .44s var(--ease)}.agent:hover{transform:translateX(4px);background:#fff;border-color:rgba(15,107,86,.18)}.agent.active{color:white;border-color:var(--green);background:var(--green);box-shadow:0 12px 28px rgba(15,107,86,.2);transform:translateX(7px)}.agent small{opacity:.7;font-weight:600}
     .terminal{min-height:322px;border-radius:22px;background:#102b27;color:#d8eee6;box-shadow:var(--shadow);overflow:hidden;transition:transform .6s var(--ease),box-shadow .6s var(--ease)}.terminal-top{display:flex;align-items:center;justify-content:space-between;padding:14px 17px;border-bottom:1px solid rgba(255,255,255,.08);background:#0d2521}.dots{display:flex;gap:7px}.dots i{width:9px;height:9px;border-radius:50%;background:#df7f69}.dots i:nth-child(2){background:#e3bf61}.dots i:nth-child(3){background:#63b585}.copy{border:0;border-radius:9px;background:rgba(255,255,255,.08);color:#d8eee6;padding:7px 10px;cursor:pointer;transition:transform .35s var(--ease),background .35s var(--ease),color .35s var(--ease)}.copy:hover{transform:translateY(-1px);background:rgba(255,255,255,.13)}.copy.done{background:#dff3e8;color:#0c654f}.terminal pre{margin:0;padding:27px;white-space:pre-wrap;word-break:break-word;font:14px/1.9 ui-monospace,SFMono-Regular,Consolas,monospace;transition:opacity .22s ease,transform .3s var(--ease)}.terminal.switching pre{opacity:.18;transform:translateY(7px)}.prompt{color:#a9d45a}.comment{color:#73938a}
     .principles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.principle{min-height:230px;padding:27px;border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.74);transition:transform .55s var(--ease),box-shadow .55s var(--ease),border-color .55s var(--ease)}.principle:nth-child(2) .num,.principle:nth-child(3) .num{color:var(--green)}.num{font:800 12px/1 ui-monospace;color:var(--green);letter-spacing:.12em}.principle h3{margin:38px 0 10px;font-size:22px}.principle p{margin:0;color:var(--muted)}
     .future{display:grid;grid-template-columns:1.2fr .8fr;gap:16px}.future>div{padding:34px;border-radius:24px;border:1px solid var(--line);background:rgba(255,255,255,.76);transition:transform .55s var(--ease),box-shadow .55s var(--ease)}.future h3{font-size:25px;margin:0 0 12px}.future p{color:var(--muted);margin:0}.tree{font:13px/1.9 ui-monospace,Consolas,monospace;color:#d9eee6!important;background:#133b33!important;border-color:#133b33!important;white-space:pre-wrap}
@@ -98,7 +99,7 @@
       <div>
         <div class="eyebrow"><span class="pulse"></span> 专业知识，可执行交付</div>
         <h1>让智能体真正<span>按专业规范工作。</span></h1>
-        <p class="lead">Hemusci Skills 将领域知识、审查规则、自动化脚本和交付标准组织为可安装技能，现已覆盖土壤三普专业报告和228本中外期刊的投稿排版审查。</p>
+        <p class="lead">Hemusci Skills 将领域知识、审查规则、自动化脚本和交付标准组织为可安装技能，现已覆盖土壤三普专业报告、228本中外期刊投稿排版审查和土壤试验方法咨询。</p>
         <div class="hero-actions">
           <a class="button primary" href="#install">立即安装技能 <span>↓</span></a>
           <a class="button secondary" href="#catalog">查看技能目录</a>
@@ -116,7 +117,7 @@
     </header>
 
     <div class="stats" aria-label="技能库概览">
-      <div class="stat"><b>2</b><span>已发布专业技能</span></div>
+      <div class="stat"><b>3</b><span>已发布专业技能</span></div>
       <div class="stat"><b>228本</b><span>中外适用期刊</span></div>
       <div class="stat"><b>21项</b><span>自动回归校验</span></div>
       <div class="stat"><b>6+</b><span>智能体直接安装</span></div>
@@ -124,8 +125,8 @@
 
     <section id="catalog">
       <div class="section-head">
-        <div><div class="kicker">Skill Catalog</div><h2>两个土壤科学技能，独立可用</h2></div>
-        <p>两个技能分别服务于土壤调查报告和期刊投稿排版，可独立安装和使用。</p>
+        <div><div class="kicker">Skill Catalog</div><h2>三个土壤科学技能，独立可用</h2></div>
+        <p>三个技能分别服务于土壤调查报告、期刊投稿排版和试验方法咨询，可独立安装和使用。</p>
       </div>
       <div class="skill-list"><article class="skill">
         <div class="skill-main">
@@ -161,6 +162,24 @@
             <div class="check"><i>✓</i><span>LibreOffice逐页渲染</span></div><div class="check"><i>✓</i><span>文档结构与版面完整性</span></div>
           </div>
         </div>
+      </article>
+      <article class="skill methods">
+        <div class="skill-main">
+          <span class="version">STABLE · v1</span>
+          <h3>soil-methods-consultant</h3>
+          <p>以已校正本地语料为主、官方资源为辅，完成土壤试验方法选法、检索、计算、质控与实验方案交付。</p>
+          <div class="tags"><span class="tag">2 245页语料</span><span class="tag">公式与单位</span><span class="tag">方法层级</span><span class="tag">HTML / PDF</span><span class="tag">质量控制</span></div>
+          <div class="skill-links"><a class="catalog-link" href="https://github.com/SoMic520/Hemusci-Skills/blob/main/skills/soil-methods-consultant/SKILL.md" target="_blank" rel="noreferrer">查看技能说明 ↗</a></div>
+        </div>
+        <div class="skill-side">
+          <h4>土壤试验方法顾问</h4>
+          <div class="checks">
+            <div class="check"><i>✓</i><span>方法咨询、选法与比较</span></div><div class="check"><i>✓</i><span>校正语料精确检索</span></div>
+            <div class="check"><i>✓</i><span>试剂仪器与编号步骤</span></div><div class="check"><i>✓</i><span>公式、单位与上下标</span></div>
+            <div class="check"><i>✓</i><span>来源层级与PDF页码</span></div><div class="check"><i>✓</i><span>质控、干扰与排错</span></div>
+            <div class="check"><i>✓</i><span>官方标准辅助核验</span></div><div class="check"><i>✓</i><span>HTML与A4 PDF交付</span></div>
+          </div>
+        </div>
       </article></div>
     </section>
 
@@ -191,6 +210,7 @@
           <div><p class="control-label">选择技能</p><div class="skill-picker" role="tablist" aria-label="技能列表">
             <button class="skill-option active" data-skill="soil-journal-format-review" role="tab">期刊排版审查</button>
             <button class="skill-option" data-skill="soil-third-survey-report" role="tab">土壤三普报告</button>
+            <button class="skill-option" data-skill="soil-methods-consultant" role="tab">试验方法顾问</button>
           </div></div>
           <div><p class="control-label">选择智能体</p><div class="agent-list" role="tablist" aria-label="智能体列表">
           <button class="agent active" data-agent="codex" role="tab"><span>Codex</span><small>OpenAI</small></button>
@@ -226,14 +246,15 @@ gh auth login
 
     <section id="future">
       <div class="section-head">
-        <div><div class="kicker">Built to Grow</div><h2>两个技能已经就位</h2></div>
-        <p>现有两个技能分别维护，并采用相同的安装、更新和交付方式。</p>
+        <div><div class="kicker">Built to Grow</div><h2>三个技能已经就位</h2></div>
+        <p>现有三个技能分别维护，并采用相同的安装、更新和交付方式。</p>
       </div>
       <div class="future">
-        <div><h3>后续方向</h3><p>土壤方法咨询、自然资源调查、地学数据质检、图表生产、成果验收等技能可按同一规范持续加入。</p></div>
+        <div><h3>后续方向</h3><p>自然资源调查、地学数据质检、图表生产、成果验收等技能可按同一规范持续加入。</p></div>
         <div class="tree">skills/
 ├─ soil-third-survey-report/
 ├─ soil-journal-format-review/
+├─ soil-methods-consultant/
 ├─ next-science-skill/
 └─ ...</div>
       </div>
