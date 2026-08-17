@@ -195,4 +195,3 @@ Install-OfficialMsi -Installer $official
 $installed = Find-LibreOffice -Preferred $PreferredPath
 if (-not $installed) { throw 'LibreOffice installation completed but soffice.exe was not found.' }
 Write-Result -Status 'installed' -Office $installed -Method 'official-msi'
-

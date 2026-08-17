@@ -215,4 +215,3 @@ powershell -ExecutionPolicy Bypass -File scripts/ensure_libreoffice.ps1
 ## 输出要求
 
 交付说明简洁陈述：原稿来源、主要处理范围、保留项目、修订和批注状态、自动检查结果、逐页版面检查结果及最终文件。不要把内部脚本、临时文件名、推理过程或未解决的中间判断写入报告正文。
-
