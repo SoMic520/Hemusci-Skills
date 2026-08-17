@@ -124,6 +124,8 @@ C:\Program Files\LibreOffice\program\soffice.exe
 4. 关闭文档和实例，等待文件写入完成。
 5. 重新解包终版，与保存前版本比较正文、表格、标题、批注锚点和外部关系。
 
+若用户确认Word/WPS中的封面实际版式正确，而LibreOffice导出结果单独出现封面拆页或垂直漂移，不得用LibreOffice渲染结果反向修改正确的DOCX封面。应保留用户确认版本及其OOXML参数，把LibreOffice结果作为兼容性现象记录；继续用LibreOffice核对可打开性、对象完整性和封面以外页面。不得为“修好渲染”删除受控空段、缩放Logo或移动落款。
+
 LibreOffice可能重排批注编号或改变域数量；应比较语义内容和锚点，而不只比较内部ID。
 
 ## 9. 强制排版处理
@@ -201,4 +203,3 @@ python scripts/scan_report_text.py "终版.docx" --min-body-chars 300 --max-body
 - [ ] 表格、图件、目录、关系和批注往返保存无异常。
 - [ ] 已探测或自动安装最新稳定版LibreOffice，并使用用户指定或安装后验证的可执行文件保存。
 - [ ] 已逐页完成视觉检查。
-
