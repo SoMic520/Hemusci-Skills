@@ -23,7 +23,7 @@
 
 | 技能 | 状态 | 版本 | 适用范围 |
 |---|---:|---:|---|
-| [soil-third-survey-report](skills/soil-third-survey-report/) | 稳定 | v10 | 第三次全国土壤普查省、市、县级专业报告撰写、重构、逐段审查、DOCX修订与批注交付 |
+| [soil-third-survey-report](skills/soil-third-survey-report/) | 稳定 | v11 | 第三次全国土壤普查省、市、县级专业报告撰写、重构、逐段审查、DOCX修订、批注与跨软件版式复核 |
 | [soil-journal-format-review](skills/soil-journal-format-review/) | 稳定 | v3 | 土壤学及可发表土壤研究的综合期刊投稿排版、格式审查、DOCX修订与批注；不审查文章质量和内容 |
 | [soil-methods-consultant](skills/soil-methods-consultant/) | 稳定 | v1 | 基于本地已校正资料和官方标准，提供土壤试验方法咨询、方法选择、精确检索、计算及HTML/PDF实验方案 |
 | [r-soil-scientific-figures](skills/r-soil-scientific-figures/) | 稳定 | v1 | 土壤及相关学科科研图选型、统计分析、截图复刻、314图谱检索与R三格式最小可复现交付 |
@@ -43,6 +43,7 @@
 - 清除管理学套话、编辑提示、空泛升华和模板化AI写作痕迹。
 - 以用户指定原始底稿为基础，在DOCX中保留真实修订记录和批注。
 - 自动检测LibreOffice；缺失时从官方渠道准备最新稳定版并校验安装包。
+- 统一常规页边距、封面Logo嵌入、目录无首行缩进和图表说明段顺序；Word/WPS版式正确而LibreOffice单独漂移时，保留经确认的DOCX版式并记录兼容性现象。
 
 详细规则见 [技能入口](skills/soil-third-survey-report/SKILL.md)。
 
@@ -341,7 +342,8 @@ Hemusci-Skills/
 │     └─ scripts/
 ├─ dist/
 │  ├─ soil-third-survey-report/
-│  │  └─ soil-third-survey-report-skill-20260814-v10.zip
+│  │  ├─ soil-third-survey-report-skill-20260814-v10.zip
+│  │  └─ soil-third-survey-report-skill-20260817-v11.zip
 │  ├─ soil-journal-format-review/
 │  │  └─ soil-journal-format-review-skill-20260815-v3.zip
 │  ├─ soil-methods-consultant/
@@ -370,8 +372,8 @@ skills/<skill-name>/
 
 ## 📦 当前发布包
 
-- [soil-third-survey-report v10](dist/soil-third-survey-report/soil-third-survey-report-skill-20260814-v10.zip)
-- SHA-256：`B77FA05C69EF9DD17C849372A00ABD6BB4D38AA980C70C8E54582F7F9070FA62`
+- [soil-third-survey-report v11](dist/soil-third-survey-report/soil-third-survey-report-skill-20260817-v11.zip)
+- SHA-256：`48268A6FB57B36ECC8C83B7416BE0AA5FF4F4DE54F591ADD93843AA5023D298F`
 - [soil-journal-format-review v3](dist/soil-journal-format-review/soil-journal-format-review-skill-20260815-v3.zip)
 - SHA-256：`012AEB8A7BE32D96C1BD7EBFEACC3EDF0139DFCF842D8B8DFEEC4E76B4BA9069`
 - [soil-methods-consultant v1](dist/soil-methods-consultant/soil-methods-consultant-skill-20260816-v1.zip)

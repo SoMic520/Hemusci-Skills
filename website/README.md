@@ -6,9 +6,11 @@ Hemusci Skills 静态站点源码，正式入口为 `https://hemusci.com/skills/
 
 - `soil-all-writing` v1：面向土壤及相关自然科学的专业写作、翻译、术语修复、图表分析和正式文件交付；覆盖 29 类文体、13 个学科模块，并通过 162 项确定性回归测试。
 - `soil-journal-format-review` v3：覆盖 228 本中文、国际土壤学及可发表土壤研究的综合与交叉期刊；提供 DOCX 排版、格式审查、格式修订、真实 Word 批注、脚注/尾注、字体补齐和 LibreOffice 逐页验证。仅审查投稿形式，不审查论文质量或科学内容。
-- `soil-third-survey-report` v10：面向第三次全国土壤普查成果报告的结构诊断、术语规范、事实保真、修订与图表核查。
+- `soil-third-survey-report` v11：面向第三次全国土壤普查成果报告的结构诊断、术语规范、事实保真、DOCX修订批注、常规页边距与封面目录控制、图表说明段核查及Word/WPS—LibreOffice兼容性复核。
 - `soil-methods-consultant` v1：以六套本地已校正资料和19份完成复核的官方检测标准为依据，提供土壤试验方法咨询、选择、精确检索、计算、质控及HTML/PDF实验方案。
 - `r-soil-scientific-figures` v1：面向土壤及相关学科，根据研究设计和用户数据完成图形选择、统计分析、截图复刻及白底PDF/PNG/TIFF最小可复现交付。
+
+`soil-third-survey-report` 最新离线包：[v11](../dist/soil-third-survey-report/soil-third-survey-report-skill-20260817-v11.zip)，SHA-256：`48268A6FB57B36ECC8C83B7416BE0AA5FF4F4DE54F591ADD93843AA5023D298F`。
 
 ## 文件
 

@@ -90,6 +90,18 @@ SHA-256：`3576BF401BF4B19BF0A1E1D35D0A642DCE39549E52A19D5E004A8E9C608C35EE`
 
 ## soil-third-survey-report
 
+### v11 · 2026-08-17
+
+- 同步本机最新技能目录的16个有效源文件，并排除 `__pycache__` 与 `.pyc` 运行缓存。
+- 完善常规页边距、封面Logo嵌入、目录无首行缩进、图表说明段位置及横向大图例外规则。
+- 明确Word/WPS版式正确而LibreOffice单独出现封面拆页或垂直漂移时，不得反向破坏已确认的DOCX版式。
+- 增强DOCX修订、批注、跨软件保存与逐页视觉复核要求。
+- 技能结构校验通过，扫描器11项回归测试通过。
+
+发布包：`dist/soil-third-survey-report/soil-third-survey-report-skill-20260817-v11.zip`
+
+SHA-256：`48268A6FB57B36ECC8C83B7416BE0AA5FF4F4DE54F591ADD93843AA5023D298F`
+
 ### v10 · 2026-08-14
 
 - 建立省、市、县三级土壤三普专业报告统一工作框架。
