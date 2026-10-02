@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="460" viewBox="0 0 1600 460" role="img" aria-labelledby="title desc">
+<title id="title">Hemusci 专业智能体技能目录</title><desc id="desc">科研写作、R 科研绘图、期刊投稿格式、土壤试验方法与三普专业报告，五个独立技能仓库。</desc>
+<rect width="1600" height="460" fill="#f8f6ef"/><rect width="12" height="460" fill="#276650"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Microsoft YaHei,PingFang SC,sans-serif">
+<text x="80" y="90" font-size="24" fill="#276650" letter-spacing="5">HEMUSCI / AGENT SKILLS</text>
+<text x="80" y="194" font-size="67" font-weight="700" fill="#24342f">专业智能体技能目录</text>
+<text x="80" y="257" font-size="27" fill="#56615b">为科研写作、数据分析与专业报告找到合适的技能。</text>
+<path d="M80 303h1440" stroke="#c5ccc3"/>
+<rect x="80" y="342" width="8" height="38" fill="#276650"/><text x="104" y="370" font-size="25" fill="#276650">科研写作</text><rect x="370" y="342" width="8" height="38" fill="#925136"/><text x="394" y="370" font-size="25" fill="#925136">R 科研绘图</text><rect x="660" y="342" width="8" height="38" fill="#385f84"/><text x="684" y="370" font-size="25" fill="#385f84">投稿格式</text><rect x="950" y="342" width="8" height="38" fill="#81702b"/><text x="974" y="370" font-size="25" fill="#81702b">试验方法</text><rect x="1240" y="342" width="8" height="38" fill="#526c45"/><text x="1264" y="370" font-size="25" fill="#526c45">三普报告</text></g></svg>
